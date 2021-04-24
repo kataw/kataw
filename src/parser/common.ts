@@ -62,6 +62,8 @@ export const enum DestuctionKind {
   FOR
 }
 
+export type OnError = (source: DiagnosticSource, message: string, start: number, end: number) => void | undefined;
+
 /**
  * The parser interface.
  */
@@ -73,7 +75,7 @@ export interface ParserState {
   token: TokenSyntaxKind;
   tokenPos: number;
   end: number;
-  onError: (source: DiagnosticSource, message: string, start: number, end: number) => void | undefined;
+  onError: OnError;
   destructible: DestructibleKind;
   assignable: boolean;
   tokenValue: any;

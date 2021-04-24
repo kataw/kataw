@@ -155,6 +155,7 @@ import {
 import {
   ParserState,
   Context,
+  OnError,
   consumeOpt,
   consume,
   consumeOptToken,
@@ -185,7 +186,7 @@ export interface Options {
 /**
  * Create a new parser instance.
  */
-export function create(source: string, onError: any): ParserState {
+export function create(source: string, onError: OnError): ParserState {
   return {
     source,
     nodeFlags: NodeFlags.None,
@@ -202,9 +203,14 @@ export function create(source: string, onError: any): ParserState {
   };
 }
 
-export function parse(source: string, filename: string, isModule: boolean, options?: Options, errCb?: any): RootNode {
-  let context = Context.None;
-
+export function parse(
+  source: string,
+  filename: string,
+  context: Context,
+  isModule: boolean,
+  options?: Options,
+  onError?: OnError
+): RootNode {
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
     if (options.impliedStrict) context |= Context.Strict;
@@ -212,7 +218,7 @@ export function parse(source: string, filename: string, isModule: boolean, optio
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
 
-  const parser = create(source, errCb);
+  const parser = create(source, onError ? onError : function () {});
 
   nextToken(parser, context | Context.AllowRegExp);
 
@@ -841,7 +847,7 @@ export function parseExpressionOrLabelledStatement(
   allowFunction: boolean
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos } = parser;
-  const expr = parsePrimaryExpression(parser, context);
+  const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
   return token & SyntaxKind.IsIdentifier && parser.token === SyntaxKind.Colon
     ? parseLabelledStatement(parser, context, expr as Identifier, allowFunction, curPos)
     : parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, curPos), curPos);
@@ -1015,13 +1021,13 @@ function parseBinaryExpression(
 
 function parseLeftHandSideExpression(parser: ParserState, context: Context): ExpressionNode {
   const pos = parser.curPos;
-  const expression = parsePrimaryExpression(parser, context);
+  const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
   return parseMemberExpression(parser, context, expression, /* allowCalls */ true, pos);
 }
 
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
-  let expr = parsePrimaryExpression(parser, context);
+  let expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
   expr = parseMemberExpression(parser, context, expr, /* allowCalls */ true, curPos);
   expr = parseAssignmentExpression(parser, context, expr, curPos);
   return expr;
@@ -1494,13 +1500,13 @@ function parseIdentifierReference(parser: ParserState, context: Context): Identi
   return createDummyIdentifier(curPos, curPos) as any;
 }
 
-function parsePrimaryExpression(parser: ParserState, context: Context): any {
+function parsePrimaryExpression(parser: ParserState, context: Context, inNewExpression: boolean): any {
   if (parser.token & SyntaxKind.IsIdentifier) {
     if (parser.token === SyntaxKind.AsyncKeyword) {
       return parseFunctionExpression(parser, context);
     }
     if (context & Context.InAwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
-      return parseAwaitExpression(parser, context);
+      return parseAwaitExpression(parser, context, inNewExpression);
     }
     const pos = parser.curPos;
     const expression = parseIdentifierReference(parser, context);
@@ -1521,7 +1527,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
   switch (parser.token) {
     case SyntaxKind.Decrement:
     case SyntaxKind.Increment:
-      return parsePrefixUpdateExpression(parser, context);
+      return parsePrefixUpdateExpression(parser, context, inNewExpression);
     case SyntaxKind.DeleteKeyword:
     case SyntaxKind.Negate:
     case SyntaxKind.Complement:
@@ -1573,7 +1579,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
     case SyntaxKind.StringLiteral:
       return parseStringLiteral(parser, context);
     case SyntaxKind.ImportKeyword:
-      return parseImportMetaOrCall(parser, context);
+      return parseImportMetaOrCall(parser, context, inNewExpression);
   }
   return parseIdentifier(parser, context);
 }
@@ -1722,7 +1728,7 @@ function parsePropertyDefinition(
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)) {
     let left: any;
     if (parser.token & 12599296) {
-      left = parsePrimaryExpression(parser, context);
+      left = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
       const token = parser.token;
 
@@ -1882,7 +1888,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
         }
       }
 
-      const parameter = parseFormalParameter(parser, context);
+      let parameter = parseFormalParameter(parser, context);
 
       nodeFlags |= parameter.flags;
 
@@ -1919,7 +1925,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
 function paresSpreadPropertyArgument(parser: ParserState, context: Context, type: BindingType): SpreadProperty | any {
   const pos = parser.curPos;
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-    let argument = parsePrimaryExpression(parser, context);
+    let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
     // '... )' , '... ]' and '... }'
     if (parser.token === SyntaxKind.RightBrace) {
@@ -2069,7 +2075,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     return createNewTarget(parseIdentifier(parser, context) as Identifier, pos, parser.curPos);
   }
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
-  const expression = parsePrimaryExpression(parser, context);
+  const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ true);
   if (parser.token === SyntaxKind.QuestionMarkPeriod) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -2130,7 +2136,11 @@ function parsePostfixUpdateExpression(
   return createPostfixUpdateExpression(operandToken, expr, start, parser.curPos);
 }
 
-function parsePrefixUpdateExpression(parser: ParserState, context: Context): PrefixUpdateExpression {
+function parsePrefixUpdateExpression(
+  parser: ParserState,
+  context: Context,
+  inNewExpression: boolean
+): PrefixUpdateExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
   const operand = parseExpression(parser, context);
@@ -2141,6 +2151,14 @@ function parsePrefixUpdateExpression(parser: ParserState, context: Context): Pre
       diagnosticMap[
         DiagnosticCode.The_operand_of_an_increment_or_decrement_operator_must_be_a_variable_or_a_property_access
       ],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  if (inNewExpression) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Expression_expected],
       parser.curPos,
       parser.pos
     );
@@ -2280,7 +2298,7 @@ function parseArrayLiteralElement(
 
   // Simple cases: "[a]", "[a,]", "[a = b]", "[a.[b] ...]",  "[a.b ... ]" and "[a.(b) ...]"'
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    let left = parsePrimaryExpression(parser, context);
+    let left = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
     // Array with only one identifier followed by an assignment, '[a = ', are destructible unless this is a keyword.
     if (parser.token === SyntaxKind.Assign) {
@@ -2399,7 +2417,7 @@ function parseArraySpreadArgument(parser: ParserState, context: Context, type: B
   const pos = parser.curPos;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-    let argument = parsePrimaryExpression(parser, context);
+    let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
     // '... )' , '... ]' and '... }'
     if (parser.token === SyntaxKind.RightBracket) {
@@ -2522,7 +2540,13 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
       isType =
         context & Context.InConditionalExpr
-          ? isValidReturnType(parser, context, parsePrimaryExpression(parser, context), curPos, false)
+          ? isValidReturnType(
+              parser,
+              context,
+              parsePrimaryExpression(parser, context, /* inNewExpression */ false),
+              curPos,
+              false
+            )
           : true;
     }
 
@@ -2555,7 +2579,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
   let destructible = DestructibleKind.None;
 
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-    expression = parsePrimaryExpression(parser, context);
+    expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
     if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
@@ -2727,7 +2751,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
         SyntaxKind.IsFutureReserved)
     ) {
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-        expression = parsePrimaryExpression(parser, context);
+        expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
         state = Tristate.Unknown;
 
@@ -2919,7 +2943,7 @@ function isValidReturnType(parser: ParserState, context: Context, _expression1: 
     function () {
       nextToken(parser, context); // ':'
       const isIdentifier = parser.token & SyntaxKind.IsIdentifier;
-      let expression: any = parsePrimaryExpression(parser, context);
+      let expression: any = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
       if (
         isIdentifier &&
         expression.kind === SyntaxKind.ArrowFunction &&
@@ -4135,7 +4159,7 @@ function parseFunctionTypeOrParen(parser: ParserState, context: Context): any {
   }
   // A `,` or a `) =>` means thi
   if (isGroupedType) {
-    const type = parseUnionType(parser, context);
+    let type = parseUnionType(parser, context);
 
     if (
       !(
@@ -4622,7 +4646,7 @@ function parseObjectTypeProperty(
   context: Context,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
-): any {
+): ObjectTypeProperty {
   let key;
   if (parser.token & SyntaxKind.IsIdentifier) {
     const token = parser.token;
@@ -4843,19 +4867,26 @@ function parseYieldIdentifierOrExpression(parser: ParserState, context: Context)
     : expression;
 }
 
-export function parseAwaitExpression(parser: ParserState, context: Context): AwaitExpression {
+export function parseAwaitExpression(parser: ParserState, context: Context, inNewExpression: boolean): AwaitExpression {
   const pos = parser.curPos;
   const awaitKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
   const expression = parseLeftHandSideExpression(parser, context);
   if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate) {
     // Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses
-
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[
         DiagnosticCode
           .Unary_expressions_as_the_left_operand_of_an_exponentation_expression_must_be_disambiguated_with_parentheses
       ],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  if (inNewExpression) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Expression_expected],
       parser.curPos,
       parser.pos
     );
@@ -5346,7 +5377,15 @@ function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateI
   return createPrivateIdentifier(name, pos, parser.curPos);
 }
 
-export function parseImportMetaOrCall(parser: ParserState, context: Context): any {
+export function parseImportMetaOrCall(parser: ParserState, context: Context, inNewExpression: boolean): any {
+  if (inNewExpression) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Cannot_use_new_with_import],
+      parser.curPos,
+      parser.pos
+    );
+  }
   const importToken = consumeToken(parser, context, SyntaxKind.ImportKeyword);
   return parser.token === SyntaxKind.Period
     ? parseImportMeta(parser, context, importToken)
@@ -5456,11 +5495,16 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
       isType =
         context & Context.InConditionalExpr
-          ? isValidReturnType(parser, context, parsePrimaryExpression(parser, context), 1, true)
+          ? isValidReturnType(
+              parser,
+              context,
+              parsePrimaryExpression(parser, context, /* inNewExpression */ false),
+              1,
+              true
+            )
           : true;
     }
-    //console.log(parseTypeAnnotation(parser, context))
-    //console.log(parser)
+
     if (
       parser.token === SyntaxKind.Arrow ||
       /* Error recovery tweak. */
@@ -5510,7 +5554,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     const pos = parser.curPos;
 
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-      expression = parsePrimaryExpression(parser, context);
+      expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
@@ -5636,7 +5680,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       let argument: any;
 
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-        let argument = parsePrimaryExpression(parser, context);
+        let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
 
         // '... )' , '... ]' and '... }'
         if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
@@ -5813,7 +5857,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
 function parseOpaqueType(parser: ParserState, context: Context, declareKeyword: SyntaxToken<TokenSyntaxKind> | null) {
   const pos = parser.curPos;
-  const expr = parseIdentifier(parser, context);
+  let expr = parseIdentifier(parser, context);
   if (parser.token === SyntaxKind.TypeKeyword) {
     return parseTypeAsIdentifierOrTypeAlias(
       parser,

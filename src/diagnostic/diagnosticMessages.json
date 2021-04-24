@@ -105,6 +105,7 @@
   "Initializers are not allowed in fields with the `declare` modifier.": 106,
   "Explicit inexact syntax cannot appear inside an explicit exact object type": 107,
   "The this parameter cannot be optional": 108,
-  "Prohibit delete of private class elements": 109
+  "Prohibit delete of private class elements": 109,
+  "Cannot use new with import(...)": 110
 
 }

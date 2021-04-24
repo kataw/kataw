@@ -1,4 +1,5 @@
 import { parse, Options } from './parser/parser';
+import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/rootNode';
 export {
   isStatementNode,
@@ -33,10 +34,17 @@ export {
   isSemicolon
 } from './parser/common';
 
-export function parseScript(source: string, options?: Options, onError?: any): RootNode {
-  return parse(source, /* filename */ '__root__', /* isModule */ false, options, onError);
+export function parseScript(source: string, options?: Options, onError?: OnError): RootNode {
+  return parse(source, /* filename */ '__root__', Context.None, /* isModule */ false, options, onError);
 }
 
-export function parseModule(source: string, options?: Options, onError?: any): RootNode {
-  return parse(source, /* filename */ '__root__', /* isModule */ true, options, onError);
+export function parseModule(source: string, options?: Options, onError?: OnError): RootNode {
+  return parse(
+    source,
+    /* filename */ '__root__',
+    Context.Module | Context.Strict,
+    /* isModule */ true,
+    options,
+    onError
+  );
 }

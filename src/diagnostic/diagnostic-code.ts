@@ -108,7 +108,8 @@ export const enum DiagnosticCode {
   Initializers_are_not_allowed_in_fields_with_the_declare_modifier = 106,
   Explicit_inexact_syntax_cannot_appear_inside_an_explicit_exact_object_type = 107,
   The_this_parameter_cannot_be_optional = 108,
-  Prohibit_delete_of_private_class_elements = 109
+  Prohibit_delete_of_private_class_elements = 109,
+  Cannot_use_new_with_import = 110
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -218,5 +219,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [106]: 'Initializers are not allowed in fields with the `declare` modifier.',
   [107]: 'Explicit inexact syntax cannot appear inside an explicit exact object type',
   [108]: 'The this parameter cannot be optional',
-  [109]: 'Prohibit delete of private class elements'
+  [109]: 'Prohibit delete of private class elements',
+  [110]: 'Cannot use new with import(...)'
 };
