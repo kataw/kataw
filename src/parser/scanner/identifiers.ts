@@ -1,10 +1,10 @@
 import { ParserState } from '../common';
-import { NodeFlags, SyntaxKind } from './../ast/syntax-node';
+import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { isIdentifierPart, toHex, fromCodePoint } from './common';
-import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../diagnostic/diagnostic-source';
+import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
 
 // Intentionally negative
 const enum Escape {

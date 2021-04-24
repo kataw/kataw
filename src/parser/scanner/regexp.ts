@@ -1,9 +1,9 @@
 import { ParserState } from '../common';
-import { NodeFlags, SyntaxKind } from './../ast/syntax-node';
+import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { isIdentifierPart } from './common';
-import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../diagnostic/diagnostic-source';
+import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
 
 export function scanRegularExpression(parser: ParserState, source: string): SyntaxKind {
   let pos = parser.tokenPos + 1;
@@ -48,7 +48,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.ParagraphSeparator:
           parser.nodeFlags |= NodeFlags.Unterminated;
           parser.onError(
-            DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+            DiagnosticSource.Lexer,
+            diagnosticMap[DiagnosticCode.Unexpected_token],
+            parser.curPos,
+            parser.pos
           );
           break loop;
       }
@@ -59,9 +62,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
     // regex.
     if (pos >= parser.end) {
       parser.nodeFlags |= NodeFlags.Unterminated;
-      parser.onError(
-        DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
-      );
+      parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
       break loop;
     }
 
@@ -90,7 +91,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LowerG: {
           if (flag & RegExpFlags.Global) {
             parser.onError(
-              DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           flag = RegExpFlags.Global;
@@ -99,7 +103,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LowerI: {
           if (flag & RegExpFlags.IgnoreCase) {
             parser.onError(
-              DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           flag = RegExpFlags.IgnoreCase;
@@ -108,7 +115,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LowerM: {
           if (flag & RegExpFlags.Multiline) {
             parser.onError(
-              DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           flag = RegExpFlags.Multiline;
@@ -117,7 +127,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LowerS: {
           if (flag & RegExpFlags.DotAll) {
             parser.onError(
-              DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           flag = RegExpFlags.DotAll;
@@ -126,7 +139,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LowerU: {
           if (flag & RegExpFlags.Unicode) {
             parser.onError(
-              DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           flag = RegExpFlags.Unicode;
@@ -135,7 +151,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         case Char.LowerY: {
           if (flag & RegExpFlags.Sticky) {
             parser.onError(
-              DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           flag = RegExpFlags.Sticky;
@@ -143,7 +162,10 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         }
         default:
           parser.onError(
-            DiagnosticSource.Lexer,diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos
+            DiagnosticSource.Lexer,
+            diagnosticMap[DiagnosticCode.Unexpected_token],
+            parser.curPos,
+            parser.pos
           );
       }
 

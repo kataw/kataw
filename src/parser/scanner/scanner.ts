@@ -1,13 +1,13 @@
 import { ParserState, Context } from '../common';
 import { Char } from './char';
-import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
+import { SyntaxKind, NodeFlags } from '../../ast/syntax-node';
 import { scanNumber, parseFloatingPointLiteral } from './number';
 import { scanString } from './string';
 import { scanTemplate } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
-import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../diagnostic/diagnostic-source';
+import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
 import {
   scanIdentifier,
   descKeywordTable,

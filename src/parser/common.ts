@@ -1,8 +1,8 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from './ast/syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { nextToken } from './scanner/scanner';
-import { DiagnosticCode, diagnosticMap } from './diagnostic/diagnostic-code';
-import { DiagnosticSource } from './diagnostic/diagnostic-source';
-import { TokenSyntaxKind, createToken } from './ast/token';
+import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../diagnostic/diagnostic-source';
+import { TokenSyntaxKind, createToken } from '../ast/token';
 
 export const enum Context {
   None = 0,
@@ -11,13 +11,13 @@ export const enum Context {
   OptionsDisableWebCompat = 1 << 2,
   AllowRegExp = 1 << 6,
   DisallowIn = 1 << 7,
-  AllowReturn  = 1 << 8,
-  InGeneratorContext  = 1 << 9,
-  InAwaitContext  = 1 << 10,
+  AllowReturn = 1 << 8,
+  InGeneratorContext = 1 << 9,
+  InAwaitContext = 1 << 10,
 
-  InSwitch   = 1 << 11,
-  InIteration  = 1 << 12,
-  NewTarget  = 1 << 13,
+  InSwitch = 1 << 11,
+  InIteration = 1 << 12,
+  NewTarget = 1 << 13,
   Parameters = 1 << 14,
   SuperCall = 1 << 16,
   SuperProperty = 1 << 17,
@@ -26,7 +26,7 @@ export const enum Context {
   Module = 1 << 20,
   InConditionalExpr = 1 << 22,
   InTypes = 1 << 23,
-  InClassBody = 1 << 24,
+  InClassBody = 1 << 24
 }
 
 export const enum DestructibleKind {
@@ -35,7 +35,7 @@ export const enum DestructibleKind {
   NotDestructible = 1 << 1,
   Assignable = 1 << 2,
   Destructible = 1 << 3,
-  DisallowTrailing = 1 << 4,
+  DisallowTrailing = 1 << 4
 }
 
 export const enum BindingType {
@@ -54,8 +54,7 @@ export const enum BindingType {
   FunctionStatement = 1 << 11,
   Class = 1 << 12,
   Empty = 1 << 13,
-  Export = 1 << 14,
-
+  Export = 1 << 14
 }
 export const enum DestuctionKind {
   NORMAL,
@@ -66,7 +65,7 @@ export const enum DestuctionKind {
 /**
  * The parser interface.
  */
- export interface ParserState {
+export interface ParserState {
   source: string;
   nodeFlags: NodeFlags;
   curPos: number;
@@ -94,12 +93,7 @@ export function consume<T extends TokenSyntaxKind>(parser: ParserState, context:
     nextToken(parser, context);
     return true;
   }
-  parser.onError(
-    DiagnosticSource.Parser,
-    diagnosticMap[DiagnosticCode.Unexpected_token],
-    parser.curPos,
-    parser.pos,
-  );
+  parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   return false;
 }
 
@@ -107,8 +101,8 @@ export function consumeOptToken<T extends TokenSyntaxKind>(parser: ParserState, 
   if (parser.token === token) {
     const pos = parser.curPos;
     const kind = parser.token;
-  nextToken(parser, context);
-  return createToken(kind, pos, parser.curPos);
+    nextToken(parser, context);
+    return createToken(kind, pos, parser.curPos);
   }
   return null;
 }
@@ -117,27 +111,22 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
   const pos = parser.curPos;
   const kind = parser.token;
   if (parser.token === token) {
-  nextToken(parser, context);
-  return createToken(kind, pos, parser.curPos);
+    nextToken(parser, context);
+    return createToken(kind, pos, parser.curPos);
   }
-  parser.onError(
-    DiagnosticSource.Parser,
-    diagnosticMap[DiagnosticCode.Unexpected_token],
-    parser.curPos,
-    parser.pos,
-  );
+  parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   nextToken(parser, context);
   return null;
 }
 
 export function parseSemicolon(parser: ParserState, context: Context): boolean {
-   // Check for automatic semicolon insertion according to
+  // Check for automatic semicolon insertion according to
   // the rules given in ECMA-262, section 7.9, page 21.
   if (parser.token & SyntaxKind.Smi || parser.nodeFlags & NodeFlags.NewLine) {
     // consume the semicolon if it was explicitly provided.
     return consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
   }
-   return consume(parser, context, SyntaxKind.Semicolon);
+  return consume(parser, context, SyntaxKind.Semicolon);
 }
 
 export function speculate(parser: ParserState, context: Context, callback: any, rollback: boolean) {
@@ -157,7 +146,6 @@ export function speculate(parser: ParserState, context: Context, callback: any, 
   }
   return result;
 }
-
 
 export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
@@ -263,7 +251,6 @@ export function isInOrOf(node: SyntaxNode): boolean {
   return (node.flags & SyntaxKind.IsInOrOf) === SyntaxKind.IsInOrOf;
 }
 
-
 export function isKeyword(node: SyntaxNode): boolean {
   return (node.flags & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword;
 }
@@ -279,4 +266,3 @@ export function isStartOfType(node: SyntaxNode): boolean {
 export function isSemicolon(node: SyntaxNode): boolean {
   return (node.flags & SyntaxKind.IsSemicolon) === SyntaxKind.IsSemicolon;
 }
-

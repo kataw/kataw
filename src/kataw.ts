@@ -1,4 +1,4 @@
-import { parse, Options } from './parser';
+import { parse, Options } from './parser/parser';
 import { RootNode } from './ast/rootNode';
 export {
   isStatementNode,
@@ -31,7 +31,7 @@ export {
   isFutureReserved,
   isStartOfType,
   isSemicolon
-} from './common';
+} from './parser/common';
 
 export function parseScript(source: string, options?: Options, onError?: any): RootNode {
   return parse(source, /* filename */ '__root__', /* isModule */ false, options, onError);
