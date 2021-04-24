@@ -6,7 +6,7 @@ parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
 The CST node contains several properties, and the `flags` property contains the CST info.
 
-All important CST methods can be extracted from the CST node through public API methods.
+All important CST methods can be extracted from the CST node through public APO methods.
 
 
 ## Parsing
@@ -20,6 +20,16 @@ kataw.parseScript('foo', { allowTypes: false}, function (source, message, start,
 kataw.parseModule('foo', { allowTypes: false}, function (source, message, start, end) {})
 ```
 
+### Parser options
+
+
+| API        | Description |
+| ------------------- | ------------------------------------------------------------ |
+| `next`              |  Enables stage 3 support (ESNext)
+| `disableWebCompat`  |  Disable web compatibility
+| `impliedStrict`     | Enables implied strict mode
+| `allowTypes`        | Enables type checking
+
 
 ### Error handling
 
@@ -32,7 +42,6 @@ kataw.parseScript('¤', { allowTypes: false}, function (source, message, start, 
 ```
 
 The `source` argument is either `1` for lexer or  `2` for parser.
-
 
 
 ### Public API methods to extract info from CST nodes
