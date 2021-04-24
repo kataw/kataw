@@ -2,20 +2,10 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Security updates are applied only to the most recent releases.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+To securely report a vulnerability, please email to kataw@gmail.com.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Please **do not** file a GitHub issue for a vulnerability.
