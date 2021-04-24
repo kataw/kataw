@@ -157,7 +157,10 @@
     _parse: function() {
       var result;
       try {
-        result = kataw.parseScript(this.$input.val(), { jsx: false});
+        result = kataw.parseScript(this.$input.val(), { allowTypes: false}, function (a, b, c, d) {
+          throw b + '(' + c + ', ' + d + ')';
+
+        });
         result = customStringify(result, null, '    ');
       } catch (e) {
         result = e.message || e;
