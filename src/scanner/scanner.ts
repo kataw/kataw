@@ -6,8 +6,7 @@ import { scanString } from './string';
 import { scanTemplate } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
-import { DiagnosticCode } from '../diagnostic/diagnostic-code';
-import { createDiagnosticError } from '../diagnostic/diagnostic-error';
+import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic-source';
 import {
   scanIdentifier,
@@ -344,7 +343,10 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
           if (!commentClosed) {
             parser.onError(
-              createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
           break;
@@ -509,7 +511,10 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       case SyntaxKind.PrivateIdentifier:
         if (parser.pos !== 0 && source.charCodeAt(parser.pos + 1) === Char.Exclamation) {
           parser.onError(
-            createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
+            DiagnosticSource.Parser,
+            diagnosticMap[DiagnosticCode.Unexpected_token],
+            parser.curPos,
+            parser.pos
           );
           parser.pos++;
           return SyntaxKind.UnknownToken;
@@ -529,7 +534,10 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         } else {
           parser.tokenValue = '#';
           parser.onError(
-            createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
+            DiagnosticSource.Parser,
+            diagnosticMap[DiagnosticCode.Unexpected_token],
+            parser.curPos,
+            parser.pos
           );
         }
         return SyntaxKind.PrivateIdentifier;
@@ -551,7 +559,10 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           cp = 0x10000 + ((cp & 0x3ff) << 10) + (lead & 0x3ff);
           if ((lead & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
             parser.onError(
-              createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode.Unexpected_token],
+              parser.curPos,
+              parser.pos
             );
           }
 
@@ -561,7 +572,10 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         }
 
         parser.onError(
-          createDiagnosticError(DiagnosticSource.Parser, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Unexpected_token],
+          parser.curPos,
+          parser.pos
         );
 
         // Increment the index so we can stay on track and avoid infinity loops

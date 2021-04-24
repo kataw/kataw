@@ -40,7 +40,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
     diagnostics: md2diagnostics(content)
   };
 
-  const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, function() {});
+  const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, function () {});
   tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   // TODO: waiting the printer done!

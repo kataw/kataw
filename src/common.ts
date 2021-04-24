@@ -1,8 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from './ast/syntax-node';
 import { nextToken } from './scanner/scanner';
-import { DiagnosticType } from './diagnostic';
-import { DiagnosticCode } from './diagnostic/diagnostic-code';
-import { createDiagnosticError } from './diagnostic/diagnostic-error';
+import { DiagnosticCode, diagnosticMap } from './diagnostic/diagnostic-code';
 import { DiagnosticSource } from './diagnostic/diagnostic-source';
 import { TokenSyntaxKind, createToken } from './ast/token';
 
@@ -66,11 +64,6 @@ export const enum DestuctionKind {
 }
 
 /**
- * The type of the `onComment` option.
- */
- export type OnError = (error: DiagnosticType) => void | undefined;
-
-/**
  * The parser interface.
  */
  export interface ParserState {
@@ -81,7 +74,7 @@ export const enum DestuctionKind {
   token: TokenSyntaxKind;
   tokenPos: number;
   end: number;
-  onError: (error: DiagnosticType) => void | undefined;
+  onError: (source: DiagnosticSource, message: string, start: number, end: number) => void | undefined;
   destructible: DestructibleKind;
   assignable: boolean;
   tokenValue: any;
@@ -101,12 +94,12 @@ export function consume<T extends TokenSyntaxKind>(parser: ParserState, context:
     nextToken(parser, context);
     return true;
   }
-  parser.onError(createDiagnosticError(
+  parser.onError(
     DiagnosticSource.Parser,
-    DiagnosticCode.Unexpected_token,
+    diagnosticMap[DiagnosticCode.Unexpected_token],
     parser.curPos,
     parser.pos,
-  ));
+  );
   return false;
 }
 
@@ -127,12 +120,12 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
   nextToken(parser, context);
   return createToken(kind, pos, parser.curPos);
   }
-  parser.onError(createDiagnosticError(
+  parser.onError(
     DiagnosticSource.Parser,
-    DiagnosticCode.Unexpected_token,
+    diagnosticMap[DiagnosticCode.Unexpected_token],
     parser.curPos,
     parser.pos,
-  ));
+  );
   nextToken(parser, context);
   return null;
 }

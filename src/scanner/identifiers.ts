@@ -1,10 +1,9 @@
 import { ParserState } from '../common';
-import { NodeFlags, SyntaxKind, SyntaxNode } from './../ast/syntax-node';
+import { NodeFlags, SyntaxKind } from './../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { isIdentifierPart, toHex, fromCodePoint } from './common';
-import { DiagnosticCode } from '../diagnostic/diagnostic-code';
-import { createDiagnosticError } from '../diagnostic/diagnostic-error';
+import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic-source';
 
 // Intentionally negative
@@ -163,12 +162,10 @@ export function scanIdentifierParts(parser: ParserState, source: string): string
       cp = 0x10000 + ((cp & 0x3ff) << 10) + (trail & 0x3ff);
       if ((trail & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Parser,
-            DiagnosticCode.Invalid_astral_character,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Invalid_astral_character],
+          parser.curPos,
+          parser.pos
         );
       }
       parser.pos += 2;
@@ -185,12 +182,10 @@ export function scanIdentifierEscape(parser: ParserState): number {
 
   if (parser.source.charCodeAt(pos + 1) !== Char.LowerU) {
     parser.onError(
-      createDiagnosticError(
-        DiagnosticSource.Parser,
-        DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-        parser.curPos,
-        parser.pos
-      )
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+      parser.curPos,
+      parser.pos
     );
     return Escape.Failure;
   }
@@ -215,12 +210,10 @@ export function scanIdentifierEscape(parser: ParserState): number {
       code = (code << 4) | digit;
       if (code > Char.LastUnicodeChar) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Parser,
-            DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF],
+          parser.curPos,
+          parser.pos
         );
         return Escape.Failure;
       }
@@ -235,12 +228,10 @@ export function scanIdentifierEscape(parser: ParserState): number {
       // The 'pos' value can't be set if we have a missing '}', so that we can report an nice error message
       // when parsing out cases like 'x\u{0 foo' where '}'.
       parser.onError(
-        createDiagnosticError(
-          DiagnosticSource.Parser,
-          DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-          parser.curPos,
-          parser.pos
-        )
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+        parser.curPos,
+        parser.pos
       );
       return Escape.Failure;
     }
@@ -261,12 +252,10 @@ export function scanIdentifierEscape(parser: ParserState): number {
 
     if (digit < 0) {
       parser.onError(
-        createDiagnosticError(
-          DiagnosticSource.Parser,
-          DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-          parser.curPos,
-          parser.pos
-        )
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+        parser.curPos,
+        parser.pos
       );
       return Escape.Failure;
     }

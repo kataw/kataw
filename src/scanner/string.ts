@@ -3,8 +3,7 @@ import { NodeFlags, SyntaxKind } from './../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { toHex, fromCodePoint } from './common';
-import { DiagnosticCode } from '../diagnostic/diagnostic-code';
-import { createDiagnosticError } from '../diagnostic/diagnostic-error';
+import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic-source';
 
 const enum EscapeChars {
@@ -194,9 +193,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 
-  parser.onError(
-    createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
-  );
+  parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
 
   parser.tokenValue = result += source.substring(start, parser.pos);
   parser.tokenRaw = source.slice(parser.curPos, parser.pos);
@@ -212,9 +209,7 @@ export function scanEscapeSequence(
   const start = parser.pos;
   parser.pos++;
   if (parser.pos >= parser.end) {
-    parser.onError(
-      createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
-    );
+    parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
     return '';
   }
   let ch = source.charCodeAt(parser.pos);
@@ -250,12 +245,10 @@ export function scanEscapeSequence(
 
       if (AsciiCharTypes[source.charCodeAt(parser.pos + 1)] & AsciiCharFlags.Decimal && context & Context.Strict) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Lexer,
-            DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
+          parser.curPos,
+          parser.pos
         );
       }
       return '\0';
@@ -268,12 +261,10 @@ export function scanEscapeSequence(
     case EscapeChars.Seven: {
       if (context & Context.Strict) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Lexer,
-            DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
+          parser.curPos,
+          parser.pos
         );
       }
       return String.fromCharCode(ch);
@@ -283,12 +274,10 @@ export function scanEscapeSequence(
     case EscapeChars.Eigth:
     case EscapeChars.Nine:
       parser.onError(
-        createDiagnosticError(
-          DiagnosticSource.Lexer,
-          DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes,
-          parser.curPos,
-          parser.pos
-        )
+        DiagnosticSource.Lexer,
+        diagnosticMap[DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes],
+        parser.curPos,
+        parser.pos
       );
       return String.fromCharCode(ch);
 
@@ -341,12 +330,10 @@ export function scanEscapeSequence(
 
         if (code < 0) {
           parser.onError(
-            createDiagnosticError(
-              DiagnosticSource.Lexer,
-              DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-              parser.curPos,
-              parser.pos
-            )
+            DiagnosticSource.Lexer,
+            diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+            parser.curPos,
+            parser.pos
           );
           return '';
         }
@@ -359,12 +346,10 @@ export function scanEscapeSequence(
 
           if (digit < 0) {
             parser.onError(
-              createDiagnosticError(
-                DiagnosticSource.Lexer,
-                DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-                parser.curPos,
-                parser.pos
-              )
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+              parser.curPos,
+              parser.pos
             );
             return '';
           }
@@ -374,12 +359,10 @@ export function scanEscapeSequence(
           // reserved for abnormal conditions).
           if (code > Char.LastUnicodeChar) {
             parser.onError(
-              createDiagnosticError(
-                DiagnosticSource.Lexer,
-                DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF,
-                parser.curPos,
-                parser.pos
-              )
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF],
+              parser.curPos,
+              parser.pos
             );
             return '';
           }
@@ -402,12 +385,10 @@ export function scanEscapeSequence(
       let code = toHex(ch);
       if (code < 0) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Lexer,
-            DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+          parser.curPos,
+          parser.pos
         );
         return '';
       }
@@ -417,12 +398,10 @@ export function scanEscapeSequence(
         const digit = toHex(ch);
         if (digit < 0) {
           parser.onError(
-            createDiagnosticError(
-              DiagnosticSource.Lexer,
-              DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-              parser.curPos,
-              parser.pos
-            )
+            DiagnosticSource.Lexer,
+            diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+            parser.curPos,
+            parser.pos
           );
           return '';
         }
@@ -451,12 +430,10 @@ export function scanEscapeSequence(
 
       if (hi < 0) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Lexer,
-            DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+          parser.curPos,
+          parser.pos
         );
         return '';
       }
@@ -467,12 +444,10 @@ export function scanEscapeSequence(
 
       if (lo < 0) {
         parser.onError(
-          createDiagnosticError(
-            DiagnosticSource.Lexer,
-            DiagnosticCode.Invalid_hexadecimal_escape_sequence,
-            parser.curPos,
-            parser.pos
-          )
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+          parser.curPos,
+          parser.pos
         );
         return '';
       }

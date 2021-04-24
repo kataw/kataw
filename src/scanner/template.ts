@@ -2,8 +2,7 @@ import { ParserState, Context } from '../common';
 import { NodeFlags, SyntaxKind } from './../ast/syntax-node';
 import { Char } from './char';
 import { fromCodePoint } from './common';
-import { DiagnosticCode } from '../diagnostic/diagnostic-code';
-import { createDiagnosticError } from '../diagnostic/diagnostic-error';
+import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic-source';
 import { scanEscapeSequence } from './string';
 
@@ -56,9 +55,7 @@ export function scanTemplate(
     cp = parser.source.charCodeAt(parser.pos);
   }
 
-  parser.onError(
-    createDiagnosticError(DiagnosticSource.Lexer, DiagnosticCode.Unexpected_token, parser.curPos, parser.pos)
-  );
+  parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 
