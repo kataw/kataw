@@ -7,7 +7,7 @@ import { scanTemplate } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
 import {
   scanIdentifier,
   descKeywordTable,

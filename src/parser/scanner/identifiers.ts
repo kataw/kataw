@@ -4,7 +4,7 @@ import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { isIdentifierPart, toHex, fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
 
 // Intentionally negative
 const enum Escape {

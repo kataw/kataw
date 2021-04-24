@@ -71,7 +71,7 @@ Multiple API methods exist to get info from the CST nodes
 
 ## Location tracking
 
-Each CST node has a `start` and `end` property for where the AST node start. Kataw ignores whitespace, so the
+Each CST node has a `start` and `end` property for where the AST node start and end. Kataw ignores whitespace, so the
 location values are calculated before any whitespace has been skipped.
 
 ## Types

@@ -3,7 +3,7 @@ import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
 import { scanEscapeSequence } from './string';
 
 export function scanTemplate(

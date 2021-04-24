@@ -1,6 +1,4 @@
-import { DiagnosticKind } from './diagnostic-kind';
-import { DiagnosticSource } from './diagnostic-source';
-import { DiagnosticCode, diagnosticMap } from './diagnostic-code';
+import { DiagnosticCode } from './diagnostic-code';
 
 /**
  * The base type of all types which represent some kind of diagnostic.
@@ -14,18 +12,20 @@ export interface Diagnostic {
   end?: number;
 }
 
-export function createDiagnostic(
-  source: DiagnosticSource,
-  code: DiagnosticCode,
-  start: number,
-  end: number
-): Diagnostic {
-  return {
-    kind: DiagnosticKind.Error,
-    source,
-    code,
-    message: diagnosticMap[code],
-    start,
-    end
-  };
+/**
+ * Types of diagnostics which can be generated.
+ */
+export enum DiagnosticKind {
+  Message,
+  Warning,
+  Error,
+  Hint
+}
+
+/**
+ * Sources of diagnostic messages.
+ */
+export const enum DiagnosticSource {
+  Lexer = 0,
+  Parser = 1 << 1
 }

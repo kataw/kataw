@@ -3,7 +3,7 @@ import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { isIdentifierPart } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic-source';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
 
 export function scanRegularExpression(parser: ParserState, source: string): SyntaxKind {
   let pos = parser.tokenPos + 1;

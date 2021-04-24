@@ -141,7 +141,7 @@ import { createObjectTypeProperty, ObjectTypeProperty } from '../ast/types/objec
 import { createFunctionDeclaration, FunctionDeclaration } from '../ast/stmt/function-declaration';
 import { createDummyIdentifier, DummyIdentifier } from '../ast/internal/dummy-identifier';
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../diagnostic/diagnostic-source';
+import { DiagnosticSource } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import {
   createNamespaceExportDeclaration,

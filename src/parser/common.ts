@@ -1,7 +1,7 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { nextToken } from './scanner/scanner';
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../diagnostic/diagnostic-source';
+import { DiagnosticSource } from '../diagnostic/diagnostic';
 import { TokenSyntaxKind, createToken } from '../ast/token';
 
 export const enum Context {
