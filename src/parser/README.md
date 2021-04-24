@@ -1,6 +1,6 @@
 ## Kataw parser
 
-This files and folders contains the Kataw parser. It's developed for performance, and emits an ECMAScript friendly "hybrid" CST.
+This files and folders contains the Kataw parser. It's developed for performance, and emits an ECMAScript friendly CST.
 
 - The NodeFlags contains the CST info.
 
