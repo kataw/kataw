@@ -39,19 +39,17 @@ export async function file2Tob(filename: string): Promise<Tob> {
     printed: md2printed(content),
     diagnostics: md2diagnostics(content)
   };
-
-  tob.$cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions);
-  tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
-  // TODO: waiting the printer done!
-  tob.$diagnostics =
-    tob.$printed === '✖ Soon to be open sourced'
-      ? ''
-      : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
+  const diagnostics: any[] = [];
+  const cb = function (...args:any[]) { diagnostics.push(args) }
+  const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
+  tob.$cst = JSON.stringify(cst, null, 4);
+  tob.$printed = printSourceFile(tob.$cst, tob.printerOptions)
+  tob.$diagnostics = diagnostics2md(diagnostics)
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
 
-export function isMatchedTob(tob: Tob) {
+export function isMatchedTob(tob: Tob):boolean {
   return (
     deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics)
   );
@@ -137,7 +135,7 @@ function diagnostics2md(diagnostics: any) {
   let diagnosticString = '';
   if (diagnostics.length) {
     diagnostics.forEach(function (a: any) {
-      diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
+      diagnosticString += '✖ ' + a[1] + ' - start: ' + a[2] + ', end: ' + a[3];
       diagnosticString += '\n';
     });
   } else {
