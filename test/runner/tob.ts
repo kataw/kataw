@@ -118,7 +118,7 @@ ${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cs
 ### Printed
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
 ### Diagnostics
-${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics}${
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$diagnostics : tob.diagnostics}${
     Constants.JavascriptEnd
   }
 `;
