@@ -78,7 +78,7 @@ class A {static set 10(x){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 10,
                                 "rawText": "10",
                                 "flags": 768,

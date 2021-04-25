@@ -44,7 +44,7 @@ type C = { ...A&B };
             "opaqueType": null,
             "typeParameters": null,
             "type": {
-                "kind": 134217969,
+                "kind": 134234353,
                 "properties": [
                     {
                         "kind": 247,

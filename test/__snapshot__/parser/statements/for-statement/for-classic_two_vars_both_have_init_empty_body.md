@@ -47,7 +47,7 @@ for (var a=1, b=2;;);
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -71,7 +71,7 @@ for (var a=1, b=2;;);
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 2,
                             "rawText": "2",
                             "flags": 768,

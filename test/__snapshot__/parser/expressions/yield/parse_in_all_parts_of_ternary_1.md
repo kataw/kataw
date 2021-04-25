@@ -70,7 +70,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "delegate": false,
                                         "asteriskToken": null,
                                         "expression": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -86,7 +86,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "end": 25
                                 },
                                 "questionToken": {
-                                    "kind": 22,
+                                    "kind": 134217750,
                                     "flags": 768,
                                     "start": 25,
                                     "end": 27
@@ -102,7 +102,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 768,
@@ -130,7 +130,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 768,

@@ -103,7 +103,7 @@ function not_gen() { function *a(){yield 2e308} }}
                                                 "delegate": false,
                                                 "asteriskToken": null,
                                                 "expression": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": null,
                                                     "rawText": "2e308",
                                                     "flags": 768,

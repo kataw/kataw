@@ -145,7 +145,7 @@ function * gen() { function not_gen() { var [yield] = [42]; }}
                                                                 "kind": 270,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 134299649,
+                                                                        "kind": 201392130,
                                                                         "text": 42,
                                                                         "rawText": "42",
                                                                         "flags": 768,

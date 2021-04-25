@@ -31,7 +31,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 1
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 1,
                     "end": 3
@@ -215,7 +215,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 46
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 46,
                     "end": 48
@@ -257,7 +257,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "asyncToken": null,
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
@@ -300,7 +300,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "asyncToken": null,
                                 "returnType": null,
                                 "contents": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -355,7 +355,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 86
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 86,
                     "end": 88
@@ -420,7 +420,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "asyncToken": null,
                                                 "returnType": null,
                                                 "contents": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 0,
                                                     "rawText": "0",
                                                     "flags": 768,
@@ -488,7 +488,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 123
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 123,
                     "end": 125

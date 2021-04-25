@@ -55,7 +55,7 @@ type T = { [[foo]](): X }
             "opaqueType": null,
             "typeParameters": null,
             "type": {
-                "kind": 134217969,
+                "kind": 134234353,
                 "properties": [],
                 "indexers": [],
                 "callProperties": [],

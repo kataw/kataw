@@ -39,7 +39,7 @@
                         },
                         "autofix": 0,
                         "flags": 256,
-                        "start": 1,
+                        "start": 0,
                         "end": 7
                     },
                     "flags": 256,
@@ -53,7 +53,7 @@
                     "end": 11
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,

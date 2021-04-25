@@ -82,7 +82,7 @@ const map = {
                                                     "end": 23
                                                 },
                                                 "right": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 17,
                                                     "rawText": "17",
                                                     "flags": 768,

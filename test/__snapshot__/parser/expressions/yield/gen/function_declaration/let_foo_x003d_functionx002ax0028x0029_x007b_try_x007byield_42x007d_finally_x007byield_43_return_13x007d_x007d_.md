@@ -131,7 +131,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "delegate": false,
                                                                                 "asteriskToken": null,
                                                                                 "expression": {
-                                                                                    "kind": 134299649,
+                                                                                    "kind": 201392130,
                                                                                     "text": 42,
                                                                                     "rawText": "42",
                                                                                     "flags": 768,
@@ -181,7 +181,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "delegate": false,
                                                                                 "asteriskToken": null,
                                                                                 "expression": {
-                                                                                    "kind": 134299649,
+                                                                                    "kind": 201392130,
                                                                                     "text": 43,
                                                                                     "rawText": "43",
                                                                                     "flags": 768,
@@ -205,7 +205,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "end": 85
                                                                             },
                                                                             "expression": {
-                                                                                "kind": 134299649,
+                                                                                "kind": 201392130,
                                                                                 "text": 13,
                                                                                 "rawText": "13",
                                                                                 "flags": 768,

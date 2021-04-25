@@ -106,7 +106,7 @@ class x{ constructor(){} 9(){} }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 768,

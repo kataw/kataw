@@ -102,7 +102,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "end": 41
                                                 },
                                                 "questionToken": {
-                                                    "kind": 22,
+                                                    "kind": 134217750,
                                                     "flags": 768,
                                                     "start": 41,
                                                     "end": 43

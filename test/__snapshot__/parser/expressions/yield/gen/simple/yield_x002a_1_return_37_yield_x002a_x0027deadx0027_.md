@@ -38,7 +38,7 @@ yield * 1; return 37; yield * 'dead';
                     "end": 7
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,
@@ -62,7 +62,7 @@ yield * 1; return 37; yield * 'dead';
                 "end": 17
             },
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 37,
                 "rawText": "37",
                 "flags": 768,

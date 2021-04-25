@@ -89,7 +89,7 @@ function *P(){
                                 "expression": {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 4259887,
+                                        "kind": 138477615,
                                         "flags": 768,
                                         "start": 32,
                                         "end": 37

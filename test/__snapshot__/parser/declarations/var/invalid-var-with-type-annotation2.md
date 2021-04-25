@@ -50,7 +50,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -85,7 +85,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "end": 19
                                         },
                                         "value": {
-                                            "kind": 134217969,
+                                            "kind": 134234353,
                                             "properties": [
                                                 {
                                                     "kind": 193,
@@ -143,7 +143,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,

@@ -72,7 +72,7 @@ result = {...rest} = 69;
                         "end": 20
                     },
                     "right": {
-                        "kind": 134299649,
+                        "kind": 201392130,
                         "text": 69,
                         "rawText": "69",
                         "flags": 768,

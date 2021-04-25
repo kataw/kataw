@@ -79,7 +79,7 @@ yield /* comment */\n {yield: 42}
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 42,
                 "rawText": "42",
                 "flags": 768,

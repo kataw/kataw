@@ -53,7 +53,7 @@ var callCount = 0;
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 768,
@@ -75,7 +75,7 @@ var callCount = 0;
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 768,
@@ -186,7 +186,7 @@ var callCount = 0;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,

@@ -46,7 +46,7 @@ var {x = 10, y = 5, z = 1} = a;
                                             "end": 6
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 10,
                                             "rawText": "10",
                                             "flags": 768,
@@ -69,7 +69,7 @@ var {x = 10, y = 5, z = 1} = a;
                                             "end": 14
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 5,
                                             "rawText": "5",
                                             "flags": 768,
@@ -92,7 +92,7 @@ var {x = 10, y = 5, z = 1} = a;
                                             "end": 21
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,

@@ -78,7 +78,7 @@
                                     "end": 34
                                 },
                                 "questionToken": {
-                                    "kind": 22,
+                                    "kind": 134217750,
                                     "flags": 768,
                                     "start": 34,
                                     "end": 36

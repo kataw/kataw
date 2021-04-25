@@ -96,7 +96,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                     "left": {
                                                                         "kind": 198,
                                                                         "left": {
-                                                                            "kind": 134299649,
+                                                                            "kind": 201392130,
                                                                             "text": 5,
                                                                             "rawText": "5",
                                                                             "flags": 768,

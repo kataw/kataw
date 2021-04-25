@@ -192,7 +192,7 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 80
                             },
                             "returnType": {
-                                "kind": 4259887,
+                                "kind": 138477615,
                                 "flags": 768,
                                 "start": 84,
                                 "end": 89
@@ -756,7 +756,7 @@ type T27 = ArgumentType<never>;  // any
                                 "end": 515
                             },
                             "returnType": {
-                                "kind": 4259887,
+                                "kind": 138477615,
                                 "flags": 768,
                                 "start": 519,
                                 "end": 524
@@ -919,7 +919,7 @@ type T27 = ArgumentType<never>;  // any
                                             "end": 622
                                         },
                                         "optionalToken": {
-                                            "kind": 22,
+                                            "kind": 134217750,
                                             "flags": 768,
                                             "start": 622,
                                             "end": 623

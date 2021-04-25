@@ -146,7 +146,7 @@ var x: [number, string] = [123, "aladdin"];
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 123,
                                         "rawText": "123",
                                         "flags": 768,
@@ -345,7 +345,7 @@ var x: [number, string] = [123, "aladdin"];
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 123,
                                         "rawText": "123",
                                         "flags": 768,

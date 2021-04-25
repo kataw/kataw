@@ -55,7 +55,7 @@ type T = { [[foo]]?: X }
             "opaqueType": null,
             "typeParameters": null,
             "type": {
-                "kind": 134217969,
+                "kind": 134234353,
                 "properties": [],
                 "indexers": [],
                 "callProperties": [],
@@ -86,7 +86,7 @@ type T = { [[foo]]?: X }
                             "end": 22
                         },
                         "optionalToken": {
-                            "kind": 22,
+                            "kind": 134217750,
                             "flags": 768,
                             "start": 18,
                             "end": 19

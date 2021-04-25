@@ -13,7 +13,7 @@ export function createNumericLiteral(
   end: number
 ): NumericLiteral {
   return {
-    kind: SyntaxKind.Identifier,
+    kind: SyntaxKind.NumericLiteral,
     text,
     rawText,
     flags,

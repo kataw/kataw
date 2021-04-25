@@ -124,7 +124,7 @@ var await; var f = (async function() { await 5; });
                                                         "end": 44
                                                     },
                                                     "expression": {
-                                                        "kind": 134299649,
+                                                        "kind": 201392130,
                                                         "text": 5,
                                                         "rawText": "5",
                                                         "flags": 768,

@@ -30,7 +30,7 @@ new 0x2.__proto__.constructor
                             "end": 3
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 2,
                             "rawText": "0x2",
                             "flags": 16777984,

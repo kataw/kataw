@@ -977,7 +977,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -1019,7 +1019,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 5,
                 "rawText": "5",
                 "flags": 768,

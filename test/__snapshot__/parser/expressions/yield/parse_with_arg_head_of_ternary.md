@@ -58,7 +58,7 @@ function *f() { 1 ? yield 2 : 3; }
                             "expression": {
                                 "kind": 197,
                                 "shortCircuit": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 768,
@@ -66,7 +66,7 @@ function *f() { 1 ? yield 2 : 3; }
                                     "end": 17
                                 },
                                 "questionToken": {
-                                    "kind": 22,
+                                    "kind": 134217750,
                                     "flags": 768,
                                     "start": 17,
                                     "end": 19
@@ -82,7 +82,7 @@ function *f() { 1 ? yield 2 : 3; }
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 768,
@@ -100,7 +100,7 @@ function *f() { 1 ? yield 2 : 3; }
                                     "end": 29
                                 },
                                 "alternate": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 3,
                                     "rawText": "3",
                                     "flags": 768,

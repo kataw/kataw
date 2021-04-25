@@ -78,7 +78,7 @@ x({[a]:b, [15]:d}=obj);
                                             "right": {
                                                 "kind": 194,
                                                 "expression": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 15,
                                                     "rawText": "15",
                                                     "flags": 768,

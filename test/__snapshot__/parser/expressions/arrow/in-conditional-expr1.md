@@ -23,7 +23,7 @@
                     {
                         "kind": 197,
                         "shortCircuit": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -31,13 +31,13 @@
                             "end": 1
                         },
                         "questionToken": {
-                            "kind": 22,
+                            "kind": 134217750,
                             "flags": 768,
                             "start": 1,
                             "end": 3
                         },
                         "consequent": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -93,7 +93,7 @@
                         "end": 15
                     },
                     {
-                        "kind": 134299649,
+                        "kind": 201392130,
                         "text": 17,
                         "rawText": "17",
                         "flags": 768,
@@ -101,7 +101,7 @@
                         "end": 19
                     },
                     {
-                        "kind": 134299649,
+                        "kind": 201392130,
                         "text": 42,
                         "rawText": "42",
                         "flags": 768,

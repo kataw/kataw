@@ -81,7 +81,7 @@ class A {async set 11(x){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 11,
                                 "rawText": "11",
                                 "flags": 768,

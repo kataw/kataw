@@ -37,7 +37,7 @@ a ? b : (): string => {}
                     "end": 2
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 2,
                     "end": 4
@@ -126,7 +126,7 @@ a ? b : (): string => {}
                     "end": 31
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 31,
                     "end": 33
@@ -232,7 +232,7 @@ a ? b : (): string => {}
                     "end": 66
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 66,
                     "end": 68
@@ -417,7 +417,7 @@ a ? b : (): string => {}
                     "end": 129
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 129,
                     "end": 131

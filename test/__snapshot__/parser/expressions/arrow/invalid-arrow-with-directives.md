@@ -400,7 +400,7 @@
                             "end": 149
                         },
                         "right": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -560,7 +560,7 @@
                                         "end": 214
                                     },
                                     "right": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -896,7 +896,7 @@
                                         "end": 346
                                     },
                                     "right": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -1455,7 +1455,7 @@
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 768,
@@ -1688,7 +1688,7 @@
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
                                                                 "flags": 768,
@@ -2226,7 +2226,7 @@
                                                                 "end": 837
                                                             },
                                                             "right": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
                                                                 "flags": 768,
@@ -2443,7 +2443,7 @@
                                         "end": 921
                                     },
                                     "right": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
@@ -2669,7 +2669,7 @@
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
                                                                 "flags": 768,

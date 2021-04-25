@@ -28,7 +28,7 @@
                 "left": {
                     "kind": 130,
                     "member": {
-                        "kind": 134299649,
+                        "kind": 201392130,
                         "text": 6,
                         "rawText": "6",
                         "flags": 768,
@@ -83,7 +83,7 @@
                     "end": 11
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 3,
                     "rawText": "3",
                     "flags": 768,

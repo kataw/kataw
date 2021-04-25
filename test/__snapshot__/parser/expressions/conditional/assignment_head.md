@@ -44,7 +44,7 @@ a=b?c:d
                         "end": 3
                     },
                     "questionToken": {
-                        "kind": 22,
+                        "kind": 134217750,
                         "flags": 768,
                         "start": 3,
                         "end": 4

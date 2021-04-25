@@ -30,7 +30,7 @@ typeof x;
                     "end": 1
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 1,
                     "end": 3
@@ -60,7 +60,7 @@ typeof x;
                         "end": 9
                     },
                     "questionToken": {
-                        "kind": 22,
+                        "kind": 134217750,
                         "flags": 768,
                         "start": 9,
                         "end": 11

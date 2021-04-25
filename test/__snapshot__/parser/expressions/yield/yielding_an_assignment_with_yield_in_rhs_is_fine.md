@@ -111,7 +111,7 @@ function* g(x) { yield x = yield 3; }
                                         "delegate": false,
                                         "asteriskToken": null,
                                         "expression": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 768,

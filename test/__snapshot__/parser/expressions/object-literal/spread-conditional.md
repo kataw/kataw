@@ -38,7 +38,7 @@
                                         "end": 7
                                     },
                                     "questionToken": {
-                                        "kind": 22,
+                                        "kind": 134217750,
                                         "flags": 768,
                                         "start": 7,
                                         "end": 9
@@ -125,7 +125,7 @@
                                                 "end": 29
                                             },
                                             "questionToken": {
-                                                "kind": 22,
+                                                "kind": 134217750,
                                                 "flags": 768,
                                                 "start": 29,
                                                 "end": 31

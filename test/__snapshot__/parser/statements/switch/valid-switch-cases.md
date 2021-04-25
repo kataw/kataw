@@ -97,7 +97,7 @@ switch (answer) { case 0: let a; };
                             "end": 17
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 194,
                             "rawText": "194",
                             "flags": 768,
@@ -136,7 +136,7 @@ switch (answer) { case 0: let a; };
                                                 {
                                                     "kind": 120,
                                                     "expression": {
-                                                        "kind": 134299649,
+                                                        "kind": 201392130,
                                                         "text": 1,
                                                         "rawText": "1",
                                                         "flags": 768,
@@ -178,7 +178,7 @@ switch (answer) { case 0: let a; };
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 768,
@@ -543,7 +543,7 @@ switch (answer) { case 0: let a; };
                             "end": 173
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 42,
                             "rawText": "42",
                             "flags": 768,
@@ -667,7 +667,7 @@ switch (answer) { case 0: let a; };
                             "end": 230
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 42,
                             "rawText": "42",
                             "flags": 768,
@@ -699,7 +699,7 @@ switch (answer) { case 0: let a; };
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 768,
@@ -2324,13 +2324,13 @@ switch (answer) { case 0: let a; };
                                         "end": 873
                                     },
                                     "questionToken": {
-                                        "kind": 22,
+                                        "kind": 134217750,
                                         "flags": 768,
                                         "start": 873,
                                         "end": 875
                                     },
                                     "consequent": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -2454,13 +2454,13 @@ switch (answer) { case 0: let a; };
                                         "end": 916
                                     },
                                     "questionToken": {
-                                        "kind": 22,
+                                        "kind": 134217750,
                                         "flags": 768,
                                         "start": 916,
                                         "end": 918
                                     },
                                     "consequent": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -2550,7 +2550,7 @@ switch (answer) { case 0: let a; };
                 "end": 941
             },
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
@@ -2569,7 +2569,7 @@ switch (answer) { case 0: let a; };
                             "end": 952
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -2766,13 +2766,13 @@ switch (answer) { case 0: let a; };
                                         "end": 1035
                                     },
                                     "questionToken": {
-                                        "kind": 22,
+                                        "kind": 134217750,
                                         "flags": 768,
                                         "start": 1035,
                                         "end": 1037
                                     },
                                     "consequent": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -3561,7 +3561,7 @@ switch (answer) { case 0: let a; };
                 "end": 1287
             },
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
@@ -3580,7 +3580,7 @@ switch (answer) { case 0: let a; };
                             "end": 1298
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -3701,7 +3701,7 @@ switch (answer) { case 0: let a; };
                 "end": 1333
             },
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
@@ -3720,7 +3720,7 @@ switch (answer) { case 0: let a; };
                             "end": 1344
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4098,7 +4098,7 @@ switch (answer) { case 0: let a; };
                             "end": 1489
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4252,7 +4252,7 @@ switch (answer) { case 0: let a; };
                             "end": 1566
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4420,7 +4420,7 @@ switch (answer) { case 0: let a; };
                             "end": 1639
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4588,7 +4588,7 @@ switch (answer) { case 0: let a; };
                             "end": 1711
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4722,7 +4722,7 @@ switch (answer) { case 0: let a; };
                             "end": 1776
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4884,7 +4884,7 @@ switch (answer) { case 0: let a; };
                             "end": 1848
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -4984,7 +4984,7 @@ switch (answer) { case 0: let a; };
                             "end": 1889
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -5164,7 +5164,7 @@ switch (answer) { case 0: let a; };
                             "end": 1953
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,

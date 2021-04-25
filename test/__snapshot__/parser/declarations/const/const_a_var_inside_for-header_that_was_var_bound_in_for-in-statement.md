@@ -105,7 +105,7 @@ for (const x in obj) { var x = 13 }
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 13,
                                             "rawText": "13",
                                             "flags": 768,

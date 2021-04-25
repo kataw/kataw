@@ -83,7 +83,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             {
                                 "kind": 219,
                                 "left": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 768,

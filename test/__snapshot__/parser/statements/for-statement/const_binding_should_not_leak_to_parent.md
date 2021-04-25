@@ -78,7 +78,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 23,
                                             "rawText": "23",
                                             "flags": 768,
@@ -135,7 +135,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "end": 34
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,
@@ -225,7 +225,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 23,
                                             "rawText": "23",
                                             "flags": 768,
@@ -282,7 +282,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "end": 78
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,

@@ -65,7 +65,7 @@ const f = (...x?) => {}
                                         "end": 15
                                     },
                                     "optionalToken": {
-                                        "kind": 22,
+                                        "kind": 134217750,
                                         "flags": 768,
                                         "start": 15,
                                         "end": 16

@@ -69,7 +69,7 @@ function foo(): {} {}
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 134217969,
+                    "kind": 134234353,
                     "properties": [],
                     "indexers": [],
                     "callProperties": [],

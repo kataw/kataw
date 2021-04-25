@@ -49,7 +49,7 @@ var a: { id<T>(x: T): T; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,

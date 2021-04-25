@@ -70,7 +70,7 @@ const fn = async (a?: any): Promise<void> => {};
                                             "end": 19
                                         },
                                         "questionToken": {
-                                            "kind": 22,
+                                            "kind": 134217750,
                                             "flags": 768,
                                             "start": 19,
                                             "end": 20
@@ -147,7 +147,7 @@ const fn = async (a?: any): Promise<void> => {};
                     "right": {
                         "kind": 126,
                         "operandToken": {
-                            "kind": 4259887,
+                            "kind": 138477615,
                             "flags": 768,
                             "start": 36,
                             "end": 40

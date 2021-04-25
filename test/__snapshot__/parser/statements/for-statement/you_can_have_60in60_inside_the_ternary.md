@@ -52,7 +52,7 @@ for (true ? a in b : {}; false; ) ;
                     "end": 9
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 9,
                     "end": 11

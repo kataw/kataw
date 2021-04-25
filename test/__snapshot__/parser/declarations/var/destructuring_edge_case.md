@@ -48,7 +48,7 @@ var {[2]: y} = {2:3}
                                         "key": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 768,
@@ -101,7 +101,7 @@ var {[2]: y} = {2:3}
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 768,
@@ -109,7 +109,7 @@ var {[2]: y} = {2:3}
                                             "end": 19
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 768,

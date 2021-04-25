@@ -70,7 +70,7 @@ function g(a:number=1, e:number=1) {}
                             "end": 19
                         },
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,
@@ -106,7 +106,7 @@ function g(a:number=1, e:number=1) {}
                             "end": 31
                         },
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,

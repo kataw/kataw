@@ -39,7 +39,7 @@ null = 42;
                     "end": 6
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 42,
                     "rawText": "42",
                     "flags": 768,

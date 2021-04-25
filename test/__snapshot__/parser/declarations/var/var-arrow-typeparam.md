@@ -49,7 +49,7 @@ var a: {param1?: number; param2: string; param3: string;}
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -68,7 +68,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "end": 23
                                         },
                                         "optionalToken": {
-                                            "kind": 22,
+                                            "kind": 134217750,
                                             "flags": 768,
                                             "start": 14,
                                             "end": 15

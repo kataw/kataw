@@ -1564,6 +1564,9 @@ function parsePrimaryExpression(parser: ParserState, context: Context, inNewExpr
     if (parser.token === SyntaxKind.AsyncKeyword) {
       return parseFunctionExpression(parser, context);
     }
+    if (parser.token === SyntaxKind.ThisKeyword) {
+      return parseThisExpression(parser, context);
+    }
     if (context & Context.InAwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
       return parseAwaitExpression(parser, context, inNewExpression);
     }
@@ -1603,8 +1606,6 @@ function parsePrimaryExpression(parser: ParserState, context: Context, inNewExpr
       return parseFunctionExpression(parser, context);
     case SyntaxKind.ClassKeyword:
       return parseClassExpression(parser, context);
-    case SyntaxKind.ThisKeyword:
-      return parseThisExpression(parser, context);
     case SyntaxKind.NullKeyword:
       return parseNullLiteral(parser, context);
     case SyntaxKind.TrueKeyword:
@@ -2243,7 +2244,6 @@ function parsePrefixUpdateExpression(
 function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
-
   const expression = parseLeftHandSideExpression(parser, context);
 
   if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate) {
@@ -2257,6 +2257,7 @@ function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpre
       parser.pos
     );
   }
+
   if (context & Context.Strict && operandToken.kind === SyntaxKind.DeleteKeyword) {
     if (expression.kind === SyntaxKind.Identifier) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its

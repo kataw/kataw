@@ -83,7 +83,7 @@ function * gen() { (yield) ? yield : yield }
                                     "end": 26
                                 },
                                 "questionToken": {
-                                    "kind": 22,
+                                    "kind": 134217750,
                                     "flags": 768,
                                     "start": 26,
                                     "end": 28

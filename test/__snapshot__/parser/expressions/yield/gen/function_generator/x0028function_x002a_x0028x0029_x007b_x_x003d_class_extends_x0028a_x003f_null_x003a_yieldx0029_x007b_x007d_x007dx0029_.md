@@ -174,7 +174,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                             "end": 77
                                                                                         },
                                                                                         "questionToken": {
-                                                                                            "kind": 22,
+                                                                                            "kind": 134217750,
                                                                                             "flags": 768,
                                                                                             "start": 77,
                                                                                             "end": 79

@@ -30,12 +30,12 @@ class this {}
                 "end": 5
             },
             "name": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
+                "kind": 134299649,
+                "text": "this",
+                "rawText": "this",
+                "flags": 768,
                 "start": 5,
-                "end": 5
+                "end": 10
             },
             "typeParameters": null,
             "classHeritage": null,
@@ -43,37 +43,11 @@ class this {}
                 "kind": 277,
                 "elements": [],
                 "flags": 256,
-                "start": 0,
-                "end": 0
+                "start": 12,
+                "end": 13
             },
             "flags": 128,
             "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 135,
-                "flags": 768,
-                "start": 5,
-                "end": 10
-            },
-            "flags": 128,
-            "start": 5,
-            "end": 10
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 12,
-                "end": 12
-            },
-            "flags": 128,
-            "start": 10,
             "end": 13
         }
     ],
@@ -95,9 +69,6 @@ class this {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 5, end: 10
-@{x2716}@ Unexpected token. - start: 5, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 12
-
+@{x2714}@ No errors
 ```
 

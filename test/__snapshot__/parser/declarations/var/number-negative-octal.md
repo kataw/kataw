@@ -92,7 +92,7 @@ var a: -0x7B
                     "end": 8
                 },
                 "expression": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 123,
                     "rawText": "0x7B",
                     "flags": 16777984,

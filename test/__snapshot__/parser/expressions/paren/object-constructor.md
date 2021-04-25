@@ -22,89 +22,32 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [
-                            {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "constructor",
-                                    "rawText": "constructor",
-                                    "flags": 768,
-                                    "start": 2,
-                                    "end": 18
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 256,
-                                    "start": 19,
-                                    "end": 23
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 256,
-                                        "start": 19,
-                                        "end": 19
-                                    },
-                                    "flags": 256,
-                                    "start": 19,
-                                    "end": 19
-                                },
-                                "flags": 256,
-                                "start": 18,
-                                "end": 19
-                            },
-                            {
-                                "kind": 219,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "number",
-                                    "rawText": "number",
-                                    "flags": 768,
-                                    "start": 24,
-                                    "end": 31
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "this",
-                                    "rawText": "this",
-                                    "flags": 768,
-                                    "start": 19,
-                                    "end": 23
-                                },
-                                "flags": 256,
-                                "start": 19,
-                                "end": 31
-                            }
-                        ],
-                        "trailingComma": false,
-                        "multiline": true,
-                        "flags": 0,
-                        "start": 2,
-                        "end": 31
-                    },
+                    "kind": 132,
                     "flags": 256,
-                    "start": 1,
-                    "end": 31
+                    "start": 0,
+                    "end": 23
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 32
+                "end": 23
             },
             "flags": 128,
             "start": 0,
-            "end": 32
+            "end": 23
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "number",
+                "rawText": "number",
+                "flags": 768,
+                "start": 24,
+                "end": 31
+            },
+            "flags": 128,
+            "start": 24,
+            "end": 31
         },
         {
             "kind": 249,
@@ -139,13 +82,17 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ ',' expected - start: 19, end: 23
-@{x2716}@ ',' expected - start: 31, end: 32
+@{x2716}@ ',' expected - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ ',' expected - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Statement expected - start: 23, end: 24
 @{x2716}@ Unexpected token. - start: 31, end: 32
-@{x2716}@ Unexpected token. - start: 32, end: 33
+@{x2716}@ Statement expected - start: 31, end: 32
 @{x2716}@ Statement expected - start: 34, end: 36
 @{x2716}@ Statement expected - start: 36, end: 37
 

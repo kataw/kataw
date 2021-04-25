@@ -78,7 +78,7 @@ function *a(){yield typeof 0}
                                         "end": 26
                                     },
                                     "expression": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,

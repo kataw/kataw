@@ -60,7 +60,7 @@
                                             "end": 5
                                         },
                                         "expression": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,
@@ -908,7 +908,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 42,
                     "rawText": "42",
                     "flags": 768,
@@ -946,7 +946,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 42,
                     "rawText": "42",
                     "flags": 768,
@@ -1304,7 +1304,7 @@
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 42,
                     "rawText": "42",
                     "flags": 768,

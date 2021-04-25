@@ -113,7 +113,7 @@ result = { x: [y] } = { x: [321] };
                                             "kind": 270,
                                             "elements": [
                                                 {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 321,
                                                     "rawText": "321",
                                                     "flags": 768,

@@ -38,7 +38,7 @@ for(delete((1)?y:x in y) in z)x
                         "shortCircuit": {
                             "kind": 121,
                             "expression": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,
@@ -50,7 +50,7 @@ for(delete((1)?y:x in y) in z)x
                             "end": 14
                         },
                         "questionToken": {
-                            "kind": 22,
+                            "kind": 134217750,
                             "flags": 768,
                             "start": 14,
                             "end": 15

@@ -68,7 +68,7 @@ Object.defineProperty(this, "x", {
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -204,7 +204,7 @@ Object.defineProperty(this, "x", {
                                     {
                                         "kind": 219,
                                         "left": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -429,7 +429,7 @@ Object.defineProperty(this, "x", {
                                                                                             "end": 215
                                                                                         },
                                                                                         {
-                                                                                            "kind": 134299649,
+                                                                                            "kind": 201392130,
                                                                                             "text": 2,
                                                                                             "rawText": "2",
                                                                                             "flags": 768,

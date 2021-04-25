@@ -76,7 +76,7 @@ function a({x = 10}) {}
                                             "end": 13
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 10,
                                             "rawText": "10",
                                             "flags": 768,

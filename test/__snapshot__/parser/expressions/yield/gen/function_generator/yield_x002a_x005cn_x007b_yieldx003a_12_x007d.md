@@ -202,7 +202,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 12,
                 "rawText": "12",
                 "flags": 768,

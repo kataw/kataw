@@ -51,7 +51,7 @@ var a : { <T>(x: T): number; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [],
                                 "indexers": [],
                                 "callProperties": [
@@ -127,7 +127,7 @@ var a : { <T>(x: T): number; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [],
                                 "indexers": [],
                                 "callProperties": [

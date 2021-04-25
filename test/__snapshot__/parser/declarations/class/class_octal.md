@@ -89,7 +89,7 @@ class x extends y{}
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 9,
                 "rawText": "09",
                 "flags": 769,

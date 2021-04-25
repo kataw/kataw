@@ -71,7 +71,7 @@ function not_gen() { yield 3 + yield 4; }}
                             "expression": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 3,
                                     "rawText": "3",
                                     "flags": 768,
@@ -103,7 +103,7 @@ function not_gen() { yield 3 + yield 4; }}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 768,

@@ -37,7 +37,7 @@ test
                     "end": 4
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 4,
                     "end": 8

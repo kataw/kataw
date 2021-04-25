@@ -103,7 +103,7 @@ function *foo() {
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": {
-                                                        "kind": 134299649,
+                                                        "kind": 201392130,
                                                         "text": 5,
                                                         "rawText": "5",
                                                         "flags": 768,
@@ -162,7 +162,7 @@ function *foo() {
                                     "end": 49
                                 },
                                 "questionToken": {
-                                    "kind": 22,
+                                    "kind": 134217750,
                                     "flags": 768,
                                     "start": 49,
                                     "end": 51
@@ -178,7 +178,7 @@ function *foo() {
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,

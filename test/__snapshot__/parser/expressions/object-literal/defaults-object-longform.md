@@ -57,7 +57,7 @@ var { x: x = 10 } = x;
                                                 "end": 10
                                             },
                                             "initializer": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 10,
                                                 "rawText": "10",
                                                 "flags": 768,

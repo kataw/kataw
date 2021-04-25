@@ -76,7 +76,7 @@ function call(foo=await bar=10){}
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 10,
                             "rawText": "10",
                             "flags": 768,

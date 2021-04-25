@@ -32,7 +32,7 @@ new void x
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 4259887,
+                        "kind": 138477615,
                         "flags": 768,
                         "start": 3,
                         "end": 8

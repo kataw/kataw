@@ -66,7 +66,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "end": 23
                             },
                             "expression": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,

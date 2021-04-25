@@ -160,7 +160,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                 "end": 75
                                                                             },
                                                                             "expression": {
-                                                                                "kind": 134299649,
+                                                                                "kind": 201392130,
                                                                                 "text": 1,
                                                                                 "rawText": "1",
                                                                                 "flags": 768,

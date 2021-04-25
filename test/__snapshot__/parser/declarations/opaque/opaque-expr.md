@@ -48,7 +48,7 @@ opaque += 4;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -87,7 +87,7 @@ opaque += 4;
                     "end": 25
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 4,
                     "rawText": "4",
                     "flags": 768,

@@ -75,7 +75,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "end": 41
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 41,
                     "end": 43
@@ -168,7 +168,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "end": 88
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 88,
                     "end": 90
@@ -267,7 +267,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "end": 202
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 202,
                     "end": 204
@@ -405,7 +405,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "end": 272
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 272,
                     "end": 274
@@ -421,7 +421,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "end": 276
                     },
                     "questionToken": {
-                        "kind": 22,
+                        "kind": 134217750,
                         "flags": 768,
                         "start": 276,
                         "end": 278
@@ -538,7 +538,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "end": 418
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 418,
                     "end": 420
@@ -554,7 +554,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "end": 422
                     },
                     "questionToken": {
-                        "kind": 22,
+                        "kind": 134217750,
                         "flags": 768,
                         "start": 422,
                         "end": 424
@@ -667,7 +667,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "end": 516
                     },
                     "questionToken": {
-                        "kind": 22,
+                        "kind": 134217750,
                         "flags": 768,
                         "start": 516,
                         "end": 518
@@ -809,7 +809,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "end": 659
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 659,
                     "end": 661

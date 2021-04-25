@@ -53,7 +53,7 @@ for (a ? b : c in x);
                     "end": 6
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 6,
                     "end": 8

@@ -94,7 +94,7 @@ class A {async get 7(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 7,
                                 "rawText": "7",
                                 "flags": 768,

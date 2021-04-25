@@ -138,7 +138,7 @@
                                         "end": 45
                                     },
                                     "questionToken": {
-                                        "kind": 22,
+                                        "kind": 134217750,
                                         "flags": 768,
                                         "start": 45,
                                         "end": 47
@@ -626,7 +626,7 @@
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 100,
                                     "rawText": "100",
                                     "flags": 768,

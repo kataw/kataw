@@ -116,7 +116,7 @@ declare function foo(): void
                 "contents": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 4259887,
+                        "kind": 138477615,
                         "flags": 768,
                         "start": 26,
                         "end": 31
@@ -271,7 +271,7 @@ declare function foo(): void
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 4259887,
+                    "kind": 138477615,
                     "flags": 768,
                     "start": 77,
                     "end": 82
@@ -359,7 +359,7 @@ declare function foo(): void
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 4259887,
+                    "kind": 138477615,
                     "flags": 768,
                     "start": 108,
                     "end": 113

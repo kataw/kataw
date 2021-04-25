@@ -36,7 +36,7 @@ export default 15;
                 "end": 14
             },
             "declaration": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 15,
                 "rawText": "15",
                 "flags": 768,

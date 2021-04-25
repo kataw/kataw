@@ -107,7 +107,7 @@ var a: { [a: number]: string; [b: number]: string; };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [],
                                 "indexers": [
                                     {

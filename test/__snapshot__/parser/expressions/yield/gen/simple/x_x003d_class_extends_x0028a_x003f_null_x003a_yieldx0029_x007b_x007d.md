@@ -69,7 +69,7 @@ x = class extends (a ? null : yield) { }
                                     "end": 20
                                 },
                                 "questionToken": {
-                                    "kind": 22,
+                                    "kind": 134217750,
                                     "flags": 768,
                                     "start": 20,
                                     "end": 22

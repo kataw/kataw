@@ -28,13 +28,13 @@ a?.200
                     "end": 1
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 1,
                     "end": 3
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 200,
                     "rawText": "200",
                     "flags": 768,

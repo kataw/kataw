@@ -76,7 +76,7 @@ var foob\\v1234r = 0;
                     "end": 18
                 },
                 "right": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,

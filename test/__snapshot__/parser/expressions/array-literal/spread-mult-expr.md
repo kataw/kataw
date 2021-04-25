@@ -59,7 +59,7 @@ var callCount = 0;
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 768,
@@ -67,7 +67,7 @@ var callCount = 0;
                                         "end": 15
                                     },
                                     {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 768,
@@ -75,7 +75,7 @@ var callCount = 0;
                                         "end": 18
                                     },
                                     {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 5,
                                         "rawText": "5",
                                         "flags": 768,
@@ -168,7 +168,7 @@ var callCount = 0;
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,
@@ -275,7 +275,7 @@ var callCount = 0;
                                                             "end": 106
                                                         },
                                                         {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 5,
                                                             "rawText": "5",
                                                             "flags": 768,
@@ -337,7 +337,7 @@ var callCount = 0;
                                                                 "end": 140
                                                             },
                                                             "expression": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
                                                                 "flags": 768,
@@ -349,7 +349,7 @@ var callCount = 0;
                                                             "end": 143
                                                         },
                                                         {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 768,
@@ -411,7 +411,7 @@ var callCount = 0;
                                                                 "end": 177
                                                             },
                                                             "expression": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 768,
@@ -423,7 +423,7 @@ var callCount = 0;
                                                             "end": 180
                                                         },
                                                         {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 2,
                                                             "rawText": "2",
                                                             "flags": 768,
@@ -485,7 +485,7 @@ var callCount = 0;
                                                                 "end": 214
                                                             },
                                                             "expression": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 2,
                                                                 "rawText": "2",
                                                                 "flags": 768,
@@ -497,7 +497,7 @@ var callCount = 0;
                                                             "end": 217
                                                         },
                                                         {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 3,
                                                             "rawText": "3",
                                                             "flags": 768,
@@ -559,7 +559,7 @@ var callCount = 0;
                                                                 "end": 251
                                                             },
                                                             "expression": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 3,
                                                                 "rawText": "3",
                                                                 "flags": 768,
@@ -571,7 +571,7 @@ var callCount = 0;
                                                             "end": 254
                                                         },
                                                         {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 4,
                                                             "rawText": "4",
                                                             "flags": 768,
@@ -633,7 +633,7 @@ var callCount = 0;
                                                                 "end": 288
                                                             },
                                                             "expression": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 4,
                                                                 "rawText": "4",
                                                                 "flags": 768,
@@ -645,7 +645,7 @@ var callCount = 0;
                                                             "end": 291
                                                         },
                                                         {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 5,
                                                             "rawText": "5",
                                                             "flags": 768,
@@ -745,7 +745,7 @@ var callCount = 0;
                                                     "end": 347
                                                 },
                                                 "right": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 768,
@@ -805,7 +805,7 @@ var callCount = 0;
                                     "kind": 270,
                                     "elements": [
                                         {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -813,7 +813,7 @@ var callCount = 0;
                                             "end": 367
                                         },
                                         {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 768,

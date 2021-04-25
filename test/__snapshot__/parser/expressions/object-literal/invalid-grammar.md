@@ -498,7 +498,7 @@ q = {"foo": super = x} = x;
                                         "end": 99
                                     },
                                     "right": {
-                                        "kind": 134299649,
+                                        "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 768,
@@ -875,7 +875,7 @@ q = {"foo": super = x} = x;
                         "end": 185
                     },
                     "right": {
-                        "kind": 134299649,
+                        "kind": 201392130,
                         "text": 51,
                         "rawText": "51",
                         "flags": 768,

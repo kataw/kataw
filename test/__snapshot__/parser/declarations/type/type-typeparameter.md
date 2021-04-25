@@ -79,7 +79,7 @@ type B = Foo<
                             "kind": 137,
                             "types": [
                                 {
-                                    "kind": 134217969,
+                                    "kind": 134234353,
                                     "properties": [
                                         {
                                             "kind": 193,
@@ -113,7 +113,7 @@ type B = Foo<
                                     "end": 29
                                 },
                                 {
-                                    "kind": 134217969,
+                                    "kind": 134234353,
                                     "properties": [
                                         {
                                             "kind": 193,
@@ -209,7 +209,7 @@ type B = Foo<
                         "end": 63
                     },
                     {
-                        "kind": 134217969,
+                        "kind": 134234353,
                         "properties": [
                             {
                                 "kind": 193,
@@ -243,7 +243,7 @@ type B = Foo<
                         "end": 79
                     },
                     {
-                        "kind": 134217969,
+                        "kind": 134234353,
                         "properties": [
                             {
                                 "kind": 193,

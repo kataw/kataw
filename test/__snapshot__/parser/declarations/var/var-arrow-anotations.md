@@ -524,7 +524,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 169
                             },
                             "questionToken": {
-                                "kind": 22,
+                                "kind": 134217750,
                                 "flags": 768,
                                 "start": 169,
                                 "end": 171
@@ -637,7 +637,7 @@ class Array { concat(items:number | string) {}; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -722,7 +722,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 241
                             },
                             "questionToken": {
-                                "kind": 22,
+                                "kind": 134217750,
                                 "flags": 768,
                                 "start": 241,
                                 "end": 243
@@ -1348,7 +1348,7 @@ class Array { concat(items:number | string) {}; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -1389,7 +1389,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 516
                                         },
                                         "optionalToken": {
-                                            "kind": 22,
+                                            "kind": 134217750,
                                             "flags": 768,
                                             "start": 507,
                                             "end": 508
@@ -1593,7 +1593,7 @@ class Array { concat(items:number | string) {}; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -1730,7 +1730,7 @@ class Array { concat(items:number | string) {}; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -1845,7 +1845,7 @@ class Array { concat(items:number | string) {}; }
                             "type": {
                                 "kind": 134217970,
                                 "type": {
-                                    "kind": 134217969,
+                                    "kind": 134234353,
                                     "properties": [
                                         {
                                             "kind": 193,
@@ -2010,7 +2010,7 @@ class Array { concat(items:number | string) {}; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,
@@ -2023,7 +2023,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 713
                                         },
                                         "value": {
-                                            "kind": 134217969,
+                                            "kind": 134234353,
                                             "properties": [
                                                 {
                                                     "kind": 193,

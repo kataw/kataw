@@ -111,7 +111,7 @@ class Foo {set fooProp(value:number):void{}}
                             "type": {
                                 "kind": 139,
                                 "type": {
-                                    "kind": 4259887,
+                                    "kind": 138477615,
                                     "flags": 768,
                                     "start": 37,
                                     "end": 41

@@ -73,7 +73,7 @@ var {x}: {x: string; } = { x: "hello" };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 134217969,
+                                "kind": 134234353,
                                 "properties": [
                                     {
                                         "kind": 193,

@@ -128,7 +128,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                 "left": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 4259887,
+                        "kind": 138477615,
                         "flags": 768,
                         "start": 38,
                         "end": 43

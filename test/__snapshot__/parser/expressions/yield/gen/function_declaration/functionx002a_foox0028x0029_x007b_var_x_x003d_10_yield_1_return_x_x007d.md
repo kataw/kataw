@@ -115,7 +115,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
-                                                            "kind": 134299649,
+                                                            "kind": 201392130,
                                                             "text": 10,
                                                             "rawText": "10",
                                                             "flags": 768,
@@ -148,7 +148,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                 "delegate": false,
                                                 "asteriskToken": null,
                                                 "expression": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 768,

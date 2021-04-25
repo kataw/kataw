@@ -159,7 +159,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                                     "end": 26
                                                                 },
                                                                 "initializer": {
-                                                                    "kind": 134299649,
+                                                                    "kind": 201392130,
                                                                     "text": 10,
                                                                     "rawText": "10",
                                                                     "flags": 768,

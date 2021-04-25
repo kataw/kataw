@@ -29,7 +29,7 @@ switch (0) {
                 "end": 6
             },
             "expression": {
-                "kind": 134299649,
+                "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
@@ -48,7 +48,7 @@ switch (0) {
                             "end": 19
                         },
                         "expression": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
                             "flags": 768,

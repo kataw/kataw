@@ -100,7 +100,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 768,

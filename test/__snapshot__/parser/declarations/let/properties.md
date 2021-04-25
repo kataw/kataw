@@ -61,7 +61,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "end": 8
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,
@@ -127,7 +127,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                                 "end": 18
                                             },
                                             "initializer": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 768,
@@ -220,7 +220,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
                             "flags": 768,

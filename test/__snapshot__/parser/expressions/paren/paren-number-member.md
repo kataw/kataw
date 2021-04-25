@@ -24,7 +24,7 @@
                     "expression": {
                         "kind": 129,
                         "member": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 4,
                             "rawText": "4.",
                             "flags": 768,

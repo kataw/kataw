@@ -93,7 +93,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                         {
                                             "kind": 219,
                                             "left": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 768,

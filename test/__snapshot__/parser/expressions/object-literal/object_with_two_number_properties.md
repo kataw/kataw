@@ -46,7 +46,7 @@ wrap({1:b, 0:d});
                                             "end": 9
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 768,
@@ -68,7 +68,7 @@ wrap({1:b, 0:d});
                                             "end": 14
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 768,

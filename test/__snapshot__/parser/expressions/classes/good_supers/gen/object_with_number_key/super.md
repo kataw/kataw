@@ -138,7 +138,7 @@ class x extends y {
                                                                     "end": 54
                                                                 },
                                                                 "right": {
-                                                                    "kind": 134299649,
+                                                                    "kind": 201392130,
                                                                     "text": 123,
                                                                     "rawText": "123",
                                                                     "flags": 768,

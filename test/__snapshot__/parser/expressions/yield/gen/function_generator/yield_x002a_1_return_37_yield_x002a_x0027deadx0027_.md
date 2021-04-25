@@ -109,7 +109,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                     "end": 47
                                                 },
                                                 "right": {
-                                                    "kind": 134299649,
+                                                    "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 768,
@@ -133,7 +133,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "end": 57
                                             },
                                             "expression": {
-                                                "kind": 134299649,
+                                                "kind": 201392130,
                                                 "text": 37,
                                                 "rawText": "37",
                                                 "flags": 768,

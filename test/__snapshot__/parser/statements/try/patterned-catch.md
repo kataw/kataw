@@ -133,7 +133,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                         "end": 27
                                                     },
                                                     "initializer": {
-                                                        "kind": 134299649,
+                                                        "kind": 201392130,
                                                         "text": 0,
                                                         "rawText": "0",
                                                         "flags": 768,
@@ -178,7 +178,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                         "end": 36
                                                     },
                                                     "initializer": {
-                                                        "kind": 134299649,
+                                                        "kind": 201392130,
                                                         "text": 0,
                                                         "rawText": "0",
                                                         "flags": 768,

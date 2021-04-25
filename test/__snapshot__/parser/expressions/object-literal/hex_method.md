@@ -41,7 +41,7 @@ x = {0xabc(){}}
                             {
                                 "kind": 209,
                                 "name": {
-                                    "kind": 134299649,
+                                    "kind": 201392130,
                                     "text": 2748,
                                     "rawText": "0xabc",
                                     "flags": 16777984,

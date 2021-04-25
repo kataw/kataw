@@ -46,13 +46,13 @@ a?.9:b
                     "end": 1
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 1,
                     "end": 3
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -94,13 +94,13 @@ a?.9:b
                     "end": 9
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 9,
                     "end": 11
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
                     "flags": 768,
@@ -142,13 +142,13 @@ a?.9:b
                     "end": 17
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 17,
                     "end": 19
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 2,
                     "rawText": "2",
                     "flags": 768,
@@ -190,13 +190,13 @@ a?.9:b
                     "end": 25
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 25,
                     "end": 27
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 3,
                     "rawText": "3",
                     "flags": 768,
@@ -238,13 +238,13 @@ a?.9:b
                     "end": 33
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 33,
                     "end": 35
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 4,
                     "rawText": "4",
                     "flags": 768,
@@ -286,13 +286,13 @@ a?.9:b
                     "end": 41
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 41,
                     "end": 43
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 5,
                     "rawText": "5",
                     "flags": 768,
@@ -334,13 +334,13 @@ a?.9:b
                     "end": 49
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 49,
                     "end": 51
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 6,
                     "rawText": "6",
                     "flags": 768,
@@ -382,13 +382,13 @@ a?.9:b
                     "end": 57
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 57,
                     "end": 59
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 7,
                     "rawText": "7",
                     "flags": 768,
@@ -430,13 +430,13 @@ a?.9:b
                     "end": 65
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 65,
                     "end": 67
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 8,
                     "rawText": "8",
                     "flags": 768,
@@ -478,13 +478,13 @@ a?.9:b
                     "end": 73
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 73,
                     "end": 75
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 9,
                     "rawText": "9",
                     "flags": 768,

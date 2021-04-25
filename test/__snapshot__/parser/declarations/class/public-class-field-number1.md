@@ -53,7 +53,7 @@ class C { 1e2 }
                         "staticToken": null,
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 100,
                             "rawText": "1e2",
                             "flags": 768,

@@ -54,7 +54,7 @@ class A {async * 34(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 34,
                                 "rawText": "34",
                                 "flags": 768,

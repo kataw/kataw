@@ -62,7 +62,7 @@ export let x = 10, y = 20
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 10,
                             "rawText": "10",
                             "flags": 768,
@@ -86,7 +86,7 @@ export let x = 10, y = 20
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 134299649,
+                            "kind": 201392130,
                             "text": 20,
                             "rawText": "20",
                             "flags": 768,

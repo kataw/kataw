@@ -48,7 +48,7 @@ a * x ? b : c ? d : e
                     "end": 5
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 5,
                     "end": 7
@@ -78,7 +78,7 @@ a * x ? b : c ? d : e
                         "end": 13
                     },
                     "questionToken": {
-                        "kind": 22,
+                        "kind": 134217750,
                         "flags": 768,
                         "start": 13,
                         "end": 15

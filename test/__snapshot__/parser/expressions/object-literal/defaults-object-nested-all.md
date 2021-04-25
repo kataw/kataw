@@ -46,7 +46,7 @@ var {x = 10, y: { z = 10}} = a;
                                             "end": 6
                                         },
                                         "right": {
-                                            "kind": 134299649,
+                                            "kind": 201392130,
                                             "text": 10,
                                             "rawText": "10",
                                             "flags": 768,
@@ -88,7 +88,7 @@ var {x = 10, y: { z = 10}} = a;
                                                                 "end": 19
                                                             },
                                                             "right": {
-                                                                "kind": 134299649,
+                                                                "kind": 201392130,
                                                                 "text": 10,
                                                                 "rawText": "10",
                                                                 "flags": 768,

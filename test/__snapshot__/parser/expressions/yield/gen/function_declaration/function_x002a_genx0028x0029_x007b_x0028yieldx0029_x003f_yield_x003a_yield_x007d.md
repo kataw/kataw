@@ -116,7 +116,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                     "end": 47
                                                 },
                                                 "questionToken": {
-                                                    "kind": 22,
+                                                    "kind": 134217750,
                                                     "flags": 768,
                                                     "start": 47,
                                                     "end": 49

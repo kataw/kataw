@@ -41,13 +41,13 @@ for (true ? 0 : 0 in {}; false; ) ;
                     "end": 9
                 },
                 "questionToken": {
-                    "kind": 22,
+                    "kind": 134217750,
                     "flags": 768,
                     "start": 9,
                     "end": 11
                 },
                 "consequent": {
-                    "kind": 134299649,
+                    "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
                     "flags": 768,
@@ -63,7 +63,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                 "alternate": {
                     "kind": 198,
                     "left": {
-                        "kind": 134299649,
+                        "kind": 201392130,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,

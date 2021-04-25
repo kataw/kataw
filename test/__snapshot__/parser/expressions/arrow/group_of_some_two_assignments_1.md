@@ -45,7 +45,7 @@
                                 "end": 4
                             },
                             "right": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 768,
@@ -73,7 +73,7 @@
                                 "end": 11
                             },
                             "right": {
-                                "kind": 134299649,
+                                "kind": 201392130,
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 768,
