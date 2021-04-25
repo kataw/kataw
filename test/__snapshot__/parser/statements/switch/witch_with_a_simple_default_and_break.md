@@ -36,7 +36,12 @@ switch (A) {default: B; break;}
                 "clauses": [
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 12,
+                            "end": 19
+                        },
                         "statements": [
                             {
                                 "kind": 120,

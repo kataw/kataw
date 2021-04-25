@@ -79,44 +79,50 @@ obj.c\u0061se = 42;
         {
             "kind": 120,
             "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 134299649,
-                    "text": "obj",
-                    "rawText": "obj",
-                    "flags": 768,
-                    "start": 13,
-                    "end": 18
-                },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
+                "kind": 125,
+                "left": {
+                    "kind": 129,
+                    "member": {
+                        "kind": 134299649,
+                        "text": "obj",
+                        "rawText": "obj",
+                        "flags": 768,
+                        "start": 13,
+                        "end": 18
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "case",
+                        "rawText": "c\\u0061se",
+                        "flags": 768,
+                        "start": 19,
+                        "end": 28
+                    },
                     "autofix": 0,
-                    "flags": 12,
-                    "start": 19,
-                    "end": 19
+                    "flags": 256,
+                    "start": 13,
+                    "end": 28
                 },
-                "autofix": 0,
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 28,
+                    "end": 30
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": 42,
+                    "rawText": "42",
+                    "flags": 768,
+                    "start": 30,
+                    "end": 33
+                },
                 "flags": 256,
                 "start": 13,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 13,
-            "end": 19
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": 42,
-                "rawText": "42",
-                "flags": 768,
-                "start": 30,
                 "end": 33
             },
             "flags": 128,
-            "start": 30,
+            "start": 13,
             "end": 34
         }
     ],

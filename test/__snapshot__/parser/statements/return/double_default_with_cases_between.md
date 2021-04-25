@@ -36,7 +36,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                 "clauses": [
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 11,
+                            "end": 19
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -128,7 +133,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 57,
+                            "end": 65
+                        },
                         "statements": [
                             {
                                 "kind": 150,

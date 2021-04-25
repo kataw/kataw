@@ -419,7 +419,6 @@ function parseCaseClause(parser: ParserState, context: Context): CaseClause {
 
 function parseDefaultClause(parser: ParserState, context: Context): DefaultClause {
   const pos = parser.curPos;
-  consume(parser, context, SyntaxKind.DefaultKeyword);
   const defaultToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DefaultKeyword);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
   const statements = [];
@@ -838,7 +837,11 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       forKeyword,
       initializer,
       expression,
-      parseStatement(parser, context, /* allowFunction */ false),
+      parseStatement(
+        parser,
+        ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
+        /* allowFunction */ false
+      ),
       pos,
       parser.curPos
     );
@@ -1229,8 +1232,8 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 
 function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Context): Identifier | PrivateIdentifier {
   const pos = parser.curPos;
-  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-    return parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
+  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
+    return parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true);
   }
 
   if (parser.token === SyntaxKind.PrivateIdentifier) {
@@ -1467,6 +1470,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
       SyntaxKind.IsComma)
   ) {
     elements.push(parseArgumentOrArrayLiteralElement(parser, context));
+
     if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
@@ -1480,6 +1484,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
 
     parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
   }
+
   return createArgumentList(elements, trailingComma, start, parser.curPos);
 }
 
@@ -2475,9 +2480,9 @@ function parseArrayLiteralElement(
 }
 
 function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Context): any {
-  return parser.token & SyntaxKind.IsEllipsis
+  return parser.token === SyntaxKind.Ellipsis
     ? parseSpreadElement(parser, context)
-    : parser.token & SyntaxKind.IsComma
+    : parser.token === SyntaxKind.Comma
     ? createOmittedExpression(parser.curPos, parser.curPos)
     : parseExpression(parser, context);
 }

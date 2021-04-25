@@ -116,7 +116,12 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 43,
+                            "end": 51
+                        },
                         "statements": [
                             {
                                 "kind": 176,

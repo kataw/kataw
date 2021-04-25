@@ -47,118 +47,129 @@ switch {} default(x) { try { !xxx
                 "clauses": [
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 17
+                        },
                         "statements": [
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 768,
-                                    "start": 18,
-                                    "end": 19
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "flags": 256,
+                                    "start": 17,
+                                    "end": 20
                                 },
                                 "flags": 128,
-                                "start": 18,
-                                "end": 19
+                                "start": 17,
+                                "end": 20
+                            },
+                            {
+                                "kind": 249,
+                                "block": {
+                                    "kind": 124,
+                                    "statements": [
+                                        {
+                                            "kind": 159,
+                                            "tryKeyword": {
+                                                "kind": 37757027,
+                                                "flags": 768,
+                                                "start": 22,
+                                                "end": 26
+                                            },
+                                            "block": {
+                                                "kind": 249,
+                                                "block": {
+                                                    "kind": 124,
+                                                    "statements": [
+                                                        {
+                                                            "kind": 120,
+                                                            "expression": {
+                                                                "kind": 126,
+                                                                "operandToken": {
+                                                                    "kind": 65584,
+                                                                    "flags": 768,
+                                                                    "start": 28,
+                                                                    "end": 30
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 134299649,
+                                                                    "text": "xxx",
+                                                                    "rawText": "xxx",
+                                                                    "flags": 768,
+                                                                    "start": 30,
+                                                                    "end": 33
+                                                                },
+                                                                "flags": 256,
+                                                                "start": 28,
+                                                                "end": 33
+                                                            },
+                                                            "flags": 128,
+                                                            "start": 28,
+                                                            "end": 33
+                                                        }
+                                                    ],
+                                                    "multiLine": false,
+                                                    "flags": 128,
+                                                    "start": 28,
+                                                    "end": 33
+                                                },
+                                                "flags": 128,
+                                                "start": 26,
+                                                "end": 33
+                                            },
+                                            "catchClause": null,
+                                            "finallyKeyword": null,
+                                            "finallyBlock": {
+                                                "kind": 249,
+                                                "block": {
+                                                    "kind": 124,
+                                                    "statements": [],
+                                                    "multiLine": false,
+                                                    "flags": 128,
+                                                    "start": 33,
+                                                    "end": 33
+                                                },
+                                                "flags": 128,
+                                                "start": 33,
+                                                "end": 33
+                                            },
+                                            "flags": 128,
+                                            "start": 22,
+                                            "end": 33
+                                        }
+                                    ],
+                                    "multiLine": false,
+                                    "flags": 128,
+                                    "start": 22,
+                                    "end": 33
+                                },
+                                "flags": 128,
+                                "start": 20,
+                                "end": 33
                             }
                         ],
                         "flags": 128,
                         "start": 9,
-                        "end": 19
+                        "end": 33
                     }
                 ],
                 "flags": 128,
                 "start": 9,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 19
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 159,
-                        "tryKeyword": {
-                            "kind": 37757027,
-                            "flags": 768,
-                            "start": 22,
-                            "end": 26
-                        },
-                        "block": {
-                            "kind": 249,
-                            "block": {
-                                "kind": 124,
-                                "statements": [
-                                    {
-                                        "kind": 120,
-                                        "expression": {
-                                            "kind": 126,
-                                            "operandToken": {
-                                                "kind": 65584,
-                                                "flags": 768,
-                                                "start": 28,
-                                                "end": 30
-                                            },
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "xxx",
-                                                "rawText": "xxx",
-                                                "flags": 768,
-                                                "start": 30,
-                                                "end": 33
-                                            },
-                                            "flags": 256,
-                                            "start": 28,
-                                            "end": 33
-                                        },
-                                        "flags": 128,
-                                        "start": 28,
-                                        "end": 33
-                                    }
-                                ],
-                                "multiLine": false,
-                                "flags": 128,
-                                "start": 28,
-                                "end": 33
-                            },
-                            "flags": 128,
-                            "start": 26,
-                            "end": 33
-                        },
-                        "catchClause": null,
-                        "finallyKeyword": null,
-                        "finallyBlock": {
-                            "kind": 249,
-                            "block": {
-                                "kind": 124,
-                                "statements": [],
-                                "multiLine": false,
-                                "flags": 128,
-                                "start": 33,
-                                "end": 33
-                            },
-                            "flags": 128,
-                            "start": 33,
-                            "end": 33
-                        },
-                        "flags": 128,
-                        "start": 22,
-                        "end": 33
-                    }
-                ],
-                "multiLine": false,
-                "flags": 128,
-                "start": 22,
                 "end": 33
             },
             "flags": 128,
-            "start": 20,
+            "start": 0,
             "end": 33
         }
     ],

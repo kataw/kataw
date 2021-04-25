@@ -36,7 +36,12 @@ switch (x) { default: continue foo; }
                 "clauses": [
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 12,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 172,

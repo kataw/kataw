@@ -71,7 +71,12 @@ switch (x) { case y: break; default: return; }
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 27,
+                            "end": 35
+                        },
                         "statements": [
                             {
                                 "kind": 161,

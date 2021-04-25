@@ -126,7 +126,12 @@ switch (answer) { case 0: let a; };
                                     "clauses": [
                                         {
                                             "kind": 170,
-                                            "defaultKeyword": null,
+                                            "defaultKeyword": {
+                                                "kind": 4194387,
+                                                "flags": 768,
+                                                "start": 35,
+                                                "end": 43
+                                            },
                                             "statements": [
                                                 {
                                                     "kind": 120,
@@ -163,7 +168,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 49,
+                            "end": 57
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -589,7 +599,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 189,
+                            "end": 197
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -2622,7 +2637,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 977,
+                            "end": 985
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -3613,7 +3633,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1308,
+                            "end": 1316
+                        },
                         "statements": [
                             {
                                 "kind": 155,
@@ -3748,7 +3773,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1354,
+                            "end": 1362
+                        },
                         "statements": [
                             {
                                 "kind": 155,
@@ -4082,7 +4112,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1492,
+                            "end": 1500
+                        },
                         "statements": [
                             {
                                 "kind": 178,
@@ -4231,7 +4266,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1569,
+                            "end": 1577
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -4394,7 +4434,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1642,
+                            "end": 1650
+                        },
                         "statements": [
                             {
                                 "kind": 178,
@@ -4557,7 +4602,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1714,
+                            "end": 1722
+                        },
                         "statements": [
                             {
                                 "kind": 178,
@@ -4686,7 +4736,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1779,
+                            "end": 1787
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -4843,7 +4898,12 @@ switch (answer) { case 0: let a; };
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 1851,
+                            "end": 1859
+                        },
                         "statements": [
                             {
                                 "kind": 178,

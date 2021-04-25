@@ -18,54 +18,28 @@ obj.voi\u0064 = 42;
         {
             "kind": 120,
             "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 134299649,
-                    "text": "obj",
-                    "rawText": "obj",
-                    "flags": 768,
-                    "start": 0,
-                    "end": 3
-                },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 4,
-                    "end": 4
-                },
-                "autofix": 0,
-                "flags": 256,
-                "start": 0,
-                "end": 4
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 4
-        },
-        {
-            "kind": 120,
-            "expression": {
                 "kind": 125,
                 "left": {
-                    "kind": 126,
-                    "operandToken": {
-                        "kind": 4259887,
+                    "kind": 129,
+                    "member": {
+                        "kind": 134299649,
+                        "text": "obj",
+                        "rawText": "obj",
+                        "flags": 768,
+                        "start": 0,
+                        "end": 3
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "void",
+                        "rawText": "voi\\u0064",
                         "flags": 768,
                         "start": 4,
                         "end": 13
                     },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "autofix": 0,
-                        "flags": 12,
-                        "start": 13,
-                        "end": 13
-                    },
+                    "autofix": 0,
                     "flags": 256,
-                    "start": 4,
+                    "start": 0,
                     "end": 13
                 },
                 "operatorToken": {
@@ -83,11 +57,11 @@ obj.voi\u0064 = 42;
                     "end": 18
                 },
                 "flags": 256,
-                "start": 4,
+                "start": 0,
                 "end": 18
             },
             "flags": 128,
-            "start": 4,
+            "start": 0,
             "end": 19
         }
     ],

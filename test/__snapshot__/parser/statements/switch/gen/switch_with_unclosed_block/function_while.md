@@ -47,131 +47,142 @@ switch {} default(x) { function while
                 "clauses": [
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 17
+                        },
                         "statements": [
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 768,
-                                    "start": 18,
-                                    "end": 19
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 768,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "flags": 256,
+                                    "start": 17,
+                                    "end": 20
                                 },
                                 "flags": 128,
-                                "start": 18,
-                                "end": 19
+                                "start": 17,
+                                "end": 20
+                            },
+                            {
+                                "kind": 249,
+                                "block": {
+                                    "kind": 124,
+                                    "statements": [
+                                        {
+                                            "kind": 176,
+                                            "declareKeyword": null,
+                                            "asyncKeyword": null,
+                                            "functionKeyword": {
+                                                "kind": 37822554,
+                                                "flags": 768,
+                                                "start": 22,
+                                                "end": 31
+                                            },
+                                            "generatorToken": null,
+                                            "name": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 31,
+                                                "end": 31
+                                            },
+                                            "formalParameters": {
+                                                "kind": 214,
+                                                "formalParameterList": [],
+                                                "trailingComma": false,
+                                                "flags": 256,
+                                                "start": 31,
+                                                "end": 31
+                                            },
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "multiline": false,
+                                                    "flags": 256,
+                                                    "start": 31,
+                                                    "end": 31
+                                                },
+                                                "flags": 256,
+                                                "start": 31,
+                                                "end": 31
+                                            },
+                                            "typeParameters": null,
+                                            "returnType": null,
+                                            "flags": 128,
+                                            "start": 22,
+                                            "end": 31
+                                        },
+                                        {
+                                            "kind": 154,
+                                            "whileKeyword": {
+                                                "kind": 37757028,
+                                                "flags": 768,
+                                                "start": 31,
+                                                "end": 37
+                                            },
+                                            "expression": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "autofix": 0,
+                                                "flags": 12,
+                                                "start": 37,
+                                                "end": 37
+                                            },
+                                            "statement": {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "autofix": 0,
+                                                    "flags": 12,
+                                                    "start": 37,
+                                                    "end": 37
+                                                },
+                                                "flags": 128,
+                                                "start": 37,
+                                                "end": 37
+                                            },
+                                            "flags": 128,
+                                            "start": 31,
+                                            "end": 37
+                                        }
+                                    ],
+                                    "multiLine": false,
+                                    "flags": 128,
+                                    "start": 22,
+                                    "end": 37
+                                },
+                                "flags": 128,
+                                "start": 20,
+                                "end": 37
                             }
                         ],
                         "flags": 128,
                         "start": 9,
-                        "end": 19
+                        "end": 37
                     }
                 ],
                 "flags": 128,
                 "start": 9,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 19
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 176,
-                        "declareKeyword": null,
-                        "asyncKeyword": null,
-                        "functionKeyword": {
-                            "kind": 37822554,
-                            "flags": 768,
-                            "start": 22,
-                            "end": 31
-                        },
-                        "generatorToken": null,
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 31,
-                            "end": 31
-                        },
-                        "formalParameters": {
-                            "kind": 214,
-                            "formalParameterList": [],
-                            "trailingComma": false,
-                            "flags": 256,
-                            "start": 31,
-                            "end": 31
-                        },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
-                                "multiline": false,
-                                "flags": 256,
-                                "start": 31,
-                                "end": 31
-                            },
-                            "flags": 256,
-                            "start": 31,
-                            "end": 31
-                        },
-                        "typeParameters": null,
-                        "returnType": null,
-                        "flags": 128,
-                        "start": 22,
-                        "end": 31
-                    },
-                    {
-                        "kind": 154,
-                        "whileKeyword": {
-                            "kind": 37757028,
-                            "flags": 768,
-                            "start": 31,
-                            "end": 37
-                        },
-                        "expression": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 37,
-                            "end": 37
-                        },
-                        "statement": {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "autofix": 0,
-                                "flags": 12,
-                                "start": 37,
-                                "end": 37
-                            },
-                            "flags": 128,
-                            "start": 37,
-                            "end": 37
-                        },
-                        "flags": 128,
-                        "start": 31,
-                        "end": 37
-                    }
-                ],
-                "multiLine": false,
-                "flags": 128,
-                "start": 22,
                 "end": 37
             },
             "flags": 128,
-            "start": 20,
+            "start": 0,
             "end": 37
         }
     ],

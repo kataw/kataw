@@ -111,7 +111,12 @@ switch (0) {
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 42,
+                            "end": 52
+                        },
                         "statements": [
                             {
                                 "kind": 176,

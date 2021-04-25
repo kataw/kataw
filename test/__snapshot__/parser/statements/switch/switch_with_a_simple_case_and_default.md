@@ -72,7 +72,12 @@ switch (A) {case B: C; default: D;}
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 22,
+                            "end": 30
+                        },
                         "statements": [
                             {
                                 "kind": 120,

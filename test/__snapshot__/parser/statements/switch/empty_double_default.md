@@ -36,7 +36,12 @@ switch(x) { default: default: }
                 "clauses": [
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 11,
+                            "end": 19
+                        },
                         "statements": [],
                         "flags": 128,
                         "start": 11,
@@ -44,7 +49,12 @@ switch(x) { default: default: }
                     },
                     {
                         "kind": 170,
-                        "defaultKeyword": null,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 768,
+                            "start": 20,
+                            "end": 28
+                        },
                         "statements": [],
                         "flags": 128,
                         "start": 20,
