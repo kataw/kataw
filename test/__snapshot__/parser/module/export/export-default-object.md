@@ -1,0 +1,101 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true, module: true }
+`````
+
+## Input
+
+`````js
+export default { foo: 1 };
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 258,
+            "exportKeyword": {
+                "kind": 4202582,
+                "flags": 768,
+                "start": 0,
+                "end": 6
+            },
+            "defaultKeyword": {
+                "kind": 4194387,
+                "flags": 768,
+                "start": 6,
+                "end": 14
+            },
+            "declaration": {
+                "kind": 220,
+                "propertyList": {
+                    "kind": 218,
+                    "properties": [
+                        {
+                            "kind": 219,
+                            "left": {
+                                "kind": 134299649,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 768,
+                                "start": 21,
+                                "end": 23
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 768,
+                                "start": 16,
+                                "end": 20
+                            },
+                            "flags": 256,
+                            "start": 16,
+                            "end": 23
+                        }
+                    ],
+                    "trailingComma": false,
+                    "multiline": false,
+                    "flags": 0,
+                    "start": 16,
+                    "end": 23
+                },
+                "flags": 256,
+                "start": 14,
+                "end": 25
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 26
+        }
+    ],
+    "isModule": true,
+    "text": "export default { foo: 1 };",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 26
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+
