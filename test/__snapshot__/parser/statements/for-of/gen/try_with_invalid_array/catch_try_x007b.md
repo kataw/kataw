@@ -154,6 +154,17 @@ try [catch] catch try {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 5
+@{x2716}@ Unexpected token. - start: 3, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 10
+@{x2716}@ Unexpected token. - start: 5, end: 10
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 21
+@{x2716}@ Unexpected token. - start: 17, end: 21
+@{x2716}@ Unexpected token. - start: 23, end: 23
 
 ```
 

@@ -139,6 +139,7 @@ const [foo] = arr, bar;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in const declaration - start: 22, end: 23
 
 ```
 

@@ -151,6 +151,6 @@ const a = async (foo: string = "") => {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

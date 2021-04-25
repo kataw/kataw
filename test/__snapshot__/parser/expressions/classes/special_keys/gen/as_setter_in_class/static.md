@@ -145,6 +145,6 @@ class x {set static(x){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

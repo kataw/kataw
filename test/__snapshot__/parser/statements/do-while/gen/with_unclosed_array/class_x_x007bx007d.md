@@ -110,6 +110,12 @@ do[ class x {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 14
+@{x2716}@ Expression expected - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 14
 
 ```
 

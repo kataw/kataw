@@ -111,6 +111,7 @@ async () => { aw\u{61}it: x }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 24, end: 25
 
 ```
 

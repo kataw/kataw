@@ -134,6 +134,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 28, end: 30
 
 ```
 

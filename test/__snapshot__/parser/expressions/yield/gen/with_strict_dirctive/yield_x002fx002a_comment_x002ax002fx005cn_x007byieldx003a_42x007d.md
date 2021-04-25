@@ -118,6 +118,14 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 19, end: 33
+@{x2716}@ Unexpected token. - start: 19, end: 34
+@{x2716}@ Statement expected - start: 19, end: 34
+@{x2716}@ Unexpected token. - start: 35, end: 37
+@{x2716}@ Unexpected token. - start: 42, end: 43
+@{x2716}@ Unexpected token. - start: 42, end: 43
+@{x2716}@ Statement expected - start: 42, end: 43
+@{x2716}@ Statement expected - start: 46, end: 47
 
 ```
 

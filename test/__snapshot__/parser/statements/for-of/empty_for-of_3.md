@@ -105,6 +105,6 @@ for (let a of b);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

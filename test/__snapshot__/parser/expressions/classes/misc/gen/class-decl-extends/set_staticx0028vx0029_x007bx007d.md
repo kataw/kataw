@@ -165,6 +165,6 @@ class C extends Base { set static(v) {} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

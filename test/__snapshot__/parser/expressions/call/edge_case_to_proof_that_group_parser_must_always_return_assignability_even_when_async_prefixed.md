@@ -80,6 +80,7 @@ async
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 10, end: 12
 
 ```
 

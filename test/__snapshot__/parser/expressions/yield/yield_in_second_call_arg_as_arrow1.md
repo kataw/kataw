@@ -212,6 +212,6 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

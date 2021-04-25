@@ -177,6 +177,6 @@ async function a(){     async ({r} = await bar);     }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

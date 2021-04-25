@@ -139,6 +139,12 @@ class C extends Base { a\n get }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 22, end: 24
+@{x2716}@ Invalid hexadecimal escape sequence - start: 24, end: 24
+@{x2716}@ Unexpected token. - start: 24, end: 25
+@{x2716}@ Statement expected - start: 24, end: 25
+@{x2716}@ Unexpected token. - start: 26, end: 30
+@{x2716}@ Statement expected - start: 30, end: 32
 
 ```
 

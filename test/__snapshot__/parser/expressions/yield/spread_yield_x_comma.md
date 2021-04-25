@@ -158,6 +158,6 @@ function *g() {x={     ...yield x,    };}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

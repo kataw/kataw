@@ -136,6 +136,9 @@ let {[x]};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Expression expected - start: 8, end: 9
+@{x2716}@ Missing initializer in destructuring declaration - start: 9, end: 10
 
 ```
 

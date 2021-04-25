@@ -72,6 +72,11 @@ do /**/ /x do while while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 9
+@{x2716}@ Unexpected token. - start: 25, end: 25
+@{x2716}@ Unexpected token. - start: 25, end: 25
+@{x2716}@ Expression expected - start: 25, end: 25
+@{x2716}@ Unexpected token. - start: 25, end: 25
 
 ```
 

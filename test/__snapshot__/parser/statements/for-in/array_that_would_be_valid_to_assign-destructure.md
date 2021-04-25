@@ -117,6 +117,6 @@ for ([x.y] in obj);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

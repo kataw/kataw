@@ -82,6 +82,7 @@ import(import(x))
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 16, end: 17
 
 ```
 

@@ -103,6 +103,7 @@ x={...new}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 9, end: 10
 
 ```
 

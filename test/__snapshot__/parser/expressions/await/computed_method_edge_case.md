@@ -305,6 +305,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

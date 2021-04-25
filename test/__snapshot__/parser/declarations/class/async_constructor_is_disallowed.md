@@ -130,6 +130,7 @@ class X {    async constructor() {}   }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Class constructor may not be a accessor - start: 30, end: 31
 
 ```
 

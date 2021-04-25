@@ -125,6 +125,7 @@ for (((x)=>{}) in y);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 17, end: 19
 
 ```
 

@@ -75,6 +75,6 @@ for (x in y) continue
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -126,6 +126,6 @@ class x {async * export(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

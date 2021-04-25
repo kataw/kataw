@@ -289,6 +289,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 52, end: 56
 
 ```
 

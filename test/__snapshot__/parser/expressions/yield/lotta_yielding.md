@@ -454,6 +454,6 @@ var gen = async function *g() {
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

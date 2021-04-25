@@ -166,6 +166,6 @@ class Foo { bar():this { return this; }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

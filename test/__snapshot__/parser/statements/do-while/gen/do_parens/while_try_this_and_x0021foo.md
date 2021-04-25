@@ -200,6 +200,21 @@ do( while try this and !foo while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 3, end: 9
+@{x2716}@ Unexpected token. - start: 3, end: 9
+@{x2716}@ Unexpected token. - start: 3, end: 9
+@{x2716}@ Unexpected token. - start: 9, end: 13
+@{x2716}@ Expression expected - start: 9, end: 13
+@{x2716}@ Unexpected token. - start: 9, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 18
+@{x2716}@ Unexpected token. - start: 13, end: 18
+@{x2716}@ Unexpected token. - start: 18, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 24
+@{x2716}@ Unexpected token. - start: 27, end: 33
+@{x2716}@ Unexpected token. - start: 33, end: 33
+@{x2716}@ Expression expected - start: 33, end: 33
+@{x2716}@ Unexpected token. - start: 33, end: 33
+@{x2716}@ Expression expected - start: 33, end: 33
 
 ```
 

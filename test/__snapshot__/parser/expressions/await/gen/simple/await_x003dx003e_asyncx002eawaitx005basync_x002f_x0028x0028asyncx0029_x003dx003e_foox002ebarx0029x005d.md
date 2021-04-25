@@ -170,6 +170,6 @@ await => async.await[async / ((async) => foo.bar)]
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -215,6 +215,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 13, end: 16
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 37, end: 40
 
 ```
 

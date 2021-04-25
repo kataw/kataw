@@ -107,6 +107,8 @@ const foo, bar
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in const declaration - start: 9, end: 10
+@{x2716}@ Missing initializer in const declaration - start: 14, end: 14
 
 ```
 

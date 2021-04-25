@@ -66,6 +66,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 0, end: 4
+@{x2716}@ Invalid hexadecimal escape sequence - start: 8, end: 13
 
 ```
 

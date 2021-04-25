@@ -126,6 +126,6 @@ class x {get super(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

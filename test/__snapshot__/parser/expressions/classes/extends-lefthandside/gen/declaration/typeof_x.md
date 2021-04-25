@@ -101,6 +101,6 @@ class A extends typeof x {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

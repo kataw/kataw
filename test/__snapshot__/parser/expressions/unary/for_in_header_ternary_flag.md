@@ -154,6 +154,7 @@ for(delete((1)?y:x in y) in z)x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 27, end: 29
 
 ```
 

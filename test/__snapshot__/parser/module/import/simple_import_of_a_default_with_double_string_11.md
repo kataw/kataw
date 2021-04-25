@@ -127,6 +127,6 @@ import {x, z as b} from "y"
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -146,6 +146,13 @@ async function f(){ await \n x; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 25, end: 26
+@{x2716}@ Expression expected - start: 25, end: 27
+@{x2716}@ Unexpected token. - start: 25, end: 27
+@{x2716}@ Unexpected token. - start: 25, end: 27
+@{x2716}@ Statement expected - start: 25, end: 27
+@{x2716}@ Unexpected token. - start: 28, end: 30
+@{x2716}@ Statement expected - start: 31, end: 33
 
 ```
 

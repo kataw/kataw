@@ -92,6 +92,6 @@ for (x in y in x) ;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

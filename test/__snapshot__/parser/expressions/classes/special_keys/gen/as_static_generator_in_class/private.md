@@ -126,6 +126,6 @@ class x {static * private(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

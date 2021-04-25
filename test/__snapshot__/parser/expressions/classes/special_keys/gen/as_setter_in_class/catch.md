@@ -145,6 +145,6 @@ class x {set catch(x){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

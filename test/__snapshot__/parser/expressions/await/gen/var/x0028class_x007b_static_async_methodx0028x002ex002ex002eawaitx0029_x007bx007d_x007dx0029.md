@@ -286,6 +286,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 67, end: 68
 
 ```
 

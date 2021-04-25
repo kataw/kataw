@@ -175,6 +175,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 60, end: 61
 
 ```
 

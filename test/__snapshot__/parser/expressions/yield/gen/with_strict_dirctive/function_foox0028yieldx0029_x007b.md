@@ -114,6 +114,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 35, end: 35
 
 ```
 

@@ -256,6 +256,8 @@ class C { set x(_) { var f = function { super(); } } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 37, end: 39
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 45, end: 46
 
 ```
 

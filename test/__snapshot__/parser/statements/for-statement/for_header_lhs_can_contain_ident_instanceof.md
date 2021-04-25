@@ -101,6 +101,6 @@ for (a instanceof b;;);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -166,6 +166,6 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -149,6 +149,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

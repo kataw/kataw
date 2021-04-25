@@ -137,6 +137,15 @@ if if if /false//a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Expression expected - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Expression expected - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 16
+@{x2716}@ Unexpected token. - start: 18, end: 18
+@{x2716}@ Expression expected - start: 18, end: 18
 
 ```
 

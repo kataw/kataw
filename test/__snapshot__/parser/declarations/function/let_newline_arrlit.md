@@ -86,6 +86,7 @@ let
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in destructuring declaration - start: 6, end: 6
 
 ```
 

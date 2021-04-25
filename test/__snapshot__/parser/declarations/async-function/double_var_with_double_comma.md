@@ -134,6 +134,10 @@ let {x,, y} = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 7, end: 8
+@{x2716}@ Missing initializer in destructuring declaration - start: 7, end: 8
+@{x2716}@ Statement expected - start: 10, end: 11
+@{x2716}@ Statement expected - start: 11, end: 13
 
 ```
 

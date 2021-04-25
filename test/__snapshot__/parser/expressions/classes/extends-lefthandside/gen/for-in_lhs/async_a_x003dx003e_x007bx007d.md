@@ -119,6 +119,8 @@ for (async a => {} in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ An arrow function can not be part of an operator to the right - start: 18, end: 21
+@{x2716}@ Invalid left-hand side in for-in loop - start: 21, end: 23
 
 ```
 

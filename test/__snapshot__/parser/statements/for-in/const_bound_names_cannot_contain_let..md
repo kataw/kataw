@@ -129,6 +129,6 @@ for (const [let] in obj);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

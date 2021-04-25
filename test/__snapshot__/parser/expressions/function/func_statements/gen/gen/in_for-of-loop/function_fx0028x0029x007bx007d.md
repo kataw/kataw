@@ -115,6 +115,7 @@ for (a of b) function f(){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 12, end: 21
 
 ```
 

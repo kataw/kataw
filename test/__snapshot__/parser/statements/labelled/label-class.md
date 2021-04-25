@@ -79,6 +79,7 @@ label: class x {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Class declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
 
 ```
 

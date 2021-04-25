@@ -102,6 +102,7 @@ async () => new await x()
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 25, end: 25
 
 ```
 

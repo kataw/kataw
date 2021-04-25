@@ -120,6 +120,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'get' accessor cannot have parameters. - start: 9, end: 10
 
 ```
 

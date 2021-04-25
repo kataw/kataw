@@ -159,6 +159,16 @@ switch {} default(x) { catch try {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 8
+@{x2716}@ Unexpected token. - start: 9, end: 17
+@{x2716}@ Unexpected token. - start: 9, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 18
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 28
+@{x2716}@ Unexpected token. - start: 28, end: 32
+@{x2716}@ Unexpected token. - start: 28, end: 32
+@{x2716}@ Unexpected token. - start: 35, end: 35
+@{x2716}@ Unexpected token. - start: 35, end: 35
 
 ```
 

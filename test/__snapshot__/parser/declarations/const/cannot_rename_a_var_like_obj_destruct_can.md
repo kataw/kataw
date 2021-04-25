@@ -132,6 +132,15 @@ const [foo:bar] = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Missing initializer in const declaration - start: 10, end: 11
+@{x2716}@ ',' expected - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Statement expected - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Statement expected - start: 15, end: 17
 
 ```
 

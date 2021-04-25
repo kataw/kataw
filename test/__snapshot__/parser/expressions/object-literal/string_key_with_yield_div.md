@@ -179,6 +179,6 @@ function *f(){   s = {"foo": yield / x}   }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -5248,6 +5248,6 @@ switch (answer) { case 0: let a; };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

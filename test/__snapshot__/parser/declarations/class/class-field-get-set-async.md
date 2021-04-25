@@ -176,6 +176,6 @@ class C { get; set; static; async }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

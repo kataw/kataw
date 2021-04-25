@@ -133,6 +133,7 @@ async x => ok
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 17, end: 17
 
 ```
 

@@ -146,6 +146,10 @@ class x {static set true(x){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 19, end: 24
+@{x2716}@ Unexpected token. - start: 19, end: 24
+@{x2716}@ Unexpected token. - start: 27, end: 28
+@{x2716}@ Statement expected - start: 29, end: 30
 
 ```
 

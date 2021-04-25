@@ -182,6 +182,6 @@ for (class x { [a](){} }.x in c);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

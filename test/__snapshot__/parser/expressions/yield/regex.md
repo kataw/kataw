@@ -150,6 +150,7 @@ function* f(){ yield
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 26, end: 28
 
 ```
 

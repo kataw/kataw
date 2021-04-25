@@ -143,6 +143,6 @@ function *f(){ return { ...(yield) } }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

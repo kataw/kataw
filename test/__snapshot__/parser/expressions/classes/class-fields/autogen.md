@@ -335,6 +335,7 @@ class C extends Base { # }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 10
 
 ```
 

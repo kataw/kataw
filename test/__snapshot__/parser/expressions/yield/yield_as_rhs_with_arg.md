@@ -206,6 +206,7 @@ function *g() { function f(x = x + yield y) {}; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 40, end: 42
 
 ```
 

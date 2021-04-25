@@ -157,6 +157,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'delete' cannot be called on an identifier in strict mode. - start: 46, end: 48
 
 ```
 

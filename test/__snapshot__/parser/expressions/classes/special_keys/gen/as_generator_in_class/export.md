@@ -121,6 +121,6 @@ class x {* export(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

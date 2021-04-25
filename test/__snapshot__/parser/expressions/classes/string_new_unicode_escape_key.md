@@ -123,6 +123,6 @@ class x { "prot\u{6f}type"(){} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

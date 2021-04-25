@@ -134,6 +134,6 @@ for (function(){ }[foo] of x);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

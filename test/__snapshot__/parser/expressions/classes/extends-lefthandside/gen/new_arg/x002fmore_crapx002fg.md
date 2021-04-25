@@ -64,6 +64,6 @@ new /more crap/g
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

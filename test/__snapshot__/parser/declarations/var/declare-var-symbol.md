@@ -96,6 +96,6 @@ declare var x: symbol;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

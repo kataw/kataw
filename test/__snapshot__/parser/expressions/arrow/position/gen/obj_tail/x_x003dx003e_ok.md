@@ -140,6 +140,6 @@ x = {arrow: x => ok}.y
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

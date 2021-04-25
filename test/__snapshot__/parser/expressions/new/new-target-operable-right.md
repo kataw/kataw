@@ -123,6 +123,6 @@ function f(){ foo + new.target }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

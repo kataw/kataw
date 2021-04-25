@@ -132,6 +132,14 @@ bar ? baz : ( return => {} );
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ A return statement can only be used within a function_body - start: 13, end: 20
+@{x2716}@ Expression expected - start: 20, end: 23
+@{x2716}@ Unexpected token. - start: 20, end: 23
+@{x2716}@ Statement expected - start: 20, end: 23
+@{x2716}@ Statement expected - start: 26, end: 28
 
 ```
 

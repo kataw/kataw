@@ -126,6 +126,6 @@ class x {async * debugger(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -126,6 +126,7 @@ switch (x) { case x: if (foo) continue foo; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 29, end: 38
 
 ```
 

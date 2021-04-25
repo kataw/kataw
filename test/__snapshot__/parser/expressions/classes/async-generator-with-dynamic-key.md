@@ -128,6 +128,6 @@ class x { async *[y](){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

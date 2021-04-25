@@ -139,6 +139,6 @@ let f = a + b + async()=>d
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

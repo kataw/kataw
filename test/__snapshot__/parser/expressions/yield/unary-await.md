@@ -131,6 +131,9 @@ fuction *f() {  return await yield;  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 12, end: 14
+@{x2716}@ A return statement can only be used within a function_body - start: 14, end: 22
+@{x2716}@ Unexpected token. - start: 28, end: 34
 
 ```
 

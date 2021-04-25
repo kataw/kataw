@@ -160,6 +160,6 @@ var x = { *test () { yield *v } };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -133,6 +133,9 @@ for (async a => b in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 22, end: 23
+@{x2716}@ Expression expected - start: 22, end: 23
+@{x2716}@ Unexpected token. - start: 22, end: 23
 
 ```
 

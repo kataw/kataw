@@ -127,6 +127,7 @@ let [...] = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 8, end: 9
 
 ```
 

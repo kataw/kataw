@@ -158,6 +158,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ `Await` expression cannot be used in function parameters - start: 36, end: 41
 
 ```
 

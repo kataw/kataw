@@ -122,6 +122,6 @@ eval => { 'use strict'; 0 } , bar;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

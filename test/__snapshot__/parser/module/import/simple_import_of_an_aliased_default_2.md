@@ -85,6 +85,6 @@ import x, * as a from "y"
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

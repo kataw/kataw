@@ -126,6 +126,6 @@ class x {static do(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

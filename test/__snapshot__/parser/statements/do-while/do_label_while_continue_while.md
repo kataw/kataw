@@ -114,6 +114,6 @@ do wow: while (x) continue wow; while (x)
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

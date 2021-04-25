@@ -108,6 +108,6 @@ for(delete(x in y);;)x
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

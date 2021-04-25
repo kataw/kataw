@@ -140,6 +140,6 @@ for ({a: b.c} in d) e
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

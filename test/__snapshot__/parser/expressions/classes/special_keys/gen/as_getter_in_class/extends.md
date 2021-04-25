@@ -126,6 +126,6 @@ class x {get extends(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

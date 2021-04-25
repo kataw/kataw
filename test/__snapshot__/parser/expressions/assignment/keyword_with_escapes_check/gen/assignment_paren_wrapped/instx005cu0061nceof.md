@@ -104,6 +104,12 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 1, end: 16
+@{x2716}@ Expression expected - start: 16, end: 18
+@{x2716}@ Unexpected token. - start: 16, end: 18
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
+@{x2716}@ Unexpected token. - start: 20, end: 21
+@{x2716}@ Statement expected - start: 20, end: 21
 
 ```
 

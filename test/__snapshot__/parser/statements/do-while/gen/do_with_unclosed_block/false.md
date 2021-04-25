@@ -106,6 +106,7 @@ do {} while (x) { false
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 23, end: 23
 
 ```
 

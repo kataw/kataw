@@ -133,6 +133,6 @@ switch([x = y]) { case y: foo }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

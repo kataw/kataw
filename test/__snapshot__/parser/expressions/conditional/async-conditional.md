@@ -117,6 +117,6 @@ true ? async.waterfall() : null;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

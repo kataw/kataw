@@ -227,6 +227,6 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

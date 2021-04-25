@@ -156,6 +156,7 @@ class A {a(x=new.target){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'new.target' only allowed within functions - start: 17, end: 23
 
 ```
 

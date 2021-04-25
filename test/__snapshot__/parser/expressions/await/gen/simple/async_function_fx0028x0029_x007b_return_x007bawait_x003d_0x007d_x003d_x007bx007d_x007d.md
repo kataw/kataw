@@ -169,6 +169,6 @@ async function f() { return {await = 0} = {}; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -184,6 +184,6 @@ result = { x: [y] } = { x: [321] };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

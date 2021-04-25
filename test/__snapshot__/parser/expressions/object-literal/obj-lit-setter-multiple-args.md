@@ -138,6 +138,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'set' accessor must have exactly one parameter. - start: 11, end: 13
 
 ```
 

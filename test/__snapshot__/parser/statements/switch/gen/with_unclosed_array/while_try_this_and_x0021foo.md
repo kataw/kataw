@@ -173,6 +173,18 @@ switch[ while try this and !foo
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 7
+@{x2716}@ Unexpected token. - start: 7, end: 13
+@{x2716}@ Unexpected token. - start: 7, end: 13
+@{x2716}@ Unexpected token. - start: 7, end: 13
+@{x2716}@ Unexpected token. - start: 7, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 17
+@{x2716}@ Expression expected - start: 13, end: 17
+@{x2716}@ Unexpected token. - start: 13, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 22
+@{x2716}@ Unexpected token. - start: 17, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 26, end: 28
 
 ```
 

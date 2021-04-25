@@ -214,6 +214,19 @@ do[ =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 5
+@{x2716}@ Unexpected token. - start: 12, end: 21
+@{x2716}@ Unexpected token. - start: 12, end: 21
+@{x2716}@ Unexpected token. - start: 12, end: 21
+@{x2716}@ Unexpected token. - start: 21, end: 25
+@{x2716}@ Expression expected - start: 21, end: 25
+@{x2716}@ Unexpected token. - start: 21, end: 25
+@{x2716}@ Unexpected token. - start: 25, end: 31
+@{x2716}@ Unexpected token. - start: 25, end: 31
+@{x2716}@ Unexpected token. - start: 31, end: 36
+@{x2716}@ Unexpected token. - start: 36, end: 40
+@{x2716}@ Unexpected token. - start: 40, end: 41
+@{x2716}@ Expression expected - start: 41, end: 41
 
 ```
 

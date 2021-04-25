@@ -148,6 +148,6 @@ class C { set #aaa(x){} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

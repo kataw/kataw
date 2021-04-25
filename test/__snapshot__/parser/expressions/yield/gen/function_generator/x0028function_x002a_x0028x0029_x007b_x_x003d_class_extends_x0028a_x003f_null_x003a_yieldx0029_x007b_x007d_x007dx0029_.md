@@ -314,6 +314,6 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

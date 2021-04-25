@@ -60,6 +60,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Octal escape sequences are not allowed in strict mode - start: 0, end: 3
+@{x2716}@ Unterminated string literal - start: 0, end: 5
 
 ```
 

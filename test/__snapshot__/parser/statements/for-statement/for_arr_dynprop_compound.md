@@ -118,6 +118,6 @@ for ([][y] <<= p;;) x;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

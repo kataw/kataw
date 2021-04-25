@@ -303,6 +303,14 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 69, end: 70
+@{x2716}@ Unexpected token. - start: 69, end: 70
+@{x2716}@ Unexpected token. - start: 69, end: 70
+@{x2716}@ Unexpected token. - start: 69, end: 70
+@{x2716}@ Statement expected - start: 69, end: 70
+@{x2716}@ Statement expected - start: 96, end: 98
+@{x2716}@ Statement expected - start: 98, end: 100
+@{x2716}@ Statement expected - start: 100, end: 101
 
 ```
 

@@ -150,6 +150,6 @@ function *f() { 1 ? yield 2 : 3; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

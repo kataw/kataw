@@ -158,6 +158,6 @@ for (const x in obj) { var x = 13 }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

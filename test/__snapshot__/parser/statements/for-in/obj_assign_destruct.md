@@ -173,6 +173,9 @@ for ({x:a.b}=x in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 19, end: 20
+@{x2716}@ Expression expected - start: 19, end: 20
+@{x2716}@ Unexpected token. - start: 19, end: 20
 
 ```
 

@@ -109,6 +109,12 @@ async () => {  c\u006fntinue = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 28
+@{x2716}@ Expression expected - start: 28, end: 30
+@{x2716}@ Unexpected token. - start: 28, end: 30
+@{x2716}@ Unexpected token. - start: 28, end: 30
+@{x2716}@ Statement expected - start: 28, end: 30
+@{x2716}@ Statement expected - start: 32, end: 35
 
 ```
 

@@ -175,6 +175,6 @@ var x,y; export {x as a, y as b}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

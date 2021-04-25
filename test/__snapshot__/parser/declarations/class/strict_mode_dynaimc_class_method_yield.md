@@ -171,6 +171,6 @@ class x{[yield](a){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

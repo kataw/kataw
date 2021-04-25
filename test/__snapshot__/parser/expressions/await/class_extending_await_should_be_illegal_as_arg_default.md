@@ -201,6 +201,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

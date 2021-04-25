@@ -268,6 +268,9 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 61, end: 64
+@{x2716}@ Statement expected - start: 61, end: 64
+@{x2716}@ Statement expected - start: 67, end: 73
 
 ```
 

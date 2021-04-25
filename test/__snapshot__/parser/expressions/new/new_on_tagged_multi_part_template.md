@@ -115,6 +115,6 @@ new Foo`a${b}c${c}e`
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

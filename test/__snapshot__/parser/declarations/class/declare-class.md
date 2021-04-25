@@ -169,6 +169,8 @@ declare class A { static foo(): number; static x : string }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 28, end: 29
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 48, end: 50
 
 ```
 

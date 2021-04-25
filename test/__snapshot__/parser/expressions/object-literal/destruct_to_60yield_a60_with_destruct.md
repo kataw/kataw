@@ -140,6 +140,8 @@ s = {"foo": yield a = x} = x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 17, end: 19
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 24, end: 26
 
 ```
 

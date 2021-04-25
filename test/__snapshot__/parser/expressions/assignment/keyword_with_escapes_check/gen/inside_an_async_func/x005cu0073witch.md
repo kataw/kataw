@@ -122,6 +122,11 @@ async () => {  \u0073witch = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 26, end: 28
+@{x2716}@ Expression expected - start: 26, end: 28
+@{x2716}@ Unexpected token. - start: 30, end: 33
+@{x2716}@ Unexpected token. - start: 30, end: 33
+@{x2716}@ Unexpected token. - start: 33, end: 33
 
 ```
 

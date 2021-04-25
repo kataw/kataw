@@ -101,6 +101,9 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 16
+@{x2716}@ Binding identifier expected - start: 16, end: 17
+@{x2716}@ Statement expected - start: 20, end: 21
 
 ```
 

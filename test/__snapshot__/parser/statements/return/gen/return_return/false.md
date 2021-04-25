@@ -70,6 +70,9 @@ return false return
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
+@{x2716}@ Unexpected token. - start: 12, end: 19
+@{x2716}@ A return statement can only be used within a function_body - start: 12, end: 19
 
 ```
 

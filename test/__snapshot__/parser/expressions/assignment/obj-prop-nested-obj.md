@@ -200,6 +200,6 @@ result = { x: { y } } = { x: { y: 2 } };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -137,6 +137,10 @@ class x {async * true(){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A rest element cannot have an initializer - start: 16, end: 21
+@{x2716}@ Unexpected token. - start: 16, end: 21
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Statement expected - start: 25, end: 26
 
 ```
 

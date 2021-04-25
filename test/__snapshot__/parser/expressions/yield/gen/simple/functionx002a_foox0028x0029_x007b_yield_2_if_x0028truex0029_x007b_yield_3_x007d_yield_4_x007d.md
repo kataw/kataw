@@ -218,6 +218,6 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

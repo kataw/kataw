@@ -102,6 +102,6 @@ a?b:c=d
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

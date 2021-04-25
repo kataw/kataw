@@ -115,6 +115,6 @@ x = {10(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

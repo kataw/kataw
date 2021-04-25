@@ -173,6 +173,6 @@ let [a=[...b], ...c] = obj;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

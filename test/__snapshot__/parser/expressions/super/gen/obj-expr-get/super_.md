@@ -138,6 +138,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'super' must be followed by an argument list or member access. - start: 18, end: 19
+@{x2716}@ Dot property must be an identifier - start: 18, end: 19
 
 ```
 

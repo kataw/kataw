@@ -62,6 +62,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 7, end: 8
 
 ```
 

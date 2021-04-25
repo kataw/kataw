@@ -137,6 +137,6 @@ class Foo<T> extends Bar<T> { }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

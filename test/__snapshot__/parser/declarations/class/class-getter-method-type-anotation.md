@@ -141,6 +141,6 @@ class Foo {get fooProp():number{}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

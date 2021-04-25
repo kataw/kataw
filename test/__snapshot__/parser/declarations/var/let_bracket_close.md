@@ -79,6 +79,8 @@ var ];
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 5
+@{x2716}@ Statement expected - start: 3, end: 5
 
 ```
 

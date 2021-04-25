@@ -3158,6 +3158,10 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. 'let' is a reserved word in strict mode - start: 877, end: 883
+@{x2716}@ Unexpected token. - start: 877, end: 883
+@{x2716}@ Identifier expected. 'let' is a reserved word in strict mode - start: 913, end: 919
+@{x2716}@ Unexpected token. - start: 913, end: 919
 
 ```
 

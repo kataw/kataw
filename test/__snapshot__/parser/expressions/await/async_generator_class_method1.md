@@ -290,6 +290,6 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

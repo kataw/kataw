@@ -209,6 +209,7 @@ var {x:y=z}, {a:b=c} = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in destructuring declaration - start: 11, end: 12
 
 ```
 

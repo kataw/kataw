@@ -130,6 +130,6 @@ foo(async async => ok).bar
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

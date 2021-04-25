@@ -52,6 +52,7 @@ import.call
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Cannot use 'import.meta' outside a module - start: 11, end: 11
 
 ```
 

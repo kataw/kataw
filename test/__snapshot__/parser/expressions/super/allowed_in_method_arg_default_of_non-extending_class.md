@@ -162,6 +162,6 @@ class x { foo(x=super.foo){ }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -110,6 +110,6 @@ for ("foo"[x] of c) d;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

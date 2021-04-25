@@ -134,6 +134,14 @@ switch( try { !xxx case
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 18, end: 23
+@{x2716}@ Unexpected token. - start: 18, end: 23
+@{x2716}@ Unexpected token. - start: 18, end: 23
+@{x2716}@ Unexpected token. - start: 23, end: 23
 
 ```
 

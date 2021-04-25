@@ -292,6 +292,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 62, end: 66
 
 ```
 

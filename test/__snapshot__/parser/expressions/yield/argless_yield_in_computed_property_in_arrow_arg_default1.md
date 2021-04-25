@@ -190,6 +190,6 @@ function *g(){ (x = {[yield]: 1}) => z }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

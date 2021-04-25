@@ -150,6 +150,7 @@ class x {static set while(x){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 25, end: 26
 
 ```
 

@@ -163,6 +163,6 @@ function g(a:number=1, e:number=1) {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

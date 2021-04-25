@@ -89,6 +89,6 @@ class A extends `temp {waitforit} late` {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

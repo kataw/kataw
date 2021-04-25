@@ -201,6 +201,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

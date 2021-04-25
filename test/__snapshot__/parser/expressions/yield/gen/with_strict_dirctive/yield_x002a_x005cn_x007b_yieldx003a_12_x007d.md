@@ -138,6 +138,15 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 21, end: 22
+@{x2716}@ Expression expected - start: 21, end: 23
+@{x2716}@ Unexpected token. - start: 21, end: 23
+@{x2716}@ Statement expected - start: 21, end: 23
+@{x2716}@ Unexpected token. - start: 24, end: 26
+@{x2716}@ Unexpected token. - start: 32, end: 33
+@{x2716}@ Unexpected token. - start: 32, end: 33
+@{x2716}@ Statement expected - start: 32, end: 33
+@{x2716}@ Statement expected - start: 36, end: 38
 
 ```
 

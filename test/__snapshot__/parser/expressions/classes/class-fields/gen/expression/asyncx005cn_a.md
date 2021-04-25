@@ -144,6 +144,13 @@ class C extends Base { async\n a }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 22, end: 28
+@{x2716}@ Invalid hexadecimal escape sequence - start: 28, end: 28
+@{x2716}@ A rest element cannot have an initializer - start: 28, end: 29
+@{x2716}@ Unexpected token. - start: 28, end: 29
+@{x2716}@ Statement expected - start: 28, end: 29
+@{x2716}@ Unexpected token. - start: 30, end: 32
+@{x2716}@ Statement expected - start: 32, end: 34
 
 ```
 

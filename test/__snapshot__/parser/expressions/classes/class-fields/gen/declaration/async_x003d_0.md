@@ -103,6 +103,7 @@ class C { async = 0 }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A rest element cannot have an initializer - start: 15, end: 17
 
 ```
 

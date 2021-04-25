@@ -126,6 +126,7 @@ yield * 1; return 37; yield * 'dead';
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 10, end: 17
 
 ```
 

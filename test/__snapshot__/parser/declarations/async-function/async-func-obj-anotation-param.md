@@ -176,6 +176,6 @@ async function foo({x}: { x: string; }) {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -72,6 +72,6 @@ for (`temp {waitforit} late` in x) ;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

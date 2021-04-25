@@ -118,6 +118,7 @@ do a > b instanceof c while (x);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 21, end: 27
 
 ```
 

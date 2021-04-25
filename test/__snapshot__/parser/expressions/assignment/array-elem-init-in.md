@@ -150,6 +150,6 @@ result = [ x = 'x' in {} ] = vals;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

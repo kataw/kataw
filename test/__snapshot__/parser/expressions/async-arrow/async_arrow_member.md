@@ -94,6 +94,7 @@ async("foo".bar) => x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 16, end: 19
 
 ```
 

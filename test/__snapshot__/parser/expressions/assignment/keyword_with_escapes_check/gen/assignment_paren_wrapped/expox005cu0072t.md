@@ -95,6 +95,14 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 1, end: 12
+@{x2716}@ Unexpected token. - start: 1, end: 12
+@{x2716}@ Unexpected token. - start: 1, end: 12
+@{x2716}@ The `export` keyword can only be used with the module goal - start: 1, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 14
+@{x2716}@ Statement expected - start: 12, end: 14
+@{x2716}@ Unexpected token. - start: 16, end: 17
+@{x2716}@ Statement expected - start: 16, end: 17
 
 ```
 

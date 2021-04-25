@@ -52,6 +52,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unterminated template literal - start: 0, end: 7
 
 ```
 

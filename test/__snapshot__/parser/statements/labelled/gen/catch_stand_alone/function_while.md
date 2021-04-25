@@ -109,6 +109,14 @@ catch function while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 0, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 14
+@{x2716}@ Unexpected token. - start: 5, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 20, end: 20
+@{x2716}@ Expression expected - start: 20, end: 20
+@{x2716}@ Unexpected token. - start: 20, end: 20
+@{x2716}@ Expression expected - start: 20, end: 20
 
 ```
 

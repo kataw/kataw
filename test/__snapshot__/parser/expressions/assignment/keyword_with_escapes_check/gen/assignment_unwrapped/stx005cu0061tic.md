@@ -72,6 +72,6 @@ st\u0061tic = x;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

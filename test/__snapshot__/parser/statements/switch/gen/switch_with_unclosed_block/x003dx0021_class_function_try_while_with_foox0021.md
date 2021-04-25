@@ -298,6 +298,26 @@ switch {} default(x) { =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 8
+@{x2716}@ Unexpected token. - start: 9, end: 17
+@{x2716}@ Unexpected token. - start: 9, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 18
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 24
+@{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 24, end: 25
+@{x2716}@ Unexpected token. - start: 31, end: 40
+@{x2716}@ Unexpected token. - start: 31, end: 40
+@{x2716}@ Binding identifier expected - start: 40, end: 44
+@{x2716}@ Unexpected token. - start: 40, end: 44
+@{x2716}@ Unexpected token. - start: 40, end: 44
+@{x2716}@ Unexpected token. - start: 40, end: 44
+@{x2716}@ Unexpected token. - start: 44, end: 50
+@{x2716}@ Unexpected token. - start: 44, end: 50
+@{x2716}@ Unexpected token. - start: 50, end: 55
+@{x2716}@ Unexpected token. - start: 55, end: 59
+@{x2716}@ Unexpected token. - start: 59, end: 60
+@{x2716}@ Expression expected - start: 60, end: 60
+@{x2716}@ Unexpected token. - start: 60, end: 60
 
 ```
 

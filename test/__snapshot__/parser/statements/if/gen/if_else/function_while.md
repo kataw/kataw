@@ -144,6 +144,17 @@ if function while else
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 11
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 22
+@{x2716}@ Expression expected - start: 17, end: 22
+@{x2716}@ Unexpected token. - start: 17, end: 22
+@{x2716}@ Expression expected - start: 17, end: 22
+@{x2716}@ Unexpected token. - start: 17, end: 22
+@{x2716}@ Expression expected - start: 22, end: 22
 
 ```
 

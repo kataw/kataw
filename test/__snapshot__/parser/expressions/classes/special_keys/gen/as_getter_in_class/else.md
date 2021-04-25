@@ -126,6 +126,6 @@ class x {get else(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

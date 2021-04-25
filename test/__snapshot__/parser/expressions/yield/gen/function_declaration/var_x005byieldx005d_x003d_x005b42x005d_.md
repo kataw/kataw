@@ -172,6 +172,7 @@ function not_gen() { var [yield] = [42]; }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 42, end: 43
 
 ```
 

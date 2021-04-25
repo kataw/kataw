@@ -124,6 +124,7 @@ switch (x) { case y: break; default: return; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 36, end: 43
 
 ```
 

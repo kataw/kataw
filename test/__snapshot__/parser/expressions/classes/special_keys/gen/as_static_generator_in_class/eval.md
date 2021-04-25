@@ -126,6 +126,6 @@ class x {static * eval(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

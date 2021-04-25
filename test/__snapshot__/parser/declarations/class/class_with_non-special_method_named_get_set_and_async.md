@@ -238,6 +238,6 @@ class A {"set"(){} "get"(){} "async"(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

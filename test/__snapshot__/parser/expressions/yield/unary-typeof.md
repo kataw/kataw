@@ -134,6 +134,6 @@ function *f() {  return typeof yield foo;  }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

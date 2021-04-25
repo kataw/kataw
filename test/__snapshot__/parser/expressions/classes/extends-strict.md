@@ -241,6 +241,7 @@ class C extends (function B() {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'with' statements are not allowed in strict mode. - start: 39, end: 46
 
 ```
 

@@ -135,6 +135,15 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 10, end: 16
+@{x2716}@ Unexpected token. - start: 10, end: 16
+@{x2716}@ Unexpected token. - start: 10, end: 16
+@{x2716}@ Unexpected token. - start: 10, end: 16
+@{x2716}@ Unexpected token. - start: 16, end: 16
+@{x2716}@ Expression expected - start: 16, end: 16
+@{x2716}@ Unexpected token. - start: 16, end: 16
+@{x2716}@ Expression expected - start: 16, end: 16
+@{x2716}@ Unexpected token. - start: 16, end: 16
 
 ```
 

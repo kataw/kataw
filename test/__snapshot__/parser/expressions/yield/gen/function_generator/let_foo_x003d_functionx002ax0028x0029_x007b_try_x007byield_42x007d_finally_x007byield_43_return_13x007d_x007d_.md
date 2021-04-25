@@ -348,6 +348,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -167,6 +167,6 @@ function * gen() { (yield) ? yield : yield }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

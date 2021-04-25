@@ -126,6 +126,6 @@ var { x: x = 10 } = x;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

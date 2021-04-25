@@ -101,6 +101,10 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Cannot use 'import.meta' outside a module - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
 
 ```
 

@@ -96,6 +96,7 @@ switch (x) { default: continue foo; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 21, end: 30
 
 ```
 

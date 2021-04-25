@@ -159,6 +159,6 @@ function f(a = async x => {}) {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

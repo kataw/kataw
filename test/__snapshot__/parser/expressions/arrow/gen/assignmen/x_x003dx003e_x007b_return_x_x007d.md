@@ -123,6 +123,6 @@ x = x => { return x; } ;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

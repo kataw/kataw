@@ -260,6 +260,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 84, end: 85
 
 ```
 

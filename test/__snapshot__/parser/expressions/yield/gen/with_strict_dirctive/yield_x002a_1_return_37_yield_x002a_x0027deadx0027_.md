@@ -135,6 +135,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 24, end: 31
 
 ```
 

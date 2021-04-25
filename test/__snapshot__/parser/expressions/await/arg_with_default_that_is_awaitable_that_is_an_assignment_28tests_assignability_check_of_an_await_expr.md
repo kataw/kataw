@@ -133,6 +133,7 @@ function call(foo=await bar=10){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 23, end: 27
 
 ```
 

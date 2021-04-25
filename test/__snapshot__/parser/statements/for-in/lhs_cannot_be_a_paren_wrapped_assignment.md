@@ -102,6 +102,7 @@ for ((x = y) in z) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 15, end: 17
 
 ```
 

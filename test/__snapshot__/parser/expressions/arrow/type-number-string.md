@@ -82,6 +82,7 @@ type number = string;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 4, end: 11
 
 ```
 

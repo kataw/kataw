@@ -167,6 +167,6 @@ function a<string>(x: string): string {
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

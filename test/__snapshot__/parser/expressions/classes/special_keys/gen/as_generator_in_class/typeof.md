@@ -121,6 +121,6 @@ class x {* typeof(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

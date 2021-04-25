@@ -106,6 +106,12 @@ switch case /false//a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Expression expected - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 21, end: 21
+@{x2716}@ Unexpected token. - start: 21, end: 21
 
 ```
 

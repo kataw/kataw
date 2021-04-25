@@ -111,6 +111,7 @@ class C { static aaa }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 20, end: 22
 
 ```
 

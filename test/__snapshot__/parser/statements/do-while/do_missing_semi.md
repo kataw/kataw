@@ -113,6 +113,6 @@ do;while(j)try{}finally{}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

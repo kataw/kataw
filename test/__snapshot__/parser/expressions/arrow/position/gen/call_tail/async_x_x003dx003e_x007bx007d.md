@@ -137,6 +137,6 @@ foo(async x => {}).bar
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

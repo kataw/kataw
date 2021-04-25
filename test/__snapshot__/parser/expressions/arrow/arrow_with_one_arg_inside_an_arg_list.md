@@ -161,6 +161,6 @@ f(((a) => a + b)(1, 4), 5);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

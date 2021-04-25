@@ -235,6 +235,6 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

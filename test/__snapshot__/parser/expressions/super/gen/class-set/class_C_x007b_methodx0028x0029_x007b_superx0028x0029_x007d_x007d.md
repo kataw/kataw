@@ -262,6 +262,7 @@ class C { set x(_) { class C { method() { super(); } } } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 47, end: 48
 
 ```
 

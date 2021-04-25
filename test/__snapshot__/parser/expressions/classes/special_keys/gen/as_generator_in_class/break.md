@@ -121,6 +121,6 @@ class x {* break(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -200,6 +200,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'use strict' directive cannot be used with non-simple parameter list. - start: 68, end: 69
 
 ```
 

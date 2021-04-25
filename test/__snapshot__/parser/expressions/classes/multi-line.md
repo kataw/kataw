@@ -111,6 +111,6 @@ class C extends (
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

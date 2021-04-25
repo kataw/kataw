@@ -96,6 +96,9 @@ for(x of 3)break/
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 16, end: 17
+@{x2716}@ Expression expected - start: 16, end: 18
+@{x2716}@ Unexpected token. - start: 16, end: 18
 
 ```
 

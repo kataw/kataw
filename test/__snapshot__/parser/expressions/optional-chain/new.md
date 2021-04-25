@@ -88,6 +88,7 @@ new foo?.bar
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid optional chain from new expression - start: 7, end: 9
 
 ```
 

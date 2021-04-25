@@ -188,6 +188,6 @@ function *g() { (x = u + yield z) => {}; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

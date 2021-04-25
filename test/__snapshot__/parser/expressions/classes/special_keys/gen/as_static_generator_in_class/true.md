@@ -137,6 +137,10 @@ class x {static * true(){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A rest element cannot have an initializer - start: 17, end: 22
+@{x2716}@ Unexpected token. - start: 17, end: 22
+@{x2716}@ Unexpected token. - start: 24, end: 25
+@{x2716}@ Statement expected - start: 26, end: 27
 
 ```
 

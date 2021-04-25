@@ -113,6 +113,7 @@ export var foo, bar;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The `export` keyword can only be used with the module goal - start: 0, end: 6
 
 ```
 

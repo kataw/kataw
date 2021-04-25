@@ -155,6 +155,6 @@ for ({a: b.c}[x] of d) e
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

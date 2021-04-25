@@ -83,6 +83,6 @@ f(new /z/)
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

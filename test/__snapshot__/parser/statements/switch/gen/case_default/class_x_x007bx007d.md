@@ -69,6 +69,8 @@ case class x {} default
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
+@{x2716}@ Statement expected - start: 15, end: 23
 
 ```
 

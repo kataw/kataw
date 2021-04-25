@@ -171,6 +171,6 @@ class Foo {set fooProp(value:number):void{}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

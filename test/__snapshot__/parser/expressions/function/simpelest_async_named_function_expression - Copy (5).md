@@ -121,6 +121,6 @@ foo(async function f(){})
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

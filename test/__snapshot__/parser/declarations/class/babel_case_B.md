@@ -115,6 +115,8 @@ x = class{} / x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ Unexpected token. - start: 11, end: 15
 
 ```
 

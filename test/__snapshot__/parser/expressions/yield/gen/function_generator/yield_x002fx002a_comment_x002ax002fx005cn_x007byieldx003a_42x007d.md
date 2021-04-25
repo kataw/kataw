@@ -212,6 +212,18 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 45, end: 59
+@{x2716}@ Unexpected token. - start: 45, end: 60
+@{x2716}@ Unexpected token. - start: 45, end: 60
+@{x2716}@ Unexpected token. - start: 45, end: 60
+@{x2716}@ Statement expected - start: 45, end: 60
+@{x2716}@ Unexpected token. - start: 61, end: 63
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ Statement expected - start: 68, end: 69
+@{x2716}@ Statement expected - start: 72, end: 73
+@{x2716}@ Statement expected - start: 73, end: 75
+@{x2716}@ Statement expected - start: 75, end: 76
 
 ```
 

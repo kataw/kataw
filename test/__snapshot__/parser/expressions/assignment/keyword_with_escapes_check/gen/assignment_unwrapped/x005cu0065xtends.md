@@ -52,6 +52,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 12
+@{x2716}@ Statement expected - start: 12, end: 14
 
 ```
 

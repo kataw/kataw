@@ -187,6 +187,6 @@ class x{ constructor(){} 9(){} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

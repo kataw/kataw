@@ -102,6 +102,6 @@ foo`x${a}y${b}z`
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

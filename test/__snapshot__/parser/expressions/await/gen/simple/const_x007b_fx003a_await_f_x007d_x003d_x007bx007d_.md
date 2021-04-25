@@ -145,6 +145,7 @@ const { f: await f } = {};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 16, end: 18
 
 ```
 

@@ -103,6 +103,8 @@ class new {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 5, end: 9
+@{x2716}@ Unexpected token. - start: 5, end: 9
 
 ```
 

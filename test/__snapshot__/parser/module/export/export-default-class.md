@@ -89,6 +89,7 @@ export default class {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 20, end: 22
 
 ```
 

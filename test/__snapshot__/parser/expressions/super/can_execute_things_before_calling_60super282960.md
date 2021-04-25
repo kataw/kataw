@@ -235,6 +235,6 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

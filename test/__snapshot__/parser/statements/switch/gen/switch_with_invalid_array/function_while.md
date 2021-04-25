@@ -190,6 +190,23 @@ switch [catch] function while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 23
+@{x2716}@ Binding identifier expected - start: 23, end: 29
+@{x2716}@ Unexpected token. - start: 23, end: 29
+@{x2716}@ Unexpected token. - start: 23, end: 29
+@{x2716}@ Unexpected token. - start: 23, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Expression expected - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Expression expected - start: 29, end: 29
 
 ```
 

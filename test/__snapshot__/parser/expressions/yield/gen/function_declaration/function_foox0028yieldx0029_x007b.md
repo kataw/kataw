@@ -154,6 +154,6 @@ function not_gen() { function foo(yield) { }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -167,6 +167,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 23, end: 25
 
 ```
 

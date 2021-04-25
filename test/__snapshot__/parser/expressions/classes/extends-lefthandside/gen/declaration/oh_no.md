@@ -117,6 +117,9 @@ class A extends oh,no {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 18, end: 19
+@{x2716}@ Statement expected - start: 18, end: 19
+@{x2716}@ Unexpected token. - start: 21, end: 23
 
 ```
 

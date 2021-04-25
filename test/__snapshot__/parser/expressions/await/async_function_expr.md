@@ -160,6 +160,7 @@ let x = async function f(foo = await){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 36, end: 37
 
 ```
 

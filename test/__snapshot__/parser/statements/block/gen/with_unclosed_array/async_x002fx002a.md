@@ -82,6 +82,10 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 12
+@{x2716}@ ',' expected - start: 8, end: 12
+@{x2716}@ Unexpected token. - start: 8, end: 12
+@{x2716}@ Unexpected token. - start: 8, end: 12
 
 ```
 

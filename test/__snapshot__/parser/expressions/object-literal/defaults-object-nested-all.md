@@ -173,6 +173,6 @@ var {x = 10, y: { z = 10}} = a;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

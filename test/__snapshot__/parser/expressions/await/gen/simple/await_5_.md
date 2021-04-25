@@ -66,6 +66,7 @@ await 5;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 5, end: 7
 
 ```
 

@@ -120,6 +120,7 @@ function *f(x=yield){ }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ `Yield` expression cannot be used in function parameters - start: 19, end: 20
 
 ```
 

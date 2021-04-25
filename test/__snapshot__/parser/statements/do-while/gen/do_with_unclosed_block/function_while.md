@@ -175,6 +175,15 @@ do {} while (x) { function while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 26, end: 32
+@{x2716}@ Unexpected token. - start: 26, end: 32
+@{x2716}@ Unexpected token. - start: 26, end: 32
+@{x2716}@ Unexpected token. - start: 26, end: 32
+@{x2716}@ Unexpected token. - start: 32, end: 32
+@{x2716}@ Expression expected - start: 32, end: 32
+@{x2716}@ Unexpected token. - start: 32, end: 32
+@{x2716}@ Expression expected - start: 32, end: 32
+@{x2716}@ Unexpected token. - start: 32, end: 32
 
 ```
 

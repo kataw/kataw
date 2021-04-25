@@ -106,6 +106,7 @@ export default function () {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 23, end: 25
 
 ```
 

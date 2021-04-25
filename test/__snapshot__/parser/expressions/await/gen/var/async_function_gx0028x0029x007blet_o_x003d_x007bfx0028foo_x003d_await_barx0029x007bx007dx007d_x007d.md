@@ -354,6 +354,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 80, end: 84
 
 ```
 

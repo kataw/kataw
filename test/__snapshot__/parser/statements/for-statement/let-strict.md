@@ -104,6 +104,6 @@ for(let a, let;;);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

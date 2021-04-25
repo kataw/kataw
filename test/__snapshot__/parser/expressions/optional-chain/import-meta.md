@@ -167,6 +167,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 53, end: 54
 
 ```
 

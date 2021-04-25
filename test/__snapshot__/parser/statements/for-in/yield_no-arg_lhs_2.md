@@ -148,6 +148,7 @@ function *f(){   for (yield in y);   }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 30, end: 32
 
 ```
 

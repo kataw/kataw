@@ -166,6 +166,9 @@ do {} while (x) { async funcion switch!!
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 31, end: 38
+@{x2716}@ Expression expected - start: 40, end: 40
+@{x2716}@ Unexpected token. - start: 40, end: 40
 
 ```
 

@@ -54,6 +54,6 @@ xxx\u{65}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

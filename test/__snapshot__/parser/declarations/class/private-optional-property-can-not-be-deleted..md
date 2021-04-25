@@ -242,6 +242,11 @@ class Foo {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 53, end: 55
+@{x2716}@ Unexpected token. - start: 53, end: 55
+@{x2716}@ Unterminated template literal - start: 55, end: 62
+@{x2716}@ Unexpected token. - start: 62, end: 62
+@{x2716}@ Unexpected token. - start: 62, end: 62
 
 ```
 

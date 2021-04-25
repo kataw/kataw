@@ -152,6 +152,6 @@ let x = function *f(foo = await){}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -134,6 +134,16 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 8, end: 14
+@{x2716}@ Invalid hexadecimal escape sequence - start: 14, end: 14
+@{x2716}@ A rest element cannot have an initializer - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 16, end: 18
+@{x2716}@ Statement expected - start: 18, end: 20
+@{x2716}@ Statement expected - start: 20, end: 21
 
 ```
 

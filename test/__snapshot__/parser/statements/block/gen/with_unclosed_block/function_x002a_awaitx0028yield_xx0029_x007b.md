@@ -243,6 +243,19 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 4, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ `Yield` expression cannot be used in function parameters - start: 35, end: 40
+@{x2716}@ ',' expected - start: 40, end: 42
+@{x2716}@ Unexpected token. - start: 43, end: 45
+@{x2716}@ Unexpected token. - start: 43, end: 45
+@{x2716}@ Unexpected token. - start: 47, end: 47
+@{x2716}@ Unexpected token. - start: 47, end: 47
 
 ```
 

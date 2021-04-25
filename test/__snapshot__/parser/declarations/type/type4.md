@@ -1249,6 +1249,17 @@ type T27 = ArgumentType<never>;  // any
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 129, end: 132
+@{x2716}@ Identifier expected - start: 129, end: 132
+@{x2716}@ Unexpected token. - start: 129, end: 132
+@{x2716}@ Unexpected token. - start: 129, end: 132
+@{x2716}@ Unexpected token. - start: 129, end: 132
+@{x2716}@ Unexpected token. - start: 129, end: 132
+@{x2716}@ Statement expected - start: 129, end: 132
+@{x2716}@ Unexpected token. - start: 134, end: 135
+@{x2716}@ Statement expected - start: 134, end: 135
+@{x2716}@ Expression expected - start: 135, end: 136
+@{x2716}@ Expression expected - start: 136, end: 137
 
 ```
 

@@ -114,6 +114,19 @@ do do do /**/ /x do while while while while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 15
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Expression expected - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Expression expected - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
+@{x2716}@ Expression expected - start: 43, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 43
 
 ```
 

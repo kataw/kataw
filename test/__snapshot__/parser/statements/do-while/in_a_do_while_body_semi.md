@@ -90,6 +90,6 @@ do x, y; while (z)
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

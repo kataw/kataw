@@ -149,6 +149,6 @@ opaque type Counter: Box<T> = Container<T>;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

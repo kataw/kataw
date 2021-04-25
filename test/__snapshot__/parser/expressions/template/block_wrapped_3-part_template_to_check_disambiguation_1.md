@@ -133,6 +133,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 1, end: 8
 
 ```
 

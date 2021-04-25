@@ -106,6 +106,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'new.target' only allowed within functions - start: 21, end: 27
 
 ```
 

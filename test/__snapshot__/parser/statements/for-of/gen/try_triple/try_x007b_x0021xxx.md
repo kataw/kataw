@@ -149,6 +149,12 @@ try try try try { !xxx
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 7
+@{x2716}@ Unexpected token. - start: 3, end: 7
+@{x2716}@ Unexpected token. - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 11, end: 15
+@{x2716}@ Unexpected token. - start: 11, end: 15
+@{x2716}@ Unexpected token. - start: 22, end: 22
 
 ```
 

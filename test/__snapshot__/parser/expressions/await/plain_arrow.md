@@ -254,6 +254,6 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

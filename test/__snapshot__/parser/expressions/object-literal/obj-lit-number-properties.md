@@ -431,6 +431,6 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

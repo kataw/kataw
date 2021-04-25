@@ -134,6 +134,6 @@ switch (A) {case B: C; case D: E;}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

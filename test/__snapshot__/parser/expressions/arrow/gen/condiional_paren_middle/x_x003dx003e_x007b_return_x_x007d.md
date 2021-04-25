@@ -143,6 +143,6 @@ bar ? (x => { return x; }) : baz;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

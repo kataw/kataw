@@ -119,6 +119,7 @@ _ => _
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 12, end: 12
 
 ```
 

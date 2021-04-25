@@ -72,6 +72,6 @@ foo, bar, zoo
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

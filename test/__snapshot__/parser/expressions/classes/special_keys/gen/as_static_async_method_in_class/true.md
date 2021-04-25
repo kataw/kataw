@@ -137,6 +137,10 @@ class x {static async true(){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 21, end: 26
+@{x2716}@ Unexpected token. - start: 21, end: 26
+@{x2716}@ Unexpected token. - start: 28, end: 29
+@{x2716}@ Statement expected - start: 30, end: 31
 
 ```
 

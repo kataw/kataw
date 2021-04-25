@@ -347,6 +347,6 @@ let {x}: string = y;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

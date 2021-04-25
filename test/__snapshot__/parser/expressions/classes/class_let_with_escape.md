@@ -65,6 +65,7 @@ class l\u0065t {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 5, end: 14
 
 ```
 

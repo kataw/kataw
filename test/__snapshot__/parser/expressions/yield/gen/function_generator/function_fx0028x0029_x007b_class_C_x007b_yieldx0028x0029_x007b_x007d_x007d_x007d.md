@@ -273,6 +273,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

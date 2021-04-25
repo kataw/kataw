@@ -92,6 +92,6 @@ var a: 0b1111011
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -134,6 +134,6 @@ x, [foo = y, bar] = doo
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

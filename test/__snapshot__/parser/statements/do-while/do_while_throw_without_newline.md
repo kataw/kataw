@@ -166,6 +166,7 @@ do throw function (v, h) {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 43, end: 49
 
 ```
 

@@ -172,6 +172,7 @@ async function f(){ let y = x => await x; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 38, end: 40
 
 ```
 

@@ -109,6 +109,9 @@ for (oh,no in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 15, end: 16
+@{x2716}@ Expression expected - start: 15, end: 16
+@{x2716}@ Unexpected token. - start: 15, end: 16
 
 ```
 

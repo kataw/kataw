@@ -166,6 +166,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 41, end: 43
 
 ```
 

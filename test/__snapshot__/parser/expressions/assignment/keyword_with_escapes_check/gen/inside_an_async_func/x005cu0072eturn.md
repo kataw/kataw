@@ -115,6 +115,7 @@ async () => {  \u0072eturn = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 26, end: 28
 
 ```
 

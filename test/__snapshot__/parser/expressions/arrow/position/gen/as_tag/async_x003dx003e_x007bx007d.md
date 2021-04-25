@@ -113,6 +113,7 @@ async => {}`foo`
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Block body arrows can not be immediately tagged without a group - start: 11, end: 16
 
 ```
 

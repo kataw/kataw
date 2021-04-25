@@ -139,6 +139,8 @@ let [... ...foo] = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 8, end: 12
+@{x2716}@ ',' expected - start: 8, end: 12
 
 ```
 

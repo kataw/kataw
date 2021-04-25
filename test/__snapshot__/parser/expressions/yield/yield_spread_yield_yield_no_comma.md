@@ -159,6 +159,6 @@ function *g() {yield {     ...yield yield    };}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

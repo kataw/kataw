@@ -108,6 +108,7 @@ class x extends delete {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 25, end: 25
 
 ```
 

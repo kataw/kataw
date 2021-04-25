@@ -95,6 +95,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 6, end: 7
 
 ```
 

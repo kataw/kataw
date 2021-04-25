@@ -139,6 +139,7 @@ async function f(){  (await fail) => x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 33, end: 36
 
 ```
 

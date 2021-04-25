@@ -200,6 +200,8 @@ function not_gen() { async function wrap() { async function await() { } }; }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 59, end: 65
+@{x2716}@ Statement expected - start: 76, end: 77
 
 ```
 

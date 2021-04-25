@@ -175,6 +175,6 @@ function *f(){   for (yield x in y in z);   }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

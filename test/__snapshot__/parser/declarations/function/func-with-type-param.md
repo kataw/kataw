@@ -112,6 +112,6 @@ function foo<T>() {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

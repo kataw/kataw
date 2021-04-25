@@ -478,6 +478,6 @@ x = {async __proto__(){}, *__proto__(){}};
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -197,6 +197,7 @@ x = {x: [{a = b}] + x}.x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid optional chain from new expression - start: 17, end: 19
 
 ```
 

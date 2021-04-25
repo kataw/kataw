@@ -132,6 +132,15 @@ case async try while { catch }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
+@{x2716}@ Unexpected token. - start: 10, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 22, end: 28
+@{x2716}@ Unexpected token. - start: 28, end: 30
+@{x2716}@ Unexpected token. - start: 28, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 30
 
 ```
 

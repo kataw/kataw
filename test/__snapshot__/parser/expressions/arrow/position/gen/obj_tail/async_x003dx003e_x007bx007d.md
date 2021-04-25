@@ -164,6 +164,6 @@ x = {arrow: async => {}}.y
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

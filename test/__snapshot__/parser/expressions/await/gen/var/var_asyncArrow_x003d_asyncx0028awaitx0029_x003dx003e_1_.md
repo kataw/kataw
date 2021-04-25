@@ -285,6 +285,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 67, end: 68
 
 ```
 

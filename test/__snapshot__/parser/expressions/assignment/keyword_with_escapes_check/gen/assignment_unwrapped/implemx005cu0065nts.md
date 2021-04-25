@@ -72,6 +72,6 @@ implem\u0065nts = x;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

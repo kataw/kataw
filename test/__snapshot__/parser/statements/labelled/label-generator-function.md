@@ -101,6 +101,7 @@ label: function * x (){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Generators can only be declared at the top level or inside a block - start: 17, end: 19
 
 ```
 

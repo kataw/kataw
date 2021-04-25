@@ -145,6 +145,10 @@ for (var r == y in x );
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 10, end: 13
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Expression expected - start: 20, end: 22
+@{x2716}@ Unexpected token. - start: 20, end: 22
 
 ```
 

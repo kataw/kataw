@@ -110,6 +110,9 @@ class x {true(){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 9, end: 13
+@{x2716}@ Unexpected token. - start: 15, end: 16
+@{x2716}@ Statement expected - start: 17, end: 18
 
 ```
 

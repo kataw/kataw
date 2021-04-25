@@ -137,6 +137,9 @@ class A extends x in y {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 17, end: 20
+@{x2716}@ Expression expected - start: 17, end: 20
+@{x2716}@ Unexpected token. - start: 22, end: 24
 
 ```
 

@@ -123,6 +123,12 @@ class x extends switch {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 15, end: 22
+@{x2716}@ Unexpected token. - start: 15, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 24
+@{x2716}@ Unexpected token. - start: 25, end: 25
+@{x2716}@ Unexpected token. - start: 25, end: 25
+@{x2716}@ Unexpected token. - start: 25, end: 25
 
 ```
 

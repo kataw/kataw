@@ -112,6 +112,6 @@ x = a > b instanceof c
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

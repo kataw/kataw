@@ -89,6 +89,6 @@ typeof class{}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

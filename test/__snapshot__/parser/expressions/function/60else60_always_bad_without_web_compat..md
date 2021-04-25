@@ -120,6 +120,7 @@ if (x) ; else function f(){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 13, end: 22
 
 ```
 

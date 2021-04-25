@@ -127,6 +127,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression exprected. A compound assignment cannot follow an array literal - start: 19, end: 22
 
 ```
 

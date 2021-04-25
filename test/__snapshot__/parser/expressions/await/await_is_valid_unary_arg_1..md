@@ -258,6 +258,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 56, end: 60
 
 ```
 

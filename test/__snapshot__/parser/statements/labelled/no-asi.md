@@ -59,6 +59,7 @@ debugger /foo/
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 14
 
 ```
 

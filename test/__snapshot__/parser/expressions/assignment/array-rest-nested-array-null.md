@@ -139,6 +139,6 @@ result = [...[x, y]] = vals;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

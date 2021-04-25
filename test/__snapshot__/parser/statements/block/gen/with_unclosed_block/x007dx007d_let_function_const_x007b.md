@@ -238,6 +238,21 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 4, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Statement expected - start: 19, end: 20
+@{x2716}@ Unexpected token. - start: 24, end: 33
+@{x2716}@ Binding identifier expected - start: 33, end: 39
+@{x2716}@ Unexpected token. - start: 33, end: 39
+@{x2716}@ Unexpected token. - start: 33, end: 39
+@{x2716}@ Unexpected token. - start: 33, end: 39
+@{x2716}@ Unexpected token. - start: 41, end: 41
+@{x2716}@ Missing initializer in const declaration - start: 41, end: 41
 
 ```
 

@@ -94,6 +94,7 @@ export const x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in const declaration - start: 14, end: 14
 
 ```
 

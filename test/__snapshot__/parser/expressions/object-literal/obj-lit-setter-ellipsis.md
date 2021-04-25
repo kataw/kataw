@@ -125,6 +125,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'set' accessor cannot have rest parameter. - start: 9, end: 12
 
 ```
 

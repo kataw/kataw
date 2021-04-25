@@ -149,6 +149,7 @@ class A {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'get' accessor cannot have parameters. - start: 22, end: 25
 
 ```
 

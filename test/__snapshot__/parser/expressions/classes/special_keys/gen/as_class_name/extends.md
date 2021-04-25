@@ -89,6 +89,7 @@ class extends {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 16, end: 16
 
 ```
 

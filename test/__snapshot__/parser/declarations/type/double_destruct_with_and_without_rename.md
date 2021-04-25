@@ -154,6 +154,6 @@ var {x : y, z} = obj;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

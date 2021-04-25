@@ -118,6 +118,7 @@ for(const a = 1, let = 2;;);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A lexical declaration can't define a 'let' binding - start: 16, end: 20
 
 ```
 

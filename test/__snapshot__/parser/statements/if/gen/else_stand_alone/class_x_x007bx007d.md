@@ -69,6 +69,7 @@ else class x {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
 
 ```
 

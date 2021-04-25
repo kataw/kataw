@@ -162,6 +162,6 @@ class A { [x=y](foo) {} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

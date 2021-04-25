@@ -146,6 +146,7 @@ switch(0) { default: function f(){ break; } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 40, end: 41
 
 ```
 

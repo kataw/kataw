@@ -79,6 +79,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'with' statements are not allowed in strict mode. - start: 47, end: 52
 
 ```
 

@@ -313,6 +313,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

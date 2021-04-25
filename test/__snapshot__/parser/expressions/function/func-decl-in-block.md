@@ -254,6 +254,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 12, end: 13
 
 ```
 

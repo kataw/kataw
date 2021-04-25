@@ -156,6 +156,6 @@ var {x = 10, y = 5, z = 1} = a;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

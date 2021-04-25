@@ -126,6 +126,6 @@ class x {async * instanceof(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

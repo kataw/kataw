@@ -164,6 +164,6 @@ class C extends Base { set #arguments(test) {} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -152,6 +152,8 @@ x = (a)?c:d=>{}=>{}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 15, end: 17
+@{x2716}@ Statement expected - start: 15, end: 17
 
 ```
 

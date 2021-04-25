@@ -155,6 +155,13 @@ throw {x} catch (x = y) {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 9, end: 15
+@{x2716}@ Unexpected token. - start: 9, end: 15
+@{x2716}@ Unexpected token. - start: 15, end: 17
+@{x2716}@ Unexpected token. - start: 15, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 18
+@{x2716}@ Unexpected token. - start: 22, end: 23
+@{x2716}@ Statement expected - start: 22, end: 23
 
 ```
 

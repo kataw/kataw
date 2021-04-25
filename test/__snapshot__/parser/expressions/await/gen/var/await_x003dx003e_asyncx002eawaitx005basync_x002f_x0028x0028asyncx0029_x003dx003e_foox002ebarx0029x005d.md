@@ -240,6 +240,15 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 44, end: 47
+@{x2716}@ Unexpected token. - start: 44, end: 47
+@{x2716}@ Unexpected token. - start: 44, end: 47
+@{x2716}@ Unexpected token. - start: 44, end: 47
+@{x2716}@ ',' expected - start: 44, end: 47
+@{x2716}@ Unexpected token. - start: 44, end: 47
+@{x2716}@ Statement expected - start: 44, end: 47
+@{x2716}@ Statement expected - start: 89, end: 91
+@{x2716}@ Statement expected - start: 91, end: 92
 
 ```
 

@@ -155,6 +155,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 38, end: 44
+@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 38, end: 44
 
 ```
 

@@ -125,6 +125,7 @@ async function f(foo = await){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 28, end: 29
 
 ```
 

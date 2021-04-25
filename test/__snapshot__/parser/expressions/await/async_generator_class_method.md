@@ -141,6 +141,7 @@ class x {async *f(await){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ `Await` expression cannot be used in function parameters - start: 18, end: 23
 
 ```
 

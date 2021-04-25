@@ -263,6 +263,9 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 53, end: 55
+@{x2716}@ ',' expected - start: 69, end: 75
+@{x2716}@ Unexpected token. - start: 69, end: 75
 
 ```
 

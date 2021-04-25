@@ -130,6 +130,6 @@ do if(8)function s(){}while(y)
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

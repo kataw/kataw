@@ -151,6 +151,7 @@ async function wrap() { async function await() { } };
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 38, end: 44
 
 ```
 

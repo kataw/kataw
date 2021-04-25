@@ -66,6 +66,12 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 7, end: 8
+@{x2716}@ Unexpected token. - start: 7, end: 8
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Statement expected - start: 15, end: 16
 
 ```
 

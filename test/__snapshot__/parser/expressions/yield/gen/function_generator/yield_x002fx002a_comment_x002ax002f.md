@@ -155,6 +155,6 @@ function * gen() { function not_gen() { yield /* comment */ }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

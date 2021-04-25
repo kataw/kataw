@@ -207,6 +207,6 @@ x({set [foo](b){}, set [bar](d){}});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -103,6 +103,6 @@ loop: while (x) { break loop; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

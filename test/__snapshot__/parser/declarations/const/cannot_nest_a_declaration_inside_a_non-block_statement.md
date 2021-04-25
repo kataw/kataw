@@ -136,6 +136,6 @@ switch (x) { case x: const y = x }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

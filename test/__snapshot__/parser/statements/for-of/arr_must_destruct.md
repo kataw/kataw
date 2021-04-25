@@ -142,6 +142,6 @@ for ([{x=y}]=x of x) ;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

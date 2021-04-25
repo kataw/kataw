@@ -191,6 +191,6 @@ var await; var f = (async function() { await 5; });
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

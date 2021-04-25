@@ -189,6 +189,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

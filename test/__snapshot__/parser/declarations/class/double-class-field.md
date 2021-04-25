@@ -133,6 +133,6 @@ class C { aaa; bbb}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

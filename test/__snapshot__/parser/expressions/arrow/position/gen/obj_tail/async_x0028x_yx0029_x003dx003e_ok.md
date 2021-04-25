@@ -155,6 +155,6 @@ x = {arrow: async (x, y) => ok}.y
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

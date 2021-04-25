@@ -138,6 +138,6 @@ var asserted1 = <any>((n) => { return n; });
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

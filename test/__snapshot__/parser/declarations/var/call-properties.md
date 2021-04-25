@@ -250,6 +250,6 @@ var a : { <T>(x: T): number; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

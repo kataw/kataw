@@ -165,6 +165,12 @@ export {bar}, * as foo from 'bar';
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Statement expected - start: 12, end: 13
+@{x2716}@ Expression expected - start: 13, end: 15
+@{x2716}@ Unexpected token. - start: 18, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 27
+@{x2716}@ Unexpected token. - start: 27, end: 33
 
 ```
 

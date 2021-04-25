@@ -168,6 +168,6 @@ class A {async set 11(x){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

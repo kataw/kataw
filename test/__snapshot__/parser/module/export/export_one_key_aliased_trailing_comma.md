@@ -134,6 +134,6 @@ var x; export {x as a,}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

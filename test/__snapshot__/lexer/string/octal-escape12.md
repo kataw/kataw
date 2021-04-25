@@ -48,6 +48,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unterminated string literal - start: 0, end: 4
 
 ```
 

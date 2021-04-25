@@ -155,6 +155,6 @@ x({[a]:b, [15]:d}=obj);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

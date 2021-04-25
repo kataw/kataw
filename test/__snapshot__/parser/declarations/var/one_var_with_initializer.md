@@ -120,6 +120,6 @@ var [foo=a] = arr;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

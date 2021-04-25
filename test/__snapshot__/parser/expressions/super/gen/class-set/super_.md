@@ -178,6 +178,8 @@ class C { set x(_) { super; } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'super' must be followed by an argument list or member access. - start: 26, end: 27
+@{x2716}@ Dot property must be an identifier - start: 26, end: 27
 
 ```
 

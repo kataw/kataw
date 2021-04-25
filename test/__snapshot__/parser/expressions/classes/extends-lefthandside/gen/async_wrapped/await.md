@@ -164,6 +164,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 46, end: 48
 
 ```
 

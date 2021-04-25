@@ -222,6 +222,15 @@ class C { constructor() { class C { get x) { super; } } } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 41, end: 42
+@{x2716}@ Unexpected token. - start: 41, end: 42
+@{x2716}@ Unexpected token. - start: 41, end: 42
+@{x2716}@ Statement expected - start: 41, end: 42
+@{x2716}@ 'super' must be followed by an argument list or member access. - start: 50, end: 51
+@{x2716}@ Dot property must be an identifier - start: 50, end: 51
+@{x2716}@ Statement expected - start: 53, end: 55
+@{x2716}@ Statement expected - start: 55, end: 57
+@{x2716}@ Statement expected - start: 57, end: 59
 
 ```
 

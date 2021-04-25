@@ -276,6 +276,7 @@ var await; var f = (async function() { (class { async method(await) {} }) });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ `Await` expression cannot be used in function parameters - start: 61, end: 66
 
 ```
 

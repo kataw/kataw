@@ -129,6 +129,15 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 8, end: 10
+@{x2716}@ Invalid hexadecimal escape sequence - start: 10, end: 10
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Statement expected - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 12, end: 16
+@{x2716}@ Statement expected - start: 16, end: 18
+@{x2716}@ Statement expected - start: 18, end: 19
 
 ```
 

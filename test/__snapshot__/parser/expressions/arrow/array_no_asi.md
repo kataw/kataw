@@ -124,6 +124,8 @@ async x=>{}[x]
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Block body arrows can not be immediately invoked without a group - start: 11, end: 12
+@{x2716}@ Unexpected token. - start: 11, end: 12
 
 ```
 

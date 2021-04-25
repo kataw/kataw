@@ -94,6 +94,8 @@ import(x,y(
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Unexpected token. - start: 11, end: 11
 
 ```
 

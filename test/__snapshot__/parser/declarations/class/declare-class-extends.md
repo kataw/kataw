@@ -175,6 +175,6 @@ declare class A<T> extends B<T> { x: number }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

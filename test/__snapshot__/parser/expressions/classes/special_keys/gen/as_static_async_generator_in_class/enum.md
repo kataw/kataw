@@ -131,6 +131,7 @@ class x {static async * enum(){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 28, end: 29
 
 ```
 

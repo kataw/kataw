@@ -221,6 +221,6 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

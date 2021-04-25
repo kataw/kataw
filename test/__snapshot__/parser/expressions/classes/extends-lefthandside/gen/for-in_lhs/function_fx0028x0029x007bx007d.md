@@ -111,6 +111,7 @@ for (function f(){} in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 22, end: 24
 
 ```
 

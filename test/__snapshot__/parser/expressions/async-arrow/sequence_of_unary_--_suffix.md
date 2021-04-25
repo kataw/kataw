@@ -99,6 +99,7 @@ async (x--, y) => x;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 14, end: 17
 
 ```
 

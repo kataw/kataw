@@ -54,6 +54,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 0, end: 4
+@{x2716}@ Unterminated string literal - start: 0, end: 4
 
 ```
 

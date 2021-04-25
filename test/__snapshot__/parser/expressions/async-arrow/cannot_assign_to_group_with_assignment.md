@@ -97,6 +97,7 @@ async (a=/i/) = /i/
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 13, end: 15
 
 ```
 

@@ -221,6 +221,28 @@ switch switch switch while try this and !foo
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 13
+@{x2716}@ Expression expected - start: 6, end: 13
+@{x2716}@ Unexpected token. - start: 6, end: 13
+@{x2716}@ Unexpected token. - start: 6, end: 13
+@{x2716}@ Unexpected token. - start: 6, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ Expression expected - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 20, end: 26
+@{x2716}@ Expression expected - start: 20, end: 26
+@{x2716}@ Unexpected token. - start: 20, end: 26
+@{x2716}@ Unexpected token. - start: 20, end: 26
+@{x2716}@ Unexpected token. - start: 20, end: 26
+@{x2716}@ Unexpected token. - start: 26, end: 30
+@{x2716}@ Expression expected - start: 26, end: 30
+@{x2716}@ Unexpected token. - start: 26, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 35
+@{x2716}@ Unexpected token. - start: 30, end: 35
+@{x2716}@ Unexpected token. - start: 35, end: 39
+@{x2716}@ Unexpected token. - start: 39, end: 41
 
 ```
 

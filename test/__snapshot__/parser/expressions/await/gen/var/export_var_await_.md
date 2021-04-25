@@ -219,6 +219,7 @@ var await; var f = (async function() { export var await; });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The `export` keyword can only be used with the module goal - start: 38, end: 45
 
 ```
 

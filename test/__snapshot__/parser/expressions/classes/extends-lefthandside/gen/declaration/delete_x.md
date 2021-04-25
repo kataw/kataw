@@ -101,6 +101,7 @@ class A extends delete x {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'delete' cannot be called on an identifier in strict mode. - start: 24, end: 26
 
 ```
 

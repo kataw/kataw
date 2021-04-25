@@ -138,6 +138,7 @@ for ([a.b]++ of c) d
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-of loop - start: 15, end: 17
 
 ```
 

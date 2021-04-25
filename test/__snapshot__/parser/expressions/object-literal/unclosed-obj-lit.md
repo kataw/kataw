@@ -52,6 +52,9 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Unexpected token. - start: 10, end: 11
 
 ```
 

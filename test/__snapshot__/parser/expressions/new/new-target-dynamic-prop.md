@@ -162,6 +162,6 @@ function f(){ x({[new.target]:y}) }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

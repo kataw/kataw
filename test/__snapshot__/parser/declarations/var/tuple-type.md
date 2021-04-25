@@ -402,6 +402,6 @@ var x: [number, string] = [123, "aladdin"];
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

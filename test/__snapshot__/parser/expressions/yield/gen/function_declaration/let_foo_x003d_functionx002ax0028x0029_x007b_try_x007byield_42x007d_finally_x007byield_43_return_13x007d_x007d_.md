@@ -294,6 +294,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 94, end: 95
 
 ```
 

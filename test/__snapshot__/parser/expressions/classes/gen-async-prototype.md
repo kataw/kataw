@@ -122,6 +122,7 @@ class x { async *prototype(){} }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 26, end: 27
 
 ```
 

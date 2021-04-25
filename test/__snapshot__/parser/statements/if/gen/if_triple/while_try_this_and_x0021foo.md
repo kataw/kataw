@@ -206,6 +206,22 @@ if if if while try this and !foo
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Expression expected - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Expression expected - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 14
+@{x2716}@ Expression expected - start: 8, end: 14
+@{x2716}@ Unexpected token. - start: 8, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 18
+@{x2716}@ Expression expected - start: 14, end: 18
+@{x2716}@ Unexpected token. - start: 14, end: 18
+@{x2716}@ Unexpected token. - start: 18, end: 23
+@{x2716}@ Unexpected token. - start: 18, end: 23
+@{x2716}@ Unexpected token. - start: 23, end: 27
+@{x2716}@ Unexpected token. - start: 27, end: 29
 
 ```
 

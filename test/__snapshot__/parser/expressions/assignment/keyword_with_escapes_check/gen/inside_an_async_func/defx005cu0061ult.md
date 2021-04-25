@@ -88,6 +88,10 @@ async () => {  def\u0061ult = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 13, end: 27
+@{x2716}@ Statement expected - start: 13, end: 27
+@{x2716}@ Statement expected - start: 27, end: 29
+@{x2716}@ Statement expected - start: 31, end: 34
 
 ```
 

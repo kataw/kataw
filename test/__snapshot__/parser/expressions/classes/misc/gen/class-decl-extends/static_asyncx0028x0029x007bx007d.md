@@ -146,6 +146,7 @@ class C extends Base { static async(){} }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 35, end: 36
 
 ```
 

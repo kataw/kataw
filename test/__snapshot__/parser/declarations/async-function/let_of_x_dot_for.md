@@ -103,6 +103,7 @@ for (let.foo of x);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. 'let' is a reserved word in strict mode - start: 12, end: 15
 
 ```
 

@@ -134,6 +134,7 @@ let { ...await f } = {};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 14, end: 16
 
 ```
 

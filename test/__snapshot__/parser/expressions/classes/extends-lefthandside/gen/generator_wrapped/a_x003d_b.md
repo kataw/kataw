@@ -173,6 +173,11 @@ function *P(){
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 34, end: 36
+@{x2716}@ Unexpected token. - start: 34, end: 36
+@{x2716}@ Statement expected - start: 34, end: 36
+@{x2716}@ Unexpected token. - start: 38, end: 40
+@{x2716}@ Statement expected - start: 41, end: 43
 
 ```
 

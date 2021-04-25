@@ -179,6 +179,7 @@ async function f() { class C { aaa = await } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 42, end: 44
 
 ```
 

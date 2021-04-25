@@ -152,6 +152,7 @@ function f(){import {x} from "y";}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The `import` keyword can only be used with the module goal - start: 32, end: 33
 
 ```
 

@@ -168,6 +168,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 42, end: 43
 
 ```
 

@@ -169,6 +169,6 @@ x = { foo(){ return x[super.foo]; }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -270,6 +270,7 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 50, end: 52
 
 ```
 

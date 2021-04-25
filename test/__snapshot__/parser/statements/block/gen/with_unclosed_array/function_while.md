@@ -148,6 +148,17 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ ',' expected - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 11, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Expression expected - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Expression expected - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
 
 ```
 

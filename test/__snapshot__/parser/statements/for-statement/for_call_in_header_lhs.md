@@ -132,6 +132,6 @@ for (x(x in t);;) x
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

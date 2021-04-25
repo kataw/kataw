@@ -2239,6 +2239,6 @@ class Array { concat(items:number | string) {}; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -208,6 +208,7 @@ function * gen() { function not_gen() { function foo(yield) { }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 64, end: 64
 
 ```
 

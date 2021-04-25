@@ -170,6 +170,7 @@ async ({ident: [foo, bar].join("")}) => x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 36, end: 39
 
 ```
 

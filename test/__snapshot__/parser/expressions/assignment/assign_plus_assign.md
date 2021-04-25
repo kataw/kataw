@@ -102,6 +102,8 @@ a = b + c = d
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 9, end: 11
+@{x2716}@ Statement expected - start: 9, end: 11
 
 ```
 

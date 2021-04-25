@@ -122,6 +122,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 3, end: 9
 
 ```
 

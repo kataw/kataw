@@ -126,6 +126,6 @@ class x {async public(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -145,6 +145,6 @@ a=function<T,S>() {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

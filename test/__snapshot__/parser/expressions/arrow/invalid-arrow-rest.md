@@ -86,6 +86,14 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A rest element cannot have an initializer - start: 8, end: 10
+@{x2716}@ Expression expected - start: 10, end: 14
+@{x2716}@ Unexpected token. - start: 10, end: 14
+@{x2716}@ Unexpected token. - start: 10, end: 14
+@{x2716}@ Statement expected - start: 10, end: 14
+@{x2716}@ Unexpected token. - start: 17, end: 18
+@{x2716}@ Statement expected - start: 17, end: 18
+@{x2716}@ Statement expected - start: 18, end: 21
 
 ```
 

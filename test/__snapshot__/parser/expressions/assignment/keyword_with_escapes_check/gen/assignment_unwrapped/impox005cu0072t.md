@@ -67,6 +67,10 @@ impo\u0072t = x;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ The `import` keyword can only be used with the module goal - start: 11, end: 13
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ Statement expected - start: 11, end: 13
 
 ```
 

@@ -211,6 +211,8 @@ var await; var f = (async function() { await = 1 });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 44, end: 46
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 44, end: 46
 
 ```
 

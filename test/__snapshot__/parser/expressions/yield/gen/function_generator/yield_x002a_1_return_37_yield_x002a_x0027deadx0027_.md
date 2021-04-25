@@ -229,6 +229,6 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

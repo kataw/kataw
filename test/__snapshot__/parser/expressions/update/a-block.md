@@ -74,6 +74,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 4, end: 4
 
 ```
 

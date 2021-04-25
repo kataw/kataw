@@ -122,6 +122,6 @@ class X { ge\u0074 x() {} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

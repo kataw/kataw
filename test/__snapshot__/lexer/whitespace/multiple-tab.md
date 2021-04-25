@@ -146,6 +146,36 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 0, end: 0
+@{x2716}@ Statement expected - start: 0, end: 1
+@{x2716}@ Invalid hexadecimal escape sequence - start: 1, end: 2
+@{x2716}@ Invalid hexadecimal escape sequence - start: 2, end: 2
+@{x2716}@ Unexpected token. - start: 2, end: 3
+@{x2716}@ Statement expected - start: 2, end: 3
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3, end: 4
+@{x2716}@ Invalid hexadecimal escape sequence - start: 4, end: 4
+@{x2716}@ Unexpected token. - start: 4, end: 5
+@{x2716}@ Statement expected - start: 4, end: 5
+@{x2716}@ Invalid hexadecimal escape sequence - start: 5, end: 6
+@{x2716}@ Invalid hexadecimal escape sequence - start: 6, end: 6
+@{x2716}@ Unexpected token. - start: 6, end: 7
+@{x2716}@ Statement expected - start: 6, end: 7
+@{x2716}@ Invalid hexadecimal escape sequence - start: 7, end: 8
+@{x2716}@ Invalid hexadecimal escape sequence - start: 8, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Statement expected - start: 8, end: 9
+@{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 10
+@{x2716}@ Invalid hexadecimal escape sequence - start: 10, end: 10
+@{x2716}@ Unexpected token. - start: 10, end: 11
+@{x2716}@ Statement expected - start: 10, end: 11
+@{x2716}@ Invalid hexadecimal escape sequence - start: 11, end: 12
+@{x2716}@ Invalid hexadecimal escape sequence - start: 12, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Statement expected - start: 12, end: 13
+@{x2716}@ Invalid hexadecimal escape sequence - start: 13, end: 14
+@{x2716}@ Invalid hexadecimal escape sequence - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
 
 ```
 

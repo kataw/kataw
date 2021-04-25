@@ -259,6 +259,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 94, end: 95
 
 ```
 

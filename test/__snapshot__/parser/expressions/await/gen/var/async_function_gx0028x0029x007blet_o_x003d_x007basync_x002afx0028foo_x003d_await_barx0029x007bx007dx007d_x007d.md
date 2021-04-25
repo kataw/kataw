@@ -348,6 +348,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

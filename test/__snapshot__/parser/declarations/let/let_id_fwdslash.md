@@ -124,6 +124,10 @@ let p/
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 5, end: 6
+@{x2716}@ Unexpected token. - start: 5, end: 6
+@{x2716}@ Expression expected - start: 5, end: 6
+@{x2716}@ Expression expected - start: 6, end: 6
 
 ```
 

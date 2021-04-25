@@ -532,6 +532,6 @@ a?.9:b
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

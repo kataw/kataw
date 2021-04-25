@@ -183,6 +183,6 @@ for (function(){ if (a in b); }.prop in x);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

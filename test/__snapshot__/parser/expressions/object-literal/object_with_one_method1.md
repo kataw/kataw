@@ -463,6 +463,6 @@ wrap({0o4432(){}});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

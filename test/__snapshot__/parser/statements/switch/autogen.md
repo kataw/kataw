@@ -243,6 +243,14 @@ switch[ #
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Expression expected - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 11, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 13
 
 ```
 

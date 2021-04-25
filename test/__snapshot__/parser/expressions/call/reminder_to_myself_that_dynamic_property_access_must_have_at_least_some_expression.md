@@ -85,6 +85,8 @@ foo(async[])
 ### Diagnostics
 
 ```javascript
+@{x2716}@ An element access expression should take an argument. - start: 10, end: 11
+@{x2716}@ Expression expected - start: 10, end: 11
 
 ```
 

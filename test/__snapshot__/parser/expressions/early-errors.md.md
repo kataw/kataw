@@ -5644,6 +5644,85 @@ try {} catch(e) { for(var e of 0); };
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 659, end: 661
+@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
+@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779
+@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 783, end: 784
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1057, end: 1059
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1076, end: 1078
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1096, end: 1098
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1112, end: 1114
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1122, end: 1124
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1313, end: 1315
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1429, end: 1431
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1441, end: 1443
+@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 1452, end: 1455
+@{x2716}@ Expression exprected. A compound assignment cannot follow an array literal - start: 1464, end: 1467
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1473, end: 1476
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1762, end: 1764
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1777, end: 1779
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1960, end: 1962
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1977, end: 1979
+@{x2716}@ Invalid left-hand side in for-in loop - start: 2267, end: 2269
+@{x2716}@ Invalid left-hand side in for-in loop - start: 2282, end: 2284
+@{x2716}@ Invalid left-hand side in for-of loop - start: 2300, end: 2302
+@{x2716}@ Invalid left-hand side in for-of loop - start: 2315, end: 2317
+@{x2716}@ Invalid left-hand side in for-in loop - start: 2422, end: 2424
+@{x2716}@ Invalid left-hand side in for-of loop - start: 2435, end: 2437
+@{x2716}@ Invalid left-hand side in for-in loop - start: 2777, end: 2779
+@{x2716}@ Invalid left-hand side in for-in loop - start: 2794, end: 2796
+@{x2716}@ Invalid left-hand side in for-of loop - start: 2814, end: 2816
+@{x2716}@ Invalid left-hand side in for-of loop - start: 2831, end: 2833
+@{x2716}@ Invalid left-hand side in for-in loop - start: 2846, end: 2848
+@{x2716}@ Invalid left-hand side in for-of loop - start: 2861, end: 2863
+@{x2716}@ Invalid hexadecimal escape sequence - start: 2865, end: 2937
+@{x2716}@ Statement expected - start: 2865, end: 2938
+@{x2716}@ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
+@{x2716}@ Statement expected - start: 2938, end: 2939
+@{x2716}@ Unexpected token. - start: 2940, end: 2941
+@{x2716}@ Invalid hexadecimal escape sequence - start: 2949, end: 2950
+@{x2716}@ Statement expected - start: 2949, end: 2951
+@{x2716}@ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
+@{x2716}@ Statement expected - start: 2951, end: 2952
+@{x2716}@ Unexpected token. - start: 2953, end: 2954
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3058, end: 3058
+@{x2716}@ Unexpected token. - start: 3058, end: 3059
+@{x2716}@ Statement expected - start: 3058, end: 3059
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3070, end: 3070
+@{x2716}@ Unexpected token. - start: 3070, end: 3071
+@{x2716}@ Statement expected - start: 3070, end: 3071
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3358, end: 3359
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3433, end: 3434
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3509, end: 3510
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3520, end: 3712
+@{x2716}@ Statement expected - start: 3520, end: 3713
+@{x2716}@ Statement expected - start: 3713, end: 3719
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3720, end: 3721
+@{x2716}@ Statement expected - start: 3720, end: 3722
+@{x2716}@ Statement expected - start: 3722, end: 3727
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3728, end: 3959
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3959, end: 3959
+@{x2716}@ Unexpected token. - start: 3959, end: 3960
+@{x2716}@ Statement expected - start: 3959, end: 3960
+@{x2716}@ Statement expected - start: 3960, end: 3966
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3967, end: 3969
+@{x2716}@ Invalid hexadecimal escape sequence - start: 3969, end: 3969
+@{x2716}@ Unexpected token. - start: 3969, end: 3970
+@{x2716}@ Statement expected - start: 3969, end: 3970
+@{x2716}@ Statement expected - start: 3970, end: 3975
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4453, end: 4462
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4490, end: 4499
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4518, end: 4527
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4560, end: 4569
+@{x2716}@ Invalid hexadecimal escape sequence - start: 5029, end: 5029
+@{x2716}@ Unexpected token. - start: 5029, end: 5030
+@{x2716}@ Statement expected - start: 5029, end: 5030
+@{x2716}@ Invalid hexadecimal escape sequence - start: 5041, end: 5041
+@{x2716}@ Unexpected token. - start: 5041, end: 5042
+@{x2716}@ Statement expected - start: 5041, end: 5042
 
 ```
 

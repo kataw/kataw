@@ -399,6 +399,29 @@ declare function foo(): void
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 7, end: 16
+@{x2716}@ Unexpected token. - start: 20, end: 21
+@{x2716}@ Unexpected token. - start: 20, end: 21
+@{x2716}@ Unexpected token. - start: 20, end: 21
+@{x2716}@ Unexpected token. - start: 25, end: 26
+@{x2716}@ Expression expected - start: 31, end: 32
+@{x2716}@ Unexpected token. - start: 41, end: 50
+@{x2716}@ ',' expected - start: 56, end: 57
+@{x2716}@ Unexpected token. - start: 56, end: 57
+@{x2716}@ Unexpected token. - start: 56, end: 57
+@{x2716}@ Unexpected token. - start: 56, end: 57
+@{x2716}@ Statement expected - start: 56, end: 57
+@{x2716}@ Unexpected token. - start: 67, end: 68
+@{x2716}@ Statement expected - start: 67, end: 68
+@{x2716}@ Unexpected token. - start: 75, end: 76
+@{x2716}@ Statement expected - start: 75, end: 76
+@{x2716}@ Statement expected - start: 76, end: 77
+@{x2716}@ Expression expected - start: 82, end: 83
+@{x2716}@ Unexpected token. - start: 92, end: 101
+@{x2716}@ Unexpected token. - start: 107, end: 108
+@{x2716}@ Unexpected token. - start: 107, end: 108
+@{x2716}@ Statement expected - start: 107, end: 108
+@{x2716}@ Expression expected - start: 113, end: 114
 
 ```
 

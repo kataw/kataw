@@ -179,6 +179,6 @@ var {x}: {x: string; } = { x: "hello" };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -97,6 +97,12 @@ bar ? (=> 0) : baz;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 7, end: 9
+@{x2716}@ Unexpected token. - start: 7, end: 9
+@{x2716}@ Unexpected token. - start: 7, end: 9
+@{x2716}@ Unexpected token. - start: 11, end: 12
+@{x2716}@ Statement expected - start: 11, end: 12
+@{x2716}@ Statement expected - start: 12, end: 14
 
 ```
 

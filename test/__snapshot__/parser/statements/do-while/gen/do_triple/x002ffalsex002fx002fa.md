@@ -149,6 +149,16 @@ do do do /false//a while while while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 18, end: 24
+@{x2716}@ Unexpected token. - start: 24, end: 30
+@{x2716}@ Expression expected - start: 24, end: 30
+@{x2716}@ Unexpected token. - start: 24, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 36
+@{x2716}@ Expression expected - start: 30, end: 36
+@{x2716}@ Unexpected token. - start: 30, end: 36
+@{x2716}@ Unexpected token. - start: 36, end: 36
+@{x2716}@ Expression expected - start: 36, end: 36
+@{x2716}@ Unexpected token. - start: 36, end: 36
 
 ```
 

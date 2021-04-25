@@ -136,6 +136,6 @@ a * x ? b : c ? d : e
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

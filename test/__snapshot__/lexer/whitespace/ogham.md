@@ -54,6 +54,6 @@ left@{x1680}@right
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

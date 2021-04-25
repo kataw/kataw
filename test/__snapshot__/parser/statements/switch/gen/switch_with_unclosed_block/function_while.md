@@ -204,6 +204,21 @@ switch {} default(x) { function while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 8
+@{x2716}@ Unexpected token. - start: 9, end: 17
+@{x2716}@ Unexpected token. - start: 9, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 18
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Binding identifier expected - start: 31, end: 37
+@{x2716}@ Unexpected token. - start: 31, end: 37
+@{x2716}@ Unexpected token. - start: 31, end: 37
+@{x2716}@ Unexpected token. - start: 31, end: 37
+@{x2716}@ Unexpected token. - start: 37, end: 37
+@{x2716}@ Expression expected - start: 37, end: 37
+@{x2716}@ Unexpected token. - start: 37, end: 37
+@{x2716}@ Expression expected - start: 37, end: 37
+@{x2716}@ Unexpected token. - start: 37, end: 37
+@{x2716}@ Unexpected token. - start: 37, end: 37
 
 ```
 

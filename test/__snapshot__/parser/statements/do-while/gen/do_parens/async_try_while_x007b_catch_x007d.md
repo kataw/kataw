@@ -147,6 +147,18 @@ do( async try while { catch } while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 9, end: 13
+@{x2716}@ Unexpected token. - start: 9, end: 13
+@{x2716}@ Unexpected token. - start: 9, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 19
+@{x2716}@ Expression expected - start: 13, end: 19
+@{x2716}@ Unexpected token. - start: 13, end: 19
+@{x2716}@ Unexpected token. - start: 19, end: 21
+@{x2716}@ Unexpected token. - start: 29, end: 35
+@{x2716}@ Unexpected token. - start: 35, end: 35
+@{x2716}@ Expression expected - start: 35, end: 35
+@{x2716}@ Unexpected token. - start: 35, end: 35
+@{x2716}@ Expression expected - start: 35, end: 35
 
 ```
 

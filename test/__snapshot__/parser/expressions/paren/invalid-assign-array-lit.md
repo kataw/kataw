@@ -1578,6 +1578,41 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
+@{x2716}@ Invalid optional chain from new expression - start: 44, end: 45
+@{x2716}@ ',' expected - start: 79, end: 80
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 101, end: 103
+@{x2716}@ Unexpected token. - start: 115, end: 116
+@{x2716}@ Dot property must be an identifier - start: 116, end: 117
+@{x2716}@ Dot property must be an identifier - start: 117, end: 118
+@{x2716}@ Unexpected token. - start: 118, end: 119
+@{x2716}@ Statement expected - start: 118, end: 119
+@{x2716}@ Statement expected - start: 119, end: 120
+@{x2716}@ Unexpected token. - start: 128, end: 129
+@{x2716}@ Dot property must be an identifier - start: 129, end: 130
+@{x2716}@ Dot property must be an identifier - start: 130, end: 131
+@{x2716}@ ',' expected - start: 130, end: 131
+@{x2716}@ Unexpected token. - start: 130, end: 131
+@{x2716}@ Unexpected token. - start: 130, end: 131
+@{x2716}@ Unexpected token. - start: 130, end: 131
+@{x2716}@ Statement expected - start: 130, end: 131
+@{x2716}@ Statement expected - start: 131, end: 132
+@{x2716}@ Statement expected - start: 132, end: 133
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 141, end: 143
+@{x2716}@ ',' expected - start: 159, end: 160
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 173, end: 175
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 192, end: 194
+@{x2716}@ ',' expected - start: 211, end: 212
+@{x2716}@ Unexpected token. - start: 214, end: 217
+@{x2716}@ Statement expected - start: 214, end: 217
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 229, end: 231
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 247, end: 249
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 282, end: 284
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 293, end: 295
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 304, end: 306
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 315, end: 317
+@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 325, end: 328
 
 ```
 

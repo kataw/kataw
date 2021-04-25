@@ -112,6 +112,10 @@ var v = a => <any><any>{}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 18, end: 19
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 25, end: 25
+@{x2716}@ Unexpected token. - start: 25, end: 25
 
 ```
 

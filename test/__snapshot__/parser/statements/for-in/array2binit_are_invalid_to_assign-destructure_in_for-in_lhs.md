@@ -158,6 +158,9 @@ for ([x.y] = z in obj);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 21, end: 22
+@{x2716}@ Expression expected - start: 21, end: 22
+@{x2716}@ Unexpected token. - start: 21, end: 22
 
 ```
 

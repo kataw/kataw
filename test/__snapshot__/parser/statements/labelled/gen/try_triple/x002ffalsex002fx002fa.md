@@ -135,6 +135,13 @@ try try try /false//a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 7
+@{x2716}@ Unexpected token. - start: 3, end: 7
+@{x2716}@ Unexpected token. - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 11, end: 19
+@{x2716}@ Unexpected token. - start: 11, end: 19
+@{x2716}@ Unexpected token. - start: 19, end: 20
+@{x2716}@ Unexpected token. - start: 19, end: 21
 
 ```
 

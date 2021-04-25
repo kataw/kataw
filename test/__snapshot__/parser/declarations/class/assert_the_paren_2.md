@@ -147,6 +147,9 @@ class x {[x]z){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Statement expected - start: 13, end: 14
+@{x2716}@ Statement expected - start: 16, end: 17
 
 ```
 

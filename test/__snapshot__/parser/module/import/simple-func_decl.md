@@ -74,6 +74,6 @@ x@{x9}@+@{x9}@y
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

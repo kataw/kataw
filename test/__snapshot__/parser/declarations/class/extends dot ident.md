@@ -119,6 +119,7 @@ class v extends.foo {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 15, end: 16
 
 ```
 

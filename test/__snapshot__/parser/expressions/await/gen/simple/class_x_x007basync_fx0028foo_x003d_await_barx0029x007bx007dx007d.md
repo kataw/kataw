@@ -164,6 +164,6 @@ class x {async f(foo = await bar){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -105,6 +105,9 @@ class x {throw: x}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Statement expected - start: 17, end: 18
 
 ```
 

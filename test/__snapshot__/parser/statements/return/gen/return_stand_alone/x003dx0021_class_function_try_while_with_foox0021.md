@@ -241,6 +241,20 @@ return =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
+@{x2716}@ Expression expected - start: 6, end: 8
+@{x2716}@ Unexpected token. - start: 15, end: 24
+@{x2716}@ Unexpected token. - start: 15, end: 24
+@{x2716}@ Binding identifier expected - start: 24, end: 28
+@{x2716}@ Unexpected token. - start: 24, end: 28
+@{x2716}@ Unexpected token. - start: 24, end: 28
+@{x2716}@ Unexpected token. - start: 24, end: 28
+@{x2716}@ Unexpected token. - start: 28, end: 34
+@{x2716}@ Unexpected token. - start: 28, end: 34
+@{x2716}@ Unexpected token. - start: 34, end: 39
+@{x2716}@ Unexpected token. - start: 39, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 44
+@{x2716}@ Expression expected - start: 44, end: 44
 
 ```
 

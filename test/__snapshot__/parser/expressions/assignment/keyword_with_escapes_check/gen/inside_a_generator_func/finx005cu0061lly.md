@@ -145,6 +145,10 @@ function *f(){
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 14, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 31
+@{x2716}@ Unexpected token. - start: 29, end: 31
+@{x2716}@ Unexpected token. - start: 31, end: 33
 
 ```
 

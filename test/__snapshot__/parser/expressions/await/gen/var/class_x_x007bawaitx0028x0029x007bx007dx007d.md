@@ -248,6 +248,6 @@ var await; var f = (async function() { class x {await(){}} });
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

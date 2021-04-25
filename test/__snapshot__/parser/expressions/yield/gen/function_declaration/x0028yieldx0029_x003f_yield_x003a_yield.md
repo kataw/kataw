@@ -141,6 +141,7 @@ function not_gen() { (yield) ? yield : yield }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 46, end: 47
 
 ```
 

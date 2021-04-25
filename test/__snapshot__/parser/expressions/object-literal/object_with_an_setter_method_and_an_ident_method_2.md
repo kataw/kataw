@@ -188,6 +188,6 @@ wrap({[foo](){}, set [bar](e){}});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

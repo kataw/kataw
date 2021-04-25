@@ -113,6 +113,9 @@ class const {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 5, end: 11
+@{x2716}@ Unexpected token. - start: 5, end: 11
+@{x2716}@ Missing initializer in const declaration - start: 14, end: 14
 
 ```
 

@@ -208,6 +208,6 @@ var a: { [a: number]: string; [b: number]: string; };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

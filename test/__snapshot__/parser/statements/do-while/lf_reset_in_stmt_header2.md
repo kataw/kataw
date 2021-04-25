@@ -137,6 +137,7 @@ while(y
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 27, end: 27
 
 ```
 

@@ -130,6 +130,7 @@ class x { get "constructor"(){} }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Class constructor may not be a accessor - start: 27, end: 28
 
 ```
 

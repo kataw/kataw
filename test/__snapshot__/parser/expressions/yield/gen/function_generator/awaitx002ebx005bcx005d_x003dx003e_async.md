@@ -198,6 +198,12 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 50, end: 53
+@{x2716}@ Unexpected token. - start: 50, end: 53
+@{x2716}@ Unexpected token. - start: 50, end: 53
+@{x2716}@ Statement expected - start: 50, end: 53
+@{x2716}@ Statement expected - start: 59, end: 61
+@{x2716}@ Statement expected - start: 61, end: 62
 
 ```
 

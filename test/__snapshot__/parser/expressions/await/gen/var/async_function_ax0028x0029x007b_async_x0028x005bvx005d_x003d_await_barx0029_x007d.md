@@ -303,6 +303,6 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -122,6 +122,18 @@ do while [catch] /**/ /x do while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 10
+@{x2716}@ Unexpected token. - start: 10, end: 15
+@{x2716}@ Unexpected token. - start: 10, end: 15
+@{x2716}@ Unexpected token. - start: 10, end: 15
+@{x2716}@ Unexpected token. - start: 15, end: 16
+@{x2716}@ Unexpected token. - start: 15, end: 16
+@{x2716}@ Unexpected token. - start: 16, end: 23
+@{x2716}@ Unexpected token. - start: 16, end: 33
+@{x2716}@ Unexpected token. - start: 16, end: 33
+@{x2716}@ Unexpected token. - start: 33, end: 33
+@{x2716}@ Expression expected - start: 33, end: 33
+@{x2716}@ Unexpected token. - start: 33, end: 33
 
 ```
 

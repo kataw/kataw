@@ -108,6 +108,10 @@ async () => {  c\u006fnst = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 25, end: 27
+@{x2716}@ Unexpected token. - start: 25, end: 27
+@{x2716}@ Statement expected - start: 25, end: 27
+@{x2716}@ Statement expected - start: 29, end: 32
 
 ```
 

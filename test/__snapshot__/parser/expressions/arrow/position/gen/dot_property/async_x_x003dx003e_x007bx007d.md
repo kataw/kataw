@@ -113,6 +113,9 @@ async x => {}.x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Block body arrows can not be immediately accessed without a group - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Statement expected - start: 13, end: 14
 
 ```
 

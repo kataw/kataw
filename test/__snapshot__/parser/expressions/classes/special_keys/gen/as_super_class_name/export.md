@@ -120,6 +120,9 @@ class x extends export {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 15, end: 22
+@{x2716}@ Unexpected token. - start: 15, end: 22
+@{x2716}@ The `export` keyword can only be used with the module goal - start: 15, end: 22
 
 ```
 

@@ -338,6 +338,34 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 4, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 19, end: 26
+@{x2716}@ Unexpected token. - start: 26, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 34
+@{x2716}@ Unexpected token. - start: 29, end: 34
+@{x2716}@ Unexpected token. - start: 29, end: 34
+@{x2716}@ Unexpected token. - start: 34, end: 37
+@{x2716}@ Unexpected token. - start: 37, end: 45
+@{x2716}@ Unexpected token. - start: 45, end: 48
+@{x2716}@ Unexpected token. - start: 48, end: 53
+@{x2716}@ Unexpected token. - start: 53, end: 60
+@{x2716}@ Unexpected token. - start: 60, end: 66
+@{x2716}@ Unexpected token. - start: 66, end: 68
+@{x2716}@ Unexpected token. - start: 68, end: 72
+@{x2716}@ Unexpected token. - start: 72, end: 76
+@{x2716}@ Unexpected token. - start: 76, end: 78
+@{x2716}@ Unexpected token. - start: 78, end: 83
+@{x2716}@ Unexpected token. - start: 83, end: 83
+@{x2716}@ Expression expected - start: 83, end: 83
+@{x2716}@ Unexpected token. - start: 83, end: 83
+@{x2716}@ Expression expected - start: 83, end: 83
+@{x2716}@ Unexpected token. - start: 83, end: 83
 
 ```
 

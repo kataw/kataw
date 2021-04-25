@@ -124,6 +124,6 @@ class x { \u0063onstructor(){} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

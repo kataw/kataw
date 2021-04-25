@@ -174,6 +174,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

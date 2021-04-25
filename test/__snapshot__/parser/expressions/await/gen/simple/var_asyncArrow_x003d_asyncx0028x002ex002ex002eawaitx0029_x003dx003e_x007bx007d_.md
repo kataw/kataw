@@ -118,6 +118,7 @@ var asyncArrow = async(...await) => {};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 32, end: 35
 
 ```
 

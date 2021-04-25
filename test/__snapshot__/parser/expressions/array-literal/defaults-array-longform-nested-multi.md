@@ -249,6 +249,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

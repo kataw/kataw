@@ -235,6 +235,7 @@ async( x = class { x = await });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 33, end: 35
 
 ```
 

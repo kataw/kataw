@@ -114,6 +114,7 @@ async => {}.x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Block body arrows can not be immediately accessed without a group - start: 11, end: 12
 
 ```
 

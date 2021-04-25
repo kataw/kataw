@@ -78,6 +78,7 @@ for (new.target in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'new.target' only allowed within functions - start: 9, end: 15
 
 ```
 

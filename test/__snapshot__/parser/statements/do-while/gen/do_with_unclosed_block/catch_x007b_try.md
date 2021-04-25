@@ -173,6 +173,14 @@ do {} while (x) { catch { try
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 17, end: 23
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
 
 ```
 

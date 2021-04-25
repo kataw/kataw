@@ -156,6 +156,18 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 7
+@{x2716}@ Unexpected token. - start: 7, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Expression expected - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 28
+@{x2716}@ Unexpected token. - start: 28, end: 28
 
 ```
 

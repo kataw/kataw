@@ -116,6 +116,10 @@ switch (/a/i {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 11
+@{x2716}@ Unexpected token. - start: 23, end: 28
+@{x2716}@ Unexpected token. - start: 28, end: 30
+@{x2716}@ Unexpected token. - start: 45, end: 47
 
 ```
 

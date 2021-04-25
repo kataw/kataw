@@ -257,6 +257,8 @@ while (x) #
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 8
+@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 6, end: 8
 
 ```
 

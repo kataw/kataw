@@ -108,6 +108,12 @@ bar, return => {};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 4, end: 11
+@{x2716}@ Unexpected token. - start: 4, end: 11
+@{x2716}@ A return statement can only be used within a function_body - start: 4, end: 11
+@{x2716}@ Expression expected - start: 11, end: 14
+@{x2716}@ Unexpected token. - start: 11, end: 14
+@{x2716}@ Statement expected - start: 11, end: 14
 
 ```
 

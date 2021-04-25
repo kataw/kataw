@@ -90,6 +90,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 12, end: 14
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 14
 
 ```
 

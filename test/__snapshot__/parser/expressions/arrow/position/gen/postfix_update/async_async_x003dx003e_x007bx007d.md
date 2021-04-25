@@ -125,6 +125,8 @@ async async => {}++
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 17, end: 19
+@{x2716}@ Expression expected - start: 19, end: 19
 
 ```
 

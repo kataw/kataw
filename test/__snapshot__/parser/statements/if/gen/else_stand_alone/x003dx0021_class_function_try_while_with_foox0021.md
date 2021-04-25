@@ -215,6 +215,20 @@ else =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
+@{x2716}@ Statement expected - start: 4, end: 6
+@{x2716}@ Unexpected token. - start: 13, end: 22
+@{x2716}@ Unexpected token. - start: 13, end: 22
+@{x2716}@ Binding identifier expected - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 26, end: 32
+@{x2716}@ Unexpected token. - start: 26, end: 32
+@{x2716}@ Unexpected token. - start: 32, end: 37
+@{x2716}@ Unexpected token. - start: 37, end: 41
+@{x2716}@ Unexpected token. - start: 41, end: 42
+@{x2716}@ Expression expected - start: 42, end: 42
 
 ```
 

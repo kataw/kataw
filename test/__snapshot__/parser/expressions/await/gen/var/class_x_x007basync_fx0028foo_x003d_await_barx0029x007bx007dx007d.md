@@ -291,6 +291,6 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

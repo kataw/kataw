@@ -110,6 +110,7 @@ export async function f(){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 12
 
 ```
 

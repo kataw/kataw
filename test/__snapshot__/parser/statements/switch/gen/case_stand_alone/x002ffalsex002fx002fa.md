@@ -71,6 +71,7 @@ case /false//a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
 
 ```
 

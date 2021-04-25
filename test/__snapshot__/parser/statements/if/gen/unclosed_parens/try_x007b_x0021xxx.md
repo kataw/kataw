@@ -129,6 +129,11 @@ if( try { !xxx
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 3, end: 7
+@{x2716}@ Unexpected token. - start: 3, end: 7
+@{x2716}@ Unexpected token. - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 14
 
 ```
 

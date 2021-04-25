@@ -164,6 +164,19 @@ do while [catch] catch try {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 10
+@{x2716}@ Unexpected token. - start: 10, end: 15
+@{x2716}@ Unexpected token. - start: 10, end: 15
+@{x2716}@ Unexpected token. - start: 10, end: 15
+@{x2716}@ Unexpected token. - start: 15, end: 16
+@{x2716}@ Unexpected token. - start: 15, end: 16
+@{x2716}@ Unexpected token. - start: 16, end: 22
+@{x2716}@ Unexpected token. - start: 16, end: 22
+@{x2716}@ Unexpected token. - start: 22, end: 26
+@{x2716}@ Expression expected - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 22, end: 26
+@{x2716}@ Unexpected token. - start: 29, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 29
 
 ```
 

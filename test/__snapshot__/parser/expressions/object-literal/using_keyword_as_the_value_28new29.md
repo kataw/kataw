@@ -111,6 +111,7 @@ s = {s: new}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 11, end: 12
 
 ```
 

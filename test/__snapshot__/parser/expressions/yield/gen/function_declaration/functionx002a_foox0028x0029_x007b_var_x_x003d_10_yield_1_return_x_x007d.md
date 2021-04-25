@@ -234,6 +234,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 73, end: 74
 
 ```
 

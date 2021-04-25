@@ -1755,6 +1755,6 @@ var p10 = ([{ value, done }]) => { };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

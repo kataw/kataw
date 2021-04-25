@@ -113,6 +113,6 @@ foo(x => ok).bar
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

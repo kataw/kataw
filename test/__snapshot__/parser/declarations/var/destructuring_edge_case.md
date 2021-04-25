@@ -163,6 +163,6 @@ var {[2]: y} = {2:3}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

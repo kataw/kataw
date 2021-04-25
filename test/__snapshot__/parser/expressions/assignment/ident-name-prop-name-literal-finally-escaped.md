@@ -159,6 +159,6 @@ var y = { \u0066inally: x } = { finally: 42 };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

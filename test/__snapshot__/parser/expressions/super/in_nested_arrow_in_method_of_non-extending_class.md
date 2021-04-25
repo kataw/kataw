@@ -209,6 +209,6 @@ class x extends y { foo(){ return () => () => super.foo; }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

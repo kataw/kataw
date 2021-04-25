@@ -233,6 +233,7 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 62, end: 65
 
 ```
 

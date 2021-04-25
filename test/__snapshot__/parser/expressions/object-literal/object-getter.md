@@ -1155,6 +1155,6 @@ x({get 0o4567(){}});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

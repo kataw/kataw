@@ -229,6 +229,14 @@ const fn = async (a?: any): Promise<void> => {};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 20, end: 21
+@{x2716}@ ',' expected - start: 26, end: 27
+@{x2716}@ Unexpected token. - start: 26, end: 27
+@{x2716}@ Statement expected - start: 26, end: 27
+@{x2716}@ Expression expected - start: 40, end: 41
+@{x2716}@ Expression expected - start: 41, end: 44
+@{x2716}@ Unexpected token. - start: 41, end: 44
+@{x2716}@ Statement expected - start: 41, end: 44
 
 ```
 

@@ -160,6 +160,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 
 ```
 

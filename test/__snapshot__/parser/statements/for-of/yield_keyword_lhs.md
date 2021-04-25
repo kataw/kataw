@@ -149,6 +149,7 @@ function *f(){ for (yield of obj); }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-of loop - start: 28, end: 32
 
 ```
 

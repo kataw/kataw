@@ -120,6 +120,6 @@ function *a(){yield 2e308}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

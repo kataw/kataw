@@ -144,6 +144,6 @@ class C { set #await(test) {} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

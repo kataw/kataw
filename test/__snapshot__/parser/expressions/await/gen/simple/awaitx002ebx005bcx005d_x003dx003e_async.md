@@ -95,6 +95,8 @@ await.b[c] => async
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 10, end: 13
+@{x2716}@ Statement expected - start: 10, end: 13
 
 ```
 

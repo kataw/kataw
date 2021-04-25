@@ -91,6 +91,8 @@ export ...x = y
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 10
+@{x2716}@ Statement expected - start: 6, end: 10
 
 ```
 

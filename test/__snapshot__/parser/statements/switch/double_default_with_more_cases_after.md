@@ -158,6 +158,6 @@ switch(x) { default: default: case y: break; case z: break; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

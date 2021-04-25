@@ -125,6 +125,6 @@ type Foo<T> = Bar<T>
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

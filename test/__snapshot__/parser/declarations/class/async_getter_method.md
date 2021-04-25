@@ -162,6 +162,6 @@ class A {async get 7(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -142,6 +142,6 @@ for (let {x: y = let};;) {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -126,6 +126,6 @@ async (a = 1, b = 2) => x;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

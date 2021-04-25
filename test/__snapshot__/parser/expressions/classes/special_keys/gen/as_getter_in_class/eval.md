@@ -126,6 +126,6 @@ class x {get eval(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

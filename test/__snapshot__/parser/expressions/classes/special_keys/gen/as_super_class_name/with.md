@@ -130,6 +130,11 @@ class x extends with {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 15, end: 20
+@{x2716}@ Unexpected token. - start: 15, end: 20
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Unexpected token. - start: 23, end: 23
+@{x2716}@ Expression expected - start: 23, end: 23
 
 ```
 

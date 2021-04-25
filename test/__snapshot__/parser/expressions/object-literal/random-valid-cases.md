@@ -4353,6 +4353,6 @@ a = { y: x = 1 } = b;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

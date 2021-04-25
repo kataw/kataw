@@ -127,6 +127,7 @@ const [...] = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 10, end: 11
 
 ```
 

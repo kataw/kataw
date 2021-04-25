@@ -142,6 +142,11 @@ class x {static async * true(){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A rest element cannot have an initializer - start: 23, end: 28
+@{x2716}@ Classes may not have a static property named 'prototype' - start: 23, end: 28
+@{x2716}@ Unexpected token. - start: 23, end: 28
+@{x2716}@ Unexpected token. - start: 30, end: 31
+@{x2716}@ Statement expected - start: 32, end: 33
 
 ```
 

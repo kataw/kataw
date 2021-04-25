@@ -171,6 +171,16 @@ else {} if(x) { function while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
+@{x2716}@ Binding identifier expected - start: 24, end: 30
+@{x2716}@ Unexpected token. - start: 24, end: 30
+@{x2716}@ Unexpected token. - start: 24, end: 30
+@{x2716}@ Unexpected token. - start: 24, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 30
+@{x2716}@ Expression expected - start: 30, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 30
+@{x2716}@ Expression expected - start: 30, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 30
 
 ```
 

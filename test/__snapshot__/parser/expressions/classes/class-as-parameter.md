@@ -424,6 +424,14 @@ class A {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 126, end: 130
+@{x2716}@ Unexpected token. - start: 139, end: 145
+@{x2716}@ Binding identifier expected - start: 145, end: 146
+@{x2716}@ Unexpected token. - start: 145, end: 146
+@{x2716}@ Unexpected token. - start: 147, end: 149
+@{x2716}@ Expression expected - start: 149, end: 150
+@{x2716}@ Statement expected - start: 149, end: 150
+@{x2716}@ Statement expected - start: 150, end: 152
 
 ```
 

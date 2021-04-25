@@ -141,6 +141,6 @@ class x { static "constructor"(){} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -126,6 +126,6 @@ class x {async void(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

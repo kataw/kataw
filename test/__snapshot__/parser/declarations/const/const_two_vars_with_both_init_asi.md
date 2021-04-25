@@ -121,6 +121,6 @@ const foo = bar, zoo = boo
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

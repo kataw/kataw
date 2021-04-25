@@ -169,6 +169,6 @@ function* g(x) { yield x = yield 3; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -77,6 +77,7 @@ return /false//a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
 
 ```
 

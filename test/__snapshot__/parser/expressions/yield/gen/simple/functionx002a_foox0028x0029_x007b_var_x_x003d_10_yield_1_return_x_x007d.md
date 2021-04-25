@@ -185,6 +185,6 @@ function* foo() { var x = 10; yield 1; return x; }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

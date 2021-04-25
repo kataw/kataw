@@ -1103,6 +1103,18 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 10, end: 13
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 25, end: 28
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 44, end: 47
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 63, end: 66
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 107, end: 110
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 125, end: 128
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 146, end: 149
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 164, end: 167
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 186, end: 189
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 208, end: 211
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 258, end: 261
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 279, end: 282
 
 ```
 

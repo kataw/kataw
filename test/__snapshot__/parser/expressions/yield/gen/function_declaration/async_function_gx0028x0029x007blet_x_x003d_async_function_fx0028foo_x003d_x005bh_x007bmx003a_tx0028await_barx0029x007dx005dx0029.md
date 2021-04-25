@@ -343,6 +343,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 103, end: 104
 
 ```
 

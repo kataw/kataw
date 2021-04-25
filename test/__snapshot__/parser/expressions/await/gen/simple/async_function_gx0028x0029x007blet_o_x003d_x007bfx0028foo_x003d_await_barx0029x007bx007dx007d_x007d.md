@@ -227,6 +227,7 @@ async function g(){let o = {f(foo = await bar){}}    }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 41, end: 45
 
 ```
 

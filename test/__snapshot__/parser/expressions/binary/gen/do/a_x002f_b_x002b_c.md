@@ -118,6 +118,7 @@ do a / b + c while (x);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 12, end: 18
 
 ```
 

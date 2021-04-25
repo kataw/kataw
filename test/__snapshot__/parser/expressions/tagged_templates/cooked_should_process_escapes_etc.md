@@ -62,6 +62,6 @@ foo`H\x45Y`
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

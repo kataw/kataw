@@ -125,6 +125,7 @@ function * x () {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 24, end: 30
 
 ```
 

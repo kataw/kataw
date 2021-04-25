@@ -214,6 +214,17 @@ try {} finally(x) { async try while { catch }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 17, end: 19
+@{x2716}@ Unexpected token. - start: 25, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 35
+@{x2716}@ Unexpected token. - start: 29, end: 35
+@{x2716}@ Unexpected token. - start: 37, end: 43
+@{x2716}@ Unexpected token. - start: 43, end: 45
+@{x2716}@ Unexpected token. - start: 43, end: 45
+@{x2716}@ Unexpected token. - start: 45, end: 45
+@{x2716}@ Unexpected token. - start: 45, end: 45
+@{x2716}@ Unexpected token. - start: 45, end: 45
 
 ```
 

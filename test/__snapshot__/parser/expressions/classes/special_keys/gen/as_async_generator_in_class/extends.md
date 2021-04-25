@@ -126,6 +126,6 @@ class x {async * extends(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

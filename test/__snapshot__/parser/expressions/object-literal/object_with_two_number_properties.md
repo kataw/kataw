@@ -123,6 +123,6 @@ wrap({1:b, 0:d});
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

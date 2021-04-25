@@ -98,6 +98,6 @@ x = {15:b}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

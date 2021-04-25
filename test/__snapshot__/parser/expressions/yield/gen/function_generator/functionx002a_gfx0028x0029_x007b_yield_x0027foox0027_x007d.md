@@ -223,6 +223,6 @@ function * gen() { function not_gen() { function* gf() { yield 'foo' } }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

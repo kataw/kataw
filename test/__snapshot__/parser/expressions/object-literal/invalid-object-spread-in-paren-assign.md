@@ -659,6 +659,14 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 13
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 50, end: 52
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 77, end: 79
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 98, end: 100
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 119, end: 121
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 141, end: 143
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 161, end: 163
 
 ```
 

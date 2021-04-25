@@ -213,6 +213,9 @@ async({a=1}. {b=2}, {c=3} = {}))
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 12
+@{x2716}@ Dot property must be an identifier - start: 12, end: 14
+@{x2716}@ Statement expected - start: 31, end: 32
 
 ```
 

@@ -224,6 +224,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 66, end: 67
 
 ```
 

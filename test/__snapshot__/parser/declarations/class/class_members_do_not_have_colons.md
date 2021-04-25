@@ -109,6 +109,9 @@ class x {foo: x}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 12, end: 13
+@{x2716}@ Statement expected - start: 12, end: 13
+@{x2716}@ Statement expected - start: 15, end: 16
 
 ```
 

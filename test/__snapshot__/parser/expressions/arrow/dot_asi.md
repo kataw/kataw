@@ -87,6 +87,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Block body arrows can not be immediately accessed without a group - start: 6, end: 8
 
 ```
 

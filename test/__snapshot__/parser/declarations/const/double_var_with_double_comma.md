@@ -134,6 +134,11 @@ const {x,, y} = obj;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 9, end: 10
+@{x2716}@ Missing initializer in const declaration - start: 9, end: 10
+@{x2716}@ Missing initializer in const declaration - start: 12, end: 13
+@{x2716}@ Statement expected - start: 12, end: 13
+@{x2716}@ Statement expected - start: 13, end: 15
 
 ```
 

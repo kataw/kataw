@@ -2265,6 +2265,36 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 13
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 39, end: 41
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 70, end: 72
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 104, end: 106
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 142, end: 144
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 158, end: 160
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 177, end: 178
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 186, end: 188
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 197, end: 199
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 236, end: 238
+@{x2716}@ An element access expression should take an argument. - start: 258, end: 259
+@{x2716}@ Expression expected - start: 258, end: 259
+@{x2716}@ Unexpected token. - start: 287, end: 288
+@{x2716}@ Unexpected token. - start: 287, end: 288
+@{x2716}@ Unexpected token. - start: 287, end: 288
+@{x2716}@ Statement expected - start: 290, end: 291
+@{x2716}@ Statement expected - start: 295, end: 296
+@{x2716}@ Statement expected - start: 296, end: 297
+@{x2716}@ Invalid optional chain from new expression - start: 316, end: 317
+@{x2716}@ Dot property must be an identifier - start: 347, end: 348
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 365, end: 367
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 392, end: 394
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 420, end: 422
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 447, end: 449
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 476, end: 478
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 501, end: 503
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
+@{x2716}@ Unexpected token. - start: 529, end: 530
+@{x2716}@ Statement expected - start: 529, end: 530
+@{x2716}@ Statement expected - start: 530, end: 531
 
 ```
 

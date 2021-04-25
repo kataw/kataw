@@ -98,6 +98,6 @@ for (456[x] in c) d;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

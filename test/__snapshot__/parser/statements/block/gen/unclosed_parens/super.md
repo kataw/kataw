@@ -91,6 +91,10 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'super' must be followed by an argument list or member access. - start: 8, end: 8
+@{x2716}@ Dot property must be an identifier - start: 8, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 8
 
 ```
 

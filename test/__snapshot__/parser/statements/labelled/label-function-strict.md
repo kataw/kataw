@@ -106,6 +106,8 @@ foo: function() {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 18, end: 27
+@{x2716}@ Binding identifier expected - start: 27, end: 28
 
 ```
 

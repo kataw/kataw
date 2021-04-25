@@ -92,6 +92,7 @@ _ => {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 7, end: 9
 
 ```
 

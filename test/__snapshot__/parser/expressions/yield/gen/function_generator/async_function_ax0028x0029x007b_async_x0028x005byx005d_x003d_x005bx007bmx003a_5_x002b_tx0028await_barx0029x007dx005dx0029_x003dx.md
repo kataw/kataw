@@ -375,6 +375,13 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 101, end: 104
+@{x2716}@ Unexpected token. - start: 101, end: 104
+@{x2716}@ Unexpected token. - start: 101, end: 104
+@{x2716}@ Statement expected - start: 101, end: 104
+@{x2716}@ Statement expected - start: 107, end: 113
+@{x2716}@ Statement expected - start: 113, end: 115
+@{x2716}@ Statement expected - start: 115, end: 116
 
 ```
 

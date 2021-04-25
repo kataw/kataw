@@ -146,6 +146,9 @@ let x = () => import {x} from "y"
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 23, end: 24
+@{x2716}@ Statement expected - start: 23, end: 24
+@{x2716}@ Unexpected token. - start: 29, end: 33
 
 ```
 

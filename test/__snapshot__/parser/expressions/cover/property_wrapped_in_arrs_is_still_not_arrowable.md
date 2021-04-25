@@ -417,6 +417,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ The left hand side of the arrow is not destructible  - start: 50, end: 52
 
 ```
 

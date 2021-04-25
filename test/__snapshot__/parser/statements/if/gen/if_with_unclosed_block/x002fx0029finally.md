@@ -102,6 +102,9 @@ else {} if(x) { /)finally
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 0, end: 4
+@{x2716}@ Unexpected token. - start: 15, end: 17
+@{x2716}@ Unexpected token. - start: 25, end: 25
 
 ```
 

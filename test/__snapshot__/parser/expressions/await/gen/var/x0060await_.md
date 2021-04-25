@@ -125,6 +125,9 @@ var await; var f = (async function() { `await; });
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unterminated template literal - start: 38, end: 50
+@{x2716}@ Unexpected token. - start: 50, end: 50
+@{x2716}@ Unexpected token. - start: 50, end: 50
 
 ```
 

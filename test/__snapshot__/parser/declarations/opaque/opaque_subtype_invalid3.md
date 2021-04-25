@@ -179,6 +179,11 @@ opaque stuff: Box<T> = Container<T>
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 12
+@{x2716}@ Expression expected - start: 20, end: 22
+@{x2716}@ Unexpected token. - start: 20, end: 22
+@{x2716}@ Statement expected - start: 20, end: 22
+@{x2716}@ Expression expected - start: 35, end: 35
 
 ```
 

@@ -103,6 +103,6 @@ var a: ?string[]
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

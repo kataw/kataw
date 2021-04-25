@@ -304,6 +304,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -127,6 +127,7 @@ async async => {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 23, end: 25
 
 ```
 

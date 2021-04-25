@@ -68,6 +68,7 @@ x[a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 3
 
 ```
 

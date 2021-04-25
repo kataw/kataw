@@ -136,6 +136,6 @@ for (true ? 0 : 0 in {}; false; ) ;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

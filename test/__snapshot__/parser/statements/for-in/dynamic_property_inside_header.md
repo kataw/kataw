@@ -121,6 +121,6 @@ for (x[a in b] in y);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

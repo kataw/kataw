@@ -273,6 +273,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

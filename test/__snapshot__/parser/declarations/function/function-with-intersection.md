@@ -192,6 +192,6 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

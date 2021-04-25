@@ -96,6 +96,7 @@ foo: function() {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 13, end: 14
 
 ```
 

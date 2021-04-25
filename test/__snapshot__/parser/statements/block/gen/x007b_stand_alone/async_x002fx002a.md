@@ -67,6 +67,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 7, end: 11
+@{x2716}@ Unexpected token. - start: 7, end: 11
 
 ```
 

@@ -196,6 +196,8 @@ class x extends y {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'super' must be followed by an argument list or member access. - start: 47, end: 49
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 47, end: 49
 
 ```
 

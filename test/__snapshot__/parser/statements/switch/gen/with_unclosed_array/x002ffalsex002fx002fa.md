@@ -99,6 +99,12 @@ switch[ /false//a
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 7
+@{x2716}@ ',' expected - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 17
 
 ```
 

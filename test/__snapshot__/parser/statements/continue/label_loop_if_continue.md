@@ -110,6 +110,6 @@ foo: while(z) if (x) continue foo
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

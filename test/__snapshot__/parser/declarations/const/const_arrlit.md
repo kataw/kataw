@@ -96,6 +96,7 @@ const []
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in const declaration - start: 8, end: 8
 
 ```
 

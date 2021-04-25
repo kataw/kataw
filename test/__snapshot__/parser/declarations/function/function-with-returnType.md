@@ -129,6 +129,10 @@ function foo():number{}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 14, end: 15
+@{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ Unexpected token. - start: 21, end: 22
 
 ```
 

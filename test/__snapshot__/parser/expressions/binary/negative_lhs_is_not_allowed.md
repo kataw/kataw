@@ -86,6 +86,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses - start: 3, end: 6
 
 ```
 

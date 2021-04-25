@@ -241,6 +241,21 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 8
+@{x2716}@ Unexpected token. - start: 3, end: 8
+@{x2716}@ Unexpected token. - start: 3, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Unexpected token. - start: 9, end: 18
+@{x2716}@ Unexpected token. - start: 18, end: 24
+@{x2716}@ Binding identifier expected - start: 24, end: 33
+@{x2716}@ Unexpected token. - start: 24, end: 33
+@{x2716}@ Binding identifier expected - start: 33, end: 35
+@{x2716}@ Unexpected token. - start: 33, end: 35
+@{x2716}@ Unexpected token. - start: 33, end: 35
+@{x2716}@ Unexpected token. - start: 33, end: 35
+@{x2716}@ Expression expected - start: 36, end: 36
+@{x2716}@ Unexpected token. - start: 36, end: 36
 
 ```
 

@@ -128,6 +128,7 @@ var x = y, {z};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in destructuring declaration - start: 14, end: 15
 
 ```
 

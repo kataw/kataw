@@ -121,6 +121,6 @@ class x {new(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

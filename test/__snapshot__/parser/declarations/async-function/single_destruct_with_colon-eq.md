@@ -133,6 +133,7 @@ let {a:=c} = z;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 7, end: 8
 
 ```
 

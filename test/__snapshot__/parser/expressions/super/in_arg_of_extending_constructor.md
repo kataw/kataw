@@ -222,6 +222,6 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

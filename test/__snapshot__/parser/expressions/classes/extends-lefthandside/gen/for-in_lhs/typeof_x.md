@@ -84,6 +84,7 @@ for (typeof x in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 16, end: 18
 
 ```
 

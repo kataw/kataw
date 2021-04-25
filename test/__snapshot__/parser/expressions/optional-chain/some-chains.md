@@ -1370,6 +1370,6 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

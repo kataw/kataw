@@ -180,6 +180,6 @@ function* g() {   [...{ x = yield }] = y   }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

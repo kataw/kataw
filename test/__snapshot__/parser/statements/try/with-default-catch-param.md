@@ -136,6 +136,6 @@ try { } catch ([a = 0]) { }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

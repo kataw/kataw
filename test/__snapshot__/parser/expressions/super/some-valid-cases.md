@@ -2093,6 +2093,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 93, end: 94
+@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 447, end: 448
 
 ```
 

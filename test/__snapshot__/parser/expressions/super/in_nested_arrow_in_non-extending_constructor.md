@@ -189,6 +189,6 @@ class x { constructor(){ return () => () => super.foo; }}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

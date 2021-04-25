@@ -132,6 +132,7 @@ function* gf() { yield++; }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 24, end: 25
 
 ```
 

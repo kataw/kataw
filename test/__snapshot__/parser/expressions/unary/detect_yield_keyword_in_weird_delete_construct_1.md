@@ -147,6 +147,6 @@ function *f(){ delete ("x"[(yield)]) }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

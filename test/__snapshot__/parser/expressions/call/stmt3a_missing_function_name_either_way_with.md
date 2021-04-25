@@ -97,6 +97,7 @@ async
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 15, end: 16
 
 ```
 

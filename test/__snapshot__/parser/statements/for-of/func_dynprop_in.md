@@ -154,6 +154,6 @@ for (function(){ }[x in y] of x);
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

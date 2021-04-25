@@ -54,6 +54,6 @@ abc\uD835\uDFD0def
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

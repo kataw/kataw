@@ -98,6 +98,6 @@ async (x, y) => ok()
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

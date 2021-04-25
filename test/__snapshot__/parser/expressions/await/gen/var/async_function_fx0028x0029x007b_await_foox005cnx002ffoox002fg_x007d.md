@@ -185,6 +185,18 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 64, end: 68
+@{x2716}@ Invalid hexadecimal escape sequence - start: 68, end: 68
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ ',' expected - start: 68, end: 69
+@{x2716}@ Unexpected token. - start: 68, end: 69
+@{x2716}@ Statement expected - start: 68, end: 69
+@{x2716}@ Statement expected - start: 76, end: 78
+@{x2716}@ Statement expected - start: 78, end: 80
+@{x2716}@ Statement expected - start: 80, end: 81
 
 ```
 

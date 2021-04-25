@@ -126,6 +126,10 @@ async () => {  fin\u0061lly = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 13, end: 27
+@{x2716}@ Unexpected token. - start: 27, end: 29
+@{x2716}@ Unexpected token. - start: 27, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 31
 
 ```
 

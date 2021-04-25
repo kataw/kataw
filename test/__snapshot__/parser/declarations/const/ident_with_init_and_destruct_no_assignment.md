@@ -127,6 +127,7 @@ const x = y, {z};
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in const declaration - start: 16, end: 17
 
 ```
 

@@ -114,6 +114,11 @@ class import {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 5, end: 12
+@{x2716}@ Unexpected token. - start: 5, end: 12
+@{x2716}@ Unexpected token. - start: 15, end: 15
+@{x2716}@ Expression expected - start: 15, end: 15
+@{x2716}@ The `import` keyword can only be used with the module goal - start: 15, end: 15
 
 ```
 

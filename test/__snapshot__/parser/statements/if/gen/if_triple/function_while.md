@@ -170,6 +170,21 @@ if if if function while
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Expression expected - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Expression expected - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 17
+@{x2716}@ Unexpected token. - start: 17, end: 23
+@{x2716}@ Unexpected token. - start: 17, end: 23
+@{x2716}@ Unexpected token. - start: 17, end: 23
+@{x2716}@ Unexpected token. - start: 17, end: 23
+@{x2716}@ Unexpected token. - start: 23, end: 23
+@{x2716}@ Expression expected - start: 23, end: 23
+@{x2716}@ Unexpected token. - start: 23, end: 23
+@{x2716}@ Expression expected - start: 23, end: 23
 
 ```
 

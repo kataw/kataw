@@ -122,6 +122,6 @@ class A {async * 34(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

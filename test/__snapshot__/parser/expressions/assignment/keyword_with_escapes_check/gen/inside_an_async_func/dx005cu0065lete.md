@@ -121,6 +121,8 @@ async () => {  d\u0065lete = x  }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 26, end: 28
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 26, end: 28
 
 ```
 

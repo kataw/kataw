@@ -114,6 +114,7 @@ for (async function *(){} in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 28, end: 30
 
 ```
 

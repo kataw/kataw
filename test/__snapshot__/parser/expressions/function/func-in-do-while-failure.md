@@ -119,6 +119,7 @@ do function *f(){} while (x);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
 
 ```
 

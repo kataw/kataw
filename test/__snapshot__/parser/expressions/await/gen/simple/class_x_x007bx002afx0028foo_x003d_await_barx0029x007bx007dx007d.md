@@ -165,6 +165,7 @@ class x {*f(foo = await bar){}}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 23, end: 27
 
 ```
 

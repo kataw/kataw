@@ -131,6 +131,6 @@ class A extends async function *(){} {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

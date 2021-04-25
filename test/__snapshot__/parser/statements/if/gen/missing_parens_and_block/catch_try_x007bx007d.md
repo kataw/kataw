@@ -115,6 +115,14 @@ if else catch try {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 7
+@{x2716}@ Expression expected - start: 2, end: 7
+@{x2716}@ Unexpected token. - start: 2, end: 7
+@{x2716}@ Expression expected - start: 2, end: 7
+@{x2716}@ Unexpected token. - start: 2, end: 7
+@{x2716}@ Unexpected token. - start: 7, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 17
+@{x2716}@ Unexpected token. - start: 13, end: 17
 
 ```
 

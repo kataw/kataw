@@ -142,6 +142,15 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 3, end: 8
+@{x2716}@ Unexpected token. - start: 3, end: 8
+@{x2716}@ Unexpected token. - start: 3, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Unexpected token. - start: 8, end: 9
+@{x2716}@ Unexpected token. - start: 9, end: 15
+@{x2716}@ 'super' must be followed by an argument list or member access. - start: 15, end: 15
+@{x2716}@ Dot property must be an identifier - start: 15, end: 15
+@{x2716}@ Unexpected token. - start: 15, end: 15
 
 ```
 

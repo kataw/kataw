@@ -103,6 +103,11 @@ catch class x {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 0, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 11
+@{x2716}@ Unexpected token. - start: 5, end: 11
+@{x2716}@ Unexpected token. - start: 11, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 15
 
 ```
 

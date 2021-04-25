@@ -95,6 +95,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Line terminator not permitted before arrow - start: 6, end: 10
 
 ```
 

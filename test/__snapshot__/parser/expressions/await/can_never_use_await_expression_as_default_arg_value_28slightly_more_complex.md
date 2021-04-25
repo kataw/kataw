@@ -178,6 +178,16 @@ function call(foo= 5 + (await bar())){}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 29, end: 33
+@{x2716}@ ',' expected - start: 29, end: 33
+@{x2716}@ ',' expected - start: 33, end: 34
+@{x2716}@ Unexpected token. - start: 33, end: 34
+@{x2716}@ Unexpected token. - start: 33, end: 34
+@{x2716}@ Unexpected token. - start: 33, end: 34
+@{x2716}@ Expression expected - start: 35, end: 36
+@{x2716}@ Unexpected token. - start: 35, end: 36
+@{x2716}@ Statement expected - start: 35, end: 36
+@{x2716}@ Statement expected - start: 36, end: 37
 
 ```
 

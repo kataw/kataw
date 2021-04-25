@@ -271,6 +271,17 @@ x = { method(test: string) { } };
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 44, end: 45
+@{x2716}@ Unexpected token. - start: 44, end: 45
+@{x2716}@ Unexpected token. - start: 44, end: 45
+@{x2716}@ Unexpected token. - start: 44, end: 45
+@{x2716}@ ',' expected - start: 44, end: 45
+@{x2716}@ Unexpected token. - start: 44, end: 45
+@{x2716}@ Unexpected token. - start: 44, end: 45
+@{x2716}@ Statement expected - start: 44, end: 45
+@{x2716}@ Unexpected token. - start: 52, end: 53
+@{x2716}@ Statement expected - start: 52, end: 53
+@{x2716}@ Statement expected - start: 57, end: 59
 
 ```
 

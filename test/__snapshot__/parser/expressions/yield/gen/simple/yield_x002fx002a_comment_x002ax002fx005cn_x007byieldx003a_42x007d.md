@@ -109,6 +109,14 @@ yield /* comment */\n {yield: 42}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid hexadecimal escape sequence - start: 5, end: 19
+@{x2716}@ Unexpected token. - start: 5, end: 20
+@{x2716}@ Statement expected - start: 5, end: 20
+@{x2716}@ Unexpected token. - start: 21, end: 23
+@{x2716}@ Unexpected token. - start: 28, end: 29
+@{x2716}@ Unexpected token. - start: 28, end: 29
+@{x2716}@ Statement expected - start: 28, end: 29
+@{x2716}@ Statement expected - start: 32, end: 33
 
 ```
 

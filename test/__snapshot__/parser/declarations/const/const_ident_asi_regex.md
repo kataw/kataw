@@ -145,6 +145,9 @@ const q
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Missing initializer in const declaration - start: 7, end: 9
+@{x2716}@ Expression expected - start: 7, end: 9
+@{x2716}@ Expression expected - start: 11, end: 11
 
 ```
 

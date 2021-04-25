@@ -338,6 +338,9 @@ type B = Foo<
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 63, end: 67
+@{x2716}@ Expression expected - start: 95, end: 97
+@{x2716}@ Expression expected - start: 97, end: 98
 
 ```
 

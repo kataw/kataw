@@ -147,6 +147,6 @@ type T2 = number;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

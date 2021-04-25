@@ -210,6 +210,22 @@ switch [catch] while try this and !foo
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 6, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 8, end: 13
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 13, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 20
+@{x2716}@ Unexpected token. - start: 20, end: 24
+@{x2716}@ Expression expected - start: 20, end: 24
+@{x2716}@ Unexpected token. - start: 20, end: 24
+@{x2716}@ Unexpected token. - start: 24, end: 29
+@{x2716}@ Unexpected token. - start: 24, end: 29
+@{x2716}@ Unexpected token. - start: 29, end: 33
+@{x2716}@ Unexpected token. - start: 33, end: 35
 
 ```
 

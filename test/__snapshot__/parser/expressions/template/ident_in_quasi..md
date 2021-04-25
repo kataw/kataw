@@ -86,6 +86,8 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Expression expected - start: 0, end: 3
+@{x2716}@ Unterminated template literal - start: 4, end: 4
 
 ```
 

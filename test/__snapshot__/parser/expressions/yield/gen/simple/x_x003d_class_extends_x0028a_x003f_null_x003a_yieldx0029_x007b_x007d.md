@@ -146,6 +146,6 @@ x = class extends (a ? null : yield) { }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

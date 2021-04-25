@@ -148,6 +148,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

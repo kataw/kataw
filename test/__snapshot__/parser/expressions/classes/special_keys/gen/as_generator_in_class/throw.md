@@ -121,6 +121,6 @@ class x {* throw(){}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

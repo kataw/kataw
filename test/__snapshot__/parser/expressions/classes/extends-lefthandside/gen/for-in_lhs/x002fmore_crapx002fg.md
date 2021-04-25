@@ -71,6 +71,7 @@ for (/more crap/g in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 20, end: 22
 
 ```
 

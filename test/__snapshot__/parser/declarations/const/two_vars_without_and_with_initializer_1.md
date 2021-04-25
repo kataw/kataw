@@ -147,6 +147,6 @@ const [foo, bar=b] = arr;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

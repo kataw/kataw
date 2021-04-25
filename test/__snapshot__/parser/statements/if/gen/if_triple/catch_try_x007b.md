@@ -141,6 +141,19 @@ if if if catch try {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Expression expected - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 2, end: 5
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Expression expected - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 5, end: 8
+@{x2716}@ Unexpected token. - start: 8, end: 14
+@{x2716}@ Expression expected - start: 8, end: 14
+@{x2716}@ Unexpected token. - start: 8, end: 14
+@{x2716}@ Unexpected token. - start: 8, end: 14
+@{x2716}@ Unexpected token. - start: 14, end: 18
+@{x2716}@ Unexpected token. - start: 14, end: 18
+@{x2716}@ Unexpected token. - start: 20, end: 20
 
 ```
 

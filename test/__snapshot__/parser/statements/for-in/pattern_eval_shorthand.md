@@ -139,6 +139,6 @@ for ({ eval = 0 } in [{}]) ;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

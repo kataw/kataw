@@ -122,6 +122,7 @@ for ([x + y] in obj);
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 15, end: 19
 
 ```
 

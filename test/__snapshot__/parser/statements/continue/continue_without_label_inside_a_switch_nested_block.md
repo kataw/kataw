@@ -112,6 +112,7 @@ switch (x) { case x: {continue;} }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 22, end: 30
 
 ```
 

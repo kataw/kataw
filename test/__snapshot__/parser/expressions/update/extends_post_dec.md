@@ -97,6 +97,6 @@ class x extends a-- {}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

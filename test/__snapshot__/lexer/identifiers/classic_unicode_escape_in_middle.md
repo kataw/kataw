@@ -48,6 +48,6 @@ xxx\u0065xxx
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

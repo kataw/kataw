@@ -154,6 +154,7 @@ try {
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 30, end: 31
 
 ```
 

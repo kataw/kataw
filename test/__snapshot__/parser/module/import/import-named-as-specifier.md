@@ -110,6 +110,6 @@ import {bar as baz} from "foo";
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

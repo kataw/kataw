@@ -169,6 +169,6 @@ let {x : y, z : a} = obj;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -178,6 +178,21 @@ return return return async try while { catch }
 ### Diagnostics
 
 ```javascript
+@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
+@{x2716}@ Expression expected - start: 6, end: 13
+@{x2716}@ Unexpected token. - start: 6, end: 13
+@{x2716}@ A return statement can only be used within a function_body - start: 6, end: 13
+@{x2716}@ Expression expected - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 13, end: 20
+@{x2716}@ A return statement can only be used within a function_body - start: 13, end: 20
+@{x2716}@ Unexpected token. - start: 26, end: 30
+@{x2716}@ Unexpected token. - start: 30, end: 36
+@{x2716}@ Unexpected token. - start: 30, end: 36
+@{x2716}@ Unexpected token. - start: 38, end: 44
+@{x2716}@ Unexpected token. - start: 44, end: 46
+@{x2716}@ Unexpected token. - start: 44, end: 46
+@{x2716}@ Unexpected token. - start: 46, end: 46
+@{x2716}@ Unexpected token. - start: 46, end: 46
 
 ```
 

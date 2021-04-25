@@ -103,6 +103,12 @@ class switch {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 5, end: 12
+@{x2716}@ Unexpected token. - start: 5, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 14
+@{x2716}@ Unexpected token. - start: 15, end: 15
+@{x2716}@ Unexpected token. - start: 15, end: 15
+@{x2716}@ Unexpected token. - start: 15, end: 15
 
 ```
 

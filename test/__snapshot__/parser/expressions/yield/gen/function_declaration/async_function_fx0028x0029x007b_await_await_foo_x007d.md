@@ -179,6 +179,7 @@ function not_gen() { async function f(){ await await foo; } }}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 61, end: 62
 
 ```
 

@@ -86,6 +86,7 @@ async (x, /x/g) => x
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 15, end: 18
 
 ```
 

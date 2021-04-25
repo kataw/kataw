@@ -126,6 +126,15 @@ class for {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Binding identifier expected - start: 5, end: 9
+@{x2716}@ Unexpected token. - start: 5, end: 9
+@{x2716}@ Unexpected token. - start: 9, end: 11
+@{x2716}@ Unexpected token. - start: 12, end: 12
+@{x2716}@ Expression expected - start: 12, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 12
+@{x2716}@ Expression expected - start: 12, end: 12
+@{x2716}@ Unexpected token. - start: 12, end: 12
+@{x2716}@ Expression expected - start: 12, end: 12
 
 ```
 

@@ -204,6 +204,6 @@ a={123<T>(x: T): T {}}
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

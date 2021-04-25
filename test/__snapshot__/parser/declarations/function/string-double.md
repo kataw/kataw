@@ -143,6 +143,15 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ ',' expected - start: 30, end: 31
+@{x2716}@ Unexpected token. - start: 30, end: 31
+@{x2716}@ Unexpected token. - start: 30, end: 31
+@{x2716}@ Unexpected token. - start: 30, end: 31
+@{x2716}@ Statement expected - start: 30, end: 31
+@{x2716}@ Unexpected token. - start: 37, end: 38
+@{x2716}@ Statement expected - start: 37, end: 38
+@{x2716}@ Statement expected - start: 38, end: 39
+@{x2716}@ Unexpected token. - start: 54, end: 56
 
 ```
 

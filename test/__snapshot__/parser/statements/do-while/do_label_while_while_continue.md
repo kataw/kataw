@@ -129,6 +129,10 @@ do wow: while (x) while (x) continue wow;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 41, end: 41
+@{x2716}@ Unexpected token. - start: 41, end: 41
+@{x2716}@ Expression expected - start: 41, end: 41
+@{x2716}@ Unexpected token. - start: 41, end: 41
 
 ```
 

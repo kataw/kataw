@@ -83,6 +83,6 @@ obj.voi\u0064 = 42;
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

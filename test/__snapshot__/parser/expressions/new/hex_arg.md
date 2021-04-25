@@ -91,6 +91,6 @@ new 0x2.__proto__.constructor
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

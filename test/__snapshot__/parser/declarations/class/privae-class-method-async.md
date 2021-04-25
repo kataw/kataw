@@ -121,6 +121,6 @@ class C { async#aaa(){} }
 ### Diagnostics
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

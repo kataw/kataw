@@ -86,6 +86,7 @@ let async
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Statement expected - start: 9, end: 13
 
 ```
 

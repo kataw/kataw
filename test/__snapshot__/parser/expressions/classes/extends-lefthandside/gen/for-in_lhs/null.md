@@ -71,6 +71,7 @@ for (null in x) ;
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Invalid left-hand side in for-in loop - start: 12, end: 14
 
 ```
 

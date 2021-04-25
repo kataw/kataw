@@ -198,6 +198,8 @@ x => y {}
 ### Diagnostics
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 38, end: 40
+@{x2716}@ Unexpected token. - start: 45, end: 47
 
 ```
 
