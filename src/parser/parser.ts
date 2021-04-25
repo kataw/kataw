@@ -2216,7 +2216,7 @@ function parsePrefixUpdateExpression(
 ): PrefixUpdateExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
-  const operand = parseExpression(parser, context);
+  const operand = parseLeftHandSideExpression(parser, context);
 
   if (!parser.assignable) {
     parser.onError(
