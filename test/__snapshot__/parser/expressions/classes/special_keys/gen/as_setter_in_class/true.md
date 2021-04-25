@@ -62,65 +62,85 @@ class x {set true(x){}}
                         "flags": 256,
                         "start": 9,
                         "end": 12
+                    },
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "true",
+                                "rawText": "true",
+                                "flags": 768,
+                                "start": 12,
+                                "end": 17
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [
+                                    {
+                                        "kind": 215,
+                                        "ellipsisToken": null,
+                                        "binding": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 768,
+                                            "start": 18,
+                                            "end": 19
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 256,
+                                        "start": 18,
+                                        "end": 19
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 18,
+                                "end": 20
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 21,
+                                    "end": 21
+                                },
+                                "flags": 256,
+                                "start": 20,
+                                "end": 22
+                            },
+                            "flags": 0,
+                            "start": 17,
+                            "end": 22
+                        },
+                        "flags": 256,
+                        "start": 12,
+                        "end": 22
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 12
+                "end": 23
             },
             "flags": 128,
             "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 768,
-                    "start": 12,
-                    "end": 17
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 768,
-                            "start": 18,
-                            "end": 19
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 18,
-                    "end": 19
-                },
-                "flags": 256,
-                "start": 12,
-                "end": 20
-            },
-            "flags": 128,
-            "start": 12,
-            "end": 20
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 21,
-                "end": 21
-            },
-            "flags": 128,
-            "start": 20,
-            "end": 22
+            "end": 23
         }
     ],
     "isModule": false,
@@ -141,9 +161,6 @@ class x {set true(x){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 12, end: 17
-@{x2716}@ Unexpected token. - start: 20, end: 21
-@{x2716}@ Statement expected - start: 22, end: 23
-
+@{x2714}@ No errors
 ```
 

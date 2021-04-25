@@ -288,7 +288,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 73, end: 74
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
 
 ```

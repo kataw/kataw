@@ -150,7 +150,6 @@ class x {static set implements(x){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 30, end: 31
-
+@{x2714}@ No errors
 ```
 

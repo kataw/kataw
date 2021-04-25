@@ -202,7 +202,6 @@ declare class X {
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 41, end: 42
-
+@{x2714}@ No errors
 ```
 

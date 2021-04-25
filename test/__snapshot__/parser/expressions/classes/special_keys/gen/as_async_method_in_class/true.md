@@ -62,56 +62,66 @@ class x {async true(){}}
                         "flags": 256,
                         "start": 9,
                         "end": 14
+                    },
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "true",
+                                "rawText": "true",
+                                "flags": 768,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 20,
+                                "end": 21
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 22,
+                                    "end": 22
+                                },
+                                "flags": 256,
+                                "start": 21,
+                                "end": 23
+                            },
+                            "flags": 0,
+                            "start": 19,
+                            "end": 23
+                        },
+                        "flags": 256,
+                        "start": 14,
+                        "end": 23
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 14
+                "end": 24
             },
             "flags": 128,
             "start": 0,
-            "end": 14
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 768,
-                    "start": 14,
-                    "end": 19
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 20,
-                    "end": 20
-                },
-                "flags": 256,
-                "start": 14,
-                "end": 21
-            },
-            "flags": 128,
-            "start": 14,
-            "end": 21
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 22,
-                "end": 22
-            },
-            "flags": 128,
-            "start": 21,
-            "end": 23
+            "end": 24
         }
     ],
     "isModule": false,
@@ -132,9 +142,6 @@ class x {async true(){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 14, end: 19
-@{x2716}@ Unexpected token. - start: 21, end: 22
-@{x2716}@ Statement expected - start: 23, end: 24
-
+@{x2714}@ No errors
 ```
 

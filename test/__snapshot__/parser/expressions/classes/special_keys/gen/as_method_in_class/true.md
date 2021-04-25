@@ -41,55 +41,66 @@ class x {true(){}}
             "classHeritage": null,
             "members": {
                 "kind": 277,
-                "elements": [],
+                "elements": [
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "true",
+                                "rawText": "true",
+                                "flags": 768,
+                                "start": 9,
+                                "end": 13
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 14,
+                                "end": 15
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 16,
+                                    "end": 16
+                                },
+                                "flags": 256,
+                                "start": 15,
+                                "end": 17
+                            },
+                            "flags": 0,
+                            "start": 13,
+                            "end": 17
+                        },
+                        "flags": 256,
+                        "start": 9,
+                        "end": 17
+                    }
+                ],
                 "flags": 256,
                 "start": 9,
-                "end": 9
+                "end": 18
             },
             "flags": 128,
             "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 768,
-                    "start": 9,
-                    "end": 13
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 256,
-                "start": 9,
-                "end": 15
-            },
-            "flags": 128,
-            "start": 9,
-            "end": 15
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 16,
-                "end": 16
-            },
-            "flags": 128,
-            "start": 15,
-            "end": 17
+            "end": 18
         }
     ],
     "isModule": false,
@@ -110,9 +121,6 @@ class x {true(){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 9, end: 13
-@{x2716}@ Unexpected token. - start: 15, end: 16
-@{x2716}@ Statement expected - start: 17, end: 18
-
+@{x2714}@ No errors
 ```
 

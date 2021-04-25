@@ -43,80 +43,69 @@ class x {static * true(){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
+                        "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
                         "asyncKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 17,
-                            "end": 17
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "true",
+                                "rawText": "true",
+                                "flags": 768,
+                                "start": 17,
+                                "end": 22
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 23,
+                                "end": 24
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "multiline": false,
+                                    "flags": 256,
+                                    "start": 25,
+                                    "end": 25
+                                },
+                                "flags": 256,
+                                "start": 24,
+                                "end": 26
+                            },
+                            "flags": 0,
+                            "start": 22,
+                            "end": 26
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
                         "flags": 256,
                         "start": 15,
-                        "end": 17
+                        "end": 26
                     }
                 ],
                 "flags": 256,
                 "start": 9,
-                "end": 17
+                "end": 27
             },
             "flags": 128,
             "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134,
-                    "text": true,
-                    "flags": 768,
-                    "start": 17,
-                    "end": 22
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 23,
-                    "end": 23
-                },
-                "flags": 256,
-                "start": 17,
-                "end": 24
-            },
-            "flags": 128,
-            "start": 17,
-            "end": 24
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 25,
-                "end": 25
-            },
-            "flags": 128,
-            "start": 24,
-            "end": 26
+            "end": 27
         }
     ],
     "isModule": false,
@@ -137,10 +126,6 @@ class x {static * true(){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 17, end: 22
-@{x2716}@ Unexpected token. - start: 17, end: 22
-@{x2716}@ Unexpected token. - start: 24, end: 25
-@{x2716}@ Statement expected - start: 26, end: 27
-
+@{x2714}@ No errors
 ```
 

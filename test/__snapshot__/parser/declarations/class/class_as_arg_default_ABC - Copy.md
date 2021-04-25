@@ -308,7 +308,6 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 68, end: 69
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 77, end: 80
 
 ```

@@ -41,26 +41,35 @@ class x {true: x}
             "classHeritage": null,
             "members": {
                 "kind": 277,
-                "elements": [],
+                "elements": [
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "true",
+                            "rawText": "true",
+                            "flags": 768,
+                            "start": 9,
+                            "end": 13
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 256,
+                        "start": 9,
+                        "end": 13
+                    }
+                ],
                 "flags": 256,
-                "start": 9,
-                "end": 9
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 768,
                 "start": 9,
                 "end": 13
             },
             "flags": 128,
-            "start": 9,
+            "start": 0,
             "end": 13
         },
         {
@@ -96,7 +105,6 @@ class x {true: x}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 9, end: 13
 @{x2716}@ Unexpected token. - start: 13, end: 14
 @{x2716}@ Statement expected - start: 13, end: 14
 @{x2716}@ Statement expected - start: 16, end: 17

@@ -151,7 +151,6 @@ class C extends Base { static get x() {} }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 35, end: 36
-
+@{x2714}@ No errors
 ```
 

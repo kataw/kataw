@@ -32,7 +32,7 @@
                     "end": 1
                 },
                 "operatorToken": {
-                    "kind": 20558643,
+                    "kind": 24752947,
                     "flags": 768,
                     "start": 1,
                     "end": 5

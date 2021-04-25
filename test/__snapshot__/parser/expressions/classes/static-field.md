@@ -111,7 +111,6 @@ class {
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 7
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 27, end: 29
 
 ```
 

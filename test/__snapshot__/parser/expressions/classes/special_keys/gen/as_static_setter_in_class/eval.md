@@ -150,7 +150,6 @@ class x {static set eval(x){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 24, end: 25
-
+@{x2714}@ No errors
 ```
 

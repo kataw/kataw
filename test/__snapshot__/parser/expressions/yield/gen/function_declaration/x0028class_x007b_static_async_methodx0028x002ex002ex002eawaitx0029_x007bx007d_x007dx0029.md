@@ -208,7 +208,6 @@ function not_gen() { (class { static async method(...await) {} }) }}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 49, end: 50
 @{x2716}@ Statement expected - start: 67, end: 68
 
 ```

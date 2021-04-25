@@ -700,9 +700,6 @@ class A {
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 120, end: 124
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 148, end: 152
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 203, end: 207
-
+@{x2714}@ No errors
 ```
 

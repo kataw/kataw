@@ -5156,7 +5156,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
       );
     }
 
-    name = parseIdentifier(parser, context | Context.Strict, DiagnosticCode.Identifier_expected);
+    name = parseIdentifier(parser, context | Context.Strict, DiagnosticCode.Identifier_expected, /*allowKeywords */ true);
   }
 
   const typeParameters = parseTypeParameters(parser, context);
@@ -5228,6 +5228,7 @@ function parseClassElementList(
       SyntaxKind.IsFutureReserved |
       SyntaxKind.IsProperty)
   ) {
+
     elements.push(
       parseClassElement(
         parser,
@@ -5397,8 +5398,8 @@ export function parseClassElement(
         }
       }
     } else if (
-      staticKeyword ||
-      (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter) && parser.tokenValue === 'prototype')
+      (staticKeyword ||
+      nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) && parser.tokenValue === 'prototype'
     ) {
       parser.onError(
         DiagnosticSource.Parser,

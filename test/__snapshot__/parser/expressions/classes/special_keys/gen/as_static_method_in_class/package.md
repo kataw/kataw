@@ -126,7 +126,6 @@ class x {static package(){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 23, end: 24
-
+@{x2714}@ No errors
 ```
 
