@@ -82,7 +82,6 @@ export default class {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A class declaration without the 'default' modifier must have a name. - start: 20, end: 22
-
+@{x2714}@ No errors
 ```
 

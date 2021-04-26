@@ -313,6 +313,7 @@ result = [ x = yield ] = vals;
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 3, end: 9
+
 ```
 

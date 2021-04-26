@@ -26,6 +26,8 @@ export type TokenSyntaxKind =
   | SyntaxKind.QuestionMarkPeriod
   | SyntaxKind.TemplateCont
   | SyntaxKind.TemplateTail
+  | SyntaxKind.ImplementsKeyword
+  | SyntaxKind.FromKeyword
   | SyntaxKind.Add
   | SyntaxKind.Subtract
   | SyntaxKind.ConstKeyword

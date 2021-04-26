@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-export default function () {}
+export default function *f(){} foo
 `````
 
 ## Output
@@ -45,15 +45,27 @@ export default function () {}
                     "start": 14,
                     "end": 23
                 },
-                "generatorToken": null,
-                "name": null,
+                "generatorToken": {
+                    "kind": 67143222,
+                    "flags": 768,
+                    "start": 23,
+                    "end": 25
+                },
+                "name": {
+                    "kind": 134299649,
+                    "text": "f",
+                    "rawText": "f",
+                    "flags": 768,
+                    "start": 25,
+                    "end": 26
+                },
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 256,
-                    "start": 23,
-                    "end": 26
+                    "start": 26,
+                    "end": 28
                 },
                 "contents": {
                     "kind": 216,
@@ -63,30 +75,44 @@ export default function () {}
                         "statements": [],
                         "multiline": false,
                         "flags": 256,
-                        "start": 28,
-                        "end": 28
+                        "start": 29,
+                        "end": 29
                     },
                     "flags": 256,
-                    "start": 26,
-                    "end": 29
+                    "start": 28,
+                    "end": 30
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 2176,
                 "start": 14,
-                "end": 29
+                "end": 30
             },
             "flags": 128,
             "start": 0,
-            "end": 29
+            "end": 30
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 768,
+                "start": 30,
+                "end": 34
+            },
+            "flags": 128,
+            "start": 30,
+            "end": 34
         }
     ],
     "isModule": true,
-    "text": "export default function () {}",
+    "text": "export default function *f(){} foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 29
+    "end": 34
 }
 ```
 

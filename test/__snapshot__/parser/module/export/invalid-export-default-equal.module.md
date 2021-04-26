@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-export default class {}
+export default = 42
 `````
 
 ## Output
@@ -36,40 +36,44 @@ export default class {}
                 "end": 14
             },
             "declaration": {
-                "kind": 178,
-                "declareKeyword": null,
-                "decorators": null,
-                "classKeyword": {
-                    "kind": 37822544,
+                "kind": 125,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 14,
+                    "end": 14
+                },
+                "operatorToken": {
+                    "kind": 4125,
                     "flags": 768,
                     "start": 14,
-                    "end": 20
+                    "end": 16
                 },
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "members": {
-                    "kind": 277,
-                    "elements": [],
-                    "flags": 256,
-                    "start": 22,
-                    "end": 23
+                "right": {
+                    "kind": 201392130,
+                    "text": 42,
+                    "rawText": "42",
+                    "flags": 768,
+                    "start": 16,
+                    "end": 19
                 },
-                "flags": 128,
+                "flags": 256,
                 "start": 14,
-                "end": 23
+                "end": 19
             },
             "flags": 128,
             "start": 0,
-            "end": 23
+            "end": 19
         }
     ],
     "isModule": true,
-    "text": "export default class {}",
+    "text": "export default = 42",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 19
 }
 ```
 
@@ -82,6 +86,7 @@ export default class {}
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ Expression expected - start: 14, end: 16
+
 ```
 

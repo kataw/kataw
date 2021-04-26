@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-export default function () {}
+export default class {} foo
 `````
 
 ## Output
@@ -36,57 +36,54 @@ export default function () {}
                 "end": 14
             },
             "declaration": {
-                "kind": 176,
+                "kind": 178,
                 "declareKeyword": null,
-                "asyncKeyword": null,
-                "functionKeyword": {
-                    "kind": 37822554,
+                "decorators": null,
+                "classKeyword": {
+                    "kind": 37822544,
                     "flags": 768,
                     "start": 14,
+                    "end": 20
+                },
+                "name": null,
+                "typeParameters": null,
+                "classHeritage": null,
+                "members": {
+                    "kind": 277,
+                    "elements": [],
+                    "flags": 256,
+                    "start": 22,
                     "end": 23
                 },
-                "generatorToken": null,
-                "name": null,
-                "formalParameters": {
-                    "kind": 214,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 256,
-                    "start": 23,
-                    "end": 26
-                },
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "multiline": false,
-                        "flags": 256,
-                        "start": 28,
-                        "end": 28
-                    },
-                    "flags": 256,
-                    "start": 26,
-                    "end": 29
-                },
-                "typeParameters": null,
-                "returnType": null,
                 "flags": 128,
                 "start": 14,
-                "end": 29
+                "end": 23
             },
             "flags": 128,
             "start": 0,
-            "end": 29
+            "end": 23
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 768,
+                "start": 23,
+                "end": 27
+            },
+            "flags": 128,
+            "start": 23,
+            "end": 27
         }
     ],
     "isModule": true,
-    "text": "export default function () {}",
+    "text": "export default class {} foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 29
+    "end": 27
 }
 ```
 

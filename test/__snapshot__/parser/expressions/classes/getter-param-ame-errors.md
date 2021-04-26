@@ -1008,9 +1008,13 @@ class C { get name(private) {} }
 ```javascript
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 20, end: 29
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 56, end: 62
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 56, end: 62
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 89, end: 96
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 89, end: 96
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 137, end: 147
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 137, end: 147
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 188, end: 193
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 188, end: 193
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 234, end: 237
 @{x2716}@ Unexpected token. - start: 234, end: 237
 @{x2716}@ Unexpected token. - start: 234, end: 237

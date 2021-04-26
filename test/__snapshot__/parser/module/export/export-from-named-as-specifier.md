@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-export var let = x;
+export {foo as bar} from "foo";
 `````
 
 ## Output
@@ -29,66 +29,68 @@ export var let = x;
                 "start": 0,
                 "end": 6
             },
-            "declaration": {
-                "kind": 155,
-                "declareKeyword": null,
-                "varKeyword": {
-                    "kind": 37757002,
-                    "flags": 768,
-                    "start": 6,
-                    "end": 10
-                },
-                "declarationList": {
-                    "kind": 156,
-                    "declarations": [
+            "declaration": null,
+            "namedExports": {
+                "kind": 266,
+                "exportsList": {
+                    "kind": 261,
+                    "specifiers": [
                         {
-                            "kind": 157,
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 768,
+                                "start": 8,
+                                "end": 11
+                            },
                             "binding": {
                                 "kind": 134299649,
-                                "text": "let",
-                                "rawText": "let",
+                                "text": "bar",
+                                "rawText": "bar",
                                 "flags": 768,
-                                "start": 10,
-                                "end": 14
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 768,
-                                "start": 16,
+                                "start": 14,
                                 "end": 18
                             },
+                            "autofix": 0,
                             "flags": 128,
-                            "start": 10,
+                            "start": 8,
                             "end": 18
                         }
                     ],
+                    "autofix": 0,
                     "flags": 128,
-                    "start": 10,
+                    "start": 8,
                     "end": 18
                 },
-                "flags": 128,
+                "autofix": 0,
+                "flags": 0,
                 "start": 6,
                 "end": 19
             },
-            "namedExports": null,
             "exportFromClause": null,
-            "fromClause": null,
+            "fromClause": {
+                "kind": 201392131,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 768,
+                "start": 24,
+                "end": 30
+            },
             "autofix": 0,
             "flags": 128,
             "start": 0,
-            "end": 19
+            "end": 31
         }
     ],
     "isModule": true,
-    "text": "export var let = x;",
+    "text": "export {foo as bar} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 31
 }
 ```
 
@@ -101,7 +103,6 @@ export var let = x;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 10, end: 14
-
+@{x2714}@ No errors
 ```
 

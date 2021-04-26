@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-export default class {}
+export default null;
 `````
 
 ## Output
@@ -36,40 +36,23 @@ export default class {}
                 "end": 14
             },
             "declaration": {
-                "kind": 178,
-                "declareKeyword": null,
-                "decorators": null,
-                "classKeyword": {
-                    "kind": 37822544,
-                    "flags": 768,
-                    "start": 14,
-                    "end": 20
-                },
-                "name": null,
-                "typeParameters": null,
-                "classHeritage": null,
-                "members": {
-                    "kind": 277,
-                    "elements": [],
-                    "flags": 256,
-                    "start": 22,
-                    "end": 23
-                },
-                "flags": 128,
+                "kind": 269,
+                "text": null,
+                "flags": 768,
                 "start": 14,
-                "end": 23
+                "end": 19
             },
             "flags": 128,
             "start": 0,
-            "end": 23
+            "end": 20
         }
     ],
     "isModule": true,
-    "text": "export default class {}",
+    "text": "export default null;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 23
+    "end": 20
 }
 ```
 

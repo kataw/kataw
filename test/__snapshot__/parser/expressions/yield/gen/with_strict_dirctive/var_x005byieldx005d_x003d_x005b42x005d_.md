@@ -132,6 +132,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ Identifier expected. Reserved word in strict mode - start: 19, end: 24
+
 ```
 

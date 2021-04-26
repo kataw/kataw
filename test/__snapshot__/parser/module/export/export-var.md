@@ -9,7 +9,7 @@
 ## Input
 
 `````js
-export var let = x;
+export var bar;
 `````
 
 ## Output
@@ -45,34 +45,27 @@ export var let = x;
                             "kind": 157,
                             "binding": {
                                 "kind": 134299649,
-                                "text": "let",
-                                "rawText": "let",
+                                "text": "bar",
+                                "rawText": "bar",
                                 "flags": 768,
                                 "start": 10,
                                 "end": 14
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 768,
-                                "start": 16,
-                                "end": 18
-                            },
+                            "initializer": null,
                             "flags": 128,
                             "start": 10,
-                            "end": 18
+                            "end": 14
                         }
                     ],
                     "flags": 128,
                     "start": 10,
-                    "end": 18
+                    "end": 14
                 },
                 "flags": 128,
                 "start": 6,
-                "end": 19
+                "end": 15
             },
             "namedExports": null,
             "exportFromClause": null,
@@ -80,15 +73,15 @@ export var let = x;
             "autofix": 0,
             "flags": 128,
             "start": 0,
-            "end": 19
+            "end": 15
         }
     ],
     "isModule": true,
-    "text": "export var let = x;",
+    "text": "export var bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 15
 }
 ```
 
@@ -101,7 +94,6 @@ export var let = x;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 10, end: 14
-
+@{x2714}@ No errors
 ```
 
