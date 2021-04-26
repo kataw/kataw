@@ -186,7 +186,7 @@ var { ...{ x = 5 } } = {x : 1};
 
 ```javascript
 @{x2716}@ The binding pattern is not destructible - start: 9, end: 10
-@{x2716}@ A rest element cannot have an initializer - start: 9, end: 10
+@{x2716}@ Binding identifier expected - start: 9, end: 10
 @{x2716}@ Unexpected token. - start: 9, end: 10
 
 ```

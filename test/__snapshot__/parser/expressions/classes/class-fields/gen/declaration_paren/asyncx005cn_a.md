@@ -156,7 +156,7 @@
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 21, end: 27
 @{x2716}@ Invalid hexadecimal escape sequence - start: 27, end: 27
-@{x2716}@ A rest element cannot have an initializer - start: 27, end: 28
+@{x2716}@ Binding identifier expected - start: 27, end: 28
 @{x2716}@ Unexpected token. - start: 27, end: 28
 @{x2716}@ Unexpected token. - start: 27, end: 28
 @{x2716}@ Unexpected token. - start: 27, end: 28

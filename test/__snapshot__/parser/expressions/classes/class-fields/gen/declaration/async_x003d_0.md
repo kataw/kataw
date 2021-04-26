@@ -47,18 +47,13 @@ class C { async = 0 }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 768,
                             "start": 9,
-                            "end": 15
-                        },
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 15,
                             "end": 15
                         },
                         "optionalToken": null,
@@ -103,7 +98,6 @@ class C { async = 0 }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 15, end: 17
-
+@{x2714}@ No errors
 ```
 

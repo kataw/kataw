@@ -160,7 +160,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 15, end: 19
+@{x2716}@ Binding identifier expected - start: 15, end: 19
 
 ```
 

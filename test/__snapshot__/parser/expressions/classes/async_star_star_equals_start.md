@@ -140,7 +140,7 @@ class A {async **=f(){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 14, end: 18
+@{x2716}@ Binding identifier expected - start: 14, end: 18
 @{x2716}@ Unexpected token. - start: 14, end: 18
 @{x2716}@ Statement expected - start: 14, end: 18
 @{x2716}@ Unexpected token. - start: 21, end: 22

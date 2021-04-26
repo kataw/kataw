@@ -974,7 +974,6 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
     if (statement) {
       statements.push(statement);
     }
-
   }
   return createBlockStatement(statements, multiline, curPos, parser.curPos);
 }
@@ -1757,7 +1756,7 @@ function parsePropertyDefinition(
 
   if (parser.token & 8404992) {
     const token = parser.token;
-    key = parseIdentifier(parser, context, DiagnosticCode.A_rest_element_cannot_have_an_initializer, true);
+    key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, true);
     if (
       parser.token === SyntaxKind.Assign ||
       parser.token === SyntaxKind.Comma ||
@@ -3049,7 +3048,7 @@ function parsePropertyName(
     case SyntaxKind.PrivateIdentifier:
       return parsePrivateIdentifier(parser, context);
     default:
-      return parseIdentifier(parser, context, DiagnosticCode.A_rest_element_cannot_have_an_initializer, true);
+      return parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected, true);
   }
 }
 
@@ -5095,7 +5094,7 @@ function parseClassDeclaration(
       );
     }
 
-    name = parseIdentifier(parser, context | Context.Strict, DiagnosticCode.Binding_identifier_expected);
+    name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
   const typeParameters = parseTypeParameters(parser, context);
@@ -5147,16 +5146,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
     parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) &&
     parser.token !== SyntaxKind.ExtendsKeyword
   ) {
-    if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-        parser.curPos,
-        parser.pos
-      );
-    }
-
-    name = parseIdentifier(parser, context | Context.Strict, DiagnosticCode.Identifier_expected, /*allowKeywords */ true);
+    name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 
   const typeParameters = parseTypeParameters(parser, context);
@@ -5228,7 +5218,6 @@ function parseClassElementList(
       SyntaxKind.IsFutureReserved |
       SyntaxKind.IsProperty)
   ) {
-
     elements.push(
       parseClassElement(
         parser,
@@ -5268,6 +5257,7 @@ export function parseFieldDefinition(
       parser.pos
     );
   }
+
   const initializer = parseInitializer(parser, context);
 
   return createFieldDefinition(
@@ -5314,7 +5304,13 @@ export function parseClassElement(
       token === SyntaxKind.PrivateIdentifier
         ? parsePrivateIdentifier(parser, context)
         : parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
-    if ((parser.token & (SyntaxKind.Smi | SyntaxKind.IsLessThanOrLeftParen)) === 0) {
+    if (
+      (parser.token & (SyntaxKind.Smi | SyntaxKind.IsLessThanOrLeftParen)) === 0 &&
+      parser.token !== SyntaxKind.Assign &&
+      parser.token !== SyntaxKind.Comma &&
+      parser.token !== SyntaxKind.Colon &&
+      parser.token !== SyntaxKind.QuestionMark
+    ) {
       switch (token) {
         case SyntaxKind.StaticKeyword:
           if (!staticKeyword) {
@@ -5398,8 +5394,8 @@ export function parseClassElement(
         }
       }
     } else if (
-      (staticKeyword ||
-      nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) && parser.tokenValue === 'prototype'
+      (staticKeyword || nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) &&
+      parser.tokenValue === 'prototype'
     ) {
       parser.onError(
         DiagnosticSource.Parser,

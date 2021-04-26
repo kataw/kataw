@@ -49,11 +49,11 @@ class x {set: x}
                         "staticToken": null,
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 12,
+                            "kind": 134299649,
+                            "text": "set",
+                            "rawText": "set",
+                            "flags": 768,
+                            "start": 9,
                             "end": 12
                         },
                         "optionalToken": null,
@@ -105,7 +105,6 @@ class x {set: x}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 12, end: 13
 @{x2716}@ Unexpected token. - start: 12, end: 13
 @{x2716}@ Statement expected - start: 12, end: 13
 @{x2716}@ Statement expected - start: 15, end: 16

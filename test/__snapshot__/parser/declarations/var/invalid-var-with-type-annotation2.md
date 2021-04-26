@@ -227,7 +227,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 19, end: 20
+@{x2716}@ Binding identifier expected - start: 19, end: 20
 @{x2716}@ Unexpected token. - start: 19, end: 20
 
 ```

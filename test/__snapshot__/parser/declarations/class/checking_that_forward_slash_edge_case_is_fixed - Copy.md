@@ -173,7 +173,7 @@ class x { static / foo(){} }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 16, end: 18
+@{x2716}@ Binding identifier expected - start: 16, end: 18
 @{x2716}@ Unexpected token. - start: 16, end: 18
 @{x2716}@ Expression expected - start: 16, end: 18
 @{x2716}@ Unexpected token. - start: 24, end: 25

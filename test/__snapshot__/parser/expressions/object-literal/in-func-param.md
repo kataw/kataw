@@ -154,7 +154,7 @@ function test({...{}}) {}
 
 ```javascript
 @{x2716}@ The binding pattern is not destructible - start: 18, end: 19
-@{x2716}@ A rest element cannot have an initializer - start: 18, end: 19
+@{x2716}@ Binding identifier expected - start: 18, end: 19
 @{x2716}@ Unexpected token. - start: 18, end: 19
 
 ```

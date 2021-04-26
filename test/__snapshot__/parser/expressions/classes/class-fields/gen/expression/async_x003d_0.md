@@ -67,18 +67,13 @@ class C extends Base { async = 0 }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 768,
                             "start": 22,
-                            "end": 28
-                        },
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 28,
                             "end": 28
                         },
                         "optionalToken": null,
@@ -123,7 +118,6 @@ class C extends Base { async = 0 }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 28, end: 30
-
+@{x2714}@ No errors
 ```
 

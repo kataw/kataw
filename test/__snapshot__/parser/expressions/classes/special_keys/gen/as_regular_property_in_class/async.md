@@ -47,18 +47,13 @@ class x {async: x}
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 768,
                             "start": 9,
-                            "end": 14
-                        },
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 14,
                             "end": 14
                         },
                         "optionalToken": null,
@@ -110,7 +105,6 @@ class x {async: x}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest element cannot have an initializer - start: 14, end: 15
 @{x2716}@ Unexpected token. - start: 14, end: 15
 @{x2716}@ Statement expected - start: 14, end: 15
 @{x2716}@ Statement expected - start: 17, end: 18
