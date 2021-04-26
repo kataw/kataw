@@ -274,28 +274,8 @@
 
 ```javascript
 @{x2716}@ ',' expected - start: 4, end: 11
-@{x2716}@ Unexpected token. - start: 4, end: 11
-@{x2716}@ Unexpected token. - start: 4, end: 11
-@{x2716}@ Unexpected token. - start: 11, end: 14
-@{x2716}@ Unexpected token. - start: 14, end: 19
-@{x2716}@ Unexpected token. - start: 14, end: 19
-@{x2716}@ Unexpected token. - start: 14, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 30
-@{x2716}@ Unexpected token. - start: 30, end: 33
-@{x2716}@ Unexpected token. - start: 33, end: 38
-@{x2716}@ Unexpected token. - start: 38, end: 45
-@{x2716}@ Unexpected token. - start: 45, end: 51
-@{x2716}@ Unexpected token. - start: 51, end: 53
-@{x2716}@ Unexpected token. - start: 53, end: 57
-@{x2716}@ Unexpected token. - start: 57, end: 61
-@{x2716}@ Unexpected token. - start: 61, end: 63
-@{x2716}@ Unexpected token. - start: 63, end: 68
-@{x2716}@ Unexpected token. - start: 68, end: 68
 @{x2716}@ Expression expected - start: 68, end: 68
-@{x2716}@ Unexpected token. - start: 68, end: 68
 @{x2716}@ Expression expected - start: 68, end: 68
-@{x2716}@ Unexpected token. - start: 68, end: 68
 
 ```
 

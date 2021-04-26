@@ -105,7 +105,6 @@ function foo(yield) {
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 21, end: 21
-
+@{x2714}@ No errors
 ```
 

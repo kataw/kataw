@@ -73,10 +73,7 @@ do /**/ /x do while
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 2, end: 9
-@{x2716}@ Unexpected token. - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
 @{x2716}@ Expression expected - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
 
 ```
 

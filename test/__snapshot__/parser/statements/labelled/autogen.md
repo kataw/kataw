@@ -250,8 +250,6 @@ try[ #
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 11
 @{x2716}@ Unexpected token. - start: 9, end: 11
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 9, end: 11
 

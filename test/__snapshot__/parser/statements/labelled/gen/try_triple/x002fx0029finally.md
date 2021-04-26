@@ -122,13 +122,7 @@ try try try /)finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 7
-@{x2716}@ Unexpected token. - start: 3, end: 7
-@{x2716}@ Unexpected token. - start: 7, end: 11
 @{x2716}@ Unexpected token. - start: 11, end: 13
-@{x2716}@ Unexpected token. - start: 11, end: 21
-@{x2716}@ Unexpected token. - start: 11, end: 21
-@{x2716}@ Unexpected token. - start: 21, end: 21
 
 ```
 

@@ -151,16 +151,8 @@ do( function while while
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 18, end: 24
 @{x2716}@ Expression expected - start: 18, end: 24
-@{x2716}@ Unexpected token. - start: 18, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
 @{x2716}@ Expression expected - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
 @{x2716}@ Expression expected - start: 24, end: 24
 
 ```

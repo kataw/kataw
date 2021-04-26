@@ -132,9 +132,7 @@ for (let of x) y
 ```javascript
 @{x2716}@ ',' expected - start: 11, end: 13
 @{x2716}@ ',' expected - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 13, end: 14
 @{x2716}@ Expression expected - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 13, end: 14
 
 ```
 

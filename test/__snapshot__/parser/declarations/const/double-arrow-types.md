@@ -379,19 +379,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 19, end: 21
-@{x2716}@ Unexpected token. - start: 19, end: 21
 @{x2716}@ Missing initializer in const declaration - start: 27, end: 29
 @{x2716}@ ',' expected - start: 27, end: 29
-@{x2716}@ Unexpected token. - start: 27, end: 29
 @{x2716}@ Statement expected - start: 27, end: 29
 @{x2716}@ Statement expected - start: 29, end: 32
 @{x2716}@ Expression expected - start: 37, end: 39
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 37, end: 39
-@{x2716}@ Unexpected token. - start: 78, end: 80
-@{x2716}@ Unexpected token. - start: 78, end: 80
 @{x2716}@ Missing initializer in const declaration - start: 86, end: 87
-@{x2716}@ Unexpected token. - start: 87, end: 89
 @{x2716}@ Statement expected - start: 87, end: 89
 @{x2716}@ Statement expected - start: 89, end: 92
 @{x2716}@ Expression expected - start: 97, end: 99

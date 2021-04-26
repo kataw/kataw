@@ -127,7 +127,6 @@ a?.?.b
 
 ```javascript
 @{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 3, end: 5
-@{x2716}@ Unexpected token. - start: 3, end: 5
 @{x2716}@ Expression expected - start: 3, end: 5
 @{x2716}@ Unterminated template literal - start: 6, end: 6
 

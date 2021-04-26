@@ -146,16 +146,6 @@ switch( catch { try case
 
 ```javascript
 @{x2716}@ Expression expected - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 19, end: 24
-@{x2716}@ Unexpected token. - start: 19, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
 
 ```
 

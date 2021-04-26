@@ -281,7 +281,6 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 75, end: 78
 @{x2716}@ Statement expected - start: 75, end: 78
 @{x2716}@ Statement expected - start: 81, end: 87
 

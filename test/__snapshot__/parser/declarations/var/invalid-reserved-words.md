@@ -377,12 +377,8 @@
 
 ```javascript
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 18, end: 29
-@{x2716}@ Unexpected token. - start: 49, end: 58
 @{x2716}@ Binding identifier expected - start: 58, end: 59
 @{x2716}@ Unexpected token. - start: 58, end: 59
-@{x2716}@ Unexpected token. - start: 58, end: 59
-@{x2716}@ Unexpected token. - start: 58, end: 59
-@{x2716}@ Unexpected token. - start: 83, end: 89
 @{x2716}@ 'super' must be followed by an argument list or member access. - start: 89, end: 90
 @{x2716}@ Dot property must be an identifier - start: 89, end: 90
 @{x2716}@ 'super' must be followed by an argument list or member access. - start: 121, end: 123

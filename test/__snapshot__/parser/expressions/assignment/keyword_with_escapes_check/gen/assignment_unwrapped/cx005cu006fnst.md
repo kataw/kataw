@@ -71,7 +71,6 @@ c\u006fnst = x;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 10, end: 12
 @{x2716}@ Statement expected - start: 10, end: 12
 
 ```

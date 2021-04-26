@@ -125,8 +125,6 @@ function *f(){
 ```javascript
 @{x2716}@ Unexpected token. - start: 28, end: 30
 @{x2716}@ The `import` keyword can only be used with the module goal - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
 @{x2716}@ Statement expected - start: 28, end: 30
 @{x2716}@ Statement expected - start: 32, end: 34
 

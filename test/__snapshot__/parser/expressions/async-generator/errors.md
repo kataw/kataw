@@ -7755,34 +7755,20 @@ async function * gen() {class C extends await { }}
 @{x2716}@ Expression expected - start: 1160, end: 1161
 @{x2716}@ Expression expected - start: 1194, end: 1195
 @{x2716}@ Expression expected - start: 1228, end: 1229
-@{x2716}@ Unexpected token. - start: 1402, end: 1403
-@{x2716}@ Unexpected token. - start: 1402, end: 1403
 @{x2716}@ Statement expected - start: 1402, end: 1403
 @{x2716}@ Statement expected - start: 1406, end: 1407
 @{x2716}@ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 @{x2716}@ Invalid hexadecimal escape sequence - start: 1683, end: 1683
-@{x2716}@ Unexpected token. - start: 1683, end: 1684
-@{x2716}@ Unexpected token. - start: 1683, end: 1684
 @{x2716}@ Statement expected - start: 1683, end: 1684
 @{x2716}@ Statement expected - start: 1687, end: 1688
 @{x2716}@ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 @{x2716}@ Invalid hexadecimal escape sequence - start: 1854, end: 1854
-@{x2716}@ Unexpected token. - start: 1854, end: 1855
-@{x2716}@ Unexpected token. - start: 1854, end: 1855
 @{x2716}@ Statement expected - start: 1854, end: 1855
-@{x2716}@ Unexpected token. - start: 1856, end: 1857
-@{x2716}@ Unexpected token. - start: 1862, end: 1863
-@{x2716}@ Unexpected token. - start: 1862, end: 1863
 @{x2716}@ Statement expected - start: 1862, end: 1863
 @{x2716}@ Statement expected - start: 1866, end: 1867
 @{x2716}@ Statement expected - start: 1867, end: 1868
 @{x2716}@ Invalid hexadecimal escape sequence - start: 1898, end: 1912
-@{x2716}@ Unexpected token. - start: 1898, end: 1913
-@{x2716}@ Unexpected token. - start: 1898, end: 1913
 @{x2716}@ Statement expected - start: 1898, end: 1913
-@{x2716}@ Unexpected token. - start: 1914, end: 1916
-@{x2716}@ Unexpected token. - start: 1921, end: 1922
-@{x2716}@ Unexpected token. - start: 1921, end: 1922
 @{x2716}@ Statement expected - start: 1921, end: 1922
 @{x2716}@ Statement expected - start: 1925, end: 1926
 @{x2716}@ Statement expected - start: 1926, end: 1927
@@ -7793,38 +7779,25 @@ async function * gen() {class C extends await { }}
 @{x2716}@ Expression expected - start: 2408, end: 2409
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2409, end: 2411
 @{x2716}@ ',' expected - start: 2514, end: 2517
-@{x2716}@ Unexpected token. - start: 2514, end: 2517
 @{x2716}@ Missing initializer in destructuring declaration - start: 2514, end: 2517
 @{x2716}@ ',' expected - start: 2514, end: 2517
-@{x2716}@ Unexpected token. - start: 2514, end: 2517
-@{x2716}@ Unexpected token. - start: 2517, end: 2518
-@{x2716}@ Unexpected token. - start: 2517, end: 2518
-@{x2716}@ Unexpected token. - start: 2517, end: 2518
 @{x2716}@ Statement expected - start: 2517, end: 2518
 @{x2716}@ Statement expected - start: 2518, end: 2520
 @{x2716}@ Statement expected - start: 2526, end: 2527
 @{x2716}@ ',' expected - start: 2562, end: 2565
-@{x2716}@ Unexpected token. - start: 2562, end: 2565
 @{x2716}@ Missing initializer in destructuring declaration - start: 2562, end: 2565
 @{x2716}@ ',' expected - start: 2562, end: 2565
-@{x2716}@ Unexpected token. - start: 2562, end: 2565
-@{x2716}@ Unexpected token. - start: 2565, end: 2566
-@{x2716}@ Unexpected token. - start: 2565, end: 2566
 @{x2716}@ Statement expected - start: 2565, end: 2566
 @{x2716}@ Statement expected - start: 2566, end: 2568
 @{x2716}@ Statement expected - start: 2574, end: 2575
 @{x2716}@ ',' expected - start: 2615, end: 2618
-@{x2716}@ Unexpected token. - start: 2615, end: 2618
 @{x2716}@ Missing initializer in destructuring declaration - start: 2615, end: 2618
 @{x2716}@ ',' expected - start: 2615, end: 2618
-@{x2716}@ Unexpected token. - start: 2615, end: 2618
 @{x2716}@ Statement expected - start: 2619, end: 2621
 @{x2716}@ Statement expected - start: 2630, end: 2631
 @{x2716}@ ',' expected - start: 2671, end: 2674
-@{x2716}@ Unexpected token. - start: 2671, end: 2674
 @{x2716}@ Missing initializer in destructuring declaration - start: 2671, end: 2674
 @{x2716}@ ',' expected - start: 2671, end: 2674
-@{x2716}@ Unexpected token. - start: 2671, end: 2674
 @{x2716}@ Statement expected - start: 2675, end: 2677
 @{x2716}@ Statement expected - start: 2686, end: 2687
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2722, end: 2724
@@ -7838,19 +7811,11 @@ async function * gen() {class C extends await { }}
 @{x2716}@ Invalid left-hand side in for-in loop - start: 3113, end: 3115
 @{x2716}@ Invalid left-hand side in for-in loop - start: 3167, end: 3169
 @{x2716}@ Invalid left-hand side in for-in loop - start: 3221, end: 3223
-@{x2716}@ Unexpected token. - start: 3224, end: 3227
-@{x2716}@ Unexpected token. - start: 3227, end: 3229
-@{x2716}@ Unexpected token. - start: 3230, end: 3231
 @{x2716}@ Statement expected - start: 3230, end: 3231
 @{x2716}@ Statement expected - start: 3232, end: 3233
 @{x2716}@ Invalid left-hand side in for-in loop - start: 3275, end: 3277
-@{x2716}@ Unexpected token. - start: 3278, end: 3281
-@{x2716}@ Unexpected token. - start: 3281, end: 3283
-@{x2716}@ Unexpected token. - start: 3284, end: 3285
 @{x2716}@ Statement expected - start: 3284, end: 3285
 @{x2716}@ Statement expected - start: 3286, end: 3287
-@{x2716}@ Unexpected token. - start: 3337, end: 3338
-@{x2716}@ Unexpected token. - start: 3388, end: 3389
 
 ```
 

@@ -139,14 +139,7 @@ do[ async try while { catch }
 
 ```javascript
 @{x2716}@ ',' expected - start: 9, end: 13
-@{x2716}@ Unexpected token. - start: 9, end: 13
-@{x2716}@ Unexpected token. - start: 9, end: 13
-@{x2716}@ Unexpected token. - start: 9, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 19
 @{x2716}@ Expression expected - start: 13, end: 19
-@{x2716}@ Unexpected token. - start: 13, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 21
-@{x2716}@ Unexpected token. - start: 29, end: 29
 @{x2716}@ Expression expected - start: 29, end: 29
 
 ```

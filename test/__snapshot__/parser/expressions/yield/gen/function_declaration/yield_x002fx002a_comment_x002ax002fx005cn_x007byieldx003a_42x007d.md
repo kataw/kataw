@@ -159,12 +159,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
 
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 26, end: 40
-@{x2716}@ Unexpected token. - start: 26, end: 41
-@{x2716}@ Unexpected token. - start: 26, end: 41
 @{x2716}@ Statement expected - start: 26, end: 41
-@{x2716}@ Unexpected token. - start: 42, end: 44
-@{x2716}@ Unexpected token. - start: 49, end: 50
-@{x2716}@ Unexpected token. - start: 49, end: 50
 @{x2716}@ Statement expected - start: 49, end: 50
 @{x2716}@ Statement expected - start: 53, end: 54
 @{x2716}@ Statement expected - start: 54, end: 56

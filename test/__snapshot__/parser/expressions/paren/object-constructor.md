@@ -84,14 +84,8 @@
 ```javascript
 @{x2716}@ ',' expected - start: 23, end: 24
 @{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
 @{x2716}@ ',' expected - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
 @{x2716}@ Statement expected - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 31, end: 32
 @{x2716}@ Statement expected - start: 31, end: 32
 @{x2716}@ Statement expected - start: 34, end: 36
 @{x2716}@ Statement expected - start: 36, end: 37

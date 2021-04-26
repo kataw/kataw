@@ -144,8 +144,6 @@ function *f(){
 ```javascript
 @{x2716}@ Expression expected - start: 14, end: 32
 @{x2716}@ Expression expected - start: 32, end: 34
-@{x2716}@ Unexpected token. - start: 32, end: 34
-@{x2716}@ Unexpected token. - start: 32, end: 34
 @{x2716}@ Statement expected - start: 32, end: 34
 @{x2716}@ Statement expected - start: 36, end: 38
 

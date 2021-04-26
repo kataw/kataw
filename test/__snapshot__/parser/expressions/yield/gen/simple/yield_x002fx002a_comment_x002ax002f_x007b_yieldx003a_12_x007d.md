@@ -95,9 +95,6 @@ yield /* comment */ { yield: 12 }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 5, end: 21
-@{x2716}@ Unexpected token. - start: 27, end: 28
-@{x2716}@ Unexpected token. - start: 27, end: 28
 @{x2716}@ Statement expected - start: 27, end: 28
 @{x2716}@ Statement expected - start: 31, end: 33
 

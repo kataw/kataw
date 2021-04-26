@@ -115,18 +115,9 @@ do do do /)finally while while while
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 8, end: 10
-@{x2716}@ Unexpected token. - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
 @{x2716}@ Expression expected - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
 @{x2716}@ Expression expected - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
 @{x2716}@ Expression expected - start: 36, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 36
 
 ```
 

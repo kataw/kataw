@@ -133,10 +133,7 @@ try {} finally(x) { /)finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 14, end: 15
-@{x2716}@ Unexpected token. - start: 17, end: 19
 @{x2716}@ Unexpected token. - start: 19, end: 21
-@{x2716}@ Unexpected token. - start: 29, end: 29
 
 ```
 

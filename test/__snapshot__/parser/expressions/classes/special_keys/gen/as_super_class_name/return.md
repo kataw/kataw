@@ -117,7 +117,6 @@ class x extends return {}
 
 ```javascript
 @{x2716}@ Expression expected - start: 15, end: 22
-@{x2716}@ Unexpected token. - start: 15, end: 22
 @{x2716}@ A return statement can only be used within a function_body - start: 15, end: 22
 
 ```

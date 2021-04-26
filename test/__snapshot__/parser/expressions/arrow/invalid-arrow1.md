@@ -1352,34 +1352,19 @@
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 128, end: 131
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 151, end: 154
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 178, end: 181
-@{x2716}@ Unexpected token. - start: 192, end: 195
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 192, end: 195
-@{x2716}@ Unexpected token. - start: 198, end: 199
 @{x2716}@ Statement expected - start: 198, end: 199
-@{x2716}@ Unexpected token. - start: 213, end: 216
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 213, end: 216
-@{x2716}@ Unexpected token. - start: 219, end: 220
 @{x2716}@ Statement expected - start: 219, end: 220
 @{x2716}@ Expression expected - start: 223, end: 225
-@{x2716}@ Unexpected token. - start: 223, end: 225
-@{x2716}@ Unexpected token. - start: 223, end: 225
-@{x2716}@ Unexpected token. - start: 225, end: 226
 @{x2716}@ Expression expected - start: 225, end: 226
 @{x2716}@ Expression expected - start: 226, end: 229
-@{x2716}@ Unexpected token. - start: 226, end: 229
 @{x2716}@ Statement expected - start: 226, end: 229
-@{x2716}@ Unexpected token. - start: 237, end: 240
-@{x2716}@ Unexpected token. - start: 237, end: 240
-@{x2716}@ Unexpected token. - start: 240, end: 241
 @{x2716}@ Expression expected - start: 240, end: 241
 @{x2716}@ Expression expected - start: 241, end: 244
-@{x2716}@ Unexpected token. - start: 241, end: 244
 @{x2716}@ Statement expected - start: 241, end: 244
-@{x2716}@ Unexpected token. - start: 259, end: 262
 @{x2716}@ Statement expected - start: 259, end: 262
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 280, end: 283
-@{x2716}@ Unexpected token. - start: 293, end: 296
-@{x2716}@ Unexpected token. - start: 299, end: 300
 @{x2716}@ Statement expected - start: 299, end: 300
 
 ```

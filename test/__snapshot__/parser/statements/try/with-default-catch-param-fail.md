@@ -156,10 +156,7 @@ try { } catch ([a] = []) { }
 
 ```javascript
 @{x2716}@ Catch clause variable cannot have an initializer - start: 18, end: 20
-@{x2716}@ Unexpected token. - start: 18, end: 20
-@{x2716}@ Unexpected token. - start: 18, end: 20
 @{x2716}@ Statement expected - start: 18, end: 20
-@{x2716}@ Unexpected token. - start: 23, end: 24
 @{x2716}@ Statement expected - start: 23, end: 24
 
 ```

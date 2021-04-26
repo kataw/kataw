@@ -202,17 +202,10 @@ try {} finally(x) { function while
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 14, end: 15
-@{x2716}@ Unexpected token. - start: 17, end: 19
 @{x2716}@ Binding identifier expected - start: 28, end: 34
 @{x2716}@ Unexpected token. - start: 28, end: 34
-@{x2716}@ Unexpected token. - start: 28, end: 34
-@{x2716}@ Unexpected token. - start: 28, end: 34
-@{x2716}@ Unexpected token. - start: 34, end: 34
 @{x2716}@ Expression expected - start: 34, end: 34
-@{x2716}@ Unexpected token. - start: 34, end: 34
 @{x2716}@ Expression expected - start: 34, end: 34
-@{x2716}@ Unexpected token. - start: 34, end: 34
 
 ```
 

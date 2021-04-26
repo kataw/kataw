@@ -133,9 +133,6 @@ class x extends if {}
 
 ```javascript
 @{x2716}@ Expression expected - start: 15, end: 18
-@{x2716}@ Unexpected token. - start: 15, end: 18
-@{x2716}@ Unexpected token. - start: 18, end: 20
-@{x2716}@ Unexpected token. - start: 21, end: 21
 @{x2716}@ Expression expected - start: 21, end: 21
 
 ```

@@ -78,7 +78,6 @@ a?
 
 ```javascript
 @{x2716}@ Expression expected - start: 2, end: 2
-@{x2716}@ Unexpected token. - start: 2, end: 2
 @{x2716}@ Expression expected - start: 2, end: 2
 
 ```

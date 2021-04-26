@@ -114,7 +114,6 @@ export {foo as default};
 
 ```javascript
 @{x2716}@ Expression expected - start: 14, end: 22
-@{x2716}@ Unexpected token. - start: 14, end: 22
 
 ```
 

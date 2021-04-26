@@ -162,10 +162,6 @@ do {} while (x) { try { !xxx
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 28, end: 28
-@{x2716}@ Unexpected token. - start: 28, end: 28
-@{x2716}@ Unexpected token. - start: 28, end: 28
-@{x2716}@ Unexpected token. - start: 28, end: 28
-
+@{x2714}@ No errors
 ```
 

@@ -269,7 +269,6 @@ import(x).then();
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 69, end: 70
-
+@{x2714}@ No errors
 ```
 

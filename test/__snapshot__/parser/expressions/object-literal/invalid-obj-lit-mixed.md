@@ -1665,14 +1665,7 @@
 
 ```javascript
 @{x2716}@ ',' expected - start: 43, end: 44
-@{x2716}@ Unexpected token. - start: 43, end: 44
-@{x2716}@ Unexpected token. - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 44, end: 45
 @{x2716}@ ',' expected - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 46, end: 47
 @{x2716}@ Statement expected - start: 46, end: 47
 @{x2716}@ Statement expected - start: 47, end: 48
 @{x2716}@ Statement expected - start: 48, end: 49
@@ -1680,32 +1673,16 @@
 @{x2716}@ Statement expected - start: 50, end: 52
 @{x2716}@ Statement expected - start: 52, end: 53
 @{x2716}@ ',' expected - start: 98, end: 99
-@{x2716}@ Unexpected token. - start: 98, end: 99
-@{x2716}@ Unexpected token. - start: 99, end: 100
-@{x2716}@ Unexpected token. - start: 99, end: 100
-@{x2716}@ Unexpected token. - start: 99, end: 100
-@{x2716}@ Unexpected token. - start: 99, end: 100
 @{x2716}@ ',' expected - start: 99, end: 100
-@{x2716}@ Unexpected token. - start: 99, end: 100
-@{x2716}@ Unexpected token. - start: 101, end: 102
 @{x2716}@ Statement expected - start: 101, end: 102
 @{x2716}@ Statement expected - start: 102, end: 103
 @{x2716}@ Statement expected - start: 103, end: 104
 @{x2716}@ Statement expected - start: 104, end: 105
 @{x2716}@ Statement expected - start: 105, end: 107
 @{x2716}@ Statement expected - start: 107, end: 108
-@{x2716}@ Unexpected token. - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
 @{x2716}@ ',' expected - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
 @{x2716}@ ',' expected - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 160, end: 162
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 160, end: 162
-@{x2716}@ Unexpected token. - start: 164, end: 165
 @{x2716}@ Statement expected - start: 164, end: 165
 @{x2716}@ Statement expected - start: 165, end: 166
 @{x2716}@ Statement expected - start: 166, end: 167
@@ -1715,27 +1692,15 @@
 @{x2716}@ Statement expected - start: 170, end: 172
 @{x2716}@ Statement expected - start: 172, end: 173
 @{x2716}@ ',' expected - start: 230, end: 232
-@{x2716}@ Unexpected token. - start: 230, end: 232
 @{x2716}@ ',' expected - start: 230, end: 232
-@{x2716}@ Unexpected token. - start: 230, end: 232
-@{x2716}@ Unexpected token. - start: 230, end: 232
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 230, end: 232
 @{x2716}@ Expression expected - start: 232, end: 233
-@{x2716}@ Unexpected token. - start: 232, end: 233
 @{x2716}@ Statement expected - start: 232, end: 233
 @{x2716}@ Statement expected - start: 233, end: 235
 @{x2716}@ Statement expected - start: 235, end: 236
-@{x2716}@ Unexpected token. - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 275, end: 278
 @{x2716}@ ',' expected - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 275, end: 278
 @{x2716}@ ',' expected - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 275, end: 278
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 275, end: 278
-@{x2716}@ Unexpected token. - start: 290, end: 291
 @{x2716}@ Statement expected - start: 290, end: 291
 @{x2716}@ Statement expected - start: 291, end: 292
 @{x2716}@ Statement expected - start: 292, end: 293
@@ -1744,21 +1709,11 @@
 @{x2716}@ Statement expected - start: 295, end: 297
 @{x2716}@ Statement expected - start: 297, end: 298
 @{x2716}@ ',' expected - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
 @{x2716}@ ',' expected - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
 @{x2716}@ ',' expected - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 336, end: 339
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 336, end: 339
-@{x2716}@ Unexpected token. - start: 341, end: 342
 @{x2716}@ Statement expected - start: 341, end: 342
 @{x2716}@ Statement expected - start: 342, end: 344
-@{x2716}@ Unexpected token. - start: 356, end: 357
 @{x2716}@ Statement expected - start: 356, end: 357
 @{x2716}@ Statement expected - start: 357, end: 358
 @{x2716}@ Statement expected - start: 358, end: 359
@@ -1768,21 +1723,11 @@
 @{x2716}@ Statement expected - start: 363, end: 364
 @{x2716}@ Dot property must be an identifier - start: 401, end: 402
 @{x2716}@ ',' expected - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
 @{x2716}@ ',' expected - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
 @{x2716}@ ',' expected - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 404, end: 407
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 404, end: 407
-@{x2716}@ Unexpected token. - start: 409, end: 410
 @{x2716}@ Statement expected - start: 409, end: 410
 @{x2716}@ Statement expected - start: 410, end: 412
-@{x2716}@ Unexpected token. - start: 424, end: 425
 @{x2716}@ Statement expected - start: 424, end: 425
 @{x2716}@ Statement expected - start: 425, end: 426
 @{x2716}@ Statement expected - start: 426, end: 427
@@ -1791,21 +1736,11 @@
 @{x2716}@ Statement expected - start: 429, end: 431
 @{x2716}@ Statement expected - start: 431, end: 432
 @{x2716}@ ',' expected - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
 @{x2716}@ ',' expected - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
 @{x2716}@ ',' expected - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 472, end: 475
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 472, end: 475
-@{x2716}@ Unexpected token. - start: 477, end: 478
 @{x2716}@ Statement expected - start: 477, end: 478
 @{x2716}@ Statement expected - start: 478, end: 480
-@{x2716}@ Unexpected token. - start: 492, end: 493
 @{x2716}@ Statement expected - start: 492, end: 493
 @{x2716}@ Statement expected - start: 493, end: 494
 @{x2716}@ Statement expected - start: 494, end: 495
@@ -1813,10 +1748,8 @@
 @{x2716}@ Statement expected - start: 496, end: 497
 @{x2716}@ Statement expected - start: 497, end: 499
 @{x2716}@ Statement expected - start: 499, end: 500
-@{x2716}@ Unexpected token. - start: 630, end: 632
 @{x2716}@ Statement expected - start: 630, end: 632
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701
-@{x2716}@ Unexpected token. - start: 703, end: 704
 
 ```
 

@@ -146,18 +146,9 @@ switch[ function while
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 7
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
 @{x2716}@ Unexpected token. - start: 16, end: 22
 @{x2716}@ ',' expected - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
 @{x2716}@ Expression expected - start: 22, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
 @{x2716}@ Expression expected - start: 22, end: 22
 
 ```

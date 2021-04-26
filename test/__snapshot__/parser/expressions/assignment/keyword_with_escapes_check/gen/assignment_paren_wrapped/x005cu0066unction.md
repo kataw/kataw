@@ -111,8 +111,6 @@
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 14, end: 16
-@{x2716}@ Unexpected token. - start: 14, end: 16
-@{x2716}@ Unexpected token. - start: 14, end: 16
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 14, end: 16
 
 ```

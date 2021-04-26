@@ -249,21 +249,9 @@ switch( =! class function try while with foo! case
 
 ```javascript
 @{x2716}@ Expression expected - start: 7, end: 9
-@{x2716}@ Unexpected token. - start: 16, end: 25
-@{x2716}@ Unexpected token. - start: 16, end: 25
-@{x2716}@ Unexpected token. - start: 16, end: 25
-@{x2716}@ Unexpected token. - start: 16, end: 25
 @{x2716}@ Binding identifier expected - start: 25, end: 29
 @{x2716}@ Unexpected token. - start: 25, end: 29
-@{x2716}@ Unexpected token. - start: 25, end: 29
-@{x2716}@ Unexpected token. - start: 25, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 35
-@{x2716}@ Unexpected token. - start: 29, end: 35
-@{x2716}@ Unexpected token. - start: 35, end: 40
-@{x2716}@ Unexpected token. - start: 40, end: 44
-@{x2716}@ Unexpected token. - start: 44, end: 45
 @{x2716}@ Expression expected - start: 45, end: 50
-@{x2716}@ Unexpected token. - start: 45, end: 50
 @{x2716}@ Statement expected - start: 45, end: 50
 
 ```

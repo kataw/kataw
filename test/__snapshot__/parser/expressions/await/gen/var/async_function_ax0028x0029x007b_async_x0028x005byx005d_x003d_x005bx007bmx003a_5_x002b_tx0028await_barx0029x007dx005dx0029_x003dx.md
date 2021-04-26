@@ -145,11 +145,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 100, end: 103
-@{x2716}@ Unexpected token. - start: 100, end: 103
-@{x2716}@ Unexpected token. - start: 100, end: 103
 @{x2716}@ ',' expected - start: 100, end: 103
-@{x2716}@ Unexpected token. - start: 100, end: 103
 @{x2716}@ Statement expected - start: 100, end: 103
 @{x2716}@ Statement expected - start: 106, end: 112
 @{x2716}@ Statement expected - start: 112, end: 114

@@ -112,10 +112,6 @@ throw {x} catch finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 9, end: 15
-@{x2716}@ Unexpected token. - start: 9, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 23
-@{x2716}@ Unexpected token. - start: 23, end: 23
-
+@{x2714}@ No errors
 ```
 

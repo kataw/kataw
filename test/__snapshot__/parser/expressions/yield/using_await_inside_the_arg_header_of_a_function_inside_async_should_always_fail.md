@@ -129,10 +129,8 @@ let f = () => (y=await foo) => y;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 22, end: 26
 @{x2716}@ ',' expected - start: 22, end: 26
 @{x2716}@ ',' expected - start: 26, end: 27
-@{x2716}@ Unexpected token. - start: 26, end: 27
 @{x2716}@ Statement expected - start: 26, end: 27
 @{x2716}@ Statement expected - start: 27, end: 30
 

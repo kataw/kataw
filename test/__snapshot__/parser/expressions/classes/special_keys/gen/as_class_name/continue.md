@@ -104,10 +104,8 @@ class continue {}
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 14
-@{x2716}@ Unexpected token. - start: 5, end: 14
 @{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 5, end: 14
 @{x2716}@ Expression expected - start: 14, end: 16
-@{x2716}@ Unexpected token. - start: 14, end: 16
 
 ```
 

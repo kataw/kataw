@@ -224,20 +224,7 @@ switch {} default(x) { while try this and !foo
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 8
-@{x2716}@ Unexpected token. - start: 9, end: 17
-@{x2716}@ Unexpected token. - start: 9, end: 17
-@{x2716}@ Unexpected token. - start: 17, end: 18
-@{x2716}@ Unexpected token. - start: 20, end: 22
-@{x2716}@ Unexpected token. - start: 28, end: 32
 @{x2716}@ Expression expected - start: 28, end: 32
-@{x2716}@ Unexpected token. - start: 28, end: 32
-@{x2716}@ Unexpected token. - start: 32, end: 37
-@{x2716}@ Unexpected token. - start: 32, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 41
-@{x2716}@ Unexpected token. - start: 41, end: 43
-@{x2716}@ Unexpected token. - start: 46, end: 46
-@{x2716}@ Unexpected token. - start: 46, end: 46
 
 ```
 

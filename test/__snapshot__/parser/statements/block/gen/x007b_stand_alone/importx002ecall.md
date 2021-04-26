@@ -72,7 +72,6 @@
 
 ```javascript
 @{x2716}@ Cannot use 'import.meta' outside a module - start: 13, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 13
 
 ```
 

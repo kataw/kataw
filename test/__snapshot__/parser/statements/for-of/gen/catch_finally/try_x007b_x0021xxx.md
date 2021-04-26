@@ -139,15 +139,6 @@ catch try { !xxx finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 0, end: 5
-@{x2716}@ Unexpected token. - start: 5, end: 9
-@{x2716}@ Unexpected token. - start: 5, end: 9
-@{x2716}@ Unexpected token. - start: 16, end: 24
-@{x2716}@ Unexpected token. - start: 16, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 24
-
+@{x2714}@ No errors
 ```
 

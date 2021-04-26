@@ -165,11 +165,8 @@ var f: >x:int) => string;
 ```javascript
 @{x2716}@ Identifier expected - start: 6, end: 8
 @{x2716}@ ',' expected - start: 6, end: 8
-@{x2716}@ Unexpected token. - start: 6, end: 8
 @{x2716}@ Expression expected - start: 6, end: 8
-@{x2716}@ Unexpected token. - start: 9, end: 10
 @{x2716}@ Statement expected - start: 9, end: 10
-@{x2716}@ Unexpected token. - start: 13, end: 14
 @{x2716}@ Statement expected - start: 13, end: 14
 @{x2716}@ Statement expected - start: 14, end: 17
 

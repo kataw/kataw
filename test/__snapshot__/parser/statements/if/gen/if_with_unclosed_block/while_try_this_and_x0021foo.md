@@ -192,14 +192,7 @@ else {} if(x) { while try this and !foo
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 21, end: 25
 @{x2716}@ Expression expected - start: 21, end: 25
-@{x2716}@ Unexpected token. - start: 21, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 30
-@{x2716}@ Unexpected token. - start: 25, end: 30
-@{x2716}@ Unexpected token. - start: 30, end: 34
-@{x2716}@ Unexpected token. - start: 34, end: 36
-@{x2716}@ Unexpected token. - start: 39, end: 39
 
 ```
 

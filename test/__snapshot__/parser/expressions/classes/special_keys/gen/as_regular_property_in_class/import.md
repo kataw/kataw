@@ -105,7 +105,6 @@ class x {import: x}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 15, end: 16
 @{x2716}@ Statement expected - start: 15, end: 16
 @{x2716}@ Statement expected - start: 18, end: 19
 

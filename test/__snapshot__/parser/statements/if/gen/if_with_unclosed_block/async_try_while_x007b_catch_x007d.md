@@ -184,15 +184,6 @@ else {} if(x) { async try while { catch }
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 21, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 31
-@{x2716}@ Unexpected token. - start: 25, end: 31
-@{x2716}@ Unexpected token. - start: 33, end: 39
-@{x2716}@ Unexpected token. - start: 39, end: 41
-@{x2716}@ Unexpected token. - start: 39, end: 41
-@{x2716}@ Unexpected token. - start: 41, end: 41
-@{x2716}@ Unexpected token. - start: 41, end: 41
-@{x2716}@ Unexpected token. - start: 41, end: 41
 
 ```
 

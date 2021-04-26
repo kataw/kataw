@@ -121,9 +121,7 @@ class C { yield\n a }
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 15
 @{x2716}@ Invalid hexadecimal escape sequence - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 16
 @{x2716}@ Statement expected - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 17, end: 19
 @{x2716}@ Statement expected - start: 19, end: 21
 
 ```

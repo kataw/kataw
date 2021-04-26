@@ -228,10 +228,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 
 ```javascript
 @{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 30, end: 34
-@{x2716}@ Unexpected token. - start: 30, end: 34
 @{x2716}@ Unterminated template literal - start: 34, end: 38
-@{x2716}@ Unexpected token. - start: 38, end: 38
-@{x2716}@ Unexpected token. - start: 38, end: 38
 
 ```
 

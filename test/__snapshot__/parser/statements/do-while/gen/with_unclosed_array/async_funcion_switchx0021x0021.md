@@ -147,14 +147,9 @@ do[ async funcion switch!!
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 17, end: 24
 @{x2716}@ Expression expected - start: 26, end: 26
 @{x2716}@ ',' expected - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
 @{x2716}@ Expression expected - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
 
 ```
 

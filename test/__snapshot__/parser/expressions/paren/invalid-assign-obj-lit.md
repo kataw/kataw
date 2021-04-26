@@ -2277,9 +2277,6 @@
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 236, end: 238
 @{x2716}@ An element access expression should take an argument. - start: 258, end: 259
 @{x2716}@ Expression expected - start: 258, end: 259
-@{x2716}@ Unexpected token. - start: 287, end: 288
-@{x2716}@ Unexpected token. - start: 287, end: 288
-@{x2716}@ Unexpected token. - start: 287, end: 288
 @{x2716}@ Statement expected - start: 290, end: 291
 @{x2716}@ Statement expected - start: 295, end: 296
 @{x2716}@ Statement expected - start: 296, end: 297
@@ -2292,7 +2289,6 @@
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 476, end: 478
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 501, end: 503
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
-@{x2716}@ Unexpected token. - start: 529, end: 530
 @{x2716}@ Statement expected - start: 529, end: 530
 @{x2716}@ Statement expected - start: 530, end: 531
 

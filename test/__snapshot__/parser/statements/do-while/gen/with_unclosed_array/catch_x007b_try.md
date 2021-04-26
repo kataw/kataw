@@ -95,13 +95,7 @@ do[ catch { try
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 11
 @{x2716}@ ',' expected - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
 
 ```
 

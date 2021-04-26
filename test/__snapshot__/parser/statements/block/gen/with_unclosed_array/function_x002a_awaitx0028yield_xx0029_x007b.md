@@ -180,11 +180,7 @@
 @{x2716}@ `Yield` expression cannot be used in function parameters - start: 20, end: 25
 @{x2716}@ ',' expected - start: 25, end: 27
 @{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
 @{x2716}@ ',' expected - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 32, end: 32
-@{x2716}@ Unexpected token. - start: 32, end: 32
 
 ```
 

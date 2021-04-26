@@ -109,11 +109,8 @@ if else class x {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Expression expected - start: 2, end: 7
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Expression expected - start: 2, end: 7
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Class declarations are not allowed in an arbitrary statement position. - start: 7, end: 13
 
 ```

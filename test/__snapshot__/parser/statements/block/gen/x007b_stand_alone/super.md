@@ -87,7 +87,6 @@
 ```javascript
 @{x2716}@ 'super' must be followed by an argument list or member access. - start: 7, end: 7
 @{x2716}@ Dot property must be an identifier - start: 7, end: 7
-@{x2716}@ Unexpected token. - start: 7, end: 7
 
 ```
 

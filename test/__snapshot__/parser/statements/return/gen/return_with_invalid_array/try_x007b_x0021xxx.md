@@ -171,15 +171,6 @@ return [catch] try { !xxx
 
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 14, end: 18
-@{x2716}@ Unexpected token. - start: 25, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 25
 
 ```
 

@@ -70,7 +70,6 @@ xxx\A
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 0, end: 3
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3, end: 3
-@{x2716}@ Unexpected token. - start: 3, end: 4
 @{x2716}@ Statement expected - start: 3, end: 4
 
 ```

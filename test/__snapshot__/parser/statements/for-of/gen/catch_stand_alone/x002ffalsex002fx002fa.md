@@ -88,11 +88,7 @@ catch /false//a
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 0, end: 5
-@{x2716}@ Unexpected token. - start: 5, end: 13
-@{x2716}@ Unexpected token. - start: 5, end: 13
 @{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 13, end: 15
 
 ```
 

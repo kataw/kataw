@@ -195,14 +195,7 @@ do {} while (x) { while try this and !foo
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 23, end: 27
 @{x2716}@ Expression expected - start: 23, end: 27
-@{x2716}@ Unexpected token. - start: 23, end: 27
-@{x2716}@ Unexpected token. - start: 27, end: 32
-@{x2716}@ Unexpected token. - start: 27, end: 32
-@{x2716}@ Unexpected token. - start: 32, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 38
-@{x2716}@ Unexpected token. - start: 41, end: 41
 
 ```
 

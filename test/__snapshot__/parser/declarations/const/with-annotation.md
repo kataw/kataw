@@ -403,24 +403,18 @@ const {x}: string = y;
 ```javascript
 @{x2716}@ Missing initializer in const declaration - start: 7, end: 8
 @{x2716}@ ',' expected - start: 7, end: 8
-@{x2716}@ Unexpected token. - start: 7, end: 8
 @{x2716}@ Statement expected - start: 7, end: 8
 @{x2716}@ Missing initializer in const declaration - start: 27, end: 28
 @{x2716}@ ',' expected - start: 27, end: 28
-@{x2716}@ Unexpected token. - start: 27, end: 28
 @{x2716}@ Statement expected - start: 27, end: 28
 @{x2716}@ ',' expected - start: 50, end: 51
-@{x2716}@ Unexpected token. - start: 50, end: 51
 @{x2716}@ Missing initializer in const declaration - start: 50, end: 51
 @{x2716}@ ',' expected - start: 50, end: 51
-@{x2716}@ Unexpected token. - start: 50, end: 51
 @{x2716}@ Statement expected - start: 50, end: 51
-@{x2716}@ Unexpected token. - start: 57, end: 58
 @{x2716}@ Statement expected - start: 57, end: 58
 @{x2716}@ Statement expected - start: 58, end: 59
 @{x2716}@ Missing initializer in const declaration - start: 82, end: 83
 @{x2716}@ ',' expected - start: 82, end: 83
-@{x2716}@ Unexpected token. - start: 82, end: 83
 @{x2716}@ Statement expected - start: 82, end: 83
 
 ```

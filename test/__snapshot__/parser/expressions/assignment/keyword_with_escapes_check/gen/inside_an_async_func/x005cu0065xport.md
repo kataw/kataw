@@ -108,7 +108,6 @@ async () => {  \u0065xport = x  }
 ```javascript
 @{x2716}@ The `export` keyword can only be used with the module goal - start: 13, end: 26
 @{x2716}@ Unexpected token. - start: 26, end: 28
-@{x2716}@ Unexpected token. - start: 26, end: 28
 @{x2716}@ Statement expected - start: 26, end: 28
 @{x2716}@ Statement expected - start: 30, end: 33
 

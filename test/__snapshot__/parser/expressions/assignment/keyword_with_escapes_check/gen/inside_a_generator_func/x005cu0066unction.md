@@ -158,9 +158,6 @@ function *f(){
 ```javascript
 @{x2716}@ Binding identifier expected - start: 30, end: 32
 @{x2716}@ Unexpected token. - start: 30, end: 32
-@{x2716}@ Unexpected token. - start: 30, end: 32
-@{x2716}@ Unexpected token. - start: 30, end: 32
-@{x2716}@ Unexpected token. - start: 30, end: 32
 @{x2716}@ Statement expected - start: 30, end: 32
 @{x2716}@ Statement expected - start: 34, end: 36
 

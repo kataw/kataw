@@ -166,7 +166,6 @@ let x = function f(foo = await bar){
 
 ```javascript
 @{x2716}@ ',' expected - start: 30, end: 34
-@{x2716}@ Unexpected token. - start: 36, end: 36
 
 ```
 

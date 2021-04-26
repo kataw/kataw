@@ -104,9 +104,7 @@ class break {}
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 11
-@{x2716}@ Unexpected token. - start: 5, end: 11
 @{x2716}@ Expression expected - start: 11, end: 13
-@{x2716}@ Unexpected token. - start: 11, end: 13
 
 ```
 

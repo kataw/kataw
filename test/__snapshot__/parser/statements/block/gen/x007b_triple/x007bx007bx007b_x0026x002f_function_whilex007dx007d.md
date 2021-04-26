@@ -163,12 +163,6 @@
 ```javascript
 @{x2716}@ Expression expected - start: 9, end: 11
 @{x2716}@ Unexpected token. - start: 11, end: 12
-@{x2716}@ Unexpected token. - start: 29, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 29
 
 ```
 

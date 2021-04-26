@@ -953,8 +953,6 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 445, end: 447
-@{x2716}@ Unexpected token. - start: 449, end: 450
-
+@{x2714}@ No errors
 ```
 

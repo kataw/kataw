@@ -118,20 +118,8 @@ switch switch switch false
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 13
 @{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 20
 @{x2716}@ Expression expected - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
 
 ```
 

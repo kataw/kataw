@@ -115,7 +115,6 @@ class var {}
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 9
-@{x2716}@ Unexpected token. - start: 5, end: 9
 @{x2716}@ Missing initializer in destructuring declaration - start: 12, end: 12
 
 ```

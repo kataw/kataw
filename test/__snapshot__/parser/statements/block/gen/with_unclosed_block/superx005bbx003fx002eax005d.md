@@ -192,15 +192,8 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 4, end: 12
-@{x2716}@ Unexpected token. - start: 12, end: 13
-@{x2716}@ Unexpected token. - start: 12, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 14, end: 15
-@{x2716}@ Unexpected token. - start: 14, end: 15
 @{x2716}@ Statement expected - start: 14, end: 15
 @{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 29, end: 29
 
 ```
 

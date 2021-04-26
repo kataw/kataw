@@ -104,7 +104,6 @@ class x extends default {}
 
 ```javascript
 @{x2716}@ Expression expected - start: 15, end: 23
-@{x2716}@ Unexpected token. - start: 15, end: 23
 @{x2716}@ Statement expected - start: 15, end: 23
 
 ```

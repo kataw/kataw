@@ -84,7 +84,6 @@ class case {}
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 10
-@{x2716}@ Unexpected token. - start: 5, end: 10
 @{x2716}@ Statement expected - start: 5, end: 10
 
 ```

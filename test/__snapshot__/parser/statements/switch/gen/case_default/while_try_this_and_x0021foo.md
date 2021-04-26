@@ -141,14 +141,7 @@ case while try this and !foo default
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 10, end: 14
 @{x2716}@ Expression expected - start: 10, end: 14
-@{x2716}@ Unexpected token. - start: 10, end: 14
-@{x2716}@ Unexpected token. - start: 14, end: 19
-@{x2716}@ Unexpected token. - start: 14, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ Unexpected token. - start: 23, end: 25
-@{x2716}@ Unexpected token. - start: 28, end: 36
 @{x2716}@ Statement expected - start: 28, end: 36
 
 ```

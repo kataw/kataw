@@ -287,25 +287,11 @@ if if if =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 5
 @{x2716}@ Expression expected - start: 2, end: 5
-@{x2716}@ Unexpected token. - start: 2, end: 5
-@{x2716}@ Unexpected token. - start: 5, end: 8
 @{x2716}@ Expression expected - start: 5, end: 8
-@{x2716}@ Unexpected token. - start: 5, end: 8
-@{x2716}@ Unexpected token. - start: 8, end: 10
 @{x2716}@ Expression expected - start: 8, end: 10
-@{x2716}@ Unexpected token. - start: 17, end: 26
-@{x2716}@ Unexpected token. - start: 17, end: 26
 @{x2716}@ Binding identifier expected - start: 26, end: 30
 @{x2716}@ Unexpected token. - start: 26, end: 30
-@{x2716}@ Unexpected token. - start: 26, end: 30
-@{x2716}@ Unexpected token. - start: 26, end: 30
-@{x2716}@ Unexpected token. - start: 30, end: 36
-@{x2716}@ Unexpected token. - start: 30, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 41
-@{x2716}@ Unexpected token. - start: 41, end: 45
-@{x2716}@ Unexpected token. - start: 45, end: 46
 @{x2716}@ Expression expected - start: 46, end: 46
 
 ```

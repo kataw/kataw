@@ -87,7 +87,6 @@ return( class x {}
 
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ Unexpected token. - start: 18, end: 18
 
 ```
 

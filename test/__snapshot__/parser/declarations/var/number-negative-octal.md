@@ -128,7 +128,6 @@ var a: -0x7B
 ```javascript
 @{x2716}@ Identifier expected - start: 6, end: 8
 @{x2716}@ ',' expected - start: 6, end: 8
-@{x2716}@ Unexpected token. - start: 6, end: 8
 
 ```
 

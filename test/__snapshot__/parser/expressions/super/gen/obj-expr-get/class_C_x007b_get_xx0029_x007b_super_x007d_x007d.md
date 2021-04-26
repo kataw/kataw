@@ -206,11 +206,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 28, end: 29
-@{x2716}@ Unexpected token. - start: 28, end: 29
 @{x2716}@ ',' expected - start: 28, end: 29
-@{x2716}@ Unexpected token. - start: 28, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 31
 @{x2716}@ 'super' must be followed by an argument list or member access. - start: 37, end: 38
 @{x2716}@ Dot property must be an identifier - start: 37, end: 38
 @{x2716}@ Statement expected - start: 40, end: 42

@@ -180,12 +180,7 @@ function not_gen() { yield * \n { yield: 12 } }}
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 28, end: 29
 @{x2716}@ Expression expected - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
 @{x2716}@ Statement expected - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 31, end: 33
-@{x2716}@ Unexpected token. - start: 39, end: 40
-@{x2716}@ Unexpected token. - start: 39, end: 40
 @{x2716}@ Statement expected - start: 39, end: 40
 @{x2716}@ Statement expected - start: 43, end: 45
 @{x2716}@ Statement expected - start: 45, end: 47

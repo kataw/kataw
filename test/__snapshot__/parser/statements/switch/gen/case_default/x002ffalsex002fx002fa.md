@@ -72,7 +72,6 @@ case /false//a default
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 14, end: 22
 @{x2716}@ Statement expected - start: 14, end: 22
 
 ```

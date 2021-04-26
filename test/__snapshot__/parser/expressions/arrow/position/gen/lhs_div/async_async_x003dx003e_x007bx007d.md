@@ -113,7 +113,6 @@ async async => {} / x
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 17, end: 19
-@{x2716}@ Unexpected token. - start: 17, end: 21
 
 ```
 

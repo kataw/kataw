@@ -115,7 +115,6 @@
 
 ```javascript
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 27, end: 32
-@{x2716}@ Unexpected token. - start: 35, end: 35
 
 ```
 

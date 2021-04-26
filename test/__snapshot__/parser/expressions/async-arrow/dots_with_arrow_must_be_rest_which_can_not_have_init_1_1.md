@@ -99,9 +99,7 @@ async (a, ...b+b=c) => a;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 16, end: 17
 @{x2716}@ Statement expected - start: 16, end: 17
-@{x2716}@ Unexpected token. - start: 18, end: 19
 @{x2716}@ Statement expected - start: 18, end: 19
 @{x2716}@ Statement expected - start: 19, end: 22
 

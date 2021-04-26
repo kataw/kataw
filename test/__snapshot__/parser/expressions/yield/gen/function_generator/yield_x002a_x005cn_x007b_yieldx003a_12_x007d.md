@@ -234,13 +234,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 47, end: 48
 @{x2716}@ Expression expected - start: 47, end: 49
-@{x2716}@ Unexpected token. - start: 47, end: 49
-@{x2716}@ Unexpected token. - start: 47, end: 49
-@{x2716}@ Unexpected token. - start: 47, end: 49
 @{x2716}@ Statement expected - start: 47, end: 49
-@{x2716}@ Unexpected token. - start: 50, end: 52
-@{x2716}@ Unexpected token. - start: 58, end: 59
-@{x2716}@ Unexpected token. - start: 58, end: 59
 @{x2716}@ Statement expected - start: 58, end: 59
 @{x2716}@ Statement expected - start: 62, end: 64
 @{x2716}@ Statement expected - start: 64, end: 66

@@ -246,9 +246,6 @@ class C { set x(_) { class C { get x) { super; } } } }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 36, end: 37
-@{x2716}@ Unexpected token. - start: 36, end: 37
-@{x2716}@ Unexpected token. - start: 36, end: 37
 @{x2716}@ Statement expected - start: 36, end: 37
 @{x2716}@ 'super' must be followed by an argument list or member access. - start: 45, end: 46
 @{x2716}@ Dot property must be an identifier - start: 45, end: 46

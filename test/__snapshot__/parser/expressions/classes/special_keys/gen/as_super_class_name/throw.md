@@ -117,7 +117,6 @@ class x extends throw {}
 
 ```javascript
 @{x2716}@ Expression expected - start: 15, end: 21
-@{x2716}@ Unexpected token. - start: 15, end: 21
 
 ```
 

@@ -179,14 +179,9 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 4
 @{x2716}@ Statement expected - start: 4, end: 5
-@{x2716}@ Unexpected token. - start: 9, end: 18
 @{x2716}@ Binding identifier expected - start: 18, end: 24
 @{x2716}@ Unexpected token. - start: 18, end: 24
-@{x2716}@ Unexpected token. - start: 18, end: 24
-@{x2716}@ Unexpected token. - start: 18, end: 24
-@{x2716}@ Unexpected token. - start: 26, end: 26
 @{x2716}@ Missing initializer in const declaration - start: 26, end: 26
 
 ```

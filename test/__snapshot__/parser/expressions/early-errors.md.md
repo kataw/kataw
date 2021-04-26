@@ -5679,17 +5679,13 @@ try {} catch(e) { for(var e of 0); };
 @{x2716}@ Statement expected - start: 2865, end: 2938
 @{x2716}@ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
 @{x2716}@ Statement expected - start: 2938, end: 2939
-@{x2716}@ Unexpected token. - start: 2940, end: 2941
 @{x2716}@ Invalid hexadecimal escape sequence - start: 2949, end: 2950
 @{x2716}@ Statement expected - start: 2949, end: 2951
 @{x2716}@ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
 @{x2716}@ Statement expected - start: 2951, end: 2952
-@{x2716}@ Unexpected token. - start: 2953, end: 2954
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3058, end: 3058
-@{x2716}@ Unexpected token. - start: 3058, end: 3059
 @{x2716}@ Statement expected - start: 3058, end: 3059
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3070, end: 3070
-@{x2716}@ Unexpected token. - start: 3070, end: 3071
 @{x2716}@ Statement expected - start: 3070, end: 3071
 @{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
 @{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
@@ -5705,12 +5701,10 @@ try {} catch(e) { for(var e of 0); };
 @{x2716}@ Statement expected - start: 3722, end: 3727
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3728, end: 3959
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3959, end: 3959
-@{x2716}@ Unexpected token. - start: 3959, end: 3960
 @{x2716}@ Statement expected - start: 3959, end: 3960
 @{x2716}@ Statement expected - start: 3960, end: 3966
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3967, end: 3969
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3969, end: 3969
-@{x2716}@ Unexpected token. - start: 3969, end: 3970
 @{x2716}@ Statement expected - start: 3969, end: 3970
 @{x2716}@ Statement expected - start: 3970, end: 3975
 @{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4453, end: 4462
@@ -5718,10 +5712,8 @@ try {} catch(e) { for(var e of 0); };
 @{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4518, end: 4527
 @{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4560, end: 4569
 @{x2716}@ Invalid hexadecimal escape sequence - start: 5029, end: 5029
-@{x2716}@ Unexpected token. - start: 5029, end: 5030
 @{x2716}@ Statement expected - start: 5029, end: 5030
 @{x2716}@ Invalid hexadecimal escape sequence - start: 5041, end: 5041
-@{x2716}@ Unexpected token. - start: 5041, end: 5042
 @{x2716}@ Statement expected - start: 5041, end: 5042
 
 ```

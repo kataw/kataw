@@ -160,9 +160,7 @@ unction* gf() { var a = yield 'foo'; }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 13, end: 15
 @{x2716}@ ',' expected - start: 29, end: 35
-@{x2716}@ Unexpected token. - start: 29, end: 35
 
 ```
 

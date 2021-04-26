@@ -151,18 +151,6 @@ switch[ catch { try
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 7
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 7, end: 13
-@{x2716}@ Unexpected token. - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 19
-
+@{x2714}@ No errors
 ```
 

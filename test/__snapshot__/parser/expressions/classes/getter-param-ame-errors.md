@@ -1017,9 +1017,6 @@ class C { get name(private) {} }
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 188, end: 193
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 234, end: 237
 @{x2716}@ Unexpected token. - start: 234, end: 237
-@{x2716}@ Unexpected token. - start: 234, end: 237
-@{x2716}@ Unexpected token. - start: 234, end: 237
-@{x2716}@ Unexpected token. - start: 237, end: 238
 @{x2716}@ Statement expected - start: 237, end: 238
 @{x2716}@ Statement expected - start: 241, end: 243
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 277, end: 284

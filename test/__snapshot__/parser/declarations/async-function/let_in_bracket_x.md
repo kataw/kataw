@@ -150,7 +150,6 @@ let[x] in x;
 
 ```javascript
 @{x2716}@ Missing initializer in destructuring declaration - start: 6, end: 9
-@{x2716}@ Unexpected token. - start: 6, end: 9
 @{x2716}@ Expression expected - start: 6, end: 9
 
 ```

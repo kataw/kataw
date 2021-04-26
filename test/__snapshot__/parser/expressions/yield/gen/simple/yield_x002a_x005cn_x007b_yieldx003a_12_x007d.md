@@ -131,11 +131,7 @@ yield * \n { yield: 12 }
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 7, end: 8
 @{x2716}@ Expression expected - start: 7, end: 9
-@{x2716}@ Unexpected token. - start: 7, end: 9
 @{x2716}@ Statement expected - start: 7, end: 9
-@{x2716}@ Unexpected token. - start: 10, end: 12
-@{x2716}@ Unexpected token. - start: 18, end: 19
-@{x2716}@ Unexpected token. - start: 18, end: 19
 @{x2716}@ Statement expected - start: 18, end: 19
 @{x2716}@ Statement expected - start: 22, end: 24
 

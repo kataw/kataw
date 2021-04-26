@@ -97,12 +97,7 @@ return catch /)finally
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
 @{x2716}@ Expression expected - start: 6, end: 12
-@{x2716}@ Unexpected token. - start: 6, end: 12
-@{x2716}@ Unexpected token. - start: 6, end: 12
 @{x2716}@ Unexpected token. - start: 12, end: 14
-@{x2716}@ Unexpected token. - start: 12, end: 22
-@{x2716}@ Unexpected token. - start: 12, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
 
 ```
 

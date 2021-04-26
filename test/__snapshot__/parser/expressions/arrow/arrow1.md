@@ -255,7 +255,6 @@
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 37, end: 38
 @{x2716}@ Unexpected token. - start: 38, end: 39
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 38, end: 39
-@{x2716}@ Unexpected token. - start: 46, end: 54
 @{x2716}@ Unterminated template literal - start: 60, end: 85
 
 ```

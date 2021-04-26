@@ -135,7 +135,6 @@ class x extends var {}
 
 ```javascript
 @{x2716}@ Expression expected - start: 15, end: 19
-@{x2716}@ Unexpected token. - start: 15, end: 19
 @{x2716}@ Missing initializer in destructuring declaration - start: 22, end: 22
 
 ```

@@ -127,7 +127,6 @@ for (x in a>c;;) x
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 13, end: 14
 @{x2716}@ Statement expected - start: 15, end: 16
 
 ```

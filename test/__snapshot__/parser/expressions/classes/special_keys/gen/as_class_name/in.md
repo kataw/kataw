@@ -111,7 +111,6 @@ class in {}
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 8
-@{x2716}@ Unexpected token. - start: 5, end: 8
 @{x2716}@ Expression expected - start: 5, end: 8
 
 ```

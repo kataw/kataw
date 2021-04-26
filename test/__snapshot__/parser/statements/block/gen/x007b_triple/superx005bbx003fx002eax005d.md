@@ -143,9 +143,6 @@
 
 ```javascript
 @{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 11, end: 12
-@{x2716}@ Unexpected token. - start: 17, end: 17
-@{x2716}@ Unexpected token. - start: 17, end: 17
-@{x2716}@ Unexpected token. - start: 17, end: 17
 
 ```
 

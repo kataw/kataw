@@ -269,19 +269,9 @@ do {} while (x) { =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 17, end: 19
 @{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 19, end: 20
-@{x2716}@ Unexpected token. - start: 26, end: 35
-@{x2716}@ Unexpected token. - start: 26, end: 35
 @{x2716}@ Binding identifier expected - start: 35, end: 39
 @{x2716}@ Unexpected token. - start: 35, end: 39
-@{x2716}@ Unexpected token. - start: 35, end: 39
-@{x2716}@ Unexpected token. - start: 35, end: 39
-@{x2716}@ Unexpected token. - start: 39, end: 45
-@{x2716}@ Unexpected token. - start: 39, end: 45
-@{x2716}@ Unexpected token. - start: 45, end: 50
-@{x2716}@ Unexpected token. - start: 50, end: 54
-@{x2716}@ Unexpected token. - start: 54, end: 55
 @{x2716}@ Expression expected - start: 55, end: 55
 
 ```

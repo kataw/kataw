@@ -1407,28 +1407,16 @@
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 41, end: 42
-@{x2716}@ Unexpected token. - start: 122, end: 124
-@{x2716}@ Unexpected token. - start: 122, end: 124
-@{x2716}@ Unexpected token. - start: 122, end: 124
 @{x2716}@ Statement expected - start: 122, end: 124
 @{x2716}@ Statement expected - start: 126, end: 127
 @{x2716}@ Statement expected - start: 127, end: 128
-@{x2716}@ Unexpected token. - start: 144, end: 146
-@{x2716}@ Unexpected token. - start: 144, end: 146
-@{x2716}@ Unexpected token. - start: 144, end: 146
 @{x2716}@ Statement expected - start: 144, end: 146
 @{x2716}@ Statement expected - start: 148, end: 149
 @{x2716}@ Statement expected - start: 149, end: 150
 @{x2716}@ Binding identifier expected - start: 240, end: 241
-@{x2716}@ Unexpected token. - start: 342, end: 344
-@{x2716}@ Unexpected token. - start: 342, end: 344
-@{x2716}@ Unexpected token. - start: 342, end: 344
 @{x2716}@ Statement expected - start: 342, end: 344
 @{x2716}@ Statement expected - start: 346, end: 347
 @{x2716}@ Statement expected - start: 347, end: 348
-@{x2716}@ Unexpected token. - start: 371, end: 373
-@{x2716}@ Unexpected token. - start: 371, end: 373
-@{x2716}@ Unexpected token. - start: 371, end: 373
 @{x2716}@ Statement expected - start: 371, end: 373
 @{x2716}@ Statement expected - start: 375, end: 376
 @{x2716}@ Statement expected - start: 376, end: 377

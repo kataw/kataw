@@ -93,7 +93,6 @@ export * as x from "x" foo
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 22, end: 26
-
+@{x2714}@ No errors
 ```
 

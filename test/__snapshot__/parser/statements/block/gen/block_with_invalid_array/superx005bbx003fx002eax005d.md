@@ -169,14 +169,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 8
-@{x2716}@ Unexpected token. - start: 3, end: 8
-@{x2716}@ Unexpected token. - start: 3, end: 8
-@{x2716}@ Unexpected token. - start: 8, end: 9
-@{x2716}@ Unexpected token. - start: 8, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 15
 @{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 21, end: 21
 
 ```
 

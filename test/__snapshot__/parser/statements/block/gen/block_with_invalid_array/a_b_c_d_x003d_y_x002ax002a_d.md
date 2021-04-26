@@ -202,14 +202,6 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 8
-@{x2716}@ Unexpected token. - start: 3, end: 8
-@{x2716}@ Unexpected token. - start: 3, end: 8
-@{x2716}@ Unexpected token. - start: 8, end: 9
-@{x2716}@ Unexpected token. - start: 8, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 11
-@{x2716}@ Unexpected token. - start: 16, end: 18
-@{x2716}@ Unexpected token. - start: 27, end: 27
-
+@{x2714}@ No errors
 ```
 

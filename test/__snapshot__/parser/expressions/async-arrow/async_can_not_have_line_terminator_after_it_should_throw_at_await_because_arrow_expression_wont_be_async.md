@@ -130,7 +130,6 @@ g => await g
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 24, end: 26
-
+@{x2714}@ No errors
 ```
 

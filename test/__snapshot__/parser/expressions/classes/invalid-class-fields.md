@@ -3034,80 +3034,44 @@
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 33, end: 35
-@{x2716}@ Unexpected token. - start: 33, end: 35
-@{x2716}@ Unexpected token. - start: 33, end: 35
-@{x2716}@ Unexpected token. - start: 33, end: 35
-@{x2716}@ Unexpected token. - start: 33, end: 35
 @{x2716}@ Statement expected - start: 33, end: 35
 @{x2716}@ Statement expected - start: 37, end: 38
 @{x2716}@ Statement expected - start: 38, end: 39
 @{x2716}@ Unexpected token. - start: 53, end: 55
-@{x2716}@ Unexpected token. - start: 53, end: 55
-@{x2716}@ Unexpected token. - start: 53, end: 55
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 53, end: 55
 @{x2716}@ Expression expected - start: 55, end: 56
-@{x2716}@ Unexpected token. - start: 55, end: 56
 @{x2716}@ Statement expected - start: 55, end: 56
 @{x2716}@ Statement expected - start: 56, end: 57
-@{x2716}@ Unexpected token. - start: 71, end: 74
-@{x2716}@ Unexpected token. - start: 71, end: 74
-@{x2716}@ Unexpected token. - start: 71, end: 74
-@{x2716}@ Unexpected token. - start: 71, end: 74
 @{x2716}@ Unexpected token. - start: 71, end: 74
 @{x2716}@ Statement expected - start: 71, end: 74
 @{x2716}@ Statement expected - start: 77, end: 78
 @{x2716}@ Statement expected - start: 78, end: 79
-@{x2716}@ Unexpected token. - start: 91, end: 94
-@{x2716}@ Unexpected token. - start: 91, end: 94
-@{x2716}@ Unexpected token. - start: 91, end: 94
 @{x2716}@ Statement expected - start: 91, end: 94
 @{x2716}@ Statement expected - start: 97, end: 98
 @{x2716}@ Statement expected - start: 98, end: 99
 @{x2716}@ Unexpected token. - start: 114, end: 116
-@{x2716}@ Unexpected token. - start: 114, end: 116
-@{x2716}@ Unexpected token. - start: 114, end: 116
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 114, end: 116
-@{x2716}@ Unexpected token. - start: 118, end: 119
 @{x2716}@ Statement expected - start: 118, end: 119
 @{x2716}@ Statement expected - start: 119, end: 120
-@{x2716}@ Unexpected token. - start: 135, end: 138
-@{x2716}@ Unexpected token. - start: 135, end: 138
-@{x2716}@ Unexpected token. - start: 135, end: 138
-@{x2716}@ Unexpected token. - start: 135, end: 138
 @{x2716}@ Unexpected token. - start: 135, end: 138
 @{x2716}@ Statement expected - start: 135, end: 138
 @{x2716}@ Statement expected - start: 140, end: 141
 @{x2716}@ Statement expected - start: 141, end: 142
 @{x2716}@ Unexpected token. - start: 157, end: 160
-@{x2716}@ Unexpected token. - start: 157, end: 160
-@{x2716}@ Unexpected token. - start: 157, end: 160
-@{x2716}@ Unexpected token. - start: 157, end: 160
-@{x2716}@ Unexpected token. - start: 157, end: 160
 @{x2716}@ Statement expected - start: 157, end: 160
 @{x2716}@ Statement expected - start: 163, end: 164
 @{x2716}@ Statement expected - start: 164, end: 165
 @{x2716}@ Unexpected token. - start: 183, end: 184
-@{x2716}@ Unexpected token. - start: 183, end: 184
 @{x2716}@ Expression expected - start: 184, end: 185
 @{x2716}@ Unexpected token. - start: 207, end: 208
-@{x2716}@ Unexpected token. - start: 207, end: 208
 @{x2716}@ Expression expected - start: 208, end: 209
-@{x2716}@ Unexpected token. - start: 229, end: 232
-@{x2716}@ Unexpected token. - start: 229, end: 232
-@{x2716}@ Unexpected token. - start: 229, end: 232
 @{x2716}@ Statement expected - start: 229, end: 232
 @{x2716}@ Statement expected - start: 235, end: 236
 @{x2716}@ Statement expected - start: 236, end: 237
 @{x2716}@ Unexpected token. - start: 257, end: 259
-@{x2716}@ Unexpected token. - start: 257, end: 259
-@{x2716}@ Unexpected token. - start: 257, end: 259
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 257, end: 259
-@{x2716}@ Unexpected token. - start: 261, end: 262
 @{x2716}@ Statement expected - start: 261, end: 262
 @{x2716}@ Statement expected - start: 262, end: 263
-@{x2716}@ Unexpected token. - start: 281, end: 284
-@{x2716}@ Unexpected token. - start: 281, end: 284
-@{x2716}@ Unexpected token. - start: 281, end: 284
 @{x2716}@ Statement expected - start: 281, end: 284
 @{x2716}@ Statement expected - start: 287, end: 288
 @{x2716}@ Statement expected - start: 288, end: 289
@@ -3118,10 +3082,7 @@
 @{x2716}@ Unexpected token. - start: 473, end: 475
 @{x2716}@ Unexpected token. - start: 505, end: 506
 @{x2716}@ Unterminated string literal - start: 507, end: 519
-@{x2716}@ Unexpected token. - start: 554, end: 555
-@{x2716}@ Unexpected token. - start: 555, end: 557
 @{x2716}@ Unexpected token. - start: 579, end: 581
-@{x2716}@ Unexpected token. - start: 593, end: 594
 @{x2716}@ Unexpected token. - start: 662, end: 664
 
 ```

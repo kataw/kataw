@@ -80,7 +80,6 @@ import(x,y
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 9
-
+@{x2714}@ No errors
 ```
 

@@ -67,9 +67,6 @@
 
 ```javascript
 @{x2716}@ ',' expected - start: 7, end: 10
-@{x2716}@ Unexpected token. - start: 7, end: 10
-@{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 13, end: 14
 @{x2716}@ Statement expected - start: 15, end: 16
 @{x2716}@ Statement expected - start: 16, end: 17
 

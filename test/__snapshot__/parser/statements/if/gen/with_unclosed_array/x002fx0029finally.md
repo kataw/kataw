@@ -88,11 +88,8 @@ if[ /)finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 3
 @{x2716}@ Unexpected token. - start: 3, end: 5
 @{x2716}@ ',' expected - start: 13, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 13
 @{x2716}@ Expression expected - start: 13, end: 13
 
 ```

@@ -139,9 +139,6 @@ async () => {  \u0066unction = x  }
 ```javascript
 @{x2716}@ Binding identifier expected - start: 28, end: 30
 @{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
 @{x2716}@ Statement expected - start: 28, end: 30
 @{x2716}@ Statement expected - start: 32, end: 35
 

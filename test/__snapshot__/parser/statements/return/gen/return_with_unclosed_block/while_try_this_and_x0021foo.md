@@ -209,17 +209,8 @@ return {} return(x) { while try this and !foo
 
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ Unexpected token. - start: 9, end: 16
 @{x2716}@ A return statement can only be used within a function_body - start: 9, end: 16
-@{x2716}@ Unexpected token. - start: 19, end: 21
-@{x2716}@ Unexpected token. - start: 27, end: 31
 @{x2716}@ Expression expected - start: 27, end: 31
-@{x2716}@ Unexpected token. - start: 27, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 36
-@{x2716}@ Unexpected token. - start: 31, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 40
-@{x2716}@ Unexpected token. - start: 40, end: 42
-@{x2716}@ Unexpected token. - start: 45, end: 45
 
 ```
 

@@ -91,7 +91,6 @@ return /false//a return
 
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ Unexpected token. - start: 16, end: 23
 @{x2716}@ A return statement can only be used within a function_body - start: 16, end: 23
 
 ```

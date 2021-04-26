@@ -125,8 +125,6 @@ async () => {  inst\u0061nceof = x  }
 ```javascript
 @{x2716}@ Expression expected - start: 13, end: 30
 @{x2716}@ Expression expected - start: 30, end: 32
-@{x2716}@ Unexpected token. - start: 30, end: 32
-@{x2716}@ Unexpected token. - start: 30, end: 32
 @{x2716}@ Statement expected - start: 30, end: 32
 @{x2716}@ Statement expected - start: 34, end: 37
 

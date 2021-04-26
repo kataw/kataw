@@ -151,11 +151,7 @@
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 21, end: 23
 @{x2716}@ Invalid hexadecimal escape sequence - start: 23, end: 23
-@{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
 @{x2716}@ Statement expected - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 25, end: 29
 @{x2716}@ Statement expected - start: 29, end: 31
 @{x2716}@ Statement expected - start: 31, end: 32
 

@@ -84,9 +84,7 @@ import *= from 'f';
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 6, end: 9
-@{x2716}@ Unexpected token. - start: 6, end: 9
 @{x2716}@ Statement expected - start: 6, end: 9
-@{x2716}@ Unexpected token. - start: 14, end: 18
 
 ```
 

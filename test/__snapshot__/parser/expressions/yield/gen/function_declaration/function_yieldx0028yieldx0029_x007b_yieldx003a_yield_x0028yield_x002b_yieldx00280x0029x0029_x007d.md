@@ -249,9 +249,6 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 50, end: 51
-@{x2716}@ Unexpected token. - start: 50, end: 51
-@{x2716}@ Unexpected token. - start: 50, end: 51
 @{x2716}@ Statement expected - start: 50, end: 51
 @{x2716}@ Statement expected - start: 77, end: 79
 @{x2716}@ Statement expected - start: 79, end: 81

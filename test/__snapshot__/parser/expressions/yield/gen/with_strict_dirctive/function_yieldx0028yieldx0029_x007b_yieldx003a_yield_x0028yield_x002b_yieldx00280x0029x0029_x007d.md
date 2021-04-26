@@ -212,8 +212,6 @@
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 22, end: 28
 @{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 22, end: 28
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 29, end: 34
-@{x2716}@ Unexpected token. - start: 43, end: 44
-@{x2716}@ Unexpected token. - start: 43, end: 44
 @{x2716}@ Statement expected - start: 43, end: 44
 @{x2716}@ Statement expected - start: 70, end: 72
 

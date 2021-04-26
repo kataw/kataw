@@ -539,20 +539,12 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ```javascript
 @{x2716}@ ',' expected - start: 33, end: 34
 @{x2716}@ Unexpected token. - start: 33, end: 34
-@{x2716}@ Unexpected token. - start: 33, end: 34
-@{x2716}@ Unexpected token. - start: 33, end: 34
 @{x2716}@ Statement expected - start: 33, end: 34
-@{x2716}@ Unexpected token. - start: 44, end: 45
 @{x2716}@ Statement expected - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 55, end: 56
 @{x2716}@ Statement expected - start: 55, end: 56
-@{x2716}@ Unexpected token. - start: 63, end: 64
 @{x2716}@ Statement expected - start: 63, end: 64
 @{x2716}@ Statement expected - start: 64, end: 65
-@{x2716}@ Unexpected token. - start: 90, end: 92
 @{x2716}@ A return statement can only be used within a function_body - start: 225, end: 236
-@{x2716}@ Unexpected token. - start: 254, end: 260
-@{x2716}@ Unexpected token. - start: 260, end: 261
 
 ```
 

@@ -76,10 +76,6 @@ case catch
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 4, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 10
 
 ```
 

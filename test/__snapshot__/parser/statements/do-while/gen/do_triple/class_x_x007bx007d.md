@@ -148,15 +148,9 @@ do do do class x {} while while while
 
 ```javascript
 @{x2716}@ Class declarations are not allowed in an arbitrary statement position. - start: 8, end: 14
-@{x2716}@ Unexpected token. - start: 25, end: 31
 @{x2716}@ Expression expected - start: 25, end: 31
-@{x2716}@ Unexpected token. - start: 25, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 37
 @{x2716}@ Expression expected - start: 31, end: 37
-@{x2716}@ Unexpected token. - start: 31, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 @{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 
 ```
 

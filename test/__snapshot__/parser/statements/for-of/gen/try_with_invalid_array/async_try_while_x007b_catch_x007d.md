@@ -211,21 +211,6 @@ try [catch] async try while { catch }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 5
-@{x2716}@ Unexpected token. - start: 3, end: 5
-@{x2716}@ Unexpected token. - start: 5, end: 10
-@{x2716}@ Unexpected token. - start: 5, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 11
-@{x2716}@ Unexpected token. - start: 10, end: 11
-@{x2716}@ Unexpected token. - start: 11, end: 17
-@{x2716}@ Unexpected token. - start: 17, end: 21
-@{x2716}@ Unexpected token. - start: 21, end: 27
-@{x2716}@ Unexpected token. - start: 21, end: 27
-@{x2716}@ Unexpected token. - start: 29, end: 35
-@{x2716}@ Unexpected token. - start: 35, end: 37
-@{x2716}@ Unexpected token. - start: 35, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-
+@{x2714}@ No errors
 ```
 

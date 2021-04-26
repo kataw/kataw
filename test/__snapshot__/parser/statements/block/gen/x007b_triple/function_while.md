@@ -167,15 +167,8 @@
 ```javascript
 @{x2716}@ Binding identifier expected - start: 14, end: 20
 @{x2716}@ Unexpected token. - start: 14, end: 20
-@{x2716}@ Unexpected token. - start: 14, end: 20
-@{x2716}@ Unexpected token. - start: 14, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
 @{x2716}@ Expression expected - start: 20, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
 @{x2716}@ Expression expected - start: 20, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
 
 ```
 

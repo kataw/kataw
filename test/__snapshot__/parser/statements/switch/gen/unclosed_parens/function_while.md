@@ -132,16 +132,8 @@ switch( function while case
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 27
 @{x2716}@ Expression expected - start: 22, end: 27
-@{x2716}@ Unexpected token. - start: 22, end: 27
 @{x2716}@ Expression expected - start: 22, end: 27
-@{x2716}@ Unexpected token. - start: 22, end: 27
 @{x2716}@ Statement expected - start: 22, end: 27
 
 ```

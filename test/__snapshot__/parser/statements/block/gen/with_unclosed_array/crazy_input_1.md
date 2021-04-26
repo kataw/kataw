@@ -101,8 +101,6 @@
 @{x2716}@ ',' expected - start: 8, end: 14
 @{x2716}@ ',' expected - start: 14, end: 16
 @{x2716}@ ',' expected - start: 16, end: 16
-@{x2716}@ Unexpected token. - start: 16, end: 16
-@{x2716}@ Unexpected token. - start: 16, end: 16
 
 ```
 

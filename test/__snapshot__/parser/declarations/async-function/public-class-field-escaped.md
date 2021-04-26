@@ -99,7 +99,6 @@ class C { \\u0041 }
 
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 10
-@{x2716}@ Unexpected token. - start: 9, end: 11
 @{x2716}@ Statement expected - start: 9, end: 11
 @{x2716}@ Statement expected - start: 17, end: 19
 

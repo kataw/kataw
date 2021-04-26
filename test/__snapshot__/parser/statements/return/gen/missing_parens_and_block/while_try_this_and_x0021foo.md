@@ -179,15 +179,6 @@ return catch while try this and !foo
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
 @{x2716}@ Expression expected - start: 6, end: 12
-@{x2716}@ Unexpected token. - start: 6, end: 12
-@{x2716}@ Unexpected token. - start: 6, end: 12
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 18, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 27
-@{x2716}@ Unexpected token. - start: 22, end: 27
-@{x2716}@ Unexpected token. - start: 27, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 33
 
 ```
 

@@ -113,7 +113,6 @@ var foob\\U1234r = 0;
 @{x2716}@ Invalid hexadecimal escape sequence - start: 3, end: 8
 @{x2716}@ Invalid hexadecimal escape sequence - start: 8, end: 8
 @{x2716}@ ',' expected - start: 8, end: 9
-@{x2716}@ Unexpected token. - start: 8, end: 9
 @{x2716}@ Statement expected - start: 8, end: 9
 @{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 9
 @{x2716}@ Statement expected - start: 9, end: 10

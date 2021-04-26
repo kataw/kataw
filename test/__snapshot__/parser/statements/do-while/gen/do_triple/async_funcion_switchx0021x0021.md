@@ -189,18 +189,10 @@ do do do async funcion switch!! while while while
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 22, end: 29
 @{x2716}@ Expression expected - start: 31, end: 37
-@{x2716}@ Unexpected token. - start: 31, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 43
 @{x2716}@ Expression expected - start: 37, end: 43
-@{x2716}@ Unexpected token. - start: 37, end: 43
-@{x2716}@ Unexpected token. - start: 43, end: 49
 @{x2716}@ Expression expected - start: 43, end: 49
-@{x2716}@ Unexpected token. - start: 43, end: 49
-@{x2716}@ Unexpected token. - start: 49, end: 49
 @{x2716}@ Expression expected - start: 49, end: 49
-@{x2716}@ Unexpected token. - start: 49, end: 49
 
 ```
 

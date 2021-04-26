@@ -3866,15 +3866,10 @@ a++ => {};
 @{x2716}@ Statement expected - start: 34, end: 37
 @{x2716}@ Expression expected - start: 43, end: 44
 @{x2716}@ Expression expected - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 45, end: 48
 @{x2716}@ Statement expected - start: 45, end: 48
 @{x2716}@ A return statement can only be used within a function_body - start: 52, end: 59
 @{x2716}@ Expression expected - start: 59, end: 62
-@{x2716}@ Unexpected token. - start: 59, end: 62
 @{x2716}@ Statement expected - start: 59, end: 62
-@{x2716}@ Unexpected token. - start: 81, end: 82
-@{x2716}@ Unexpected token. - start: 81, end: 82
-@{x2716}@ Unexpected token. - start: 81, end: 82
 @{x2716}@ Statement expected - start: 81, end: 82
 @{x2716}@ Statement expected - start: 85, end: 86
 @{x2716}@ Statement expected - start: 87, end: 204
@@ -3883,96 +3878,53 @@ a++ => {};
 @{x2716}@ Expression expected - start: 220, end: 221
 @{x2716}@ Expression expected - start: 225, end: 226
 @{x2716}@ Expression expected - start: 300, end: 301
-@{x2716}@ Unexpected token. - start: 301, end: 304
 @{x2716}@ Statement expected - start: 301, end: 304
-@{x2716}@ Unexpected token. - start: 313, end: 316
 @{x2716}@ Statement expected - start: 313, end: 316
-@{x2716}@ Unexpected token. - start: 328, end: 331
 @{x2716}@ Statement expected - start: 328, end: 331
-@{x2716}@ Unexpected token. - start: 343, end: 346
 @{x2716}@ Statement expected - start: 343, end: 346
-@{x2716}@ Unexpected token. - start: 361, end: 364
 @{x2716}@ Statement expected - start: 361, end: 364
-@{x2716}@ Unexpected token. - start: 379, end: 382
 @{x2716}@ Statement expected - start: 379, end: 382
-@{x2716}@ Unexpected token. - start: 397, end: 400
 @{x2716}@ Statement expected - start: 397, end: 400
-@{x2716}@ Unexpected token. - start: 1306, end: 1309
 @{x2716}@ Statement expected - start: 1306, end: 1309
-@{x2716}@ Unexpected token. - start: 1318, end: 1321
 @{x2716}@ Statement expected - start: 1318, end: 1321
-@{x2716}@ Unexpected token. - start: 1333, end: 1336
 @{x2716}@ Statement expected - start: 1333, end: 1336
-@{x2716}@ Unexpected token. - start: 1343, end: 1346
 @{x2716}@ Expression expected - start: 1343, end: 1346
-@{x2716}@ Unexpected token. - start: 1343, end: 1346
 @{x2716}@ Expression expected - start: 1343, end: 1346
-@{x2716}@ Unexpected token. - start: 1343, end: 1346
 @{x2716}@ Statement expected - start: 1343, end: 1346
 @{x2716}@ Expression expected - start: 1352, end: 1354
-@{x2716}@ Unexpected token. - start: 1352, end: 1354
-@{x2716}@ Unexpected token. - start: 1352, end: 1354
-@{x2716}@ Unexpected token. - start: 1354, end: 1355
 @{x2716}@ Expression expected - start: 1354, end: 1355
 @{x2716}@ Expression expected - start: 1355, end: 1358
-@{x2716}@ Unexpected token. - start: 1355, end: 1358
 @{x2716}@ Statement expected - start: 1355, end: 1358
-@{x2716}@ Unexpected token. - start: 1366, end: 1369
-@{x2716}@ Unexpected token. - start: 1366, end: 1369
-@{x2716}@ Unexpected token. - start: 1369, end: 1370
 @{x2716}@ Expression expected - start: 1369, end: 1370
 @{x2716}@ Expression expected - start: 1370, end: 1373
-@{x2716}@ Unexpected token. - start: 1370, end: 1373
 @{x2716}@ Statement expected - start: 1370, end: 1373
-@{x2716}@ Unexpected token. - start: 1398, end: 1401
 @{x2716}@ Statement expected - start: 1398, end: 1401
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 1416, end: 1419
-@{x2716}@ Unexpected token. - start: 1434, end: 1437
 @{x2716}@ Statement expected - start: 1434, end: 1437
-@{x2716}@ Unexpected token. - start: 1445, end: 1448
 @{x2716}@ Statement expected - start: 1445, end: 1448
-@{x2716}@ Unexpected token. - start: 1458, end: 1461
 @{x2716}@ Statement expected - start: 1458, end: 1461
 @{x2716}@ Unterminated string literal - start: 1467, end: 1480
-@{x2716}@ Unexpected token. - start: 1489, end: 1492
-@{x2716}@ Unexpected token. - start: 1489, end: 1492
 @{x2716}@ Statement expected - start: 1489, end: 1492
-@{x2716}@ Unexpected token. - start: 1511, end: 1514
 @{x2716}@ Statement expected - start: 1511, end: 1514
-@{x2716}@ Unexpected token. - start: 1526, end: 1529
 @{x2716}@ Statement expected - start: 1526, end: 1529
-@{x2716}@ Unexpected token. - start: 1537, end: 1539
-@{x2716}@ Unexpected token. - start: 1540, end: 1541
 @{x2716}@ Statement expected - start: 1540, end: 1541
 @{x2716}@ Statement expected - start: 1541, end: 1544
 @{x2716}@ Statement expected - start: 1551, end: 1554
-@{x2716}@ Unexpected token. - start: 1562, end: 1565
 @{x2716}@ Statement expected - start: 1562, end: 1565
-@{x2716}@ Unexpected token. - start: 1575, end: 1578
 @{x2716}@ Statement expected - start: 1575, end: 1578
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 1591, end: 1594
-@{x2716}@ Unexpected token. - start: 1607, end: 1610
 @{x2716}@ Statement expected - start: 1607, end: 1610
-@{x2716}@ Unexpected token. - start: 1617, end: 1620
 @{x2716}@ Statement expected - start: 1617, end: 1620
-@{x2716}@ Unexpected token. - start: 1642, end: 1645
 @{x2716}@ Statement expected - start: 1642, end: 1645
-@{x2716}@ Unexpected token. - start: 1670, end: 1673
 @{x2716}@ Statement expected - start: 1670, end: 1673
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 1698, end: 1701
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 1714, end: 1717
-@{x2716}@ Unexpected token. - start: 1730, end: 1733
 @{x2716}@ Statement expected - start: 1730, end: 1733
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 1749, end: 1752
-@{x2716}@ Unexpected token. - start: 1768, end: 1771
 @{x2716}@ Statement expected - start: 1768, end: 1771
 @{x2716}@ A rest element cannot have an initializer - start: 1781, end: 1783
-@{x2716}@ Unexpected token. - start: 1802, end: 1804
-@{x2716}@ Unexpected token. - start: 1806, end: 1807
 @{x2716}@ Statement expected - start: 1806, end: 1807
 @{x2716}@ Statement expected - start: 1807, end: 1810
-@{x2716}@ Unexpected token. - start: 1822, end: 1824
-@{x2716}@ Unexpected token. - start: 1827, end: 1828
 @{x2716}@ Statement expected - start: 1827, end: 1828
 @{x2716}@ Statement expected - start: 1828, end: 1831
 

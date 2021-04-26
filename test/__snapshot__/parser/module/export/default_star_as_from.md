@@ -151,9 +151,6 @@ export bar, * as foo from 'bar';
 ```javascript
 @{x2716}@ Unexpected token. - start: 6, end: 10
 @{x2716}@ Expression expected - start: 11, end: 13
-@{x2716}@ Unexpected token. - start: 16, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 31
 
 ```
 

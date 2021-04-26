@@ -120,11 +120,8 @@ return {} return(x) { /)finally
 
 ```javascript
 @{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ Unexpected token. - start: 9, end: 16
 @{x2716}@ A return statement can only be used within a function_body - start: 9, end: 16
-@{x2716}@ Unexpected token. - start: 19, end: 21
 @{x2716}@ Unexpected token. - start: 21, end: 23
-@{x2716}@ Unexpected token. - start: 31, end: 31
 
 ```
 

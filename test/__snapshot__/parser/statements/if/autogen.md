@@ -248,11 +248,8 @@ if[ #
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Expression expected - start: 2, end: 7
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Expression expected - start: 2, end: 7
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Unexpected token. - start: 7, end: 9
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 7, end: 9
 

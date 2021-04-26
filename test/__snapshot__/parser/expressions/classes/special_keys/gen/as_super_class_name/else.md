@@ -104,7 +104,6 @@ class x extends else {}
 
 ```javascript
 @{x2716}@ Expression expected - start: 15, end: 20
-@{x2716}@ Unexpected token. - start: 15, end: 20
 @{x2716}@ Statement expected - start: 15, end: 20
 
 ```

@@ -123,13 +123,8 @@ case function while default
 @{x2716}@ Statement expected - start: 0, end: 4
 @{x2716}@ Binding identifier expected - start: 13, end: 19
 @{x2716}@ Unexpected token. - start: 13, end: 19
-@{x2716}@ Unexpected token. - start: 13, end: 19
-@{x2716}@ Unexpected token. - start: 13, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 27
 @{x2716}@ Expression expected - start: 19, end: 27
-@{x2716}@ Unexpected token. - start: 19, end: 27
 @{x2716}@ Expression expected - start: 19, end: 27
-@{x2716}@ Unexpected token. - start: 19, end: 27
 @{x2716}@ Statement expected - start: 19, end: 27
 
 ```

@@ -121,7 +121,6 @@ else {} if(x) { class x {}
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 26, end: 26
 
 ```
 

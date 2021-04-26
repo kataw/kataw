@@ -64,7 +64,6 @@ debugge\u0072 = x;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 13, end: 15
 @{x2716}@ Statement expected - start: 13, end: 15
 
 ```

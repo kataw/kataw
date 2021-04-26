@@ -158,15 +158,6 @@ if async try while { catch } else
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 8
-@{x2716}@ Unexpected token. - start: 8, end: 12
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 12, end: 18
-@{x2716}@ Unexpected token. - start: 20, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 28
-@{x2716}@ Unexpected token. - start: 26, end: 28
-@{x2716}@ Unexpected token. - start: 28, end: 33
-@{x2716}@ Unexpected token. - start: 28, end: 33
 @{x2716}@ Expression expected - start: 33, end: 33
 
 ```

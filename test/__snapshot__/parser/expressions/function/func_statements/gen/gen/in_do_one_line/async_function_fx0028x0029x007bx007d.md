@@ -122,7 +122,6 @@ do async function f(){} while (x);
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 23, end: 29
-
+@{x2714}@ No errors
 ```
 

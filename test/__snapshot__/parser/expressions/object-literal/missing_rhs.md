@@ -132,15 +132,10 @@ wrap({async [foo""](){}});
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 16, end: 18
 @{x2716}@ ',' expected - start: 16, end: 18
 @{x2716}@ ',' expected - start: 18, end: 19
-@{x2716}@ Unexpected token. - start: 18, end: 19
 @{x2716}@ ',' expected - start: 18, end: 19
-@{x2716}@ Unexpected token. - start: 18, end: 19
-@{x2716}@ Unexpected token. - start: 18, end: 19
 @{x2716}@ Statement expected - start: 18, end: 19
-@{x2716}@ Unexpected token. - start: 21, end: 22
 @{x2716}@ Expression expected - start: 22, end: 23
 @{x2716}@ Statement expected - start: 22, end: 23
 @{x2716}@ Statement expected - start: 23, end: 24

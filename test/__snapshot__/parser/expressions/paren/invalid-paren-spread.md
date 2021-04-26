@@ -717,10 +717,8 @@
 @{x2716}@ Expression expected - start: 42, end: 43
 @{x2716}@ A rest parameter must be last in a parameter list - start: 53, end: 54
 @{x2716}@ A rest parameter must be last in a parameter list - start: 53, end: 54
-@{x2716}@ Unexpected token. - start: 54, end: 55
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 54, end: 55
 @{x2716}@ Expression expected - start: 55, end: 56
-@{x2716}@ Unexpected token. - start: 55, end: 56
 @{x2716}@ Statement expected - start: 55, end: 56
 @{x2716}@ A rest parameter must be last in a parameter list - start: 65, end: 66
 @{x2716}@ A rest parameter must be last in a parameter list - start: 65, end: 66

@@ -994,44 +994,15 @@ async function f(){}
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 11, end: 21
-@{x2716}@ Unexpected token. - start: 11, end: 21
-@{x2716}@ Unexpected token. - start: 11, end: 21
 @{x2716}@ ',' expected - start: 56, end: 65
-@{x2716}@ Unexpected token. - start: 56, end: 65
-@{x2716}@ Unexpected token. - start: 56, end: 65
 @{x2716}@ Unexpected token. - start: 56, end: 65
 @{x2716}@ Binding identifier expected - start: 104, end: 106
 @{x2716}@ Unexpected token. - start: 104, end: 106
-@{x2716}@ Unexpected token. - start: 104, end: 106
-@{x2716}@ Unexpected token. - start: 104, end: 106
-@{x2716}@ Unexpected token. - start: 109, end: 110
-@{x2716}@ Unexpected token. - start: 126, end: 127
-@{x2716}@ Unexpected token. - start: 126, end: 127
 @{x2716}@ Unexpected token. - start: 126, end: 127
 @{x2716}@ Unexpected token. - start: 142, end: 143
-@{x2716}@ Unexpected token. - start: 142, end: 143
-@{x2716}@ Unexpected token. - start: 142, end: 143
-@{x2716}@ Unexpected token. - start: 144, end: 151
-@{x2716}@ Unexpected token. - start: 151, end: 155
-@{x2716}@ Unexpected token. - start: 155, end: 159
-@{x2716}@ Unexpected token. - start: 155, end: 159
-@{x2716}@ Unexpected token. - start: 155, end: 159
-@{x2716}@ Unexpected token. - start: 159, end: 165
-@{x2716}@ Unexpected token. - start: 165, end: 172
-@{x2716}@ Unexpected token. - start: 172, end: 173
 @{x2716}@ Expression expected - start: 172, end: 173
-@{x2716}@ Unexpected token. - start: 174, end: 175
 @{x2716}@ Expression expected - start: 175, end: 176
 @{x2716}@ Unexpected token. - start: 222, end: 228
-@{x2716}@ Unexpected token. - start: 222, end: 228
-@{x2716}@ Unexpected token. - start: 228, end: 237
-@{x2716}@ Unexpected token. - start: 237, end: 238
-@{x2716}@ Unexpected token. - start: 237, end: 238
-@{x2716}@ Unexpected token. - start: 237, end: 238
-@{x2716}@ Unexpected token. - start: 237, end: 238
-@{x2716}@ Unexpected token. - start: 237, end: 238
-@{x2716}@ Unexpected token. - start: 237, end: 238
-@{x2716}@ Unexpected token. - start: 237, end: 238
 @{x2716}@ Unexpected token. - start: 237, end: 238
 
 ```

@@ -209,20 +209,7 @@ do while [catch] while try this and !foo
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 26
 @{x2716}@ Expression expected - start: 22, end: 26
-@{x2716}@ Unexpected token. - start: 22, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 31
-@{x2716}@ Unexpected token. - start: 26, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 35
-@{x2716}@ Unexpected token. - start: 35, end: 37
 
 ```
 

@@ -108,9 +108,6 @@ case try { !xxx
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
 
 ```
 

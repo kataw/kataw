@@ -93,8 +93,6 @@ for (await x in x) ;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 10, end: 12
-@{x2716}@ Unexpected token. - start: 17, end: 18
-
+@{x2714}@ No errors
 ```
 

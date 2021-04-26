@@ -101,7 +101,6 @@ let ...a = 1;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 7
 @{x2716}@ Statement expected - start: 3, end: 7
 
 ```

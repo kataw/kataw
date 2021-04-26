@@ -115,7 +115,6 @@ opaque Ident: Type = SuperType;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 12
-
+@{x2714}@ No errors
 ```
 

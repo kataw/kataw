@@ -73,10 +73,7 @@ do /)finally
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 2, end: 4
-@{x2716}@ Unexpected token. - start: 12, end: 12
-@{x2716}@ Unexpected token. - start: 12, end: 12
 @{x2716}@ Expression expected - start: 12, end: 12
-@{x2716}@ Unexpected token. - start: 12, end: 12
 
 ```
 

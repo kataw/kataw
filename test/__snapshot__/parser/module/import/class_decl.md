@@ -150,8 +150,6 @@ class x { import {x} from "y"; }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 16, end: 18
-@{x2716}@ Unexpected token. - start: 25, end: 29
 @{x2716}@ Statement expected - start: 30, end: 32
 
 ```

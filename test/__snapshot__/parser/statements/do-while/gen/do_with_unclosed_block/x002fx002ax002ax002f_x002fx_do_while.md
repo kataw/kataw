@@ -107,7 +107,6 @@ do {} while (x) { /**/ /x do while
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 17, end: 24
-@{x2716}@ Unexpected token. - start: 34, end: 34
 
 ```
 

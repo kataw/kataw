@@ -526,12 +526,9 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 126, end: 127
 @{x2716}@ Dot property must be an identifier - start: 127, end: 128
 @{x2716}@ Expression expected - start: 133, end: 136
-@{x2716}@ Unexpected token. - start: 133, end: 136
 @{x2716}@ Statement expected - start: 133, end: 136
-@{x2716}@ Unexpected token. - start: 141, end: 142
 @{x2716}@ Statement expected - start: 141, end: 142
 
 ```

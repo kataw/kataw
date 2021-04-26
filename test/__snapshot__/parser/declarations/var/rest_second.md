@@ -142,7 +142,6 @@ export var a, ...b = 1;
 
 ```javascript
 @{x2716}@ The `export` keyword can only be used with the module goal - start: 0, end: 6
-@{x2716}@ Unexpected token. - start: 13, end: 17
 @{x2716}@ Statement expected - start: 13, end: 17
 
 ```

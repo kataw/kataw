@@ -113,10 +113,8 @@ x = return => {} ;
 
 ```javascript
 @{x2716}@ Expression expected - start: 3, end: 10
-@{x2716}@ Unexpected token. - start: 3, end: 10
 @{x2716}@ A return statement can only be used within a function_body - start: 3, end: 10
 @{x2716}@ Expression expected - start: 10, end: 13
-@{x2716}@ Unexpected token. - start: 10, end: 13
 @{x2716}@ Statement expected - start: 10, end: 13
 
 ```

@@ -160,18 +160,11 @@ if else function while
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Expression expected - start: 2, end: 7
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Expression expected - start: 2, end: 7
-@{x2716}@ Unexpected token. - start: 2, end: 7
 @{x2716}@ Binding identifier expected - start: 16, end: 22
 @{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
 @{x2716}@ Expression expected - start: 22, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
 @{x2716}@ Expression expected - start: 22, end: 22
 
 ```

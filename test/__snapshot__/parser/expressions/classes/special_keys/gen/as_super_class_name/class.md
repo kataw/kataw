@@ -104,7 +104,6 @@ class x extends class {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 24, end: 24
-
+@{x2714}@ No errors
 ```
 

@@ -285,27 +285,9 @@ switch [catch] =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 8
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 8, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 13, end: 14
-@{x2716}@ Unexpected token. - start: 14, end: 16
 @{x2716}@ Statement expected - start: 14, end: 16
-@{x2716}@ Unexpected token. - start: 23, end: 32
-@{x2716}@ Unexpected token. - start: 23, end: 32
 @{x2716}@ Binding identifier expected - start: 32, end: 36
 @{x2716}@ Unexpected token. - start: 32, end: 36
-@{x2716}@ Unexpected token. - start: 32, end: 36
-@{x2716}@ Unexpected token. - start: 32, end: 36
-@{x2716}@ Unexpected token. - start: 36, end: 42
-@{x2716}@ Unexpected token. - start: 36, end: 42
-@{x2716}@ Unexpected token. - start: 42, end: 47
-@{x2716}@ Unexpected token. - start: 47, end: 51
-@{x2716}@ Unexpected token. - start: 51, end: 52
 @{x2716}@ Expression expected - start: 52, end: 52
 
 ```

@@ -1745,13 +1745,9 @@ function * x() { "use strict";  yield: 34; }
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 408, end: 414
 @{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
 @{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 469, end: 475
-@{x2716}@ Unexpected token. - start: 725, end: 726
-@{x2716}@ Unexpected token. - start: 725, end: 726
 @{x2716}@ Statement expected - start: 725, end: 726
 @{x2716}@ Statement expected - start: 730, end: 732
 @{x2716}@ Expression expected - start: 772, end: 773
-@{x2716}@ Unexpected token. - start: 813, end: 814
-@{x2716}@ Unexpected token. - start: 813, end: 814
 @{x2716}@ Statement expected - start: 813, end: 814
 @{x2716}@ Statement expected - start: 818, end: 820
 

@@ -65,9 +65,6 @@ switch( /)finally case
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 7, end: 9
-@{x2716}@ Unexpected token. - start: 22, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 22
 
 ```
 

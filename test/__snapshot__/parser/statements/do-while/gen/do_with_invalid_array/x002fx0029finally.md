@@ -122,18 +122,8 @@ do while [catch] /)finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 15, end: 16
 @{x2716}@ Unexpected token. - start: 16, end: 18
-@{x2716}@ Unexpected token. - start: 16, end: 26
-@{x2716}@ Unexpected token. - start: 16, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
 @{x2716}@ Expression expected - start: 26, end: 26
-@{x2716}@ Unexpected token. - start: 26, end: 26
 
 ```
 

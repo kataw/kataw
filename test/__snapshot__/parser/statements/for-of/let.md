@@ -105,7 +105,6 @@ let x: string;
 
 ```javascript
 @{x2716}@ ',' expected - start: 5, end: 6
-@{x2716}@ Unexpected token. - start: 5, end: 6
 @{x2716}@ Statement expected - start: 5, end: 6
 
 ```

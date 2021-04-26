@@ -93,10 +93,7 @@ try( /)finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 4
-@{x2716}@ Unexpected token. - start: 3, end: 4
 @{x2716}@ Unexpected token. - start: 4, end: 6
-@{x2716}@ Unexpected token. - start: 4, end: 14
 
 ```
 

@@ -141,14 +141,6 @@ if( catch { try
 
 ```javascript
 @{x2716}@ Expression expected - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
 
 ```
 

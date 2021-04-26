@@ -781,23 +781,16 @@ class C { test() {get #a() { }}}
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 0, end: 3
 @{x2716}@ Statement expected - start: 3, end: 5
 @{x2716}@ Binding identifier expected - start: 18, end: 19
-@{x2716}@ Unexpected token. - start: 22, end: 25
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 22, end: 25
 @{x2716}@ Statement expected - start: 25, end: 27
 @{x2716}@ Statement expected - start: 36, end: 37
 @{x2716}@ Binding identifier expected - start: 47, end: 48
-@{x2716}@ Unexpected token. - start: 51, end: 54
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 51, end: 54
 @{x2716}@ Statement expected - start: 54, end: 55
-@{x2716}@ Unexpected token. - start: 64, end: 67
-@{x2716}@ Unexpected token. - start: 64, end: 67
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 64, end: 67
-@{x2716}@ Unexpected token. - start: 69, end: 71
 @{x2716}@ Expression expected - start: 71, end: 73
 @{x2716}@ Statement expected - start: 71, end: 73
 @{x2716}@ Statement expected - start: 73, end: 74
-@{x2716}@ Unexpected token. - start: 97, end: 100
-@{x2716}@ Unexpected token. - start: 97, end: 100
 @{x2716}@ Statement expected - start: 107, end: 108
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 129, end: 132
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 163, end: 165

@@ -88,11 +88,7 @@ do[ false
 
 ```javascript
 @{x2716}@ ',' expected - start: 9, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 9
 @{x2716}@ Expression expected - start: 9, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 9
 
 ```
 

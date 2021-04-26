@@ -97,7 +97,6 @@ async (x = (yield x))
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 17, end: 19
 @{x2716}@ Statement expected - start: 20, end: 21
 
 ```

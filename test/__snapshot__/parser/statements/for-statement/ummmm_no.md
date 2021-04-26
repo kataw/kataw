@@ -150,15 +150,10 @@ for (const ...x in y){}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 10, end: 14
 @{x2716}@ Expression expected - start: 10, end: 14
-@{x2716}@ Unexpected token. - start: 10, end: 14
 @{x2716}@ Expression expected - start: 10, end: 14
-@{x2716}@ Unexpected token. - start: 10, end: 14
 @{x2716}@ Expression expected - start: 10, end: 14
-@{x2716}@ Unexpected token. - start: 10, end: 14
 @{x2716}@ Statement expected - start: 10, end: 14
-@{x2716}@ Unexpected token. - start: 20, end: 21
 @{x2716}@ Statement expected - start: 20, end: 21
 
 ```

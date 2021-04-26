@@ -141,20 +141,8 @@ switch switch switch class x {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 13
 @{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 20
 @{x2716}@ Expression expected - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 26
-@{x2716}@ Unexpected token. - start: 31, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 31
 
 ```
 

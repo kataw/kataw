@@ -127,10 +127,6 @@ else {} if(x) { catch try {}
 
 ```javascript
 @{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 15, end: 21
-@{x2716}@ Unexpected token. - start: 21, end: 25
-@{x2716}@ Unexpected token. - start: 21, end: 25
-@{x2716}@ Unexpected token. - start: 28, end: 28
 
 ```
 

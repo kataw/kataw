@@ -224,7 +224,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 61, end: 64
 @{x2716}@ Statement expected - start: 61, end: 64
 @{x2716}@ Statement expected - start: 68, end: 74
 

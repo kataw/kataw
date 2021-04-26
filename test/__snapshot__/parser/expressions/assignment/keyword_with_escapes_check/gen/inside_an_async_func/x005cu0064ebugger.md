@@ -101,8 +101,6 @@ async () => {  \u0064ebugger = x  }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 28, end: 30
-@{x2716}@ Unexpected token. - start: 28, end: 30
 @{x2716}@ Statement expected - start: 28, end: 30
 @{x2716}@ Statement expected - start: 32, end: 35
 

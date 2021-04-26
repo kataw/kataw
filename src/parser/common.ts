@@ -96,7 +96,7 @@ export function consume<T extends TokenSyntaxKind>(parser: ParserState, context:
     nextToken(parser, context);
     return true;
   }
-  parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+ // parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   return false;
 }
 
@@ -117,7 +117,7 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
     nextToken(parser, context);
     return createToken(kind, pos, parser.curPos);
   }
-  parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+  //parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   nextToken(parser, context);
   return null;
 }

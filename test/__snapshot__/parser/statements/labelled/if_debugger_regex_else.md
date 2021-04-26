@@ -141,7 +141,6 @@ function x(){
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 44, end: 51
 @{x2716}@ Statement expected - start: 44, end: 51
 @{x2716}@ Statement expected - start: 52, end: 54
 

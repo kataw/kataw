@@ -244,32 +244,13 @@ do do do try { !xxx while while while
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 19, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 31
 @{x2716}@ Expression expected - start: 25, end: 31
-@{x2716}@ Unexpected token. - start: 25, end: 31
-@{x2716}@ Unexpected token. - start: 31, end: 37
 @{x2716}@ Expression expected - start: 31, end: 37
-@{x2716}@ Unexpected token. - start: 31, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 @{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 @{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 @{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 @{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 @{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 37
 
 ```
 

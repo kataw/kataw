@@ -94,10 +94,7 @@ try/catch/finally/{
 @{x2716}@ Unexpected token. - start: 3, end: 4
 @{x2716}@ Unexpected token. - start: 3, end: 4
 @{x2716}@ Unexpected token. - start: 3, end: 4
-@{x2716}@ Unexpected token. - start: 3, end: 17
-@{x2716}@ Unexpected token. - start: 3, end: 17
 @{x2716}@ Unexpected token. - start: 17, end: 18
-@{x2716}@ Unexpected token. - start: 17, end: 19
 
 ```
 

@@ -222,9 +222,6 @@ class C { *method() { class C { get x) { super; } } } }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 37, end: 38
-@{x2716}@ Unexpected token. - start: 37, end: 38
-@{x2716}@ Unexpected token. - start: 37, end: 38
 @{x2716}@ Statement expected - start: 37, end: 38
 @{x2716}@ 'super' must be followed by an argument list or member access. - start: 46, end: 47
 @{x2716}@ Dot property must be an identifier - start: 46, end: 47

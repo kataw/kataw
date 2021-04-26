@@ -3165,9 +3165,7 @@
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 700, end: 705
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 745, end: 751
 @{x2716}@ Identifier expected. 'let' is a reserved word in strict mode - start: 877, end: 883
-@{x2716}@ Unexpected token. - start: 877, end: 883
 @{x2716}@ Identifier expected. 'let' is a reserved word in strict mode - start: 913, end: 919
-@{x2716}@ Unexpected token. - start: 913, end: 919
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 955, end: 960
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 998, end: 1003
 @{x2716}@ Identifier expected. Reserved word in strict mode - start: 1048, end: 1053

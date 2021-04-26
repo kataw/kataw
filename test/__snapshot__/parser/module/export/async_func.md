@@ -124,7 +124,6 @@ export default async function f(){} foo
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 35, end: 39
-
+@{x2714}@ No errors
 ```
 

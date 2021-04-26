@@ -118,8 +118,6 @@ x => y in x) ;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 10, end: 12
-@{x2716}@ Unexpected token. - start: 22, end: 23
-
+@{x2714}@ No errors
 ```
 

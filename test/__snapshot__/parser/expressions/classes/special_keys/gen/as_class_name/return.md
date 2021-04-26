@@ -97,7 +97,6 @@ class return {}
 
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 12
-@{x2716}@ Unexpected token. - start: 5, end: 12
 @{x2716}@ A return statement can only be used within a function_body - start: 5, end: 12
 
 ```

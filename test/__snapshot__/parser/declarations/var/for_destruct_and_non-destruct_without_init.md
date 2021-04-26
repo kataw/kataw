@@ -144,9 +144,7 @@ for (var [foo] = arr, bar);
 
 ```javascript
 @{x2716}@ ',' expected - start: 25, end: 26
-@{x2716}@ Unexpected token. - start: 25, end: 26
 @{x2716}@ Expression expected - start: 25, end: 26
-@{x2716}@ Unexpected token. - start: 25, end: 26
 
 ```
 

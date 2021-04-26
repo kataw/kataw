@@ -1146,32 +1146,19 @@
 
 ```javascript
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 11, end: 14
-@{x2716}@ Unexpected token. - start: 30, end: 33
 @{x2716}@ Statement expected - start: 30, end: 33
 @{x2716}@ A rest element cannot have an initializer - start: 43, end: 45
-@{x2716}@ Unexpected token. - start: 63, end: 65
-@{x2716}@ Unexpected token. - start: 67, end: 68
 @{x2716}@ Statement expected - start: 67, end: 68
 @{x2716}@ Statement expected - start: 68, end: 71
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 86, end: 90
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 109, end: 112
-@{x2716}@ Unexpected token. - start: 128, end: 131
 @{x2716}@ Statement expected - start: 128, end: 131
-@{x2716}@ Unexpected token. - start: 150, end: 153
 @{x2716}@ Statement expected - start: 150, end: 153
-@{x2716}@ Unexpected token. - start: 168, end: 171
 @{x2716}@ Statement expected - start: 168, end: 171
-@{x2716}@ Unexpected token. - start: 189, end: 192
 @{x2716}@ Statement expected - start: 189, end: 192
-@{x2716}@ Unexpected token. - start: 211, end: 214
 @{x2716}@ Statement expected - start: 211, end: 214
-@{x2716}@ Unexpected token. - start: 236, end: 239
 @{x2716}@ Statement expected - start: 236, end: 239
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 256, end: 259
-@{x2716}@ Unexpected token. - start: 269, end: 271
-@{x2716}@ Unexpected token. - start: 269, end: 271
-@{x2716}@ Unexpected token. - start: 269, end: 271
-@{x2716}@ Unexpected token. - start: 271, end: 273
 @{x2716}@ Statement expected - start: 271, end: 273
 @{x2716}@ Statement expected - start: 273, end: 274
 @{x2716}@ Statement expected - start: 274, end: 277

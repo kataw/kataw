@@ -271,24 +271,11 @@ switch case =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 11
 @{x2716}@ Expression expected - start: 6, end: 11
-@{x2716}@ Unexpected token. - start: 6, end: 11
-@{x2716}@ Unexpected token. - start: 6, end: 11
 @{x2716}@ Expression expected - start: 11, end: 13
-@{x2716}@ Unexpected token. - start: 20, end: 29
-@{x2716}@ Unexpected token. - start: 20, end: 29
 @{x2716}@ Binding identifier expected - start: 29, end: 33
 @{x2716}@ Unexpected token. - start: 29, end: 33
-@{x2716}@ Unexpected token. - start: 29, end: 33
-@{x2716}@ Unexpected token. - start: 29, end: 33
-@{x2716}@ Unexpected token. - start: 33, end: 39
-@{x2716}@ Unexpected token. - start: 33, end: 39
-@{x2716}@ Unexpected token. - start: 39, end: 44
-@{x2716}@ Unexpected token. - start: 44, end: 48
-@{x2716}@ Unexpected token. - start: 48, end: 49
 @{x2716}@ Expression expected - start: 49, end: 49
-@{x2716}@ Unexpected token. - start: 49, end: 49
 
 ```
 

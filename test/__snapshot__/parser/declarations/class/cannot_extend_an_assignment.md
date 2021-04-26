@@ -132,9 +132,7 @@ class x extends a = b {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 17, end: 19
 @{x2716}@ Statement expected - start: 17, end: 19
-@{x2716}@ Unexpected token. - start: 21, end: 23
 
 ```
 

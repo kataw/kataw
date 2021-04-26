@@ -162,11 +162,6 @@ try catch try { !xxx
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 13
-@{x2716}@ Unexpected token. - start: 20, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 20
-
+@{x2714}@ No errors
 ```
 

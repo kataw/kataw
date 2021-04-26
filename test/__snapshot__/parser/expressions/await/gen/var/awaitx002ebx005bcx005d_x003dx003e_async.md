@@ -146,11 +146,7 @@ var await; var f = (async function() { await.b[c] => async });
 
 ```javascript
 @{x2716}@ Expression expected - start: 44, end: 45
-@{x2716}@ Unexpected token. - start: 49, end: 52
-@{x2716}@ Unexpected token. - start: 49, end: 52
-@{x2716}@ Unexpected token. - start: 49, end: 52
 @{x2716}@ ',' expected - start: 49, end: 52
-@{x2716}@ Unexpected token. - start: 49, end: 52
 @{x2716}@ Statement expected - start: 49, end: 52
 @{x2716}@ Statement expected - start: 58, end: 60
 @{x2716}@ Statement expected - start: 60, end: 61

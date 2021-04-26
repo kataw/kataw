@@ -302,31 +302,11 @@ switch switch switch =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 6, end: 13
 @{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 6, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 20
 @{x2716}@ Expression expected - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 22
 @{x2716}@ Expression expected - start: 20, end: 22
-@{x2716}@ Unexpected token. - start: 29, end: 38
-@{x2716}@ Unexpected token. - start: 29, end: 38
-@{x2716}@ Unexpected token. - start: 29, end: 38
-@{x2716}@ Unexpected token. - start: 29, end: 38
 @{x2716}@ Binding identifier expected - start: 38, end: 42
 @{x2716}@ Unexpected token. - start: 38, end: 42
-@{x2716}@ Unexpected token. - start: 38, end: 42
-@{x2716}@ Unexpected token. - start: 38, end: 42
-@{x2716}@ Unexpected token. - start: 42, end: 48
-@{x2716}@ Unexpected token. - start: 42, end: 48
-@{x2716}@ Unexpected token. - start: 48, end: 53
-@{x2716}@ Unexpected token. - start: 53, end: 57
-@{x2716}@ Unexpected token. - start: 57, end: 58
 @{x2716}@ Expression expected - start: 58, end: 58
 
 ```

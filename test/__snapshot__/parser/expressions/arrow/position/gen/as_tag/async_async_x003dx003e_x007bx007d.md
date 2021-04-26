@@ -114,7 +114,6 @@ async async => {}`foo`
 
 ```javascript
 @{x2716}@ Block body arrows can not be immediately tagged without a group - start: 17, end: 22
-@{x2716}@ Unexpected token. - start: 17, end: 22
 
 ```
 

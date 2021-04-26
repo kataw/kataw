@@ -111,8 +111,6 @@ for (a?.b of c);
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 12, end: 14
-@{x2716}@ Unexpected token. - start: 14, end: 15
-
+@{x2714}@ No errors
 ```
 

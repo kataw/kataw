@@ -799,11 +799,7 @@
 @{x2716}@ Class constructor may not be a accessor - start: 102, end: 103
 @{x2716}@ Invalid hexadecimal escape sequence - start: 127, end: 129
 @{x2716}@ Invalid hexadecimal escape sequence - start: 129, end: 129
-@{x2716}@ Unexpected token. - start: 129, end: 130
-@{x2716}@ Unexpected token. - start: 129, end: 130
-@{x2716}@ Unexpected token. - start: 129, end: 130
 @{x2716}@ Statement expected - start: 129, end: 130
-@{x2716}@ Unexpected token. - start: 147, end: 149
 @{x2716}@ Statement expected - start: 150, end: 152
 @{x2716}@ Statement expected - start: 152, end: 153
 @{x2716}@ A 'get' accessor cannot have parameters. - start: 236, end: 237

@@ -124,7 +124,6 @@ do {} while (x) { class x {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 28, end: 28
-
+@{x2714}@ No errors
 ```
 

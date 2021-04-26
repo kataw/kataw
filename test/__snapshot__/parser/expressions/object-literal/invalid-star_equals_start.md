@@ -66,10 +66,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 2, end: 4
 @{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 2, end: 4
-@{x2716}@ Unexpected token. - start: 7, end: 8
-@{x2716}@ Unexpected token. - start: 7, end: 8
 @{x2716}@ Statement expected - start: 9, end: 10
 @{x2716}@ Statement expected - start: 10, end: 11
 

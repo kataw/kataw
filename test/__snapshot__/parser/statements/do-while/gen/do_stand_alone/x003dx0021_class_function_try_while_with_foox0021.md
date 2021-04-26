@@ -209,17 +209,7 @@ do =! class function try while with foo!
 
 ```javascript
 @{x2716}@ Expression expected - start: 2, end: 4
-@{x2716}@ Unexpected token. - start: 11, end: 20
-@{x2716}@ Unexpected token. - start: 11, end: 20
-@{x2716}@ Unexpected token. - start: 11, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 24
 @{x2716}@ Expression expected - start: 20, end: 24
-@{x2716}@ Unexpected token. - start: 20, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 30
-@{x2716}@ Unexpected token. - start: 24, end: 30
-@{x2716}@ Unexpected token. - start: 30, end: 35
-@{x2716}@ Unexpected token. - start: 35, end: 39
-@{x2716}@ Unexpected token. - start: 39, end: 40
 @{x2716}@ Expression expected - start: 40, end: 40
 
 ```

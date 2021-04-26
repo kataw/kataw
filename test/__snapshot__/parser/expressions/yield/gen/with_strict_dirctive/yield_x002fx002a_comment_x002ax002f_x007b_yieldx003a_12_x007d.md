@@ -104,9 +104,6 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 19, end: 35
-@{x2716}@ Unexpected token. - start: 41, end: 42
-@{x2716}@ Unexpected token. - start: 41, end: 42
 @{x2716}@ Statement expected - start: 41, end: 42
 @{x2716}@ Statement expected - start: 45, end: 47
 

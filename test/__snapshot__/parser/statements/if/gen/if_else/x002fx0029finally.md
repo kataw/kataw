@@ -74,8 +74,6 @@ if /)finally else
 
 ```javascript
 @{x2716}@ Unexpected token. - start: 2, end: 4
-@{x2716}@ Unexpected token. - start: 2, end: 17
-@{x2716}@ Unexpected token. - start: 17, end: 17
 @{x2716}@ Expression expected - start: 17, end: 17
 
 ```

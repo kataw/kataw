@@ -229,19 +229,9 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 1, end: 3
 @{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 3, end: 4
-@{x2716}@ Unexpected token. - start: 10, end: 19
-@{x2716}@ Unexpected token. - start: 10, end: 19
 @{x2716}@ Binding identifier expected - start: 19, end: 23
 @{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ Unexpected token. - start: 19, end: 23
-@{x2716}@ Unexpected token. - start: 23, end: 29
-@{x2716}@ Unexpected token. - start: 23, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 34
-@{x2716}@ Unexpected token. - start: 34, end: 38
-@{x2716}@ Unexpected token. - start: 38, end: 39
 @{x2716}@ Expression expected - start: 39, end: 39
 
 ```

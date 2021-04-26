@@ -114,7 +114,6 @@ async async => {}.x
 
 ```javascript
 @{x2716}@ Block body arrows can not be immediately accessed without a group - start: 17, end: 18
-@{x2716}@ Unexpected token. - start: 17, end: 18
 @{x2716}@ Statement expected - start: 17, end: 18
 
 ```

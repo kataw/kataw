@@ -258,27 +258,8 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 18
-@{x2716}@ Unexpected token. - start: 13, end: 18
-@{x2716}@ Unexpected token. - start: 13, end: 18
-@{x2716}@ Unexpected token. - start: 18, end: 21
-@{x2716}@ Unexpected token. - start: 21, end: 29
-@{x2716}@ Unexpected token. - start: 29, end: 32
-@{x2716}@ Unexpected token. - start: 32, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 44
-@{x2716}@ Unexpected token. - start: 44, end: 50
-@{x2716}@ Unexpected token. - start: 50, end: 52
-@{x2716}@ Unexpected token. - start: 52, end: 56
-@{x2716}@ Unexpected token. - start: 56, end: 60
-@{x2716}@ Unexpected token. - start: 60, end: 62
-@{x2716}@ Unexpected token. - start: 62, end: 67
-@{x2716}@ Unexpected token. - start: 67, end: 67
 @{x2716}@ Expression expected - start: 67, end: 67
-@{x2716}@ Unexpected token. - start: 67, end: 67
 @{x2716}@ Expression expected - start: 67, end: 67
-@{x2716}@ Unexpected token. - start: 67, end: 67
 
 ```
 

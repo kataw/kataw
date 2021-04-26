@@ -85,7 +85,6 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 10
-
+@{x2714}@ No errors
 ```
 

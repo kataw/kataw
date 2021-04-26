@@ -75,11 +75,7 @@ catch /)finally
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 0, end: 5
 @{x2716}@ Unexpected token. - start: 5, end: 7
-@{x2716}@ Unexpected token. - start: 5, end: 15
-@{x2716}@ Unexpected token. - start: 5, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 15
 
 ```
 

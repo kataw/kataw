@@ -91,10 +91,7 @@ do class x {}
 
 ```javascript
 @{x2716}@ Class declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
-@{x2716}@ Unexpected token. - start: 13, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 13
 @{x2716}@ Expression expected - start: 13, end: 13
-@{x2716}@ Unexpected token. - start: 13, end: 13
 
 ```
 

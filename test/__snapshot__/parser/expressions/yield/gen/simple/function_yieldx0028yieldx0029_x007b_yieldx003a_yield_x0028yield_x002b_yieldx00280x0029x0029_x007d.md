@@ -200,8 +200,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 29, end: 30
-@{x2716}@ Unexpected token. - start: 29, end: 30
 @{x2716}@ Statement expected - start: 29, end: 30
 @{x2716}@ Statement expected - start: 56, end: 58
 

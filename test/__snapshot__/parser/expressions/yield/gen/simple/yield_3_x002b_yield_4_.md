@@ -100,8 +100,6 @@ yield 3 + yield 4;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 5, end: 7
-@{x2716}@ Unexpected token. - start: 15, end: 17
-
+@{x2714}@ No errors
 ```
 

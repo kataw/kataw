@@ -136,16 +136,6 @@ do while [catch] class x {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 10
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 10, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 15, end: 16
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ Unexpected token. - start: 22, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 26
-
+@{x2714}@ No errors
 ```
 

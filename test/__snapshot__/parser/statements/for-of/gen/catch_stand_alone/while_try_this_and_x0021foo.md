@@ -157,14 +157,6 @@ catch while try this and !foo
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 0, end: 5
-@{x2716}@ Unexpected token. - start: 5, end: 11
-@{x2716}@ Unexpected token. - start: 5, end: 11
-@{x2716}@ Unexpected token. - start: 11, end: 15
-@{x2716}@ Unexpected token. - start: 15, end: 20
-@{x2716}@ Unexpected token. - start: 15, end: 20
-@{x2716}@ Unexpected token. - start: 20, end: 24
-@{x2716}@ Unexpected token. - start: 24, end: 26
-
+@{x2714}@ No errors
 ```
 

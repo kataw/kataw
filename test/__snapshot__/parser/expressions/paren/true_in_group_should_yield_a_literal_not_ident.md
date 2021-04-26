@@ -73,9 +73,7 @@
 
 ```javascript
 @{x2716}@ Expression expected - start: 1, end: 5
-@{x2716}@ Unexpected token. - start: 1, end: 5
 @{x2716}@ Expression expected - start: 5, end: 6
-@{x2716}@ Unexpected token. - start: 5, end: 6
 @{x2716}@ Statement expected - start: 5, end: 6
 
 ```

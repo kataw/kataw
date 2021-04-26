@@ -90,10 +90,6 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 1, end: 7
-@{x2716}@ Unexpected token. - start: 7, end: 11
-@{x2716}@ Unexpected token. - start: 7, end: 11
-@{x2716}@ Unexpected token. - start: 14, end: 14
-
+@{x2714}@ No errors
 ```
 

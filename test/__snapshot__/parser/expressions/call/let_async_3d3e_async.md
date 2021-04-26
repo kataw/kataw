@@ -86,7 +86,6 @@ let async => async
 
 ```javascript
 @{x2716}@ ',' expected - start: 9, end: 12
-@{x2716}@ Unexpected token. - start: 9, end: 12
 @{x2716}@ Statement expected - start: 9, end: 12
 
 ```

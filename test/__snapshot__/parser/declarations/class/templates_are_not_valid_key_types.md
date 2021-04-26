@@ -126,8 +126,6 @@ class x { `constructor`(){} }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 9, end: 23
-@{x2716}@ Unexpected token. - start: 25, end: 26
 @{x2716}@ Statement expected - start: 27, end: 29
 
 ```

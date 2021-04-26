@@ -119,7 +119,6 @@ x; {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 21, end: 23
-
+@{x2714}@ No errors
 ```
 

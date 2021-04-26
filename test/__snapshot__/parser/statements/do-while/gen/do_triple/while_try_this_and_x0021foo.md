@@ -219,24 +219,10 @@ do do do while try this and !foo while while while
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 14, end: 18
 @{x2716}@ Expression expected - start: 14, end: 18
-@{x2716}@ Unexpected token. - start: 14, end: 18
-@{x2716}@ Unexpected token. - start: 18, end: 23
-@{x2716}@ Unexpected token. - start: 18, end: 23
-@{x2716}@ Unexpected token. - start: 23, end: 27
-@{x2716}@ Unexpected token. - start: 23, end: 27
-@{x2716}@ Unexpected token. - start: 27, end: 29
-@{x2716}@ Unexpected token. - start: 32, end: 38
-@{x2716}@ Unexpected token. - start: 38, end: 44
 @{x2716}@ Expression expected - start: 38, end: 44
-@{x2716}@ Unexpected token. - start: 38, end: 44
-@{x2716}@ Unexpected token. - start: 44, end: 50
 @{x2716}@ Expression expected - start: 44, end: 50
-@{x2716}@ Unexpected token. - start: 44, end: 50
-@{x2716}@ Unexpected token. - start: 50, end: 50
 @{x2716}@ Expression expected - start: 50, end: 50
-@{x2716}@ Unexpected token. - start: 50, end: 50
 @{x2716}@ Expression expected - start: 50, end: 50
 
 ```

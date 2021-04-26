@@ -198,11 +198,6 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 45, end: 61
-@{x2716}@ Unexpected token. - start: 67, end: 68
-@{x2716}@ Unexpected token. - start: 67, end: 68
-@{x2716}@ Unexpected token. - start: 67, end: 68
-@{x2716}@ Unexpected token. - start: 67, end: 68
 @{x2716}@ Statement expected - start: 67, end: 68
 @{x2716}@ Statement expected - start: 71, end: 73
 @{x2716}@ Statement expected - start: 73, end: 75
