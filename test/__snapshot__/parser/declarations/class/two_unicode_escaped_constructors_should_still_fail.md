@@ -80,7 +80,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 22,
                                 "end": 23
                             },
@@ -100,11 +100,11 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 21,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 25
                     },
@@ -137,7 +137,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 44,
                                 "end": 45
                             },
@@ -157,11 +157,11 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                 "start": 45,
                                 "end": 47
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 43,
                             "end": 47
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 26,
                         "end": 47
                     },
@@ -199,6 +199,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ Multiple constructor implementations are not allowed - start: 47, end: 48
+
 ```
 

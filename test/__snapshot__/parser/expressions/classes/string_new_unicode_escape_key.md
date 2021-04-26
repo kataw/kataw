@@ -91,7 +91,7 @@ class x { "prot\u{6f}type"(){} }
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 30
                     }

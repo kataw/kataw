@@ -130,7 +130,7 @@ class x{   async static static(){}    }
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 23,
                         "end": 34
                     }

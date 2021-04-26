@@ -115,7 +115,7 @@ class x { static *[expr](){} }
                             "start": 24,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 16,
                         "end": 28
                     }

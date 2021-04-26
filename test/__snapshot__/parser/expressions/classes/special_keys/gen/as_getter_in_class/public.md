@@ -94,7 +94,7 @@ class x {get public(){}}
                             "start": 19,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 23
                     }

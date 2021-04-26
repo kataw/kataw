@@ -100,7 +100,7 @@
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
                                                                     "trailingComma": false,
-                                                                    "flags": 0,
+                                                                    "flags": 16384,
                                                                     "start": 35,
                                                                     "end": 36
                                                                 },
@@ -153,11 +153,11 @@
                                                                     "start": 36,
                                                                     "end": 49
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 16384,
                                                                 "start": 34,
                                                                 "end": 49
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 16384,
                                                             "start": 22,
                                                             "end": 49
                                                         }

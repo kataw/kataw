@@ -89,7 +89,7 @@ class x {super(){}}
                             "start": 14,
                             "end": 18
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 18
                     }

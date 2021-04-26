@@ -110,7 +110,7 @@
                                     "start": 32,
                                     "end": 36
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 21,
                                 "end": 36
                             }

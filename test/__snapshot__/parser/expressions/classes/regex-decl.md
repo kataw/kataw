@@ -56,9 +56,50 @@ class x{}
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
-                "text": "/foo/",
-                "flags": 768,
+                "kind": 198,
+                "left": {
+                    "kind": 198,
+                    "left": {
+                        "kind": 16637,
+                        "text": "",
+                        "autofix": 0,
+                        "flags": 12,
+                        "start": 9,
+                        "end": 9
+                    },
+                    "operatorToken": {
+                        "kind": 35640,
+                        "flags": 768,
+                        "start": 9,
+                        "end": 11
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 768,
+                        "start": 11,
+                        "end": 14
+                    },
+                    "flags": 256,
+                    "start": 9,
+                    "end": 14
+                },
+                "operatorToken": {
+                    "kind": 35640,
+                    "flags": 768,
+                    "start": 14,
+                    "end": 15
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "autofix": 0,
+                    "flags": 12,
+                    "start": 15,
+                    "end": 15
+                },
+                "flags": 256,
                 "start": 9,
                 "end": 15
             },
@@ -85,6 +126,8 @@ class x{}
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ Expression expected - start: 9, end: 11
+@{x2716}@ Expression expected - start: 15, end: 15
+
 ```
 

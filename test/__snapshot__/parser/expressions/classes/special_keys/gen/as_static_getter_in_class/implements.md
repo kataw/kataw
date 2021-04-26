@@ -99,7 +99,7 @@ class x {static get implements(){}}
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 15,
                         "end": 34
                     }

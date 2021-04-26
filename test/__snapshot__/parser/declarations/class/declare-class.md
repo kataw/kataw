@@ -100,7 +100,7 @@ declare class A { static foo(): number; static x : string }
                             "start": 28,
                             "end": 39
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 24,
                         "end": 39
                     },

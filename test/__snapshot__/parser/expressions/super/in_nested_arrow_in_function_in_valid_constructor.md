@@ -214,7 +214,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                             "start": 31,
                             "end": 82
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 82
                     }

@@ -63,18 +63,13 @@
                                 "decorators": null,
                                 "declaredToken": null,
                                 "staticToken": null,
-                                "asyncKeyword": {
-                                    "kind": 82031,
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
                                     "flags": 768,
                                     "start": 21,
-                                    "end": 27
-                                },
-                                "key": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "autofix": 0,
-                                    "flags": 12,
-                                    "start": 27,
                                     "end": 27
                                 },
                                 "optionalToken": null,
@@ -156,7 +151,6 @@
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 21, end: 27
 @{x2716}@ Invalid hexadecimal escape sequence - start: 27, end: 27
-@{x2716}@ Binding identifier expected - start: 27, end: 28
 @{x2716}@ Unexpected token. - start: 27, end: 28
 @{x2716}@ Unexpected token. - start: 27, end: 28
 @{x2716}@ Unexpected token. - start: 27, end: 28

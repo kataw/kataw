@@ -109,7 +109,7 @@ class x { static "constructor"(){} }
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 16,
                         "end": 34
                     }

@@ -203,7 +203,7 @@ class x extends y {
                             "start": 33,
                             "end": 69
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 69
                     }

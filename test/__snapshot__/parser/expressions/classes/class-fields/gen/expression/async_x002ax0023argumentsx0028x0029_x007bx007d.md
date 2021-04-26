@@ -113,7 +113,7 @@ class C extends Base { async *#arguments() {} }
                             "start": 40,
                             "end": 45
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 22,
                         "end": 45
                     }

@@ -136,7 +136,7 @@ class x {    async async get f(x){}    }
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 24,
                         "end": 35
                     }

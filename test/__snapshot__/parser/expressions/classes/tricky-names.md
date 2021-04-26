@@ -146,7 +146,7 @@ class A {
                             "start": 15,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 23
                     },
@@ -197,7 +197,7 @@ class A {
                             "start": 30,
                             "end": 38
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 23,
                         "end": 38
                     },
@@ -248,7 +248,7 @@ class A {
                             "start": 48,
                             "end": 56
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 38,
                         "end": 56
                     },
@@ -299,7 +299,7 @@ class A {
                             "start": 65,
                             "end": 73
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 56,
                         "end": 73
                     },
@@ -350,7 +350,7 @@ class A {
                             "start": 83,
                             "end": 91
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 73,
                         "end": 91
                     },
@@ -401,7 +401,7 @@ class A {
                             "start": 100,
                             "end": 108
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 91,
                         "end": 108
                     },
@@ -452,7 +452,7 @@ class A {
                             "start": 119,
                             "end": 127
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 108,
                         "end": 127
                     },
@@ -508,7 +508,7 @@ class A {
                             "start": 144,
                             "end": 152
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 138,
                         "end": 152
                     },
@@ -564,7 +564,7 @@ class A {
                             "start": 168,
                             "end": 176
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 162,
                         "end": 176
                     },
@@ -620,7 +620,7 @@ class A {
                             "start": 195,
                             "end": 203
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 186,
                         "end": 203
                     },
@@ -676,7 +676,7 @@ class A {
                             "start": 221,
                             "end": 229
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 213,
                         "end": 229
                     },
@@ -732,7 +732,7 @@ class A {
                             "start": 243,
                             "end": 251
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 239,
                         "end": 251
                     },
@@ -788,7 +788,7 @@ class A {
                             "start": 267,
                             "end": 275
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 251,
                         "end": 275
                     },
@@ -849,7 +849,7 @@ class A {
                             "start": 301,
                             "end": 309
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 286,
                         "end": 309
                     }

@@ -89,7 +89,7 @@ class x {else(){}}
                             "start": 13,
                             "end": 17
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 17
                     }

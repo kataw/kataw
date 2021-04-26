@@ -99,7 +99,7 @@ class x {static get do(){}}
                             "start": 22,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 15,
                         "end": 26
                     }

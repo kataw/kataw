@@ -104,7 +104,7 @@ class x { 'constructor'(){}; "constructor"(){}; }
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 27
                     },
@@ -161,7 +161,7 @@ class x { 'constructor'(){}; "constructor"(){}; }
                             "start": 42,
                             "end": 46
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 28,
                         "end": 46
                     },

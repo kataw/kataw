@@ -114,7 +114,7 @@ class A {
                             "start": 23,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 21,
                         "end": 28
                     }

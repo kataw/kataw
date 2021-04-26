@@ -94,7 +94,7 @@ class x {async * debugger(){}}
                             "start": 25,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 29
                     }

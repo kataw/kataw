@@ -94,7 +94,7 @@ class x {async * protected(){}}
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 30
                     }

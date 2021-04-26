@@ -43,34 +43,18 @@ class x {set true(x){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "set",
-                            "rawText": "set",
-                            "flags": 768,
-                            "start": 9,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 9,
-                        "end": 12
-                    },
-                    {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,
-                        "getKeyword": null,
+                        "getKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 12
+                        },
                         "method": {
                             "kind": 209,
                             "name": {
@@ -105,7 +89,7 @@ class x {set true(x){}}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 4352,
                                 "start": 18,
                                 "end": 20
                             },
@@ -125,12 +109,12 @@ class x {set true(x){}}
                                 "start": 20,
                                 "end": 22
                             },
-                            "flags": 0,
+                            "flags": 4096,
                             "start": 17,
                             "end": 22
                         },
-                        "flags": 256,
-                        "start": 12,
+                        "flags": 4096,
+                        "start": 9,
                         "end": 22
                     }
                 ],

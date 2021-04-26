@@ -104,7 +104,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "start": 14,
                             "end": 18
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 18
                     },
@@ -155,7 +155,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "start": 24,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 18,
                         "end": 28
                     },
@@ -206,7 +206,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "start": 36,
                             "end": 40
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 28,
                         "end": 40
                     }

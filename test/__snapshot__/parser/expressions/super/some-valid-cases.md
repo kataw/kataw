@@ -187,7 +187,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 44,
                             "end": 48
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 42,
                         "end": 48
                     }
@@ -323,7 +323,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 83,
                             "end": 98
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 71,
                         "end": 98
                     }
@@ -382,7 +382,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 124,
                                 "end": 125
                             },
@@ -436,11 +436,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "start": 125,
                                 "end": 139
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 123,
                             "end": 139
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 111,
                         "end": 139
                     }
@@ -557,7 +557,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 155,
                             "end": 171
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 151,
                         "end": 171
                     }
@@ -685,7 +685,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 187,
                             "end": 203
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 183,
                         "end": 203
                     }
@@ -870,7 +870,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 256,
                                 "end": 257
                             },
@@ -923,11 +923,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "start": 257,
                                 "end": 272
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 255,
                             "end": 272
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 243,
                         "end": 272
                     }
@@ -1043,7 +1043,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 288,
                             "end": 305
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 284,
                         "end": 305
                     }
@@ -1170,7 +1170,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 321,
                             "end": 338
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 317,
                         "end": 338
                     }
@@ -1596,7 +1596,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 428,
                             "end": 458
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 416,
                         "end": 458
                     }
@@ -1754,7 +1754,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 492,
                             "end": 522
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 480,
                         "end": 522
                     }
@@ -1893,7 +1893,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 537,
                             "end": 566
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 534,
                         "end": 566
                     }
@@ -2061,7 +2061,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "start": 583,
                             "end": 615
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 578,
                         "end": 615
                     }

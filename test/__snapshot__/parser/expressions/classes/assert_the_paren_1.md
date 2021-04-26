@@ -91,7 +91,7 @@ class x {[x](){}}
                             "start": 12,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 16
                     }

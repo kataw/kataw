@@ -224,7 +224,7 @@ class C { set x(_) { var f = function { super(); } } }
                             "start": 15,
                             "end": 52
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 52
                     }

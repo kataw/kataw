@@ -99,7 +99,7 @@ class x {static async * interface(){}}
                             "start": 33,
                             "end": 37
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 15,
                         "end": 37
                     }

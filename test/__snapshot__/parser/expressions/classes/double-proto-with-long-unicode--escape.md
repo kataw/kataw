@@ -85,7 +85,7 @@ class x { "construct\u{6f}r"(){} }
                             "start": 28,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 32
                     }

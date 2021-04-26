@@ -133,7 +133,7 @@ class A {static set 10(x){}}
                             "start": 22,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 27
                     }

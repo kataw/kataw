@@ -133,7 +133,7 @@ class C extends Base { set static(v) {} }
                             "start": 33,
                             "end": 39
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 22,
                         "end": 39
                     }

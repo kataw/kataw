@@ -99,7 +99,7 @@ class x {static async * extends(){}}
                             "start": 31,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 15,
                         "end": 35
                     }

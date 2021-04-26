@@ -227,7 +227,7 @@ class C { set x(_) { class C { set x(_) { super( } }
                                                             "start": 36,
                                                             "end": 50
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 4096,
                                                         "start": 30,
                                                         "end": 50
                                                     }
@@ -254,7 +254,7 @@ class C { set x(_) { class C { set x(_) { super( } }
                             "start": 15,
                             "end": 52
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 52
                     }

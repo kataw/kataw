@@ -144,7 +144,7 @@ class x extends y { constructor() { new super() }}
                             "start": 31,
                             "end": 49
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 49
                     }

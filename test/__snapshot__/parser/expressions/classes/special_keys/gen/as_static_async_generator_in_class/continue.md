@@ -99,7 +99,7 @@ class x {static async * continue(){}}
                             "start": 32,
                             "end": 36
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 15,
                         "end": 36
                     }

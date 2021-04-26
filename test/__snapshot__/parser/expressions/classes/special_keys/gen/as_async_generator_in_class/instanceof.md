@@ -94,7 +94,7 @@ class x {async * instanceof(){}}
                             "start": 27,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 31
                     }

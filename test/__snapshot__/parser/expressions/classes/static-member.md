@@ -126,7 +126,7 @@ class A {static set [foo](x){}}
                             "start": 25,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 30
                     }

@@ -90,7 +90,7 @@ class x { async *prot\u006ftype(){} }
                             "start": 31,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 35
                     }

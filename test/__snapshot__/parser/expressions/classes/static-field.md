@@ -30,14 +30,7 @@ class {
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "classHeritage": null,
             "members": {
@@ -110,7 +103,7 @@ class {
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 5, end: 7
+@{x2716}@ A class declaration without the 'default' modifier must have a name. - start: 5, end: 7
 
 ```
 

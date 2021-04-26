@@ -216,7 +216,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                         "start": 73,
                                                         "end": 78
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 0,
                                                     "start": 68,
                                                     "end": 78
                                                 }

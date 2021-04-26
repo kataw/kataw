@@ -61,26 +61,21 @@ class x { static / foo(){} }
                         "kind": 280,
                         "decorators": null,
                         "declaredToken": null,
-                        "staticToken": {
-                            "kind": 8388716,
-                            "flags": 768,
-                            "start": 9,
-                            "end": 16
-                        },
+                        "staticToken": null,
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 16,
+                            "kind": 134299649,
+                            "text": "static",
+                            "rawText": "static",
+                            "flags": 768,
+                            "start": 9,
                             "end": 16
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 256,
-                        "start": 16,
+                        "start": 9,
                         "end": 16
                     }
                 ],
@@ -173,7 +168,6 @@ class x { static / foo(){} }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 16, end: 18
 @{x2716}@ Unexpected token. - start: 16, end: 18
 @{x2716}@ Expression expected - start: 16, end: 18
 @{x2716}@ Unexpected token. - start: 24, end: 25

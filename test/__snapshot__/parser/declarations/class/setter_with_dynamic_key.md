@@ -139,7 +139,7 @@ class x { static set [y](z){}}
                             "start": 24,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 16,
                         "end": 29
                     }

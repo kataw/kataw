@@ -172,7 +172,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                             "start": 31,
                             "end": 59
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 59
                     }

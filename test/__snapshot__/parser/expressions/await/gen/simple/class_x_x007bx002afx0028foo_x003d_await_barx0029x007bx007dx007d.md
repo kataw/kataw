@@ -133,7 +133,7 @@ class x {*f(foo = await bar){}}
                             "start": 11,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 30
                     }

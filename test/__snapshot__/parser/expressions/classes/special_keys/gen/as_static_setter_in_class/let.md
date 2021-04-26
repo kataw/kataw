@@ -118,7 +118,7 @@ class x {static set let(x){}}
                             "start": 23,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 28
                     }

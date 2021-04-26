@@ -94,7 +94,7 @@ class x {async * import(){}}
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 27
                     }

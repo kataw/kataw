@@ -113,7 +113,7 @@ class x {set for(x){}}
                             "start": 16,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 21
                     }

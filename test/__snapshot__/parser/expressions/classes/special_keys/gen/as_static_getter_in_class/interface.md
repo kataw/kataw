@@ -99,7 +99,7 @@ class x {static get interface(){}}
                             "start": 29,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 15,
                         "end": 33
                     }

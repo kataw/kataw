@@ -114,7 +114,7 @@ class C extends Base { static async(){} }
                             "start": 35,
                             "end": 39
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 29,
                         "end": 39
                     }

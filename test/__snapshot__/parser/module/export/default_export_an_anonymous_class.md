@@ -45,14 +45,7 @@ export default class {}
                     "start": 14,
                     "end": 20
                 },
-                "name": {
-                    "kind": 16637,
-                    "text": "",
-                    "autofix": 0,
-                    "flags": 12,
-                    "start": 20,
-                    "end": 20
-                },
+                "name": null,
                 "typeParameters": null,
                 "classHeritage": null,
                 "members": {
@@ -89,7 +82,7 @@ export default class {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 20, end: 22
+@{x2716}@ A class declaration without the 'default' modifier must have a name. - start: 20, end: 22
 
 ```
 

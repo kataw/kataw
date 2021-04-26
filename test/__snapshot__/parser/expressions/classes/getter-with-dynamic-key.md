@@ -101,7 +101,7 @@ class x { static get [y](){}}
                             "start": 24,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 16,
                         "end": 28
                     }

@@ -91,7 +91,7 @@ class C { static
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 16,
                         "end": 27
                     }

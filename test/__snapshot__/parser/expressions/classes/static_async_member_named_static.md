@@ -95,7 +95,7 @@ class x{   static async static(){}    }
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 17,
                         "end": 34
                     }

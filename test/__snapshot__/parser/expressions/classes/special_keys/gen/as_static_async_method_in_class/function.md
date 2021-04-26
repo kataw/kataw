@@ -99,7 +99,7 @@ class x {static async function(){}}
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 15,
                         "end": 34
                     }

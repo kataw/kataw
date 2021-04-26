@@ -94,7 +94,7 @@ class x {static private(){}}
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 27
                     }

@@ -132,7 +132,7 @@ class C extends Base { set #await(test) {} }
                             "start": 33,
                             "end": 42
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 22,
                         "end": 42
                     }

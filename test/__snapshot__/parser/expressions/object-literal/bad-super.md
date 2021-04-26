@@ -193,7 +193,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                             "start": 30,
                             "end": 63
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 63
                     }

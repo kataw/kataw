@@ -43,39 +43,23 @@ class x {static set true(x){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
+                        "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
                         "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "set",
-                            "rawText": "set",
+                        "setKeyword": null,
+                        "getKeyword": {
+                            "kind": 82031,
                             "flags": 768,
                             "start": 15,
                             "end": 19
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 15,
-                        "end": 19
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
-                        "setKeyword": null,
-                        "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
@@ -110,7 +94,7 @@ class x {static set true(x){}}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 4352,
                                 "start": 25,
                                 "end": 27
                             },
@@ -130,12 +114,12 @@ class x {static set true(x){}}
                                 "start": 27,
                                 "end": 29
                             },
-                            "flags": 0,
+                            "flags": 4096,
                             "start": 24,
                             "end": 29
                         },
-                        "flags": 256,
-                        "start": 19,
+                        "flags": 4096,
+                        "start": 15,
                         "end": 29
                     }
                 ],

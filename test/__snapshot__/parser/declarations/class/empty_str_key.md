@@ -106,7 +106,7 @@ class X {
                             "start": 14,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 20
                     }

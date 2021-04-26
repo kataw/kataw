@@ -94,7 +94,7 @@ class x {async else(){}}
                             "start": 19,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 9,
                         "end": 23
                     }

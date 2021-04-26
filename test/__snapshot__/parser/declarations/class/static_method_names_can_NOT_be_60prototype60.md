@@ -120,7 +120,7 @@ class x { static async *prototype(){} }
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 16,
                         "end": 34
                     }
@@ -208,7 +208,7 @@ class x { static async *prototype(){} }
                             "start": 71,
                             "end": 75
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 54,
                         "end": 75
                     }
@@ -301,7 +301,7 @@ class x { static async *prototype(){} }
                             "start": 109,
                             "end": 113
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 95,
                         "end": 113
                     }
@@ -394,7 +394,7 @@ class x { static async *prototype(){} }
                             "start": 150,
                             "end": 154
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 133,
                         "end": 154
                     }

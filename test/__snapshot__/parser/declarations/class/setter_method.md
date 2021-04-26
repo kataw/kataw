@@ -128,7 +128,7 @@ class A {set "foo"(x){}}
                             "start": 18,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 23
                     }

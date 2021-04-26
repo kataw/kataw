@@ -130,7 +130,7 @@ class x { async get foo(){ }}
                             "start": 23,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 28
                     }

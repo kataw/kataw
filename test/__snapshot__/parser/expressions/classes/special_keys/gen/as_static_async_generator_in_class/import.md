@@ -99,7 +99,7 @@ class x {static async * import(){}}
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 15,
                         "end": 34
                     }

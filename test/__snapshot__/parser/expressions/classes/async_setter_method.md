@@ -136,7 +136,7 @@ class A {async set 11(x){}}
                             "start": 21,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 18,
                         "end": 26
                     }

@@ -74,7 +74,7 @@ class x { get "constructor"(){} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 24576,
                                 "start": 28,
                                 "end": 29
                             },
@@ -94,11 +94,11 @@ class x { get "constructor"(){} }
                                 "start": 29,
                                 "end": 31
                             },
-                            "flags": 8192,
+                            "flags": 24576,
                             "start": 27,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 24576,
                         "start": 9,
                         "end": 31
                     }

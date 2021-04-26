@@ -40,16 +40,18 @@ export async function file2Tob(filename: string): Promise<Tob> {
     diagnostics: md2diagnostics(content)
   };
   const diagnostics: any[] = [];
-  const cb = function (...args:any[]) { diagnostics.push(args) }
+  const cb = function (...args: any[]) {
+    diagnostics.push(args);
+  };
   const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
   tob.$cst = JSON.stringify(cst, null, 4);
-  tob.$printed = printSourceFile(tob.$cst, tob.printerOptions)
-  tob.$diagnostics = diagnostics2md(diagnostics)
+  tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
+  tob.$diagnostics = diagnostics2md(diagnostics);
   tob.isMatched = isMatchedTob(tob);
   return tob;
 }
 
-export function isMatchedTob(tob: Tob):boolean {
+export function isMatchedTob(tob: Tob): boolean {
   return (
     deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics)
   );

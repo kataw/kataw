@@ -65,6 +65,7 @@
 (class C { static set get(v) {}});
 (class C { *set() {}});
 (class C { static *static() {}});
+
 `````
 
 ## Output
@@ -232,7 +233,7 @@
                                     "start": 39,
                                     "end": 44
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 37,
                                 "end": 44
                             }
@@ -319,7 +320,7 @@
                                     "start": 58,
                                     "end": 63
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 56,
                                 "end": 63
                             },
@@ -418,7 +419,7 @@
                                     "start": 80,
                                     "end": 85
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 78,
                                 "end": 85
                             }
@@ -505,7 +506,7 @@
                                     "start": 99,
                                     "end": 104
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 97,
                                 "end": 104
                             },
@@ -581,7 +582,7 @@
                                     "start": 107,
                                     "end": 113
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 105,
                                 "end": 113
                             }
@@ -673,7 +674,7 @@
                                     "start": 131,
                                     "end": 136
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 125,
                                 "end": 136
                             }
@@ -784,7 +785,7 @@
                                     "start": 154,
                                     "end": 160
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 148,
                                 "end": 160
                             }
@@ -871,7 +872,7 @@
                                     "start": 176,
                                     "end": 181
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 172,
                                 "end": 181
                             }
@@ -958,7 +959,7 @@
                                     "start": 197,
                                     "end": 202
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 193,
                                 "end": 202
                             }
@@ -1045,7 +1046,7 @@
                                     "start": 217,
                                     "end": 222
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 214,
                                 "end": 222
                             }
@@ -1132,7 +1133,7 @@
                                     "start": 237,
                                     "end": 242
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 234,
                                 "end": 242
                             },
@@ -1231,7 +1232,7 @@
                                     "start": 260,
                                     "end": 265
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 257,
                                 "end": 265
                             }
@@ -1318,7 +1319,7 @@
                                     "start": 280,
                                     "end": 285
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 277,
                                 "end": 285
                             },
@@ -1394,7 +1395,7 @@
                                     "start": 289,
                                     "end": 295
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 286,
                                 "end": 295
                             }
@@ -1486,7 +1487,7 @@
                                     "start": 316,
                                     "end": 320
                                 },
-                                "flags": 256,
+                                "flags": 3072,
                                 "start": 307,
                                 "end": 320
                             }
@@ -1573,7 +1574,7 @@
                                     "start": 339,
                                     "end": 344
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 332,
                                 "end": 344
                             }
@@ -1665,7 +1666,7 @@
                                     "start": 367,
                                     "end": 372
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 356,
                                 "end": 372
                             }
@@ -1776,7 +1777,7 @@
                                     "start": 395,
                                     "end": 401
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 384,
                                 "end": 401
                             }
@@ -1868,7 +1869,7 @@
                                     "start": 422,
                                     "end": 427
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 420,
                                 "end": 427
                             }
@@ -1965,7 +1966,7 @@
                                     "start": 452,
                                     "end": 457
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 446,
                                 "end": 457
                             }
@@ -2081,7 +2082,7 @@
                                     "start": 482,
                                     "end": 488
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 476,
                                 "end": 488
                             }
@@ -2173,7 +2174,7 @@
                                     "start": 511,
                                     "end": 516
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 507,
                                 "end": 516
                             }
@@ -2265,7 +2266,7 @@
                                     "start": 539,
                                     "end": 544
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 535,
                                 "end": 544
                             }
@@ -2357,7 +2358,7 @@
                                     "start": 570,
                                     "end": 575
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 563,
                                 "end": 575
                             }
@@ -2454,7 +2455,7 @@
                                     "start": 605,
                                     "end": 610
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 594,
                                 "end": 610
                             }
@@ -2570,7 +2571,7 @@
                                     "start": 640,
                                     "end": 646
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 629,
                                 "end": 646
                             }
@@ -2657,7 +2658,7 @@
                                     "start": 666,
                                     "end": 671
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 658,
                                 "end": 671
                             }
@@ -2749,7 +2750,7 @@
                                     "start": 698,
                                     "end": 703
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 690,
                                 "end": 703
                             }
@@ -2836,7 +2837,7 @@
                                     "start": 720,
                                     "end": 725
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 715,
                                 "end": 725
                             }
@@ -2923,7 +2924,7 @@
                                     "start": 742,
                                     "end": 747
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 737,
                                 "end": 747
                             }
@@ -3015,7 +3016,7 @@
                                     "start": 769,
                                     "end": 774
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 766,
                                 "end": 774
                             }
@@ -3102,7 +3103,7 @@
                                     "start": 792,
                                     "end": 796
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 786,
                                 "end": 796
                             }
@@ -3189,7 +3190,7 @@
                                     "start": 815,
                                     "end": 819
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 808,
                                 "end": 819
                             }
@@ -3281,7 +3282,7 @@
                                     "start": 844,
                                     "end": 848
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 838,
                                 "end": 848
                             }
@@ -3373,7 +3374,7 @@
                                     "start": 874,
                                     "end": 878
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 867,
                                 "end": 878
                             }
@@ -3470,7 +3471,7 @@
                                     "start": 906,
                                     "end": 910
                                 },
-                                "flags": 256,
+                                "flags": 3072,
                                 "start": 897,
                                 "end": 910
                             }
@@ -3567,7 +3568,7 @@
                                     "start": 937,
                                     "end": 941
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 929,
                                 "end": 941
                             }
@@ -3659,7 +3660,7 @@
                                     "start": 966,
                                     "end": 970
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 960,
                                 "end": 970
                             }
@@ -3751,7 +3752,7 @@
                                     "start": 996,
                                     "end": 1000
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 989,
                                 "end": 1000
                             }
@@ -3843,7 +3844,7 @@
                                     "start": 1020,
                                     "end": 1024
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 1012,
                                 "end": 1024
                             }
@@ -3935,7 +3936,7 @@
                                     "start": 1044,
                                     "end": 1048
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 1036,
                                 "end": 1048
                             }
@@ -4027,7 +4028,7 @@
                                     "start": 1070,
                                     "end": 1074
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 1060,
                                 "end": 1074
                             }
@@ -4119,7 +4120,7 @@
                                     "start": 1096,
                                     "end": 1100
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 1086,
                                 "end": 1100
                             }
@@ -4211,7 +4212,7 @@
                                     "start": 1125,
                                     "end": 1129
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 1112,
                                 "end": 1129
                             }
@@ -4303,7 +4304,7 @@
                                     "start": 1153,
                                     "end": 1157
                                 },
-                                "flags": 256,
+                                "flags": 2048,
                                 "start": 1141,
                                 "end": 1157
                             }
@@ -4390,7 +4391,7 @@
                                     "start": 1175,
                                     "end": 1179
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1169,
                                 "end": 1179
                             }
@@ -4477,7 +4478,7 @@
                                     "start": 1198,
                                     "end": 1202
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1191,
                                 "end": 1202
                             }
@@ -4569,7 +4570,7 @@
                                     "start": 1223,
                                     "end": 1228
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 1214,
                                 "end": 1228
                             }
@@ -4680,7 +4681,7 @@
                                     "start": 1251,
                                     "end": 1257
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 1240,
                                 "end": 1257
                             }
@@ -4772,7 +4773,7 @@
                                     "start": 1281,
                                     "end": 1286
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1276,
                                 "end": 1286
                             }
@@ -4869,7 +4870,7 @@
                                     "start": 1315,
                                     "end": 1320
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 1305,
                                 "end": 1320
                             }
@@ -4985,7 +4986,7 @@
                                     "start": 1348,
                                     "end": 1354
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 1339,
                                 "end": 1354
                             }
@@ -5072,7 +5073,7 @@
                                     "start": 1373,
                                     "end": 1378
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1366,
                                 "end": 1378
                             }
@@ -5164,7 +5165,7 @@
                                     "start": 1404,
                                     "end": 1409
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1397,
                                 "end": 1409
                             }
@@ -5258,7 +5259,7 @@
                                     "start": 1428,
                                     "end": 1433
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1423,
                                 "end": 1433
                             }
@@ -5357,7 +5358,7 @@
                                     "start": 1457,
                                     "end": 1462
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 1447,
                                 "end": 1462
                             }
@@ -5475,7 +5476,7 @@
                                     "start": 1489,
                                     "end": 1495
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 1476,
                                 "end": 1495
                             }
@@ -5574,7 +5575,7 @@
                                     "start": 1519,
                                     "end": 1524
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1516,
                                 "end": 1524
                             }
@@ -5678,7 +5679,7 @@
                                     "start": 1553,
                                     "end": 1558
                                 },
-                                "flags": 256,
+                                "flags": 8192,
                                 "start": 1545,
                                 "end": 1558
                             }
@@ -5801,7 +5802,7 @@
                                     "start": 1587,
                                     "end": 1593
                                 },
-                                "flags": 256,
+                                "flags": 4096,
                                 "start": 1579,
                                 "end": 1593
                             }
@@ -5895,7 +5896,7 @@
                                     "start": 1612,
                                     "end": 1617
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1607,
                                 "end": 1617
                             }
@@ -5994,7 +5995,7 @@
                                     "start": 1646,
                                     "end": 1651
                                 },
-                                "flags": 256,
+                                "flags": 0,
                                 "start": 1638,
                                 "end": 1651
                             }
@@ -6017,11 +6018,11 @@
         }
     ],
     "isModule": false,
-    "text": "(class { ;});\n(class { ;;});\n(class { m() {}});\n(class { m() {};});\n(class { ; m() {}});\n(class { m() {}; n(x) {}});\n(class { get x() {}});\n(class { set x(v) {}});\n(class { get() {}});\n(class { set() {}});\n(class { *g() {}});\n(class { *g() {};});\n(class { ; *g() {}});\n(class { *g() {}; *h(x) {}});\n(class { async *x(){}});\n(class { static() {}});\n(class { get static() {}});\n(class { set static(v) {}});\n(class { static m() {}});\n(class { static get x() {}});\n(class { static set x(v) {}});\n(class { static get() {}});\n(class { static set() {}});\n(class { static static() {}});\n(class { static get static() {}});\n(class { static set static(v) {}});\n(class { *static() {}});\n(class { static *static() {}});\n(class { *get() {}});\n(class { *set() {}});\n(class { static *g() {}});\n(class { async(){}});\n(class { *async(){}});\n(class { static async(){}});\n(class { static *async(){}});\n(class { static async *x(){}});\n(class { static async x(){}});\n(class { static async(){}});\n(class { static *async(){}});\n(class { async x(){}});\n(class { async 0(){}});\n(class { async get(){}});\n(class { async set(){}});\n(class { async static(){}});\n(class { async async(){}});\n(class { async(){}});\n(class { *async(){}});\n(class { get 42.5() {}});\n(class { set static(v) {}});\n(class { static this() {}});\n(class { static get class() {}});\n(class { static set 42.5(v) {}});\n(class { *const() {}});\n(class { static *\"str\"() {}});\n(class C { true() {}});\n(class C { get false() {}});\n(class C { set function(v) {}});\n(class C { static if() {}});\n(class C { static get let() {}});\n(class C { static set get(v) {}});\n(class C { *set() {}});\n(class C { static *static() {}});",
+    "text": "(class { ;});\n(class { ;;});\n(class { m() {}});\n(class { m() {};});\n(class { ; m() {}});\n(class { m() {}; n(x) {}});\n(class { get x() {}});\n(class { set x(v) {}});\n(class { get() {}});\n(class { set() {}});\n(class { *g() {}});\n(class { *g() {};});\n(class { ; *g() {}});\n(class { *g() {}; *h(x) {}});\n(class { async *x(){}});\n(class { static() {}});\n(class { get static() {}});\n(class { set static(v) {}});\n(class { static m() {}});\n(class { static get x() {}});\n(class { static set x(v) {}});\n(class { static get() {}});\n(class { static set() {}});\n(class { static static() {}});\n(class { static get static() {}});\n(class { static set static(v) {}});\n(class { *static() {}});\n(class { static *static() {}});\n(class { *get() {}});\n(class { *set() {}});\n(class { static *g() {}});\n(class { async(){}});\n(class { *async(){}});\n(class { static async(){}});\n(class { static *async(){}});\n(class { static async *x(){}});\n(class { static async x(){}});\n(class { static async(){}});\n(class { static *async(){}});\n(class { async x(){}});\n(class { async 0(){}});\n(class { async get(){}});\n(class { async set(){}});\n(class { async static(){}});\n(class { async async(){}});\n(class { async(){}});\n(class { *async(){}});\n(class { get 42.5() {}});\n(class { set static(v) {}});\n(class { static this() {}});\n(class { static get class() {}});\n(class { static set 42.5(v) {}});\n(class { *const() {}});\n(class { static *\"str\"() {}});\n(class C { true() {}});\n(class C { get false() {}});\n(class C { set function(v) {}});\n(class C { static if() {}});\n(class C { static get let() {}});\n(class C { static set get(v) {}});\n(class C { *set() {}});\n(class C { static *static() {}});\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 1654
+    "end": 1655
 }
 ```
 

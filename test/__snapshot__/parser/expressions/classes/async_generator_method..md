@@ -90,7 +90,7 @@ class A {async * 34(){}}
                             "start": 19,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 23
                     }

@@ -66,7 +66,7 @@ export const enum DiagnosticCode {
   Invalid_left_hand_side_in_for_of_loop = 63,
   Method_definition_expected = 64,
   Classes_may_not_have_a_static_property_named_prototype = 65,
-  Duplicate_constructor_method_in_class = 66,
+  Multiple_constructor_implementations_are_not_allowed = 66,
   Class_constructor_may_not_be_a_accessor = 67,
   Dot_property_must_be_an_identifier = 68,
   Private_identifiers_are_not_allowed_outside_class_bodies = 69,
@@ -115,7 +115,8 @@ export const enum DiagnosticCode {
   Unterminated_string_literal = 113,
   Unterminated_template_literal = 114,
   Binding_identifier_expected = 115,
-  Identifier_expected_Reserved_word_in_strict_mode = 116
+  Identifier_expected_Reserved_word_in_strict_mode = 116,
+  A_class_declaration_without_the_default_modifier_must_have_a_name = 117
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -183,7 +184,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [63]: 'Invalid left-hand side in for-of loop',
   [64]: 'Method definition expected',
   [65]: "Classes may not have a static property named 'prototype'",
-  [66]: 'Duplicate constructor method in class',
+  [66]: 'Multiple constructor implementations are not allowed',
   [67]: 'Class constructor may not be a accessor',
   [68]: 'Dot property must be an identifier',
   [69]: 'Private identifiers are not allowed outside class_bodies',
@@ -232,5 +233,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [113]: 'Unterminated string literal',
   [114]: 'Unterminated template literal',
   [115]: 'Binding identifier expected',
-  [116]: 'Identifier expected. Reserved word in strict mode'
+  [116]: 'Identifier expected. Reserved word in strict mode',
+  [117]: "A class declaration without the 'default' modifier must have a name."
 };

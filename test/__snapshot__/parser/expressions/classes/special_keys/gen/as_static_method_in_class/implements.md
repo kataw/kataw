@@ -94,7 +94,7 @@ class x {static implements(){}}
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 30
                     }

@@ -94,7 +94,7 @@ class x {static * static(){}}
                             "start": 24,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 28
                     }

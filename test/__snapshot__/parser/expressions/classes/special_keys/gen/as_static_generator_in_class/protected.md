@@ -94,7 +94,7 @@ class x {static * protected(){}}
                             "start": 27,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 31
                     }

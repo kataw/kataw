@@ -67,7 +67,7 @@ class x{ constructor(){} 9(){} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 21,
                                 "end": 22
                             },
@@ -87,11 +87,11 @@ class x{ constructor(){} 9(){} }
                                 "start": 22,
                                 "end": 24
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 8,
                         "end": 24
                     },
@@ -142,7 +142,7 @@ class x{ constructor(){} 9(){} }
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 24,
                         "end": 30
                     }

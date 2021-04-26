@@ -172,7 +172,7 @@ class x { fo(){ return function() { super.foo; } }}
                             "start": 12,
                             "end": 50
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 50
                     }

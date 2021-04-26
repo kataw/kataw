@@ -106,7 +106,7 @@ for (class x { [a](){} } in c);
                                 "start": 18,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 0,
                             "start": 14,
                             "end": 22
                         }

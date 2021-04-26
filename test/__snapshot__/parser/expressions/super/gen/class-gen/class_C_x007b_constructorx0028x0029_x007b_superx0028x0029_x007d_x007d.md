@@ -122,7 +122,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 16384,
                                                                 "start": 44,
                                                                 "end": 45
                                                             },
@@ -175,11 +175,11 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                 "start": 45,
                                                                 "end": 58
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 16384,
                                                             "start": 43,
                                                             "end": 58
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 16384,
                                                         "start": 31,
                                                         "end": 58
                                                     }
@@ -206,7 +206,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                             "start": 17,
                             "end": 62
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 62
                     }

@@ -94,7 +94,7 @@ class x {static if(){}}
                             "start": 18,
                             "end": 22
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 22
                     }

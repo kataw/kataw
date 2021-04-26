@@ -94,7 +94,7 @@ class C { static get #aaa(){} }
                             "start": 25,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 16,
                         "end": 29
                     }

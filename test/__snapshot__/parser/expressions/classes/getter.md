@@ -97,7 +97,7 @@ class x { get prototype(){} }
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 27
                     }

@@ -112,7 +112,7 @@ class C { set #arguments(test) {} }
                             "start": 24,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 33
                     }

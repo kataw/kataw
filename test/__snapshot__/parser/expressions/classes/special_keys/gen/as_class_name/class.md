@@ -60,14 +60,7 @@ class class {}
                 "start": 5,
                 "end": 11
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "autofix": 0,
-                "flags": 12,
-                "start": 11,
-                "end": 11
-            },
+            "name": null,
             "typeParameters": null,
             "classHeritage": null,
             "members": {
@@ -102,7 +95,7 @@ class class {}
 ```javascript
 @{x2716}@ Binding identifier expected - start: 5, end: 11
 @{x2716}@ Unexpected token. - start: 5, end: 11
-@{x2716}@ Binding identifier expected - start: 11, end: 13
+@{x2716}@ A class declaration without the 'default' modifier must have a name. - start: 11, end: 13
 
 ```
 

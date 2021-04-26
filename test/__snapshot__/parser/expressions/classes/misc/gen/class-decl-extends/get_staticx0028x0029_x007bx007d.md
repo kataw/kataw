@@ -114,7 +114,7 @@ class C extends Base { get static() {} }
                             "start": 33,
                             "end": 38
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 22,
                         "end": 38
                     }

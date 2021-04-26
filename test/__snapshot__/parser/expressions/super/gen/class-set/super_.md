@@ -146,7 +146,7 @@ class C { set x(_) { super; } }
                             "start": 15,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 29
                     }

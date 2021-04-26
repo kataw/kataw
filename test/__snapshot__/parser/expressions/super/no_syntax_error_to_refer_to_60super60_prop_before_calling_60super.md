@@ -195,7 +195,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                             "start": 31,
                             "end": 64
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 19,
                         "end": 64
                     }

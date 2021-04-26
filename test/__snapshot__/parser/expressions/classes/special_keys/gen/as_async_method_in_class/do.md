@@ -94,7 +94,7 @@ class x {async do(){}}
                             "start": 17,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 9,
                         "end": 21
                     }

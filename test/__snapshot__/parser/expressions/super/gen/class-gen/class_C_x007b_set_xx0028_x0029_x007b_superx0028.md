@@ -203,7 +203,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                             "start": 37,
                                                             "end": 51
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 4096,
                                                         "start": 31,
                                                         "end": 51
                                                     }
@@ -230,7 +230,7 @@ class C { *method() { class C { set x(_) { super( } }
                             "start": 17,
                             "end": 53
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 53
                     }

@@ -65,7 +65,7 @@ class C { constructor() { super; } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 22,
                                 "end": 23
                             },
@@ -118,11 +118,11 @@ class C { constructor() { super; } }
                                 "start": 23,
                                 "end": 34
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 21,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 34
                     }

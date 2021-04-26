@@ -94,7 +94,7 @@ class C { static async#aaa(){} }
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 16,
                         "end": 30
                     }

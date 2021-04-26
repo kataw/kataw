@@ -114,7 +114,7 @@ class A {* get "foo"(){}}
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 14,
                         "end": 24
                     }

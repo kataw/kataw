@@ -43,31 +43,15 @@ class x {static true(){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
+                        "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "static",
-                            "rawText": "static",
+                        "staticKeyword": {
+                            "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 9,
-                        "end": 15
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": null,
@@ -110,7 +94,7 @@ class x {static true(){}}
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 24
                     }

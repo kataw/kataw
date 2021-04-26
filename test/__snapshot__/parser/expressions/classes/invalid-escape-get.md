@@ -90,7 +90,7 @@ class X { ge\u0074 x() {} }
                             "start": 20,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 25
                     }

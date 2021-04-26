@@ -118,7 +118,7 @@ class x {static set else(x){}}
                             "start": 24,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 29
                     }

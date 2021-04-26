@@ -242,7 +242,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                             "start": 36,
                                             "end": 68
                                         },
-                                        "flags": 256,
+                                        "flags": 3072,
                                         "start": 28,
                                         "end": 68
                                     }

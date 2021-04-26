@@ -118,7 +118,7 @@ class x {static set import(x){}}
                             "start": 26,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 31
                     }

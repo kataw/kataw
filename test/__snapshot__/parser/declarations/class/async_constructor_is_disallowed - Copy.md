@@ -74,7 +74,7 @@ class X {    async constructor() {}   }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 2048,
+                                "flags": 18432,
                                 "start": 31,
                                 "end": 32
                             },
@@ -94,11 +94,11 @@ class X {    async constructor() {}   }
                                 "start": 32,
                                 "end": 35
                             },
-                            "flags": 2048,
+                            "flags": 18432,
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 18432,
                         "start": 9,
                         "end": 35
                     }

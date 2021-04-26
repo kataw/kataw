@@ -124,7 +124,7 @@ class A {a(x=new.target){}}
                             "start": 10,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 26
                     }

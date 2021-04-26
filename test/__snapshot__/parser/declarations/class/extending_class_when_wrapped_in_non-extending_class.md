@@ -80,7 +80,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 22,
                                 "end": 23
                             },
@@ -205,7 +205,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                             "start": 56,
                                                             "end": 60
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 0,
                                                         "start": 46,
                                                         "end": 60
                                                     }
@@ -228,11 +228,11 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                 "start": 23,
                                 "end": 67
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 21,
                             "end": 67
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 67
                     }

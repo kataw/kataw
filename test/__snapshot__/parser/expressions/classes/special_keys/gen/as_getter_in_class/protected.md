@@ -94,7 +94,7 @@ class x {get protected(){}}
                             "start": 22,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 26
                     }

@@ -118,7 +118,7 @@ class x {static set instanceof(x){}}
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 35
                     }

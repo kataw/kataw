@@ -118,7 +118,7 @@ class x {static set continue(x){}}
                             "start": 28,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 33
                     }

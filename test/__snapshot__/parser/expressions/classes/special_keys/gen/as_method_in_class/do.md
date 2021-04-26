@@ -89,7 +89,7 @@ class x {do(){}}
                             "start": 11,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 15
                     }

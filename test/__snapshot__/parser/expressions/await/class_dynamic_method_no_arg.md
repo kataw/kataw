@@ -117,7 +117,7 @@ class x{[x](a=await){}}
                             "start": 11,
                             "end": 22
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 8,
                         "end": 22
                     }

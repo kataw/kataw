@@ -167,7 +167,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                             "start": 15,
                             "end": 36
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 36
                     }

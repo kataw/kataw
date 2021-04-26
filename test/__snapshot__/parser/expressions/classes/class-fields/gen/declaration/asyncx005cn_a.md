@@ -47,18 +47,13 @@ class C { async\n a }
                         "decorators": null,
                         "declaredToken": null,
                         "staticToken": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
                             "flags": 768,
                             "start": 9,
-                            "end": 15
-                        },
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "autofix": 0,
-                            "flags": 12,
-                            "start": 15,
                             "end": 15
                         },
                         "optionalToken": null,
@@ -126,7 +121,6 @@ class C { async\n a }
 ```javascript
 @{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 15
 @{x2716}@ Invalid hexadecimal escape sequence - start: 15, end: 15
-@{x2716}@ Binding identifier expected - start: 15, end: 16
 @{x2716}@ Unexpected token. - start: 15, end: 16
 @{x2716}@ Statement expected - start: 15, end: 16
 @{x2716}@ Unexpected token. - start: 17, end: 19

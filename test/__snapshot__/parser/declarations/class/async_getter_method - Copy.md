@@ -130,7 +130,7 @@ class A {async get 7(){}}
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 18,
                         "end": 24
                     }

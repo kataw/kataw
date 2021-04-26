@@ -159,7 +159,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
                             "start": 17,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 35
                     }

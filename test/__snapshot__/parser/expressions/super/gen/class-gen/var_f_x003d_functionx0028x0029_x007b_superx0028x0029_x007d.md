@@ -200,7 +200,7 @@ class C { *method() { var f = function() { super(); } } }
                             "start": 17,
                             "end": 55
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 55
                     }

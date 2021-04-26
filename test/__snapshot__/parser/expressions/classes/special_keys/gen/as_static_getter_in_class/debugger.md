@@ -99,7 +99,7 @@ class x {static get debugger(){}}
                             "start": 28,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 15,
                         "end": 32
                     }

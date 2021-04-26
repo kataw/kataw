@@ -93,7 +93,7 @@ class C { async *#arguments() {} }
                             "start": 27,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 32
                     }

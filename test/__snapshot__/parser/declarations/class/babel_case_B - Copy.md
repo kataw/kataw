@@ -53,47 +53,54 @@ x = class{} / x
                     "end": 3
                 },
                 "right": {
-                    "kind": 189,
-                    "decorators": null,
-                    "classKeyword": {
-                        "kind": 37822544,
-                        "flags": 768,
-                        "start": 3,
-                        "end": 9
-                    },
-                    "name": null,
-                    "typeParameters": null,
-                    "classHeritage": null,
-                    "members": {
-                        "kind": 277,
-                        "elements": [],
+                    "kind": 198,
+                    "left": {
+                        "kind": 189,
+                        "decorators": null,
+                        "classKeyword": {
+                            "kind": 37822544,
+                            "flags": 768,
+                            "start": 3,
+                            "end": 9
+                        },
+                        "name": null,
+                        "typeParameters": null,
+                        "classHeritage": null,
+                        "members": {
+                            "kind": 277,
+                            "elements": [],
+                            "flags": 256,
+                            "start": 10,
+                            "end": 11
+                        },
                         "flags": 256,
-                        "start": 10,
+                        "start": 3,
                         "end": 11
+                    },
+                    "operatorToken": {
+                        "kind": 35640,
+                        "flags": 768,
+                        "start": 11,
+                        "end": 13
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 768,
+                        "start": 13,
+                        "end": 15
                     },
                     "flags": 256,
                     "start": 3,
-                    "end": 11
+                    "end": 15
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 11
-            },
-            "flags": 128,
-            "start": 0,
-            "end": 11
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 221,
-                "text": "/ x",
-                "flags": 768,
-                "start": 11,
                 "end": 15
             },
             "flags": 128,
-            "start": 11,
+            "start": 0,
             "end": 15
         }
     ],
@@ -115,8 +122,6 @@ x = class{} / x
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 11, end: 13
-@{x2716}@ Unexpected token. - start: 11, end: 15
-
+@{x2714}@ No errors
 ```
 

@@ -160,7 +160,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                             "start": 54,
                                                             "end": 60
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 0,
                                                         "start": 47,
                                                         "end": 60
                                                     }

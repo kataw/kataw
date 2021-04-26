@@ -122,7 +122,7 @@ function f() { class C { await() { } } }
                                             "start": 30,
                                             "end": 36
                                         },
-                                        "flags": 256,
+                                        "flags": 0,
                                         "start": 24,
                                         "end": 36
                                     }

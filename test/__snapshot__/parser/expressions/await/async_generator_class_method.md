@@ -109,7 +109,7 @@ class x {async *f(await){}}
                             "start": 17,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 26
                     }

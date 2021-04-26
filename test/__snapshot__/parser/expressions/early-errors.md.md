@@ -2810,7 +2810,7 @@ try {} catch(e) { for(var e of 0); };
                             "start": 3258,
                             "end": 3295
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 3246,
                         "end": 3295
                     }
@@ -3020,7 +3020,7 @@ try {} catch(e) { for(var e of 0); };
                             "start": 3329,
                             "end": 3367
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 3317,
                         "end": 3367
                     }
@@ -3230,7 +3230,7 @@ try {} catch(e) { for(var e of 0); };
                             "start": 3401,
                             "end": 3442
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 3389,
                         "end": 3442
                     }
@@ -3459,7 +3459,7 @@ try {} catch(e) { for(var e of 0); };
                             "start": 3476,
                             "end": 3518
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 3464,
                         "end": 3518
                     }

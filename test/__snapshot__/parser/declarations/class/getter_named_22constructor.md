@@ -85,7 +85,7 @@ class x { get constructor(){} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 24576,
                                 "start": 26,
                                 "end": 27
                             },
@@ -105,11 +105,11 @@ class x { get constructor(){} }
                                 "start": 27,
                                 "end": 29
                             },
-                            "flags": 8192,
+                            "flags": 24576,
                             "start": 25,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 24576,
                         "start": 9,
                         "end": 29
                     }

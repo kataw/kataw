@@ -94,7 +94,7 @@ class x {get in(){}}
                             "start": 15,
                             "end": 19
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 19
                     }

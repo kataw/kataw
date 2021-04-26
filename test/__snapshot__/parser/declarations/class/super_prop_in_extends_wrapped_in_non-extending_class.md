@@ -175,7 +175,7 @@ class a { foo(){      class x extends super.foo {}    }}
                             "start": 13,
                             "end": 55
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 55
                     }

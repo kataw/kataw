@@ -118,7 +118,7 @@ class x {static set finally(x){}}
                             "start": 27,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 32
                     }

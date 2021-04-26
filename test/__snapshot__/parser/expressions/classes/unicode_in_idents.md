@@ -68,7 +68,7 @@ class x { \u0063onstructor(){} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 27,
                                 "end": 28
                             },
@@ -88,11 +88,11 @@ class x { \u0063onstructor(){} }
                                 "start": 28,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 30
                     }

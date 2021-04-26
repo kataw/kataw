@@ -85,7 +85,7 @@ class A {set(){} get(){} async(){}}
                             "start": 12,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 16
                     },
@@ -136,7 +136,7 @@ class A {set(){} get(){} async(){}}
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 16,
                         "end": 24
                     },
@@ -187,7 +187,7 @@ class A {set(){} get(){} async(){}}
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 24,
                         "end": 34
                     }

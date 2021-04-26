@@ -63,7 +63,7 @@
   "Invalid left-hand side in for-of loop": 63,
   "Method definition expected": 64,
   "Classes may not have a static property named 'prototype'": 65,
-  "Duplicate constructor method in class": 66,
+  "Multiple constructor implementations are not allowed": 66,
   "Class constructor may not be a accessor": 67,
   "Dot property must be an identifier": 68,
   "Private identifiers are not allowed outside class_bodies": 69,
@@ -112,5 +112,6 @@
   "Unterminated string literal": 113,
   "Unterminated template literal": 114,
   "Binding identifier expected": 115,
-  "Identifier expected. Reserved word in strict mode": 116
+  "Identifier expected. Reserved word in strict mode": 116,
+  "A class declaration without the 'default' modifier must have a name.": 117
 }

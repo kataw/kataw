@@ -97,7 +97,7 @@ class A {get foo(){}}
                             "start": 16,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 20
                     }

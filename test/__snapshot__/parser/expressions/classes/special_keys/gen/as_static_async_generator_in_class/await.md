@@ -99,7 +99,7 @@ class x {static async * await(){}}
                             "start": 29,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 15,
                         "end": 33
                     }

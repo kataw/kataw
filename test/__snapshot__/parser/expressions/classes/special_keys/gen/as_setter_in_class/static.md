@@ -113,7 +113,7 @@ class x {set static(x){}}
                             "start": 19,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 24
                     }

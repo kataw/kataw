@@ -84,7 +84,7 @@ class C { *#aaa(){} }
                             "start": 15,
                             "end": 19
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 19
                     }

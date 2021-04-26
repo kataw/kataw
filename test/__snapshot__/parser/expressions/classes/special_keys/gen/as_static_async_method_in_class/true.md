@@ -43,37 +43,21 @@ class x {static async true(){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
+                        "kind": 278,
+                        "declareToken": null,
                         "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": {
+                        "staticKeyword": {
                             "kind": 8388716,
                             "flags": 768,
                             "start": 9,
                             "end": 15
                         },
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 768,
                             "start": 15,
                             "end": 21
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 15,
-                        "end": 21
-                    },
-                    {
-                        "kind": 278,
-                        "declareToken": null,
-                        "decorators": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": null,
                         "method": {
@@ -91,7 +75,7 @@ class x {static async true(){}}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2048,
                                 "start": 27,
                                 "end": 28
                             },
@@ -111,12 +95,12 @@ class x {static async true(){}}
                                 "start": 28,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 2048,
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 256,
-                        "start": 21,
+                        "flags": 2048,
+                        "start": 15,
                         "end": 30
                     }
                 ],

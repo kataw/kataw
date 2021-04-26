@@ -146,7 +146,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 16384,
                                                                 "start": 43,
                                                                 "end": 44
                                                             },
@@ -199,11 +199,11 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                 "start": 44,
                                                                 "end": 57
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 16384,
                                                             "start": 42,
                                                             "end": 57
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 16384,
                                                         "start": 30,
                                                         "end": 57
                                                     }
@@ -230,7 +230,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                             "start": 15,
                             "end": 61
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 61
                     }

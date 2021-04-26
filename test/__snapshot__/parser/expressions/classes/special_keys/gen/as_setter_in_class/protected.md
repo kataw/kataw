@@ -113,7 +113,7 @@ class x {set protected(x){}}
                             "start": 22,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 27
                     }

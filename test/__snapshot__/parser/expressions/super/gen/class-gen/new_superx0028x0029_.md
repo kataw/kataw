@@ -128,7 +128,7 @@ class C { *method() { new super(); } }
                             "start": 17,
                             "end": 36
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 36
                     }

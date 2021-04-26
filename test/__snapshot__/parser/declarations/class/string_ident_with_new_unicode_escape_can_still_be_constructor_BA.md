@@ -69,7 +69,7 @@ class x { constructor(){}; "constructor"(){}; }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 22,
                                 "end": 23
                             },
@@ -89,11 +89,11 @@ class x { constructor(){}; "constructor"(){}; }
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 21,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 25
                     },
@@ -150,7 +150,7 @@ class x { constructor(){}; "constructor"(){}; }
                             "start": 40,
                             "end": 44
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 26,
                         "end": 44
                     },

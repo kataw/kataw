@@ -94,7 +94,7 @@ class x {async continue(){}}
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 9,
                         "end": 27
                     }

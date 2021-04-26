@@ -115,7 +115,7 @@ class A {set 9(x){}}
                             "start": 14,
                             "end": 19
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 19
                     }

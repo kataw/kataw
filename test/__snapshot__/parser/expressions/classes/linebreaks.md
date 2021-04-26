@@ -131,7 +131,7 @@ class A {
                             "start": 19,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 9,
                         "end": 27
                     },
@@ -206,7 +206,7 @@ class A {
                             "start": 38,
                             "end": 47
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 27,
                         "end": 47
                     },
@@ -233,7 +233,7 @@ class A {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 66,
                                 "end": 67
                             },
@@ -253,11 +253,11 @@ class A {
                                 "start": 67,
                                 "end": 70
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 62,
                             "end": 70
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 47,
                         "end": 70
                     },
@@ -308,7 +308,7 @@ class A {
                             "start": 75,
                             "end": 83
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 70,
                         "end": 83
                     },
@@ -359,7 +359,7 @@ class A {
                             "start": 92,
                             "end": 100
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 83,
                         "end": 100
                     },
@@ -420,7 +420,7 @@ class A {
                             "start": 120,
                             "end": 128
                         },
-                        "flags": 256,
+                        "flags": 8192,
                         "start": 110,
                         "end": 128
                     },
@@ -500,7 +500,7 @@ class A {
                             "start": 148,
                             "end": 157
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 138,
                         "end": 157
                     },
@@ -556,7 +556,7 @@ class A {
                             "start": 181,
                             "end": 189
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 167,
                         "end": 189
                     },
@@ -612,7 +612,7 @@ class A {
                             "start": 203,
                             "end": 211
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 199,
                         "end": 211
                     },
@@ -668,7 +668,7 @@ class A {
                             "start": 229,
                             "end": 237
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 221,
                         "end": 237
                     }

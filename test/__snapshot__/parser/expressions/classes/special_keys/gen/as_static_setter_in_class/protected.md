@@ -118,7 +118,7 @@ class x {static set protected(x){}}
                             "start": 29,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 34
                     }

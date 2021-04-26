@@ -115,7 +115,7 @@ class x {static *[y](){}}
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 24
                     }

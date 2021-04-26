@@ -132,7 +132,7 @@ class C extends Base { set #arguments(test) {} }
                             "start": 37,
                             "end": 46
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 22,
                         "end": 46
                     }

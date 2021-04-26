@@ -24,6 +24,7 @@ export function createClassElement(
   setKeyword: SyntaxToken<TokenSyntaxKind> | null,
   getKeyword: SyntaxToken<TokenSyntaxKind> | null,
   method: MethodDefinition,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ClassElement {
@@ -36,7 +37,7 @@ export function createClassElement(
     setKeyword,
     getKeyword,
     method,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

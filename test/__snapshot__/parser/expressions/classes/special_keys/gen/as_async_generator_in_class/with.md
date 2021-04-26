@@ -94,7 +94,7 @@ class x {async * with(){}}
                             "start": 21,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 9,
                         "end": 25
                     }

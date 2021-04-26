@@ -94,7 +94,7 @@ class x {static var(){}}
                             "start": 19,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 23
                     }

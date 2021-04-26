@@ -43,33 +43,17 @@ class x {get true(){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "get",
-                            "rawText": "get",
-                            "flags": 768,
-                            "start": 9,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 9,
-                        "end": 12
-                    },
-                    {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
-                        "setKeyword": null,
+                        "setKeyword": {
+                            "kind": 82031,
+                            "flags": 768,
+                            "start": 9,
+                            "end": 12
+                        },
                         "getKeyword": null,
                         "method": {
                             "kind": 209,
@@ -86,7 +70,7 @@ class x {get true(){}}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 8192,
                                 "start": 18,
                                 "end": 19
                             },
@@ -106,12 +90,12 @@ class x {get true(){}}
                                 "start": 19,
                                 "end": 21
                             },
-                            "flags": 0,
+                            "flags": 8192,
                             "start": 17,
                             "end": 21
                         },
-                        "flags": 256,
-                        "start": 12,
+                        "flags": 8192,
+                        "start": 9,
                         "end": 21
                     }
                 ],

@@ -111,7 +111,7 @@ class Foo {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 32,
                                 "end": 33
                             },
@@ -206,11 +206,11 @@ class Foo {
                                 "start": 33,
                                 "end": 62
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 31,
                             "end": 62
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 17,
                         "end": 62
                     }

@@ -113,7 +113,7 @@ class x {set instanceof(x){}}
                             "start": 23,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 28
                     }

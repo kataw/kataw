@@ -142,7 +142,7 @@ class C { *method() { y = super } }
                             "start": 17,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 9,
                         "end": 33
                     }

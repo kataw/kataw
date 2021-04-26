@@ -69,7 +69,6 @@ class implements {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 5, end: 16
-
+@{x2714}@ No errors
 ```
 

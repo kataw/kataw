@@ -29,62 +29,75 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 189,
-                    "decorators": null,
-                    "classKeyword": {
-                        "kind": 37822544,
-                        "flags": 768,
-                        "start": 1,
-                        "end": 6
-                    },
-                    "name": null,
-                    "typeParameters": null,
-                    "classHeritage": null,
-                    "members": {
-                        "kind": 277,
-                        "elements": [],
+                    "kind": 198,
+                    "left": {
+                        "kind": 198,
+                        "left": {
+                            "kind": 189,
+                            "decorators": null,
+                            "classKeyword": {
+                                "kind": 37822544,
+                                "flags": 768,
+                                "start": 1,
+                                "end": 6
+                            },
+                            "name": null,
+                            "typeParameters": null,
+                            "classHeritage": null,
+                            "members": {
+                                "kind": 277,
+                                "elements": [],
+                                "flags": 256,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "flags": 256,
+                            "start": 1,
+                            "end": 8
+                        },
+                        "operatorToken": {
+                            "kind": 35640,
+                            "flags": 768,
+                            "start": 8,
+                            "end": 11
+                        },
+                        "right": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 15
+                        },
                         "flags": 256,
-                        "start": 7,
-                        "end": 8
+                        "start": 1,
+                        "end": 15
+                    },
+                    "operatorToken": {
+                        "kind": 35640,
+                        "flags": 768,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "right": {
+                        "kind": 134299649,
+                        "text": "g",
+                        "rawText": "g",
+                        "flags": 768,
+                        "start": 17,
+                        "end": 19
                     },
                     "flags": 256,
                     "start": 1,
-                    "end": 8
+                    "end": 19
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 8
+                "end": 20
             },
             "flags": 128,
             "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 221,
-                "text": "/ foo /",
-                "flags": 768,
-                "start": 8,
-                "end": 17
-            },
-            "flags": 128,
-            "start": 8,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "g",
-                "rawText": "g",
-                "flags": 768,
-                "start": 17,
-                "end": 19
-            },
-            "flags": 128,
-            "start": 17,
-            "end": 19
+            "end": 20
         }
     ],
     "isModule": false,
@@ -105,10 +118,6 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 17
-@{x2716}@ Unexpected token. - start: 17, end: 19
-@{x2716}@ Unexpected token. - start: 19, end: 20
-@{x2716}@ Statement expected - start: 19, end: 20
-
+@{x2714}@ No errors
 ```
 

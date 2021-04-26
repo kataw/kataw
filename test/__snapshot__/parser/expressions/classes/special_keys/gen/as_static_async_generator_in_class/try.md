@@ -99,7 +99,7 @@ class x {static async * try(){}}
                             "start": 27,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 3072,
                         "start": 15,
                         "end": 31
                     }

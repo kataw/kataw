@@ -96,7 +96,7 @@ class A {async [foo](){}}
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 9,
                         "end": 24
                     }

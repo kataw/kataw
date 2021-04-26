@@ -118,7 +118,7 @@ class x {static set if(x){}}
                             "start": 22,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 15,
                         "end": 27
                     }

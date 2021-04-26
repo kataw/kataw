@@ -132,7 +132,7 @@ class x {async f(foo = await bar){}}
                             "start": 16,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 2048,
                         "start": 9,
                         "end": 35
                     }

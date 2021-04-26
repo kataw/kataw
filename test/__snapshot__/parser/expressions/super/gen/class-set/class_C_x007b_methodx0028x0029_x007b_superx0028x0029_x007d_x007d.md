@@ -203,7 +203,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                             "start": 37,
                                                             "end": 52
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 0,
                                                         "start": 30,
                                                         "end": 52
                                                     }
@@ -230,7 +230,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                             "start": 15,
                             "end": 56
                         },
-                        "flags": 256,
+                        "flags": 4096,
                         "start": 9,
                         "end": 56
                     }

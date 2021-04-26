@@ -94,7 +94,7 @@ class x {static typeof(){}}
                             "start": 22,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 15,
                         "end": 26
                     }

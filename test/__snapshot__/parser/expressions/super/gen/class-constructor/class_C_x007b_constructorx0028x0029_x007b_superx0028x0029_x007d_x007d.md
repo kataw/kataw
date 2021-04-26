@@ -65,7 +65,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 22,
                                 "end": 23
                             },
@@ -122,7 +122,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 16384,
                                                                 "start": 48,
                                                                 "end": 49
                                                             },
@@ -175,11 +175,11 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                                 "start": 49,
                                                                 "end": 62
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 16384,
                                                             "start": 47,
                                                             "end": 62
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 16384,
                                                         "start": 35,
                                                         "end": 62
                                                     }
@@ -202,11 +202,11 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                 "start": 23,
                                 "end": 66
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 21,
                             "end": 66
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 66
                     }

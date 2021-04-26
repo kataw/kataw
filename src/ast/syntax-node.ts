@@ -60,8 +60,7 @@ export const enum NodeFlags {
   Unterminated = 1 << 25,
   SingleQuote = 1 << 26,
   ContainsInvalidEscape = 1 << 27,
-  HasConstructor = 1 << 28,
-  Const = 1 << 29
+  Const = 1 << 28
 }
 
 /**

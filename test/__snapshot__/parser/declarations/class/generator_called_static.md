@@ -104,7 +104,7 @@ class x{   *static(){}    }
                             "start": 18,
                             "end": 22
                         },
-                        "flags": 256,
+                        "flags": 0,
                         "start": 8,
                         "end": 22
                     }

@@ -65,7 +65,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 16384,
                                 "start": 22,
                                 "end": 23
                             },
@@ -203,7 +203,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                             "start": 41,
                                                             "end": 55
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 4096,
                                                         "start": 35,
                                                         "end": 55
                                                     }
@@ -226,11 +226,11 @@ class C { constructor() { class C { set x(_) { super( } }
                                 "start": 23,
                                 "end": 57
                             },
-                            "flags": 0,
+                            "flags": 16384,
                             "start": 21,
                             "end": 57
                         },
-                        "flags": 256,
+                        "flags": 16384,
                         "start": 9,
                         "end": 57
                     }
