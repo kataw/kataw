@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-x = z();
+x = import(y);
 `````
 
 ## Output
@@ -34,42 +34,46 @@ x = z();
                     "end": 3
                 },
                 "right": {
-                    "kind": 131,
+                    "kind": 120,
                     "expression": {
-                        "kind": 134299649,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 768,
-                        "start": 3,
-                        "end": 5
-                    },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [],
-                        "trailingComma": false,
+                        "kind": 206,
+                        "importKeyword": {
+                            "kind": 37814364,
+                            "flags": 768,
+                            "start": 3,
+                            "end": 10
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 12
+                        },
                         "flags": 256,
-                        "start": 6,
-                        "end": 6
+                        "start": 10,
+                        "end": 13
                     },
-                    "flags": 256,
-                    "start": 3,
-                    "end": 7
+                    "flags": 128,
+                    "start": 10,
+                    "end": 14
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 7
+                "end": 14
             },
             "flags": 128,
             "start": 0,
-            "end": 8
+            "end": 14
         }
     ],
     "isModule": false,
-    "text": "x = z();",
+    "text": "x = import(y);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 8
+    "end": 14
 }
 ```
 
