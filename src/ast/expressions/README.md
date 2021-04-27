@@ -679,22 +679,22 @@ interface OptionalChain <: ExpressionNode {
 }
 ```
 
-### ElementAccessChain
+### IndexChain
 
 ```js
-interface ElementAccessChain <: ExpressionNode {
-  kind: NodeKind.ElementAccessChain;
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+interface IndexChain <: ExpressionNode {
+  kind: NodeKind.IndexChain;
+  chain: IndexChain | MemberAccessChain | CallChain | null;
   expression: Expression | IdentifierName | null;
 }
 ```
 
-### PropertyAccessChain
+### MemberAccessChain
 
 ```js
-interface PropertyAccessChain <: ExpressionNode {
-  kind: NodeKind.PropertyAccessChain;
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+interface MemberAccessChain <: ExpressionNode {
+  kind: NodeKind.MemberAccessChain;
+  chain: IndexChain | MemberAccessChain | CallChain | null;
   expression: IdentifierName | PrivateName | null;
 }
 ```
@@ -704,7 +704,7 @@ interface PropertyAccessChain <: ExpressionNode {
 ```js
 interface CallChain <: ExpressionNode {
   kind: NodeKind.CallChain;
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+  chain: IndexChain | MemberAccessChain | CallChain | null;
   argumentsList: ArgumentList | null;
   typeArguments: TypeArguments;
 }
