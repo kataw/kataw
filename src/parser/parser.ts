@@ -1170,6 +1170,9 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   } else if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsKeyword | SyntaxKind.IsIdentifier)) {
     chain = createIndexExpressionChain(chain, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
     parser.assignable = false;
+  } else if (parser.token === SyntaxKind.PrivateIdentifier) {
+    chain = createIndexExpressionChain(chain, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
+    parser.assignable = false;
   } else {
     parser.onError(
       DiagnosticSource.Parser,
@@ -1201,15 +1204,6 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         pos,
         parser.curPos
       );
-
-      if ((chain as any).expression.kind === SyntaxKind.PrivateIdentifier) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          diagnosticMap[DiagnosticCode.An_optional_chain_cannot_contain_private_identifiers],
-          parser.curPos,
-          parser.pos
-        );
-      }
     } else if (parser.token === SyntaxKind.LeftParen) {
       chain = createCallChain(chain as any, parseArguments(parser, context), pos, parser.curPos);
     } else if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket)) {
@@ -1222,14 +1216,14 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         pos,
         parser.curPos
       );
-      if ((chain as any).expression.kind === SyntaxKind.PrivateIdentifier) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          diagnosticMap[DiagnosticCode.An_optional_chain_cannot_contain_private_identifiers],
-          parser.curPos,
-          parser.pos
-        );
-      }
+    } else if (parser.token === SyntaxKind.PrivateIdentifier) {
+      chain = createIndexExpressionChain(
+        chain as any,
+        parsePropertyOrPrivatePropertyName(parser, context),
+        pos,
+        parser.curPos
+      );
+      parser.assignable = false;
     } else {
       if (parser.token === SyntaxKind.TemplateCont || parser.token === SyntaxKind.TemplateTail) {
         parser.onError(
@@ -2294,7 +2288,8 @@ function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpre
         parser.pos
       );
     }
-    if (expression.kind === SyntaxKind.PrivateIdentifier) {
+
+    if ((expression as any).expression && (expression as any).expression.kind === SyntaxKind.PrivateIdentifier) {
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode.Prohibit_delete_of_private_class_elements],

@@ -138,72 +138,48 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                 "chain": {
                                                     "kind": 206,
                                                     "chain": {
-                                                        "kind": 226,
-                                                        "member": null,
-                                                        "template": {
-                                                            "kind": 227,
-                                                            "spans": [
-                                                                {
-                                                                    "kind": 228,
-                                                                    "rawText": "obj",
-                                                                    "text": "#aaa",
-                                                                    "expression": {
-                                                                        "kind": 67109115,
-                                                                        "text": "#aaa",
-                                                                        "flags": 768,
-                                                                        "start": 30,
-                                                                        "end": 34
-                                                                    },
-                                                                    "flags": 256,
-                                                                    "start": 30,
-                                                                    "end": 34
-                                                                }
-                                                            ],
-                                                            "tail": {
-                                                                "kind": 458761,
-                                                                "text": " }",
-                                                                "rawText": "obj",
-                                                                "flags": 768,
-                                                                "start": 34,
-                                                                "end": 38
-                                                            },
-                                                            "flags": 256,
+                                                        "kind": 202,
+                                                        "chain": null,
+                                                        "expression": {
+                                                            "kind": 67109115,
+                                                            "text": "#aaa",
+                                                            "flags": 768,
                                                             "start": 30,
-                                                            "end": 38
+                                                            "end": 34
                                                         },
                                                         "flags": 256,
                                                         "start": 30,
-                                                        "end": 38
+                                                        "end": 34
                                                     },
                                                     "flags": 256,
                                                     "start": 30,
-                                                    "end": 38
+                                                    "end": 34
                                                 },
                                                 "flags": 256,
                                                 "start": 24,
-                                                "end": 38
+                                                "end": 34
                                             },
                                             "flags": 128,
                                             "start": 24,
-                                            "end": 38
+                                            "end": 34
                                         }
                                     ],
                                     "multiline": false,
                                     "flags": 256,
                                     "start": 24,
-                                    "end": 38
+                                    "end": 34
                                 },
                                 "flags": 256,
                                 "start": 22,
-                                "end": 38
+                                "end": 36
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 38
+                            "end": 36
                         },
                         "flags": 0,
                         "start": 15,
-                        "end": 38
+                        "end": 36
                     }
                 ],
                 "flags": 256,
@@ -233,8 +209,6 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 30, end: 34
-@{x2716}@ Unterminated template literal - start: 34, end: 38
-
+@{x2714}@ No errors
 ```
 

@@ -149,76 +149,52 @@ class Foo {
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 226,
-                                                            "member": null,
-                                                            "template": {
-                                                                "kind": 227,
-                                                                "spans": [
-                                                                    {
-                                                                        "kind": 228,
-                                                                        "rawText": "this",
-                                                                        "text": "#x",
-                                                                        "expression": {
-                                                                            "kind": 67109115,
-                                                                            "text": "#x",
-                                                                            "flags": 768,
-                                                                            "start": 53,
-                                                                            "end": 55
-                                                                        },
-                                                                        "flags": 256,
-                                                                        "start": 53,
-                                                                        "end": 55
-                                                                    }
-                                                                ],
-                                                                "tail": {
-                                                                    "kind": 458761,
-                                                                    "text": "\n  }\n}",
-                                                                    "rawText": "this",
-                                                                    "flags": 768,
-                                                                    "start": 55,
-                                                                    "end": 62
-                                                                },
-                                                                "flags": 256,
+                                                            "kind": 202,
+                                                            "chain": null,
+                                                            "expression": {
+                                                                "kind": 67109115,
+                                                                "text": "#x",
+                                                                "flags": 768,
                                                                 "start": 53,
-                                                                "end": 62
+                                                                "end": 55
                                                             },
                                                             "flags": 256,
                                                             "start": 53,
-                                                            "end": 62
+                                                            "end": 55
                                                         },
                                                         "flags": 256,
                                                         "start": 53,
-                                                        "end": 62
+                                                        "end": 55
                                                     },
                                                     "flags": 256,
                                                     "start": 46,
-                                                    "end": 62
+                                                    "end": 55
                                                 },
                                                 "flags": 256,
                                                 "start": 35,
-                                                "end": 62
+                                                "end": 55
                                             },
                                             "flags": 128,
                                             "start": 35,
-                                            "end": 62
+                                            "end": 56
                                         }
                                     ],
                                     "multiline": true,
                                     "flags": 256,
                                     "start": 35,
-                                    "end": 62
+                                    "end": 56
                                 },
                                 "flags": 256,
                                 "start": 33,
-                                "end": 62
+                                "end": 60
                             },
                             "flags": 16384,
                             "start": 31,
-                            "end": 62
+                            "end": 60
                         },
                         "flags": 16384,
                         "start": 17,
-                        "end": 62
+                        "end": 60
                     }
                 ],
                 "flags": 256,
@@ -248,8 +224,6 @@ class Foo {
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 53, end: 55
-@{x2716}@ Unterminated template literal - start: 55, end: 62
-
+@{x2714}@ No errors
 ```
 
