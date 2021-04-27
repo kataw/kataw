@@ -291,7 +291,6 @@ interface ClassElementList <: ExpressionNode {
 ```js
 interface ClassElement <: ExpressionNode {
   kind: NodeKind.ClassElement;
-  kind: NodeKind.ClassElementList;
   declareToken: SyntaxToken<TokenSyntaxKind> | null;
   decorators: DecoratorList | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -663,6 +662,7 @@ interface ParenthesizedExpression <: ExpressionNode {
 ```js
 interface OptionalExpression <: ExpressionNode {
   kind: NodeKind.OptionalExpression;
+  chainToken: SyntaxToken<TokenSyntaxKind> | null;
   member: Expression;
   chain: OptionalChain;
 }

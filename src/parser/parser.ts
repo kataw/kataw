@@ -1134,6 +1134,7 @@ function parseMemberExpression(
         break;
       case SyntaxKind.QuestionMarkPeriod:
         expr = createOptionalExpression(
+          consumeToken(parser, context, SyntaxKind.QuestionMarkPeriod),
           expr,
           parseOptionalChain(
             parser,
@@ -1158,7 +1159,6 @@ function parseMemberExpression(
 }
 
 function parseOptionalChain(parser: ParserState, context: Context): any {
-  consume(parser, context, SyntaxKind.QuestionMarkPeriod);
   let chain = null;
   let pos = parser.curPos;
 

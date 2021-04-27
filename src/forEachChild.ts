@@ -143,7 +143,7 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
         visitNode(node.value, node, visitor)
       );
     case SyntaxKind.OptionalExpression:
-      return visitNode(node.member, node, visitor) || visitNode(node.chain, node, visitor);
+      return visitNode(node.chainToken, node, visitor) || visitNode(node.member, node, visitor) || visitNode(node.chain, node, visitor);
     case SyntaxKind.MemberAccessExpression:
       return visitNode(node.member, node, visitor) || visitNode(node.expression, node, visitor);
     case SyntaxKind.OptionalChain:
