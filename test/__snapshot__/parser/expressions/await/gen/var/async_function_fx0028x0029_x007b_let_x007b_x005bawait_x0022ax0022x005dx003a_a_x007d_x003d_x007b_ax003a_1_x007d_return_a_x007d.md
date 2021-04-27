@@ -220,7 +220,6 @@ var await; var f = (async function() { async function f() {
                                                                                                 "start": 80,
                                                                                                 "end": 82
                                                                                             },
-                                                                                            "autofix": 0,
                                                                                             "flags": 256,
                                                                                             "start": 67,
                                                                                             "end": 82

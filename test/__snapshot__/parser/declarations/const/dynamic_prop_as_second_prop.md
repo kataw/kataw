@@ -101,7 +101,6 @@ const {a, [x]: y} = a;
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 9,
                                         "end": 16

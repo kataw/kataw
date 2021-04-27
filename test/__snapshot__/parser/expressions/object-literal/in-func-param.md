@@ -84,7 +84,6 @@ function test({...{}}) {}
                                             "start": 18,
                                             "end": 20
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 15,
                                         "end": 20

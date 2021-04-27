@@ -144,7 +144,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "start": 26,
                                                     "end": 29
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 23,
                                                 "end": 29
@@ -189,7 +188,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "start": 35,
                                                     "end": 38
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 30,
                                                 "end": 38

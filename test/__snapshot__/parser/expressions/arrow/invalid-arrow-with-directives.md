@@ -1969,7 +1969,6 @@
                                                                 "start": 745,
                                                                 "end": 751
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 743,
                                                             "end": 751
@@ -2948,7 +2947,6 @@
                                                                 "start": 1093,
                                                                 "end": 1099
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 1091,
                                                             "end": 1099

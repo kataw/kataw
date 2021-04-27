@@ -99,7 +99,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "start": 13,
                                             "end": 14
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 11,
                                         "end": 14
@@ -138,7 +137,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "start": 17,
                                             "end": 20
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 15,
                                         "end": 20
@@ -201,7 +199,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "start": 25,
                                             "end": 28
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 21,
                                         "end": 28

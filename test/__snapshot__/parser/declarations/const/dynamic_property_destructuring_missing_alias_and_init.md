@@ -85,7 +85,6 @@ const {[x]};
                                             "start": 10,
                                             "end": 10
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 7,
                                         "end": 10

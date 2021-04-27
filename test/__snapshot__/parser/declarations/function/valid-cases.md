@@ -4013,7 +4013,6 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1058,
                                             "end": 1065
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 1056,
                                         "end": 1065
@@ -4104,7 +4103,6 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1071,
                                             "end": 1080
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 1069,
                                         "end": 1080
@@ -4244,7 +4242,6 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1101,
                                             "end": 1116
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 1099,
                                         "end": 1116

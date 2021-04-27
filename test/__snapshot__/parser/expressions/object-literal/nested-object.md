@@ -61,7 +61,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "start": 7,
                                             "end": 9
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 9
@@ -112,7 +111,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                                 "start": 18,
                                                                 "end": 20
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 15,
                                                             "end": 20
@@ -133,7 +131,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "start": 13,
                                             "end": 22
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 10,
                                         "end": 22

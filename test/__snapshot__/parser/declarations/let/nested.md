@@ -67,7 +67,6 @@ let {a:{}} = 0
                                             "start": 7,
                                             "end": 9
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 9

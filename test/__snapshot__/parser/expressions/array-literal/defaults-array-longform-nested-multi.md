@@ -80,7 +80,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "start": 7,
                                             "end": 9
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 9
@@ -112,7 +111,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "start": 13,
                                             "end": 15
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 10,
                                         "end": 15
@@ -170,7 +168,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                                 "start": 24,
                                                                 "end": 31
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 21,
                                                             "end": 31
@@ -191,7 +188,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "start": 19,
                                             "end": 32
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 16,
                                         "end": 32

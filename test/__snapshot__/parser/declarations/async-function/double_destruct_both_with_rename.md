@@ -79,7 +79,6 @@ let {x : y, z : a} = obj;
                                             "start": 8,
                                             "end": 10
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 10
@@ -111,7 +110,6 @@ let {x : y, z : a} = obj;
                                             "start": 15,
                                             "end": 17
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 11,
                                         "end": 17

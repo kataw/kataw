@@ -4216,7 +4216,6 @@ async function * gen() {class C extends await { }}
                                                                             "start": 2170,
                                                                             "end": 2176
                                                                         },
-                                                                        "autofix": 0,
                                                                         "flags": 256,
                                                                         "start": 2166,
                                                                         "end": 2176
@@ -4390,7 +4389,6 @@ async function * gen() {class C extends await { }}
                                                                             "start": 2223,
                                                                             "end": 2229
                                                                         },
-                                                                        "autofix": 0,
                                                                         "flags": 256,
                                                                         "start": 2219,
                                                                         "end": 2229
@@ -5512,7 +5510,6 @@ async function * gen() {class C extends await { }}
                                                             "start": 2609,
                                                             "end": 2615
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 2605,
                                                         "end": 2615
@@ -5712,7 +5709,6 @@ async function * gen() {class C extends await { }}
                                                             "start": 2665,
                                                             "end": 2671
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 2661,
                                                         "end": 2671

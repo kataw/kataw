@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { BindingElement } from './binding-element';
 import { SingleNameBinding } from './singleNameBinding';
@@ -41,7 +41,6 @@ export function createBindingProperty(
     ellipsisToken,
     key,
     value,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.ExpressionNode,
     start,
     end

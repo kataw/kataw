@@ -86,7 +86,6 @@ var {[x]};
                                             "start": 8,
                                             "end": 8
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 8

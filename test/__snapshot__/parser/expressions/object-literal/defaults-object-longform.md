@@ -68,7 +68,6 @@ var { x: x = 10 } = x;
                                             "start": 8,
                                             "end": 15
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 15

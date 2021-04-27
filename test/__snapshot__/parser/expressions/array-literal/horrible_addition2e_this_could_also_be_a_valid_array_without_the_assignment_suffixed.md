@@ -1,0 +1,140 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+[please, {[make]: it}, stop] = bwahahahaha
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 125,
+                "left": {
+                    "kind": 119,
+                    "elementList": {
+                        "kind": 270,
+                        "elements": [
+                            {
+                                "kind": 134299649,
+                                "text": "please",
+                                "rawText": "please",
+                                "flags": 768,
+                                "start": 1,
+                                "end": 7
+                            },
+                            {
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [
+                                        {
+                                            "kind": 219,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "it",
+                                                "rawText": "it",
+                                                "flags": 768,
+                                                "start": 17,
+                                                "end": 20
+                                            },
+                                            "right": {
+                                                "kind": 194,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "make",
+                                                    "rawText": "make",
+                                                    "flags": 768,
+                                                    "start": 11,
+                                                    "end": 15
+                                                },
+                                                "flags": 256,
+                                                "start": 10,
+                                                "end": 16
+                                            },
+                                            "flags": 256,
+                                            "start": 10,
+                                            "end": 20
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "multiline": false,
+                                    "flags": 0,
+                                    "start": 10,
+                                    "end": 20
+                                },
+                                "flags": 256,
+                                "start": 8,
+                                "end": 21
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "stop",
+                                "rawText": "stop",
+                                "flags": 768,
+                                "start": 22,
+                                "end": 27
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 256,
+                        "start": 1,
+                        "end": 27
+                    },
+                    "flags": 256,
+                    "start": 0,
+                    "end": 28
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 768,
+                    "start": 28,
+                    "end": 30
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "bwahahahaha",
+                    "rawText": "bwahahahaha",
+                    "flags": 768,
+                    "start": 30,
+                    "end": 42
+                },
+                "flags": 256,
+                "start": 0,
+                "end": 42
+            },
+            "flags": 128,
+            "start": 0,
+            "end": 42
+        }
+    ],
+    "isModule": false,
+    "text": "[please, {[make]: it}, stop] = bwahahahaha",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 42
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+

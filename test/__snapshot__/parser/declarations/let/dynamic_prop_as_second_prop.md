@@ -101,7 +101,6 @@ let {a, [x]: y} = a;
                                             "start": 12,
                                             "end": 14
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 7,
                                         "end": 14

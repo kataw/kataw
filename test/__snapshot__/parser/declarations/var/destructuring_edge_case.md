@@ -75,7 +75,6 @@ var {[2]: y} = {2:3}
                                             "start": 9,
                                             "end": 11
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 11

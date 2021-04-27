@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-[x, y, ...z = arr] = obj
+[(x = y)] = obj
 `````
 
 ## Options
@@ -44,94 +44,78 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 768,
-                                "start": 1,
-                                "end": 2
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 768,
-                                "start": 3,
-                                "end": 5
-                            },
-                            {
-                                "kind": 223,
-                                "argument": {
+                                "kind": 121,
+                                "expression": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "z",
-                                        "rawText": "z",
+                                        "text": "x",
+                                        "rawText": "x",
                                         "flags": 768,
-                                        "start": 10,
-                                        "end": 11
+                                        "start": 2,
+                                        "end": 3
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 768,
-                                        "start": 11,
-                                        "end": 13
+                                        "start": 3,
+                                        "end": 5
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "text": "arr",
-                                        "rawText": "arr",
+                                        "text": "y",
+                                        "rawText": "y",
                                         "flags": 768,
-                                        "start": 13,
-                                        "end": 17
+                                        "start": 5,
+                                        "end": 7
                                     },
                                     "flags": 256,
-                                    "start": 10,
-                                    "end": 17
+                                    "start": 1,
+                                    "end": 7
                                 },
                                 "flags": 256,
-                                "start": 6,
-                                "end": 17
+                                "start": 1,
+                                "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 256,
                         "start": 1,
-                        "end": 17
+                        "end": 8
                     },
                     "flags": 256,
                     "start": 0,
-                    "end": 18
+                    "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 768,
-                    "start": 18,
-                    "end": 20
+                    "start": 9,
+                    "end": 11
                 },
                 "right": {
                     "kind": 134299649,
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 768,
-                    "start": 20,
-                    "end": 24
+                    "start": 11,
+                    "end": 15
                 },
                 "flags": 256,
                 "start": 0,
-                "end": 24
+                "end": 15
             },
             "flags": 128,
             "start": 0,
-            "end": 24
+            "end": 15
         }
     ],
     "isModule": false,
-    "text": "[x, y, ...z = arr] = obj",
+    "text": "[(x = y)] = obj",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 24
+    "end": 15
 }
 ```
 
@@ -144,7 +128,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 9, end: 11
 
 ```
 

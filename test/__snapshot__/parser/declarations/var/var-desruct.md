@@ -111,7 +111,6 @@ var {[a]: [b]} = c
                                             "start": 9,
                                             "end": 13
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 13

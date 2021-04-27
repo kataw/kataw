@@ -126,7 +126,6 @@ async function f() {
                                                             "start": 41,
                                                             "end": 43
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 28,
                                                         "end": 43

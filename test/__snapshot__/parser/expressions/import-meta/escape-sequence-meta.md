@@ -1,0 +1,63 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true, module: true }
+`````
+
+## Input
+
+`````js
+import.m\u0065ta;
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 207,
+                "importKeyword": {
+                    "kind": 37814364,
+                    "flags": 768,
+                    "start": 0,
+                    "end": 6
+                },
+                "flags": 768,
+                "start": 6,
+                "end": 16
+            },
+            "flags": 128,
+            "start": 6,
+            "end": 17
+        }
+    ],
+    "isModule": true,
+    "text": "import.m\\u0065ta;",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 17
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+@{x2714}@ No errors
+```
+

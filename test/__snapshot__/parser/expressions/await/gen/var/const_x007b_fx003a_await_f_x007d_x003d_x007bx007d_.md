@@ -158,7 +158,6 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                                                                 "start": 49,
                                                                                 "end": 55
                                                                             },
-                                                                            "autofix": 0,
                                                                             "flags": 256,
                                                                             "start": 46,
                                                                             "end": 55

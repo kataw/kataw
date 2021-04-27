@@ -115,7 +115,6 @@ var {x = 10, y: { z = 10}} = a;
                                             "start": 15,
                                             "end": 25
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 12,
                                         "end": 25

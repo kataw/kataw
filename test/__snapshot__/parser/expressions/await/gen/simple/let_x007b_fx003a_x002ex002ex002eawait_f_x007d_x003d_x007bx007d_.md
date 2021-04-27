@@ -69,7 +69,6 @@ let { f: ...await f } = {};
                                             "start": 8,
                                             "end": 17
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 17

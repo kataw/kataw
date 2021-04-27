@@ -75,7 +75,6 @@ const {a:=c} = z;
                                             "start": 9,
                                             "end": 11
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 7,
                                         "end": 11

@@ -97,7 +97,6 @@ var { ...{ x = 5 } } = {x : 1};
                                             "start": 9,
                                             "end": 18
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 5,
                                         "end": 18

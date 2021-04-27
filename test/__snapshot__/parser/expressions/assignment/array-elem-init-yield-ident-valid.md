@@ -3,13 +3,7 @@
 ## Options
 
 `````js
-{ jsx: false, disableWebCompat: true, module: true }
-`````
-
-## Options
-
-`````js
-{ jsx: false, disableWebCompat: true }
+{ jsx: false, disableWebCompat: true, module: false }
 `````
 
 ## Input
@@ -295,7 +289,7 @@ result = [ x = yield ] = vals;
             "end": 81
         }
     ],
-    "isModule": true,
+    "isModule": false,
     "text": "var yield = 4;\nvar x;\n\nvar result;\nvar vals = [];\n\nresult = [ x = yield ] = vals;",
     "fileName": "__root__",
     "flags": 0,
@@ -313,7 +307,6 @@ result = [ x = yield ] = vals;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 3, end: 9
-
+@{x2714}@ No errors
 ```
 

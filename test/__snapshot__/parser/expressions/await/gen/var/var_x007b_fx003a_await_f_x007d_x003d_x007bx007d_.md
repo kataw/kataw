@@ -159,7 +159,6 @@ var await; var f = (async function() { var { f: await f } = {}; });
                                                                                 "start": 47,
                                                                                 "end": 53
                                                                             },
-                                                                            "autofix": 0,
                                                                             "flags": 256,
                                                                             "start": 44,
                                                                             "end": 53
