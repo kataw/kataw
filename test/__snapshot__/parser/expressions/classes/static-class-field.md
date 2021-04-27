@@ -2524,7 +2524,7 @@ a});
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 700,
@@ -2619,7 +2619,7 @@ a});
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 736,
@@ -2707,7 +2707,7 @@ a});
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 768,
@@ -2802,7 +2802,7 @@ a});
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 806,

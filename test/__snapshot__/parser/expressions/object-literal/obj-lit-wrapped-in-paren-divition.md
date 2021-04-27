@@ -1258,6 +1258,12 @@
                         "properties": [
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 272,
+                                    "end": 277
+                                },
                                 "argument": {
                                     "kind": 198,
                                     "left": {

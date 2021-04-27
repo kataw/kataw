@@ -78,6 +78,12 @@ async r => result = [...{ x = await x }] = y;
                                 "elements": [
                                     {
                                         "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 768,
+                                            "start": 21,
+                                            "end": 24
+                                        },
                                         "argument": {
                                             "kind": 220,
                                             "propertyList": {

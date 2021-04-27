@@ -64,6 +64,12 @@
                             "parameters": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 37,
+                                        "end": 40
+                                    },
                                     "flags": 256,
                                     "start": 37,
                                     "end": 45

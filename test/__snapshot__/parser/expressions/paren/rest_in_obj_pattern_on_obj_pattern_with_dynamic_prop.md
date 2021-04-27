@@ -30,6 +30,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 2,
+                                        "end": 5
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -124,6 +130,12 @@
                                     "properties": [
                                         {
                                             "kind": 224,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 768,
+                                                "start": 24,
+                                                "end": 27
+                                            },
                                             "argument": {
                                                 "kind": 130,
                                                 "member": {

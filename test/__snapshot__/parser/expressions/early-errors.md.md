@@ -1276,6 +1276,12 @@ try {} catch(e) { for(var e of 0); };
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 1752,
+                                    "end": 1755
+                                },
                                 "argument": {
                                     "kind": 220,
                                     "propertyList": {
@@ -1367,6 +1373,12 @@ try {} catch(e) { for(var e of 0); };
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 1770,
+                                    "end": 1773
+                                },
                                 "argument": {
                                     "kind": 119,
                                     "elementList": {
@@ -1443,6 +1455,12 @@ try {} catch(e) { for(var e of 0); };
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 1955,
+                                    "end": 1958
+                                },
                                 "argument": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -1504,6 +1522,12 @@ try {} catch(e) { for(var e of 0); };
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 1968,
+                                    "end": 1971
+                                },
                                 "argument": {
                                     "kind": 210,
                                     "newKeyword": {
@@ -2634,7 +2658,7 @@ try {} catch(e) { for(var e of 0); };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 3234,
@@ -2844,7 +2868,7 @@ try {} catch(e) { for(var e of 0); };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 3305,
@@ -3054,7 +3078,7 @@ try {} catch(e) { for(var e of 0); };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 3377,
@@ -3264,7 +3288,7 @@ try {} catch(e) { for(var e of 0); };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 3452,

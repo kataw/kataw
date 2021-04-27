@@ -67,7 +67,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 7,
@@ -118,7 +118,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 30,
@@ -221,7 +221,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 59,
@@ -1443,7 +1443,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 404,
@@ -1630,7 +1630,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 468,

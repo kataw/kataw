@@ -640,6 +640,12 @@
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 242,
+                                        "end": 245
+                                    },
                                     "argument": {
                                         "kind": 134299649,
                                         "text": "yield",

@@ -72,6 +72,12 @@ let [a=[...b], ...c] = obj;
                                                 "elements": [
                                                     {
                                                         "kind": 223,
+                                                        "ellipsisToken": {
+                                                            "kind": 524302,
+                                                            "flags": 768,
+                                                            "start": 8,
+                                                            "end": 11
+                                                        },
                                                         "argument": {
                                                             "kind": 134299649,
                                                             "text": "b",

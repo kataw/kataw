@@ -2204,6 +2204,12 @@ switch (answer) { case 0: let a; };
                                             "properties": [
                                                 {
                                                     "kind": 224,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 768,
+                                                        "start": 835,
+                                                        "end": 838
+                                                    },
                                                     "argument": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -2928,6 +2934,12 @@ switch (answer) { case 0: let a; };
                                         "elements": [
                                             {
                                                 "kind": 223,
+                                                "ellipsisToken": {
+                                                    "kind": 524302,
+                                                    "flags": 768,
+                                                    "start": 1079,
+                                                    "end": 1082
+                                                },
                                                 "argument": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -3051,6 +3063,12 @@ switch (answer) { case 0: let a; };
                                             "elements": [
                                                 {
                                                     "kind": 223,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 768,
+                                                        "start": 1113,
+                                                        "end": 1116
+                                                    },
                                                     "argument": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -4630,7 +4648,7 @@ switch (answer) { case 0: let a; };
                                 "typeParameters": null,
                                 "classHeritage": {
                                     "kind": 279,
-                                    "extendsToken": {
+                                    "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 768,
                                         "start": 1730,

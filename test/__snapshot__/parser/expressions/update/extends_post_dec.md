@@ -36,7 +36,7 @@ class x extends a-- {}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 7,

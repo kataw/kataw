@@ -112,7 +112,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 34,

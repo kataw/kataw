@@ -74,6 +74,12 @@ function *f(){ return [...yield]; }
                                     "elements": [
                                         {
                                             "kind": 223,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 768,
+                                                "start": 23,
+                                                "end": 26
+                                            },
                                             "argument": {
                                                 "kind": 229,
                                                 "yieldKeyword": {

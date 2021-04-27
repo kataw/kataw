@@ -106,6 +106,12 @@ foo((x, y) => {});
                                 "elements": [
                                     {
                                         "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 768,
+                                            "start": 6,
+                                            "end": 9
+                                        },
                                         "argument": {
                                             "kind": 129,
                                             "member": {

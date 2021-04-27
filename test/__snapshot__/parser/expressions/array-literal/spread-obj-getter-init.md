@@ -308,6 +308,12 @@ var callCount = 0;
                                                 "properties": [
                                                     {
                                                         "kind": 224,
+                                                        "ellipsisToken": {
+                                                            "kind": 524302,
+                                                            "flags": 768,
+                                                            "start": 105,
+                                                            "end": 108
+                                                        },
                                                         "argument": {
                                                             "kind": 134299649,
                                                             "text": "o",

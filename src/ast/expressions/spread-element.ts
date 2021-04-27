@@ -1,16 +1,19 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ExpressionNode } from '.';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * Spread element
  */
 export interface SpreadElement extends SyntaxNode {
+  readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly argument: ExpressionNode;
 }
 
-export function createSpreadElement(argument: ExpressionNode, start: number, end: number): SpreadElement {
+export function createSpreadElement(ellipsisToken: SyntaxToken<TokenSyntaxKind> | null, argument: ExpressionNode, start: number, end: number): SpreadElement {
   return {
     kind: SyntaxKind.SpreadElement,
+    ellipsisToken,
     argument,
     flags: NodeFlags.ExpressionNode,
     start,

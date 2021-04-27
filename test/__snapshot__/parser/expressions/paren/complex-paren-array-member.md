@@ -28,6 +28,12 @@
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 2,
+                                        "end": 5
+                                    },
                                     "argument": {
                                         "kind": 129,
                                         "member": {
@@ -46,6 +52,12 @@
                                                                     "elements": [
                                                                         {
                                                                             "kind": 223,
+                                                                            "ellipsisToken": {
+                                                                                "kind": 524302,
+                                                                                "flags": 768,
+                                                                                "start": 8,
+                                                                                "end": 11
+                                                                            },
                                                                             "argument": {
                                                                                 "kind": 129,
                                                                                 "member": {

@@ -28,6 +28,12 @@
                     "elements": [
                         {
                             "kind": 223,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 768,
+                                "start": 1,
+                                "end": 5
+                            },
                             "argument": {
                                 "kind": 198,
                                 "left": {

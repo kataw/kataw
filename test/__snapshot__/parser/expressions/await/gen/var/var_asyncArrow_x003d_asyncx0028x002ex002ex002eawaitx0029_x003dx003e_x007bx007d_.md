@@ -165,6 +165,12 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                                                                                 "elements": [
                                                                                     {
                                                                                         "kind": 223,
+                                                                                        "ellipsisToken": {
+                                                                                            "kind": 524302,
+                                                                                            "flags": 768,
+                                                                                            "start": 62,
+                                                                                            "end": 65
+                                                                                        },
                                                                                         "flags": 256,
                                                                                         "start": 62,
                                                                                         "end": 70

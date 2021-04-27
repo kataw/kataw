@@ -48,6 +48,12 @@ foo(a, b, ...c)
                         },
                         {
                             "kind": 223,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 768,
+                                "start": 9,
+                                "end": 13
+                            },
                             "argument": {
                                 "kind": 134299649,
                                 "text": "c",

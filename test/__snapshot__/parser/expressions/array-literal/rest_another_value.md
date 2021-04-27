@@ -42,6 +42,12 @@
                             },
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 6,
+                                    "end": 10
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "z",

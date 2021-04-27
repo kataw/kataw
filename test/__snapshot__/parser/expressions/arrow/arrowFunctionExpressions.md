@@ -926,6 +926,12 @@ var p10 = ([{ value, done }]) => { };
                                         "elements": [
                                             {
                                                 "kind": 223,
+                                                "ellipsisToken": {
+                                                    "kind": 524302,
+                                                    "flags": 768,
+                                                    "start": 255,
+                                                    "end": 258
+                                                },
                                                 "argument": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -1128,6 +1134,12 @@ var p10 = ([{ value, done }]) => { };
                                             },
                                             {
                                                 "kind": 223,
+                                                "ellipsisToken": {
+                                                    "kind": 524302,
+                                                    "flags": 768,
+                                                    "start": 307,
+                                                    "end": 311
+                                                },
                                                 "argument": {
                                                     "kind": 134299649,
                                                     "text": "a",

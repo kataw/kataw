@@ -42,6 +42,12 @@ result = {...rest} = 69;
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 10,
+                                        "end": 13
+                                    },
                                     "argument": {
                                         "kind": 134299649,
                                         "text": "rest",

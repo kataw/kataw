@@ -155,7 +155,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             "typeParameters": null,
                                                                             "classHeritage": {
                                                                                 "kind": 279,
-                                                                                "extendsToken": {
+                                                                                "extendsKeyword": {
                                                                                     "kind": 4194391,
                                                                                     "flags": 768,
                                                                                     "start": 66,

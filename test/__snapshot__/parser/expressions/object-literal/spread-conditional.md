@@ -27,6 +27,12 @@
                         "properties": [
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 3,
+                                    "end": 6
+                                },
                                 "argument": {
                                     "kind": 197,
                                     "shortCircuit": {
@@ -114,6 +120,12 @@
                                 "properties": [
                                     {
                                         "kind": 224,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 768,
+                                            "start": 25,
+                                            "end": 28
+                                        },
                                         "argument": {
                                             "kind": 197,
                                             "shortCircuit": {

@@ -48,6 +48,12 @@ result = [...[x]] = vals;
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 10,
+                                        "end": 13
+                                    },
                                     "argument": {
                                         "kind": 119,
                                         "elementList": {

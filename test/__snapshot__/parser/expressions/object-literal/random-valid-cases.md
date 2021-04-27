@@ -2311,6 +2311,12 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 520,
+                                    "end": 523
+                                },
                                 "argument": {
                                     "kind": 119,
                                     "elementList": {
@@ -2412,6 +2418,12 @@ a = { y: x = 1 } = b;
                             },
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 545,
+                                    "end": 549
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "y",
@@ -2688,6 +2700,12 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 616,
+                                        "end": 620
+                                    },
                                     "argument": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -4151,6 +4169,12 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 992,
+                                        "end": 995
+                                    },
                                     "argument": {
                                         "kind": 129,
                                         "member": {

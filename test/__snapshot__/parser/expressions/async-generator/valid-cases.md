@@ -2720,7 +2720,7 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 994,
@@ -2867,7 +2867,7 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 1045,
@@ -3031,7 +3031,7 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 1097,
@@ -3193,7 +3193,7 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 1155,

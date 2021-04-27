@@ -822,6 +822,12 @@ var callCount = 0;
                                         },
                                         {
                                             "kind": 223,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 768,
+                                                "start": 371,
+                                                "end": 375
+                                            },
                                             "argument": {
                                                 "kind": 125,
                                                 "left": {

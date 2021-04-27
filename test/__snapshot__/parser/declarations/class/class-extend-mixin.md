@@ -66,7 +66,7 @@ class Foo<T> extends mixin(Bar) { }
             },
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 12,

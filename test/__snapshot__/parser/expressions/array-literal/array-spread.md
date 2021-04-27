@@ -63,6 +63,12 @@
                             },
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 5,
+                                    "end": 8
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "rest",
@@ -139,6 +145,12 @@
                             },
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 24,
+                                    "end": 27
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "rest",

@@ -28,6 +28,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 2,
+                                        "end": 5
+                                    },
                                     "argument": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -42,6 +48,12 @@
                                 },
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 7,
+                                        "end": 11
+                                    },
                                     "argument": {
                                         "kind": 134299649,
                                         "text": "b",

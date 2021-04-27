@@ -7,13 +7,13 @@ import { TypeParameter } from '../types/type-parameter';
  * ClassHeritage
  */
 export interface ClassHeritage extends SyntaxNode {
-  readonly extendsToken: SyntaxToken<TokenSyntaxKind>;
+  readonly extendsKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly expression: ExpressionNode;
   readonly typeParameter: TypeParameter | null;
 }
 
 export function createClassHeritage(
-  extendsToken: SyntaxToken<TokenSyntaxKind>,
+  extendsKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
   typeParameter: TypeParameter | null,
   start: number,
@@ -21,7 +21,7 @@ export function createClassHeritage(
 ): ClassHeritage {
   return {
     kind: SyntaxKind.ClassHeritage,
-    extendsToken,
+    extendsKeyword,
     expression,
     typeParameter,
     flags: NodeFlags.IsStatement,

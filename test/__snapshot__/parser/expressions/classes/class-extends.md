@@ -87,7 +87,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 23,
@@ -149,7 +149,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 50,
@@ -204,7 +204,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 72,
@@ -288,7 +288,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 104,
@@ -365,7 +365,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 131,
@@ -442,7 +442,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 165,
@@ -512,7 +512,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 194,
@@ -596,7 +596,7 @@
                     "typeParameters": null,
                     "classHeritage": {
                         "kind": 279,
-                        "extendsToken": {
+                        "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
                             "start": 233,
@@ -696,7 +696,7 @@
                         "typeParameters": null,
                         "classHeritage": {
                             "kind": 279,
-                            "extendsToken": {
+                            "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 768,
                                 "start": 288,
@@ -782,7 +782,7 @@
                         "typeParameters": null,
                         "classHeritage": {
                             "kind": 279,
-                            "extendsToken": {
+                            "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 768,
                                 "start": 331,
@@ -890,7 +890,7 @@
                         "typeParameters": null,
                         "classHeritage": {
                             "kind": 279,
-                            "extendsToken": {
+                            "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 768,
                                 "start": 379,
@@ -991,7 +991,7 @@
                         "typeParameters": null,
                         "classHeritage": {
                             "kind": 279,
-                            "extendsToken": {
+                            "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 768,
                                 "start": 429,

@@ -64,6 +64,12 @@ function* g() {   [...{ x = yield }] = y   }
                                         "elements": [
                                             {
                                                 "kind": 223,
+                                                "ellipsisToken": {
+                                                    "kind": 524302,
+                                                    "flags": 768,
+                                                    "start": 19,
+                                                    "end": 22
+                                                },
                                                 "argument": {
                                                     "kind": 220,
                                                     "propertyList": {

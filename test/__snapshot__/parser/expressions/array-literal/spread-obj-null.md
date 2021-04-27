@@ -118,6 +118,12 @@
                                                 "properties": [
                                                     {
                                                         "kind": 224,
+                                                        "ellipsisToken": {
+                                                            "kind": 524302,
+                                                            "flags": 768,
+                                                            "start": 33,
+                                                            "end": 36
+                                                        },
                                                         "argument": {
                                                             "kind": 269,
                                                             "text": null,

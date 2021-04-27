@@ -48,6 +48,12 @@ x = {a, ...y, b}
                             },
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 7,
+                                    "end": 11
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "y",

@@ -35,6 +35,12 @@ async (a, ...b) => a;
                 },
                 {
                     "kind": 223,
+                    "ellipsisToken": {
+                        "kind": 524302,
+                        "flags": 768,
+                        "start": 9,
+                        "end": 13
+                    },
                     "flags": 256,
                     "start": 9,
                     "end": 14

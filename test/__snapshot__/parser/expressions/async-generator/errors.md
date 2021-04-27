@@ -7515,7 +7515,7 @@ async function * gen() {class C extends await { }}
                             "typeParameters": null,
                             "classHeritage": {
                                 "kind": 279,
-                                "extendsToken": {
+                                "extendsKeyword": {
                                     "kind": 4194391,
                                     "flags": 768,
                                     "start": 3319,
@@ -7646,7 +7646,7 @@ async function * gen() {class C extends await { }}
                             "typeParameters": null,
                             "classHeritage": {
                                 "kind": 279,
-                                "extendsToken": {
+                                "extendsKeyword": {
                                     "kind": 4194391,
                                     "flags": 768,
                                     "start": 3370,

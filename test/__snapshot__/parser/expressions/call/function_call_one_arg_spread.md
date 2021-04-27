@@ -32,6 +32,12 @@ foo(...a)
                     "elements": [
                         {
                             "kind": 223,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 768,
+                                "start": 4,
+                                "end": 7
+                            },
                             "argument": {
                                 "kind": 134299649,
                                 "text": "a",

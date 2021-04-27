@@ -40,6 +40,12 @@ x={...new}
                         "properties": [
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 3,
+                                    "end": 6
+                                },
                                 "argument": {
                                     "kind": 210,
                                     "newKeyword": {

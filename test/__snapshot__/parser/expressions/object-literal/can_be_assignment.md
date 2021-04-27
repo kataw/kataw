@@ -40,6 +40,12 @@ x = {...a=b}
                         "properties": [
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 5,
+                                    "end": 8
+                                },
                                 "argument": {
                                     "kind": 125,
                                     "left": {

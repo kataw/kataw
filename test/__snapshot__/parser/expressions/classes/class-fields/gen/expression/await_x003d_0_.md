@@ -40,7 +40,7 @@ class C extends Base { await = 0; }
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 7,

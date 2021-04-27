@@ -51,6 +51,12 @@
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 2,
+                                    "end": 5
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -92,6 +98,12 @@
                         "properties": [
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 12,
+                                    "end": 15
+                                },
                                 "argument": {
                                     "kind": 198,
                                     "left": {
@@ -154,6 +166,12 @@
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 24,
+                                    "end": 27
+                                },
                                 "argument": {
                                     "kind": 198,
                                     "left": {
@@ -215,6 +233,12 @@
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 36,
+                                    "end": 39
+                                },
                                 "argument": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -256,6 +280,12 @@
                         "elements": [
                             {
                                 "kind": 223,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 46,
+                                    "end": 49
+                                },
                                 "argument": {
                                     "kind": 125,
                                     "left": {

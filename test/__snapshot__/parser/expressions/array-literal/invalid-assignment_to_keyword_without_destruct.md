@@ -43,6 +43,7 @@
                     "elements": [
                         {
                             "kind": 223,
+                            "ellipsisToken": null,
                             "argument": {
                                 "kind": 125,
                                 "left": {

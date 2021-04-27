@@ -40,6 +40,12 @@
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 2,
+                                        "end": 5
+                                    },
                                     "argument": {
                                         "kind": 129,
                                         "member": {
@@ -123,6 +129,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 19,
+                                        "end": 22
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -205,6 +217,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 37,
+                                        "end": 40
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -307,6 +325,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 59,
+                                        "end": 62
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -415,6 +439,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 83,
+                                        "end": 86
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -529,6 +559,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 109,
+                                        "end": 112
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -612,6 +648,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 127,
+                                        "end": 130
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -735,6 +777,12 @@
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 154,
+                                        "end": 157
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -753,6 +801,12 @@
                                                                     "properties": [
                                                                         {
                                                                             "kind": 224,
+                                                                            "ellipsisToken": {
+                                                                                "kind": 524302,
+                                                                                "flags": 768,
+                                                                                "start": 160,
+                                                                                "end": 163
+                                                                            },
                                                                             "argument": {
                                                                                 "kind": 130,
                                                                                 "member": {
@@ -934,6 +988,12 @@
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 197,
+                                        "end": 200
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -1015,6 +1075,12 @@
                             "elements": [
                                 {
                                     "kind": 223,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 215,
+                                        "end": 218
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -1097,6 +1163,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 233,
+                                        "end": 236
+                                    },
                                     "argument": {
                                         "kind": 129,
                                         "member": {
@@ -1211,6 +1283,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 255,
+                                        "end": 258
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {
@@ -1324,6 +1402,12 @@
                             "properties": [
                                 {
                                     "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 768,
+                                        "start": 278,
+                                        "end": 281
+                                    },
                                     "argument": {
                                         "kind": 130,
                                         "member": {

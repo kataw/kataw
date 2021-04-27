@@ -7,6 +7,7 @@
 ```js
 interface ImportDeclaration <: Node {
   kind: NodeKind.ImportDeclaration;
+  importKeyword: SyntaxToken<TokenSyntaxKind>;
   importClause: ImportClause | null
   fromClause: StringLiteral | null;
 }
@@ -59,6 +60,7 @@ interface ImportSpecifier <: Node {
 ```js
 interface ExportDeclaration <: Node {
   kind: NodeKind.ExportDeclaration;
+  exportKeyword: SyntaxToken<TokenSyntaxKind>;
   declaration: AssignmentExpression | VariableStatement | LexicalDeclaration | FunctionDeclaration | ClassDeclaration | null;
   namedExports: [ ExportSpecifier ];
   exportFromClause: ExportFromClause | null,
@@ -100,38 +102,8 @@ interface ExportSpecifier <: Node {
 ```js
 interface ExportDefault <: Node {
   kind: NodeKind.ExportDefault;
+  exportKeyword: SyntaxToken<TokenSyntaxKind>;
+  defaultKeyword: SyntaxToken<TokenSyntaxKind>;
   declaration: FunctionDeclaration | ClassDeclaration | Expression;
-}
-```
-
-Extracted from `ExportDeclaration` to simplify a few things, and save 1 byte vs. using an
-'default' property on the `ExportDeclaration` node.
-
-
-### ExportAssignment [EXTRA]
-
-```js
-interface ExportAssignment <: Node {
-  kind: NodeKind.ExportAssignment;
-  expression: Expression;
-}
-```
-
-### ExternalModuleReference [EXTRA]
-
-```js
-interface ExternalModuleReference <: Node {
-  kind: NodeKind.ExternalModuleReference;
-  expression: Expression;
-}
-```
-
-### ImportEqualsDeclaration [EXTRA]
-
-```js
-interface ImportEqualsDeclaration <: Node {
-  kind: NodeKind.ImportEqualsDeclaration;
-  importClause: ImportClause | null
-  fromClause: StringLiteral | null;
 }
 ```

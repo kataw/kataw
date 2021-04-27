@@ -3316,6 +3316,12 @@
                             },
                             {
                                 "kind": 224,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 768,
+                                    "start": 731,
+                                    "end": 735
+                                },
                                 "argument": {
                                     "kind": 220,
                                     "propertyList": {

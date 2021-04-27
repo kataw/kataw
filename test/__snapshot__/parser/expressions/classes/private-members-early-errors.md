@@ -332,7 +332,7 @@ class C { foo() { this.#a = 1; }}
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 91,

@@ -144,6 +144,12 @@ var gen = async function *g() {
                                                         "properties": [
                                                             {
                                                                 "kind": 224,
+                                                                "ellipsisToken": {
+                                                                    "kind": 524302,
+                                                                    "flags": 768,
+                                                                    "start": 59,
+                                                                    "end": 70
+                                                                },
                                                                 "argument": {
                                                                     "kind": 229,
                                                                     "yieldKeyword": {
@@ -179,6 +185,12 @@ var gen = async function *g() {
                                                             },
                                                             {
                                                                 "kind": 224,
+                                                                "ellipsisToken": {
+                                                                    "kind": 524302,
+                                                                    "flags": 768,
+                                                                    "start": 82,
+                                                                    "end": 93
+                                                                },
                                                                 "argument": {
                                                                     "kind": 121,
                                                                     "expression": {
@@ -287,6 +299,12 @@ var gen = async function *g() {
                                                                                                     "properties": [
                                                                                                         {
                                                                                                             "kind": 224,
+                                                                                                            "ellipsisToken": {
+                                                                                                                "kind": 524302,
+                                                                                                                "flags": 768,
+                                                                                                                "start": 155,
+                                                                                                                "end": 158
+                                                                                                            },
                                                                                                             "argument": {
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "yield",
@@ -368,6 +386,12 @@ var gen = async function *g() {
                                                             },
                                                             {
                                                                 "kind": 224,
+                                                                "ellipsisToken": {
+                                                                    "kind": 524302,
+                                                                    "flags": 768,
+                                                                    "start": 183,
+                                                                    "end": 194
+                                                                },
                                                                 "argument": {
                                                                     "kind": 229,
                                                                     "yieldKeyword": {

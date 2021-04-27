@@ -28,6 +28,7 @@ interface Block <: Statements {
 ```js
 interface BreakStatement <: Statements {
     kind: NodeKind.BreakStatement;
+    breakKeyword: SyntaxToken<TokenSyntaxKind>;
     label: IdentifierReference | null;
 }
 ```
@@ -37,6 +38,7 @@ interface BreakStatement <: Statements {
 ```js
 interface ContinueStatement <: Statements {
     kind: NodeKind.ContinueStatement;
+    continueKeyword: SyntaxToken<TokenSyntaxKind>;
     label: IdentifierReference | null;
 }
 ```
@@ -46,6 +48,7 @@ interface ContinueStatement <: Statements {
 ```js
 interface SwitchStatement <: Statements {
     kind: NodeKind.SwitchStatement;
+    switchKeyword: SyntaxToken<TokenSyntaxKind>;
     expression: Expression;
     caseBlock: CaseBlock;
 }
@@ -67,6 +70,7 @@ interface CaseBlock <: Statements {
 ```js
 interface CaseClause <: Statements {
   kind: NodeKind.CaseClause;
+  clauseKeyword: SyntaxToken<TokenSyntaxKind>;
   expression: Expression;
   statements: [ Statement ];
 }
@@ -77,6 +81,7 @@ interface CaseClause <: Statements {
 ```js
 interface DefaultClause <: Statements {
   kind: NodeKind.DefaultClause;
+  defaultKeyword: SyntaxToken<TokenSyntaxKind>;
   statements: [ Statement ];
 }
 ```
@@ -86,6 +91,7 @@ interface DefaultClause <: Statements {
 ```js
 interface ThrowStatement <: Statements {
   kind: NodeKind.ThrowStatement;
+  throwKeyword: SyntaxToken<TokenSyntaxKind>;
   expression: Expression;
 }
 ```
@@ -97,9 +103,12 @@ A `throw` statement.
 ```js
 interface TryStatement <: Statements {
   kind: NodeKind.TryStatement;
+  tryKeyword: SyntaxToken<TokenSyntaxKind>;
   block: BlockStatement;
+  catchKeyword: SyntaxToken<TokenSyntaxKind>;
   catchClause: CatchClause | null;
   finallyBlock: BlockStatement;
+  finallyKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 
@@ -109,9 +118,9 @@ A `try` statement. If `handler` is `null` then `finalizer` must be a `BlockState
 
 ```js
 interface CatchClause <: Statements {
-    kind: NodeKind.CatchClause;
-    catchParameter: CatchParameter | null;
-    block: BlockStatement;
+  kind: NodeKind.CatchClause;
+  catchParameter: CatchParameter | null;
+  block: BlockStatement;
 }
 ```
 
@@ -119,10 +128,10 @@ interface CatchClause <: Statements {
 
 ```js
 interface CatchParameter <: Statements {
-    kind: NodeKind.CatchParameter;
-    binding: BindingIdentifier | ObjectBindingPattern | ArrayBindingPattern | null;
-    type: TypeNode | null;
-    initializer: AssignmentExpression | null;
+  kind: NodeKind.CatchParameter;
+  binding: BindingIdentifier | ObjectBindingPattern | ArrayBindingPattern | null;
+  type: TypeNode | null;
+  initializer: AssignmentExpression | null;
 }
 ```
 
@@ -130,9 +139,10 @@ interface CatchParameter <: Statements {
 
 ```js
 interface WhileStatement <: Statements {
-    kind: NodeKind.WhileStatement;
-    expression: Expression;
-    statement: Statement;
+  kind: NodeKind.WhileStatement;
+  whileKeyword: SyntaxToken<TokenSyntaxKind>;
+  expression: Expression;
+  statement: Statement;
 }
 ```
 
@@ -140,9 +150,10 @@ interface WhileStatement <: Statements {
 
 ```js
 interface WithStatement <: Statements {
-    kind: NodeKind.WithStatement;
-    expression: Expression;
-    statement: Statement;
+  kind: NodeKind.WithStatement;
+  withKeyword: SyntaxToken<TokenSyntaxKind>;
+  expression: Expression;
+  statement: Statement;
 }
 ```
 
@@ -150,9 +161,11 @@ interface WithStatement <: Statements {
 
 ```js
 interface DoWhileStatement <: Statements {
-    kind: NodeKind.DoWhileStatement;
-    statement: Statement;
-    expression: Expression;
+  kind: NodeKind.DoWhileStatement;
+  doKeyword: SyntaxToken<TokenSyntaxKind>;
+  statement: Statement;
+  whileKeyword: SyntaxToken<TokenSyntaxKind>;
+  expression: Expression;
 }
 ```
 
@@ -160,15 +173,14 @@ interface DoWhileStatement <: Statements {
 
 ```js
 interface ForStatement <: Statements {
-    kind: NodeKind.ForStatement;
-    initializer: LexicalDeclaration | [ VariableDeclaration ] | Expression | null;
-    variableDeclarationList: boolean;
-    condition: Expression | null;
-    incrementor: Expression | null;
-    statement: Statement;
+  kind: NodeKind.ForStatement;
+  forKeyword: SyntaxToken<TokenSyntaxKind>;
+  initializer: ExpressionNode | VariableDeclarationList | BindingList | null;
+  condition: ExpressionNode | null;
+  incrementor: ExpressionNode | null;
+  statement: StatementNode;
 }
 ```
-The `variableDeclarationList` is `true` if the initializer contains a list of `VariableDeclaration`. Otherwise it is `false`.
 
 See [13.7 Iteration Statements](https://tc39.es/ecma262/#sec-iteration-statements)
 
@@ -176,11 +188,12 @@ See [13.7 Iteration Statements](https://tc39.es/ecma262/#sec-iteration-statement
 
 ```js
 interface ForOfStatement <: Statements {
-    kind: NodeKind.ForOfStatement;
-    initializer: LexicalDeclaration | ForBinding | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
-    expression: Expression;
-    statement: Statement;
-    await: boolean;
+  kind: NodeKind.ForOfStatement;
+  forKeyword: SyntaxToken<TokenSyntaxKind>;
+  initializer: LexicalDeclaration | ForBinding | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
+  expression: Expression;
+  statement: Statement;
+  awaitKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 
@@ -188,44 +201,44 @@ interface ForOfStatement <: Statements {
 
 ```js
 interface ForInStatement <: Statements {
-    kind: NodeKind.ForInStatement;
-    initializer: LexicalDeclaration | ForBinding | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
-    expression: Expression;
-    statement: Statement;
+  kind: NodeKind.ForInStatement;
+  forKeyword: SyntaxToken<TokenSyntaxKind>;
+  initializer: LexicalDeclaration | ObjectAssignmentPattern | ArrayAssignmentPattern | Expression;
+  expression: Expression;
+  statement: Statement;
 }
 ```
 
-### ForBinding [Modified]
+### IfStatement
 
 ```js
-interface ForBinding <: Statements {
-    kind: NodeKind.ForBinding;
-    declarationList: [ VariableDeclaration ];
+interface IfStatement <: Statements {
+  kind: NodeKind.IfStatement;
+  ifKeyword: SyntaxToken<TokenSyntaxKind>;
+  expression: ExpressionNode;
+  consequent: StatementNode;
+  elseKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  alternate: StatementNode | null;
 }
 ```
-`ForBinding` represents a `in` or `of` binding and has been modified to contain an list of `VariableDeclaration`.
-
-See [13.7 Iteration Statements](https://tc39.es/ecma262/#sec-iteration-statements)
-
 
 ### VariableDeclaration
 
 ```js
 interface VariableStatement <: Declaration {
-    kind: NodeKind.VariableDeclaration;
-    declarationList: [ VariableDeclaration ];
-    isDeclared: boolean;
+  kind: NodeKind.VariableDeclaration;
+  varKeyword: SyntaxToken<TokenSyntaxKind>;
+  declarationList: [ VariableDeclaration ];
 }
 ```
-
-`isDeclared` is not necessary and is part of `TypeScript`
 
 ### ReturnStatement
 
 ```js
 interface ReturnStatement <: Statements {
-    kind: NodeKind.ReturnStatement;
-    expression: Expression | null;
+  kind: NodeKind.ReturnStatement;
+  returnKeyword: SyntaxToken<TokenSyntaxKind>;
+  expression: Expression | null;
 }
 ```
 
@@ -233,9 +246,9 @@ interface ReturnStatement <: Statements {
 
 ```js
 interface LabeledStatement <: Statements {
-    kind: NodeKind.LabeledStatement;
-    label: IdentifierReference;
-    statement: Statement;
+  kind: NodeKind.LabeledStatement;
+  label: IdentifierReference;
+  statement: Statement;
 }
 ```
 
@@ -243,7 +256,8 @@ interface LabeledStatement <: Statements {
 
 ```js
 interface DebuggerStatement <: Statements {
-    kind: NodeKind.DebuggerStatement;
+  kind: NodeKind.DebuggerStatement;
+  debuggerKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 
@@ -251,8 +265,8 @@ interface DebuggerStatement <: Statements {
 
 ```js
 interface ExpressionStatement <: Statements {
-    kind: NodeKind.ExpressionStatement;
-    expression: Expression;
+  kind: NodeKind.ExpressionStatement;
+  expression: Expression;
 }
 ```
 
@@ -260,7 +274,7 @@ interface ExpressionStatement <: Statements {
 
 ```js
 interface EmptyStatement <: Statements {
-    kind: NodeKind.EmptyStatement;
+  kind: NodeKind.EmptyStatement;
 }
 ```
 
@@ -268,8 +282,8 @@ interface EmptyStatement <: Statements {
 
 ```js
 interface BindingList <: Statements {
-    kind: NodeKind.BindingList;
-    bindingList: [ LexicalBinding ];
+  kind: NodeKind.BindingList;
+  bindingList: [ LexicalBinding ];
 }
 ```
 
@@ -277,54 +291,12 @@ interface BindingList <: Statements {
 
 ```js
 interface LexicalBinding <: Statements {
-    kind: NodeKind.LexicalBinding;
-    binding: BindingPattern | BindingIdentifier;
-    exclamation: boolean;
-    type: TypeNode;
-    initializer: Expression | null;
-}
-```
-`exclamation` and `type` is not necessary and is part of `TypeScript`
-
-## AsyncGeneratorDeclaration
-
-```js
-interface AsyncGeneratorDeclaration <: Statements {
-    kind: NodeKind.AsyncGeneratorDeclaration;
-    name: BindingIdentifier;
-    formalParameters: FormalParameterList;
-    contents: FunctionBody;
-    isDeclared: boolean;
-    typeParameters: TypeParameters;
-    type: TypeNode | null;
-}
-```
-
-## AsyncFunctionDeclaration
-
-```js
-interface AsyncFunctionDeclaration <: Statements {
-    kind: NodeKind.AsyncFunctionDeclaration;
-    name: BindingIdentifier;
-    formalParameters: FormalParameterList;
-    contents: FunctionBody;
-    isDeclared: boolean;
-    typeParameters: TypeParameters;
-    type: TypeNode | null;
-}
-```
-
-## GeneratorDeclaration
-
-```js
-interface GeneratorDeclaration <: Statements {
-    kind: NodeKind.GeneratorDeclaration;
-    name: BindingIdentifier;
-    formalParameters: FormalParameterList;
-    contents: FunctionBody;
-    isDeclared: boolean;
-    typeParameters: TypeParameters;
-    type: TypeNode | null;
+  kind: NodeKind.LexicalBinding;
+  lexicalKeyword: SyntaxToken<TokenSyntaxKind>;
+  binding: BindingPattern | BindingIdentifier;
+  exclamation: boolean;
+  type: TypeNode;
+  initializer: Expression | null;
 }
 ```
 
@@ -332,13 +304,16 @@ interface GeneratorDeclaration <: Statements {
 
 ```js
 interface FunctionDeclaration <: Statements {
-    kind: NodeKind.FunctionDeclaration;
-    name: BindingIdentifier;
-    formalParameters: FormalParameterList;
-    contents: FunctionBody;
-    isDeclared: boolean;
-    typeParameters: TypeParameters;
-    type: TypeNode | null;
+  kind: NodeKind.FunctionDeclaration;
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  functionKeyword: SyntaxToken<TokenSyntaxKind>;
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  name: Identifier | null;
+  formalParameters: FormalParameterList;
+  contents: FunctionBody | null;
+  typeParameters: TypeParameter | null;
+  returnType: TypeNode | null;
 }
 ```
 
@@ -346,25 +321,14 @@ interface FunctionDeclaration <: Statements {
 
 ```js
 interface ClassDeclaration <: Statements {
-    kind: NodeKind.ClassDeclaration;
-    name: BindingIdentifier | null;
-    typeParameters: TypeParameters;
-    classHeritage: Expression | null;
-    classElementList: ClassElementList;
-    isDeclared: boolean;
-}
-```
-
-## AbstractClassDeclaration
-
-```js
-interface AbstractClassDeclaration <: Statements {
-    kind: NodeKind.AbstractClassDeclaration;
-    name: BindingIdentifier | null;
-    typeParameters: TypeParameters;
-    classHeritage: Expression | null;
-    classElementList: ClassElementList;
-    isDeclared: boolean;
+  kind: NodeKind.ClassDeclaration;
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  decorators: DecoratorList | null;
+  classKeyword: SyntaxToken<TokenSyntaxKind>;
+  name: Identifier | null;
+  typeParameters: TypeParameter | null;
+  classHeritage: ExpressionNode | null;
+  members: ClassElementList;
 }
 ```
 
@@ -374,8 +338,5 @@ interface AbstractClassDeclaration <: Statements {
 interface LexicalDeclaration <: Statements {
     kind: NodeKind.LexicalDeclaration;
     bindingList: BindingList;
-    isConst: boolean;
-    isDeclared: boolean,
 }
 ```
-`isConst` should be set to `true` for lexical `const` declarations

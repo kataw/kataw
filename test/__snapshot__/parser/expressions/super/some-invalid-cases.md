@@ -55,7 +55,7 @@ let x = { foo(){ super(); } };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 7,
@@ -131,7 +131,7 @@ let x = { foo(){ super(); } };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 38,
@@ -235,7 +235,7 @@ let x = { foo(){ super(); } };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 71,
@@ -334,7 +334,7 @@ let x = { foo(){ super(); } };
             "typeParameters": null,
             "classHeritage": {
                 "kind": 279,
-                "extendsToken": {
+                "extendsKeyword": {
                     "kind": 4194391,
                     "flags": 768,
                     "start": 107,
@@ -1149,7 +1149,7 @@ let x = { foo(){ super(); } };
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 337,
@@ -1337,7 +1337,7 @@ let x = { foo(){ super(); } };
                                             "typeParameters": null,
                                             "classHeritage": {
                                                 "kind": 279,
-                                                "extendsToken": {
+                                                "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 768,
                                                     "start": 399,

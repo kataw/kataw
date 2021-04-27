@@ -1768,8 +1768,8 @@ function parsePropertyDefinition(
   const pos = parser.curPos;
 
   if (parser.token & SyntaxKind.IsEllipsis) {
-    nextToken(parser, context | Context.AllowRegExp);
-    return createSpreadProperty(paresSpreadPropertyArgument(parser, context, type), pos, parser.curPos);
+    const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+    return createSpreadProperty(ellipsisToken, paresSpreadPropertyArgument(parser, context, type), pos, parser.curPos);
   }
 
   let key: any;
@@ -2471,8 +2471,8 @@ function parseArrayLiteralElement(
   }
 
   if (parser.token & SyntaxKind.IsEllipsis) {
-    nextToken(parser, context | Context.AllowRegExp); // skips: '...'
-    return createSpreadElement(parseArraySpreadArgument(parser, context, type), pos, parser.curPos);
+    const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+    return createSpreadElement(ellipsisToken, parseArraySpreadArgument(parser, context, type), pos, parser.curPos);
   }
 
   if (parser.token & SyntaxKind.IsComma) {
@@ -2608,8 +2608,9 @@ function parseArraySpreadArgument(parser: ParserState, context: Context, type: B
 
 function parseSpreadElement(parser: ParserState, context: Context): SpreadElement {
   const pos = parser.curPos;
-  nextToken(parser, context);
+  const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
   return createSpreadElement(
+    ellipsisToken,
     parseExpression(parser, (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000),
     pos,
     parser.curPos
@@ -5844,7 +5845,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       }
     } else if (parser.token === SyntaxKind.Ellipsis) {
       state = Tristate.Unknown;
-      nextToken(parser, context);
+      const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
 
       let argument: any;
 
@@ -5915,7 +5916,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
         }
       }
-      expression = createSpreadElement(argument, pos, parser.curPos);
+      expression = createSpreadElement(ellipsisToken, argument, pos, parser.curPos);
 
       destructible |=
         (parser.token as SyntaxKind) === SyntaxKind.RightParen

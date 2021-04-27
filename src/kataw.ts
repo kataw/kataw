@@ -33,6 +33,7 @@ export {
   isStartOfType,
   isSemicolon
 } from './parser/common';
+export { forEachChild } from './forEachChild';
 
 export function parseScript(source: string, options?: Options, onError?: OnError): RootNode {
   return parse(source, /* filename */ '__root__', Context.None, /* isModule */ false, options, onError);

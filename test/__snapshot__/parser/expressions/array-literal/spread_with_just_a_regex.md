@@ -43,6 +43,12 @@
                     "elements": [
                         {
                             "kind": 223,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 768,
+                                "start": 1,
+                                "end": 4
+                            },
                             "argument": {
                                 "kind": 221,
                                 "text": "/x/",
