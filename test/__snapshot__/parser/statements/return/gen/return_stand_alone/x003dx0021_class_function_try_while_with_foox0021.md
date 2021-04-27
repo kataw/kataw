@@ -32,7 +32,6 @@ return =! class function try while with foo!
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 6,
                     "end": 6
@@ -100,7 +99,6 @@ return =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 24,
                 "end": 24
@@ -205,7 +203,6 @@ return =! class function try while with foo!
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 44,
                         "end": 44

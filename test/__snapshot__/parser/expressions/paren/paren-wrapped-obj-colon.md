@@ -73,7 +73,6 @@
                                                     "start": 15,
                                                     "end": 16
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 4,
                                                 "end": 16
@@ -246,7 +245,6 @@
                                                     "start": 58,
                                                     "end": 59
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 51,
                                                 "end": 59
@@ -627,7 +625,6 @@
                                                             "start": 151,
                                                             "end": 152
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 140,
                                                         "end": 152
@@ -894,7 +891,6 @@
                                                             "start": 214,
                                                             "end": 215
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 207,
                                                         "end": 215

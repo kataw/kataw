@@ -265,7 +265,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                 "start": 125,
                                                 "end": 133
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 118,
                                             "end": 133
@@ -419,7 +418,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                     "start": 203,
                                                     "end": 207
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 187,
                                                 "end": 207

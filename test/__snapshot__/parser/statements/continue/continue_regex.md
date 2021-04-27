@@ -50,7 +50,6 @@ for (x of 3) continue/x/
                 "label": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 21,
                     "end": 21
@@ -73,7 +72,6 @@ for (x of 3) continue/x/
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 21,
                         "end": 21
@@ -105,7 +103,6 @@ for (x of 3) continue/x/
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 24,
                     "end": 24

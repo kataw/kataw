@@ -19,6 +19,12 @@ a?.`x`
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 1,
+                    "end": 3
+                },
                 "member": {
                     "kind": 134299649,
                     "text": "a",

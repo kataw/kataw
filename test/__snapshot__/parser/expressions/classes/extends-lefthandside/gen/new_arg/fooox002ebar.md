@@ -52,7 +52,6 @@ new fooo.bar
                     "start": 9,
                     "end": 12
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 12

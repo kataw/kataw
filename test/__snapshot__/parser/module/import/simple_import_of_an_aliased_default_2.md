@@ -57,7 +57,6 @@ import x, * as a from "y"
                     "end": 16
                 },
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 16

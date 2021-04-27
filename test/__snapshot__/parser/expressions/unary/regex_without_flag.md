@@ -42,7 +42,6 @@ delete /foo/.bar;
                         "start": 13,
                         "end": 16
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 6,
                     "end": 16

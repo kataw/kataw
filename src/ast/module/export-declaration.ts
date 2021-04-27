@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StringLiteral } from '../expressions/string-literal';
 import { NamedExports } from './named-exports';
@@ -44,7 +44,6 @@ export function createExportDeclaration(
     namedExports,
     exportFromClause,
     fromClause,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.IsStatement,
     start,
     end

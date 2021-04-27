@@ -70,7 +70,6 @@
                                             "start": 10,
                                             "end": 11
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 2,
                                         "end": 11
@@ -160,7 +159,6 @@
                                             "start": 32,
                                             "end": 33
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 23,
                                         "end": 33
@@ -463,7 +461,6 @@
                                             "start": 91,
                                             "end": 92
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 84,
                                         "end": 92
@@ -568,7 +565,6 @@
                                             "start": 110,
                                             "end": 111
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 106,
                                         "end": 111
@@ -1228,7 +1224,6 @@
                                                     "start": 246,
                                                     "end": 247
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 238,
                                                 "end": 247
@@ -1334,7 +1329,6 @@
                                                     "start": 271,
                                                     "end": 272
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 262,
                                                 "end": 272
@@ -1685,7 +1679,6 @@
                                                     "start": 339,
                                                     "end": 340
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 332,
                                                 "end": 340
@@ -1806,7 +1799,6 @@
                                                     "start": 361,
                                                     "end": 362
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 357,
                                                 "end": 362

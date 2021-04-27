@@ -96,7 +96,6 @@ var z = x + x;
                         "start": 14,
                         "end": 18
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 11,
                     "end": 18

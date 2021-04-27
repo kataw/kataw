@@ -348,7 +348,6 @@ a = { y: x = 1 } = b;
                                             "start": 53,
                                             "end": 54
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 46,
                                         "end": 54
@@ -477,7 +476,6 @@ a = { y: x = 1 } = b;
                                             "start": 83,
                                             "end": 87
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 69,
                                         "end": 87
@@ -1642,7 +1640,6 @@ a = { y: x = 1 } = b;
                                             "start": 365,
                                             "end": 368
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 360,
                                         "end": 368
@@ -2117,7 +2114,6 @@ a = { y: x = 1 } = b;
                                             "start": 482,
                                             "end": 483
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 474,
                                         "end": 483
@@ -3087,7 +3083,6 @@ a = { y: x = 1 } = b;
                                                             "start": 731,
                                                             "end": 732
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 724,
                                                         "end": 732
@@ -4195,7 +4190,6 @@ a = { y: x = 1 } = b;
                                                 "start": 999,
                                                 "end": 1000
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 995,
                                             "end": 1000
@@ -4208,7 +4202,6 @@ a = { y: x = 1 } = b;
                                             "start": 1001,
                                             "end": 1002
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 995,
                                         "end": 1002

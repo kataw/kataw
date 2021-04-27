@@ -151,7 +151,6 @@ function * gen() { function not_gen() { function* gf() { yield++; } }}
                                                                     "expression": {
                                                                         "kind": 16637,
                                                                         "text": "",
-                                                                        "autofix": 0,
                                                                         "flags": 12,
                                                                         "start": 64,
                                                                         "end": 64

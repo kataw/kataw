@@ -75,7 +75,6 @@ async x => ok.x
                         "start": 14,
                         "end": 15
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 10,
                     "end": 15

@@ -37,7 +37,6 @@
                                     "member": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 1,
                                         "end": 1
@@ -86,7 +85,6 @@
                                     "start": 10,
                                     "end": 16
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 1,
                                 "end": 16

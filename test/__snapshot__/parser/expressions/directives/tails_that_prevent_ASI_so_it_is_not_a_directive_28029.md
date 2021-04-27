@@ -69,7 +69,6 @@ function f(){ "use strict"
                                     "start": 44,
                                     "end": 47
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 13,
                                 "end": 47

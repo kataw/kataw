@@ -21,6 +21,12 @@ foo?.bar *= x
                 "kind": 125,
                 "left": {
                     "kind": 205,
+                    "chainToken": {
+                        "kind": 393240,
+                        "flags": 768,
+                        "start": 3,
+                        "end": 5
+                    },
                     "member": {
                         "kind": 134299649,
                         "text": "foo",

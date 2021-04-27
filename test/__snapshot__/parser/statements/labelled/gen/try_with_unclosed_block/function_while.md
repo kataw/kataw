@@ -105,7 +105,6 @@ try {} finally(x) { function while
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 28,
                             "end": 28
@@ -150,7 +149,6 @@ try {} finally(x) { function while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 34,
                             "end": 34
@@ -160,7 +158,6 @@ try {} finally(x) { function while
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 34,
                                 "end": 34

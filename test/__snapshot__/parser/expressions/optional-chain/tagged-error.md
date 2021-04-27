@@ -23,6 +23,12 @@ a?.()``;
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 1,
+                    "end": 3
+                },
                 "member": {
                     "kind": 134299649,
                     "text": "a",
@@ -78,6 +84,12 @@ a?.()``;
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 10,
+                    "end": 12
+                },
                 "member": {
                     "kind": 134299649,
                     "text": "a",
@@ -133,6 +145,12 @@ a?.()``;
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 23,
+                    "end": 25
+                },
                 "member": {
                     "kind": 134299649,
                     "text": "a",

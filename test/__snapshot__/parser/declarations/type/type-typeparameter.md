@@ -292,7 +292,6 @@ type B = Foo<
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 95,
                     "end": 95
@@ -306,7 +305,6 @@ type B = Foo<
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 97,
                     "end": 97

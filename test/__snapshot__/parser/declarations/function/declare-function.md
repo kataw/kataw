@@ -124,7 +124,6 @@ declare function foo(): void
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 31,
                         "end": 31
@@ -279,7 +278,6 @@ declare function foo(): void
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 82,
                     "end": 82
@@ -367,7 +365,6 @@ declare function foo(): void
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 113,
                     "end": 113

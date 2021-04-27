@@ -32,7 +32,6 @@ if =! class function try while with foo! else
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 2,
                     "end": 2
@@ -96,7 +95,6 @@ if =! class function try while with foo! else
                 "name": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 20,
                     "end": 20
@@ -207,7 +205,6 @@ if =! class function try while with foo! else
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 40,
                         "end": 40

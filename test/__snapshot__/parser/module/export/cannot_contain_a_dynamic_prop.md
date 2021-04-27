@@ -73,19 +73,16 @@ var foo; export {[foo]}
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 17,
                     "end": 17
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 15,
                 "end": 17
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 8,
             "end": 17

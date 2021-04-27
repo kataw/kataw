@@ -87,7 +87,6 @@ x={ foo(a = super.foo){ }}
                                                     "start": 18,
                                                     "end": 21
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 11,
                                                 "end": 21

@@ -49,7 +49,6 @@ new false.__proto__.constructor
                         "start": 10,
                         "end": 19
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 0,
                     "end": 19
@@ -62,7 +61,6 @@ new false.__proto__.constructor
                     "start": 20,
                     "end": 31
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 31

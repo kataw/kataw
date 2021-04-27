@@ -50,7 +50,6 @@ import foo from "foo";
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 10

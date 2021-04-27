@@ -77,7 +77,6 @@ new foo().bar++;
                         "start": 11,
                         "end": 14
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 6,
                     "end": 14
@@ -226,7 +225,6 @@ new foo().bar++;
                         "start": 50,
                         "end": 53
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 43,
                     "end": 53
@@ -265,7 +263,6 @@ new foo().bar++;
                         "start": 62,
                         "end": 65
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 56,
                     "end": 65
@@ -424,7 +421,6 @@ new foo().bar++;
                         "start": 110,
                         "end": 113
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 99,
                     "end": 113

@@ -54,18 +54,15 @@ export {a \u0061s b} from "x";
                                 "start": 17,
                                 "end": 19
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 19
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 19
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 20
@@ -79,7 +76,6 @@ export {a \u0061s b} from "x";
                 "start": 25,
                 "end": 29
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 30

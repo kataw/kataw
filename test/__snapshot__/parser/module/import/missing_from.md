@@ -60,7 +60,6 @@ import {a, b} fromx "c"
                                     "end": 9
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -77,22 +76,18 @@ import {a, b} fromx "c"
                                     "end": 12
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 10,
                                 "end": 12
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 12
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 13
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 13

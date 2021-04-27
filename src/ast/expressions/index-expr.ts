@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ExpressionNode } from '.';
 
 export interface IndexExpression extends SyntaxNode {
@@ -16,7 +16,6 @@ export function createIndexExpression(
     kind: SyntaxKind.IndexExpression,
     member,
     expression,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.ExpressionNode,
     start,
     end

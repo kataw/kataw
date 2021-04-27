@@ -54,7 +54,6 @@ async () => {  \u0065xport = x  }
                             "namedExports": null,
                             "exportFromClause": null,
                             "fromClause": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 13,
                             "end": 26

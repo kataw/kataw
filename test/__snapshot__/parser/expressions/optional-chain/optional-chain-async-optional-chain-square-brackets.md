@@ -67,6 +67,12 @@ async function x() {
                                 },
                                 "expression": {
                                     "kind": 205,
+                                    "chainToken": {
+                                        "kind": 393240,
+                                        "flags": 768,
+                                        "start": 38,
+                                        "end": 40
+                                    },
                                     "member": {
                                         "kind": 220,
                                         "propertyList": {

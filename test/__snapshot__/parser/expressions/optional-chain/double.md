@@ -19,6 +19,12 @@ a?.?.b
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 1,
+                    "end": 3
+                },
                 "member": {
                     "kind": 134299649,
                     "text": "a",
@@ -41,10 +47,15 @@ a?.?.b
                                     "text": "a",
                                     "expression": {
                                         "kind": 205,
+                                        "chainToken": {
+                                            "kind": 393240,
+                                            "flags": 768,
+                                            "start": 3,
+                                            "end": 5
+                                        },
                                         "member": {
                                             "kind": 16637,
                                             "text": "",
-                                            "autofix": 0,
                                             "flags": 12,
                                             "start": 3,
                                             "end": 3

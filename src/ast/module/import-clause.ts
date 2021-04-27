@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { NamedImports } from './named-imports';
 import { Identifier } from '../expressions/identifier-expr';
 
@@ -20,7 +20,6 @@ export function createImportClause(
     defaultBinding,
     nameSpaceImport,
     namedImports,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.IsStatement,
     start,
     end

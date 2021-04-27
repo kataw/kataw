@@ -497,7 +497,6 @@
                                             "start": 91,
                                             "end": 92
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 88,
                                         "end": 92
@@ -914,7 +913,6 @@
                                                                                     "start": 182,
                                                                                     "end": 183
                                                                                 },
-                                                                                "autofix": 0,
                                                                                 "flags": 256,
                                                                                 "start": 179,
                                                                                 "end": 183
@@ -1559,7 +1557,6 @@
                                                                     "start": 318,
                                                                     "end": 319
                                                                 },
-                                                                "autofix": 0,
                                                                 "flags": 256,
                                                                 "start": 315,
                                                                 "end": 319
@@ -1810,7 +1807,6 @@
                                                     "start": 374,
                                                     "end": 375
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 367,
                                                 "end": 375
@@ -2248,7 +2244,6 @@
                                                     "start": 470,
                                                     "end": 471
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 467,
                                                 "end": 471
@@ -2482,7 +2477,6 @@
                                             "start": 519,
                                             "end": 520
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 512,
                                         "end": 520
@@ -2729,7 +2723,6 @@
                                             "start": 572,
                                             "end": 573
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 569,
                                         "end": 573

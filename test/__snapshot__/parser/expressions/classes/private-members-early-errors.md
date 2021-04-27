@@ -124,7 +124,6 @@ class C { foo() { this.#a = 1; }}
                                                                     "start": 28,
                                                                     "end": 30
                                                                 },
-                                                                "autofix": 0,
                                                                 "flags": 256,
                                                                 "start": 22,
                                                                 "end": 30
@@ -261,7 +260,6 @@ class C { foo() { this.#a = 1; }}
                                                                     "start": 75,
                                                                     "end": 77
                                                                 },
-                                                                "autofix": 0,
                                                                 "flags": 256,
                                                                 "start": 69,
                                                                 "end": 77
@@ -411,7 +409,6 @@ class C { foo() { this.#a = 1; }}
                                                     "start": 126,
                                                     "end": 128
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 120,
                                                 "end": 128
@@ -523,7 +520,6 @@ class C { foo() { this.#a = 1; }}
                                                         "start": 157,
                                                         "end": 159
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 151,
                                                     "end": 159

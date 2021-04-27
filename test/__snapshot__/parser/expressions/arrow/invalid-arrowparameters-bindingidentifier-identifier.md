@@ -42,7 +42,6 @@ var af = switch => 1;
                         "initializer": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 8,
                             "end": 8
@@ -71,7 +70,6 @@ var af = switch => 1;
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 15,
                 "end": 15

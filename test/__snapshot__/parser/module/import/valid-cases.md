@@ -80,22 +80,18 @@ import { a as b } from 'm.js';
                                     "end": 15
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 15
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 15
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 17
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 17
@@ -133,7 +129,6 @@ import { a as b } from 'm.js';
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 38,
                 "end": 40
@@ -188,22 +183,18 @@ import { a as b } from 'm.js';
                                     "end": 70
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 63,
                                 "end": 70
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 63,
                         "end": 70
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 61,
                     "end": 72
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 61,
                 "end": 72
@@ -241,7 +232,6 @@ import { a as b } from 'm.js';
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 93,
                 "end": 95
@@ -283,18 +273,15 @@ import { a as b } from 'm.js';
                                 "start": 123,
                                 "end": 125
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 118,
                             "end": 125
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 118,
                     "end": 125
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 116,
                 "end": 127
@@ -308,7 +295,6 @@ import { a as b } from 'm.js';
                 "start": 132,
                 "end": 139
             },
-            "autofix": 0,
             "flags": 128,
             "start": 108,
             "end": 140
@@ -342,7 +328,6 @@ import { a as b } from 'm.js';
                     "end": 157
                 },
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 148,
                 "end": 157
@@ -397,22 +382,18 @@ import { a as b } from 'm.js';
                                     "end": 189
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 182,
                                 "end": 189
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 182,
                         "end": 189
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 180,
                     "end": 191
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 180,
                 "end": 191

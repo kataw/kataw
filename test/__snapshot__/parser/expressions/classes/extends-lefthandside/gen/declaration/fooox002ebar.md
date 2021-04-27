@@ -64,7 +64,6 @@ class A extends fooo.bar {}
                         "start": 21,
                         "end": 24
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 15,
                     "end": 24

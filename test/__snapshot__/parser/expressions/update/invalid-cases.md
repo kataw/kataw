@@ -202,7 +202,6 @@ new new foo().bar++;
                             "start": 42,
                             "end": 45
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 36,
                         "end": 45
@@ -265,7 +264,6 @@ new new foo().bar++;
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 50,
                                             "end": 60
@@ -290,7 +288,6 @@ new new foo().bar++;
                                         "start": 66,
                                         "end": 69
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 50,
                                     "end": 69
@@ -474,7 +471,6 @@ new new foo().bar++;
                         "start": 120,
                         "end": 123
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 104,
                     "end": 123
@@ -543,7 +539,6 @@ new new foo().bar++;
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 136,
                     "end": 136

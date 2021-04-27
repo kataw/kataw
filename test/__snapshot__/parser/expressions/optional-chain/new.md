@@ -27,6 +27,12 @@ new foo?.bar
                 },
                 "expression": {
                     "kind": 205,
+                    "chainToken": {
+                        "kind": 393240,
+                        "flags": 768,
+                        "start": 7,
+                        "end": 9
+                    },
                     "member": {
                         "kind": 134299649,
                         "text": "foo",

@@ -127,7 +127,6 @@ for (function(){ a in b; }.prop in x);
                     "start": 27,
                     "end": 31
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 31

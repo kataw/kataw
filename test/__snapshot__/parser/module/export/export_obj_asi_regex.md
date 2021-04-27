@@ -36,19 +36,16 @@ export {}
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 8
                 },
-                "autofix": 0,
                 "flags": 1,
                 "start": 6,
                 "end": 9
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 9
@@ -62,7 +59,6 @@ export {}
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 9,
                         "end": 9
@@ -94,7 +90,6 @@ export {}
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15

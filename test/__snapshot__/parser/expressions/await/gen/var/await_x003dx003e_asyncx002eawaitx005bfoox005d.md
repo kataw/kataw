@@ -128,7 +128,6 @@ var await; var f = (async function() { await => async.await[foo] });
                         "start": 54,
                         "end": 59
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 47,
                     "end": 59

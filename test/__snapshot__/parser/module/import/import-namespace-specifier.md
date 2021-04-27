@@ -50,7 +50,6 @@ import * as foo from "foo";
                     "end": 15
                 },
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 15

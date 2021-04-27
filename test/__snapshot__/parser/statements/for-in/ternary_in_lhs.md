@@ -108,7 +108,6 @@ for (a ? b : c in x);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 19,
                 "end": 19

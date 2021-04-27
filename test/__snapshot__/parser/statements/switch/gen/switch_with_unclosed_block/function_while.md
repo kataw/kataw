@@ -93,7 +93,6 @@ switch {} default(x) { function while
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "autofix": 0,
                                                 "flags": 12,
                                                 "start": 31,
                                                 "end": 31
@@ -138,7 +137,6 @@ switch {} default(x) { function while
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "autofix": 0,
                                                 "flags": 12,
                                                 "start": 37,
                                                 "end": 37
@@ -148,7 +146,6 @@ switch {} default(x) { function while
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "autofix": 0,
                                                     "flags": 12,
                                                     "start": 37,
                                                     "end": 37

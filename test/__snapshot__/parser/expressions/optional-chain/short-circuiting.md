@@ -28,8 +28,20 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "kind": 131,
                     "expression": {
                         "kind": 205,
+                        "chainToken": {
+                            "kind": 393240,
+                            "flags": 768,
+                            "start": 31,
+                            "end": 33
+                        },
                         "member": {
                             "kind": 205,
+                            "chainToken": {
+                                "kind": 393240,
+                                "flags": 768,
+                                "start": 1,
+                                "end": 3
+                            },
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -169,7 +181,6 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "start": 42,
                     "end": 43
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 43
@@ -186,8 +197,20 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "kind": 131,
                     "expression": {
                         "kind": 205,
+                        "chainToken": {
+                            "kind": 393240,
+                            "flags": 768,
+                            "start": 119,
+                            "end": 121
+                        },
                         "member": {
                             "kind": 205,
+                            "chainToken": {
+                                "kind": 393240,
+                                "flags": 768,
+                                "start": 81,
+                                "end": 83
+                            },
                             "member": {
                                 "kind": 134299649,
                                 "text": "undefined",
@@ -327,7 +350,6 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "start": 130,
                     "end": 131
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 44,
                 "end": 131

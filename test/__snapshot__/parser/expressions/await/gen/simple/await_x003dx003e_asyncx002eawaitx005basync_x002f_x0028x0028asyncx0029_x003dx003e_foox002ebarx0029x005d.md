@@ -60,7 +60,6 @@ await => async.await[async / ((async) => foo.bar)]
                             "start": 15,
                             "end": 20
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 8,
                         "end": 20
@@ -122,7 +121,6 @@ await => async.await[async / ((async) => foo.bar)]
                                         "start": 45,
                                         "end": 48
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 40,
                                     "end": 48

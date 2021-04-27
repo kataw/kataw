@@ -136,7 +136,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 43,
                         "end": 43

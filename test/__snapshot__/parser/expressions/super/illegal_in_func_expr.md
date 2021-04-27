@@ -82,7 +82,6 @@ x = function(){ super.foo; }
                                             "start": 22,
                                             "end": 25
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 15,
                                         "end": 25

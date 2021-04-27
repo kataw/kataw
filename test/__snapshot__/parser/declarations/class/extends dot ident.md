@@ -66,7 +66,6 @@ class v extends.foo {}
                     "member": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 15,
                         "end": 15
@@ -79,7 +78,6 @@ class v extends.foo {}
                         "start": 16,
                         "end": 19
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 15,
                     "end": 19

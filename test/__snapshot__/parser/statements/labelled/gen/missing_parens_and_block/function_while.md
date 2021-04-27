@@ -88,7 +88,6 @@ try catch function while
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 18,
                 "end": 18
@@ -133,7 +132,6 @@ try catch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 24,
                 "end": 24
@@ -143,7 +141,6 @@ try catch function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 24,
                     "end": 24

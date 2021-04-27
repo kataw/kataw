@@ -32,7 +32,6 @@ class while {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 5,
                 "end": 5
@@ -78,7 +77,6 @@ class while {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 14,
                     "end": 14

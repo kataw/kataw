@@ -67,7 +67,6 @@ import {x as a, z} from "y"
                                     "end": 14
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 14
                             },
@@ -84,22 +83,18 @@ import {x as a, z} from "y"
                                     "end": 17
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 15,
                                 "end": 17
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 17
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 18
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 18

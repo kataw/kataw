@@ -3094,7 +3094,6 @@
                                     "start": 532,
                                     "end": 533
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 525,
                                 "end": 533
@@ -3179,7 +3178,6 @@
                                     "start": 546,
                                     "end": 547
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 542,
                                 "end": 547
@@ -3255,7 +3253,6 @@
                                     "start": 563,
                                     "end": 566
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 559,
                                 "end": 566
@@ -3417,7 +3414,6 @@
                                             "start": 595,
                                             "end": 596
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 593,
                                         "end": 596
@@ -3659,7 +3655,6 @@
                                                     "start": 643,
                                                     "end": 644
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 641,
                                                 "end": 644
@@ -3778,7 +3773,6 @@
                                                 "start": 668,
                                                 "end": 669
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 666,
                                             "end": 669
@@ -3972,7 +3966,6 @@
                                                     "start": 703,
                                                     "end": 704
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 696,
                                                 "end": 704
@@ -4105,7 +4098,6 @@
                                                     "start": 729,
                                                     "end": 733
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 719,
                                                 "end": 733
@@ -4223,7 +4215,6 @@
                                             "start": 758,
                                             "end": 762
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 744,
                                         "end": 762
@@ -4341,7 +4332,6 @@
                                     "start": 780,
                                     "end": 781
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 773,
                                 "end": 781
@@ -4443,7 +4433,6 @@
                                         "start": 798,
                                         "end": 799
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 790,
                                     "end": 799
@@ -4532,7 +4521,6 @@
                                     "start": 813,
                                     "end": 814
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 809,
                                 "end": 814
@@ -4602,7 +4590,6 @@
                                     "start": 827,
                                     "end": 830
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 823,
                                 "end": 830
@@ -4625,7 +4612,6 @@
                                     "start": 836,
                                     "end": 839
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 831,
                                 "end": 839
@@ -4729,7 +4715,6 @@
                                         "start": 857,
                                         "end": 858
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 852,
                                     "end": 858
@@ -4837,7 +4822,6 @@
                                             "start": 883,
                                             "end": 887
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 869,
                                         "end": 887
@@ -6349,7 +6333,6 @@
                                                 "start": 1173,
                                                 "end": 1174
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 1168,
                                             "end": 1174
@@ -6362,7 +6345,6 @@
                                             "start": 1175,
                                             "end": 1176
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 1168,
                                         "end": 1176
@@ -6499,7 +6481,6 @@
                                                 "start": 1208,
                                                 "end": 1209
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 1203,
                                             "end": 1209
@@ -6512,7 +6493,6 @@
                                             "start": 1210,
                                             "end": 1211
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 1203,
                                         "end": 1211
@@ -6760,7 +6740,6 @@
                                         "start": 1266,
                                         "end": 1267
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 1263,
                                     "end": 1267
@@ -6970,7 +6949,6 @@
                                             "start": 1317,
                                             "end": 1318
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 1312,
                                         "end": 1318
@@ -6983,7 +6961,6 @@
                                         "start": 1319,
                                         "end": 1320
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 1312,
                                     "end": 1320
@@ -7183,7 +7160,6 @@
                                     "start": 1364,
                                     "end": 1365
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 1361,
                                 "end": 1365

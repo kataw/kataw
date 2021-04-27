@@ -330,7 +330,6 @@
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 55,
                         "end": 55
@@ -944,7 +943,6 @@
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 184,
                                         "end": 184
@@ -1078,7 +1076,6 @@
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 208,
                                         "end": 208

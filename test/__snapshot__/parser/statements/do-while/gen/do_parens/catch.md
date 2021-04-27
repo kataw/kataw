@@ -30,7 +30,6 @@ do( catch while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 9,
                 "end": 9
@@ -43,7 +42,6 @@ do( catch while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 3,
                         "end": 3
@@ -71,7 +69,6 @@ do( catch while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 15,
                 "end": 15
@@ -81,7 +78,6 @@ do( catch while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15

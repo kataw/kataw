@@ -54,18 +54,15 @@ export {foo as bar} from "foo";
                                 "start": 14,
                                 "end": 18
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 18
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 18
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 19
@@ -79,7 +76,6 @@ export {foo as bar} from "foo";
                 "start": 24,
                 "end": 30
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 31

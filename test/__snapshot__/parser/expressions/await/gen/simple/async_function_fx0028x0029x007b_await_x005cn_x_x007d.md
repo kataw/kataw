@@ -70,7 +70,6 @@ async function f(){ await \n x; }
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 25,
                                     "end": 25

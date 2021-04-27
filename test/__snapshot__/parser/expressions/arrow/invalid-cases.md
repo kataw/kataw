@@ -135,7 +135,6 @@ a++ => {};
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15
@@ -218,7 +217,6 @@ a++ => {};
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 43,
                             "end": 43
@@ -226,7 +224,6 @@ a++ => {};
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 44,
                             "end": 44
@@ -275,7 +272,6 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 59,
                 "end": 59
@@ -411,7 +407,6 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 218,
                     "end": 218
@@ -429,7 +424,6 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 222,
                 "end": 222
@@ -445,7 +439,6 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 298,
                     "end": 298
@@ -1925,7 +1918,6 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 1343,
                 "end": 1343
@@ -1935,7 +1927,6 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 1343,
                     "end": 1343
@@ -1977,7 +1968,6 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 1352,
                     "end": 1352
@@ -2001,7 +1991,6 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 1354,
                 "end": 1354
@@ -2011,7 +2000,6 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 1355,
                     "end": 1355
@@ -2085,7 +2073,6 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 1369,
                 "end": 1369
@@ -2095,7 +2082,6 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 1370,
                     "end": 1370
@@ -3388,7 +3374,6 @@ a++ => {};
                                 "start": 1709,
                                 "end": 1710
                             },
-                            "autofix": 0,
                             "flags": 256,
                             "start": 1705,
                             "end": 1710
@@ -3461,7 +3446,6 @@ a++ => {};
                                 "start": 1728,
                                 "end": 1729
                             },
-                            "autofix": 0,
                             "flags": 256,
                             "start": 1721,
                             "end": 1729

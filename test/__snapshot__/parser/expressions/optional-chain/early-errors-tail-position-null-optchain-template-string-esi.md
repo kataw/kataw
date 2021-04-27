@@ -20,6 +20,12 @@ null?.fn
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 4,
+                    "end": 6
+                },
                 "member": {
                     "kind": 269,
                     "text": null,

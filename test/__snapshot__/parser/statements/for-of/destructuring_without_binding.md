@@ -65,7 +65,6 @@ for ([a.b] of c) d
                                 "start": 8,
                                 "end": 9
                             },
-                            "autofix": 0,
                             "flags": 256,
                             "start": 6,
                             "end": 9

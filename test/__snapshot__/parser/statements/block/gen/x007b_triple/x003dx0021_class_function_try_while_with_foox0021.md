@@ -98,7 +98,6 @@
                                     "name": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 23,
                                         "end": 23
@@ -203,7 +202,6 @@
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "autofix": 0,
                                                 "flags": 12,
                                                 "start": 43,
                                                 "end": 43

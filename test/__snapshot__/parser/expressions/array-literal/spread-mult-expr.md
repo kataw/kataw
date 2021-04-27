@@ -243,7 +243,6 @@ var callCount = 0;
                                                         "start": 80,
                                                         "end": 89
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 70,
                                                     "end": 89
@@ -269,7 +268,6 @@ var callCount = 0;
                                                                 "start": 100,
                                                                 "end": 106
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 90,
                                                             "end": 106
@@ -318,7 +316,6 @@ var callCount = 0;
                                                         "start": 121,
                                                         "end": 130
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 111,
                                                     "end": 130
@@ -392,7 +389,6 @@ var callCount = 0;
                                                         "start": 158,
                                                         "end": 167
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 148,
                                                     "end": 167
@@ -466,7 +462,6 @@ var callCount = 0;
                                                         "start": 195,
                                                         "end": 204
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 185,
                                                     "end": 204
@@ -540,7 +535,6 @@ var callCount = 0;
                                                         "start": 232,
                                                         "end": 241
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 222,
                                                     "end": 241
@@ -614,7 +608,6 @@ var callCount = 0;
                                                         "start": 269,
                                                         "end": 278
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 259,
                                                     "end": 278
@@ -688,7 +681,6 @@ var callCount = 0;
                                                         "start": 306,
                                                         "end": 315
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 296,
                                                     "end": 315
@@ -784,7 +776,6 @@ var callCount = 0;
                             "start": 353,
                             "end": 358
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 58,
                         "end": 358

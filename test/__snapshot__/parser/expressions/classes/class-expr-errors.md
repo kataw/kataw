@@ -178,7 +178,6 @@
                                                             "start": 43,
                                                             "end": 45
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 37,
                                                         "end": 45
@@ -355,7 +354,6 @@
                                                                 "start": 88,
                                                                 "end": 90
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 82,
                                                             "end": 90
@@ -558,7 +556,6 @@
                                                                                     "start": 144,
                                                                                     "end": 146
                                                                                 },
-                                                                                "autofix": 0,
                                                                                 "flags": 256,
                                                                                 "start": 135,
                                                                                 "end": 146
@@ -775,7 +772,6 @@
                                                                 "start": 194,
                                                                 "end": 196
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 188,
                                                             "end": 196

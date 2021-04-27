@@ -42,7 +42,6 @@ export * as foo, {bar} from 'bar';
                     "start": 11,
                     "end": 15
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 0,
                 "end": 15
@@ -50,12 +49,10 @@ export * as foo, {bar} from 'bar';
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 15,
                 "end": 15
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 15

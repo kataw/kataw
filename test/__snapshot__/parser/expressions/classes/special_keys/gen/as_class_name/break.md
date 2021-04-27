@@ -32,7 +32,6 @@ class break {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 5,
                 "end": 5
@@ -61,7 +60,6 @@ class break {}
             "label": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 11,
                 "end": 11

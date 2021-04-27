@@ -30,7 +30,6 @@ switch switch switch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 6,
                 "end": 6
@@ -57,7 +56,6 @@ switch switch switch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 13,
                 "end": 13
@@ -143,7 +141,6 @@ switch switch switch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 35,
                 "end": 35
@@ -153,7 +150,6 @@ switch switch switch function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 35,
                     "end": 35

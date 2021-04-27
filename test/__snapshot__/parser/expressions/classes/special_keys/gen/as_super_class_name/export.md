@@ -49,7 +49,6 @@ class x extends export {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15
@@ -84,19 +83,16 @@ class x extends export {}
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 24,
                     "end": 24
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 22,
                 "end": 25
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 15,
             "end": 25

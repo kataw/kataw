@@ -263,7 +263,6 @@ type T27 = ArgumentType<never>;  // any
                                 "id": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 129,
                                     "end": 129
@@ -334,7 +333,6 @@ type T27 = ArgumentType<never>;  // any
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 135,
                     "end": 135
@@ -348,7 +346,6 @@ type T27 = ArgumentType<never>;  // any
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 136,
                     "end": 136

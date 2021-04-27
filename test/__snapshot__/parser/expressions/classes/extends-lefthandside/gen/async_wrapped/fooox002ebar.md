@@ -104,7 +104,6 @@ async function p(){
                                         "start": 43,
                                         "end": 46
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 37,
                                     "end": 46

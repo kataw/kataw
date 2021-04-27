@@ -60,22 +60,18 @@ import {x} from "y"
                                     "end": 9
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 9
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 9
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 10
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 10

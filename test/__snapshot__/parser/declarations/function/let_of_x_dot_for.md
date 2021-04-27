@@ -60,7 +60,6 @@ for (let.foo of x);
                     "start": 9,
                     "end": 12
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 12

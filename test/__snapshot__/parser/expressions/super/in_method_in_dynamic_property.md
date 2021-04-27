@@ -104,7 +104,6 @@ x = { foo(){ return x[super.foo]; }}
                                                             "start": 28,
                                                             "end": 31
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 22,
                                                         "end": 31

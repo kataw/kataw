@@ -20,14 +20,44 @@ a?.b?.c?.(d)?.[e].f?.g
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 19,
+                    "end": 21
+                },
                 "member": {
                     "kind": 205,
+                    "chainToken": {
+                        "kind": 393240,
+                        "flags": 768,
+                        "start": 12,
+                        "end": 14
+                    },
                     "member": {
                         "kind": 205,
+                        "chainToken": {
+                            "kind": 393240,
+                            "flags": 768,
+                            "start": 7,
+                            "end": 9
+                        },
                         "member": {
                             "kind": 205,
+                            "chainToken": {
+                                "kind": 393240,
+                                "flags": 768,
+                                "start": 4,
+                                "end": 6
+                            },
                             "member": {
                                 "kind": 205,
+                                "chainToken": {
+                                    "kind": 393240,
+                                    "flags": 768,
+                                    "start": 1,
+                                    "end": 3
+                                },
                                 "member": {
                                     "kind": 134299649,
                                     "text": "a",

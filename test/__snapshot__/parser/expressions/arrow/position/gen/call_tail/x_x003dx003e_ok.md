@@ -85,7 +85,6 @@ foo(x => ok).bar
                     "start": 13,
                     "end": 16
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 16

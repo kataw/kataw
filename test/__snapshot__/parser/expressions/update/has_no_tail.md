@@ -43,7 +43,6 @@ x.foo++.bar
                         "start": 2,
                         "end": 5
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 0,
                     "end": 5

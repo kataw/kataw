@@ -67,22 +67,18 @@ import { null as nil } from "bar"
                                     "end": 20
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 20
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 20
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 22
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 22

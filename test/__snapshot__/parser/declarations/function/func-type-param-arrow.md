@@ -386,7 +386,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 127,
                         "end": 127
@@ -451,7 +450,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 148,
                         "end": 148

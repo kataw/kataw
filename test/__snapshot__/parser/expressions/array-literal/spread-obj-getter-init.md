@@ -281,7 +281,6 @@ var callCount = 0;
                             "start": 91,
                             "end": 96
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 73,
                         "end": 96

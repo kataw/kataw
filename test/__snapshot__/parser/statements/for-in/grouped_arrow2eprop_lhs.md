@@ -98,7 +98,6 @@ for (((x)=>{}).x in y);
                     "start": 15,
                     "end": 16
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 16

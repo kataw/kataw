@@ -337,7 +337,6 @@
                                                         "start": 71,
                                                         "end": 72
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 59,
                                                     "end": 72
@@ -1608,7 +1607,6 @@
                                             "start": 325,
                                             "end": 331
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 315,
                                         "end": 331
@@ -2087,7 +2085,6 @@
                                             "start": 448,
                                             "end": 449
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 445,
                                         "end": 449
@@ -3495,7 +3492,6 @@
                                             "start": 773,
                                             "end": 774
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 766,
                                         "end": 774
@@ -3680,7 +3676,6 @@
                                         "start": 821,
                                         "end": 822
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 819,
                                     "end": 822
@@ -3753,7 +3748,6 @@
                                             "start": 836,
                                             "end": 837
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 834,
                                         "end": 837

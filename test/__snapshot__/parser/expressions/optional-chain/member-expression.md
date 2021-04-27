@@ -23,6 +23,12 @@ f2`hello world`?.a;
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 7,
+                    "end": 9
+                },
                 "member": {
                     "kind": 201392131,
                     "text": "hello",
@@ -64,6 +70,12 @@ f2`hello world`?.a;
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 18,
+                    "end": 20
+                },
                 "member": {
                     "kind": 129,
                     "member": {
@@ -82,7 +94,6 @@ f2`hello world`?.a;
                         "start": 17,
                         "end": 18
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 11,
                     "end": 18
@@ -120,6 +131,12 @@ f2`hello world`?.a;
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 39,
+                    "end": 41
+                },
                 "member": {
                     "kind": 226,
                     "member": {

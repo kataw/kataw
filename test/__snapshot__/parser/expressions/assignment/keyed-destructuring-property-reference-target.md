@@ -160,7 +160,6 @@ function targetKey() {
                                         "start": 44,
                                         "end": 48
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 35,
                                     "end": 48
@@ -251,7 +250,6 @@ function targetKey() {
                                                                         "start": 107,
                                                                         "end": 111
                                                                     },
-                                                                    "autofix": 0,
                                                                     "flags": 256,
                                                                     "start": 90,
                                                                     "end": 111
@@ -381,7 +379,6 @@ function targetKey() {
                                         "start": 167,
                                         "end": 171
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 158,
                                     "end": 171
@@ -491,7 +488,6 @@ function targetKey() {
                                                                         "start": 231,
                                                                         "end": 235
                                                                     },
-                                                                    "autofix": 0,
                                                                     "flags": 256,
                                                                     "start": 214,
                                                                     "end": 235
@@ -621,7 +617,6 @@ function targetKey() {
                                         "start": 294,
                                         "end": 298
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 285,
                                     "end": 298
@@ -713,7 +708,6 @@ function targetKey() {
                                                                             "start": 374,
                                                                             "end": 378
                                                                         },
-                                                                        "autofix": 0,
                                                                         "flags": 256,
                                                                         "start": 357,
                                                                         "end": 378
@@ -877,7 +871,6 @@ function targetKey() {
                                         "start": 477,
                                         "end": 481
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 468,
                                     "end": 481
@@ -969,7 +962,6 @@ function targetKey() {
                                                                             "start": 557,
                                                                             "end": 561
                                                                         },
-                                                                        "autofix": 0,
                                                                         "flags": 256,
                                                                         "start": 540,
                                                                         "end": 561

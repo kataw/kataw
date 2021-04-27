@@ -126,7 +126,6 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                         "start": 42,
                                                                         "end": 45
                                                                     },
-                                                                    "autofix": 0,
                                                                     "flags": 256,
                                                                     "start": 36,
                                                                     "end": 45

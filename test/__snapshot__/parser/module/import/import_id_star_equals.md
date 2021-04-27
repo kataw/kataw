@@ -34,7 +34,6 @@ import a, *= from 'f';
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 9,
                     "end": 9
@@ -70,7 +69,6 @@ import a, *= from 'f';
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 9

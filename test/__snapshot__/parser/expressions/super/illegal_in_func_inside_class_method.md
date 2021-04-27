@@ -129,7 +129,6 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                     "start": 37,
                                                                     "end": 40
                                                                 },
-                                                                "autofix": 0,
                                                                 "flags": 256,
                                                                 "start": 30,
                                                                 "end": 40

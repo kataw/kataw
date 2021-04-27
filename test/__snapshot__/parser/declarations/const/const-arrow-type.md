@@ -78,7 +78,6 @@ const fn = async (a?: any): Promise<void> => {};
                                         "consequent": {
                                             "kind": 16637,
                                             "text": "",
-                                            "autofix": 0,
                                             "flags": 12,
                                             "start": 20,
                                             "end": 20
@@ -155,7 +154,6 @@ const fn = async (a?: any): Promise<void> => {};
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 40,
                             "end": 40
@@ -177,7 +175,6 @@ const fn = async (a?: any): Promise<void> => {};
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 41,
                     "end": 41

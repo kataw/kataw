@@ -85,25 +85,21 @@ var x; export {x: a}
                                 "end": 16
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 15,
                             "end": 16
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 15,
                     "end": 16
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 13,
                 "end": 16
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 6,
             "end": 16

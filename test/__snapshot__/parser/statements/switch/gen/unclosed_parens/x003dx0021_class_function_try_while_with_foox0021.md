@@ -32,7 +32,6 @@ switch( =! class function try while with foo! case
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 7,
                     "end": 7
@@ -107,7 +106,6 @@ switch( =! class function try while with foo! case
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 25,
                 "end": 25
@@ -212,7 +210,6 @@ switch( =! class function try while with foo! case
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 45,
                         "end": 45

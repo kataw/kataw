@@ -180,7 +180,6 @@ class C { constructor() { class C { get x) { super; } } } }
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 50,
                                 "end": 50

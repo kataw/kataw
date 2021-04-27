@@ -19,6 +19,12 @@ foo()?.bar
             "kind": 120,
             "expression": {
                 "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 768,
+                    "start": 5,
+                    "end": 7
+                },
                 "member": {
                     "kind": 131,
                     "expression": {

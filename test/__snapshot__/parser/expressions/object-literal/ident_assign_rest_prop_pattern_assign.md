@@ -66,7 +66,6 @@ a = {...b.c} = d;
                                             "start": 10,
                                             "end": 11
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 8,
                                         "end": 11

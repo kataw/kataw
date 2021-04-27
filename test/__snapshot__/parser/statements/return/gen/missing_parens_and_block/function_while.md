@@ -30,7 +30,6 @@ return catch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 6,
                 "end": 6
@@ -87,7 +86,6 @@ return catch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 27,
                 "end": 27
@@ -97,7 +95,6 @@ return catch function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 27,
                     "end": 27

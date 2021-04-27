@@ -180,7 +180,6 @@ class C { *method() { class C { get x) { super; } } } }
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 46,
                                 "end": 46

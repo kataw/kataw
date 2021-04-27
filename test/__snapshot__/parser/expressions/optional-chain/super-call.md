@@ -100,6 +100,12 @@ class x extends y {
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 205,
+                                                "chainToken": {
+                                                    "kind": 393240,
+                                                    "flags": 768,
+                                                    "start": 47,
+                                                    "end": 49
+                                                },
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {

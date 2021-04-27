@@ -104,7 +104,6 @@ function *P(){
                                         "start": 38,
                                         "end": 41
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 32,
                                     "end": 41

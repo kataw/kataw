@@ -130,7 +130,6 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                                 "start": 37,
                                                                 "end": 43
                                                             },
-                                                            "autofix": 0,
                                                             "flags": 256,
                                                             "start": 34,
                                                             "end": 43

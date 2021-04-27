@@ -60,7 +60,6 @@ import {bar, baz,} from "foo";
                                     "end": 11
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -77,22 +76,18 @@ import {bar, baz,} from "foo";
                                     "end": 16
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 12,
                                 "end": 16
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 17
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 18
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 18

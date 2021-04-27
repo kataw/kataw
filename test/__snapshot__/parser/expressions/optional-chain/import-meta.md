@@ -94,7 +94,6 @@ function f() {
                                                 "start": 42,
                                                 "end": 46
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 34,
                                             "end": 46

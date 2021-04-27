@@ -69,7 +69,6 @@ for ({a: b.c}.foo in d) e
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 6,
                                     "end": 12
@@ -105,7 +104,6 @@ for ({a: b.c}.foo in d) e
                     "start": 14,
                     "end": 17
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 17

@@ -79,7 +79,6 @@ var p/
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 5,
                     "end": 5
@@ -93,7 +92,6 @@ var p/
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 6,
                     "end": 6

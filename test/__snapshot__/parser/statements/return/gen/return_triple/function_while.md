@@ -30,7 +30,6 @@ return return return function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 6,
                 "end": 6
@@ -50,7 +49,6 @@ return return return function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 13,
                 "end": 13
@@ -122,7 +120,6 @@ return return return function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 35,
                 "end": 35
@@ -132,7 +129,6 @@ return return return function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 35,
                     "end": 35

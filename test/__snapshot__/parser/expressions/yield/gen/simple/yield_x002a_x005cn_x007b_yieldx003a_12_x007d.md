@@ -40,7 +40,6 @@ yield * \n { yield: 12 }
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 7,
                     "end": 7

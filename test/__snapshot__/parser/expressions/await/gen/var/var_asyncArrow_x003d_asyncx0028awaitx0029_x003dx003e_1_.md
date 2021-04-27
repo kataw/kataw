@@ -174,7 +174,6 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                                         "expression": {
                                                                                             "kind": 16637,
                                                                                             "text": "",
-                                                                                            "autofix": 0,
                                                                                             "flags": 12,
                                                                                             "start": 67,
                                                                                             "end": 67

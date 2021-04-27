@@ -32,7 +32,6 @@ class import {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 5,
                 "end": 5
@@ -61,7 +60,6 @@ class import {}
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 15,
                 "end": 15
@@ -76,17 +74,14 @@ class import {}
                     "importsList": {
                         "kind": 265,
                         "specifiers": [],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 14,
                         "end": 14
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 12,
                     "end": 15
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 12,
                 "end": 15

@@ -146,7 +146,6 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                             "start": 52,
                                                             "end": 55
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 45,
                                                         "end": 55

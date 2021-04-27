@@ -49,7 +49,6 @@ class x extends extends {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15

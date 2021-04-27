@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { StringLiteral } from '../expressions/string-literal';
 
 /**
@@ -15,7 +15,6 @@ export function createPrologueDirective(expression: StringLiteral, start: number
   return {
     kind: SyntaxKind.PrologueDirective,
     expression,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.None,
     start,
     end

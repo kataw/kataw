@@ -167,7 +167,6 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                             "start": 74,
                                                                             "end": 77
                                                                         },
-                                                                        "autofix": 0,
                                                                         "flags": 256,
                                                                         "start": 67,
                                                                         "end": 77

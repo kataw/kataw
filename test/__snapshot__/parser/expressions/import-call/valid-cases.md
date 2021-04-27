@@ -229,7 +229,6 @@ import(x).then();
                         "start": 83,
                         "end": 87
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 79,
                     "end": 87

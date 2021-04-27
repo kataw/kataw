@@ -65,7 +65,6 @@
                                         "start": 8,
                                         "end": 11
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 4,
                                     "end": 11

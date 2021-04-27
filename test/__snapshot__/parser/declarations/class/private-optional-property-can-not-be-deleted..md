@@ -134,6 +134,12 @@ class Foo {
                                                 },
                                                 "expression": {
                                                     "kind": 205,
+                                                    "chainToken": {
+                                                        "kind": 393240,
+                                                        "flags": 768,
+                                                        "start": 51,
+                                                        "end": 53
+                                                    },
                                                     "member": {
                                                         "kind": 135,
                                                         "flags": 768,

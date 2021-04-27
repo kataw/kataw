@@ -56,7 +56,6 @@ new super.foo
                     "start": 10,
                     "end": 13
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 13

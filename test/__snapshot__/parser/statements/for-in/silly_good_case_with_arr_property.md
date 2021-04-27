@@ -66,7 +66,6 @@ for ([].bar in obj);
                     "start": 8,
                     "end": 11
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 11

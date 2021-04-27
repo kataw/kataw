@@ -49,7 +49,6 @@ class x extends if {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15
@@ -98,7 +97,6 @@ class x extends if {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 21,
                     "end": 21

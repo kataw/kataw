@@ -46,7 +46,6 @@ async (a.b) => x;
                             "start": 9,
                             "end": 10
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 7,
                         "end": 10

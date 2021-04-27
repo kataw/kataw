@@ -59,7 +59,6 @@ do while try this and !foo while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 8,
                     "end": 8
@@ -125,7 +124,6 @@ do while try this and !foo while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 32,
                 "end": 32
@@ -135,7 +133,6 @@ do while try this and !foo while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 32,
                     "end": 32

@@ -33,7 +33,6 @@ export bar, * as foo from 'bar';
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 6
@@ -56,7 +55,6 @@ export bar, * as foo from 'bar';
                         "left": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 11,
                             "end": 11

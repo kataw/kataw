@@ -91,7 +91,6 @@ return {} return(x) { function while
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 30,
                             "end": 30
@@ -136,7 +135,6 @@ return {} return(x) { function while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 36,
                             "end": 36
@@ -146,7 +144,6 @@ return {} return(x) { function while
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 36,
                                 "end": 36

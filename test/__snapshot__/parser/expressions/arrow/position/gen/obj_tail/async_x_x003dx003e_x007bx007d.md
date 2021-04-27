@@ -132,7 +132,6 @@ x = {arrow: async x => {}}.y
                         "start": 27,
                         "end": 28
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 3,
                     "end": 28

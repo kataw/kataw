@@ -143,7 +143,6 @@ switch {} default(x) { =! class function try while with foo!
                                 "name": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 40,
                                     "end": 40
@@ -248,7 +247,6 @@ switch {} default(x) { =! class function try while with foo!
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
-                                            "autofix": 0,
                                             "flags": 12,
                                             "start": 60,
                                             "end": 60

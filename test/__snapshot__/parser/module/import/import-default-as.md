@@ -67,22 +67,18 @@ import {default as foo} from "foo";
                                     "end": 22
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 22
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 22
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 23
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 23

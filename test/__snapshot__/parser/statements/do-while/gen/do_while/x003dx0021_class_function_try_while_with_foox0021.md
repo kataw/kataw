@@ -30,7 +30,6 @@ do =! class function try while with foo! while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 20,
                 "end": 20
@@ -43,7 +42,6 @@ do =! class function try while with foo! while
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 2,
                         "end": 2
@@ -172,7 +170,6 @@ do =! class function try while with foo! while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 40,
                         "end": 40
@@ -200,7 +197,6 @@ do =! class function try while with foo! while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 46,
                 "end": 46
@@ -210,7 +206,6 @@ do =! class function try while with foo! while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 46,
                     "end": 46

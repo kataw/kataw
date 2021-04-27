@@ -32,7 +32,6 @@ class in {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 5,
                 "end": 5
@@ -57,7 +56,6 @@ class in {}
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 5,
                     "end": 5

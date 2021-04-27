@@ -93,25 +93,21 @@ export { \u0061bc }
                                 "end": 30
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 21,
                             "end": 30
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 21,
                     "end": 30
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 19,
                 "end": 32
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 12,
             "end": 32

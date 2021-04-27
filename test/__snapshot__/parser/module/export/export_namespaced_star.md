@@ -42,7 +42,6 @@ export * as x from "x" foo
                     "start": 11,
                     "end": 13
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 0,
                 "end": 13
@@ -55,7 +54,6 @@ export * as x from "x" foo
                 "start": 18,
                 "end": 22
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 22

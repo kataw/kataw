@@ -85,7 +85,6 @@
                                                                     "left": {
                                                                         "kind": 16637,
                                                                         "text": "",
-                                                                        "autofix": 0,
                                                                         "flags": 12,
                                                                         "start": 13,
                                                                         "end": 13

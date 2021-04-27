@@ -54,7 +54,6 @@ new a.b.c.d()
                                 "start": 6,
                                 "end": 7
                             },
-                            "autofix": 0,
                             "flags": 256,
                             "start": 0,
                             "end": 7
@@ -67,7 +66,6 @@ new a.b.c.d()
                             "start": 8,
                             "end": 9
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 0,
                         "end": 9
@@ -80,7 +78,6 @@ new a.b.c.d()
                         "start": 10,
                         "end": 11
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 0,
                     "end": 11

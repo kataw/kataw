@@ -98,7 +98,6 @@ obj.c\u0061se = 42;
                         "start": 19,
                         "end": 28
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 13,
                     "end": 28

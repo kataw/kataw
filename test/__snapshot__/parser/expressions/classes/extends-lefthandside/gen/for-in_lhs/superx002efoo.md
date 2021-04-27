@@ -49,7 +49,6 @@ for (super.foo in x) ;
                     "start": 11,
                     "end": 14
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 14

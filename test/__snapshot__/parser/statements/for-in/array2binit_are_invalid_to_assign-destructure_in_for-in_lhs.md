@@ -67,7 +67,6 @@ for ([x.y] = z in obj);
                                     "start": 8,
                                     "end": 9
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 6,
                                 "end": 9
@@ -124,7 +123,6 @@ for ([x.y] = z in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 21,
                 "end": 21

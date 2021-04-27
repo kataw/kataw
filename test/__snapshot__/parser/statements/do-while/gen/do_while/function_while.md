@@ -30,7 +30,6 @@ do function while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 17,
                 "end": 17
@@ -55,7 +54,6 @@ do function while while
                 "name": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 11,
                     "end": 11
@@ -104,7 +102,6 @@ do function while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 23,
                 "end": 23
@@ -114,7 +111,6 @@ do function while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 23,
                     "end": 23

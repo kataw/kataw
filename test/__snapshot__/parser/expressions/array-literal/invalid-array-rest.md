@@ -501,12 +501,10 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 127,
                                 "end": 127
                             },
-                            "autofix": 0,
                             "flags": 256,
                             "start": 121,
                             "end": 127
@@ -519,7 +517,6 @@
                             "start": 128,
                             "end": 132
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 121,
                         "end": 132
@@ -527,7 +524,6 @@
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 133,
                         "end": 133

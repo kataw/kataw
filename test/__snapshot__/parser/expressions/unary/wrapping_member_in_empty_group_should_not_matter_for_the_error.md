@@ -45,7 +45,6 @@ delete (foo.bar);
                             "start": 12,
                             "end": 15
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 6,
                         "end": 15

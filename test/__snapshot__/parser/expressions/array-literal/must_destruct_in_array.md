@@ -146,7 +146,6 @@ x = {x: [{a = b}] + x}.x
                         "start": 23,
                         "end": 24
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 3,
                     "end": 24

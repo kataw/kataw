@@ -126,7 +126,6 @@ class x { constructor(){ return () => () => super.foo; }}
                                                             "start": 50,
                                                             "end": 53
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 43,
                                                         "end": 53

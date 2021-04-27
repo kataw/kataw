@@ -116,7 +116,6 @@ do {} while (x) { async funcion switch!!
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 40,
                                         "end": 40

@@ -144,7 +144,6 @@ switch [catch] =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 32,
                 "end": 32
@@ -249,7 +248,6 @@ switch [catch] =! class function try while with foo!
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 52,
                         "end": 52

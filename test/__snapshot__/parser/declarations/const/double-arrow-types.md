@@ -126,7 +126,6 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 37,
                         "end": 37
@@ -294,7 +293,6 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 97,
                         "end": 97

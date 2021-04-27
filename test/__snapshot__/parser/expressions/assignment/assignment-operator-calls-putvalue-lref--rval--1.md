@@ -153,7 +153,6 @@ Object.defineProperty(this, "x", {
                         "start": 42,
                         "end": 56
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 33,
                     "end": 56
@@ -310,7 +309,6 @@ Object.defineProperty(this, "x", {
                                                     "start": 147,
                                                     "end": 153
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 137,
                                                 "end": 153
@@ -419,7 +417,6 @@ Object.defineProperty(this, "x", {
                                                                                                     "start": 214,
                                                                                                     "end": 215
                                                                                                 },
-                                                                                                "autofix": 0,
                                                                                                 "flags": 256,
                                                                                                 "start": 206,
                                                                                                 "end": 215

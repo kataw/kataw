@@ -115,7 +115,6 @@
                                                     "start": 29,
                                                     "end": 33
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 23,
                                                 "end": 33

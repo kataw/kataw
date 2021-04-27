@@ -33,7 +33,6 @@ case function while
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 13,
                 "end": 13
@@ -78,7 +77,6 @@ case function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 19,
                 "end": 19
@@ -88,7 +86,6 @@ case function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 19,
                     "end": 19

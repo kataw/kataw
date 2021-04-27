@@ -97,7 +97,6 @@ async async => ok
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 21,
                         "end": 21

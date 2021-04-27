@@ -109,7 +109,6 @@ var x,y; export {x as a, y as b}
                                 "start": 21,
                                 "end": 23
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 17,
                             "end": 23
@@ -133,25 +132,21 @@ var x,y; export {x as a, y as b}
                                 "start": 29,
                                 "end": 31
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 24,
                             "end": 31
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 17,
                     "end": 31
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 15,
                 "end": 32
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 8,
             "end": 32

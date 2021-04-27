@@ -32,7 +32,6 @@ import {a: b} from "bar";
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 9,
                 "end": 9
@@ -60,22 +59,18 @@ import {a: b} from "bar";
                                     "end": 9
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 9
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 9
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 9
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 9

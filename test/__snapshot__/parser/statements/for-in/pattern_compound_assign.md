@@ -101,7 +101,6 @@ for({}/=y in y)x
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 14,
                 "end": 14

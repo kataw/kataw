@@ -30,7 +30,6 @@ if while try this and !foo else
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 2,
                 "end": 2
@@ -46,7 +45,6 @@ if while try this and !foo else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 8,
                     "end": 8

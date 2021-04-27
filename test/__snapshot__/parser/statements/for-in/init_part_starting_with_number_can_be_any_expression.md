@@ -94,7 +94,6 @@ for (2 + b in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 17,
                 "end": 17

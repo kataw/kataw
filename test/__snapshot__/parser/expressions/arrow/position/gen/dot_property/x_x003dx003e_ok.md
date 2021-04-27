@@ -58,7 +58,6 @@ x => ok.x
                         "start": 8,
                         "end": 9
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 4,
                     "end": 9

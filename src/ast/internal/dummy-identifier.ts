@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
 /**
  * Dummy identifier
@@ -13,7 +13,6 @@ export function createDummyIdentifier(start: number, end: number): DummyIdentifi
   return {
     kind: SyntaxKind.DummyIdentifier,
     text: '',
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.Synthetic | NodeFlags.HasErrors,
     start,
     end

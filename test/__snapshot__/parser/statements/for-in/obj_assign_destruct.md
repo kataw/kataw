@@ -69,7 +69,6 @@ for ({x:a.b}=x in x) ;
                                         "start": 10,
                                         "end": 11
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 6,
                                     "end": 11
@@ -139,7 +138,6 @@ for ({x:a.b}=x in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 19,
                 "end": 19

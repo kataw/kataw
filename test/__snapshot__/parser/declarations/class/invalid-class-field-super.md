@@ -91,7 +91,6 @@ class C { [super.bbb] = 0 };
                                 "start": 22,
                                 "end": 25
                             },
-                            "autofix": 0,
                             "flags": 256,
                             "start": 15,
                             "end": 25
@@ -188,7 +187,6 @@ class C { [super.bbb] = 0 };
                                     "start": 58,
                                     "end": 61
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 51,
                                 "end": 61
@@ -301,7 +299,6 @@ class C { [super.bbb] = 0 };
                                         "start": 100,
                                         "end": 103
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 93,
                                     "end": 103
@@ -386,7 +383,6 @@ class C { [super.bbb] = 0 };
                                     "start": 125,
                                     "end": 128
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 119,
                                 "end": 128

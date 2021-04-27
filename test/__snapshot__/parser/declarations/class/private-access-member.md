@@ -121,6 +121,12 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 205,
+                                                "chainToken": {
+                                                    "kind": 393240,
+                                                    "flags": 768,
+                                                    "start": 28,
+                                                    "end": 30
+                                                },
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "obj",

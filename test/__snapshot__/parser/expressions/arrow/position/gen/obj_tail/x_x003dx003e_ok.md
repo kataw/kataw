@@ -108,7 +108,6 @@ x = {arrow: x => ok}.y
                         "start": 21,
                         "end": 22
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 3,
                     "end": 22

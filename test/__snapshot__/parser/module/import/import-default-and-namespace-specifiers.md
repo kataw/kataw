@@ -57,7 +57,6 @@ import foo, * as bar from "foo";
                     "end": 20
                 },
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 20

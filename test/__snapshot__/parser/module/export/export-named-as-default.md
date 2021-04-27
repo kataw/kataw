@@ -49,12 +49,10 @@ export {foo as default};
                             "binding": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 14,
                                 "end": 14
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 14
@@ -71,25 +69,21 @@ export {foo as default};
                                 "end": 22
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 14,
                             "end": 22
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 22
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 23
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 24

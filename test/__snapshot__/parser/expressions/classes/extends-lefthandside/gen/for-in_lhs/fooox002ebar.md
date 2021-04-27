@@ -45,7 +45,6 @@ for (fooo.bar in x) ;
                     "start": 10,
                     "end": 13
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 13

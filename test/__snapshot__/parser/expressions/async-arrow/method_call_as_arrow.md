@@ -78,7 +78,6 @@ async ({ident: [foo, bar].join("")}) => x
                                                 "start": 26,
                                                 "end": 30
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 8,
                                             "end": 30

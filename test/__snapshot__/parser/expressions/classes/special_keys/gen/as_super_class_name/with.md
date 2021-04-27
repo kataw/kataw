@@ -49,7 +49,6 @@ class x extends with {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 15,
                     "end": 15
@@ -98,7 +97,6 @@ class x extends with {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 23,
                     "end": 23

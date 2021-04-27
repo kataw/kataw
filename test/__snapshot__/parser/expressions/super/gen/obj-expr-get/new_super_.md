@@ -81,7 +81,6 @@
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
-                                                            "autofix": 0,
                                                             "flags": 12,
                                                             "start": 22,
                                                             "end": 22

@@ -96,7 +96,6 @@ delete (((((foo(yield)))))).bar
                         "start": 28,
                         "end": 31
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 6,
                     "end": 31

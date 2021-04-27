@@ -47,25 +47,21 @@ export {bar}, * as foo from 'bar';
                                 "end": 11
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 11
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 11
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 12
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 12
@@ -77,7 +73,6 @@ export {bar}, * as foo from 'bar';
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 13,
                     "end": 13

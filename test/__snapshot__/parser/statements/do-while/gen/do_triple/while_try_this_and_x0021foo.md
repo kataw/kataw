@@ -30,7 +30,6 @@ do do do while try this and !foo while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 44,
                 "end": 44
@@ -52,7 +51,6 @@ do do do while try this and !foo while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 38,
                     "end": 38
@@ -103,7 +101,6 @@ do do do while try this and !foo while while while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 14,
                             "end": 14
@@ -177,7 +174,6 @@ do do do while try this and !foo while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 50,
                 "end": 50
@@ -187,7 +183,6 @@ do do do while try this and !foo while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 50,
                     "end": 50

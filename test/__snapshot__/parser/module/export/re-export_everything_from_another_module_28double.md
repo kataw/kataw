@@ -35,7 +35,6 @@ export * from "foo"
                 "kind": 259,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 0,
                 "end": 8
@@ -48,7 +47,6 @@ export * from "foo"
                 "start": 13,
                 "end": 19
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 19

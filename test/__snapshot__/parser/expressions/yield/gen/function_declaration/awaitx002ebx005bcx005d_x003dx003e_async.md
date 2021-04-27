@@ -74,7 +74,6 @@ function not_gen() { await.b[c] => async }}
                                         "start": 27,
                                         "end": 28
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 20,
                                     "end": 28

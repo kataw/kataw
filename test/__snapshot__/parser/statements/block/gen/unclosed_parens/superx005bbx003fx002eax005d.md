@@ -44,6 +44,12 @@
                                 },
                                 "expression": {
                                     "kind": 205,
+                                    "chainToken": {
+                                        "kind": 393240,
+                                        "flags": 768,
+                                        "start": 10,
+                                        "end": 12
+                                    },
                                     "member": {
                                         "kind": 134299649,
                                         "text": "b",

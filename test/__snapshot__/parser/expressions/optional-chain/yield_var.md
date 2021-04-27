@@ -45,6 +45,12 @@
                         },
                         "right": {
                             "kind": 205,
+                            "chainToken": {
+                                "kind": 393240,
+                                "flags": 768,
+                                "start": 6,
+                                "end": 8
+                            },
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",

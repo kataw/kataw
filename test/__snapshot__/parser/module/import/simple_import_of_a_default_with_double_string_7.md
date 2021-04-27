@@ -67,22 +67,18 @@ import {x as z,} from "y"
                                     "end": 14
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 14
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 15
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 16
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 16

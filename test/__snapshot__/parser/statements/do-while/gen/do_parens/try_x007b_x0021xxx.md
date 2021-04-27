@@ -50,7 +50,6 @@ do( try { !xxx while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 3,
                         "end": 3
@@ -104,7 +103,6 @@ do( try { !xxx while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 20,
                 "end": 20
@@ -114,7 +112,6 @@ do( try { !xxx while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 20,
                     "end": 20

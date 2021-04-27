@@ -140,7 +140,6 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "start": 44,
                                                         "end": 47
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 37,
                                                     "end": 47

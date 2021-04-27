@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ImportSpecifier } from './import-specifier';
 
 export interface ImportsList extends SyntaxNode {
@@ -14,7 +14,6 @@ export function createImportsList(
   return {
     kind: SyntaxKind.ImportsList,
     specifiers,
-    autofix: AutoFix.NotFixable,
     flags,
     start,
     end

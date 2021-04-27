@@ -39,7 +39,6 @@ a?
                     "member": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 2,
                         "end": 2
@@ -52,7 +51,6 @@ a?
                         "start": 4,
                         "end": 5
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 2,
                     "end": 5
@@ -61,7 +59,6 @@ a?
                 "alternate": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 5,
                     "end": 5

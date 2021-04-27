@@ -30,7 +30,6 @@ do do do async funcion switch!! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 49,
                 "end": 49
@@ -52,7 +51,6 @@ do do do async funcion switch!! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 43,
                     "end": 43
@@ -74,7 +72,6 @@ do do do async funcion switch!! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 37,
                         "end": 37
@@ -137,7 +134,6 @@ do do do async funcion switch!! while while while
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 31,
                                         "end": 31

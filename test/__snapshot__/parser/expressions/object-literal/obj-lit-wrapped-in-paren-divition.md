@@ -140,7 +140,6 @@
                         "start": 25,
                         "end": 26
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 22,
                     "end": 26
@@ -271,7 +270,6 @@
                         "start": 55,
                         "end": 56
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 52,
                     "end": 56
@@ -402,7 +400,6 @@
                         "start": 85,
                         "end": 86
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 82,
                     "end": 86
@@ -539,7 +536,6 @@
                         "start": 117,
                         "end": 118
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 114,
                     "end": 118
@@ -686,7 +682,6 @@
                         "start": 147,
                         "end": 148
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 144,
                     "end": 148
@@ -817,7 +812,6 @@
                         "start": 175,
                         "end": 176
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 172,
                     "end": 176
@@ -954,7 +948,6 @@
                         "start": 205,
                         "end": 206
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 202,
                     "end": 206
@@ -1091,7 +1084,6 @@
                         "start": 235,
                         "end": 236
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 232,
                     "end": 236
@@ -1234,7 +1226,6 @@
                         "start": 267,
                         "end": 268
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 264,
                     "end": 268

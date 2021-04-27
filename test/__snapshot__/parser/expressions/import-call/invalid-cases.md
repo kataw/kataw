@@ -146,7 +146,6 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 17,
                     "end": 18
@@ -172,7 +171,6 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 29,
                     "end": 29
@@ -219,7 +217,6 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 48,
                     "end": 49
@@ -397,7 +394,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 115,
                         "end": 115
@@ -405,7 +401,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 116,
                         "end": 116
@@ -485,7 +480,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 142,
                         "end": 142
@@ -533,7 +527,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 156,
                         "end": 156
@@ -589,7 +582,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 173,
                         "end": 173
@@ -597,7 +589,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 174,
                         "end": 174
@@ -751,7 +742,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 218,
                         "end": 218
@@ -967,7 +957,6 @@ new import(x);
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 285,
                 "end": 285
@@ -982,17 +971,14 @@ new import(x);
                     "importsList": {
                         "kind": 265,
                         "specifiers": [],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 285,
                         "end": 285
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 284,
                     "end": 285
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 284,
                 "end": 285
@@ -1012,7 +998,6 @@ new import(x);
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 296,
                 "end": 296
@@ -1040,22 +1025,18 @@ new import(x);
                                     "end": 296
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 295,
                                 "end": 296
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 295,
                         "end": 296
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 294,
                     "end": 296
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 294,
                 "end": 296
@@ -1075,7 +1056,6 @@ new import(x);
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 308,
                 "end": 308
@@ -1103,22 +1083,18 @@ new import(x);
                                     "end": 307
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 306,
                                 "end": 307
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 306,
                         "end": 307
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 305,
                     "end": 308
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 305,
                 "end": 308
@@ -1188,7 +1164,6 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 333,
                     "end": 333
@@ -1249,7 +1224,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 350,
                         "end": 350
@@ -1285,7 +1259,6 @@ new import(x);
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 361,
                             "end": 361
@@ -1297,7 +1270,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 362,
                         "end": 362
@@ -1333,7 +1305,6 @@ new import(x);
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 373,
                             "end": 373
@@ -1378,7 +1349,6 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 386,
                     "end": 386
@@ -1417,7 +1387,6 @@ new import(x);
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 399,
                                     "end": 399
@@ -1496,7 +1465,6 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 420,
                     "end": 420
@@ -1584,7 +1552,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 458,
                         "end": 458
@@ -1592,7 +1559,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 459,
                         "end": 459
@@ -1672,7 +1638,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 485,
                         "end": 485
@@ -1720,7 +1685,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 499,
                         "end": 499
@@ -1776,7 +1740,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 516,
                         "end": 516
@@ -1784,7 +1747,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 517,
                         "end": 517
@@ -1938,7 +1900,6 @@ new import(x);
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 561,
                         "end": 561

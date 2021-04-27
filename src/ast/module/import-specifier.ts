@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { Identifier } from '../expressions/identifier-expr';
 import { StringLiteral } from '../expressions/string-literal';
 
@@ -21,7 +21,6 @@ export function createImportSpecifier(
     name,
     binding,
     flags: NodeFlags.IsStatement,
-    autofix: AutoFix.NotFixable,
     start,
     end
   };

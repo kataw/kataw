@@ -141,7 +141,6 @@ for (function(){ if (a in b); }.prop in x);
                     "start": 32,
                     "end": 36
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 36

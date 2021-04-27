@@ -32,7 +32,6 @@ import foo;
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 10,
                 "end": 10
@@ -50,7 +49,6 @@ import foo;
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 10

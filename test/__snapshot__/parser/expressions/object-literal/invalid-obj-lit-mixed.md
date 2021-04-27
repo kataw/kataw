@@ -364,7 +364,6 @@
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 232,
                     "end": 232
@@ -1180,7 +1179,6 @@
                                                                                                 "start": 604,
                                                                                                 "end": 605
                                                                                             },
-                                                                                            "autofix": 0,
                                                                                             "flags": 256,
                                                                                             "start": 602,
                                                                                             "end": 605
@@ -1466,7 +1464,6 @@
                                                                                                         "start": 673,
                                                                                                         "end": 674
                                                                                                     },
-                                                                                                    "autofix": 0,
                                                                                                     "flags": 256,
                                                                                                     "start": 671,
                                                                                                     "end": 674

@@ -109,7 +109,6 @@ foo(async => {}).bar
                     "start": 17,
                     "end": 20
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 20

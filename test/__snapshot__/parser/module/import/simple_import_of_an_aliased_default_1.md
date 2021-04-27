@@ -50,7 +50,6 @@ import * as a from "y"
                     "end": 13
                 },
                 "namedImports": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 13

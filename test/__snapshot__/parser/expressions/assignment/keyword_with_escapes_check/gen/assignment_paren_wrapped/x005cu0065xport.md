@@ -26,7 +26,6 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 1,
                     "end": 1
@@ -51,7 +50,6 @@
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 1,
             "end": 12

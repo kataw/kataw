@@ -30,7 +30,6 @@ do do do class x {} while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 37,
                 "end": 37
@@ -52,7 +51,6 @@ do do do class x {} while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 31,
                     "end": 31
@@ -74,7 +72,6 @@ do do do class x {} while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 25,
                         "end": 25

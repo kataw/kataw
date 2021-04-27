@@ -30,7 +30,6 @@ if if if function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 2,
                 "end": 2
@@ -46,7 +45,6 @@ if if if function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 5,
                     "end": 5
@@ -110,7 +108,6 @@ if if if function while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 23,
                             "end": 23
@@ -120,7 +117,6 @@ if if if function while
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 23,
                                 "end": 23

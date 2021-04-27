@@ -116,7 +116,6 @@ try[ =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 22,
                 "end": 22
@@ -221,7 +220,6 @@ try[ =! class function try while with foo!
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 42,
                         "end": 42

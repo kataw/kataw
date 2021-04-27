@@ -30,7 +30,6 @@ return catch =! class function try while with foo!
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 6,
                 "end": 6
@@ -131,7 +130,6 @@ return catch =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 30,
                 "end": 30
@@ -236,7 +234,6 @@ return catch =! class function try while with foo!
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 50,
                         "end": 50

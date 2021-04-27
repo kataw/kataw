@@ -130,7 +130,6 @@ foo((x, y) => {});
                                                 "start": 11,
                                                 "end": 12
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 9,
                                             "end": 12
@@ -1277,7 +1276,6 @@ foo((x, y) => {});
                             "start": 300,
                             "end": 301
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 297,
                         "end": 301
@@ -2098,7 +2096,6 @@ foo((x, y) => {});
                         "start": 498,
                         "end": 499
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 494,
                     "end": 499

@@ -30,7 +30,6 @@ do while [catch] /)finally
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 26,
                 "end": 26

@@ -107,7 +107,6 @@ x = { "a": {x} = y.z };
                                             "start": 19,
                                             "end": 20
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 16,
                                         "end": 20

@@ -92,25 +92,21 @@ var x; export {x as a,}
                                 "start": 19,
                                 "end": 21
                             },
-                            "autofix": 0,
                             "flags": 128,
                             "start": 15,
                             "end": 21
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 15,
                     "end": 22
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 13,
                 "end": 23
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 6,
             "end": 23

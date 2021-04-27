@@ -41,7 +41,6 @@ foo.bar
                     "start": 4,
                     "end": 7
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 7

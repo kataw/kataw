@@ -60,22 +60,18 @@ import { for } from "iteration"
                                     "end": 12
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 12
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 12
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 14
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 14

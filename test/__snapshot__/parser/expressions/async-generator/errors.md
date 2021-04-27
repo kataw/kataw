@@ -1873,7 +1873,6 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 928,
                                         "end": 928
@@ -2131,7 +2130,6 @@ async function * gen() {class C extends await { }}
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "autofix": 0,
                                                     "flags": 12,
                                                     "start": 1020,
                                                     "end": 1020
@@ -2343,7 +2341,6 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 1092,
                                         "end": 1092
@@ -2442,7 +2439,6 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 1126,
                                         "end": 1126
@@ -2539,7 +2535,6 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 1160,
                                         "end": 1160
@@ -2635,7 +2630,6 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 1194,
                                     "end": 1194
@@ -2729,7 +2723,6 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 1228,
                                         "end": 1228
@@ -4666,7 +4659,6 @@ async function * gen() {class C extends await { }}
                                                                 "expression": {
                                                                     "kind": 16637,
                                                                     "text": "",
-                                                                    "autofix": 0,
                                                                     "flags": 12,
                                                                     "start": 2314,
                                                                     "end": 2314
@@ -4971,7 +4963,6 @@ async function * gen() {class C extends await { }}
                                                                         "expression": {
                                                                             "kind": 16637,
                                                                             "text": "",
-                                                                            "autofix": 0,
                                                                             "flags": 12,
                                                                             "start": 2408,
                                                                             "end": 2408

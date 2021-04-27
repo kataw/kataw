@@ -1585,7 +1585,6 @@ function * x() { "use strict";  yield: 34; }
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "autofix": 0,
                                         "flags": 12,
                                         "start": 772,
                                         "end": 772

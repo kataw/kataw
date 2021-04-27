@@ -100,6 +100,12 @@ class Foo extends Base {
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 205,
+                                                "chainToken": {
+                                                    "kind": 393240,
+                                                    "flags": 768,
+                                                    "start": 58,
+                                                    "end": 60
+                                                },
                                                 "member": {
                                                     "kind": 129,
                                                     "member": {
@@ -122,7 +128,6 @@ class Foo extends Base {
                                                         "start": 52,
                                                         "end": 58
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 39,
                                                     "end": 58

@@ -67,7 +67,6 @@ for ({x: a.b};;);
                                     "start": 11,
                                     "end": 12
                                 },
-                                "autofix": 0,
                                 "flags": 256,
                                 "start": 6,
                                 "end": 12

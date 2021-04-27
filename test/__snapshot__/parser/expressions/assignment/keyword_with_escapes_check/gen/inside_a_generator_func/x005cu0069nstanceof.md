@@ -66,7 +66,6 @@ function *f(){
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 14,
                                     "end": 14
@@ -80,7 +79,6 @@ function *f(){
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 32,
                                     "end": 32

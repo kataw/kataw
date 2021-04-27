@@ -60,7 +60,6 @@ import {x, z as b} from "y"
                                     "end": 9
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -84,22 +83,18 @@ import {x, z as b} from "y"
                                     "end": 17
                                 },
                                 "flags": 128,
-                                "autofix": 0,
                                 "start": 10,
                                 "end": 17
                             }
                         ],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 17
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 18
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 18

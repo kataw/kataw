@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ExportsList } from './exports-list';
 
 export interface NamedExports extends SyntaxNode {
@@ -14,7 +14,6 @@ export function createNamedExports(
   return {
     kind: SyntaxKind.NamedExports,
     exportsList,
-    autofix: AutoFix.NotFixable,
     flags,
     start,
     end

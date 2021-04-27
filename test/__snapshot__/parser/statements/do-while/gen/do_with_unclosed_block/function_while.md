@@ -78,7 +78,6 @@ do {} while (x) { function while
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 26,
                             "end": 26
@@ -123,7 +122,6 @@ do {} while (x) { function while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 32,
                             "end": 32
@@ -133,7 +131,6 @@ do {} while (x) { function while
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 32,
                                 "end": 32

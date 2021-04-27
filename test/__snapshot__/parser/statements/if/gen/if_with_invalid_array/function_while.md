@@ -46,7 +46,6 @@ if [else] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 4,
                     "end": 4
@@ -66,7 +65,6 @@ if [else] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 8,
                     "end": 8
@@ -93,7 +91,6 @@ if [else] function while
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 18,
                 "end": 18
@@ -138,7 +135,6 @@ if [else] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 24,
                 "end": 24
@@ -148,7 +144,6 @@ if [else] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 24,
                     "end": 24

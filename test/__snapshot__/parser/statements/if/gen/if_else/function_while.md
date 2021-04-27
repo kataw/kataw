@@ -78,7 +78,6 @@ if function while else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 17,
                     "end": 17
@@ -88,7 +87,6 @@ if function while else
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 17,
                         "end": 17
@@ -112,7 +110,6 @@ if function while else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 22,
                     "end": 22

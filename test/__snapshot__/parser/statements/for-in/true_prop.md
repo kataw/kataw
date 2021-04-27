@@ -59,7 +59,6 @@ for (true.x in c) d;
                     "start": 10,
                     "end": 11
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 11

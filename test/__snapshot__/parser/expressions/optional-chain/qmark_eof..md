@@ -36,7 +36,6 @@ a?
                 "consequent": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 2,
                     "end": 2
@@ -45,7 +44,6 @@ a?
                 "alternate": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 2,
                     "end": 2

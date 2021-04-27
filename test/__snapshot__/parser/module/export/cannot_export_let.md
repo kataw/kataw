@@ -77,7 +77,6 @@ export var let = x;
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 19

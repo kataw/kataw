@@ -55,7 +55,6 @@ import(x,y,,)
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 11,
                         "end": 11
@@ -63,7 +62,6 @@ import(x,y,,)
                     {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 12,
                         "end": 12

@@ -147,7 +147,6 @@ class A {
                                         "start": 49,
                                         "end": 55
                                     },
-                                    "autofix": 0,
                                     "flags": 256,
                                     "start": 41,
                                     "end": 55
@@ -362,7 +361,6 @@ class A {
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 145,
                 "end": 145
@@ -392,7 +390,6 @@ class A {
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 149,
                     "end": 149

@@ -124,7 +124,6 @@ else {} if(x) { =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 33,
                 "end": 33
@@ -229,7 +228,6 @@ else {} if(x) { =! class function try while with foo!
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 53,
                         "end": 53

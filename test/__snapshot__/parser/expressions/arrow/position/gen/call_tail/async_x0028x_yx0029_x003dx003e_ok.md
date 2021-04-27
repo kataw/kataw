@@ -100,7 +100,6 @@ foo(async (x, y) => ok).bar
                     "start": 24,
                     "end": 27
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 0,
                 "end": 27

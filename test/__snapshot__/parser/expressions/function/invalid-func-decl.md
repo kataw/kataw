@@ -343,7 +343,6 @@ async function f(){}
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "autofix": 0,
                                                 "flags": 12,
                                                 "start": 104,
                                                 "end": 104
@@ -679,7 +678,6 @@ async function f(){}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "autofix": 0,
                                                 "flags": 12,
                                                 "start": 172,
                                                 "end": 172
@@ -708,7 +706,6 @@ async function f(){}
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "autofix": 0,
                                                     "flags": 12,
                                                     "start": 175,
                                                     "end": 175

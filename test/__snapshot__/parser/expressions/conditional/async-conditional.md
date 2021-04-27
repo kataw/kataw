@@ -60,7 +60,6 @@ true ? async.waterfall() : null;
                             "start": 13,
                             "end": 22
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 6,
                         "end": 22

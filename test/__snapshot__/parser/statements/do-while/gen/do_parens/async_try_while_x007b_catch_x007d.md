@@ -30,7 +30,6 @@ do( async try while { catch } while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 13,
                 "end": 13
@@ -101,7 +100,6 @@ do( async try while { catch } while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 35,
                     "end": 35
@@ -111,7 +109,6 @@ do( async try while { catch } while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 35,
                         "end": 35

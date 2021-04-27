@@ -138,7 +138,6 @@ hello();
                                                         "start": 65,
                                                         "end": 68
                                                     },
-                                                    "autofix": 0,
                                                     "flags": 256,
                                                     "start": 54,
                                                     "end": 68

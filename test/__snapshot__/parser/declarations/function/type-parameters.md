@@ -116,7 +116,6 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 32,
                     "end": 32
@@ -189,7 +188,6 @@ type T = <
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 48,
                         "end": 48
@@ -207,7 +205,6 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 62,
                     "end": 62
@@ -257,7 +254,6 @@ type T = <
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 82,
                         "end": 82
@@ -275,7 +271,6 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 96,
                     "end": 96
@@ -354,7 +349,6 @@ type T = <
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 132,
                     "end": 132
@@ -564,7 +558,6 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 257,
                     "end": 257
@@ -637,7 +630,6 @@ type T = <
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 273,
                         "end": 273
@@ -655,7 +647,6 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 290,
                     "end": 290
@@ -705,7 +696,6 @@ type T = <
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 310,
                         "end": 310
@@ -723,7 +713,6 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 327,
                     "end": 327
@@ -802,7 +791,6 @@ type T = <
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 366,
                     "end": 366

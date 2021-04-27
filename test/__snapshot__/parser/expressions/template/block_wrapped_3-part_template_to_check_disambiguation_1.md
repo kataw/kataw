@@ -27,7 +27,6 @@
                             "member": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 1,
                                 "end": 1

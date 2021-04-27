@@ -136,7 +136,6 @@ class C { #aaa; f(obj) { obj.#aaa } }
                                                     "start": 29,
                                                     "end": 33
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 24,
                                                 "end": 33

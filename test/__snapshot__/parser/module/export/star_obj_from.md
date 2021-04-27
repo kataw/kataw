@@ -35,7 +35,6 @@ export *, {bar} from 'bar';
                 "kind": 259,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "autofix": 0,
                 "flags": 128,
                 "start": 0,
                 "end": 8
@@ -43,12 +42,10 @@ export *, {bar} from 'bar';
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 8,
                 "end": 8
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 8

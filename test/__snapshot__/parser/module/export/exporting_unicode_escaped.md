@@ -93,25 +93,21 @@ export { abc }
                                 "end": 30
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 26,
                             "end": 30
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 26,
                     "end": 30
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 24,
                 "end": 32
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 17,
             "end": 32

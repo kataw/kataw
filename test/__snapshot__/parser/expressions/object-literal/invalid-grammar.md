@@ -1817,7 +1817,6 @@ q = {"foo": super = x} = x;
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "autofix": 0,
                                                 "flags": 12,
                                                 "start": 412,
                                                 "end": 412

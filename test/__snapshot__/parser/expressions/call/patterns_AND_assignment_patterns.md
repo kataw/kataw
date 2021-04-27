@@ -71,12 +71,10 @@ async({a=1}. {b=2}, {c=3} = {}))
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 12,
                             "end": 12
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 6,
                         "end": 12

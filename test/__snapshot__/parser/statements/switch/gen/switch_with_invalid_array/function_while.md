@@ -103,7 +103,6 @@ switch [catch] function while
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 23,
                 "end": 23
@@ -148,7 +147,6 @@ switch [catch] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 29,
                 "end": 29
@@ -158,7 +156,6 @@ switch [catch] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 29,
                     "end": 29

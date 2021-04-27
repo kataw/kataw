@@ -47,25 +47,21 @@ export {foo};
                                 "end": 11
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 11
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 11
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 12
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 13

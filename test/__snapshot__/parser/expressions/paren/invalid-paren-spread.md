@@ -200,7 +200,6 @@
                             "initializer": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 42,
                                 "end": 42
@@ -272,7 +271,6 @@
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 55,
                     "end": 55
@@ -324,7 +322,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 66,
                             "end": 66
@@ -332,7 +329,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 67,
                             "end": 67
@@ -340,7 +336,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 68,
                             "end": 68
@@ -348,7 +343,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 69,
                             "end": 69
@@ -356,7 +350,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 70,
                             "end": 70
@@ -364,7 +357,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 71,
                             "end": 71
@@ -374,7 +366,6 @@
                             "left": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 72,
                                 "end": 72
@@ -388,7 +379,6 @@
                             "right": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 73,
                                 "end": 73
@@ -443,7 +433,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 84,
                             "end": 84
@@ -451,7 +440,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 85,
                             "end": 85
@@ -459,7 +447,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 86,
                             "end": 86
@@ -467,7 +454,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 87,
                             "end": 87
@@ -475,7 +461,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 88,
                             "end": 88
@@ -483,7 +468,6 @@
                         {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 89,
                             "end": 89
@@ -495,7 +479,6 @@
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 90,
                                     "end": 90
@@ -509,7 +492,6 @@
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "autofix": 0,
                                     "flags": 12,
                                     "start": 93,
                                     "end": 93
@@ -527,7 +509,6 @@
                             "right": {
                                 "kind": 16637,
                                 "text": "",
-                                "autofix": 0,
                                 "flags": 12,
                                 "start": 95,
                                 "end": 95
@@ -669,7 +650,6 @@
                     "binding": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 125,
                         "end": 125

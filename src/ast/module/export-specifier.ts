@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, AutoFix } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { Identifier } from '../expressions/identifier-expr';
 import { StringLiteral } from '../expressions/string-literal';
 
@@ -20,7 +20,6 @@ export function createExportSpecifier(
     moduleExportName,
     name,
     binding,
-    autofix: AutoFix.NotFixable,
     flags: NodeFlags.IsStatement,
     start,
     end

@@ -583,7 +583,6 @@ foo ? bar : baz => {};
                                             "start": 152,
                                             "end": 153
                                         },
-                                        "autofix": 0,
                                         "flags": 256,
                                         "start": 149,
                                         "end": 153
@@ -1053,7 +1052,6 @@ foo ? bar : baz => {};
                             "start": 267,
                             "end": 268
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 264,
                         "end": 268

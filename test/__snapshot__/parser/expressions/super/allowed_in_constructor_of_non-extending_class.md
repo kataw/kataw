@@ -96,7 +96,6 @@ class x { constructor(){ super.foo; }}
                                                     "start": 31,
                                                     "end": 34
                                                 },
-                                                "autofix": 0,
                                                 "flags": 256,
                                                 "start": 24,
                                                 "end": 34

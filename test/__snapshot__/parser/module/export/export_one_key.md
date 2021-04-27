@@ -47,25 +47,21 @@ export {x}; var x;
                                 "end": 9
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 9
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 9
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 10
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 11

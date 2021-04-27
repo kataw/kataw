@@ -123,7 +123,6 @@ x = {arrow: async (x, y) => ok}.y
                         "start": 32,
                         "end": 33
                     },
-                    "autofix": 0,
                     "flags": 256,
                     "start": 3,
                     "end": 33

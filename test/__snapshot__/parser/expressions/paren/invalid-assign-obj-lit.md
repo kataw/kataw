@@ -581,7 +581,6 @@
                                                 "start": 131,
                                                 "end": 132
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 126,
                                             "end": 132
@@ -610,7 +609,6 @@
                                                 "start": 140,
                                                 "end": 141
                                             },
-                                            "autofix": 0,
                                             "flags": 256,
                                             "start": 134,
                                             "end": 141
@@ -991,7 +989,6 @@
                                                             "start": 211,
                                                             "end": 212
                                                         },
-                                                        "autofix": 0,
                                                         "flags": 256,
                                                         "start": 209,
                                                         "end": 212
@@ -1193,7 +1190,6 @@
                                                                 "expression": {
                                                                     "kind": 16637,
                                                                     "text": "",
-                                                                    "autofix": 0,
                                                                     "flags": 12,
                                                                     "start": 258,
                                                                     "end": 258
@@ -1641,12 +1637,10 @@
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "autofix": 0,
                             "flags": 12,
                             "start": 347,
                             "end": 347
                         },
-                        "autofix": 0,
                         "flags": 256,
                         "start": 343,
                         "end": 347

@@ -4,7 +4,6 @@
 export interface SyntaxNode {
   kind: SyntaxKind;
   flags: NodeFlags;
-  autofix?: AutoFix;
   start: number;
   end: number;
 }
@@ -389,11 +388,4 @@ export const enum SyntaxKind {
   DecoratorList = 207,
   FunctionTypeParameterList = 208,
   BooleanType = 209
-}
-
-export const enum AutoFix {
-  Braces = 1 << 0, // Surround the AST node with '{' and '}'
-  Parenthesis = 1 << 1, // Surround the AST node with '(' and ')'
-  NotFixable = 0,
-  Fixable = 1
 }

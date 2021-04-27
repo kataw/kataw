@@ -141,7 +141,6 @@ var await; var f = (async function() { call(await.foo) });
                                                                     "member": {
                                                                         "kind": 16637,
                                                                         "text": "",
-                                                                        "autofix": 0,
                                                                         "flags": 12,
                                                                         "start": 49,
                                                                         "end": 49
@@ -154,7 +153,6 @@ var await; var f = (async function() { call(await.foo) });
                                                                         "start": 50,
                                                                         "end": 53
                                                                     },
-                                                                    "autofix": 0,
                                                                     "flags": 256,
                                                                     "start": 49,
                                                                     "end": 53

@@ -59,7 +59,6 @@ for (/foo/.x in c) d;
                     "start": 11,
                     "end": 12
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 12

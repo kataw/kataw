@@ -65,7 +65,6 @@ class C { test() {get #a() { }}}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 18,
                 "end": 18
@@ -150,7 +149,6 @@ class C { test() {get #a() { }}}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 47,
                 "end": 47
@@ -233,7 +231,6 @@ class C { test() {get #a() { }}}
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "autofix": 0,
                     "flags": 12,
                     "start": 71,
                     "end": 71

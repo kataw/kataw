@@ -38,7 +38,6 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                     "member": {
                         "kind": 16637,
                         "text": "",
-                        "autofix": 0,
                         "flags": 12,
                         "start": 3,
                         "end": 3

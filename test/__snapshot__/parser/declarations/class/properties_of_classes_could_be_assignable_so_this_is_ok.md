@@ -140,7 +140,6 @@ for (class x { [a](){} }.x in c);
                     "start": 25,
                     "end": 26
                 },
-                "autofix": 0,
                 "flags": 256,
                 "start": 5,
                 "end": 26

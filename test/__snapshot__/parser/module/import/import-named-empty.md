@@ -47,17 +47,14 @@ import {} from "foo";
                     "importsList": {
                         "kind": 265,
                         "specifiers": [],
-                        "autofix": 0,
                         "flags": 0,
                         "start": 8,
                         "end": 8
                     },
-                    "autofix": 0,
                     "flags": 128,
                     "start": 6,
                     "end": 9
                 },
-                "autofix": 0,
                 "flags": 128,
                 "start": 6,
                 "end": 9

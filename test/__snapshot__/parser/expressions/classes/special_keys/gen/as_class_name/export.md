@@ -32,7 +32,6 @@ class export {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "autofix": 0,
                 "flags": 12,
                 "start": 5,
                 "end": 5
@@ -64,19 +63,16 @@ class export {}
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 14,
                     "end": 14
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 12,
                 "end": 15
             },
             "exportFromClause": null,
             "fromClause": null,
-            "autofix": 0,
             "flags": 128,
             "start": 5,
             "end": 15

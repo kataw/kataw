@@ -47,18 +47,15 @@ export {x,} from "foo"
                                 "end": 9
                             },
                             "binding": null,
-                            "autofix": 0,
                             "flags": 128,
                             "start": 8,
                             "end": 9
                         }
                     ],
-                    "autofix": 0,
                     "flags": 128,
                     "start": 8,
                     "end": 10
                 },
-                "autofix": 0,
                 "flags": 0,
                 "start": 6,
                 "end": 11
@@ -72,7 +69,6 @@ export {x,} from "foo"
                 "start": 16,
                 "end": 22
             },
-            "autofix": 0,
             "flags": 128,
             "start": 0,
             "end": 22
