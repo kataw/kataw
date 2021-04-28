@@ -218,8 +218,10 @@ export function parse(
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
 
-  const parser = create(source, onError ? onError : function () {});
+  /*eslint-disable */
 
+  const parser = create(source, onError ? onError : function () {});
+  /*eslint-enable */
   nextToken(parser, context | Context.AllowRegExp);
 
   const moduleOrScript = isModule ? parseModuleItem : parseStatementListItem;
@@ -5517,7 +5519,7 @@ function parseClassElementList(
   // ClassTail[Yield,Await] : (Modified) See 14.5
   //      ClassHeritage[?Yield,?Await]opt { ClassBody[?Yield,?Await]opt }
   while (parser.token & 0b01000100110000000100000000000000) {
-    let element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
+    const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
 
     if (element.flags & NodeFlags.Constructor) {
       if (hasConstructor) {

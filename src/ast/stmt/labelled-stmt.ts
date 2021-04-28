@@ -1,5 +1,4 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StatementNode } from '.';
 import { Identifier } from '../expressions/identifier-expr';
 

@@ -1,4 +1,4 @@
-import { NodeFlags, SyntaxKind, SyntaxNode } from './ast/syntax-node';
+import { NodeFlags, SyntaxKind } from './ast/syntax-node';
 
 /***
  * Simple AST walker.
