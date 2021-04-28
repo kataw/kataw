@@ -1043,7 +1043,7 @@ function parseConditionalExpression(
   expr: ExpressionNode,
   pos: number
 ): ExpressionNode {
-  const shortCircuit = parseBinaryExpression(parser, context, expr, /* minPrec */ 4, pos);
+  const shortCircuit = parseBinaryExpression(parser, context, expr, /* minPrec */ 4, parser.token, pos);
   if (parser.token !== SyntaxKind.QuestionMark) return shortCircuit;
   parser.assignable = false;
   return createConditionalExpression(
@@ -1062,9 +1062,9 @@ function parseBinaryExpression(
   context: Context,
   left: any,
   minPrec: number,
+  operator: SyntaxKind,
   pos: number
 ): BinaryExpression {
-
   let t: SyntaxKind;
   let prec: number;
   const bit = -((context & Context.DisallowIn) > 0) & SyntaxKind.InKeyword;
@@ -1074,21 +1074,34 @@ function parseBinaryExpression(
   while ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
     t = parser.token;
     prec = t & SyntaxKind.Precedence;
+
     if (
       prec + ((((t as SyntaxKind) === SyntaxKind.Exponentiate) as any) << 8) - (((bit === t) as any) << 12) <=
       minPrec
     )
       return left;
 
+    if (
+      (((t as SyntaxKind) === SyntaxKind.LogicalAnd || (t as SyntaxKind) === SyntaxKind.LogicalOr) &&
+        operator === SyntaxKind.QuestionMarkQuestionMark) ||
+      (((operator as SyntaxKind) === SyntaxKind.LogicalAnd || (operator as SyntaxKind) === SyntaxKind.LogicalOr) &&
+        t === SyntaxKind.QuestionMarkQuestionMark)
+    ) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode._and_operations_cannot_be_mixed_without_parentheses],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     left = createBinaryExpression(
       left,
       parseTokenNode(parser, context | Context.AllowRegExp),
-      parseBinaryExpression(parser, context, parseLeftHandSideExpression(parser, context), prec, parser.curPos),
+      parseBinaryExpression(parser, context, parseLeftHandSideExpression(parser, context), prec, t, parser.curPos),
       pos,
       parser.curPos
     );
-
-
   }
 
   return left;
@@ -1709,7 +1722,10 @@ function parseObjectLiteralOrAssignmentExpression(
     if (parser.token !== SyntaxKind.Assign) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal],
+        diagnosticMap[
+          DiagnosticCode
+            .Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal
+        ],
         parser.curPos,
         parser.pos
       );
@@ -2155,6 +2171,17 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
   const pos = parser.curPos;
   const newToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.NewKeyword);
   if (consumeOpt(parser, context, SyntaxKind.Period)) {
+    if (parser.tokenRaw !== 'target') {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    const target = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected) as Identifier;
+
     if ((context & Context.NewTarget) === 0) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -2163,12 +2190,9 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
         parser.pos
       );
     }
+
     parser.assignable = false;
-    return createNewTarget(
-      parseIdentifier(parser, context, DiagnosticCode.Identifier_expected) as Identifier,
-      pos,
-      parser.curPos
-    );
+    return createNewTarget(target, pos, parser.curPos);
   }
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ true);
@@ -2269,7 +2293,7 @@ function parsePrefixUpdateExpression(
  * @param parser Parser object
  * @param context  Context masks
  */
- export function isPropertyWithPrivateFieldKey(expr: any): boolean {
+export function isPropertyWithPrivateFieldKey(expr: any): boolean {
   return !expr.expression ? false : expr.expression.kind === SyntaxKind.PrivateIdentifier;
 }
 
@@ -2347,7 +2371,10 @@ function parseArrayLiteralOrAssignmentExpression(
     if (parser.token !== SyntaxKind.Assign) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_array_literal],
+        diagnosticMap[
+          DiagnosticCode
+            .Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_array_literal
+        ],
         parser.curPos,
         parser.pos
       );
@@ -2771,7 +2798,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           }
           expression = parseAssignmentExpression(parser, context, expression, curPos);
         } else if ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
-          expression = parseBinaryExpression(parser, context, expression, 4, curPos);
+          expression = parseBinaryExpression(parser, context, expression, 4, parser.token, curPos);
           if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
             expression = parseConditionalExpression(parser, context, expression, curPos);
           }
@@ -2781,14 +2808,6 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           } else {
             destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
           }
-        }
-
-        if (
-          (parser.token as SyntaxKind) !== SyntaxKind.Comma ||
-          (parser.token as SyntaxKind) !== SyntaxKind.LeftParen
-        ) {
-          expression = parseAssignmentExpression(parser, context, expression, curPos);
-          destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
         }
       }
     }
@@ -5089,7 +5108,26 @@ export function parseImportMeta(
   importKeyword: SyntaxToken<TokenSyntaxKind>
 ): ExpressionStatement {
   const pos = parser.curPos;
+
+  if (parser.tokenRaw !== 'import') {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Escape_sequence_in_keyword_import],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   nextToken(parser, context);
+
+  if (parser.tokenRaw !== 'meta') {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode._import_meta_must_not_contain_escaped_characters],
+      parser.curPos,
+      parser.pos
+    );
+  }
   nextToken(parser, context);
   if ((context & Context.AllowImportMeta) === 0) {
     parser.onError(
@@ -5830,7 +5868,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             }
             expression = parseAssignmentExpression(parser, context, expression, pos);
           } else if ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
-            expression = parseBinaryExpression(parser, context, expression, 4, pos);
+            expression = parseBinaryExpression(parser, context, expression, 4, parser.token, pos);
             if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
               expression = parseConditionalExpression(parser, context, expression, pos);
             }

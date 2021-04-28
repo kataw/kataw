@@ -256,6 +256,10 @@ a ?? b && c;
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 6, end: 9
+@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 20, end: 23
+@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 34, end: 37
+@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 48, end: 51
+
 ```
 

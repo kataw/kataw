@@ -152,6 +152,7 @@
 
 ```javascript
 @{x2716}@ Statement expected - start: 14, end: 15
+@{x2716}@ 'import.meta' must not contain escaped characters - start: 25, end: 29
 @{x2716}@ Cannot use 'import.meta' outside a module - start: 29, end: 29
 
 ```

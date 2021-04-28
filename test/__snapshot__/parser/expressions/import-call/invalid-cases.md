@@ -2089,6 +2089,7 @@ new import(x);
 @{x2716}@ Expression expected - start: 420, end: 421
 @{x2716}@ Unexpected token. - start: 429, end: 431
 @{x2716}@ Statement expected - start: 429, end: 431
+@{x2716}@ 'import.meta' must not contain escaped characters - start: 443, end: 446
 @{x2716}@ Expression expected - start: 458, end: 459
 @{x2716}@ Expression expected - start: 459, end: 460
 @{x2716}@ Statement expected - start: 459, end: 460

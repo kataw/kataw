@@ -52,6 +52,7 @@ import.call
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'import.meta' must not contain escaped characters - start: 7, end: 11
 @{x2716}@ Cannot use 'import.meta' outside a module - start: 11, end: 11
 
 ```

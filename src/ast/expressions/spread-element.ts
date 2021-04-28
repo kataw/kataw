@@ -10,7 +10,12 @@ export interface SpreadElement extends SyntaxNode {
   readonly argument: ExpressionNode;
 }
 
-export function createSpreadElement(ellipsisToken: SyntaxToken<TokenSyntaxKind> | null, argument: ExpressionNode, start: number, end: number): SpreadElement {
+export function createSpreadElement(
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
+  argument: ExpressionNode,
+  start: number,
+  end: number
+): SpreadElement {
   return {
     kind: SyntaxKind.SpreadElement,
     ellipsisToken,

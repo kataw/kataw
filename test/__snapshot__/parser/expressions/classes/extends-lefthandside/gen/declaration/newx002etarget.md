@@ -95,7 +95,7 @@ class A extends new.target {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'new.target' only allowed within functions - start: 20, end: 26
+@{x2716}@ 'new.target' only allowed within functions - start: 26, end: 28
 
 ```
 

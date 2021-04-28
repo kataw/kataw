@@ -3693,7 +3693,6 @@
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 381, end: 383
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 421, end: 423
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 748, end: 750
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 793, end: 795
 
 ```
 

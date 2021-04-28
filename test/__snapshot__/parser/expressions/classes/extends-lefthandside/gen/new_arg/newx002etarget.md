@@ -71,7 +71,7 @@ new new.target
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'new.target' only allowed within functions - start: 8, end: 14
+@{x2716}@ 'new.target' only allowed within functions - start: 14, end: 14
 
 ```
 

@@ -115,5 +115,9 @@
   "Identifier expected. Reserved word in strict mode": 116,
   "A class declaration without the 'default' modifier must have a name.": 117,
   "Invalid character": 118,
-  "'#constructor' is a reserved word.": 119
+  "'#constructor' is a reserved word.": 119,
+  "'&&' and '??' operations cannot be mixed without parentheses": 120,
+  "'import.meta' must not contain escaped characters": 121,
+  "Escape sequence in keyword import": 122,
+  "The only valid meta property for new is 'new.target": 123
 }

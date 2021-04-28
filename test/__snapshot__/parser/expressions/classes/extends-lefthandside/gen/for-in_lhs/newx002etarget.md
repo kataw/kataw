@@ -78,7 +78,8 @@ for (new.target in x) ;
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'new.target' only allowed within functions - start: 9, end: 15
+@{x2716}@ 'new.target' only allowed within functions - start: 15, end: 18
+@{x2716}@ Invalid left-hand side in for-in loop - start: 18, end: 20
 
 ```
 

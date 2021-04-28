@@ -4,18 +4,11 @@ import { SyntaxKind } from '../../ast/syntax-node';
 import { isIdentifierStart, isIdentifierPart } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../../diagnostic/diagnostic';
-import {
-  scanIdentifierParts
-} from './identifiers';
+import { scanIdentifierParts } from './identifiers';
 
 export function scanPrivateIdentifier(parser: ParserState, context: Context, cp: number, source: string): SyntaxKind {
   if (parser.pos !== 0 && source.charCodeAt(parser.pos + 1) === Char.Exclamation) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode.Unexpected_token],
-      parser.curPos,
-      parser.pos
-    );
+    parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
     parser.pos++;
     return SyntaxKind.UnknownToken;
   }
@@ -33,7 +26,7 @@ export function scanPrivateIdentifier(parser: ParserState, context: Context, cp:
         parser.curPos,
         parser.pos
       );
-      }
+    }
     if (cp === Char.Backslash) {
       parser.tokenValue += scanIdentifierParts(parser, source);
     }
@@ -41,12 +34,7 @@ export function scanPrivateIdentifier(parser: ParserState, context: Context, cp:
     parser.pos = pos;
   } else {
     parser.tokenValue = '#';
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode.Invalid_character],
-      parser.curPos,
-      parser.pos
-    );
+    parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Invalid_character], parser.curPos, parser.pos);
   }
   return SyntaxKind.PrivateIdentifier;
 }

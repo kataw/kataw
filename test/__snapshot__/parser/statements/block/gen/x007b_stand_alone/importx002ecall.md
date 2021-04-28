@@ -71,6 +71,7 @@
 ### Diagnostics
 
 ```javascript
+@{x2716}@ 'import.meta' must not contain escaped characters - start: 9, end: 13
 @{x2716}@ Cannot use 'import.meta' outside a module - start: 13, end: 13
 
 ```
