@@ -37,7 +37,7 @@ class C { #@{x29e3d}@ }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -55,23 +55,23 @@ class C { #@{x29e3d}@ }
                         "key": {
                             "kind": 67109115,
                             "text": "#",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 11
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 11
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -81,7 +81,7 @@ class C { #@{x29e3d}@ }
             "decorators": {
                 "kind": 207,
                 "decoratorList": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 12
             },
@@ -90,7 +90,7 @@ class C { #@{x29e3d}@ }
                 "kind": 134299649,
                 "text": "x29e3d",
                 "rawText": "x29e3d",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 19
             },
@@ -99,11 +99,11 @@ class C { #@{x29e3d}@ }
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 19
         },
@@ -113,7 +113,7 @@ class C { #@{x29e3d}@ }
             "decorators": {
                 "kind": 207,
                 "decoratorList": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 21
             },
@@ -121,7 +121,7 @@ class C { #@{x29e3d}@ }
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 23,
                 "end": 23
             },
@@ -130,11 +130,11 @@ class C { #@{x29e3d}@ }
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 23
         }

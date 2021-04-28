@@ -23,18 +23,18 @@ c\u006fnst = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 327680,
+                "flags": 16384,
                 "start": 0,
                 "end": 10
             },
             "binding": {
                 "kind": 151,
                 "bindingList": [],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 10
         },
@@ -44,11 +44,11 @@ c\u006fnst = x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 12,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 15
         }

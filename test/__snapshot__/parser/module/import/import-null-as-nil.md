@@ -33,7 +33,7 @@ import { null as nil } from "bar"
                 "kind": 201392131,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 33
             },
@@ -54,7 +54,7 @@ import { null as nil } from "bar"
                                     "kind": 134299649,
                                     "text": "null",
                                     "rawText": "null",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 13
                                 },
@@ -62,11 +62,11 @@ import { null as nil } from "bar"
                                     "kind": 134299649,
                                     "text": "nil",
                                     "rawText": "nil",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 20
                             }
@@ -75,15 +75,15 @@ import { null as nil } from "bar"
                         "start": 8,
                         "end": 20
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 22
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 33
         }

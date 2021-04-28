@@ -24,11 +24,11 @@ else false
             "expression": {
                 "kind": 134,
                 "text": false,
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 10
         }

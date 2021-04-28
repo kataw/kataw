@@ -50,30 +50,30 @@ var foo
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 14
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 10,
                             "end": 14
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 14
             },
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

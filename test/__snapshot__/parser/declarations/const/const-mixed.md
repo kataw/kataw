@@ -42,7 +42,7 @@ const map = {
                             "kind": 134299649,
                             "text": "map",
                             "rawText": "map",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 9
                         },
@@ -59,7 +59,7 @@ const map = {
                                             "kind": 201392131,
                                             "text": "Too young",
                                             "rawText": "Too young",
-                                            "flags": 67109632,
+                                            "flags": 4194400,
                                             "start": 29,
                                             "end": 41
                                         },
@@ -71,13 +71,13 @@ const map = {
                                                     "kind": 134299649,
                                                     "text": "age",
                                                     "rawText": "age",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 17,
                                                     "end": 20
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34880,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 20,
                                                     "end": 23
                                                 },
@@ -85,19 +85,19 @@ const map = {
                                                     "kind": 201392130,
                                                     "text": 17,
                                                     "rawText": "17",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 23,
                                                     "end": 26
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 26
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 27
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 41
                                     }
@@ -108,20 +108,20 @@ const map = {
                                 "start": 13,
                                 "end": 41
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 43
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 43
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 44
         }

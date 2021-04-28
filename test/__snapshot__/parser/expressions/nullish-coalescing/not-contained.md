@@ -31,13 +31,13 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 33339,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 1,
                         "end": 4
                     },
@@ -45,17 +45,17 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 4,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 9
                 },
@@ -63,15 +63,15 @@ a ?? b && c;
                     "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         },
@@ -83,13 +83,13 @@ a ?? b && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 15,
                     "end": 18
                 },
@@ -99,13 +99,13 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 18,
                         "end": 20
                     },
                     "operatorToken": {
                         "kind": 33339,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 20,
                         "end": 23
                     },
@@ -113,19 +113,19 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 26
         },
@@ -139,13 +139,13 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 26,
                         "end": 29
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 29,
                         "end": 32
                     },
@@ -153,17 +153,17 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 32,
                         "end": 34
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 26,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 34,
                     "end": 37
                 },
@@ -171,15 +171,15 @@ a ?? b && c;
                     "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 37,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 26,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 40
         },
@@ -191,13 +191,13 @@ a ?? b && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 40,
                     "end": 43
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 43,
                     "end": 46
                 },
@@ -207,13 +207,13 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 46,
                         "end": 48
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 48,
                         "end": 51
                     },
@@ -221,19 +221,19 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 51,
                         "end": 53
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 48,
                     "end": 53
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 40,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 40,
             "end": 54
         }

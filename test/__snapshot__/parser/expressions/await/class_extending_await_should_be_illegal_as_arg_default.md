@@ -20,7 +20,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -43,7 +43,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -71,13 +71,13 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                             "kind": 134299649,
                                             "text": "fail",
                                             "rawText": "fail",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 28
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 28,
                                             "end": 30
                                         },
@@ -94,7 +94,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                 "kind": 134299649,
                                                 "text": "A",
                                                 "rawText": "A",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 36,
                                                 "end": 38
                                             },
@@ -119,31 +119,31 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 52,
                                                         "end": 56
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 46,
                                                     "end": 56
                                                 },
                                                 "typeParameter": null,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 46,
                                                 "end": 56
                                             },
                                             "members": {
                                                 "kind": 277,
                                                 "elements": [],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 58,
                                                 "end": 59
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 30,
                                             "end": 59
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 59
                                     }
@@ -154,31 +154,31 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                     "kind": 134299649,
                                     "text": "fail",
                                     "rawText": "fail",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 63,
                                     "end": 68
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 68
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 68
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 68
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 73
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 73
         }

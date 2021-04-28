@@ -38,11 +38,11 @@ export * as x from "x" foo
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 0,
                 "end": 13
             },
@@ -50,11 +50,11 @@ export * as x from "x" foo
                 "kind": 201392131,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         },
@@ -64,11 +64,11 @@ export * as x from "x" foo
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 22,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 26
         }

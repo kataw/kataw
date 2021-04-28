@@ -41,15 +41,15 @@ import(x).then();
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 8,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 11
         },
@@ -67,15 +67,15 @@ import(x).then();
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 25
         },
@@ -93,15 +93,15 @@ import(x).then();
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 34,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 33,
             "end": 37
         },
@@ -121,13 +121,13 @@ import(x).then();
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 46,
                         "end": 47
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 47,
                         "end": 48
                     },
@@ -135,19 +135,19 @@ import(x).then();
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 48,
                         "end": 49
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 46,
                     "end": 49
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 45,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 45,
             "end": 51
         },
@@ -175,23 +175,23 @@ import(x).then();
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 67,
                             "end": 68
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 66,
                         "end": 69
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 66,
                     "end": 69
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 59,
                 "end": 70
             },
-            "flags": 128,
+            "flags": 16,
             "start": 59,
             "end": 71
         },
@@ -213,11 +213,11 @@ import(x).then();
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 80,
                             "end": 81
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 79,
                         "end": 82
                     },
@@ -225,11 +225,11 @@ import(x).then();
                         "kind": 134299649,
                         "text": "then",
                         "rawText": "then",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 83,
                         "end": 87
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 79,
                     "end": 87
                 },
@@ -237,15 +237,15 @@ import(x).then();
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 88,
                     "end": 88
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 79,
                 "end": 89
             },
-            "flags": 128,
+            "flags": 16,
             "start": 79,
             "end": 90
         }

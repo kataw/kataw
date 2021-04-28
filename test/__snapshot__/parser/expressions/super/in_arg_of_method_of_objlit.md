@@ -23,13 +23,13 @@ x={ dsda(){ return async function(a=super.foo){} }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 2
                 },
@@ -44,7 +44,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                     "kind": 134299649,
                                     "text": "dsda",
                                     "rawText": "dsda",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 3,
                                     "end": 8
                                 },
@@ -53,7 +53,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 9,
                                     "end": 10
                                 },
@@ -76,7 +76,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                     "kind": 177,
                                                     "asyncKeyword": {
                                                         "kind": 82031,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 18,
                                                         "end": 24
                                                     },
@@ -98,7 +98,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                     "kind": 134299649,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 34,
                                                                     "end": 35
                                                                 },
@@ -114,7 +114,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                             "start": 36,
                                                                             "end": 41
                                                                         },
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 36,
                                                                         "end": 41
                                                                     },
@@ -122,21 +122,21 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                         "kind": 134299649,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 42,
                                                                         "end": 45
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 36,
                                                                     "end": 45
                                                                 },
-                                                                "flags": 258,
+                                                                "flags": 34,
                                                                 "start": 34,
                                                                 "end": 45
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 258,
+                                                        "flags": 34,
                                                         "start": 33,
                                                         "end": 46
                                                     },
@@ -147,35 +147,35 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                             "directives": [],
                                                             "statements": [],
                                                             "multiline": false,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 47,
                                                             "end": 47
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 46,
                                                         "end": 48
                                                     },
                                                     "typeParameters": null,
                                                     "returnType": null,
-                                                    "flags": 1280,
+                                                    "flags": 160,
                                                     "start": 18,
                                                     "end": 48
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 0,
                                                 "end": 11
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 48
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 50
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 50
                             }
@@ -186,15 +186,15 @@ x={ dsda(){ return async function(a=super.foo){} }}
                         "start": 3,
                         "end": 50
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 51
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 51
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 51
         }

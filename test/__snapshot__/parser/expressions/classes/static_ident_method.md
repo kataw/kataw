@@ -29,7 +29,7 @@ class A {static a(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -44,7 +44,7 @@ class A {static a(){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -57,7 +57,7 @@ class A {static a(){}}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 17
                             },
@@ -78,11 +78,11 @@ class A {static a(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 20
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 21
                             },
@@ -95,11 +95,11 @@ class A {static a(){}}
                         "end": 21
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

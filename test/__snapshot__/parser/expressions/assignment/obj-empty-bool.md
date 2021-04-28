@@ -23,13 +23,13 @@ result = {} = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -46,13 +46,13 @@ result = {} = vals;
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 11,
                         "end": 13
                     },
@@ -60,19 +60,19 @@ result = {} = vals;
                         "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

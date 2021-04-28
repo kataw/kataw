@@ -33,7 +33,7 @@ var af = ({x = 1}) => x;
                             "kind": 134299649,
                             "text": "af",
                             "rawText": "af",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 6
                         },
@@ -60,7 +60,7 @@ var af = ({x = 1}) => x;
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 11,
                                                     "end": 12
                                                 },
@@ -68,11 +68,11 @@ var af = ({x = 1}) => x;
                                                     "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 14,
                                                     "end": 16
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 16
                                             }
@@ -83,7 +83,7 @@ var af = ({x = 1}) => x;
                                         "start": 11,
                                         "end": 16
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 17
                                 }
@@ -94,24 +94,24 @@ var af = ({x = 1}) => x;
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 23
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

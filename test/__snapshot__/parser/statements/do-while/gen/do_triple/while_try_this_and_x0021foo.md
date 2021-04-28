@@ -30,7 +30,7 @@ do do do while try this and !foo while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 44,
                 "end": 44
             },
@@ -51,7 +51,7 @@ do do do while try this and !foo while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 38,
                     "end": 38
                 },
@@ -73,7 +73,7 @@ do do do while try this and !foo while while while
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 27,
                             "end": 29
                         },
@@ -81,11 +81,11 @@ do do do while try this and !foo while while while
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 29,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 27,
                         "end": 32
                     },
@@ -101,7 +101,7 @@ do do do while try this and !foo while while while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 14,
                             "end": 14
                         },
@@ -119,11 +119,11 @@ do do do while try this and !foo while while while
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 18,
                                     "end": 18
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 18,
                                 "end": 18
                             },
@@ -135,31 +135,31 @@ do do do while try this and !foo while while while
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 23
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 32
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 44
         },
@@ -174,7 +174,7 @@ do do do while try this and !foo while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 50,
                 "end": 50
             },
@@ -183,15 +183,15 @@ do do do while try this and !foo while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 50,
                     "end": 50
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 50,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 44,
             "end": 50
         }

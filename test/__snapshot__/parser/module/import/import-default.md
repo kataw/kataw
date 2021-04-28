@@ -33,7 +33,7 @@ import foo from "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 21
             },
@@ -44,17 +44,17 @@ import foo from "foo";
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 6,
                     "end": 10
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 22
         }

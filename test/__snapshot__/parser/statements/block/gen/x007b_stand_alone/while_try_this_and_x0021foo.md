@@ -35,7 +35,7 @@
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 7,
                             "end": 7
                         },
@@ -53,11 +53,11 @@
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 11,
                                     "end": 11
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 11,
                                 "end": 11
                             },
@@ -69,19 +69,19 @@
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 16,
                                     "end": 16
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 16,
                                 "end": 16
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 7,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 16
                     },
@@ -91,11 +91,11 @@
                             "kind": 134299649,
                             "text": "and",
                             "rawText": "and",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 20
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 20
                     },
@@ -105,7 +105,7 @@
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 22
                             },
@@ -113,25 +113,25 @@
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 25
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 20,
                             "end": 25
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 20,
                         "end": 25
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

@@ -25,11 +25,11 @@ else {} if(x) { while try this and !foo
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         },
@@ -45,7 +45,7 @@ else {} if(x) { while try this and !foo
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
@@ -65,7 +65,7 @@ else {} if(x) { while try this and !foo
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 21,
                                 "end": 21
                             },
@@ -83,11 +83,11 @@ else {} if(x) { while try this and !foo
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 25,
                                         "end": 25
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 25,
                                     "end": 25
                                 },
@@ -99,19 +99,19 @@ else {} if(x) { while try this and !foo
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 30,
                                         "end": 30
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 30,
                                     "end": 30
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 21,
                                 "end": 30
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 30
                         },
@@ -121,11 +121,11 @@ else {} if(x) { while try this and !foo
                                 "kind": 134299649,
                                 "text": "and",
                                 "rawText": "and",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 30,
                                 "end": 34
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 30,
                             "end": 34
                         },
@@ -135,7 +135,7 @@ else {} if(x) { while try this and !foo
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -143,31 +143,31 @@ else {} if(x) { while try this and !foo
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 36,
                                     "end": 39
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 34,
                                 "end": 39
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 34,
                             "end": 39
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 39
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 39
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 39
         }

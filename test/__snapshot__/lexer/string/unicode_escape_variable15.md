@@ -33,11 +33,11 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "\"\\u{a",
-                "flags": 33686272,
+                "flags": 2105440,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         }

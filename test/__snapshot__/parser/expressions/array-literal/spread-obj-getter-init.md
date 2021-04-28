@@ -26,7 +26,7 @@ var callCount = 0;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -39,7 +39,7 @@ var callCount = 0;
                             "kind": 134299649,
                             "text": "o",
                             "rawText": "o",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -56,7 +56,7 @@ var callCount = 0;
                                             "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -64,11 +64,11 @@ var callCount = 0;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 13
                                     },
@@ -78,7 +78,7 @@ var callCount = 0;
                                             "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 19
                                         },
@@ -86,11 +86,11 @@ var callCount = 0;
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 19
                                     }
@@ -101,20 +101,20 @@ var callCount = 0;
                                 "start": 9,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 20
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 20
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 21
         },
@@ -122,7 +122,7 @@ var callCount = 0;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 21,
                 "end": 25
             },
@@ -135,7 +135,7 @@ var callCount = 0;
                             "kind": 134299649,
                             "text": "executedGetter",
                             "rawText": "executedGetter",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 25,
                             "end": 40
                         },
@@ -144,20 +144,20 @@ var callCount = 0;
                         "initializer": {
                             "kind": 134,
                             "text": false,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 42,
                             "end": 48
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 25,
                         "end": 48
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 25,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 21,
             "end": 49
         },
@@ -179,7 +179,7 @@ var callCount = 0;
                             "kind": 134299649,
                             "text": "callCount",
                             "rawText": "callCount",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 55,
                             "end": 65
                         },
@@ -189,20 +189,20 @@ var callCount = 0;
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 67,
                             "end": 69
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 55,
                         "end": 69
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 55,
                 "end": 69
             },
-            "flags": 128,
+            "flags": 16,
             "start": 49,
             "end": 70
         },
@@ -235,20 +235,20 @@ var callCount = 0;
                                             "kind": 134299649,
                                             "text": "obj",
                                             "rawText": "obj",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 82,
                                             "end": 85
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 82,
                                         "end": 85
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 81,
                                 "end": 86
                             },
@@ -259,17 +259,17 @@ var callCount = 0;
                                     "directives": [],
                                     "statements": [],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 88,
                                     "end": 88
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 86,
                                 "end": 90
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 73,
                             "end": 90
                         },
@@ -277,11 +277,11 @@ var callCount = 0;
                             "kind": 134299649,
                             "text": "apply",
                             "rawText": "apply",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 91,
                             "end": 96
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 73,
                         "end": 96
                     },
@@ -291,7 +291,7 @@ var callCount = 0;
                             {
                                 "kind": 269,
                                 "text": null,
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 97,
                                 "end": 101
                             },
@@ -317,11 +317,11 @@ var callCount = 0;
                                                             "kind": 134299649,
                                                             "text": "o",
                                                             "rawText": "o",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 108,
                                                             "end": 109
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 105,
                                                         "end": 109
                                                     },
@@ -331,7 +331,7 @@ var callCount = 0;
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 114,
                                                             "end": 116
                                                         },
@@ -340,7 +340,7 @@ var callCount = 0;
                                                             "kind": 214,
                                                             "formalParameterList": [],
                                                             "trailingComma": false,
-                                                            "flags": 8448,
+                                                            "flags": 1056,
                                                             "start": 117,
                                                             "end": 118
                                                         },
@@ -352,15 +352,15 @@ var callCount = 0;
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "multiline": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 120,
                                                                 "end": 120
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 118,
                                                             "end": 121
                                                         },
-                                                        "flags": 8448,
+                                                        "flags": 1056,
                                                         "start": 116,
                                                         "end": 121
                                                     }
@@ -371,35 +371,35 @@ var callCount = 0;
                                                 "start": 105,
                                                 "end": 121
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 104,
                                             "end": 122
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 104,
                                     "end": 122
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 102,
                                 "end": 123
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 97,
                         "end": 123
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 73,
                     "end": 124
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 70,
                 "end": 125
             },
-            "flags": 128,
+            "flags": 16,
             "start": 70,
             "end": 126
         }

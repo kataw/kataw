@@ -23,13 +23,13 @@ fuction *f() {  return await yield;  }
                     "kind": 134299649,
                     "text": "fuction",
                     "rawText": "fuction",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 7,
                     "end": 9
                 },
@@ -39,7 +39,7 @@ fuction *f() {  return await yield;  }
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 10
                     },
@@ -47,19 +47,19 @@ fuction *f() {  return await yield;  }
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 9,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         },
@@ -80,11 +80,11 @@ fuction *f() {  return await yield;  }
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 28
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 0,
                         "end": 14
                     },
@@ -94,21 +94,21 @@ fuction *f() {  return await yield;  }
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 28,
                             "end": 34
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 28,
                         "end": 35
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 38
         }

@@ -40,11 +40,11 @@
                                                     "kind": 134299649,
                                                     "text": "async",
                                                     "rawText": "async",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 5,
                                                     "end": 11
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 11
                                             },
@@ -61,7 +61,7 @@
                                                 "name": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 12,
+                                                    "flags": 68,
                                                     "start": 17,
                                                     "end": 17
                                                 },
@@ -70,41 +70,41 @@
                                                 "members": {
                                                     "kind": 277,
                                                     "elements": [],
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 11,
                                                     "end": 11
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 11,
                                                 "end": 17
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 17
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 17
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 17
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

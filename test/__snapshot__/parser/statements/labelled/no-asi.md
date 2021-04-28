@@ -23,7 +23,7 @@ debugger /foo/
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -32,11 +32,11 @@ debugger /foo/
             "expression": {
                 "kind": 221,
                 "text": "/foo/",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 14
         }

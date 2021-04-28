@@ -35,13 +35,13 @@ import(y=x)
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 8,
                         "end": 9
                     },
@@ -49,19 +49,19 @@ import(y=x)
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 11
         }

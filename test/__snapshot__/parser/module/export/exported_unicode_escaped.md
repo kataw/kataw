@@ -40,7 +40,7 @@ export { \u0061bc }
                             "kind": 134299649,
                             "text": "abc",
                             "rawText": "abc",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -50,20 +50,20 @@ export { \u0061bc }
                             "kind": 201392130,
                             "text": 5,
                             "rawText": "5",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 11
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 11
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         },
@@ -88,17 +88,17 @@ export { \u0061bc }
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "export",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 30
                             },
                             "binding": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 21,
                             "end": 30
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 21,
                     "end": 30
                 },
@@ -108,7 +108,7 @@ export { \u0061bc }
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 32
         }

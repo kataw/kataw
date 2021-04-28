@@ -23,7 +23,7 @@ foo({bar(){ new.target }})
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -41,7 +41,7 @@ foo({bar(){ new.target }})
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -50,7 +50,7 @@ foo({bar(){ new.target }})
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -69,29 +69,29 @@ foo({bar(){ new.target }})
                                                                 "kind": 134299649,
                                                                 "text": "target",
                                                                 "rawText": "target",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 16,
                                                                 "end": 22
                                                             },
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 11,
                                                             "end": 22
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 11,
                                                         "end": 22
                                                     }
                                                 ],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 22
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 24
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 24
                                     }
@@ -102,21 +102,21 @@ foo({bar(){ new.target }})
                                 "start": 5,
                                 "end": 24
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 4,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

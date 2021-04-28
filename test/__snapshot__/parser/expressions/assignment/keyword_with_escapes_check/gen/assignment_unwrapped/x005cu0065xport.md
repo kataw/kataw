@@ -23,7 +23,7 @@
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 262144,
+                "flags": 16384,
                 "start": 0,
                 "end": 11
             },
@@ -31,7 +31,7 @@
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -41,11 +41,11 @@
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 16
         }

@@ -43,7 +43,7 @@ var v = (a, b) => {
                             "kind": 134299649,
                             "text": "v",
                             "rawText": "v",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -64,7 +64,7 @@ var v = (a, b) => {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -72,7 +72,7 @@ var v = (a, b) => {
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 11,
                                         "end": 13
                                     }
@@ -87,28 +87,28 @@ var v = (a, b) => {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 22
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 22
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

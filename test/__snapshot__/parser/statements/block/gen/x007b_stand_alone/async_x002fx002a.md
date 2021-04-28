@@ -30,21 +30,21 @@
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 7
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 7
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         }

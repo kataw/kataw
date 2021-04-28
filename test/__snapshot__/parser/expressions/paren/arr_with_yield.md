@@ -23,13 +23,13 @@ result = [x[yield]] = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -46,7 +46,7 @@ result = [x[yield]] = vals;
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 11
                                     },
@@ -54,27 +54,27 @@ result = [x[yield]] = vals;
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 17
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 18
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 18
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 19,
                         "end": 21
                     },
@@ -82,19 +82,19 @@ result = [x[yield]] = vals;
                         "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 21,
                         "end": 26
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

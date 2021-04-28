@@ -20,7 +20,7 @@ async function *f(await){}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -32,7 +32,7 @@ async function *f(await){}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 14,
                 "end": 16
             },
@@ -40,7 +40,7 @@ async function *f(await){}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 17
             },
@@ -54,20 +54,20 @@ async function *f(await){}
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 23
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 18,
                         "end": 23
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 24
             },
@@ -78,17 +78,17 @@ async function *f(await){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 25,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 24,
                 "end": 26
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 0,
             "end": 26
         }

@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -33,7 +33,7 @@
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 13,
                 "end": 19
             },
@@ -48,7 +48,7 @@
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 28,
                 "end": 30
             },
@@ -70,36 +70,36 @@
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 32,
                                             "end": 38
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 32,
                                         "end": 38
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 38
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 31,
                             "end": 40
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 258,
+                        "flags": 34,
                         "start": 31,
                         "end": 40
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 30,
                 "end": 41
             },
@@ -110,17 +110,17 @@
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 43,
                     "end": 43
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 41,
                 "end": 44
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 13,
             "end": 44
         }

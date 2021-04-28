@@ -27,7 +27,7 @@ function* foo(a = {*bar() { yield b }}) {}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -35,7 +35,7 @@ function* foo(a = {*bar() { yield b }}) {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 13
             },
@@ -49,7 +49,7 @@ function* foo(a = {*bar() { yield b }}) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
@@ -66,7 +66,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 23
                                         },
@@ -75,7 +75,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 24,
                                             "end": 25
                                         },
@@ -102,29 +102,29 @@ function* foo(a = {*bar() { yield b }}) {}
                                                                 "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 33,
                                                                 "end": 35
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 27,
                                                             "end": 35
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 27,
                                                         "end": 35
                                                     }
                                                 ],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 27,
                                                 "end": 35
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 37
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 23,
                                         "end": 37
                                     }
@@ -135,17 +135,17 @@ function* foo(a = {*bar() { yield b }}) {}
                                 "start": 19,
                                 "end": 37
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 38
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 14,
                         "end": 38
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 13,
                 "end": 39
             },
@@ -156,17 +156,17 @@ function* foo(a = {*bar() { yield b }}) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 41,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 39,
                 "end": 42
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 42
         }

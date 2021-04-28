@@ -21,7 +21,7 @@ delete (foo)=>bar
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -39,7 +39,7 @@ delete (foo)=>bar
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 11
                         }
@@ -50,19 +50,19 @@ delete (foo)=>bar
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

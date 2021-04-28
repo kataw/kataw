@@ -26,12 +26,20 @@
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 7
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -40,7 +48,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 2304,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -52,15 +60,15 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 17
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 18
                                 },
-                                "flags": 2304,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 18
                             }
@@ -71,15 +79,15 @@
                         "start": 2,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }
@@ -102,6 +110,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 7, end: 11
+
 ```
 

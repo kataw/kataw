@@ -45,7 +45,7 @@ for (;;) function f(){}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
@@ -53,7 +53,7 @@ for (;;) function f(){}
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 21
                 },
@@ -64,21 +64,21 @@ for (;;) function f(){}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 23
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

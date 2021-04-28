@@ -47,18 +47,18 @@ for (;;c);
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

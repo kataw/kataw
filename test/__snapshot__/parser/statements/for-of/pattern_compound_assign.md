@@ -44,7 +44,7 @@ for({}/=y of a)x
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 512,
+                "flags": 64,
                 "start": 9,
                 "end": 12
             },
@@ -61,13 +61,13 @@ for({}/=y of a)x
                         "start": 5,
                         "end": 5
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4133,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -75,11 +75,11 @@ for({}/=y of a)x
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 8,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 4,
                 "end": 9
             },
@@ -87,7 +87,7 @@ for({}/=y of a)x
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 12,
                 "end": 14
             },
@@ -97,16 +97,16 @@ for({}/=y of a)x
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 16
             },
             "awaitKeyword": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

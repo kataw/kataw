@@ -41,15 +41,15 @@ export default [];
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

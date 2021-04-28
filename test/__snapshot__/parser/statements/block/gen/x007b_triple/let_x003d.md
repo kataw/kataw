@@ -42,58 +42,58 @@
                                                         "kind": 134299649,
                                                         "text": "let",
                                                         "rawText": "let",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 5,
                                                         "end": 9
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 9,
                                                         "end": 12
                                                     },
                                                     "right": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 12,
+                                                        "flags": 68,
                                                         "start": 12,
                                                         "end": 12
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 5,
                                                     "end": 12
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 12
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 12
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 12
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 12
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

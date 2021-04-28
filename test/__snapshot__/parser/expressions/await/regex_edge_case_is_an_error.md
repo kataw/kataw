@@ -21,7 +21,7 @@ async function f(){ await foo
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -36,7 +36,7 @@ async function f(){ await foo
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -44,7 +44,7 @@ async function f(){ await foo
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -72,17 +72,17 @@ async function f(){ await foo
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 29
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 29
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 513,
+                                        "flags": 65,
                                         "start": 29,
                                         "end": 31
                                     },
@@ -90,48 +90,48 @@ async function f(){ await foo
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 31,
                                         "end": 34
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 19,
                                     "end": 34
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 34,
                                     "end": 35
                                 },
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 35,
                                     "end": 35
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 35
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 35
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 37
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 37
         }

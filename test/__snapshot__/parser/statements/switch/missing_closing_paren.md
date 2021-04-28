@@ -27,18 +27,18 @@ switch (x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

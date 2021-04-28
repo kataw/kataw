@@ -37,7 +37,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "kind": 134299649,
                             "text": "gfe",
                             "rawText": "gfe",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -54,7 +54,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 19
                             },
@@ -62,7 +62,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "kind": 134299649,
                                 "text": "rgfe",
                                 "rawText": "rgfe",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 24
                             },
@@ -70,7 +70,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 26
                             },
@@ -92,7 +92,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 37,
                                                 "end": 38
                                             },
@@ -118,7 +118,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 512,
+                                                                "flags": 64,
                                                                 "start": 52,
                                                                 "end": 53
                                                             },
@@ -126,11 +126,11 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 201392131,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
-                                                                "flags": 67109632,
+                                                                "flags": 4194400,
                                                                 "start": 53,
                                                                 "end": 59
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 46,
                                                             "end": 59
                                                         },
@@ -144,50 +144,50 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                     "end": 66
                                                                 },
                                                                 "label": null,
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 60,
                                                                 "end": 67
                                                             }
                                                         ],
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 41,
                                                         "end": 67
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 39,
                                                 "end": 69
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 28,
                                             "end": 69
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 69
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 71
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 9,
                             "end": 71
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 71
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 71
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 71
         }

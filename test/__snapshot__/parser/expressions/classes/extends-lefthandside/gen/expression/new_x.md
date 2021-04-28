@@ -36,7 +36,7 @@
                         "kind": 134299649,
                         "text": "B",
                         "rawText": "B",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
@@ -61,36 +61,36 @@
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 22
                             },
                             "argumentList": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 22
                         },
                         "typeParameter": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 22
                     },
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 24,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

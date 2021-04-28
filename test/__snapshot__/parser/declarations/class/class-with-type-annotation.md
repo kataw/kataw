@@ -48,7 +48,7 @@ class Foo { bar():this { return this; }}
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -71,7 +71,7 @@ class Foo { bar():this { return this; }}
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 15
                             },
@@ -88,7 +88,7 @@ class Foo { bar():this { return this; }}
                                 "kind": 139,
                                 "type": {
                                     "kind": 4276321,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -112,21 +112,21 @@ class Foo { bar():this { return this; }}
                                             },
                                             "expression": {
                                                 "kind": 135,
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 31,
                                                 "end": 36
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 0,
                                             "end": 24
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 39
                             },
@@ -139,11 +139,11 @@ class Foo { bar():this { return this; }}
                         "end": 39
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

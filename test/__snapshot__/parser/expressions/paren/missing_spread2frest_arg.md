@@ -23,29 +23,29 @@
                     "kind": 215,
                     "ellipsisToken": {
                         "kind": 524302,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 1,
                         "end": 4
                     },
                     "binding": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 4,
                         "end": 4
                     },
                     "optionalToken": null,
                     "type": null,
                     "initializer": null,
-                    "flags": 258,
+                    "flags": 34,
                     "start": 1,
                     "end": 4
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         }

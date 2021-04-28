@@ -25,7 +25,7 @@ delete (x => ok)
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -44,7 +44,7 @@ delete (x => ok)
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 9
                         },
@@ -54,23 +54,23 @@ delete (x => ok)
                             "kind": 134299649,
                             "text": "ok",
                             "rawText": "ok",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

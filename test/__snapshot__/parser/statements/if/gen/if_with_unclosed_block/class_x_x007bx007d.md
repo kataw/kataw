@@ -25,11 +25,11 @@ else {} if(x) { class x {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         },
@@ -45,7 +45,7 @@ else {} if(x) { class x {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
@@ -68,7 +68,7 @@ else {} if(x) { class x {}
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
@@ -77,27 +77,27 @@ else {} if(x) { class x {}
                             "members": {
                                 "kind": 277,
                                 "elements": [],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 26
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 26
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 26
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 26
         }

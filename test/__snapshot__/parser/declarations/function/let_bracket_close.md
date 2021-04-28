@@ -40,17 +40,17 @@ let ];
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "let",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 6
         }

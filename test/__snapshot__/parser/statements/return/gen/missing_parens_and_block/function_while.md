@@ -30,11 +30,11 @@ return catch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -47,11 +47,11 @@ return catch function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 12
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 12
             },
@@ -63,15 +63,15 @@ return catch function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 21,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 21
         },
@@ -86,7 +86,7 @@ return catch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 27,
                 "end": 27
             },
@@ -95,15 +95,15 @@ return catch function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 27,
                     "end": 27
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 27,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 27
         }

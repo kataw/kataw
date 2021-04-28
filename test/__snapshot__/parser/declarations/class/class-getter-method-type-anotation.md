@@ -37,7 +37,7 @@ class Foo {get fooProp():number{}}
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -54,7 +54,7 @@ class Foo {get fooProp():number{}}
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 11,
                             "end": 14
                         },
@@ -65,7 +65,7 @@ class Foo {get fooProp():number{}}
                                 "kind": 134299649,
                                 "text": "fooProp",
                                 "rawText": "fooProp",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 22
                             },
@@ -74,7 +74,7 @@ class Foo {get fooProp():number{}}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 1024,
                                 "start": 23,
                                 "end": 24
                             },
@@ -82,7 +82,7 @@ class Foo {get fooProp():number{}}
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 25,
                                     "end": 31
                                 },
@@ -97,28 +97,28 @@ class Foo {get fooProp():number{}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 32,
                                     "end": 32
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 33
                             },
-                            "flags": 8192,
+                            "flags": 1024,
                             "start": 22,
                             "end": 33
                         },
-                        "flags": 8192,
+                        "flags": 1024,
                         "start": 11,
                         "end": 33
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

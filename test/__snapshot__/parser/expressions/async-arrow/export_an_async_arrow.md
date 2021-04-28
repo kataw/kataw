@@ -43,14 +43,14 @@ export default async (x) => y
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 23
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 20
                 },
@@ -59,15 +59,15 @@ export default async (x) => y
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 27,
                     "end": 29
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 14,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

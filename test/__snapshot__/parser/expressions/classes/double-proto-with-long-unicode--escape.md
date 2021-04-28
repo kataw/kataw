@@ -29,7 +29,7 @@ class x { "construct\u{6f}r"(){} }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class x { "construct\u{6f}r"(){} }
                                 "kind": 201392131,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 131840,
+                                "flags": 8288,
                                 "start": 9,
                                 "end": 28
                             },
@@ -73,11 +73,11 @@ class x { "construct\u{6f}r"(){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 31,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 32
                             },
@@ -90,11 +90,11 @@ class x { "construct\u{6f}r"(){} }
                         "end": 32
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

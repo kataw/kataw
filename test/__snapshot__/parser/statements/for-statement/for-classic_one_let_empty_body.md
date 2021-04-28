@@ -40,19 +40,19 @@ for (let a;;);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 10
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 8,
                 "end": 10
             },
@@ -60,11 +60,11 @@ for (let a;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

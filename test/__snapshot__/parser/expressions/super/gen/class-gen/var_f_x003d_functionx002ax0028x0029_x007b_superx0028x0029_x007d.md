@@ -33,7 +33,7 @@ class C { *method() { var f = function*() { super(); } } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class C { *method() { var f = function*() { super(); } } }
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 17
                             },
@@ -94,7 +94,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                             "kind": 134299649,
                                                             "text": "f",
                                                             "rawText": "f",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 25,
                                                             "end": 27
                                                         },
@@ -111,7 +111,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                             },
                                                             "generatorToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 512,
+                                                                "flags": 64,
                                                                 "start": 38,
                                                                 "end": 39
                                                             },
@@ -120,7 +120,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 39,
                                                                 "end": 41
                                                             },
@@ -142,7 +142,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                                         "start": 43,
                                                                                         "end": 49
                                                                                     },
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 43,
                                                                                     "end": 49
                                                                                 },
@@ -150,54 +150,54 @@ class C { *method() { var f = function*() { super(); } } }
                                                                                     "kind": 256,
                                                                                     "elements": [],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 50,
                                                                                     "end": 50
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 43,
                                                                                 "end": 51
                                                                             },
-                                                                            "flags": 128,
+                                                                            "flags": 16,
                                                                             "start": 43,
                                                                             "end": 52
                                                                         }
                                                                     ],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 43,
                                                                     "end": 52
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 41,
                                                                 "end": 54
                                                             },
                                                             "typeParameters": null,
                                                             "returnType": null,
-                                                            "flags": 2304,
+                                                            "flags": 288,
                                                             "start": 29,
                                                             "end": 54
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 25,
                                                         "end": 54
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 25,
                                                 "end": 54
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 21,
                                             "end": 54
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 54
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 56
                             },
@@ -210,11 +210,11 @@ class C { *method() { var f = function*() { super(); } } }
                         "end": 56
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 58
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 58
         }

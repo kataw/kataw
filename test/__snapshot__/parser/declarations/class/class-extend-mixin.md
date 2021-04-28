@@ -37,7 +37,7 @@ class Foo<T> extends mixin(Bar) { }
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -50,7 +50,7 @@ class Foo<T> extends mixin(Bar) { }
                             "kind": 134299649,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 11
                         },
@@ -78,7 +78,7 @@ class Foo<T> extends mixin(Bar) { }
                         "kind": 134299649,
                         "text": "mixin",
                         "rawText": "mixin",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 26
                     },
@@ -89,33 +89,33 @@ class Foo<T> extends mixin(Bar) { }
                                 "kind": 134299649,
                                 "text": "Bar",
                                 "rawText": "Bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 30
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 27,
                         "end": 30
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 31
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 31
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

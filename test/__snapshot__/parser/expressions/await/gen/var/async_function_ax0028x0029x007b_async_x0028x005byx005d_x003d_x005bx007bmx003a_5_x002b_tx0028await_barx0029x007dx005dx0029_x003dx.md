@@ -37,23 +37,23 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 9
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -75,7 +75,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
@@ -85,24 +85,24 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 100
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 100
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 100
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 100
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 100
         },
@@ -112,17 +112,17 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 105,
                 "end": 105
             },
-            "flags": 128,
+            "flags": 16,
             "start": 103,
             "end": 106
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 115,
             "end": 116
         }

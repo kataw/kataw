@@ -33,22 +33,22 @@ switch [catch] try { !xxx
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 8
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -61,11 +61,11 @@ switch [catch] try { !xxx
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
@@ -77,15 +77,15 @@ switch [catch] try { !xxx
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 14
         },
@@ -108,7 +108,7 @@ switch [catch] try { !xxx
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -116,25 +116,25 @@ switch [catch] try { !xxx
                                     "kind": 134299649,
                                     "text": "xxx",
                                     "rawText": "xxx",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 25
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 25
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 20,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 25
             },
@@ -146,15 +146,15 @@ switch [catch] try { !xxx
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 25,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 25
         }

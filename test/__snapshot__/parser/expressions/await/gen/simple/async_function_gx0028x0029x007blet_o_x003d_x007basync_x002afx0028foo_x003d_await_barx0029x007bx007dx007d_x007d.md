@@ -24,7 +24,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -39,7 +39,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -47,7 +47,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -61,7 +61,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 640,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 22
                             },
@@ -74,7 +74,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                             "kind": 134299649,
                                             "text": "o",
                                             "rawText": "o",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 24
                                         },
@@ -86,12 +86,20 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                 "kind": 218,
                                                 "properties": [
                                                     {
+                                                        "kind": 134299649,
+                                                        "text": "async",
+                                                        "rawText": "async",
+                                                        "flags": 96,
+                                                        "start": 28,
+                                                        "end": 33
+                                                    },
+                                                    {
                                                         "kind": 209,
                                                         "name": {
                                                             "kind": 134299649,
                                                             "text": "f",
                                                             "rawText": "f",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 35,
                                                             "end": 36
                                                         },
@@ -106,39 +114,45 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                         "kind": 134299649,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 37,
                                                                         "end": 40
                                                                     },
                                                                     "optionalToken": null,
                                                                     "type": null,
                                                                     "initializer": {
-                                                                        "kind": 208,
-                                                                        "awaitToken": {
-                                                                            "kind": 82032,
-                                                                            "flags": 0,
-                                                                            "start": 42,
-                                                                            "end": 48
-                                                                        },
-                                                                        "expression": {
-                                                                            "kind": 134299649,
-                                                                            "text": "bar",
-                                                                            "rawText": "bar",
-                                                                            "flags": 768,
-                                                                            "start": 48,
-                                                                            "end": 52
-                                                                        },
-                                                                        "flags": 256,
+                                                                        "kind": 134299649,
+                                                                        "text": "await",
+                                                                        "rawText": "await",
+                                                                        "flags": 96,
                                                                         "start": 42,
+                                                                        "end": 48
+                                                                    },
+                                                                    "flags": 34,
+                                                                    "start": 37,
+                                                                    "end": 48
+                                                                },
+                                                                {
+                                                                    "kind": 215,
+                                                                    "ellipsisToken": null,
+                                                                    "binding": {
+                                                                        "kind": 134299649,
+                                                                        "text": "bar",
+                                                                        "rawText": "bar",
+                                                                        "flags": 96,
+                                                                        "start": 48,
                                                                         "end": 52
                                                                     },
-                                                                    "flags": 258,
-                                                                    "start": 37,
+                                                                    "optionalToken": null,
+                                                                    "type": null,
+                                                                    "initializer": null,
+                                                                    "flags": 32,
+                                                                    "start": 48,
                                                                     "end": 52
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 3330,
+                                                            "flags": 34,
                                                             "start": 37,
                                                             "end": 53
                                                         },
@@ -150,15 +164,15 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "multiline": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 54,
                                                                 "end": 54
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 53,
                                                             "end": 55
                                                         },
-                                                        "flags": 3328,
+                                                        "flags": 32,
                                                         "start": 36,
                                                         "end": 55
                                                     }
@@ -169,36 +183,36 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                 "start": 28,
                                                 "end": 55
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 26,
                                             "end": 56
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 22,
                                         "end": 56
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 22,
                                 "end": 56
                             },
-                            "flags": 128,
+                            "flags": 33554448,
                             "start": 19,
                             "end": 56
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 56
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 61
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 61
         }
@@ -221,6 +235,8 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 35, end: 36
+✖ ',' expected - start: 48, end: 52
+
 ```
 

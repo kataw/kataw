@@ -23,13 +23,13 @@ await - 25
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 35379,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -37,15 +37,15 @@ await - 25
                     "kind": 201392130,
                     "text": 25,
                     "rawText": "25",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

@@ -27,13 +27,13 @@ implem\u0065nts = x;
                     "kind": 134299649,
                     "text": "implements",
                     "rawText": "implem\\u0065nts",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 15,
                     "end": 17
                 },
@@ -41,15 +41,15 @@ implem\u0065nts = x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

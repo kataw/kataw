@@ -34,7 +34,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -58,27 +58,27 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 26
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 26
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 26
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         },
@@ -88,11 +88,11 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 41,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 41,
             "end": 42
         },
@@ -107,21 +107,21 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 44,
                             "end": 49
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 44,
                         "end": 49
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 44,
                 "end": 49
             },
-            "flags": 128,
+            "flags": 16,
             "start": 42,
             "end": 49
         },
@@ -131,11 +131,11 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "kind": 201392130,
                 "text": 42,
                 "rawText": "42",
-                "flags": 768,
+                "flags": 96,
                 "start": 50,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 50,
             "end": 53
         }

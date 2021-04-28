@@ -30,11 +30,11 @@
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 5
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 5
                     },
@@ -55,7 +55,7 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 11,
                                         "end": 13
                                     },
@@ -64,20 +64,20 @@
                                     "initializer": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 15,
                                         "end": 15
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 11,
                                     "end": 15
                                 }
                             ],
-                            "flags": 160,
+                            "flags": 16777232,
                             "start": 11,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 33554448,
                         "start": 5,
                         "end": 15
                     },
@@ -93,21 +93,21 @@
                         "declarationList": {
                             "kind": 156,
                             "declarations": [],
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 19
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

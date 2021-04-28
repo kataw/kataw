@@ -38,7 +38,7 @@ switch {} default(x) { =! class function try while with foo!
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
@@ -62,15 +62,15 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 20
                             },
@@ -80,11 +80,11 @@ switch {} default(x) { =! class function try while with foo!
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 22
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 24
                             },
@@ -94,7 +94,7 @@ switch {} default(x) { =! class function try while with foo!
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 25
                                     },
@@ -113,19 +113,19 @@ switch {} default(x) { =! class function try while with foo!
                                         "members": {
                                             "kind": 277,
                                             "elements": [],
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 25
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 25,
                                         "end": 31
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 31
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 24,
                                 "end": 31
                             },
@@ -143,7 +143,7 @@ switch {} default(x) { =! class function try while with foo!
                                 "name": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 40,
                                     "end": 40
                                 },
@@ -151,7 +151,7 @@ switch {} default(x) { =! class function try while with foo!
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 40
                                 },
@@ -162,17 +162,17 @@ switch {} default(x) { =! class function try while with foo!
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 40,
                                         "end": 40
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 40
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 31,
                                 "end": 40
                             },
@@ -190,11 +190,11 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 44,
                                         "end": 44
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 44,
                                     "end": 44
                                 },
@@ -206,15 +206,15 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 50,
                                         "end": 50
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 50,
                                     "end": 50
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 40,
                                 "end": 50
                             },
@@ -230,7 +230,7 @@ switch {} default(x) { =! class function try while with foo!
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 55,
                                     "end": 59
                                 },
@@ -240,40 +240,40 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 59,
                                             "end": 60
                                         },
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 60,
                                             "end": 60
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 59,
                                         "end": 60
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 59,
                                     "end": 60
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 50,
                                 "end": 60
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 60
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 60
         }

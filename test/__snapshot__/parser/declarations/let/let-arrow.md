@@ -31,7 +31,7 @@ hello();
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -44,7 +44,7 @@ hello();
                             "kind": 134299649,
                             "text": "hello",
                             "rawText": "hello",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
@@ -67,7 +67,7 @@ hello();
                                         "kind": 134299649,
                                         "text": "greeting",
                                         "rawText": "greeting",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 13,
                                         "end": 21
                                     },
@@ -76,7 +76,7 @@ hello();
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -88,11 +88,11 @@ hello();
                                         "kind": 201392131,
                                         "text": " world",
                                         "rawText": " world",
-                                        "flags": 67109632,
+                                        "flags": 4194400,
                                         "start": 30,
                                         "end": 39
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 39
                                 }
@@ -102,7 +102,7 @@ hello();
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 42,
                                     "end": 49
                                 },
@@ -126,7 +126,7 @@ hello();
                                                         "kind": 134299649,
                                                         "text": "console",
                                                         "rawText": "console",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 54,
                                                         "end": 64
                                                     },
@@ -134,11 +134,11 @@ hello();
                                                         "kind": 134299649,
                                                         "text": "log",
                                                         "rawText": "log",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 65,
                                                         "end": 68
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 54,
                                                     "end": 68
                                                 },
@@ -151,13 +151,13 @@ hello();
                                                                 "kind": 201392131,
                                                                 "text": "hello",
                                                                 "rawText": "hello",
-                                                                "flags": 67109632,
+                                                                "flags": 4194400,
                                                                 "start": 69,
                                                                 "end": 76
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 34098,
-                                                                "flags": 512,
+                                                                "flags": 64,
                                                                 "start": 76,
                                                                 "end": 78
                                                             },
@@ -165,52 +165,52 @@ hello();
                                                                 "kind": 134299649,
                                                                 "text": "greeting",
                                                                 "rawText": "greeting",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 78,
                                                                 "end": 87
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 69,
                                                             "end": 87
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 69,
                                                     "end": 87
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 54,
                                                 "end": 88
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 54,
                                             "end": 89
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 54,
                                     "end": 89
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 52,
                                 "end": 91
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 91
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 91
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 91
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 92
         },
@@ -222,7 +222,7 @@ hello();
                     "kind": 134299649,
                     "text": "hello",
                     "rawText": "hello",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 92,
                     "end": 99
                 },
@@ -230,15 +230,15 @@ hello();
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 100,
                     "end": 100
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 92,
                 "end": 101
             },
-            "flags": 128,
+            "flags": 16,
             "start": 92,
             "end": 102
         }

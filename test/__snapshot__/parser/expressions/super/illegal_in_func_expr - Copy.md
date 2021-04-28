@@ -23,13 +23,13 @@ x = function(){ super.foo; }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -48,7 +48,7 @@ x = function(){ super.foo; }
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 12,
                         "end": 14
                     },
@@ -70,7 +70,7 @@ x = function(){ super.foo; }
                                                 "start": 15,
                                                 "end": 21
                                             },
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 21
                                         },
@@ -78,39 +78,39 @@ x = function(){ super.foo; }
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 25
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 25
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 15,
                                     "end": 26
                                 }
                             ],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 15,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 14,
                         "end": 28
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

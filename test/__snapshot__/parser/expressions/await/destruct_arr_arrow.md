@@ -20,7 +20,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -43,7 +43,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -76,23 +76,23 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 26,
                                                         "end": 27
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 26,
                                                 "end": 27
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 28
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 28,
                                             "end": 30
                                         },
@@ -114,13 +114,13 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                             "kind": 201392130,
                                                                             "text": 5,
                                                                             "rawText": "5",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 35,
                                                                             "end": 37
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 34098,
-                                                                            "flags": 512,
+                                                                            "flags": 64,
                                                                             "start": 37,
                                                                             "end": 39
                                                                         },
@@ -130,7 +130,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                 "kind": 134299649,
                                                                                 "text": "t",
                                                                                 "rawText": "t",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 39,
                                                                                 "end": 41
                                                                             },
@@ -149,25 +149,25 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                             "kind": 134299649,
                                                                                             "text": "bar",
                                                                                             "rawText": "bar",
-                                                                                            "flags": 768,
+                                                                                            "flags": 96,
                                                                                             "start": 47,
                                                                                             "end": 51
                                                                                         },
-                                                                                        "flags": 256,
+                                                                                        "flags": 32,
                                                                                         "start": 42,
                                                                                         "end": 51
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 42,
                                                                                 "end": 51
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 39,
                                                                             "end": 52
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 33,
                                                                         "end": 52
                                                                     },
@@ -175,11 +175,11 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                         "kind": 134299649,
                                                                         "text": "m",
                                                                         "rawText": "m",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 33,
                                                                         "end": 34
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 33,
                                                                     "end": 52
                                                                 }
@@ -190,21 +190,21 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                             "start": 33,
                                                             "end": 52
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 32,
                                                         "end": 53
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 32,
                                                 "end": 53
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 30,
                                             "end": 54
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 25,
                                         "end": 54
                                     }
@@ -218,35 +218,35 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 60,
                                         "end": 60
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 58,
                                     "end": 61
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 61
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 61
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 61
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 67
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 67
         }

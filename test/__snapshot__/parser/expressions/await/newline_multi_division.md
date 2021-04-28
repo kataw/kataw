@@ -26,13 +26,13 @@ await
                         "kind": 134299649,
                         "text": "await",
                         "rawText": "await",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 513,
+                        "flags": 65,
                         "start": 5,
                         "end": 8
                     },
@@ -40,17 +40,17 @@ await
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 10,
                     "end": 12
                 },
@@ -58,15 +58,15 @@ await
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

@@ -39,7 +39,7 @@
                         "kind": 134299649,
                         "text": "private",
                         "rawText": "private",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1,
                         "end": 8
                     }
@@ -50,15 +50,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

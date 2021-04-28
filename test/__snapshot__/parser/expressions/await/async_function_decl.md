@@ -20,7 +20,7 @@ async function await(){}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function await(){}
                 "kind": 134299649,
                 "text": "await",
                 "rawText": "await",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 20
             },
@@ -43,7 +43,7 @@ async function await(){}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 22
             },
@@ -54,17 +54,17 @@ async function await(){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 24
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 24
         }

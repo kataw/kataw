@@ -36,11 +36,11 @@ try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": true,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
@@ -71,7 +71,7 @@ try {
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 30
                             },
@@ -79,7 +79,7 @@ try {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 32
                             },
@@ -90,31 +90,31 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 34
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 34
                         }
                     ],
                     "multiLine": true,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 34
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

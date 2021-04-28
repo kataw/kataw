@@ -38,7 +38,7 @@ function g(a:number=1, e:number=1) {}
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -52,7 +52,7 @@ function g(a:number=1, e:number=1) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -61,7 +61,7 @@ function g(a:number=1, e:number=1) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 13,
                                 "end": 19
                             },
@@ -73,11 +73,11 @@ function g(a:number=1, e:number=1) {}
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 21
                     },
@@ -88,7 +88,7 @@ function g(a:number=1, e:number=1) {}
                             "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 24
                         },
@@ -97,7 +97,7 @@ function g(a:number=1, e:number=1) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 25,
                                 "end": 31
                             },
@@ -109,17 +109,17 @@ function g(a:number=1, e:number=1) {}
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 32,
                             "end": 33
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 22,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 34
             },
@@ -130,17 +130,17 @@ function g(a:number=1, e:number=1) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 36,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 34,
                 "end": 37
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         }

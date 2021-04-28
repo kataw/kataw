@@ -37,11 +37,11 @@ post"
                 "kind": 201392131,
                 "text": "",
                 "rawText": "",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -51,11 +51,11 @@ post"
                 "kind": 201392131,
                 "text": "pre",
                 "rawText": "pre",
-                "flags": 769,
+                "flags": 97,
                 "start": 6,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 16
         },
@@ -65,11 +65,11 @@ post"
                 "kind": 201392131,
                 "text": "post",
                 "rawText": "post",
-                "flags": 769,
+                "flags": 97,
                 "start": 16,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 27
         },
@@ -79,11 +79,11 @@ post"
                 "kind": 201392131,
                 "text": "prepost",
                 "rawText": "prepost",
-                "flags": 769,
+                "flags": 97,
                 "start": 27,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 39
         }

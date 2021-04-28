@@ -21,7 +21,7 @@ delete.500
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -29,15 +29,15 @@ delete.500
                     "kind": 201392130,
                     "text": 0.5,
                     "rawText": ".500",
-                    "flags": 525056,
+                    "flags": 32864,
                     "start": 6,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

@@ -34,7 +34,7 @@ function f(a = async (x, y) => ok) {}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -48,7 +48,7 @@ function f(a = async (x, y) => ok) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -68,7 +68,7 @@ function f(a = async (x, y) => ok) {}
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -76,14 +76,14 @@ function f(a = async (x, y) => ok) {}
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 26
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 14,
                                 "end": 20
                             },
@@ -92,21 +92,21 @@ function f(a = async (x, y) => ok) {}
                                 "kind": 134299649,
                                 "text": "ok",
                                 "rawText": "ok",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 30,
                                 "end": 33
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 14,
                             "end": 33
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 34
             },
@@ -117,17 +117,17 @@ function f(a = async (x, y) => ok) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 36,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 34,
                 "end": 37
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         }

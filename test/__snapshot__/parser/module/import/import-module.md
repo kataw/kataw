@@ -34,12 +34,12 @@ import "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 6,
                 "end": 12
             },
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         }

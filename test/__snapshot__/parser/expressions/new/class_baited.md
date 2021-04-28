@@ -55,32 +55,32 @@ new class extends{}
                                 "start": 18,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 19
                         },
                         "typeParameter": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 19
                     },
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 19
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

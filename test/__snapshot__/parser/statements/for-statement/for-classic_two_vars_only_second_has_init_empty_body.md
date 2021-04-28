@@ -51,14 +51,14 @@ for (var a, b=1;;);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 10
                     },
@@ -68,7 +68,7 @@ for (var a, b=1;;);
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 13
                         },
@@ -78,16 +78,16 @@ for (var a, b=1;;);
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 15
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 15
             },
@@ -95,11 +95,11 @@ for (var a, b=1;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

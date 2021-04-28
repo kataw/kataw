@@ -47,14 +47,14 @@ export var x, y
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 12
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 10,
                             "end": 12
                         },
@@ -64,30 +64,30 @@ export var x, y
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 15
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 15
             },
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

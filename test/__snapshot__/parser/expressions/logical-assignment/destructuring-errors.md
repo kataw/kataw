@@ -52,23 +52,23 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 4
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 4
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 4138,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 6,
                         "end": 10
                     },
@@ -81,29 +81,29 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 14
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 12,
                             "end": 14
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         },
@@ -124,13 +124,13 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "operatorToken": {
                                         "kind": 4138,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 28
                                     },
@@ -138,27 +138,27 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 28,
                                         "end": 30
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 32,
                         "end": 34
                     },
@@ -171,29 +171,29 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 36,
                                     "end": 38
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 36,
                             "end": 38
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 34,
                         "end": 40
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 40
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 42
         },
@@ -212,7 +212,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 46,
                                     "end": 48
                                 }
@@ -223,13 +223,13 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 46,
                             "end": 48
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 45,
                         "end": 50
                     },
                     "operatorToken": {
                         "kind": 4138,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 50,
                         "end": 54
                     },
@@ -244,7 +244,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 59,
                                         "end": 61
                                     },
@@ -252,11 +252,11 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 56,
                                         "end": 58
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 56,
                                     "end": 61
                                 }
@@ -267,19 +267,19 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 56,
                             "end": 61
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 54,
                         "end": 63
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 45,
                     "end": 63
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 42,
                 "end": 64
             },
-            "flags": 128,
+            "flags": 16,
             "start": 42,
             "end": 65
         },
@@ -289,15 +289,15 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 65,
                     "end": 80
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 65,
                 "end": 80
             },
-            "flags": 128,
+            "flags": 16,
             "start": 65,
             "end": 80
         },
@@ -312,7 +312,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 86,
                             "end": 88
                         },
@@ -322,31 +322,31 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "kind": 201392130,
                                 "text": 2,
                                 "rawText": "2",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 89,
                                 "end": 91
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 89,
                             "end": 91
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 86,
                         "end": 91
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 86,
                 "end": 91
             },
-            "flags": 128,
+            "flags": 16,
             "start": 84,
             "end": 93
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 94,
             "end": 95
         },
@@ -365,23 +365,23 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 99,
                                     "end": 101
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 99,
                             "end": 101
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 98,
                         "end": 103
                     },
                     "operatorToken": {
                         "kind": 4139,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 103,
                         "end": 107
                     },
@@ -394,29 +394,29 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 109,
                                     "end": 111
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 109,
                             "end": 111
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 107,
                         "end": 113
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 98,
                     "end": 113
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 95,
                 "end": 114
             },
-            "flags": 128,
+            "flags": 16,
             "start": 95,
             "end": 115
         },
@@ -437,13 +437,13 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 119,
                                         "end": 121
                                     },
                                     "operatorToken": {
                                         "kind": 4139,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 121,
                                         "end": 125
                                     },
@@ -451,27 +451,27 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 125,
                                         "end": 127
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 119,
                                     "end": 127
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 119,
                             "end": 127
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 118,
                         "end": 129
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 129,
                         "end": 131
                     },
@@ -484,29 +484,29 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 133,
                                     "end": 135
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 133,
                             "end": 135
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 131,
                         "end": 137
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 118,
                     "end": 137
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 115,
                 "end": 138
             },
-            "flags": 128,
+            "flags": 16,
             "start": 115,
             "end": 139
         },
@@ -525,7 +525,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 143,
                                     "end": 145
                                 }
@@ -536,13 +536,13 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 143,
                             "end": 145
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 142,
                         "end": 147
                     },
                     "operatorToken": {
                         "kind": 4139,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 147,
                         "end": 151
                     },
@@ -557,7 +557,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 156,
                                         "end": 158
                                     },
@@ -565,11 +565,11 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 153,
                                         "end": 155
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 153,
                                     "end": 158
                                 }
@@ -580,19 +580,19 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 153,
                             "end": 158
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 151,
                         "end": 160
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 142,
                     "end": 160
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 139,
                 "end": 161
             },
-            "flags": 128,
+            "flags": 16,
             "start": 139,
             "end": 162
         },
@@ -602,15 +602,15 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 162,
                     "end": 177
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 162,
                 "end": 177
             },
-            "flags": 128,
+            "flags": 16,
             "start": 162,
             "end": 177
         },
@@ -625,7 +625,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 183,
                             "end": 185
                         },
@@ -635,31 +635,31 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "kind": 201392130,
                                 "text": 2,
                                 "rawText": "2",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 186,
                                 "end": 188
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 186,
                             "end": 188
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 183,
                         "end": 188
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 183,
                 "end": 188
             },
-            "flags": 128,
+            "flags": 16,
             "start": 181,
             "end": 190
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 191,
             "end": 192
         },
@@ -671,7 +671,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 192,
                     "end": 195
                 },
@@ -691,13 +691,13 @@ x({ x: x &&= 2 ] = { x: 2 });
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 200,
                                                 "end": 202
                                             },
                                             "operatorToken": {
                                                 "kind": 4139,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 202,
                                                 "end": 206
                                             },
@@ -705,11 +705,11 @@ x({ x: x &&= 2 ] = { x: 2 });
                                                 "kind": 201392130,
                                                 "text": 2,
                                                 "rawText": "2",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 206,
                                                 "end": 208
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 197,
                                             "end": 208
                                         },
@@ -717,11 +717,11 @@ x({ x: x &&= 2 ] = { x: 2 });
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 197,
                                             "end": 199
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 197,
                                         "end": 208
                                     }
@@ -732,21 +732,21 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "start": 197,
                                 "end": 208
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 196,
                             "end": 208
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 196,
                     "end": 208
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 192,
                 "end": 208
             },
-            "flags": 128,
+            "flags": 16,
             "start": 192,
             "end": 208
         },
@@ -761,7 +761,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 214,
                             "end": 216
                         },
@@ -771,31 +771,31 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "kind": 201392130,
                                 "text": 2,
                                 "rawText": "2",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 217,
                                 "end": 219
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 217,
                             "end": 219
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 214,
                         "end": 219
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 214,
                 "end": 219
             },
-            "flags": 128,
+            "flags": 16,
             "start": 212,
             "end": 221
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 222,
             "end": 223
         }

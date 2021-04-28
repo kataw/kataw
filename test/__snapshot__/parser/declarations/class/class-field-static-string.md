@@ -37,7 +37,7 @@ class C { static '0' }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class C { static '0' }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 16
                         },
@@ -61,23 +61,23 @@ class C { static '0' }
                             "kind": 201392131,
                             "text": "0",
                             "rawText": "0",
-                            "flags": 67109632,
+                            "flags": 4194400,
                             "start": 16,
                             "end": 20
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 20
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

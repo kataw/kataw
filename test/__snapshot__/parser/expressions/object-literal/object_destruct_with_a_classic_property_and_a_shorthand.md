@@ -23,13 +23,13 @@ x = {a:b, c} = obj;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -46,7 +46,7 @@ x = {a:b, c} = obj;
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -54,11 +54,11 @@ x = {a:b, c} = obj;
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 6
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -66,7 +66,7 @@ x = {a:b, c} = obj;
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 9,
                                     "end": 11
                                 }
@@ -77,13 +77,13 @@ x = {a:b, c} = obj;
                             "start": 5,
                             "end": 11
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 12,
                         "end": 14
                     },
@@ -91,19 +91,19 @@ x = {a:b, c} = obj;
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

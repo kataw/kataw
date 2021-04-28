@@ -30,7 +30,7 @@ do[ class x {}
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 14,
                 "end": 14
             },
@@ -55,7 +55,7 @@ do[ class x {}
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 9,
                                     "end": 11
                                 },
@@ -64,29 +64,29 @@ do[ class x {}
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

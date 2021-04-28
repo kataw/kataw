@@ -25,13 +25,13 @@
                         "kind": 134299649,
                         "text": "localVar",
                         "rawText": "localVar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 4136,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 9,
                         "end": 12
                     },
@@ -39,19 +39,19 @@
                         "kind": 134299649,
                         "text": "defaultValue",
                         "rawText": "defaultValue",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 12,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         },
@@ -61,11 +61,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 31,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 32
         }

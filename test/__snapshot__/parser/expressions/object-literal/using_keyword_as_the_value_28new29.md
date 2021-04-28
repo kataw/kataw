@@ -23,13 +23,13 @@ s = {s: new}
                     "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -51,12 +51,12 @@ s = {s: new}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 11,
                                         "end": 11
                                     },
                                     "argumentList": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -64,11 +64,11 @@ s = {s: new}
                                     "kind": 134299649,
                                     "text": "s",
                                     "rawText": "s",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 6
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 11
                             }
@@ -79,15 +79,15 @@ s = {s: new}
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

@@ -25,13 +25,13 @@ x = {arrow: (x, y) => ok};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -56,7 +56,7 @@ x = {arrow: (x, y) => ok};
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 14
                                         }
@@ -67,11 +67,11 @@ x = {arrow: (x, y) => ok};
                                         "kind": 134299649,
                                         "text": "ok",
                                         "rawText": "ok",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 21
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 21
                                 },
@@ -79,11 +79,11 @@ x = {arrow: (x, y) => ok};
                                     "kind": 134299649,
                                     "text": "arrow",
                                     "rawText": "arrow",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 10
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 21
                             }
@@ -94,15 +94,15 @@ x = {arrow: (x, y) => ok};
                         "start": 5,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         },
@@ -114,13 +114,13 @@ x = {arrow: (x, y) => ok};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 23,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 26,
                     "end": 28
                 },
@@ -146,7 +146,7 @@ x = {arrow: (x, y) => ok};
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 38,
                                                 "end": 39
                                             },
@@ -154,7 +154,7 @@ x = {arrow: (x, y) => ok};
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 40,
                                                 "end": 42
                                             }
@@ -166,11 +166,11 @@ x = {arrow: (x, y) => ok};
                                         "kind": 134299649,
                                         "text": "ok",
                                         "rawText": "ok",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 46,
                                         "end": 49
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 36,
                                     "end": 49
                                 },
@@ -178,11 +178,11 @@ x = {arrow: (x, y) => ok};
                                     "kind": 134299649,
                                     "text": "arrow",
                                     "rawText": "arrow",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 35
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 49
                             }
@@ -193,15 +193,15 @@ x = {arrow: (x, y) => ok};
                         "start": 30,
                         "end": 49
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 28,
                     "end": 50
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 51
         }

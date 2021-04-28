@@ -28,7 +28,7 @@ for (/crap/ in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 11,
                 "end": 14
             },
@@ -36,7 +36,7 @@ for (/crap/ in x) ;
             "initializer": {
                 "kind": 221,
                 "text": "/crap/",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 11
             },
@@ -44,17 +44,17 @@ for (/crap/ in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

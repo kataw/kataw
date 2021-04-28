@@ -49,7 +49,7 @@ function foo():number{}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 12
             },
@@ -57,7 +57,7 @@ function foo():number{}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 14
             },
@@ -68,17 +68,17 @@ function foo():number{}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 14
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -88,11 +88,11 @@ function foo():number{}
                 "kind": 134299649,
                 "text": "number",
                 "rawText": "number",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 21
         },
@@ -102,11 +102,11 @@ function foo():number{}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 23
         }

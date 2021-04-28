@@ -59,12 +59,12 @@ const {a, [x]: y} = a;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 8
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -77,11 +77,11 @@ const {a, [x]: y} = a;
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 11,
                                                 "end": 12
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 13
                                         },
@@ -92,27 +92,27 @@ const {a, [x]: y} = a;
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 16
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 17
                         },
@@ -122,20 +122,20 @@ const {a, [x]: y} = a;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 21
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 21
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 22
         }

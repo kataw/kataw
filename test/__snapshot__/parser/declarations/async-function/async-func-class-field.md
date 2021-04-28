@@ -39,7 +39,7 @@ async function f() { class C { aaa = await } }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -54,7 +54,7 @@ async function f() { class C { aaa = await } }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -62,7 +62,7 @@ async function f() { class C { aaa = await } }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -86,7 +86,7 @@ async function f() { class C { aaa = await } }
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 26,
                                 "end": 28
                             },
@@ -105,7 +105,7 @@ async function f() { class C { aaa = await } }
                                             "kind": 134299649,
                                             "text": "aaa",
                                             "rawText": "aaa",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 30,
                                             "end": 34
                                         },
@@ -122,40 +122,40 @@ async function f() { class C { aaa = await } }
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 42,
                                                 "end": 42
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 36,
                                             "end": 42
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 30,
                                         "end": 42
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 44
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 44
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 44
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 46
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 46
         }

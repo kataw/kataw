@@ -29,13 +29,13 @@ a instanceof b + c
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 1,
                         "end": 12
                     },
@@ -43,17 +43,17 @@ a instanceof b + c
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 16
                 },
@@ -61,15 +61,15 @@ a instanceof b + c
                     "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

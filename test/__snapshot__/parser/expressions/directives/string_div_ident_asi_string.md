@@ -24,13 +24,13 @@
                     "kind": 201392131,
                     "text": "",
                     "rawText": "",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 2
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 2,
                     "end": 3
                 },
@@ -38,15 +38,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 4
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -56,11 +56,11 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "",
-                "flags": 769,
+                "flags": 97,
                 "start": 4,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         }

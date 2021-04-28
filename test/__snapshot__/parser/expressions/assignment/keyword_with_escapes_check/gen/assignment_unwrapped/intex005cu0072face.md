@@ -27,13 +27,13 @@ inte\u0072face = x;
                     "kind": 134299649,
                     "text": "interface",
                     "rawText": "inte\\u0072face",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 16
                 },
@@ -41,15 +41,15 @@ inte\u0072face = x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

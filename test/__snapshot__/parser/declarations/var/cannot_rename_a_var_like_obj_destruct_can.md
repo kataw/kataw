@@ -60,7 +60,7 @@ var [foo:bar] = obj;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -73,7 +73,7 @@ var [foo:bar] = obj;
                                                     "kind": 134299649,
                                                     "text": "bar",
                                                     "rawText": "bar",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 9,
                                                     "end": 12
                                                 },
@@ -87,17 +87,17 @@ var [foo:bar] = obj;
                                             "end": 12
                                         },
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 12
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 12
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 13
                         },
@@ -107,20 +107,20 @@ var [foo:bar] = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 19
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

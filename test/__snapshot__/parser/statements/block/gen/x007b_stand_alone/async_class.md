@@ -30,11 +30,11 @@
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 7
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 7
                     },
@@ -51,7 +51,7 @@
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 13,
                             "end": 13
                         },
@@ -60,21 +60,21 @@
                         "members": {
                             "kind": 277,
                             "elements": [],
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 7
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 7,
                         "end": 13
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

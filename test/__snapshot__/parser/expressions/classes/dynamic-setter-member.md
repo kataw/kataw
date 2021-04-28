@@ -29,7 +29,7 @@ class A {* get [x](){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -48,14 +48,14 @@ class A {* get [x](){}}
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 14
                     },
@@ -75,11 +75,11 @@ class A {* get [x](){}}
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 18
                             },
@@ -100,11 +100,11 @@ class A {* get [x](){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 21
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 22
                             },
@@ -117,11 +117,11 @@ class A {* get [x](){}}
                         "end": 22
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

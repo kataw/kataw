@@ -33,7 +33,7 @@ import {x as a, z} from "y"
                 "kind": 201392131,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 27
             },
@@ -54,7 +54,7 @@ import {x as a, z} from "y"
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 9
                                 },
@@ -62,11 +62,11 @@ import {x as a, z} from "y"
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 14
                             },
@@ -78,11 +78,11 @@ import {x as a, z} from "y"
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 15,
                                     "end": 17
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 15,
                                 "end": 17
                             }
@@ -91,15 +91,15 @@ import {x as a, z} from "y"
                         "start": 8,
                         "end": 17
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 27
         }

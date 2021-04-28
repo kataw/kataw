@@ -24,7 +24,7 @@
                         "kind": 201392130,
                         "text": 0,
                         "rawText": "0",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
@@ -47,11 +47,11 @@
                                             "kind": 134299649,
                                             "text": "rest",
                                             "rawText": "rest",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 11
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 11
                                     },
@@ -59,7 +59,7 @@
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 14
                                     }
@@ -70,13 +70,13 @@
                                 "start": 4,
                                 "end": 14
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 15
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 15,
                             "end": 17
                         },
@@ -91,20 +91,20 @@
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 20
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

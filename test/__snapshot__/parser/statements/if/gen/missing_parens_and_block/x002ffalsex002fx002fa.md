@@ -30,7 +30,7 @@ if else /false//a
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -39,17 +39,17 @@ if else /false//a
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 2,
                     "end": 2
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 2
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 512,
+                "flags": 64,
                 "start": 2,
                 "end": 7
             },
@@ -60,13 +60,13 @@ if else /false//a
                     "left": {
                         "kind": 221,
                         "text": "/false/",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 15,
                         "end": 16
                     },
@@ -74,19 +74,19 @@ if else /false//a
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

@@ -25,7 +25,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -43,7 +43,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -51,11 +51,11 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 0.9,
                                             "rawText": ".9",
-                                            "flags": 525056,
+                                            "flags": 32864,
                                             "start": 3,
                                             "end": 5
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 3,
                                         "end": 7
                                     },
@@ -65,7 +65,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 15
                                         },
@@ -73,11 +73,11 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 132,
                                             "rawText": "0x84",
-                                            "flags": 16777984,
+                                            "flags": 1048672,
                                             "start": 8,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 15
                                     },
@@ -87,7 +87,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -95,11 +95,11 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "0b1",
-                                            "flags": 8389376,
+                                            "flags": 524384,
                                             "start": 16,
                                             "end": 20
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 22
                                     },
@@ -109,7 +109,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 134299649,
                                             "text": "d",
                                             "rawText": "d",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 29,
                                             "end": 30
                                         },
@@ -117,11 +117,11 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "0o27",
-                                            "flags": 4195072,
+                                            "flags": 262240,
                                             "start": 23,
                                             "end": 28
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 23,
                                         "end": 30
                                     },
@@ -131,7 +131,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 134299649,
                                             "text": "e",
                                             "rawText": "e",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 38,
                                             "end": 39
                                         },
@@ -139,11 +139,11 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 1e+234,
                                             "rawText": "1e234",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 31,
                                             "end": 37
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 39
                                     }
@@ -154,21 +154,21 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                 "start": 3,
                                 "end": 39
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 40
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 40
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 42
         },
@@ -180,7 +180,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 42,
                     "end": 45
                 },
@@ -198,7 +198,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 0.9,
                                             "rawText": ".9",
-                                            "flags": 525056,
+                                            "flags": 32864,
                                             "start": 47,
                                             "end": 49
                                         },
@@ -207,7 +207,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 50,
                                             "end": 51
                                         },
@@ -219,15 +219,15 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 52,
                                                 "end": 52
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 51,
                                             "end": 53
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 49,
                                         "end": 53
                                     },
@@ -237,7 +237,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 132,
                                             "rawText": "0x84",
-                                            "flags": 16777984,
+                                            "flags": 1048672,
                                             "start": 54,
                                             "end": 59
                                         },
@@ -246,7 +246,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 60,
                                             "end": 61
                                         },
@@ -258,15 +258,15 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 62,
                                                 "end": 62
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 61,
                                             "end": 63
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 59,
                                         "end": 63
                                     },
@@ -276,7 +276,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "0b1",
-                                            "flags": 8389376,
+                                            "flags": 524384,
                                             "start": 64,
                                             "end": 68
                                         },
@@ -285,7 +285,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 69,
                                             "end": 70
                                         },
@@ -297,15 +297,15 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 71,
                                                 "end": 71
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 70,
                                             "end": 72
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 68,
                                         "end": 72
                                     },
@@ -315,7 +315,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "0o27",
-                                            "flags": 4195072,
+                                            "flags": 262240,
                                             "start": 73,
                                             "end": 78
                                         },
@@ -324,7 +324,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 79,
                                             "end": 80
                                         },
@@ -336,15 +336,15 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 81,
                                                 "end": 81
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 80,
                                             "end": 82
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 78,
                                         "end": 82
                                     },
@@ -354,7 +354,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 201392130,
                                             "text": 1e+234,
                                             "rawText": "1e234",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 83,
                                             "end": 89
                                         },
@@ -363,7 +363,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 90,
                                             "end": 91
                                         },
@@ -375,15 +375,15 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 92,
                                                 "end": 92
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 91,
                                             "end": 93
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 89,
                                         "end": 93
                                     }
@@ -394,21 +394,21 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                 "start": 47,
                                 "end": 93
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 46,
                             "end": 94
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 46,
                     "end": 94
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 42,
                 "end": 95
             },
-            "flags": 128,
+            "flags": 16,
             "start": 42,
             "end": 96
         }

@@ -35,7 +35,7 @@ new fooo`bar`
                         "kind": 134299649,
                         "text": "fooo",
                         "rawText": "fooo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 3,
                         "end": 8
                     },
@@ -43,20 +43,20 @@ new fooo`bar`
                         "kind": 458761,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 13
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

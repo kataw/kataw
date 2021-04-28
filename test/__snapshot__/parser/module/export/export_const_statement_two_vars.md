@@ -33,7 +33,7 @@ export const x, y
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -54,14 +54,14 @@ export const x, y
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 14
                     },
@@ -71,23 +71,23 @@ export const x, y
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 17
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 17
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 12,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 6,
             "end": 17
         }

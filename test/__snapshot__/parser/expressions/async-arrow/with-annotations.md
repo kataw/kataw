@@ -42,7 +42,7 @@ async ([a]:string)=>c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
@@ -51,7 +51,7 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -60,14 +60,14 @@ async ([a]:string)=>c;
                         "end": 15
                     },
                     "initializer": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 15
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -76,17 +76,17 @@ async ([a]:string)=>c;
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 19
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 19
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 20
         },
@@ -112,17 +112,17 @@ async ([a]:string)=>c;
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 31
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 30,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 29,
                         "end": 32
                     },
@@ -131,7 +131,7 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 33,
                             "end": 39
                         },
@@ -140,14 +140,14 @@ async ([a]:string)=>c;
                         "end": 39
                     },
                     "initializer": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 39
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 20,
                 "end": 27
             },
@@ -156,17 +156,17 @@ async ([a]:string)=>c;
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 42,
                 "end": 43
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 20,
             "end": 43
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 44
         }

@@ -29,7 +29,7 @@ class x { foo(){ function f(){ super.foo; } }}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 13
                             },
@@ -87,7 +87,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 25,
                                                 "end": 27
                                             },
@@ -95,7 +95,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 27,
                                                 "end": 29
                                             },
@@ -117,7 +117,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                         "start": 30,
                                                                         "end": 36
                                                                     },
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 30,
                                                                     "end": 36
                                                                 },
@@ -125,41 +125,41 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                     "kind": 134299649,
                                                                     "text": "foo",
                                                                     "rawText": "foo",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 37,
                                                                     "end": 40
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 30,
                                                                 "end": 40
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 30,
                                                             "end": 41
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 30,
                                                     "end": 41
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 29,
                                                 "end": 43
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 16,
                                             "end": 43
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 43
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 45
                             },
@@ -172,11 +172,11 @@ class x { foo(){ function f(){ super.foo; } }}
                         "end": 45
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 46
         }

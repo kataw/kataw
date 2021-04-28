@@ -35,7 +35,7 @@ class A {async **=f(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -54,23 +54,23 @@ class A {async **=f(){}}
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 14
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -82,7 +82,7 @@ class A {async **=f(){}}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 19
                 },
@@ -90,15 +90,15 @@ class A {async **=f(){}}
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 21
         },
@@ -108,11 +108,11 @@ class A {async **=f(){}}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 23
         }

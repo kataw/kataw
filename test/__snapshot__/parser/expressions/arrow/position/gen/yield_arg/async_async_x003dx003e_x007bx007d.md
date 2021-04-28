@@ -33,7 +33,7 @@ function *f() {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -41,7 +41,7 @@ function *f() {
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -49,7 +49,7 @@ function *f() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -88,21 +88,21 @@ function *f() {
                                                 "kind": 134299649,
                                                 "text": "async",
                                                 "rawText": "async",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 29,
                                                 "end": 35
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 23,
                                             "end": 35
                                         }
                                     ],
                                     "asyncToken": {
                                         "kind": 82031,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 23,
                                         "end": 29
                                     },
@@ -114,39 +114,39 @@ function *f() {
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 40,
                                             "end": 40
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 38,
                                         "end": 41
                                     },
-                                    "flags": 2304,
+                                    "flags": 288,
                                     "start": 23,
                                     "end": 41
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 41
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 41
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 43
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 43
         }

@@ -31,7 +31,7 @@ async () => {  c\u006fnst = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -46,32 +46,32 @@ async () => {  c\u006fnst = x  }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 327680,
+                                "flags": 16384,
                                 "start": 13,
                                 "end": 25
                             },
                             "binding": {
                                 "kind": 151,
                                 "bindingList": [],
-                                "flags": 160,
+                                "flags": 16777232,
                                 "start": 25,
                                 "end": 25
                             },
-                            "flags": 128,
+                            "flags": 33554448,
                             "start": 13,
                             "end": 25
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 25
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 25
         },
@@ -81,11 +81,11 @@ async () => {  c\u006fnst = x  }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 29
         }

@@ -33,7 +33,7 @@ class x {set throw(x){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class x {set throw(x){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 12
                         },
@@ -61,7 +61,7 @@ class x {set throw(x){}}
                                 "kind": 134299649,
                                 "text": "throw",
                                 "rawText": "throw",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 18
                             },
@@ -76,20 +76,20 @@ class x {set throw(x){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 20
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 19,
                                 "end": 21
                             },
@@ -101,28 +101,28 @@ class x {set throw(x){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 22
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 18,
                             "end": 23
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 23
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

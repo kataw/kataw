@@ -32,7 +32,7 @@ class function {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class function {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -63,7 +63,7 @@ class function {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 14,
                 "end": 14
             },
@@ -71,7 +71,7 @@ class function {}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 14
             },
@@ -82,17 +82,17 @@ class function {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 17
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 17
         }

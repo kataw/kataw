@@ -32,7 +32,7 @@
                             "kind": 134299649,
                             "text": "interface",
                             "rawText": "interface",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 10
                         },
@@ -40,7 +40,7 @@
                             "kind": 134299649,
                             "text": "eval",
                             "rawText": "eval",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 16
                         }
@@ -55,19 +55,19 @@
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

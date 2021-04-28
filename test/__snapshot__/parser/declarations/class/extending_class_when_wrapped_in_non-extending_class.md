@@ -48,7 +48,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -71,7 +71,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 21
                             },
@@ -80,7 +80,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 22,
                                 "end": 23
                             },
@@ -105,7 +105,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 32,
                                                 "end": 34
                                             },
@@ -122,12 +122,12 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 42,
                                                     "end": 44
                                                 },
                                                 "typeParameter": null,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 42,
                                                 "end": 44
                                             },
@@ -156,7 +156,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                             "start": 48,
                                                                             "end": 53
                                                                         },
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 48,
                                                                         "end": 53
                                                                     },
@@ -164,15 +164,15 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                         "kind": 256,
                                                                         "elements": [],
                                                                         "trailingComma": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 54,
                                                                         "end": 54
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 48,
                                                                     "end": 55
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 46,
                                                                 "end": 56
                                                             },
@@ -193,11 +193,11 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 59,
                                                                     "end": 59
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 58,
                                                                 "end": 60
                                                             },
@@ -210,38 +210,38 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                         "end": 60
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 46,
                                                 "end": 62
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 24,
                                             "end": 62
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 62
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 67
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 21,
                             "end": 67
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 9,
                         "end": 67
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 68
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 68
         }

@@ -33,11 +33,11 @@ try try try class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try try try class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 7
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -75,11 +75,11 @@ try try try class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
@@ -91,15 +91,15 @@ try try try class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 17
         },
@@ -109,11 +109,11 @@ try try try class x {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 19
         },
@@ -123,11 +123,11 @@ try try try class x {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 22
         }

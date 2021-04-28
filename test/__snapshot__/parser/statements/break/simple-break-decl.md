@@ -21,7 +21,7 @@ loop: while (x) { break loop; }
                 "kind": 134299649,
                 "text": "loop",
                 "rawText": "loop",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
@@ -37,7 +37,7 @@ loop: while (x) { break loop; }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 14
                 },
@@ -58,29 +58,29 @@ loop: while (x) { break loop; }
                                     "kind": 134299649,
                                     "text": "loop",
                                     "rawText": "loop",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 28
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 29
                             }
                         ],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 29
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 31
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

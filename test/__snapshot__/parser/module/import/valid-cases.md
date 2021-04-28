@@ -46,7 +46,7 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "m.js",
                 "rawText": "m.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 22,
                 "end": 29
             },
@@ -67,7 +67,7 @@ import { a as b } from 'm.js';
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -75,11 +75,11 @@ import { a as b } from 'm.js';
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 15
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 15
                             }
@@ -88,15 +88,15 @@ import { a as b } from 'm.js';
                         "start": 8,
                         "end": 15
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 30
         },
@@ -112,7 +112,7 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "n.js",
                 "rawText": "n.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 45,
                 "end": 52
             },
@@ -123,17 +123,17 @@ import { a as b } from 'm.js';
                     "kind": 134299649,
                     "text": "n",
                     "rawText": "n",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 38,
                     "end": 40
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 38,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 38,
             "end": 53
         },
@@ -149,7 +149,7 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "m.js",
                 "rawText": "m.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 77,
                 "end": 84
             },
@@ -170,7 +170,7 @@ import { a as b } from 'm.js';
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 63,
                                     "end": 65
                                 },
@@ -178,11 +178,11 @@ import { a as b } from 'm.js';
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 68,
                                     "end": 70
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 63,
                                 "end": 70
                             }
@@ -191,15 +191,15 @@ import { a as b } from 'm.js';
                         "start": 63,
                         "end": 70
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 61,
                     "end": 72
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 61,
                 "end": 72
             },
-            "flags": 128,
+            "flags": 16,
             "start": 61,
             "end": 85
         },
@@ -215,7 +215,7 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "n.js",
                 "rawText": "n.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 100,
                 "end": 107
             },
@@ -226,17 +226,17 @@ import { a as b } from 'm.js';
                     "kind": 134299649,
                     "text": "n",
                     "rawText": "n",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 93,
                     "end": 95
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 93,
                 "end": 95
             },
-            "flags": 128,
+            "flags": 16,
             "start": 93,
             "end": 108
         },
@@ -261,7 +261,7 @@ import { a as b } from 'm.js';
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 118,
                                 "end": 120
                             },
@@ -269,16 +269,16 @@ import { a as b } from 'm.js';
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 123,
                                 "end": 125
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 118,
                             "end": 125
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 118,
                     "end": 125
                 },
@@ -291,11 +291,11 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "m.js",
                 "rawText": "m.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 132,
                 "end": 139
             },
-            "flags": 128,
+            "flags": 16,
             "start": 108,
             "end": 140
         },
@@ -311,7 +311,7 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "bar.js",
                 "rawText": "bar.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 162,
                 "end": 171
             },
@@ -323,16 +323,16 @@ import { a as b } from 'm.js';
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 153,
                     "end": 157
                 },
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 148,
                 "end": 157
             },
-            "flags": 128,
+            "flags": 16,
             "start": 148,
             "end": 172
         },
@@ -348,7 +348,7 @@ import { a as b } from 'm.js';
                 "kind": 201392131,
                 "text": "m.js",
                 "rawText": "m.js",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 196,
                 "end": 203
             },
@@ -369,7 +369,7 @@ import { a as b } from 'm.js';
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 182,
                                     "end": 184
                                 },
@@ -377,11 +377,11 @@ import { a as b } from 'm.js';
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 187,
                                     "end": 189
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 182,
                                 "end": 189
                             }
@@ -390,15 +390,15 @@ import { a as b } from 'm.js';
                         "start": 182,
                         "end": 189
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 180,
                     "end": 191
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 180,
                 "end": 191
             },
-            "flags": 128,
+            "flags": 16,
             "start": 180,
             "end": 204
         }

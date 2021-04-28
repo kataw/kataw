@@ -33,7 +33,7 @@ class A extends function f(){} {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -60,7 +60,7 @@ class A extends function f(){} {}
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 24,
                         "end": 26
                     },
@@ -68,7 +68,7 @@ class A extends function f(){} {}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 26,
                         "end": 28
                     },
@@ -79,33 +79,33 @@ class A extends function f(){} {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 29,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 28,
                         "end": 30
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 30
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 30
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 32,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

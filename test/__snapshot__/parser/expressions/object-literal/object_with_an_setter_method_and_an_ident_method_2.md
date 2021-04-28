@@ -23,7 +23,7 @@ wrap({[foo](){}, set [bar](e){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -43,11 +43,11 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 7,
                                                 "end": 10
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 6,
                                             "end": 11
                                         },
@@ -56,7 +56,7 @@ wrap({[foo](){}, set [bar](e){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -68,17 +68,25 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 14,
                                                 "end": 14
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 15
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 15
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "set",
+                                        "rawText": "set",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 20
                                     },
                                     {
                                         "kind": 209,
@@ -88,11 +96,11 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 22,
                                                 "end": 25
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 20,
                                             "end": 26
                                         },
@@ -107,20 +115,20 @@ wrap({[foo](){}, set [bar](e){}});
                                                         "kind": 134299649,
                                                         "text": "e",
                                                         "rawText": "e",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 27,
                                                         "end": 28
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 27,
                                                     "end": 28
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 4352,
+                                            "flags": 32,
                                             "start": 27,
                                             "end": 29
                                         },
@@ -132,15 +140,15 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 30,
                                                 "end": 30
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 29,
                                             "end": 31
                                         },
-                                        "flags": 4352,
+                                        "flags": 32,
                                         "start": 26,
                                         "end": 31
                                     }
@@ -151,21 +159,21 @@ wrap({[foo](){}, set [bar](e){}});
                                 "start": 6,
                                 "end": 31
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 32
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 32
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }
@@ -188,6 +196,7 @@ wrap({[foo](){}, set [bar](e){}});
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 20, end: 22
+
 ```
 

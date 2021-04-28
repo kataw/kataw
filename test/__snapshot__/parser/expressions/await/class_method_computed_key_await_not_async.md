@@ -33,13 +33,13 @@
                             "kind": 134299649,
                             "text": "fail",
                             "rawText": "fail",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 5,
                             "end": 7
                         },
@@ -56,7 +56,7 @@
                                 "kind": 134299649,
                                 "text": "A",
                                 "rawText": "A",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             },
@@ -81,11 +81,11 @@
                                                     "kind": 134299649,
                                                     "text": "await",
                                                     "rawText": "await",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 18,
                                                     "end": 23
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 24
                                             },
@@ -106,11 +106,11 @@
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 27,
                                                     "end": 27
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 26,
                                                 "end": 28
                                             },
@@ -124,7 +124,7 @@
                                     },
                                     {
                                         "kind": 281,
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 28,
                                         "end": 29
                                     },
@@ -142,7 +142,7 @@
                                                 "kind": 201392131,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 29,
                                                 "end": 33
                                             },
@@ -163,11 +163,11 @@
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 36,
                                                     "end": 36
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -180,15 +180,15 @@
                                         "end": 37
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 38
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 38
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 38
                     }
@@ -202,19 +202,19 @@
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 44,
                         "end": 44
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 42,
                     "end": 45
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 45
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 45
         }

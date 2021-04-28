@@ -42,7 +42,7 @@ var x = ({ a } : any = 'foo') => {}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -70,7 +70,7 @@ var x = ({ a } : any = 'foo') => {}
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 10,
                                                     "end": 12
                                                 }
@@ -81,7 +81,7 @@ var x = ({ a } : any = 'foo') => {}
                                             "start": 10,
                                             "end": 12
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 14
                                     },
@@ -90,7 +90,7 @@ var x = ({ a } : any = 'foo') => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234252,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -102,11 +102,11 @@ var x = ({ a } : any = 'foo') => {}
                                         "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 67109632,
+                                        "flags": 4194400,
                                         "start": 22,
                                         "end": 28
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 7,
                                     "end": 28
                                 }
@@ -120,28 +120,28 @@ var x = ({ a } : any = 'foo') => {}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 35
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 35
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 35
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

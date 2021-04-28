@@ -33,11 +33,11 @@ try [catch] catch try {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try [catch] catch try {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -70,11 +70,11 @@ try [catch] catch try {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 10
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 10
             },
@@ -86,15 +86,15 @@ try [catch] catch try {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 11
         },
@@ -107,11 +107,11 @@ try [catch] catch try {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 17
             },
@@ -123,15 +123,15 @@ try [catch] catch try {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 24
         }

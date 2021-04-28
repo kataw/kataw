@@ -29,7 +29,7 @@ class A {static a(x=new.target){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -44,7 +44,7 @@ class A {static a(x=new.target){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -57,7 +57,7 @@ class A {static a(x=new.target){}}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 17
                             },
@@ -72,7 +72,7 @@ class A {static a(x=new.target){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 19
                                         },
@@ -84,21 +84,21 @@ class A {static a(x=new.target){}}
                                                 "kind": 134299649,
                                                 "text": "target",
                                                 "rawText": "target",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 24,
                                                 "end": 30
                                             },
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 30
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 18,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 18,
                                 "end": 31
                             },
@@ -110,11 +110,11 @@ class A {static a(x=new.target){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 32,
                                     "end": 32
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 33
                             },
@@ -127,11 +127,11 @@ class A {static a(x=new.target){}}
                         "end": 33
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

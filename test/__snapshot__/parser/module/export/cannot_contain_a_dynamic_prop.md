@@ -39,23 +39,23 @@ var foo; export {[foo]}
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -73,7 +73,7 @@ var foo; export {[foo]}
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 17
                 },
@@ -83,7 +83,7 @@ var foo; export {[foo]}
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 17
         },
@@ -98,21 +98,21 @@ var foo; export {[foo]}
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 22
         }

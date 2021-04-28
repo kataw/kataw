@@ -39,14 +39,14 @@ var x,y; export {x as a, y as b}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     },
@@ -56,23 +56,23 @@ var x,y; export {x as a, y as b}
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 6,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 7
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -97,7 +97,7 @@ var x,y; export {x as a, y as b}
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 18
                             },
@@ -105,11 +105,11 @@ var x,y; export {x as a, y as b}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 23
                         },
@@ -120,7 +120,7 @@ var x,y; export {x as a, y as b}
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 26
                             },
@@ -128,16 +128,16 @@ var x,y; export {x as a, y as b}
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 29,
                                 "end": 31
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 24,
                             "end": 31
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 31
                 },
@@ -147,7 +147,7 @@ var x,y; export {x as a, y as b}
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 32
         }

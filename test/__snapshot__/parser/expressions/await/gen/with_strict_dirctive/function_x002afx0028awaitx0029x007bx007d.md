@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -40,7 +40,7 @@
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 22,
                 "end": 24
             },
@@ -48,7 +48,7 @@
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 25
             },
@@ -62,20 +62,20 @@
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 26,
                             "end": 31
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 26,
                         "end": 31
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 32
             },
@@ -86,17 +86,17 @@
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 32,
                 "end": 34
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 13,
             "end": 34
         }

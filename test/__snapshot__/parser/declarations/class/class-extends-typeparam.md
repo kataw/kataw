@@ -37,7 +37,7 @@ class Foo<T> extends Bar<T> { }
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -50,7 +50,7 @@ class Foo<T> extends Bar<T> { }
                             "kind": 134299649,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 11
                         },
@@ -76,7 +76,7 @@ class Foo<T> extends Bar<T> { }
                     "kind": 134299649,
                     "text": "Bar",
                     "rawText": "Bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 24
                 },
@@ -89,7 +89,7 @@ class Foo<T> extends Bar<T> { }
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 25,
                                 "end": 26
                             },
@@ -103,18 +103,18 @@ class Foo<T> extends Bar<T> { }
                     "start": 24,
                     "end": 27
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 27
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

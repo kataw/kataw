@@ -30,13 +30,13 @@
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 5
                                 },
                                 "operatorToken": {
                                     "kind": 4133,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -46,13 +46,13 @@
                                         "kind": 134299649,
                                         "text": "g",
                                         "rawText": "g",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 8,
                                         "end": 9
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -62,7 +62,7 @@
                                             "kind": 134299649,
                                             "text": "m",
                                             "rawText": "m",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -70,37 +70,37 @@
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 13
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 13
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

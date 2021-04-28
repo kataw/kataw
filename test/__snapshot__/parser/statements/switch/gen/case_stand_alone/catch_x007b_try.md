@@ -41,11 +41,11 @@ case catch { try
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 16,
                                     "end": 16
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 16,
                                 "end": 16
                             },
@@ -57,25 +57,25 @@ case catch { try
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 16,
                                     "end": 16
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 16,
                                 "end": 16
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 12,
                             "end": 16
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 16
             },
@@ -87,15 +87,15 @@ case catch { try
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 16,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 16
         }

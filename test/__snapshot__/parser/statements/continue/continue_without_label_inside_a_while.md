@@ -27,7 +27,7 @@ while (x) continue
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
@@ -40,11 +40,11 @@ while (x) continue
                     "end": 18
                 },
                 "label": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

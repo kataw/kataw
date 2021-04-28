@@ -30,18 +30,18 @@ switch switch switch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -56,18 +56,18 @@ switch switch switch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         },
@@ -94,7 +94,7 @@ switch switch switch function while
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 29
                 },
@@ -105,28 +105,28 @@ switch switch switch function while
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 29,
                         "end": 29
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 29
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 29
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 29,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 29
         },
@@ -141,7 +141,7 @@ switch switch switch function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 35,
                 "end": 35
             },
@@ -150,15 +150,15 @@ switch switch switch function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 35,
                     "end": 35
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 35,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 35
         }

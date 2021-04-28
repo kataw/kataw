@@ -33,7 +33,7 @@ class C { set x(_) { y = super } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class C { set x(_) { y = super } }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 13
                         },
@@ -61,7 +61,7 @@ class C { set x(_) { y = super } }
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             },
@@ -76,20 +76,20 @@ class C { set x(_) { y = super } }
                                             "kind": 134299649,
                                             "text": "_",
                                             "rawText": "_",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 17
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 16,
                                 "end": 18
                             },
@@ -108,13 +108,13 @@ class C { set x(_) { y = super } }
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 20,
                                                     "end": 22
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 22,
                                                     "end": 24
                                                 },
@@ -128,53 +128,53 @@ class C { set x(_) { y = super } }
                                                             "start": 24,
                                                             "end": 30
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 24,
                                                         "end": 30
                                                     },
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 12,
+                                                        "flags": 68,
                                                         "start": 30,
                                                         "end": 30
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 24,
                                                     "end": 30
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 20,
                                                 "end": 30
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 20,
                                             "end": 30
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 30
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 32
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 15,
                             "end": 32
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 32
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

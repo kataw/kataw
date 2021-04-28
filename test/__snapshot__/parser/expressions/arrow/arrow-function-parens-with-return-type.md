@@ -41,7 +41,7 @@ var foo = ((foo)): string => {};
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -55,28 +55,28 @@ var foo = ((foo)): string => {};
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 15
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 17
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -95,7 +95,7 @@ var foo = ((foo)): string => {};
                     "kind": 134299649,
                     "text": "string",
                     "rawText": "string",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 25
                 },
@@ -108,19 +108,19 @@ var foo = ((foo)): string => {};
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 30,
                         "end": 30
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 28,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 32
         }

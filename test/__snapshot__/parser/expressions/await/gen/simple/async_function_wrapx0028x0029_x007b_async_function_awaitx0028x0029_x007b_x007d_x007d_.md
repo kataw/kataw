@@ -24,7 +24,7 @@ async function wrap() { async function await() { } };
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -39,7 +39,7 @@ async function wrap() { async function await() { } };
                 "kind": 134299649,
                 "text": "wrap",
                 "rawText": "wrap",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 19
             },
@@ -47,7 +47,7 @@ async function wrap() { async function await() { } };
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 21
             },
@@ -62,7 +62,7 @@ async function wrap() { async function await() { } };
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 23,
                                 "end": 29
                             },
@@ -77,7 +77,7 @@ async function wrap() { async function await() { } };
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 38,
                                 "end": 44
                             },
@@ -85,7 +85,7 @@ async function wrap() { async function await() { } };
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 44,
                                 "end": 46
                             },
@@ -96,39 +96,39 @@ async function wrap() { async function await() { } };
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 48,
                                     "end": 48
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 46,
                                 "end": 50
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1152,
+                            "flags": 144,
                             "start": 23,
                             "end": 50
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 23,
                     "end": 50
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 52
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 52
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 52,
             "end": 53
         }

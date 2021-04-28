@@ -37,7 +37,7 @@
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 11
                     },
@@ -50,7 +50,7 @@
                                     "kind": 201392131,
                                     "text": "asterisk: \u000052",
                                     "rawText": "asterisk: \u000052",
-                                    "flags": 769,
+                                    "flags": 97,
                                     "start": 13,
                                     "end": 32
                                 },
@@ -58,32 +58,32 @@
                                     "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
-                                    "flags": 769,
+                                    "flags": 97,
                                     "start": 33,
                                     "end": 48
                                 }
                             ],
                             "statements": [],
                             "multiline": true,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 49
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 51
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 51
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 52
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 53
         }

@@ -33,7 +33,7 @@ class A extends async function f(){} {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,7 +50,7 @@ class A extends async function f(){} {}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 15,
                         "end": 21
                     },
@@ -65,7 +65,7 @@ class A extends async function f(){} {}
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 30,
                         "end": 32
                     },
@@ -73,7 +73,7 @@ class A extends async function f(){} {}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 32,
                         "end": 34
                     },
@@ -84,33 +84,33 @@ class A extends async function f(){} {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 35,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 34,
                         "end": 36
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 1280,
+                    "flags": 160,
                     "start": 15,
                     "end": 36
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 36
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 38,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

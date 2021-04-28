@@ -33,7 +33,7 @@ class C { async *#arguments() {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -49,7 +49,7 @@ class C { async *#arguments() {} }
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -60,7 +60,7 @@ class C { async *#arguments() {} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#arguments",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 27
                             },
@@ -69,7 +69,7 @@ class C { async *#arguments() {} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 3072,
+                                "flags": 384,
                                 "start": 28,
                                 "end": 29
                             },
@@ -81,28 +81,28 @@ class C { async *#arguments() {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 31,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 32
                             },
-                            "flags": 3072,
+                            "flags": 384,
                             "start": 27,
                             "end": 32
                         },
-                        "flags": 3072,
+                        "flags": 384,
                         "start": 9,
                         "end": 32
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

@@ -43,11 +43,11 @@ class C { test() {get #a() { }}}
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "1",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 8
         },
@@ -65,7 +65,7 @@ class C { test() {get #a() { }}}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 18,
                 "end": 18
             },
@@ -73,7 +73,7 @@ class C { test() {get #a() { }}}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 20
             },
@@ -84,17 +84,17 @@ class C { test() {get #a() { }}}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 22
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 22
         },
@@ -119,19 +119,19 @@ class C { test() {get #a() { }}}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 35,
                         "end": 35
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 27,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 36
         },
@@ -149,7 +149,7 @@ class C { test() {get #a() { }}}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 47,
                 "end": 47
             },
@@ -157,7 +157,7 @@ class C { test() {get #a() { }}}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 47,
                 "end": 49
             },
@@ -168,17 +168,17 @@ class C { test() {get #a() { }}}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 51,
                     "end": 51
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 49,
                 "end": 51
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 37,
             "end": 51
         },
@@ -203,19 +203,19 @@ class C { test() {get #a() { }}}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 64,
                         "end": 64
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 62,
                     "end": 64
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 55,
                 "end": 64
             },
-            "flags": 128,
+            "flags": 16,
             "start": 55,
             "end": 64
         },
@@ -231,15 +231,15 @@ class C { test() {get #a() { }}}
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 71,
                     "end": 71
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 67,
                 "end": 71
             },
-            "flags": 128,
+            "flags": 16,
             "start": 67,
             "end": 71
         },
@@ -257,7 +257,7 @@ class C { test() {get #a() { }}}
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 81,
                 "end": 83
             },
@@ -280,7 +280,7 @@ class C { test() {get #a() { }}}
                                 "kind": 134299649,
                                 "text": "test",
                                 "rawText": "test",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 85,
                                 "end": 90
                             },
@@ -306,21 +306,21 @@ class C { test() {get #a() { }}}
                                                 "kind": 134299649,
                                                 "text": "get",
                                                 "rawText": "get",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 94,
                                                 "end": 97
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 94,
                                             "end": 97
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 94,
                                     "end": 97
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 92,
                                 "end": 97
                             },
@@ -345,7 +345,7 @@ class C { test() {get #a() { }}}
                             "name": {
                                 "kind": 67109115,
                                 "text": "#a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 97,
                                 "end": 100
                             },
@@ -366,11 +366,11 @@ class C { test() {get #a() { }}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 104,
                                     "end": 104
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 102,
                                 "end": 106
                             },
@@ -383,11 +383,11 @@ class C { test() {get #a() { }}}
                         "end": 106
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 85,
                 "end": 107
             },
-            "flags": 128,
+            "flags": 16,
             "start": 74,
             "end": 107
         },
@@ -397,11 +397,11 @@ class C { test() {get #a() { }}}
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 67109633,
+                "flags": 4194401,
                 "start": 108,
                 "end": 122
             },
-            "flags": 128,
+            "flags": 16,
             "start": 108,
             "end": 123
         },
@@ -415,11 +415,19 @@ class C { test() {get #a() { }}}
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "set",
+                                "rawText": "set",
+                                "flags": 96,
+                                "start": 126,
+                                "end": 129
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 67109115,
                                     "text": "#a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 129,
                                     "end": 132
                                 },
@@ -434,20 +442,20 @@ class C { test() {get #a() { }}}
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 133,
                                                 "end": 136
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 133,
                                             "end": 136
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 4352,
+                                    "flags": 32,
                                     "start": 133,
                                     "end": 137
                                 },
@@ -459,15 +467,15 @@ class C { test() {get #a() { }}}
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 139,
                                         "end": 139
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 137,
                                     "end": 141
                                 },
-                                "flags": 4352,
+                                "flags": 32,
                                 "start": 132,
                                 "end": 141
                             }
@@ -478,15 +486,15 @@ class C { test() {get #a() { }}}
                         "start": 126,
                         "end": 141
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 125,
                     "end": 142
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 123,
                 "end": 143
             },
-            "flags": 128,
+            "flags": 16,
             "start": 123,
             "end": 144
         },
@@ -496,11 +504,11 @@ class C { test() {get #a() { }}}
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 67109633,
+                "flags": 4194401,
                 "start": 144,
                 "end": 158
             },
-            "flags": 128,
+            "flags": 16,
             "start": 144,
             "end": 159
         },
@@ -518,7 +526,7 @@ class C { test() {get #a() { }}}
                                 "name": {
                                     "kind": 67109115,
                                     "text": "#a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 163,
                                     "end": 165
                                 },
@@ -527,7 +535,7 @@ class C { test() {get #a() { }}}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1280,
+                                    "flags": 160,
                                     "start": 166,
                                     "end": 167
                                 },
@@ -539,15 +547,15 @@ class C { test() {get #a() { }}}
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 169,
                                         "end": 169
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 167,
                                     "end": 171
                                 },
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 165,
                                 "end": 171
                             }
@@ -558,15 +566,15 @@ class C { test() {get #a() { }}}
                         "start": 162,
                         "end": 171
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 161,
                     "end": 172
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 159,
                 "end": 173
             },
-            "flags": 128,
+            "flags": 16,
             "start": 159,
             "end": 174
         },
@@ -582,11 +590,19 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [
                                 {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 178,
+                                    "end": 183
+                                },
+                                {
                                     "kind": 209,
                                     "name": {
                                         "kind": 67109115,
                                         "text": "#a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 183,
                                         "end": 186
                                     },
@@ -595,7 +611,7 @@ class C { test() {get #a() { }}}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 2304,
+                                        "flags": 32,
                                         "start": 187,
                                         "end": 188
                                     },
@@ -607,15 +623,15 @@ class C { test() {get #a() { }}}
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 190,
                                             "end": 190
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 188,
                                         "end": 192
                                     },
-                                    "flags": 2304,
+                                    "flags": 32,
                                     "start": 186,
                                     "end": 192
                                 }
@@ -626,13 +642,13 @@ class C { test() {get #a() { }}}
                             "start": 178,
                             "end": 192
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 177,
                         "end": 193
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 193,
                         "end": 195
                     },
@@ -647,19 +663,19 @@ class C { test() {get #a() { }}}
                             "start": 197,
                             "end": 197
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 195,
                         "end": 198
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 177,
                     "end": 198
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 174,
                 "end": 199
             },
-            "flags": 128,
+            "flags": 16,
             "start": 174,
             "end": 200
         },
@@ -675,11 +691,19 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [
                                 {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 204,
+                                    "end": 209
+                                },
+                                {
                                     "kind": 209,
                                     "name": {
                                         "kind": 67109115,
                                         "text": "#a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 211,
                                         "end": 213
                                     },
@@ -688,7 +712,7 @@ class C { test() {get #a() { }}}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 3328,
+                                        "flags": 32,
                                         "start": 214,
                                         "end": 215
                                     },
@@ -700,15 +724,15 @@ class C { test() {get #a() { }}}
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 217,
                                             "end": 217
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 215,
                                         "end": 219
                                     },
-                                    "flags": 3328,
+                                    "flags": 32,
                                     "start": 213,
                                     "end": 219
                                 }
@@ -719,13 +743,13 @@ class C { test() {get #a() { }}}
                             "start": 204,
                             "end": 219
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 203,
                         "end": 220
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 220,
                         "end": 222
                     },
@@ -740,19 +764,19 @@ class C { test() {get #a() { }}}
                             "start": 224,
                             "end": 224
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 222,
                         "end": 225
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 203,
                     "end": 225
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 200,
                 "end": 226
             },
-            "flags": 128,
+            "flags": 16,
             "start": 200,
             "end": 227
         }
@@ -789,10 +813,13 @@ class C { test() {get #a() { }}}
 ✖ Statement expected - start: 71, end: 73
 ✖ Statement expected - start: 73, end: 74
 ✖ Statement expected - start: 107, end: 108
+✖ ',' expected - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class_bodies - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class_bodies - start: 163, end: 165
+✖ ',' expected - start: 183, end: 186
 ✖ Private identifiers are not allowed outside class_bodies - start: 183, end: 186
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 193, end: 195
+✖ ',' expected - start: 211, end: 213
 ✖ Private identifiers are not allowed outside class_bodies - start: 211, end: 213
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 220, end: 222
 

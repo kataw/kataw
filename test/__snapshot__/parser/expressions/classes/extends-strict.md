@@ -38,23 +38,23 @@ class C extends (function B() {
                             "kind": 134299649,
                             "text": "C",
                             "rawText": "C",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -72,7 +72,7 @@ class C extends (function B() {
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 15
             },
@@ -103,7 +103,7 @@ class C extends (function B() {
                                 "kind": 134299649,
                                 "text": "B",
                                 "rawText": "B",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 33,
                                 "end": 35
                             },
@@ -111,7 +111,7 @@ class C extends (function B() {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 37
                             },
@@ -140,17 +140,17 @@ class C extends (function B() {
                                                     "start": 49,
                                                     "end": 49
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 48,
                                                 "end": 50
                                             },
                                             "statement": {
                                                 "kind": 168,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 51,
                                                 "end": 52
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 39,
                                             "end": 52
                                         },
@@ -166,27 +166,27 @@ class C extends (function B() {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 61,
                                                 "end": 63
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1,
                                             "end": 52
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 64
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 66
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 25,
                             "end": 66
                         },
@@ -194,31 +194,31 @@ class C extends (function B() {
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 67,
                             "end": 67
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 68
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 23,
                     "end": 69
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 69
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 71,
                 "end": 72
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 72
         }

@@ -51,7 +51,7 @@ const x = ...y;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 7
                         },
@@ -60,20 +60,20 @@ const x = ...y;
                         "initializer": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 9,
                             "end": 9
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 9
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 9
         },
@@ -83,11 +83,11 @@ const x = ...y;
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 15
         }

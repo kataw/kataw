@@ -23,7 +23,7 @@ z();
                     "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -31,15 +31,15 @@ z();
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 2
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         }

@@ -25,11 +25,11 @@
                 "kind": 201392131,
                 "text": "q",
                 "rawText": "q",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -39,11 +39,11 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "",
-                "flags": 769,
+                "flags": 97,
                 "start": 8,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 16
         }

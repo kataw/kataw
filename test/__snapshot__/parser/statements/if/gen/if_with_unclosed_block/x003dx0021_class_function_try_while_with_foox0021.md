@@ -25,11 +25,11 @@ else {} if(x) { =! class function try while with foo!
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         },
@@ -45,7 +45,7 @@ else {} if(x) { =! class function try while with foo!
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
@@ -55,17 +55,17 @@ else {} if(x) { =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 17
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 17
         },
@@ -75,7 +75,7 @@ else {} if(x) { =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 17,
                     "end": 18
                 },
@@ -94,19 +94,19 @@ else {} if(x) { =! class function try while with foo!
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 18,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 24
         },
@@ -124,7 +124,7 @@ else {} if(x) { =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 33,
                 "end": 33
             },
@@ -132,7 +132,7 @@ else {} if(x) { =! class function try while with foo!
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 33
             },
@@ -143,17 +143,17 @@ else {} if(x) { =! class function try while with foo!
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 33
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 33
         },
@@ -171,11 +171,11 @@ else {} if(x) { =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 37,
                     "end": 37
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 37,
                 "end": 37
             },
@@ -187,15 +187,15 @@ else {} if(x) { =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 43,
                     "end": 43
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 43,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 33,
             "end": 43
         },
@@ -211,7 +211,7 @@ else {} if(x) { =! class function try while with foo!
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 48,
                 "end": 52
             },
@@ -221,26 +221,26 @@ else {} if(x) { =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 52,
                         "end": 53
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 53,
                         "end": 53
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 52,
                     "end": 53
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 52,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 53
         }

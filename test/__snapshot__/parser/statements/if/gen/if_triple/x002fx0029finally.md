@@ -30,7 +30,7 @@ if if if /)finally
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -45,7 +45,7 @@ if if if /)finally
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
@@ -60,7 +60,7 @@ if if if /)finally
                     "expression": {
                         "kind": 221,
                         "text": "/)finally",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 18
                     },
@@ -69,29 +69,29 @@ if if if /)finally
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 18,
                             "end": 18
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 18
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 18
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 18
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

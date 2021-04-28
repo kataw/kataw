@@ -38,7 +38,7 @@ switch {} default(x) { try { !xxx
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
@@ -62,15 +62,15 @@ switch {} default(x) { try { !xxx
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 20
                             },
@@ -98,7 +98,7 @@ switch {} default(x) { try { !xxx
                                                                 "kind": 126,
                                                                 "operandToken": {
                                                                     "kind": 65584,
-                                                                    "flags": 512,
+                                                                    "flags": 64,
                                                                     "start": 28,
                                                                     "end": 30
                                                                 },
@@ -106,25 +106,25 @@ switch {} default(x) { try { !xxx
                                                                     "kind": 134299649,
                                                                     "text": "xxx",
                                                                     "rawText": "xxx",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 30,
                                                                     "end": 33
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 28,
                                                                 "end": 33
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 28,
                                                             "end": 33
                                                         }
                                                     ],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 28,
                                                     "end": 33
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 26,
                                                 "end": 33
                                             },
@@ -136,39 +136,39 @@ switch {} default(x) { try { !xxx
                                                     "kind": 124,
                                                     "statements": [],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 33,
                                                     "end": 33
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 33,
                                                 "end": 33
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 22,
                                             "end": 33
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 33
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 33
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 33
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

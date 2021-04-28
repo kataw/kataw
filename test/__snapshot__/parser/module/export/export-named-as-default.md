@@ -42,18 +42,18 @@ export {foo as default};
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 11
                             },
                             "binding": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 14,
                                 "end": 14
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 14
                         },
@@ -64,17 +64,17 @@ export {foo as default};
                                 "kind": 134299649,
                                 "text": "default",
                                 "rawText": "default",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 22
                             },
                             "binding": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 22
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 22
                 },
@@ -84,7 +84,7 @@ export {foo as default};
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

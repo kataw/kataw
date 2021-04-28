@@ -44,7 +44,7 @@
                                                 "start": 4,
                                                 "end": 4
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 2,
                                             "end": 4
                                         },
@@ -59,7 +59,7 @@
                                                 "start": 5,
                                                 "end": 5
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 4,
                                             "end": 5
                                         },
@@ -74,48 +74,48 @@
                                                 "start": 6,
                                                 "end": 6
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 5,
                                             "end": 6
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 6
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 6
                             },
                             "operatorToken": {
                                 "kind": 34375,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 6,
                                 "end": 8
                             },
                             "right": {
                                 "kind": 221,
                                 "text": "/ function while}}",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 26
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 26
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 26
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

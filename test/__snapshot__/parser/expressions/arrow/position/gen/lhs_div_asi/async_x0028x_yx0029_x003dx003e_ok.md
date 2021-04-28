@@ -34,7 +34,7 @@ async (x, y) => ok
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },
@@ -42,14 +42,14 @@ async (x, y) => ok
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 11
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -60,13 +60,13 @@ async (x, y) => ok
                     "kind": 134299649,
                     "text": "ok",
                     "rawText": "ok",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 513,
+                    "flags": 65,
                     "start": 18,
                     "end": 20
                 },
@@ -74,15 +74,15 @@ async (x, y) => ok
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 22
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 22
         }

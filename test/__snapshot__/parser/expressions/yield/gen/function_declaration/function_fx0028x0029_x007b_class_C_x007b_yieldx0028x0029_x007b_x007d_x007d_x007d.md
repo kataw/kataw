@@ -34,7 +34,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -67,7 +67,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 29,
                                 "end": 31
                             },
@@ -75,7 +75,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 33
                             },
@@ -99,7 +99,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 41,
                                                 "end": 43
                                             },
@@ -122,7 +122,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 45,
                                                                 "end": 51
                                                             },
@@ -143,11 +143,11 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 55,
                                                                     "end": 55
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 53,
                                                                 "end": 57
                                                             },
@@ -160,43 +160,43 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                         "end": 57
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 45,
                                                 "end": 59
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 59
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 35,
                                     "end": 59
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 61
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 61
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 61
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 63
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 63
         }

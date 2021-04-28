@@ -37,13 +37,13 @@ if[ /false//a
                             "left": {
                                 "kind": 221,
                                 "text": "/false/",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3,
                                 "end": 11
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 11,
                                 "end": 12
                             },
@@ -51,21 +51,21 @@ if[ /false//a
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2,
                 "end": 13
             },
@@ -74,17 +74,17 @@ if[ /false//a
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

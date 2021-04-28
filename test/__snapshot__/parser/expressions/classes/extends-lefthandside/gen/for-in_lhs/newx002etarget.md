@@ -28,7 +28,7 @@ for (new.target in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 15,
                 "end": 18
             },
@@ -39,11 +39,11 @@ for (new.target in x) ;
                     "kind": 134299649,
                     "text": "target",
                     "rawText": "target",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 15
                 },
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 15
             },
@@ -51,17 +51,17 @@ for (new.target in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

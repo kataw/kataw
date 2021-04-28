@@ -30,7 +30,7 @@ do[ /)finally
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
@@ -45,25 +45,25 @@ do[ /)finally
                             {
                                 "kind": 221,
                                 "text": "/)finally",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

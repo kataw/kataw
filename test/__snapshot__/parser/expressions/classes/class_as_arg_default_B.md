@@ -23,13 +23,13 @@ f = ([xCls = class X {}]) => {}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -54,13 +54,13 @@ f = ([xCls = class X {}]) => {}
                                             "kind": 134299649,
                                             "text": "xCls",
                                             "rawText": "xCls",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 10
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -77,7 +77,7 @@ f = ([xCls = class X {}]) => {}
                                                 "kind": 134299649,
                                                 "text": "X",
                                                 "rawText": "X",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 18,
                                                 "end": 20
                                             },
@@ -86,25 +86,25 @@ f = ([xCls = class X {}]) => {}
                                             "members": {
                                                 "kind": 277,
                                                 "elements": [],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 22,
                                                 "end": 23
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 12,
                                             "end": 23
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 6,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 24
                         }
@@ -118,23 +118,23 @@ f = ([xCls = class X {}]) => {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 30,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

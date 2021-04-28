@@ -25,11 +25,11 @@ else {} if(x) { async try while { catch }
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         },
@@ -45,7 +45,7 @@ else {} if(x) { async try while { catch }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
@@ -60,11 +60,11 @@ else {} if(x) { async try while { catch }
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 21
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 21
                         },
@@ -82,11 +82,11 @@ else {} if(x) { async try while { catch }
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 25,
                                 "end": 25
                             },
@@ -106,11 +106,11 @@ else {} if(x) { async try while { catch }
                                                     "kind": 124,
                                                     "statements": [],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 39,
                                                     "end": 39
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 39,
                                                 "end": 39
                                             },
@@ -122,45 +122,45 @@ else {} if(x) { async try while { catch }
                                                     "kind": 124,
                                                     "statements": [],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 41,
                                                     "end": 41
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 41,
                                                 "end": 41
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 33,
                                             "end": 41
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 33,
                                     "end": 41
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 31,
                                 "end": 41
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 21,
                             "end": 41
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 41
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 41
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 41
         }

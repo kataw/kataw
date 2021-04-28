@@ -34,13 +34,13 @@ import a, ** from 'f';
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 9,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 9,
                     "end": 12
                 },
@@ -48,11 +48,11 @@ import a, ** from 'f';
                     "kind": 134299649,
                     "text": "from",
                     "rawText": "from",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 17
             },
@@ -63,17 +63,17 @@ import a, ** from 'f';
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 17
         },
@@ -83,11 +83,11 @@ import a, ** from 'f';
                 "kind": 201392131,
                 "text": "f",
                 "rawText": "f",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 17,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 22
         }

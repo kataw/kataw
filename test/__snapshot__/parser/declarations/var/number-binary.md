@@ -41,7 +41,7 @@ var a: 0b1111011
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -60,16 +60,16 @@ var a: 0b1111011
                             "end": 16
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 16
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

@@ -28,7 +28,7 @@ for (a in b) async function f(){}
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 6,
                 "end": 9
             },
@@ -37,7 +37,7 @@ for (a in b) async function f(){}
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 6
             },
@@ -45,7 +45,7 @@ for (a in b) async function f(){}
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 11
             },
@@ -55,7 +55,7 @@ for (a in b) async function f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 12,
                         "end": 18
                     },
@@ -70,7 +70,7 @@ for (a in b) async function f(){}
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 27,
                         "end": 29
                     },
@@ -78,7 +78,7 @@ for (a in b) async function f(){}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 29,
                         "end": 31
                     },
@@ -89,25 +89,25 @@ for (a in b) async function f(){}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 32,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 31,
                         "end": 33
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 1280,
+                    "flags": 160,
                     "start": 12,
                     "end": 33
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

@@ -42,7 +42,7 @@ export {foo as bar};
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 11
                             },
@@ -50,16 +50,16 @@ export {foo as bar};
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 18
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 18
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 18
                 },
@@ -69,7 +69,7 @@ export {foo as bar};
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

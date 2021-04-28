@@ -35,20 +35,20 @@ new new.target
                         "kind": 134299649,
                         "text": "target",
                         "rawText": "target",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 14
                     },
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 14
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

@@ -27,7 +27,7 @@ function *f() {  return typeof yield foo;  }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -35,7 +35,7 @@ function *f() {  return typeof yield foo;  }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -43,7 +43,7 @@ function *f() {  return typeof yield foo;  }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -65,7 +65,7 @@ function *f() {  return typeof yield foo;  }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477613,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 23,
                                     "end": 30
                                 },
@@ -83,35 +83,35 @@ function *f() {  return typeof yield foo;  }
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 36,
                                         "end": 40
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 30,
                                     "end": 40
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 40
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 0,
                             "end": 15
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 44
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 44
         }

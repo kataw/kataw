@@ -43,7 +43,7 @@ var a : { <T>(x: T): number; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -62,14 +62,14 @@ var a : { <T>(x: T): number; }
                                             "kind": 208,
                                             "functionTypeParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 11
                                         },
                                         "staticToken": false,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 13,
                                             "end": 20
                                         },
@@ -88,16 +88,16 @@ var a : { <T>(x: T): number; }
                             "end": 23
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 23
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         },
@@ -119,7 +119,7 @@ var a : { <T>(x: T): number; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 28,
                             "end": 30
                         },
@@ -142,7 +142,7 @@ var a : { <T>(x: T): number; }
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 36,
                                                         "end": 37
                                                     },
@@ -166,7 +166,7 @@ var a : { <T>(x: T): number; }
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 39,
                                                         "end": 40
                                                     },
@@ -177,7 +177,7 @@ var a : { <T>(x: T): number; }
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 41,
                                                             "end": 43
                                                         },
@@ -192,14 +192,14 @@ var a : { <T>(x: T): number; }
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 39,
                                             "end": 43
                                         },
                                         "staticToken": false,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 45,
                                             "end": 52
                                         },
@@ -218,16 +218,16 @@ var a : { <T>(x: T): number; }
                             "end": 55
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 28,
                         "end": 55
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 28,
                 "end": 55
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 55
         }

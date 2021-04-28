@@ -29,7 +29,7 @@ class C { static set #aaa(x){} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -44,7 +44,7 @@ class C { static set #aaa(x){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 16
                         },
@@ -52,7 +52,7 @@ class C { static set #aaa(x){} }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 16,
                             "end": 20
                         },
@@ -61,7 +61,7 @@ class C { static set #aaa(x){} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#aaa",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 25
                             },
@@ -76,20 +76,20 @@ class C { static set #aaa(x){} }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 26,
                                             "end": 27
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 26,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 26,
                                 "end": 28
                             },
@@ -101,28 +101,28 @@ class C { static set #aaa(x){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 30
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 25,
                             "end": 30
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 16,
                         "end": 30
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

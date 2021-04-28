@@ -30,7 +30,7 @@ do[ function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 18,
                 "end": 18
             },
@@ -62,7 +62,7 @@ do[ function while
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 12
                                 },
@@ -73,35 +73,35 @@ do[ function while
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 12
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 12
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 12
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

@@ -34,7 +34,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -52,7 +52,7 @@ x({get 0o4567(){}});
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 8
                                         },
@@ -61,7 +61,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -73,15 +73,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 11
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 12
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 8,
                                         "end": 12
                                     },
@@ -91,7 +91,7 @@ x({get 0o4567(){}});
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 17
                                         },
@@ -100,7 +100,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 18,
                                             "end": 19
                                         },
@@ -112,15 +112,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 20,
                                                 "end": 20
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 17,
                                         "end": 21
                                     }
@@ -131,21 +131,21 @@ x({get 0o4567(){}});
                                 "start": 3,
                                 "end": 21
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         },
@@ -157,7 +157,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -177,11 +177,11 @@ x({get 0o4567(){}});
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 29,
                                                 "end": 32
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 28,
                                             "end": 33
                                         },
@@ -190,7 +190,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 34,
                                             "end": 35
                                         },
@@ -202,15 +202,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 36,
                                                 "end": 36
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 35,
                                             "end": 37
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 33,
                                         "end": 37
                                     },
@@ -222,11 +222,11 @@ x({get 0o4567(){}});
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 44,
                                                 "end": 47
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 42,
                                             "end": 48
                                         },
@@ -235,7 +235,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 49,
                                             "end": 50
                                         },
@@ -247,15 +247,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 51,
                                                 "end": 51
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 50,
                                             "end": 52
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 48,
                                         "end": 52
                                     }
@@ -266,21 +266,21 @@ x({get 0o4567(){}});
                                 "start": 28,
                                 "end": 52
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 27,
                             "end": 53
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 27,
                     "end": 53
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 24,
                 "end": 54
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 55
         },
@@ -292,7 +292,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 55,
                     "end": 57
                 },
@@ -312,11 +312,11 @@ x({get 0o4567(){}});
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 64,
                                                 "end": 67
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 62,
                                             "end": 68
                                         },
@@ -325,7 +325,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 69,
                                             "end": 70
                                         },
@@ -337,15 +337,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 71,
                                                 "end": 71
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 70,
                                             "end": 72
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 68,
                                         "end": 72
                                     }
@@ -356,21 +356,21 @@ x({get 0o4567(){}});
                                 "start": 59,
                                 "end": 72
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 58,
                             "end": 73
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 58,
                     "end": 73
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 55,
                 "end": 74
             },
-            "flags": 128,
+            "flags": 16,
             "start": 55,
             "end": 75
         },
@@ -382,7 +382,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 75,
                     "end": 77
                 },
@@ -402,11 +402,11 @@ x({get 0o4567(){}});
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 84,
                                                 "end": 87
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 82,
                                             "end": 88
                                         },
@@ -415,7 +415,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 89,
                                             "end": 90
                                         },
@@ -427,15 +427,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 91,
                                                 "end": 91
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 90,
                                             "end": 92
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 88,
                                         "end": 92
                                     },
@@ -447,11 +447,11 @@ x({get 0o4567(){}});
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 99,
                                                 "end": 102
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 97,
                                             "end": 103
                                         },
@@ -460,7 +460,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 104,
                                             "end": 105
                                         },
@@ -472,15 +472,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 106,
                                                 "end": 106
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 105,
                                             "end": 107
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 103,
                                         "end": 107
                                     }
@@ -491,21 +491,21 @@ x({get 0o4567(){}});
                                 "start": 79,
                                 "end": 107
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 78,
                             "end": 108
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 78,
                     "end": 108
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 75,
                 "end": 109
             },
-            "flags": 128,
+            "flags": 16,
             "start": 75,
             "end": 110
         },
@@ -517,7 +517,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 110,
                     "end": 112
                 },
@@ -535,7 +535,7 @@ x({get 0o4567(){}});
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 117,
                                             "end": 121
                                         },
@@ -544,7 +544,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 122,
                                             "end": 123
                                         },
@@ -556,15 +556,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 124,
                                                 "end": 124
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 123,
                                             "end": 125
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 121,
                                         "end": 125
                                     }
@@ -575,21 +575,21 @@ x({get 0o4567(){}});
                                 "start": 114,
                                 "end": 125
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 113,
                             "end": 126
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 113,
                     "end": 126
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 110,
                 "end": 127
             },
-            "flags": 128,
+            "flags": 16,
             "start": 110,
             "end": 128
         },
@@ -601,7 +601,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 128,
                     "end": 130
                 },
@@ -619,7 +619,7 @@ x({get 0o4567(){}});
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 135,
                                             "end": 139
                                         },
@@ -628,7 +628,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 140,
                                             "end": 141
                                         },
@@ -640,15 +640,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 142,
                                                 "end": 142
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 141,
                                             "end": 143
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 139,
                                         "end": 143
                                     },
@@ -658,7 +658,7 @@ x({get 0o4567(){}});
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 148,
                                             "end": 152
                                         },
@@ -667,7 +667,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 153,
                                             "end": 154
                                         },
@@ -679,15 +679,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 155,
                                                 "end": 155
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 154,
                                             "end": 156
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 152,
                                         "end": 156
                                     }
@@ -698,21 +698,21 @@ x({get 0o4567(){}});
                                 "start": 132,
                                 "end": 156
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 131,
                             "end": 157
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 131,
                     "end": 157
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 128,
                 "end": 158
             },
-            "flags": 128,
+            "flags": 16,
             "start": 128,
             "end": 159
         },
@@ -724,7 +724,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 159,
                     "end": 161
                 },
@@ -742,7 +742,7 @@ x({get 0o4567(){}});
                                             "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 166,
                                             "end": 172
                                         },
@@ -751,7 +751,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 173,
                                             "end": 174
                                         },
@@ -763,15 +763,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 175,
                                                 "end": 175
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 174,
                                             "end": 176
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 172,
                                         "end": 176
                                     }
@@ -782,21 +782,21 @@ x({get 0o4567(){}});
                                 "start": 163,
                                 "end": 176
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 162,
                             "end": 177
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 162,
                     "end": 177
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 159,
                 "end": 178
             },
-            "flags": 128,
+            "flags": 16,
             "start": 159,
             "end": 179
         },
@@ -808,7 +808,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 179,
                     "end": 181
                 },
@@ -826,7 +826,7 @@ x({get 0o4567(){}});
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 186,
                                             "end": 188
                                         },
@@ -835,7 +835,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 189,
                                             "end": 190
                                         },
@@ -847,15 +847,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 191,
                                                 "end": 191
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 190,
                                             "end": 192
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 188,
                                         "end": 192
                                     }
@@ -866,21 +866,21 @@ x({get 0o4567(){}});
                                 "start": 183,
                                 "end": 192
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 182,
                             "end": 193
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 182,
                     "end": 193
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 179,
                 "end": 194
             },
-            "flags": 128,
+            "flags": 16,
             "start": 179,
             "end": 195
         },
@@ -892,7 +892,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 195,
                     "end": 197
                 },
@@ -910,7 +910,7 @@ x({get 0o4567(){}});
                                             "kind": 201392130,
                                             "text": 2310721,
                                             "rawText": "0x234241",
-                                            "flags": 16777984,
+                                            "flags": 1048672,
                                             "start": 202,
                                             "end": 211
                                         },
@@ -919,7 +919,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 212,
                                             "end": 213
                                         },
@@ -931,15 +931,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 214,
                                                 "end": 214
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 213,
                                             "end": 215
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 211,
                                         "end": 215
                                     }
@@ -950,21 +950,21 @@ x({get 0o4567(){}});
                                 "start": 199,
                                 "end": 215
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 198,
                             "end": 216
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 198,
                     "end": 216
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 195,
                 "end": 217
             },
-            "flags": 128,
+            "flags": 16,
             "start": 195,
             "end": 218
         },
@@ -976,7 +976,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 218,
                     "end": 220
                 },
@@ -994,7 +994,7 @@ x({get 0o4567(){}});
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "0b001",
-                                            "flags": 8389376,
+                                            "flags": 524384,
                                             "start": 225,
                                             "end": 231
                                         },
@@ -1003,7 +1003,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 232,
                                             "end": 233
                                         },
@@ -1015,15 +1015,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 234,
                                                 "end": 234
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 233,
                                             "end": 235
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 231,
                                         "end": 235
                                     }
@@ -1034,21 +1034,21 @@ x({get 0o4567(){}});
                                 "start": 222,
                                 "end": 235
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 221,
                             "end": 236
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 221,
                     "end": 236
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 218,
                 "end": 237
             },
-            "flags": 128,
+            "flags": 16,
             "start": 218,
             "end": 238
         },
@@ -1060,7 +1060,7 @@ x({get 0o4567(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 238,
                     "end": 240
                 },
@@ -1078,7 +1078,7 @@ x({get 0o4567(){}});
                                             "kind": 201392130,
                                             "text": 2423,
                                             "rawText": "0o4567",
-                                            "flags": 4195072,
+                                            "flags": 262240,
                                             "start": 245,
                                             "end": 252
                                         },
@@ -1087,7 +1087,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 253,
                                             "end": 254
                                         },
@@ -1099,15 +1099,15 @@ x({get 0o4567(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 255,
                                                 "end": 255
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 254,
                                             "end": 256
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 252,
                                         "end": 256
                                     }
@@ -1118,21 +1118,21 @@ x({get 0o4567(){}});
                                 "start": 242,
                                 "end": 256
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 241,
                             "end": 257
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 241,
                     "end": 257
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 238,
                 "end": 258
             },
-            "flags": 128,
+            "flags": 16,
             "start": 238,
             "end": 259
         }

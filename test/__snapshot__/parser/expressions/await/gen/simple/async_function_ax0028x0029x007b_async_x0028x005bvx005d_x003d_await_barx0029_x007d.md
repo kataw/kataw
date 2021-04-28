@@ -24,7 +24,7 @@ async function a(){     async ([v] = await bar);     }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -39,7 +39,7 @@ async function a(){     async ([v] = await bar);     }
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -47,7 +47,7 @@ async function a(){     async ([v] = await bar);     }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -63,7 +63,7 @@ async function a(){     async ([v] = await bar);     }
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 29
                             },
@@ -81,23 +81,23 @@ async function a(){     async ([v] = await bar);     }
                                                         "kind": 134299649,
                                                         "text": "v",
                                                         "rawText": "v",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 32,
                                                         "end": 33
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 32,
                                                 "end": 33
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 31,
                                             "end": 34
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 34,
                                             "end": 36
                                         },
@@ -113,47 +113,47 @@ async function a(){     async ([v] = await bar);     }
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 42,
                                                 "end": 46
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 36,
                                             "end": 46
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 46
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 19,
                             "end": 47
                         },
                         {
                             "kind": 168,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 47,
                             "end": 48
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 48
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 54
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 54
         }

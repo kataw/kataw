@@ -23,7 +23,7 @@ log({foo: [bar]});
                     "kind": 134299649,
                     "text": "log",
                     "rawText": "log",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -46,17 +46,17 @@ log({foo: [bar]});
                                                         "kind": 134299649,
                                                         "text": "bar",
                                                         "rawText": "bar",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 11,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 14
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 15
                                         },
@@ -64,11 +64,11 @@ log({foo: [bar]});
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 15
                                     }
@@ -79,21 +79,21 @@ log({foo: [bar]});
                                 "start": 5,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 4,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

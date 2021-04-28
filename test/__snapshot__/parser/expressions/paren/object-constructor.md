@@ -23,15 +23,15 @@
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         },
@@ -41,11 +41,11 @@
                 "kind": 134299649,
                 "text": "number",
                 "rawText": "number",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 31
         },
@@ -55,11 +55,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 33,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 32,
             "end": 34
         }

@@ -23,11 +23,11 @@
                 "kind": 458761,
                 "text": "\n",
                 "rawText": "\n",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         }

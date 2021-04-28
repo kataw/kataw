@@ -34,7 +34,7 @@ var af = ()
                             "kind": 134299649,
                             "text": "af",
                             "rawText": "af",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 6
                         },
@@ -59,28 +59,28 @@ var af = ()
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 16
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 17
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

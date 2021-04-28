@@ -32,7 +32,7 @@ class super {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class super {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -61,22 +61,22 @@ class super {}
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 11
                 },
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 11
         },
@@ -86,11 +86,11 @@ class super {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 14
         }

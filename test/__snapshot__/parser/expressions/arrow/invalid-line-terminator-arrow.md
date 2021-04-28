@@ -34,15 +34,15 @@
                     "kind": 201392130,
                     "text": 42,
                     "rawText": "42",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

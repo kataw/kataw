@@ -60,12 +60,12 @@ var {x, y = z} = obj;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 6
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -76,7 +76,7 @@ var {x, y = z} = obj;
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 9
                                         },
@@ -84,22 +84,22 @@ var {x, y = z} = obj;
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 13
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 14
                         },
@@ -109,20 +109,20 @@ var {x, y = z} = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 20
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 20
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

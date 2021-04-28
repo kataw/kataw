@@ -49,7 +49,7 @@ export default class x {}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },
@@ -58,15 +58,15 @@ export default class x {}
                 "members": {
                     "kind": 277,
                     "elements": [],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 24,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

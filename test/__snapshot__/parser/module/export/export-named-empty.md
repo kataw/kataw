@@ -35,7 +35,7 @@ export {};
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -45,7 +45,7 @@ export {};
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

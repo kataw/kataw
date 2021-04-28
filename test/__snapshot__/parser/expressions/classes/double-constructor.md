@@ -35,7 +35,7 @@
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
@@ -58,7 +58,7 @@
                                         "kind": 134299649,
                                         "text": "constructor",
                                         "rawText": "constructor",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 24
                                     },
@@ -67,7 +67,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 16384,
+                                        "flags": 2048,
                                         "start": 26,
                                         "end": 27
                                     },
@@ -79,19 +79,19 @@
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 29,
                                             "end": 29
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 27,
                                         "end": 30
                                     },
-                                    "flags": 16384,
+                                    "flags": 2048,
                                     "start": 24,
                                     "end": 30
                                 },
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 10,
                                 "end": 30
                             },
@@ -109,7 +109,7 @@
                                         "kind": 134299649,
                                         "text": "constructor",
                                         "rawText": "constructor",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 30,
                                         "end": 44
                                     },
@@ -118,7 +118,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 16384,
+                                        "flags": 2048,
                                         "start": 46,
                                         "end": 47
                                     },
@@ -130,36 +130,36 @@
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 49,
                                             "end": 49
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 47,
                                         "end": 50
                                     },
-                                    "flags": 16384,
+                                    "flags": 2048,
                                     "start": 44,
                                     "end": 50
                                 },
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 30,
                                 "end": 50
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 52
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 52
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 53
         }

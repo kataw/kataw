@@ -30,7 +30,7 @@ if catch try { else
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -43,11 +43,11 @@ if catch try { else
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -59,21 +59,21 @@ if catch try { else
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 14
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 512,
+                "flags": 64,
                 "start": 14,
                 "end": 19
             },
@@ -82,15 +82,15 @@ if catch try { else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 19,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

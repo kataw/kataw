@@ -50,23 +50,23 @@ class extends {}
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 16
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 16
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

@@ -27,28 +27,28 @@ yield * \n { yield: 12 }
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 7,
                     "end": 7
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -58,11 +58,11 @@ yield * \n { yield: 12 }
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 10
         },
@@ -77,21 +77,21 @@ yield * \n { yield: 12 }
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 18
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 18
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 18
         },
@@ -101,11 +101,11 @@ yield * \n { yield: 12 }
                 "kind": 201392130,
                 "text": 12,
                 "rawText": "12",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 22
         }

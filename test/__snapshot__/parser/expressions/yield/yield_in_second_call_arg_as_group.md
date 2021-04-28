@@ -30,13 +30,13 @@
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 3,
                                     "end": 4
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 4,
                                     "end": 6
                                 },
@@ -46,13 +46,13 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 8
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 8,
                                         "end": 10
                                     },
@@ -62,7 +62,7 @@
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 14
                                         },
@@ -73,7 +73,7 @@
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 15,
                                                     "end": 16
                                                 },
@@ -81,7 +81,7 @@
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 17,
                                                     "end": 23
                                                 },
@@ -89,43 +89,43 @@
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 23,
                                                     "end": 25
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 25
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 26
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 6,
                                     "end": 26
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 26
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 27
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 28
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

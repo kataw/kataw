@@ -20,7 +20,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -43,7 +43,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -57,7 +57,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 640,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 22
                             },
@@ -70,7 +70,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                             "kind": 134299649,
                                             "text": "o",
                                             "rawText": "o",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 24
                                         },
@@ -87,7 +87,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                             "kind": 134299649,
                                                             "text": "f",
                                                             "rawText": "f",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 29,
                                                             "end": 30
                                                         },
@@ -102,7 +102,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                         "kind": 134299649,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 31,
                                                                         "end": 34
                                                                     },
@@ -117,7 +117,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                     "kind": 134299649,
                                                                                     "text": "h",
                                                                                     "rawText": "h",
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 38,
                                                                                     "end": 39
                                                                                 },
@@ -134,7 +134,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                         "kind": 134299649,
                                                                                                         "text": "t",
                                                                                                         "rawText": "t",
-                                                                                                        "flags": 768,
+                                                                                                        "flags": 96,
                                                                                                         "start": 44,
                                                                                                         "end": 46
                                                                                                     },
@@ -145,7 +145,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "await",
                                                                                                                 "rawText": "await",
-                                                                                                                "flags": 768,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 47,
                                                                                                                 "end": 52
                                                                                                             },
@@ -153,17 +153,17 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "bar",
                                                                                                                 "rawText": "bar",
-                                                                                                                "flags": 768,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 52,
                                                                                                                 "end": 56
                                                                                                             }
                                                                                                         ],
                                                                                                         "trailingComma": false,
-                                                                                                        "flags": 256,
+                                                                                                        "flags": 32,
                                                                                                         "start": 47,
                                                                                                         "end": 56
                                                                                                     },
-                                                                                                    "flags": 256,
+                                                                                                    "flags": 32,
                                                                                                     "start": 42,
                                                                                                     "end": 57
                                                                                                 },
@@ -171,11 +171,11 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                     "kind": 134299649,
                                                                                                     "text": "m",
                                                                                                     "rawText": "m",
-                                                                                                    "flags": 768,
+                                                                                                    "flags": 96,
                                                                                                     "start": 42,
                                                                                                     "end": 43
                                                                                                 },
-                                                                                                "flags": 256,
+                                                                                                "flags": 32,
                                                                                                 "start": 42,
                                                                                                 "end": 57
                                                                                             }
@@ -186,27 +186,27 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                         "start": 42,
                                                                                         "end": 57
                                                                                     },
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 40,
                                                                                     "end": 58
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 38,
                                                                             "end": 58
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 36,
                                                                         "end": 59
                                                                     },
-                                                                    "flags": 258,
+                                                                    "flags": 34,
                                                                     "start": 31,
                                                                     "end": 59
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 1282,
+                                                            "flags": 162,
                                                             "start": 31,
                                                             "end": 60
                                                         },
@@ -218,15 +218,15 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "multiline": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 61,
                                                                 "end": 61
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 60,
                                                             "end": 62
                                                         },
-                                                        "flags": 1280,
+                                                        "flags": 160,
                                                         "start": 30,
                                                         "end": 62
                                                     }
@@ -237,36 +237,36 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                 "start": 28,
                                                 "end": 62
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 26,
                                             "end": 63
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 22,
                                         "end": 63
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 22,
                                 "end": 63
                             },
-                            "flags": 128,
+                            "flags": 33554448,
                             "start": 19,
                             "end": 63
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 63
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 68
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 68
         }

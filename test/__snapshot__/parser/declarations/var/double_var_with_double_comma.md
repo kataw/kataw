@@ -49,30 +49,30 @@ var {x,, y} = obj;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 6
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 6
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 7
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     },
@@ -82,23 +82,23 @@ var {x,, y} = obj;
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 10
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -108,11 +108,11 @@ var {x,, y} = obj;
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 18
         }

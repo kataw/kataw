@@ -27,7 +27,7 @@ foo(async x => {})
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -51,21 +51,21 @@ foo(async x => {})
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 9,
                                         "end": 11
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 4,
                                     "end": 11
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 4,
                                 "end": 9
                             },
@@ -77,29 +77,29 @@ foo(async x => {})
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 16
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 17
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 4,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

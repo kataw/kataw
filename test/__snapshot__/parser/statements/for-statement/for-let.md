@@ -46,7 +46,7 @@ for(let;;);
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "let",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 7
             },
@@ -54,11 +54,11 @@ for(let;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

@@ -53,25 +53,25 @@ for (var r == y in x );
                                 "kind": 134299649,
                                 "text": "r",
                                 "rawText": "r",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 10
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 10
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 34622,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 10,
                     "end": 13
                 },
@@ -81,13 +81,13 @@ for (var r == y in x );
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 15,
                         "end": 18
                     },
@@ -95,15 +95,15 @@ for (var r == y in x );
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
@@ -111,17 +111,17 @@ for (var r == y in x );
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 20,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

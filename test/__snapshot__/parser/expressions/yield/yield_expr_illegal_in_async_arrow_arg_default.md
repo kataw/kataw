@@ -31,13 +31,13 @@ async (x = yield y) => {}
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 8,
                         "end": 10
                     },
@@ -45,11 +45,11 @@ async (x = yield y) => {}
                         "kind": 134299649,
                         "text": "yield",
                         "rawText": "yield",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 10,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 16
                 },
@@ -57,14 +57,14 @@ async (x = yield y) => {}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -76,15 +76,15 @@ async (x = yield y) => {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 25
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 25
         }

@@ -187,7 +187,7 @@ switch[ #
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -205,21 +205,21 @@ switch[ #
                         "expression": {
                             "kind": 67109115,
                             "text": "#",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 13
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

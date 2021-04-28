@@ -30,7 +30,7 @@ do while [catch] /false//a
             "expression": {
                 "kind": 221,
                 "text": "/a",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 26
             },
@@ -49,11 +49,11 @@ do while [catch] /false//a
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 10
                 },
@@ -66,11 +66,11 @@ do while [catch] /false//a
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 15
                     },
@@ -82,23 +82,23 @@ do while [catch] /false//a
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

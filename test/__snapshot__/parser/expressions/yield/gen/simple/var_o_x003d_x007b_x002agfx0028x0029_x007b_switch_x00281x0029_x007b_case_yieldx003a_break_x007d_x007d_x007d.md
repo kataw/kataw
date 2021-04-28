@@ -37,7 +37,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                             "kind": 134299649,
                             "text": "o",
                             "rawText": "o",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -54,7 +54,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                             "kind": 134299649,
                                             "text": "gf",
                                             "rawText": "gf",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -63,7 +63,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 14,
                                             "end": 15
                                         },
@@ -86,7 +86,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                             "kind": 201392130,
                                                             "text": 1,
                                                             "rawText": "1",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 26,
                                                             "end": 27
                                                         },
@@ -112,7 +112,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                         "delegate": false,
                                                                         "asteriskToken": null,
                                                                         "expression": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 35,
                                                                         "end": 41
                                                                     },
@@ -126,35 +126,35 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                                 "end": 48
                                                                             },
                                                                             "label": null,
-                                                                            "flags": 128,
+                                                                            "flags": 16,
                                                                             "start": 42,
                                                                             "end": 49
                                                                         }
                                                                     ],
-                                                                    "flags": 128,
+                                                                    "flags": 16,
                                                                     "start": 30,
                                                                     "end": 49
                                                                 }
                                                             ],
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 28,
                                                             "end": 51
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 17,
                                                         "end": 51
                                                     }
                                                 ],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 51
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 53
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 13,
                                         "end": 53
                                     }
@@ -165,20 +165,20 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                 "start": 9,
                                 "end": 53
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 55
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 55
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 55
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 55
         }

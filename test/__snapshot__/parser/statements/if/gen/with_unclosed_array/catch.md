@@ -33,11 +33,11 @@ if[ catch
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2,
                 "end": 3
             },
@@ -50,11 +50,11 @@ if[ catch
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 9,
                     "end": 9
                 },
@@ -66,21 +66,21 @@ if[ catch
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 9,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

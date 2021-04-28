@@ -31,13 +31,13 @@ async(a = (await) => {}) => {};
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 7,
                         "end": 9
                     },
@@ -55,7 +55,7 @@ async(a = (await) => {}) => {};
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 16
                             }
@@ -69,26 +69,26 @@ async(a = (await) => {}) => {};
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 20,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 23
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -100,21 +100,21 @@ async(a = (await) => {}) => {};
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 27,
                 "end": 30
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 30
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 31
         }

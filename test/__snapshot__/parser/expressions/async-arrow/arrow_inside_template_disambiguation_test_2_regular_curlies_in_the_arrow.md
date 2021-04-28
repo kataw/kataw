@@ -22,7 +22,7 @@
                 "member": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 0,
                     "end": 0
                 },
@@ -50,21 +50,21 @@
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 11
                                     }
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 4,
                                     "end": 9
                                 },
@@ -75,13 +75,13 @@
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 16
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 16,
                                         "end": 18
                                     },
@@ -96,19 +96,19 @@
                                             "start": 20,
                                             "end": 20
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 21
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 21
                                 },
-                                "flags": 2304,
+                                "flags": 288,
                                 "start": 4,
                                 "end": 21
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 0,
                             "end": 21
                         }
@@ -117,19 +117,19 @@
                         "kind": 458761,
                         "text": "Y",
                         "rawText": "Y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 21,
                         "end": 24
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

@@ -28,11 +28,11 @@ fin\u0061lly = x;
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 12
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 12
             },
@@ -44,15 +44,15 @@ fin\u0061lly = x;
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -62,11 +62,11 @@ fin\u0061lly = x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 17
         }

@@ -31,7 +31,7 @@ do {} while (x) { async funcion switch!!
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 14
             },
@@ -47,15 +47,15 @@ do {} while (x) { async funcion switch!!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -78,21 +78,21 @@ do {} while (x) { async funcion switch!!
                                         "kind": 134299649,
                                         "text": "funcion",
                                         "rawText": "funcion",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 23,
                                         "end": 31
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 31
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 17,
                                 "end": 23
                             },
@@ -101,7 +101,7 @@ do {} while (x) { async funcion switch!!
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 38,
                                     "end": 39
                                 },
@@ -109,40 +109,40 @@ do {} while (x) { async funcion switch!!
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 39,
                                         "end": 40
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 40,
                                         "end": 40
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 40
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 38,
                                 "end": 40
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 17,
                             "end": 40
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 40
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 40
         }

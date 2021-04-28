@@ -46,12 +46,12 @@
                             "kind": 134299649,
                             "text": "Base",
                             "rawText": "Base",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 19
                         },
                         "typeParameter": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 19
                     },
@@ -65,7 +65,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 21,
                                     "end": 27
                                 },
@@ -76,7 +76,7 @@
                                     "name": {
                                         "kind": 67109115,
                                         "text": "#arguments",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 29,
                                         "end": 39
                                     },
@@ -85,7 +85,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 3072,
+                                        "flags": 384,
                                         "start": 40,
                                         "end": 41
                                     },
@@ -97,36 +97,36 @@
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 43,
                                             "end": 43
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 41,
                                         "end": 44
                                     },
-                                    "flags": 3072,
+                                    "flags": 384,
                                     "start": 39,
                                     "end": 44
                                 },
-                                "flags": 3072,
+                                "flags": 384,
                                 "start": 21,
                                 "end": 44
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 46
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 46
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 47
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 48
         }

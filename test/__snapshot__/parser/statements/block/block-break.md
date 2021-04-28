@@ -29,17 +29,17 @@
                             "end": 7
                         },
                         "label": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 8
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

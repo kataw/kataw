@@ -28,11 +28,11 @@ case catch default
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 10
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 10
             },
@@ -44,15 +44,15 @@ case catch default
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 18,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 18
         }

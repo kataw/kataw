@@ -33,7 +33,7 @@ class A extends /crap/ {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -49,23 +49,23 @@ class A extends /crap/ {}
                 "expression": {
                     "kind": 221,
                     "text": "/crap/",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 22
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 22
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 24,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

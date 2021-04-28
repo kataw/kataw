@@ -33,7 +33,7 @@ f2`hello world`?.a;
                     "kind": 201392131,
                     "text": "hello",
                     "rawText": "hello",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 7
                 },
@@ -46,23 +46,23 @@ f2`hello world`?.a;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 9,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -82,7 +82,7 @@ f2`hello world`?.a;
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 16
                     },
@@ -90,11 +90,11 @@ f2`hello world`?.a;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 11,
                     "end": 18
                 },
@@ -107,23 +107,23 @@ f2`hello world`?.a;
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 20,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 22
         },
@@ -143,7 +143,7 @@ f2`hello world`?.a;
                         "kind": 134299649,
                         "text": "f2",
                         "rawText": "f2",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 26
                     },
@@ -151,11 +151,11 @@ f2`hello world`?.a;
                         "kind": 458761,
                         "text": "hello world",
                         "rawText": "hello world",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 26,
                         "end": 39
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 39
                 },
@@ -168,23 +168,23 @@ f2`hello world`?.a;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 41,
                             "end": 42
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 41,
                         "end": 42
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 41,
                     "end": 42
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 43
         }

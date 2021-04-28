@@ -48,7 +48,7 @@ class x extends y{}(09)
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -65,23 +65,23 @@ class x extends y{}(09)
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 17
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         },
@@ -93,15 +93,15 @@ class x extends y{}(09)
                     "kind": 201392130,
                     "text": 9,
                     "rawText": "09",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 23
         }

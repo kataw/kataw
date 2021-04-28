@@ -27,7 +27,7 @@ switch (A) {default: D; case B: C; }
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -49,16 +49,16 @@ switch (A) {default: D; case B: C; }
                                     "kind": 134299649,
                                     "text": "D",
                                     "rawText": "D",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 22
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 23
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 23
                     },
@@ -74,7 +74,7 @@ switch (A) {default: D; case B: C; }
                             "kind": 134299649,
                             "text": "B",
                             "rawText": "B",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 28,
                             "end": 30
                         },
@@ -85,25 +85,25 @@ switch (A) {default: D; case B: C; }
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 31,
                                     "end": 33
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 31,
                                 "end": 34
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 23,
                         "end": 34
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

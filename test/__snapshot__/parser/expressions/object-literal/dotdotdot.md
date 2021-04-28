@@ -38,14 +38,14 @@ var { ...{ x = 5 } } = {x : 1};
                                         "kind": 204,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 9
                                         },
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 9,
                                             "end": 9
                                         },
@@ -64,7 +64,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                                 "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 10,
                                                                 "end": 12
                                                             },
@@ -72,42 +72,42 @@ var { ...{ x = 5 } } = {x : 1};
                                                                 "kind": 201392130,
                                                                 "text": 5,
                                                                 "rawText": "5",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 14,
                                                                 "end": 16
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 10,
                                                             "end": 16
                                                         }
                                                     ],
                                                     "multiline": false,
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 10,
                                                     "end": 16
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 9,
                                                 "end": 18
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 18
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 18
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 20
                         },
@@ -124,7 +124,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 27,
                                             "end": 29
                                         },
@@ -132,11 +132,11 @@ var { ...{ x = 5 } } = {x : 1};
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 25
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 29
                                     }
@@ -147,20 +147,20 @@ var { ...{ x = 5 } } = {x : 1};
                                 "start": 24,
                                 "end": 29
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 30
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 30
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

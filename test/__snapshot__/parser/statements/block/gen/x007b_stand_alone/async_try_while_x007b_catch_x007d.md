@@ -30,11 +30,11 @@
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 7
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 7
                     },
@@ -52,11 +52,11 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 11,
                                 "end": 11
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 11,
                             "end": 11
                         },
@@ -76,11 +76,11 @@
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 25,
                                                 "end": 25
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 25,
                                             "end": 25
                                         },
@@ -92,39 +92,39 @@
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 27,
                                                 "end": 27
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 27,
                                             "end": 27
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 19,
                                         "end": 27
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 27
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 27
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 7,
                         "end": 27
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

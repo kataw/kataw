@@ -33,7 +33,7 @@ export *= from 'f';
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -43,11 +43,11 @@ export *= from 'f';
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "from",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 14
         },
@@ -57,11 +57,11 @@ export *= from 'f';
                 "kind": 201392131,
                 "text": "f",
                 "rawText": "f",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 14,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 19
         }

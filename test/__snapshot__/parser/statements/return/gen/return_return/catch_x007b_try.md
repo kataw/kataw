@@ -30,11 +30,11 @@ return catch { try return
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -60,11 +60,11 @@ return catch { try return
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 18,
                                     "end": 18
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 18,
                                 "end": 18
                             },
@@ -76,25 +76,25 @@ return catch { try return
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 25,
                                 "end": 25
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 25
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 25
             },
@@ -106,15 +106,15 @@ return catch { try return
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 25,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 25
         }

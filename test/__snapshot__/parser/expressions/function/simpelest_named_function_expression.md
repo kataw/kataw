@@ -29,7 +29,7 @@ foo(function f(){})
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -50,7 +50,7 @@ foo(function f(){})
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 14
                             },
@@ -58,7 +58,7 @@ foo(function f(){})
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 16
                             },
@@ -69,31 +69,31 @@ foo(function f(){})
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 18
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 4,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

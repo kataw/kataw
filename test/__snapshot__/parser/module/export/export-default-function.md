@@ -51,7 +51,7 @@ export default function () {}
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 23,
                     "end": 26
                 },
@@ -62,21 +62,21 @@ export default function () {}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 28,
                         "end": 28
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 26,
                     "end": 29
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

@@ -42,7 +42,7 @@ var [...await f] = [];
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -50,14 +50,14 @@ var [...await f] = [];
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 8,
                                             "end": 13
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 13
                                     },
@@ -68,24 +68,24 @@ var [...await f] = [];
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 15
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 16
                         },
@@ -97,24 +97,24 @@ var [...await f] = [];
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 20
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 21
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

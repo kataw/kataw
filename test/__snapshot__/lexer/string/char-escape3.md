@@ -25,11 +25,11 @@
                 "kind": 201392131,
                 "text": "P",
                 "rawText": "P",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -39,11 +39,11 @@
                 "kind": 201392131,
                 "text": "prefixQ",
                 "rawText": "prefixQ",
-                "flags": 769,
+                "flags": 97,
                 "start": 6,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 19
         },
@@ -53,11 +53,11 @@
                 "kind": 201392131,
                 "text": "Rsuffix",
                 "rawText": "Rsuffix",
-                "flags": 769,
+                "flags": 97,
                 "start": 19,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 30
         }

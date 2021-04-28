@@ -34,7 +34,7 @@ await => async.await[foo]
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
@@ -48,7 +48,7 @@ await => async.await[foo]
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 14
                         },
@@ -56,11 +56,11 @@ await => async.await[foo]
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 20
                     },
@@ -68,19 +68,19 @@ await => async.await[foo]
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 21,
                         "end": 24
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

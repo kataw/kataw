@@ -35,7 +35,7 @@ x {}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -43,7 +43,7 @@ x {}
                 "kind": 134299649,
                 "text": "P",
                 "rawText": "P",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -51,7 +51,7 @@ x {}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -75,7 +75,7 @@ x {}
                                 "kind": 134299649,
                                 "text": "D",
                                 "rawText": "D",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 24
                             },
@@ -102,43 +102,43 @@ x {}
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 38,
                                         "end": 40
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 32,
                                     "end": 40
                                 },
                                 "typeParameter": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 32,
                                 "end": 40
                             },
                             "members": {
                                 "kind": 277,
                                 "elements": [],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 42,
                                 "end": 43
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 43
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 43
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 45
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 45
         }

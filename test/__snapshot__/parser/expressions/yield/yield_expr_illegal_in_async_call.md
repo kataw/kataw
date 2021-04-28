@@ -21,7 +21,7 @@ async (yield x)
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -32,7 +32,7 @@ async (yield x)
                         "kind": 134299649,
                         "text": "yield",
                         "rawText": "yield",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 12
                     },
@@ -40,17 +40,17 @@ async (yield x)
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 15
         }

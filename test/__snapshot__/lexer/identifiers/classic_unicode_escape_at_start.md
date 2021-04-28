@@ -27,11 +27,11 @@
                 "kind": 134299649,
                 "text": "exxx",
                 "rawText": "",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

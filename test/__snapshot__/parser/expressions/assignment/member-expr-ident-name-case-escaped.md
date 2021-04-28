@@ -42,7 +42,7 @@ obj.c\u0061se = 42;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -59,20 +59,20 @@ obj.c\u0061se = 42;
                                 "start": 11,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 12
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -86,7 +86,7 @@ obj.c\u0061se = 42;
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 18
                     },
@@ -94,17 +94,17 @@ obj.c\u0061se = 42;
                         "kind": 134299649,
                         "text": "case",
                         "rawText": "c\\u0061se",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 28
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 28
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 28,
                     "end": 30
                 },
@@ -112,15 +112,15 @@ obj.c\u0061se = 42;
                     "kind": 201392130,
                     "text": 42,
                     "rawText": "42",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 30,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 34
         }

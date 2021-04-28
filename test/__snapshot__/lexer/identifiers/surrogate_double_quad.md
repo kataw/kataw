@@ -27,11 +27,11 @@ abc\uD835\uDFD0def
                 "kind": 134299649,
                 "text": "abc𝟐def",
                 "rawText": "abc\\uD835\\uDFD0def",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

@@ -27,13 +27,13 @@ x = a instanceof b + c
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -45,13 +45,13 @@ x = a instanceof b + c
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 5,
                             "end": 16
                         },
@@ -59,17 +59,17 @@ x = a instanceof b + c
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 18,
                         "end": 20
                     },
@@ -77,19 +77,19 @@ x = a instanceof b + c
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

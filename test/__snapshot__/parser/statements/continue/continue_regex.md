@@ -25,7 +25,7 @@ for (x of 3) continue/x/
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 512,
+                "flags": 64,
                 "start": 6,
                 "end": 9
             },
@@ -33,7 +33,7 @@ for (x of 3) continue/x/
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 6
             },
@@ -41,7 +41,7 @@ for (x of 3) continue/x/
                 "kind": 201392130,
                 "text": 3,
                 "rawText": "3",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 11
             },
@@ -56,16 +56,16 @@ for (x of 3) continue/x/
                 "label": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 21,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 21
             },
             "awaitKeyword": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         },
@@ -78,13 +78,13 @@ for (x of 3) continue/x/
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 21,
                         "end": 21
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 21,
                         "end": 22
                     },
@@ -92,32 +92,32 @@ for (x of 3) continue/x/
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 23
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 23,
                     "end": 24
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 24
         }

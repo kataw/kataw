@@ -35,7 +35,7 @@ class x { import {x} from "y"; }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -54,23 +54,23 @@ class x { import {x} from "y"; }
                             "kind": 134299649,
                             "text": "import",
                             "rawText": "import",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 16
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 16
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         },
@@ -85,21 +85,21 @@ class x { import {x} from "y"; }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 19
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 20
         },
@@ -109,11 +109,11 @@ class x { import {x} from "y"; }
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "from",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 25
         },
@@ -123,11 +123,11 @@ class x { import {x} from "y"; }
                 "kind": 201392131,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 25,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 30
         }

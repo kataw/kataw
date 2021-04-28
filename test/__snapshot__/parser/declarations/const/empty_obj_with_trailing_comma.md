@@ -54,27 +54,27 @@ const {,} = obj;
                                 "properties": [],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 7
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 7
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 8
         },
@@ -84,11 +84,11 @@ const {,} = obj;
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 16
         }

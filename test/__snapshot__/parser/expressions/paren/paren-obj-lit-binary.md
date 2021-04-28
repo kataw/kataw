@@ -39,7 +39,7 @@
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 12,
                                                         "end": 13
                                                     },
@@ -47,11 +47,11 @@
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 10,
                                                         "end": 11
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 10,
                                                     "end": 13
                                                 }
@@ -62,13 +62,13 @@
                                             "start": 10,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 14
                                     },
                                     "operatorToken": {
                                         "kind": 35897,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -76,11 +76,11 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 17
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 17
                                 },
@@ -88,11 +88,11 @@
                                     "kind": 134299649,
                                     "text": "ident",
                                     "rawText": "ident",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 7
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 17
                             }
@@ -103,15 +103,15 @@
                         "start": 2,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

@@ -24,7 +24,7 @@ async function f(){ await \n x; }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -39,7 +39,7 @@ async function f(){ await \n x; }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -47,7 +47,7 @@ async function f(){ await \n x; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -70,31 +70,31 @@ async function f(){ await \n x; }
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 25
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 25
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 25
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 25
         },
@@ -104,11 +104,11 @@ async function f(){ await \n x; }
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 28
         },
@@ -118,11 +118,11 @@ async function f(){ await \n x; }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 28,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 31
         }

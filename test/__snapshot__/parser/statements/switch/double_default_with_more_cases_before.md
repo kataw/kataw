@@ -27,7 +27,7 @@ switch(x) { case y: break; case z: break; default: default: }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
@@ -46,7 +46,7 @@ switch(x) { case y: break; case z: break; default: default: }
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 18
                         },
@@ -60,12 +60,12 @@ switch(x) { case y: break; case z: break; default: default: }
                                     "end": 25
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 26
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 26
                     },
@@ -81,7 +81,7 @@ switch(x) { case y: break; case z: break; default: default: }
                             "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 31,
                             "end": 33
                         },
@@ -95,12 +95,12 @@ switch(x) { case y: break; case z: break; default: default: }
                                     "end": 40
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 34,
                                 "end": 41
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 26,
                         "end": 41
                     },
@@ -113,7 +113,7 @@ switch(x) { case y: break; case z: break; default: default: }
                             "end": 49
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 41,
                         "end": 50
                     },
@@ -126,16 +126,16 @@ switch(x) { case y: break; case z: break; default: default: }
                             "end": 58
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 50,
                         "end": 59
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 61
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 61
         }

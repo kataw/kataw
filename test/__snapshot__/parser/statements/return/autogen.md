@@ -187,11 +187,11 @@ return[ #
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -204,11 +204,11 @@ return[ #
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 12
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 12
             },
@@ -220,15 +220,15 @@ return[ #
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 14
         }

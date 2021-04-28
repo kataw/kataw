@@ -33,7 +33,7 @@ class x {function: x}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,23 +52,23 @@ class x {function: x}
                             "kind": 134299649,
                             "text": "function",
                             "rawText": "function",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 17
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 17
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -78,11 +78,11 @@ class x {function: x}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 20
         }

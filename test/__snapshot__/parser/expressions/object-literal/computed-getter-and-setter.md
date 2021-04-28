@@ -32,11 +32,11 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 7,
                                         "end": 8
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 5,
                                     "end": 9
                                 },
@@ -45,7 +45,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 8448,
+                                    "flags": 1056,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -57,17 +57,25 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 13
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 14
                                 },
-                                "flags": 8448,
+                                "flags": 1056,
                                 "start": 9,
                                 "end": 14
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "set",
+                                "rawText": "set",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 19
                             },
                             {
                                 "kind": 209,
@@ -77,11 +85,11 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 22
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 19,
                                     "end": 23
                                 },
@@ -96,20 +104,20 @@
                                                 "kind": 134299649,
                                                 "text": "v",
                                                 "rawText": "v",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 24,
                                                 "end": 25
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 24,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 4352,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -121,15 +129,15 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 28,
                                         "end": 28
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 26,
                                     "end": 29
                                 },
-                                "flags": 4352,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 29
                             }
@@ -140,15 +148,15 @@
                         "start": 2,
                         "end": 29
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }
@@ -171,6 +179,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 19, end: 21
+
 ```
 

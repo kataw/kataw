@@ -23,7 +23,7 @@ await()
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
@@ -31,15 +31,15 @@ await()
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         }

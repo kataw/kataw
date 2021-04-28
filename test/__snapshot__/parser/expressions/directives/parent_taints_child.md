@@ -30,7 +30,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -38,7 +38,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 12
             },
@@ -51,7 +51,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 26
                         }
@@ -63,11 +63,11 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 31
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 27,
                             "end": 32
                         },
@@ -86,7 +86,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                 "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 41,
                                 "end": 43
                             },
@@ -94,7 +94,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 45
                             },
@@ -116,7 +116,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 54,
                                                 "end": 55
                                             },
@@ -126,47 +126,47 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 56,
                                                     "end": 58
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 56,
                                                 "end": 59
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 47,
                                             "end": 59
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 47,
                                     "end": 59
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 45,
                                 "end": 61
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 32,
                             "end": 61
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 61
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 63
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 63
         }

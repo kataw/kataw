@@ -26,7 +26,7 @@ do wow: while (x) while (x) continue wow;
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 41,
                 "end": 41
             },
@@ -37,7 +37,7 @@ do wow: while (x) while (x) continue wow;
                     "kind": 134299649,
                     "text": "wow",
                     "rawText": "wow",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 2,
                     "end": 6
                 },
@@ -53,7 +53,7 @@ do wow: while (x) while (x) continue wow;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 16
                     },
@@ -69,7 +69,7 @@ do wow: while (x) while (x) continue wow;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 25,
                             "end": 26
                         },
@@ -85,27 +85,27 @@ do wow: while (x) while (x) continue wow;
                                 "kind": 134299649,
                                 "text": "wow",
                                 "rawText": "wow",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 36,
                                 "end": 40
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 27,
                             "end": 41
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 41
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 41
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 41
         }

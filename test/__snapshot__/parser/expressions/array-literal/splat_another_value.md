@@ -45,7 +45,7 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 2
                         },
@@ -53,7 +53,7 @@
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -69,25 +69,25 @@
                                 "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

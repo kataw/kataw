@@ -43,11 +43,11 @@
                 "kind": 201392131,
                 "text": "ģ",
                 "rawText": "ģ",
-                "flags": 262912,
+                "flags": 16480,
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -57,11 +57,11 @@
                 "kind": 201392131,
                 "text": "䕧",
                 "rawText": "䕧",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 10,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 21
         },
@@ -71,11 +71,11 @@
                 "kind": 201392131,
                 "text": "覫",
                 "rawText": "覫",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 21,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 32
         },
@@ -85,11 +85,11 @@
                 "kind": 201392131,
                 "text": "췯",
                 "rawText": "췯",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 32,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 32,
             "end": 43
         },
@@ -99,11 +99,11 @@
                 "kind": 201392131,
                 "text": "ꯍ",
                 "rawText": "ꯍ",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 43,
                 "end": 52
             },
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 54
         },
@@ -113,11 +113,11 @@
                 "kind": 201392131,
                 "text": "\ude00",
                 "rawText": "\ude00",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 54,
                 "end": 63
             },
-            "flags": 128,
+            "flags": 16,
             "start": 54,
             "end": 65
         },
@@ -127,11 +127,11 @@
                 "kind": 201392131,
                 "text": "prefix ģ",
                 "rawText": "prefix ģ",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 65,
                 "end": 81
             },
-            "flags": 128,
+            "flags": 16,
             "start": 65,
             "end": 83
         },
@@ -141,11 +141,11 @@
                 "kind": 201392131,
                 "text": "ģ postfix",
                 "rawText": "ģ postfix",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 83,
                 "end": 100
             },
-            "flags": 128,
+            "flags": 16,
             "start": 83,
             "end": 102
         },
@@ -155,11 +155,11 @@
                 "kind": 201392131,
                 "text": "ģ䕧",
                 "rawText": "ģ䕧",
-                "flags": 262913,
+                "flags": 16481,
                 "start": 102,
                 "end": 117
             },
-            "flags": 128,
+            "flags": 16,
             "start": 102,
             "end": 117
         }

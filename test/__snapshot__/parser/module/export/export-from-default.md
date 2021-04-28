@@ -42,17 +42,17 @@ export {default} from "foo";
                                 "kind": 134299649,
                                 "text": "default",
                                 "rawText": "default",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 15
                             },
                             "binding": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 15
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 15
                 },
@@ -65,11 +65,11 @@ export {default} from "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 21,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

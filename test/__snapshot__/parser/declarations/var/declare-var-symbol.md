@@ -27,7 +27,7 @@ declare var x: symbol;
             "kind": 155,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 7
             },
@@ -46,7 +46,7 @@ declare var x: symbol;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 13
                         },
@@ -55,7 +55,7 @@ declare var x: symbol;
                             "kind": 139,
                             "type": {
                                 "kind": 134234343,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 14,
                                 "end": 21
                             },
@@ -64,16 +64,16 @@ declare var x: symbol;
                             "end": 21
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 21
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 21
             },
-            "flags": 32896,
+            "flags": 4112,
             "start": 7,
             "end": 22
         }

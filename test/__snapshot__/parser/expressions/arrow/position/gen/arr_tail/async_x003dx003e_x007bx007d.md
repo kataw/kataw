@@ -45,21 +45,21 @@
                                             "kind": 134299649,
                                             "text": "async",
                                             "rawText": "async",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 1,
                                             "end": 6
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1,
                                         "end": 6
                                     }
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1,
                                     "end": 6
                                 },
@@ -71,25 +71,25 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 11
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 9,
                                     "end": 12
                                 },
-                                "flags": 2304,
+                                "flags": 288,
                                 "start": 1,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 13
                 },
@@ -97,15 +97,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

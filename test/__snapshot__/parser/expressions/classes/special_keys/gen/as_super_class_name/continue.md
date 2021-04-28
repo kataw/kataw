@@ -33,7 +33,7 @@ class x extends continue {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -49,23 +49,23 @@ class x extends continue {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 15,
                     "end": 15
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 15
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -80,11 +80,11 @@ class x extends continue {}
             "label": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 24,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 24
         },
@@ -94,11 +94,11 @@ class x extends continue {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 27
         }

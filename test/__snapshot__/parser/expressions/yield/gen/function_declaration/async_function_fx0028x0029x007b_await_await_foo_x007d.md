@@ -34,7 +34,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -57,7 +57,7 @@ function not_gen() { async function f(){ await await foo; } }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 26
                             },
@@ -72,7 +72,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 35,
                                 "end": 37
                             },
@@ -80,7 +80,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 39
                             },
@@ -112,51 +112,51 @@ function not_gen() { async function f(){ await await foo; } }}
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 52,
                                                         "end": 56
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 46,
                                                     "end": 56
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 40,
                                                 "end": 56
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 40,
                                             "end": 57
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 57
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 59
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1152,
+                            "flags": 144,
                             "start": 20,
                             "end": 59
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 59
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 61
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 61
         }

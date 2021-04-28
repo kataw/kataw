@@ -34,7 +34,7 @@ for (oh,no in x) ;
                         "kind": 134299649,
                         "text": "oh",
                         "rawText": "oh",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 5,
                         "end": 7
                     },
@@ -44,13 +44,13 @@ for (oh,no in x) ;
                             "kind": 134299649,
                             "text": "no",
                             "rawText": "no",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
                         "operatorToken": {
                             "kind": 21006388,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 10,
                             "end": 13
                         },
@@ -58,16 +58,16 @@ for (oh,no in x) ;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 15
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
@@ -75,17 +75,17 @@ for (oh,no in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

@@ -45,24 +45,24 @@ var [yield] = [42];
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 10
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 11
                         },
@@ -77,30 +77,30 @@ var [yield] = [42];
                                         "kind": 201392130,
                                         "text": 42,
                                         "rawText": "42",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 18
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 18
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

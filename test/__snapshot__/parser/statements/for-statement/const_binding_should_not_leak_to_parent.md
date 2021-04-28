@@ -48,23 +48,23 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 14
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 14
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": true,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 17
                         },
@@ -81,7 +81,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "23",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 27
                                         },
@@ -89,11 +89,11 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 23
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 21,
                                         "end": 27
                                     }
@@ -104,16 +104,16 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "start": 21,
                                 "end": 27
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 19,
                             "end": 29
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 29
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 29
             },
@@ -124,13 +124,13 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 30,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 32,
                     "end": 34
                 },
@@ -138,11 +138,11 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 34,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 30,
                 "end": 36
             },
@@ -152,21 +152,21 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 41,
                     "end": 41
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 39,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 42
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 42,
             "end": 43
         },
@@ -195,23 +195,23 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 56,
                                             "end": 58
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 56,
                                         "end": 58
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": true,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 56,
                                 "end": 59
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 54,
                             "end": 61
                         },
@@ -228,7 +228,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "23",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 68,
                                             "end": 71
                                         },
@@ -236,11 +236,11 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 65,
                                             "end": 67
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 65,
                                         "end": 71
                                     }
@@ -251,16 +251,16 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "start": 65,
                                 "end": 71
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 63,
                             "end": 73
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 54,
                         "end": 73
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 54,
                 "end": 73
             },
@@ -271,13 +271,13 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 74,
                     "end": 76
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 76,
                     "end": 78
                 },
@@ -285,11 +285,11 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 78,
                     "end": 80
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 74,
                 "end": 80
             },
@@ -299,21 +299,21 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 85,
                     "end": 85
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 83,
                 "end": 86
             },
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 86
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 86,
             "end": 87
         }

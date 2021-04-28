@@ -43,11 +43,11 @@
                                                         "kind": 124,
                                                         "statements": [],
                                                         "multiLine": false,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 11,
                                                         "end": 11
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 11,
                                                     "end": 11
                                                 },
@@ -59,45 +59,45 @@
                                                         "kind": 124,
                                                         "statements": [],
                                                         "multiLine": false,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 17,
                                                         "end": 17
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 15,
                                                     "end": 18
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 18
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 18
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 18
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 18
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 18
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

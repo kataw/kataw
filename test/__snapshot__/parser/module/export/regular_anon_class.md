@@ -51,15 +51,15 @@ export default class {} foo
                 "members": {
                     "kind": 277,
                     "elements": [],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         },
@@ -69,11 +69,11 @@ export default class {} foo
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 27
         }

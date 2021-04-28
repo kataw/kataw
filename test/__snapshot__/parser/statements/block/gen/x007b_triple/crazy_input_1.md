@@ -40,11 +40,11 @@
                                                     "kind": 134299649,
                                                     "text": "crazy",
                                                     "rawText": "crazy",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 5,
                                                     "end": 11
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 11
                                             },
@@ -54,11 +54,11 @@
                                                     "kind": 134299649,
                                                     "text": "input",
                                                     "rawText": "input",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 11,
                                                     "end": 17
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 11,
                                                 "end": 17
                                             },
@@ -68,41 +68,41 @@
                                                     "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 17,
                                                     "end": 19
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 17,
                                                 "end": 19
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 19
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 19
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 19
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

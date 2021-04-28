@@ -38,21 +38,21 @@ async async => ok++
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 11
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 11
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -61,7 +61,7 @@ async async => ok++
                     "kind": 127,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 17,
                         "end": 19
                     },
@@ -69,19 +69,19 @@ async async => ok++
                         "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 19
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

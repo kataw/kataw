@@ -100,7 +100,7 @@ async function * gen() {class C extends await { }}
                         "kind": 201392131,
                         "text": "var yield;",
                         "rawText": "var yield;",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 14
                     },
@@ -108,7 +108,7 @@ async function * gen() {class C extends await { }}
                         "kind": 177,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 513,
+                            "flags": 65,
                             "start": 15,
                             "end": 21
                         },
@@ -120,7 +120,7 @@ async function * gen() {class C extends await { }}
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 30,
                             "end": 32
                         },
@@ -128,7 +128,7 @@ async function * gen() {class C extends await { }}
                             "kind": 134299649,
                             "text": "gen",
                             "rawText": "gen",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 32,
                             "end": 36
                         },
@@ -136,7 +136,7 @@ async function * gen() {class C extends await { }}
                             "kind": 214,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 36,
                             "end": 38
                         },
@@ -164,48 +164,48 @@ async function * gen() {class C extends await { }}
                                                         "kind": 134299649,
                                                         "text": "await",
                                                         "rawText": "await",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 43,
                                                         "end": 49
                                                     },
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 43,
                                                     "end": 49
                                                 }
                                             ],
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 43,
                                             "end": 49
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 40,
                                         "end": 50
                                     }
                                 ],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 40,
                                 "end": 50
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 38,
                             "end": 51
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 3328,
+                        "flags": 416,
                         "start": 15,
                         "end": 51
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 51
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 51
         },
@@ -214,7 +214,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 51,
                 "end": 57
             },
@@ -226,7 +226,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 66,
                 "end": 68
             },
@@ -234,7 +234,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 68,
                 "end": 72
             },
@@ -242,7 +242,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 72,
                 "end": 74
             },
@@ -270,14 +270,14 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 79,
                                             "end": 83
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 79,
                                         "end": 83
                                     },
@@ -287,39 +287,39 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 84,
                                             "end": 90
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 84,
                                         "end": 90
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 79,
                                 "end": 90
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 76,
                             "end": 91
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 76,
                     "end": 91
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 74,
                 "end": 92
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 51,
             "end": 92
         },
@@ -328,7 +328,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 92,
                 "end": 98
             },
@@ -340,7 +340,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 107,
                 "end": 109
             },
@@ -348,7 +348,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 109,
                 "end": 113
             },
@@ -356,7 +356,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 113,
                 "end": 115
             },
@@ -384,14 +384,14 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 120,
                                             "end": 124
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 120,
                                         "end": 124
                                     },
@@ -401,39 +401,39 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 125,
                                             "end": 131
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 125,
                                         "end": 131
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 120,
                                 "end": 131
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 117,
                             "end": 132
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 117,
                     "end": 132
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 115,
                 "end": 133
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 92,
             "end": 133
         },
@@ -442,7 +442,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 133,
                 "end": 139
             },
@@ -454,7 +454,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 148,
                 "end": 150
             },
@@ -462,7 +462,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 150,
                 "end": 154
             },
@@ -470,7 +470,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 154,
                 "end": 156
             },
@@ -494,11 +494,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 163,
                                     "end": 163
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 161,
                                 "end": 165
                             },
@@ -514,7 +514,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 173,
                                     "end": 178
                                 },
@@ -524,37 +524,37 @@ async function * gen() {class C extends await { }}
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 181,
                                         "end": 181
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 179,
                                     "end": 183
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 165,
                                 "end": 183
                             },
                             "finallyKeyword": null,
                             "finallyBlock": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 158,
                             "end": 183
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 158,
                     "end": 183
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 156,
                 "end": 184
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 133,
             "end": 184
         },
@@ -563,7 +563,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 184,
                 "end": 190
             },
@@ -575,7 +575,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 199,
                 "end": 201
             },
@@ -583,7 +583,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 201,
                 "end": 205
             },
@@ -591,7 +591,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 205,
                 "end": 207
             },
@@ -615,11 +615,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 214,
                                     "end": 214
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 212,
                                 "end": 216
                             },
@@ -635,7 +635,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 224,
                                     "end": 229
                                 },
@@ -645,37 +645,37 @@ async function * gen() {class C extends await { }}
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 232,
                                         "end": 232
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 230,
                                     "end": 234
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 216,
                                 "end": 234
                             },
                             "finallyKeyword": null,
                             "finallyBlock": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 209,
                             "end": 234
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 209,
                     "end": 234
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 207,
                 "end": 235
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 184,
             "end": 235
         },
@@ -684,7 +684,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 235,
                 "end": 241
             },
@@ -696,7 +696,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 250,
                 "end": 252
             },
@@ -704,7 +704,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 252,
                 "end": 256
             },
@@ -712,7 +712,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 256,
                 "end": 258
             },
@@ -737,7 +737,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 268,
                                 "end": 274
                             },
@@ -745,7 +745,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 274,
                                 "end": 276
                             },
@@ -756,33 +756,33 @@ async function * gen() {class C extends await { }}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 278,
                                     "end": 278
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 276,
                                 "end": 280
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 260,
                             "end": 280
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 260,
                     "end": 280
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 258,
                 "end": 281
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 235,
             "end": 281
         },
@@ -791,7 +791,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 281,
                 "end": 287
             },
@@ -803,7 +803,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 296,
                 "end": 298
             },
@@ -811,7 +811,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 298,
                 "end": 302
             },
@@ -819,7 +819,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 302,
                 "end": 304
             },
@@ -844,7 +844,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 314,
                                 "end": 320
                             },
@@ -852,7 +852,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 320,
                                 "end": 322
                             },
@@ -863,33 +863,33 @@ async function * gen() {class C extends await { }}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 324,
                                     "end": 324
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 322,
                                 "end": 326
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 306,
                             "end": 326
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 306,
                     "end": 326
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 304,
                 "end": 327
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 281,
             "end": 327
         },
@@ -898,7 +898,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 327,
                 "end": 450
             },
@@ -910,7 +910,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 459,
                 "end": 461
             },
@@ -918,7 +918,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 461,
                 "end": 465
             },
@@ -926,7 +926,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 465,
                 "end": 467
             },
@@ -944,7 +944,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 177,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 470,
                                         "end": 475
                                     },
@@ -956,7 +956,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 484,
                                         "end": 486
                                     },
@@ -964,7 +964,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 486,
                                         "end": 492
                                     },
@@ -972,7 +972,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 492,
                                         "end": 494
                                     },
@@ -983,41 +983,41 @@ async function * gen() {class C extends await { }}
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 496,
                                             "end": 496
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 494,
                                         "end": 498
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 3328,
+                                    "flags": 416,
                                     "start": 470,
                                     "end": 498
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 469,
                                 "end": 499
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 469,
                             "end": 499
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 469,
                     "end": 499
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 467,
                 "end": 500
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 327,
             "end": 500
         },
@@ -1026,7 +1026,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 500,
                 "end": 506
             },
@@ -1038,7 +1038,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 515,
                 "end": 517
             },
@@ -1046,7 +1046,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 517,
                 "end": 521
             },
@@ -1054,7 +1054,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 521,
                 "end": 523
             },
@@ -1072,7 +1072,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 177,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 526,
                                         "end": 531
                                     },
@@ -1084,7 +1084,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 540,
                                         "end": 542
                                     },
@@ -1092,7 +1092,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 542,
                                         "end": 548
                                     },
@@ -1100,7 +1100,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 548,
                                         "end": 550
                                     },
@@ -1111,41 +1111,41 @@ async function * gen() {class C extends await { }}
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 552,
                                             "end": 552
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 550,
                                         "end": 554
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 3328,
+                                    "flags": 416,
                                     "start": 526,
                                     "end": 554
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 525,
                                 "end": 555
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 525,
                             "end": 555
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 525,
                     "end": 555
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 523,
                 "end": 556
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 500,
             "end": 556
         },
@@ -1154,7 +1154,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 556,
                 "end": 636
             },
@@ -1166,7 +1166,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 645,
                 "end": 647
             },
@@ -1174,7 +1174,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 647,
                 "end": 651
             },
@@ -1182,7 +1182,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 651,
                 "end": 653
             },
@@ -1197,7 +1197,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 655,
                                 "end": 660
                             },
@@ -1209,7 +1209,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 669,
                                 "end": 671
                             },
@@ -1217,7 +1217,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 671,
                                 "end": 675
                             },
@@ -1231,20 +1231,20 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 676,
                                             "end": 681
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 676,
                                         "end": 681
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 675,
                                 "end": 682
                             },
@@ -1255,33 +1255,33 @@ async function * gen() {class C extends await { }}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 684,
                                     "end": 684
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 682,
                                 "end": 686
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 655,
                             "end": 686
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 655,
                     "end": 686
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 653,
                 "end": 687
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 556,
             "end": 687
         },
@@ -1290,7 +1290,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 687,
                 "end": 693
             },
@@ -1302,7 +1302,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 702,
                 "end": 704
             },
@@ -1310,7 +1310,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 704,
                 "end": 708
             },
@@ -1318,7 +1318,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 708,
                 "end": 710
             },
@@ -1336,7 +1336,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 177,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 713,
                                         "end": 718
                                     },
@@ -1348,7 +1348,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 727,
                                         "end": 729
                                     },
@@ -1356,7 +1356,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 729,
                                         "end": 733
                                     },
@@ -1370,20 +1370,20 @@ async function * gen() {class C extends await { }}
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 734,
                                                     "end": 739
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 734,
                                                 "end": 739
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 733,
                                         "end": 740
                                     },
@@ -1394,41 +1394,41 @@ async function * gen() {class C extends await { }}
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 742,
                                             "end": 742
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 740,
                                         "end": 744
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 3328,
+                                    "flags": 416,
                                     "start": 713,
                                     "end": 744
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 712,
                                 "end": 745
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 712,
                             "end": 745
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 712,
                     "end": 745
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 710,
                 "end": 746
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 687,
             "end": 746
         },
@@ -1437,7 +1437,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 746,
                 "end": 752
             },
@@ -1449,7 +1449,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 761,
                 "end": 763
             },
@@ -1457,7 +1457,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 763,
                 "end": 767
             },
@@ -1465,7 +1465,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 767,
                 "end": 769
             },
@@ -1480,7 +1480,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 771,
                                 "end": 776
                             },
@@ -1492,7 +1492,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 785,
                                 "end": 787
                             },
@@ -1500,7 +1500,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 787,
                                 "end": 791
                             },
@@ -1514,20 +1514,20 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 792,
                                             "end": 797
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 792,
                                         "end": 797
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 791,
                                 "end": 798
                             },
@@ -1538,33 +1538,33 @@ async function * gen() {class C extends await { }}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 800,
                                     "end": 800
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 798,
                                 "end": 802
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 771,
                             "end": 802
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 771,
                     "end": 802
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 769,
                 "end": 803
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 746,
             "end": 803
         },
@@ -1573,7 +1573,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 803,
                 "end": 809
             },
@@ -1585,7 +1585,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 818,
                 "end": 820
             },
@@ -1593,7 +1593,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 820,
                 "end": 824
             },
@@ -1601,7 +1601,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 824,
                 "end": 826
             },
@@ -1619,7 +1619,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 177,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 829,
                                         "end": 834
                                     },
@@ -1631,7 +1631,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 843,
                                         "end": 845
                                     },
@@ -1639,7 +1639,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 845,
                                         "end": 849
                                     },
@@ -1653,20 +1653,20 @@ async function * gen() {class C extends await { }}
                                                     "kind": 134299649,
                                                     "text": "await",
                                                     "rawText": "await",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 850,
                                                     "end": 855
                                                 },
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 850,
                                                 "end": 855
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 849,
                                         "end": 856
                                     },
@@ -1677,41 +1677,41 @@ async function * gen() {class C extends await { }}
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 858,
                                             "end": 858
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 856,
                                         "end": 860
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 3328,
+                                    "flags": 416,
                                     "start": 829,
                                     "end": 860
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 828,
                                 "end": 861
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 828,
                             "end": 861
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 828,
                     "end": 861
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 826,
                 "end": 862
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 803,
             "end": 862
         },
@@ -1720,7 +1720,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 862,
                 "end": 868
             },
@@ -1732,7 +1732,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 877,
                 "end": 879
             },
@@ -1740,7 +1740,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 879,
                 "end": 883
             },
@@ -1748,7 +1748,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 883,
                 "end": 885
             },
@@ -1773,13 +1773,13 @@ async function * gen() {class C extends await { }}
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 887,
                                     "end": 892
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 892,
                                     "end": 894
                                 },
@@ -1787,31 +1787,31 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 894,
                                     "end": 896
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 887,
                                 "end": 896
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 887,
                             "end": 897
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 887,
                     "end": 897
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 885,
                 "end": 898
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 862,
             "end": 898
         },
@@ -1820,7 +1820,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 898,
                 "end": 904
             },
@@ -1832,7 +1832,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 913,
                 "end": 915
             },
@@ -1840,7 +1840,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 915,
                 "end": 919
             },
@@ -1848,7 +1848,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 919,
                 "end": 921
             },
@@ -1873,17 +1873,17 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 928,
                                         "end": 928
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 923,
                                     "end": 928
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 928,
                                     "end": 930
                                 },
@@ -1891,31 +1891,31 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 930,
                                     "end": 932
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 923,
                                 "end": 932
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 923,
                             "end": 933
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 923,
                     "end": 933
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 921,
                 "end": 934
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 898,
             "end": 934
         },
@@ -1924,7 +1924,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 934,
                 "end": 940
             },
@@ -1936,7 +1936,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 949,
                 "end": 951
             },
@@ -1944,7 +1944,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 951,
                 "end": 955
             },
@@ -1952,7 +1952,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 955,
                 "end": 957
             },
@@ -1980,7 +1980,7 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 962,
                                             "end": 966
                                         },
@@ -1999,13 +1999,13 @@ async function * gen() {class C extends await { }}
                                                 "delegate": false,
                                                 "asteriskToken": null,
                                                 "expression": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 968,
                                                 "end": 974
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 974,
                                                 "end": 976
                                             },
@@ -2013,40 +2013,40 @@ async function * gen() {class C extends await { }}
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 976,
                                                 "end": 978
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 968,
                                             "end": 978
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 962,
                                         "end": 978
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 962,
                                 "end": 978
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 959,
                             "end": 979
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 959,
                     "end": 979
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 957,
                 "end": 980
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 934,
             "end": 980
         },
@@ -2055,7 +2055,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 980,
                 "end": 986
             },
@@ -2067,7 +2067,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 995,
                 "end": 997
             },
@@ -2075,7 +2075,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 997,
                 "end": 1001
             },
@@ -2083,7 +2083,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1001,
                 "end": 1003
             },
@@ -2111,7 +2111,7 @@ async function * gen() {class C extends await { }}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 1008,
                                             "end": 1012
                                         },
@@ -2130,17 +2130,17 @@ async function * gen() {class C extends await { }}
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 12,
+                                                    "flags": 68,
                                                     "start": 1020,
                                                     "end": 1020
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 1014,
                                                 "end": 1020
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 1020,
                                                 "end": 1022
                                             },
@@ -2148,40 +2148,40 @@ async function * gen() {class C extends await { }}
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1022,
                                                 "end": 1024
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 1014,
                                             "end": 1024
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 1008,
                                         "end": 1024
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1008,
                                 "end": 1024
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1005,
                             "end": 1025
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1005,
                     "end": 1025
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1003,
                 "end": 1026
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 980,
             "end": 1026
         },
@@ -2190,7 +2190,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1026,
                 "end": 1032
             },
@@ -2202,7 +2202,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1041,
                 "end": 1043
             },
@@ -2210,7 +2210,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1043,
                 "end": 1047
             },
@@ -2218,7 +2218,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1047,
                 "end": 1049
             },
@@ -2234,7 +2234,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1051,
                                     "end": 1053
                                 },
@@ -2249,31 +2249,31 @@ async function * gen() {class C extends await { }}
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1053,
                                     "end": 1058
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1051,
                                 "end": 1058
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1051,
                             "end": 1059
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1051,
                     "end": 1059
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1049,
                 "end": 1060
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1026,
             "end": 1060
         },
@@ -2282,7 +2282,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1060,
                 "end": 1066
             },
@@ -2294,7 +2294,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1075,
                 "end": 1077
             },
@@ -2302,7 +2302,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1077,
                 "end": 1081
             },
@@ -2310,7 +2310,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1081,
                 "end": 1083
             },
@@ -2326,7 +2326,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1085,
                                     "end": 1087
                                 },
@@ -2341,35 +2341,35 @@ async function * gen() {class C extends await { }}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 1092,
                                         "end": 1092
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1087,
                                     "end": 1092
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1085,
                                 "end": 1092
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1085,
                             "end": 1093
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1085,
                     "end": 1093
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1083,
                 "end": 1094
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1060,
             "end": 1094
         },
@@ -2378,7 +2378,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1094,
                 "end": 1100
             },
@@ -2390,7 +2390,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1109,
                 "end": 1111
             },
@@ -2398,7 +2398,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1111,
                 "end": 1115
             },
@@ -2406,7 +2406,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1115,
                 "end": 1117
             },
@@ -2432,42 +2432,42 @@ async function * gen() {class C extends await { }}
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 1124,
                                         "end": 1126
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 1126,
                                         "end": 1126
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1124,
                                     "end": 1126
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1119,
                                 "end": 1126
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1119,
                             "end": 1127
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1119,
                     "end": 1127
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1117,
                 "end": 1128
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1094,
             "end": 1128
         },
@@ -2476,7 +2476,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1128,
                 "end": 1134
             },
@@ -2488,7 +2488,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1143,
                 "end": 1145
             },
@@ -2496,7 +2496,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1145,
                 "end": 1149
             },
@@ -2504,7 +2504,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1149,
                 "end": 1151
             },
@@ -2528,42 +2528,42 @@ async function * gen() {class C extends await { }}
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 1158,
                                         "end": 1160
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 1160,
                                         "end": 1160
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1158,
                                     "end": 1160
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1153,
                                 "end": 1160
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1153,
                             "end": 1161
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1153,
                     "end": 1161
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1151,
                 "end": 1162
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1128,
             "end": 1162
         },
@@ -2572,7 +2572,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1162,
                 "end": 1168
             },
@@ -2584,7 +2584,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1177,
                 "end": 1179
             },
@@ -2592,7 +2592,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1179,
                 "end": 1183
             },
@@ -2600,7 +2600,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1183,
                 "end": 1185
             },
@@ -2623,38 +2623,38 @@ async function * gen() {class C extends await { }}
                                 "delegate": true,
                                 "asteriskToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1192,
                                     "end": 1194
                                 },
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 1194,
                                     "end": 1194
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1187,
                                 "end": 1194
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1187,
                             "end": 1194
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1187,
                     "end": 1194
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1185,
                 "end": 1195
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1162,
             "end": 1195
         },
@@ -2663,7 +2663,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1195,
                 "end": 1201
             },
@@ -2675,7 +2675,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1210,
                 "end": 1212
             },
@@ -2683,7 +2683,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1212,
                 "end": 1216
             },
@@ -2691,7 +2691,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1216,
                 "end": 1218
             },
@@ -2716,42 +2716,42 @@ async function * gen() {class C extends await { }}
                                     "delegate": true,
                                     "asteriskToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 1226,
                                         "end": 1228
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 1228,
                                         "end": 1228
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1221,
                                     "end": 1228
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1220,
                                 "end": 1229
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1220,
                             "end": 1229
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1220,
                     "end": 1229
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1218,
                 "end": 1230
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1195,
             "end": 1230
         },
@@ -2760,7 +2760,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1230,
                 "end": 1334
             },
@@ -2772,7 +2772,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1343,
                 "end": 1345
             },
@@ -2780,7 +2780,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1345,
                 "end": 1349
             },
@@ -2788,7 +2788,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1349,
                 "end": 1351
             },
@@ -2816,13 +2816,13 @@ async function * gen() {class C extends await { }}
                                         "kind": 201392130,
                                         "text": 3,
                                         "rawText": "3",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 1358,
                                         "end": 1360
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 1360,
                                         "end": 1362
                                     },
@@ -2840,39 +2840,39 @@ async function * gen() {class C extends await { }}
                                             "kind": 201392130,
                                             "text": 4,
                                             "rawText": "4",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 1368,
                                             "end": 1370
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1362,
                                         "end": 1370
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1358,
                                     "end": 1370
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1353,
                                 "end": 1370
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1353,
                             "end": 1371
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1353,
                     "end": 1371
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1351,
                 "end": 1372
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1230,
             "end": 1372
         },
@@ -2881,7 +2881,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1372,
                 "end": 1378
             },
@@ -2893,7 +2893,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1387,
                 "end": 1389
             },
@@ -2901,7 +2901,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1389,
                 "end": 1393
             },
@@ -2909,7 +2909,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1393,
                 "end": 1395
             },
@@ -2932,27 +2932,27 @@ async function * gen() {class C extends await { }}
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1397,
                                 "end": 1402
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1397,
                             "end": 1402
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1397,
                     "end": 1402
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1395,
                 "end": 1402
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1372,
             "end": 1402
         },
@@ -2962,11 +2962,11 @@ async function * gen() {class C extends await { }}
                 "kind": 201392130,
                 "text": 34,
                 "rawText": "34",
-                "flags": 768,
+                "flags": 96,
                 "start": 1403,
                 "end": 1406
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1403,
             "end": 1406
         },
@@ -2975,7 +2975,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1407,
                 "end": 1413
             },
@@ -2987,7 +2987,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1422,
                 "end": 1424
             },
@@ -2995,7 +2995,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1424,
                 "end": 1428
             },
@@ -3003,7 +3003,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1428,
                 "end": 1430
             },
@@ -3028,7 +3028,7 @@ async function * gen() {class C extends await { }}
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1432,
                                     "end": 1437
                                 },
@@ -3042,7 +3042,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1439,
                                     "end": 1441
                                 },
@@ -3056,31 +3056,31 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1443,
                                     "end": 1445
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1432,
                                 "end": 1445
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1432,
                             "end": 1445
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1432,
                     "end": 1445
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1430,
                 "end": 1446
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1407,
             "end": 1446
         },
@@ -3089,7 +3089,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1446,
                 "end": 1495
             },
@@ -3101,7 +3101,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1504,
                 "end": 1506
             },
@@ -3109,7 +3109,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1506,
                 "end": 1510
             },
@@ -3117,7 +3117,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1510,
                 "end": 1512
             },
@@ -3142,13 +3142,13 @@ async function * gen() {class C extends await { }}
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1514,
                                     "end": 1519
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1519,
                                     "end": 1521
                                 },
@@ -3163,31 +3163,31 @@ async function * gen() {class C extends await { }}
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1521,
                                     "end": 1527
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1514,
                                 "end": 1527
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1514,
                             "end": 1527
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1514,
                     "end": 1527
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1512,
                 "end": 1528
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1446,
             "end": 1528
         },
@@ -3196,7 +3196,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1528,
                 "end": 1534
             },
@@ -3208,7 +3208,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1543,
                 "end": 1545
             },
@@ -3216,7 +3216,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1545,
                 "end": 1549
             },
@@ -3224,7 +3224,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1549,
                 "end": 1551
             },
@@ -3240,7 +3240,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1553,
                                     "end": 1554
                                 },
@@ -3255,31 +3255,31 @@ async function * gen() {class C extends await { }}
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1554,
                                     "end": 1560
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1553,
                                 "end": 1560
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1553,
                             "end": 1560
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1553,
                     "end": 1560
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1551,
                 "end": 1561
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1528,
             "end": 1561
         },
@@ -3288,7 +3288,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1561,
                 "end": 1567
             },
@@ -3300,7 +3300,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1576,
                 "end": 1578
             },
@@ -3308,7 +3308,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1578,
                 "end": 1582
             },
@@ -3316,7 +3316,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1582,
                 "end": 1584
             },
@@ -3332,7 +3332,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1586,
                                     "end": 1587
                                 },
@@ -3350,35 +3350,35 @@ async function * gen() {class C extends await { }}
                                         "kind": 201392130,
                                         "text": 3,
                                         "rawText": "3",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 1593,
                                         "end": 1595
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1587,
                                     "end": 1595
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1586,
                                 "end": 1595
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1586,
                             "end": 1595
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1586,
                     "end": 1595
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1584,
                 "end": 1596
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1561,
             "end": 1596
         },
@@ -3387,7 +3387,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1596,
                 "end": 1659
             },
@@ -3399,7 +3399,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1668,
                 "end": 1670
             },
@@ -3407,7 +3407,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1670,
                 "end": 1674
             },
@@ -3415,7 +3415,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1674,
                 "end": 1676
             },
@@ -3431,34 +3431,34 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "start": 1678,
                                     "end": 1683
                                 },
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1678,
                                 "end": 1683
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1678,
                             "end": 1683
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1678,
                     "end": 1683
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1676,
                 "end": 1683
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1596,
             "end": 1683
         },
@@ -3470,13 +3470,13 @@ async function * gen() {class C extends await { }}
                     "kind": 134299649,
                     "text": "n",
                     "rawText": "n",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1684,
                     "end": 1685
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1685,
                     "end": 1686
                 },
@@ -3484,15 +3484,15 @@ async function * gen() {class C extends await { }}
                     "kind": 201392130,
                     "text": 3,
                     "rawText": "3",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1686,
                     "end": 1687
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1684,
                 "end": 1687
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1684,
             "end": 1687
         },
@@ -3501,7 +3501,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1688,
                 "end": 1830
             },
@@ -3513,7 +3513,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1839,
                 "end": 1841
             },
@@ -3521,7 +3521,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1841,
                 "end": 1845
             },
@@ -3529,7 +3529,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1845,
                 "end": 1847
             },
@@ -3545,34 +3545,34 @@ async function * gen() {class C extends await { }}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "start": 1849,
                                     "end": 1854
                                 },
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1849,
                                 "end": 1854
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1849,
                             "end": 1854
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1849,
                     "end": 1854
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1847,
                 "end": 1854
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1688,
             "end": 1854
         },
@@ -3582,11 +3582,11 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 1855,
                 "end": 1856
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1855,
             "end": 1856
         },
@@ -3601,21 +3601,21 @@ async function * gen() {class C extends await { }}
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1857,
                             "end": 1862
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1857,
                         "end": 1862
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1857,
                 "end": 1862
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1856,
             "end": 1862
         },
@@ -3625,11 +3625,11 @@ async function * gen() {class C extends await { }}
                 "kind": 201392130,
                 "text": 42,
                 "rawText": "42",
-                "flags": 768,
+                "flags": 96,
                 "start": 1863,
                 "end": 1866
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1863,
             "end": 1866
         },
@@ -3638,7 +3638,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1868,
                 "end": 1874
             },
@@ -3650,7 +3650,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1883,
                 "end": 1885
             },
@@ -3658,7 +3658,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1885,
                 "end": 1889
             },
@@ -3666,7 +3666,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1889,
                 "end": 1891
             },
@@ -3689,27 +3689,27 @@ async function * gen() {class C extends await { }}
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1893,
                                 "end": 1898
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1893,
                             "end": 1898
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1893,
                     "end": 1898
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1891,
                 "end": 1898
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1868,
             "end": 1898
         },
@@ -3719,11 +3719,11 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 1913,
                 "end": 1914
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1913,
             "end": 1914
         },
@@ -3738,21 +3738,21 @@ async function * gen() {class C extends await { }}
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1916,
                             "end": 1921
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1916,
                         "end": 1921
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1916,
                 "end": 1921
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1914,
             "end": 1921
         },
@@ -3762,11 +3762,11 @@ async function * gen() {class C extends await { }}
                 "kind": 201392130,
                 "text": 42,
                 "rawText": "42",
-                "flags": 768,
+                "flags": 96,
                 "start": 1922,
                 "end": 1925
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1922,
             "end": 1925
         },
@@ -3775,7 +3775,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 1927,
                 "end": 1933
             },
@@ -3787,7 +3787,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 1942,
                 "end": 1944
             },
@@ -3795,7 +3795,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 1944,
                 "end": 1948
             },
@@ -3803,7 +3803,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 1948,
                 "end": 1950
             },
@@ -3829,7 +3829,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 177,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 513,
+                                        "flags": 65,
                                         "start": 1957,
                                         "end": 2052
                                     },
@@ -3841,7 +3841,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 2061,
                                         "end": 2063
                                     },
@@ -3849,7 +3849,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 134299649,
                                         "text": "gen",
                                         "rawText": "gen",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 2063,
                                         "end": 2067
                                     },
@@ -3857,7 +3857,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2067,
                                         "end": 2069
                                     },
@@ -3893,24 +3893,24 @@ async function * gen() {class C extends await { }}
                                                                                     "kind": 134299649,
                                                                                     "text": "yield",
                                                                                     "rawText": "yield",
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 2076,
                                                                                     "end": 2081
                                                                                 },
                                                                                 "optionalToken": null,
                                                                                 "type": null,
                                                                                 "initializer": null,
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 2076,
                                                                                 "end": 2081
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2076,
                                                                         "end": 2081
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 2074,
                                                                     "end": 2082
                                                                 },
@@ -3925,54 +3925,54 @@ async function * gen() {class C extends await { }}
                                                                                 "kind": 201392130,
                                                                                 "text": 42,
                                                                                 "rawText": "42",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 2086,
                                                                                 "end": 2088
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2086,
                                                                         "end": 2088
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 2084,
                                                                     "end": 2089
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 2074,
                                                                 "end": 2089
                                                             }
                                                         ],
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 2074,
                                                         "end": 2089
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 2071,
                                                     "end": 2090
                                                 }
                                             ],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 2071,
                                             "end": 2090
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2069,
                                         "end": 2091
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 3328,
+                                    "flags": 416,
                                     "start": 1957,
                                     "end": 2091
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1952,
                                 "end": 2091
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1952,
                             "end": 2091
                         },
@@ -3981,7 +3981,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2091,
                                 "end": 2097
                             },
@@ -3993,7 +3993,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2106,
                                 "end": 2108
                             },
@@ -4001,7 +4001,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2108,
                                 "end": 2112
                             },
@@ -4009,7 +4009,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2112,
                                 "end": 2114
                             },
@@ -4045,24 +4045,24 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 134299649,
                                                                             "text": "await",
                                                                             "rawText": "await",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2121,
                                                                             "end": 2126
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
                                                                         "initializer": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2121,
                                                                         "end": 2126
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2121,
                                                                 "end": 2126
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2119,
                                                             "end": 2127
                                                         },
@@ -4077,46 +4077,46 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 201392130,
                                                                         "text": 42,
                                                                         "rawText": "42",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2131,
                                                                         "end": 2133
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2131,
                                                                 "end": 2133
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2129,
                                                             "end": 2134
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 2119,
                                                         "end": 2134
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 2119,
                                                 "end": 2134
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2116,
                                             "end": 2135
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2116,
                                     "end": 2135
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2114,
                                 "end": 2136
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2091,
                             "end": 2136
                         },
@@ -4125,7 +4125,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2136,
                                 "end": 2142
                             },
@@ -4137,7 +4137,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2151,
                                 "end": 2153
                             },
@@ -4145,7 +4145,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2153,
                                 "end": 2157
                             },
@@ -4153,7 +4153,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2157,
                                 "end": 2159
                             },
@@ -4189,7 +4189,7 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 134299649,
                                                                             "text": "foo",
                                                                             "rawText": "foo",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2166,
                                                                             "end": 2170
                                                                         },
@@ -4200,27 +4200,27 @@ async function * gen() {class C extends await { }}
                                                                                 "kind": 134299649,
                                                                                 "text": "yield",
                                                                                 "rawText": "yield",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 2170,
                                                                                 "end": 2176
                                                                             },
                                                                             "initializer": null,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 2170,
                                                                             "end": 2176
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2166,
                                                                         "end": 2176
                                                                     }
                                                                 ],
                                                                 "multiline": false,
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2166,
                                                                 "end": 2176
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2164,
                                                             "end": 2177
                                                         },
@@ -4237,7 +4237,7 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 201392130,
                                                                             "text": 42,
                                                                             "rawText": "42",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2183,
                                                                             "end": 2186
                                                                         },
@@ -4245,11 +4245,11 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 134299649,
                                                                             "text": "a",
                                                                             "rawText": "a",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2181,
                                                                             "end": 2182
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2181,
                                                                         "end": 2186
                                                                     }
@@ -4260,36 +4260,36 @@ async function * gen() {class C extends await { }}
                                                                 "start": 2181,
                                                                 "end": 2186
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2179,
                                                             "end": 2187
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 2164,
                                                         "end": 2187
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 2164,
                                                 "end": 2187
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2161,
                                             "end": 2188
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2161,
                                     "end": 2188
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2159,
                                 "end": 2189
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2136,
                             "end": 2189
                         },
@@ -4298,7 +4298,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2189,
                                 "end": 2195
                             },
@@ -4310,7 +4310,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2204,
                                 "end": 2206
                             },
@@ -4318,7 +4318,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2206,
                                 "end": 2210
                             },
@@ -4326,7 +4326,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2210,
                                 "end": 2212
                             },
@@ -4362,7 +4362,7 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 134299649,
                                                                             "text": "foo",
                                                                             "rawText": "foo",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2219,
                                                                             "end": 2223
                                                                         },
@@ -4373,27 +4373,27 @@ async function * gen() {class C extends await { }}
                                                                                 "kind": 134299649,
                                                                                 "text": "await",
                                                                                 "rawText": "await",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 2223,
                                                                                 "end": 2229
                                                                             },
                                                                             "initializer": null,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 2223,
                                                                             "end": 2229
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2219,
                                                                         "end": 2229
                                                                     }
                                                                 ],
                                                                 "multiline": false,
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2219,
                                                                 "end": 2229
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2217,
                                                             "end": 2230
                                                         },
@@ -4410,7 +4410,7 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 201392130,
                                                                             "text": 42,
                                                                             "rawText": "42",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2236,
                                                                             "end": 2239
                                                                         },
@@ -4418,11 +4418,11 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 134299649,
                                                                             "text": "a",
                                                                             "rawText": "a",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2234,
                                                                             "end": 2235
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2234,
                                                                         "end": 2239
                                                                     }
@@ -4433,36 +4433,36 @@ async function * gen() {class C extends await { }}
                                                                 "start": 2234,
                                                                 "end": 2239
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2232,
                                                             "end": 2240
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 2217,
                                                         "end": 2240
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 2217,
                                                 "end": 2240
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2214,
                                             "end": 2241
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2214,
                                     "end": 2241
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2212,
                                 "end": 2242
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2189,
                             "end": 2242
                         },
@@ -4471,7 +4471,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2242,
                                 "end": 2248
                             },
@@ -4483,7 +4483,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2257,
                                 "end": 2259
                             },
@@ -4491,7 +4491,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2259,
                                 "end": 2263
                             },
@@ -4499,7 +4499,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2263,
                                 "end": 2265
                             },
@@ -4529,23 +4529,23 @@ async function * gen() {class C extends await { }}
                                                                 "delegate": false,
                                                                 "asteriskToken": null,
                                                                 "expression": null,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2268,
                                                                 "end": 2273
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2268,
                                                         "end": 2273
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2267,
                                                     "end": 2274
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 2274,
                                                     "end": 2276
                                                 },
@@ -4558,41 +4558,41 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 201392130,
                                                                 "text": 42,
                                                                 "rawText": "42",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 2278,
                                                                 "end": 2280
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2278,
                                                         "end": 2280
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2276,
                                                     "end": 2281
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2267,
                                                 "end": 2281
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2267,
                                             "end": 2282
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2267,
                                     "end": 2282
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2265,
                                 "end": 2283
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2242,
                             "end": 2283
                         },
@@ -4601,7 +4601,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2283,
                                 "end": 2289
                             },
@@ -4613,7 +4613,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2298,
                                 "end": 2300
                             },
@@ -4621,7 +4621,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2300,
                                 "end": 2304
                             },
@@ -4629,7 +4629,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2304,
                                 "end": 2306
                             },
@@ -4659,27 +4659,27 @@ async function * gen() {class C extends await { }}
                                                                 "expression": {
                                                                     "kind": 16637,
                                                                     "text": "",
-                                                                    "flags": 12,
+                                                                    "flags": 68,
                                                                     "start": 2314,
                                                                     "end": 2314
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2309,
                                                                 "end": 2314
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2309,
                                                         "end": 2314
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2308,
                                                     "end": 2315
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 2315,
                                                     "end": 2317
                                                 },
@@ -4692,41 +4692,41 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 201392130,
                                                                 "text": 42,
                                                                 "rawText": "42",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 2319,
                                                                 "end": 2321
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2319,
                                                         "end": 2321
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2317,
                                                     "end": 2322
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2308,
                                                 "end": 2322
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2308,
                                             "end": 2323
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2308,
                                     "end": 2323
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2306,
                                 "end": 2324
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2283,
                             "end": 2324
                         },
@@ -4735,7 +4735,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2324,
                                 "end": 2330
                             },
@@ -4747,7 +4747,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2339,
                                 "end": 2341
                             },
@@ -4755,7 +4755,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2341,
                                 "end": 2345
                             },
@@ -4763,7 +4763,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2345,
                                 "end": 2347
                             },
@@ -4797,7 +4797,7 @@ async function * gen() {class C extends await { }}
                                                                         "delegate": false,
                                                                         "asteriskToken": null,
                                                                         "expression": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2353,
                                                                         "end": 2359
                                                                     },
@@ -4805,11 +4805,11 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2351,
                                                                         "end": 2352
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 2351,
                                                                     "end": 2359
                                                                 }
@@ -4820,13 +4820,13 @@ async function * gen() {class C extends await { }}
                                                             "start": 2351,
                                                             "end": 2359
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2350,
                                                         "end": 2360
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 2360,
                                                         "end": 2362
                                                     },
@@ -4841,7 +4841,7 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 201392130,
                                                                         "text": 42,
                                                                         "rawText": "42",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2366,
                                                                         "end": 2369
                                                                     },
@@ -4849,11 +4849,11 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2364,
                                                                         "end": 2365
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 2364,
                                                                     "end": 2369
                                                                 }
@@ -4864,35 +4864,35 @@ async function * gen() {class C extends await { }}
                                                             "start": 2364,
                                                             "end": 2369
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2362,
                                                         "end": 2370
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2350,
                                                     "end": 2370
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2349,
                                                 "end": 2371
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2349,
                                             "end": 2372
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2349,
                                     "end": 2372
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2347,
                                 "end": 2373
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2324,
                             "end": 2373
                         },
@@ -4901,7 +4901,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2373,
                                 "end": 2379
                             },
@@ -4913,7 +4913,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2388,
                                 "end": 2390
                             },
@@ -4921,7 +4921,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2390,
                                 "end": 2394
                             },
@@ -4929,7 +4929,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2394,
                                 "end": 2396
                             },
@@ -4963,11 +4963,11 @@ async function * gen() {class C extends await { }}
                                                                         "expression": {
                                                                             "kind": 16637,
                                                                             "text": "",
-                                                                            "flags": 12,
+                                                                            "flags": 68,
                                                                             "start": 2408,
                                                                             "end": 2408
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2402,
                                                                         "end": 2408
                                                                     },
@@ -4975,11 +4975,11 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2400,
                                                                         "end": 2401
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 2400,
                                                                     "end": 2408
                                                                 }
@@ -4990,13 +4990,13 @@ async function * gen() {class C extends await { }}
                                                             "start": 2400,
                                                             "end": 2408
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2399,
                                                         "end": 2409
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 2409,
                                                         "end": 2411
                                                     },
@@ -5011,7 +5011,7 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 201392130,
                                                                         "text": 42,
                                                                         "rawText": "42",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2415,
                                                                         "end": 2418
                                                                     },
@@ -5019,11 +5019,11 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 2413,
                                                                         "end": 2414
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 2413,
                                                                     "end": 2418
                                                                 }
@@ -5034,35 +5034,35 @@ async function * gen() {class C extends await { }}
                                                             "start": 2413,
                                                             "end": 2418
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2411,
                                                         "end": 2419
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2399,
                                                     "end": 2419
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2398,
                                                 "end": 2420
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2398,
                                             "end": 2421
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2398,
                                     "end": 2421
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2396,
                                 "end": 2422
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2373,
                             "end": 2422
                         },
@@ -5071,7 +5071,7 @@ async function * gen() {class C extends await { }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 2422,
                                 "end": 2485
                             },
@@ -5083,7 +5083,7 @@ async function * gen() {class C extends await { }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2494,
                                 "end": 2496
                             },
@@ -5091,7 +5091,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2496,
                                 "end": 2500
                             },
@@ -5099,7 +5099,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2500,
                                 "end": 2502
                             },
@@ -5135,40 +5135,40 @@ async function * gen() {class C extends await { }}
                                                                             "kind": 134299649,
                                                                             "text": "yield",
                                                                             "rawText": "yield",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 2509,
                                                                             "end": 2514
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
                                                                         "initializer": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 2509,
                                                                         "end": 2514
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 2509,
                                                                 "end": 2514
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2507,
                                                             "end": 2514
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 2507,
                                                         "end": 2514
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 2507,
                                                 "end": 2514
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2504,
                                             "end": 2514
                                         },
@@ -5178,43 +5178,43 @@ async function * gen() {class C extends await { }}
                                                 "kind": 201392130,
                                                 "text": 24,
                                                 "rawText": "24",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 2514,
                                                 "end": 2517
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 2514,
                                             "end": 2517
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2504,
                                     "end": 2517
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2502,
                                 "end": 2517
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 2422,
                             "end": 2517
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1952,
                     "end": 2517
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1950,
                 "end": 2517
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 1927,
             "end": 2517
         },
@@ -5229,21 +5229,21 @@ async function * gen() {class C extends await { }}
                             "kind": 201392130,
                             "text": 42,
                             "rawText": "42",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 2522,
                             "end": 2524
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2522,
                     "end": 2524
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2520,
                 "end": 2525
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2520,
             "end": 2526
         },
@@ -5252,7 +5252,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2527,
                 "end": 2533
             },
@@ -5264,7 +5264,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2542,
                 "end": 2544
             },
@@ -5272,7 +5272,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2544,
                 "end": 2548
             },
@@ -5280,7 +5280,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2548,
                 "end": 2550
             },
@@ -5316,40 +5316,40 @@ async function * gen() {class C extends await { }}
                                                             "kind": 134299649,
                                                             "text": "await",
                                                             "rawText": "await",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 2557,
                                                             "end": 2562
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2557,
                                                         "end": 2562
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2557,
                                                 "end": 2562
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 2555,
                                             "end": 2562
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 2555,
                                         "end": 2562
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 2555,
                                 "end": 2562
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2552,
                             "end": 2562
                         },
@@ -5359,27 +5359,27 @@ async function * gen() {class C extends await { }}
                                 "kind": 201392130,
                                 "text": 24,
                                 "rawText": "24",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2562,
                                 "end": 2565
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2562,
                             "end": 2565
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2552,
                     "end": 2565
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2550,
                 "end": 2565
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2527,
             "end": 2565
         },
@@ -5394,21 +5394,21 @@ async function * gen() {class C extends await { }}
                             "kind": 201392130,
                             "text": 42,
                             "rawText": "42",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 2570,
                             "end": 2572
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2570,
                     "end": 2572
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2568,
                 "end": 2573
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2568,
             "end": 2574
         },
@@ -5417,7 +5417,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2575,
                 "end": 2581
             },
@@ -5429,7 +5429,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2590,
                 "end": 2592
             },
@@ -5437,7 +5437,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2592,
                 "end": 2596
             },
@@ -5445,7 +5445,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2596,
                 "end": 2598
             },
@@ -5481,7 +5481,7 @@ async function * gen() {class C extends await { }}
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 2605,
                                                             "end": 2609
                                                         },
@@ -5492,43 +5492,43 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 2609,
                                                                 "end": 2615
                                                             },
                                                             "initializer": null,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2609,
                                                             "end": 2615
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2605,
                                                         "end": 2615
                                                     }
                                                 ],
                                                 "multiline": false,
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2605,
                                                 "end": 2615
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 2603,
                                             "end": 2615
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 2603,
                                         "end": 2615
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 2603,
                                 "end": 2615
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2600,
                             "end": 2615
                         },
@@ -5538,27 +5538,27 @@ async function * gen() {class C extends await { }}
                                 "kind": 201392130,
                                 "text": 24,
                                 "rawText": "24",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2615,
                                 "end": 2618
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2615,
                             "end": 2618
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2600,
                     "end": 2618
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2598,
                 "end": 2619
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2575,
             "end": 2619
         },
@@ -5573,7 +5573,7 @@ async function * gen() {class C extends await { }}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 2623,
                             "end": 2624
                         },
@@ -5583,31 +5583,31 @@ async function * gen() {class C extends await { }}
                                 "kind": 201392130,
                                 "text": 42,
                                 "rawText": "42",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2625,
                                 "end": 2628
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2625,
                             "end": 2628
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 2623,
                         "end": 2628
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 2623,
                 "end": 2628
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2621,
             "end": 2629
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 2629,
             "end": 2630
         },
@@ -5616,7 +5616,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2631,
                 "end": 2637
             },
@@ -5628,7 +5628,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2646,
                 "end": 2648
             },
@@ -5636,7 +5636,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2648,
                 "end": 2652
             },
@@ -5644,7 +5644,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2652,
                 "end": 2654
             },
@@ -5680,7 +5680,7 @@ async function * gen() {class C extends await { }}
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 2661,
                                                             "end": 2665
                                                         },
@@ -5691,43 +5691,43 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 134299649,
                                                                 "text": "await",
                                                                 "rawText": "await",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 2665,
                                                                 "end": 2671
                                                             },
                                                             "initializer": null,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 2665,
                                                             "end": 2671
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2661,
                                                         "end": 2671
                                                     }
                                                 ],
                                                 "multiline": false,
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2661,
                                                 "end": 2671
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 2659,
                                             "end": 2671
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 2659,
                                         "end": 2671
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 2659,
                                 "end": 2671
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2656,
                             "end": 2671
                         },
@@ -5737,27 +5737,27 @@ async function * gen() {class C extends await { }}
                                 "kind": 201392130,
                                 "text": 24,
                                 "rawText": "24",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2671,
                                 "end": 2674
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2671,
                             "end": 2674
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2656,
                     "end": 2674
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2654,
                 "end": 2675
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2631,
             "end": 2675
         },
@@ -5772,7 +5772,7 @@ async function * gen() {class C extends await { }}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 2679,
                             "end": 2680
                         },
@@ -5782,31 +5782,31 @@ async function * gen() {class C extends await { }}
                                 "kind": 201392130,
                                 "text": 42,
                                 "rawText": "42",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2681,
                                 "end": 2684
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2681,
                             "end": 2684
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 2679,
                         "end": 2684
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 2679,
                 "end": 2684
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2677,
             "end": 2685
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 2685,
             "end": 2686
         },
@@ -5815,7 +5815,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2687,
                 "end": 2693
             },
@@ -5827,7 +5827,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2702,
                 "end": 2704
             },
@@ -5835,7 +5835,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2704,
                 "end": 2708
             },
@@ -5843,7 +5843,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2708,
                 "end": 2710
             },
@@ -5876,27 +5876,27 @@ async function * gen() {class C extends await { }}
                                                     "kind": 201392130,
                                                     "text": 24,
                                                     "rawText": "24",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 2718,
                                                     "end": 2721
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2713,
                                                 "end": 2721
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2713,
                                         "end": 2721
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2712,
                                     "end": 2722
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 2722,
                                     "end": 2724
                                 },
@@ -5909,41 +5909,41 @@ async function * gen() {class C extends await { }}
                                                 "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 2726,
                                                 "end": 2728
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2726,
                                         "end": 2728
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2724,
                                     "end": 2729
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2712,
                                 "end": 2729
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2712,
                             "end": 2730
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2712,
                     "end": 2730
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2710,
                 "end": 2731
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2687,
             "end": 2731
         },
@@ -5952,7 +5952,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2731,
                 "end": 2737
             },
@@ -5964,7 +5964,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2746,
                 "end": 2748
             },
@@ -5972,7 +5972,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2748,
                 "end": 2752
             },
@@ -5980,7 +5980,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2752,
                 "end": 2754
             },
@@ -6011,27 +6011,27 @@ async function * gen() {class C extends await { }}
                                                     "kind": 201392130,
                                                     "text": 24,
                                                     "rawText": "24",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 2762,
                                                     "end": 2765
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 2757,
                                                 "end": 2765
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2757,
                                         "end": 2765
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2756,
                                     "end": 2766
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 2766,
                                     "end": 2768
                                 },
@@ -6044,41 +6044,41 @@ async function * gen() {class C extends await { }}
                                                 "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 2770,
                                                 "end": 2772
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2770,
                                         "end": 2772
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2768,
                                     "end": 2773
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2756,
                                 "end": 2773
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2756,
                             "end": 2774
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2756,
                     "end": 2774
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2754,
                 "end": 2775
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2731,
             "end": 2775
         },
@@ -6087,7 +6087,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2775,
                 "end": 2781
             },
@@ -6099,7 +6099,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2790,
                 "end": 2792
             },
@@ -6107,7 +6107,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2792,
                 "end": 2796
             },
@@ -6115,7 +6115,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2796,
                 "end": 2798
             },
@@ -6152,11 +6152,11 @@ async function * gen() {class C extends await { }}
                                                             "kind": 201392130,
                                                             "text": 24,
                                                             "rawText": "24",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 2810,
                                                             "end": 2813
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2804,
                                                         "end": 2813
                                                     },
@@ -6164,11 +6164,11 @@ async function * gen() {class C extends await { }}
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 2802,
                                                         "end": 2803
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2802,
                                                     "end": 2813
                                                 }
@@ -6179,13 +6179,13 @@ async function * gen() {class C extends await { }}
                                             "start": 2802,
                                             "end": 2813
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2801,
                                         "end": 2814
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 2814,
                                         "end": 2816
                                     },
@@ -6200,7 +6200,7 @@ async function * gen() {class C extends await { }}
                                                         "kind": 201392130,
                                                         "text": 42,
                                                         "rawText": "42",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 2820,
                                                         "end": 2823
                                                     },
@@ -6208,11 +6208,11 @@ async function * gen() {class C extends await { }}
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 2818,
                                                         "end": 2819
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2818,
                                                     "end": 2823
                                                 }
@@ -6223,35 +6223,35 @@ async function * gen() {class C extends await { }}
                                             "start": 2818,
                                             "end": 2823
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2816,
                                         "end": 2824
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2801,
                                     "end": 2824
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2800,
                                 "end": 2825
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2800,
                             "end": 2826
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2800,
                     "end": 2826
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2798,
                 "end": 2827
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2775,
             "end": 2827
         },
@@ -6260,7 +6260,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2827,
                 "end": 2833
             },
@@ -6272,7 +6272,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2842,
                 "end": 2844
             },
@@ -6280,7 +6280,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2844,
                 "end": 2848
             },
@@ -6288,7 +6288,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2848,
                 "end": 2850
             },
@@ -6323,11 +6323,11 @@ async function * gen() {class C extends await { }}
                                                             "kind": 201392130,
                                                             "text": 24,
                                                             "rawText": "24",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 2862,
                                                             "end": 2865
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 2856,
                                                         "end": 2865
                                                     },
@@ -6335,11 +6335,11 @@ async function * gen() {class C extends await { }}
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 2854,
                                                         "end": 2855
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2854,
                                                     "end": 2865
                                                 }
@@ -6350,13 +6350,13 @@ async function * gen() {class C extends await { }}
                                             "start": 2854,
                                             "end": 2865
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2853,
                                         "end": 2866
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 2866,
                                         "end": 2868
                                     },
@@ -6371,7 +6371,7 @@ async function * gen() {class C extends await { }}
                                                         "kind": 201392130,
                                                         "text": 42,
                                                         "rawText": "42",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 2872,
                                                         "end": 2875
                                                     },
@@ -6379,11 +6379,11 @@ async function * gen() {class C extends await { }}
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 2870,
                                                         "end": 2871
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 2870,
                                                     "end": 2875
                                                 }
@@ -6394,35 +6394,35 @@ async function * gen() {class C extends await { }}
                                             "start": 2870,
                                             "end": 2875
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2868,
                                         "end": 2876
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2853,
                                     "end": 2876
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2852,
                                 "end": 2877
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2852,
                             "end": 2878
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2852,
                     "end": 2878
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2850,
                 "end": 2879
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2827,
             "end": 2879
         },
@@ -6431,7 +6431,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2879,
                 "end": 2885
             },
@@ -6443,7 +6443,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2894,
                 "end": 2896
             },
@@ -6451,7 +6451,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2896,
                 "end": 2900
             },
@@ -6459,7 +6459,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2900,
                 "end": 2902
             },
@@ -6478,7 +6478,7 @@ async function * gen() {class C extends await { }}
                             },
                             "inKeyword": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2918,
                                 "end": 2921
                             },
@@ -6497,11 +6497,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 2914,
                                     "end": 2918
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2909,
                                 "end": 2918
                             },
@@ -6516,33 +6516,33 @@ async function * gen() {class C extends await { }}
                                     "start": 2923,
                                     "end": 2923
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2921,
                                 "end": 2924
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 2925,
                                 "end": 2926
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2904,
                             "end": 2926
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2904,
                     "end": 2926
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2902,
                 "end": 2927
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2879,
             "end": 2927
         },
@@ -6551,7 +6551,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2927,
                 "end": 2933
             },
@@ -6563,7 +6563,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2942,
                 "end": 2944
             },
@@ -6571,7 +6571,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2944,
                 "end": 2948
             },
@@ -6579,7 +6579,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2948,
                 "end": 2950
             },
@@ -6598,7 +6598,7 @@ async function * gen() {class C extends await { }}
                             },
                             "inKeyword": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 2966,
                                 "end": 2969
                             },
@@ -6615,11 +6615,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 2962,
                                     "end": 2966
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2957,
                                 "end": 2966
                             },
@@ -6634,33 +6634,33 @@ async function * gen() {class C extends await { }}
                                     "start": 2971,
                                     "end": 2971
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2969,
                                 "end": 2972
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 2973,
                                 "end": 2974
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 2952,
                             "end": 2974
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2952,
                     "end": 2974
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2950,
                 "end": 2975
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2927,
             "end": 2975
         },
@@ -6669,7 +6669,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 2975,
                 "end": 2981
             },
@@ -6681,7 +6681,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 2990,
                 "end": 2992
             },
@@ -6689,7 +6689,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 2992,
                 "end": 2996
             },
@@ -6697,7 +6697,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 2996,
                 "end": 2998
             },
@@ -6717,7 +6717,7 @@ async function * gen() {class C extends await { }}
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3014,
                                 "end": 3017
                             },
@@ -6735,11 +6735,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 3010,
                                     "end": 3014
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3005,
                                 "end": 3014
                             },
@@ -6754,34 +6754,34 @@ async function * gen() {class C extends await { }}
                                     "start": 3019,
                                     "end": 3019
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3017,
                                 "end": 3020
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3021,
                                 "end": 3022
                             },
                             "awaitKeyword": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3000,
                             "end": 3022
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3000,
                     "end": 3022
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2998,
                 "end": 3023
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 2975,
             "end": 3023
         },
@@ -6790,7 +6790,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3023,
                 "end": 3029
             },
@@ -6802,7 +6802,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3038,
                 "end": 3040
             },
@@ -6810,7 +6810,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3040,
                 "end": 3044
             },
@@ -6818,7 +6818,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3044,
                 "end": 3046
             },
@@ -6838,7 +6838,7 @@ async function * gen() {class C extends await { }}
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3062,
                                 "end": 3065
                             },
@@ -6854,11 +6854,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 3058,
                                     "end": 3062
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3053,
                                 "end": 3062
                             },
@@ -6873,34 +6873,34 @@ async function * gen() {class C extends await { }}
                                     "start": 3067,
                                     "end": 3067
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3065,
                                 "end": 3068
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3069,
                                 "end": 3070
                             },
                             "awaitKeyword": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3048,
                             "end": 3070
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3048,
                     "end": 3070
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3046,
                 "end": 3071
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3023,
             "end": 3071
         },
@@ -6909,7 +6909,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3071,
                 "end": 3077
             },
@@ -6921,7 +6921,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3086,
                 "end": 3088
             },
@@ -6929,7 +6929,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3088,
                 "end": 3092
             },
@@ -6937,7 +6937,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3092,
                 "end": 3094
             },
@@ -6956,7 +6956,7 @@ async function * gen() {class C extends await { }}
                             },
                             "inKeyword": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3110,
                                 "end": 3113
                             },
@@ -6975,11 +6975,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 3106,
                                     "end": 3110
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3101,
                                 "end": 3110
                             },
@@ -6996,13 +6996,13 @@ async function * gen() {class C extends await { }}
                                         "start": 3115,
                                         "end": 3115
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3113,
                                     "end": 3116
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 3116,
                                     "end": 3119
                                 },
@@ -7017,37 +7017,37 @@ async function * gen() {class C extends await { }}
                                         "start": 3121,
                                         "end": 3121
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3119,
                                     "end": 3122
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3113,
                                 "end": 3122
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3123,
                                 "end": 3124
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3096,
                             "end": 3124
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3096,
                     "end": 3124
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3094,
                 "end": 3125
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3071,
             "end": 3125
         },
@@ -7056,7 +7056,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3125,
                 "end": 3131
             },
@@ -7068,7 +7068,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3140,
                 "end": 3142
             },
@@ -7076,7 +7076,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3142,
                 "end": 3146
             },
@@ -7084,7 +7084,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3146,
                 "end": 3148
             },
@@ -7103,7 +7103,7 @@ async function * gen() {class C extends await { }}
                             },
                             "inKeyword": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3164,
                                 "end": 3167
                             },
@@ -7120,11 +7120,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 3160,
                                     "end": 3164
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3155,
                                 "end": 3164
                             },
@@ -7141,13 +7141,13 @@ async function * gen() {class C extends await { }}
                                         "start": 3169,
                                         "end": 3169
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3167,
                                     "end": 3170
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 3170,
                                     "end": 3173
                                 },
@@ -7162,37 +7162,37 @@ async function * gen() {class C extends await { }}
                                         "start": 3175,
                                         "end": 3175
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3173,
                                     "end": 3176
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3167,
                                 "end": 3176
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3177,
                                 "end": 3178
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3150,
                             "end": 3178
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3150,
                     "end": 3178
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3148,
                 "end": 3179
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3125,
             "end": 3179
         },
@@ -7201,7 +7201,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3179,
                 "end": 3185
             },
@@ -7213,7 +7213,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3194,
                 "end": 3196
             },
@@ -7221,7 +7221,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3196,
                 "end": 3200
             },
@@ -7229,7 +7229,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3200,
                 "end": 3202
             },
@@ -7248,7 +7248,7 @@ async function * gen() {class C extends await { }}
                             },
                             "inKeyword": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3218,
                                 "end": 3221
                             },
@@ -7267,11 +7267,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 3214,
                                     "end": 3218
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3209,
                                 "end": 3218
                             },
@@ -7286,7 +7286,7 @@ async function * gen() {class C extends await { }}
                                     "start": 3223,
                                     "end": 3223
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3221,
                                 "end": 3224
                             },
@@ -7296,15 +7296,15 @@ async function * gen() {class C extends await { }}
                                     "kind": 134299649,
                                     "text": "of",
                                     "rawText": "of",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 3224,
                                     "end": 3227
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3224,
                                 "end": 3227
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3204,
                             "end": 3227
                         },
@@ -7314,33 +7314,33 @@ async function * gen() {class C extends await { }}
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3229,
                                 "end": 3229
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3227,
                             "end": 3230
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3204,
                     "end": 3230
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3202,
                 "end": 3230
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3179,
             "end": 3230
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 3231,
             "end": 3232
         },
@@ -7349,7 +7349,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3233,
                 "end": 3239
             },
@@ -7361,7 +7361,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3248,
                 "end": 3250
             },
@@ -7369,7 +7369,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3250,
                 "end": 3254
             },
@@ -7377,7 +7377,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3254,
                 "end": 3256
             },
@@ -7396,7 +7396,7 @@ async function * gen() {class C extends await { }}
                             },
                             "inKeyword": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3272,
                                 "end": 3275
                             },
@@ -7413,11 +7413,11 @@ async function * gen() {class C extends await { }}
                                     "kind": 201392131,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 3268,
                                     "end": 3272
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3263,
                                 "end": 3272
                             },
@@ -7432,7 +7432,7 @@ async function * gen() {class C extends await { }}
                                     "start": 3277,
                                     "end": 3277
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3275,
                                 "end": 3278
                             },
@@ -7442,15 +7442,15 @@ async function * gen() {class C extends await { }}
                                     "kind": 134299649,
                                     "text": "of",
                                     "rawText": "of",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 3278,
                                     "end": 3281
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3278,
                                 "end": 3281
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3258,
                             "end": 3281
                         },
@@ -7460,33 +7460,33 @@ async function * gen() {class C extends await { }}
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3283,
                                 "end": 3283
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3281,
                             "end": 3284
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3258,
                     "end": 3284
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3256,
                 "end": 3284
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3233,
             "end": 3284
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 3285,
             "end": 3286
         },
@@ -7495,7 +7495,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3287,
                 "end": 3293
             },
@@ -7507,7 +7507,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3302,
                 "end": 3304
             },
@@ -7515,7 +7515,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3304,
                 "end": 3308
             },
@@ -7523,7 +7523,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3308,
                 "end": 3310
             },
@@ -7547,7 +7547,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3317,
                                 "end": 3319
                             },
@@ -7581,43 +7581,43 @@ async function * gen() {class C extends await { }}
                                             "start": 3335,
                                             "end": 3335
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 3333,
                                         "end": 3337
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3327,
                                     "end": 3337
                                 },
                                 "typeParameter": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3327,
                                 "end": 3337
                             },
                             "members": {
                                 "kind": 277,
                                 "elements": [],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3312,
                                 "end": 3312
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3312,
                             "end": 3337
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3312,
                     "end": 3337
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3310,
                 "end": 3338
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3287,
             "end": 3338
         },
@@ -7626,7 +7626,7 @@ async function * gen() {class C extends await { }}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 513,
+                "flags": 65,
                 "start": 3338,
                 "end": 3344
             },
@@ -7638,7 +7638,7 @@ async function * gen() {class C extends await { }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 3353,
                 "end": 3355
             },
@@ -7646,7 +7646,7 @@ async function * gen() {class C extends await { }}
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 3355,
                 "end": 3359
             },
@@ -7654,7 +7654,7 @@ async function * gen() {class C extends await { }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 3359,
                 "end": 3361
             },
@@ -7678,7 +7678,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3368,
                                 "end": 3370
                             },
@@ -7710,43 +7710,43 @@ async function * gen() {class C extends await { }}
                                             "start": 3386,
                                             "end": 3386
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 3384,
                                         "end": 3388
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3378,
                                     "end": 3388
                                 },
                                 "typeParameter": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 3378,
                                 "end": 3388
                             },
                             "members": {
                                 "kind": 277,
                                 "elements": [],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3363,
                                 "end": 3363
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3363,
                             "end": 3388
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3363,
                     "end": 3388
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 3361,
                 "end": 3389
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 3338,
             "end": 3389
         }

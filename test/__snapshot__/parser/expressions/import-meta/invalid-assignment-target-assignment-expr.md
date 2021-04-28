@@ -34,12 +34,12 @@ import.meta = 0;
                         "end": 6
                     },
                     "flags": 6,
-                    "start": 768,
+                    "start": 96,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 11,
                     "end": 13
                 },
@@ -47,15 +47,15 @@ import.meta = 0;
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 16
         }

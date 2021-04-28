@@ -34,11 +34,11 @@
                                     "kind": 270,
                                     "elements": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3,
                                     "end": 3
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 4
                             },
@@ -46,25 +46,25 @@
                                 "kind": 134299649,
                                 "text": "length",
                                 "rawText": "length",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 5,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

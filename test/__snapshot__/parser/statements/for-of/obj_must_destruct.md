@@ -44,7 +44,7 @@ for ({x=y}=x of x) ;
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 512,
+                "flags": 64,
                 "start": 12,
                 "end": 15
             },
@@ -61,7 +61,7 @@ for ({x=y}=x of x) ;
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 7
                                 },
@@ -69,11 +69,11 @@ for ({x=y}=x of x) ;
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 9
                             }
@@ -84,13 +84,13 @@ for ({x=y}=x of x) ;
                         "start": 6,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 10,
                     "end": 11
                 },
@@ -98,11 +98,11 @@ for ({x=y}=x of x) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 12
             },
@@ -110,18 +110,18 @@ for ({x=y}=x of x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 20
             },
             "awaitKeyword": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

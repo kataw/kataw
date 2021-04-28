@@ -23,7 +23,7 @@
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 1,
                         "end": 7
                     },
@@ -32,7 +32,7 @@
                         "member": {
                             "kind": 221,
                             "text": "/a/g",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 12
                         },
@@ -40,23 +40,23 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

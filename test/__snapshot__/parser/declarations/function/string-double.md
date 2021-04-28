@@ -30,7 +30,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 134299649,
                 "text": "createElement",
                 "rawText": "createElement",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 22
             },
@@ -44,20 +44,20 @@ function createElement(tagName: "div"): HTMLDivElement {}
                             "kind": 134299649,
                             "text": "tagName",
                             "rawText": "tagName",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 23,
                             "end": 30
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 23,
                         "end": 30
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 31
             },
@@ -68,17 +68,17 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 30,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 30,
                 "end": 30
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         },
@@ -88,11 +88,11 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 201392131,
                 "text": "div",
                 "rawText": "div",
-                "flags": 768,
+                "flags": 96,
                 "start": 31,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 31,
             "end": 37
         },
@@ -102,11 +102,11 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 134299649,
                 "text": "HTMLDivElement",
                 "rawText": "HTMLDivElement",
-                "flags": 768,
+                "flags": 96,
                 "start": 39,
                 "end": 54
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 54
         },
@@ -116,11 +116,11 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 56,
                 "end": 56
             },
-            "flags": 128,
+            "flags": 16,
             "start": 54,
             "end": 57
         }

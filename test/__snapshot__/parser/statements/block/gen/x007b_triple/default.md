@@ -35,31 +35,31 @@
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 5
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 5
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 5
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 5
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         }

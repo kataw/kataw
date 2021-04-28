@@ -48,7 +48,7 @@ class A {async get 7(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -64,7 +64,7 @@ class A {async get 7(){}}
                         "staticToken": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 14
                         },
@@ -72,14 +72,14 @@ class A {async get 7(){}}
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 18
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 18
                     },
@@ -97,7 +97,7 @@ class A {async get 7(){}}
                                 "kind": 201392130,
                                 "text": 7,
                                 "rawText": "7",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 18,
                                 "end": 20
                             },
@@ -118,11 +118,11 @@ class A {async get 7(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
@@ -135,11 +135,11 @@ class A {async get 7(){}}
                         "end": 24
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

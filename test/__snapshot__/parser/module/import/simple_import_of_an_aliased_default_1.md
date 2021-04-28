@@ -33,7 +33,7 @@ import * as a from "y"
                 "kind": 201392131,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 22
             },
@@ -45,16 +45,16 @@ import * as a from "y"
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 22
         }

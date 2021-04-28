@@ -38,7 +38,7 @@ function foo(): {} {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 12
             },
@@ -46,7 +46,7 @@ function foo(): {} {}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 14
             },
@@ -57,11 +57,11 @@ function foo(): {} {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 21
             },
@@ -82,7 +82,7 @@ function foo(): {} {}
                 "start": 14,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

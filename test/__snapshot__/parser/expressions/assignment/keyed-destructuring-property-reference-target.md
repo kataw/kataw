@@ -72,7 +72,7 @@ function targetKey() {
                             "kind": 134299649,
                             "text": "log",
                             "rawText": "log",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 4,
                             "end": 8
                         },
@@ -84,24 +84,24 @@ function targetKey() {
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 13
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 4,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -120,7 +120,7 @@ function targetKey() {
                 "kind": 134299649,
                 "text": "source",
                 "rawText": "source",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 31
             },
@@ -128,7 +128,7 @@ function targetKey() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 31,
                 "end": 33
             },
@@ -148,7 +148,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 35,
                                         "end": 43
                                     },
@@ -156,11 +156,11 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "push",
                                         "rawText": "push",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 44,
                                         "end": 48
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 35,
                                     "end": 48
                                 },
@@ -171,21 +171,21 @@ function targetKey() {
                                             "kind": 201392131,
                                             "text": "source",
                                             "rawText": "source",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 49,
                                             "end": 57
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 49,
                                     "end": 57
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 58
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 35,
                             "end": 59
                         },
@@ -208,7 +208,7 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "p",
                                                 "rawText": "p",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 84,
                                                 "end": 86
                                             },
@@ -217,7 +217,7 @@ function targetKey() {
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 8448,
+                                                "flags": 1056,
                                                 "start": 87,
                                                 "end": 88
                                             },
@@ -238,7 +238,7 @@ function targetKey() {
                                                                         "kind": 134299649,
                                                                         "text": "log",
                                                                         "rawText": "log",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 90,
                                                                         "end": 106
                                                                     },
@@ -246,11 +246,11 @@ function targetKey() {
                                                                         "kind": 134299649,
                                                                         "text": "push",
                                                                         "rawText": "push",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 107,
                                                                         "end": 111
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 90,
                                                                     "end": 111
                                                                 },
@@ -261,35 +261,35 @@ function targetKey() {
                                                                             "kind": 201392131,
                                                                             "text": "get",
                                                                             "rawText": "get",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 112,
                                                                             "end": 117
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 112,
                                                                     "end": 117
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 90,
                                                                 "end": 118
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 90,
                                                             "end": 119
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 90,
                                                     "end": 119
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 88,
                                                 "end": 129
                                             },
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 86,
                                             "end": 129
                                         }
@@ -300,27 +300,27 @@ function targetKey() {
                                     "start": 72,
                                     "end": 129
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 70,
                                 "end": 135
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1,
                             "end": 59
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 35,
                     "end": 136
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 138
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 138
         },
@@ -339,7 +339,7 @@ function targetKey() {
                 "kind": 134299649,
                 "text": "target",
                 "rawText": "target",
-                "flags": 768,
+                "flags": 96,
                 "start": 147,
                 "end": 154
             },
@@ -347,7 +347,7 @@ function targetKey() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 154,
                 "end": 156
             },
@@ -367,7 +367,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 158,
                                         "end": 166
                                     },
@@ -375,11 +375,11 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "push",
                                         "rawText": "push",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 167,
                                         "end": 171
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 158,
                                     "end": 171
                                 },
@@ -390,21 +390,21 @@ function targetKey() {
                                             "kind": 201392131,
                                             "text": "target",
                                             "rawText": "target",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 172,
                                             "end": 180
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 172,
                                     "end": 180
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 158,
                                 "end": 181
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 158,
                             "end": 182
                         },
@@ -422,12 +422,20 @@ function targetKey() {
                                     "kind": 218,
                                     "properties": [
                                         {
+                                            "kind": 134299649,
+                                            "text": "set",
+                                            "rawText": "set",
+                                            "flags": 96,
+                                            "start": 195,
+                                            "end": 207
+                                        },
+                                        {
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "q",
                                                 "rawText": "q",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 207,
                                                 "end": 209
                                             },
@@ -442,20 +450,20 @@ function targetKey() {
                                                             "kind": 134299649,
                                                             "text": "v",
                                                             "rawText": "v",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 210,
                                                             "end": 211
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 210,
                                                         "end": 211
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 4352,
+                                                "flags": 32,
                                                 "start": 210,
                                                 "end": 212
                                             },
@@ -476,7 +484,7 @@ function targetKey() {
                                                                         "kind": 134299649,
                                                                         "text": "log",
                                                                         "rawText": "log",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 214,
                                                                         "end": 230
                                                                     },
@@ -484,11 +492,11 @@ function targetKey() {
                                                                         "kind": 134299649,
                                                                         "text": "push",
                                                                         "rawText": "push",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 231,
                                                                         "end": 235
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 214,
                                                                     "end": 235
                                                                 },
@@ -499,35 +507,35 @@ function targetKey() {
                                                                             "kind": 201392131,
                                                                             "text": "set",
                                                                             "rawText": "set",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 236,
                                                                             "end": 241
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 236,
                                                                     "end": 241
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 214,
                                                                 "end": 242
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 214,
                                                             "end": 243
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 214,
                                                     "end": 243
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 212,
                                                 "end": 253
                                             },
-                                            "flags": 4352,
+                                            "flags": 32,
                                             "start": 209,
                                             "end": 253
                                         }
@@ -538,27 +546,27 @@ function targetKey() {
                                     "start": 195,
                                     "end": 253
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 193,
                                 "end": 259
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1,
                             "end": 182
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 158,
                     "end": 260
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 156,
                 "end": 262
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 138,
             "end": 262
         },
@@ -577,7 +585,7 @@ function targetKey() {
                 "kind": 134299649,
                 "text": "sourceKey",
                 "rawText": "sourceKey",
-                "flags": 768,
+                "flags": 96,
                 "start": 271,
                 "end": 281
             },
@@ -585,7 +593,7 @@ function targetKey() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 281,
                 "end": 283
             },
@@ -605,7 +613,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 285,
                                         "end": 293
                                     },
@@ -613,11 +621,11 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "push",
                                         "rawText": "push",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 294,
                                         "end": 298
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 285,
                                     "end": 298
                                 },
@@ -628,21 +636,21 @@ function targetKey() {
                                             "kind": 201392131,
                                             "text": "source-key",
                                             "rawText": "source-key",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 299,
                                             "end": 311
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 299,
                                     "end": 311
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 285,
                                 "end": 312
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 285,
                             "end": 313
                         },
@@ -676,7 +684,7 @@ function targetKey() {
                                                     "kind": 214,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 353,
                                                     "end": 355
                                                 },
@@ -696,7 +704,7 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "log",
                                                                             "rawText": "log",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 357,
                                                                             "end": 373
                                                                         },
@@ -704,11 +712,11 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "push",
                                                                             "rawText": "push",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 374,
                                                                             "end": 378
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 357,
                                                                         "end": 378
                                                                     },
@@ -719,21 +727,21 @@ function targetKey() {
                                                                                 "kind": 201392131,
                                                                                 "text": "source-key-tostring",
                                                                                 "rawText": "source-key-tostring",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 379,
                                                                                 "end": 400
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 379,
                                                                         "end": 400
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 357,
                                                                     "end": 401
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 357,
                                                                 "end": 402
                                                             },
@@ -749,27 +757,27 @@ function targetKey() {
                                                                     "kind": 201392131,
                                                                     "text": "p",
                                                                     "rawText": "p",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 421,
                                                                     "end": 425
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 1,
                                                                 "end": 402
                                                             }
                                                         ],
                                                         "multiline": true,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 357,
                                                         "end": 426
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 355,
                                                     "end": 436
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 344,
                                                 "end": 436
                                             },
@@ -777,11 +785,11 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "toString",
                                                 "rawText": "toString",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 326,
                                                 "end": 343
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 326,
                                             "end": 436
                                         }
@@ -792,27 +800,27 @@ function targetKey() {
                                     "start": 326,
                                     "end": 436
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 324,
                                 "end": 442
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1,
                             "end": 313
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 285,
                     "end": 443
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 283,
                 "end": 445
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 262,
             "end": 445
         },
@@ -831,7 +839,7 @@ function targetKey() {
                 "kind": 134299649,
                 "text": "targetKey",
                 "rawText": "targetKey",
-                "flags": 768,
+                "flags": 96,
                 "start": 454,
                 "end": 464
             },
@@ -839,7 +847,7 @@ function targetKey() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 464,
                 "end": 466
             },
@@ -859,7 +867,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 468,
                                         "end": 476
                                     },
@@ -867,11 +875,11 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "push",
                                         "rawText": "push",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 477,
                                         "end": 481
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 468,
                                     "end": 481
                                 },
@@ -882,21 +890,21 @@ function targetKey() {
                                             "kind": 201392131,
                                             "text": "target-key",
                                             "rawText": "target-key",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 482,
                                             "end": 494
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 482,
                                     "end": 494
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 468,
                                 "end": 495
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 468,
                             "end": 496
                         },
@@ -930,7 +938,7 @@ function targetKey() {
                                                     "kind": 214,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 536,
                                                     "end": 538
                                                 },
@@ -950,7 +958,7 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "log",
                                                                             "rawText": "log",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 540,
                                                                             "end": 556
                                                                         },
@@ -958,11 +966,11 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "push",
                                                                             "rawText": "push",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 557,
                                                                             "end": 561
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 540,
                                                                         "end": 561
                                                                     },
@@ -973,21 +981,21 @@ function targetKey() {
                                                                                 "kind": 201392131,
                                                                                 "text": "target-key-tostring",
                                                                                 "rawText": "target-key-tostring",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 562,
                                                                                 "end": 583
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 562,
                                                                         "end": 583
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 540,
                                                                     "end": 584
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 540,
                                                                 "end": 585
                                                             },
@@ -1003,27 +1011,27 @@ function targetKey() {
                                                                     "kind": 201392131,
                                                                     "text": "q",
                                                                     "rawText": "q",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 604,
                                                                     "end": 608
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 1,
                                                                 "end": 585
                                                             }
                                                         ],
                                                         "multiline": true,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 540,
                                                         "end": 609
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 538,
                                                     "end": 619
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 527,
                                                 "end": 619
                                             },
@@ -1031,11 +1039,11 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "toString",
                                                 "rawText": "toString",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 509,
                                                 "end": 526
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 509,
                                             "end": 619
                                         }
@@ -1046,27 +1054,27 @@ function targetKey() {
                                     "start": 509,
                                     "end": 619
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 507,
                                 "end": 625
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1,
                             "end": 496
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 468,
                     "end": 626
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 466,
                 "end": 628
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 445,
             "end": 628
         },
@@ -1091,7 +1099,7 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "target",
                                                 "rawText": "target",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 647,
                                                 "end": 654
                                             },
@@ -1099,11 +1107,11 @@ function targetKey() {
                                                 "kind": 256,
                                                 "elements": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 655,
                                                 "end": 655
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 633,
                                             "end": 656
                                         },
@@ -1113,7 +1121,7 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "targetKey",
                                                 "rawText": "targetKey",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 657,
                                                 "end": 666
                                             },
@@ -1121,15 +1129,15 @@ function targetKey() {
                                                 "kind": 256,
                                                 "elements": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 667,
                                                 "end": 667
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 657,
                                             "end": 668
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 633,
                                         "end": 669
                                     },
@@ -1141,7 +1149,7 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "sourceKey",
                                                 "rawText": "sourceKey",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 634,
                                                 "end": 643
                                             },
@@ -1149,19 +1157,19 @@ function targetKey() {
                                                 "kind": 256,
                                                 "elements": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 644,
                                                 "end": 644
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 634,
                                             "end": 645
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 633,
                                         "end": 646
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 633,
                                     "end": 669
                                 }
@@ -1172,13 +1180,13 @@ function targetKey() {
                             "start": 633,
                             "end": 669
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 632,
                         "end": 670
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 670,
                         "end": 672
                     },
@@ -1188,7 +1196,7 @@ function targetKey() {
                             "kind": 134299649,
                             "text": "source",
                             "rawText": "source",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 672,
                             "end": 679
                         },
@@ -1196,23 +1204,23 @@ function targetKey() {
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 680,
                             "end": 680
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 672,
                         "end": 681
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 632,
                     "end": 681
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 628,
                 "end": 682
             },
-            "flags": 128,
+            "flags": 16,
             "start": 628,
             "end": 683
         }
@@ -1235,6 +1243,7 @@ function targetKey() {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 207, end: 209
+
 ```
 

@@ -31,7 +31,7 @@ while (x) function f(){}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
@@ -50,7 +50,7 @@ while (x) function f(){}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
@@ -58,7 +58,7 @@ while (x) function f(){}
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 22
                 },
@@ -69,21 +69,21 @@ while (x) function f(){}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 23,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 24
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

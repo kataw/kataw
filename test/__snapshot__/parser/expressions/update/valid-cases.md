@@ -29,7 +29,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 3,
                     "end": 5
                 },
@@ -37,15 +37,15 @@ new foo().bar++;
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -55,7 +55,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 16
                 },
@@ -65,7 +65,7 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 10
                     },
@@ -73,19 +73,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 17
         },
@@ -95,7 +95,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 26,
                     "end": 28
                 },
@@ -105,7 +105,7 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 21
                     },
@@ -113,19 +113,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 29
         },
@@ -135,7 +135,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 40,
                     "end": 42
                 },
@@ -147,7 +147,7 @@ new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 29,
                             "end": 33
                         },
@@ -155,11 +155,11 @@ new foo().bar++;
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 34,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 29,
                         "end": 35
                     },
@@ -167,19 +167,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 36,
                         "end": 39
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 40
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 43
         },
@@ -189,7 +189,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 53,
                     "end": 55
                 },
@@ -201,7 +201,7 @@ new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 43,
                             "end": 47
                         },
@@ -209,11 +209,11 @@ new foo().bar++;
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 48,
                             "end": 48
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 43,
                         "end": 49
                     },
@@ -221,19 +221,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 50,
                         "end": 53
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 43,
                     "end": 53
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 43,
                 "end": 55
             },
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 56
         },
@@ -243,7 +243,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 65,
                     "end": 67
                 },
@@ -251,7 +251,7 @@ new foo().bar++;
                     "kind": 129,
                     "member": {
                         "kind": 135,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 56,
                         "end": 61
                     },
@@ -259,19 +259,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 62,
                         "end": 65
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 56,
                     "end": 65
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 56,
                 "end": 67
             },
-            "flags": 128,
+            "flags": 16,
             "start": 56,
             "end": 68
         },
@@ -281,7 +281,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 78,
                     "end": 80
                 },
@@ -289,7 +289,7 @@ new foo().bar++;
                     "kind": 130,
                     "member": {
                         "kind": 135,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 68,
                         "end": 73
                     },
@@ -297,19 +297,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 74,
                         "end": 77
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 68,
                     "end": 78
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 68,
                 "end": 80
             },
-            "flags": 128,
+            "flags": 16,
             "start": 68,
             "end": 81
         },
@@ -319,7 +319,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 96,
                     "end": 98
                 },
@@ -337,7 +337,7 @@ new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 85,
                             "end": 89
                         },
@@ -345,11 +345,11 @@ new foo().bar++;
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 90,
                             "end": 90
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 81,
                         "end": 91
                     },
@@ -357,19 +357,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 92,
                         "end": 95
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 81,
                     "end": 96
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 81,
                 "end": 98
             },
-            "flags": 128,
+            "flags": 16,
             "start": 81,
             "end": 99
         },
@@ -379,7 +379,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 113,
                     "end": 115
                 },
@@ -397,7 +397,7 @@ new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 103,
                             "end": 107
                         },
@@ -405,11 +405,11 @@ new foo().bar++;
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 108,
                             "end": 108
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 99,
                         "end": 109
                     },
@@ -417,19 +417,19 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 110,
                         "end": 113
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 99,
                     "end": 113
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 99,
                 "end": 115
             },
-            "flags": 128,
+            "flags": 16,
             "start": 99,
             "end": 116
         }

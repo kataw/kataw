@@ -23,32 +23,32 @@
                     "kind": 121,
                     "expression": {
                         "kind": 132,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 1
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 24752947,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 5
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         }

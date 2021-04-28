@@ -28,7 +28,7 @@ export function createUniqueIdentifier(
     kind: SyntaxKind.UniqueIdentifier,
     uniqueFlags: reservedInNestedScopes ? uniqueFlags | UniqueIdentifierFlags.ReservedInNestedScopes : uniqueFlags,
     uniqueId,
-    flags: NodeFlags.Synthetic,
+    flags: NodeFlags.ChildLess,
     start: -1,
     end: -1
   };

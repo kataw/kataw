@@ -33,11 +33,11 @@ try [catch] class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try [catch] class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -70,11 +70,11 @@ try [catch] class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 10
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 10
             },
@@ -86,15 +86,15 @@ try [catch] class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 11
         },
@@ -112,7 +112,7 @@ try [catch] class x {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 19
             },
@@ -121,11 +121,11 @@ try [catch] class x {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 22
         }

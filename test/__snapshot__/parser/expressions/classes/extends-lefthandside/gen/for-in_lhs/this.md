@@ -28,14 +28,14 @@ for (this in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 9,
                 "end": 12
             },
             "kind": 166,
             "initializer": {
                 "kind": 135,
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -43,17 +43,17 @@ for (this in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 12,
                 "end": 14
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

@@ -25,12 +25,20 @@
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "set",
+                                "rawText": "set",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 6
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 8
                                 },
@@ -45,14 +53,14 @@
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 9,
                                                 "end": 10
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -63,20 +71,20 @@
                                                 "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 11,
                                                 "end": 13
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 4352,
+                                    "flags": 32,
                                     "start": 9,
                                     "end": 14
                                 },
@@ -88,15 +96,15 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 15
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 16
                                 },
-                                "flags": 4352,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 16
                             }
@@ -107,15 +115,15 @@
                         "start": 2,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }
@@ -138,7 +146,7 @@
 ### Diagnostics
 
 ```javascript
-✖ A 'set' accessor must have exactly one parameter. - start: 11, end: 13
+✖ ',' expected - start: 6, end: 8
 
 ```
 

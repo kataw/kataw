@@ -41,7 +41,7 @@ var a: { id<T>(x: T): T; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -57,7 +57,7 @@ var a: { id<T>(x: T): T; }
                                             "kind": 134299649,
                                             "text": "id",
                                             "rawText": "id",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 8,
                                             "end": 11
                                         },
@@ -73,7 +73,7 @@ var a: { id<T>(x: T): T; }
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 15,
                                                             "end": 16
                                                         },
@@ -84,7 +84,7 @@ var a: { id<T>(x: T): T; }
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 17,
                                                                 "end": 19
                                                             },
@@ -99,7 +99,7 @@ var a: { id<T>(x: T): T; }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 15,
                                                 "end": 19
                                             },
@@ -109,7 +109,7 @@ var a: { id<T>(x: T): T; }
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 21,
                                                     "end": 23
                                                 },
@@ -127,7 +127,7 @@ var a: { id<T>(x: T): T; }
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 12,
                                                             "end": 13
                                                         },
@@ -164,16 +164,16 @@ var a: { id<T>(x: T): T; }
                             "end": 26
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 26
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

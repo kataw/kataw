@@ -28,11 +28,11 @@ catch catch
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
@@ -51,21 +51,21 @@ catch catch
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 11
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

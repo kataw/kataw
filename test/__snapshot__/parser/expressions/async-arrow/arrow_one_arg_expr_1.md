@@ -29,14 +29,14 @@ async (x)=>x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -45,17 +45,17 @@ async (x)=>x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 12
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 13
         }

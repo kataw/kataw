@@ -30,11 +30,11 @@ return => {} , bar;
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -44,11 +44,11 @@ return => {} , bar;
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 12
         },
@@ -58,11 +58,11 @@ return => {} , bar;
                 "kind": 134299649,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 19
         }

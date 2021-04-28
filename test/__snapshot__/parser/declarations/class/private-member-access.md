@@ -29,7 +29,7 @@
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 9
             },
@@ -47,20 +47,20 @@
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 16
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 16
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 17
                     },
@@ -78,7 +78,7 @@
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 19
                             },
@@ -104,32 +104,32 @@
                                                 "kind": 129,
                                                 "member": {
                                                     "kind": 135,
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 23,
                                                     "end": 28
                                                 },
                                                 "expression": {
                                                     "kind": 67109115,
                                                     "text": "#aaa",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 29,
                                                     "end": 33
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 33
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 23,
                                             "end": 33
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 35
                             },
@@ -142,11 +142,11 @@
                         "end": 35
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         }

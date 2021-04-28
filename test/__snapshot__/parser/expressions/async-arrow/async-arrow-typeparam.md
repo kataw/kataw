@@ -34,7 +34,7 @@ async (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -56,7 +56,7 @@ async (): string => {}
                     "parameters": [],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },
@@ -64,7 +64,7 @@ async (): string => {}
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 13,
                             "end": 20
                         },
@@ -79,15 +79,15 @@ async (): string => {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 25,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 23,
                         "end": 26
                     },
-                    "flags": 2304,
+                    "flags": 288,
                     "start": 3,
                     "end": 26
                 },
@@ -101,15 +101,15 @@ async (): string => {}
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 29,
                     "end": 32
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         },
@@ -125,7 +125,7 @@ async (): string => {}
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 33,
                 "end": 40
             },
@@ -133,7 +133,7 @@ async (): string => {}
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 44,
                     "end": 51
                 },
@@ -148,15 +148,15 @@ async (): string => {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 56,
                     "end": 56
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 54,
                 "end": 57
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 33,
             "end": 57
         }

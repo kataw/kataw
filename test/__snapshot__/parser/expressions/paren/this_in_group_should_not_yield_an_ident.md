@@ -21,15 +21,15 @@
                 "kind": 121,
                 "expression": {
                     "kind": 135,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1,
                     "end": 5
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         }

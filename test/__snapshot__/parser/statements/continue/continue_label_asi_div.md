@@ -22,7 +22,7 @@ x: for(;;) continue x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 1
             },
@@ -49,19 +49,19 @@ x: for(;;) continue x
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         },
@@ -72,13 +72,13 @@ x: for(;;) continue x
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 21,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 513,
+                    "flags": 65,
                     "start": 21,
                     "end": 23
                 },
@@ -86,15 +86,15 @@ x: for(;;) continue x
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 23,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 24
         }

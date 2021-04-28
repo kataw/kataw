@@ -38,7 +38,7 @@ function foo<T,S>() {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 12
             },
@@ -46,7 +46,7 @@ function foo<T,S>() {}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 19
             },
@@ -57,11 +57,11 @@ function foo<T,S>() {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 22
             },
@@ -74,7 +74,7 @@ function foo<T,S>() {}
                             "kind": 134299649,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },
@@ -89,7 +89,7 @@ function foo<T,S>() {}
                             "kind": 134299649,
                             "text": "S",
                             "rawText": "S",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 16
                         },
@@ -104,7 +104,7 @@ function foo<T,S>() {}
                 "end": 17
             },
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

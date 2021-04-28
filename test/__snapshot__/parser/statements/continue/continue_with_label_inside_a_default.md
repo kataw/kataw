@@ -27,7 +27,7 @@ switch (x) { default: continue foo; }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -55,25 +55,25 @@ switch (x) { default: continue foo; }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 34
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 21,
                                 "end": 35
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 35
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         }

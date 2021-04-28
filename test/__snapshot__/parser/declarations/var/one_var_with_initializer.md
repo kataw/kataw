@@ -50,7 +50,7 @@ var [foo=a] = arr;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -60,21 +60,21 @@ var [foo=a] = arr;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 11
                         },
@@ -84,20 +84,20 @@ var [foo=a] = arr;
                             "kind": 134299649,
                             "text": "arr",
                             "rawText": "arr",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 17
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

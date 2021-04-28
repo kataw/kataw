@@ -33,11 +33,11 @@ try catch false
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -56,21 +56,21 @@ try catch false
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 9,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -79,11 +79,11 @@ try catch false
             "expression": {
                 "kind": 134,
                 "text": false,
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 15
         }

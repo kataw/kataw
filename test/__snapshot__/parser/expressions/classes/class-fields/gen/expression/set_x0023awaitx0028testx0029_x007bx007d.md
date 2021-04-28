@@ -33,7 +33,7 @@ class C extends Base { set #await(test) {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,12 +50,12 @@ class C extends Base { set #await(test) {} }
                     "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 20
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 20
             },
@@ -71,7 +71,7 @@ class C extends Base { set #await(test) {} }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 22,
                             "end": 26
                         },
@@ -80,7 +80,7 @@ class C extends Base { set #await(test) {} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 26,
                                 "end": 33
                             },
@@ -95,20 +95,20 @@ class C extends Base { set #await(test) {} }
                                             "kind": 134299649,
                                             "text": "test",
                                             "rawText": "test",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 38
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 34,
                                         "end": 38
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 34,
                                 "end": 39
                             },
@@ -120,28 +120,28 @@ class C extends Base { set #await(test) {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 41,
                                     "end": 41
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 42
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 33,
                             "end": 42
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 22,
                         "end": 42
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 44
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 44
         }

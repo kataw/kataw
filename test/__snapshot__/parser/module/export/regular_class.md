@@ -43,7 +43,7 @@ export class x {} foo
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 14
                 },
@@ -52,18 +52,18 @@ export class x {} foo
                 "members": {
                     "kind": 277,
                     "elements": [],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 17
             },
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -73,11 +73,11 @@ export class x {} foo
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 21
         }

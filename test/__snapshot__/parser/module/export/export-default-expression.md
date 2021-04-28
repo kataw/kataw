@@ -43,13 +43,13 @@ export default (1 + 2);
                         "kind": 201392130,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 17,
                         "end": 19
                     },
@@ -57,19 +57,19 @@ export default (1 + 2);
                         "kind": 201392130,
                         "text": 2,
                         "rawText": "2",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

@@ -27,7 +27,7 @@ call(await.foo)
                     "kind": 134299649,
                     "text": "call",
                     "rawText": "call",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -40,7 +40,7 @@ call(await.foo)
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 5,
                                 "end": 10
                             },
@@ -48,25 +48,25 @@ call(await.foo)
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 14
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

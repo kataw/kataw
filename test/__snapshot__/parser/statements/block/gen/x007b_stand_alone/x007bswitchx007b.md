@@ -48,38 +48,38 @@
                                             "start": 10,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 10
                                     },
                                     "caseBlock": {
                                         "kind": 152,
                                         "clauses": [],
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 10,
                                         "end": 10
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 10
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 10
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 10
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

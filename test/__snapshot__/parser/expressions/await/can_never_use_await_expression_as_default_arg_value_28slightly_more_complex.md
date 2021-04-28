@@ -30,7 +30,7 @@ function call(foo= 5 + (await bar())){}
                 "kind": 134299649,
                 "text": "call",
                 "rawText": "call",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 13
             },
@@ -44,7 +44,7 @@ function call(foo= 5 + (await bar())){}
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 17
                         },
@@ -56,13 +56,13 @@ function call(foo= 5 + (await bar())){}
                                 "kind": 201392130,
                                 "text": 5,
                                 "rawText": "5",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 18,
                                 "end": 20
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 22
                             },
@@ -70,19 +70,19 @@ function call(foo= 5 + (await bar())){}
                                 "kind": 121,
                                 "expression": {
                                     "kind": 132,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 29
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 29
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 14,
                         "end": 29
                     },
@@ -93,20 +93,20 @@ function call(foo= 5 + (await bar())){}
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 29,
                             "end": 33
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 29,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 13,
                 "end": 34
             },
@@ -117,17 +117,17 @@ function call(foo= 5 + (await bar())){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 33
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         },
@@ -136,11 +136,11 @@ function call(foo= 5 + (await bar())){}
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 33,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 33,
             "end": 35
         },
@@ -150,11 +150,11 @@ function call(foo= 5 + (await bar())){}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 38,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 37,
             "end": 39
         }

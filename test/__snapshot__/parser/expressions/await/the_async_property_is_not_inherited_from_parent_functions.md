@@ -20,7 +20,7 @@ async function f(){ let y = x => await x; }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function f(){ let y = x => await x; }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -43,7 +43,7 @@ async function f(){ let y = x => await x; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -57,7 +57,7 @@ async function f(){ let y = x => await x; }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 640,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 23
                             },
@@ -70,7 +70,7 @@ async function f(){ let y = x => await x; }
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 23,
                                             "end": 25
                                         },
@@ -89,7 +89,7 @@ async function f(){ let y = x => await x; }
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 27,
                                                 "end": 29
                                             },
@@ -99,15 +99,15 @@ async function f(){ let y = x => await x; }
                                                 "kind": 134299649,
                                                 "text": "await",
                                                 "rawText": "await",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 32,
                                                 "end": 38
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 27,
                                             "end": 38
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 23,
                                         "end": 38
                                     },
@@ -117,39 +117,39 @@ async function f(){ let y = x => await x; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 38,
                                             "end": 40
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 38,
                                         "end": 40
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 23,
                                 "end": 40
                             },
-                            "flags": 128,
+                            "flags": 33554448,
                             "start": 19,
                             "end": 41
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 43
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 43
         }

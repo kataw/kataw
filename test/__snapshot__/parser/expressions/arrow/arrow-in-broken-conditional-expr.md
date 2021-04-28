@@ -23,7 +23,7 @@ bar ? (=> 0) : baz;
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -38,11 +38,11 @@ bar ? (=> 0) : baz;
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 7
                 },
@@ -51,15 +51,15 @@ bar ? (=> 0) : baz;
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -69,11 +69,11 @@ bar ? (=> 0) : baz;
                 "kind": 134299649,
                 "text": "baz",
                 "rawText": "baz",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 19
         }

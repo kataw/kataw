@@ -22,15 +22,15 @@
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -48,7 +48,7 @@
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 16,
                 "end": 16
             },
@@ -56,7 +56,7 @@
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -67,17 +67,17 @@
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 20
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 20
         }

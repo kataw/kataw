@@ -30,18 +30,18 @@ switch( try { !xxx case
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 7,
                 "end": 7
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -64,7 +64,7 @@ switch( try { !xxx case
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -72,25 +72,25 @@ switch( try { !xxx case
                                     "kind": 134299649,
                                     "text": "xxx",
                                     "rawText": "xxx",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 18
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 18
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 18
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 18
             },
@@ -102,15 +102,15 @@ switch( try { !xxx case
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 23
         }

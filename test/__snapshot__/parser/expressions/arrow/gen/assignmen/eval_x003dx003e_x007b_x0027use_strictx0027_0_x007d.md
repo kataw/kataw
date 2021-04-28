@@ -27,13 +27,13 @@ x = eval => { 'use strict'; 0 } ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -50,7 +50,7 @@ x = eval => { 'use strict'; 0 } ;
                         "kind": 134299649,
                         "text": "eval",
                         "rawText": "eval",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 3,
                         "end": 8
                     },
@@ -65,7 +65,7 @@ x = eval => { 'use strict'; 0 } ;
                                     "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
-                                    "flags": 67109632,
+                                    "flags": 4194400,
                                     "start": 13,
                                     "end": 26
                                 }
@@ -77,33 +77,33 @@ x = eval => { 'use strict'; 0 } ;
                                         "kind": 201392130,
                                         "text": 0,
                                         "rawText": "0",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 27,
                                         "end": 29
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 27,
                                     "end": 29
                                 }
                             ],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

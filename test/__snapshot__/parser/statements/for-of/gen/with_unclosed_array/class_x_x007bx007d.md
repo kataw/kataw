@@ -33,11 +33,11 @@ try[ class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try[ class x {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -75,7 +75,7 @@ try[ class x {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 12
             },
@@ -84,11 +84,11 @@ try[ class x {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 15
         }

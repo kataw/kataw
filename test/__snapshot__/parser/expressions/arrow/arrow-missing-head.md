@@ -21,11 +21,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2,
             "end": 5
         }

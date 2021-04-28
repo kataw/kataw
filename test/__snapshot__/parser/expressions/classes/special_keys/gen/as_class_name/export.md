@@ -32,7 +32,7 @@ class export {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class export {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -63,7 +63,7 @@ class export {}
                 "exportsList": {
                     "kind": 261,
                     "specifiers": [],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
@@ -73,7 +73,7 @@ class export {}
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 15
         }

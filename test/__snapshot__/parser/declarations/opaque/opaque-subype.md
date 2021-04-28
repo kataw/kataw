@@ -27,13 +27,13 @@ opaque type Counter: Box<T> = Container<T>;
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 19
             },
@@ -41,7 +41,7 @@ opaque type Counter: Box<T> = Container<T>;
                 "kind": 134299649,
                 "text": "Counter",
                 "rawText": "Counter",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 19
             },
@@ -53,7 +53,7 @@ opaque type Counter: Box<T> = Container<T>;
                         "kind": 134299649,
                         "text": "Box",
                         "rawText": "Box",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 24
                     },
@@ -66,7 +66,7 @@ opaque type Counter: Box<T> = Container<T>;
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -95,7 +95,7 @@ opaque type Counter: Box<T> = Container<T>;
                     "kind": 134299649,
                     "text": "Container",
                     "rawText": "Container",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 29,
                     "end": 39
                 },
@@ -108,7 +108,7 @@ opaque type Counter: Box<T> = Container<T>;
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 40,
                                 "end": 41
                             },
@@ -126,7 +126,7 @@ opaque type Counter: Box<T> = Container<T>;
                 "start": 29,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 43
         }

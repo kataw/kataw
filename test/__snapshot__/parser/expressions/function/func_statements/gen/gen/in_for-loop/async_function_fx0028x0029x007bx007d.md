@@ -36,7 +36,7 @@ for (;;) async function f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 8,
                         "end": 14
                     },
@@ -51,7 +51,7 @@ for (;;) async function f(){}
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 23,
                         "end": 25
                     },
@@ -59,7 +59,7 @@ for (;;) async function f(){}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 27
                     },
@@ -70,25 +70,25 @@ for (;;) async function f(){}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 28,
                             "end": 28
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 27,
                         "end": 29
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 1280,
+                    "flags": 160,
                     "start": 8,
                     "end": 29
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

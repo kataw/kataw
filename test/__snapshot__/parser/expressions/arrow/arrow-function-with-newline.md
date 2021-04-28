@@ -38,14 +38,14 @@ async (f)
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -57,7 +57,7 @@ async (f)
                         "kind": 134299649,
                         "text": "t",
                         "rawText": "t",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 13
                     },
@@ -77,15 +77,15 @@ async (f)
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 20
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 20
         }

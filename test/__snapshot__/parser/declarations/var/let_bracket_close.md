@@ -46,17 +46,17 @@ var ];
             "declarationList": {
                 "kind": 156,
                 "declarations": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 6
         }

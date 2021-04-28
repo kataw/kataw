@@ -123,13 +123,13 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 7
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 9
         },
@@ -146,15 +146,15 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 17,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 20
         },
@@ -171,15 +171,15 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 29,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 30
         },
@@ -194,13 +194,13 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 38,
             "end": 38
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 40
         },
@@ -217,15 +217,15 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 48,
                     "end": 49
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 48,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 48,
             "end": 51
         },
@@ -243,15 +243,15 @@ new import(x);
                     "kind": 201392131,
                     "text": "x;",
                     "rawText": "'x;",
-                    "flags": 100664064,
+                    "flags": 6291552,
                     "start": 60,
                     "end": 63
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 59,
                 "end": 63
             },
-            "flags": 128,
+            "flags": 16,
             "start": 59,
             "end": 63
         },
@@ -269,21 +269,21 @@ new import(x);
                     "kind": 201392131,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 67109632,
+                    "flags": 4194400,
                     "start": 72,
                     "end": 75
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 71,
                 "end": 75
             },
-            "flags": 128,
+            "flags": 16,
             "start": 71,
             "end": 75
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 76,
             "end": 77
         },
@@ -298,7 +298,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 85,
             "end": 85
         },
@@ -313,27 +313,27 @@ new import(x);
                             "kind": 201392131,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 67109632,
+                            "flags": 4194400,
                             "start": 86,
                             "end": 89
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 86,
                     "end": 89
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 85,
                 "end": 89
             },
-            "flags": 128,
+            "flags": 16,
             "start": 85,
             "end": 89
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 90,
             "end": 91
         },
@@ -348,7 +348,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 99,
             "end": 99
         },
@@ -358,11 +358,11 @@ new import(x);
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 101,
                 "end": 103
             },
-            "flags": 128,
+            "flags": 16,
             "start": 101,
             "end": 104
         },
@@ -383,40 +383,40 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 113,
                             "end": 114
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 112,
                         "end": 114
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 115,
                         "end": 115
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 116,
                         "end": 116
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 112,
                 "end": 116
             },
-            "flags": 128,
+            "flags": 16,
             "start": 112,
             "end": 116
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 117,
             "end": 118
         },
@@ -434,21 +434,21 @@ new import(x);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 127,
                     "end": 128
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 126,
                 "end": 129
             },
-            "flags": 128,
+            "flags": 16,
             "start": 126,
             "end": 129
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 130,
             "end": 131
         },
@@ -469,33 +469,33 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 140,
                             "end": 141
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 139,
                         "end": 141
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 142,
                         "end": 142
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 139,
                 "end": 142
             },
-            "flags": 128,
+            "flags": 16,
             "start": 139,
             "end": 142
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 144,
             "end": 145
         },
@@ -516,33 +516,33 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 154,
                             "end": 155
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 153,
                         "end": 155
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 156,
                         "end": 156
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 153,
                 "end": 158
             },
-            "flags": 128,
+            "flags": 16,
             "start": 153,
             "end": 158
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 159,
             "end": 160
         },
@@ -563,11 +563,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 169,
                             "end": 170
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 168,
                         "end": 170
                     },
@@ -575,36 +575,36 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 171,
                         "end": 172
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 173,
                         "end": 173
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 174,
                         "end": 174
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 168,
                 "end": 174
             },
-            "flags": 128,
+            "flags": 16,
             "start": 168,
             "end": 174
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 175,
             "end": 176
         },
@@ -625,11 +625,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 185,
                             "end": 186
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 184,
                         "end": 186
                     },
@@ -637,7 +637,7 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 187,
                         "end": 188
                     },
@@ -645,22 +645,22 @@ new import(x);
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 189,
                         "end": 190
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 184,
                 "end": 190
             },
-            "flags": 128,
+            "flags": 16,
             "start": 184,
             "end": 190
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 191,
             "end": 192
         },
@@ -681,11 +681,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 201,
                             "end": 202
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 200,
                         "end": 202
                     },
@@ -693,16 +693,16 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 203,
                         "end": 204
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 200,
                 "end": 204
             },
-            "flags": 128,
+            "flags": 16,
             "start": 200,
             "end": 205
         },
@@ -723,11 +723,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 214,
                             "end": 215
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 213,
                         "end": 215
                     },
@@ -735,23 +735,23 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 216,
                         "end": 217
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 218,
                         "end": 218
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 213,
                 "end": 218
             },
-            "flags": 128,
+            "flags": 16,
             "start": 213,
             "end": 219
         },
@@ -772,11 +772,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 228,
                             "end": 229
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 227,
                         "end": 229
                     },
@@ -786,7 +786,7 @@ new import(x);
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 230,
                             "end": 231
                         },
@@ -794,20 +794,20 @@ new import(x);
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 232,
                             "end": 232
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 230,
                         "end": 232
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 227,
                 "end": 232
             },
-            "flags": 128,
+            "flags": 16,
             "start": 227,
             "end": 233
         },
@@ -822,7 +822,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 241,
             "end": 241
         },
@@ -834,15 +834,15 @@ new import(x);
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 242,
                     "end": 242
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 241,
                 "end": 242
             },
-            "flags": 128,
+            "flags": 16,
             "start": 241,
             "end": 243
         },
@@ -857,7 +857,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 251,
             "end": 251
         },
@@ -869,15 +869,15 @@ new import(x);
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 252,
                     "end": 252
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 251,
                 "end": 253
             },
-            "flags": 128,
+            "flags": 16,
             "start": 251,
             "end": 254
         },
@@ -892,13 +892,13 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 262,
             "end": 262
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 263,
             "end": 264
         },
@@ -913,7 +913,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 272,
             "end": 272
         },
@@ -928,21 +928,21 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 273,
                             "end": 274
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 273,
                     "end": 274
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 272,
                 "end": 275
             },
-            "flags": 128,
+            "flags": 16,
             "start": 272,
             "end": 276
         },
@@ -957,7 +957,7 @@ new import(x);
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 285,
                 "end": 285
             },
@@ -975,15 +975,15 @@ new import(x);
                         "start": 285,
                         "end": 285
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 284,
                     "end": 285
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 284,
                 "end": 285
             },
-            "flags": 128,
+            "flags": 16,
             "start": 284,
             "end": 286
         },
@@ -998,7 +998,7 @@ new import(x);
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 296,
                 "end": 296
             },
@@ -1020,11 +1020,11 @@ new import(x);
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 295,
                                     "end": 296
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 295,
                                 "end": 296
                             }
@@ -1033,15 +1033,15 @@ new import(x);
                         "start": 295,
                         "end": 296
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 294,
                     "end": 296
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 294,
                 "end": 296
             },
-            "flags": 128,
+            "flags": 16,
             "start": 294,
             "end": 297
         },
@@ -1056,7 +1056,7 @@ new import(x);
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 308,
                 "end": 308
             },
@@ -1078,11 +1078,11 @@ new import(x);
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 306,
                                     "end": 307
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 306,
                                 "end": 307
                             }
@@ -1091,15 +1091,15 @@ new import(x);
                         "start": 306,
                         "end": 307
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 305,
                     "end": 308
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 305,
                 "end": 308
             },
-            "flags": 128,
+            "flags": 16,
             "start": 305,
             "end": 309
         },
@@ -1120,11 +1120,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 318,
                             "end": 319
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 317,
                         "end": 319
                     },
@@ -1132,22 +1132,22 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 320,
                         "end": 322
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 317,
                 "end": 322
             },
-            "flags": 128,
+            "flags": 16,
             "start": 317,
             "end": 322
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 323,
             "end": 324
         },
@@ -1164,15 +1164,15 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 333,
                     "end": 333
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 332,
                 "end": 333
             },
-            "flags": 128,
+            "flags": 16,
             "start": 332,
             "end": 333
         },
@@ -1182,17 +1182,17 @@ new import(x);
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 336,
                 "end": 337
             },
-            "flags": 128,
+            "flags": 16,
             "start": 336,
             "end": 337
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 338,
             "end": 339
         },
@@ -1213,33 +1213,33 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 348,
                             "end": 349
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 347,
                         "end": 349
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 350,
                         "end": 350
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 347,
                 "end": 350
             },
-            "flags": 128,
+            "flags": 16,
             "start": 347,
             "end": 350
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 351,
             "end": 352
         },
@@ -1259,33 +1259,33 @@ new import(x);
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 361,
                             "end": 361
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 360,
                         "end": 361
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 362,
                         "end": 362
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 360,
                 "end": 362
             },
-            "flags": 128,
+            "flags": 16,
             "start": 360,
             "end": 362
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 363,
             "end": 364
         },
@@ -1305,11 +1305,11 @@ new import(x);
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 373,
                             "end": 373
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 372,
                         "end": 373
                     },
@@ -1317,22 +1317,22 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 374,
                         "end": 375
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 372,
                 "end": 375
             },
-            "flags": 128,
+            "flags": 16,
             "start": 372,
             "end": 375
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 376,
             "end": 377
         },
@@ -1349,21 +1349,21 @@ new import(x);
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 386,
                     "end": 386
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 385,
                 "end": 386
             },
-            "flags": 128,
+            "flags": 16,
             "start": 385,
             "end": 387
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 388,
             "end": 389
         },
@@ -1387,15 +1387,15 @@ new import(x);
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 399,
                                     "end": 399
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 398,
                                 "end": 399
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 398,
                             "end": 400
                         },
@@ -1408,7 +1408,7 @@ new import(x);
                                         "kind": 134299649,
                                         "text": "import",
                                         "rawText": "import",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 403,
                                         "end": 409
                                     }
@@ -1419,21 +1419,21 @@ new import(x);
                                 "start": 403,
                                 "end": 409
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 400,
                             "end": 410
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 392,
                     "end": 410
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 389,
                 "end": 410
             },
-            "flags": 128,
+            "flags": 16,
             "start": 389,
             "end": 411
         },
@@ -1448,7 +1448,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 419,
             "end": 419
         },
@@ -1458,22 +1458,22 @@ new import(x);
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 419,
                     "end": 420
                 },
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 420,
                     "end": 420
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 419,
                 "end": 420
             },
-            "flags": 128,
+            "flags": 16,
             "start": 419,
             "end": 421
         },
@@ -1488,7 +1488,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 429,
             "end": 429
         },
@@ -1498,11 +1498,11 @@ new import(x);
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "1",
-                "flags": 768,
+                "flags": 96,
                 "start": 431,
                 "end": 433
             },
-            "flags": 128,
+            "flags": 16,
             "start": 431,
             "end": 434
         },
@@ -1517,10 +1517,10 @@ new import(x);
                     "end": 442
                 },
                 "flags": 442,
-                "start": 768,
+                "start": 96,
                 "end": 446
             },
-            "flags": 128,
+            "flags": 16,
             "start": 442,
             "end": 447
         },
@@ -1541,40 +1541,40 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 456,
                             "end": 457
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 455,
                         "end": 457
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 458,
                         "end": 458
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 459,
                         "end": 459
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 455,
                 "end": 459
             },
-            "flags": 128,
+            "flags": 16,
             "start": 455,
             "end": 459
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 460,
             "end": 461
         },
@@ -1592,21 +1592,21 @@ new import(x);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 470,
                     "end": 471
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 469,
                 "end": 472
             },
-            "flags": 128,
+            "flags": 16,
             "start": 469,
             "end": 472
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 473,
             "end": 474
         },
@@ -1627,33 +1627,33 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 483,
                             "end": 484
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 482,
                         "end": 484
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 485,
                         "end": 485
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 482,
                 "end": 485
             },
-            "flags": 128,
+            "flags": 16,
             "start": 482,
             "end": 485
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 487,
             "end": 488
         },
@@ -1674,33 +1674,33 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 497,
                             "end": 498
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 496,
                         "end": 498
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 499,
                         "end": 499
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 496,
                 "end": 501
             },
-            "flags": 128,
+            "flags": 16,
             "start": 496,
             "end": 501
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 502,
             "end": 503
         },
@@ -1721,11 +1721,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 512,
                             "end": 513
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 511,
                         "end": 513
                     },
@@ -1733,36 +1733,36 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 514,
                         "end": 515
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 516,
                         "end": 516
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 517,
                         "end": 517
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 511,
                 "end": 517
             },
-            "flags": 128,
+            "flags": 16,
             "start": 511,
             "end": 517
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 518,
             "end": 519
         },
@@ -1783,11 +1783,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 528,
                             "end": 529
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 527,
                         "end": 529
                     },
@@ -1795,7 +1795,7 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 530,
                         "end": 531
                     },
@@ -1803,22 +1803,22 @@ new import(x);
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 532,
                         "end": 533
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 527,
                 "end": 533
             },
-            "flags": 128,
+            "flags": 16,
             "start": 527,
             "end": 533
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 534,
             "end": 535
         },
@@ -1839,11 +1839,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 544,
                             "end": 545
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 543,
                         "end": 545
                     },
@@ -1851,16 +1851,16 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 546,
                         "end": 547
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 543,
                 "end": 547
             },
-            "flags": 128,
+            "flags": 16,
             "start": 543,
             "end": 548
         },
@@ -1881,11 +1881,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 557,
                             "end": 558
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 556,
                         "end": 558
                     },
@@ -1893,23 +1893,23 @@ new import(x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 559,
                         "end": 560
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 561,
                         "end": 561
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 556,
                 "end": 561
             },
-            "flags": 128,
+            "flags": 16,
             "start": 556,
             "end": 562
         },
@@ -1930,11 +1930,11 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 571,
                             "end": 572
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 570,
                         "end": 572
                     },
@@ -1944,7 +1944,7 @@ new import(x);
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 573,
                             "end": 574
                         },
@@ -1952,20 +1952,20 @@ new import(x);
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 575,
                             "end": 575
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 573,
                         "end": 575
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 570,
                 "end": 575
             },
-            "flags": 128,
+            "flags": 16,
             "start": 570,
             "end": 576
         },
@@ -1993,24 +1993,24 @@ new import(x);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 589,
                             "end": 590
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 588,
                         "end": 591
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 588,
                     "end": 592
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 576,
                 "end": 592
             },
-            "flags": 128,
+            "flags": 16,
             "start": 576,
             "end": 592
         }

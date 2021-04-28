@@ -27,7 +27,7 @@ function* foo(a = class {*bar() { yield b }}) {}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -35,7 +35,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 13
             },
@@ -49,7 +49,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
@@ -84,7 +84,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 26,
                                                 "end": 29
                                             },
@@ -110,11 +110,11 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 33,
                                                                 "end": 39
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 33,
                                                             "end": 39
                                                         },
@@ -124,21 +124,21 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                                 "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 39,
                                                                 "end": 41
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 39,
                                                             "end": 41
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 33,
                                                     "end": 41
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 43
                                             },
@@ -151,21 +151,21 @@ function* foo(a = class {*bar() { yield b }}) {}
                                         "end": 43
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 44
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 44
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 14,
                         "end": 44
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 13,
                 "end": 45
             },
@@ -176,17 +176,17 @@ function* foo(a = class {*bar() { yield b }}) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 47,
                     "end": 47
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 45,
                 "end": 48
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 48
         }

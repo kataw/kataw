@@ -52,7 +52,7 @@ var x = ...y;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -61,20 +61,20 @@ var x = ...y;
                         "initializer": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 7,
                             "end": 7
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -84,11 +84,11 @@ var x = ...y;
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 13
         }

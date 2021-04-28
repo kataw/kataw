@@ -33,7 +33,7 @@ class x extends void {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,7 +50,7 @@ class x extends void {}
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 15,
                         "end": 20
                     },
@@ -65,27 +65,27 @@ class x extends void {}
                             "start": 22,
                             "end": 22
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 20,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 23
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 23
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

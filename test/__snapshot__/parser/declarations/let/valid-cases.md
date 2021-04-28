@@ -32,7 +32,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -45,23 +45,23 @@ let {foo=3} = {};
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 8
         },
@@ -69,7 +69,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 8,
                 "end": 12
             },
@@ -82,7 +82,7 @@ let {foo=3} = {};
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 16
                         },
@@ -92,20 +92,20 @@ let {foo=3} = {};
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 20
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 20
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 12,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 8,
             "end": 21
         },
@@ -113,7 +113,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 21,
                 "end": 25
             },
@@ -134,24 +134,24 @@ let {foo=3} = {};
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 27,
                                             "end": 30
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 27,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 30
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 25,
                             "end": 31
                         },
@@ -166,30 +166,30 @@ let {foo=3} = {};
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 35,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 36
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 33,
                             "end": 37
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 25,
                         "end": 37
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 25,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 21,
             "end": 38
         },
@@ -197,7 +197,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 38,
                 "end": 42
             },
@@ -218,23 +218,23 @@ let {foo=3} = {};
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 44,
                                             "end": 47
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 44,
                                         "end": 47
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 44,
                                 "end": 47
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 42,
                             "end": 48
                         },
@@ -251,7 +251,7 @@ let {foo=3} = {};
                                             "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 56,
                                             "end": 58
                                         },
@@ -259,11 +259,11 @@ let {foo=3} = {};
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 52,
                                             "end": 55
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 52,
                                         "end": 58
                                     }
@@ -274,20 +274,20 @@ let {foo=3} = {};
                                 "start": 52,
                                 "end": 58
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 50,
                             "end": 59
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 42,
                         "end": 59
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 42,
                 "end": 59
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 38,
             "end": 60
         },
@@ -295,7 +295,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 60,
                 "end": 64
             },
@@ -316,7 +316,7 @@ let {foo=3} = {};
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 66,
                                             "end": 69
                                         },
@@ -324,22 +324,22 @@ let {foo=3} = {};
                                             "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 70,
                                             "end": 71
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 66,
                                         "end": 71
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 66,
                                 "end": 71
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 64,
                             "end": 72
                         },
@@ -356,20 +356,20 @@ let {foo=3} = {};
                                 "start": 76,
                                 "end": 76
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 74,
                             "end": 77
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 64,
                         "end": 77
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 64,
                 "end": 77
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 60,
             "end": 78
         }

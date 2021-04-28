@@ -48,7 +48,7 @@ class x{   static async static(){}    }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -63,13 +63,13 @@ class x{   static async static(){}    }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 8,
                             "end": 17
                         },
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 17,
                             "end": 23
                         },
@@ -81,7 +81,7 @@ class x{   static async static(){}    }
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 23,
                                 "end": 30
                             },
@@ -90,7 +90,7 @@ class x{   static async static(){}    }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 2048,
+                                "flags": 256,
                                 "start": 31,
                                 "end": 32
                             },
@@ -102,28 +102,28 @@ class x{   static async static(){}    }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 34
                             },
-                            "flags": 2048,
+                            "flags": 256,
                             "start": 30,
                             "end": 34
                         },
-                        "flags": 2048,
+                        "flags": 256,
                         "start": 17,
                         "end": 34
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

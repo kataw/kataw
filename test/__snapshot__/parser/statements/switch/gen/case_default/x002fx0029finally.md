@@ -24,11 +24,11 @@ case /)finally default
             "expression": {
                 "kind": 221,
                 "text": "/)finally default",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 22
         }

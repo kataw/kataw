@@ -41,7 +41,7 @@ var foo: null
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -50,7 +50,7 @@ var foo: null
                             "kind": 139,
                             "type": {
                                 "kind": 138477575,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 8,
                                 "end": 13
                             },
@@ -59,16 +59,16 @@ var foo: null
                             "end": 13
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

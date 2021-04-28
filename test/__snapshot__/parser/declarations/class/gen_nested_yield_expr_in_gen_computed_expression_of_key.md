@@ -35,7 +35,7 @@ function *f(){  class x{*[yield](a){}}  }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -43,7 +43,7 @@ function *f(){  class x{*[yield](a){}}  }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -51,7 +51,7 @@ function *f(){  class x{*[yield](a){}}  }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -75,7 +75,7 @@ function *f(){  class x{*[yield](a){}}  }
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
@@ -107,11 +107,11 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": null,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 26,
                                                     "end": 31
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 25,
                                                 "end": 32
                                             },
@@ -126,20 +126,20 @@ function *f(){  class x{*[yield](a){}}  }
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 33,
                                                             "end": 34
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 33,
                                                         "end": 34
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 33,
                                                 "end": 35
                                             },
@@ -151,11 +151,11 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 36,
                                                     "end": 36
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -168,27 +168,27 @@ function *f(){  class x{*[yield](a){}}  }
                                         "end": 37
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 38
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 38
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 38
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 41
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 41
         }

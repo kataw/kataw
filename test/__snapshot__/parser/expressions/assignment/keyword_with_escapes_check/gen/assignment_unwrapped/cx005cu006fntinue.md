@@ -23,18 +23,18 @@ c\u006fntinue = x;
             "kind": 172,
             "continueKeyword": {
                 "kind": 37757009,
-                "flags": 327680,
+                "flags": 16384,
                 "start": 0,
                 "end": 13
             },
             "label": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -44,11 +44,11 @@ c\u006fntinue = x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 18
         }

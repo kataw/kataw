@@ -38,7 +38,7 @@ do while [catch] try { !xxx
                     "start": 22,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 22
             },
@@ -57,11 +57,11 @@ do while [catch] try { !xxx
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 10
                 },
@@ -74,11 +74,11 @@ do while [catch] try { !xxx
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 15
                     },
@@ -90,23 +90,23 @@ do while [catch] try { !xxx
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         },
@@ -116,7 +116,7 @@ do while [catch] try { !xxx
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 22,
                     "end": 24
                 },
@@ -124,15 +124,15 @@ do while [catch] try { !xxx
                     "kind": 134299649,
                     "text": "xxx",
                     "rawText": "xxx",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 24,
                     "end": 27
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 27
         }

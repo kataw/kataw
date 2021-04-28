@@ -38,7 +38,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -52,7 +52,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -86,7 +86,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "end": 21
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 21
                     },
@@ -97,7 +97,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 24
                         },
@@ -131,13 +131,13 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "end": 33
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 22,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 34
             },
@@ -148,11 +148,11 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 44,
                     "end": 44
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 42,
                 "end": 45
             },
@@ -161,7 +161,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 35,
                     "end": 42
                 },
@@ -169,7 +169,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "start": 34,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 45
         }

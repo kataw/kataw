@@ -33,11 +33,11 @@ try try try /false//a
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try try try /false//a
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 7
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -75,11 +75,11 @@ try try try /false//a
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
@@ -91,15 +91,15 @@ try try try /false//a
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 19,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 19
         },
@@ -108,11 +108,11 @@ try try try /false//a
             "expression": {
                 "kind": 221,
                 "text": "/a",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 21
         }

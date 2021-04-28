@@ -37,7 +37,7 @@ class Foo { prop1:string; prop2:number; }
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -56,7 +56,7 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 134299649,
                             "text": "prop1",
                             "rawText": "prop1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 17
                         },
@@ -65,7 +65,7 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 24
                             },
@@ -74,13 +74,13 @@ class Foo { prop1:string; prop2:number; }
                             "end": 24
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 24
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 24,
                         "end": 25
                     },
@@ -94,7 +94,7 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 134299649,
                             "text": "prop2",
                             "rawText": "prop2",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 25,
                             "end": 31
                         },
@@ -103,7 +103,7 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 32,
                                 "end": 38
                             },
@@ -112,22 +112,22 @@ class Foo { prop1:string; prop2:number; }
                             "end": 38
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 38
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 38,
                         "end": 39
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 41
         }

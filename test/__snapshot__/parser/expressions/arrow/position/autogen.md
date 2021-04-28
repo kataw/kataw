@@ -412,28 +412,28 @@ function f(a = #) {}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
                 "right": {
                     "kind": 67109115,
                     "text": "#",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 5
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         }

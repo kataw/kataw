@@ -37,13 +37,13 @@ for (x = y in z) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -53,13 +53,13 @@ for (x = y in z) ;
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 10,
                         "end": 13
                     },
@@ -67,15 +67,15 @@ for (x = y in z) ;
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
@@ -83,17 +83,17 @@ for (x = y in z) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

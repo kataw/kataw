@@ -28,7 +28,7 @@ while(y)
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 16
             },
@@ -53,7 +53,7 @@ while(y)
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 2,
                         "end": 4
                     },
@@ -66,23 +66,23 @@ while(y)
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 7
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 8
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

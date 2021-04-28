@@ -48,7 +48,7 @@ class x { static set [y](z){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -63,7 +63,7 @@ class x { static set [y](z){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 16
                         },
@@ -71,7 +71,7 @@ class x { static set [y](z){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 16,
                             "end": 20
                         },
@@ -83,11 +83,11 @@ class x { static set [y](z){}}
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 24
                             },
@@ -102,20 +102,20 @@ class x { static set [y](z){}}
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 26
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 25,
                                         "end": 26
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 25,
                                 "end": 27
                             },
@@ -127,28 +127,28 @@ class x { static set [y](z){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 29
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 24,
                             "end": 29
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 16,
                         "end": 29
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

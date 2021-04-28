@@ -31,7 +31,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -39,7 +39,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 14
             },
@@ -47,7 +47,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 35
                             },
@@ -80,7 +80,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 37
                             },
@@ -105,7 +105,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 48,
                                                 "end": 54
                                             },
@@ -119,20 +119,20 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                             "kind": 134299649,
                                                             "text": "yield",
                                                             "rawText": "yield",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 55,
                                                             "end": 60
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 55,
                                                         "end": 60
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 54,
                                                 "end": 61
                                             },
@@ -148,59 +148,59 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                 "kind": 134299649,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 63,
                                                                 "end": 69
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 63,
                                                             "end": 69
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 63,
                                                     "end": 69
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 61,
                                                 "end": 69
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 39,
                                             "end": 69
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 69
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 69
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 69
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 69
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 69
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 69
         },
@@ -212,7 +212,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 70,
                     "end": 76
                 },
@@ -225,13 +225,13 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 78,
                                 "end": 83
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 83,
                                 "end": 85
                             },
@@ -241,7 +241,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 85,
                                     "end": 91
                                 },
@@ -252,35 +252,35 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                             "kind": 201392130,
                                             "text": 0,
                                             "rawText": "0",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 92,
                                             "end": 93
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 92,
                                     "end": 93
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 85,
                                 "end": 94
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 78,
                             "end": 94
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 78,
                     "end": 94
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 70,
                 "end": 95
             },
-            "flags": 128,
+            "flags": 16,
             "start": 70,
             "end": 96
         }

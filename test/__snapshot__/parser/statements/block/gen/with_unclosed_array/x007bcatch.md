@@ -40,7 +40,7 @@
                                                     "kind": 134299649,
                                                     "text": "catch",
                                                     "rawText": "catch",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 4,
                                                     "end": 9
                                                 }
@@ -51,31 +51,31 @@
                                             "start": 4,
                                             "end": 9
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2,
                                         "end": 9
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 9
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 9
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 9
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

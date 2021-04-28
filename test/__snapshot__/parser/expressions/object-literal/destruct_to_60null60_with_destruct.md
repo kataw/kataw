@@ -23,13 +23,13 @@ s = {"foo": null = x} = x
                     "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -47,13 +47,13 @@ s = {"foo": null = x} = x
                                         "left": {
                                             "kind": 269,
                                             "text": null,
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 16
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 16,
                                             "end": 18
                                         },
@@ -61,11 +61,11 @@ s = {"foo": null = x} = x
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 20
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 20
                                     },
@@ -73,11 +73,11 @@ s = {"foo": null = x} = x
                                         "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 10
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 5,
                                     "end": 20
                                 }
@@ -88,13 +88,13 @@ s = {"foo": null = x} = x
                             "start": 5,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 21
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 21,
                         "end": 23
                     },
@@ -102,19 +102,19 @@ s = {"foo": null = x} = x
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

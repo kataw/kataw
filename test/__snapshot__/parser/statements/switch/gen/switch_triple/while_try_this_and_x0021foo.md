@@ -30,18 +30,18 @@ switch switch switch while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -56,18 +56,18 @@ switch switch switch while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         },
@@ -82,18 +82,18 @@ switch switch switch while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 20,
                 "end": 20
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 20
         },
@@ -108,7 +108,7 @@ switch switch switch while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 26,
                 "end": 26
             },
@@ -126,11 +126,11 @@ switch switch switch while try this and !foo
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 30,
                         "end": 30
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 30,
                     "end": 30
                 },
@@ -142,19 +142,19 @@ switch switch switch while try this and !foo
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 35,
                         "end": 35
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 35,
                     "end": 35
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 35
         },
@@ -164,11 +164,11 @@ switch switch switch while try this and !foo
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 35,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 39
         },
@@ -178,7 +178,7 @@ switch switch switch while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 39,
                     "end": 41
                 },
@@ -186,15 +186,15 @@ switch switch switch while try this and !foo
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 41,
                     "end": 44
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 39,
                 "end": 44
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 44
         }

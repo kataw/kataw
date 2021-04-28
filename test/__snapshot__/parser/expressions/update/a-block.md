@@ -21,11 +21,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 2
         },
@@ -35,22 +35,22 @@
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 2,
                     "end": 4
                 },
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2,
             "end": 4
         }

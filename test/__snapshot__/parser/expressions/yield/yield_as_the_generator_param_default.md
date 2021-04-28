@@ -27,7 +27,7 @@ function *f(x=yield){ }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -35,7 +35,7 @@ function *f(x=yield){ }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -49,7 +49,7 @@ function *f(x=yield){ }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 13
                         },
@@ -66,17 +66,17 @@ function *f(x=yield){ }
                             "delegate": false,
                             "asteriskToken": null,
                             "expression": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 14,
                             "end": 19
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 12,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 11,
                 "end": 20
             },
@@ -87,17 +87,17 @@ function *f(x=yield){ }
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 23
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 23
         }

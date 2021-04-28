@@ -49,13 +49,13 @@ for (() => { x in y };;);
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "operatorToken": {
                                         "kind": 21006388,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 14,
                                         "end": 17
                                     },
@@ -63,29 +63,29 @@ for (() => { x in y };;);
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 19
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 12,
                                 "end": 19
                             }
                         ],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 12,
                         "end": 19
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 10,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 21
             },
@@ -93,11 +93,11 @@ for (() => { x in y };;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

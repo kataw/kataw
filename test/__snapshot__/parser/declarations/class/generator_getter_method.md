@@ -37,7 +37,7 @@ class A {* get "foo"(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,14 +56,14 @@ class A {* get "foo"(){}}
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 14
                     },
@@ -81,7 +81,7 @@ class A {* get "foo"(){}}
                                 "kind": 201392131,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 20
                             },
@@ -102,11 +102,11 @@ class A {* get "foo"(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
@@ -119,11 +119,11 @@ class A {* get "foo"(){}}
                         "end": 24
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

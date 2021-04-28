@@ -38,7 +38,7 @@ switch {} default(x) { while try this and !foo
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
@@ -62,15 +62,15 @@ switch {} default(x) { while try this and !foo
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 20
                             },
@@ -90,7 +90,7 @@ switch {} default(x) { while try this and !foo
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 28,
                                                 "end": 28
                                             },
@@ -108,11 +108,11 @@ switch {} default(x) { while try this and !foo
                                                         "kind": 124,
                                                         "statements": [],
                                                         "multiLine": false,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 32,
                                                         "end": 32
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 32,
                                                     "end": 32
                                                 },
@@ -124,19 +124,19 @@ switch {} default(x) { while try this and !foo
                                                         "kind": 124,
                                                         "statements": [],
                                                         "multiLine": false,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 37,
                                                         "end": 37
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 37,
                                                     "end": 37
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 28,
                                                 "end": 37
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 22,
                                             "end": 37
                                         },
@@ -146,11 +146,11 @@ switch {} default(x) { while try this and !foo
                                                 "kind": 134299649,
                                                 "text": "and",
                                                 "rawText": "and",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 37,
                                                 "end": 41
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 37,
                                             "end": 41
                                         },
@@ -160,7 +160,7 @@ switch {} default(x) { while try this and !foo
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 41,
                                                     "end": 43
                                                 },
@@ -168,39 +168,39 @@ switch {} default(x) { while try this and !foo
                                                     "kind": 134299649,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 43,
                                                     "end": 46
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 41,
                                                 "end": 46
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 41,
                                             "end": 46
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 46
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 46
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 46
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 46
         }

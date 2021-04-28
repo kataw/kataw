@@ -35,7 +35,7 @@ x {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,23 +52,23 @@ x {}
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 21
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 21
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         },
@@ -78,11 +78,11 @@ x {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 21,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 23
         },
@@ -92,11 +92,11 @@ x {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 26
         }

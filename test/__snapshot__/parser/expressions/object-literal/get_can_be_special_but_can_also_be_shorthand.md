@@ -23,7 +23,7 @@ wrap({get});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -39,7 +39,7 @@ wrap({get});
                                         "kind": 134299649,
                                         "text": "get",
                                         "rawText": "get",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 9
                                     }
@@ -50,21 +50,21 @@ wrap({get});
                                 "start": 6,
                                 "end": 9
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

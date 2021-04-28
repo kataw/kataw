@@ -24,15 +24,15 @@
                 "expression": {
                     "kind": 134,
                     "text": false,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -46,27 +46,27 @@
                         {
                             "kind": 134,
                             "text": false,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 16
                         },
                         {
                             "kind": 134,
                             "text": true,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 22
                         }
                     ],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 24
         }

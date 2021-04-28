@@ -32,7 +32,7 @@ new x()
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 3,
                         "end": 5
                     },
@@ -40,17 +40,17 @@ new x()
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 513,
+                    "flags": 65,
                     "start": 7,
                     "end": 9
                 },
@@ -58,15 +58,15 @@ new x()
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

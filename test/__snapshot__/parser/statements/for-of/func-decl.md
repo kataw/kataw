@@ -49,7 +49,7 @@ function x(a, [x]) {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -63,14 +63,14 @@ function x(a, [x]) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 12
                     },
@@ -89,37 +89,37 @@ function x(a, [x]) {}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 17
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 258,
+                        "flags": 34,
                         "start": 13,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 18
             },
@@ -130,17 +130,17 @@ function x(a, [x]) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 21
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

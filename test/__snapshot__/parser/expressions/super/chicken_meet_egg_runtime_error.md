@@ -29,7 +29,7 @@ class x extends y { constructor() { super(this); } }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -46,12 +46,12 @@ class x extends y { constructor() { super(this); } }
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 17
             },
@@ -72,7 +72,7 @@ class x extends y { constructor() { super(this); } }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 31
                             },
@@ -104,7 +104,7 @@ class x extends y { constructor() { super(this); } }
                                                         "start": 35,
                                                         "end": 41
                                                     },
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 35,
                                                     "end": 41
                                                 },
@@ -113,31 +113,31 @@ class x extends y { constructor() { super(this); } }
                                                     "elements": [
                                                         {
                                                             "kind": 135,
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 42,
                                                             "end": 46
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 42,
                                                     "end": 46
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 47
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 48
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 35,
                                     "end": 48
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 50
                             },
@@ -150,11 +150,11 @@ class x extends y { constructor() { super(this); } }
                         "end": 50
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 52
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 52
         }

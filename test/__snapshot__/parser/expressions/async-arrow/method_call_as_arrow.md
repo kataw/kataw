@@ -21,7 +21,7 @@ async ({ident: [foo, bar].join("")}) => x
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -48,7 +48,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 16,
                                                             "end": 19
                                                         },
@@ -56,17 +56,17 @@ async ({ident: [foo, bar].join("")}) => x
                                                             "kind": 134299649,
                                                             "text": "bar",
                                                             "rawText": "bar",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 20,
                                                             "end": 24
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 16,
                                                     "end": 24
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 14,
                                                 "end": 25
                                             },
@@ -74,11 +74,11 @@ async ({ident: [foo, bar].join("")}) => x
                                                 "kind": 134299649,
                                                 "text": "join",
                                                 "rawText": "join",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 26,
                                                 "end": 30
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 30
                                         },
@@ -89,17 +89,17 @@ async ({ident: [foo, bar].join("")}) => x
                                                     "kind": 201392131,
                                                     "text": "",
                                                     "rawText": "",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 31,
                                                     "end": 33
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 31,
                                             "end": 33
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 34
                                     },
@@ -107,11 +107,11 @@ async ({ident: [foo, bar].join("")}) => x
                                         "kind": 134299649,
                                         "text": "ident",
                                         "rawText": "ident",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 8,
                                         "end": 13
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 34
                                 }
@@ -122,17 +122,17 @@ async ({ident: [foo, bar].join("")}) => x
                             "start": 8,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 35
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 36
         },
@@ -142,11 +142,11 @@ async ({ident: [foo, bar].join("")}) => x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 39,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 41
         }

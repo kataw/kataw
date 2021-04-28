@@ -21,7 +21,7 @@ label: async function () {}
                 "kind": 134299649,
                 "text": "label",
                 "rawText": "label",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -31,7 +31,7 @@ label: async function () {}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 6,
                         "end": 12
                     },
@@ -47,7 +47,7 @@ label: async function () {}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 24
                     },
@@ -58,25 +58,25 @@ label: async function () {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 26,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 24,
                         "end": 27
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 1280,
+                    "flags": 160,
                     "start": 6,
                     "end": 27
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

@@ -30,7 +30,7 @@ do( catch try {} while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 9,
                 "end": 9
             },
@@ -42,19 +42,19 @@ do( catch try {} while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -72,11 +72,11 @@ do( catch try {} while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 16
             },
@@ -88,15 +88,15 @@ do( catch try {} while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 22
         }

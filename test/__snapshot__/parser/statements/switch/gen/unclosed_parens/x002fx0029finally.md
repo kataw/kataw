@@ -30,18 +30,18 @@ switch( /)finally case
             "expression": {
                 "kind": 221,
                 "text": "/)finally case",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 22
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

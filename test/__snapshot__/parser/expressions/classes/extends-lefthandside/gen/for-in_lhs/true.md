@@ -28,7 +28,7 @@ for (true in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 9,
                 "end": 12
             },
@@ -36,7 +36,7 @@ for (true in x) ;
             "initializer": {
                 "kind": 134,
                 "text": true,
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -44,17 +44,17 @@ for (true in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 12,
                 "end": 14
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

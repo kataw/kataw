@@ -52,11 +52,11 @@
                                         "kind": 134299649,
                                         "text": "obj1",
                                         "rawText": "obj1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 9
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 9
                                 }
@@ -67,13 +67,13 @@
                             "start": 2,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 11,
                         "end": 13
                     },
@@ -81,19 +81,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         },
@@ -120,11 +120,11 @@
                                         "kind": 134299649,
                                         "text": "obj1",
                                         "rawText": "obj1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 26,
                                         "end": 30
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 30
                                 }
@@ -135,13 +135,13 @@
                             "start": 23,
                             "end": 31
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 22,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 32,
                         "end": 34
                     },
@@ -149,19 +149,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 34,
                         "end": 38
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 38
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 40
         },
@@ -188,11 +188,11 @@
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 47,
                                         "end": 48
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 44,
                                     "end": 48
                                 }
@@ -203,13 +203,13 @@
                             "start": 44,
                             "end": 49
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 43,
                         "end": 50
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 50,
                         "end": 52
                     },
@@ -224,19 +224,19 @@
                             "start": 54,
                             "end": 54
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 52,
                         "end": 55
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 43,
                     "end": 55
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 40,
                 "end": 56
             },
-            "flags": 128,
+            "flags": 16,
             "start": 40,
             "end": 57
         },
@@ -263,11 +263,11 @@
                                         "kind": 134299649,
                                         "text": "obj1",
                                         "rawText": "obj1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 64,
                                         "end": 68
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 61,
                                     "end": 68
                                 },
@@ -283,11 +283,11 @@
                                         "kind": 134299649,
                                         "text": "obj2",
                                         "rawText": "obj2",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 72,
                                         "end": 76
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 69,
                                     "end": 76
                                 }
@@ -298,13 +298,13 @@
                             "start": 61,
                             "end": 76
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 60,
                         "end": 77
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 77,
                         "end": 79
                     },
@@ -312,19 +312,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 79,
                         "end": 83
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 60,
                     "end": 83
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 57,
                 "end": 84
             },
-            "flags": 128,
+            "flags": 16,
             "start": 57,
             "end": 85
         },
@@ -356,7 +356,7 @@
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 93,
                                                     "end": 94
                                                 },
@@ -364,7 +364,7 @@
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 95,
                                                     "end": 96
                                                 }
@@ -375,11 +375,11 @@
                                             "start": 93,
                                             "end": 96
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 92,
                                         "end": 97
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 89,
                                     "end": 97
                                 }
@@ -390,13 +390,13 @@
                             "start": 89,
                             "end": 97
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 88,
                         "end": 98
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 98,
                         "end": 100
                     },
@@ -404,19 +404,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 100,
                         "end": 104
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 88,
                     "end": 104
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 85,
                 "end": 105
             },
-            "flags": 128,
+            "flags": 16,
             "start": 85,
             "end": 106
         },
@@ -448,7 +448,7 @@
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 114,
                                                     "end": 115
                                                 },
@@ -456,21 +456,21 @@
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 116,
                                                     "end": 117
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 114,
                                             "end": 117
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 113,
                                         "end": 118
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 110,
                                     "end": 118
                                 }
@@ -481,13 +481,13 @@
                             "start": 110,
                             "end": 118
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 109,
                         "end": 119
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 119,
                         "end": 121
                     },
@@ -495,19 +495,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 121,
                         "end": 125
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 109,
                     "end": 125
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 106,
                 "end": 126
             },
-            "flags": 128,
+            "flags": 16,
             "start": 106,
             "end": 127
         },
@@ -539,7 +539,7 @@
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 135,
                                                     "end": 136
                                                 },
@@ -547,21 +547,21 @@
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 137,
                                                     "end": 139
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 135,
                                             "end": 139
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 134,
                                         "end": 140
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 131,
                                     "end": 140
                                 }
@@ -572,13 +572,13 @@
                             "start": 131,
                             "end": 140
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 130,
                         "end": 141
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 141,
                         "end": 143
                     },
@@ -586,19 +586,19 @@
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 143,
                         "end": 145
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 130,
                     "end": 145
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 127,
                 "end": 146
             },
-            "flags": 128,
+            "flags": 16,
             "start": 127,
             "end": 147
         },
@@ -630,7 +630,7 @@
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 155,
                                                     "end": 156
                                                 },
@@ -638,7 +638,7 @@
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 157,
                                                     "end": 159
                                                 }
@@ -649,11 +649,11 @@
                                             "start": 155,
                                             "end": 159
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 154,
                                         "end": 160
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 151,
                                     "end": 160
                                 }
@@ -664,13 +664,13 @@
                             "start": 151,
                             "end": 160
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 150,
                         "end": 161
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 161,
                         "end": 163
                     },
@@ -678,19 +678,19 @@
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 163,
                         "end": 165
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 150,
                     "end": 165
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 147,
                 "end": 166
             },
-            "flags": 128,
+            "flags": 16,
             "start": 147,
             "end": 167
         }

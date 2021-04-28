@@ -56,11 +56,11 @@
                 "kind": 201392130,
                 "text": 2739128,
                 "rawText": "0o12345670",
-                "flags": 4195072,
+                "flags": 262240,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         },
@@ -70,11 +70,11 @@
                 "kind": 201392130,
                 "text": 2739128,
                 "rawText": "0O12345670",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 12,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 25
         },
@@ -84,11 +84,11 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0o0",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 25,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 31
         },
@@ -98,11 +98,11 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "0o1",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 31,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 31,
             "end": 37
         },
@@ -112,11 +112,11 @@
                 "kind": 201392130,
                 "text": 2,
                 "rawText": "0o2",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 37,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 37,
             "end": 43
         },
@@ -126,11 +126,11 @@
                 "kind": 201392130,
                 "text": 3,
                 "rawText": "0o3",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 43,
                 "end": 47
             },
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 49
         },
@@ -140,11 +140,11 @@
                 "kind": 201392130,
                 "text": 4,
                 "rawText": "0o4",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 49,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 49,
             "end": 55
         },
@@ -154,11 +154,11 @@
                 "kind": 201392130,
                 "text": 5,
                 "rawText": "0o5",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 55,
                 "end": 59
             },
-            "flags": 128,
+            "flags": 16,
             "start": 55,
             "end": 61
         },
@@ -168,11 +168,11 @@
                 "kind": 201392130,
                 "text": 6,
                 "rawText": "0o6",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 61,
                 "end": 65
             },
-            "flags": 128,
+            "flags": 16,
             "start": 61,
             "end": 67
         },
@@ -182,11 +182,11 @@
                 "kind": 201392130,
                 "text": 7,
                 "rawText": "0o7",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 67,
                 "end": 71
             },
-            "flags": 128,
+            "flags": 16,
             "start": 67,
             "end": 73
         },
@@ -196,11 +196,11 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "0o01",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 73,
                 "end": 78
             },
-            "flags": 128,
+            "flags": 16,
             "start": 73,
             "end": 80
         },
@@ -210,11 +210,11 @@
                 "kind": 201392130,
                 "text": 10,
                 "rawText": "0o12",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 80,
                 "end": 85
             },
-            "flags": 128,
+            "flags": 16,
             "start": 80,
             "end": 87
         },
@@ -224,11 +224,11 @@
                 "kind": 201392130,
                 "text": 19,
                 "rawText": "0o23",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 87,
                 "end": 92
             },
-            "flags": 128,
+            "flags": 16,
             "start": 87,
             "end": 94
         },
@@ -238,11 +238,11 @@
                 "kind": 201392130,
                 "text": 28,
                 "rawText": "0o3_4",
-                "flags": 5243649,
+                "flags": 327777,
                 "start": 94,
                 "end": 100
             },
-            "flags": 128,
+            "flags": 16,
             "start": 94,
             "end": 102
         },
@@ -252,11 +252,11 @@
                 "kind": 201392130,
                 "text": 37,
                 "rawText": "0o45",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 102,
                 "end": 107
             },
-            "flags": 128,
+            "flags": 16,
             "start": 102,
             "end": 109
         },
@@ -266,11 +266,11 @@
                 "kind": 201392130,
                 "text": 46,
                 "rawText": "0o56",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 109,
                 "end": 114
             },
-            "flags": 128,
+            "flags": 16,
             "start": 109,
             "end": 116
         },
@@ -280,11 +280,11 @@
                 "kind": 201392130,
                 "text": 55,
                 "rawText": "0o6_7",
-                "flags": 5243649,
+                "flags": 327777,
                 "start": 116,
                 "end": 122
             },
-            "flags": 128,
+            "flags": 16,
             "start": 116,
             "end": 124
         },
@@ -294,11 +294,11 @@
                 "kind": 201392130,
                 "text": 56,
                 "rawText": "0o70",
-                "flags": 4195073,
+                "flags": 262241,
                 "start": 124,
                 "end": 129
             },
-            "flags": 128,
+            "flags": 16,
             "start": 124,
             "end": 129
         }

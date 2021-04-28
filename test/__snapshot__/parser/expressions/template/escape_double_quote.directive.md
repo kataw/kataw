@@ -21,11 +21,11 @@
                 "kind": 458761,
                 "text": "some \" quote",
                 "rawText": "some \\\" quote",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

@@ -30,7 +30,7 @@ do( while try this and !foo while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 9,
                 "end": 9
             },
@@ -47,19 +47,19 @@ do( while try this and !foo while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -77,11 +77,11 @@ do( while try this and !foo while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
@@ -93,15 +93,15 @@ do( while try this and !foo while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 18,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 18
         },
@@ -111,11 +111,11 @@ do( while try this and !foo while
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 22
         },
@@ -125,7 +125,7 @@ do( while try this and !foo while
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 22,
                     "end": 24
                 },
@@ -133,15 +133,15 @@ do( while try this and !foo while
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 24,
                     "end": 27
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 27
         },
@@ -156,7 +156,7 @@ do( while try this and !foo while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 33,
                 "end": 33
             },
@@ -165,15 +165,15 @@ do( while try this and !foo while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 33,
                     "end": 33
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 33,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 33
         }

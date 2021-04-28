@@ -39,11 +39,11 @@
                 "kind": 201392130,
                 "text": 2,
                 "rawText": "0b10",
-                "flags": 8389376,
+                "flags": 524384,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -53,11 +53,11 @@
                 "kind": 201392130,
                 "text": 2,
                 "rawText": "0B10",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 6,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         },
@@ -67,11 +67,11 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0b0",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 13,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 19
         },
@@ -81,11 +81,11 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "0b1",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 19,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 25
         },
@@ -95,11 +95,11 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0b00",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 25,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 32
         },
@@ -109,11 +109,11 @@
                 "kind": 201392130,
                 "text": 3,
                 "rawText": "0b11",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 32,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 32,
             "end": 39
         },
@@ -123,11 +123,11 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "0b0_1",
-                "flags": 9437953,
+                "flags": 589921,
                 "start": 39,
                 "end": 45
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 47
         },
@@ -137,11 +137,11 @@
                 "kind": 201392130,
                 "text": 2,
                 "rawText": "0b10",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 47,
                 "end": 52
             },
-            "flags": 128,
+            "flags": 16,
             "start": 47,
             "end": 54
         },
@@ -151,11 +151,11 @@
                 "kind": 201392130,
                 "text": 616642771244373,
                 "rawText": "0b10001100001101010101010101010101010101010101010101",
-                "flags": 8389377,
+                "flags": 524385,
                 "start": 54,
                 "end": 107
             },
-            "flags": 128,
+            "flags": 16,
             "start": 54,
             "end": 109
         },
@@ -165,11 +165,11 @@
                 "kind": 201392130,
                 "text": 616642771244373,
                 "rawText": "0b1000_11000011_01010101_010_101010101010101010_101010101",
-                "flags": 9437953,
+                "flags": 589921,
                 "start": 109,
                 "end": 167
             },
-            "flags": 128,
+            "flags": 16,
             "start": 109,
             "end": 167
         }

@@ -34,7 +34,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -60,13 +60,13 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                     "kind": 134299649,
                                     "text": "unction",
                                     "rawText": "unction",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 28
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -76,7 +76,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "kind": 134299649,
                                         "text": "gf",
                                         "rawText": "gf",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 29,
                                         "end": 32
                                     },
@@ -84,19 +84,19 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "kind": 256,
                                         "elements": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 33,
                                         "end": 33
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 34
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 34
                         },
@@ -123,7 +123,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 40,
                                                         "end": 42
                                                     },
@@ -133,20 +133,20 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                         "kind": 134299649,
                                                         "text": "yield",
                                                         "rawText": "yield",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 44,
                                                         "end": 50
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 40,
                                                     "end": 50
                                                 }
                                             ],
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 40,
                                             "end": 50
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 36,
                                         "end": 50
                                     },
@@ -156,37 +156,37 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                             "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 67109632,
+                                            "flags": 4194400,
                                             "start": 50,
                                             "end": 56
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 50,
                                         "end": 57
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 36,
                                 "end": 57
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 34,
                             "end": 59
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 59
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 61
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 61
         }

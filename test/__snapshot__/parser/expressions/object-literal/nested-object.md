@@ -41,7 +41,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 7
                                         },
@@ -52,16 +52,16 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 7,
                                                 "end": 9
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 7,
                                             "end": 9
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -72,7 +72,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 13
                                         },
@@ -91,7 +91,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 15,
                                                                 "end": 18
                                                             },
@@ -102,47 +102,47 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                                     "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 18,
                                                                     "end": 20
                                                                 },
                                                                 "initializer": null,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 18,
                                                                 "end": 20
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 15,
                                                             "end": 20
                                                         }
                                                     ],
                                                     "multiline": false,
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 15,
                                                     "end": 20
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 13,
                                                 "end": 22
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 22
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 22
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 24
                         },
@@ -159,7 +159,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "kind": 201392131,
                                             "text": "3",
                                             "rawText": "3",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 31,
                                             "end": 35
                                         },
@@ -167,11 +167,11 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 28,
                                             "end": 30
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 28,
                                         "end": 35
                                     },
@@ -188,7 +188,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "kind": 201392131,
                                                             "text": "b",
                                                             "rawText": "b",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 44,
                                                             "end": 48
                                                         },
@@ -196,11 +196,11 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 41,
                                                             "end": 43
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 41,
                                                         "end": 48
                                                     }
@@ -211,7 +211,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "start": 41,
                                                 "end": 48
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 39,
                                             "end": 50
                                         },
@@ -219,11 +219,11 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 36,
                                             "end": 38
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 36,
                                         "end": 50
                                     }
@@ -234,20 +234,20 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                 "start": 28,
                                 "end": 50
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 26,
                             "end": 52
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 52
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 52
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 53
         }

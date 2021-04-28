@@ -38,7 +38,7 @@ let [[]]=0
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -61,28 +61,28 @@ let [[]]=0
                                                 "kind": 202,
                                                 "elements": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 6,
                                                 "end": 6
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 5,
                                             "end": 7
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 7
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 7
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 8
                         },
@@ -92,20 +92,20 @@ let [[]]=0
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 10
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 10
         }

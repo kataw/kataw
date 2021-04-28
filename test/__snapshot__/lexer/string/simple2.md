@@ -37,11 +37,11 @@
                 "kind": 201392131,
                 "text": " a ",
                 "rawText": " a ",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -51,11 +51,11 @@
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 7
         },
@@ -65,11 +65,11 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": " \"",
-                "flags": 33555200,
+                "flags": 2097248,
                 "start": 7,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 11
         },
@@ -79,11 +79,11 @@
                 "kind": 201392131,
                 "text": " a ",
                 "rawText": " a ",
-                "flags": 769,
+                "flags": 97,
                 "start": 11,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 17
         },
@@ -93,11 +93,11 @@
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 19
         },
@@ -107,11 +107,11 @@
                 "kind": 201392131,
                 "text": " c ",
                 "rawText": " c ",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 27
         },
@@ -121,11 +121,11 @@
                 "kind": 201392131,
                 "text": " a ' b ",
                 "rawText": " a ' b ",
-                "flags": 769,
+                "flags": 97,
                 "start": 27,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 39
         },
@@ -135,11 +135,11 @@
                 "kind": 201392131,
                 "text": " a ' b ' c ",
                 "rawText": " a ' b ' c ",
-                "flags": 769,
+                "flags": 97,
                 "start": 39,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 55
         },
@@ -149,11 +149,11 @@
                 "kind": 201392131,
                 "text": " a ` b ",
                 "rawText": " a ` b ",
-                "flags": 769,
+                "flags": 97,
                 "start": 55,
                 "end": 65
             },
-            "flags": 128,
+            "flags": 16,
             "start": 55,
             "end": 67
         },
@@ -163,11 +163,11 @@
                 "kind": 201392131,
                 "text": " a ` b ` c ",
                 "rawText": " a ` b ` c ",
-                "flags": 769,
+                "flags": 97,
                 "start": 67,
                 "end": 81
             },
-            "flags": 128,
+            "flags": 16,
             "start": 67,
             "end": 81
         }

@@ -34,12 +34,12 @@ import "y"
                 "kind": 201392131,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 6,
                 "end": 10
             },
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 10
         }

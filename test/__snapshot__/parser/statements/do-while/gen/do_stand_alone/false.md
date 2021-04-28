@@ -30,7 +30,7 @@ do false
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 8,
                 "end": 8
             },
@@ -40,15 +40,15 @@ do false
                 "expression": {
                     "kind": 134,
                     "text": false,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 2,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

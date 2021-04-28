@@ -21,7 +21,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
@@ -37,7 +37,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                     "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 48,
                     "end": 49
                 },
@@ -58,7 +58,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -74,7 +74,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                         "kind": 134299649,
                                         "text": "z",
                                         "rawText": "z",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 37,
                                         "end": 38
                                     },
@@ -96,37 +96,37 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 26,
                                             "end": 30
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 17,
                                         "end": 31
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 14,
                                     "end": 39
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 9,
                                 "end": 39
                             }
                         ],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 39
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 41
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 50
         }

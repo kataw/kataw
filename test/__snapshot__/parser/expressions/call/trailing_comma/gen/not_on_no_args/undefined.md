@@ -27,7 +27,7 @@ foo(,);
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -36,21 +36,21 @@ foo(,);
                     "elements": [
                         {
                             "kind": 230,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 4,
                             "end": 4
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 5
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         }

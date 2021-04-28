@@ -42,7 +42,7 @@ f ^= 1;
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,11 +51,11 @@ f ^= 1;
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -67,13 +67,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4130,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 17
                 },
@@ -81,15 +81,15 @@ f ^= 1;
                     "kind": 201392131,
                     "text": "",
                     "rawText": "",
-                    "flags": 67109632,
+                    "flags": 4194400,
                     "start": 17,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 21
         },
@@ -101,13 +101,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 23
                 },
                 "operatorToken": {
                     "kind": 4130,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 23,
                     "end": 26
                 },
@@ -115,15 +115,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 26,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 29
         },
@@ -135,13 +135,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 29,
                     "end": 31
                 },
                 "operatorToken": {
                     "kind": 4131,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 31,
                     "end": 34
                 },
@@ -149,15 +149,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 34,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 37
         },
@@ -169,13 +169,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 37,
                     "end": 39
                 },
                 "operatorToken": {
                     "kind": 4132,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 39,
                     "end": 42
                 },
@@ -183,15 +183,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 42,
                     "end": 44
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 37,
                 "end": 44
             },
-            "flags": 128,
+            "flags": 16,
             "start": 37,
             "end": 45
         },
@@ -203,13 +203,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 45,
                     "end": 47
                 },
                 "operatorToken": {
                     "kind": 4133,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 47,
                     "end": 50
                 },
@@ -217,15 +217,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 50,
                     "end": 52
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 45,
                 "end": 52
             },
-            "flags": 128,
+            "flags": 16,
             "start": 45,
             "end": 53
         },
@@ -237,13 +237,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 53,
                     "end": 55
                 },
                 "operatorToken": {
                     "kind": 4134,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 55,
                     "end": 58
                 },
@@ -251,15 +251,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 58,
                     "end": 60
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 53,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 53,
             "end": 61
         },
@@ -271,13 +271,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 61,
                     "end": 63
                 },
                 "operatorToken": {
                     "kind": 4137,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 63,
                     "end": 66
                 },
@@ -285,15 +285,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 66,
                     "end": 68
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 61,
                 "end": 68
             },
-            "flags": 128,
+            "flags": 16,
             "start": 61,
             "end": 69
         },
@@ -305,13 +305,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 69,
                     "end": 71
                 },
                 "operatorToken": {
                     "kind": 4136,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 71,
                     "end": 74
                 },
@@ -319,15 +319,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 74,
                     "end": 76
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 69,
                 "end": 76
             },
-            "flags": 128,
+            "flags": 16,
             "start": 69,
             "end": 77
         },
@@ -339,13 +339,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 77,
                     "end": 79
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 79,
                     "end": 83
                 },
@@ -353,15 +353,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 83,
                     "end": 85
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 77,
                 "end": 85
             },
-            "flags": 128,
+            "flags": 16,
             "start": 77,
             "end": 86
         },
@@ -373,13 +373,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 86,
                     "end": 88
                 },
                 "operatorToken": {
                     "kind": 4127,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 88,
                     "end": 92
                 },
@@ -387,15 +387,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 92,
                     "end": 94
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 86,
                 "end": 94
             },
-            "flags": 128,
+            "flags": 16,
             "start": 86,
             "end": 95
         },
@@ -407,13 +407,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 95,
                     "end": 97
                 },
                 "operatorToken": {
                     "kind": 4128,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 97,
                     "end": 102
                 },
@@ -421,15 +421,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 102,
                     "end": 104
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 95,
                 "end": 104
             },
-            "flags": 128,
+            "flags": 16,
             "start": 95,
             "end": 105
         },
@@ -441,13 +441,13 @@ f ^= 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 105,
                     "end": 107
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 107,
                     "end": 110
                 },
@@ -455,15 +455,15 @@ f ^= 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 110,
                     "end": 112
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 105,
                 "end": 112
             },
-            "flags": 128,
+            "flags": 16,
             "start": 105,
             "end": 113
         }

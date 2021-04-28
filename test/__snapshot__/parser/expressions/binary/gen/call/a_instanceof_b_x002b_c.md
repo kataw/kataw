@@ -27,7 +27,7 @@ foo( a instanceof b + c )
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -42,13 +42,13 @@ foo( a instanceof b + c )
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 4,
                                     "end": 6
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 6,
                                     "end": 17
                                 },
@@ -56,17 +56,17 @@ foo( a instanceof b + c )
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 17,
                                     "end": 19
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 4,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 19,
                                 "end": 21
                             },
@@ -74,25 +74,25 @@ foo( a instanceof b + c )
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 4,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

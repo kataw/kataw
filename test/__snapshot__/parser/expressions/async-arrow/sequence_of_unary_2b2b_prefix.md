@@ -21,7 +21,7 @@ async (++x, y) => x;
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -32,7 +32,7 @@ async (++x, y) => x;
                         "kind": 128,
                         "operandToken": {
                             "kind": 196635,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 7,
                             "end": 9
                         },
@@ -40,11 +40,11 @@ async (++x, y) => x;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 10
                     },
@@ -52,17 +52,17 @@ async (++x, y) => x;
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 13
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 14
         },
@@ -72,11 +72,11 @@ async (++x, y) => x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 20
         }

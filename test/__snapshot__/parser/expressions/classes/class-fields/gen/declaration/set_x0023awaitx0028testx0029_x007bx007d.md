@@ -33,7 +33,7 @@ class C { set #await(test) {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class C { set #await(test) {} }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 13
                         },
@@ -60,7 +60,7 @@ class C { set #await(test) {} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 20
                             },
@@ -75,20 +75,20 @@ class C { set #await(test) {} }
                                             "kind": 134299649,
                                             "text": "test",
                                             "rawText": "test",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 25
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 21,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 21,
                                 "end": 26
                             },
@@ -100,28 +100,28 @@ class C { set #await(test) {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 29
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 20,
                             "end": 29
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 29
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

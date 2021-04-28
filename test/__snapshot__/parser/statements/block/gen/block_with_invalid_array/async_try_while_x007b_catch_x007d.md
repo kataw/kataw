@@ -32,15 +32,15 @@
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3,
                                 "end": 3
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 3
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 3
                     },
@@ -53,11 +53,11 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 8
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 8
                         },
@@ -69,15 +69,15 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 9,
                                 "end": 9
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 9,
                             "end": 9
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 9
                     },
@@ -87,11 +87,11 @@
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 15
                     },
@@ -109,11 +109,11 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 19
                         },
@@ -133,11 +133,11 @@
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 33,
                                                 "end": 33
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 33,
                                             "end": 33
                                         },
@@ -149,39 +149,39 @@
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 35,
                                                 "end": 35
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 35
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 27,
                                         "end": 35
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 27,
                                 "end": 35
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 25,
                             "end": 35
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 35
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

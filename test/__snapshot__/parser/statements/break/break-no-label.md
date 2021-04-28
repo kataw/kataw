@@ -27,7 +27,7 @@
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -45,21 +45,21 @@
                                 "end": 18
                             },
                             "label": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 12,
                             "end": 19
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

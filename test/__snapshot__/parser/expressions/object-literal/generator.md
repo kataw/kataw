@@ -23,13 +23,13 @@ x= { *prototype(){} }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 2
                 },
@@ -44,7 +44,7 @@ x= { *prototype(){} }
                                     "kind": 134299649,
                                     "text": "prototype",
                                     "rawText": "prototype",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 15
                                 },
@@ -53,7 +53,7 @@ x= { *prototype(){} }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1280,
+                                    "flags": 160,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -65,15 +65,15 @@ x= { *prototype(){} }
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 18
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 19
                                 },
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 15,
                                 "end": 19
                             }
@@ -84,15 +84,15 @@ x= { *prototype(){} }
                         "start": 4,
                         "end": 19
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

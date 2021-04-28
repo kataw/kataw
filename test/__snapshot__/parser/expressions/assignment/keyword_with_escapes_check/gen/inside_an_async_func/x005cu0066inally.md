@@ -31,7 +31,7 @@ async () => {  \u0066inally = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -51,11 +51,11 @@ async () => {  \u0066inally = x  }
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 27,
                                     "end": 27
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 27,
                                 "end": 27
                             },
@@ -67,15 +67,15 @@ async () => {  \u0066inally = x  }
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 29,
                                     "end": 29
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 29,
                                 "end": 29
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 29
                         },
@@ -85,25 +85,25 @@ async () => {  \u0066inally = x  }
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 29,
                                 "end": 31
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 29,
                             "end": 31
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 34
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 34
         }

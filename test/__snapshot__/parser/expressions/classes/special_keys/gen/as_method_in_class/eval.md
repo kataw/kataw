@@ -33,7 +33,7 @@ class x {eval(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class x {eval(){}}
                                 "kind": 134299649,
                                 "text": "eval",
                                 "rawText": "eval",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 13
                             },
@@ -77,11 +77,11 @@ class x {eval(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 16
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 17
                             },
@@ -94,11 +94,11 @@ class x {eval(){}}
                         "end": 17
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

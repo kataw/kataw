@@ -42,7 +42,7 @@ export {a \u0061s b} from "x";
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 9
                             },
@@ -50,16 +50,16 @@ export {a \u0061s b} from "x";
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 19
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 19
                 },
@@ -72,11 +72,11 @@ export {a \u0061s b} from "x";
                 "kind": 201392131,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 25,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

@@ -33,15 +33,15 @@ return [catch] catch try {
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -54,11 +54,11 @@ return [catch] catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
@@ -70,15 +70,15 @@ return [catch] catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 14
         },
@@ -91,11 +91,11 @@ return [catch] catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 20
             },
@@ -107,15 +107,15 @@ return [catch] catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 26,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 26
         }

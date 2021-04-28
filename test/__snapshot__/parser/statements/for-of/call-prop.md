@@ -52,23 +52,23 @@ var a : string
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -78,11 +78,11 @@ var a : string
                 "kind": 134299649,
                 "text": "string",
                 "rawText": "string",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 14
         }

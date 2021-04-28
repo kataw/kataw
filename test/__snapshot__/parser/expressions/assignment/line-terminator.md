@@ -38,23 +38,23 @@ true;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 4,
                             "end": 6
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 4,
                         "end": 6
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -66,28 +66,28 @@ true;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 513,
+                    "flags": 65,
                     "start": 10,
                     "end": 12
                 },
                 "right": {
                     "kind": 134,
                     "text": true,
-                    "flags": 769,
+                    "flags": 97,
                     "start": 12,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 18
         }

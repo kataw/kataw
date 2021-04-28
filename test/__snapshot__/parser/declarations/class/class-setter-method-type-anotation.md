@@ -37,7 +37,7 @@ class Foo {set fooProp(value:number){}}
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -55,7 +55,7 @@ class Foo {set fooProp(value:number){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 11,
                             "end": 14
                         },
@@ -65,7 +65,7 @@ class Foo {set fooProp(value:number){}}
                                 "kind": 134299649,
                                 "text": "fooProp",
                                 "rawText": "fooProp",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 22
                             },
@@ -80,7 +80,7 @@ class Foo {set fooProp(value:number){}}
                                             "kind": 134299649,
                                             "text": "value",
                                             "rawText": "value",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 23,
                                             "end": 28
                                         },
@@ -89,7 +89,7 @@ class Foo {set fooProp(value:number){}}
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 29,
                                                 "end": 35
                                             },
@@ -98,13 +98,13 @@ class Foo {set fooProp(value:number){}}
                                             "end": 35
                                         },
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 23,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 23,
                                 "end": 36
                             },
@@ -116,28 +116,28 @@ class Foo {set fooProp(value:number){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 37
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 36,
                                 "end": 38
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 22,
                             "end": 38
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 11,
                         "end": 38
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

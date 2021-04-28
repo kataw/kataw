@@ -138,7 +138,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                                         "kind": 134299649,
                                                                                                                                                                                                                                                                                         "text": "b",
                                                                                                                                                                                                                                                                                         "rawText": "b",
-                                                                                                                                                                                                                                                                                        "flags": 768,
+                                                                                                                                                                                                                                                                                        "flags": 96,
                                                                                                                                                                                                                                                                                         "start": 30,
                                                                                                                                                                                                                                                                                         "end": 31
                                                                                                                                                                                                                                                                                     },
@@ -146,11 +146,11 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                                         "kind": 201392130,
                                                                                                                                                                                                                                                                                         "text": 0,
                                                                                                                                                                                                                                                                                         "rawText": "0",
-                                                                                                                                                                                                                                                                                        "flags": 768,
+                                                                                                                                                                                                                                                                                        "flags": 96,
                                                                                                                                                                                                                                                                                         "start": 32,
                                                                                                                                                                                                                                                                                         "end": 33
                                                                                                                                                                                                                                                                                     },
-                                                                                                                                                                                                                                                                                    "flags": 256,
+                                                                                                                                                                                                                                                                                    "flags": 32,
                                                                                                                                                                                                                                                                                     "start": 28,
                                                                                                                                                                                                                                                                                     "end": 34
                                                                                                                                                                                                                                                                                 },
@@ -158,11 +158,11 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                                     "kind": 134299649,
                                                                                                                                                                                                                                                                                     "text": "a",
                                                                                                                                                                                                                                                                                     "rawText": "a",
-                                                                                                                                                                                                                                                                                    "flags": 768,
+                                                                                                                                                                                                                                                                                    "flags": 96,
                                                                                                                                                                                                                                                                                     "start": 28,
                                                                                                                                                                                                                                                                                     "end": 29
                                                                                                                                                                                                                                                                                 },
-                                                                                                                                                                                                                                                                                "flags": 256,
+                                                                                                                                                                                                                                                                                "flags": 32,
                                                                                                                                                                                                                                                                                 "start": 28,
                                                                                                                                                                                                                                                                                 "end": 34
                                                                                                                                                                                                                                                                             }
@@ -173,214 +173,214 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                         "start": 28,
                                                                                                                                                                                                                                                                         "end": 34
                                                                                                                                                                                                                                                                     },
-                                                                                                                                                                                                                                                                    "flags": 256,
+                                                                                                                                                                                                                                                                    "flags": 32,
                                                                                                                                                                                                                                                                     "start": 27,
                                                                                                                                                                                                                                                                     "end": 35
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                             ],
                                                                                                                                                                                                                                                             "trailingComma": false,
-                                                                                                                                                                                                                                                            "flags": 256,
+                                                                                                                                                                                                                                                            "flags": 32,
                                                                                                                                                                                                                                                             "start": 27,
                                                                                                                                                                                                                                                             "end": 35
                                                                                                                                                                                                                                                         },
-                                                                                                                                                                                                                                                        "flags": 256,
+                                                                                                                                                                                                                                                        "flags": 32,
                                                                                                                                                                                                                                                         "start": 26,
                                                                                                                                                                                                                                                         "end": 36
                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                 ],
                                                                                                                                                                                                                                                 "trailingComma": false,
-                                                                                                                                                                                                                                                "flags": 256,
+                                                                                                                                                                                                                                                "flags": 32,
                                                                                                                                                                                                                                                 "start": 26,
                                                                                                                                                                                                                                                 "end": 36
                                                                                                                                                                                                                                             },
-                                                                                                                                                                                                                                            "flags": 256,
+                                                                                                                                                                                                                                            "flags": 32,
                                                                                                                                                                                                                                             "start": 25,
                                                                                                                                                                                                                                             "end": 37
                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                     ],
                                                                                                                                                                                                                                     "trailingComma": false,
-                                                                                                                                                                                                                                    "flags": 256,
+                                                                                                                                                                                                                                    "flags": 32,
                                                                                                                                                                                                                                     "start": 25,
                                                                                                                                                                                                                                     "end": 37
                                                                                                                                                                                                                                 },
-                                                                                                                                                                                                                                "flags": 256,
+                                                                                                                                                                                                                                "flags": 32,
                                                                                                                                                                                                                                 "start": 24,
                                                                                                                                                                                                                                 "end": 38
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                         ],
                                                                                                                                                                                                                         "trailingComma": false,
-                                                                                                                                                                                                                        "flags": 256,
+                                                                                                                                                                                                                        "flags": 32,
                                                                                                                                                                                                                         "start": 24,
                                                                                                                                                                                                                         "end": 38
                                                                                                                                                                                                                     },
-                                                                                                                                                                                                                    "flags": 256,
+                                                                                                                                                                                                                    "flags": 32,
                                                                                                                                                                                                                     "start": 23,
                                                                                                                                                                                                                     "end": 39
                                                                                                                                                                                                                 }
                                                                                                                                                                                                             ],
                                                                                                                                                                                                             "trailingComma": false,
-                                                                                                                                                                                                            "flags": 256,
+                                                                                                                                                                                                            "flags": 32,
                                                                                                                                                                                                             "start": 23,
                                                                                                                                                                                                             "end": 39
                                                                                                                                                                                                         },
-                                                                                                                                                                                                        "flags": 256,
+                                                                                                                                                                                                        "flags": 32,
                                                                                                                                                                                                         "start": 22,
                                                                                                                                                                                                         "end": 40
                                                                                                                                                                                                     }
                                                                                                                                                                                                 ],
                                                                                                                                                                                                 "trailingComma": false,
-                                                                                                                                                                                                "flags": 256,
+                                                                                                                                                                                                "flags": 32,
                                                                                                                                                                                                 "start": 22,
                                                                                                                                                                                                 "end": 40
                                                                                                                                                                                             },
-                                                                                                                                                                                            "flags": 256,
+                                                                                                                                                                                            "flags": 32,
                                                                                                                                                                                             "start": 21,
                                                                                                                                                                                             "end": 41
                                                                                                                                                                                         }
                                                                                                                                                                                     ],
                                                                                                                                                                                     "trailingComma": false,
-                                                                                                                                                                                    "flags": 256,
+                                                                                                                                                                                    "flags": 32,
                                                                                                                                                                                     "start": 21,
                                                                                                                                                                                     "end": 41
                                                                                                                                                                                 },
-                                                                                                                                                                                "flags": 256,
+                                                                                                                                                                                "flags": 32,
                                                                                                                                                                                 "start": 20,
                                                                                                                                                                                 "end": 42
                                                                                                                                                                             }
                                                                                                                                                                         ],
                                                                                                                                                                         "trailingComma": false,
-                                                                                                                                                                        "flags": 256,
+                                                                                                                                                                        "flags": 32,
                                                                                                                                                                         "start": 20,
                                                                                                                                                                         "end": 42
                                                                                                                                                                     },
-                                                                                                                                                                    "flags": 256,
+                                                                                                                                                                    "flags": 32,
                                                                                                                                                                     "start": 19,
                                                                                                                                                                     "end": 43
                                                                                                                                                                 }
                                                                                                                                                             ],
                                                                                                                                                             "trailingComma": false,
-                                                                                                                                                            "flags": 256,
+                                                                                                                                                            "flags": 32,
                                                                                                                                                             "start": 19,
                                                                                                                                                             "end": 43
                                                                                                                                                         },
-                                                                                                                                                        "flags": 256,
+                                                                                                                                                        "flags": 32,
                                                                                                                                                         "start": 18,
                                                                                                                                                         "end": 44
                                                                                                                                                     }
                                                                                                                                                 ],
                                                                                                                                                 "trailingComma": false,
-                                                                                                                                                "flags": 256,
+                                                                                                                                                "flags": 32,
                                                                                                                                                 "start": 18,
                                                                                                                                                 "end": 44
                                                                                                                                             },
-                                                                                                                                            "flags": 256,
+                                                                                                                                            "flags": 32,
                                                                                                                                             "start": 17,
                                                                                                                                             "end": 45
                                                                                                                                         }
                                                                                                                                     ],
                                                                                                                                     "trailingComma": false,
-                                                                                                                                    "flags": 256,
+                                                                                                                                    "flags": 32,
                                                                                                                                     "start": 17,
                                                                                                                                     "end": 45
                                                                                                                                 },
-                                                                                                                                "flags": 256,
+                                                                                                                                "flags": 32,
                                                                                                                                 "start": 16,
                                                                                                                                 "end": 46
                                                                                                                             }
                                                                                                                         ],
                                                                                                                         "trailingComma": false,
-                                                                                                                        "flags": 256,
+                                                                                                                        "flags": 32,
                                                                                                                         "start": 16,
                                                                                                                         "end": 46
                                                                                                                     },
-                                                                                                                    "flags": 256,
+                                                                                                                    "flags": 32,
                                                                                                                     "start": 15,
                                                                                                                     "end": 47
                                                                                                                 }
                                                                                                             ],
                                                                                                             "trailingComma": false,
-                                                                                                            "flags": 256,
+                                                                                                            "flags": 32,
                                                                                                             "start": 15,
                                                                                                             "end": 47
                                                                                                         },
-                                                                                                        "flags": 256,
+                                                                                                        "flags": 32,
                                                                                                         "start": 14,
                                                                                                         "end": 48
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
-                                                                                                "flags": 256,
+                                                                                                "flags": 32,
                                                                                                 "start": 14,
                                                                                                 "end": 48
                                                                                             },
-                                                                                            "flags": 256,
+                                                                                            "flags": 32,
                                                                                             "start": 13,
                                                                                             "end": 49
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 13,
                                                                                     "end": 49
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 12,
                                                                                 "end": 50
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 12,
                                                                         "end": 50
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 11,
                                                                     "end": 51
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 11,
                                                             "end": 51
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 10,
                                                         "end": 52
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 10,
                                                 "end": 52
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 53
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 9,
                                     "end": 53
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 54
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 54
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 55
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -389,17 +389,17 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
-                "flags": 768,
+                "flags": 96,
                 "start": 58,
                 "end": 59
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 59
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 59,
             "end": 60
         }

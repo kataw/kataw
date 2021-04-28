@@ -23,19 +23,19 @@
                     "kind": 121,
                     "expression": {
                         "kind": 132,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -49,13 +49,13 @@
                         "kind": 134299649,
                         "text": "Array",
                         "rawText": "Array",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 10,
                         "end": 16
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 16,
                         "end": 17
                     },
@@ -63,32 +63,32 @@
                         "kind": 134299649,
                         "text": "number",
                         "rawText": "number",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 10,
                     "end": 23
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 23,
                     "end": 24
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 24
         },
@@ -98,11 +98,11 @@
                 "kind": 134299649,
                 "text": "rest",
                 "rawText": "rest",
-                "flags": 768,
+                "flags": 96,
                 "start": 28,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 33
         }

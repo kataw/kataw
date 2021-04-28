@@ -32,7 +32,7 @@ else function f(){}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 5
             },
@@ -42,17 +42,17 @@ else function f(){}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 9
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 513,
+                "flags": 65,
                 "start": 9,
                 "end": 14
             },
@@ -71,7 +71,7 @@ else function f(){}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 23,
                     "end": 25
                 },
@@ -79,7 +79,7 @@ else function f(){}
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 25,
                     "end": 27
                 },
@@ -90,21 +90,21 @@ else function f(){}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 28,
                         "end": 28
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 27,
                     "end": 29
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

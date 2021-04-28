@@ -21,7 +21,7 @@ delete typeof true
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -29,26 +29,26 @@ delete typeof true
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 6,
                         "end": 13
                     },
                     "expression": {
                         "kind": 134,
                         "text": true,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

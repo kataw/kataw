@@ -26,7 +26,7 @@ async function p(){
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -41,7 +41,7 @@ async function p(){
                 "kind": 134299649,
                 "text": "p",
                 "rawText": "p",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -49,7 +49,7 @@ async function p(){
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -73,7 +73,7 @@ async function p(){
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 29
                             },
@@ -90,7 +90,7 @@ async function p(){
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 4259886,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 37,
                                         "end": 44
                                     },
@@ -98,43 +98,43 @@ async function p(){
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 44,
                                         "end": 46
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 46
                                 },
                                 "typeParameter": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 37,
                                 "end": 46
                             },
                             "members": {
                                 "kind": 277,
                                 "elements": [],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 48,
                                 "end": 49
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 49
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 49
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 51
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 51
         }

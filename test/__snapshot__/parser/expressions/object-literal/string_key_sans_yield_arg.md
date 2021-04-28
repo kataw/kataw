@@ -27,7 +27,7 @@ function *f(){   s = {"foo": yield}   }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -35,7 +35,7 @@ function *f(){   s = {"foo": yield}   }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -43,7 +43,7 @@ function *f(){   s = {"foo": yield}   }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -61,13 +61,13 @@ function *f(){   s = {"foo": yield}   }
                                     "kind": 134299649,
                                     "text": "s",
                                     "rawText": "s",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -89,7 +89,7 @@ function *f(){   s = {"foo": yield}   }
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": null,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 28,
                                                     "end": 34
                                                 },
@@ -97,11 +97,11 @@ function *f(){   s = {"foo": yield}   }
                                                     "kind": 201392131,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 22,
                                                     "end": 27
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 22,
                                                 "end": 34
                                             }
@@ -112,31 +112,31 @@ function *f(){   s = {"foo": yield}   }
                                         "start": 22,
                                         "end": 34
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 35
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 35
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 35
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 39
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 39
         }

@@ -31,7 +31,7 @@ function f(x=super.foo){ }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -45,7 +45,7 @@ function f(x=super.foo){ }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -61,7 +61,7 @@ function f(x=super.foo){ }
                                     "start": 13,
                                     "end": 18
                                 },
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 18
                             },
@@ -69,21 +69,21 @@ function f(x=super.foo){ }
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 22
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 23
             },
@@ -94,17 +94,17 @@ function f(x=super.foo){ }
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 26
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

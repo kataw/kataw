@@ -31,7 +31,7 @@ x, [foo = y, bar] = doo
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
@@ -48,13 +48,13 @@ x, [foo = y, bar] = doo
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 7
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 7,
                                             "end": 9
                                         },
@@ -62,11 +62,11 @@ x, [foo = y, bar] = doo
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 11
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 11
                                     },
@@ -74,23 +74,23 @@ x, [foo = y, bar] = doo
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 4,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 17
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 17,
                             "end": 19
                         },
@@ -98,20 +98,20 @@ x, [foo = y, bar] = doo
                             "kind": 134299649,
                             "text": "doo",
                             "rawText": "doo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 23
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

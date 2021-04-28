@@ -21,11 +21,11 @@ xxx\Axxx
                 "kind": 134299649,
                 "text": "xxx",
                 "rawText": "xxx",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
@@ -35,11 +35,11 @@ xxx\Axxx
                 "kind": 134299649,
                 "text": "Axxx",
                 "rawText": "Axxx",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 8
         }

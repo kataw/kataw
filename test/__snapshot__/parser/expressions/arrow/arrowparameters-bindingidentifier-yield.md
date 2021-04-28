@@ -34,7 +34,7 @@ var af = yield => 1;
                             "kind": 134299649,
                             "text": "af",
                             "rawText": "af",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 6
                         },
@@ -53,7 +53,7 @@ var af = yield => 1;
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 14
                             },
@@ -63,24 +63,24 @@ var af = yield => 1;
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 19
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

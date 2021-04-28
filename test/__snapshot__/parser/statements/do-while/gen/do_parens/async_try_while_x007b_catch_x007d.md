@@ -30,7 +30,7 @@ do( async try while { catch } while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
@@ -41,19 +41,19 @@ do( async try while { catch } while
                     "kind": 121,
                     "expression": {
                         "kind": 132,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -74,7 +74,7 @@ do( async try while { catch } while
                             "kind": 134299649,
                             "text": "catch",
                             "rawText": "catch",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 27
                         }
@@ -85,7 +85,7 @@ do( async try while { catch } while
                     "start": 21,
                     "end": 27
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 29
             },
@@ -100,7 +100,7 @@ do( async try while { catch } while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 35,
                     "end": 35
                 },
@@ -109,19 +109,19 @@ do( async try while { catch } while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 35,
                         "end": 35
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 35,
                     "end": 35
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 29,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 35
         }

@@ -22,7 +22,7 @@ async
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -33,23 +33,23 @@ async
                         "kind": 201392130,
                         "text": 2,
                         "rawText": "2",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 8
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 9
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 10
         }

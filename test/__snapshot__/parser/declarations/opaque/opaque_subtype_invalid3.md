@@ -30,11 +30,11 @@ opaque stuff: Box<T> = Container<T>
                 "kind": 134299649,
                 "text": "opaque",
                 "rawText": "opaque",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -44,7 +44,7 @@ opaque stuff: Box<T> = Container<T>
                 "kind": 134299649,
                 "text": "stuff",
                 "rawText": "stuff",
-                "flags": 768,
+                "flags": 96,
                 "start": 6,
                 "end": 12
             },
@@ -58,13 +58,13 @@ opaque stuff: Box<T> = Container<T>
                             "kind": 134299649,
                             "text": "Box",
                             "rawText": "Box",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 17
                         },
                         "operatorToken": {
                             "kind": 536971330,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 17,
                             "end": 18
                         },
@@ -72,36 +72,36 @@ opaque stuff: Box<T> = Container<T>
                             "kind": 134299649,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 19
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 19,
                         "end": 20
                     },
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 20,
                         "end": 20
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 20
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 20
         },
@@ -115,13 +115,13 @@ opaque stuff: Box<T> = Container<T>
                         "kind": 134299649,
                         "text": "Container",
                         "rawText": "Container",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 32,
                         "end": 33
                     },
@@ -129,32 +129,32 @@ opaque stuff: Box<T> = Container<T>
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 33,
                         "end": 34
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 34,
                     "end": 35
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 35,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 35
         }

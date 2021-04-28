@@ -22,11 +22,11 @@ async
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -44,7 +44,7 @@ async
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
@@ -52,7 +52,7 @@ async
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 17
             },
@@ -63,17 +63,17 @@ async
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 19
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 19
         }

@@ -34,7 +34,7 @@ function f(a = async x => {}) {}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -48,7 +48,7 @@ function f(a = async x => {}) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -71,21 +71,21 @@ function f(a = async x => {}) {}
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 22
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 14,
                                 "end": 20
                             },
@@ -97,25 +97,25 @@ function f(a = async x => {}) {}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 27
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 28
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 14,
                             "end": 28
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 29
             },
@@ -126,17 +126,17 @@ function f(a = async x => {}) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 31,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 32
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

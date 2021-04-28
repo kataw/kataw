@@ -31,7 +31,7 @@ do {} while (x) { false
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 14
             },
@@ -47,15 +47,15 @@ do {} while (x) { false
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -69,21 +69,21 @@ do {} while (x) { false
                         "expression": {
                             "kind": 134,
                             "text": false,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 23
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 23
         }

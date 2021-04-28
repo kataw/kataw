@@ -33,7 +33,7 @@ class C extends Base { async = 0 }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,12 +50,12 @@ class C extends Base { async = 0 }
                     "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 20
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 20
             },
@@ -72,7 +72,7 @@ class C extends Base { async = 0 }
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 28
                         },
@@ -82,20 +82,20 @@ class C extends Base { async = 0 }
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 30,
                             "end": 32
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 22,
                         "end": 32
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

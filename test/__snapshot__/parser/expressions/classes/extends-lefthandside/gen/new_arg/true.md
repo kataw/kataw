@@ -32,16 +32,16 @@ new true
                 "expression": {
                     "kind": 134,
                     "text": true,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 8
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

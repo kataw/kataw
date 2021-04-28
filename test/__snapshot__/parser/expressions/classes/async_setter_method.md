@@ -35,7 +35,7 @@ class A {async set 11(x){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class A {async set 11(x){}}
                         "staticToken": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 14
                         },
@@ -59,14 +59,14 @@ class A {async set 11(x){}}
                             "kind": 134299649,
                             "text": "set",
                             "rawText": "set",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 18
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 18
                     },
@@ -84,7 +84,7 @@ class A {async set 11(x){}}
                                 "kind": 201392130,
                                 "text": 11,
                                 "rawText": "11",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 18,
                                 "end": 21
                             },
@@ -99,20 +99,20 @@ class A {async set 11(x){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 23
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 22,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
@@ -124,11 +124,11 @@ class A {async set 11(x){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 26
                             },
@@ -141,11 +141,11 @@ class A {async set 11(x){}}
                         "end": 26
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

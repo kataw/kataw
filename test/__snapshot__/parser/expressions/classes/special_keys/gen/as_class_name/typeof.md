@@ -32,7 +32,7 @@ class typeof {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class typeof {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -55,7 +55,7 @@ class typeof {}
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 12
                 },
@@ -70,15 +70,15 @@ class typeof {}
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 12,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 15
         }

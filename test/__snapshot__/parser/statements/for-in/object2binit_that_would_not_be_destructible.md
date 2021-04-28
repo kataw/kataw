@@ -46,13 +46,13 @@ for ({a: x + y} = z in obj);
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 8,
                                         "end": 10
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -60,11 +60,11 @@ for ({a: x + y} = z in obj);
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 14
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 6,
                                     "end": 14
                                 },
@@ -72,11 +72,11 @@ for ({a: x + y} = z in obj);
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 7
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 14
                             }
@@ -87,13 +87,13 @@ for ({a: x + y} = z in obj);
                         "start": 6,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 15,
                     "end": 17
                 },
@@ -103,13 +103,13 @@ for ({a: x + y} = z in obj);
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 19,
                         "end": 22
                     },
@@ -117,15 +117,15 @@ for ({a: x + y} = z in obj);
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 26
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 26
             },
@@ -133,17 +133,17 @@ for ({a: x + y} = z in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 26,
                 "end": 26
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 27,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

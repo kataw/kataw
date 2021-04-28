@@ -33,11 +33,11 @@ try try try =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try try try =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 7
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -75,11 +75,11 @@ try try try =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
@@ -91,15 +91,15 @@ try try try =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 13
         },
@@ -109,7 +109,7 @@ try try try =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 13,
                     "end": 14
                 },
@@ -128,19 +128,19 @@ try try try =! class function try while with foo!
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 20
         },
@@ -158,7 +158,7 @@ try try try =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 29,
                 "end": 29
             },
@@ -166,7 +166,7 @@ try try try =! class function try while with foo!
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 29
             },
@@ -177,17 +177,17 @@ try try try =! class function try while with foo!
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 29
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 29
         },
@@ -205,11 +205,11 @@ try try try =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 33,
                     "end": 33
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 33,
                 "end": 33
             },
@@ -221,15 +221,15 @@ try try try =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 39,
                     "end": 39
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 39,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 39
         },
@@ -245,7 +245,7 @@ try try try =! class function try while with foo!
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 44,
                 "end": 48
             },
@@ -255,26 +255,26 @@ try try try =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 48,
                         "end": 49
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 49,
                         "end": 49
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 48,
                     "end": 49
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 48,
                 "end": 49
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 49
         }

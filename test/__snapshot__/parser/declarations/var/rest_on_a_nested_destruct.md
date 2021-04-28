@@ -57,7 +57,7 @@ var [...[foo, bar]] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -73,14 +73,14 @@ var [...[foo, bar]] = obj;
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 9,
                                                             "end": 12
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 9,
                                                         "end": 12
                                                     },
@@ -91,41 +91,41 @@ var [...[foo, bar]] = obj;
                                                             "kind": 134299649,
                                                             "text": "bar",
                                                             "rawText": "bar",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 13,
                                                             "end": 17
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 13,
                                                         "end": 17
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 9,
                                                 "end": 17
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 18
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 19
                         },
@@ -135,20 +135,20 @@ var [...[foo, bar]] = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 25
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 25
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

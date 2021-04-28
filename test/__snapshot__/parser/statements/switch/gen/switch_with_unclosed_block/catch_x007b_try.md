@@ -38,7 +38,7 @@ switch {} default(x) { catch { try
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
@@ -62,15 +62,15 @@ switch {} default(x) { catch { try
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 20
                             },
@@ -101,11 +101,11 @@ switch {} default(x) { catch { try
                                                                     "kind": 124,
                                                                     "statements": [],
                                                                     "multiLine": false,
-                                                                    "flags": 128,
+                                                                    "flags": 16,
                                                                     "start": 34,
                                                                     "end": 34
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 34,
                                                                 "end": 34
                                                             },
@@ -117,25 +117,25 @@ switch {} default(x) { catch { try
                                                                     "kind": 124,
                                                                     "statements": [],
                                                                     "multiLine": false,
-                                                                    "flags": 128,
+                                                                    "flags": 16,
                                                                     "start": 34,
                                                                     "end": 34
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 34,
                                                                 "end": 34
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 30,
                                                             "end": 34
                                                         }
                                                     ],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 30,
                                                     "end": 34
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 28,
                                                 "end": 34
                                             },
@@ -147,39 +147,39 @@ switch {} default(x) { catch { try
                                                     "kind": 124,
                                                     "statements": [],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 34,
                                                     "end": 34
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 34,
                                                 "end": 34
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 22,
                                             "end": 34
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 34
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 34
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 34
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

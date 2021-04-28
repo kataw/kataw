@@ -28,23 +28,23 @@ bar, return => {};
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 3
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 4,
                         "end": 4
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -59,11 +59,11 @@ bar, return => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -73,17 +73,17 @@ bar, return => {};
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 17
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 18
         }

@@ -43,7 +43,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 11
                                 },
@@ -54,25 +54,25 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 11
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 11
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 11
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 11
                     },
@@ -87,7 +87,7 @@
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 17,
                             "end": 17
                         },
@@ -96,25 +96,25 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 17,
                                 "end": 17
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

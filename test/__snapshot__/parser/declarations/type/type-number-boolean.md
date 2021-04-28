@@ -29,7 +29,7 @@ type A = { [string | boolean]: number };
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
@@ -37,7 +37,7 @@ type A = { [string | boolean]: number };
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 6
             },
@@ -55,13 +55,13 @@ type A = { [string | boolean]: number };
                             "types": [
                                 {
                                     "kind": 134234347,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 12,
                                     "end": 18
                                 },
                                 {
                                     "kind": 134234254,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 28
                                 }
@@ -72,7 +72,7 @@ type A = { [string | boolean]: number };
                         },
                         "value": {
                             "kind": 134234345,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 30,
                             "end": 37
                         },
@@ -88,7 +88,7 @@ type A = { [string | boolean]: number };
                 "start": 8,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

@@ -34,7 +34,7 @@ function f(a = async async => ok) {}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -48,7 +48,7 @@ function f(a = async async => ok) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -71,21 +71,21 @@ function f(a = async async => ok) {}
                                         "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 26
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 26
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 14,
                                 "end": 20
                             },
@@ -94,21 +94,21 @@ function f(a = async async => ok) {}
                                 "kind": 134299649,
                                 "text": "ok",
                                 "rawText": "ok",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 29,
                                 "end": 32
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 14,
                             "end": 32
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 32
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 33
             },
@@ -119,17 +119,17 @@ function f(a = async async => ok) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 35,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 36
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

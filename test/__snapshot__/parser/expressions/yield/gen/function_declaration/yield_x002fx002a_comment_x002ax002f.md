@@ -34,7 +34,7 @@ function not_gen() { yield /* comment */ }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { yield /* comment */ }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -58,27 +58,27 @@ function not_gen() { yield /* comment */ }}
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 26
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 26
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 42
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 42
         }

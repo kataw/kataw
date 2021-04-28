@@ -33,7 +33,7 @@ class C { set x(_) { new super; } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class C { set x(_) { new super; } }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 13
                         },
@@ -61,7 +61,7 @@ class C { set x(_) { new super; } }
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             },
@@ -76,20 +76,20 @@ class C { set x(_) { new super; } }
                                             "kind": 134299649,
                                             "text": "_",
                                             "rawText": "_",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 17
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 16,
                                 "end": 18
                             },
@@ -120,54 +120,54 @@ class C { set x(_) { new super; } }
                                                             "start": 24,
                                                             "end": 30
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 24,
                                                         "end": 30
                                                     },
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 12,
+                                                        "flags": 68,
                                                         "start": 30,
                                                         "end": 30
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 24,
                                                     "end": 30
                                                 },
                                                 "argumentList": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 20,
                                                 "end": 30
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 20,
                                             "end": 31
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 33
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 15,
                             "end": 33
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 33
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

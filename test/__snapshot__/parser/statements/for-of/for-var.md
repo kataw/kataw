@@ -51,19 +51,19 @@ for(var i;;);
                             "kind": 134299649,
                             "text": "i",
                             "rawText": "i",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 7,
                         "end": 9
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 9
             },
@@ -71,11 +71,11 @@ for(var i;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

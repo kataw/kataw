@@ -38,7 +38,7 @@ function foo(numVal: any, otherVal: mixed){}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 12
             },
@@ -52,7 +52,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "kind": 134299649,
                             "text": "numVal",
                             "rawText": "numVal",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 19
                         },
@@ -61,7 +61,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 24
                             },
@@ -70,7 +70,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "end": 24
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 24
                     },
@@ -81,7 +81,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "kind": 134299649,
                             "text": "otherVal",
                             "rawText": "otherVal",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 25,
                             "end": 34
                         },
@@ -94,7 +94,7 @@ function foo(numVal: any, otherVal: mixed){}
                                     "kind": 134299649,
                                     "text": "mixed",
                                     "rawText": "mixed",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 35,
                                     "end": 41
                                 },
@@ -108,13 +108,13 @@ function foo(numVal: any, otherVal: mixed){}
                             "end": 41
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 41
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 42
             },
@@ -125,17 +125,17 @@ function foo(numVal: any, otherVal: mixed){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 43,
                     "end": 43
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 42,
                 "end": 44
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 44
         }

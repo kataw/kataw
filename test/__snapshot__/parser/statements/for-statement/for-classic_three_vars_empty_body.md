@@ -51,14 +51,14 @@ for (var a,b,c;;);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 10
                     },
@@ -68,14 +68,14 @@ for (var a,b,c;;);
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 12
                     },
@@ -85,19 +85,19 @@ for (var a,b,c;;);
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 13,
                         "end": 14
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 14
             },
@@ -105,11 +105,11 @@ for (var a,b,c;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

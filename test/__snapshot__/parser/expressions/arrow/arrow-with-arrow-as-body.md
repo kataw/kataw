@@ -32,7 +32,7 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 2
                         },
@@ -40,7 +40,7 @@
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         }
@@ -63,7 +63,7 @@
                                 "kind": 134299649,
                                 "text": "u",
                                 "rawText": "u",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 12
                             },
@@ -71,7 +71,7 @@
                                 "kind": 134299649,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             }
@@ -87,13 +87,13 @@
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 21
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 21,
                                 "end": 22
                             },
@@ -101,17 +101,17 @@
                                 "kind": 134299649,
                                 "text": "u",
                                 "rawText": "u",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 19,
                             "end": 23
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 23,
                             "end": 25
                         },
@@ -121,13 +121,13 @@
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 25,
                                 "end": 27
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 27,
                                 "end": 28
                             },
@@ -135,27 +135,27 @@
                                 "kind": 134299649,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 29
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 27,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 19,
                         "end": 29
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 9,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

@@ -22,13 +22,13 @@ true ** a
                 "left": {
                     "kind": 134,
                     "text": true,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 4,
                     "end": 7
                 },
@@ -36,15 +36,15 @@ true ** a
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

@@ -40,7 +40,7 @@ async (s: any) => x
                         "kind": 134299649,
                         "text": "s",
                         "rawText": "s",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
@@ -49,7 +49,7 @@ async (s: any) => x
                         "kind": 139,
                         "type": {
                             "kind": 134234252,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 13
                         },
@@ -58,14 +58,14 @@ async (s: any) => x
                         "end": 13
                     },
                     "initializer": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 13
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -74,11 +74,11 @@ async (s: any) => x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 19
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 19
         }

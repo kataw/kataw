@@ -26,7 +26,7 @@
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 2
                         },
@@ -36,7 +36,7 @@
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3,
                                 "end": 7
                             },
@@ -50,7 +50,7 @@
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 13
                             },
@@ -64,24 +64,24 @@
                                 "kind": 134299649,
                                 "text": "baz",
                                 "rawText": "baz",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 0,
                             "end": 19
                         }
                     ],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         },
@@ -91,11 +91,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 26
         }

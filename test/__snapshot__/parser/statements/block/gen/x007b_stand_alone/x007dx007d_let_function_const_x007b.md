@@ -25,11 +25,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
@@ -39,11 +39,11 @@
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "let",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 8
         },
@@ -61,7 +61,7 @@
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 17,
                 "end": 17
             },
@@ -69,7 +69,7 @@
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 17
             },
@@ -80,17 +80,17 @@
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 17
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 17
         },
@@ -114,27 +114,27 @@
                                 "properties": [],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 25
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 23,
                             "end": 25
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 23,
                         "end": 25
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 23,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 17,
             "end": 25
         }

@@ -21,7 +21,7 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 1
                 },
@@ -29,15 +29,15 @@
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1,
                     "end": 2
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 2
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 2
         }

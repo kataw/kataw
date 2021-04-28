@@ -31,7 +31,7 @@ async () => {  \u0069nstanceof = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -49,42 +49,42 @@ async () => {  \u0069nstanceof = x  }
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 13,
                                     "end": 13
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 262656,
+                                    "flags": 16448,
                                     "start": 13,
                                     "end": 30
                                 },
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 30,
                                     "end": 30
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 30
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 30
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 30
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 30
         },
@@ -94,11 +94,11 @@ async () => {  \u0069nstanceof = x  }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 32,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 32,
             "end": 34
         }

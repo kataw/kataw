@@ -27,7 +27,7 @@ do h(function(){});while(x)
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 25,
                 "end": 26
             },
@@ -45,7 +45,7 @@ do h(function(){});while(x)
                         "kind": 134299649,
                         "text": "h",
                         "rawText": "h",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 2,
                         "end": 4
                     },
@@ -67,7 +67,7 @@ do h(function(){});while(x)
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -78,35 +78,35 @@ do h(function(){});while(x)
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 16
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

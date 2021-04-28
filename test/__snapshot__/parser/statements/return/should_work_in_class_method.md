@@ -29,7 +29,7 @@ class x {foo(){ return }}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class x {foo(){ return }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 12
                             },
@@ -81,17 +81,17 @@ class x {foo(){ return }}
                                                 "end": 22
                                             },
                                             "expression": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 0,
                                             "end": 15
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 22
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 24
                             },
@@ -104,11 +104,11 @@ class x {foo(){ return }}
                         "end": 24
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

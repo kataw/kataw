@@ -40,14 +40,14 @@ for (const a,b,c;;);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 12
                     },
@@ -57,14 +57,14 @@ for (const a,b,c;;);
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 13,
                         "end": 14
                     },
@@ -74,19 +74,19 @@ for (const a,b,c;;);
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 16
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 16
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 16
             },
@@ -94,11 +94,11 @@ for (const a,b,c;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

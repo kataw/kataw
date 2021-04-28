@@ -34,7 +34,7 @@ function not_gen() { yield * \n { yield: 12 } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { yield * \n { yield: 12 } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -60,44 +60,44 @@ function not_gen() { yield * \n { yield: 12 } }}
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 28,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 28
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 28
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 28
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         },
@@ -107,11 +107,11 @@ function not_gen() { yield * \n { yield: 12 } }}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 30,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 31
         },
@@ -126,21 +126,21 @@ function not_gen() { yield * \n { yield: 12 } }}
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 33,
                             "end": 39
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 33,
                         "end": 39
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 33,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 31,
             "end": 39
         },
@@ -150,11 +150,11 @@ function not_gen() { yield * \n { yield: 12 } }}
                 "kind": 201392130,
                 "text": 12,
                 "rawText": "12",
-                "flags": 768,
+                "flags": 96,
                 "start": 40,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 40,
             "end": 43
         }

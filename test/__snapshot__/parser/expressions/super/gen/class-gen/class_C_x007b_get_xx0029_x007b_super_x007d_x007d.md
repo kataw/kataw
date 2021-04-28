@@ -33,7 +33,7 @@ class C { *method() { class C { get x) { super; } } } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class C { *method() { class C { get x) { super; } } } }
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 17
                             },
@@ -90,7 +90,7 @@ class C { *method() { class C { get x) { super; } } } }
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 27,
                                                 "end": 29
                                             },
@@ -109,33 +109,33 @@ class C { *method() { class C { get x) { super; } } } }
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 35,
                                                             "end": 37
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 31,
                                                         "end": 37
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 37
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 21,
                                             "end": 37
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 37
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 37
                             },
@@ -148,11 +148,11 @@ class C { *method() { class C { get x) { super; } } } }
                         "end": 37
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         },
@@ -173,32 +173,32 @@ class C { *method() { class C { get x) { super; } } } }
                                     "start": 40,
                                     "end": 46
                                 },
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 40,
                                 "end": 46
                             },
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 46,
                                 "end": 46
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 40,
                             "end": 46
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 40,
                         "end": 47
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 40,
                 "end": 47
             },
-            "flags": 128,
+            "flags": 16,
             "start": 38,
             "end": 49
         }

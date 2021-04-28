@@ -48,40 +48,40 @@ const [foo:bar] = obj;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 10
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 10
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 10
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 10
         },
@@ -91,11 +91,11 @@ const [foo:bar] = obj;
                 "kind": 134299649,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 14
         },
@@ -105,11 +105,11 @@ const [foo:bar] = obj;
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 22
         }

@@ -45,30 +45,30 @@ export var await;
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 16
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 10,
                             "end": 16
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 17
             },
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

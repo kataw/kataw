@@ -38,11 +38,11 @@ export default null;
             "declaration": {
                 "kind": 269,
                 "text": null,
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

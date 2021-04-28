@@ -31,13 +31,13 @@ async (a = 1, b = 2) => x;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 8,
                         "end": 10
                     },
@@ -45,11 +45,11 @@ async (a = 1, b = 2) => x;
                         "kind": 201392130,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 10,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 12
                 },
@@ -59,13 +59,13 @@ async (a = 1, b = 2) => x;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 15,
                         "end": 17
                     },
@@ -73,18 +73,18 @@ async (a = 1, b = 2) => x;
                         "kind": 201392130,
                         "text": 2,
                         "rawText": "2",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 19
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -93,17 +93,17 @@ async (a = 1, b = 2) => x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 25
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 25
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 26
         }

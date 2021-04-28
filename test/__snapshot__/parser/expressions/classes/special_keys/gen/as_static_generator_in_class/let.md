@@ -33,7 +33,7 @@ class x {static * let(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -48,7 +48,7 @@ class x {static * let(){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -61,7 +61,7 @@ class x {static * let(){}}
                                 "kind": 134299649,
                                 "text": "let",
                                 "rawText": "let",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 21
                             },
@@ -82,11 +82,11 @@ class x {static * let(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 24
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 25
                             },
@@ -99,11 +99,11 @@ class x {static * let(){}}
                         "end": 25
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

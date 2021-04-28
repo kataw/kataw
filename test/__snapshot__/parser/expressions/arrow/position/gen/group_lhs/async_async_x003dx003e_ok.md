@@ -42,21 +42,21 @@
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 12
                                 },
                                 "optionalToken": null,
                                 "type": null,
                                 "initializer": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 12
                             }
                         ],
                         "asyncToken": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 1,
                             "end": 6
                         },
@@ -65,21 +65,21 @@
                             "kind": 134299649,
                             "text": "ok",
                             "rawText": "ok",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 18
                         },
-                        "flags": 2304,
+                        "flags": 288,
                         "start": 1,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 19,
                     "end": 21
                 },
@@ -87,15 +87,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

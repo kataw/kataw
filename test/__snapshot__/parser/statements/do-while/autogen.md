@@ -203,7 +203,7 @@ do[ #
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 10,
                 "end": 10
             },
@@ -218,15 +218,15 @@ do[ #
                 "expression": {
                     "kind": 67109115,
                     "text": "#",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 2,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

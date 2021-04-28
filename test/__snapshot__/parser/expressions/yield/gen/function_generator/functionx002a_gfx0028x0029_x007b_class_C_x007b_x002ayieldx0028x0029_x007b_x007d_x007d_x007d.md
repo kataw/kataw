@@ -31,7 +31,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -39,7 +39,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 14
             },
@@ -47,7 +47,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                 "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 35
                             },
@@ -80,7 +80,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 37
                             },
@@ -102,7 +102,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 48,
                                                 "end": 49
                                             },
@@ -110,7 +110,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                 "kind": 134299649,
                                                 "text": "gf",
                                                 "rawText": "gf",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 49,
                                                 "end": 52
                                             },
@@ -118,7 +118,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 52,
                                                 "end": 54
                                             },
@@ -142,7 +142,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                 "kind": 134299649,
                                                                 "text": "C",
                                                                 "rawText": "C",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 62,
                                                                 "end": 64
                                                             },
@@ -165,7 +165,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                                 "kind": 134299649,
                                                                                 "text": "yield",
                                                                                 "rawText": "yield",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 68,
                                                                                 "end": 73
                                                                             },
@@ -186,11 +186,11 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                                     "directives": [],
                                                                                     "statements": [],
                                                                                     "multiline": false,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 77,
                                                                                     "end": 77
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 75,
                                                                                 "end": 79
                                                                             },
@@ -203,59 +203,59 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                         "end": 79
                                                                     }
                                                                 ],
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 66,
                                                                 "end": 81
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 56,
                                                             "end": 81
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 56,
                                                     "end": 81
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 54,
                                                 "end": 83
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 2176,
+                                            "flags": 272,
                                             "start": 39,
                                             "end": 83
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 83
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 85
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 85
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 85
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 86
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 86
         }

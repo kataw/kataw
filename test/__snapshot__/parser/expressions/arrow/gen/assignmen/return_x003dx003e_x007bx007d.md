@@ -27,28 +27,28 @@ x = return => {} ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
@@ -63,11 +63,11 @@ x = return => {} ;
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 10,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
@@ -77,17 +77,17 @@ x = return => {} ;
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 16
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 18
         }

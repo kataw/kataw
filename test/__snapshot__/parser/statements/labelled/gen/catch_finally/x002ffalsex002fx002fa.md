@@ -28,11 +28,11 @@ catch /false//a finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
@@ -44,15 +44,15 @@ catch /false//a finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -61,11 +61,11 @@ catch /false//a finally
             "expression": {
                 "kind": 221,
                 "text": "/a finally",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 23
         }

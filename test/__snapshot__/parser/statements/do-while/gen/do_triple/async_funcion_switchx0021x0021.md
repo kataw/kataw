@@ -30,7 +30,7 @@ do do do async funcion switch!! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 49,
                 "end": 49
             },
@@ -51,7 +51,7 @@ do do do async funcion switch!! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 43,
                     "end": 43
                 },
@@ -72,7 +72,7 @@ do do do async funcion switch!! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 37,
                         "end": 37
                     },
@@ -96,21 +96,21 @@ do do do async funcion switch!! while while while
                                         "kind": 134299649,
                                         "text": "funcion",
                                         "rawText": "funcion",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 22
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 22
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 8,
                                 "end": 14
                             },
@@ -119,7 +119,7 @@ do do do async funcion switch!! while while while
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 29,
                                     "end": 30
                                 },
@@ -127,42 +127,42 @@ do do do async funcion switch!! while while while
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 30,
                                         "end": 31
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 31,
                                         "end": 31
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 30,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 31
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 8,
                             "end": 31
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 31
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 37
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 49
         }

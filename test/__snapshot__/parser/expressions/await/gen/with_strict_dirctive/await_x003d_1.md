@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -36,13 +36,13 @@
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 19,
                     "end": 21
                 },
@@ -50,15 +50,15 @@
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 23
         }

@@ -38,11 +38,11 @@
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 6
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 6
                                 }
@@ -53,13 +53,13 @@
                             "start": 2,
                             "end": 7
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 8,
                         "end": 10
                     },
@@ -74,19 +74,19 @@
                             "start": 12,
                             "end": 12
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

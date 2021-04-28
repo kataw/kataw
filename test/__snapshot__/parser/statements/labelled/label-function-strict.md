@@ -19,7 +19,7 @@ foo: function() {}
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 768,
+            "flags": 96,
             "start": 0,
             "end": 12
         }
@@ -31,7 +31,7 @@ foo: function() {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 17
             },
@@ -49,7 +49,7 @@ foo: function() {}
                 "name": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 27,
                     "end": 27
                 },
@@ -57,7 +57,7 @@ foo: function() {}
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 27,
                     "end": 29
                 },
@@ -68,21 +68,21 @@ foo: function() {}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 31,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 32
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 32
         }

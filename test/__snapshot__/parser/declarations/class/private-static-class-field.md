@@ -48,7 +48,7 @@ class C { static #aaa }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -63,7 +63,7 @@ class C { static #aaa }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 16
                         },
@@ -71,23 +71,23 @@ class C { static #aaa }
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 21
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 21
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

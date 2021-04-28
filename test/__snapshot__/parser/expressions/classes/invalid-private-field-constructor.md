@@ -31,7 +31,7 @@ class C { static #constructor }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -49,23 +49,23 @@ class C { static #constructor }
                         "key": {
                             "kind": 67109115,
                             "text": "#constructor",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 22
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 22
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         },
@@ -83,7 +83,7 @@ class C { static #constructor }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 31,
                 "end": 33
             },
@@ -98,7 +98,7 @@ class C { static #constructor }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 35,
                             "end": 42
                         },
@@ -106,23 +106,23 @@ class C { static #constructor }
                         "key": {
                             "kind": 67109115,
                             "text": "#constructor",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 42,
                             "end": 55
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 42,
                         "end": 55
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 35,
                 "end": 57
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 57
         }

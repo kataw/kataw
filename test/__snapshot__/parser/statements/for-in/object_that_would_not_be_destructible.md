@@ -43,7 +43,7 @@ for ({a: x + y} in obj);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 15,
                 "end": 18
             },
@@ -61,13 +61,13 @@ for ({a: x + y} in obj);
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -75,11 +75,11 @@ for ({a: x + y} in obj);
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 14
                             },
@@ -87,11 +87,11 @@ for ({a: x + y} in obj);
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 7
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 14
                         }
@@ -102,7 +102,7 @@ for ({a: x + y} in obj);
                     "start": 6,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 15
             },
@@ -110,17 +110,17 @@ for ({a: x + y} in obj);
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 22
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

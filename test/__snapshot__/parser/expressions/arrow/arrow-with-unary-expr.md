@@ -26,7 +26,7 @@
                             "kind": 126,
                             "operandToken": {
                                 "kind": 35379,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 1,
                                 "end": 2
                             },
@@ -34,11 +34,11 @@
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 3
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 3
                         },
@@ -46,20 +46,20 @@
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 4,
                             "end": 6
                         }
                     ],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -69,11 +69,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 13
         }

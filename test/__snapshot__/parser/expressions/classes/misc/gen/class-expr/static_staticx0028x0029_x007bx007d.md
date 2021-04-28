@@ -44,7 +44,7 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 15
                                 },
@@ -57,7 +57,7 @@
                                         "kind": 134299649,
                                         "text": "static",
                                         "rawText": "static",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 22
                                     },
@@ -78,11 +78,11 @@
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 26,
                                             "end": 26
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 27
                                     },
@@ -95,19 +95,19 @@
                                 "end": 27
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 29
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

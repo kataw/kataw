@@ -43,17 +43,17 @@
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 5,
                                                     "end": 6
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 5,
                                             "end": 6
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 7
                                     },
@@ -61,11 +61,11 @@
                                         "kind": 134299649,
                                         "text": "map",
                                         "rawText": "map",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 8,
                                         "end": 11
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 4,
                                     "end": 11
                                 },
@@ -76,7 +76,7 @@
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -84,35 +84,35 @@
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 16
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 16
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 4,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

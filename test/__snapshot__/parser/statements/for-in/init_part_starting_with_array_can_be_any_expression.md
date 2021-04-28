@@ -50,17 +50,17 @@ for ([] + b in obj);
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 7,
                     "end": 9
                 },
@@ -70,13 +70,13 @@ for ([] + b in obj);
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 11,
                         "end": 14
                     },
@@ -84,15 +84,15 @@ for ([] + b in obj);
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 11,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
@@ -100,17 +100,17 @@ for ([] + b in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 18,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

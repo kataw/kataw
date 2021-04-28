@@ -34,7 +34,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -60,13 +60,13 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -97,7 +97,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 40,
                                                     "end": 41
                                                 },
@@ -110,7 +110,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                 "consequent": {
                                                     "kind": 269,
                                                     "text": null,
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 43,
                                                     "end": 48
                                                 },
@@ -124,55 +124,55 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 50,
                                                     "end": 56
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 38,
                                                 "end": 56
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 38,
                                             "end": 57
                                         },
                                         "typeParameter": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 38,
                                         "end": 57
                                     },
                                     "members": {
                                         "kind": 277,
                                         "elements": [],
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 59,
                                         "end": 61
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 61
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 61
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 61
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 61
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 63
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 63
         }

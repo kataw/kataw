@@ -34,7 +34,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -64,7 +64,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 29,
                                 "end": 30
                             },
@@ -72,7 +72,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "kind": 134299649,
                                 "text": "gf",
                                 "rawText": "gf",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 30,
                                 "end": 33
                             },
@@ -80,7 +80,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 35
                             },
@@ -102,7 +102,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 46,
                                                 "end": 47
                                             },
@@ -128,7 +128,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 512,
+                                                                "flags": 64,
                                                                 "start": 61,
                                                                 "end": 62
                                                             },
@@ -136,11 +136,11 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 201392131,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
-                                                                "flags": 67109632,
+                                                                "flags": 4194400,
                                                                 "start": 62,
                                                                 "end": 68
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 55,
                                                             "end": 68
                                                         },
@@ -154,53 +154,53 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                     "end": 75
                                                                 },
                                                                 "label": null,
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 69,
                                                                 "end": 76
                                                             }
                                                         ],
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 50,
                                                         "end": 76
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 48,
                                                 "end": 78
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 37,
                                             "end": 78
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 78
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 80
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2176,
+                            "flags": 272,
                             "start": 20,
                             "end": 80
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 80
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 82
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 82
         }

@@ -33,7 +33,7 @@ import foo, * as bar from "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 25,
                 "end": 31
             },
@@ -44,7 +44,7 @@ import foo, * as bar from "foo";
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 6,
                     "end": 10
                 },
@@ -52,16 +52,16 @@ import foo, * as bar from "foo";
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 16,
                     "end": 20
                 },
                 "namedImports": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 32
         }

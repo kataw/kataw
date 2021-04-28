@@ -21,7 +21,7 @@ async({c=3} = {})
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -41,7 +41,7 @@ async({c=3} = {})
                                             "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -49,11 +49,11 @@ async({c=3} = {})
                                             "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 10
                                     }
@@ -64,13 +64,13 @@ async({c=3} = {})
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 11,
                             "end": 13
                         },
@@ -85,21 +85,21 @@ async({c=3} = {})
                                 "start": 15,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 16
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 17
         }

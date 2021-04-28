@@ -46,7 +46,7 @@ for (a;b;);
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 6
             },
@@ -55,17 +55,17 @@ for (a;b;);
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

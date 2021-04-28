@@ -48,7 +48,7 @@ for (let {x: y = let};;) {}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -59,7 +59,7 @@ for (let {x: y = let};;) {}
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 12,
                                                 "end": 14
                                             },
@@ -67,38 +67,38 @@ for (let {x: y = let};;) {}
                                                 "kind": 134299649,
                                                 "text": "let",
                                                 "rawText": "let",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 16,
                                                 "end": 20
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 12,
                                             "end": 20
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 20
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 20
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 21
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 21
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 8,
                 "end": 21
             },
@@ -110,15 +110,15 @@ for (let {x: y = let};;) {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 26,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

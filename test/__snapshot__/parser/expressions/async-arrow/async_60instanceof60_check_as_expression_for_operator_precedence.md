@@ -23,7 +23,7 @@ f(a + async instanceof b)
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -36,13 +36,13 @@ f(a + async instanceof b)
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 3
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3,
                                 "end": 5
                             },
@@ -52,13 +52,13 @@ f(a + async instanceof b)
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 11,
                                     "end": 22
                                 },
@@ -66,29 +66,29 @@ f(a + async instanceof b)
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 24
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 24
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

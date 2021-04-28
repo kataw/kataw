@@ -33,7 +33,7 @@ import {a, b} fromx "c"
                 "kind": 134299649,
                 "text": "fromx",
                 "rawText": "fromx",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 19
             },
@@ -55,11 +55,11 @@ import {a, b} fromx "c"
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 9
                             },
@@ -71,11 +71,11 @@ import {a, b} fromx "c"
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 10,
                                     "end": 12
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 10,
                                 "end": 12
                             }
@@ -84,15 +84,15 @@ import {a, b} fromx "c"
                         "start": 8,
                         "end": 12
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 19
         },
@@ -102,11 +102,11 @@ import {a, b} fromx "c"
                 "kind": 201392131,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 23
         }

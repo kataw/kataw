@@ -57,7 +57,7 @@ for(function(){};;)x
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 12,
                     "end": 14
                 },
@@ -68,17 +68,17 @@ for(function(){};;)x
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 16
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 4,
                 "end": 16
             },
@@ -90,15 +90,15 @@ for(function(){};;)x
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 19,
                     "end": 20
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

@@ -43,7 +43,7 @@ for ([].b in c) d;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 9,
                 "end": 12
             },
@@ -56,11 +56,11 @@ for ([].b in c) d;
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 7
                 },
@@ -68,11 +68,11 @@ for ([].b in c) d;
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 8,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
@@ -80,7 +80,7 @@ for ([].b in c) d;
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 12,
                 "end": 14
             },
@@ -90,15 +90,15 @@ for ([].b in c) d;
                     "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

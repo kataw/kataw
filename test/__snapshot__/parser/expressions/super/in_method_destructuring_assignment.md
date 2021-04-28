@@ -23,13 +23,13 @@ x = { foo(){ [a = super.foo] = c; }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -44,7 +44,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 9
                                 },
@@ -53,7 +53,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -79,13 +79,13 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 14,
                                                                         "end": 15
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4125,
-                                                                        "flags": 512,
+                                                                        "flags": 64,
                                                                         "start": 15,
                                                                         "end": 17
                                                                     },
@@ -99,7 +99,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                                 "start": 17,
                                                                                 "end": 23
                                                                             },
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 17,
                                                                             "end": 23
                                                                         },
@@ -107,31 +107,31 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                             "kind": 134299649,
                                                                             "text": "foo",
                                                                             "rawText": "foo",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 24,
                                                                             "end": 27
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 17,
                                                                         "end": 27
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 14,
                                                                     "end": 27
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 14,
                                                             "end": 27
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 12,
                                                         "end": 28
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 28,
                                                         "end": 30
                                                     },
@@ -139,29 +139,29 @@ x = { foo(){ [a = super.foo] = c; }}
                                                         "kind": 134299649,
                                                         "text": "c",
                                                         "rawText": "c",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 30,
                                                         "end": 32
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 12,
                                                     "end": 32
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 12,
                                                 "end": 33
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 33
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 35
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 35
                             }
@@ -172,15 +172,15 @@ x = { foo(){ [a = super.foo] = c; }}
                         "start": 5,
                         "end": 35
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

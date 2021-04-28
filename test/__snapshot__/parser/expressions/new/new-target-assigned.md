@@ -30,7 +30,7 @@ function f(){ foo = new.target }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -38,7 +38,7 @@ function f(){ foo = new.target }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 12
             },
@@ -56,13 +56,13 @@ function f(){ foo = new.target }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 17
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -72,35 +72,35 @@ function f(){ foo = new.target }
                                         "kind": 134299649,
                                         "text": "target",
                                         "rawText": "target",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 24,
                                         "end": 30
                                     },
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 30
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 30
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 30
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 32
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

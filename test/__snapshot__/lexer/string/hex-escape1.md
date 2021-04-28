@@ -43,11 +43,11 @@
                 "kind": 201392131,
                 "text": "\u0000",
                 "rawText": "\u0000",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -57,11 +57,11 @@
                 "kind": 201392131,
                 "text": "\u0012",
                 "rawText": "\u0012",
-                "flags": 769,
+                "flags": 97,
                 "start": 8,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 17
         },
@@ -71,11 +71,11 @@
                 "kind": 201392131,
                 "text": "4",
                 "rawText": "4",
-                "flags": 769,
+                "flags": 97,
                 "start": 17,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 26
         },
@@ -85,11 +85,11 @@
                 "kind": 201392131,
                 "text": "V",
                 "rawText": "V",
-                "flags": 769,
+                "flags": 97,
                 "start": 26,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 35
         },
@@ -99,11 +99,11 @@
                 "kind": 201392131,
                 "text": "x",
                 "rawText": "x",
-                "flags": 769,
+                "flags": 97,
                 "start": 35,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 44
         },
@@ -113,11 +113,11 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "",
-                "flags": 769,
+                "flags": 97,
                 "start": 44,
                 "end": 51
             },
-            "flags": 128,
+            "flags": 16,
             "start": 44,
             "end": 53
         },
@@ -127,11 +127,11 @@
                 "kind": 201392131,
                 "text": "«",
                 "rawText": "«",
-                "flags": 769,
+                "flags": 97,
                 "start": 53,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 53,
             "end": 62
         },
@@ -141,11 +141,11 @@
                 "kind": 201392131,
                 "text": "¼",
                 "rawText": "¼",
-                "flags": 769,
+                "flags": 97,
                 "start": 62,
                 "end": 69
             },
-            "flags": 128,
+            "flags": 16,
             "start": 62,
             "end": 71
         },
@@ -155,11 +155,11 @@
                 "kind": 201392131,
                 "text": "Í",
                 "rawText": "Í",
-                "flags": 769,
+                "flags": 97,
                 "start": 71,
                 "end": 78
             },
-            "flags": 128,
+            "flags": 16,
             "start": 71,
             "end": 80
         },
@@ -169,11 +169,11 @@
                 "kind": 201392131,
                 "text": "Þ",
                 "rawText": "Þ",
-                "flags": 769,
+                "flags": 97,
                 "start": 80,
                 "end": 87
             },
-            "flags": 128,
+            "flags": 16,
             "start": 80,
             "end": 89
         },
@@ -183,11 +183,11 @@
                 "kind": 201392131,
                 "text": "ï",
                 "rawText": "ï",
-                "flags": 769,
+                "flags": 97,
                 "start": 89,
                 "end": 96
             },
-            "flags": 128,
+            "flags": 16,
             "start": 89,
             "end": 98
         },
@@ -197,11 +197,11 @@
                 "kind": 201392131,
                 "text": "ð",
                 "rawText": "ð",
-                "flags": 769,
+                "flags": 97,
                 "start": 98,
                 "end": 105
             },
-            "flags": 128,
+            "flags": 16,
             "start": 98,
             "end": 105
         }

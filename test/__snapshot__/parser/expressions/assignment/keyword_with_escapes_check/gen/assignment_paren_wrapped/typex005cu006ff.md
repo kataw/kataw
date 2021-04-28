@@ -29,24 +29,24 @@
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 328192,
+                            "flags": 16448,
                             "start": 1,
                             "end": 12
                         },
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 12,
                             "end": 12
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 12,
                         "end": 14
                     },
@@ -54,19 +54,19 @@
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

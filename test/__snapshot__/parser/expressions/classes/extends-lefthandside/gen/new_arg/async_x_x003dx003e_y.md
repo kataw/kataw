@@ -35,16 +35,16 @@ x => y
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -63,7 +63,7 @@ x => y
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 11
                 },
@@ -73,15 +73,15 @@ x => y
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 16
         }

@@ -26,15 +26,15 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 1,
                     "end": 1
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 1
         },
@@ -42,11 +42,11 @@
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 327680,
+                "flags": 16384,
                 "start": 1,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1,
             "end": 14
         },
@@ -56,17 +56,17 @@
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 18
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 20
         }

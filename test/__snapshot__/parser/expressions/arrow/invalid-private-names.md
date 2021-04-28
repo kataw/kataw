@@ -37,15 +37,15 @@
                             "returnType": null,
                             "contents": {
                                 "kind": 135,
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 11
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 12
                     },
@@ -53,26 +53,26 @@
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 14
                 },
                 "expression": {
                     "kind": 67109115,
                     "text": "#x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

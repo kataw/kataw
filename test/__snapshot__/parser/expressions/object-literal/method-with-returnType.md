@@ -31,13 +31,13 @@ a={get fooProp():number{}}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 2
                 },
@@ -52,7 +52,7 @@ a={get fooProp():number{}}
                                     "kind": 134299649,
                                     "text": "fooProp",
                                     "rawText": "fooProp",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 14
                                 },
@@ -61,7 +61,7 @@ a={get fooProp():number{}}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 8448,
+                                    "flags": 1056,
                                     "start": 15,
                                     "end": 16
                                 },
@@ -69,7 +69,7 @@ a={get fooProp():number{}}
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -84,15 +84,15 @@ a={get fooProp():number{}}
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 24
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 25
                                 },
-                                "flags": 8448,
+                                "flags": 1056,
                                 "start": 14,
                                 "end": 25
                             }
@@ -103,15 +103,15 @@ a={get fooProp():number{}}
                         "start": 3,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

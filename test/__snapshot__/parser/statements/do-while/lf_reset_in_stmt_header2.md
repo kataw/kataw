@@ -28,7 +28,7 @@ while(y
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 26,
                 "end": 27
             },
@@ -59,7 +59,7 @@ while(y
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 7
                     },
@@ -72,27 +72,27 @@ while(y
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 11
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 11
                 },
                 "consequent": {
                     "kind": 168,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 13
                 },
                 "elseKeyword": {
                     "kind": 4194389,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 13,
                     "end": 17
                 },
@@ -102,19 +102,19 @@ while(y
                         "kind": 134299649,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

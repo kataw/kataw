@@ -43,7 +43,7 @@ for (/foo/[x] in c) d;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 13,
                 "end": 16
             },
@@ -53,7 +53,7 @@ for (/foo/[x] in c) d;
                 "member": {
                     "kind": 221,
                     "text": "/foo/",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 10
                 },
@@ -61,11 +61,11 @@ for (/foo/[x] in c) d;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 13
             },
@@ -73,7 +73,7 @@ for (/foo/[x] in c) d;
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 18
             },
@@ -83,15 +83,15 @@ for (/foo/[x] in c) d;
                     "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 19,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

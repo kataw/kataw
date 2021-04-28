@@ -43,7 +43,7 @@ for ([].bar in obj);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 11,
                 "end": 14
             },
@@ -56,11 +56,11 @@ for ([].bar in obj);
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 7
                 },
@@ -68,11 +68,11 @@ for ([].bar in obj);
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 8,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
@@ -80,17 +80,17 @@ for ([].bar in obj);
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

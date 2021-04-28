@@ -36,7 +36,7 @@ class n extends ([] = x) {}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -59,17 +59,17 @@ class n extends ([] = x) {}
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 19
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 19,
                             "end": 21
                         },
@@ -77,31 +77,31 @@ class n extends ([] = x) {}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 17,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 24
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 24
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 26,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

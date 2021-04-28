@@ -38,7 +38,7 @@ class x{[yield](a){}}
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 768,
+            "flags": 96,
             "start": 0,
             "end": 12
         }
@@ -58,7 +58,7 @@ class x{[yield](a){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 21
             },
@@ -83,11 +83,11 @@ class x{[yield](a){}}
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 29
                             },
@@ -102,20 +102,20 @@ class x{[yield](a){}}
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 30,
                                             "end": 31
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 30,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 32
                             },
@@ -127,11 +127,11 @@ class x{[yield](a){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 34
                             },
@@ -144,11 +144,11 @@ class x{[yield](a){}}
                         "end": 34
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 35
         }

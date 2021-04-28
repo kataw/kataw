@@ -34,24 +34,24 @@
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 6
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 6,
                                             "end": 8
                                         },
                                         "right": {
                                             "kind": 134,
                                             "text": true,
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 8,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2,
                                         "end": 13
                                     },
@@ -59,11 +59,11 @@
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 2,
                                         "end": 3
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 13
                                 }
@@ -74,13 +74,13 @@
                             "start": 2,
                             "end": 13
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 14,
                         "end": 16
                     },
@@ -88,19 +88,19 @@
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

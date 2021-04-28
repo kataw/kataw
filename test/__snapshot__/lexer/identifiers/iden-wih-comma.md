@@ -24,7 +24,7 @@ foo, bar, zoo
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 3
                     },
@@ -32,7 +32,7 @@ foo, bar, zoo
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 4,
                         "end": 8
                     },
@@ -40,16 +40,16 @@ foo, bar, zoo
                         "kind": 134299649,
                         "text": "zoo",
                         "rawText": "zoo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 13
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

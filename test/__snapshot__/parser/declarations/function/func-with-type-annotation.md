@@ -40,7 +40,7 @@ function a<string>(x: string): string {
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -54,7 +54,7 @@ function a<string>(x: string): string {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 20
                         },
@@ -63,7 +63,7 @@ function a<string>(x: string): string {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 21,
                                 "end": 28
                             },
@@ -72,13 +72,13 @@ function a<string>(x: string): string {
                             "end": 28
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 19,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 29
             },
@@ -100,21 +100,21 @@ function a<string>(x: string): string {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 48,
                                 "end": 50
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 1,
                             "end": 39
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 39,
                     "end": 51
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 37,
                 "end": 53
             },
@@ -123,7 +123,7 @@ function a<string>(x: string): string {
                 "types": [
                     {
                         "kind": 134234347,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 11,
                         "end": 17
                     }
@@ -136,7 +136,7 @@ function a<string>(x: string): string {
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 30,
                     "end": 37
                 },
@@ -144,7 +144,7 @@ function a<string>(x: string): string {
                 "start": 29,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 53
         }

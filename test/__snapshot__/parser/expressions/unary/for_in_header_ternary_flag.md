@@ -24,7 +24,7 @@ for(delete((1)?y:x in y) in z)x
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 24,
                 "end": 27
             },
@@ -33,7 +33,7 @@ for(delete((1)?y:x in y) in z)x
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 4,
                     "end": 10
                 },
@@ -47,11 +47,11 @@ for(delete((1)?y:x in y) in z)x
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 14
                         },
@@ -65,7 +65,7 @@ for(delete((1)?y:x in y) in z)x
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 16
                         },
@@ -81,13 +81,13 @@ for(delete((1)?y:x in y) in z)x
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 18
                             },
                             "operatorToken": {
                                 "kind": 21006388,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 18,
                                 "end": 21
                             },
@@ -95,23 +95,23 @@ for(delete((1)?y:x in y) in z)x
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 23
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 10,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 4,
                 "end": 24
             },
@@ -119,7 +119,7 @@ for(delete((1)?y:x in y) in z)x
                 "kind": 134299649,
                 "text": "z",
                 "rawText": "z",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 29
             },
@@ -129,15 +129,15 @@ for(delete((1)?y:x in y) in z)x
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 30,
                     "end": 31
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 30,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

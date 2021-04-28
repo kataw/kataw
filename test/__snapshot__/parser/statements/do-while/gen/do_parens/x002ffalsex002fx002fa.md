@@ -30,7 +30,7 @@ do( /false//a while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 19,
                 "end": 19
             },
@@ -49,13 +49,13 @@ do( /false//a while
                         "left": {
                             "kind": 221,
                             "text": "/false/",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 11,
                             "end": 12
                         },
@@ -63,23 +63,23 @@ do( /false//a while
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

@@ -44,7 +44,7 @@ for (456..x of c) d;
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 512,
+                "flags": 64,
                 "start": 11,
                 "end": 14
             },
@@ -54,7 +54,7 @@ for (456..x of c) d;
                     "kind": 201392130,
                     "text": 456,
                     "rawText": "456.",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 9
                 },
@@ -62,11 +62,11 @@ for (456..x of c) d;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 11
             },
@@ -74,7 +74,7 @@ for (456..x of c) d;
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -84,16 +84,16 @@ for (456..x of c) d;
                     "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 20
             },
             "awaitKeyword": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

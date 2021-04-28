@@ -27,7 +27,7 @@ let [foo=a, bar=b] = arr;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -48,7 +48,7 @@ let [foo=a, bar=b] = arr;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -58,11 +58,11 @@ let [foo=a, bar=b] = arr;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -73,7 +73,7 @@ let [foo=a, bar=b] = arr;
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -83,21 +83,21 @@ let [foo=a, bar=b] = arr;
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 17
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 18
                         },
@@ -107,20 +107,20 @@ let [foo=a, bar=b] = arr;
                             "kind": 134299649,
                             "text": "arr",
                             "rawText": "arr",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 24
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 25
         }

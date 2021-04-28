@@ -29,7 +29,7 @@ type C = { ...A&B };
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
@@ -37,7 +37,7 @@ type C = { ...A&B };
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 6
             },
@@ -63,7 +63,7 @@ type C = { ...A&B };
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 15
                                     },
@@ -78,7 +78,7 @@ type C = { ...A&B };
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 17
                                     },
@@ -105,7 +105,7 @@ type C = { ...A&B };
                 "start": 8,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

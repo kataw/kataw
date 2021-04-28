@@ -40,7 +40,7 @@ for(const a = 1, let = 2;;);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 11
                         },
@@ -50,11 +50,11 @@ for(const a = 1, let = 2;;);
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 15
                     },
@@ -64,7 +64,7 @@ for(const a = 1, let = 2;;);
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 20
                         },
@@ -74,16 +74,16 @@ for(const a = 1, let = 2;;);
                             "kind": 201392130,
                             "text": 2,
                             "rawText": "2",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 24
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 24
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 9,
                 "end": 24
             },
@@ -91,11 +91,11 @@ for(const a = 1, let = 2;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 27,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

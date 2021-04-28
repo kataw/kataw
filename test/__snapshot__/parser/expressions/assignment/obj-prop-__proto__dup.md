@@ -25,13 +25,13 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -48,7 +48,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 23
                                     },
@@ -56,11 +56,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 20
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 23
                                 },
@@ -70,7 +70,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 35,
                                         "end": 37
                                     },
@@ -78,11 +78,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 24,
                                         "end": 34
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 37
                                 }
@@ -93,13 +93,13 @@ result = ({ __proto__: x, __proto__: y } = value);
                             "start": 10,
                             "end": 37
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 39
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 39,
                         "end": 41
                     },
@@ -107,19 +107,19 @@ result = ({ __proto__: x, __proto__: y } = value);
                         "kind": 134299649,
                         "text": "value",
                         "rawText": "value",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 41,
                         "end": 47
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 47
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 47
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 48
         },
@@ -131,13 +131,13 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 48,
                     "end": 56
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 56,
                     "end": 58
                 },
@@ -156,7 +156,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 72,
                                             "end": 74
                                         },
@@ -164,11 +164,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "kind": 134299649,
                                             "text": "__proto__",
                                             "rawText": "__proto__",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 61,
                                             "end": 71
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 61,
                                         "end": 74
                                     },
@@ -178,7 +178,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 86,
                                             "end": 88
                                         },
@@ -186,11 +186,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "kind": 134299649,
                                             "text": "__proto__",
                                             "rawText": "__proto__",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 75,
                                             "end": 85
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 75,
                                         "end": 88
                                     }
@@ -201,13 +201,13 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 "start": 61,
                                 "end": 88
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 60,
                             "end": 90
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 90,
                             "end": 92
                         },
@@ -215,23 +215,23 @@ result = ({ __proto__: x, __proto__: y } = value);
                             "kind": 134299649,
                             "text": "value",
                             "rawText": "value",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 92,
                             "end": 98
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 60,
                         "end": 98
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 58,
                     "end": 99
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 48,
                 "end": 99
             },
-            "flags": 128,
+            "flags": 16,
             "start": 48,
             "end": 100
         }

@@ -50,7 +50,7 @@ try {
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 18
                             },
@@ -58,7 +58,7 @@ try {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 20
                             },
@@ -69,27 +69,27 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 21
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 22
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 5,
                             "end": 22
                         }
                     ],
                     "multiLine": true,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 22
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 24
             },
@@ -105,7 +105,7 @@ try {
                     "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 32,
                     "end": 33
                 },
@@ -115,21 +115,21 @@ try {
                         "kind": 124,
                         "statements": [],
                         "multiLine": true,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 36,
                         "end": 36
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 34,
                     "end": 38
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 38
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 38
         }

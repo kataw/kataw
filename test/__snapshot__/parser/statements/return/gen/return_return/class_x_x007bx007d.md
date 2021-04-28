@@ -40,7 +40,7 @@ return class x {} return
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 14
                 },
@@ -49,15 +49,15 @@ return class x {} return
                 "members": {
                     "kind": 277,
                     "elements": [],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -70,7 +70,7 @@ return class x {} return
                 "end": 24
             },
             "expression": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

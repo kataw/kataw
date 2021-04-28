@@ -32,7 +32,7 @@ else async function *f(){}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 5
             },
@@ -42,17 +42,17 @@ else async function *f(){}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 9
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 513,
+                "flags": 65,
                 "start": 9,
                 "end": 14
             },
@@ -62,7 +62,7 @@ else async function *f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 14,
                         "end": 20
                     },
@@ -74,7 +74,7 @@ else async function *f(){}
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 29,
                         "end": 31
                     },
@@ -82,7 +82,7 @@ else async function *f(){}
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 31,
                         "end": 32
                     },
@@ -90,7 +90,7 @@ else async function *f(){}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 32,
                         "end": 34
                     },
@@ -101,25 +101,25 @@ else async function *f(){}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 35,
                             "end": 35
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 34,
                         "end": 36
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 3328,
+                    "flags": 416,
                     "start": 14,
                     "end": 36
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

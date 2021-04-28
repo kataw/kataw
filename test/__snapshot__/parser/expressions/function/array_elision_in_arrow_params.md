@@ -29,13 +29,13 @@ f = ([[,] = g()]) => {};
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -63,23 +63,23 @@ f = ([[,] = g()]) => {};
                                                 "elements": [
                                                     {
                                                         "kind": 230,
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 7,
                                                         "end": 7
                                                     }
                                                 ],
                                                 "trailingComma": true,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 7,
                                                 "end": 8
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 6,
                                             "end": 9
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -89,7 +89,7 @@ f = ([[,] = g()]) => {};
                                                 "kind": 134299649,
                                                 "text": "g",
                                                 "rawText": "g",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 11,
                                                 "end": 13
                                             },
@@ -97,25 +97,25 @@ f = ([[,] = g()]) => {};
                                                 "kind": 256,
                                                 "elements": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 14,
                                                 "end": 14
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 15
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 6,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 16
                         }
@@ -129,23 +129,23 @@ f = ([[,] = g()]) => {};
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 22
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 20,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

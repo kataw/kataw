@@ -37,7 +37,7 @@ var asyncArrow = async(...await) => {};
                             "kind": 134299649,
                             "text": "asyncArrow",
                             "rawText": "asyncArrow",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 14
                         },
@@ -61,14 +61,14 @@ var asyncArrow = async(...await) => {};
                                         "start": 23,
                                         "end": 26
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 31
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 16,
                                 "end": 22
                             },
@@ -80,28 +80,28 @@ var asyncArrow = async(...await) => {};
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 37
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 38
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 16,
                             "end": 38
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 38
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

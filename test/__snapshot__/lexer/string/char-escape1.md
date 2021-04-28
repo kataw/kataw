@@ -43,11 +43,11 @@
                 "kind": 201392131,
                 "text": "'",
                 "rawText": "'",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -57,11 +57,11 @@
                 "kind": 201392131,
                 "text": "\"",
                 "rawText": "\"",
-                "flags": 769,
+                "flags": 97,
                 "start": 6,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         },
@@ -71,11 +71,11 @@
                 "kind": 201392131,
                 "text": "\\",
                 "rawText": "\\",
-                "flags": 769,
+                "flags": 97,
                 "start": 13,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 20
         },
@@ -85,11 +85,11 @@
                 "kind": 201392131,
                 "text": "\b",
                 "rawText": "\b",
-                "flags": 769,
+                "flags": 97,
                 "start": 20,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 27
         },
@@ -99,11 +99,11 @@
                 "kind": 201392131,
                 "text": "\f",
                 "rawText": "\f",
-                "flags": 769,
+                "flags": 97,
                 "start": 27,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 34
         },
@@ -113,11 +113,11 @@
                 "kind": 201392131,
                 "text": "\n",
                 "rawText": "\n",
-                "flags": 769,
+                "flags": 97,
                 "start": 34,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 41
         },
@@ -127,11 +127,11 @@
                 "kind": 201392131,
                 "text": "\r",
                 "rawText": "\r",
-                "flags": 769,
+                "flags": 97,
                 "start": 41,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 41,
             "end": 48
         },
@@ -141,11 +141,11 @@
                 "kind": 201392131,
                 "text": "\t",
                 "rawText": "\t",
-                "flags": 769,
+                "flags": 97,
                 "start": 48,
                 "end": 53
             },
-            "flags": 128,
+            "flags": 16,
             "start": 48,
             "end": 55
         },
@@ -155,11 +155,11 @@
                 "kind": 201392131,
                 "text": "\u000b",
                 "rawText": "\u000b",
-                "flags": 769,
+                "flags": 97,
                 "start": 55,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 55,
             "end": 60
         }

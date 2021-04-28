@@ -30,18 +30,18 @@ switch (/a/i {}
             "expression": {
                 "kind": 221,
                 "text": "/a/i",
-                "flags": 768,
+                "flags": 96,
                 "start": 6,
                 "end": 11
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -56,18 +56,18 @@ switch (/a/i {}
             "expression": {
                 "kind": 221,
                 "text": "/a/i",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 28
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 28,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 31
         },
@@ -82,18 +82,18 @@ switch (/a/i {}
             "expression": {
                 "kind": 221,
                 "text": "/a/i",
-                "flags": 768,
+                "flags": 96,
                 "start": 41,
                 "end": 45
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 45,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 16,
             "start": 31,
             "end": 48
         }

@@ -23,7 +23,7 @@ foo(async () => foo)
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -42,7 +42,7 @@ foo(async () => foo)
                             "parameters": [],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 4,
                                 "end": 9
                             },
@@ -51,25 +51,25 @@ foo(async () => foo)
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 19
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 4,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

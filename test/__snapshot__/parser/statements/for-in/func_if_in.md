@@ -43,7 +43,7 @@ for (function(){ if (a in b); }.prop in x);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 36,
                 "end": 39
             },
@@ -65,7 +65,7 @@ for (function(){ if (a in b); }.prop in x);
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 15
                     },
@@ -89,13 +89,13 @@ for (function(){ if (a in b); }.prop in x);
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 22
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 22,
                                             "end": 25
                                         },
@@ -103,39 +103,39 @@ for (function(){ if (a in b); }.prop in x);
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 21,
                                         "end": 27
                                     },
                                     "consequent": {
                                         "kind": 168,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 28,
                                         "end": 29
                                     },
                                     "elseKeyword": null,
                                     "alternate": null,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 16,
                                     "end": 29
                                 }
                             ],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 29
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 15,
                         "end": 31
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 31
                 },
@@ -143,11 +143,11 @@ for (function(){ if (a in b); }.prop in x);
                     "kind": 134299649,
                     "text": "prop",
                     "rawText": "prop",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 32,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 36
             },
@@ -155,17 +155,17 @@ for (function(){ if (a in b); }.prop in x);
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 39,
                 "end": 41
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 42,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 43
         }

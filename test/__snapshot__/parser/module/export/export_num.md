@@ -39,11 +39,11 @@ export default 15;
                 "kind": 201392130,
                 "text": 15,
                 "rawText": "15",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

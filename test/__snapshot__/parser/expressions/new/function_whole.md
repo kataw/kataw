@@ -40,7 +40,7 @@ new function(){}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 12,
                         "end": 14
                     },
@@ -51,26 +51,26 @@ new function(){}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 14,
                         "end": 16
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 16
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

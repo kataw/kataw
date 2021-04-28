@@ -29,7 +29,7 @@ class K extends {} {;async\n async *1(){}}
                 "kind": 134299649,
                 "text": "K",
                 "rawText": "K",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -53,12 +53,12 @@ class K extends {} {;async\n async *1(){}}
                         "start": 17,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 18
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 18
             },
@@ -67,7 +67,7 @@ class K extends {} {;async\n async *1(){}}
                 "elements": [
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 21
                     },
@@ -81,23 +81,23 @@ class K extends {} {;async\n async *1(){}}
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 26
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 26
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         },
@@ -107,11 +107,11 @@ class K extends {} {;async\n async *1(){}}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 28
         },
@@ -123,13 +123,13 @@ class K extends {} {;async\n async *1(){}}
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 28,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 34,
                     "end": 36
                 },
@@ -139,7 +139,7 @@ class K extends {} {;async\n async *1(){}}
                         "kind": 201392130,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 36,
                         "end": 37
                     },
@@ -147,19 +147,19 @@ class K extends {} {;async\n async *1(){}}
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 38,
                         "end": 38
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 36,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 39
         },
@@ -169,11 +169,11 @@ class K extends {} {;async\n async *1(){}}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 40,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 39,
             "end": 41
         }

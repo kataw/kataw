@@ -31,13 +31,13 @@ result = [...{ x = yield }] = y;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -67,7 +67,7 @@ result = [...{ x = yield }] = y;
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 14,
                                                         "end": 16
                                                     },
@@ -75,11 +75,11 @@ result = [...{ x = yield }] = y;
                                                         "kind": 134299649,
                                                         "text": "yield",
                                                         "rawText": "yield",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 18,
                                                         "end": 24
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 14,
                                                     "end": 24
                                                 }
@@ -90,27 +90,27 @@ result = [...{ x = yield }] = y;
                                             "start": 14,
                                             "end": 24
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 26
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 26
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 27
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 27,
                         "end": 29
                     },
@@ -118,19 +118,19 @@ result = [...{ x = yield }] = y;
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 29,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

@@ -41,7 +41,7 @@ var a: ?string[]
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -54,7 +54,7 @@ var a: ?string[]
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 8,
                                         "end": 14
                                     },
@@ -71,16 +71,16 @@ var a: ?string[]
                             "end": 16
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 16
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

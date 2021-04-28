@@ -30,7 +30,7 @@ for(x in(t&{}=y))x
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 5,
                 "end": 8
             },
@@ -39,7 +39,7 @@ for(x in(t&{}=y))x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 5
             },
@@ -51,13 +51,13 @@ for(x in(t&{}=y))x
                         "kind": 134299649,
                         "text": "t",
                         "rawText": "t",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 34375,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 10,
                         "end": 11
                     },
@@ -74,13 +74,13 @@ for(x in(t&{}=y))x
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 13
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 13,
                             "end": 14
                         },
@@ -88,19 +88,19 @@ for(x in(t&{}=y))x
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 16
             },
@@ -110,15 +110,15 @@ for(x in(t&{}=y))x
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

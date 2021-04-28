@@ -32,7 +32,7 @@ class debugger {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class debugger {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -57,7 +57,7 @@ class debugger {}
                 "start": 5,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 14
         },
@@ -67,11 +67,11 @@ class debugger {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 17
         }

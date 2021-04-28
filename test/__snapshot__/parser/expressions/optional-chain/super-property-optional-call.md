@@ -33,7 +33,7 @@ class Foo extends Base {
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 9
             },
@@ -50,12 +50,12 @@ class Foo extends Base {
                     "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 22
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 22
             },
@@ -76,7 +76,7 @@ class Foo extends Base {
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 35
                             },
@@ -116,7 +116,7 @@ class Foo extends Base {
                                                             "start": 39,
                                                             "end": 51
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 39,
                                                         "end": 51
                                                     },
@@ -124,11 +124,11 @@ class Foo extends Base {
                                                         "kind": 134299649,
                                                         "text": "method",
                                                         "rawText": "method",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 52,
                                                         "end": 58
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 39,
                                                     "end": 58
                                                 },
@@ -141,33 +141,33 @@ class Foo extends Base {
                                                             "kind": 256,
                                                             "elements": [],
                                                             "trailingComma": false,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 61,
                                                             "end": 61
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 60,
                                                         "end": 62
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 60,
                                                     "end": 62
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 39,
                                                 "end": 62
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 39,
                                             "end": 63
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 63
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 69
                             },
@@ -180,11 +180,11 @@ class Foo extends Base {
                         "end": 69
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 24,
                 "end": 71
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 71
         }

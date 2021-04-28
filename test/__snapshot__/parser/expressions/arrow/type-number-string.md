@@ -21,11 +21,11 @@ type number = string;
                 "kind": 134299649,
                 "text": "type",
                 "rawText": "type",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -37,13 +37,13 @@ type number = string;
                     "kind": 134299649,
                     "text": "number",
                     "rawText": "number",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 4,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 11,
                     "end": 13
                 },
@@ -51,15 +51,15 @@ type number = string;
                     "kind": 134299649,
                     "text": "string",
                     "rawText": "string",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 4,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 21
         }

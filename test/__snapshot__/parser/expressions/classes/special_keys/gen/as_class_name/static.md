@@ -33,7 +33,7 @@ class static {}
                 "kind": 134299649,
                 "text": "static",
                 "rawText": "static",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 12
             },
@@ -42,11 +42,11 @@ class static {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

@@ -27,7 +27,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -35,7 +35,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 11
             },
@@ -43,7 +43,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -65,7 +65,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 24,
                                 "end": 25
                             },
@@ -73,7 +73,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 25,
                                 "end": 29
                             },
@@ -87,7 +87,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 30,
                                             "end": 31
                                         },
@@ -99,13 +99,13 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 33,
                                                 "end": 35
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -122,25 +122,25 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": null,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 39,
                                                     "end": 44
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 37,
                                                 "end": 45
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 33,
                                             "end": 45
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 30,
                                         "end": 45
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 29,
                                 "end": 46
                             },
@@ -151,33 +151,33 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 48,
                                     "end": 48
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 46,
                                 "end": 49
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2176,
+                            "flags": 272,
                             "start": 15,
                             "end": 49
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 49
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 51
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 51
         }

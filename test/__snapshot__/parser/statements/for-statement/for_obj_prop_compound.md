@@ -57,7 +57,7 @@ for ({}[y] ^= x;;) x;
                             "start": 6,
                             "end": 6
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 7
                     },
@@ -65,17 +65,17 @@ for ({}[y] ^= x;;) x;
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 10,
                     "end": 13
                 },
@@ -83,11 +83,11 @@ for ({}[y] ^= x;;) x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
@@ -99,15 +99,15 @@ for ({}[y] ^= x;;) x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

@@ -27,7 +27,7 @@ function* g(x) { yield x = yield 3; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -35,7 +35,7 @@ function* g(x) { yield x = yield 3; }
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 11
             },
@@ -49,20 +49,20 @@ function* g(x) { yield x = yield 3; }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 13
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 12,
                         "end": 13
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 14
             },
@@ -90,13 +90,13 @@ function* g(x) { yield x = yield 3; }
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 26
                                     },
@@ -114,39 +114,39 @@ function* g(x) { yield x = yield 3; }
                                             "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 32,
                                             "end": 34
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 26,
                                         "end": 34
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 34
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 16,
                             "end": 35
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 37
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 37
         }

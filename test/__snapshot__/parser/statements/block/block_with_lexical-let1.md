@@ -24,7 +24,7 @@
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 41951307,
-                            "flags": 640,
+                            "flags": 80,
                             "start": 1,
                             "end": 5
                         },
@@ -39,11 +39,11 @@
                                             "kind": 202,
                                             "elements": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 7,
                                             "end": 7
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -53,30 +53,30 @@
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 12
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 5,
                                     "end": 12
                                 }
                             ],
-                            "flags": 128,
+                            "flags": 33554448,
                             "start": 5,
                             "end": 12
                         },
-                        "flags": 128,
+                        "flags": 33554448,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

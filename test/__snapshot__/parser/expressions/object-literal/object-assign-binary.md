@@ -40,13 +40,13 @@ x = { "a": {x} = y.z };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -68,7 +68,7 @@ x = { "a": {x} = y.z };
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 12,
                                                     "end": 13
                                                 }
@@ -79,13 +79,13 @@ x = { "a": {x} = y.z };
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 14
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -95,7 +95,7 @@ x = { "a": {x} = y.z };
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 18
                                         },
@@ -103,15 +103,15 @@ x = { "a": {x} = y.z };
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 20
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 20
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 20
                                 },
@@ -119,11 +119,11 @@ x = { "a": {x} = y.z };
                                     "kind": 201392131,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 9
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 20
                             }
@@ -134,15 +134,15 @@ x = { "a": {x} = y.z };
                         "start": 5,
                         "end": 20
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

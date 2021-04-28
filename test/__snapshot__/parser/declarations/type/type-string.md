@@ -41,7 +41,7 @@ type T1 = number;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 7
             },
@@ -49,7 +49,7 @@ type T1 = number;
                 "kind": 134299649,
                 "text": "T1",
                 "rawText": "T1",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 7
             },
@@ -57,11 +57,11 @@ type T1 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234347,
-                "flags": 512,
+                "flags": 64,
                 "start": 9,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -71,7 +71,7 @@ type T1 = number;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 17,
                 "end": 25
             },
@@ -79,7 +79,7 @@ type T1 = number;
                 "kind": 134299649,
                 "text": "T1",
                 "rawText": "T1",
-                "flags": 768,
+                "flags": 96,
                 "start": 22,
                 "end": 25
             },
@@ -87,11 +87,11 @@ type T1 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 512,
+                "flags": 64,
                 "start": 27,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 35
         }

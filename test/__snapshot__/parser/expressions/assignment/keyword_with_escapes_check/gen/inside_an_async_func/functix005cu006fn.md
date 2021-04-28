@@ -31,7 +31,7 @@ async () => {  functi\u006fn = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -48,7 +48,7 @@ async () => {  functi\u006fn = x  }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 327680,
+                                "flags": 16384,
                                 "start": 13,
                                 "end": 28
                             },
@@ -56,7 +56,7 @@ async () => {  functi\u006fn = x  }
                             "name": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 28,
                                 "end": 28
                             },
@@ -64,7 +64,7 @@ async () => {  functi\u006fn = x  }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 28
                             },
@@ -75,31 +75,31 @@ async () => {  functi\u006fn = x  }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 28
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 28
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 28
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 28
         },
@@ -109,11 +109,11 @@ async () => {  functi\u006fn = x  }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 30,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 32
         }

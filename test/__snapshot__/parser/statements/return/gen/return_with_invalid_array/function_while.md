@@ -33,15 +33,15 @@ return [catch] function while
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -54,11 +54,11 @@ return [catch] function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
@@ -70,15 +70,15 @@ return [catch] function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 14
         },
@@ -96,7 +96,7 @@ return [catch] function while
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 23,
                 "end": 23
             },
@@ -104,7 +104,7 @@ return [catch] function while
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 23
             },
@@ -115,17 +115,17 @@ return [catch] function while
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 23
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 23
         },
@@ -140,7 +140,7 @@ return [catch] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 29,
                 "end": 29
             },
@@ -149,15 +149,15 @@ return [catch] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 29,
                     "end": 29
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 29,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 29
         }

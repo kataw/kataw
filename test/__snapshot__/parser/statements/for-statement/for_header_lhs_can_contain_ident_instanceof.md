@@ -48,13 +48,13 @@ for (a instanceof b;;);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 17
                 },
@@ -62,11 +62,11 @@ for (a instanceof b;;);
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
@@ -74,11 +74,11 @@ for (a instanceof b;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

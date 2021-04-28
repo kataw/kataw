@@ -34,7 +34,7 @@ x => ok`foo`
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -46,7 +46,7 @@ x => ok`foo`
                         "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 4,
                         "end": 7
                     },
@@ -54,19 +54,19 @@ x => ok`foo`
                         "kind": 458761,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

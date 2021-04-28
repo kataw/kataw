@@ -48,7 +48,7 @@ class x { *[expr](){} }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -73,11 +73,11 @@ class x { *[expr](){} }
                                     "kind": 134299649,
                                     "text": "expr",
                                     "rawText": "expr",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 16
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 17
                             },
@@ -98,11 +98,11 @@ class x { *[expr](){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 20
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 21
                             },
@@ -115,11 +115,11 @@ class x { *[expr](){} }
                         "end": 21
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

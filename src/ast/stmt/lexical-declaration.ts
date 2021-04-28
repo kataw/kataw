@@ -20,7 +20,7 @@ export function createLexicalDeclaration(
     kind: SyntaxKind.LexicalDeclaration,
     lexicalKeyword,
     binding,
-    flags: NodeFlags.IsStatement,
+    flags: NodeFlags.IsStatement | NodeFlags.Lexical,
     start,
     end
   };

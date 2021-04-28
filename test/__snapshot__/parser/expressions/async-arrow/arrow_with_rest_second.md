@@ -29,7 +29,7 @@ async (a, ...b) => a;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },
@@ -41,14 +41,14 @@ async (a, ...b) => a;
                         "start": 9,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 9,
                     "end": 14
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -57,17 +57,17 @@ async (a, ...b) => a;
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 20
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 20
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 21
         }

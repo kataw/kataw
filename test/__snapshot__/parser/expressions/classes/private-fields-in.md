@@ -46,7 +46,7 @@ class C {
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -64,20 +64,20 @@ class C {
                         "key": {
                             "kind": 67109115,
                             "text": "#brand",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 18
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 18
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 18,
                         "end": 19
                     },
@@ -94,7 +94,7 @@ class C {
                             "name": {
                                 "kind": 67109115,
                                 "text": "#method",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 30
                             },
@@ -115,11 +115,11 @@ class C {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 35
                             },
@@ -139,7 +139,7 @@ class C {
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 35,
                             "end": 42
                         },
@@ -149,7 +149,7 @@ class C {
                             "name": {
                                 "kind": 67109115,
                                 "text": "#getter",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 42,
                                 "end": 50
                             },
@@ -158,7 +158,7 @@ class C {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 1024,
                                 "start": 51,
                                 "end": 52
                             },
@@ -170,19 +170,19 @@ class C {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 54,
                                     "end": 54
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 52,
                                 "end": 55
                             },
-                            "flags": 8192,
+                            "flags": 1024,
                             "start": 50,
                             "end": 55
                         },
-                        "flags": 8192,
+                        "flags": 1024,
                         "start": 35,
                         "end": 55
                     },
@@ -192,7 +192,7 @@ class C {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 55,
                             "end": 65
                         },
@@ -205,7 +205,7 @@ class C {
                                 "kind": 134299649,
                                 "text": "isC",
                                 "rawText": "isC",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 65,
                                 "end": 69
                             },
@@ -220,20 +220,20 @@ class C {
                                             "kind": 134299649,
                                             "text": "obj",
                                             "rawText": "obj",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 70,
                                             "end": 73
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 70,
                                         "end": 73
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 70,
                                 "end": 74
                             },
@@ -261,13 +261,13 @@ class C {
                                                         "left": {
                                                             "kind": 67109115,
                                                             "text": "#brand",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 87,
                                                             "end": 94
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
-                                                            "flags": 512,
+                                                            "flags": 64,
                                                             "start": 94,
                                                             "end": 97
                                                         },
@@ -275,17 +275,17 @@ class C {
                                                             "kind": 134299649,
                                                             "text": "obj",
                                                             "rawText": "obj",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 97,
                                                             "end": 101
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 87,
                                                         "end": 101
                                                     },
                                                     "operatorToken": {
                                                         "kind": 33594,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 101,
                                                         "end": 104
                                                     },
@@ -294,13 +294,13 @@ class C {
                                                         "left": {
                                                             "kind": 67109115,
                                                             "text": "#method",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 104,
                                                             "end": 112
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
-                                                            "flags": 512,
+                                                            "flags": 64,
                                                             "start": 112,
                                                             "end": 115
                                                         },
@@ -308,21 +308,21 @@ class C {
                                                             "kind": 134299649,
                                                             "text": "obj",
                                                             "rawText": "obj",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 115,
                                                             "end": 119
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 112,
                                                         "end": 119
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 87,
                                                     "end": 119
                                                 },
                                                 "operatorToken": {
                                                     "kind": 33594,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 119,
                                                     "end": 122
                                                 },
@@ -331,13 +331,13 @@ class C {
                                                     "left": {
                                                         "kind": 67109115,
                                                         "text": "#getter",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 122,
                                                         "end": 130
                                                     },
                                                     "operatorToken": {
                                                         "kind": 21006388,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 130,
                                                         "end": 133
                                                     },
@@ -345,29 +345,29 @@ class C {
                                                         "kind": 134299649,
                                                         "text": "obj",
                                                         "rawText": "obj",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 133,
                                                         "end": 137
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 130,
                                                     "end": 137
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 87,
                                                 "end": 137
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1,
                                             "end": 76
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 76,
                                     "end": 138
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 74,
                                 "end": 142
                             },
@@ -380,11 +380,11 @@ class C {
                         "end": 142
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 144
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 144
         }

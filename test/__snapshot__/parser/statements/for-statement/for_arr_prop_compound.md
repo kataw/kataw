@@ -52,11 +52,11 @@ for ([].w ^= s;;) x;
                             "kind": 270,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 6
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 7
                     },
@@ -64,17 +64,17 @@ for ([].w ^= s;;) x;
                         "kind": 134299649,
                         "text": "w",
                         "rawText": "w",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 9,
                     "end": 12
                 },
@@ -82,11 +82,11 @@ for ([].w ^= s;;) x;
                     "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
@@ -98,15 +98,15 @@ for ([].w ^= s;;) x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

@@ -32,7 +32,7 @@
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 2
                         },
@@ -40,7 +40,7 @@
                             "kind": 215,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 3,
                                 "end": 7
                             },
@@ -48,7 +48,7 @@
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 7,
                                 "end": 8
                             },
@@ -58,11 +58,11 @@
                                 "kind": 201392130,
                                 "text": 10,
                                 "rawText": "10",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 13
                             },
-                            "flags": 258,
+                            "flags": 34,
                             "start": 3,
                             "end": 13
                         }
@@ -74,15 +74,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

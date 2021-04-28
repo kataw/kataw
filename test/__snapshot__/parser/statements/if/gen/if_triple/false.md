@@ -30,7 +30,7 @@ if if if false
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -45,7 +45,7 @@ if if if false
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
@@ -60,7 +60,7 @@ if if if false
                     "expression": {
                         "kind": 134,
                         "text": false,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 14
                     },
@@ -69,29 +69,29 @@ if if if false
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 14,
                             "end": 14
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 14
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 14
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 14
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

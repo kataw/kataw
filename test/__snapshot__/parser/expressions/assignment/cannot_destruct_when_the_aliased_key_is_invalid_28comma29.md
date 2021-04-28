@@ -30,7 +30,7 @@ x, {a: 1} = [];
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
@@ -47,7 +47,7 @@ x, {a: 1} = [];
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 8
                                         },
@@ -55,11 +55,11 @@ x, {a: 1} = [];
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 5
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 8
                                     }
@@ -70,13 +70,13 @@ x, {a: 1} = [];
                                 "start": 4,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 9
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 11
                         },
@@ -86,24 +86,24 @@ x, {a: 1} = [];
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 14
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 14
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

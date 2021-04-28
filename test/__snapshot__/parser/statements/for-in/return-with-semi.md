@@ -43,7 +43,7 @@ return;
                 "end": 6
             },
             "expression": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         }

@@ -53,23 +53,23 @@ var q
                             "kind": 134299649,
                             "text": "q",
                             "rawText": "q",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -82,13 +82,13 @@ var q
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 5,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 513,
+                        "flags": 65,
                         "start": 5,
                         "end": 7
                     },
@@ -96,32 +96,32 @@ var q
                         "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 8,
                     "end": 9
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 9,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 9
         }

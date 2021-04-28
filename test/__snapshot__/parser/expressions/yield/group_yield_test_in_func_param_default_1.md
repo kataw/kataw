@@ -30,7 +30,7 @@ function f(x=(yield)=y){}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -44,7 +44,7 @@ function f(x=(yield)=y){}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -58,17 +58,17 @@ function f(x=(yield)=y){}
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 19
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 20
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 21
                             },
@@ -76,21 +76,21 @@ function f(x=(yield)=y){}
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 22
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 23
             },
@@ -101,17 +101,17 @@ function f(x=(yield)=y){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 25
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

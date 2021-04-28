@@ -23,13 +23,13 @@ async = 5 + 5;
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -39,13 +39,13 @@ async = 5 + 5;
                         "kind": 201392130,
                         "text": 5,
                         "rawText": "5",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 9,
                         "end": 11
                     },
@@ -53,19 +53,19 @@ async = 5 + 5;
                         "kind": 201392130,
                         "text": 5,
                         "rawText": "5",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

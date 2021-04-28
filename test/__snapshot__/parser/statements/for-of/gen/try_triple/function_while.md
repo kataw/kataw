@@ -33,11 +33,11 @@ try try try function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try try try function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 7
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -75,11 +75,11 @@ try try try function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
@@ -91,15 +91,15 @@ try try try function while
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 20
         },
@@ -114,7 +114,7 @@ try try try function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 26,
                 "end": 26
             },
@@ -123,15 +123,15 @@ try try try function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 26,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 26
         }

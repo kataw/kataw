@@ -30,18 +30,18 @@ switch switch switch class x {}
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -56,18 +56,18 @@ switch switch switch class x {}
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         },
@@ -92,7 +92,7 @@ switch switch switch class x {}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 26,
                     "end": 28
                 },
@@ -101,22 +101,22 @@ switch switch switch class x {}
                 "members": {
                     "kind": 277,
                     "elements": [],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 30,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 31
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 31,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 31
         }

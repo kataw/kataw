@@ -33,7 +33,7 @@ class x {* while(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class x {* while(){}}
                                 "kind": 134299649,
                                 "text": "while",
                                 "rawText": "while",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 16
                             },
@@ -77,11 +77,11 @@ class x {* while(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 20
                             },
@@ -94,11 +94,11 @@ class x {* while(){}}
                         "end": 20
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

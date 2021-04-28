@@ -30,7 +30,7 @@ function call(foo=await bar){}
                 "kind": 134299649,
                 "text": "call",
                 "rawText": "call",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 13
             },
@@ -44,7 +44,7 @@ function call(foo=await bar){}
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 17
                         },
@@ -54,11 +54,11 @@ function call(foo=await bar){}
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 23
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 14,
                         "end": 23
                     },
@@ -69,20 +69,20 @@ function call(foo=await bar){}
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 23,
                             "end": 27
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 23,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 13,
                 "end": 28
             },
@@ -93,17 +93,17 @@ function call(foo=await bar){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 30
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

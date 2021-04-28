@@ -23,13 +23,13 @@ x = { method(test: string): number { } };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -44,7 +44,7 @@ x = { method(test: string): number { } };
                                     "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 12
                                 },
@@ -59,20 +59,20 @@ x = { method(test: string): number { } };
                                                 "kind": 134299649,
                                                 "text": "test",
                                                 "rawText": "test",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 13,
                                                 "end": 17
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 17
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -84,15 +84,15 @@ x = { method(test: string): number { } };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 17
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 17
                             }
@@ -103,15 +103,15 @@ x = { method(test: string): number { } };
                         "start": 5,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -121,11 +121,11 @@ x = { method(test: string): number { } };
                 "kind": 134299649,
                 "text": "string",
                 "rawText": "string",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 25
         },
@@ -135,11 +135,11 @@ x = { method(test: string): number { } };
                 "kind": 134299649,
                 "text": "number",
                 "rawText": "number",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 34
         },
@@ -149,17 +149,17 @@ x = { method(test: string): number { } };
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 36,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 38
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 40,
             "end": 41
         }

@@ -21,11 +21,11 @@
                 "kind": 201392131,
                 "text": "",
                 "rawText": "",
-                "flags": 131840,
+                "flags": 8288,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         }

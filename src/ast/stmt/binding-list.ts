@@ -18,7 +18,7 @@ export function createBindingList(
   return {
     kind: SyntaxKind.BindingList,
     bindingList,
-    flags: isConst ? NodeFlags.IsConst | NodeFlags.IsStatement : NodeFlags.IsStatement,
+    flags: isConst ? NodeFlags.Const | NodeFlags.IsStatement : NodeFlags.IsStatement | NodeFlags.Lexical,
     start,
     end
   };

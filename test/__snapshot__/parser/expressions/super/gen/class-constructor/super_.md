@@ -33,7 +33,7 @@ class C { constructor() { super; } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class C { constructor() { super; } }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 21
                             },
@@ -65,7 +65,7 @@ class C { constructor() { super; } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 22,
                                 "end": 23
                             },
@@ -88,49 +88,49 @@ class C { constructor() { super; } }
                                                         "start": 25,
                                                         "end": 31
                                                     },
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 25,
                                                     "end": 31
                                                 },
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 12,
+                                                    "flags": 68,
                                                     "start": 31,
                                                     "end": 31
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 25,
                                                 "end": 31
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 25,
                                             "end": 32
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 32
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 34
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 21,
                             "end": 34
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 9,
                         "end": 34
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

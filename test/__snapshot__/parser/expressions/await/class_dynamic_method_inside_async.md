@@ -22,7 +22,7 @@ async function f() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -37,7 +37,7 @@ async function f() {
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -45,7 +45,7 @@ async function f() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -69,7 +69,7 @@ async function f() {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 30
                             },
@@ -94,11 +94,11 @@ async function f() {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 32,
                                                     "end": 33
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 34
                                             },
@@ -113,20 +113,20 @@ async function f() {
                                                             "kind": 134299649,
                                                             "text": "await",
                                                             "rawText": "await",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 35,
                                                             "end": 40
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 35,
                                                         "end": 40
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 41
                                             },
@@ -138,11 +138,11 @@ async function f() {
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 42,
                                                     "end": 42
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 41,
                                                 "end": 43
                                             },
@@ -155,27 +155,27 @@ async function f() {
                                         "end": 43
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 44
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 44
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 44
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 46
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 46
         }

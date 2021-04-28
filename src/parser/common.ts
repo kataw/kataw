@@ -180,7 +180,11 @@ export function containsSeparator(node: SyntaxNode): boolean {
 }
 
 export function hasUnicodeEscape(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.UnicodeEscape) === NodeFlags.UnicodeEscape;
+  return (node.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) !== 0;
+}
+
+export function hasExtendedUnicodeEscape(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ExtendedUnicodeEscape) === NodeFlags.ExtendedUnicodeEscape;
 }
 
 export function isConstructor(node: SyntaxNode): boolean {
@@ -200,10 +204,6 @@ export function isNoneSimpleParamList(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.NoneSimpleParamList) === NodeFlags.NoneSimpleParamList;
 }
 
-export function hasExtendedUnicodeEscape(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.ExtendedUnicodeEscape) === NodeFlags.ExtendedUnicodeEscape;
-}
-
 export function isImplicitOctal(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.ImplicitOctal) === NodeFlags.ImplicitOctal;
 }
@@ -219,6 +219,7 @@ export function isUnterminated(node: SyntaxNode): boolean {
 export function hexIntegerLiteral(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.HexIntegerLiteral) === NodeFlags.HexIntegerLiteral;
 }
+
 export function containsInvalidEscape(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.ContainsInvalidEscape) === NodeFlags.ContainsInvalidEscape;
 }

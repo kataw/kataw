@@ -30,7 +30,7 @@ do do do catch try {} while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 39,
                 "end": 39
             },
@@ -51,7 +51,7 @@ do do do catch try {} while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 33,
                     "end": 33
                 },
@@ -72,7 +72,7 @@ do do do catch try {} while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 27,
                         "end": 27
                     },
@@ -91,11 +91,11 @@ do do do catch try {} while while while
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 14,
                                 "end": 14
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 14
                         },
@@ -107,27 +107,27 @@ do do do catch try {} while while while
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 20
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 21
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 27
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

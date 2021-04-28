@@ -32,7 +32,7 @@ class new {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class new {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -70,16 +70,16 @@ class new {}
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 9,
                     "end": 12
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 12
         }

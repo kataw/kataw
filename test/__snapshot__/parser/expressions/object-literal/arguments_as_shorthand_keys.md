@@ -23,13 +23,13 @@ x = {arguments}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -42,7 +42,7 @@ x = {arguments}
                                 "kind": 134299649,
                                 "text": "arguments",
                                 "rawText": "arguments",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 5,
                                 "end": 14
                             }
@@ -53,15 +53,15 @@ x = {arguments}
                         "start": 5,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

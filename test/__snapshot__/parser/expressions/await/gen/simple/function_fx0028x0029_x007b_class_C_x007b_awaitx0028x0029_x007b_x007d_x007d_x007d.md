@@ -34,7 +34,7 @@ function f() { class C { await() { } } }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -42,7 +42,7 @@ function f() { class C { await() { } } }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 12
             },
@@ -66,7 +66,7 @@ function f() { class C { await() { } } }
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 22
                             },
@@ -89,7 +89,7 @@ function f() { class C { await() { } } }
                                                 "kind": 134299649,
                                                 "text": "await",
                                                 "rawText": "await",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 24,
                                                 "end": 30
                                             },
@@ -110,11 +110,11 @@ function f() { class C { await() { } } }
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 34,
                                                     "end": 34
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 32,
                                                 "end": 36
                                             },
@@ -127,27 +127,27 @@ function f() { class C { await() { } } }
                                         "end": 36
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 38
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 38
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 38
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 40
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

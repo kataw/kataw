@@ -32,7 +32,7 @@ const f = (...x?) => {}
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 7
                         },
@@ -52,7 +52,7 @@ const f = (...x?) => {}
                                     "kind": 215,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 11,
                                         "end": 14
                                     },
@@ -60,19 +60,19 @@ const f = (...x?) => {}
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 15
                                     },
                                     "optionalToken": {
                                         "kind": 134217750,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 15,
                                         "end": 16
                                     },
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 258,
+                                    "flags": 34,
                                     "start": 11,
                                     "end": 16
                                 }
@@ -86,28 +86,28 @@ const f = (...x?) => {}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 22
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 23
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 23
         }

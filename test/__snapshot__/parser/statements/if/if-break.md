@@ -27,7 +27,7 @@ if(0) break;
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
-                "flags": 768,
+                "flags": 96,
                 "start": 3,
                 "end": 4
             },
@@ -40,13 +40,13 @@ if(0) break;
                     "end": 11
                 },
                 "label": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 12
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

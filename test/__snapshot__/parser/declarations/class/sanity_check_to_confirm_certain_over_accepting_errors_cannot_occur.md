@@ -48,7 +48,7 @@ class x { async get foo(){ }}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -64,7 +64,7 @@ class x { async get foo(){ }}
                         "staticToken": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -72,14 +72,14 @@ class x { async get foo(){ }}
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 19
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 19
                     },
@@ -97,7 +97,7 @@ class x { async get foo(){ }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 23
                             },
@@ -118,11 +118,11 @@ class x { async get foo(){ }}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 26,
                                     "end": 26
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 28
                             },
@@ -135,11 +135,11 @@ class x { async get foo(){ }}
                         "end": 28
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

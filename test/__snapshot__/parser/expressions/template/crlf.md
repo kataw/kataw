@@ -25,7 +25,7 @@ b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -33,15 +33,15 @@ b
                     "kind": 458761,
                     "text": "foo\r\nbar",
                     "rawText": "foo\\r\\nbar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -51,11 +51,11 @@ b
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 16
         }

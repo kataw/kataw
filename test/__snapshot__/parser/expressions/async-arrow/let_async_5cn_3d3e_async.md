@@ -20,7 +20,7 @@ let async
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -33,23 +33,23 @@ let async
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 9
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 9
         },
@@ -59,11 +59,11 @@ let async
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 19
         }

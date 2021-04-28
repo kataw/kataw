@@ -30,7 +30,7 @@ if( catch try {
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 3,
                 "end": 3
             },
@@ -43,11 +43,11 @@ if( catch try {
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 9,
                     "end": 9
                 },
@@ -59,21 +59,21 @@ if( catch try {
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 15
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

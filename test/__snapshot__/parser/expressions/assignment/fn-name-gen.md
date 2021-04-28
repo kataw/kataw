@@ -42,14 +42,14 @@ gen = function*() {};
                             "kind": 134299649,
                             "text": "xGen",
                             "rawText": "xGen",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 8
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 8
                     },
@@ -59,23 +59,23 @@ gen = function*() {};
                             "kind": 134299649,
                             "text": "gen",
                             "rawText": "gen",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 13
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -87,13 +87,13 @@ gen = function*() {};
                     "kind": 134299649,
                     "text": "xGen",
                     "rawText": "xGen",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 20,
                     "end": 22
                 },
@@ -108,7 +108,7 @@ gen = function*() {};
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 31,
                         "end": 32
                     },
@@ -116,7 +116,7 @@ gen = function*() {};
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 32,
                         "end": 34
                     },
@@ -124,7 +124,7 @@ gen = function*() {};
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 34,
                         "end": 36
                     },
@@ -135,25 +135,25 @@ gen = function*() {};
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 38,
                             "end": 38
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 36,
                         "end": 39
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 2304,
+                    "flags": 288,
                     "start": 22,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 40
         },
@@ -165,13 +165,13 @@ gen = function*() {};
                     "kind": 134299649,
                     "text": "gen",
                     "rawText": "gen",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 40,
                     "end": 44
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 44,
                     "end": 46
                 },
@@ -186,7 +186,7 @@ gen = function*() {};
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 55,
                         "end": 56
                     },
@@ -195,7 +195,7 @@ gen = function*() {};
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 56,
                         "end": 58
                     },
@@ -206,25 +206,25 @@ gen = function*() {};
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 60,
                             "end": 60
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 58,
                         "end": 61
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 2304,
+                    "flags": 288,
                     "start": 46,
                     "end": 61
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 40,
                 "end": 61
             },
-            "flags": 128,
+            "flags": 16,
             "start": 40,
             "end": 62
         }

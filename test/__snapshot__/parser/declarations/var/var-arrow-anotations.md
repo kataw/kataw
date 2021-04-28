@@ -83,7 +83,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -94,7 +94,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 6,
                                     "end": 13
                                 },
@@ -107,16 +107,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 15
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 15
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         },
@@ -138,7 +138,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 23
                         },
@@ -151,7 +151,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "Map",
                                     "rawText": "Map",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 28
                                 },
@@ -160,7 +160,7 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 29,
                                             "end": 35
                                         },
@@ -170,7 +170,7 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 134299649,
                                                 "text": "Array",
                                                 "rawText": "Array",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 36,
                                                 "end": 42
                                             },
@@ -179,7 +179,7 @@ class Array { concat(items:number | string) {}; }
                                                 "types": [
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 43,
                                                         "end": 49
                                                     }
@@ -206,16 +206,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 51
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 21,
                         "end": 51
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 51
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 52
         },
@@ -237,7 +237,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 57,
                             "end": 59
                         },
@@ -250,7 +250,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "Map",
                                     "rawText": "Map",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 60,
                                     "end": 64
                                 },
@@ -259,7 +259,7 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 65,
                                             "end": 71
                                         },
@@ -269,7 +269,7 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 134299649,
                                                 "text": "Array",
                                                 "rawText": "Array",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 72,
                                                 "end": 78
                                             },
@@ -278,7 +278,7 @@ class Array { concat(items:number | string) {}; }
                                                 "types": [
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 79,
                                                         "end": 85
                                                     }
@@ -305,16 +305,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 88
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 57,
                         "end": 88
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 57,
                 "end": 88
             },
-            "flags": 128,
+            "flags": 16,
             "start": 52,
             "end": 89
         },
@@ -336,7 +336,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 94,
                             "end": 96
                         },
@@ -351,7 +351,7 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 134299649,
                                         "text": "Y",
                                         "rawText": "Y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 104,
                                         "end": 106
                                     },
@@ -372,20 +372,20 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "Y",
                             "rawText": "Y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 108,
                             "end": 110
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 94,
                         "end": 110
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 94,
                 "end": 110
             },
-            "flags": 128,
+            "flags": 16,
             "start": 89,
             "end": 111
         },
@@ -407,7 +407,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 116,
                             "end": 118
                         },
@@ -420,7 +420,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 208,
                                     "functionTypeParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 122,
                                     "end": 122
                                 },
@@ -429,7 +429,7 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234345,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 126,
                                             "end": 133
                                         },
@@ -439,13 +439,13 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 208,
                                                 "functionTypeParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 137,
                                                 "end": 137
                                             },
                                             "returnType": {
                                                 "kind": 134234347,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 141,
                                                 "end": 148
                                             },
@@ -472,20 +472,20 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "fn",
                             "rawText": "fn",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 150,
                             "end": 153
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 116,
                         "end": 153
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 116,
                 "end": 153
             },
-            "flags": 128,
+            "flags": 16,
             "start": 111,
             "end": 154
         },
@@ -507,7 +507,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 159,
                             "end": 163
                         },
@@ -519,7 +519,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 165,
                                 "end": 169
                             },
@@ -543,7 +543,7 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 173,
                                         "end": 176
                                     }
@@ -553,7 +553,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 179,
                                         "end": 186
                                     },
@@ -568,15 +568,15 @@ class Array { concat(items:number | string) {}; }
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 191,
                                         "end": 191
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 189,
                                     "end": 192
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 171,
                                 "end": 192
                             },
@@ -590,24 +590,24 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "baz",
                                 "rawText": "baz",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 194,
                                 "end": 198
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 165,
                             "end": 198
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 159,
                         "end": 198
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 159,
                 "end": 198
             },
-            "flags": 128,
+            "flags": 16,
             "start": 154,
             "end": 199
         },
@@ -629,7 +629,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 204,
                             "end": 206
                         },
@@ -645,13 +645,13 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "numVal",
                                             "rawText": "numVal",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 209,
                                             "end": 215
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 216,
                                             "end": 223
                                         },
@@ -674,16 +674,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 225
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 204,
                         "end": 225
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 204,
                 "end": 225
             },
-            "flags": 128,
+            "flags": 16,
             "start": 199,
             "end": 226
         },
@@ -705,7 +705,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 231,
                             "end": 235
                         },
@@ -717,7 +717,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 237,
                                 "end": 241
                             },
@@ -733,11 +733,11 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 245,
                                     "end": 248
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 243,
                                 "end": 249
                             },
@@ -751,24 +751,24 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "number",
                                 "rawText": "number",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 251,
                                 "end": 258
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 237,
                             "end": 258
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 231,
                         "end": 258
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 231,
                 "end": 258
             },
-            "flags": 128,
+            "flags": 16,
             "start": 226,
             "end": 259
         },
@@ -790,7 +790,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 264,
                             "end": 268
                         },
@@ -812,7 +812,7 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 273,
                                         "end": 276
                                     }
@@ -822,7 +822,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 278,
                                         "end": 285
                                     },
@@ -834,28 +834,28 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 288,
                                     "end": 292
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 272,
                                 "end": 292
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 270,
                             "end": 293
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 264,
                         "end": 293
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 264,
                 "end": 293
             },
-            "flags": 128,
+            "flags": 16,
             "start": 259,
             "end": 294
         },
@@ -877,7 +877,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 299,
                             "end": 303
                         },
@@ -900,7 +900,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 310,
                                         "end": 317
                                     },
@@ -912,28 +912,28 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 320,
                                     "end": 324
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 307,
                                 "end": 324
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 305,
                             "end": 325
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 299,
                         "end": 325
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 299,
                 "end": 325
             },
-            "flags": 128,
+            "flags": 16,
             "start": 294,
             "end": 326
         },
@@ -955,7 +955,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 331,
                             "end": 335
                         },
@@ -975,14 +975,14 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 345,
                                     "end": 348
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 337,
                                 "end": 343
                             },
@@ -990,7 +990,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 350,
                                     "end": 357
                                 },
@@ -1002,24 +1002,24 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 360,
                                 "end": 364
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 337,
                             "end": 364
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 331,
                         "end": 364
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 331,
                 "end": 364
             },
-            "flags": 128,
+            "flags": 16,
             "start": 326,
             "end": 365
         },
@@ -1041,7 +1041,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 370,
                             "end": 374
                         },
@@ -1059,7 +1059,7 @@ class Array { concat(items:number | string) {}; }
                             "parameters": [],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 376,
                                 "end": 382
                             },
@@ -1067,7 +1067,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 386,
                                     "end": 393
                                 },
@@ -1079,24 +1079,24 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 396,
                                 "end": 400
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 376,
                             "end": 400
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 370,
                         "end": 400
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 370,
                 "end": 400
             },
-            "flags": 128,
+            "flags": 16,
             "start": 365,
             "end": 401
         },
@@ -1118,7 +1118,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 406,
                             "end": 410
                         },
@@ -1141,7 +1141,7 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 420,
                                         "end": 423
                                     },
@@ -1154,7 +1154,7 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 424,
                                                 "end": 428
                                             },
@@ -1168,7 +1168,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 428
                                     },
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 420,
                                     "end": 428
                                 },
@@ -1179,7 +1179,7 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 429,
                                         "end": 433
                                     },
@@ -1192,7 +1192,7 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 434,
                                                 "end": 438
                                             },
@@ -1206,14 +1206,14 @@ class Array { concat(items:number | string) {}; }
                                         "end": 438
                                     },
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 429,
                                     "end": 438
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 412,
                                 "end": 418
                             },
@@ -1225,28 +1225,28 @@ class Array { concat(items:number | string) {}; }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 444,
                                     "end": 444
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 442,
                                 "end": 445
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 412,
                             "end": 445
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 406,
                         "end": 445
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 406,
                 "end": 445
             },
-            "flags": 128,
+            "flags": 16,
             "start": 401,
             "end": 445
         },
@@ -1268,7 +1268,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 450,
                             "end": 454
                         },
@@ -1289,7 +1289,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 460,
                                     "end": 467
                                 },
@@ -1301,24 +1301,24 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 470,
                                 "end": 474
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 456,
                             "end": 474
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 450,
                         "end": 474
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 450,
                 "end": 474
             },
-            "flags": 128,
+            "flags": 16,
             "start": 445,
             "end": 475
         },
@@ -1340,7 +1340,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 480,
                             "end": 482
                         },
@@ -1356,13 +1356,13 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "param1",
                                             "rawText": "param1",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 485,
                                             "end": 491
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 492,
                                             "end": 499
                                         },
@@ -1378,19 +1378,19 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "param2",
                                             "rawText": "param2",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 500,
                                             "end": 507
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 509,
                                             "end": 516
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 507,
                                             "end": 508
                                         },
@@ -1412,16 +1412,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 517
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 480,
                         "end": 517
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 480,
                 "end": 517
             },
-            "flags": 128,
+            "flags": 16,
             "start": 475,
             "end": 517
         },
@@ -1451,24 +1451,24 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 524,
                                             "end": 525
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 524,
                                         "end": 525
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 524,
                                 "end": 525
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 522,
                             "end": 526
                         },
@@ -1481,7 +1481,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 527,
                                     "end": 533
                                 },
@@ -1490,7 +1490,7 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 534,
                                             "end": 540
                                         }
@@ -1516,30 +1516,30 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 201392131,
                                         "text": "hello",
                                         "rawText": "hello",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 545,
                                         "end": 553
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 545,
                                 "end": 553
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 543,
                             "end": 555
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 522,
                         "end": 555
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 522,
                 "end": 555
             },
-            "flags": 128,
+            "flags": 16,
             "start": 517,
             "end": 556
         },
@@ -1569,23 +1569,23 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 563,
                                             "end": 564
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 563,
                                         "end": 564
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 563,
                                 "end": 564
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 561,
                             "end": 565
                         },
@@ -1601,13 +1601,13 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 568,
                                             "end": 569
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 570,
                                             "end": 577
                                         },
@@ -1640,7 +1640,7 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 201392131,
                                             "text": "hello",
                                             "rawText": "hello",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 586,
                                             "end": 594
                                         },
@@ -1648,11 +1648,11 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 583,
                                             "end": 585
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 583,
                                         "end": 594
                                     }
@@ -1663,20 +1663,20 @@ class Array { concat(items:number | string) {}; }
                                 "start": 583,
                                 "end": 594
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 581,
                             "end": 596
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 561,
                         "end": 596
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 561,
                 "end": 596
             },
-            "flags": 128,
+            "flags": 16,
             "start": 556,
             "end": 597
         },
@@ -1706,23 +1706,23 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 604,
                                             "end": 605
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 604,
                                         "end": 605
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 604,
                                 "end": 605
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 602,
                             "end": 606
                         },
@@ -1738,13 +1738,13 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 609,
                                             "end": 610
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 611,
                                             "end": 618
                                         },
@@ -1777,7 +1777,7 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 201392131,
                                             "text": "hello",
                                             "rawText": "hello",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 628,
                                             "end": 636
                                         },
@@ -1785,11 +1785,11 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 625,
                                             "end": 627
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 625,
                                         "end": 636
                                     }
@@ -1800,20 +1800,20 @@ class Array { concat(items:number | string) {}; }
                                 "start": 625,
                                 "end": 636
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 623,
                             "end": 638
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 602,
                         "end": 638
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 602,
                 "end": 638
             },
-            "flags": 128,
+            "flags": 16,
             "start": 597,
             "end": 639
         },
@@ -1835,7 +1835,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 644,
                             "end": 646
                         },
@@ -1853,13 +1853,13 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 134299649,
                                                 "text": "numVal",
                                                 "rawText": "numVal",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 650,
                                                 "end": 656
                                             },
                                             "value": {
                                                 "kind": 134234345,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 657,
                                                 "end": 664
                                             },
@@ -1886,16 +1886,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 665
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 644,
                         "end": 665
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 644,
                 "end": 665
             },
-            "flags": 128,
+            "flags": 16,
             "start": 639,
             "end": 666
         },
@@ -1917,7 +1917,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 671,
                             "end": 673
                         },
@@ -1935,7 +1935,7 @@ class Array { concat(items:number | string) {}; }
                                                 "kind": 134299649,
                                                 "text": "Y",
                                                 "rawText": "Y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 681,
                                                 "end": 683
                                             },
@@ -1950,7 +1950,7 @@ class Array { concat(items:number | string) {}; }
                                     },
                                     {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 685,
                                         "end": 692
                                     }
@@ -1967,20 +1967,20 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "Y",
                             "rawText": "Y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 694,
                             "end": 696
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 671,
                         "end": 696
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 671,
                 "end": 696
             },
-            "flags": 128,
+            "flags": 16,
             "start": 666,
             "end": 697
         },
@@ -2002,7 +2002,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 702,
                             "end": 704
                         },
@@ -2018,7 +2018,7 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "subObj",
                                             "rawText": "subObj",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 707,
                                             "end": 713
                                         },
@@ -2031,13 +2031,13 @@ class Array { concat(items:number | string) {}; }
                                                         "kind": 134299649,
                                                         "text": "strVal",
                                                         "rawText": "strVal",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 716,
                                                         "end": 722
                                                     },
                                                     "value": {
                                                         "kind": 134234347,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 723,
                                                         "end": 730
                                                     },
@@ -2074,16 +2074,16 @@ class Array { concat(items:number | string) {}; }
                             "end": 732
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 702,
                         "end": 732
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 702,
                 "end": 732
             },
-            "flags": 128,
+            "flags": 16,
             "start": 697,
             "end": 732
         },
@@ -2101,7 +2101,7 @@ class Array { concat(items:number | string) {}; }
                 "kind": 134299649,
                 "text": "Array",
                 "rawText": "Array",
-                "flags": 768,
+                "flags": 96,
                 "start": 739,
                 "end": 745
             },
@@ -2124,7 +2124,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "concat",
                                 "rawText": "concat",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 747,
                                 "end": 754
                             },
@@ -2139,7 +2139,7 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 134299649,
                                             "text": "items",
                                             "rawText": "items",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 755,
                                             "end": 760
                                         },
@@ -2151,13 +2151,13 @@ class Array { concat(items:number | string) {}; }
                                                 "types": [
                                                     {
                                                         "kind": 134234345,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 761,
                                                         "end": 767
                                                     },
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 769,
                                                         "end": 776
                                                     }
@@ -2171,13 +2171,13 @@ class Array { concat(items:number | string) {}; }
                                             "end": 776
                                         },
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 755,
                                         "end": 776
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 755,
                                 "end": 777
                             },
@@ -2189,11 +2189,11 @@ class Array { concat(items:number | string) {}; }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 779,
                                     "end": 779
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 777,
                                 "end": 780
                             },
@@ -2207,16 +2207,16 @@ class Array { concat(items:number | string) {}; }
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 780,
                         "end": 781
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 747,
                 "end": 783
             },
-            "flags": 128,
+            "flags": 16,
             "start": 732,
             "end": 783
         }

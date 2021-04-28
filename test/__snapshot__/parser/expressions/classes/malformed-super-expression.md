@@ -33,7 +33,7 @@ class A {
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 13
                             },
@@ -90,24 +90,24 @@ class A {
                                                             "start": 18,
                                                             "end": 28
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 18,
                                                         "end": 28
                                                     },
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 12,
+                                                        "flags": 68,
                                                         "start": 28,
                                                         "end": 28
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 18,
                                                     "end": 28
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35379,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 28,
                                                     "end": 30
                                                 },
@@ -115,25 +115,25 @@ class A {
                                                     "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 30,
                                                     "end": 32
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 18,
                                                 "end": 32
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 18,
                                             "end": 33
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 37
                             },
@@ -146,11 +146,11 @@ class A {
                         "end": 37
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

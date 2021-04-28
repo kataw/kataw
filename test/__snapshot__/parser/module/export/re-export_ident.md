@@ -35,7 +35,7 @@ export * from x
                 "kind": 259,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 0,
                 "end": 8
             },
@@ -43,11 +43,11 @@ export * from x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

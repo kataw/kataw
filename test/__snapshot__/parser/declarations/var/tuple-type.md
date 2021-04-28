@@ -48,7 +48,7 @@ var x: [number, string] = [123, "aladdin"];
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -74,24 +74,24 @@ var x: [number, string] = [123, "aladdin"];
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 14
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 14
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -113,7 +113,7 @@ var x: [number, string] = [123, "aladdin"];
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 22
                         },
@@ -125,7 +125,7 @@ var x: [number, string] = [123, "aladdin"];
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 25,
                                         "end": 31
                                     }
@@ -149,30 +149,30 @@ var x: [number, string] = [123, "aladdin"];
                                         "kind": 201392130,
                                         "text": 123,
                                         "rawText": "123",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 37,
                                         "end": 40
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 41
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 35,
                             "end": 42
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 20,
                         "end": 42
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 43
         },
@@ -194,7 +194,7 @@ var x: [number, string] = [123, "aladdin"];
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 48,
                             "end": 50
                         },
@@ -210,7 +210,7 @@ var x: [number, string] = [123, "aladdin"];
                                             "kind": 134299649,
                                             "text": "Foo",
                                             "rawText": "Foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 53,
                                             "end": 56
                                         },
@@ -223,7 +223,7 @@ var x: [number, string] = [123, "aladdin"];
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 57,
                                                         "end": 58
                                                     },
@@ -261,30 +261,30 @@ var x: [number, string] = [123, "aladdin"];
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 64,
                                         "end": 67
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 64,
                                 "end": 67
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 62,
                             "end": 68
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 48,
                         "end": 68
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 48,
                 "end": 68
             },
-            "flags": 128,
+            "flags": 16,
             "start": 43,
             "end": 69
         },
@@ -306,7 +306,7 @@ var x: [number, string] = [123, "aladdin"];
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 74,
                             "end": 76
                         },
@@ -318,13 +318,13 @@ var x: [number, string] = [123, "aladdin"];
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 79,
                                         "end": 85
                                     },
                                     {
                                         "kind": 134234347,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 86,
                                         "end": 93
                                     }
@@ -348,7 +348,7 @@ var x: [number, string] = [123, "aladdin"];
                                         "kind": 201392130,
                                         "text": 123,
                                         "rawText": "123",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 98,
                                         "end": 101
                                     },
@@ -356,30 +356,30 @@ var x: [number, string] = [123, "aladdin"];
                                         "kind": 201392131,
                                         "text": "aladdin",
                                         "rawText": "aladdin",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 102,
                                         "end": 112
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 98,
                                 "end": 112
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 96,
                             "end": 113
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 74,
                         "end": 113
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 74,
                 "end": 113
             },
-            "flags": 128,
+            "flags": 16,
             "start": 69,
             "end": 114
         }

@@ -48,7 +48,7 @@ class v extends.foo {}
                 "kind": 134299649,
                 "text": "v",
                 "rawText": "v",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -66,7 +66,7 @@ class v extends.foo {}
                     "member": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 15,
                         "end": 15
                     },
@@ -74,27 +74,27 @@ class v extends.foo {}
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 19
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 19
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 19
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

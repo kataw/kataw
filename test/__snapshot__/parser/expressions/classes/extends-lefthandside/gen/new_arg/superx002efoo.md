@@ -39,12 +39,12 @@ new super.foo
                             "start": 3,
                             "end": 9
                         },
-                        "flags": 768,
+                        "flags": 96,
                         "start": 3,
                         "end": 9
                     },
                     "argumentList": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 9
                 },
@@ -52,15 +52,15 @@ new super.foo
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

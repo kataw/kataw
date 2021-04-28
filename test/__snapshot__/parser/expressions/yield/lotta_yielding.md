@@ -43,7 +43,7 @@ var gen = async function *g() {
                             "kind": 134299649,
                             "text": "gen",
                             "rawText": "gen",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -53,7 +53,7 @@ var gen = async function *g() {
                             "kind": 177,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 9,
                                 "end": 15
                             },
@@ -65,7 +65,7 @@ var gen = async function *g() {
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 24,
                                 "end": 26
                             },
@@ -73,7 +73,7 @@ var gen = async function *g() {
                                 "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 26,
                                 "end": 27
                             },
@@ -81,7 +81,7 @@ var gen = async function *g() {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 29
                             },
@@ -99,13 +99,13 @@ var gen = async function *g() {
                                                     "kind": 134299649,
                                                     "text": "callCount",
                                                     "rawText": "callCount",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 31,
                                                     "end": 43
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4130,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 43,
                                                     "end": 46
                                                 },
@@ -113,15 +113,15 @@ var gen = async function *g() {
                                                     "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 46,
                                                     "end": 48
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 48
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 31,
                                             "end": 49
                                         },
@@ -171,15 +171,15 @@ var gen = async function *g() {
                                                                         "delegate": false,
                                                                         "asteriskToken": null,
                                                                         "expression": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 75,
                                                                         "end": 81
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 70,
                                                                     "end": 81
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 59,
                                                                 "end": 81
                                                             },
@@ -216,20 +216,20 @@ var gen = async function *g() {
                                                                                             "kind": 134299649,
                                                                                             "text": "arg",
                                                                                             "rawText": "arg",
-                                                                                            "flags": 768,
+                                                                                            "flags": 96,
                                                                                             "start": 103,
                                                                                             "end": 106
                                                                                         },
                                                                                         "optionalToken": null,
                                                                                         "type": null,
                                                                                         "initializer": null,
-                                                                                        "flags": 256,
+                                                                                        "flags": 32,
                                                                                         "start": 103,
                                                                                         "end": 106
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 102,
                                                                                 "end": 107
                                                                             },
@@ -257,7 +257,7 @@ var gen = async function *g() {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "yield",
                                                                                                             "rawText": "yield",
-                                                                                                            "flags": 768,
+                                                                                                            "flags": 96,
                                                                                                             "start": 123,
                                                                                                             "end": 129
                                                                                                         },
@@ -267,20 +267,20 @@ var gen = async function *g() {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "arg",
                                                                                                             "rawText": "arg",
-                                                                                                            "flags": 768,
+                                                                                                            "flags": 96,
                                                                                                             "start": 131,
                                                                                                             "end": 135
                                                                                                         },
-                                                                                                        "flags": 128,
+                                                                                                        "flags": 16,
                                                                                                         "start": 123,
                                                                                                         "end": 135
                                                                                                     }
                                                                                                 ],
-                                                                                                "flags": 128,
+                                                                                                "flags": 16,
                                                                                                 "start": 123,
                                                                                                 "end": 135
                                                                                             },
-                                                                                            "flags": 128,
+                                                                                            "flags": 16,
                                                                                             "start": 109,
                                                                                             "end": 136
                                                                                         },
@@ -309,11 +309,11 @@ var gen = async function *g() {
                                                                                                                 "kind": 134299649,
                                                                                                                 "text": "yield",
                                                                                                                 "rawText": "yield",
-                                                                                                                "flags": 768,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 158,
                                                                                                                 "end": 163
                                                                                                             },
-                                                                                                            "flags": 256,
+                                                                                                            "flags": 32,
                                                                                                             "start": 155,
                                                                                                             "end": 163
                                                                                                         }
@@ -324,27 +324,27 @@ var gen = async function *g() {
                                                                                                     "start": 155,
                                                                                                     "end": 163
                                                                                                 },
-                                                                                                "flags": 256,
+                                                                                                "flags": 32,
                                                                                                 "start": 153,
                                                                                                 "end": 164
                                                                                             },
-                                                                                            "flags": 128,
+                                                                                            "flags": 16,
                                                                                             "start": 1,
                                                                                             "end": 136
                                                                                         }
                                                                                     ],
                                                                                     "multiline": true,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 109,
                                                                                     "end": 165
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 107,
                                                                                 "end": 174
                                                                             },
                                                                             "typeParameters": null,
                                                                             "returnType": null,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 94,
                                                                             "end": 174
                                                                         },
@@ -362,25 +362,25 @@ var gen = async function *g() {
                                                                                     "delegate": false,
                                                                                     "asteriskToken": null,
                                                                                     "expression": null,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 175,
                                                                                     "end": 180
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 175,
                                                                             "end": 180
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 94,
                                                                         "end": 181
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 93,
                                                                     "end": 182
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 82,
                                                                 "end": 182
                                                             },
@@ -403,11 +403,11 @@ var gen = async function *g() {
                                                                     "delegate": false,
                                                                     "asteriskToken": null,
                                                                     "expression": null,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 194,
                                                                     "end": 199
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 183,
                                                                 "end": 199
                                                             }
@@ -418,44 +418,44 @@ var gen = async function *g() {
                                                         "start": 59,
                                                         "end": 200
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 57,
                                                     "end": 206
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 49,
                                                 "end": 206
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 49,
                                             "end": 206
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 31,
                                     "end": 206
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 208
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3328,
+                            "flags": 416,
                             "start": 9,
                             "end": 208
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 208
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 208
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 209
         }

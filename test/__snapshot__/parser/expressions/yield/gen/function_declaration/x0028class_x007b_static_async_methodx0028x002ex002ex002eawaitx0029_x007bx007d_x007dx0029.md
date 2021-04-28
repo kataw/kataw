@@ -34,7 +34,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -77,13 +77,13 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                 "decorators": null,
                                                 "staticKeyword": {
                                                     "kind": 8388716,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 29,
                                                     "end": 36
                                                 },
                                                 "asyncKeyword": {
                                                     "kind": 82031,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 36,
                                                     "end": 42
                                                 },
@@ -95,7 +95,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                         "kind": 134299649,
                                                         "text": "method",
                                                         "rawText": "method",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 42,
                                                         "end": 49
                                                     },
@@ -107,7 +107,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                 "kind": 215,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 512,
+                                                                    "flags": 64,
                                                                     "start": 50,
                                                                     "end": 53
                                                                 },
@@ -115,20 +115,20 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                     "kind": 134299649,
                                                                     "text": "await",
                                                                     "rawText": "await",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 53,
                                                                     "end": 58
                                                                 },
                                                                 "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
-                                                                "flags": 258,
+                                                                "flags": 34,
                                                                 "start": 50,
                                                                 "end": 58
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 2306,
+                                                        "flags": 290,
                                                         "start": 50,
                                                         "end": 59
                                                     },
@@ -140,52 +140,52 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "directives": [],
                                                             "statements": [],
                                                             "multiline": false,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 61,
                                                             "end": 61
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 59,
                                                         "end": 62
                                                     },
-                                                    "flags": 2048,
+                                                    "flags": 256,
                                                     "start": 49,
                                                     "end": 62
                                                 },
-                                                "flags": 2048,
+                                                "flags": 256,
                                                 "start": 36,
                                                 "end": 62
                                             }
                                         ],
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 29,
                                         "end": 64
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 64
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 65
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 65
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 65
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 67
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 67
         }

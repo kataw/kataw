@@ -42,7 +42,7 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 6,
                             "end": 8
                         },
@@ -51,11 +51,11 @@
                         "members": {
                             "kind": 277,
                             "elements": [],
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 10
                     },
@@ -63,19 +63,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

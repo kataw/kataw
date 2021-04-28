@@ -23,7 +23,7 @@ tag`some \" quote`;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -31,15 +31,15 @@ tag`some \" quote`;
                     "kind": 458761,
                     "text": "some \" quote",
                     "rawText": "some \\\" quote",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

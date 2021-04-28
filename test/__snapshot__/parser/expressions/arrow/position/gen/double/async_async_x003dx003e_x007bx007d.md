@@ -38,21 +38,21 @@ async async => {} async async => {}
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 11
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 11
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -64,19 +64,19 @@ async async => {} async async => {}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 17
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -99,21 +99,21 @@ async async => {} async async => {}
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 23,
                             "end": 29
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 17,
                         "end": 29
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 17,
                     "end": 23
                 },
@@ -125,19 +125,19 @@ async async => {} async async => {}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 34,
                         "end": 34
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 32,
                     "end": 35
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 17,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 35
         }

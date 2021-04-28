@@ -37,7 +37,7 @@ class x extends y {
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -54,12 +54,12 @@ class x extends y {
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 17
             },
@@ -80,7 +80,7 @@ class x extends y {
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 33
                             },
@@ -129,7 +129,7 @@ class x extends y {
                                                                                 "start": 50,
                                                                                 "end": 56
                                                                             },
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 50,
                                                                             "end": 56
                                                                         },
@@ -137,11 +137,11 @@ class x extends y {
                                                                             "kind": 134299649,
                                                                             "text": "cool",
                                                                             "rawText": "cool",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 57,
                                                                             "end": 61
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 44,
                                                                         "end": 62
                                                                     },
@@ -149,11 +149,11 @@ class x extends y {
                                                                         "kind": 201392131,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 44,
                                                                         "end": 49
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 44,
                                                                     "end": 62
                                                                 }
@@ -164,7 +164,7 @@ class x extends y {
                                                             "start": 44,
                                                             "end": 62
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 43,
                                                         "end": 63
                                                     }
@@ -175,25 +175,25 @@ class x extends y {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 67,
                                                     "end": 69
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 37,
                                                 "end": 69
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 37,
                                             "end": 69
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 69
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 73
                             },
@@ -206,11 +206,11 @@ class x extends y {
                         "end": 73
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 75
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 75
         }

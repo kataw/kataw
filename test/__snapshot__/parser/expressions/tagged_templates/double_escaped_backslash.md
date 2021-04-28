@@ -24,7 +24,7 @@ tag`\\\ `;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -32,15 +32,15 @@ tag`\\\ `;
                     "kind": 458761,
                     "text": " \\",
                     "rawText": "\\ \\\\",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -52,7 +52,7 @@ tag`\\\ `;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 14
                 },
@@ -60,15 +60,15 @@ tag`\\\ `;
                     "kind": 458761,
                     "text": "\\ ",
                     "rawText": "\\\\\\ ",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 21
         }

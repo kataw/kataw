@@ -43,7 +43,7 @@ for (x[a in b] in y);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 14,
                 "end": 17
             },
@@ -54,7 +54,7 @@ for (x[a in b] in y);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 6
                 },
@@ -64,13 +64,13 @@ for (x[a in b] in y);
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 8,
                         "end": 11
                     },
@@ -78,15 +78,15 @@ for (x[a in b] in y);
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 14
             },
@@ -94,17 +94,17 @@ for (x[a in b] in y);
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

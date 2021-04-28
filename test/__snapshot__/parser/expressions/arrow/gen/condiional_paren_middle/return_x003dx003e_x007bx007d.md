@@ -27,7 +27,7 @@ bar ? (return => {}) : baz;
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -42,11 +42,11 @@ bar ? (return => {}) : baz;
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 7
                 },
@@ -54,15 +54,15 @@ bar ? (return => {}) : baz;
                 "alternate": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -72,11 +72,11 @@ bar ? (return => {}) : baz;
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 19
         },
@@ -86,11 +86,11 @@ bar ? (return => {}) : baz;
                 "kind": 134299649,
                 "text": "baz",
                 "rawText": "baz",
-                "flags": 768,
+                "flags": 96,
                 "start": 22,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 27
         }

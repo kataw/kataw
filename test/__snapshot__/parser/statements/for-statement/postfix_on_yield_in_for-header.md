@@ -46,7 +46,7 @@ for (yield[g]--;;);
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 13,
                     "end": 15
                 },
@@ -56,7 +56,7 @@ for (yield[g]--;;);
                         "kind": 134299649,
                         "text": "yield",
                         "rawText": "yield",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 5,
                         "end": 10
                     },
@@ -64,15 +64,15 @@ for (yield[g]--;;);
                         "kind": 134299649,
                         "text": "g",
                         "rawText": "g",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 15
             },
@@ -80,11 +80,11 @@ for (yield[g]--;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

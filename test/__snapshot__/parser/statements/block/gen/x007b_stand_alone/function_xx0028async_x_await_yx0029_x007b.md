@@ -39,7 +39,7 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
@@ -53,14 +53,14 @@
                                         "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 13,
                                         "end": 18
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -71,14 +71,14 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 20
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -89,14 +89,14 @@
                                         "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 27
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 27
                                 },
@@ -107,20 +107,20 @@
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 27,
                                         "end": 29
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 29
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 12,
                             "end": 30
                         },
@@ -131,27 +131,27 @@
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 32
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 30,
                             "end": 32
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 32
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

@@ -33,7 +33,7 @@ var v = a => <any><any>{}
                             "kind": 134299649,
                             "text": "v",
                             "rawText": "v",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -52,7 +52,7 @@ var v = a => <any><any>{}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 7,
                                 "end": 9
                             },
@@ -64,32 +64,32 @@ var v = a => <any><any>{}
                                     "kind": 121,
                                     "expression": {
                                         "kind": 132,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 25
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 25
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 25
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 25
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

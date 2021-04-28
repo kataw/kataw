@@ -36,11 +36,11 @@ try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": true,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
@@ -61,7 +61,7 @@ try {
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 513,
+                                "flags": 65,
                                 "start": 17,
                                 "end": 25
                             },
@@ -73,7 +73,7 @@ try {
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 34,
                                 "end": 36
                             },
@@ -81,7 +81,7 @@ try {
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 36,
                                 "end": 37
                             },
@@ -89,7 +89,7 @@ try {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 39
                             },
@@ -100,31 +100,31 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 40
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 41
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 400,
                             "start": 17,
                             "end": 41
                         }
                     ],
                     "multiLine": true,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 41
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 43
         }

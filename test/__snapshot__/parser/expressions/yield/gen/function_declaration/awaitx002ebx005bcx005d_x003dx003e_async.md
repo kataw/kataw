@@ -34,7 +34,7 @@ function not_gen() { await.b[c] => async }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { await.b[c] => async }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -62,7 +62,7 @@ function not_gen() { await.b[c] => async }}
                                         "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 26
                                     },
@@ -70,11 +70,11 @@ function not_gen() { await.b[c] => async }}
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 27,
                                         "end": 28
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 28
                                 },
@@ -82,31 +82,31 @@ function not_gen() { await.b[c] => async }}
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 29,
                                     "end": 30
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 31
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 31
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 31
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         },
@@ -116,11 +116,11 @@ function not_gen() { await.b[c] => async }}
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 34,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 40
         }

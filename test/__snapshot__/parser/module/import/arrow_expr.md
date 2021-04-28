@@ -25,7 +25,7 @@ let x = () => import {x} from "y"
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -38,7 +38,7 @@ let x = () => import {x} from "y"
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -70,32 +70,32 @@ let x = () => import {x} from "y"
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 22,
                                         "end": 23
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 23
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 23
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 23
         },
@@ -105,11 +105,11 @@ let x = () => import {x} from "y"
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "from",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 29
         },
@@ -119,11 +119,11 @@ let x = () => import {x} from "y"
                 "kind": 201392131,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 29,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 33
         }

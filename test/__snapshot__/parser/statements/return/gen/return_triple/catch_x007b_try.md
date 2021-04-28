@@ -30,11 +30,11 @@ return return return catch { try
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -49,11 +49,11 @@ return return return catch { try
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -68,11 +68,11 @@ return return return catch { try
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -98,11 +98,11 @@ return return return catch { try
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 32,
                                     "end": 32
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 32,
                                 "end": 32
                             },
@@ -114,25 +114,25 @@ return return return catch { try
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 32,
                                     "end": 32
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 32,
                                 "end": 32
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 28,
                             "end": 32
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 28,
                     "end": 32
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 32
             },
@@ -144,15 +144,15 @@ return return return catch { try
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 32,
                     "end": 32
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 32,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 32
         }

@@ -38,7 +38,7 @@ do[ try { !xxx
                     "start": 9,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 9
             },
@@ -51,19 +51,19 @@ do[ try { !xxx
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -73,7 +73,7 @@ do[ try { !xxx
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 9,
                     "end": 11
                 },
@@ -81,15 +81,15 @@ do[ try { !xxx
                     "kind": 134299649,
                     "text": "xxx",
                     "rawText": "xxx",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 14
         }

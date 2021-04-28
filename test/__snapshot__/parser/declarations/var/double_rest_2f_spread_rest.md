@@ -46,21 +46,21 @@ var [... ...foo] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
                                         "binding": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 8,
                                             "end": 8
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -68,7 +68,7 @@ var [... ...foo] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 8,
                                             "end": 12
                                         },
@@ -76,24 +76,24 @@ var [... ...foo] = obj;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 15
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 16
                         },
@@ -103,20 +103,20 @@ var [... ...foo] = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 22
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 22
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

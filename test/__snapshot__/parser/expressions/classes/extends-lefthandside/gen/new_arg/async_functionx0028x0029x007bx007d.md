@@ -33,7 +33,7 @@ new async function(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },
@@ -49,7 +49,7 @@ new async function(){}
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 18,
                         "end": 20
                     },
@@ -60,26 +60,26 @@ new async function(){}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 21,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 20,
                         "end": 22
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 1280,
+                    "flags": 160,
                     "start": 3,
                     "end": 22
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

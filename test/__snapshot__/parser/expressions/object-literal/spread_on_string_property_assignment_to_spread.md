@@ -24,13 +24,13 @@ x={..."foo".foo=x}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 2
                 },
@@ -55,7 +55,7 @@ x={..."foo".foo=x}
                                             "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 11
                                         },
@@ -63,17 +63,17 @@ x={..."foo".foo=x}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 15
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 6,
                                         "end": 15
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -81,15 +81,15 @@ x={..."foo".foo=x}
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 17
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 6,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 3,
                                 "end": 17
                             }
@@ -100,15 +100,15 @@ x={..."foo".foo=x}
                         "start": 3,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

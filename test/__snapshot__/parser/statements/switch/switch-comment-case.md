@@ -35,7 +35,7 @@ switch(x) /* comment */ { case y: foo }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
@@ -54,7 +54,7 @@ switch(x) /* comment */ { case y: foo }
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 30,
                             "end": 32
                         },
@@ -65,25 +65,25 @@ switch(x) /* comment */ { case y: foo }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 33,
                                     "end": 37
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 33,
                                 "end": 37
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 25,
                         "end": 37
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

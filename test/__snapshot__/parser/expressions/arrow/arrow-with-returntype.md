@@ -40,7 +40,7 @@
                     "kind": 139,
                     "type": {
                         "kind": 134234347,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 10
                     },
@@ -55,19 +55,19 @@
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

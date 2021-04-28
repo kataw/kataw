@@ -23,7 +23,7 @@ wrap({get(){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -41,7 +41,7 @@ wrap({get(){}});
                                             "kind": 134299649,
                                             "text": "get",
                                             "rawText": "get",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 9
                                         },
@@ -50,7 +50,7 @@ wrap({get(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -62,15 +62,15 @@ wrap({get(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 12,
                                                 "end": 12
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 13
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 13
                                     }
@@ -81,21 +81,21 @@ wrap({get(){}});
                                 "start": 6,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

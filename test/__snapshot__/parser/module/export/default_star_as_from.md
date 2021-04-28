@@ -33,7 +33,7 @@ export bar, * as foo from 'bar';
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -46,7 +46,7 @@ export bar, * as foo from 'bar';
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 10
                     },
@@ -55,13 +55,13 @@ export bar, * as foo from 'bar';
                         "left": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 11,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 67143222,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 11,
                             "end": 13
                         },
@@ -69,20 +69,20 @@ export bar, * as foo from 'bar';
                             "kind": 134299649,
                             "text": "as",
                             "rawText": "as",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 11,
                         "end": 16
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 16
         },
@@ -92,11 +92,11 @@ export bar, * as foo from 'bar';
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 20
         },
@@ -106,11 +106,11 @@ export bar, * as foo from 'bar';
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "from",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 25
         },
@@ -120,11 +120,11 @@ export bar, * as foo from 'bar';
                 "kind": 201392131,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 25,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 32
         }

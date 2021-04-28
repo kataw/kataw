@@ -24,7 +24,7 @@ debugger
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -33,11 +33,11 @@ debugger
             "expression": {
                 "kind": 221,
                 "text": "/bar/g",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 15
         }

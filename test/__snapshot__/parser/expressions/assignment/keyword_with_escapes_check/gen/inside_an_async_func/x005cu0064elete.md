@@ -31,7 +31,7 @@ async () => {  \u0064elete = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -50,24 +50,24 @@ async () => {  \u0064elete = x  }
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 4259886,
-                                        "flags": 262656,
+                                        "flags": 16448,
                                         "start": 13,
                                         "end": 26
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 26,
                                         "end": 26
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 26
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -75,29 +75,29 @@ async () => {  \u0064elete = x  }
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 28,
                                     "end": 30
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 30
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 30
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 33
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 33
         }

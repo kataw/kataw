@@ -48,7 +48,7 @@ class a { foo(){      class x extends super.foo {}    }}
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -71,7 +71,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 13
                             },
@@ -105,7 +105,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 27,
                                                 "end": 29
                                             },
@@ -128,7 +128,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                             "start": 37,
                                                             "end": 43
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 37,
                                                         "end": 43
                                                     },
@@ -136,37 +136,37 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 44,
                                                         "end": 47
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 37,
                                                     "end": 47
                                                 },
                                                 "typeParameter": null,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 37,
                                                 "end": 47
                                             },
                                             "members": {
                                                 "kind": 277,
                                                 "elements": [],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 49,
                                                 "end": 50
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 16,
                                             "end": 50
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 50
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 55
                             },
@@ -179,11 +179,11 @@ class a { foo(){      class x extends super.foo {}    }}
                         "end": 55
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 56
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 56
         }

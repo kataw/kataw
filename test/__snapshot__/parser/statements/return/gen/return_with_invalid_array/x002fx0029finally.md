@@ -33,15 +33,15 @@ return [catch] /)finally
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -54,11 +54,11 @@ return [catch] /)finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
@@ -70,15 +70,15 @@ return [catch] /)finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 14
         },
@@ -87,11 +87,11 @@ return [catch] /)finally
             "expression": {
                 "kind": 221,
                 "text": "/)finally",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 24
         }

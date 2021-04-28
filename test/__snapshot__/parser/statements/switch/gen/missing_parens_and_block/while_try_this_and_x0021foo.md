@@ -30,7 +30,7 @@ switch case while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -48,7 +48,7 @@ switch case while try this and !foo
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 11,
                             "end": 11
                         },
@@ -64,7 +64,7 @@ switch case while try this and !foo
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 17,
                                     "end": 17
                                 },
@@ -82,11 +82,11 @@ switch case while try this and !foo
                                             "kind": 124,
                                             "statements": [],
                                             "multiLine": false,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 21,
                                             "end": 21
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 21,
                                         "end": 21
                                     },
@@ -98,19 +98,19 @@ switch case while try this and !foo
                                             "kind": 124,
                                             "statements": [],
                                             "multiLine": false,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 26,
                                             "end": 26
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 26,
                                         "end": 26
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 17,
                                     "end": 26
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 11,
                                 "end": 26
                             },
@@ -120,11 +120,11 @@ switch case while try this and !foo
                                     "kind": 134299649,
                                     "text": "and",
                                     "rawText": "and",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 26,
                                     "end": 30
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 26,
                                 "end": 30
                             },
@@ -134,7 +134,7 @@ switch case while try this and !foo
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 30,
                                         "end": 32
                                     },
@@ -142,29 +142,29 @@ switch case while try this and !foo
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 32,
                                         "end": 35
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 30,
                                     "end": 35
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 30,
                                 "end": 35
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 35
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

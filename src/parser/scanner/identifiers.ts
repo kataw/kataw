@@ -105,14 +105,6 @@ export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source:
 
   if (cp === Char.Backslash || cp > 128) {
     parser.tokenValue += scanIdentifierParts(parser, source);
-    parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
-    const keyword = descKeywordTable[parser.tokenValue];
-
-    if (keyword != undefined) {
-      parser.nodeFlags |= NodeFlags.EscapedKeywordOrIdentifier;
-      return keyword;
-    }
-    return SyntaxKind.Identifier;
   }
 
   parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);

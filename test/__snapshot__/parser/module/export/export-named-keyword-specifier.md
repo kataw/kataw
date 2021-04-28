@@ -42,17 +42,17 @@ export {try};
                                 "kind": 134299649,
                                 "text": "try",
                                 "rawText": "try",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 11
                             },
                             "binding": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 11
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 11
                 },
@@ -62,7 +62,7 @@ export {try};
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

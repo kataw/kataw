@@ -33,7 +33,7 @@ function f(){
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -41,7 +41,7 @@ function f(){
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 12
             },
@@ -54,7 +54,7 @@ function f(){
                             "kind": 201392131,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 67109633,
+                            "flags": 4194401,
                             "start": 13,
                             "end": 19
                         },
@@ -62,24 +62,24 @@ function f(){
                             "kind": 201392131,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 67109633,
+                            "flags": 4194401,
                             "start": 20,
                             "end": 26
                         }
                     ],
                     "statements": [],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 27
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 29
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

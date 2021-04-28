@@ -30,7 +30,7 @@ do while [catch] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 25,
                 "end": 25
             },
@@ -49,11 +49,11 @@ do while [catch] function while
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 10
                 },
@@ -66,11 +66,11 @@ do while [catch] function while
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 15
                     },
@@ -82,23 +82,23 @@ do while [catch] function while
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         },
@@ -113,7 +113,7 @@ do while [catch] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 31,
                 "end": 31
             },
@@ -122,15 +122,15 @@ do while [catch] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 31,
                     "end": 31
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 31,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 31
         }

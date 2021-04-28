@@ -21,7 +21,7 @@ delete (((((foo(yield)))))).bar
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -43,7 +43,7 @@ delete (((((foo(yield)))))).bar
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 12,
                                                 "end": 15
                                             },
@@ -54,37 +54,37 @@ delete (((((foo(yield)))))).bar
                                                         "kind": 134299649,
                                                         "text": "yield",
                                                         "rawText": "yield",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 16,
                                                         "end": 21
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 16,
                                                 "end": 21
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 22
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 23
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 24
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 25
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 27
                     },
@@ -92,19 +92,19 @@ delete (((((foo(yield)))))).bar
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

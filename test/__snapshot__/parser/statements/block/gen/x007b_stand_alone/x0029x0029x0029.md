@@ -25,11 +25,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 1
         }

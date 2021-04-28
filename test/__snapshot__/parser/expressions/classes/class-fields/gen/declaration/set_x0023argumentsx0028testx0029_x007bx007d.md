@@ -33,7 +33,7 @@ class C { set #arguments(test) {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class C { set #arguments(test) {} }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 13
                         },
@@ -60,7 +60,7 @@ class C { set #arguments(test) {} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#arguments",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 24
                             },
@@ -75,20 +75,20 @@ class C { set #arguments(test) {} }
                                             "kind": 134299649,
                                             "text": "test",
                                             "rawText": "test",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 29
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 25,
                                         "end": 29
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 25,
                                 "end": 30
                             },
@@ -100,28 +100,28 @@ class C { set #arguments(test) {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 32,
                                     "end": 32
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 33
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 24,
                             "end": 33
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 33
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

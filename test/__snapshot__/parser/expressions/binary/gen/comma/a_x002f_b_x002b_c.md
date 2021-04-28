@@ -28,7 +28,7 @@ x, a / b + c
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
@@ -40,13 +40,13 @@ x, a / b + c
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 4
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 4,
                                 "end": 6
                             },
@@ -54,17 +54,17 @@ x, a / b + c
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 8,
                             "end": 10
                         },
@@ -72,20 +72,20 @@ x, a / b + c
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 12
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

@@ -29,7 +29,7 @@ a?.b.b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -44,15 +44,15 @@ a?.b.b
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 4
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 4
                     },
@@ -60,19 +60,19 @@ a?.b.b
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         }

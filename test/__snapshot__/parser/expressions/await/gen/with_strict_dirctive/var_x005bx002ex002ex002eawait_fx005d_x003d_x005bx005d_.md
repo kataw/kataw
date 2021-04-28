@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -51,7 +51,7 @@
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 19,
                                             "end": 22
                                         },
@@ -59,14 +59,14 @@
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 27
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 27
                                     },
@@ -77,24 +77,24 @@
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 27,
                                             "end": 29
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 27,
                                         "end": 29
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 29
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 30
                         },
@@ -106,24 +106,24 @@
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 34,
                                 "end": 34
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 32,
                             "end": 35
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 35
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 36
         }

@@ -27,7 +27,7 @@ function* foo(a = function* foo() { yield b }) {}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -35,7 +35,7 @@ function* foo(a = function* foo() { yield b }) {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 13
             },
@@ -49,7 +49,7 @@ function* foo(a = function* foo() { yield b }) {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
@@ -66,7 +66,7 @@ function* foo(a = function* foo() { yield b }) {}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 26,
                                 "end": 27
                             },
@@ -74,7 +74,7 @@ function* foo(a = function* foo() { yield b }) {}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 31
                             },
@@ -82,7 +82,7 @@ function* foo(a = function* foo() { yield b }) {}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 33
                             },
@@ -108,41 +108,41 @@ function* foo(a = function* foo() { yield b }) {}
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 41,
                                                     "end": 43
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 43
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 43
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 35,
                                     "end": 43
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 45
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 17,
                             "end": 45
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 14,
                         "end": 45
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 13,
                 "end": 46
             },
@@ -153,17 +153,17 @@ function* foo(a = function* foo() { yield b }) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 48,
                     "end": 48
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 46,
                 "end": 49
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 49
         }

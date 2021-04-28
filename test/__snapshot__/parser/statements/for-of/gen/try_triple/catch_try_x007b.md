@@ -33,11 +33,11 @@ try try try catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try try try catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 7
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -75,11 +75,11 @@ try try try catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
@@ -98,21 +98,21 @@ try try try catch try {
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 17
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 17
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 17
         },
@@ -130,11 +130,11 @@ try try try catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 23
             },
@@ -146,15 +146,15 @@ try try try catch try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 23
         }

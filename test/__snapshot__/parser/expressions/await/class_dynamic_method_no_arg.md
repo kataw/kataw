@@ -29,7 +29,7 @@ class x{[x](a=await){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -54,11 +54,11 @@ class x{[x](a=await){}}
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 9,
                                     "end": 10
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 11
                             },
@@ -73,7 +73,7 @@ class x{[x](a=await){}}
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -83,17 +83,17 @@ class x{[x](a=await){}}
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 19
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 12,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 12,
                                 "end": 20
                             },
@@ -105,11 +105,11 @@ class x{[x](a=await){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 21
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 22
                             },
@@ -122,11 +122,11 @@ class x{[x](a=await){}}
                         "end": 22
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

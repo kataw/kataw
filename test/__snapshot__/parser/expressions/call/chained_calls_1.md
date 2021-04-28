@@ -25,7 +25,7 @@ foo(a)(b)
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 3
                     },
@@ -36,17 +36,17 @@ foo(a)(b)
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 4,
                                 "end": 5
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 4,
                         "end": 5
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 6
                 },
@@ -57,21 +57,21 @@ foo(a)(b)
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

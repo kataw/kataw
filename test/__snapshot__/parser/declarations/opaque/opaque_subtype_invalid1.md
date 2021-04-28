@@ -40,11 +40,11 @@ opaque Ident: Type = SuperType;
                 "kind": 134299649,
                 "text": "opaque",
                 "rawText": "opaque",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -54,7 +54,7 @@ opaque Ident: Type = SuperType;
                 "kind": 134299649,
                 "text": "Ident",
                 "rawText": "Ident",
-                "flags": 768,
+                "flags": 96,
                 "start": 6,
                 "end": 12
             },
@@ -66,13 +66,13 @@ opaque Ident: Type = SuperType;
                         "kind": 134299649,
                         "text": "Type",
                         "rawText": "Type",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 18,
                         "end": 20
                     },
@@ -80,19 +80,19 @@ opaque Ident: Type = SuperType;
                         "kind": 134299649,
                         "text": "SuperType",
                         "rawText": "SuperType",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 30
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 30
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 31
         }

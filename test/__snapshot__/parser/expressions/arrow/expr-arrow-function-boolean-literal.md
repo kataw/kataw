@@ -36,11 +36,11 @@
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 7
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 7
                     },
@@ -48,16 +48,16 @@
                         "kind": 201392130,
                         "text": 42,
                         "rawText": "42",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 11
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

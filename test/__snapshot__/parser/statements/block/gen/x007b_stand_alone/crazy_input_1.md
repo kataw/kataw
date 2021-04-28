@@ -30,11 +30,11 @@
                             "kind": 134299649,
                             "text": "crazy",
                             "rawText": "crazy",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 7
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 7
                     },
@@ -44,11 +44,11 @@
                             "kind": 134299649,
                             "text": "input",
                             "rawText": "input",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 13
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 7,
                         "end": 13
                     },
@@ -58,21 +58,21 @@
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 13,
                         "end": 15
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

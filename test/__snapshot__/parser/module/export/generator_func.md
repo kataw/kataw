@@ -47,7 +47,7 @@ export default function *f(){} foo
                 },
                 "generatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 23,
                     "end": 25
                 },
@@ -55,7 +55,7 @@ export default function *f(){} foo
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 25,
                     "end": 26
                 },
@@ -63,7 +63,7 @@ export default function *f(){} foo
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 26,
                     "end": 28
                 },
@@ -74,21 +74,21 @@ export default function *f(){} foo
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 29,
                         "end": 29
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 28,
                     "end": 30
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 2176,
+                "flags": 272,
                 "start": 14,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         },
@@ -98,11 +98,11 @@ export default function *f(){} foo
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 30,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 34
         }

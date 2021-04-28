@@ -30,7 +30,7 @@ do( async funcion switch!! while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 32,
                 "end": 32
             },
@@ -46,19 +46,19 @@ do( async funcion switch!! while
                     "kind": 121,
                     "expression": {
                         "kind": 132,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 26
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

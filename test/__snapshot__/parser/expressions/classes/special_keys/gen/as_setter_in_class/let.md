@@ -33,7 +33,7 @@ class x {set let(x){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -51,7 +51,7 @@ class x {set let(x){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 12
                         },
@@ -61,7 +61,7 @@ class x {set let(x){}}
                                 "kind": 134299649,
                                 "text": "let",
                                 "rawText": "let",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 16
                             },
@@ -76,20 +76,20 @@ class x {set let(x){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 18
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 17,
                                 "end": 19
                             },
@@ -101,28 +101,28 @@ class x {set let(x){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 20
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 21
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 16,
                             "end": 21
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 21
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

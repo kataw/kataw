@@ -26,13 +26,13 @@ x = {async __proto__(){}, *__proto__(){}};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -47,7 +47,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 14
                                 },
@@ -56,7 +56,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 16
                                 },
@@ -68,15 +68,15 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 17
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 18
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 18
                             },
@@ -86,7 +86,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 32
                                 },
@@ -94,11 +94,11 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 32
                             }
@@ -109,15 +109,15 @@ x = {async __proto__(){}, *__proto__(){}};
                         "start": 5,
                         "end": 32
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         },
@@ -129,13 +129,13 @@ x = {async __proto__(){}, *__proto__(){}};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 34,
                     "end": 36
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 36,
                     "end": 38
                 },
@@ -150,7 +150,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 40,
                                     "end": 49
                                 },
@@ -159,7 +159,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 50,
                                     "end": 51
                                 },
@@ -171,15 +171,15 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 52,
                                         "end": 52
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 51,
                                     "end": 53
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 49,
                                 "end": 53
                             },
@@ -189,7 +189,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 54,
                                     "end": 64
                                 },
@@ -198,7 +198,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 65,
                                     "end": 66
                                 },
@@ -210,15 +210,15 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 67,
                                         "end": 67
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 66,
                                     "end": 68
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 64,
                                 "end": 68
                             }
@@ -229,15 +229,15 @@ x = {async __proto__(){}, *__proto__(){}};
                         "start": 40,
                         "end": 68
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 38,
                     "end": 69
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 34,
                 "end": 69
             },
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 70
         },
@@ -249,13 +249,13 @@ x = {async __proto__(){}, *__proto__(){}};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 70,
                     "end": 72
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 72,
                     "end": 74
                 },
@@ -265,12 +265,20 @@ x = {async __proto__(){}, *__proto__(){}};
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 76,
+                                "end": 81
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 81,
                                     "end": 91
                                 },
@@ -279,7 +287,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 2304,
+                                    "flags": 32,
                                     "start": 92,
                                     "end": 93
                                 },
@@ -291,15 +299,15 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 94,
                                         "end": 94
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 93,
                                     "end": 95
                                 },
-                                "flags": 2304,
+                                "flags": 32,
                                 "start": 91,
                                 "end": 95
                             },
@@ -309,7 +317,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 98,
                                     "end": 107
                                 },
@@ -318,7 +326,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1280,
+                                    "flags": 160,
                                     "start": 108,
                                     "end": 109
                                 },
@@ -330,15 +338,15 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 110,
                                         "end": 110
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 109,
                                     "end": 111
                                 },
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 107,
                                 "end": 111
                             }
@@ -349,15 +357,15 @@ x = {async __proto__(){}, *__proto__(){}};
                         "start": 76,
                         "end": 111
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 74,
                     "end": 112
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 70,
                 "end": 112
             },
-            "flags": 128,
+            "flags": 16,
             "start": 70,
             "end": 113
         },
@@ -384,7 +392,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 127,
                                         "end": 129
                                     },
@@ -392,11 +400,11 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 116,
                                         "end": 126
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 116,
                                     "end": 129
                                 },
@@ -406,7 +414,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 141,
                                         "end": 143
                                     },
@@ -414,11 +422,11 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 130,
                                         "end": 140
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 130,
                                     "end": 143
                                 }
@@ -429,7 +437,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             "start": 116,
                             "end": 143
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 115,
                         "end": 145
                     }
@@ -443,19 +451,19 @@ x = {async __proto__(){}, *__proto__(){}};
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 151,
                         "end": 151
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 149,
                     "end": 152
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 113,
                 "end": 152
             },
-            "flags": 128,
+            "flags": 16,
             "start": 113,
             "end": 153
         }
@@ -478,6 +486,7 @@ x = {async __proto__(){}, *__proto__(){}};
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 81, end: 91
+
 ```
 

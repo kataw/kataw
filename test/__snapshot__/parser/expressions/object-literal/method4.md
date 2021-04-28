@@ -23,13 +23,13 @@ x = { get() { } }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -44,7 +44,7 @@ x = { get() { } }
                                     "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 9
                                 },
@@ -53,7 +53,7 @@ x = { get() { } }
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -65,15 +65,15 @@ x = { get() { } }
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 13
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 15
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 15
                             }
@@ -84,15 +84,15 @@ x = { get() { } }
                         "start": 5,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

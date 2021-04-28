@@ -59,31 +59,31 @@ const [foo], bar;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 10
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 11
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 11
                     },
@@ -93,23 +93,23 @@ const [foo], bar;
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 16
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 16
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 17
         }

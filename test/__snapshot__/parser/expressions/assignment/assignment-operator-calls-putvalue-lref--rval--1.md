@@ -61,7 +61,7 @@ Object.defineProperty(this, "x", {
                             "kind": 134299649,
                             "text": "count",
                             "rawText": "count",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
@@ -71,20 +71,20 @@ Object.defineProperty(this, "x", {
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 13
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -106,7 +106,7 @@ Object.defineProperty(this, "x", {
                             "kind": 134299649,
                             "text": "global",
                             "rawText": "global",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 25
                         },
@@ -114,20 +114,20 @@ Object.defineProperty(this, "x", {
                         "type": null,
                         "initializer": {
                             "kind": 135,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 27,
                             "end": 32
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 32
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 33
         },
@@ -141,7 +141,7 @@ Object.defineProperty(this, "x", {
                         "kind": 134299649,
                         "text": "Object",
                         "rawText": "Object",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 33,
                         "end": 41
                     },
@@ -149,11 +149,11 @@ Object.defineProperty(this, "x", {
                         "kind": 134299649,
                         "text": "defineProperty",
                         "rawText": "defineProperty",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 42,
                         "end": 56
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 56
                 },
@@ -162,7 +162,7 @@ Object.defineProperty(this, "x", {
                     "elements": [
                         {
                             "kind": 135,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 57,
                             "end": 61
                         },
@@ -170,7 +170,7 @@ Object.defineProperty(this, "x", {
                             "kind": 201392131,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 62,
                             "end": 66
                         },
@@ -184,7 +184,7 @@ Object.defineProperty(this, "x", {
                                         "left": {
                                             "kind": 134,
                                             "text": true,
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 85,
                                             "end": 90
                                         },
@@ -192,11 +192,11 @@ Object.defineProperty(this, "x", {
                                             "kind": 134299649,
                                             "text": "configurable",
                                             "rawText": "configurable",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 69,
                                             "end": 84
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 69,
                                         "end": 90
                                     },
@@ -206,7 +206,7 @@ Object.defineProperty(this, "x", {
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 100,
                                             "end": 102
                                         },
@@ -214,11 +214,11 @@ Object.defineProperty(this, "x", {
                                             "kind": 134299649,
                                             "text": "value",
                                             "rawText": "value",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 91,
                                             "end": 99
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 91,
                                         "end": 102
                                     }
@@ -229,21 +229,21 @@ Object.defineProperty(this, "x", {
                                 "start": 69,
                                 "end": 102
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 67,
                             "end": 104
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 57,
                     "end": 104
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 105
             },
-            "flags": 128,
+            "flags": 16,
             "start": 33,
             "end": 106
         },
@@ -268,7 +268,7 @@ Object.defineProperty(this, "x", {
                             "kind": 214,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 117,
                             "end": 119
                         },
@@ -281,7 +281,7 @@ Object.defineProperty(this, "x", {
                                         "kind": 201392131,
                                         "text": "use strict",
                                         "rawText": "use strict",
-                                        "flags": 769,
+                                        "flags": 97,
                                         "start": 121,
                                         "end": 136
                                     }
@@ -297,7 +297,7 @@ Object.defineProperty(this, "x", {
                                                     "kind": 134299649,
                                                     "text": "assert",
                                                     "rawText": "assert",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 137,
                                                     "end": 146
                                                 },
@@ -305,11 +305,11 @@ Object.defineProperty(this, "x", {
                                                     "kind": 134299649,
                                                     "text": "throws",
                                                     "rawText": "throws",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 147,
                                                     "end": 153
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 137,
                                                 "end": 153
                                             },
@@ -320,7 +320,7 @@ Object.defineProperty(this, "x", {
                                                         "kind": 134299649,
                                                         "text": "ReferenceError",
                                                         "rawText": "ReferenceError",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 154,
                                                         "end": 168
                                                     },
@@ -348,7 +348,7 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 512,
+                                                                                "flags": 64,
                                                                                 "start": 187,
                                                                                 "end": 189
                                                                             },
@@ -356,15 +356,15 @@ Object.defineProperty(this, "x", {
                                                                                 "kind": 134299649,
                                                                                 "text": "count",
                                                                                 "rawText": "count",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 177,
                                                                                 "end": 187
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 177,
                                                                             "end": 189
                                                                         },
-                                                                        "flags": 128,
+                                                                        "flags": 16,
                                                                         "start": 177,
                                                                         "end": 190
                                                                     },
@@ -376,13 +376,13 @@ Object.defineProperty(this, "x", {
                                                                                 "kind": 134299649,
                                                                                 "text": "x",
                                                                                 "rawText": "x",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 190,
                                                                                 "end": 196
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 512,
+                                                                                "flags": 64,
                                                                                 "start": 196,
                                                                                 "end": 198
                                                                             },
@@ -395,7 +395,7 @@ Object.defineProperty(this, "x", {
                                                                                             "kind": 126,
                                                                                             "operandToken": {
                                                                                                 "kind": 4259886,
-                                                                                                "flags": 512,
+                                                                                                "flags": 64,
                                                                                                 "start": 200,
                                                                                                 "end": 206
                                                                                             },
@@ -405,7 +405,7 @@ Object.defineProperty(this, "x", {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "global",
                                                                                                     "rawText": "global",
-                                                                                                    "flags": 768,
+                                                                                                    "flags": 96,
                                                                                                     "start": 206,
                                                                                                     "end": 213
                                                                                                 },
@@ -413,15 +413,15 @@ Object.defineProperty(this, "x", {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "x",
                                                                                                     "rawText": "x",
-                                                                                                    "flags": 768,
+                                                                                                    "flags": 96,
                                                                                                     "start": 214,
                                                                                                     "end": 215
                                                                                                 },
-                                                                                                "flags": 256,
+                                                                                                "flags": 32,
                                                                                                 "start": 206,
                                                                                                 "end": 215
                                                                                             },
-                                                                                            "flags": 256,
+                                                                                            "flags": 32,
                                                                                             "start": 200,
                                                                                             "end": 215
                                                                                         },
@@ -429,24 +429,24 @@ Object.defineProperty(this, "x", {
                                                                                             "kind": 201392130,
                                                                                             "text": 2,
                                                                                             "rawText": "2",
-                                                                                            "flags": 768,
+                                                                                            "flags": 96,
                                                                                             "start": 216,
                                                                                             "end": 218
                                                                                         }
                                                                                     ],
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 198,
                                                                                     "end": 218
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 198,
                                                                                 "end": 219
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 190,
                                                                             "end": 219
                                                                         },
-                                                                        "flags": 128,
+                                                                        "flags": 16,
                                                                         "start": 190,
                                                                         "end": 220
                                                                     },
@@ -456,7 +456,7 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 512,
+                                                                                "flags": 64,
                                                                                 "start": 230,
                                                                                 "end": 232
                                                                             },
@@ -464,43 +464,43 @@ Object.defineProperty(this, "x", {
                                                                                 "kind": 134299649,
                                                                                 "text": "count",
                                                                                 "rawText": "count",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 220,
                                                                                 "end": 230
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 220,
                                                                             "end": 232
                                                                         },
-                                                                        "flags": 128,
+                                                                        "flags": 16,
                                                                         "start": 220,
                                                                         "end": 233
                                                                     }
                                                                 ],
                                                                 "multiline": true,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 177,
                                                                 "end": 233
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 175,
                                                             "end": 237
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 169,
                                                         "end": 237
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 154,
                                                 "end": 237
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 137,
                                             "end": 238
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 137,
                                         "end": 239
                                     },
@@ -510,7 +510,7 @@ Object.defineProperty(this, "x", {
                                             "kind": 127,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 247,
                                                 "end": 249
                                             },
@@ -518,35 +518,35 @@ Object.defineProperty(this, "x", {
                                                 "kind": 134299649,
                                                 "text": "count",
                                                 "rawText": "count",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 239,
                                                 "end": 247
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 239,
                                             "end": 249
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 239,
                                         "end": 250
                                     }
                                 ],
                                 "multiline": true,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 121,
                                 "end": 250
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 119,
                             "end": 252
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 109,
                         "end": 252
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 106,
                     "end": 253
                 },
@@ -554,15 +554,15 @@ Object.defineProperty(this, "x", {
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 254,
                     "end": 254
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 106,
                 "end": 255
             },
-            "flags": 128,
+            "flags": 16,
             "start": 106,
             "end": 256
         }

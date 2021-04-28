@@ -34,7 +34,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -47,7 +47,7 @@ let {x}: string = y;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -56,7 +56,7 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 6,
                                 "end": 13
                             },
@@ -65,16 +65,16 @@ let {x}: string = y;
                             "end": 13
                         },
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 14
         },
@@ -82,7 +82,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 14,
                 "end": 19
             },
@@ -103,24 +103,24 @@ let {x}: string = y;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 22
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 21,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 19,
                             "end": 23
                         },
@@ -129,7 +129,7 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 24,
                                 "end": 31
                             },
@@ -141,20 +141,20 @@ let {x}: string = y;
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 33,
                             "end": 35
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 19,
                         "end": 35
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 19,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 14,
             "end": 36
         },
@@ -162,7 +162,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 36,
                 "end": 41
             },
@@ -183,7 +183,7 @@ let {x}: string = y;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 43,
                                             "end": 44
                                         },
@@ -192,7 +192,7 @@ let {x}: string = y;
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234343,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 45,
                                                 "end": 51
                                             },
@@ -201,17 +201,17 @@ let {x}: string = y;
                                             "end": 51
                                         },
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 43,
                                         "end": 51
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 51
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 41,
                             "end": 52
                         },
@@ -220,7 +220,7 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 53,
                                 "end": 60
                             },
@@ -232,20 +232,20 @@ let {x}: string = y;
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 62,
                             "end": 64
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 41,
                         "end": 64
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 41,
                 "end": 64
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 36,
             "end": 65
         },
@@ -253,7 +253,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 65,
                 "end": 70
             },
@@ -274,23 +274,23 @@ let {x}: string = y;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 72,
                                             "end": 73
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 72,
                                         "end": 73
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 72,
                                 "end": 73
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 70,
                             "end": 74
                         },
@@ -299,7 +299,7 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 75,
                                 "end": 82
                             },
@@ -311,20 +311,20 @@ let {x}: string = y;
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 84,
                             "end": 86
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 70,
                         "end": 86
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 70,
                 "end": 86
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 65,
             "end": 87
         }

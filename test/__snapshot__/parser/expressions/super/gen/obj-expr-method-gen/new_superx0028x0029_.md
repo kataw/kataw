@@ -34,7 +34,7 @@
                                     "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 4,
                                     "end": 10
                                 },
@@ -43,7 +43,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1280,
+                                    "flags": 160,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -72,7 +72,7 @@
                                                             "start": 18,
                                                             "end": 24
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 18,
                                                         "end": 24
                                                     },
@@ -80,29 +80,29 @@
                                                         "kind": 256,
                                                         "elements": [],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 25,
                                                         "end": 25
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 14,
                                                     "end": 26
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 14,
                                                 "end": 27
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 27
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 29
                                 },
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 10,
                                 "end": 29
                             }
@@ -113,15 +113,15 @@
                         "start": 2,
                         "end": 29
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

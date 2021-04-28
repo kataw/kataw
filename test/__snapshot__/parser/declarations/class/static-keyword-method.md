@@ -29,7 +29,7 @@ class C { static delete() {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -44,7 +44,7 @@ class C { static delete() {} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 16
                         },
@@ -57,7 +57,7 @@ class C { static delete() {} }
                                 "kind": 134299649,
                                 "text": "delete",
                                 "rawText": "delete",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 23
                             },
@@ -78,11 +78,11 @@ class C { static delete() {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 27
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 28
                             },
@@ -95,11 +95,11 @@ class C { static delete() {} }
                         "end": 28
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

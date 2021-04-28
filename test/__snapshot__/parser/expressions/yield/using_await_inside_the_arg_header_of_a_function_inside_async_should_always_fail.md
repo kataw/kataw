@@ -19,7 +19,7 @@ let f = () => (y=await foo) => y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -32,7 +32,7 @@ let f = () => (y=await foo) => y;
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -54,19 +54,19 @@ let f = () => (y=await foo) => y;
                                 "kind": 121,
                                 "expression": {
                                     "kind": 132,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 22
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 22
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 22
                     },
@@ -76,23 +76,23 @@ let f = () => (y=await foo) => y;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 26
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 22,
                         "end": 26
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 26
         },
@@ -102,11 +102,11 @@ let f = () => (y=await foo) => y;
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 30,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 33
         }

@@ -29,13 +29,13 @@ result = { x: { y } } = { x: { y: 2 } };
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -57,7 +57,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "kind": 134299649,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 15,
                                                     "end": 17
                                                 }
@@ -68,7 +68,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "start": 15,
                                             "end": 17
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 19
                                     },
@@ -76,11 +76,11 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 12
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 19
                                 }
@@ -91,13 +91,13 @@ result = { x: { y } } = { x: { y: 2 } };
                             "start": 10,
                             "end": 19
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 21
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 21,
                         "end": 23
                     },
@@ -119,7 +119,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "kind": 201392130,
                                                         "text": 2,
                                                         "rawText": "2",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 33,
                                                         "end": 35
                                                     },
@@ -127,11 +127,11 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 30,
                                                         "end": 32
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 30,
                                                     "end": 35
                                                 }
@@ -142,7 +142,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "start": 30,
                                             "end": 35
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 28,
                                         "end": 37
                                     },
@@ -150,11 +150,11 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 25,
                                         "end": 27
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 37
                                 }
@@ -165,19 +165,19 @@ result = { x: { y } } = { x: { y: 2 } };
                             "start": 25,
                             "end": 37
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 23,
                         "end": 39
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

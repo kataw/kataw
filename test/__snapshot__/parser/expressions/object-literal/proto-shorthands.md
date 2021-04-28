@@ -28,7 +28,7 @@
                                 "kind": 134299649,
                                 "text": "__proto__",
                                 "rawText": "__proto__",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 12
                             },
@@ -36,7 +36,7 @@
                                 "kind": 134299649,
                                 "text": "__proto__",
                                 "rawText": "__proto__",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 23
                             }
@@ -47,15 +47,15 @@
                         "start": 2,
                         "end": 23
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

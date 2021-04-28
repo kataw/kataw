@@ -43,7 +43,7 @@ for (const [...x] in y){}
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 17,
                 "end": 20
             },
@@ -62,7 +62,7 @@ for (const [...x] in y){}
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 12,
                                             "end": 15
                                         },
@@ -70,36 +70,36 @@ for (const [...x] in y){}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 17
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 17
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 17
             },
@@ -107,7 +107,7 @@ for (const [...x] in y){}
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 22
             },
@@ -117,15 +117,15 @@ for (const [...x] in y){}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

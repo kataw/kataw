@@ -21,11 +21,11 @@
                 "kind": 201392131,
                 "text": "\tstr\ting\t",
                 "rawText": "\tstr\ting\t",
-                "flags": 262912,
+                "flags": 16480,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

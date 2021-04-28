@@ -33,11 +33,11 @@ try [catch] false
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try [catch] false
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -70,11 +70,11 @@ try [catch] false
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 10
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 10
             },
@@ -86,15 +86,15 @@ try [catch] false
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 11
         },
@@ -103,11 +103,11 @@ try [catch] false
             "expression": {
                 "kind": 134,
                 "text": false,
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 17
         }

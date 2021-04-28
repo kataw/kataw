@@ -35,7 +35,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 12
             },
@@ -43,7 +43,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 14
             },
@@ -54,17 +54,17 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 14
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -74,15 +74,15 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 17
         },
@@ -92,11 +92,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "bool",
                 "rawText": "bool",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 22
         },
@@ -106,11 +106,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "number",
                 "rawText": "number",
-                "flags": 768,
+                "flags": 96,
                 "start": 26,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 33
         },
@@ -120,11 +120,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 34,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 33,
             "end": 35
         },
@@ -143,7 +143,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 45,
                 "end": 49
             },
@@ -157,20 +157,20 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                             "kind": 134299649,
                             "text": "callback",
                             "rawText": "callback",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 50,
                             "end": 58
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 50,
                         "end": 58
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 49,
                 "end": 59
             },
@@ -181,17 +181,17 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 58,
                     "end": 58
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 58,
                 "end": 58
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 58
         },
@@ -201,15 +201,15 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 59,
                     "end": 63
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 59,
                 "end": 63
             },
-            "flags": 128,
+            "flags": 16,
             "start": 59,
             "end": 63
         },
@@ -222,7 +222,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "kind": 134299649,
                         "text": "bool",
                         "rawText": "bool",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 64,
                         "end": 68
                     },
@@ -230,16 +230,16 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "kind": 134299649,
                         "text": "_2",
                         "rawText": "_2",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 69,
                         "end": 72
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 64,
                 "end": 72
             },
-            "flags": 128,
+            "flags": 16,
             "start": 64,
             "end": 72
         },
@@ -249,11 +249,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "string",
                 "rawText": "string",
-                "flags": 768,
+                "flags": 96,
                 "start": 73,
                 "end": 79
             },
-            "flags": 128,
+            "flags": 16,
             "start": 73,
             "end": 79
         },
@@ -263,11 +263,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "number",
                 "rawText": "number",
-                "flags": 768,
+                "flags": 96,
                 "start": 83,
                 "end": 90
             },
-            "flags": 128,
+            "flags": 16,
             "start": 83,
             "end": 90
         },
@@ -277,11 +277,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 92,
                 "end": 92
             },
-            "flags": 128,
+            "flags": 16,
             "start": 91,
             "end": 93
         },
@@ -300,7 +300,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 103,
                 "end": 107
             },
@@ -314,20 +314,20 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                             "kind": 134299649,
                             "text": "callback",
                             "rawText": "callback",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 108,
                             "end": 116
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 108,
                         "end": 116
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 107,
                 "end": 117
             },
@@ -338,17 +338,17 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 116,
                     "end": 116
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 116,
                 "end": 116
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 93,
             "end": 116
         },
@@ -358,15 +358,15 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 117,
                     "end": 121
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 117,
                 "end": 121
             },
-            "flags": 128,
+            "flags": 16,
             "start": 117,
             "end": 121
         },
@@ -379,23 +379,23 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "kind": 134299649,
                         "text": "bool",
                         "rawText": "bool",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 122,
                         "end": 126
                     },
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 127,
                         "end": 127
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 122,
                 "end": 127
             },
-            "flags": 128,
+            "flags": 16,
             "start": 122,
             "end": 127
         },
@@ -405,7 +405,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 131,
                 "end": 134
             },
@@ -419,13 +419,13 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                             "kind": 134299649,
                             "text": "Array",
                             "rawText": "Array",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 135,
                             "end": 140
                         },
                         "operatorToken": {
                             "kind": 536971330,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 140,
                             "end": 141
                         },
@@ -433,36 +433,36 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                             "kind": 134299649,
                             "text": "number",
                             "rawText": "number",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 141,
                             "end": 147
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 135,
                         "end": 147
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 147,
                         "end": 148
                     },
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 148,
                         "end": 148
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 135,
                     "end": 148
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 135,
                 "end": 148
             },
-            "flags": 128,
+            "flags": 16,
             "start": 131,
             "end": 148
         },
@@ -472,11 +472,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 134299649,
                 "text": "number",
                 "rawText": "number",
-                "flags": 768,
+                "flags": 96,
                 "start": 152,
                 "end": 159
             },
-            "flags": 128,
+            "flags": 16,
             "start": 152,
             "end": 159
         },
@@ -486,11 +486,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 161,
                 "end": 161
             },
-            "flags": 128,
+            "flags": 16,
             "start": 160,
             "end": 162
         }

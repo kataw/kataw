@@ -48,7 +48,7 @@ class x{   *static(){}    }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -71,7 +71,7 @@ class x{   *static(){}    }
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 18
                             },
@@ -92,11 +92,11 @@ class x{   *static(){}    }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 21
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 22
                             },
@@ -109,11 +109,11 @@ class x{   *static(){}    }
                         "end": 22
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

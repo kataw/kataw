@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -36,7 +36,7 @@
                     "kind": 134299649,
                     "text": "call",
                     "rawText": "call",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 18
                 },
@@ -47,21 +47,21 @@
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 25
         }

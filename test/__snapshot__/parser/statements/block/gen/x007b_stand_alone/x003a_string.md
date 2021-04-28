@@ -25,11 +25,11 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 1
         },
@@ -39,11 +39,11 @@
                 "kind": 134299649,
                 "text": "string",
                 "rawText": "string",
-                "flags": 768,
+                "flags": 96,
                 "start": 3,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 3,
             "end": 10
         }

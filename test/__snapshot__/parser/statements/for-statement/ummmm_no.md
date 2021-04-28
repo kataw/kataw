@@ -45,21 +45,21 @@ for (const ...x in y){}
             "initializer": {
                 "kind": 151,
                 "bindingList": [],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 10
             },
             "condition": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 10,
                 "end": 10
             },
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 10,
                 "end": 10
             },
@@ -68,15 +68,15 @@ for (const ...x in y){}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 10,
                     "end": 10
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -88,13 +88,13 @@ for (const ...x in y){}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 15,
                     "end": 18
                 },
@@ -102,15 +102,15 @@ for (const ...x in y){}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 20
         },
@@ -120,11 +120,11 @@ for (const ...x in y){}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 23
         }

@@ -31,7 +31,7 @@ async () => {  \u0064ebugger = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -46,25 +46,25 @@ async () => {  \u0064ebugger = x  }
                             "kind": 171,
                             "debuggerKeyword": {
                                 "kind": 37757010,
-                                "flags": 262144,
+                                "flags": 16384,
                                 "start": 13,
                                 "end": 28
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 28
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 28
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 28
         },
@@ -74,11 +74,11 @@ async () => {  \u0064ebugger = x  }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 30,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 32
         }

@@ -59,7 +59,7 @@ const [foo=a, bar] = arr;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -69,11 +69,11 @@ const [foo=a, bar] = arr;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 12
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 12
                                     },
@@ -84,24 +84,24 @@ const [foo=a, bar] = arr;
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 17
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 18
                         },
@@ -111,20 +111,20 @@ const [foo=a, bar] = arr;
                             "kind": 134299649,
                             "text": "arr",
                             "rawText": "arr",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 24
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 25
         }

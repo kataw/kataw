@@ -34,7 +34,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -64,7 +64,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 29,
                                 "end": 31
                             },
@@ -72,7 +72,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                 "kind": 134299649,
                                 "text": "gen",
                                 "rawText": "gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 31,
                                 "end": 35
                             },
@@ -80,7 +80,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 37
                             },
@@ -107,11 +107,11 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                         "delegate": false,
                                                         "asteriskToken": null,
                                                         "expression": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 41,
                                                         "end": 46
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 39,
                                                     "end": 47
                                                 },
@@ -132,7 +132,7 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": null,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 49,
                                                     "end": 55
                                                 },
@@ -153,47 +153,47 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": null,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 57,
                                                     "end": 63
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 39,
                                                 "end": 63
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 39,
                                             "end": 63
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 63
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 65
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2176,
+                            "flags": 272,
                             "start": 20,
                             "end": 65
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 65
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 67
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 67
         }

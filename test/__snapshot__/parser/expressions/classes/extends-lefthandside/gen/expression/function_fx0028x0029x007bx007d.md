@@ -36,7 +36,7 @@
                         "kind": 134299649,
                         "text": "B",
                         "rawText": "B",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
@@ -63,7 +63,7 @@
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 25,
                                 "end": 27
                             },
@@ -71,7 +71,7 @@
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 29
                             },
@@ -82,41 +82,41 @@
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 30,
                                     "end": 30
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 31
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 31
                         },
                         "typeParameter": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 31
                     },
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 33,
                         "end": 34
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 34
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

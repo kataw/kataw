@@ -23,7 +23,7 @@ wrap({async [foo""](){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -36,16 +36,24 @@ wrap({async [foo""](){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
+                                        "start": 6,
+                                        "end": 11
+                                    },
+                                    {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 16
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 16
                                     },
@@ -53,7 +61,7 @@ wrap({async [foo""](){}});
                                         "kind": 201392131,
                                         "text": "",
                                         "rawText": "",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 18
                                     }
@@ -64,21 +72,21 @@ wrap({async [foo""](){}});
                                 "start": 6,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         },
@@ -94,21 +102,21 @@ wrap({async [foo""](){}});
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 22
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 26
         }
@@ -131,6 +139,7 @@ wrap({async [foo""](){}});
 ### Diagnostics
 
 ```javascript
+✖ ',' expected - start: 11, end: 13
 ✖ ',' expected - start: 16, end: 18
 ✖ ',' expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19

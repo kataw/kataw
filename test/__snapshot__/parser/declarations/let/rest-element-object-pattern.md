@@ -38,7 +38,7 @@ let [...{x}] = y
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -56,7 +56,7 @@ let [...{x}] = y
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -72,40 +72,40 @@ let [...{x}] = y
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 9,
                                                             "end": 10
                                                         },
                                                         "right": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 9,
                                                         "end": 10
                                                     }
                                                 ],
                                                 "multiline": false,
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 9,
                                                 "end": 10
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 11
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 12
                         },
@@ -115,20 +115,20 @@ let [...{x}] = y
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 16
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 16
         }

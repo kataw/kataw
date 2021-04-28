@@ -44,23 +44,23 @@ result = [[x]] = vals;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -82,23 +82,23 @@ result = [[x]] = vals;
                             "kind": 134299649,
                             "text": "result",
                             "rawText": "result",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 18
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 18
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 19
         },
@@ -120,7 +120,7 @@ result = [[x]] = vals;
                             "kind": 134299649,
                             "text": "vals",
                             "rawText": "vals",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 23,
                             "end": 28
                         },
@@ -140,40 +140,40 @@ result = [[x]] = vals;
                                                     "kind": 201392130,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 33,
                                                     "end": 34
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 33,
                                             "end": 34
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 32,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 35
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 30,
                             "end": 36
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 23,
                         "end": 36
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 37
         },
@@ -185,13 +185,13 @@ result = [[x]] = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 37,
                     "end": 45
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 45,
                     "end": 47
                 },
@@ -211,33 +211,33 @@ result = [[x]] = vals;
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 50,
                                                 "end": 51
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 50,
                                         "end": 51
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 49,
                                     "end": 52
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 49,
                             "end": 52
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 47,
                         "end": 53
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 53,
                         "end": 55
                     },
@@ -245,19 +245,19 @@ result = [[x]] = vals;
                         "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 55,
                         "end": 60
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 47,
                     "end": 60
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 37,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 37,
             "end": 61
         }

@@ -21,7 +21,7 @@ async("foo".bar) => x
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -34,7 +34,7 @@ async("foo".bar) => x
                             "kind": 201392131,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 6,
                             "end": 11
                         },
@@ -42,21 +42,21 @@ async("foo".bar) => x
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 16
         },
@@ -66,11 +66,11 @@ async("foo".bar) => x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 21
         }

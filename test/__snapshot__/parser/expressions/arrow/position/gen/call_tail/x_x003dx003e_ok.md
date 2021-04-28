@@ -29,7 +29,7 @@ foo(x => ok).bar
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 3
                     },
@@ -49,7 +49,7 @@ foo(x => ok).bar
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 4,
                                     "end": 5
                                 },
@@ -59,21 +59,21 @@ foo(x => ok).bar
                                     "kind": 134299649,
                                     "text": "ok",
                                     "rawText": "ok",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 11
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 4,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 4,
                         "end": 11
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 12
                 },
@@ -81,15 +81,15 @@ foo(x => ok).bar
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

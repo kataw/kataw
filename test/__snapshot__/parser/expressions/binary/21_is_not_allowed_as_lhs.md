@@ -25,7 +25,7 @@
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 1,
                             "end": 2
                         },
@@ -33,17 +33,17 @@
                             "kind": 201392130,
                             "text": 3,
                             "rawText": "3",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 2,
                             "end": 3
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 3
                     },
                     "operatorToken": {
                         "kind": 35897,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 6
                     },
@@ -51,19 +51,19 @@
                         "kind": 201392130,
                         "text": 2,
                         "rawText": "2",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

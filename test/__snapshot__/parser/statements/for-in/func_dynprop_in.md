@@ -43,7 +43,7 @@ for (function(){ }[x in y] in x);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 26,
                 "end": 29
             },
@@ -65,7 +65,7 @@ for (function(){ }[x in y] in x);
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 15
                     },
@@ -76,17 +76,17 @@ for (function(){ }[x in y] in x);
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 15,
                         "end": 18
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 18
                 },
@@ -96,13 +96,13 @@ for (function(){ }[x in y] in x);
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 20
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 20,
                         "end": 23
                     },
@@ -110,15 +110,15 @@ for (function(){ }[x in y] in x);
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 26
             },
@@ -126,17 +126,17 @@ for (function(){ }[x in y] in x);
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 29,
                 "end": 31
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 32,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

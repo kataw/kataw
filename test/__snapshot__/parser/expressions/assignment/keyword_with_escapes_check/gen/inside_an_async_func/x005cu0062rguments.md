@@ -31,7 +31,7 @@ async () => {  \u0062rguments = x  }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -50,13 +50,13 @@ async () => {  \u0062rguments = x  }
                                     "kind": 134299649,
                                     "text": "brguments",
                                     "rawText": "async",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 29
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -64,29 +64,29 @@ async () => {  \u0062rguments = x  }
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 31,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 33
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 33
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 36
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 36
         }

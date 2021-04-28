@@ -19,7 +19,7 @@ let f = () => { const [...await f] = []; }
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -32,7 +32,7 @@ let f = () => { const [...await f] = []; }
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -78,7 +78,7 @@ let f = () => { const [...await f] = []; }
                                                                         "kind": 244,
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
-                                                                            "flags": 512,
+                                                                            "flags": 64,
                                                                             "start": 23,
                                                                             "end": 26
                                                                         },
@@ -86,14 +86,14 @@ let f = () => { const [...await f] = []; }
                                                                             "kind": 134299649,
                                                                             "text": "await",
                                                                             "rawText": "await",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 26,
                                                                             "end": 31
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
                                                                         "initializer": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 23,
                                                                         "end": 31
                                                                     },
@@ -104,24 +104,24 @@ let f = () => { const [...await f] = []; }
                                                                             "kind": 134299649,
                                                                             "text": "f",
                                                                             "rawText": "f",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 31,
                                                                             "end": 33
                                                                         },
                                                                         "optionalToken": null,
                                                                         "type": null,
                                                                         "initializer": null,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 31,
                                                                         "end": 33
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 23,
                                                                 "end": 33
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 21,
                                                             "end": 34
                                                         },
@@ -133,51 +133,51 @@ let f = () => { const [...await f] = []; }
                                                                 "kind": 270,
                                                                 "elements": [],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 38,
                                                                 "end": 38
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 36,
                                                             "end": 39
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 21,
                                                         "end": 39
                                                     }
                                                 ],
-                                                "flags": 160,
+                                                "flags": 16777232,
                                                 "start": 21,
                                                 "end": 39
                                             },
-                                            "flags": 128,
+                                            "flags": 33554448,
                                             "start": 15,
                                             "end": 40
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 40
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 42
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 42
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 42
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 42
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 42
         }

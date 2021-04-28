@@ -33,7 +33,7 @@ export async function f(){}
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -42,7 +42,7 @@ export async function f(){}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 6,
                 "end": 12
             },
@@ -57,7 +57,7 @@ export async function f(){}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 21,
                 "end": 23
             },
@@ -65,7 +65,7 @@ export async function f(){}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 25
             },
@@ -76,17 +76,17 @@ export async function f(){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 26,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 27
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 6,
             "end": 27
         }

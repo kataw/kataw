@@ -27,7 +27,7 @@ do wow: while (x) continue wow; while (x)
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 39,
                 "end": 40
             },
@@ -43,7 +43,7 @@ do wow: while (x) continue wow; while (x)
                     "kind": 134299649,
                     "text": "wow",
                     "rawText": "wow",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 2,
                     "end": 6
                 },
@@ -59,7 +59,7 @@ do wow: while (x) continue wow; while (x)
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 16
                     },
@@ -75,23 +75,23 @@ do wow: while (x) continue wow; while (x)
                             "kind": 134299649,
                             "text": "wow",
                             "rawText": "wow",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 26,
                             "end": 30
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 31
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 7,
                     "end": 31
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 41
         }

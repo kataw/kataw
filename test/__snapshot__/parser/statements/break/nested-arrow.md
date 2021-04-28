@@ -49,35 +49,35 @@
                                                 "end": 17
                                             },
                                             "label": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 11,
                                             "end": 17
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 11,
                                     "end": 17
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 7,
                                 "end": 19
                             }
                         ],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 19
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

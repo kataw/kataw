@@ -27,13 +27,13 @@ x = {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -48,7 +48,7 @@ x = {
                                     "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 16
                                 },
@@ -63,20 +63,20 @@ x = {
                                                 "kind": 134299649,
                                                 "text": "test",
                                                 "rawText": "test",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 17,
                                                 "end": 21
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 17,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 22
                                 },
@@ -88,15 +88,15 @@ x = {
                                         "directives": [],
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 24
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 31
                             }
@@ -107,21 +107,21 @@ x = {
                         "start": 5,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 35
         }

@@ -27,7 +27,7 @@ bar ? baz : ( return => {} );
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -41,7 +41,7 @@ bar ? baz : ( return => {} );
                     "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 9
                 },
@@ -56,19 +56,19 @@ bar ? baz : ( return => {} );
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 13,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 11,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -83,11 +83,11 @@ bar ? baz : ( return => {} );
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -97,17 +97,17 @@ bar ? baz : ( return => {} );
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 26
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 29
         }

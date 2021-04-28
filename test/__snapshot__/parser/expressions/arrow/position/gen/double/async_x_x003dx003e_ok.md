@@ -38,21 +38,21 @@ async x => ok async x => ok
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 7
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 5
                 },
@@ -61,15 +61,15 @@ async x => ok async x => ok
                     "kind": 134299649,
                     "text": "ok",
                     "rawText": "ok",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 13
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -92,21 +92,21 @@ async x => ok async x => ok
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 21
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 21
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 13,
                     "end": 19
                 },
@@ -115,15 +115,15 @@ async x => ok async x => ok
                     "kind": 134299649,
                     "text": "ok",
                     "rawText": "ok",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 24,
                     "end": 27
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 13,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 27
         }

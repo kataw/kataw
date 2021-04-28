@@ -23,7 +23,7 @@ f(((a) => a + b)(1, 4), 5);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -48,7 +48,7 @@ f(((a) => a + b)(1, 4), 5);
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 5
                                         }
@@ -61,13 +61,13 @@ f(((a) => a + b)(1, 4), 5);
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "operatorToken": {
                                             "kind": 34098,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -75,19 +75,19 @@ f(((a) => a + b)(1, 4), 5);
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 15
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 15
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 3,
                                     "end": 15
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 16
                             },
@@ -98,7 +98,7 @@ f(((a) => a + b)(1, 4), 5);
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 18
                                     },
@@ -106,17 +106,17 @@ f(((a) => a + b)(1, 4), 5);
                                         "kind": 201392130,
                                         "text": 4,
                                         "rawText": "4",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 21
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 22
                         },
@@ -124,21 +124,21 @@ f(((a) => a + b)(1, 4), 5);
                             "kind": 201392130,
                             "text": 5,
                             "rawText": "5",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 23,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

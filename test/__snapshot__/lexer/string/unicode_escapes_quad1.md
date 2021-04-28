@@ -27,11 +27,11 @@
                 "kind": 201392131,
                 "text": "abc",
                 "rawText": "\"\\uabc",
-                "flags": 33817344,
+                "flags": 2113632,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         }

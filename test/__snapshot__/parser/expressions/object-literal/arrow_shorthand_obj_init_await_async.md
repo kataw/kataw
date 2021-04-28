@@ -36,7 +36,7 @@ async ({await = x}) => x
                                     "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 13
                                 },
@@ -44,11 +44,11 @@ async ({await = x}) => x
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 17
                             }
@@ -59,14 +59,14 @@ async ({await = x}) => x
                         "start": 8,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 18
                 }
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -75,11 +75,11 @@ async ({await = x}) => x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 22,
                 "end": 24
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 24
         }

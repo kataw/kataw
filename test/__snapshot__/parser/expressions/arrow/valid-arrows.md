@@ -70,7 +70,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 41
                 },
@@ -94,7 +94,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 45,
                             "end": 46
                         }
@@ -108,7 +108,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 49,
                                 "end": 51
                             },
@@ -125,11 +125,11 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 54,
                         "end": 56
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 43,
                     "end": 56
                 },
@@ -143,15 +143,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 58,
                     "end": 60
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 61
         },
@@ -163,7 +163,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 61,
                     "end": 88
                 },
@@ -179,11 +179,11 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 92,
                         "end": 93
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 90,
                     "end": 94
                 },
@@ -207,7 +207,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 98,
                             "end": 99
                         }
@@ -221,7 +221,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 102,
                                 "end": 104
                             },
@@ -238,19 +238,19 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "e",
                         "rawText": "e",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 107,
                         "end": 109
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 96,
                     "end": 109
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 61,
                 "end": 109
             },
-            "flags": 128,
+            "flags": 16,
             "start": 61,
             "end": 110
         },
@@ -262,7 +262,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 110,
                     "end": 202
                 },
@@ -288,13 +288,13 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 206,
                                 "end": 207
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 207,
                                 "end": 209
                             },
@@ -312,7 +312,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                         "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 211,
                                         "end": 212
                                     }
@@ -323,15 +323,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                     "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 216,
                                     "end": 218
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 209,
                                 "end": 218
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 204,
                             "end": 218
                         }
@@ -345,7 +345,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 221,
                                 "end": 223
                             },
@@ -362,11 +362,11 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 226,
                         "end": 228
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 204,
                     "end": 228
                 },
@@ -380,15 +380,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 230,
                     "end": 232
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 110,
                 "end": 232
             },
-            "flags": 128,
+            "flags": 16,
             "start": 110,
             "end": 233
         },
@@ -400,7 +400,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 233,
                     "end": 272
                 },
@@ -416,7 +416,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 274,
                         "end": 276
                     },
@@ -440,7 +440,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 280,
                                 "end": 281
                             }
@@ -454,7 +454,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                     "kind": 134299649,
                                     "text": "e",
                                     "rawText": "e",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 284,
                                     "end": 286
                                 },
@@ -473,15 +473,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 291,
                                 "end": 292
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 289,
                             "end": 293
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 278,
                         "end": 293
                     },
@@ -495,11 +495,11 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "g",
                         "rawText": "g",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 295,
                         "end": 297
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 274,
                     "end": 297
                 },
@@ -513,15 +513,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "h",
                     "rawText": "h",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 299,
                     "end": 301
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 233,
                 "end": 301
             },
-            "flags": 128,
+            "flags": 16,
             "start": 233,
             "end": 302
         },
@@ -533,7 +533,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 302,
                     "end": 418
                 },
@@ -549,7 +549,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 420,
                         "end": 422
                     },
@@ -565,11 +565,11 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 426,
                             "end": 427
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 424,
                         "end": 428
                     },
@@ -588,7 +588,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 432,
                                 "end": 433
                             }
@@ -605,7 +605,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                             "kind": 134299649,
                                             "text": "e",
                                             "rawText": "e",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 438,
                                             "end": 439
                                         },
@@ -621,7 +621,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                         "kind": 134299649,
                                         "text": "f",
                                         "rawText": "f",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 443,
                                         "end": 445
                                     },
@@ -643,15 +643,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "g",
                             "rawText": "g",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 447,
                             "end": 449
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 430,
                         "end": 449
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 420,
                     "end": 449
                 },
@@ -662,7 +662,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 450,
                         "end": 516
                     },
@@ -686,7 +686,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 520,
                                 "end": 521
                             }
@@ -700,7 +700,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 524,
                                     "end": 526
                                 },
@@ -717,11 +717,11 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "d",
                             "rawText": "d",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 529,
                             "end": 531
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 518,
                         "end": 531
                     },
@@ -745,7 +745,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 535,
                                 "end": 536
                             }
@@ -759,7 +759,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 539,
                                     "end": 541
                                 },
@@ -776,23 +776,23 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "g",
                             "rawText": "g",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 544,
                             "end": 546
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 533,
                         "end": 546
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 450,
                     "end": 546
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 302,
                 "end": 546
             },
-            "flags": 128,
+            "flags": 16,
             "start": 302,
             "end": 547
         },
@@ -804,7 +804,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 547,
                     "end": 659
                 },
@@ -828,7 +828,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 663,
                             "end": 664
                         }
@@ -842,7 +842,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 667,
                                 "end": 669
                             },
@@ -869,7 +869,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 674,
                                 "end": 675
                             }
@@ -883,7 +883,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                     "kind": 134299649,
                                     "text": "e",
                                     "rawText": "e",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 678,
                                     "end": 680
                                 },
@@ -900,15 +900,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 683,
                             "end": 685
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 672,
                         "end": 685
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 661,
                     "end": 685
                 },
@@ -922,15 +922,15 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 687,
                     "end": 689
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 547,
                 "end": 689
             },
-            "flags": 128,
+            "flags": 16,
             "start": 547,
             "end": 690
         }

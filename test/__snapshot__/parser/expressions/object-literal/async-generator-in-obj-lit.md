@@ -36,7 +36,7 @@ const obj = {
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 9
                         },
@@ -51,7 +51,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 13,
                                         "end": 23
                                     },
@@ -61,7 +61,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "generator",
                                             "rawText": "generator",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 30,
                                             "end": 39
                                         },
@@ -70,7 +70,7 @@ const obj = {
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 40,
                                             "end": 41
                                         },
@@ -82,15 +82,15 @@ const obj = {
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": true,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 43,
                                                 "end": 43
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 41,
                                             "end": 49
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 39,
                                         "end": 49
                                     }
@@ -101,20 +101,20 @@ const obj = {
                                 "start": 13,
                                 "end": 49
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 51
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 51
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 51
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 52
         }

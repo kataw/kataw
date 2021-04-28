@@ -40,20 +40,20 @@ new class{}
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 10,
                         "end": 11
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 11
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

@@ -33,7 +33,7 @@ class x extends implements {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,23 +50,23 @@ class x extends implements {}
                     "kind": 134299649,
                     "text": "implements",
                     "rawText": "implements",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 26
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 26
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

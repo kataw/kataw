@@ -33,7 +33,7 @@ var af = ...x => x;
                             "kind": 134299649,
                             "text": "af",
                             "rawText": "af",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 6
                         },
@@ -42,20 +42,20 @@ var af = ...x => x;
                         "initializer": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 8,
                             "end": 8
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 8
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -74,7 +74,7 @@ var af = ...x => x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 13
                 },
@@ -84,15 +84,15 @@ var af = ...x => x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 19
         }

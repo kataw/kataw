@@ -44,21 +44,21 @@ for (async a => b in x) ;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 12
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 10
                 },
@@ -69,13 +69,13 @@ for (async a => b in x) ;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 17,
                         "end": 20
                     },
@@ -83,15 +83,15 @@ for (async a => b in x) ;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 22
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 5,
                 "end": 22
             },
@@ -99,17 +99,17 @@ for (async a => b in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 22,
                 "end": 22
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

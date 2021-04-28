@@ -28,7 +28,7 @@ async function foo({x}: { x: string; }) {}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -43,7 +43,7 @@ async function foo({x}: { x: string; }) {}
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 18
             },
@@ -65,23 +65,23 @@ async function foo({x}: { x: string; }) {}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 21
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 21
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 21
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 19,
                             "end": 22
                         },
@@ -97,13 +97,13 @@ async function foo({x}: { x: string; }) {}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 27
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -126,13 +126,13 @@ async function foo({x}: { x: string; }) {}
                             "end": 38
                         },
                         "initializer": null,
-                        "flags": 258,
+                        "flags": 34,
                         "start": 19,
                         "end": 38
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 18,
                 "end": 39
             },
@@ -143,17 +143,17 @@ async function foo({x}: { x: string; }) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 41,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 39,
                 "end": 42
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 42
         }

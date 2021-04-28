@@ -32,7 +32,7 @@ class finally {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class finally {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -58,11 +58,11 @@ class finally {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 16
             },
@@ -74,15 +74,15 @@ class finally {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 16,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 16
         }

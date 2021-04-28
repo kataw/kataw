@@ -21,7 +21,7 @@ async (a, ...true=b) => a;
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -32,7 +32,7 @@ async (a, ...true=b) => a;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
@@ -44,17 +44,17 @@ async (a, ...true=b) => a;
                             "start": 9,
                             "end": 13
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 20
         },
@@ -64,11 +64,11 @@ async (a, ...true=b) => a;
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 26
         }

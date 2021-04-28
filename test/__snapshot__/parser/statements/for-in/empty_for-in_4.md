@@ -32,7 +32,7 @@ for (const a in b);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 12,
                 "end": 15
             },
@@ -46,19 +46,19 @@ for (const a in b);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 12
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 12
             },
@@ -66,17 +66,17 @@ for (const a in b);
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

@@ -50,7 +50,7 @@ class X {
                 "kind": 134299649,
                 "text": "X",
                 "rawText": "X",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -73,7 +73,7 @@ class X {
                                 "kind": 201392131,
                                 "text": "",
                                 "rawText": "",
-                                "flags": 67109633,
+                                "flags": 4194401,
                                 "start": 9,
                                 "end": 14
                             },
@@ -94,11 +94,11 @@ class X {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 18
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 20
                             },
@@ -111,11 +111,11 @@ class X {
                         "end": 20
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

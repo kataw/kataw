@@ -50,17 +50,17 @@ for ([] instanceof obj;;);
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 6
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 7,
                     "end": 18
                 },
@@ -68,11 +68,11 @@ for ([] instanceof obj;;);
                     "kind": 134299649,
                     "text": "obj",
                     "rawText": "obj",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
@@ -80,11 +80,11 @@ for ([] instanceof obj;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

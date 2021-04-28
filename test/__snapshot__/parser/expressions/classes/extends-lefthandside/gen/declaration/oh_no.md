@@ -33,7 +33,7 @@ class A extends oh,no {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,23 +50,23 @@ class A extends oh,no {}
                     "kind": 134299649,
                     "text": "oh",
                     "rawText": "oh",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 18
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 18
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         },
@@ -76,11 +76,11 @@ class A extends oh,no {}
                 "kind": 134299649,
                 "text": "no",
                 "rawText": "no",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 21
         },
@@ -90,11 +90,11 @@ class A extends oh,no {}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 24
         }

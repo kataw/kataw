@@ -29,27 +29,27 @@ new +
                     "kind": 126,
                     "operandToken": {
                         "kind": 34098,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 5
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 5,
                         "end": 5
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 5
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         }

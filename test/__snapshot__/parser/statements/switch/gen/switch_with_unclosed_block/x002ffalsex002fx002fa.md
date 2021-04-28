@@ -38,7 +38,7 @@ switch {} default(x) { /false//a
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
@@ -62,15 +62,15 @@ switch {} default(x) { /false//a
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 20
                             },
@@ -86,13 +86,13 @@ switch {} default(x) { /false//a
                                                 "left": {
                                                     "kind": 221,
                                                     "text": "/false/",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 22,
                                                     "end": 30
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 30,
                                                     "end": 31
                                                 },
@@ -100,39 +100,39 @@ switch {} default(x) { /false//a
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 31,
                                                     "end": 32
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 22,
                                                 "end": 32
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 22,
                                             "end": 32
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 32
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 32
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 32
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

@@ -40,7 +40,7 @@ type T<U> = U;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
@@ -48,7 +48,7 @@ type T<U> = U;
                 "kind": 134299649,
                 "text": "T",
                 "rawText": "T",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 6
             },
@@ -62,7 +62,7 @@ type T<U> = U;
                             "kind": 134299649,
                             "text": "U",
                             "rawText": "U",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 8
                         },
@@ -82,7 +82,7 @@ type T<U> = U;
                     "kind": 134299649,
                     "text": "U",
                     "rawText": "U",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },
@@ -91,7 +91,7 @@ type T<U> = U;
                 "start": 11,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

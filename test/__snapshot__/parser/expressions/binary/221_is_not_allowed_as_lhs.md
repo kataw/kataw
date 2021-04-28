@@ -23,7 +23,7 @@
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 0,
                         "end": 1
                     },
@@ -31,17 +31,17 @@
                         "kind": 201392130,
                         "text": 3,
                         "rawText": "3",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1,
                         "end": 2
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 2
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 2,
                     "end": 5
                 },
@@ -49,15 +49,15 @@
                     "kind": 201392130,
                     "text": 2,
                     "rawText": "2",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 7
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

@@ -27,7 +27,7 @@ do;while(j)try{}finally{}
                 "kind": 134299649,
                 "text": "j",
                 "rawText": "j",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 10
             },
@@ -39,11 +39,11 @@ do;while(j)try{}finally{}
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -61,11 +61,11 @@ do;while(j)try{}finally{}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 16
             },
@@ -82,15 +82,15 @@ do;while(j)try{}finally{}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 25
         }

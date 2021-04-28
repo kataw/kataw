@@ -36,19 +36,19 @@
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -58,11 +58,11 @@
                 "kind": 201392130,
                 "text": 1,
                 "rawText": "1",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 10
         }

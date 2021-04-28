@@ -30,15 +30,15 @@
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 8
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 8
                     },
@@ -55,7 +55,7 @@
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 14,
                             "end": 14
                         },
@@ -64,21 +64,21 @@
                         "members": {
                             "kind": 277,
                             "elements": [],
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 8
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 14
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

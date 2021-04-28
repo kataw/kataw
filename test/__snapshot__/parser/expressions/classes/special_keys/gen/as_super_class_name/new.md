@@ -33,7 +33,7 @@ class x extends new {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -65,28 +65,28 @@ class x extends new {}
                             "start": 21,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 19,
                         "end": 22
                     },
                     "argumentList": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 22
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 22
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

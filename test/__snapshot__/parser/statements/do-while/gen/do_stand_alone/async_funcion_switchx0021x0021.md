@@ -30,7 +30,7 @@ do async funcion switch!!
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 25,
                 "end": 25
             },
@@ -49,21 +49,21 @@ do async funcion switch!!
                                 "kind": 134299649,
                                 "text": "funcion",
                                 "rawText": "funcion",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 16
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 16
                         }
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 2,
                         "end": 8
                     },
@@ -72,7 +72,7 @@ do async funcion switch!!
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 23,
                             "end": 24
                         },
@@ -80,34 +80,34 @@ do async funcion switch!!
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 24,
                                 "end": 25
                             },
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 25,
                                 "end": 25
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 24,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 2304,
+                    "flags": 288,
                     "start": 2,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

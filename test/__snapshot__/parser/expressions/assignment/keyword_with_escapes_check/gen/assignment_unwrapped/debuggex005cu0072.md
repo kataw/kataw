@@ -23,11 +23,11 @@ debugge\u0072 = x;
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 327680,
+                "flags": 16384,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -37,11 +37,11 @@ debugge\u0072 = x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 18
         }

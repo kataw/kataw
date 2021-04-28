@@ -43,7 +43,7 @@ for (class x { [a](){} }.x in c);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 26,
                 "end": 29
             },
@@ -63,7 +63,7 @@ for (class x { [a](){} }.x in c);
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 10,
                         "end": 12
                     },
@@ -88,11 +88,11 @@ for (class x { [a](){} }.x in c);
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 17
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -113,11 +113,11 @@ for (class x { [a](){} }.x in c);
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 21,
                                             "end": 21
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -130,11 +130,11 @@ for (class x { [a](){} }.x in c);
                                 "end": 22
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 14,
                         "end": 24
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 24
                 },
@@ -142,11 +142,11 @@ for (class x { [a](){} }.x in c);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 25,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 26
             },
@@ -154,17 +154,17 @@ for (class x { [a](){} }.x in c);
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 29,
                 "end": 31
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 32,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

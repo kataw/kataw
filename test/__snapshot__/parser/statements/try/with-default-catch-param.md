@@ -37,11 +37,11 @@ try { } catch ([a = 0]) { }
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
@@ -65,7 +65,7 @@ try { } catch ([a = 0]) { }
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -75,21 +75,21 @@ try { } catch ([a = 0]) { }
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 21
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 22
                 },
@@ -99,21 +99,21 @@ try { } catch ([a = 0]) { }
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 25,
                         "end": 25
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 27
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 27
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

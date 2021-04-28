@@ -33,7 +33,7 @@ class C { constructor() { class C { method() { super(); } } } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 21
                             },
@@ -65,7 +65,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 22,
                                 "end": 23
                             },
@@ -90,7 +90,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 31,
                                                 "end": 33
                                             },
@@ -113,7 +113,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                                                 "kind": 134299649,
                                                                 "text": "method",
                                                                 "rawText": "method",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 35,
                                                                 "end": 42
                                                             },
@@ -145,7 +145,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                                                                         "start": 46,
                                                                                         "end": 52
                                                                                     },
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 46,
                                                                                     "end": 52
                                                                                 },
@@ -153,25 +153,25 @@ class C { constructor() { class C { method() { super(); } } } }
                                                                                     "kind": 256,
                                                                                     "elements": [],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 53,
                                                                                     "end": 53
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 46,
                                                                                 "end": 54
                                                                             },
-                                                                            "flags": 128,
+                                                                            "flags": 16,
                                                                             "start": 46,
                                                                             "end": 55
                                                                         }
                                                                     ],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 46,
                                                                     "end": 55
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 44,
                                                                 "end": 57
                                                             },
@@ -184,38 +184,38 @@ class C { constructor() { class C { method() { super(); } } } }
                                                         "end": 57
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 59
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 25,
                                             "end": 59
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 59
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 61
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 21,
                             "end": 61
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 9,
                         "end": 61
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 63
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 63
         }

@@ -27,11 +27,11 @@ left@{xa0}@right
                 "kind": 134299649,
                 "text": "left",
                 "rawText": "left",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -41,7 +41,7 @@ left@{xa0}@right
             "decorators": {
                 "kind": 207,
                 "decoratorList": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 5
             },
@@ -50,7 +50,7 @@ left@{xa0}@right
                 "kind": 134299649,
                 "text": "xa0",
                 "rawText": "xa0",
-                "flags": 768,
+                "flags": 96,
                 "start": 6,
                 "end": 9
             },
@@ -59,11 +59,11 @@ left@{xa0}@right
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 4,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 9
         },
@@ -79,7 +79,7 @@ left@{xa0}@right
                             "kind": 134299649,
                             "text": "right",
                             "rawText": "right",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 16
                         },
@@ -88,7 +88,7 @@ left@{xa0}@right
                         "end": 16
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 16
             },
@@ -96,7 +96,7 @@ left@{xa0}@right
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 16,
                 "end": 16
             },
@@ -105,11 +105,11 @@ left@{xa0}@right
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 16
         }

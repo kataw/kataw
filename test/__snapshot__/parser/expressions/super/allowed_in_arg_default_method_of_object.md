@@ -23,13 +23,13 @@ x={ foo(a = super.foo){ }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 2
                 },
@@ -44,7 +44,7 @@ x={ foo(a = super.foo){ }}
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 3,
                                     "end": 7
                                 },
@@ -59,7 +59,7 @@ x={ foo(a = super.foo){ }}
                                                 "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 8,
                                                 "end": 9
                                             },
@@ -75,7 +75,7 @@ x={ foo(a = super.foo){ }}
                                                         "start": 11,
                                                         "end": 17
                                                     },
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 11,
                                                     "end": 17
                                                 },
@@ -83,21 +83,21 @@ x={ foo(a = super.foo){ }}
                                                     "kind": 134299649,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 18,
                                                     "end": 21
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 21
                                             },
-                                            "flags": 258,
+                                            "flags": 34,
                                             "start": 8,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 258,
+                                    "flags": 34,
                                     "start": 8,
                                     "end": 22
                                 },
@@ -109,15 +109,15 @@ x={ foo(a = super.foo){ }}
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 23,
                                         "end": 23
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 25
                             }
@@ -128,15 +128,15 @@ x={ foo(a = super.foo){ }}
                         "start": 3,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

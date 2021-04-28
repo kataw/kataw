@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -36,13 +36,13 @@
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 19,
                     "end": 21
                 },
@@ -50,15 +50,15 @@
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 24
         },
@@ -74,11 +74,11 @@
                 "kind": 201392130,
                 "text": 37,
                 "rawText": "37",
-                "flags": 768,
+                "flags": 96,
                 "start": 31,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         },
@@ -90,13 +90,13 @@
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 35,
                     "end": 41
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 41,
                     "end": 43
                 },
@@ -104,15 +104,15 @@
                     "kind": 201392131,
                     "text": "dead",
                     "rawText": "dead",
-                    "flags": 67109632,
+                    "flags": 4194400,
                     "start": 43,
                     "end": 50
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 35,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 51
         }

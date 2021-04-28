@@ -27,7 +27,7 @@ async () => { var \u0061wait; }
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -56,37 +56,37 @@ async () => { var \u0061wait; }
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "var",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 28
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 17,
                                         "end": 28
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 28
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 29
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 31
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 31
         }

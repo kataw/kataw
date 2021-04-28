@@ -29,7 +29,7 @@ new Foo()
                     "kind": 134299649,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 7
                 },
@@ -37,15 +37,15 @@ new Foo()
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

@@ -33,7 +33,7 @@ import { for } from "iteration"
                 "kind": 201392131,
                 "text": "iteration",
                 "rawText": "iteration",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 31
             },
@@ -55,11 +55,11 @@ import { for } from "iteration"
                                     "kind": 134299649,
                                     "text": "for",
                                     "rawText": "for",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 12
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 12
                             }
@@ -68,15 +68,15 @@ import { for } from "iteration"
                         "start": 8,
                         "end": 12
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 31
         }

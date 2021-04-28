@@ -31,7 +31,7 @@ function * gen() { (yield) ? yield : yield }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -39,7 +39,7 @@ function * gen() { (yield) ? yield : yield }
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 14
             },
@@ -47,7 +47,7 @@ function * gen() { (yield) ? yield : yield }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -74,11 +74,11 @@ function * gen() { (yield) ? yield : yield }
                                         "delegate": false,
                                         "asteriskToken": null,
                                         "expression": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 25
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 26
                                 },
@@ -99,7 +99,7 @@ function * gen() { (yield) ? yield : yield }
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 34
                                 },
@@ -120,31 +120,31 @@ function * gen() { (yield) ? yield : yield }
                                     "delegate": false,
                                     "asteriskToken": null,
                                     "expression": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 36,
                                     "end": 42
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 42
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 42
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 42
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 44
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 44
         }

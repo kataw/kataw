@@ -28,7 +28,7 @@ for (typeof x in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 13,
                 "end": 16
             },
@@ -37,7 +37,7 @@ for (typeof x in x) ;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 11
                 },
@@ -45,11 +45,11 @@ for (typeof x in x) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 13
             },
@@ -57,17 +57,17 @@ for (typeof x in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

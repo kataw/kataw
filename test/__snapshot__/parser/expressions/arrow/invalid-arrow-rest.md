@@ -21,15 +21,15 @@
                 "kind": 121,
                 "expression": {
                     "kind": 132,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -39,11 +39,11 @@
                 "kind": 134299649,
                 "text": "NaN",
                 "rawText": "NaN",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 17
         },
@@ -53,17 +53,17 @@
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 24
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 25
         }

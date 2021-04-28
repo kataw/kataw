@@ -33,7 +33,7 @@ var x = { *test () { yield *v } };
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -50,7 +50,7 @@ var x = { *test () { yield *v } };
                                             "kind": 134299649,
                                             "text": "test",
                                             "rawText": "test",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -59,7 +59,7 @@ var x = { *test () { yield *v } };
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -83,7 +83,7 @@ var x = { *test () { yield *v } };
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 512,
+                                                                "flags": 64,
                                                                 "start": 26,
                                                                 "end": 28
                                                             },
@@ -91,29 +91,29 @@ var x = { *test () { yield *v } };
                                                                 "kind": 134299649,
                                                                 "text": "v",
                                                                 "rawText": "v",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 28,
                                                                 "end": 29
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 20,
                                                             "end": 29
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 20,
                                                         "end": 29
                                                     }
                                                 ],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 20,
                                                 "end": 29
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 18,
                                             "end": 31
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 15,
                                         "end": 31
                                     }
@@ -124,20 +124,20 @@ var x = { *test () { yield *v } };
                                 "start": 9,
                                 "end": 31
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 33
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 33
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

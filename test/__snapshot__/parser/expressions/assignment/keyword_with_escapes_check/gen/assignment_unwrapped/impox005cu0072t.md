@@ -23,14 +23,14 @@ impo\u0072t = x;
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 327680,
+                "flags": 16384,
                 "start": 0,
                 "end": 11
             },
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 11
         },
@@ -40,11 +40,11 @@ impo\u0072t = x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 16
         }

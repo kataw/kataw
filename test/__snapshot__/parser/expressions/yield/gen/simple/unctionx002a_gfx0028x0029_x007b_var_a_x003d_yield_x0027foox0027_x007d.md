@@ -27,13 +27,13 @@ unction* gf() { var a = yield 'foo'; }
                     "kind": 134299649,
                     "text": "unction",
                     "rawText": "unction",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 7,
                     "end": 8
                 },
@@ -43,7 +43,7 @@ unction* gf() { var a = yield 'foo'; }
                         "kind": 134299649,
                         "text": "gf",
                         "rawText": "gf",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 11
                     },
@@ -51,19 +51,19 @@ unction* gf() { var a = yield 'foo'; }
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -90,7 +90,7 @@ unction* gf() { var a = yield 'foo'; }
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 19,
                                         "end": 21
                                     },
@@ -100,20 +100,20 @@ unction* gf() { var a = yield 'foo'; }
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 23,
                                         "end": 29
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 19,
                                     "end": 29
                                 }
                             ],
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 29
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 15,
                         "end": 29
                     },
@@ -123,21 +123,21 @@ unction* gf() { var a = yield 'foo'; }
                             "kind": 201392131,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 67109632,
+                            "flags": 4194400,
                             "start": 29,
                             "end": 35
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 29,
                         "end": 36
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 38
         }

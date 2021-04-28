@@ -27,7 +27,7 @@ bar ? (x => { return x; }) : baz;
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -52,7 +52,7 @@ bar ? (x => { return x; }) : baz;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 8
                         },
@@ -76,29 +76,29 @@ bar ? (x => { return x; }) : baz;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 22
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 0,
                                         "end": 13
                                     }
                                 ],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 25
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 26
                 },
@@ -112,15 +112,15 @@ bar ? (x => { return x; }) : baz;
                     "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 28,
                     "end": 32
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

@@ -33,7 +33,7 @@ class C extends Base { get static() {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,12 +50,12 @@ class C extends Base { get static() {} }
                     "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 20
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 20
             },
@@ -70,7 +70,7 @@ class C extends Base { get static() {} }
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 22,
                             "end": 26
                         },
@@ -81,7 +81,7 @@ class C extends Base { get static() {} }
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 26,
                                 "end": 33
                             },
@@ -90,7 +90,7 @@ class C extends Base { get static() {} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 1024,
                                 "start": 34,
                                 "end": 35
                             },
@@ -102,28 +102,28 @@ class C extends Base { get static() {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 37
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 38
                             },
-                            "flags": 8192,
+                            "flags": 1024,
                             "start": 33,
                             "end": 38
                         },
-                        "flags": 8192,
+                        "flags": 1024,
                         "start": 22,
                         "end": 38
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

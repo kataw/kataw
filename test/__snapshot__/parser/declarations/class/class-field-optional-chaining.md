@@ -48,7 +48,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -66,20 +66,20 @@ class C { #aaa; f(f) { f()?.#aaa } }
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 14
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 15
                     },
@@ -97,7 +97,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 17
                             },
@@ -112,20 +112,20 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 20
                             },
@@ -152,7 +152,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                         "kind": 134299649,
                                                         "text": "f",
                                                         "rawText": "f",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 22,
                                                         "end": 24
                                                     },
@@ -160,11 +160,11 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                         "kind": 256,
                                                         "elements": [],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 25,
                                                         "end": 25
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 22,
                                                     "end": 26
                                                 },
@@ -176,33 +176,33 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                         "expression": {
                                                             "kind": 67109115,
                                                             "text": "#aaa",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 28,
                                                             "end": 32
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 28,
                                                         "end": 32
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 28,
                                                     "end": 32
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 22,
                                                 "end": 32
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 22,
                                             "end": 32
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 32
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 34
                             },
@@ -215,11 +215,11 @@ class C { #aaa; f(f) { f()?.#aaa } }
                         "end": 34
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

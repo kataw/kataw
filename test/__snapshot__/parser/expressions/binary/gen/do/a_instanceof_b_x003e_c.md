@@ -31,7 +31,7 @@ do a instanceof b > c while (x);
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 29,
                 "end": 30
             },
@@ -51,13 +51,13 @@ do a instanceof b > c while (x);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 2,
                             "end": 4
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 4,
                             "end": 15
                         },
@@ -65,17 +65,17 @@ do a instanceof b > c while (x);
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 17
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 17,
                         "end": 19
                     },
@@ -83,19 +83,19 @@ do a instanceof b > c while (x);
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

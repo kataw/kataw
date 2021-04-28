@@ -30,15 +30,15 @@
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 8
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 8
                     },
@@ -48,11 +48,11 @@
                             "kind": 134299649,
                             "text": "input",
                             "rawText": "input",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 14
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 14
                     },
@@ -62,21 +62,21 @@
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 16
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

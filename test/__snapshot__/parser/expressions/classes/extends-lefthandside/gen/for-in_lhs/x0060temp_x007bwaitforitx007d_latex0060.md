@@ -28,7 +28,7 @@ for (`temp {waitforit} late` in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 28,
                 "end": 31
             },
@@ -37,7 +37,7 @@ for (`temp {waitforit} late` in x) ;
                 "kind": 458761,
                 "text": "temp {waitforit} late",
                 "rawText": "temp {waitforit} late",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 28
             },
@@ -45,17 +45,17 @@ for (`temp {waitforit} late` in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 31,
                 "end": 33
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 34,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

@@ -33,7 +33,7 @@ else function while
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
@@ -41,7 +41,7 @@ else function while
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 13
             },
@@ -52,17 +52,17 @@ else function while
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 13
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 13
         },
@@ -77,7 +77,7 @@ else function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 19,
                 "end": 19
             },
@@ -86,15 +86,15 @@ else function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 19,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 19
         }

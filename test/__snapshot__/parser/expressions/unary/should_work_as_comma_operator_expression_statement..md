@@ -24,7 +24,7 @@ delete foo.bar, z;
                         "kind": 126,
                         "operandToken": {
                             "kind": 4259886,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 0,
                             "end": 6
                         },
@@ -34,7 +34,7 @@ delete foo.bar, z;
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 10
                             },
@@ -42,15 +42,15 @@ delete foo.bar, z;
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 14
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 14
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 14
                     },
@@ -58,16 +58,16 @@ delete foo.bar, z;
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

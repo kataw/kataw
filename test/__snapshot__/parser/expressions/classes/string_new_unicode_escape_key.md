@@ -35,7 +35,7 @@ class x { "prot\u{6f}type"(){} }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -58,7 +58,7 @@ class x { "prot\u{6f}type"(){} }
                                 "kind": 201392131,
                                 "text": "prototype",
                                 "rawText": "prototype",
-                                "flags": 131840,
+                                "flags": 8288,
                                 "start": 9,
                                 "end": 26
                             },
@@ -79,11 +79,11 @@ class x { "prot\u{6f}type"(){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 30
                             },
@@ -96,11 +96,11 @@ class x { "prot\u{6f}type"(){} }
                         "end": 30
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

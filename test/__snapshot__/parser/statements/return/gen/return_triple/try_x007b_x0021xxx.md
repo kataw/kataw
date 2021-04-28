@@ -30,11 +30,11 @@ return return return try { !xxx
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -49,11 +49,11 @@ return return return try { !xxx
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -68,11 +68,11 @@ return return return try { !xxx
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -95,7 +95,7 @@ return return return try { !xxx
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -103,25 +103,25 @@ return return return try { !xxx
                                     "kind": 134299649,
                                     "text": "xxx",
                                     "rawText": "xxx",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 28,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 31
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 26,
                             "end": 31
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 26,
                     "end": 31
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 31
             },
@@ -133,15 +133,15 @@ return return return try { !xxx
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 31,
                     "end": 31
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 31,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 31
         }

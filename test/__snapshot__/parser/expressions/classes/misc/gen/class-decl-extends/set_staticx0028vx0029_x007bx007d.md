@@ -33,7 +33,7 @@ class C extends Base { set static(v) {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,12 +50,12 @@ class C extends Base { set static(v) {} }
                     "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 20
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 20
             },
@@ -71,7 +71,7 @@ class C extends Base { set static(v) {} }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 22,
                             "end": 26
                         },
@@ -81,7 +81,7 @@ class C extends Base { set static(v) {} }
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 26,
                                 "end": 33
                             },
@@ -96,20 +96,20 @@ class C extends Base { set static(v) {} }
                                             "kind": 134299649,
                                             "text": "v",
                                             "rawText": "v",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 35
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 34,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 34,
                                 "end": 36
                             },
@@ -121,28 +121,28 @@ class C extends Base { set static(v) {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 38,
                                     "end": 38
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 36,
                                 "end": 39
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 33,
                             "end": 39
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 22,
                         "end": 39
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 41
         }

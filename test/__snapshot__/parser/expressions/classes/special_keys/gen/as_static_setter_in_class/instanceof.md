@@ -33,7 +33,7 @@ class x {static set instanceof(x){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -48,7 +48,7 @@ class x {static set instanceof(x){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -56,7 +56,7 @@ class x {static set instanceof(x){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 15,
                             "end": 19
                         },
@@ -66,7 +66,7 @@ class x {static set instanceof(x){}}
                                 "kind": 134299649,
                                 "text": "instanceof",
                                 "rawText": "instanceof",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 30
                             },
@@ -81,20 +81,20 @@ class x {static set instanceof(x){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 31,
                                             "end": 32
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 31,
                                 "end": 33
                             },
@@ -106,28 +106,28 @@ class x {static set instanceof(x){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 35
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 15,
                         "end": 35
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

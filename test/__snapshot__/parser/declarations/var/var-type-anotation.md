@@ -41,7 +41,7 @@ var foo = ((): number => bar);
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -64,7 +64,7 @@ var foo = ((): number => bar);
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 14,
                                         "end": 21
                                     },
@@ -76,28 +76,28 @@ var foo = ((): number => bar);
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 28
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 29
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 29
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

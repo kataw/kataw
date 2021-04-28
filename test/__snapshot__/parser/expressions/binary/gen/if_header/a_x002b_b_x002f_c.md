@@ -33,13 +33,13 @@ if ( a + b / c ) ;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 4,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -49,13 +49,13 @@ if ( a + b / c ) ;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 10,
                         "end": 12
                     },
@@ -63,27 +63,27 @@ if ( a + b / c ) ;
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 10,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 4,
                 "end": 14
             },
             "consequent": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 18
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

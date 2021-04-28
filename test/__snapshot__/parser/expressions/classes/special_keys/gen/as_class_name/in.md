@@ -32,7 +32,7 @@ class in {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class in {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -56,13 +56,13 @@ class in {}
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 8
                 },
@@ -77,15 +77,15 @@ class in {}
                         "start": 10,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 11
         }

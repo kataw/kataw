@@ -27,7 +27,7 @@ do async
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 12,
                 "end": 12
             },
@@ -38,15 +38,15 @@ do async
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 2,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -56,17 +56,17 @@ do async
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 15
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 16
         },
@@ -82,7 +82,7 @@ do async
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 25
             },
@@ -91,15 +91,15 @@ do async
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 26,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 26
         }

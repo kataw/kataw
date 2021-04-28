@@ -40,7 +40,7 @@ switch( class x {} case
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },
@@ -49,11 +49,11 @@ switch( class x {} case
                 "members": {
                     "kind": 277,
                     "elements": [],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 18
             },
@@ -71,21 +71,21 @@ switch( class x {} case
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 23,
                             "end": 23
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 23
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

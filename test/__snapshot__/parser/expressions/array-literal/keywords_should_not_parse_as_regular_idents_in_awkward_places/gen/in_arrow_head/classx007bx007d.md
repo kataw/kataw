@@ -51,21 +51,21 @@
                                     "members": {
                                         "kind": 277,
                                         "elements": [],
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 10
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 2,
                                     "end": 10
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 12
                     }
@@ -79,19 +79,19 @@
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 18,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

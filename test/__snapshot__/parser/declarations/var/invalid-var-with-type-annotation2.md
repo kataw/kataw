@@ -42,7 +42,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -58,13 +58,13 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -79,7 +79,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 19,
                                             "end": 19
                                         },
@@ -92,13 +92,13 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 20,
                                                         "end": 22
                                                     },
                                                     "value": {
                                                         "kind": 134234347,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 23,
                                                         "end": 30
                                                     },
@@ -145,7 +145,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "kind": 201392130,
                                             "text": 0,
                                             "rawText": "0",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 41,
                                             "end": 43
                                         },
@@ -153,11 +153,11 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 38,
                                             "end": 40
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 38,
                                         "end": 43
                                     },
@@ -167,7 +167,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 67109632,
+                                            "flags": 4194400,
                                             "start": 47,
                                             "end": 53
                                         },
@@ -175,11 +175,11 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 44,
                                             "end": 46
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 44,
                                         "end": 53
                                     }
@@ -190,20 +190,20 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "start": 38,
                                 "end": 53
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 36,
                             "end": 55
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 55
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 55
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 56
         }

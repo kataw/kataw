@@ -41,11 +41,11 @@ for ([][y] <<= p;;) x;
                             "kind": 270,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 6
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 7
                     },
@@ -53,17 +53,17 @@ for ([][y] <<= p;;) x;
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 10,
                     "end": 14
                 },
@@ -71,11 +71,11 @@ for ([][y] <<= p;;) x;
                     "kind": 134299649,
                     "text": "p",
                     "rawText": "p",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
@@ -87,15 +87,15 @@ for ([][y] <<= p;;) x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 19,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

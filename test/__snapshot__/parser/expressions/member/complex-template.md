@@ -37,7 +37,7 @@
                                     "member": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 1,
                                         "end": 1
                                     },
@@ -52,11 +52,11 @@
                                                     "kind": 201392130,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 5,
                                                     "end": 6
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 1,
                                                 "end": 6
                                             }
@@ -65,15 +65,15 @@
                                             "kind": 458761,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 9
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1,
                                         "end": 9
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1,
                                     "end": 9
                                 },
@@ -81,27 +81,27 @@
                                     "kind": 134299649,
                                     "text": "length",
                                     "rawText": "length",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 16
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 17,
                     "end": 19
                 },
@@ -109,15 +109,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 19,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

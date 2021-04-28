@@ -43,7 +43,7 @@ for ([x] in obj);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 11
             },
@@ -57,17 +57,17 @@ for ([x] in obj);
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 6,
                             "end": 7
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 7
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 8
             },
@@ -75,17 +75,17 @@ for ([x] in obj);
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 16,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

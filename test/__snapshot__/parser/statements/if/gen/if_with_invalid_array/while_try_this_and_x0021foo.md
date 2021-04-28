@@ -33,11 +33,11 @@ if [else] while try this and !foo
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2,
                 "end": 4
             },
@@ -46,17 +46,17 @@ if [else] while try this and !foo
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 4
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 512,
+                "flags": 64,
                 "start": 4,
                 "end": 8
             },
@@ -65,15 +65,15 @@ if [else] while try this and !foo
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -88,7 +88,7 @@ if [else] while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
@@ -106,11 +106,11 @@ if [else] while try this and !foo
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 19,
                         "end": 19
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 19,
                     "end": 19
                 },
@@ -122,19 +122,19 @@ if [else] while try this and !foo
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 24,
                         "end": 24
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 24
         },
@@ -144,11 +144,11 @@ if [else] while try this and !foo
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 28
         },
@@ -158,7 +158,7 @@ if [else] while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 28,
                     "end": 30
                 },
@@ -166,15 +166,15 @@ if [else] while try this and !foo
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 30,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 33
         }

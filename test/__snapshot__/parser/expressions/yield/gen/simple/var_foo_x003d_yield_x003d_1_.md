@@ -37,7 +37,7 @@ var foo = yield = 1;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
@@ -49,13 +49,13 @@ var foo = yield = 1;
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 15
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 15,
                                 "end": 17
                             },
@@ -63,24 +63,24 @@ var foo = yield = 1;
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 19
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

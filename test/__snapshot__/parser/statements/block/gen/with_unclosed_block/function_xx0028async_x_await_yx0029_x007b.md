@@ -30,11 +30,11 @@
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 3
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 4
                     },
@@ -47,11 +47,11 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 12,
                             "end": 12
                         },
@@ -63,15 +63,15 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 13,
                                 "end": 13
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 13
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 4,
                         "end": 13
                     },
@@ -81,21 +81,21 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 13,
                         "end": 14
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -119,7 +119,7 @@
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 26,
                             "end": 28
                         },
@@ -133,14 +133,14 @@
                                         "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 29,
                                         "end": 34
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 34
                                 },
@@ -151,14 +151,14 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 34,
                                         "end": 36
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -169,14 +169,14 @@
                                         "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 37,
                                         "end": 43
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 43
                                 },
@@ -187,20 +187,20 @@
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 43,
                                         "end": 45
                                     },
                                     "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 43,
                                     "end": 45
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 28,
                             "end": 46
                         },
@@ -211,27 +211,27 @@
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 48,
                                 "end": 48
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 46,
                             "end": 48
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 48
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 48
         }

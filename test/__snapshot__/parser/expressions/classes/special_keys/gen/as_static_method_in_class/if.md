@@ -33,7 +33,7 @@ class x {static if(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -48,7 +48,7 @@ class x {static if(){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -61,7 +61,7 @@ class x {static if(){}}
                                 "kind": 134299649,
                                 "text": "if",
                                 "rawText": "if",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 18
                             },
@@ -82,11 +82,11 @@ class x {static if(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 21
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 22
                             },
@@ -99,11 +99,11 @@ class x {static if(){}}
                         "end": 22
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

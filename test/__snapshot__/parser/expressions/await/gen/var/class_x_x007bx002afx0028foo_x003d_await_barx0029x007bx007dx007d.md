@@ -37,23 +37,23 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 9
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -75,7 +75,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
@@ -87,7 +87,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 25
                                 },
@@ -103,7 +103,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -127,7 +127,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 44,
                                                     "end": 46
                                                 },
@@ -150,7 +150,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                     "kind": 134299649,
                                                                     "text": "f",
                                                                     "rawText": "f",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 49,
                                                                     "end": 50
                                                                 },
@@ -165,7 +165,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                 "kind": 134299649,
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 51,
                                                                                 "end": 54
                                                                             },
@@ -175,11 +175,11 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                 "kind": 134299649,
                                                                                 "text": "await",
                                                                                 "rawText": "await",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 56,
                                                                                 "end": 62
                                                                             },
-                                                                            "flags": 258,
+                                                                            "flags": 34,
                                                                             "start": 51,
                                                                             "end": 62
                                                                         },
@@ -190,20 +190,20 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                 "kind": 134299649,
                                                                                 "text": "bar",
                                                                                 "rawText": "bar",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 62,
                                                                                 "end": 66
                                                                             },
                                                                             "optionalToken": null,
                                                                             "type": null,
                                                                             "initializer": null,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 62,
                                                                             "end": 66
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 258,
+                                                                    "flags": 34,
                                                                     "start": 51,
                                                                     "end": 67
                                                                 },
@@ -215,11 +215,11 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                         "directives": [],
                                                                         "statements": [],
                                                                         "multiline": false,
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 68,
                                                                         "end": 68
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 67,
                                                                     "end": 69
                                                                 },
@@ -232,44 +232,44 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                             "end": 69
                                                         }
                                                     ],
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 48,
                                                     "end": 70
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 38,
                                                 "end": 70
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 38,
                                         "end": 70
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 36,
                                     "end": 72
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 20,
                                 "end": 72
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 73
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 73
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 73
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 74
         }

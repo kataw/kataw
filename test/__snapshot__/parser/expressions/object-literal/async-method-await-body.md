@@ -25,12 +25,20 @@
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 8
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -39,7 +47,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 2304,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -53,40 +61,42 @@
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 208,
-                                                    "awaitToken": {
-                                                        "kind": 82032,
-                                                        "flags": 0,
-                                                        "start": 13,
-                                                        "end": 19
-                                                    },
-                                                    "expression": {
-                                                        "kind": 201392130,
-                                                        "text": 0,
-                                                        "rawText": "0",
-                                                        "flags": 768,
-                                                        "start": 19,
-                                                        "end": 21
-                                                    },
-                                                    "flags": 256,
+                                                    "kind": 134299649,
+                                                    "text": "await",
+                                                    "rawText": "await",
+                                                    "flags": 96,
                                                     "start": 13,
+                                                    "end": 19
+                                                },
+                                                "flags": 16,
+                                                "start": 13,
+                                                "end": 19
+                                            },
+                                            {
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 201392130,
+                                                    "text": 0,
+                                                    "rawText": "0",
+                                                    "flags": 96,
+                                                    "start": 19,
                                                     "end": 21
                                                 },
-                                                "flags": 128,
-                                                "start": 13,
+                                                "flags": 16,
+                                                "start": 19,
                                                 "end": 22
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 22
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 24
                                 },
-                                "flags": 2304,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 24
                             }
@@ -97,15 +107,15 @@
                         "start": 2,
                         "end": 24
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }
@@ -128,6 +138,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 8, end: 10
+
 ```
 

@@ -23,7 +23,7 @@ f(new /z/)
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -41,26 +41,26 @@ f(new /z/)
                             "expression": {
                                 "kind": 221,
                                 "text": "/z/",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 5,
                                 "end": 9
                             },
                             "argumentList": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

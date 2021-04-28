@@ -56,31 +56,31 @@ const [...] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 7,
                                             "end": 10
                                         },
                                         "binding": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 10,
                                             "end": 10
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 11
                         },
@@ -90,20 +90,20 @@ const [...] = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 17
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 18
         }

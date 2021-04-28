@@ -35,7 +35,7 @@ class A {set 9(x){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -53,7 +53,7 @@ class A {set 9(x){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 12
                         },
@@ -63,7 +63,7 @@ class A {set 9(x){}}
                                 "kind": 201392130,
                                 "text": 9,
                                 "rawText": "9",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 14
                             },
@@ -78,20 +78,20 @@ class A {set 9(x){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 15,
                                 "end": 17
                             },
@@ -103,28 +103,28 @@ class A {set 9(x){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 18
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 14,
                             "end": 19
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 19
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

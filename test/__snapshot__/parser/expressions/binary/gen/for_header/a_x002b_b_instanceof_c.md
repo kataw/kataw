@@ -33,13 +33,13 @@ for ( a + b instanceof c ;;);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 7,
                     "end": 9
                 },
@@ -49,13 +49,13 @@ for ( a + b instanceof c ;;);
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 11,
                         "end": 22
                     },
@@ -63,15 +63,15 @@ for ( a + b instanceof c ;;);
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 24
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 11,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 24
             },
@@ -79,11 +79,11 @@ for ( a + b instanceof c ;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 28,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

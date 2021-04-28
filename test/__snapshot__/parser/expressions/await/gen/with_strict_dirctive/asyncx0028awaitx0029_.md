@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -34,7 +34,7 @@
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 19
             },
@@ -45,23 +45,23 @@
                         "kind": 134299649,
                         "text": "await",
                         "rawText": "await",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 13
             },
-            "flags": 256,
+            "flags": 32,
             "start": 13,
             "end": 26
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 27
         }

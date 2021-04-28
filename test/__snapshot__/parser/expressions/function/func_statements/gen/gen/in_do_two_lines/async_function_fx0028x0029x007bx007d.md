@@ -32,7 +32,7 @@ while (x);
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 31,
                 "end": 32
             },
@@ -48,7 +48,7 @@ while (x);
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 2,
                         "end": 8
                     },
@@ -63,7 +63,7 @@ while (x);
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },
@@ -71,7 +71,7 @@ while (x);
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 19,
                         "end": 21
                     },
@@ -82,25 +82,25 @@ while (x);
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 22
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 23
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 1280,
+                    "flags": 160,
                     "start": 2,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

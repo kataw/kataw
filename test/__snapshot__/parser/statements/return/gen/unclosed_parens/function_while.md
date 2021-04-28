@@ -44,7 +44,7 @@ return( function while
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 16
                     },
@@ -55,25 +55,25 @@ return( function while
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 16
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -88,7 +88,7 @@ return( function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 22,
                 "end": 22
             },
@@ -97,15 +97,15 @@ return( function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 22
         }

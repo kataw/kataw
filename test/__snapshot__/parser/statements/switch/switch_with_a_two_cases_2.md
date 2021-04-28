@@ -27,7 +27,7 @@ switch (A) {case B: C; break; case D: E; break;}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -46,7 +46,7 @@ switch (A) {case B: C; break; case D: E; break;}
                             "kind": 134299649,
                             "text": "B",
                             "rawText": "B",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 18
                         },
@@ -57,11 +57,11 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 21
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 22
                             },
@@ -74,12 +74,12 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "end": 28
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 22,
                                 "end": 29
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 29
                     },
@@ -95,7 +95,7 @@ switch (A) {case B: C; break; case D: E; break;}
                             "kind": 134299649,
                             "text": "D",
                             "rawText": "D",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 34,
                             "end": 36
                         },
@@ -106,11 +106,11 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "kind": 134299649,
                                     "text": "E",
                                     "rawText": "E",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 39
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 37,
                                 "end": 40
                             },
@@ -123,21 +123,21 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "end": 46
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 40,
                                 "end": 47
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 29,
                         "end": 47
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 48
         }

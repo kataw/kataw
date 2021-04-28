@@ -30,11 +30,11 @@ return while try this and !foo return
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -49,7 +49,7 @@ return while try this and !foo return
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 12,
                 "end": 12
             },
@@ -67,11 +67,11 @@ return while try this and !foo return
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 16,
                     "end": 16
                 },
@@ -83,19 +83,19 @@ return while try this and !foo return
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 21,
                         "end": 21
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 21,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 21
         },
@@ -105,11 +105,11 @@ return while try this and !foo return
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 21,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 25
         },
@@ -119,7 +119,7 @@ return while try this and !foo return
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 25,
                     "end": 27
                 },
@@ -127,15 +127,15 @@ return while try this and !foo return
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 27,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 30
         },
@@ -148,7 +148,7 @@ return while try this and !foo return
                 "end": 37
             },
             "expression": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

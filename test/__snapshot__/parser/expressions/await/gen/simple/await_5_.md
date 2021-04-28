@@ -25,11 +25,11 @@ await 5;
                 "kind": 134299649,
                 "text": "await",
                 "rawText": "await",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -39,11 +39,11 @@ await 5;
                 "kind": 201392130,
                 "text": 5,
                 "rawText": "5",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 8
         }

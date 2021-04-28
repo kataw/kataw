@@ -33,7 +33,7 @@ class C { *method() { class C { method() { super(); } } } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class C { *method() { class C { method() { super(); } } } }
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 17
                             },
@@ -90,7 +90,7 @@ class C { *method() { class C { method() { super(); } } } }
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 27,
                                                 "end": 29
                                             },
@@ -113,7 +113,7 @@ class C { *method() { class C { method() { super(); } } } }
                                                                 "kind": 134299649,
                                                                 "text": "method",
                                                                 "rawText": "method",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 31,
                                                                 "end": 38
                                                             },
@@ -145,7 +145,7 @@ class C { *method() { class C { method() { super(); } } } }
                                                                                         "start": 42,
                                                                                         "end": 48
                                                                                     },
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 42,
                                                                                     "end": 48
                                                                                 },
@@ -153,25 +153,25 @@ class C { *method() { class C { method() { super(); } } } }
                                                                                     "kind": 256,
                                                                                     "elements": [],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 49,
                                                                                     "end": 49
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 42,
                                                                                 "end": 50
                                                                             },
-                                                                            "flags": 128,
+                                                                            "flags": 16,
                                                                             "start": 42,
                                                                             "end": 51
                                                                         }
                                                                     ],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 42,
                                                                     "end": 51
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 40,
                                                                 "end": 53
                                                             },
@@ -184,21 +184,21 @@ class C { *method() { class C { method() { super(); } } } }
                                                         "end": 53
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 55
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 21,
                                             "end": 55
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 55
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 57
                             },
@@ -211,11 +211,11 @@ class C { *method() { class C { method() { super(); } } } }
                         "end": 57
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 59
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 59
         }

@@ -37,23 +37,23 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 9
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -75,7 +75,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
@@ -87,7 +87,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 25
                                 },
@@ -103,7 +103,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -118,7 +118,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                 "declareKeyword": null,
                                                 "asyncKeyword": {
                                                     "kind": 82031,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 38,
                                                     "end": 44
                                                 },
@@ -133,7 +133,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                     "kind": 134299649,
                                                     "text": "g",
                                                     "rawText": "g",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 53,
                                                     "end": 55
                                                 },
@@ -141,7 +141,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                     "kind": 214,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 55,
                                                     "end": 57
                                                 },
@@ -155,7 +155,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                 "kind": 162,
                                                                 "lexicalKeyword": {
                                                                     "kind": 41951307,
-                                                                    "flags": 640,
+                                                                    "flags": 80,
                                                                     "start": 58,
                                                                     "end": 61
                                                                 },
@@ -168,7 +168,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                 "kind": 134299649,
                                                                                 "text": "o",
                                                                                 "rawText": "o",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 61,
                                                                                 "end": 63
                                                                             },
@@ -180,12 +180,20 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                     "kind": 218,
                                                                                     "properties": [
                                                                                         {
+                                                                                            "kind": 134299649,
+                                                                                            "text": "async",
+                                                                                            "rawText": "async",
+                                                                                            "flags": 96,
+                                                                                            "start": 67,
+                                                                                            "end": 72
+                                                                                        },
+                                                                                        {
                                                                                             "kind": 209,
                                                                                             "name": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "f",
                                                                                                 "rawText": "f",
-                                                                                                "flags": 768,
+                                                                                                "flags": 96,
                                                                                                 "start": 74,
                                                                                                 "end": 75
                                                                                             },
@@ -200,39 +208,45 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                             "kind": 134299649,
                                                                                                             "text": "foo",
                                                                                                             "rawText": "foo",
-                                                                                                            "flags": 768,
+                                                                                                            "flags": 96,
                                                                                                             "start": 76,
                                                                                                             "end": 79
                                                                                                         },
                                                                                                         "optionalToken": null,
                                                                                                         "type": null,
                                                                                                         "initializer": {
-                                                                                                            "kind": 208,
-                                                                                                            "awaitToken": {
-                                                                                                                "kind": 82032,
-                                                                                                                "flags": 0,
-                                                                                                                "start": 81,
-                                                                                                                "end": 87
-                                                                                                            },
-                                                                                                            "expression": {
-                                                                                                                "kind": 134299649,
-                                                                                                                "text": "bar",
-                                                                                                                "rawText": "bar",
-                                                                                                                "flags": 768,
-                                                                                                                "start": 87,
-                                                                                                                "end": 91
-                                                                                                            },
-                                                                                                            "flags": 256,
+                                                                                                            "kind": 134299649,
+                                                                                                            "text": "await",
+                                                                                                            "rawText": "await",
+                                                                                                            "flags": 96,
                                                                                                             "start": 81,
+                                                                                                            "end": 87
+                                                                                                        },
+                                                                                                        "flags": 34,
+                                                                                                        "start": 76,
+                                                                                                        "end": 87
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "kind": 215,
+                                                                                                        "ellipsisToken": null,
+                                                                                                        "binding": {
+                                                                                                            "kind": 134299649,
+                                                                                                            "text": "bar",
+                                                                                                            "rawText": "bar",
+                                                                                                            "flags": 96,
+                                                                                                            "start": 87,
                                                                                                             "end": 91
                                                                                                         },
-                                                                                                        "flags": 258,
-                                                                                                        "start": 76,
+                                                                                                        "optionalToken": null,
+                                                                                                        "type": null,
+                                                                                                        "initializer": null,
+                                                                                                        "flags": 32,
+                                                                                                        "start": 87,
                                                                                                         "end": 91
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
-                                                                                                "flags": 3330,
+                                                                                                "flags": 34,
                                                                                                 "start": 76,
                                                                                                 "end": 92
                                                                                             },
@@ -244,15 +258,15 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                     "directives": [],
                                                                                                     "statements": [],
                                                                                                     "multiline": false,
-                                                                                                    "flags": 256,
+                                                                                                    "flags": 32,
                                                                                                     "start": 93,
                                                                                                     "end": 93
                                                                                                 },
-                                                                                                "flags": 256,
+                                                                                                "flags": 32,
                                                                                                 "start": 92,
                                                                                                 "end": 94
                                                                                             },
-                                                                                            "flags": 3328,
+                                                                                            "flags": 32,
                                                                                             "start": 75,
                                                                                             "end": 94
                                                                                         }
@@ -263,69 +277,69 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                     "start": 67,
                                                                                     "end": 94
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 65,
                                                                                 "end": 95
                                                                             },
-                                                                            "flags": 128,
+                                                                            "flags": 16,
                                                                             "start": 61,
                                                                             "end": 95
                                                                         }
                                                                     ],
-                                                                    "flags": 128,
+                                                                    "flags": 33554448,
                                                                     "start": 61,
                                                                     "end": 95
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 33554448,
                                                                 "start": 58,
                                                                 "end": 95
                                                             }
                                                         ],
                                                         "multiline": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 58,
                                                         "end": 95
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 57,
                                                     "end": 100
                                                 },
                                                 "typeParameters": null,
                                                 "returnType": null,
-                                                "flags": 1152,
+                                                "flags": 144,
                                                 "start": 38,
                                                 "end": 100
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 38,
                                         "end": 100
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 36,
                                     "end": 102
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 20,
                                 "end": 102
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 103
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 103
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 103
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 104
         }
@@ -348,6 +362,8 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 74, end: 75
+✖ ',' expected - start: 87, end: 91
+
 ```
 

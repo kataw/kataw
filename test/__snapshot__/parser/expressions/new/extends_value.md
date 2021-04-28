@@ -29,7 +29,7 @@ class x extends new A() {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -54,7 +54,7 @@ class x extends new A() {}
                         "kind": 134299649,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },
@@ -62,27 +62,27 @@ class x extends new A() {}
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 23
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 23
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

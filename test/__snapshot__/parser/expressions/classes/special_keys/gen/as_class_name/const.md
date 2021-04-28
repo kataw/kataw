@@ -32,7 +32,7 @@ class const {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class const {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -69,27 +69,27 @@ class const {}
                                 "properties": [],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 13
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 14
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 11,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 5,
             "end": 14
         }

@@ -38,11 +38,11 @@ return {} return(x) { try { !xxx
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -60,15 +60,15 @@ return {} return(x) { try { !xxx
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -96,7 +96,7 @@ return {} return(x) { try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 27,
                                                 "end": 29
                                             },
@@ -104,25 +104,25 @@ return {} return(x) { try { !xxx
                                                 "kind": 134299649,
                                                 "text": "xxx",
                                                 "rawText": "xxx",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 29,
                                                 "end": 32
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 27,
                                             "end": 32
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 27,
                                         "end": 32
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 27,
                                 "end": 32
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 25,
                             "end": 32
                         },
@@ -134,25 +134,25 @@ return {} return(x) { try { !xxx
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 32,
                                 "end": 32
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 32,
                             "end": 32
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 21,
                         "end": 32
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 32
         }

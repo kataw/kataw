@@ -48,7 +48,7 @@ type B = Foo<
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
@@ -56,7 +56,7 @@ type B = Foo<
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 6
             },
@@ -68,7 +68,7 @@ type B = Foo<
                     "kind": 134299649,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 8,
                     "end": 12
                 },
@@ -87,7 +87,7 @@ type B = Foo<
                                                 "kind": 134299649,
                                                 "text": "type",
                                                 "rawText": "type",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 19,
                                                 "end": 23
                                             },
@@ -121,7 +121,7 @@ type B = Foo<
                                                 "kind": 134299649,
                                                 "text": "type",
                                                 "rawText": "type",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 35,
                                                 "end": 39
                                             },
@@ -160,7 +160,7 @@ type B = Foo<
                 "start": 8,
                 "end": 47
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 48
         },
@@ -170,7 +170,7 @@ type B = Foo<
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 48,
                 "end": 56
             },
@@ -178,7 +178,7 @@ type B = Foo<
                 "kind": 134299649,
                 "text": "B",
                 "rawText": "B",
-                "flags": 768,
+                "flags": 96,
                 "start": 54,
                 "end": 56
             },
@@ -193,7 +193,7 @@ type B = Foo<
                             "kind": 134299649,
                             "text": "Foo",
                             "rawText": "Foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 58,
                             "end": 62
                         },
@@ -217,7 +217,7 @@ type B = Foo<
                                     "kind": 134299649,
                                     "text": "type",
                                     "rawText": "type",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 69,
                                     "end": 73
                                 },
@@ -251,7 +251,7 @@ type B = Foo<
                                     "kind": 134299649,
                                     "text": "type",
                                     "rawText": "type",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 85,
                                     "end": 89
                                 },
@@ -281,7 +281,7 @@ type B = Foo<
                 "start": 63,
                 "end": 95
             },
-            "flags": 128,
+            "flags": 16,
             "start": 48,
             "end": 95
         },
@@ -292,28 +292,28 @@ type B = Foo<
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 95,
                     "end": 95
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 513,
+                    "flags": 65,
                     "start": 95,
                     "end": 97
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 97,
                     "end": 97
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 95,
                 "end": 97
             },
-            "flags": 128,
+            "flags": 16,
             "start": 95,
             "end": 98
         }

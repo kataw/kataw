@@ -31,7 +31,7 @@ foo(a)(b)(c)(d)(e)
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 0,
                                     "end": 3
                                 },
@@ -42,17 +42,17 @@ foo(a)(b)(c)(d)(e)
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 5
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 4,
                                     "end": 5
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 0,
                                 "end": 6
                             },
@@ -63,17 +63,17 @@ foo(a)(b)(c)(d)(e)
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 7,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 0,
                             "end": 9
                         },
@@ -84,17 +84,17 @@ foo(a)(b)(c)(d)(e)
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 11
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 11
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 12
                     },
@@ -105,17 +105,17 @@ foo(a)(b)(c)(d)(e)
                                 "kind": 134299649,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 15
                 },
@@ -126,21 +126,21 @@ foo(a)(b)(c)(d)(e)
                             "kind": 134299649,
                             "text": "e",
                             "rawText": "e",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 16,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

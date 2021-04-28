@@ -33,7 +33,7 @@ class A extends new.target {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,27 +52,27 @@ class A extends new.target {}
                         "kind": 134299649,
                         "text": "target",
                         "rawText": "target",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 26
                     },
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 26
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 26
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

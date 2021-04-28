@@ -29,7 +29,7 @@ class C { get; #aaa(){} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -48,20 +48,20 @@ class C { get; #aaa(){} }
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 13
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 13
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 14
                     },
@@ -78,7 +78,7 @@ class C { get; #aaa(){} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#aaa",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 19
                             },
@@ -99,11 +99,11 @@ class C { get; #aaa(){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 22
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 23
                             },
@@ -116,11 +116,11 @@ class C { get; #aaa(){} }
                         "end": 23
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

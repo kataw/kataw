@@ -33,7 +33,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -52,7 +52,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 23,
                                                 "end": 25
                                             },
@@ -60,11 +60,11 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 9,
                                                 "end": 22
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 25
                                         }
@@ -75,13 +75,13 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "start": 9,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 27
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 27,
                                 "end": 29
                             },
@@ -96,7 +96,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 40,
                                                 "end": 43
                                             },
@@ -104,11 +104,11 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "finally",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 31,
                                                 "end": 39
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 31,
                                             "end": 43
                                         }
@@ -119,24 +119,24 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "start": 31,
                                     "end": 43
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 45
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 45
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 45
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 45
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 46
         }

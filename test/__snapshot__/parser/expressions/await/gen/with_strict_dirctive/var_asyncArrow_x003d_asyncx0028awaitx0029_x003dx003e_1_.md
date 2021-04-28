@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -46,7 +46,7 @@
                             "kind": 134299649,
                             "text": "asyncArrow",
                             "rawText": "asyncArrow",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 28
                         },
@@ -66,14 +66,14 @@
                                     "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 42
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 30,
                                 "end": 36
                             },
@@ -82,24 +82,24 @@
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 46,
                                 "end": 48
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 30,
                             "end": 48
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 48
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 49
         }

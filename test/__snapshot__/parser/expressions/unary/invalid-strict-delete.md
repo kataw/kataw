@@ -24,7 +24,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 769,
+            "flags": 97,
             "start": 0,
             "end": 13
         }
@@ -36,7 +36,7 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 21
                 },
@@ -44,15 +44,15 @@
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 26
         },
@@ -62,11 +62,11 @@
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 26,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 41
         },
@@ -76,7 +76,7 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 41,
                     "end": 48
                 },
@@ -86,19 +86,19 @@
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 50,
                         "end": 53
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 48,
                     "end": 54
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 41,
                 "end": 54
             },
-            "flags": 128,
+            "flags": 16,
             "start": 41,
             "end": 55
         },
@@ -108,11 +108,11 @@
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 55,
                 "end": 69
             },
-            "flags": 128,
+            "flags": 16,
             "start": 55,
             "end": 70
         },
@@ -122,7 +122,7 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 70,
                     "end": 77
                 },
@@ -130,15 +130,15 @@
                     "kind": 134299649,
                     "text": "interface",
                     "rawText": "interface",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 77,
                     "end": 87
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 70,
                 "end": 87
             },
-            "flags": 128,
+            "flags": 16,
             "start": 70,
             "end": 88
         }

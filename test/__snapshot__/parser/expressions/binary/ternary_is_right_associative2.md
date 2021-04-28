@@ -23,7 +23,7 @@ a ? b : c ** x ? d : e
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -37,7 +37,7 @@ a ? b : c ** x ? d : e
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 5
                 },
@@ -55,13 +55,13 @@ a ? b : c ** x ? d : e
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 9
                         },
                         "operatorToken": {
                             "kind": 35897,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 12
                         },
@@ -69,11 +69,11 @@ a ? b : c ** x ? d : e
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 12,
                             "end": 14
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 14
                     },
@@ -87,7 +87,7 @@ a ? b : c ** x ? d : e
                         "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 18
                     },
@@ -101,19 +101,19 @@ a ? b : c ** x ? d : e
                         "kind": 134299649,
                         "text": "e",
                         "rawText": "e",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 20,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

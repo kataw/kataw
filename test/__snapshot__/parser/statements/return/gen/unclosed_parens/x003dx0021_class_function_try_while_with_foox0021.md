@@ -34,13 +34,13 @@ return( =! class function try while with foo!
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 7,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 7,
                         "end": 9
                     },
@@ -48,7 +48,7 @@ return( =! class function try while with foo!
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 10
                         },
@@ -67,27 +67,27 @@ return( =! class function try while with foo!
                             "members": {
                                 "kind": 277,
                                 "elements": [],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -105,7 +105,7 @@ return( =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 25,
                 "end": 25
             },
@@ -113,7 +113,7 @@ return( =! class function try while with foo!
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 25
             },
@@ -124,17 +124,17 @@ return( =! class function try while with foo!
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 25,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 25
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 25
         },
@@ -152,11 +152,11 @@ return( =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 29,
                     "end": 29
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 29,
                 "end": 29
             },
@@ -168,15 +168,15 @@ return( =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 35,
                     "end": 35
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 35,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 35
         },
@@ -192,7 +192,7 @@ return( =! class function try while with foo!
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 40,
                 "end": 44
             },
@@ -202,26 +202,26 @@ return( =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 44,
                         "end": 45
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 45,
                         "end": 45
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 44,
                     "end": 45
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 44,
                 "end": 45
             },
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 45
         }

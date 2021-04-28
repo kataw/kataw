@@ -323,7 +323,7 @@ function * gen() { function not_gen() { # }}
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }

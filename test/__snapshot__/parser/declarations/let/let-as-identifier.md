@@ -71,23 +71,23 @@ L: let
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -109,14 +109,14 @@ L: let
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 17
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 13,
                         "end": 17
                     },
@@ -126,23 +126,23 @@ L: let
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 22
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 22
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 23
         },
@@ -160,11 +160,11 @@ L: let
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 30,
                     "end": 30
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 28,
                 "end": 32
             },
@@ -180,7 +180,7 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 40,
                     "end": 43
                 },
@@ -190,21 +190,21 @@ L: let
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 46,
                         "end": 46
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 44,
                     "end": 48
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 32,
                 "end": 48
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 48
         },
@@ -223,7 +223,7 @@ L: let
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "let",
-                "flags": 768,
+                "flags": 96,
                 "start": 58,
                 "end": 62
             },
@@ -231,7 +231,7 @@ L: let
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 62,
                 "end": 64
             },
@@ -242,17 +242,17 @@ L: let
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 66,
                     "end": 66
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 64,
                 "end": 68
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 48,
             "end": 68
         },
@@ -274,7 +274,7 @@ L: let
                         "kind": 134299649,
                         "text": "let",
                         "rawText": "let",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 79,
                         "end": 83
                     },
@@ -282,7 +282,7 @@ L: let
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 83,
                         "end": 85
                     },
@@ -293,25 +293,25 @@ L: let
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 87,
                             "end": 87
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 85,
                         "end": 89
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 71,
                     "end": 89
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 68,
                 "end": 90
             },
-            "flags": 128,
+            "flags": 16,
             "start": 68,
             "end": 90
         },
@@ -330,7 +330,7 @@ L: let
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 100,
                 "end": 104
             },
@@ -344,20 +344,20 @@ L: let
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 105,
                             "end": 108
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 105,
                         "end": 108
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 104,
                 "end": 109
             },
@@ -368,17 +368,17 @@ L: let
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 111,
                     "end": 111
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 109,
                 "end": 113
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 90,
             "end": 113
         },
@@ -397,7 +397,7 @@ L: let
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 123,
                 "end": 127
             },
@@ -411,14 +411,14 @@ L: let
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 128,
                             "end": 131
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 128,
                         "end": 131
                     },
@@ -429,20 +429,20 @@ L: let
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 132,
                             "end": 136
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 132,
                         "end": 136
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 127,
                 "end": 137
             },
@@ -453,17 +453,17 @@ L: let
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 139,
                     "end": 139
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 137,
                 "end": 141
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 113,
             "end": 141
         },
@@ -475,13 +475,13 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 141,
                     "end": 146
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 146,
                     "end": 148
                 },
@@ -489,15 +489,15 @@ L: let
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 148,
                     "end": 150
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 141,
                 "end": 150
             },
-            "flags": 128,
+            "flags": 16,
             "start": 141,
             "end": 151
         },
@@ -519,7 +519,7 @@ L: let
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 156,
                             "end": 160
                         },
@@ -531,13 +531,13 @@ L: let
                                 "kind": 134299649,
                                 "text": "let",
                                 "rawText": "let",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 162,
                                 "end": 166
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 166,
                                 "end": 168
                             },
@@ -545,24 +545,24 @@ L: let
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 168,
                                 "end": 170
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 162,
                             "end": 170
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 156,
                         "end": 170
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 156,
                 "end": 170
             },
-            "flags": 128,
+            "flags": 16,
             "start": 151,
             "end": 171
         },
@@ -574,13 +574,13 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 171,
                     "end": 176
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 176,
                     "end": 178
                 },
@@ -588,15 +588,15 @@ L: let
                     "kind": 201392130,
                     "text": 2,
                     "rawText": "2",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 178,
                     "end": 180
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 171,
                 "end": 180
             },
-            "flags": 128,
+            "flags": 16,
             "start": 171,
             "end": 181
         },
@@ -606,7 +606,7 @@ L: let
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 513,
+                    "flags": 65,
                     "start": 181,
                     "end": 185
                 },
@@ -614,15 +614,15 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 185,
                     "end": 188
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 181,
                 "end": 188
             },
-            "flags": 128,
+            "flags": 16,
             "start": 181,
             "end": 189
         },
@@ -632,7 +632,7 @@ L: let
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 194,
                     "end": 196
                 },
@@ -640,15 +640,15 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 189,
                     "end": 194
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 189,
                 "end": 196
             },
-            "flags": 128,
+            "flags": 16,
             "start": 189,
             "end": 197
         },
@@ -670,7 +670,7 @@ L: let
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 208,
                         "end": 210
                     },
@@ -678,7 +678,7 @@ L: let
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 210,
                         "end": 212
                     },
@@ -694,7 +694,7 @@ L: let
                                         "kind": 134299649,
                                         "text": "let",
                                         "rawText": "let",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 214,
                                         "end": 218
                                     },
@@ -704,39 +704,39 @@ L: let
                                             "kind": 201392130,
                                             "text": 34,
                                             "rawText": "34",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 219,
                                             "end": 222
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 219,
                                         "end": 222
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 214,
                                     "end": 222
                                 }
                             ],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 214,
                             "end": 222
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 212,
                         "end": 224
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 200,
                     "end": 224
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 197,
                 "end": 225
             },
-            "flags": 128,
+            "flags": 16,
             "start": 197,
             "end": 226
         },
@@ -755,7 +755,7 @@ L: let
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "let",
-                "flags": 768,
+                "flags": 96,
                 "start": 236,
                 "end": 240
             },
@@ -769,20 +769,20 @@ L: let
                             "kind": 134299649,
                             "text": "let",
                             "rawText": "let",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 241,
                             "end": 244
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 241,
                         "end": 244
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 240,
                 "end": 245
             },
@@ -798,7 +798,7 @@ L: let
                                 "kind": 134299649,
                                 "text": "let",
                                 "rawText": "let",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 247,
                                 "end": 251
                             },
@@ -810,7 +810,7 @@ L: let
                                         "kind": 134299649,
                                         "text": "let",
                                         "rawText": "let",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 252,
                                         "end": 256
                                     },
@@ -823,13 +823,13 @@ L: let
                                                     "kind": 134299649,
                                                     "text": "let",
                                                     "rawText": "let",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 257,
                                                     "end": 260
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34098,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 260,
                                                     "end": 262
                                                 },
@@ -839,7 +839,7 @@ L: let
                                                         "kind": 134299649,
                                                         "text": "let",
                                                         "rawText": "let",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 262,
                                                         "end": 266
                                                     },
@@ -850,55 +850,55 @@ L: let
                                                                 "kind": 201392130,
                                                                 "text": 0,
                                                                 "rawText": "0",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 267,
                                                                 "end": 268
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 267,
                                                         "end": 268
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 262,
                                                     "end": 269
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 257,
                                                 "end": 269
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 257,
                                         "end": 269
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 252,
                                     "end": 270
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 252,
                                 "end": 271
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 247,
                             "end": 271
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 247,
                     "end": 271
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 245,
                 "end": 273
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 226,
             "end": 273
         },
@@ -919,7 +919,7 @@ L: let
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 282,
                                         "end": 284
                                     },
@@ -927,11 +927,11 @@ L: let
                                         "kind": 134299649,
                                         "text": "let",
                                         "rawText": "let",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 277,
                                         "end": 281
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 277,
                                     "end": 284
                                 }
@@ -942,11 +942,11 @@ L: let
                             "start": 277,
                             "end": 284
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 276,
                         "end": 286
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 273,
                     "end": 287
                 },
@@ -964,7 +964,7 @@ L: let
                                             "kind": 134299649,
                                             "text": "let",
                                             "rawText": "let",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 295,
                                             "end": 299
                                         },
@@ -973,7 +973,7 @@ L: let
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 8448,
+                                            "flags": 1056,
                                             "start": 300,
                                             "end": 301
                                         },
@@ -990,25 +990,25 @@ L: let
                                                             "kind": 201392130,
                                                             "text": 1,
                                                             "rawText": "1",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 303,
                                                             "end": 305
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 303,
                                                         "end": 305
                                                     }
                                                 ],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 303,
                                                 "end": 305
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 301,
                                             "end": 307
                                         },
-                                        "flags": 8448,
+                                        "flags": 1056,
                                         "start": 299,
                                         "end": 307
                                     }
@@ -1019,21 +1019,21 @@ L: let
                                 "start": 291,
                                 "end": 307
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 290,
                             "end": 309
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 290,
                     "end": 309
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 273,
                 "end": 310
             },
-            "flags": 128,
+            "flags": 16,
             "start": 273,
             "end": 310
         },
@@ -1045,7 +1045,7 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 310,
                     "end": 315
                 },
@@ -1056,21 +1056,21 @@ L: let
                             "kind": 201392130,
                             "text": 100,
                             "rawText": "100",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 316,
                             "end": 319
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 316,
                     "end": 319
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 310,
                 "end": 320
             },
-            "flags": 128,
+            "flags": 16,
             "start": 310,
             "end": 320
         },
@@ -1080,7 +1080,7 @@ L: let
                 "kind": 134299649,
                 "text": "L",
                 "rawText": "L",
-                "flags": 768,
+                "flags": 96,
                 "start": 320,
                 "end": 323
             },
@@ -1090,15 +1090,15 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 324,
                     "end": 328
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 324,
                 "end": 328
             },
-            "flags": 128,
+            "flags": 16,
             "start": 320,
             "end": 328
         },
@@ -1108,11 +1108,11 @@ L: let
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 328,
                 "end": 330
             },
-            "flags": 128,
+            "flags": 16,
             "start": 328,
             "end": 330
         },
@@ -1122,7 +1122,7 @@ L: let
                 "kind": 134299649,
                 "text": "L",
                 "rawText": "L",
-                "flags": 768,
+                "flags": 96,
                 "start": 330,
                 "end": 333
             },
@@ -1132,15 +1132,15 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 334,
                     "end": 338
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 334,
                 "end": 338
             },
-            "flags": 128,
+            "flags": 16,
             "start": 330,
             "end": 338
         },
@@ -1155,21 +1155,21 @@ L: let
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 340,
                             "end": 341
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 340,
                         "end": 341
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 340,
                 "end": 341
             },
-            "flags": 128,
+            "flags": 16,
             "start": 338,
             "end": 342
         }

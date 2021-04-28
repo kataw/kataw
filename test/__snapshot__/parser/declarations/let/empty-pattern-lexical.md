@@ -19,7 +19,7 @@ let [] = [];
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -34,11 +34,11 @@ let [] = [];
                                 "kind": 202,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 5
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 6
                         },
@@ -50,24 +50,24 @@ let [] = [];
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 11
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 12
         }

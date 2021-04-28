@@ -32,7 +32,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 2
                 },
@@ -62,7 +62,7 @@ a ? b : (): string => {}
                             "kind": 134299649,
                             "text": "string",
                             "rawText": "string",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 15
                         },
@@ -75,19 +75,19 @@ a ? b : (): string => {}
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 20
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 21
                 },
@@ -101,15 +101,15 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 24,
                     "end": 27
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         },
@@ -121,7 +121,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 28,
                     "end": 31
                 },
@@ -137,7 +137,7 @@ a ? b : (): string => {}
                         "kind": 134299649,
                         "text": "async",
                         "rawText": "async",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 33,
                         "end": 39
                     },
@@ -145,11 +145,11 @@ a ? b : (): string => {}
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 33,
                         "end": 33
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 42
                 },
@@ -172,7 +172,7 @@ a ? b : (): string => {}
                         "kind": 134299649,
                         "text": "string",
                         "rawText": "string",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 43,
                         "end": 50
                     },
@@ -185,23 +185,23 @@ a ? b : (): string => {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 55,
                             "end": 55
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 53,
                         "end": 56
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 43,
                     "end": 56
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 28,
                 "end": 56
             },
-            "flags": 128,
+            "flags": 16,
             "start": 28,
             "end": 56
         },
@@ -211,11 +211,11 @@ a ? b : (): string => {}
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 59,
                 "end": 62
             },
-            "flags": 128,
+            "flags": 16,
             "start": 59,
             "end": 63
         },
@@ -227,7 +227,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 63,
                     "end": 66
                 },
@@ -257,7 +257,7 @@ a ? b : (): string => {}
                             "kind": 134299649,
                             "text": "string",
                             "rawText": "string",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 72,
                             "end": 79
                         },
@@ -270,19 +270,19 @@ a ? b : (): string => {}
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 84,
                                 "end": 84
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 82,
                             "end": 85
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 72,
                         "end": 85
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 68,
                     "end": 85
                 },
@@ -312,7 +312,7 @@ a ? b : (): string => {}
                             "kind": 134299649,
                             "text": "string",
                             "rawText": "string",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 93,
                             "end": 100
                         },
@@ -325,27 +325,27 @@ a ? b : (): string => {}
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 105,
                                 "end": 105
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 103,
                             "end": 106
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 93,
                         "end": 106
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 88,
                     "end": 106
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 63,
                 "end": 106
             },
-            "flags": 128,
+            "flags": 16,
             "start": 63,
             "end": 107
         },
@@ -371,7 +371,7 @@ a ? b : (): string => {}
                         "kind": 134299649,
                         "text": "string",
                         "rawText": "string",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 112,
                         "end": 119
                     },
@@ -384,23 +384,23 @@ a ? b : (): string => {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 124,
                             "end": 124
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 122,
                         "end": 125
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 112,
                     "end": 125
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 107,
                 "end": 125
             },
-            "flags": 128,
+            "flags": 16,
             "start": 107,
             "end": 126
         },
@@ -412,7 +412,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 126,
                     "end": 129
                 },
@@ -426,7 +426,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 131,
                     "end": 133
                 },
@@ -456,7 +456,7 @@ a ? b : (): string => {}
                             "kind": 134299649,
                             "text": "string",
                             "rawText": "string",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 139,
                             "end": 146
                         },
@@ -469,27 +469,27 @@ a ? b : (): string => {}
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 151,
                                 "end": 151
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 149,
                             "end": 152
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 139,
                         "end": 152
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 135,
                     "end": 152
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 126,
                 "end": 152
             },
-            "flags": 128,
+            "flags": 16,
             "start": 126,
             "end": 152
         }

@@ -27,7 +27,7 @@ function* bar() { yield /re/ }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -35,7 +35,7 @@ function* bar() { yield /re/ }
                 "kind": 134299649,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 13
             },
@@ -43,7 +43,7 @@ function* bar() { yield /re/ }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 15
             },
@@ -70,13 +70,13 @@ function* bar() { yield /re/ }
                                         "delegate": false,
                                         "asteriskToken": null,
                                         "expression": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 23
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -84,48 +84,48 @@ function* bar() { yield /re/ }
                                         "kind": 134299649,
                                         "text": "re",
                                         "rawText": "re",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 25,
                                         "end": 27
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 27
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 27,
                                     "end": 28
                                 },
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 28,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 28
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 28
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 30
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 30
         }

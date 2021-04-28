@@ -29,11 +29,11 @@ try { } catch ({}) {}
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
@@ -52,11 +52,11 @@ try { } catch ({}) {}
                         "properties": [],
                         "multiline": false,
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 17
                 },
@@ -66,21 +66,21 @@ try { } catch ({}) {}
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 20,
                         "end": 20
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 18,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 21
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

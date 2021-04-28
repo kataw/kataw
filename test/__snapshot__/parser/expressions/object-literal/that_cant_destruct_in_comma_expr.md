@@ -24,7 +24,7 @@ x, {x: foo + y, bar} = doo
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
@@ -43,13 +43,13 @@ x, {x: foo + y, bar} = doo
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 6,
                                                 "end": 10
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 10,
                                                 "end": 12
                                             },
@@ -57,11 +57,11 @@ x, {x: foo + y, bar} = doo
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 12,
                                                 "end": 14
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 4,
                                             "end": 14
                                         },
@@ -69,11 +69,11 @@ x, {x: foo + y, bar} = doo
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 4,
                                             "end": 5
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 14
                                     },
@@ -81,7 +81,7 @@ x, {x: foo + y, bar} = doo
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 19
                                     }
@@ -92,13 +92,13 @@ x, {x: foo + y, bar} = doo
                                 "start": 4,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 2,
                             "end": 20
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 20,
                             "end": 22
                         },
@@ -106,20 +106,20 @@ x, {x: foo + y, bar} = doo
                             "kind": 134299649,
                             "text": "doo",
                             "rawText": "doo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 2,
                         "end": 26
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

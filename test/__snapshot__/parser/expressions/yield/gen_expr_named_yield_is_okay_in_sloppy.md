@@ -33,7 +33,7 @@ var g = function* yield() {};
                             "kind": 134299649,
                             "text": "g",
                             "rawText": "g",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -50,7 +50,7 @@ var g = function* yield() {};
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 16,
                                 "end": 17
                             },
@@ -58,7 +58,7 @@ var g = function* yield() {};
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 23
                             },
@@ -66,7 +66,7 @@ var g = function* yield() {};
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 25
                             },
@@ -77,30 +77,30 @@ var g = function* yield() {};
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 27
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 28
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 7,
                             "end": 28
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 28
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

@@ -20,11 +20,11 @@
             "expression": {
                 "kind": 221,
                 "text": "/++!{class",
-                "flags": 768,
+                "flags": 96,
                 "start": 2,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 2,
             "end": 12
         }

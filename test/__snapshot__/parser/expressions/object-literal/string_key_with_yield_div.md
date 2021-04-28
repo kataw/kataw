@@ -27,7 +27,7 @@ function *f(){   s = {"foo": yield / x}   }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -35,7 +35,7 @@ function *f(){   s = {"foo": yield / x}   }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 11
             },
@@ -43,7 +43,7 @@ function *f(){   s = {"foo": yield / x}   }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },
@@ -61,13 +61,13 @@ function *f(){   s = {"foo": yield / x}   }
                                     "kind": 134299649,
                                     "text": "s",
                                     "rawText": "s",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -91,13 +91,13 @@ function *f(){   s = {"foo": yield / x}   }
                                                         "delegate": false,
                                                         "asteriskToken": null,
                                                         "expression": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 28,
                                                         "end": 34
                                                     },
                                                     "operatorToken": {
                                                         "kind": 35640,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 34,
                                                         "end": 36
                                                     },
@@ -105,11 +105,11 @@ function *f(){   s = {"foo": yield / x}   }
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 36,
                                                         "end": 38
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 22,
                                                     "end": 38
                                                 },
@@ -117,11 +117,11 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "kind": 201392131,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 22,
                                                     "end": 27
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 22,
                                                 "end": 38
                                             }
@@ -132,31 +132,31 @@ function *f(){   s = {"foo": yield / x}   }
                                         "start": 22,
                                         "end": 38
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 39
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 39
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 39
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 14,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 43
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 43
         }

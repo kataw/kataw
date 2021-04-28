@@ -45,7 +45,7 @@ result = [ x = yield ] = vals;
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
@@ -55,20 +55,20 @@ result = [ x = yield ] = vals;
                             "kind": 201392130,
                             "text": 4,
                             "rawText": "4",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 13
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 13
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -90,23 +90,23 @@ result = [ x = yield ] = vals;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 20
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 20
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 21
         },
@@ -128,23 +128,23 @@ result = [ x = yield ] = vals;
                             "kind": 134299649,
                             "text": "result",
                             "rawText": "result",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 26,
                             "end": 33
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 26,
                         "end": 33
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 34
         },
@@ -166,7 +166,7 @@ result = [ x = yield ] = vals;
                             "kind": 134299649,
                             "text": "vals",
                             "rawText": "vals",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 38,
                             "end": 43
                         },
@@ -178,24 +178,24 @@ result = [ x = yield ] = vals;
                                 "kind": 270,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 47,
                                 "end": 47
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 45,
                             "end": 48
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 38,
                         "end": 48
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 38,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 49
         },
@@ -207,13 +207,13 @@ result = [ x = yield ] = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 49,
                     "end": 57
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 57,
                     "end": 59
                 },
@@ -230,13 +230,13 @@ result = [ x = yield ] = vals;
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 61,
                                         "end": 63
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 63,
                                         "end": 65
                                     },
@@ -244,27 +244,27 @@ result = [ x = yield ] = vals;
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 65,
                                         "end": 71
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 61,
                                     "end": 71
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 61,
                             "end": 71
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 59,
                         "end": 73
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 73,
                         "end": 75
                     },
@@ -272,19 +272,19 @@ result = [ x = yield ] = vals;
                         "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 75,
                         "end": 80
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 59,
                     "end": 80
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 49,
                 "end": 80
             },
-            "flags": 128,
+            "flags": 16,
             "start": 49,
             "end": 81
         }

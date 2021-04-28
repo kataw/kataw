@@ -51,7 +51,7 @@ class C {
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -69,14 +69,14 @@ class C {
                         "key": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 15,
                             "end": 15
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 15
                     },
@@ -94,7 +94,7 @@ class C {
                                 "kind": 134299649,
                                 "text": "aaa",
                                 "rawText": "aaa",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 22
                             },
@@ -115,11 +115,11 @@ class C {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 26
                             },
@@ -132,11 +132,11 @@ class C {
                         "end": 26
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

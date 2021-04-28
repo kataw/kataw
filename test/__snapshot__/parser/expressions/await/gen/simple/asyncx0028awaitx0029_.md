@@ -25,7 +25,7 @@ async(await);
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -36,23 +36,23 @@ async(await);
                         "kind": 134299649,
                         "text": "await",
                         "rawText": "await",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 11
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 12
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 13
         }

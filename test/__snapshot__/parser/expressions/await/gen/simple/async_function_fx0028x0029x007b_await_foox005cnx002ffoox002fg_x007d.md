@@ -24,7 +24,7 @@ async function f(){ await foo\n/foo/g }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -39,7 +39,7 @@ async function f(){ await foo\n/foo/g }
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -47,7 +47,7 @@ async function f(){ await foo\n/foo/g }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -71,31 +71,31 @@ async function f(){ await foo\n/foo/g }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 25,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 29
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 29
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 29
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 29
         },
@@ -109,13 +109,13 @@ async function f(){ await foo\n/foo/g }
                         "kind": 134299649,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 30,
                         "end": 31
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 31,
                         "end": 32
                     },
@@ -123,17 +123,17 @@ async function f(){ await foo\n/foo/g }
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 32,
                         "end": 35
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 30,
                     "end": 35
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 35,
                     "end": 36
                 },
@@ -141,15 +141,15 @@ async function f(){ await foo\n/foo/g }
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 36,
                     "end": 37
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 30,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 37
         }

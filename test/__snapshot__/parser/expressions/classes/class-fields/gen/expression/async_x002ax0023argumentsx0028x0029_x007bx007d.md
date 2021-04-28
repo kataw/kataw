@@ -33,7 +33,7 @@ class C extends Base { async *#arguments() {} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,12 +50,12 @@ class C extends Base { async *#arguments() {} }
                     "kind": 134299649,
                     "text": "Base",
                     "rawText": "Base",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 20
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 20
             },
@@ -69,7 +69,7 @@ class C extends Base { async *#arguments() {} }
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 22,
                             "end": 28
                         },
@@ -80,7 +80,7 @@ class C extends Base { async *#arguments() {} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#arguments",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 30,
                                 "end": 40
                             },
@@ -89,7 +89,7 @@ class C extends Base { async *#arguments() {} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 3072,
+                                "flags": 384,
                                 "start": 41,
                                 "end": 42
                             },
@@ -101,28 +101,28 @@ class C extends Base { async *#arguments() {} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 44,
                                     "end": 44
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 42,
                                 "end": 45
                             },
-                            "flags": 3072,
+                            "flags": 384,
                             "start": 40,
                             "end": 45
                         },
-                        "flags": 3072,
+                        "flags": 384,
                         "start": 22,
                         "end": 45
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 47
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 47
         }

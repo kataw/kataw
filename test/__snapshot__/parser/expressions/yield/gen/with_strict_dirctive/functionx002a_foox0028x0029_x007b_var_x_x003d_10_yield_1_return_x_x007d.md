@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -40,7 +40,7 @@
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 22,
                 "end": 23
             },
@@ -48,7 +48,7 @@
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 27
             },
@@ -56,7 +56,7 @@
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 27,
                 "end": 29
             },
@@ -84,7 +84,7 @@
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 35,
                                             "end": 37
                                         },
@@ -94,20 +94,20 @@
                                             "kind": 201392130,
                                             "text": 10,
                                             "rawText": "10",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 39,
                                             "end": 42
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 35,
                                         "end": 42
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 35,
                                 "end": 42
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 31,
                             "end": 43
                         },
@@ -127,15 +127,15 @@
                                     "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 49,
                                     "end": 51
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 51
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 43,
                             "end": 52
                         },
@@ -151,27 +151,27 @@
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 59,
                                 "end": 61
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 0,
                             "end": 52
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 31,
                     "end": 62
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 29,
                 "end": 64
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 13,
             "end": 64
         }

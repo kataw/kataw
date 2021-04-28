@@ -30,7 +30,7 @@ switch case /)finally
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -48,21 +48,21 @@ switch case /)finally
                         "expression": {
                             "kind": 221,
                             "text": "/)finally",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 21
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 21
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

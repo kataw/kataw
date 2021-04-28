@@ -30,7 +30,7 @@ function f(){   return;return    };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -38,7 +38,7 @@ function f(){   return;return    };
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 12
             },
@@ -57,7 +57,7 @@ function f(){   return;return    };
                                 "end": 22
                             },
                             "expression": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 0,
                             "end": 13
                         },
@@ -70,29 +70,29 @@ function f(){   return;return    };
                                 "end": 29
                             },
                             "expression": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 0,
                             "end": 23
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 34
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 34,
             "end": 35
         }

@@ -30,7 +30,7 @@ switch case /false//a
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -50,13 +50,13 @@ switch case /false//a
                             "left": {
                                 "kind": 221,
                                 "text": "/false/",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 19,
                                 "end": 20
                             },
@@ -64,25 +64,25 @@ switch case /false//a
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 21
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 21
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 21
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

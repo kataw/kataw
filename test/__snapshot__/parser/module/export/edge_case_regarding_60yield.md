@@ -39,11 +39,11 @@ export default yield x
                 "kind": 134299649,
                 "text": "yield",
                 "rawText": "yield",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         },
@@ -53,11 +53,11 @@ export default yield x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 22
         }

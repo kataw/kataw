@@ -429,7 +429,7 @@ x = # ;
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -444,11 +444,11 @@ x = # ;
                     "expression": {
                         "kind": 67109115,
                         "text": "#",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 9
                 },
@@ -462,15 +462,15 @@ x = # ;
                     "kind": 134299649,
                     "text": "baz",
                     "rawText": "baz",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

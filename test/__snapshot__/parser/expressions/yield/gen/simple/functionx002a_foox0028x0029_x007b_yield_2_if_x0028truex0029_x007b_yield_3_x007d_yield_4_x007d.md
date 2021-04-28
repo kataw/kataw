@@ -31,7 +31,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 9
             },
@@ -39,7 +39,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 9,
                 "end": 13
             },
@@ -47,7 +47,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 15
             },
@@ -73,15 +73,15 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 25
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 26
                         },
@@ -96,7 +96,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "expression": {
                                 "kind": 134,
                                 "text": true,
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 31,
                                 "end": 35
                             },
@@ -121,37 +121,37 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     "kind": 201392130,
                                                     "text": 3,
                                                     "rawText": "3",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 44,
                                                     "end": 46
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 38,
                                                 "end": 46
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 38,
                                             "end": 46
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 38,
                                     "end": 46
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 36,
                                 "end": 48
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 26,
                             "end": 48
                         },
                         {
                             "kind": 168,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 48,
                             "end": 49
                         },
@@ -171,31 +171,31 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                     "kind": 201392130,
                                     "text": 4,
                                     "rawText": "4",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 55,
                                     "end": 57
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 49,
                                 "end": 57
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 49,
                             "end": 57
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 57
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 59
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 59
         }

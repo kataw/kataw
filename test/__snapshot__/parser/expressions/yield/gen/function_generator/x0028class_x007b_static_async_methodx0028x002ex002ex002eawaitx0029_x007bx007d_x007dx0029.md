@@ -31,7 +31,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -39,7 +39,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 14
             },
@@ -47,7 +47,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                 "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 35
                             },
@@ -80,7 +80,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 37
                             },
@@ -115,13 +115,13 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                 "decorators": null,
                                                                 "staticKeyword": {
                                                                     "kind": 8388716,
-                                                                    "flags": 512,
+                                                                    "flags": 64,
                                                                     "start": 48,
                                                                     "end": 55
                                                                 },
                                                                 "asyncKeyword": {
                                                                     "kind": 82031,
-                                                                    "flags": 512,
+                                                                    "flags": 64,
                                                                     "start": 55,
                                                                     "end": 61
                                                                 },
@@ -133,7 +133,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                         "kind": 134299649,
                                                                         "text": "method",
                                                                         "rawText": "method",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 61,
                                                                         "end": 68
                                                                     },
@@ -145,7 +145,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                 "kind": 215,
                                                                                 "ellipsisToken": {
                                                                                     "kind": 524302,
-                                                                                    "flags": 512,
+                                                                                    "flags": 64,
                                                                                     "start": 69,
                                                                                     "end": 72
                                                                                 },
@@ -153,20 +153,20 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                     "kind": 134299649,
                                                                                     "text": "await",
                                                                                     "rawText": "await",
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 72,
                                                                                     "end": 77
                                                                                 },
                                                                                 "optionalToken": null,
                                                                                 "type": null,
                                                                                 "initializer": null,
-                                                                                "flags": 258,
+                                                                                "flags": 34,
                                                                                 "start": 69,
                                                                                 "end": 77
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 2306,
+                                                                        "flags": 290,
                                                                         "start": 69,
                                                                         "end": 78
                                                                     },
@@ -178,68 +178,68 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "directives": [],
                                                                             "statements": [],
                                                                             "multiline": false,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 80,
                                                                             "end": 80
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 78,
                                                                         "end": 81
                                                                     },
-                                                                    "flags": 2048,
+                                                                    "flags": 256,
                                                                     "start": 68,
                                                                     "end": 81
                                                                 },
-                                                                "flags": 2048,
+                                                                "flags": 256,
                                                                 "start": 55,
                                                                 "end": 81
                                                             }
                                                         ],
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 48,
                                                         "end": 83
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 41,
                                                     "end": 83
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 39,
                                                 "end": 84
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 39,
                                             "end": 84
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 84
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 86
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 86
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 86
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 87
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 87
         }

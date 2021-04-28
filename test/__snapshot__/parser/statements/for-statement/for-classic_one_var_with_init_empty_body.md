@@ -51,7 +51,7 @@ for (var a=1;;);
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
@@ -61,16 +61,16 @@ for (var a=1;;);
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 12
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 12
             },
@@ -78,11 +78,11 @@ for (var a=1;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

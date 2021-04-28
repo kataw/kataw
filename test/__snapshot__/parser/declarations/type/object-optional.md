@@ -40,7 +40,7 @@ type T = { [[foo]]?: X }
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
@@ -48,7 +48,7 @@ type T = { [[foo]]?: X }
                 "kind": 134299649,
                 "text": "T",
                 "rawText": "T",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 6
             },
@@ -66,7 +66,7 @@ type T = { [[foo]]?: X }
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 16
                         },
@@ -76,7 +76,7 @@ type T = { [[foo]]?: X }
                                 "kind": 134299649,
                                 "text": "X",
                                 "rawText": "X",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 22
                             },
@@ -87,7 +87,7 @@ type T = { [[foo]]?: X }
                         },
                         "optionalToken": {
                             "kind": 134217750,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 18,
                             "end": 19
                         },
@@ -101,7 +101,7 @@ type T = { [[foo]]?: X }
                 "start": 8,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

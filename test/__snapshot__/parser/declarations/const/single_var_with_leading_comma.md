@@ -43,18 +43,18 @@ const {,x} = obj;
                                 "properties": [],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 7
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 7
                     },
@@ -64,23 +64,23 @@ const {,x} = obj;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 9
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 9
         },
@@ -90,11 +90,11 @@ const {,x} = obj;
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 12,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 17
         }

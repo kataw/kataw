@@ -25,12 +25,20 @@
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 8
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 14
                                 },
@@ -45,14 +53,14 @@
                                                 "kind": 134299649,
                                                 "text": "await",
                                                 "rawText": "await",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 15,
                                                 "end": 20
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 20
                                         },
@@ -63,20 +71,20 @@
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 20,
                                                 "end": 22
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 20,
                                             "end": 22
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 3328,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 23
                                 },
@@ -88,15 +96,15 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 24
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 25
                                 },
-                                "flags": 3328,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 25
                             }
@@ -107,15 +115,15 @@
                         "start": 2,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }
@@ -138,7 +146,7 @@
 ### Diagnostics
 
 ```javascript
-✖ `Await` expression cannot be used in function parameters - start: 15, end: 20
+✖ ',' expected - start: 10, end: 14
 ✖ ',' expected - start: 20, end: 22
 
 ```

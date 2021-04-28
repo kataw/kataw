@@ -59,12 +59,12 @@ const {x, y} = obj;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 8
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -75,23 +75,23 @@ const {x, y} = obj;
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 11
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 12
                         },
@@ -101,20 +101,20 @@ const {x, y} = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 18
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 18
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 19
         }

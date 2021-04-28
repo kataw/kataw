@@ -37,7 +37,7 @@
                         "kind": 134299649,
                         "text": "call",
                         "rawText": "call",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 14
                     },
@@ -51,7 +51,7 @@
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 18
                                 },
@@ -61,17 +61,17 @@
                                     "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 24
                                 },
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 15,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 258,
+                        "flags": 34,
                         "start": 14,
                         "end": 25
                     },
@@ -82,25 +82,25 @@
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 26,
                             "end": 26
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 27
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 27
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

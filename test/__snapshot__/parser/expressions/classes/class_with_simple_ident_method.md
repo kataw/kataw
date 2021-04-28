@@ -29,7 +29,7 @@ class A {a(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class A {a(){}}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 10
                             },
@@ -73,11 +73,11 @@ class A {a(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 13
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 14
                             },
@@ -90,11 +90,11 @@ class A {a(){}}
                         "end": 14
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

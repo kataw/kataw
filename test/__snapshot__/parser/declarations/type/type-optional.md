@@ -40,7 +40,7 @@ type a = ??string;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 6
             },
@@ -48,7 +48,7 @@ type a = ??string;
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 6
             },
@@ -60,7 +60,7 @@ type a = ??string;
                     "kind": 134217970,
                     "type": {
                         "kind": 134234347,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 11,
                         "end": 17
                     },
@@ -72,7 +72,7 @@ type a = ??string;
                 "start": 8,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

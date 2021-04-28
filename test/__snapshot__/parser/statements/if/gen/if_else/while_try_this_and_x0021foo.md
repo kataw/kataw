@@ -30,7 +30,7 @@ if while try this and !foo else
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -45,7 +45,7 @@ if while try this and !foo else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 8,
                     "end": 8
                 },
@@ -63,11 +63,11 @@ if while try this and !foo else
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 12,
                             "end": 12
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 12
                     },
@@ -79,25 +79,25 @@ if while try this and !foo else
                             "kind": 124,
                             "statements": [],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 17,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 17
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 17
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 17
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -107,11 +107,11 @@ if while try this and !foo else
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 21
         },
@@ -121,7 +121,7 @@ if while try this and !foo else
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 21,
                     "end": 23
                 },
@@ -129,15 +129,15 @@ if while try this and !foo else
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 23,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 26
         }

@@ -29,22 +29,22 @@ something.#x
                     "kind": 134299649,
                     "text": "something",
                     "rawText": "something",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 9
                 },
                 "expression": {
                     "kind": 67109115,
                     "text": "#x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

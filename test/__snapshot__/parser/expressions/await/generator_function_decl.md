@@ -27,7 +27,7 @@ function *await(){}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -35,7 +35,7 @@ function *await(){}
                 "kind": 134299649,
                 "text": "await",
                 "rawText": "await",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 15
             },
@@ -43,7 +43,7 @@ function *await(){}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 17
             },
@@ -54,17 +54,17 @@ function *await(){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 19
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 19
         }

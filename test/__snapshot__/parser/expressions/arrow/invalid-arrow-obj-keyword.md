@@ -38,7 +38,7 @@
                                     "kind": 134299649,
                                     "text": "const",
                                     "rawText": "const",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 7
                                 }
@@ -49,7 +49,7 @@
                             "start": 2,
                             "end": 7
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 8
                     }
@@ -60,15 +60,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -93,7 +93,7 @@
                                     "kind": 134299649,
                                     "text": "debugger",
                                     "rawText": "debugger",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 27
                                 }
@@ -104,7 +104,7 @@
                             "start": 19,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 18,
                         "end": 28
                     }
@@ -115,15 +115,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 32,
                     "end": 34
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 35
         }

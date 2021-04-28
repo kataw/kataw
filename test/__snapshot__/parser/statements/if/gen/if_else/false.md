@@ -30,7 +30,7 @@ if false else
             "expression": {
                 "kind": 134,
                 "text": false,
-                "flags": 768,
+                "flags": 96,
                 "start": 2,
                 "end": 8
             },
@@ -39,17 +39,17 @@ if false else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 8
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 13
             },
@@ -58,15 +58,15 @@ if false else
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

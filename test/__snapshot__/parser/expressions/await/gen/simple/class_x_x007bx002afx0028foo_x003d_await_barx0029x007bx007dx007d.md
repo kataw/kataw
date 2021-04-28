@@ -33,7 +33,7 @@ class x {*f(foo = await bar){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class x {*f(foo = await bar){}}
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 11
                             },
@@ -71,7 +71,7 @@ class x {*f(foo = await bar){}}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 15
                                         },
@@ -81,11 +81,11 @@ class x {*f(foo = await bar){}}
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 23
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 12,
                                         "end": 23
                                     },
@@ -96,20 +96,20 @@ class x {*f(foo = await bar){}}
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 23,
                                             "end": 27
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 23,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 12,
                                 "end": 28
                             },
@@ -121,11 +121,11 @@ class x {*f(foo = await bar){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 30
                             },
@@ -138,11 +138,11 @@ class x {*f(foo = await bar){}}
                         "end": 30
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

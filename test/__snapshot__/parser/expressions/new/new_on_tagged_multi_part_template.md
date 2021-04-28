@@ -31,7 +31,7 @@ new Foo`a${b}c${c}e`
                         "kind": 134299649,
                         "text": "Foo",
                         "rawText": "Foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 3,
                         "end": 7
                     },
@@ -46,11 +46,11 @@ new Foo`a${b}c${c}e`
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 11,
                                     "end": 12
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 12
                             },
@@ -62,11 +62,11 @@ new Foo`a${b}c${c}e`
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 17
                             }
@@ -75,24 +75,24 @@ new Foo`a${b}c${c}e`
                             "kind": 458761,
                             "text": "e",
                             "rawText": "e",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 20
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 20
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

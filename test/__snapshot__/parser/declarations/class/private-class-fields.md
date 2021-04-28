@@ -32,7 +32,7 @@ class C { #aaa
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,20 +50,20 @@ class C { #aaa
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 14
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 15
                     },
@@ -76,23 +76,23 @@ class C { #aaa
                         "key": {
                             "kind": 67109115,
                             "text": "#bbb",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 20
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 15,
                         "end": 20
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         },
@@ -110,7 +110,7 @@ class C { #aaa
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 29,
                 "end": 31
             },
@@ -128,14 +128,14 @@ class C { #aaa
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 33,
                             "end": 38
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 33,
                         "end": 38
                     },
@@ -148,23 +148,23 @@ class C { #aaa
                         "key": {
                             "kind": 67109115,
                             "text": "#bbb",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 38,
                             "end": 44
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 38,
                         "end": 44
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 33,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 46
         }

@@ -43,7 +43,7 @@ for (function(){ a in b; }.prop in x);
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 31,
                 "end": 34
             },
@@ -65,7 +65,7 @@ for (function(){ a in b; }.prop in x);
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 13,
                         "end": 15
                     },
@@ -83,13 +83,13 @@ for (function(){ a in b; }.prop in x);
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 18
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 18,
                                             "end": 21
                                         },
@@ -97,31 +97,31 @@ for (function(){ a in b; }.prop in x);
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 23
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 23
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 16,
                                     "end": 24
                                 }
                             ],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 15,
                         "end": 26
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 26
                 },
@@ -129,11 +129,11 @@ for (function(){ a in b; }.prop in x);
                     "kind": 134299649,
                     "text": "prop",
                     "rawText": "prop",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 27,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 31
             },
@@ -141,17 +141,17 @@ for (function(){ a in b; }.prop in x);
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 34,
                 "end": 36
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 37,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 38
         }

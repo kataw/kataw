@@ -33,12 +33,12 @@ new 'foo'.__proto__.constructor
                             "kind": 201392131,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 67109632,
+                            "flags": 4194400,
                             "start": 3,
                             "end": 9
                         },
                         "argumentList": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 9
                     },
@@ -46,11 +46,11 @@ new 'foo'.__proto__.constructor
                         "kind": 134299649,
                         "text": "__proto__",
                         "rawText": "__proto__",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 10,
                         "end": 19
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 19
                 },
@@ -58,15 +58,15 @@ new 'foo'.__proto__.constructor
                     "kind": 134299649,
                     "text": "constructor",
                     "rawText": "constructor",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

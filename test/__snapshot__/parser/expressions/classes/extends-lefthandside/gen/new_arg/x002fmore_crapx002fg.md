@@ -32,16 +32,16 @@ new /more crap/g
                 "expression": {
                     "kind": 221,
                     "text": "/more crap/g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 3,
                     "end": 16
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

@@ -30,7 +30,7 @@ class x {    async async get f(x){}    }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -46,7 +46,7 @@ class x {    async async get f(x){}    }
                         "staticToken": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 18
                         },
@@ -54,14 +54,14 @@ class x {    async async get f(x){}    }
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 24
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 24
                     },
@@ -73,7 +73,7 @@ class x {    async async get f(x){}    }
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 24,
                             "end": 28
                         },
@@ -84,7 +84,7 @@ class x {    async async get f(x){}    }
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 30
                             },
@@ -99,20 +99,20 @@ class x {    async async get f(x){}    }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 31,
                                             "end": 32
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 8448,
+                                "flags": 1056,
                                 "start": 31,
                                 "end": 33
                             },
@@ -124,28 +124,28 @@ class x {    async async get f(x){}    }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 35
                             },
-                            "flags": 8192,
+                            "flags": 1024,
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 8192,
+                        "flags": 1024,
                         "start": 24,
                         "end": 35
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

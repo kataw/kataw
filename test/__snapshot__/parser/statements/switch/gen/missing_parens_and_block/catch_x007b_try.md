@@ -30,7 +30,7 @@ switch case catch { try
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -48,21 +48,21 @@ switch case catch { try
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 11,
                             "end": 11
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 11
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -88,11 +88,11 @@ switch case catch { try
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 23,
                                 "end": 23
                             },
@@ -104,25 +104,25 @@ switch case catch { try
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 23
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 19,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 17,
                 "end": 23
             },
@@ -134,15 +134,15 @@ switch case catch { try
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 23
         }

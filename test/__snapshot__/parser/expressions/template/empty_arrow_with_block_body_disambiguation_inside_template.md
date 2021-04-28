@@ -22,7 +22,7 @@
                 "member": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 0,
                     "end": 0
                 },
@@ -52,19 +52,19 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 10
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 9,
                                     "end": 11
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 0,
                             "end": 11
                         }
@@ -73,19 +73,19 @@
                         "kind": 458761,
                         "text": " b",
                         "rawText": " b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

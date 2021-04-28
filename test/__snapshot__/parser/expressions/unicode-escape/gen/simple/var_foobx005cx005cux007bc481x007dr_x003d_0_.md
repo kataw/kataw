@@ -37,23 +37,23 @@ var foob\\u{c481}r = 0;
                             "kind": 134299649,
                             "text": "foob",
                             "rawText": "foob",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 8
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 8
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -65,13 +65,13 @@ var foob\\u{c481}r = 0;
                     "kind": 134299649,
                     "text": "쒁r",
                     "rawText": "foob",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 18,
                     "end": 20
                 },
@@ -79,15 +79,15 @@ var foob\\u{c481}r = 0;
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 23
         }

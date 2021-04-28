@@ -57,13 +57,13 @@
                                         "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 4,
                                         "end": 9
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -71,31 +71,31 @@
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 13
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 4,
                                     "end": 13
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1,
                         "end": 13
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 16
                 },
@@ -103,15 +103,15 @@
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

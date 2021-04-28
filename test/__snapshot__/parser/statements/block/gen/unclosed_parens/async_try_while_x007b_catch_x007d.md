@@ -30,15 +30,15 @@
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 8
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 8
                     },
@@ -56,11 +56,11 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 12,
                             "end": 12
                         },
@@ -80,11 +80,11 @@
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 26,
                                                 "end": 26
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 26,
                                             "end": 26
                                         },
@@ -96,39 +96,39 @@
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 28,
                                                 "end": 28
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 28,
                                             "end": 28
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 20,
                                         "end": 28
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 28
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 28
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 28
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

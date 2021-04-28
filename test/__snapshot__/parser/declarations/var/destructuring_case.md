@@ -62,11 +62,11 @@ var {[2]: y = 1} = {2:3}
                                                 "kind": 201392130,
                                                 "text": 2,
                                                 "rawText": "2",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -77,7 +77,7 @@ var {[2]: y = 1} = {2:3}
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 9,
                                                 "end": 11
                                             },
@@ -85,26 +85,26 @@ var {[2]: y = 1} = {2:3}
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 13,
                                                 "end": 15
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 15
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 15
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 16
                         },
@@ -121,7 +121,7 @@ var {[2]: y = 1} = {2:3}
                                             "kind": 201392130,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 23
                                         },
@@ -129,11 +129,11 @@ var {[2]: y = 1} = {2:3}
                                             "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 21
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 23
                                     }
@@ -144,20 +144,20 @@ var {[2]: y = 1} = {2:3}
                                 "start": 20,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 24
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 24
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

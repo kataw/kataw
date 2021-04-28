@@ -30,7 +30,7 @@ do do do =! class function try while with foo! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 36,
                 "end": 36
             },
@@ -51,7 +51,7 @@ do do do =! class function try while with foo! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 30,
                     "end": 30
                 },
@@ -67,7 +67,7 @@ do do do =! class function try while with foo! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 26,
                         "end": 26
                     },
@@ -79,13 +79,13 @@ do do do =! class function try while with foo! while while while
                             "left": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 8,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 8,
                                 "end": 10
                             },
@@ -93,7 +93,7 @@ do do do =! class function try while with foo! while while while
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -112,35 +112,35 @@ do do do =! class function try while with foo! while while while
                                     "members": {
                                         "kind": 277,
                                         "elements": [],
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 11
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 8,
                             "end": 17
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 17
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         },
@@ -156,7 +156,7 @@ do do do =! class function try while with foo! while while while
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 41,
                 "end": 45
             },
@@ -166,26 +166,26 @@ do do do =! class function try while with foo! while while while
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 45,
                         "end": 46
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 46,
                         "end": 46
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 45,
                     "end": 46
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 45,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 36,
             "end": 46
         },
@@ -200,7 +200,7 @@ do do do =! class function try while with foo! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 52,
                 "end": 52
             },
@@ -215,7 +215,7 @@ do do do =! class function try while with foo! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 58,
                     "end": 58
                 },
@@ -230,7 +230,7 @@ do do do =! class function try while with foo! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 64,
                         "end": 64
                     },
@@ -239,23 +239,23 @@ do do do =! class function try while with foo! while while while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 64,
                             "end": 64
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 64,
                         "end": 64
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 58,
                     "end": 64
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 52,
                 "end": 64
             },
-            "flags": 128,
+            "flags": 16,
             "start": 46,
             "end": 64
         }

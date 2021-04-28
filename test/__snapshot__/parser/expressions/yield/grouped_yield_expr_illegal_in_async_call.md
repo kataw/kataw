@@ -21,7 +21,7 @@ async (x = (yield x))
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -34,13 +34,13 @@ async (x = (yield x))
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 8,
                             "end": 10
                         },
@@ -48,15 +48,15 @@ async (x = (yield x))
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 17
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 17
                     },
@@ -64,17 +64,17 @@ async (x = (yield x))
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 20
         }

@@ -48,7 +48,7 @@ class x { `constructor`(){} }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -57,11 +57,11 @@ class x { `constructor`(){} }
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -73,7 +73,7 @@ class x { `constructor`(){} }
                     "kind": 458761,
                     "text": "constructor",
                     "rawText": "constructor",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 23
                 },
@@ -81,15 +81,15 @@ class x { `constructor`(){} }
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 25
         },
@@ -99,11 +99,11 @@ class x { `constructor`(){} }
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 27
         }

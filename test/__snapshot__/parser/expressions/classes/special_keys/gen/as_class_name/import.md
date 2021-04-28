@@ -32,7 +32,7 @@ class import {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 5,
                 "end": 5
             },
@@ -41,11 +41,11 @@ class import {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -60,7 +60,7 @@ class import {}
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
@@ -78,15 +78,15 @@ class import {}
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 15
         }

@@ -35,7 +35,7 @@ export * from "foo"
                 "kind": 259,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 0,
                 "end": 8
             },
@@ -43,11 +43,11 @@ export * from "foo"
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

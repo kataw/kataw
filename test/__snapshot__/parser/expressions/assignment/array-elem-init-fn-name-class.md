@@ -23,13 +23,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -46,13 +46,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "kind": 134299649,
                                         "text": "xCls",
                                         "rawText": "xCls",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 15
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -69,7 +69,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 23,
                                             "end": 25
                                         },
@@ -78,15 +78,15 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "members": {
                                             "kind": 277,
                                             "elements": [],
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 27,
                                             "end": 28
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 28
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 28
                                 },
@@ -96,13 +96,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "kind": 134299649,
                                         "text": "cls",
                                         "rawText": "cls",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 29,
                                         "end": 33
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 33,
                                         "end": 35
                                     },
@@ -121,15 +121,15 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "members": {
                                             "kind": 277,
                                             "elements": [],
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 43,
                                             "end": 44
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 35,
                                         "end": 44
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 44
                                 },
@@ -139,13 +139,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "kind": 134299649,
                                         "text": "xCls2",
                                         "rawText": "xCls2",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 45,
                                         "end": 51
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 51,
                                         "end": 53
                                     },
@@ -170,7 +170,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                     "decorators": null,
                                                     "staticKeyword": {
                                                         "kind": 8388716,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 61,
                                                         "end": 68
                                                     },
@@ -183,7 +183,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                             "kind": 134299649,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 68,
                                                             "end": 73
                                                         },
@@ -204,11 +204,11 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "multiline": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 77,
                                                                 "end": 77
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 75,
                                                             "end": 78
                                                         },
@@ -221,31 +221,31 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                     "end": 78
                                                 }
                                             ],
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 61,
                                             "end": 80
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 53,
                                         "end": 80
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 45,
                                     "end": 80
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 80
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 82
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 82,
                         "end": 84
                     },
@@ -253,19 +253,19 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                         "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 84,
                         "end": 89
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 89
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 89
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 90
         }

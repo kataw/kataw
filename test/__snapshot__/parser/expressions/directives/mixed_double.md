@@ -25,7 +25,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 768,
+            "flags": 96,
             "start": 0,
             "end": 12
         },
@@ -33,7 +33,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 13,
             "end": 26
         }
@@ -51,7 +51,7 @@
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 34,
                 "end": 35
             },
@@ -61,15 +61,15 @@
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 36,
                     "end": 38
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 36,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 39
         }

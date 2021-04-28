@@ -25,11 +25,11 @@ this
             "kind": 120,
             "expression": {
                 "kind": 135,
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         }

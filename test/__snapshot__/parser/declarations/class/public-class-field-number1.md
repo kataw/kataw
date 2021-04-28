@@ -37,7 +37,7 @@ class C { 1e2 }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,23 +56,23 @@ class C { 1e2 }
                             "kind": 201392130,
                             "text": 100,
                             "rawText": "1e2",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 13
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 13
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

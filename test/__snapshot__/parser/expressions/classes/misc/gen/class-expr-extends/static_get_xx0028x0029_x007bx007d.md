@@ -46,12 +46,12 @@
                             "kind": 134299649,
                             "text": "Base",
                             "rawText": "Base",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 19
                         },
                         "typeParameter": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 19
                     },
@@ -64,14 +64,14 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 21,
                                     "end": 27
                                 },
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 27,
                                     "end": 31
                                 },
@@ -82,7 +82,7 @@
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 31,
                                         "end": 33
                                     },
@@ -91,7 +91,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 8192,
+                                        "flags": 1024,
                                         "start": 34,
                                         "end": 35
                                     },
@@ -103,36 +103,36 @@
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 37,
                                             "end": 37
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 35,
                                         "end": 38
                                     },
-                                    "flags": 8192,
+                                    "flags": 1024,
                                     "start": 33,
                                     "end": 38
                                 },
-                                "flags": 8192,
+                                "flags": 1024,
                                 "start": 27,
                                 "end": 38
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 39
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 41
         }

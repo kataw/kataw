@@ -31,11 +31,11 @@ do throw function (v, h) {
                     "kind": 201392131,
                     "text": "",
                     "rawText": "",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 52,
                     "end": 54
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 51,
                 "end": 55
             },
@@ -74,14 +74,14 @@ do throw function (v, h) {
                                     "kind": 134299649,
                                     "text": "v",
                                     "rawText": "v",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 20
                                 },
                                 "optionalToken": null,
                                 "type": null,
                                 "initializer": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 20
                             },
@@ -92,20 +92,20 @@ do throw function (v, h) {
                                     "kind": 134299649,
                                     "text": "h",
                                     "rawText": "h",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "optionalToken": null,
                                 "type": null,
                                 "initializer": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 23
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 17,
                         "end": 24
                     },
@@ -118,32 +118,32 @@ do throw function (v, h) {
                                     "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
-                                    "flags": 769,
+                                    "flags": 97,
                                     "start": 26,
                                     "end": 41
                                 }
                             ],
                             "statements": [],
                             "multiline": true,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 26,
                             "end": 41
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 24,
                         "end": 43
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 43
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 56
         }

@@ -27,7 +27,7 @@ async () => new await x()
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -54,7 +54,7 @@ async () => new await x()
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 23
                         },
@@ -62,24 +62,24 @@ async () => new await x()
                             "kind": 256,
                             "elements": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 24,
                             "end": 24
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 25
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 25
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 25
         }

@@ -32,7 +32,7 @@ import {a: b} from "bar";
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 9,
                 "end": 9
             },
@@ -54,11 +54,11 @@ import {a: b} from "bar";
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 9
                             }
@@ -67,15 +67,15 @@ import {a: b} from "bar";
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 9
         },
@@ -85,11 +85,11 @@ import {a: b} from "bar";
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 12
         },
@@ -99,11 +99,11 @@ import {a: b} from "bar";
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "from",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 18
         },
@@ -113,11 +113,11 @@ import {a: b} from "bar";
                 "kind": 201392131,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 768,
+                "flags": 96,
                 "start": 18,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 25
         }

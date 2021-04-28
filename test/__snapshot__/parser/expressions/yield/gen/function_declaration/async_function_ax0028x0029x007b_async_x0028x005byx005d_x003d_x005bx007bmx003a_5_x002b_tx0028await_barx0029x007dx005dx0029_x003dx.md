@@ -34,7 +34,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -57,7 +57,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 20,
                                 "end": 26
                             },
@@ -72,7 +72,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 35,
                                 "end": 37
                             },
@@ -80,7 +80,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 39
                             },
@@ -96,7 +96,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                 "kind": 134299649,
                                                 "text": "async",
                                                 "rawText": "async",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 40,
                                                 "end": 50
                                             },
@@ -114,23 +114,23 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                         "kind": 134299649,
                                                                         "text": "y",
                                                                         "rawText": "y",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 53,
                                                                         "end": 54
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 53,
                                                                 "end": 54
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 52,
                                                             "end": 55
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 512,
+                                                            "flags": 64,
                                                             "start": 55,
                                                             "end": 57
                                                         },
@@ -152,13 +152,13 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                             "kind": 201392130,
                                                                                             "text": 5,
                                                                                             "rawText": "5",
-                                                                                            "flags": 768,
+                                                                                            "flags": 96,
                                                                                             "start": 62,
                                                                                             "end": 64
                                                                                         },
                                                                                         "operatorToken": {
                                                                                             "kind": 34098,
-                                                                                            "flags": 512,
+                                                                                            "flags": 64,
                                                                                             "start": 64,
                                                                                             "end": 66
                                                                                         },
@@ -168,7 +168,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                 "kind": 134299649,
                                                                                                 "text": "t",
                                                                                                 "rawText": "t",
-                                                                                                "flags": 768,
+                                                                                                "flags": 96,
                                                                                                 "start": 66,
                                                                                                 "end": 68
                                                                                             },
@@ -187,25 +187,25 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                             "kind": 134299649,
                                                                                                             "text": "bar",
                                                                                                             "rawText": "bar",
-                                                                                                            "flags": 768,
+                                                                                                            "flags": 96,
                                                                                                             "start": 74,
                                                                                                             "end": 78
                                                                                                         },
-                                                                                                        "flags": 256,
+                                                                                                        "flags": 32,
                                                                                                         "start": 69,
                                                                                                         "end": 78
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
-                                                                                                "flags": 256,
+                                                                                                "flags": 32,
                                                                                                 "start": 69,
                                                                                                 "end": 78
                                                                                             },
-                                                                                            "flags": 256,
+                                                                                            "flags": 32,
                                                                                             "start": 66,
                                                                                             "end": 79
                                                                                         },
-                                                                                        "flags": 256,
+                                                                                        "flags": 32,
                                                                                         "start": 60,
                                                                                         "end": 79
                                                                                     },
@@ -213,11 +213,11 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                         "kind": 134299649,
                                                                                         "text": "m",
                                                                                         "rawText": "m",
-                                                                                        "flags": 768,
+                                                                                        "flags": 96,
                                                                                         "start": 60,
                                                                                         "end": 61
                                                                                     },
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 60,
                                                                                     "end": 79
                                                                                 }
@@ -228,63 +228,63 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                             "start": 60,
                                                                             "end": 79
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 59,
                                                                         "end": 80
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 59,
                                                                 "end": 80
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 57,
                                                             "end": 81
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 52,
                                                         "end": 81
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 40,
                                                 "end": 40
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 40,
                                             "end": 82
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 82
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 82
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1152,
+                            "flags": 144,
                             "start": 20,
                             "end": 82
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 82
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 82
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 82
         },
@@ -294,11 +294,11 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 87,
                 "end": 87
             },
-            "flags": 128,
+            "flags": 16,
             "start": 85,
             "end": 88
         }

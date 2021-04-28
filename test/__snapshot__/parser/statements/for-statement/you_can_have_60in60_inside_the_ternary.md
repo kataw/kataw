@@ -47,7 +47,7 @@ for (true ? a in b : {}; false; ) ;
                 "shortCircuit": {
                     "kind": 134,
                     "text": true,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 9
                 },
@@ -63,13 +63,13 @@ for (true ? a in b : {}; false; ) ;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 11,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 13,
                         "end": 16
                     },
@@ -77,11 +77,11 @@ for (true ? a in b : {}; false; ) ;
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 16,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 11,
                     "end": 18
                 },
@@ -102,11 +102,11 @@ for (true ? a in b : {}; false; ) ;
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
@@ -114,17 +114,17 @@ for (true ? a in b : {}; false; ) ;
             "incrementor": {
                 "kind": 134,
                 "text": false,
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 30
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 33,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

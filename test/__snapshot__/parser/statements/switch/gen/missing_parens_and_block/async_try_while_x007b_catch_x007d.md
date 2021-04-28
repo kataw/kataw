@@ -30,7 +30,7 @@ switch case async try while { catch }
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -49,7 +49,7 @@ switch case async try while { catch }
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 17
                         },
@@ -68,11 +68,11 @@ switch case async try while { catch }
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 21,
                                         "end": 21
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 21,
                                     "end": 21
                                 },
@@ -92,11 +92,11 @@ switch case async try while { catch }
                                                         "kind": 124,
                                                         "statements": [],
                                                         "multiLine": false,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 35,
                                                         "end": 35
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 35,
                                                     "end": 35
                                                 },
@@ -108,43 +108,43 @@ switch case async try while { catch }
                                                         "kind": 124,
                                                         "statements": [],
                                                         "multiLine": false,
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 37,
                                                         "end": 37
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 37,
                                                     "end": 37
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 29,
                                                 "end": 37
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 29,
                                         "end": 37
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 27,
                                     "end": 37
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 37
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 37
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         }

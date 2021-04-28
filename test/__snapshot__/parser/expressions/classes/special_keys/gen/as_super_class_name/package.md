@@ -33,7 +33,7 @@ class x extends package {}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,23 +50,23 @@ class x extends package {}
                     "kind": 134299649,
                     "text": "package",
                     "rawText": "package",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 23
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 23
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 25,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

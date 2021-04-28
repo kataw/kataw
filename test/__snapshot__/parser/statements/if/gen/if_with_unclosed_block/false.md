@@ -25,11 +25,11 @@ else {} if(x) { false
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         },
@@ -45,7 +45,7 @@ else {} if(x) { false
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
@@ -59,27 +59,27 @@ else {} if(x) { false
                             "expression": {
                                 "kind": 134,
                                 "text": false,
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 21
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 21
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 21
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 21
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 21
         }

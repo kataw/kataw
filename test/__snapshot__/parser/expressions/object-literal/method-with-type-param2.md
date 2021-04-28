@@ -31,13 +31,13 @@ a={*id<T>(x: T): T {}}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 2
                 },
@@ -52,7 +52,7 @@ a={*id<T>(x: T): T {}}
                                     "kind": 134299649,
                                     "text": "id",
                                     "rawText": "id",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 4,
                                     "end": 6
                                 },
@@ -65,7 +65,7 @@ a={*id<T>(x: T): T {}}
                                                 "kind": 134299649,
                                                 "text": "T",
                                                 "rawText": "T",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 7,
                                                 "end": 8
                                             },
@@ -89,7 +89,7 @@ a={*id<T>(x: T): T {}}
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -102,7 +102,7 @@ a={*id<T>(x: T): T {}}
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 12,
                                                         "end": 14
                                                     },
@@ -116,13 +116,13 @@ a={*id<T>(x: T): T {}}
                                                 "end": 14
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 14
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 1280,
+                                    "flags": 160,
                                     "start": 10,
                                     "end": 15
                                 },
@@ -134,7 +134,7 @@ a={*id<T>(x: T): T {}}
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 18
                                         },
@@ -154,15 +154,15 @@ a={*id<T>(x: T): T {}}
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 20
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 21
                                 },
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 6,
                                 "end": 21
                             }
@@ -173,15 +173,15 @@ a={*id<T>(x: T): T {}}
                         "start": 3,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

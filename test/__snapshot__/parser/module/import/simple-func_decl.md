@@ -27,11 +27,11 @@ x@{x9}@+@{x9}@y
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 1
         },
@@ -41,7 +41,7 @@ x@{x9}@+@{x9}@y
             "decorators": {
                 "kind": 207,
                 "decoratorList": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 2,
                 "end": 2
             },
@@ -50,7 +50,7 @@ x@{x9}@+@{x9}@y
                 "kind": 134299649,
                 "text": "x9",
                 "rawText": "x9",
-                "flags": 768,
+                "flags": 96,
                 "start": 3,
                 "end": 5
             },
@@ -59,11 +59,11 @@ x@{x9}@+@{x9}@y
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 1,
                 "end": 1
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1,
             "end": 5
         },
@@ -73,7 +73,7 @@ x@{x9}@+@{x9}@y
             "decorators": {
                 "kind": 207,
                 "decoratorList": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 7
             },
@@ -81,7 +81,7 @@ x@{x9}@+@{x9}@y
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 8,
                 "end": 8
             },
@@ -90,11 +90,11 @@ x@{x9}@+@{x9}@y
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 8
         },
@@ -104,7 +104,7 @@ x@{x9}@+@{x9}@y
             "decorators": {
                 "kind": 207,
                 "decoratorList": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 9
             },
@@ -113,7 +113,7 @@ x@{x9}@+@{x9}@y
                 "kind": 134299649,
                 "text": "x9",
                 "rawText": "x9",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 12
             },
@@ -122,11 +122,11 @@ x@{x9}@+@{x9}@y
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 12
         },
@@ -142,7 +142,7 @@ x@{x9}@+@{x9}@y
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 15
                         },
@@ -151,7 +151,7 @@ x@{x9}@+@{x9}@y
                         "end": 15
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 15
             },
@@ -159,7 +159,7 @@ x@{x9}@+@{x9}@y
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
@@ -168,11 +168,11 @@ x@{x9}@+@{x9}@y
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 15
         }

@@ -33,11 +33,11 @@ if [else] /false//a
                     "kind": 270,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 2,
                 "end": 4
             },
@@ -46,17 +46,17 @@ if [else] /false//a
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 4
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 512,
+                "flags": 64,
                 "start": 4,
                 "end": 8
             },
@@ -65,15 +65,15 @@ if [else] /false//a
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -84,13 +84,13 @@ if [else] /false//a
                 "left": {
                     "kind": 221,
                     "text": "/false/",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 17,
                     "end": 18
                 },
@@ -98,15 +98,15 @@ if [else] /false//a
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 19
         }

@@ -30,15 +30,15 @@
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 4
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 4
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 4
                     },
@@ -47,21 +47,21 @@
                         "expression": {
                             "kind": 221,
                             "text": "/a/iui",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 4,
                             "end": 11
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 4,
                         "end": 11
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

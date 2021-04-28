@@ -23,13 +23,13 @@ x = { foo(){ return x[super.foo]; }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -44,7 +44,7 @@ x = { foo(){ return x[super.foo]; }}
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 9
                                 },
@@ -53,7 +53,7 @@ x = { foo(){ return x[super.foo]; }}
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -78,7 +78,7 @@ x = { foo(){ return x[super.foo]; }}
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 19,
                                                         "end": 21
                                                     },
@@ -92,7 +92,7 @@ x = { foo(){ return x[super.foo]; }}
                                                                 "start": 22,
                                                                 "end": 27
                                                             },
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 22,
                                                             "end": 27
                                                         },
@@ -100,33 +100,33 @@ x = { foo(){ return x[super.foo]; }}
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 28,
                                                             "end": 31
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 22,
                                                         "end": 31
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 19,
                                                     "end": 32
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 0,
                                                 "end": 12
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 33
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 35
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 35
                             }
@@ -137,15 +137,15 @@ x = { foo(){ return x[super.foo]; }}
                         "start": 5,
                         "end": 35
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 36
         }

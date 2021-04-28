@@ -36,14 +36,14 @@ fn = function() {};
                             "kind": 134299649,
                             "text": "xFn",
                             "rawText": "xFn",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     },
@@ -53,23 +53,23 @@ fn = function() {};
                             "kind": 134299649,
                             "text": "fn",
                             "rawText": "fn",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 11
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 11
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         },
@@ -81,13 +81,13 @@ fn = function() {};
                     "kind": 134299649,
                     "text": "xFn",
                     "rawText": "xFn",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 12,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 17,
                     "end": 19
                 },
@@ -105,7 +105,7 @@ fn = function() {};
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 28,
                         "end": 30
                     },
@@ -113,7 +113,7 @@ fn = function() {};
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 30,
                         "end": 32
                     },
@@ -124,25 +124,25 @@ fn = function() {};
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 34,
                             "end": 34
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 32,
                         "end": 35
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 12,
             "end": 36
         },
@@ -154,13 +154,13 @@ fn = function() {};
                     "kind": 134299649,
                     "text": "fn",
                     "rawText": "fn",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 36,
                     "end": 39
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 39,
                     "end": 41
                 },
@@ -179,7 +179,7 @@ fn = function() {};
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 50,
                         "end": 52
                     },
@@ -190,25 +190,25 @@ fn = function() {};
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 54,
                             "end": 54
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 52,
                         "end": 55
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 41,
                     "end": 55
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 36,
                 "end": 55
             },
-            "flags": 128,
+            "flags": 16,
             "start": 36,
             "end": 56
         }

@@ -9,57 +9,33 @@ export interface SyntaxNode {
 }
 
 export const enum NodeFlags {
-  /**
-   * This node has no flags.
-   */
   None = 0,
-
   NewLine = 1 << 0,
   NoneSimpleParamList = 1 << 1,
-  /**
-   * This node has some diagnostics associated with it.
-   */
-  HasErrors = 1 << 2,
-  /**
-   * This node was inserted by the compiler.
-   */
-  Synthetic = 1 << 3,
-  /**
-   * This node has side effects.
-   */
-  HasSideEffects = 1 << 4,
-
-  IsConst = 1 << 5,
-
-  DisallowIn = 1 << 6,
-
-  IsStatement = 1 << 7,
-
-  ExpressionNode = 1 << 8,
-
-  ChildLess = 1 << 9,
-
-  Generator = 1 << 10,
-
-  Async = 1 << 11,
-
-  Setter = 1 << 12,
-  Getter = 1 << 13,
-  Constructor = 1 << 14,
-  Declared = 1 << 15,
-  EscapedKeywordOrIdentifier = 1 << 16,
-  ExtendedUnicodeEscape = 1 << 17,
-  UnicodeEscape = 1 << 18,
-  FloatingPointLiteral = 1 << 19,
-  ContainsSeparator = 1 << 20,
-  ImplicitOctal = 1 << 21,
-  OctalIntegerLiteral = 1 << 22,
-  BinaryIntegerLiteral = 1 << 23,
-  HexIntegerLiteral = 1 << 24,
-  Unterminated = 1 << 25,
-  SingleQuote = 1 << 26,
-  ContainsInvalidEscape = 1 << 27,
-  Const = 1 << 28
+  HasErrors = 1 << 2, // If the parser encountered an error when parsing the code that created this node
+  DisallowIn = 1 << 3, // If node was parsed in a context where 'in-expressions' are not allowed
+  IsStatement = 1 << 4, // Node is an valid start of an statement
+  ExpressionNode = 1 << 5, // Node is an valid start of an expression
+  ChildLess = 1 << 6,
+  Generator = 1 << 7, // If node was parsed in the 'yield' context created when parsing a generator
+  Async = 1 << 8, // If node was parsed in the 'await' context created when parsing an async function
+  Setter = 1 << 9, // Node is a setter method
+  Getter = 1 << 10, // Node is a getter method
+  Constructor = 1 << 11, // Node is a constructor method
+  Declared = 1 << 12, // Node has been declared
+  ExtendedUnicodeEscape = 1 << 13,
+  UnicodeEscape = 1 << 14,
+  FloatingPointLiteral = 1 << 15,
+  ContainsSeparator = 1 << 16, // e.g. `0b1100_0101`
+  ImplicitOctal = 1 << 17,
+  OctalIntegerLiteral = 1 << 18, // e.g. `0777`
+  BinaryIntegerLiteral = 1 << 19, // e.g. `0b0110010000000000`
+  HexIntegerLiteral = 1 << 20, // e.g. `0x00000000`
+  Unterminated = 1 << 21,
+  SingleQuote = 1 << 22,
+  ContainsInvalidEscape = 1 << 23, // e.g. `\uhello`
+  Const = 1 << 24, // Lexical declaration
+  Lexical = 1 << 25 // Lexical declaration
 }
 
 /**

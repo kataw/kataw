@@ -49,7 +49,7 @@ function a({x = 10}) {}
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -71,7 +71,7 @@ function a({x = 10}) {}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -79,35 +79,35 @@ function a({x = 10}) {}
                                             "kind": 201392130,
                                             "text": 10,
                                             "rawText": "10",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 18
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 18
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 11,
                             "end": 19
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 20
             },
@@ -118,17 +118,17 @@ function a({x = 10}) {}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 23
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

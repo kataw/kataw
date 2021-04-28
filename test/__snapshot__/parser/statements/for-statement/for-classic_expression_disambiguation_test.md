@@ -54,13 +54,13 @@ for ((a * b + c) * d;b;c);
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 7
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 7,
                                 "end": 9
                             },
@@ -68,17 +68,17 @@ for ((a * b + c) * d;b;c);
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 11,
                             "end": 13
                         },
@@ -86,21 +86,21 @@ for ((a * b + c) * d;b;c);
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 15
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 15
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 16
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 16,
                     "end": 18
                 },
@@ -108,11 +108,11 @@ for ((a * b + c) * d;b;c);
                     "kind": 134299649,
                     "text": "d",
                     "rawText": "d",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 20
             },
@@ -120,7 +120,7 @@ for ((a * b + c) * d;b;c);
                 "kind": 134299649,
                 "text": "c",
                 "rawText": "c",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 24
             },
@@ -128,17 +128,17 @@ for ((a * b + c) * d;b;c);
                 "kind": 134299649,
                 "text": "b",
                 "rawText": "b",
-                "flags": 768,
+                "flags": 96,
                 "start": 21,
                 "end": 22
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 25,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

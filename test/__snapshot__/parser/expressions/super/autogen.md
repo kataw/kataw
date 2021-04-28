@@ -173,7 +173,7 @@ class C { set x(_) { # } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -196,7 +196,7 @@ class C { set x(_) { # } }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 21
                             },
@@ -205,7 +205,7 @@ class C { set x(_) { # } }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 22,
                                 "end": 23
                             },
@@ -217,19 +217,19 @@ class C { set x(_) { # } }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 21,
                             "end": 25
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 9,
                         "end": 25
                     },
@@ -242,23 +242,23 @@ class C { set x(_) { # } }
                         "key": {
                             "kind": 67109115,
                             "text": "#",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 25,
                             "end": 27
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 27
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

@@ -29,7 +29,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -46,12 +46,12 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 17
             },
@@ -72,7 +72,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 30
                             },
@@ -121,18 +121,18 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                 "start": 45,
                                                                                 "end": 51
                                                                             },
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 45,
                                                                             "end": 51
                                                                         },
                                                                         "expression": {
                                                                             "kind": 16637,
                                                                             "text": "",
-                                                                            "flags": 12,
+                                                                            "flags": 68,
                                                                             "start": 51,
                                                                             "end": 51
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 45,
                                                                         "end": 51
                                                                     },
@@ -140,11 +140,11 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                         "kind": 201392131,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 39,
                                                                         "end": 44
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 39,
                                                                     "end": 51
                                                                 }
@@ -155,7 +155,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                             "start": 39,
                                                             "end": 51
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 38,
                                                         "end": 52
                                                     }
@@ -166,25 +166,25 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 56,
                                                     "end": 58
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 33,
                                                 "end": 58
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 33,
                                             "end": 58
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 58
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 63
                             },
@@ -197,11 +197,11 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                         "end": 63
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 64
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 64
         }

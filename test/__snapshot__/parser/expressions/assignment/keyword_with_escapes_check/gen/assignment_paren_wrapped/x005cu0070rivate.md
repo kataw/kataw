@@ -29,13 +29,13 @@
                         "kind": 134299649,
                         "text": "private",
                         "rawText": "",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 13,
                         "end": 15
                     },
@@ -43,19 +43,19 @@
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 17
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

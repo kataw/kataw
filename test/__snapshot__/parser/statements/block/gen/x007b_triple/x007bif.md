@@ -50,7 +50,7 @@
                                                             "expression": {
                                                                 "kind": 16637,
                                                                 "text": "",
-                                                                "flags": 12,
+                                                                "flags": 68,
                                                                 "start": 9,
                                                                 "end": 9
                                                             },
@@ -59,57 +59,57 @@
                                                                 "expression": {
                                                                     "kind": 16637,
                                                                     "text": "",
-                                                                    "flags": 12,
+                                                                    "flags": 68,
                                                                     "start": 9,
                                                                     "end": 9
                                                                 },
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 9,
                                                                 "end": 9
                                                             },
                                                             "elseKeyword": null,
                                                             "alternate": null,
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 7,
                                                             "end": 9
                                                         }
                                                     ],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 7,
                                                     "end": 9
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 9
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 9
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 9
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 9
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 9
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

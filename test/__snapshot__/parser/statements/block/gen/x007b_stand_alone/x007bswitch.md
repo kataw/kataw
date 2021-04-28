@@ -40,38 +40,38 @@
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 9,
                                         "end": 9
                                     },
                                     "caseBlock": {
                                         "kind": 152,
                                         "clauses": [],
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 9,
                                         "end": 9
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 9
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 9
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 9
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

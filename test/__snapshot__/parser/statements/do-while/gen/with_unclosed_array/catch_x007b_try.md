@@ -36,7 +36,7 @@ do[ catch { try
                             "kind": 134299649,
                             "text": "try",
                             "rawText": "try",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 15
                         }
@@ -47,7 +47,7 @@ do[ catch { try
                     "start": 11,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 15
             },
@@ -60,19 +60,19 @@ do[ catch { try
                         "kind": 270,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

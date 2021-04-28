@@ -29,7 +29,7 @@ class A {*=f(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -38,11 +38,11 @@ class A {*=f(){}}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -54,7 +54,7 @@ class A {*=f(){}}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 12
                 },
@@ -62,15 +62,15 @@ class A {*=f(){}}
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 14
         },
@@ -80,11 +80,11 @@ class A {*=f(){}}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 16
         }

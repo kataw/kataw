@@ -40,11 +40,11 @@ let ...a = 1;
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "let",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
@@ -56,13 +56,13 @@ let ...a = 1;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 8,
                     "end": 10
                 },
@@ -70,15 +70,15 @@ let ...a = 1;
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 13
         }

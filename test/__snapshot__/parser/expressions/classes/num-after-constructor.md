@@ -35,7 +35,7 @@ class x{ constructor(){} 9(){} }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -58,7 +58,7 @@ class x{ constructor(){} 9(){} }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 20
                             },
@@ -67,7 +67,7 @@ class x{ constructor(){} 9(){} }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 21,
                                 "end": 22
                             },
@@ -79,19 +79,19 @@ class x{ constructor(){} 9(){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 8,
                         "end": 24
                     },
@@ -109,7 +109,7 @@ class x{ constructor(){} 9(){} }
                                 "kind": 201392130,
                                 "text": 9,
                                 "rawText": "9",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 26
                             },
@@ -130,11 +130,11 @@ class x{ constructor(){} 9(){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 29
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 30
                             },
@@ -147,11 +147,11 @@ class x{ constructor(){} 9(){} }
                         "end": 30
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

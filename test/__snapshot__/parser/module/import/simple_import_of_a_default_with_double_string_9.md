@@ -33,7 +33,7 @@ import {x, z,} from "y"
                 "kind": 201392131,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 23
             },
@@ -55,11 +55,11 @@ import {x, z,} from "y"
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 9
                             },
@@ -71,11 +71,11 @@ import {x, z,} from "y"
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 10,
                                     "end": 12
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 10,
                                 "end": 12
                             }
@@ -84,15 +84,15 @@ import {x, z,} from "y"
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 23
         }

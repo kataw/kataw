@@ -25,11 +25,11 @@ else {} if(x) { /false//a
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         },
@@ -45,7 +45,7 @@ else {} if(x) { /false//a
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 12
             },
@@ -61,13 +61,13 @@ else {} if(x) { /false//a
                                 "left": {
                                     "kind": 221,
                                     "text": "/false/",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 23
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -75,31 +75,31 @@ else {} if(x) { /false//a
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 25
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 25
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 25
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 25
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 25
         }

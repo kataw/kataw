@@ -59,7 +59,7 @@ const [a=[...b], ...c] = obj;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -82,25 +82,25 @@ const [a=[...b], ...c] = obj;
                                                             "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 13,
                                                             "end": 14
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 10,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 10,
                                                 "end": 14
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 15
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 15
                                     },
@@ -108,7 +108,7 @@ const [a=[...b], ...c] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -116,24 +116,24 @@ const [a=[...b], ...c] = obj;
                                             "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 21
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 21
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 22
                         },
@@ -143,20 +143,20 @@ const [a=[...b], ...c] = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 24,
                             "end": 28
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 28
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 29
         }

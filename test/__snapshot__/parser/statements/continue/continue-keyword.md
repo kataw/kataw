@@ -24,7 +24,7 @@ continue
                 "end": 8
             },
             "label": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

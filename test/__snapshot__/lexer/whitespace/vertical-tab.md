@@ -29,13 +29,13 @@ left|right
                     "kind": 134299649,
                     "text": "left",
                     "rawText": "left",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 134251592,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 4,
                     "end": 5
                 },
@@ -43,15 +43,15 @@ left|right
                     "kind": 134299649,
                     "text": "right",
                     "rawText": "right",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

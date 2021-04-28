@@ -40,7 +40,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -59,7 +59,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 25,
                                                 "end": 27
                                             },
@@ -67,11 +67,11 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "prot\\u0065cted",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 9,
                                                 "end": 24
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 27
                                         }
@@ -82,13 +82,13 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                     "start": 9,
                                     "end": 27
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 29
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 29,
                                 "end": 31
                             },
@@ -103,7 +103,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 44,
                                                 "end": 47
                                             },
@@ -111,11 +111,11 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "protected",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 33,
                                                 "end": 43
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 33,
                                             "end": 47
                                         }
@@ -126,24 +126,24 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                     "start": 33,
                                     "end": 47
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 49
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 49
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 49
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 49
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 50
         }

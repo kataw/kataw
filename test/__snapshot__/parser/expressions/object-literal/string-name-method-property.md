@@ -38,7 +38,7 @@ var x = {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -55,7 +55,7 @@ var x = {
                                             "kind": 201392131,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 769,
+                                            "flags": 97,
                                             "start": 9,
                                             "end": 19
                                         },
@@ -64,7 +64,7 @@ var x = {
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 20,
                                             "end": 21
                                         },
@@ -87,25 +87,25 @@ var x = {
                                                             "kind": 134299649,
                                                             "text": "bar",
                                                             "rawText": "bar",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 38,
                                                             "end": 42
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 1,
                                                         "end": 23
                                                     }
                                                 ],
                                                 "multiline": true,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 43
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 21,
                                             "end": 49
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 49
                                     }
@@ -116,20 +116,20 @@ var x = {
                                 "start": 9,
                                 "end": 49
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 51
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 51
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 51
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 52
         }

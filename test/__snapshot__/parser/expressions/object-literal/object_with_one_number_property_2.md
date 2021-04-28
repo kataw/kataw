@@ -23,7 +23,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -41,7 +41,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -49,11 +49,11 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 201392130,
                                             "text": 0.9,
                                             "rawText": ".9",
-                                            "flags": 525056,
+                                            "flags": 32864,
                                             "start": 6,
                                             "end": 8
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 6,
                                         "end": 10
                                     },
@@ -63,7 +63,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -71,11 +71,11 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 201392130,
                                             "text": 132,
                                             "rawText": "0x84",
-                                            "flags": 16777984,
+                                            "flags": 1048672,
                                             "start": 11,
                                             "end": 16
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 18
                                     },
@@ -85,7 +85,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 25
                                         },
@@ -93,11 +93,11 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "0b1",
-                                            "flags": 8389376,
+                                            "flags": 524384,
                                             "start": 19,
                                             "end": 23
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 25
                                     },
@@ -107,7 +107,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 134299649,
                                             "text": "d",
                                             "rawText": "d",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 32,
                                             "end": 33
                                         },
@@ -115,11 +115,11 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "0o27",
-                                            "flags": 4195072,
+                                            "flags": 262240,
                                             "start": 26,
                                             "end": 31
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 26,
                                         "end": 33
                                     },
@@ -129,7 +129,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 134299649,
                                             "text": "e",
                                             "rawText": "e",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 41,
                                             "end": 42
                                         },
@@ -137,11 +137,11 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 201392130,
                                             "text": 1e+234,
                                             "rawText": "1e234",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 40
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 34,
                                         "end": 42
                                     }
@@ -152,21 +152,21 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                 "start": 6,
                                 "end": 42
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 43
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 43
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 44
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 45
         }

@@ -38,7 +38,7 @@ let {x : y, z : a} = obj;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -59,7 +59,7 @@ let {x : y, z : a} = obj;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -70,16 +70,16 @@ let {x : y, z : a} = obj;
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 8,
                                                 "end": 10
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -90,7 +90,7 @@ let {x : y, z : a} = obj;
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -101,27 +101,27 @@ let {x : y, z : a} = obj;
                                                 "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 15,
                                                 "end": 17
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 17
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 17
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 18
                         },
@@ -131,20 +131,20 @@ let {x : y, z : a} = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 24
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 24
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 25
         }

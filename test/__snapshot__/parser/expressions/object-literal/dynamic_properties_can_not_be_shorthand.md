@@ -23,7 +23,7 @@ call({[x]})
                     "kind": 134299649,
                     "text": "call",
                     "rawText": "call",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -41,11 +41,11 @@ call({[x]})
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 8
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 6,
                                         "end": 9
                                     }
@@ -56,21 +56,21 @@ call({[x]})
                                 "start": 6,
                                 "end": 9
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

@@ -29,7 +29,7 @@ null?.fn
                 "member": {
                     "kind": 269,
                     "text": null,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -44,15 +44,15 @@ null?.fn
                                 "kind": 134299649,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 8
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 8
                     },
@@ -60,19 +60,19 @@ null?.fn
                         "kind": 458761,
                         "text": "hello",
                         "rawText": "hello",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 18
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

@@ -43,7 +43,7 @@ for ({ eval = 0 } in [{}]) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 17,
                 "end": 20
             },
@@ -59,7 +59,7 @@ for ({ eval = 0 } in [{}]) ;
                                 "kind": 134299649,
                                 "text": "eval",
                                 "rawText": "eval",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 11
                             },
@@ -67,11 +67,11 @@ for ({ eval = 0 } in [{}]) ;
                                 "kind": 201392130,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 15
                         }
@@ -82,7 +82,7 @@ for ({ eval = 0 } in [{}]) ;
                     "start": 6,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 17
             },
@@ -102,27 +102,27 @@ for ({ eval = 0 } in [{}]) ;
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 24
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 25
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

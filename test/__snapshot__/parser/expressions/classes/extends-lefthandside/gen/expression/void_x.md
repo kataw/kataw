@@ -36,7 +36,7 @@
                         "kind": 134299649,
                         "text": "B",
                         "rawText": "B",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
@@ -53,7 +53,7 @@
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477615,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 16,
                                 "end": 21
                             },
@@ -61,35 +61,35 @@
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 23
                         },
                         "typeParameter": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 23
                     },
                     "members": {
                         "kind": 277,
                         "elements": [],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 25,
                         "end": 26
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 26
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

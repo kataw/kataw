@@ -30,7 +30,7 @@ switch case try { !xxx
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
@@ -48,7 +48,7 @@ switch case try { !xxx
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 11,
                             "end": 11
                         },
@@ -72,7 +72,7 @@ switch case try { !xxx
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 17,
                                                         "end": 19
                                                     },
@@ -80,25 +80,25 @@ switch case try { !xxx
                                                         "kind": 134299649,
                                                         "text": "xxx",
                                                         "rawText": "xxx",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 19,
                                                         "end": 22
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 17,
                                                     "end": 22
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 17,
                                                 "end": 22
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 17,
                                         "end": 22
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 15,
                                     "end": 22
                                 },
@@ -110,29 +110,29 @@ switch case try { !xxx
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 22,
                                         "end": 22
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 22
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 11,
                                 "end": 22
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 6,
                         "end": 22
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

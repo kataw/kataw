@@ -38,7 +38,7 @@ switch {} default(x) { function while
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
@@ -62,15 +62,15 @@ switch {} default(x) { function while
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 17,
                                 "end": 20
                             },
@@ -93,7 +93,7 @@ switch {} default(x) { function while
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 31,
                                                 "end": 31
                                             },
@@ -101,7 +101,7 @@ switch {} default(x) { function while
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 31
                                             },
@@ -112,17 +112,17 @@ switch {} default(x) { function while
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 31,
                                                     "end": 31
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 31
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -137,7 +137,7 @@ switch {} default(x) { function while
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 37,
                                                 "end": 37
                                             },
@@ -146,39 +146,39 @@ switch {} default(x) { function while
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 12,
+                                                    "flags": 68,
                                                     "start": 37,
                                                     "end": 37
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 37,
                                                 "end": 37
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 31,
                                             "end": 37
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 22,
                                     "end": 37
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 37
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 37
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 37
         }

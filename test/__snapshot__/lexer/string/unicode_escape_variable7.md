@@ -37,11 +37,11 @@
                 "kind": 201392131,
                 "text": "}",
                 "rawText": "}",
-                "flags": 131840,
+                "flags": 8288,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -51,11 +51,11 @@
                 "kind": 201392131,
                 "text": "\u0012",
                 "rawText": "\u0012",
-                "flags": 131841,
+                "flags": 8289,
                 "start": 9,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 20
         },
@@ -65,11 +65,11 @@
                 "kind": 201392131,
                 "text": "ģ",
                 "rawText": "ģ",
-                "flags": 131841,
+                "flags": 8289,
                 "start": 20,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 32
         },
@@ -79,11 +79,11 @@
                 "kind": 201392131,
                 "text": "ሴ",
                 "rawText": "ሴ",
-                "flags": 131841,
+                "flags": 8289,
                 "start": 32,
                 "end": 43
             },
-            "flags": 128,
+            "flags": 16,
             "start": 32,
             "end": 45
         },
@@ -93,11 +93,11 @@
                 "kind": 201392131,
                 "text": "Hͅ",
                 "rawText": "Hͅ",
-                "flags": 131841,
+                "flags": 8289,
                 "start": 45,
                 "end": 57
             },
-            "flags": 128,
+            "flags": 16,
             "start": 45,
             "end": 59
         },
@@ -107,11 +107,11 @@
                 "kind": 201392131,
                 "text": "ЍV",
                 "rawText": "ЍV",
-                "flags": 131841,
+                "flags": 8289,
                 "start": 59,
                 "end": 72
             },
-            "flags": 128,
+            "flags": 16,
             "start": 59,
             "end": 72
         }

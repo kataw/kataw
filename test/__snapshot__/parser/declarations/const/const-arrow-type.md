@@ -40,7 +40,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "kind": 134299649,
                             "text": "fn",
                             "rawText": "fn",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 8
                         },
@@ -52,7 +52,7 @@ const fn = async (a?: any): Promise<void> => {};
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 16
                             },
@@ -65,7 +65,7 @@ const fn = async (a?: any): Promise<void> => {};
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 19
                                         },
@@ -78,7 +78,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         "consequent": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 20,
                                             "end": 20
                                         },
@@ -92,34 +92,34 @@ const fn = async (a?: any): Promise<void> => {};
                                             "kind": 134299649,
                                             "text": "any",
                                             "rawText": "any",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 21,
                                             "end": 25
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 26
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 26
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 26
         },
@@ -133,13 +133,13 @@ const fn = async (a?: any): Promise<void> => {};
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 27,
                         "end": 35
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 35,
                         "end": 36
                     },
@@ -147,43 +147,43 @@ const fn = async (a?: any): Promise<void> => {};
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477615,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 36,
                             "end": 40
                         },
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 40,
                             "end": 40
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 36,
                         "end": 40
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 27,
                     "end": 40
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 40,
                     "end": 41
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 41,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 27,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 41
         },
@@ -193,17 +193,17 @@ const fn = async (a?: any): Promise<void> => {};
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 46,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 44,
             "end": 47
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 47,
             "end": 48
         }

@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -34,11 +34,11 @@
                 "kind": 458761,
                 "text": "await;",
                 "rawText": "use strict",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 21
         }

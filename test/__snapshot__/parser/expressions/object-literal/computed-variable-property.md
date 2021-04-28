@@ -36,7 +36,7 @@ var x = {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -53,7 +53,7 @@ var x = {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 24
                                         },
@@ -63,15 +63,15 @@ var x = {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 15,
                                                 "end": 18
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 19
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 24
                                     }
@@ -82,20 +82,20 @@ var x = {
                                 "start": 9,
                                 "end": 24
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 26
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 26
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

@@ -51,7 +51,7 @@ const foo = bar, zoo = boo
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 9
                         },
@@ -61,11 +61,11 @@ const foo = bar, zoo = boo
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 15
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 15
                     },
@@ -75,7 +75,7 @@ const foo = bar, zoo = boo
                             "kind": 134299649,
                             "text": "zoo",
                             "rawText": "zoo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 16,
                             "end": 20
                         },
@@ -85,20 +85,20 @@ const foo = bar, zoo = boo
                             "kind": 134299649,
                             "text": "boo",
                             "rawText": "boo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 22,
                             "end": 26
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 16,
                         "end": 26
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 26
         }

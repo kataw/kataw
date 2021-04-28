@@ -34,7 +34,7 @@
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 8
                                 },
@@ -43,7 +43,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 8448,
+                                    "flags": 1056,
                                     "start": 9,
                                     "end": 10
                                 },
@@ -72,7 +72,7 @@
                                                             "start": 16,
                                                             "end": 22
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 16,
                                                         "end": 22
                                                     },
@@ -80,29 +80,29 @@
                                                         "kind": 256,
                                                         "elements": [],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 23,
                                                         "end": 23
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 12,
                                                     "end": 24
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 12,
                                                 "end": 25
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 25
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 27
                                 },
-                                "flags": 8448,
+                                "flags": 1056,
                                 "start": 8,
                                 "end": 27
                             }
@@ -113,15 +113,15 @@
                         "start": 2,
                         "end": 27
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

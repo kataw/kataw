@@ -29,7 +29,7 @@ class A {set(){} get(){} async(){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class A {set(){} get(){} async(){}}
                                 "kind": 134299649,
                                 "text": "set",
                                 "rawText": "set",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 12
                             },
@@ -73,11 +73,11 @@ class A {set(){} get(){} async(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 15
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 16
                             },
@@ -103,7 +103,7 @@ class A {set(){} get(){} async(){}}
                                 "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 20
                             },
@@ -124,11 +124,11 @@ class A {set(){} get(){} async(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
@@ -154,7 +154,7 @@ class A {set(){} get(){} async(){}}
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 30
                             },
@@ -175,11 +175,11 @@ class A {set(){} get(){} async(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 34
                             },
@@ -192,11 +192,11 @@ class A {set(){} get(){} async(){}}
                         "end": 34
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

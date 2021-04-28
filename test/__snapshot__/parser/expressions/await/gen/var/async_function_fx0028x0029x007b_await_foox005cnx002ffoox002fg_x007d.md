@@ -37,23 +37,23 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 9
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 9
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -75,7 +75,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
@@ -85,24 +85,24 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 68
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 18,
                             "end": 68
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 68
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 68
             },
-            "flags": 128,
+            "flags": 16,
             "start": 10,
             "end": 68
         },
@@ -116,13 +116,13 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "kind": 134299649,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 69,
                         "end": 70
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 70,
                         "end": 71
                     },
@@ -130,17 +130,17 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 71,
                         "end": 74
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 69,
                     "end": 74
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 74,
                     "end": 75
                 },
@@ -148,21 +148,21 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 75,
                     "end": 76
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 69,
                 "end": 76
             },
-            "flags": 128,
+            "flags": 16,
             "start": 69,
             "end": 76
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 81,
             "end": 82
         }

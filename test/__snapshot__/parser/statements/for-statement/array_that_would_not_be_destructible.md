@@ -53,13 +53,13 @@ for ([x + y];;);
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 7
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 7,
                                 "end": 9
                             },
@@ -67,21 +67,21 @@ for ([x + y];;);
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 11
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 6,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 11
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 12
             },
@@ -89,11 +89,11 @@ for ([x + y];;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

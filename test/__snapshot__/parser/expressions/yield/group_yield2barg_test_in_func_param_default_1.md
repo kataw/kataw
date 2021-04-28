@@ -30,7 +30,7 @@ function f(x=(yield z)=y){}
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -44,7 +44,7 @@ function f(x=(yield z)=y){}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -54,15 +54,15 @@ function f(x=(yield z)=y){}
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 19
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 11,
                         "end": 19
                     },
@@ -73,20 +73,20 @@ function f(x=(yield z)=y){}
                             "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 21
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 19,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 10,
                 "end": 22
             },
@@ -97,17 +97,17 @@ function f(x=(yield z)=y){}
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 22,
                 "end": 22
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         },
@@ -117,11 +117,11 @@ function f(x=(yield z)=y){}
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 23,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 24
         },
@@ -131,11 +131,11 @@ function f(x=(yield z)=y){}
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 26,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 25,
             "end": 27
         }

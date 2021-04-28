@@ -26,11 +26,11 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "declare",
                 "rawText": "declare",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 7
         },
@@ -49,7 +49,7 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 20
             },
@@ -57,7 +57,7 @@ declare function foo(): void
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 20
             },
@@ -68,17 +68,17 @@ declare function foo(): void
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 20
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 20
         },
@@ -96,7 +96,7 @@ declare function foo(): void
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 22
                             },
@@ -117,26 +117,26 @@ declare function foo(): void
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 26,
                         "end": 31
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 31,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 26,
                     "end": 31
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 32
         },
@@ -146,11 +146,11 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "declare",
                 "rawText": "declare",
-                "flags": 768,
+                "flags": 96,
                 "start": 32,
                 "end": 41
             },
-            "flags": 128,
+            "flags": 16,
             "start": 32,
             "end": 41
         },
@@ -169,7 +169,7 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 50,
                 "end": 54
             },
@@ -183,20 +183,20 @@ declare function foo(): void
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 55,
                             "end": 56
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 55,
                         "end": 56
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 54,
                 "end": 57
             },
@@ -207,17 +207,17 @@ declare function foo(): void
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 56,
                     "end": 56
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 56,
                 "end": 56
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 41,
             "end": 56
         },
@@ -230,7 +230,7 @@ declare function foo(): void
                         "kind": 134299649,
                         "text": "number",
                         "rawText": "number",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 57,
                         "end": 64
                     },
@@ -238,16 +238,16 @@ declare function foo(): void
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 65,
                         "end": 67
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 57,
                 "end": 67
             },
-            "flags": 128,
+            "flags": 16,
             "start": 57,
             "end": 67
         },
@@ -257,11 +257,11 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "string",
                 "rawText": "string",
-                "flags": 768,
+                "flags": 96,
                 "start": 68,
                 "end": 75
             },
-            "flags": 128,
+            "flags": 16,
             "start": 68,
             "end": 75
         },
@@ -271,22 +271,22 @@ declare function foo(): void
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477615,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 77,
                     "end": 82
                 },
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 82,
                     "end": 82
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 77,
                 "end": 82
             },
-            "flags": 128,
+            "flags": 16,
             "start": 77,
             "end": 83
         },
@@ -296,11 +296,11 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "declare",
                 "rawText": "declare",
-                "flags": 768,
+                "flags": 96,
                 "start": 83,
                 "end": 92
             },
-            "flags": 128,
+            "flags": 16,
             "start": 83,
             "end": 92
         },
@@ -319,7 +319,7 @@ declare function foo(): void
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 101,
                 "end": 105
             },
@@ -327,7 +327,7 @@ declare function foo(): void
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 105,
                 "end": 107
             },
@@ -338,17 +338,17 @@ declare function foo(): void
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 107,
                     "end": 107
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 107,
                 "end": 107
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 92,
             "end": 107
         },
@@ -358,22 +358,22 @@ declare function foo(): void
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477615,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 108,
                     "end": 113
                 },
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 113,
                     "end": 113
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 108,
                 "end": 113
             },
-            "flags": 128,
+            "flags": 16,
             "start": 108,
             "end": 113
         }

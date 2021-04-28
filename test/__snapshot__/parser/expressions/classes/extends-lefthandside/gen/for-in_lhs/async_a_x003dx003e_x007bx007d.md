@@ -28,7 +28,7 @@ for (async a => {} in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 18,
                 "end": 21
             },
@@ -50,21 +50,21 @@ for (async a => {} in x) ;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 5,
                         "end": 12
                     }
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 10
                 },
@@ -76,15 +76,15 @@ for (async a => {} in x) ;
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 17,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 18
                 },
-                "flags": 2304,
+                "flags": 288,
                 "start": 5,
                 "end": 18
             },
@@ -92,17 +92,17 @@ for (async a => {} in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 21,
                 "end": 23
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

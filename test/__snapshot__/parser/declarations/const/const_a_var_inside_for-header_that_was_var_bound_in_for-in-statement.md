@@ -43,7 +43,7 @@ for (const x in obj) { var x = 13 }
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 12,
                 "end": 15
             },
@@ -57,19 +57,19 @@ for (const x in obj) { var x = 13 }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 12
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 10,
                 "end": 12
             },
@@ -77,7 +77,7 @@ for (const x in obj) { var x = 13 }
                 "kind": 134299649,
                 "text": "obj",
                 "rawText": "obj",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 19
             },
@@ -104,7 +104,7 @@ for (const x in obj) { var x = 13 }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 26,
                                             "end": 28
                                         },
@@ -114,34 +114,34 @@ for (const x in obj) { var x = 13 }
                                             "kind": 201392130,
                                             "text": 13,
                                             "rawText": "13",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 30,
                                             "end": 33
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 26,
                                         "end": 33
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 26,
                                 "end": 33
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 22,
                             "end": 33
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 22,
                     "end": 33
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

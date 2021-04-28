@@ -33,7 +33,7 @@ import {bar as baz} from "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 24,
                 "end": 30
             },
@@ -54,7 +54,7 @@ import {bar as baz} from "foo";
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 11
                                 },
@@ -62,11 +62,11 @@ import {bar as baz} from "foo";
                                     "kind": 134299649,
                                     "text": "baz",
                                     "rawText": "baz",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 14,
                                     "end": 18
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 18
                             }
@@ -75,15 +75,15 @@ import {bar as baz} from "foo";
                         "start": 8,
                         "end": 18
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 31
         }

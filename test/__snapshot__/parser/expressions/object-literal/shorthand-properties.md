@@ -42,14 +42,14 @@ var x = {
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 7
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 7
                     },
@@ -59,14 +59,14 @@ var x = {
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 16
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 16
                     },
@@ -76,23 +76,23 @@ var x = {
                             "kind": 134299649,
                             "text": "set",
                             "rawText": "set",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 25
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 25
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         },
@@ -114,7 +114,7 @@ var x = {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 31,
                             "end": 33
                         },
@@ -129,7 +129,7 @@ var x = {
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 37,
                                         "end": 45
                                     },
@@ -137,7 +137,7 @@ var x = {
                                         "kind": 134299649,
                                         "text": "get",
                                         "rawText": "get",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 46,
                                         "end": 54
                                     },
@@ -145,7 +145,7 @@ var x = {
                                         "kind": 134299649,
                                         "text": "set",
                                         "rawText": "set",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 55,
                                         "end": 63
                                     }
@@ -156,20 +156,20 @@ var x = {
                                 "start": 37,
                                 "end": 63
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 35,
                             "end": 65
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 31,
                         "end": 65
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 31,
                 "end": 65
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 66
         }

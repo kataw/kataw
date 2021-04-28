@@ -41,42 +41,42 @@
                                                 "start": 2,
                                                 "end": 8
                                             },
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 2,
                                             "end": 8
                                         },
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 8,
                                             "end": 8
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 2,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 8
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1,
                             "end": 8
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 8
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

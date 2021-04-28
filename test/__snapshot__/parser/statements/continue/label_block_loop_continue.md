@@ -21,7 +21,7 @@ foo: { while(z) continue foo }
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
@@ -42,7 +42,7 @@ foo: { while(z) continue foo }
                                 "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 14
                             },
@@ -58,29 +58,29 @@ foo: { while(z) continue foo }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 28
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 15,
                                 "end": 28
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 6,
                             "end": 28
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 28
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

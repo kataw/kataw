@@ -20,7 +20,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -43,7 +43,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -58,7 +58,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 19,
                                 "end": 28
                             },
@@ -73,7 +73,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 37,
                                 "end": 39
                             },
@@ -81,7 +81,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 41
                             },
@@ -109,13 +109,13 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 46,
                                                             "end": 47
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 512,
+                                                            "flags": 64,
                                                             "start": 47,
                                                             "end": 48
                                                         },
@@ -140,15 +140,15 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                     "kind": 134299649,
                                                                                     "text": "foo",
                                                                                     "rawText": "foo",
-                                                                                    "flags": 768,
+                                                                                    "flags": 96,
                                                                                     "start": 56,
                                                                                     "end": 60
                                                                                 },
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 51,
                                                                                 "end": 60
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 50,
                                                                             "end": 61
                                                                         },
@@ -157,7 +157,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                             "kind": 214,
                                                                             "formalParameterList": [],
                                                                             "trailingComma": false,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 62,
                                                                             "end": 63
                                                                         },
@@ -169,15 +169,15 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "directives": [],
                                                                                 "statements": [],
                                                                                 "multiline": false,
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 64,
                                                                                 "end": 64
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 63,
                                                                             "end": 65
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 61,
                                                                         "end": 65
                                                                     },
@@ -187,7 +187,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                             "kind": 201392131,
                                                                             "text": "x",
                                                                             "rawText": "x",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 66,
                                                                             "end": 70
                                                                         },
@@ -196,7 +196,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                             "kind": 214,
                                                                             "formalParameterList": [],
                                                                             "trailingComma": false,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 71,
                                                                             "end": 72
                                                                         },
@@ -208,15 +208,15 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "directives": [],
                                                                                 "statements": [],
                                                                                 "multiline": false,
-                                                                                "flags": 256,
+                                                                                "flags": 32,
                                                                                 "start": 73,
                                                                                 "end": 73
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 72,
                                                                             "end": 74
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 70,
                                                                         "end": 74
                                                                     }
@@ -227,11 +227,11 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                 "start": 50,
                                                                 "end": 74
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 48,
                                                             "end": 75
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 42,
                                                         "end": 75
                                                     }
@@ -242,47 +242,47 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 80,
                                                     "end": 82
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 42,
                                                 "end": 82
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 42,
                                             "end": 82
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 42,
                                     "end": 82
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 41,
                                 "end": 87
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1152,
+                            "flags": 144,
                             "start": 19,
                             "end": 87
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 87
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 92
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 92
         }

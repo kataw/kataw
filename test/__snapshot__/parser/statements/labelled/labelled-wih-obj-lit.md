@@ -21,7 +21,7 @@ a: { a: x }
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 1
             },
@@ -36,7 +36,7 @@ a: { a: x }
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 4,
                                 "end": 6
                             },
@@ -46,29 +46,29 @@ a: { a: x }
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 7,
                                     "end": 9
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 7,
                                 "end": 9
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 4,
                             "end": 9
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 4,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

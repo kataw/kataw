@@ -36,11 +36,11 @@ try {
                     "kind": 124,
                     "statements": [],
                     "multiLine": true,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 7
             },
@@ -56,7 +56,7 @@ try {
                     "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 16
                 },
@@ -70,7 +70,7 @@ try {
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 513,
+                                    "flags": 65,
                                     "start": 19,
                                     "end": 27
                                 },
@@ -85,7 +85,7 @@ try {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 36,
                                     "end": 38
                                 },
@@ -93,7 +93,7 @@ try {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 38,
                                     "end": 40
                                 },
@@ -104,37 +104,37 @@ try {
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 41,
                                         "end": 41
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 42
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1152,
+                                "flags": 144,
                                 "start": 19,
                                 "end": 42
                             }
                         ],
                         "multiLine": true,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 19,
                         "end": 42
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 17,
                     "end": 44
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 7,
                 "end": 44
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 44
         }

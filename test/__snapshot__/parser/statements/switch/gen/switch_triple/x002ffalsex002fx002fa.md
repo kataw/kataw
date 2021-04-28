@@ -30,18 +30,18 @@ switch switch switch /false//a
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -56,18 +56,18 @@ switch switch switch /false//a
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 13
         },
@@ -84,13 +84,13 @@ switch switch switch /false//a
                 "left": {
                     "kind": 221,
                     "text": "/false/",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 20,
                     "end": 28
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 28,
                     "end": 29
                 },
@@ -98,22 +98,22 @@ switch switch switch /false//a
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 29,
                     "end": 30
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 20,
                 "end": 30
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 30,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 30
         }

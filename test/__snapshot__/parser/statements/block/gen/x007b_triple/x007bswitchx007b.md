@@ -58,58 +58,58 @@
                                                                     "start": 14,
                                                                     "end": 14
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 13,
                                                                 "end": 14
                                                             },
                                                             "caseBlock": {
                                                                 "kind": 152,
                                                                 "clauses": [],
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 14,
                                                                 "end": 14
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 7,
                                                             "end": 14
                                                         }
                                                     ],
                                                     "multiLine": false,
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 7,
                                                     "end": 14
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 14
                                             }
                                         ],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 5,
                                         "end": 14
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 14
                                 }
                             ],
                             "multiLine": false,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 3,
                             "end": 14
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 14
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         }

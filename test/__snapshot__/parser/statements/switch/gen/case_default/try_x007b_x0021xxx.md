@@ -38,7 +38,7 @@ case try { !xxx default
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -46,25 +46,25 @@ case try { !xxx default
                                     "kind": 134299649,
                                     "text": "xxx",
                                     "rawText": "xxx",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 15
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 15
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 10,
                             "end": 15
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 10,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 8,
                 "end": 15
             },
@@ -76,15 +76,15 @@ case try { !xxx default
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 23,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 23
         }

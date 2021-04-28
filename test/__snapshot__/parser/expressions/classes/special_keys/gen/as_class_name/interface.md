@@ -33,7 +33,7 @@ class interface {}
                 "kind": 134299649,
                 "text": "interface",
                 "rawText": "interface",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 15
             },
@@ -42,11 +42,11 @@ class interface {}
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 18
         }

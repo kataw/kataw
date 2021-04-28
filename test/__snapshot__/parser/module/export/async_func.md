@@ -39,7 +39,7 @@ export default async function f(){} foo
                 "kind": 177,
                 "asyncKeyword": {
                     "kind": 82031,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 14,
                     "end": 20
                 },
@@ -54,7 +54,7 @@ export default async function f(){} foo
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 29,
                     "end": 31
                 },
@@ -62,7 +62,7 @@ export default async function f(){} foo
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 31,
                     "end": 33
                 },
@@ -73,21 +73,21 @@ export default async function f(){} foo
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 34,
                         "end": 34
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 33,
                     "end": 35
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 1280,
+                "flags": 160,
                 "start": 14,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         },
@@ -97,11 +97,11 @@ export default async function f(){} foo
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 35,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 39
         }

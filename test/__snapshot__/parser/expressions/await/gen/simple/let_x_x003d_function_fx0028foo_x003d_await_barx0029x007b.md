@@ -23,7 +23,7 @@ let x = function f(foo = await bar){
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -36,7 +36,7 @@ let x = function f(foo = await bar){
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -56,7 +56,7 @@ let x = function f(foo = await bar){
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 18
                             },
@@ -70,7 +70,7 @@ let x = function f(foo = await bar){
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 22
                                         },
@@ -80,11 +80,11 @@ let x = function f(foo = await bar){
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 30
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 19,
                                         "end": 30
                                     },
@@ -95,20 +95,20 @@ let x = function f(foo = await bar){
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 30,
                                             "end": 34
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 30,
                                         "end": 34
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 18,
                                 "end": 35
                             },
@@ -119,30 +119,30 @@ let x = function f(foo = await bar){
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 36,
                                     "end": 36
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 36
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 7,
                             "end": 36
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 36
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 36
         }

@@ -29,7 +29,7 @@ await.b[c] => async
                         "kind": 134299649,
                         "text": "await",
                         "rawText": "await",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 5
                     },
@@ -37,11 +37,11 @@ await.b[c] => async
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 7
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 7
                 },
@@ -49,15 +49,15 @@ await.b[c] => async
                     "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 8,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -67,11 +67,11 @@ await.b[c] => async
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 19
         }

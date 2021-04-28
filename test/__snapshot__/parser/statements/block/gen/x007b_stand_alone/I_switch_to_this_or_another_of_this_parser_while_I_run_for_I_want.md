@@ -30,11 +30,11 @@
                             "kind": 134299649,
                             "text": "I",
                             "rawText": "I",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1,
                             "end": 3
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1,
                         "end": 3
                     },
@@ -50,18 +50,18 @@
                             "kind": 134299649,
                             "text": "to",
                             "rawText": "to",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 10,
                             "end": 13
                         },
                         "caseBlock": {
                             "kind": 152,
                             "clauses": [],
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 13
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 13
                     },
@@ -69,11 +69,11 @@
                         "kind": 120,
                         "expression": {
                             "kind": 135,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 18
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 13,
                         "end": 18
                     },
@@ -83,11 +83,11 @@
                             "kind": 134299649,
                             "text": "or",
                             "rawText": "or",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 21
                     },
@@ -97,11 +97,11 @@
                             "kind": 134299649,
                             "text": "another",
                             "rawText": "another",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 29
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 21,
                         "end": 29
                     },
@@ -111,11 +111,11 @@
                             "kind": 134299649,
                             "text": "of",
                             "rawText": "of",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 29,
                             "end": 32
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 29,
                         "end": 32
                     },
@@ -123,11 +123,11 @@
                         "kind": 120,
                         "expression": {
                             "kind": 135,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 32,
                             "end": 37
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 32,
                         "end": 37
                     },
@@ -137,11 +137,11 @@
                             "kind": 134299649,
                             "text": "parser",
                             "rawText": "parser",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 37,
                             "end": 44
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 37,
                         "end": 44
                     },
@@ -157,7 +157,7 @@
                             "kind": 134299649,
                             "text": "I",
                             "rawText": "I",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 50,
                             "end": 52
                         },
@@ -167,15 +167,15 @@
                                 "kind": 134299649,
                                 "text": "run",
                                 "rawText": "run",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 52,
                                 "end": 56
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 52,
                             "end": 56
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 44,
                         "end": 56
                     },
@@ -191,14 +191,14 @@
                             "kind": 134299649,
                             "text": "I",
                             "rawText": "I",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 60,
                             "end": 62
                         },
                         "condition": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 67,
                             "end": 67
                         },
@@ -206,7 +206,7 @@
                             "kind": 134299649,
                             "text": "want",
                             "rawText": "want",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 62,
                             "end": 67
                         },
@@ -215,25 +215,25 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 67,
                                 "end": 67
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 67,
                             "end": 67
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 56,
                         "end": 67
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 67
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 67
         }

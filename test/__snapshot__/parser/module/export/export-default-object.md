@@ -46,7 +46,7 @@ export default { foo: 1 };
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 23
                             },
@@ -54,11 +54,11 @@ export default { foo: 1 };
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 20
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 16,
                             "end": 23
                         }
@@ -69,11 +69,11 @@ export default { foo: 1 };
                     "start": 16,
                     "end": 23
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

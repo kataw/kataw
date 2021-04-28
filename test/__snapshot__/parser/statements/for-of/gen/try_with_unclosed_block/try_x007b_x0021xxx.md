@@ -33,11 +33,11 @@ try {} finally(x) { try { !xxx
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 6
             },
@@ -54,15 +54,15 @@ try {} finally(x) { try { !xxx
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 14
         },
@@ -74,15 +74,15 @@ try {} finally(x) { try { !xxx
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 15,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 14,
             "end": 17
         },
@@ -110,7 +110,7 @@ try {} finally(x) { try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 25,
                                                 "end": 27
                                             },
@@ -118,25 +118,25 @@ try {} finally(x) { try { !xxx
                                                 "kind": 134299649,
                                                 "text": "xxx",
                                                 "rawText": "xxx",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 27,
                                                 "end": 30
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 30
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 25,
                                         "end": 30
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 25,
                                 "end": 30
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 23,
                             "end": 30
                         },
@@ -148,25 +148,25 @@ try {} finally(x) { try { !xxx
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 30,
                                 "end": 30
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 30,
                             "end": 30
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 19,
                         "end": 30
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 19,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 30
         }

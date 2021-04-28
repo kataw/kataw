@@ -38,7 +38,7 @@ let {} = obj;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -54,11 +54,11 @@ let {} = obj;
                                 "properties": [],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 5
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 6
                         },
@@ -68,20 +68,20 @@ let {} = obj;
                             "kind": 134299649,
                             "text": "obj",
                             "rawText": "obj",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 12
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 12
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 13
         }

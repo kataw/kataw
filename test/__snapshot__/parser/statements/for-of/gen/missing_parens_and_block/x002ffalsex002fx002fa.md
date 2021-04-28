@@ -33,11 +33,11 @@ try catch /false//a
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -56,21 +56,21 @@ try catch /false//a
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 9,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 9
             },
             "finallyKeyword": null,
             "finallyBlock": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -81,13 +81,13 @@ try catch /false//a
                 "left": {
                     "kind": 221,
                     "text": "/false/",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 9,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 17,
                     "end": 18
                 },
@@ -95,15 +95,15 @@ try catch /false//a
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 18,
                     "end": 19
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 9,
             "end": 19
         }

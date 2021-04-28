@@ -33,7 +33,7 @@ new void x
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 8
                     },
@@ -41,20 +41,20 @@ new void x
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 10
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

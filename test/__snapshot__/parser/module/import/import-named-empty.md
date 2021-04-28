@@ -33,7 +33,7 @@ import {} from "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 20
             },
@@ -51,15 +51,15 @@ import {} from "foo";
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 9
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 21
         }

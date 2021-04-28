@@ -30,7 +30,7 @@ do catch
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 8,
                 "end": 8
             },
@@ -44,11 +44,11 @@ do catch
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -60,19 +60,19 @@ do catch
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

@@ -33,7 +33,7 @@ async () => x
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -42,11 +42,11 @@ async () => x
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 13
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 13
         }

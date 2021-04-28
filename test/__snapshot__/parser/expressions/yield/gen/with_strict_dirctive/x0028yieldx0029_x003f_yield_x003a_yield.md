@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -38,11 +38,11 @@
                         "kind": 134299649,
                         "text": "yield",
                         "rawText": "yield",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 21
                 },
@@ -56,7 +56,7 @@
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 23,
                     "end": 29
                 },
@@ -70,15 +70,15 @@
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 31,
                     "end": 37
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 37
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 37
         }

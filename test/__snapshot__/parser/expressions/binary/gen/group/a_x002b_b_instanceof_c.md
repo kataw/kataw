@@ -29,13 +29,13 @@
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1,
                         "end": 3
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 5
                     },
@@ -45,13 +45,13 @@
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 7
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 7,
                             "end": 18
                         },
@@ -59,23 +59,23 @@
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 20
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 20
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

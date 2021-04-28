@@ -29,7 +29,7 @@ class A {;}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -40,16 +40,16 @@ class A {;}
                 "elements": [
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 9,
                         "end": 10
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         }

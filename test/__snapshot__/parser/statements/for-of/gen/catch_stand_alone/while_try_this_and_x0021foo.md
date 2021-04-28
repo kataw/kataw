@@ -28,11 +28,11 @@ catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
@@ -44,15 +44,15 @@ catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -70,11 +70,11 @@ catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 15
             },
@@ -86,15 +86,15 @@ catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 20,
                     "end": 20
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 20
         },
@@ -104,11 +104,11 @@ catch while try this and !foo
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 24
         },
@@ -118,7 +118,7 @@ catch while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 24,
                     "end": 26
                 },
@@ -126,15 +126,15 @@ catch while try this and !foo
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 26,
                     "end": 29
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 24,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 24,
             "end": 29
         }

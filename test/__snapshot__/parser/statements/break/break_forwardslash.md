@@ -25,7 +25,7 @@ for(x of 3)break/
             },
             "ofKeyword": {
                 "kind": 16793717,
-                "flags": 512,
+                "flags": 64,
                 "start": 5,
                 "end": 8
             },
@@ -33,7 +33,7 @@ for(x of 3)break/
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 5
             },
@@ -41,7 +41,7 @@ for(x of 3)break/
                 "kind": 201392130,
                 "text": 3,
                 "rawText": "3",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -56,16 +56,16 @@ for(x of 3)break/
                 "label": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 16,
                     "end": 16
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 16
             },
             "awaitKeyword": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         },
@@ -74,11 +74,11 @@ for(x of 3)break/
             "expression": {
                 "kind": 221,
                 "text": "/",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 18
         }

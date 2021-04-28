@@ -34,7 +34,7 @@ function not_gen() { var foo = yield = 1; }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { var foo = yield = 1; }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -70,7 +70,7 @@ function not_gen() { var foo = yield = 1; }}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 28
                                         },
@@ -82,13 +82,13 @@ function not_gen() { var foo = yield = 1; }}
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 30,
                                                 "end": 36
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 36,
                                                 "end": 38
                                             },
@@ -96,40 +96,40 @@ function not_gen() { var foo = yield = 1; }}
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 38,
                                                 "end": 40
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 30,
                                             "end": 40
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 24,
                                         "end": 40
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 24,
                                 "end": 40
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 41
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 41
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 43
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 43
         }

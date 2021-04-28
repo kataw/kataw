@@ -28,11 +28,11 @@ catch class x {} finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 5
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 5
             },
@@ -44,15 +44,15 @@ catch class x {} finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 11,
                     "end": 11
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 11
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 11
         },
@@ -62,11 +62,11 @@ catch class x {} finally
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 13
         },
@@ -76,11 +76,11 @@ catch class x {} finally
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 16
         },
@@ -93,11 +93,11 @@ catch class x {} finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 24
             },
@@ -109,15 +109,15 @@ catch class x {} finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 24,
                     "end": 24
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 24,
                 "end": 24
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 24
         }

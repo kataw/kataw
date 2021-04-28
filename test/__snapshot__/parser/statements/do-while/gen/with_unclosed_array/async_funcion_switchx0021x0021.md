@@ -30,7 +30,7 @@ do[ async funcion switch!!
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 26,
                 "end": 26
             },
@@ -54,21 +54,21 @@ do[ async funcion switch!!
                                             "kind": 134299649,
                                             "text": "funcion",
                                             "rawText": "funcion",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 17
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 3,
                                         "end": 17
                                     }
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 3,
                                     "end": 9
                                 },
@@ -77,7 +77,7 @@ do[ async funcion switch!!
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 25
                                     },
@@ -85,44 +85,44 @@ do[ async funcion switch!!
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 25,
                                             "end": 26
                                         },
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 12,
+                                            "flags": 68,
                                             "start": 26,
                                             "end": 26
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 25,
                                         "end": 26
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 26
                                 },
-                                "flags": 2304,
+                                "flags": 288,
                                 "start": 3,
                                 "end": 26
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 3,
                         "end": 26
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 2,
                     "end": 26
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

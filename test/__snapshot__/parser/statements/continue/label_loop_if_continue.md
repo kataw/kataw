@@ -21,7 +21,7 @@ foo: while(z) if (x) continue foo
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
@@ -37,7 +37,7 @@ foo: while(z) if (x) continue foo
                     "kind": 134299649,
                     "text": "z",
                     "rawText": "z",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 12
                 },
@@ -53,7 +53,7 @@ foo: while(z) if (x) continue foo
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 18,
                         "end": 19
                     },
@@ -69,25 +69,25 @@ foo: while(z) if (x) continue foo
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 29,
                             "end": 33
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 20,
                         "end": 33
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 13,
                     "end": 33
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 33
         }

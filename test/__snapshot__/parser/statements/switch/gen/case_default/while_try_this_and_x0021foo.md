@@ -30,7 +30,7 @@ case while try this and !foo default
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 10,
                 "end": 10
             },
@@ -48,11 +48,11 @@ case while try this and !foo default
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 14,
                     "end": 14
                 },
@@ -64,19 +64,19 @@ case while try this and !foo default
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 19,
                         "end": 19
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 19,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 19
         },
@@ -86,11 +86,11 @@ case while try this and !foo default
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 19,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 23
         },
@@ -100,7 +100,7 @@ case while try this and !foo default
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 23,
                     "end": 25
                 },
@@ -108,15 +108,15 @@ case while try this and !foo default
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 25,
                     "end": 28
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 23,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 28
         }

@@ -36,7 +36,7 @@ class A {a(x=new.target){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -59,7 +59,7 @@ class A {a(x=new.target){}}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 10
                             },
@@ -74,7 +74,7 @@ class A {a(x=new.target){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 12
                                         },
@@ -86,21 +86,21 @@ class A {a(x=new.target){}}
                                                 "kind": 134299649,
                                                 "text": "target",
                                                 "rawText": "target",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 17,
                                                 "end": 23
                                             },
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 13,
                                             "end": 23
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 11,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 11,
                                 "end": 24
                             },
@@ -112,11 +112,11 @@ class A {a(x=new.target){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 26
                             },
@@ -129,11 +129,11 @@ class A {a(x=new.target){}}
                         "end": 26
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

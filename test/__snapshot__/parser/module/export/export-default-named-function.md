@@ -50,7 +50,7 @@ export default function foo() {}
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 23,
                     "end": 27
                 },
@@ -58,7 +58,7 @@ export default function foo() {}
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 27,
                     "end": 29
                 },
@@ -69,21 +69,21 @@ export default function foo() {}
                         "directives": [],
                         "statements": [],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 31,
                         "end": 31
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 29,
                     "end": 32
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 14,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 32
         }

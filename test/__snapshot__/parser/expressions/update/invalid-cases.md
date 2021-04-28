@@ -35,7 +35,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -45,7 +45,7 @@ new new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 0,
                         "end": 3
                     },
@@ -53,19 +53,19 @@ new new foo().bar++;
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 4,
                         "end": 4
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 5
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -75,7 +75,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 18,
                     "end": 20
                 },
@@ -85,7 +85,7 @@ new new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 8,
                         "end": 13
                     },
@@ -96,25 +96,25 @@ new new foo().bar++;
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 8,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 21
         },
@@ -124,7 +124,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 33,
                     "end": 35
                 },
@@ -136,7 +136,7 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 26
                         },
@@ -144,11 +144,11 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 27,
                             "end": 30
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 31
                     },
@@ -156,19 +156,19 @@ new new foo().bar++;
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 32,
                         "end": 32
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 33
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 36
         },
@@ -178,7 +178,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 47,
                     "end": 49
                 },
@@ -190,7 +190,7 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 36,
                             "end": 41
                         },
@@ -198,11 +198,11 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 42,
                             "end": 45
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 36,
                         "end": 45
                     },
@@ -210,19 +210,19 @@ new new foo().bar++;
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 46,
                         "end": 46
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 36,
                     "end": 47
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 36,
                 "end": 49
             },
-            "flags": 128,
+            "flags": 16,
             "start": 36,
             "end": 50
         },
@@ -232,7 +232,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 87,
                     "end": 89
                 },
@@ -252,7 +252,7 @@ new new foo().bar++;
                                             "kind": 129,
                                             "member": {
                                                 "kind": 135,
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 50,
                                                 "end": 56
                                             },
@@ -260,11 +260,11 @@ new new foo().bar++;
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 50,
                                             "end": 60
                                         },
@@ -272,11 +272,11 @@ new new foo().bar++;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 61,
                                             "end": 64
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 50,
                                         "end": 65
                                     },
@@ -284,11 +284,11 @@ new new foo().bar++;
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 66,
                                         "end": 69
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 50,
                                     "end": 69
                                 },
@@ -297,17 +297,17 @@ new new foo().bar++;
                                     "elements": [
                                         {
                                             "kind": 135,
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 70,
                                             "end": 74
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 70,
                                     "end": 74
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 50,
                                 "end": 75
                             },
@@ -318,17 +318,17 @@ new new foo().bar++;
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 76,
                                         "end": 79
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 76,
                                 "end": 79
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 50,
                             "end": 80
                         },
@@ -336,11 +336,11 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 81,
                             "end": 84
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 50,
                         "end": 85
                     },
@@ -348,19 +348,19 @@ new new foo().bar++;
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 86,
                         "end": 86
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 50,
                     "end": 87
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 50,
                 "end": 89
             },
-            "flags": 128,
+            "flags": 16,
             "start": 50,
             "end": 90
         },
@@ -370,7 +370,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 101,
                     "end": 103
                 },
@@ -386,7 +386,7 @@ new new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 95,
                         "end": 99
                     },
@@ -394,19 +394,19 @@ new new foo().bar++;
                         "kind": 256,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 100,
                         "end": 100
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 90,
                     "end": 101
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 90,
                 "end": 103
             },
-            "flags": 128,
+            "flags": 16,
             "start": 90,
             "end": 104
         },
@@ -416,7 +416,7 @@ new new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 123,
                     "end": 125
                 },
@@ -442,7 +442,7 @@ new new foo().bar++;
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 113,
                                 "end": 117
                             },
@@ -450,16 +450,16 @@ new new foo().bar++;
                                 "kind": 256,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 118,
                                 "end": 118
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 109,
                             "end": 119
                         },
                         "argumentList": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 104,
                         "end": 119
                     },
@@ -467,19 +467,19 @@ new new foo().bar++;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 120,
                         "end": 123
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 104,
                     "end": 123
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 104,
                 "end": 125
             },
-            "flags": 128,
+            "flags": 16,
             "start": 104,
             "end": 126
         },
@@ -494,7 +494,7 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 129,
                             "end": 130
                         },
@@ -504,25 +504,25 @@ new new foo().bar++;
                                 "kind": 201392130,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 131,
                                 "end": 133
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 131,
                             "end": 133
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 129,
                         "end": 133
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 129,
                 "end": 133
             },
-            "flags": 128,
+            "flags": 16,
             "start": 126,
             "end": 134
         },
@@ -532,22 +532,22 @@ new new foo().bar++;
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 134,
                     "end": 136
                 },
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 136,
                     "end": 136
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 134,
                 "end": 136
             },
-            "flags": 128,
+            "flags": 16,
             "start": 134,
             "end": 137
         }

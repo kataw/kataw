@@ -37,7 +37,7 @@ class X {    async constructor() {}   }
                 "kind": 134299649,
                 "text": "X",
                 "rawText": "X",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -53,7 +53,7 @@ class X {    async constructor() {}   }
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 18
                         },
@@ -65,7 +65,7 @@ class X {    async constructor() {}   }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 18,
                                 "end": 30
                             },
@@ -74,7 +74,7 @@ class X {    async constructor() {}   }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 18432,
+                                "flags": 2304,
                                 "start": 31,
                                 "end": 32
                             },
@@ -86,28 +86,28 @@ class X {    async constructor() {}   }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 35
                             },
-                            "flags": 18432,
+                            "flags": 2304,
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 18432,
+                        "flags": 2304,
                         "start": 9,
                         "end": 35
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

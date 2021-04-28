@@ -48,7 +48,7 @@ class C { #aaa(){} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -70,7 +70,7 @@ class C { #aaa(){} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#aaa",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 14
                             },
@@ -91,11 +91,11 @@ class C { #aaa(){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 17
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 18
                             },
@@ -108,11 +108,11 @@ class C { #aaa(){} }
                         "end": 18
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

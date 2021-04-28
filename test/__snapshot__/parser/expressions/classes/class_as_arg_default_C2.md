@@ -23,13 +23,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -54,13 +54,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                             "kind": 134299649,
                                             "text": "xCls2",
                                             "rawText": "xCls2",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 11
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -85,7 +85,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                         "decorators": null,
                                                         "staticKeyword": {
                                                             "kind": 8388716,
-                                                            "flags": 512,
+                                                            "flags": 64,
                                                             "start": 21,
                                                             "end": 28
                                                         },
@@ -98,7 +98,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                 "kind": 134299649,
                                                                 "text": "name",
                                                                 "rawText": "name",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 28,
                                                                 "end": 33
                                                             },
@@ -119,11 +119,11 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 37,
                                                                     "end": 37
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 35,
                                                                 "end": 38
                                                             },
@@ -136,25 +136,25 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                         "end": 38
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 21,
                                                 "end": 40
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 40
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 6,
                                         "end": 40
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 40
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 41
                         }
@@ -168,23 +168,23 @@ f = ([xCls2 = class { static name() {} }]) => {}
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 47,
                             "end": 47
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 45,
                         "end": 48
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 48
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 48
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 48
         }

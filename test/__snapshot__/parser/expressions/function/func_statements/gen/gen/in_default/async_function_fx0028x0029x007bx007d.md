@@ -34,7 +34,7 @@ switch (x) {
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -55,7 +55,7 @@ switch (x) {
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 513,
+                                    "flags": 65,
                                     "start": 23,
                                     "end": 33
                                 },
@@ -70,7 +70,7 @@ switch (x) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 42,
                                     "end": 44
                                 },
@@ -78,7 +78,7 @@ switch (x) {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 44,
                                     "end": 46
                                 },
@@ -89,31 +89,31 @@ switch (x) {
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 47,
                                         "end": 47
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 46,
                                     "end": 48
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1152,
+                                "flags": 144,
                                 "start": 23,
                                 "end": 48
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 48
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 50
         }

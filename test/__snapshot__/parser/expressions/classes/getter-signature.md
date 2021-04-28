@@ -37,7 +37,7 @@ class A {
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -54,7 +54,7 @@ class A {
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -65,7 +65,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "prop",
                                 "rawText": "prop",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 20
                             },
@@ -80,20 +80,20 @@ class A {
                                             "kind": 134299649,
                                             "text": "arg",
                                             "rawText": "arg",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 25
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 22,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 8448,
+                                "flags": 1056,
                                 "start": 22,
                                 "end": 26
                             },
@@ -105,28 +105,28 @@ class A {
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 28
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 29
                             },
-                            "flags": 8192,
+                            "flags": 1024,
                             "start": 20,
                             "end": 29
                         },
-                        "flags": 8192,
+                        "flags": 1024,
                         "start": 9,
                         "end": 29
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 31
         }

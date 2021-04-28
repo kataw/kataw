@@ -48,7 +48,7 @@ class w {  t[x](){}  }
                 "kind": 134299649,
                 "text": "w",
                 "rawText": "w",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -67,14 +67,14 @@ class w {  t[x](){}  }
                             "kind": 134299649,
                             "text": "t",
                             "rawText": "t",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 12
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 12
                     },
@@ -94,11 +94,11 @@ class w {  t[x](){}  }
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 15
                             },
@@ -119,11 +119,11 @@ class w {  t[x](){}  }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 18
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 19
                             },
@@ -136,11 +136,11 @@ class w {  t[x](){}  }
                         "end": 19
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

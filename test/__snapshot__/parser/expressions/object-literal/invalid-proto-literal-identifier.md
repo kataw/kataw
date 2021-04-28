@@ -29,7 +29,7 @@
                                 "left": {
                                     "kind": 269,
                                     "text": null,
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 20
                                 },
@@ -37,11 +37,11 @@
                                     "kind": 201392131,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 14
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 2,
                                 "end": 20
                             },
@@ -50,7 +50,7 @@
                                 "left": {
                                     "kind": 269,
                                     "text": null,
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 32,
                                     "end": 37
                                 },
@@ -58,11 +58,11 @@
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 21,
                                     "end": 31
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 37
                             }
@@ -73,15 +73,15 @@
                         "start": 2,
                         "end": 37
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 40
         }

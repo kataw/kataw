@@ -31,7 +31,7 @@
                         "expression": {
                             "kind": 134,
                             "text": false,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 6,
                             "end": 11
                         },
@@ -41,37 +41,37 @@
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 14,
                                 "end": 14
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 12,
                             "end": 15
                         },
                         "elseKeyword": {
                             "kind": 4194389,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 15,
                             "end": 20
                         },
                         "alternate": {
                             "kind": 168,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 22
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 2,
                         "end": 22
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

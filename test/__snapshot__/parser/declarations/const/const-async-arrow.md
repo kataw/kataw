@@ -40,7 +40,7 @@ const a = async (foo: string = "") => {}
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 5,
                             "end": 7
                         },
@@ -63,7 +63,7 @@ const a = async (foo: string = "") => {}
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 20
                                     },
@@ -72,7 +72,7 @@ const a = async (foo: string = "") => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 21,
                                             "end": 28
                                         },
@@ -84,18 +84,18 @@ const a = async (foo: string = "") => {}
                                         "kind": 201392131,
                                         "text": "",
                                         "rawText": "",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 30,
                                         "end": 33
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 33
                                 }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 9,
                                 "end": 15
                             },
@@ -107,28 +107,28 @@ const a = async (foo: string = "") => {}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 39
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 40
                             },
-                            "flags": 2304,
+                            "flags": 288,
                             "start": 9,
                             "end": 40
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 40
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 40
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 40
         }

@@ -37,7 +37,7 @@ class C { \\u0041 }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -46,11 +46,11 @@ class C { \\u0041 }
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -60,11 +60,11 @@ class C { \\u0041 }
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 11,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 11,
             "end": 17
         }

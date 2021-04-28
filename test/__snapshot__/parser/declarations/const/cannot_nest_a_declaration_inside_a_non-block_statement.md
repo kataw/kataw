@@ -35,7 +35,7 @@ switch (x) { case x: const y = x }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -54,7 +54,7 @@ switch (x) { case x: const y = x }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 19
                         },
@@ -76,7 +76,7 @@ switch (x) { case x: const y = x }
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 26,
                                                 "end": 28
                                             },
@@ -86,34 +86,34 @@ switch (x) { case x: const y = x }
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 30,
                                                 "end": 32
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 26,
                                             "end": 32
                                         }
                                     ],
-                                    "flags": 160,
+                                    "flags": 16777232,
                                     "start": 26,
                                     "end": 32
                                 },
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 20,
                                 "end": 32
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 32
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

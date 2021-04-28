@@ -34,7 +34,7 @@
                                     "kind": 134299649,
                                     "text": "protected",
                                     "rawText": "protected",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 3,
                                     "end": 12
                                 },
@@ -49,14 +49,14 @@
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 13,
                                                 "end": 14
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 14
                                         },
@@ -67,20 +67,20 @@
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 15,
                                                 "end": 17
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 17
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 1280,
+                                    "flags": 160,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -92,15 +92,15 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 20
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 21
                                 },
-                                "flags": 1280,
+                                "flags": 160,
                                 "start": 12,
                                 "end": 21
                             }
@@ -111,15 +111,15 @@
                         "start": 2,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1,
                     "end": 22
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

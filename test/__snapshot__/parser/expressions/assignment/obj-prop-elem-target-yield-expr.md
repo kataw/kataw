@@ -41,7 +41,7 @@ result = { x: x[yield] } = vals;
                             "kind": 134299649,
                             "text": "vals",
                             "rawText": "vals",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 8
                         },
@@ -58,7 +58,7 @@ result = { x: x[yield] } = vals;
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "23",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 18
                                         },
@@ -66,11 +66,11 @@ result = { x: x[yield] } = vals;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 14
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 18
                                     }
@@ -81,20 +81,20 @@ result = { x: x[yield] } = vals;
                                 "start": 12,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 20
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 20
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         },
@@ -106,13 +106,13 @@ result = { x: x[yield] } = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 29
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 29,
                     "end": 31
                 },
@@ -131,7 +131,7 @@ result = { x: x[yield] } = vals;
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 36,
                                             "end": 38
                                         },
@@ -139,11 +139,11 @@ result = { x: x[yield] } = vals;
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 39,
                                             "end": 44
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 33,
                                         "end": 45
                                     },
@@ -151,11 +151,11 @@ result = { x: x[yield] } = vals;
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 33,
                                         "end": 35
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 33,
                                     "end": 45
                                 }
@@ -166,13 +166,13 @@ result = { x: x[yield] } = vals;
                             "start": 33,
                             "end": 45
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 31,
                         "end": 47
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 47,
                         "end": 49
                     },
@@ -180,19 +180,19 @@ result = { x: x[yield] } = vals;
                         "kind": 134299649,
                         "text": "vals",
                         "rawText": "vals",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 49,
                         "end": 54
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 31,
                     "end": 54
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 54
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 55
         }

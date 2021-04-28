@@ -42,17 +42,17 @@ export {x,} from "foo"
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 9
                             },
                             "binding": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 8,
                             "end": 9
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 10
                 },
@@ -65,11 +65,11 @@ export {x,} from "foo"
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 16,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

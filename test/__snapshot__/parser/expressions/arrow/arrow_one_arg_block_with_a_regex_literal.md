@@ -31,7 +31,7 @@
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1,
                         "end": 2
                     }
@@ -49,29 +49,29 @@
                                 "expression": {
                                     "kind": 221,
                                     "text": "/x/",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 9
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 6,
                                 "end": 9
                             }
                         ],
                         "multiline": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 10
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         }

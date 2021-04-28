@@ -28,7 +28,7 @@
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1,
                                 "end": 2
                             },
@@ -36,7 +36,7 @@
                                 "kind": 215,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 3,
                                     "end": 7
                                 },
@@ -44,29 +44,29 @@
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 7,
                                     "end": 8
                                 },
                                 "optionalToken": null,
                                 "type": null,
                                 "initializer": null,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 3,
                                 "end": 8
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 9,
                     "end": 11
                 },
@@ -74,15 +74,15 @@
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

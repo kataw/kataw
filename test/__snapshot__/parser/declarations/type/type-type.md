@@ -29,7 +29,7 @@ type Foo<T> = Bar<T>
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 8
             },
@@ -37,7 +37,7 @@ type Foo<T> = Bar<T>
                 "kind": 134299649,
                 "text": "Foo",
                 "rawText": "Foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 8
             },
@@ -51,7 +51,7 @@ type Foo<T> = Bar<T>
                             "kind": 134299649,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 10
                         },
@@ -71,7 +71,7 @@ type Foo<T> = Bar<T>
                     "kind": 134299649,
                     "text": "Bar",
                     "rawText": "Bar",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 17
                 },
@@ -84,7 +84,7 @@ type Foo<T> = Bar<T>
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 18,
                                 "end": 19
                             },
@@ -102,7 +102,7 @@ type Foo<T> = Bar<T>
                 "start": 13,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

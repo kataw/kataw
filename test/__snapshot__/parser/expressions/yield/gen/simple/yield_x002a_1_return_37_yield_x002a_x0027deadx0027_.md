@@ -27,13 +27,13 @@ yield * 1; return 37; yield * 'dead';
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -41,15 +41,15 @@ yield * 1; return 37; yield * 'dead';
                     "kind": 201392130,
                     "text": 1,
                     "rawText": "1",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 9
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -65,11 +65,11 @@ yield * 1; return 37; yield * 'dead';
                 "kind": 201392130,
                 "text": 37,
                 "rawText": "37",
-                "flags": 768,
+                "flags": 96,
                 "start": 17,
                 "end": 20
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 10
         },
@@ -81,13 +81,13 @@ yield * 1; return 37; yield * 'dead';
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 21,
                     "end": 27
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 27,
                     "end": 29
                 },
@@ -95,15 +95,15 @@ yield * 1; return 37; yield * 'dead';
                     "kind": 201392131,
                     "text": "dead",
                     "rawText": "dead",
-                    "flags": 67109632,
+                    "flags": 4194400,
                     "start": 29,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 21,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 37
         }

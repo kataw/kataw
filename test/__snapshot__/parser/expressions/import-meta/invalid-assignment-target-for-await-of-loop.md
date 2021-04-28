@@ -28,7 +28,7 @@ async function* f() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -40,7 +40,7 @@ async function* f() {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 14,
                 "end": 15
             },
@@ -48,7 +48,7 @@ async function* f() {
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
@@ -56,7 +56,7 @@ async function* f() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 19
             },
@@ -91,49 +91,49 @@ async function* f() {
                                         "end": 43
                                     },
                                     "flags": 43,
-                                    "start": 768,
+                                    "start": 96,
                                     "end": 48
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 43,
                                 "end": 48
                             },
                             "expression": {
                                 "kind": 269,
                                 "text": null,
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 51,
                                 "end": 56
                             },
                             "statement": {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 57,
                                 "end": 59
                             },
                             "awaitKeyword": {
                                 "kind": 82032,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 29,
                                 "end": 35
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 21,
                             "end": 59
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 59
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 19,
                 "end": 61
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 400,
             "start": 0,
             "end": 61
         }

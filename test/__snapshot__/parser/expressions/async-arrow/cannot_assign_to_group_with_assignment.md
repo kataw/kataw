@@ -21,7 +21,7 @@ async (a=/i/) = /i/
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -34,34 +34,34 @@ async (a=/i/) = /i/
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 8,
                             "end": 9
                         },
                         "right": {
                             "kind": 221,
                             "text": "/i/",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 13
         },
@@ -70,11 +70,11 @@ async (a=/i/) = /i/
             "expression": {
                 "kind": 221,
                 "text": "/i/",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 19
         }

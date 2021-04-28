@@ -42,7 +42,7 @@ class {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 7,
                             "end": 21
                         },
@@ -51,7 +51,7 @@ class {
                             "kind": 134299649,
                             "text": "field",
                             "rawText": "field",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 27
                         },
@@ -61,26 +61,26 @@ class {
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 29,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 33
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 33,
                         "end": 34
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 7,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 38
         }

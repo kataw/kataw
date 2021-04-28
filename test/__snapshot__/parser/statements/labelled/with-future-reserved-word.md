@@ -21,7 +21,7 @@ interface: x;
                 "kind": 134299649,
                 "text": "interface",
                 "rawText": "interface",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 9
             },
@@ -31,15 +31,15 @@ interface: x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         }

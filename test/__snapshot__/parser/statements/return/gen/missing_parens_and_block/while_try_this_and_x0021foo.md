@@ -30,11 +30,11 @@ return catch while try this and !foo
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -47,11 +47,11 @@ return catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 12,
                     "end": 12
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 12,
                 "end": 12
             },
@@ -63,15 +63,15 @@ return catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 18,
                     "end": 18
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 18
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 18
         },
@@ -89,11 +89,11 @@ return catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 22,
                     "end": 22
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 22
             },
@@ -105,15 +105,15 @@ return catch while try this and !foo
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 27,
                     "end": 27
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 27,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 18,
             "end": 27
         },
@@ -123,11 +123,11 @@ return catch while try this and !foo
                 "kind": 134299649,
                 "text": "and",
                 "rawText": "and",
-                "flags": 768,
+                "flags": 96,
                 "start": 27,
                 "end": 31
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 31
         },
@@ -137,7 +137,7 @@ return catch while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 31,
                     "end": 33
                 },
@@ -145,15 +145,15 @@ return catch while try this and !foo
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 33,
                     "end": 36
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 31,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 31,
             "end": 36
         }

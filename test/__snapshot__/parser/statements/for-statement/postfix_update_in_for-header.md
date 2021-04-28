@@ -46,7 +46,7 @@ for (x--;;);
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -54,11 +54,11 @@ for (x--;;);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 8
             },
@@ -66,11 +66,11 @@ for (x--;;);
             "incrementor": null,
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 11,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

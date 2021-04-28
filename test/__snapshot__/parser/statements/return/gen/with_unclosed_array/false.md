@@ -35,21 +35,21 @@ return[ false
                         {
                             "kind": 134,
                             "text": false,
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 7,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         }

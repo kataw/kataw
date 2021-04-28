@@ -34,7 +34,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -64,7 +64,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 29,
                                 "end": 30
                             },
@@ -72,7 +72,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                 "kind": 134299649,
                                 "text": "g",
                                 "rawText": "g",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 30,
                                 "end": 31
                             },
@@ -80,7 +80,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 33
                             },
@@ -105,7 +105,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 43,
                                                 "end": 49
                                             },
@@ -113,7 +113,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 49,
                                                 "end": 51
                                             },
@@ -124,55 +124,55 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 52,
                                                     "end": 52
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 51,
                                                 "end": 53
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 34,
                                             "end": 53
                                         },
                                         {
                                             "kind": 168,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 53,
                                             "end": 54
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 34,
                                     "end": 54
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 56
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2176,
+                            "flags": 272,
                             "start": 20,
                             "end": 56
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 56
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 58
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 58
         }

@@ -18,7 +18,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 768,
+            "flags": 96,
             "start": 0,
             "end": 12
         }
@@ -49,7 +49,7 @@
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 25
                                         },
@@ -59,33 +59,33 @@
                                             "kind": 134299649,
                                             "text": "let",
                                             "rawText": "let",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 27,
                                             "end": 31
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 31
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 32
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 22,
                         "end": 32
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 22,
                 "end": 32
             },
@@ -97,15 +97,15 @@
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 37,
                     "end": 37
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 35,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 38
         }

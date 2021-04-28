@@ -37,7 +37,7 @@ class C { set #aaa(x){} }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -55,7 +55,7 @@ class C { set #aaa(x){} }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 13
                         },
@@ -64,7 +64,7 @@ class C { set #aaa(x){} }
                             "name": {
                                 "kind": 67109115,
                                 "text": "#aaa",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 18
                             },
@@ -79,20 +79,20 @@ class C { set #aaa(x){} }
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 20
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 19,
                                 "end": 21
                             },
@@ -104,28 +104,28 @@ class C { set #aaa(x){} }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 22
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 18,
                             "end": 23
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 9,
                         "end": 23
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

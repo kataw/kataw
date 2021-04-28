@@ -38,22 +38,22 @@ export * as foo, {bar} from 'bar';
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 11,
                     "end": 15
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 0,
                 "end": 15
             },
             "fromClause": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 15,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         },
@@ -68,21 +68,21 @@ export * as foo, {bar} from 'bar';
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 18,
                         "end": 21
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 18,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 16,
             "end": 22
         },
@@ -92,11 +92,11 @@ export * as foo, {bar} from 'bar';
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "from",
-                "flags": 768,
+                "flags": 96,
                 "start": 22,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 16,
             "start": 22,
             "end": 27
         },
@@ -106,11 +106,11 @@ export * as foo, {bar} from 'bar';
                 "kind": 201392131,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 67109632,
+                "flags": 4194400,
                 "start": 27,
                 "end": 33
             },
-            "flags": 128,
+            "flags": 16,
             "start": 27,
             "end": 34
         }

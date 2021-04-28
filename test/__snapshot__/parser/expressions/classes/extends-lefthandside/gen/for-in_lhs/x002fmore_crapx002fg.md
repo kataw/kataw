@@ -28,7 +28,7 @@ for (/more crap/g in x) ;
             },
             "inKeyword": {
                 "kind": 21006388,
-                "flags": 512,
+                "flags": 64,
                 "start": 17,
                 "end": 20
             },
@@ -36,7 +36,7 @@ for (/more crap/g in x) ;
             "initializer": {
                 "kind": 221,
                 "text": "/more crap/g",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 17
             },
@@ -44,17 +44,17 @@ for (/more crap/g in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 22
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

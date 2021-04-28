@@ -42,7 +42,7 @@ function * x() { "use strict";  yield: 34; }
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 768,
+            "flags": 96,
             "start": 0,
             "end": 12
         }
@@ -63,7 +63,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 22,
                 "end": 30
             },
@@ -71,7 +71,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 30,
                 "end": 32
             },
@@ -99,14 +99,14 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 38,
                                             "end": 42
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 38,
                                         "end": 42
                                     },
@@ -116,39 +116,39 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 43,
                                             "end": 49
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 43,
                                         "end": 49
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 38,
                                 "end": 49
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 34,
                             "end": 50
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 34,
                     "end": 50
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 32,
                 "end": 52
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 52
         },
@@ -158,11 +158,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 52,
                 "end": 66
             },
-            "flags": 128,
+            "flags": 16,
             "start": 52,
             "end": 67
         },
@@ -181,7 +181,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 76,
                 "end": 84
             },
@@ -189,7 +189,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 84,
                 "end": 86
             },
@@ -213,11 +213,11 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 94,
                                     "end": 94
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 92,
                                 "end": 96
                             },
@@ -233,7 +233,7 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 104,
                                     "end": 109
                                 },
@@ -243,37 +243,37 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 112,
                                         "end": 112
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 110,
                                     "end": 114
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 96,
                                 "end": 114
                             },
                             "finallyKeyword": null,
                             "finallyBlock": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 88,
                             "end": 114
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 88,
                     "end": 114
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 86,
                 "end": 116
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 67,
             "end": 116
         },
@@ -283,11 +283,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 116,
                 "end": 130
             },
-            "flags": 128,
+            "flags": 16,
             "start": 116,
             "end": 131
         },
@@ -306,7 +306,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 140,
                 "end": 148
             },
@@ -314,7 +314,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 148,
                 "end": 150
             },
@@ -339,7 +339,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 161,
                                 "end": 167
                             },
@@ -347,7 +347,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 167,
                                 "end": 169
                             },
@@ -358,33 +358,33 @@ function * x() { "use strict";  yield: 34; }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 171,
                                     "end": 171
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 169,
                                 "end": 173
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 152,
                             "end": 173
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 152,
                     "end": 173
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 150,
                 "end": 175
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 131,
             "end": 175
         },
@@ -394,11 +394,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 175,
                 "end": 188
             },
-            "flags": 128,
+            "flags": 16,
             "start": 175,
             "end": 189
         },
@@ -417,7 +417,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 198,
                 "end": 206
             },
@@ -425,7 +425,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 206,
                 "end": 208
             },
@@ -453,7 +453,7 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 220,
                                         "end": 226
                                     },
@@ -461,7 +461,7 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 226,
                                         "end": 228
                                     },
@@ -472,41 +472,41 @@ function * x() { "use strict";  yield: 34; }
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 230,
                                             "end": 230
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 228,
                                         "end": 232
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 212,
                                     "end": 232
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 210,
                                 "end": 233
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 210,
                             "end": 233
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 210,
                     "end": 233
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 208,
                 "end": 235
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 189,
             "end": 235
         },
@@ -516,11 +516,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 235,
                 "end": 248
             },
-            "flags": 128,
+            "flags": 16,
             "start": 235,
             "end": 249
         },
@@ -539,7 +539,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 258,
                 "end": 266
             },
@@ -547,7 +547,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 266,
                 "end": 268
             },
@@ -572,7 +572,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 279,
                                 "end": 283
                             },
@@ -586,20 +586,20 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 284,
                                             "end": 289
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 284,
                                         "end": 289
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 283,
                                 "end": 290
                             },
@@ -610,33 +610,33 @@ function * x() { "use strict";  yield: 34; }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 292,
                                     "end": 292
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 290,
                                 "end": 294
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 270,
                             "end": 294
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 270,
                     "end": 294
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 268,
                 "end": 296
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 249,
             "end": 296
         },
@@ -646,11 +646,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 296,
                 "end": 309
             },
-            "flags": 128,
+            "flags": 16,
             "start": 296,
             "end": 310
         },
@@ -669,7 +669,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 319,
                 "end": 327
             },
@@ -677,7 +677,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 327,
                 "end": 329
             },
@@ -702,7 +702,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 340,
                                 "end": 344
                             },
@@ -716,14 +716,14 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 345,
                                             "end": 348
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 345,
                                         "end": 348
                                     },
@@ -734,20 +734,20 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 349,
                                             "end": 355
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 349,
                                         "end": 355
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 344,
                                 "end": 356
                             },
@@ -758,33 +758,33 @@ function * x() { "use strict";  yield: 34; }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 358,
                                     "end": 358
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 356,
                                 "end": 360
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 331,
                             "end": 360
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 331,
                     "end": 360
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 329,
                 "end": 362
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 310,
             "end": 362
         },
@@ -794,11 +794,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 362,
                 "end": 375
             },
-            "flags": 128,
+            "flags": 16,
             "start": 362,
             "end": 376
         },
@@ -817,7 +817,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 385,
                 "end": 393
             },
@@ -825,7 +825,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 393,
                 "end": 395
             },
@@ -847,7 +847,7 @@ function * x() { "use strict";  yield: 34; }
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 406,
                                 "end": 408
                             },
@@ -855,7 +855,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 408,
                                 "end": 414
                             },
@@ -863,7 +863,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 414,
                                 "end": 416
                             },
@@ -874,33 +874,33 @@ function * x() { "use strict";  yield: 34; }
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 418,
                                     "end": 418
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 416,
                                 "end": 420
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 2176,
+                            "flags": 272,
                             "start": 397,
                             "end": 420
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 397,
                     "end": 420
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 395,
                 "end": 422
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 376,
             "end": 422
         },
@@ -910,11 +910,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 422,
                 "end": 435
             },
-            "flags": 128,
+            "flags": 16,
             "start": 422,
             "end": 436
         },
@@ -933,7 +933,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 445,
                 "end": 453
             },
@@ -941,7 +941,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 453,
                 "end": 455
             },
@@ -966,7 +966,7 @@ function * x() { "use strict";  yield: 34; }
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 467,
                                         "end": 469
                                     },
@@ -974,7 +974,7 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 469,
                                         "end": 475
                                     },
@@ -982,7 +982,7 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 475,
                                         "end": 477
                                     },
@@ -993,41 +993,41 @@ function * x() { "use strict";  yield: 34; }
                                             "directives": [],
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 479,
                                             "end": 479
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 477,
                                         "end": 481
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 2304,
+                                    "flags": 288,
                                     "start": 459,
                                     "end": 481
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 457,
                                 "end": 482
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 457,
                             "end": 482
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 457,
                     "end": 482
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 455,
                 "end": 484
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 436,
             "end": 484
         },
@@ -1037,11 +1037,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 484,
                 "end": 497
             },
-            "flags": 128,
+            "flags": 16,
             "start": 484,
             "end": 498
         },
@@ -1060,7 +1060,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 507,
                 "end": 515
             },
@@ -1068,7 +1068,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 515,
                 "end": 517
             },
@@ -1086,13 +1086,13 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 519,
                                     "end": 525
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 525,
                                     "end": 527
                                 },
@@ -1100,31 +1100,31 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 527,
                                     "end": 529
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 519,
                                 "end": 529
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 519,
                             "end": 530
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 519,
                     "end": 530
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 517,
                 "end": 532
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 498,
             "end": 532
         },
@@ -1134,11 +1134,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 532,
                 "end": 545
             },
-            "flags": 128,
+            "flags": 16,
             "start": 532,
             "end": 546
         },
@@ -1157,7 +1157,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 555,
                 "end": 563
             },
@@ -1165,7 +1165,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 563,
                 "end": 565
             },
@@ -1193,7 +1193,7 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 571,
                                             "end": 575
                                         },
@@ -1205,13 +1205,13 @@ function * x() { "use strict";  yield: 34; }
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 577,
                                                 "end": 583
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 583,
                                                 "end": 585
                                             },
@@ -1219,40 +1219,40 @@ function * x() { "use strict";  yield: 34; }
                                                 "kind": 201392130,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 585,
                                                 "end": 587
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 577,
                                             "end": 587
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 571,
                                         "end": 587
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 571,
                                 "end": 587
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 567,
                             "end": 588
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 567,
                     "end": 588
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 565,
                 "end": 590
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 546,
             "end": 590
         },
@@ -1262,11 +1262,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 590,
                 "end": 603
             },
-            "flags": 128,
+            "flags": 16,
             "start": 590,
             "end": 604
         },
@@ -1285,7 +1285,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 613,
                 "end": 621
             },
@@ -1293,7 +1293,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 621,
                 "end": 623
             },
@@ -1309,7 +1309,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 625,
                                     "end": 628
                                 },
@@ -1317,31 +1317,31 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 628,
                                     "end": 633
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 625,
                                 "end": 633
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 625,
                             "end": 634
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 625,
                     "end": 634
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 623,
                 "end": 636
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 604,
             "end": 636
         },
@@ -1360,7 +1360,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 646,
                 "end": 654
             },
@@ -1368,7 +1368,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 654,
                 "end": 656
             },
@@ -1381,7 +1381,7 @@ function * x() { "use strict";  yield: 34; }
                             "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 658,
                             "end": 671
                         }
@@ -1393,7 +1393,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 127,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 678,
                                     "end": 680
                                 },
@@ -1401,31 +1401,31 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 672,
                                     "end": 678
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 672,
                                 "end": 680
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 672,
                             "end": 681
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 658,
                     "end": 681
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 656,
                 "end": 683
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 636,
             "end": 683
         },
@@ -1444,7 +1444,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 692,
                 "end": 700
             },
@@ -1452,7 +1452,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 700,
                 "end": 702
             },
@@ -1465,7 +1465,7 @@ function * x() { "use strict";  yield: 34; }
                             "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 704,
                             "end": 717
                         }
@@ -1477,27 +1477,27 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 718,
                                 "end": 725
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 718,
                             "end": 725
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 704,
                     "end": 725
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 702,
                 "end": 725
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 683,
             "end": 725
         },
@@ -1507,11 +1507,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392130,
                 "text": 34,
                 "rawText": "34",
-                "flags": 768,
+                "flags": 96,
                 "start": 726,
                 "end": 729
             },
-            "flags": 128,
+            "flags": 16,
             "start": 726,
             "end": 730
         },
@@ -1527,7 +1527,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 742,
                 "end": 744
             },
@@ -1535,7 +1535,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 744,
                 "end": 746
             },
@@ -1543,7 +1543,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 746,
                 "end": 748
             },
@@ -1556,7 +1556,7 @@ function * x() { "use strict";  yield: 34; }
                             "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 750,
                             "end": 763
                         }
@@ -1578,42 +1578,42 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 770,
                                         "end": 772
                                     },
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 12,
+                                        "flags": 68,
                                         "start": 772,
                                         "end": 772
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 770,
                                     "end": 772
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 764,
                                 "end": 772
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 764,
                             "end": 773
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 750,
                     "end": 773
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 748,
                 "end": 775
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 732,
             "end": 775
         },
@@ -1629,7 +1629,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 784,
                 "end": 786
             },
@@ -1637,7 +1637,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 786,
                 "end": 788
             },
@@ -1645,7 +1645,7 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 788,
                 "end": 790
             },
@@ -1658,7 +1658,7 @@ function * x() { "use strict";  yield: 34; }
                             "kind": 201392131,
                             "text": "use strict",
                             "rawText": "use strict",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 792,
                             "end": 805
                         }
@@ -1677,27 +1677,27 @@ function * x() { "use strict";  yield: 34; }
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": null,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 806,
                                 "end": 813
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 806,
                             "end": 813
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 792,
                     "end": 813
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 790,
                 "end": 813
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 775,
             "end": 813
         },
@@ -1707,11 +1707,11 @@ function * x() { "use strict";  yield: 34; }
                 "kind": 201392130,
                 "text": 34,
                 "rawText": "34",
-                "flags": 768,
+                "flags": 96,
                 "start": 814,
                 "end": 817
             },
-            "flags": 128,
+            "flags": 16,
             "start": 814,
             "end": 818
         }

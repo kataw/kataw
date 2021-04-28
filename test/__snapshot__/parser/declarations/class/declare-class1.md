@@ -31,7 +31,7 @@ type T2 = number;
             "kind": 178,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 7
             },
@@ -46,7 +46,7 @@ type T2 = number;
                 "kind": 134299649,
                 "text": "C1",
                 "rawText": "C1",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 16
             },
@@ -55,11 +55,11 @@ type T2 = number;
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 19
         },
@@ -67,14 +67,14 @@ type T2 = number;
             "kind": 200,
             "declareToken": {
                 "kind": 82165,
-                "flags": 512,
+                "flags": 64,
                 "start": 19,
                 "end": 28
             },
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 28,
                 "end": 36
             },
@@ -82,7 +82,7 @@ type T2 = number;
                 "kind": 134299649,
                 "text": "T1",
                 "rawText": "T1",
-                "flags": 768,
+                "flags": 96,
                 "start": 33,
                 "end": 36
             },
@@ -90,11 +90,11 @@ type T2 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 512,
+                "flags": 64,
                 "start": 38,
                 "end": 45
             },
-            "flags": 32896,
+            "flags": 4112,
             "start": 28,
             "end": 46
         },
@@ -104,7 +104,7 @@ type T2 = number;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 512,
+                "flags": 64,
                 "start": 46,
                 "end": 55
             },
@@ -112,7 +112,7 @@ type T2 = number;
                 "kind": 134299649,
                 "text": "T2",
                 "rawText": "T2",
-                "flags": 768,
+                "flags": 96,
                 "start": 52,
                 "end": 55
             },
@@ -120,11 +120,11 @@ type T2 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 512,
+                "flags": 64,
                 "start": 57,
                 "end": 64
             },
-            "flags": 128,
+            "flags": 16,
             "start": 46,
             "end": 65
         }

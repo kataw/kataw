@@ -27,7 +27,7 @@ switch(x) { default: default: case y: break; case z: break; }
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 7,
                 "end": 8
             },
@@ -43,7 +43,7 @@ switch(x) { default: default: case y: break; case z: break; }
                             "end": 19
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 11,
                         "end": 20
                     },
@@ -56,7 +56,7 @@ switch(x) { default: default: case y: break; case z: break; }
                             "end": 28
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 20,
                         "end": 29
                     },
@@ -72,7 +72,7 @@ switch(x) { default: default: case y: break; case z: break; }
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 34,
                             "end": 36
                         },
@@ -86,12 +86,12 @@ switch(x) { default: default: case y: break; case z: break; }
                                     "end": 43
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 37,
                                 "end": 44
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 29,
                         "end": 44
                     },
@@ -107,7 +107,7 @@ switch(x) { default: default: case y: break; case z: break; }
                             "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 49,
                             "end": 51
                         },
@@ -121,21 +121,21 @@ switch(x) { default: default: case y: break; case z: break; }
                                     "end": 58
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 52,
                                 "end": 59
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 44,
                         "end": 59
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 9,
                 "end": 61
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 61
         }

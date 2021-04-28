@@ -40,7 +40,7 @@ export { abc }
                             "kind": 134299649,
                             "text": "abc",
                             "rawText": "var",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 12
                         },
@@ -50,20 +50,20 @@ export { abc }
                             "kind": 201392130,
                             "text": 5,
                             "rawText": "5",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 16
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         },
@@ -88,17 +88,17 @@ export { abc }
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "abc",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 26,
                                 "end": 30
                             },
                             "binding": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 26,
                             "end": 30
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 26,
                     "end": 30
                 },
@@ -108,7 +108,7 @@ export { abc }
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 17,
             "end": 32
         }

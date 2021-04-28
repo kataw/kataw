@@ -33,7 +33,7 @@ import {default as foo} from "foo";
                 "kind": 201392131,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 28,
                 "end": 34
             },
@@ -54,7 +54,7 @@ import {default as foo} from "foo";
                                     "kind": 134299649,
                                     "text": "default",
                                     "rawText": "default",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 15
                                 },
@@ -62,11 +62,11 @@ import {default as foo} from "foo";
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 18,
                                     "end": 22
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 22
                             }
@@ -75,15 +75,15 @@ import {default as foo} from "foo";
                         "start": 8,
                         "end": 22
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 6,
                     "end": 23
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 6,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 35
         }

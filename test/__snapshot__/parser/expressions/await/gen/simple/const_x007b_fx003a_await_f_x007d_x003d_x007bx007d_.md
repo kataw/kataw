@@ -44,7 +44,7 @@ const { f: await f } = {};
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -55,16 +55,16 @@ const { f: await f } = {};
                                                 "kind": 134299649,
                                                 "text": "await",
                                                 "rawText": "await",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 10,
                                                 "end": 16
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 16
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 16
                                     },
@@ -75,23 +75,23 @@ const { f: await f } = {};
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 18
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 18
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 18
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 20
                         },
@@ -108,20 +108,20 @@ const { f: await f } = {};
                                 "start": 24,
                                 "end": 24
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 22,
                             "end": 25
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 5,
                         "end": 25
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 5,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 26
         }

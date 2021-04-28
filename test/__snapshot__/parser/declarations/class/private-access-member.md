@@ -29,7 +29,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -47,20 +47,20 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                         "key": {
                             "kind": 67109115,
                             "text": "#aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 14
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 14
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 14,
                         "end": 15
                     },
@@ -78,7 +78,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 17
                             },
@@ -93,20 +93,20 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                             "kind": 134299649,
                                             "text": "obj",
                                             "rawText": "obj",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 21
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 22
                             },
@@ -131,7 +131,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                     "kind": 134299649,
                                                     "text": "obj",
                                                     "rawText": "obj",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 24,
                                                     "end": 28
                                                 },
@@ -143,33 +143,33 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                         "expression": {
                                                             "kind": 67109115,
                                                             "text": "#aaa",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 30,
                                                             "end": 34
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 30,
                                                         "end": 34
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 30,
                                                     "end": 34
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 24,
                                                 "end": 34
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 24,
                                             "end": 34
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 34
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 36
                             },
@@ -182,11 +182,11 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                         "end": 36
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 38
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 38
         }

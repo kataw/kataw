@@ -30,7 +30,7 @@ if catch { try else
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -56,11 +56,11 @@ if catch { try else
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 14,
                                         "end": 14
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 14,
                                     "end": 14
                                 },
@@ -72,25 +72,25 @@ if catch { try else
                                         "kind": 124,
                                         "statements": [],
                                         "multiLine": false,
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 19,
                                         "end": 19
                                     },
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 10,
                                 "end": 19
                             }
                         ],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 19
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 8,
                     "end": 19
                 },
@@ -102,21 +102,21 @@ if catch { try else
                         "kind": 124,
                         "statements": [],
                         "multiLine": false,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 19,
                         "end": 19
                     },
-                    "flags": 128,
+                    "flags": 16,
                     "start": 19,
                     "end": 19
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 19
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

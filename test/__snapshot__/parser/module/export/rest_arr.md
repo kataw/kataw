@@ -33,7 +33,7 @@ export let [...x] = y
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -41,7 +41,7 @@ export let [...x] = y
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 6,
                 "end": 10
             },
@@ -59,7 +59,7 @@ export let [...x] = y
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 12,
                                             "end": 15
                                         },
@@ -67,24 +67,24 @@ export let [...x] = y
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 17
                         },
@@ -94,20 +94,20 @@ export let [...x] = y
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 21
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 10,
                         "end": 21
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 10,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 6,
             "end": 21
         }

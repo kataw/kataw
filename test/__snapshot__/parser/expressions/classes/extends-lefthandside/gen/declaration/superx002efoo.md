@@ -33,7 +33,7 @@ class A extends super.foo {}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class A extends super.foo {}
                             "start": 15,
                             "end": 21
                         },
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 21
                     },
@@ -64,27 +64,27 @@ class A extends super.foo {}
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 25
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 25
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 27,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

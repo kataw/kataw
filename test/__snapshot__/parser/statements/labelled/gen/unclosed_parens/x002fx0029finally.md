@@ -33,11 +33,11 @@ try( /)finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 3
             },
@@ -49,15 +49,15 @@ try( /)finally
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 4,
                 "end": 4
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 4
         },
@@ -66,11 +66,11 @@ try( /)finally
             "expression": {
                 "kind": 221,
                 "text": "/)finally",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 14
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 14
         }

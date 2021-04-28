@@ -22,7 +22,7 @@
                 "member": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 0,
                     "end": 0
                 },
@@ -45,7 +45,7 @@
                                 "parameters": [],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 5,
                                     "end": 10
                                 },
@@ -57,19 +57,19 @@
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 16
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 17
                                 },
-                                "flags": 2304,
+                                "flags": 288,
                                 "start": 5,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 0,
                             "end": 17
                         }
@@ -78,19 +78,19 @@
                         "kind": 458761,
                         "text": " b",
                         "rawText": " b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

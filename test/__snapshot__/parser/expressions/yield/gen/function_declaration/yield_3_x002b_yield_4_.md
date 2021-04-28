@@ -34,7 +34,7 @@ function not_gen() { yield 3 + yield 4; }}
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { yield 3 + yield 4; }}
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -58,11 +58,11 @@ function not_gen() { yield 3 + yield 4; }}
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 26
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 26
                         },
@@ -74,13 +74,13 @@ function not_gen() { yield 3 + yield 4; }}
                                     "kind": 201392130,
                                     "text": 3,
                                     "rawText": "3",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 28,
                                     "end": 30
                                 },
@@ -88,15 +88,15 @@ function not_gen() { yield 3 + yield 4; }}
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 36
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 36
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 26,
                             "end": 36
                         },
@@ -106,27 +106,27 @@ function not_gen() { yield 3 + yield 4; }}
                                 "kind": 201392130,
                                 "text": 4,
                                 "rawText": "4",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 36,
                                 "end": 38
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 36,
                             "end": 39
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 39
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 41
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 41
         }

@@ -52,23 +52,23 @@ var p/
                             "kind": 134299649,
                             "text": "p",
                             "rawText": "p",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -79,28 +79,28 @@ var p/
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 6
                 },
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 6,
                     "end": 6
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 5,
             "end": 6
         }

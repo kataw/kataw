@@ -40,21 +40,21 @@ async => {} + x
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 0,
                                 "end": 5
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 0,
                             "end": 5
                         }
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 0,
                         "end": 5
                     },
@@ -66,21 +66,21 @@ async => {} + x
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 11
                     },
-                    "flags": 2304,
+                    "flags": 288,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 11,
                     "end": 13
                 },
@@ -88,15 +88,15 @@ async => {} + x
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 15
         }

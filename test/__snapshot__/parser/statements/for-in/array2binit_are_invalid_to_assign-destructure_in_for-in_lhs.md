@@ -55,7 +55,7 @@ for ([x.y] = z in obj);
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 7
                                 },
@@ -63,27 +63,27 @@ for ([x.y] = z in obj);
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 9
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 10,
                     "end": 12
                 },
@@ -93,13 +93,13 @@ for ([x.y] = z in obj);
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 14,
                         "end": 17
                     },
@@ -107,15 +107,15 @@ for ([x.y] = z in obj);
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 17,
                         "end": 21
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 12,
                     "end": 21
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 5,
                 "end": 21
             },
@@ -123,17 +123,17 @@ for ([x.y] = z in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 21,
                 "end": 21
             },
             "statement": {
                 "kind": 168,
-                "flags": 128,
+                "flags": 16,
                 "start": 22,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

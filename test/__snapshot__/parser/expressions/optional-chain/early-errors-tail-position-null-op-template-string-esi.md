@@ -29,7 +29,7 @@ null?.
                 "member": {
                     "kind": 269,
                     "text": null,
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -42,23 +42,23 @@ null?.
                             "kind": 458761,
                             "text": "hello",
                             "rawText": "hello",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 6,
                             "end": 16
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 6,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

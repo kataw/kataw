@@ -23,13 +23,13 @@ result = { arrow = () => {} } = {}
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 6,
                     "end": 8
                 },
@@ -46,7 +46,7 @@ result = { arrow = () => {} } = {}
                                         "kind": 134299649,
                                         "text": "arrow",
                                         "rawText": "arrow",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 16
                                     },
@@ -69,19 +69,19 @@ result = { arrow = () => {} } = {}
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 26,
                                                 "end": 26
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 24,
                                             "end": 27
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 27
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 27
                                 }
@@ -92,13 +92,13 @@ result = { arrow = () => {} } = {}
                             "start": 10,
                             "end": 27
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 29
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 29,
                         "end": 31
                     },
@@ -113,19 +113,19 @@ result = { arrow = () => {} } = {}
                             "start": 33,
                             "end": 33
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 31,
                         "end": 34
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 34
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 34
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 34
         }

@@ -21,7 +21,7 @@ delete /foo/.bar;
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 0,
                     "end": 6
                 },
@@ -30,7 +30,7 @@ delete /foo/.bar;
                     "member": {
                         "kind": 221,
                         "text": "/foo/",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 6,
                         "end": 12
                     },
@@ -38,19 +38,19 @@ delete /foo/.bar;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 16
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 6,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 17
         }

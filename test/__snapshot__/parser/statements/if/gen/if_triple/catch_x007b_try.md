@@ -30,7 +30,7 @@ if if if catch { try
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -45,7 +45,7 @@ if if if catch { try
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
@@ -60,7 +60,7 @@ if if if catch { try
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 8,
                         "end": 8
                     },
@@ -86,11 +86,11 @@ if if if catch { try
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 20,
                                                 "end": 20
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 20,
                                             "end": 20
                                         },
@@ -102,25 +102,25 @@ if if if catch { try
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 20,
                                                 "end": 20
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 20,
                                             "end": 20
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 16,
                                         "end": 20
                                     }
                                 ],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 16,
                                 "end": 20
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 14,
                             "end": 20
                         },
@@ -132,33 +132,33 @@ if if if catch { try
                                 "kind": 124,
                                 "statements": [],
                                 "multiLine": false,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 20,
                                 "end": 20
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 20
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 8,
                         "end": 20
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 20
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 20
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

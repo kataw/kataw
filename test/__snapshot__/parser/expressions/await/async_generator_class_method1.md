@@ -20,7 +20,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -35,7 +35,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
-                "flags": 768,
+                "flags": 96,
                 "start": 14,
                 "end": 16
             },
@@ -43,7 +43,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -67,7 +67,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 26
                             },
@@ -83,7 +83,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                         "staticKeyword": null,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 28,
                                             "end": 33
                                         },
@@ -95,7 +95,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 35,
                                                 "end": 36
                                             },
@@ -110,7 +110,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 37,
                                                             "end": 40
                                                         },
@@ -125,7 +125,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                         "kind": 134299649,
                                                                         "text": "h",
                                                                         "rawText": "h",
-                                                                        "flags": 768,
+                                                                        "flags": 96,
                                                                         "start": 44,
                                                                         "end": 45
                                                                     },
@@ -142,7 +142,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                             "kind": 134299649,
                                                                                             "text": "t",
                                                                                             "rawText": "t",
-                                                                                            "flags": 768,
+                                                                                            "flags": 96,
                                                                                             "start": 50,
                                                                                             "end": 52
                                                                                         },
@@ -161,21 +161,21 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                         "kind": 134299649,
                                                                                                         "text": "bar",
                                                                                                         "rawText": "bar",
-                                                                                                        "flags": 768,
+                                                                                                        "flags": 96,
                                                                                                         "start": 58,
                                                                                                         "end": 62
                                                                                                     },
-                                                                                                    "flags": 256,
+                                                                                                    "flags": 32,
                                                                                                     "start": 53,
                                                                                                     "end": 62
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 256,
+                                                                                            "flags": 32,
                                                                                             "start": 53,
                                                                                             "end": 62
                                                                                         },
-                                                                                        "flags": 256,
+                                                                                        "flags": 32,
                                                                                         "start": 48,
                                                                                         "end": 63
                                                                                     },
@@ -183,11 +183,11 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                         "kind": 134299649,
                                                                                         "text": "m",
                                                                                         "rawText": "m",
-                                                                                        "flags": 768,
+                                                                                        "flags": 96,
                                                                                         "start": 48,
                                                                                         "end": 49
                                                                                     },
-                                                                                    "flags": 256,
+                                                                                    "flags": 32,
                                                                                     "start": 48,
                                                                                     "end": 63
                                                                                 }
@@ -198,27 +198,27 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                             "start": 48,
                                                                             "end": 63
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 46,
                                                                         "end": 64
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 44,
                                                                 "end": 64
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 42,
                                                             "end": 65
                                                         },
-                                                        "flags": 258,
+                                                        "flags": 34,
                                                         "start": 37,
                                                         "end": 65
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 3330,
+                                                "flags": 418,
                                                 "start": 37,
                                                 "end": 66
                                             },
@@ -230,44 +230,44 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "directives": [],
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 67,
                                                     "end": 67
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 66,
                                                 "end": 68
                                             },
-                                            "flags": 3072,
+                                            "flags": 384,
                                             "start": 36,
                                             "end": 68
                                         },
-                                        "flags": 3072,
+                                        "flags": 384,
                                         "start": 28,
                                         "end": 68
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 69
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 19,
                             "end": 69
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 19,
                     "end": 69
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 74
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 1152,
+            "flags": 144,
             "start": 0,
             "end": 74
         }

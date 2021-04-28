@@ -29,11 +29,11 @@ do {} while ((""));
                     "kind": 201392131,
                     "text": "",
                     "rawText": "",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 14,
                     "end": 16
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 17
             },
@@ -49,15 +49,15 @@ do {} while ((""));
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 4,
                     "end": 4
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 19
         }

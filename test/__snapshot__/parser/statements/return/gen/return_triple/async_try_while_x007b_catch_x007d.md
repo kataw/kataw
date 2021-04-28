@@ -30,11 +30,11 @@ return return return async try while { catch }
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 6,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -49,11 +49,11 @@ return return return async try while { catch }
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -69,11 +69,11 @@ return return return async try while { catch }
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -91,11 +91,11 @@ return return return async try while { catch }
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 30,
                     "end": 30
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 30,
                 "end": 30
             },
@@ -115,11 +115,11 @@ return return return async try while { catch }
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 44,
                                     "end": 44
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 44,
                                 "end": 44
                             },
@@ -131,29 +131,29 @@ return return return async try while { catch }
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 46,
                                     "end": 46
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 46,
                                 "end": 46
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 38,
                             "end": 46
                         }
                     ],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 38,
                     "end": 46
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 36,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 46
         }

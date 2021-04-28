@@ -29,7 +29,7 @@ class x { foo(x=super.foo){ }}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -52,7 +52,7 @@ class x { foo(x=super.foo){ }}
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 13
                             },
@@ -67,7 +67,7 @@ class x { foo(x=super.foo){ }}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 15
                                         },
@@ -83,7 +83,7 @@ class x { foo(x=super.foo){ }}
                                                     "start": 16,
                                                     "end": 21
                                                 },
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 16,
                                                 "end": 21
                                             },
@@ -91,21 +91,21 @@ class x { foo(x=super.foo){ }}
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 22,
                                                 "end": 25
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 16,
                                             "end": 25
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 14,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 14,
                                 "end": 26
                             },
@@ -117,11 +117,11 @@ class x { foo(x=super.foo){ }}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 27
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 29
                             },
@@ -134,11 +134,11 @@ class x { foo(x=super.foo){ }}
                         "end": 29
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 30
         }

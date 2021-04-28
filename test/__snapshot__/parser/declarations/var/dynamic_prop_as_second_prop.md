@@ -60,12 +60,12 @@ var {a, [x]: y} = a;
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 6
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -78,11 +78,11 @@ var {a, [x]: y} = a;
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 9,
                                                 "end": 10
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 7,
                                             "end": 11
                                         },
@@ -93,27 +93,27 @@ var {a, [x]: y} = a;
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 12,
                                                 "end": 14
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 12,
                                             "end": 14
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 14
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 14
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 15
                         },
@@ -123,20 +123,20 @@ var {a, [x]: y} = a;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 19
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 19
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 20
         }

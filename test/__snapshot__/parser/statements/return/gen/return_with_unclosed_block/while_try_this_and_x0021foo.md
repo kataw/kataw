@@ -38,11 +38,11 @@ return {} return(x) { while try this and !foo
                     "start": 8,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 6,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 0
         },
@@ -60,15 +60,15 @@ return {} return(x) { while try this and !foo
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 18
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 19
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         },
@@ -88,7 +88,7 @@ return {} return(x) { while try this and !foo
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 27,
                             "end": 27
                         },
@@ -106,11 +106,11 @@ return {} return(x) { while try this and !foo
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 31,
                                     "end": 31
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 31,
                                 "end": 31
                             },
@@ -122,19 +122,19 @@ return {} return(x) { while try this and !foo
                                     "kind": 124,
                                     "statements": [],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 36,
                                     "end": 36
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 36,
                                 "end": 36
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 27,
                             "end": 36
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 21,
                         "end": 36
                     },
@@ -144,11 +144,11 @@ return {} return(x) { while try this and !foo
                             "kind": 134299649,
                             "text": "and",
                             "rawText": "and",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 36,
                             "end": 40
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 36,
                         "end": 40
                     },
@@ -158,7 +158,7 @@ return {} return(x) { while try this and !foo
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 40,
                                 "end": 42
                             },
@@ -166,25 +166,25 @@ return {} return(x) { while try this and !foo
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 42,
                                 "end": 45
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 40,
                             "end": 45
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 40,
                         "end": 45
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 21,
                 "end": 45
             },
-            "flags": 128,
+            "flags": 16,
             "start": 19,
             "end": 45
         }

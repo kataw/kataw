@@ -34,7 +34,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -67,7 +67,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 30,
                                         "end": 32
                                     },
@@ -76,7 +76,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 32,
                                         "end": 35
                                     },
@@ -94,13 +94,13 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 37,
                                                             "end": 39
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 512,
+                                                            "flags": 64,
                                                             "start": 39,
                                                             "end": 41
                                                         },
@@ -131,7 +131,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "kind": 134299649,
                                                                             "text": "a",
                                                                             "rawText": "a",
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 57,
                                                                             "end": 58
                                                                         },
@@ -144,7 +144,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                         "consequent": {
                                                                             "kind": 269,
                                                                             "text": null,
-                                                                            "flags": 768,
+                                                                            "flags": 96,
                                                                             "start": 60,
                                                                             "end": 65
                                                                         },
@@ -165,79 +165,79 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "delegate": false,
                                                                             "asteriskToken": null,
                                                                             "expression": null,
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 67,
                                                                             "end": 73
                                                                         },
-                                                                        "flags": 256,
+                                                                        "flags": 32,
                                                                         "start": 55,
                                                                         "end": 73
                                                                     },
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 55,
                                                                     "end": 74
                                                                 },
                                                                 "typeParameter": null,
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 55,
                                                                 "end": 74
                                                             },
                                                             "members": {
                                                                 "kind": 277,
                                                                 "elements": [],
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 76,
                                                                 "end": 78
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 41,
                                                             "end": 78
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 37,
                                                         "end": 78
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 37,
                                                     "end": 78
                                                 }
                                             ],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 37,
                                             "end": 78
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 35,
                                         "end": 80
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 2304,
+                                    "flags": 288,
                                     "start": 22,
                                     "end": 80
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 81
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 82
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 82
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 84
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 84
         }

@@ -30,7 +30,7 @@ if if if function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -45,7 +45,7 @@ if if if function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
@@ -72,7 +72,7 @@ if if if function while
                             "kind": 214,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 17
                         },
@@ -83,17 +83,17 @@ if if if function while
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 17,
                             "end": 17
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 17
                     },
@@ -108,7 +108,7 @@ if if if function while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 23,
                             "end": 23
                         },
@@ -117,33 +117,33 @@ if if if function while
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 12,
+                                "flags": 68,
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 23,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 23
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 23
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 23
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 23
         }

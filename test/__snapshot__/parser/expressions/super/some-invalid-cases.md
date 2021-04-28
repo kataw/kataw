@@ -48,7 +48,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -71,7 +71,7 @@ let x = { foo(){ super(); } };
                             "start": 15,
                             "end": 21
                         },
-                        "flags": 768,
+                        "flags": 96,
                         "start": 15,
                         "end": 21
                     },
@@ -79,33 +79,33 @@ let x = { foo(){ super(); } };
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 22,
                         "end": 25
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 15,
                     "end": 25
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 15,
                 "end": 25
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 27,
                 "end": 29
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 29
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 30
         },
@@ -123,7 +123,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 36,
                 "end": 38
             },
@@ -146,7 +146,7 @@ let x = { foo(){ super(); } };
                             "start": 46,
                             "end": 52
                         },
-                        "flags": 768,
+                        "flags": 96,
                         "start": 46,
                         "end": 52
                     },
@@ -154,27 +154,27 @@ let x = { foo(){ super(); } };
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 53,
                         "end": 56
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 46,
                     "end": 56
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 46,
                 "end": 56
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 30,
                 "end": 30
             },
-            "flags": 128,
+            "flags": 16,
             "start": 30,
             "end": 56
         },
@@ -184,11 +184,11 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
-                "flags": 768,
+                "flags": 96,
                 "start": 56,
                 "end": 58
             },
-            "flags": 128,
+            "flags": 16,
             "start": 56,
             "end": 58
         },
@@ -198,17 +198,17 @@ let x = { foo(){ super(); } };
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 60,
                 "end": 60
             },
-            "flags": 128,
+            "flags": 16,
             "start": 58,
             "end": 62
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 62,
             "end": 63
         },
@@ -226,7 +226,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 69,
                 "end": 71
             },
@@ -245,7 +245,7 @@ let x = { foo(){ super(); } };
                         "kind": 134299649,
                         "text": "feh",
                         "rawText": "feh",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 79,
                         "end": 83
                     },
@@ -262,7 +262,7 @@ let x = { foo(){ super(); } };
                                         "start": 84,
                                         "end": 89
                                     },
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 84,
                                     "end": 89
                                 },
@@ -270,43 +270,43 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 90,
                                     "end": 93
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 84,
                                 "end": 93
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 84,
                         "end": 93
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 79,
                     "end": 94
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 79,
                 "end": 94
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 96,
                 "end": 98
             },
-            "flags": 128,
+            "flags": 16,
             "start": 63,
             "end": 98
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 98,
             "end": 99
         },
@@ -324,7 +324,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 105,
                 "end": 107
             },
@@ -343,7 +343,7 @@ let x = { foo(){ super(); } };
                         "kind": 134299649,
                         "text": "feh",
                         "rawText": "feh",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 115,
                         "end": 119
                     },
@@ -360,7 +360,7 @@ let x = { foo(){ super(); } };
                                         "start": 120,
                                         "end": 125
                                     },
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 120,
                                     "end": 125
                                 },
@@ -368,11 +368,11 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 126,
                                     "end": 129
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 120,
                                 "end": 129
                             },
@@ -380,39 +380,39 @@ let x = { foo(){ super(); } };
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 129,
                                 "end": 131
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 120,
                         "end": 131
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 115,
                     "end": 132
                 },
                 "typeParameter": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 115,
                 "end": 132
             },
             "members": {
                 "kind": 277,
                 "elements": [],
-                "flags": 256,
+                "flags": 32,
                 "start": 134,
                 "end": 136
             },
-            "flags": 128,
+            "flags": 16,
             "start": 99,
             "end": 136
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 136,
             "end": 137
         },
@@ -430,7 +430,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 143,
                 "end": 145
             },
@@ -453,7 +453,7 @@ let x = { foo(){ super(); } };
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 147,
                                 "end": 151
                             },
@@ -474,11 +474,11 @@ let x = { foo(){ super(); } };
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 152,
                                     "end": 152
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 152,
                                 "end": 152
                             },
@@ -500,23 +500,23 @@ let x = { foo(){ super(); } };
                             "kind": 134299649,
                             "text": "super",
                             "rawText": "super",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 152,
                             "end": 157
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 152,
                         "end": 157
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 147,
                 "end": 157
             },
-            "flags": 128,
+            "flags": 16,
             "start": 137,
             "end": 157
         },
@@ -526,11 +526,11 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 158,
                 "end": 161
             },
-            "flags": 128,
+            "flags": 16,
             "start": 158,
             "end": 161
         },
@@ -540,17 +540,17 @@ let x = { foo(){ super(); } };
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 163,
                 "end": 163
             },
-            "flags": 128,
+            "flags": 16,
             "start": 162,
             "end": 164
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 166,
             "end": 167
         },
@@ -568,7 +568,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 173,
                 "end": 175
             },
@@ -587,23 +587,23 @@ let x = { foo(){ super(); } };
                             "kind": 134299649,
                             "text": "super",
                             "rawText": "super",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 177,
                             "end": 183
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 177,
                         "end": 183
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 177,
                 "end": 183
             },
-            "flags": 128,
+            "flags": 16,
             "start": 167,
             "end": 183
         },
@@ -615,7 +615,7 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 184,
                     "end": 187
                 },
@@ -623,15 +623,15 @@ let x = { foo(){ super(); } };
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 188,
                     "end": 188
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 184,
                 "end": 189
             },
-            "flags": 128,
+            "flags": 16,
             "start": 184,
             "end": 189
         },
@@ -641,17 +641,17 @@ let x = { foo(){ super(); } };
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 190,
                 "end": 190
             },
-            "flags": 128,
+            "flags": 16,
             "start": 189,
             "end": 191
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 193,
             "end": 194
         },
@@ -669,7 +669,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 200,
                 "end": 202
             },
@@ -700,7 +700,7 @@ let x = { foo(){ super(); } };
                                             "start": 206,
                                             "end": 211
                                         },
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 206,
                                         "end": 211
                                     },
@@ -708,15 +708,15 @@ let x = { foo(){ super(); } };
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 212,
                                         "end": 215
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 206,
                                     "end": 215
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 204,
                                 "end": 216
                             },
@@ -737,11 +737,11 @@ let x = { foo(){ super(); } };
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 219,
                                     "end": 219
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 218,
                                 "end": 220
                             },
@@ -754,17 +754,17 @@ let x = { foo(){ super(); } };
                         "end": 220
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 204,
                 "end": 222
             },
-            "flags": 128,
+            "flags": 16,
             "start": 194,
             "end": 222
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 222,
             "end": 223
         },
@@ -782,7 +782,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 229,
                 "end": 231
             },
@@ -809,7 +809,7 @@ let x = { foo(){ super(); } };
                                         "start": 235,
                                         "end": 240
                                     },
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 235,
                                     "end": 240
                                 },
@@ -817,22 +817,22 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 241,
                                     "end": 244
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 235,
                                 "end": 244
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 233,
                             "end": 244
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 233,
                         "end": 244
                     },
@@ -846,23 +846,23 @@ let x = { foo(){ super(); } };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 244,
                             "end": 246
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 244,
                         "end": 246
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 233,
                 "end": 246
             },
-            "flags": 128,
+            "flags": 16,
             "start": 223,
             "end": 246
         },
@@ -878,21 +878,21 @@ let x = { foo(){ super(); } };
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 250,
                     "end": 250
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 247,
                 "end": 250
             },
-            "flags": 128,
+            "flags": 16,
             "start": 247,
             "end": 250
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 253,
             "end": 254
         },
@@ -910,7 +910,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 260,
                 "end": 262
             },
@@ -933,7 +933,7 @@ let x = { foo(){ super(); } };
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 264,
                                 "end": 276
                             },
@@ -942,7 +942,7 @@ let x = { foo(){ super(); } };
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 277,
                                 "end": 278
                             },
@@ -966,7 +966,7 @@ let x = { foo(){ super(); } };
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 285,
                                                 "end": 285
                                             },
@@ -975,11 +975,11 @@ let x = { foo(){ super(); } };
                                             "members": {
                                                 "kind": 277,
                                                 "elements": [],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 279,
                                                 "end": 279
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 279,
                                             "end": 285
                                         },
@@ -995,7 +995,7 @@ let x = { foo(){ super(); } };
                                                         "start": 285,
                                                         "end": 291
                                                     },
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 285,
                                                     "end": 291
                                                 },
@@ -1003,15 +1003,15 @@ let x = { foo(){ super(); } };
                                                     "kind": 134299649,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 292,
                                                     "end": 295
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 285,
                                                 "end": 295
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 285,
                                             "end": 295
                                         },
@@ -1021,44 +1021,44 @@ let x = { foo(){ super(); } };
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 297,
                                                 "end": 297
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 295,
                                             "end": 299
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 279,
                                     "end": 299
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 278,
                                 "end": 302
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 276,
                             "end": 302
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 264,
                         "end": 302
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 264,
                 "end": 303
             },
-            "flags": 128,
+            "flags": 16,
             "start": 254,
             "end": 303
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 303,
             "end": 304
         },
@@ -1076,7 +1076,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 310,
                 "end": 312
             },
@@ -1099,7 +1099,7 @@ let x = { foo(){ super(); } };
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 314,
                                 "end": 326
                             },
@@ -1108,7 +1108,7 @@ let x = { foo(){ super(); } };
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 327,
                                 "end": 328
                             },
@@ -1133,7 +1133,7 @@ let x = { foo(){ super(); } };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 335,
                                                 "end": 337
                                             },
@@ -1156,7 +1156,7 @@ let x = { foo(){ super(); } };
                                                             "start": 345,
                                                             "end": 351
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 345,
                                                         "end": 351
                                                     },
@@ -1164,27 +1164,27 @@ let x = { foo(){ super(); } };
                                                         "kind": 134299649,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 352,
                                                         "end": 355
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 345,
                                                     "end": 355
                                                 },
                                                 "typeParameter": null,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 345,
                                                 "end": 355
                                             },
                                             "members": {
                                                 "kind": 277,
                                                 "elements": [],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 329,
                                                 "end": 329
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 329,
                                             "end": 355
                                         },
@@ -1194,11 +1194,11 @@ let x = { foo(){ super(); } };
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 355,
                                                 "end": 357
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 355,
                                             "end": 357
                                         },
@@ -1208,44 +1208,44 @@ let x = { foo(){ super(); } };
                                                 "kind": 124,
                                                 "statements": [],
                                                 "multiLine": false,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 359,
                                                 "end": 359
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 357,
                                             "end": 361
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 329,
                                     "end": 361
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 328,
                                 "end": 364
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 326,
                             "end": 364
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 314,
                         "end": 364
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 314,
                 "end": 365
             },
-            "flags": 128,
+            "flags": 16,
             "start": 304,
             "end": 365
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 365,
             "end": 366
         },
@@ -1263,7 +1263,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 372,
                 "end": 374
             },
@@ -1286,7 +1286,7 @@ let x = { foo(){ super(); } };
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 376,
                                 "end": 388
                             },
@@ -1295,7 +1295,7 @@ let x = { foo(){ super(); } };
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 389,
                                 "end": 390
                             },
@@ -1320,7 +1320,7 @@ let x = { foo(){ super(); } };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 397,
                                                 "end": 399
                                             },
@@ -1339,7 +1339,7 @@ let x = { foo(){ super(); } };
                                                         "kind": 134299649,
                                                         "text": "feh",
                                                         "rawText": "feh",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 407,
                                                         "end": 411
                                                     },
@@ -1356,7 +1356,7 @@ let x = { foo(){ super(); } };
                                                                         "start": 412,
                                                                         "end": 417
                                                                     },
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 412,
                                                                     "end": 417
                                                                 },
@@ -1364,11 +1364,11 @@ let x = { foo(){ super(); } };
                                                                     "kind": 134299649,
                                                                     "text": "foo",
                                                                     "rawText": "foo",
-                                                                    "flags": 768,
+                                                                    "flags": 96,
                                                                     "start": 418,
                                                                     "end": 421
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 412,
                                                                 "end": 421
                                                             },
@@ -1376,66 +1376,66 @@ let x = { foo(){ super(); } };
                                                                 "kind": 134299649,
                                                                 "text": "y",
                                                                 "rawText": "y",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 421,
                                                                 "end": 423
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 412,
                                                         "end": 423
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 407,
                                                     "end": 424
                                                 },
                                                 "typeParameter": null,
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 407,
                                                 "end": 424
                                             },
                                             "members": {
                                                 "kind": 277,
                                                 "elements": [],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 426,
                                                 "end": 428
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 391,
                                             "end": 428
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 391,
                                     "end": 428
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 390,
                                 "end": 431
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 388,
                             "end": 431
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 376,
                         "end": 431
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 376,
                 "end": 432
             },
-            "flags": 128,
+            "flags": 16,
             "start": 366,
             "end": 432
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 432,
             "end": 433
         },
@@ -1453,7 +1453,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 439,
                 "end": 441
             },
@@ -1476,7 +1476,7 @@ let x = { foo(){ super(); } };
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 443,
                                 "end": 455
                             },
@@ -1485,7 +1485,7 @@ let x = { foo(){ super(); } };
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 16384,
+                                "flags": 2048,
                                 "start": 456,
                                 "end": 457
                             },
@@ -1510,7 +1510,7 @@ let x = { foo(){ super(); } };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 464,
                                                 "end": 466
                                             },
@@ -1533,7 +1533,7 @@ let x = { foo(){ super(); } };
                                                                 "kind": 134299649,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 468,
                                                                 "end": 472
                                                             },
@@ -1554,11 +1554,11 @@ let x = { foo(){ super(); } };
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 473,
                                                                     "end": 473
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 473,
                                                                 "end": 473
                                                             },
@@ -1580,50 +1580,50 @@ let x = { foo(){ super(); } };
                                                             "kind": 134299649,
                                                             "text": "super",
                                                             "rawText": "super",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 473,
                                                             "end": 478
                                                         },
                                                         "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 473,
                                                         "end": 478
                                                     }
                                                 ],
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 468,
                                                 "end": 478
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 458,
                                             "end": 478
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 458,
                                     "end": 478
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 457,
                                 "end": 478
                             },
-                            "flags": 16384,
+                            "flags": 2048,
                             "start": 455,
                             "end": 478
                         },
-                        "flags": 16384,
+                        "flags": 2048,
                         "start": 443,
                         "end": 478
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 443,
                 "end": 478
             },
-            "flags": 128,
+            "flags": 16,
             "start": 433,
             "end": 478
         },
@@ -1633,11 +1633,11 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 479,
                 "end": 482
             },
-            "flags": 128,
+            "flags": 16,
             "start": 479,
             "end": 482
         },
@@ -1647,17 +1647,17 @@ let x = { foo(){ super(); } };
                 "kind": 124,
                 "statements": [],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 484,
                 "end": 484
             },
-            "flags": 128,
+            "flags": 16,
             "start": 483,
             "end": 485
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 491,
             "end": 492
         },
@@ -1669,13 +1669,13 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 492,
                     "end": 494
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 494,
                     "end": 495
                 },
@@ -1701,7 +1701,7 @@ let x = { foo(){ super(); } };
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 510,
                                         "end": 512
                                     },
@@ -1723,7 +1723,7 @@ let x = { foo(){ super(); } };
                                                                 "start": 513,
                                                                 "end": 519
                                                             },
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 513,
                                                             "end": 519
                                                         },
@@ -1731,31 +1731,31 @@ let x = { foo(){ super(); } };
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 520,
                                                             "end": 523
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 513,
                                                         "end": 523
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 513,
                                                     "end": 524
                                                 }
                                             ],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 513,
                                             "end": 524
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 512,
                                         "end": 526
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 501,
                                     "end": 526
                                 },
@@ -1763,11 +1763,11 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 496,
                                     "end": 500
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 496,
                                 "end": 526
                             }
@@ -1778,15 +1778,15 @@ let x = { foo(){ super(); } };
                         "start": 496,
                         "end": 526
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 495,
                     "end": 527
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 492,
                 "end": 527
             },
-            "flags": 128,
+            "flags": 16,
             "start": 492,
             "end": 528
         },
@@ -1798,13 +1798,13 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 528,
                     "end": 530
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 530,
                     "end": 531
                 },
@@ -1822,7 +1822,7 @@ let x = { foo(){ super(); } };
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 539,
                         "end": 541
                     },
@@ -1836,7 +1836,7 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 542,
                                     "end": 543
                                 },
@@ -1852,7 +1852,7 @@ let x = { foo(){ super(); } };
                                             "start": 545,
                                             "end": 551
                                         },
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 545,
                                         "end": 551
                                     },
@@ -1860,21 +1860,21 @@ let x = { foo(){ super(); } };
                                         "kind": 256,
                                         "elements": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 552,
                                         "end": 552
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 545,
                                     "end": 553
                                 },
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 542,
                                 "end": 553
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 258,
+                        "flags": 34,
                         "start": 541,
                         "end": 554
                     },
@@ -1885,25 +1885,25 @@ let x = { foo(){ super(); } };
                             "directives": [],
                             "statements": [],
                             "multiline": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 555,
                             "end": 555
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 554,
                         "end": 557
                     },
                     "typeParameters": null,
                     "returnType": null,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 531,
                     "end": 557
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 528,
                 "end": 557
             },
-            "flags": 128,
+            "flags": 16,
             "start": 528,
             "end": 558
         },
@@ -1915,13 +1915,13 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 558,
                     "end": 560
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 560,
                     "end": 561
                 },
@@ -1946,7 +1946,7 @@ let x = { foo(){ super(); } };
                                         "kind": 134299649,
                                         "text": "f",
                                         "rawText": "f",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 573,
                                         "end": 575
                                     },
@@ -1954,7 +1954,7 @@ let x = { foo(){ super(); } };
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 575,
                                         "end": 577
                                     },
@@ -1976,7 +1976,7 @@ let x = { foo(){ super(); } };
                                                                 "start": 578,
                                                                 "end": 584
                                                             },
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 578,
                                                             "end": 584
                                                         },
@@ -1984,31 +1984,31 @@ let x = { foo(){ super(); } };
                                                             "kind": 256,
                                                             "elements": [],
                                                             "trailingComma": false,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 585,
                                                             "end": 585
                                                         },
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 578,
                                                         "end": 586
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 578,
                                                     "end": 586
                                                 }
                                             ],
                                             "multiline": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 578,
                                             "end": 586
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 577,
                                         "end": 588
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 564,
                                     "end": 588
                                 },
@@ -2016,11 +2016,11 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 562,
                                     "end": 563
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 562,
                                 "end": 588
                             }
@@ -2031,21 +2031,21 @@ let x = { foo(){ super(); } };
                         "start": 562,
                         "end": 588
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 561,
                     "end": 588
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 558,
                 "end": 588
             },
-            "flags": 128,
+            "flags": 16,
             "start": 558,
             "end": 588
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 589,
             "end": 590
         },
@@ -2057,13 +2057,13 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 590,
                     "end": 592
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 592,
                     "end": 593
                 },
@@ -2078,7 +2078,7 @@ let x = { foo(){ super(); } };
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 594,
                                     "end": 605
                                 },
@@ -2087,7 +2087,7 @@ let x = { foo(){ super(); } };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 606,
                                     "end": 607
                                 },
@@ -2110,7 +2110,7 @@ let x = { foo(){ super(); } };
                                                             "start": 608,
                                                             "end": 614
                                                         },
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 608,
                                                         "end": 614
                                                     },
@@ -2118,29 +2118,29 @@ let x = { foo(){ super(); } };
                                                         "kind": 256,
                                                         "elements": [],
                                                         "trailingComma": false,
-                                                        "flags": 256,
+                                                        "flags": 32,
                                                         "start": 615,
                                                         "end": 615
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 608,
                                                     "end": 616
                                                 },
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 608,
                                                 "end": 617
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 608,
                                         "end": 617
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 607,
                                     "end": 619
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 605,
                                 "end": 619
                             }
@@ -2151,15 +2151,15 @@ let x = { foo(){ super(); } };
                         "start": 594,
                         "end": 619
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 593,
                     "end": 620
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 590,
                 "end": 620
             },
-            "flags": 128,
+            "flags": 16,
             "start": 590,
             "end": 621
         },
@@ -2178,7 +2178,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 630,
                 "end": 632
             },
@@ -2192,7 +2192,7 @@ let x = { foo(){ super(); } };
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 633,
                             "end": 634
                         },
@@ -2208,7 +2208,7 @@ let x = { foo(){ super(); } };
                                     "start": 636,
                                     "end": 642
                                 },
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 636,
                                 "end": 642
                             },
@@ -2216,21 +2216,21 @@ let x = { foo(){ super(); } };
                                 "kind": 256,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 643,
                                 "end": 643
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 636,
                             "end": 644
                         },
-                        "flags": 258,
+                        "flags": 34,
                         "start": 633,
                         "end": 644
                     }
                 ],
                 "trailingComma": false,
-                "flags": 258,
+                "flags": 34,
                 "start": 632,
                 "end": 645
             },
@@ -2241,23 +2241,23 @@ let x = { foo(){ super(); } };
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 646,
                     "end": 646
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 645,
                 "end": 648
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 621,
             "end": 648
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 648,
             "end": 649
         },
@@ -2276,7 +2276,7 @@ let x = { foo(){ super(); } };
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 658,
                 "end": 660
             },
@@ -2284,7 +2284,7 @@ let x = { foo(){ super(); } };
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 660,
                 "end": 662
             },
@@ -2306,7 +2306,7 @@ let x = { foo(){ super(); } };
                                         "start": 663,
                                         "end": 669
                                     },
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 663,
                                     "end": 669
                                 },
@@ -2314,37 +2314,37 @@ let x = { foo(){ super(); } };
                                     "kind": 256,
                                     "elements": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 670,
                                     "end": 670
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 663,
                                 "end": 671
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 663,
                             "end": 672
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 663,
                     "end": 672
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 662,
                 "end": 674
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 649,
             "end": 674
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 674,
             "end": 675
         },
@@ -2365,7 +2365,7 @@ let x = { foo(){ super(); } };
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 681,
                             "end": 683
                         },
@@ -2377,13 +2377,13 @@ let x = { foo(){ super(); } };
                                 "kind": 201392130,
                                 "text": 5,
                                 "rawText": "5",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 685,
                                 "end": 687
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 687,
                                 "end": 689
                             },
@@ -2397,7 +2397,7 @@ let x = { foo(){ super(); } };
                                         "start": 689,
                                         "end": 695
                                     },
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 689,
                                     "end": 695
                                 },
@@ -2405,34 +2405,34 @@ let x = { foo(){ super(); } };
                                     "kind": 256,
                                     "elements": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 696,
                                     "end": 696
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 689,
                                 "end": 697
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 685,
                             "end": 697
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 681,
                         "end": 697
                     }
                 ],
-                "flags": 160,
+                "flags": 16777232,
                 "start": 681,
                 "end": 697
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 675,
             "end": 698
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 698,
             "end": 699
         },
@@ -2440,7 +2440,7 @@ let x = { foo(){ super(); } };
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 641,
+                "flags": 81,
                 "start": 699,
                 "end": 703
             },
@@ -2453,7 +2453,7 @@ let x = { foo(){ super(); } };
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 703,
                             "end": 705
                         },
@@ -2470,7 +2470,7 @@ let x = { foo(){ super(); } };
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 709,
                                             "end": 713
                                         },
@@ -2479,7 +2479,7 @@ let x = { foo(){ super(); } };
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 714,
                                             "end": 715
                                         },
@@ -2502,7 +2502,7 @@ let x = { foo(){ super(); } };
                                                                     "start": 716,
                                                                     "end": 722
                                                                 },
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 716,
                                                                 "end": 722
                                                             },
@@ -2510,29 +2510,29 @@ let x = { foo(){ super(); } };
                                                                 "kind": 256,
                                                                 "elements": [],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 723,
                                                                 "end": 723
                                                             },
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 716,
                                                             "end": 724
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 716,
                                                         "end": 725
                                                     }
                                                 ],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 716,
                                                 "end": 725
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 715,
                                             "end": 727
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 713,
                                         "end": 727
                                     }
@@ -2543,20 +2543,20 @@ let x = { foo(){ super(); } };
                                 "start": 709,
                                 "end": 727
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 707,
                             "end": 729
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 703,
                         "end": 729
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 703,
                 "end": 729
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 699,
             "end": 730
         }

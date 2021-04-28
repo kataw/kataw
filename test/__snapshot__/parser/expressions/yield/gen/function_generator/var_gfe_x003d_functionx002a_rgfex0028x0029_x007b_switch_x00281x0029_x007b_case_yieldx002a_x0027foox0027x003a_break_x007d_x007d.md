@@ -31,7 +31,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -39,7 +39,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                 "kind": 134299649,
                 "text": "gen",
                 "rawText": "gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 14
             },
@@ -47,7 +47,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                 "kind": 134299649,
                                 "text": "not_gen",
                                 "rawText": "not_gen",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 35
                             },
@@ -80,7 +80,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 37
                             },
@@ -108,7 +108,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "kind": 134299649,
                                                             "text": "gfe",
                                                             "rawText": "gfe",
-                                                            "flags": 768,
+                                                            "flags": 96,
                                                             "start": 43,
                                                             "end": 47
                                                         },
@@ -125,7 +125,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             },
                                                             "generatorToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 512,
+                                                                "flags": 64,
                                                                 "start": 58,
                                                                 "end": 59
                                                             },
@@ -133,7 +133,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "kind": 134299649,
                                                                 "text": "rgfe",
                                                                 "rawText": "rgfe",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 59,
                                                                 "end": 64
                                                             },
@@ -141,7 +141,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 64,
                                                                 "end": 66
                                                             },
@@ -163,7 +163,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                 "kind": 201392130,
                                                                                 "text": 1,
                                                                                 "rawText": "1",
-                                                                                "flags": 768,
+                                                                                "flags": 96,
                                                                                 "start": 77,
                                                                                 "end": 78
                                                                             },
@@ -189,7 +189,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "delegate": true,
                                                                                             "asteriskToken": {
                                                                                                 "kind": 67143222,
-                                                                                                "flags": 512,
+                                                                                                "flags": 64,
                                                                                                 "start": 92,
                                                                                                 "end": 93
                                                                                             },
@@ -197,11 +197,11 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                 "kind": 201392131,
                                                                                                 "text": "foo",
                                                                                                 "rawText": "foo",
-                                                                                                "flags": 67109632,
+                                                                                                "flags": 4194400,
                                                                                                 "start": 93,
                                                                                                 "end": 99
                                                                                             },
-                                                                                            "flags": 256,
+                                                                                            "flags": 32,
                                                                                             "start": 86,
                                                                                             "end": 99
                                                                                         },
@@ -215,82 +215,82 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                     "end": 106
                                                                                                 },
                                                                                                 "label": null,
-                                                                                                "flags": 128,
+                                                                                                "flags": 16,
                                                                                                 "start": 100,
                                                                                                 "end": 107
                                                                                             }
                                                                                         ],
-                                                                                        "flags": 128,
+                                                                                        "flags": 16,
                                                                                         "start": 81,
                                                                                         "end": 107
                                                                                     }
                                                                                 ],
-                                                                                "flags": 128,
+                                                                                "flags": 16,
                                                                                 "start": 79,
                                                                                 "end": 109
                                                                             },
-                                                                            "flags": 128,
+                                                                            "flags": 16,
                                                                             "start": 68,
                                                                             "end": 109
                                                                         }
                                                                     ],
                                                                     "multiline": false,
-                                                                    "flags": 256,
+                                                                    "flags": 32,
                                                                     "start": 68,
                                                                     "end": 109
                                                                 },
-                                                                "flags": 256,
+                                                                "flags": 32,
                                                                 "start": 66,
                                                                 "end": 111
                                                             },
                                                             "typeParameters": null,
                                                             "returnType": null,
-                                                            "flags": 2304,
+                                                            "flags": 288,
                                                             "start": 49,
                                                             "end": 111
                                                         },
-                                                        "flags": 128,
+                                                        "flags": 16,
                                                         "start": 43,
                                                         "end": 111
                                                     }
                                                 ],
-                                                "flags": 128,
+                                                "flags": 16,
                                                 "start": 43,
                                                 "end": 111
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 39,
                                             "end": 111
                                         }
                                     ],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 111
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 113
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 18,
                             "end": 113
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 18,
                     "end": 113
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 114
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 114
         }

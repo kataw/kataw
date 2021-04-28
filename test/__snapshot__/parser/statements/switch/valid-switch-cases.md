@@ -81,7 +81,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 9
             },
@@ -100,7 +100,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 194,
                             "rawText": "194",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 17,
                             "end": 21
                         },
@@ -117,7 +117,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -139,30 +139,30 @@ switch (answer) { case 0: let a; };
                                                         "kind": 201392130,
                                                         "text": 1,
                                                         "rawText": "1",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 44,
                                                         "end": 46
                                                     },
-                                                    "flags": 128,
+                                                    "flags": 16,
                                                     "start": 44,
                                                     "end": 47
                                                 }
                                             ],
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 47
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 33,
                                     "end": 49
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 22,
                                 "end": 49
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 12,
                         "end": 49
                     },
@@ -181,31 +181,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 201392130,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 58,
                                     "end": 60
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 58,
                                 "end": 61
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 49,
                         "end": 61
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 10,
                 "end": 62
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 62
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 62,
             "end": 63
         },
@@ -225,17 +225,17 @@ switch (answer) { case 0: let a; };
                         {
                             "kind": 221,
                             "text": "/a/",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 72,
                             "end": 75
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 72,
                     "end": 75
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 71,
                 "end": 76
             },
@@ -254,7 +254,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 84,
                             "end": 86
                         },
@@ -265,7 +265,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 87,
                                         "end": 89
                                     },
@@ -273,35 +273,35 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 89,
                                         "end": 90
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 87,
                                     "end": 90
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 87,
                                 "end": 90
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 79,
                         "end": 90
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 77,
                 "end": 92
             },
-            "flags": 128,
+            "flags": 16,
             "start": 63,
             "end": 92
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 92,
             "end": 93
         },
@@ -317,7 +317,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 101,
                 "end": 102
             },
@@ -336,7 +336,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 110,
                             "end": 112
                         },
@@ -354,13 +354,13 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 115,
                                                     "end": 116
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 116,
                                                     "end": 118
                                                 },
@@ -368,45 +368,45 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 118,
                                                     "end": 120
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 115,
                                                 "end": 120
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 115,
                                             "end": 120
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 115,
                                     "end": 120
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 113,
                                 "end": 121
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 105,
                         "end": 121
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 103,
                 "end": 123
             },
-            "flags": 128,
+            "flags": 16,
             "start": 93,
             "end": 123
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 123,
             "end": 124
         },
@@ -422,7 +422,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 132,
                 "end": 133
             },
@@ -441,7 +441,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 141,
                             "end": 143
                         },
@@ -459,13 +459,13 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 146,
                                                     "end": 147
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 147,
                                                     "end": 149
                                                 },
@@ -473,45 +473,45 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 149,
                                                     "end": 151
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 146,
                                                 "end": 151
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 146,
                                         "end": 151
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 144,
                                     "end": 152
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 144,
                                 "end": 152
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 136,
                         "end": 152
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 134,
                 "end": 154
             },
-            "flags": 128,
+            "flags": 16,
             "start": 124,
             "end": 154
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 154,
             "end": 155
         },
@@ -527,7 +527,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 164,
                 "end": 165
             },
@@ -546,7 +546,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 42,
                             "rawText": "42",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 173,
                             "end": 176
                         },
@@ -559,7 +559,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 177,
                                         "end": 179
                                     },
@@ -567,15 +567,15 @@ switch (answer) { case 0: let a; };
                                         "kind": 256,
                                         "elements": [],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 180,
                                         "end": 180
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 177,
                                     "end": 181
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 177,
                                 "end": 182
                             },
@@ -588,12 +588,12 @@ switch (answer) { case 0: let a; };
                                     "end": 188
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 182,
                                 "end": 189
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 168,
                         "end": 189
                     },
@@ -615,27 +615,27 @@ switch (answer) { case 0: let a; };
                                     "end": 204
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 198,
                                 "end": 204
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 189,
                         "end": 204
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 166,
                 "end": 206
             },
-            "flags": 128,
+            "flags": 16,
             "start": 155,
             "end": 206
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 206,
             "end": 207
         },
@@ -651,7 +651,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "answer",
                 "rawText": "answer",
-                "flags": 768,
+                "flags": 96,
                 "start": 216,
                 "end": 222
             },
@@ -670,7 +670,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 42,
                             "rawText": "42",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 230,
                             "end": 233
                         },
@@ -679,7 +679,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 640,
+                                    "flags": 80,
                                     "start": 234,
                                     "end": 238
                                 },
@@ -692,7 +692,7 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "t",
                                                 "rawText": "t",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 238,
                                                 "end": 240
                                             },
@@ -702,20 +702,20 @@ switch (answer) { case 0: let a; };
                                                 "kind": 201392130,
                                                 "text": 42,
                                                 "rawText": "42",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 242,
                                                 "end": 245
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 238,
                                             "end": 245
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 33554448,
                                     "start": 238,
                                     "end": 245
                                 },
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 234,
                                 "end": 246
                             },
@@ -728,27 +728,27 @@ switch (answer) { case 0: let a; };
                                     "end": 252
                                 },
                                 "label": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 246,
                                 "end": 253
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 225,
                         "end": 253
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 223,
                 "end": 255
             },
-            "flags": 128,
+            "flags": 16,
             "start": 207,
             "end": 255
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 255,
             "end": 256
         },
@@ -764,7 +764,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 264,
                 "end": 265
             },
@@ -783,7 +783,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 273,
                             "end": 275
                         },
@@ -801,13 +801,13 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 278,
                                                     "end": 279
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 512,
+                                                    "flags": 64,
                                                     "start": 279,
                                                     "end": 281
                                                 },
@@ -815,11 +815,11 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 281,
                                                     "end": 283
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 278,
                                                 "end": 283
                                             },
@@ -827,7 +827,7 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "c",
                                                 "rawText": "c",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 284,
                                                 "end": 286
                                             },
@@ -837,45 +837,45 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "d",
                                                     "rawText": "d",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 289,
                                                     "end": 290
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 287,
                                                 "end": 291
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 278,
                                         "end": 291
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 276,
                                     "end": 292
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 276,
                                 "end": 292
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 268,
                         "end": 292
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 266,
                 "end": 294
             },
-            "flags": 128,
+            "flags": 16,
             "start": 256,
             "end": 294
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 294,
             "end": 295
         },
@@ -891,7 +891,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 303,
                 "end": 304
             },
@@ -910,7 +910,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 312,
                             "end": 314
                         },
@@ -921,31 +921,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 315,
                                     "end": 317
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 315,
                                 "end": 317
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 307,
                         "end": 317
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 305,
                 "end": 319
             },
-            "flags": 128,
+            "flags": 16,
             "start": 295,
             "end": 319
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 319,
             "end": 320
         },
@@ -961,7 +961,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 328,
                 "end": 329
             },
@@ -980,7 +980,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 337,
                             "end": 339
                         },
@@ -993,7 +993,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 340,
                                         "end": 342
                                     },
@@ -1004,41 +1004,41 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 343,
                                                 "end": 346
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 343,
                                         "end": 346
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 340,
                                     "end": 347
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 340,
                                 "end": 347
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 332,
                         "end": 347
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 330,
                 "end": 349
             },
-            "flags": 128,
+            "flags": 16,
             "start": 320,
             "end": 349
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 349,
             "end": 350
         },
@@ -1054,7 +1054,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 358,
                 "end": 359
             },
@@ -1073,7 +1073,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 367,
                             "end": 369
                         },
@@ -1086,13 +1086,13 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 370,
                                         "end": 374
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 374,
                                         "end": 375
                                     },
@@ -1100,35 +1100,35 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 375,
                                         "end": 376
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 370,
                                     "end": 376
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 370,
                                 "end": 377
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 362,
                         "end": 377
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 360,
                 "end": 379
             },
-            "flags": 128,
+            "flags": 16,
             "start": 350,
             "end": 379
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 379,
             "end": 380
         },
@@ -1146,13 +1146,13 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 389,
                     "end": 390
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 390,
                     "end": 391
                 },
@@ -1162,7 +1162,7 @@ switch (answer) { case 0: let a; };
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 391,
                         "end": 392
                     },
@@ -1170,15 +1170,15 @@ switch (answer) { case 0: let a; };
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 393,
                         "end": 394
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 391,
                     "end": 395
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 389,
                 "end": 395
             },
@@ -1197,7 +1197,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 403,
                             "end": 405
                         },
@@ -1208,31 +1208,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 406,
                                     "end": 410
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 406,
                                 "end": 410
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 398,
                         "end": 410
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 396,
                 "end": 412
             },
-            "flags": 128,
+            "flags": 16,
             "start": 380,
             "end": 412
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 412,
             "end": 413
         },
@@ -1250,13 +1250,13 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 421,
                     "end": 422
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 422,
                     "end": 423
                 },
@@ -1266,7 +1266,7 @@ switch (answer) { case 0: let a; };
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 423,
                         "end": 424
                     },
@@ -1276,19 +1276,19 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 426,
                             "end": 427
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 425,
                         "end": 428
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 423,
                     "end": 429
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 421,
                 "end": 429
             },
@@ -1307,7 +1307,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 437,
                             "end": 439
                         },
@@ -1318,31 +1318,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 440,
                                     "end": 444
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 440,
                                 "end": 444
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 432,
                         "end": 444
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 430,
                 "end": 446
             },
-            "flags": 128,
+            "flags": 16,
             "start": 413,
             "end": 446
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 446,
             "end": 447
         },
@@ -1358,7 +1358,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 456,
                 "end": 457
             },
@@ -1377,7 +1377,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 465,
                             "end": 469
                         },
@@ -1394,7 +1394,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 479,
                                     "end": 481
                                 },
@@ -1402,7 +1402,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 481,
                                     "end": 482
                                 },
@@ -1410,7 +1410,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 482,
                                     "end": 484
                                 },
@@ -1421,37 +1421,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 485,
                                         "end": 485
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 484,
                                     "end": 486
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 2176,
+                                "flags": 272,
                                 "start": 470,
                                 "end": 486
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 460,
                         "end": 486
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 458,
                 "end": 488
             },
-            "flags": 128,
+            "flags": 16,
             "start": 447,
             "end": 488
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 488,
             "end": 489
         },
@@ -1467,7 +1467,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 498,
                 "end": 499
             },
@@ -1486,7 +1486,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 507,
                             "end": 509
                         },
@@ -1499,35 +1499,35 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 512,
                                         "end": 515
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 510,
                                     "end": 516
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 510,
                                 "end": 516
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 502,
                         "end": 516
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 500,
                 "end": 518
             },
-            "flags": 128,
+            "flags": 16,
             "start": 489,
             "end": 518
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 518,
             "end": 519
         },
@@ -1543,7 +1543,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 527,
                 "end": 528
             },
@@ -1562,7 +1562,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 536,
                             "end": 538
                         },
@@ -1578,7 +1578,7 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 541,
                                                 "end": 544
                                             },
@@ -1586,40 +1586,40 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 545,
                                                 "end": 549
                                             }
                                         ],
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 539,
                                         "end": 550
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 539,
                                     "end": 550
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 539,
                                 "end": 550
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 531,
                         "end": 550
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 529,
                 "end": 552
             },
-            "flags": 128,
+            "flags": 16,
             "start": 519,
             "end": 552
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 552,
             "end": 553
         },
@@ -1635,7 +1635,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 561,
                 "end": 562
             },
@@ -1654,7 +1654,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 570,
                             "end": 572
                         },
@@ -1669,17 +1669,17 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 575,
                                             "end": 578
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 573,
                                         "end": 579
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 579,
                                         "end": 581
                                     },
@@ -1691,17 +1691,17 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 583,
                                                 "end": 586
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 581,
                                             "end": 587
                                         },
                                         "operatorToken": {
                                             "kind": 35379,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 587,
                                             "end": 603
                                         },
@@ -1709,39 +1709,39 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 603,
                                             "end": 605
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 581,
                                         "end": 605
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 573,
                                     "end": 605
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 573,
                                 "end": 605
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 565,
                         "end": 605
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 563,
                 "end": 607
             },
-            "flags": 128,
+            "flags": 16,
             "start": 553,
             "end": 607
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 607,
             "end": 608
         },
@@ -1757,7 +1757,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 616,
                 "end": 617
             },
@@ -1776,7 +1776,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 625,
                             "end": 627
                         },
@@ -1787,25 +1787,25 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 628,
                                     "end": 632
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 628,
                                 "end": 632
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 620,
                         "end": 632
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 618,
                 "end": 634
             },
-            "flags": 128,
+            "flags": 16,
             "start": 608,
             "end": 634
         },
@@ -1823,13 +1823,13 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 704,
                     "end": 705
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 705,
                     "end": 706
                 },
@@ -1837,11 +1837,11 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 706,
                     "end": 707
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 704,
                 "end": 707
             },
@@ -1860,7 +1860,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 715,
                             "end": 717
                         },
@@ -1871,31 +1871,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 718,
                                     "end": 722
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 718,
                                 "end": 722
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 710,
                         "end": 722
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 708,
                 "end": 724
             },
-            "flags": 128,
+            "flags": 16,
             "start": 634,
             "end": 724
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 724,
             "end": 725
         },
@@ -1913,13 +1913,13 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 733,
                     "end": 734
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 734,
                     "end": 735
                 },
@@ -1927,11 +1927,11 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 735,
                     "end": 736
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 733,
                 "end": 736
             },
@@ -1950,7 +1950,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 744,
                             "end": 746
                         },
@@ -1961,31 +1961,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 747,
                                     "end": 751
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 747,
                                 "end": 751
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 739,
                         "end": 751
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 737,
                 "end": 753
             },
-            "flags": 128,
+            "flags": 16,
             "start": 725,
             "end": 753
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 753,
             "end": 754
         },
@@ -2001,7 +2001,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 763,
                 "end": 764
             },
@@ -2020,7 +2020,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 772,
                             "end": 774
                         },
@@ -2030,31 +2030,31 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 221,
                                     "text": "/a/",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 775,
                                     "end": 779
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 775,
                                 "end": 779
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 767,
                         "end": 779
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 765,
                 "end": 781
             },
-            "flags": 128,
+            "flags": 16,
             "start": 754,
             "end": 781
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 781,
             "end": 782
         },
@@ -2070,7 +2070,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 790,
                 "end": 791
             },
@@ -2089,7 +2089,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 799,
                             "end": 801
                         },
@@ -2105,41 +2105,41 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 804,
                                                 "end": 805
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 804,
                                             "end": 805
                                         }
                                     ],
                                     "multiLine": false,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 804,
                                     "end": 805
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 802,
                                 "end": 806
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 794,
                         "end": 806
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 792,
                 "end": 808
             },
-            "flags": 128,
+            "flags": 16,
             "start": 782,
             "end": 808
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 808,
             "end": 809
         },
@@ -2155,7 +2155,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 817,
                 "end": 818
             },
@@ -2174,7 +2174,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 826,
                             "end": 828
                         },
@@ -2187,13 +2187,13 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 829,
                                         "end": 831
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 831,
                                         "end": 833
                                     },
@@ -2214,11 +2214,11 @@ switch (answer) { case 0: let a; };
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 838,
                                                         "end": 839
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 835,
                                                     "end": 839
                                                 }
@@ -2229,35 +2229,35 @@ switch (answer) { case 0: let a; };
                                             "start": 835,
                                             "end": 839
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 833,
                                         "end": 840
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 829,
                                     "end": 840
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 829,
                                 "end": 840
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 821,
                         "end": 840
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 819,
                 "end": 842
             },
-            "flags": 128,
+            "flags": 16,
             "start": 809,
             "end": 842
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 842,
             "end": 843
         },
@@ -2273,7 +2273,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 851,
                 "end": 852
             },
@@ -2292,7 +2292,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 860,
                             "end": 862
                         },
@@ -2307,13 +2307,13 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 863,
                                             "end": 867
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 867,
                                             "end": 869
                                         },
@@ -2321,11 +2321,11 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 869,
                                             "end": 873
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 863,
                                         "end": 873
                                     },
@@ -2339,7 +2339,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 875,
                                         "end": 877
                                     },
@@ -2355,39 +2355,39 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 881,
                                             "end": 882
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 879,
                                         "end": 883
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 863,
                                     "end": 883
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 863,
                                 "end": 883
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 855,
                         "end": 883
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 853,
                 "end": 885
             },
-            "flags": 128,
+            "flags": 16,
             "start": 843,
             "end": 885
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 885,
             "end": 886
         },
@@ -2403,7 +2403,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 894,
                 "end": 895
             },
@@ -2422,7 +2422,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 903,
                             "end": 905
                         },
@@ -2437,13 +2437,13 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 906,
                                             "end": 910
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 910,
                                             "end": 912
                                         },
@@ -2451,11 +2451,11 @@ switch (answer) { case 0: let a; };
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 912,
                                             "end": 916
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 906,
                                         "end": 916
                                     },
@@ -2469,7 +2469,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 918,
                                         "end": 920
                                     },
@@ -2493,7 +2493,7 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 924,
                                                 "end": 925
                                             }
@@ -2507,43 +2507,43 @@ switch (answer) { case 0: let a; };
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 931,
                                                 "end": 931
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 929,
                                             "end": 932
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 922,
                                         "end": 932
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 906,
                                     "end": 932
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 906,
                                 "end": 932
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 898,
                         "end": 932
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 896,
                 "end": 933
             },
-            "flags": 128,
+            "flags": 16,
             "start": 886,
             "end": 933
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 933,
             "end": 934
         },
@@ -2559,7 +2559,7 @@ switch (answer) { case 0: let a; };
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
-                "flags": 768,
+                "flags": 96,
                 "start": 943,
                 "end": 944
             },
@@ -2578,7 +2578,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 952,
                             "end": 954
                         },
@@ -2588,7 +2588,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 955,
                                     "end": 961
                                 },
@@ -2603,7 +2603,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 970,
                                     "end": 972
                                 },
@@ -2611,7 +2611,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 972,
                                     "end": 974
                                 },
@@ -2622,22 +2622,22 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 976,
                                         "end": 976
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 974,
                                     "end": 977
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1152,
+                                "flags": 144,
                                 "start": 955,
                                 "end": 977
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 947,
                         "end": 977
                     },
@@ -2655,7 +2655,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 986,
                                     "end": 992
                                 },
@@ -2670,7 +2670,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1001,
                                     "end": 1003
                                 },
@@ -2678,7 +2678,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1003,
                                     "end": 1005
                                 },
@@ -2689,37 +2689,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1007,
                                         "end": 1007
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1005,
                                     "end": 1008
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1152,
+                                "flags": 144,
                                 "start": 986,
                                 "end": 1008
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 977,
                         "end": 1008
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 945,
                 "end": 1010
             },
-            "flags": 128,
+            "flags": 16,
             "start": 934,
             "end": 1010
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1010,
             "end": 1011
         },
@@ -2735,7 +2735,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1019,
                 "end": 1020
             },
@@ -2754,7 +2754,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1028,
                             "end": 1030
                         },
@@ -2767,7 +2767,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 1031,
                                         "end": 1035
                                     },
@@ -2781,7 +2781,7 @@ switch (answer) { case 0: let a; };
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 1037,
                                         "end": 1039
                                     },
@@ -2805,7 +2805,7 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1043,
                                                 "end": 1044
                                             }
@@ -2819,43 +2819,43 @@ switch (answer) { case 0: let a; };
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 1050,
                                                 "end": 1050
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 1048,
                                             "end": 1051
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1041,
                                         "end": 1051
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1031,
                                     "end": 1051
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1031,
                                 "end": 1051
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1023,
                         "end": 1051
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1021,
                 "end": 1052
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1011,
             "end": 1052
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1052,
             "end": 1053
         },
@@ -2878,7 +2878,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1064,
                                 "end": 1065
                             },
@@ -2886,11 +2886,11 @@ switch (answer) { case 0: let a; };
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1062,
                                 "end": 1063
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1062,
                             "end": 1065
                         }
@@ -2901,7 +2901,7 @@ switch (answer) { case 0: let a; };
                     "start": 1062,
                     "end": 1065
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1061,
                 "end": 1066
             },
@@ -2920,7 +2920,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1074,
                             "end": 1076
                         },
@@ -2944,45 +2944,45 @@ switch (answer) { case 0: let a; };
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 768,
+                                                    "flags": 96,
                                                     "start": 1082,
                                                     "end": 1083
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 1079,
                                                 "end": 1083
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1079,
                                         "end": 1083
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1077,
                                     "end": 1084
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1077,
                                 "end": 1084
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1069,
                         "end": 1084
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1067,
                 "end": 1086
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1053,
             "end": 1086
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1086,
             "end": 1087
         },
@@ -3005,7 +3005,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1098,
                                 "end": 1099
                             },
@@ -3013,11 +3013,11 @@ switch (answer) { case 0: let a; };
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1096,
                                 "end": 1097
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 1096,
                             "end": 1099
                         }
@@ -3028,7 +3028,7 @@ switch (answer) { case 0: let a; };
                     "start": 1096,
                     "end": 1099
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1095,
                 "end": 1100
             },
@@ -3047,7 +3047,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1108,
                             "end": 1110
                         },
@@ -3073,27 +3073,27 @@ switch (answer) { case 0: let a; };
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 1116,
                                                         "end": 1117
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 1113,
                                                     "end": 1117
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 1113,
                                             "end": 1117
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1111,
                                         "end": 1118
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 512,
+                                        "flags": 64,
                                         "start": 1118,
                                         "end": 1120
                                     },
@@ -3101,35 +3101,35 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 1120,
                                         "end": 1122
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1111,
                                     "end": 1122
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1111,
                                 "end": 1122
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1103,
                         "end": 1122
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1101,
                 "end": 1124
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1087,
             "end": 1124
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1124,
             "end": 1125
         },
@@ -3147,13 +3147,13 @@ switch (answer) { case 0: let a; };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 1133,
                     "end": 1134
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1134,
                     "end": 1135
                 },
@@ -3163,7 +3163,7 @@ switch (answer) { case 0: let a; };
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 1135,
                         "end": 1136
                     },
@@ -3174,21 +3174,21 @@ switch (answer) { case 0: let a; };
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1137,
                                 "end": 1138
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 1137,
                         "end": 1138
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 1135,
                     "end": 1139
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 1133,
                 "end": 1139
             },
@@ -3207,7 +3207,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1147,
                             "end": 1149
                         },
@@ -3218,31 +3218,31 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1150,
                                     "end": 1154
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1150,
                                 "end": 1154
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1142,
                         "end": 1154
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1140,
                 "end": 1156
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1125,
             "end": 1156
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1156,
             "end": 1157
         },
@@ -3258,7 +3258,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1167,
                 "end": 1168
             },
@@ -3277,7 +3277,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1176,
                             "end": 1178
                         },
@@ -3297,7 +3297,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1188,
                                     "end": 1190
                                 },
@@ -3305,7 +3305,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1190,
                                     "end": 1192
                                 },
@@ -3316,17 +3316,17 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1193,
                                         "end": 1193
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1192,
                                     "end": 1194
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1179,
                                 "end": 1194
                             },
@@ -3345,7 +3345,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1203,
                                     "end": 1205
                                 },
@@ -3353,7 +3353,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1205,
                                     "end": 1207
                                 },
@@ -3364,37 +3364,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1208,
                                         "end": 1208
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1207,
                                     "end": 1209
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1194,
                                 "end": 1209
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1171,
                         "end": 1209
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1169,
                 "end": 1211
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1157,
             "end": 1211
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1211,
             "end": 1212
         },
@@ -3410,7 +3410,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1221,
                 "end": 1222
             },
@@ -3429,7 +3429,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1230,
                             "end": 1232
                         },
@@ -3439,7 +3439,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1233,
                                     "end": 1239
                                 },
@@ -3451,7 +3451,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1248,
                                     "end": 1250
                                 },
@@ -3459,7 +3459,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1250,
                                     "end": 1251
                                 },
@@ -3467,7 +3467,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1251,
                                     "end": 1253
                                 },
@@ -3478,17 +3478,17 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1254,
                                         "end": 1254
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1253,
                                     "end": 1255
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3200,
+                                "flags": 400,
                                 "start": 1233,
                                 "end": 1255
                             },
@@ -3497,7 +3497,7 @@ switch (answer) { case 0: let a; };
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1255,
                                     "end": 1261
                                 },
@@ -3509,7 +3509,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1270,
                                     "end": 1272
                                 },
@@ -3517,7 +3517,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1272,
                                     "end": 1273
                                 },
@@ -3525,7 +3525,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1273,
                                     "end": 1275
                                 },
@@ -3536,37 +3536,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1276,
                                         "end": 1276
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1275,
                                     "end": 1277
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3200,
+                                "flags": 400,
                                 "start": 1255,
                                 "end": 1277
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1225,
                         "end": 1277
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1223,
                 "end": 1279
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1212,
             "end": 1279
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1279,
             "end": 1280
         },
@@ -3582,7 +3582,7 @@ switch (answer) { case 0: let a; };
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
-                "flags": 768,
+                "flags": 96,
                 "start": 1289,
                 "end": 1290
             },
@@ -3601,7 +3601,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1298,
                             "end": 1300
                         },
@@ -3624,28 +3624,28 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1305,
                                                 "end": 1307
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1305,
                                             "end": 1307
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 1305,
                                     "end": 1307
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1301,
                                 "end": 1308
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1293,
                         "end": 1308
                     },
@@ -3676,37 +3676,37 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1321,
                                                 "end": 1323
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1321,
                                             "end": 1323
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 1321,
                                     "end": 1323
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1317,
                                 "end": 1324
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1308,
                         "end": 1324
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1291,
                 "end": 1326
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1280,
             "end": 1326
         },
@@ -3722,7 +3722,7 @@ switch (answer) { case 0: let a; };
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
-                "flags": 768,
+                "flags": 96,
                 "start": 1335,
                 "end": 1336
             },
@@ -3741,7 +3741,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1344,
                             "end": 1346
                         },
@@ -3764,28 +3764,28 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1351,
                                                 "end": 1353
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1351,
                                             "end": 1353
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 1351,
                                     "end": 1353
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1347,
                                 "end": 1354
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1339,
                         "end": 1354
                     },
@@ -3816,43 +3816,43 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1367,
                                                 "end": 1369
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1367,
                                             "end": 1369
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 1367,
                                     "end": 1369
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1363,
                                 "end": 1370
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1354,
                         "end": 1370
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1337,
                 "end": 1372
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1326,
             "end": 1372
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1372,
             "end": 1373
         },
@@ -3868,7 +3868,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1382,
                 "end": 1383
             },
@@ -3887,7 +3887,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1391,
                             "end": 1393
                         },
@@ -3904,7 +3904,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1403,
                                     "end": 1405
                                 },
@@ -3912,7 +3912,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1405,
                                     "end": 1407
                                 },
@@ -3920,7 +3920,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1407,
                                     "end": 1409
                                 },
@@ -3931,37 +3931,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1411,
                                         "end": 1411
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1409,
                                     "end": 1412
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 2176,
+                                "flags": 272,
                                 "start": 1394,
                                 "end": 1412
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1386,
                         "end": 1412
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1384,
                 "end": 1414
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1373,
             "end": 1414
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1414,
             "end": 1415
         },
@@ -3977,7 +3977,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1424,
                 "end": 1425
             },
@@ -3996,7 +3996,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1433,
                             "end": 1435
                         },
@@ -4013,7 +4013,7 @@ switch (answer) { case 0: let a; };
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 1445,
                                     "end": 1447
                                 },
@@ -4021,7 +4021,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1447,
                                     "end": 1449
                                 },
@@ -4029,7 +4029,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1449,
                                     "end": 1451
                                 },
@@ -4040,37 +4040,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1453,
                                         "end": 1453
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1451,
                                     "end": 1454
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 2176,
+                                "flags": 272,
                                 "start": 1436,
                                 "end": 1454
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1428,
                         "end": 1454
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1426,
                 "end": 1456
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1415,
             "end": 1456
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1456,
             "end": 1457
         },
@@ -4080,11 +4080,11 @@ switch (answer) { case 0: let a; };
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 1457,
                 "end": 1471
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1457,
             "end": 1472
         },
@@ -4100,7 +4100,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1480,
                 "end": 1481
             },
@@ -4119,12 +4119,12 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1489,
                             "end": 1491
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1484,
                         "end": 1492
                     },
@@ -4151,7 +4151,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1507,
                                     "end": 1509
                                 },
@@ -4160,31 +4160,31 @@ switch (answer) { case 0: let a; };
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1511,
                                     "end": 1513
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1501,
                                 "end": 1513
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1492,
                         "end": 1513
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1482,
                 "end": 1514
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1472,
             "end": 1514
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1514,
             "end": 1515
         },
@@ -4200,18 +4200,18 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1524,
                 "end": 1525
             },
             "caseBlock": {
                 "kind": 152,
                 "clauses": [],
-                "flags": 128,
+                "flags": 16,
                 "start": 1526,
                 "end": 1528
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1515,
             "end": 1528
         },
@@ -4220,11 +4220,11 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 221,
                 "text": "/foo/",
-                "flags": 768,
+                "flags": 96,
                 "start": 1528,
                 "end": 1533
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1528,
             "end": 1534
         },
@@ -4234,11 +4234,11 @@ switch (answer) { case 0: let a; };
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 1534,
                 "end": 1548
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1534,
             "end": 1549
         },
@@ -4254,7 +4254,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1557,
                 "end": 1558
             },
@@ -4273,12 +4273,12 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1566,
                             "end": 1568
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1561,
                         "end": 1569
                     },
@@ -4306,7 +4306,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1586,
                                     "end": 1588
                                 },
@@ -4314,7 +4314,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1588,
                                     "end": 1590
                                 },
@@ -4325,23 +4325,23 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1592,
                                         "end": 1592
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1590,
                                     "end": 1594
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1578,
                                 "end": 1594
                             },
                             {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1594,
                                 "end": 1595
                             },
@@ -4359,7 +4359,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1601,
                                     "end": 1603
                                 },
@@ -4368,31 +4368,31 @@ switch (answer) { case 0: let a; };
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1605,
                                     "end": 1606
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1595,
                                 "end": 1606
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1569,
                         "end": 1606
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1559,
                 "end": 1607
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1549,
             "end": 1607
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1607,
             "end": 1608
         },
@@ -4402,11 +4402,11 @@ switch (answer) { case 0: let a; };
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 1608,
                 "end": 1621
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1608,
             "end": 1622
         },
@@ -4422,7 +4422,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1630,
                 "end": 1631
             },
@@ -4441,12 +4441,12 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1639,
                             "end": 1641
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1634,
                         "end": 1642
                     },
@@ -4473,7 +4473,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1656,
                                     "end": 1658
                                 },
@@ -4482,17 +4482,17 @@ switch (answer) { case 0: let a; };
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1660,
                                     "end": 1661
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1651,
                                 "end": 1661
                             },
                             {
                                 "kind": 168,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1661,
                                 "end": 1662
                             },
@@ -4511,7 +4511,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1671,
                                     "end": 1673
                                 },
@@ -4519,7 +4519,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1673,
                                     "end": 1675
                                 },
@@ -4530,37 +4530,37 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1677,
                                         "end": 1677
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1675,
                                     "end": 1678
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1662,
                                 "end": 1678
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1642,
                         "end": 1678
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1632,
                 "end": 1679
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1622,
             "end": 1679
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1679,
             "end": 1680
         },
@@ -4570,11 +4570,11 @@ switch (answer) { case 0: let a; };
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 1680,
                 "end": 1693
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1680,
             "end": 1694
         },
@@ -4590,7 +4590,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1702,
                 "end": 1703
             },
@@ -4609,12 +4609,12 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1711,
                             "end": 1713
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1706,
                         "end": 1714
                     },
@@ -4641,7 +4641,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1728,
                                     "end": 1730
                                 },
@@ -4658,43 +4658,43 @@ switch (answer) { case 0: let a; };
                                         "kind": 134299649,
                                         "text": "Q",
                                         "rawText": "Q",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 1738,
                                         "end": 1740
                                     },
                                     "typeParameter": null,
-                                    "flags": 128,
+                                    "flags": 16,
                                     "start": 1738,
                                     "end": 1740
                                 },
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1742,
                                     "end": 1743
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1723,
                                 "end": 1743
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1714,
                         "end": 1743
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1704,
                 "end": 1744
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1694,
             "end": 1744
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1744,
             "end": 1745
         },
@@ -4704,11 +4704,11 @@ switch (answer) { case 0: let a; };
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 1745,
                 "end": 1758
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1745,
             "end": 1759
         },
@@ -4724,7 +4724,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1767,
                 "end": 1768
             },
@@ -4743,12 +4743,12 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1776,
                             "end": 1778
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1771,
                         "end": 1779
                     },
@@ -4776,7 +4776,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1796,
                                     "end": 1798
                                 },
@@ -4784,7 +4784,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1798,
                                     "end": 1800
                                 },
@@ -4795,17 +4795,17 @@ switch (answer) { case 0: let a; };
                                         "directives": [],
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 1802,
                                         "end": 1802
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1800,
                                     "end": 1804
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1788,
                                 "end": 1804
                             },
@@ -4823,7 +4823,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1810,
                                     "end": 1812
                                 },
@@ -4832,31 +4832,31 @@ switch (answer) { case 0: let a; };
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1814,
                                     "end": 1815
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1804,
                                 "end": 1815
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1779,
                         "end": 1815
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1769,
                 "end": 1816
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1759,
             "end": 1816
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1816,
             "end": 1817
         },
@@ -4866,11 +4866,11 @@ switch (answer) { case 0: let a; };
                 "kind": 201392131,
                 "text": "use strict",
                 "rawText": "use strict",
-                "flags": 769,
+                "flags": 97,
                 "start": 1817,
                 "end": 1830
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1817,
             "end": 1831
         },
@@ -4886,7 +4886,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 1839,
                 "end": 1840
             },
@@ -4905,12 +4905,12 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1848,
                             "end": 1850
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1843,
                         "end": 1851
                     },
@@ -4937,7 +4937,7 @@ switch (answer) { case 0: let a; };
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 1865,
                                     "end": 1867
                                 },
@@ -4946,31 +4946,31 @@ switch (answer) { case 0: let a; };
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 1869,
                                     "end": 1871
                                 },
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 1860,
                                 "end": 1871
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1851,
                         "end": 1871
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1841,
                 "end": 1872
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1831,
             "end": 1872
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1872,
             "end": 1873
         },
@@ -4986,7 +4986,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 1882,
                 "end": 1883
             },
@@ -5005,27 +5005,27 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1889,
                             "end": 1891
                         },
                         "statements": [],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1885,
                         "end": 1892
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1884,
                 "end": 1893
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1873,
             "end": 1893
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1893,
             "end": 1894
         },
@@ -5041,7 +5041,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 768,
+                "flags": 96,
                 "start": 1903,
                 "end": 1904
             },
@@ -5060,7 +5060,7 @@ switch (answer) { case 0: let a; };
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1912,
                             "end": 1914
                         },
@@ -5069,7 +5069,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 640,
+                                    "flags": 80,
                                     "start": 1915,
                                     "end": 1919
                                 },
@@ -5090,24 +5090,24 @@ switch (answer) { case 0: let a; };
                                                                 "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 1921,
                                                                 "end": 1922
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
-                                                            "flags": 256,
+                                                            "flags": 32,
                                                             "start": 1921,
                                                             "end": 1922
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 1921,
                                                     "end": 1922
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 1919,
                                                 "end": 1923
                                             },
@@ -5117,40 +5117,40 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1925,
                                                 "end": 1927
                                             },
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1919,
                                             "end": 1927
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 33554448,
                                     "start": 1919,
                                     "end": 1927
                                 },
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 1915,
                                 "end": 1927
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1907,
                         "end": 1927
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1905,
                 "end": 1929
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1894,
             "end": 1929
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1929,
             "end": 1930
         },
@@ -5166,7 +5166,7 @@ switch (answer) { case 0: let a; };
                 "kind": 134299649,
                 "text": "answer",
                 "rawText": "answer",
-                "flags": 768,
+                "flags": 96,
                 "start": 1939,
                 "end": 1945
             },
@@ -5185,7 +5185,7 @@ switch (answer) { case 0: let a; };
                             "kind": 201392130,
                             "text": 0,
                             "rawText": "0",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 1953,
                             "end": 1955
                         },
@@ -5194,7 +5194,7 @@ switch (answer) { case 0: let a; };
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 640,
+                                    "flags": 80,
                                     "start": 1956,
                                     "end": 1960
                                 },
@@ -5207,43 +5207,43 @@ switch (answer) { case 0: let a; };
                                                 "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 1960,
                                                 "end": 1962
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
-                                            "flags": 128,
+                                            "flags": 16,
                                             "start": 1960,
                                             "end": 1962
                                         }
                                     ],
-                                    "flags": 128,
+                                    "flags": 33554448,
                                     "start": 1960,
                                     "end": 1962
                                 },
-                                "flags": 128,
+                                "flags": 33554448,
                                 "start": 1956,
                                 "end": 1963
                             }
                         ],
-                        "flags": 128,
+                        "flags": 16,
                         "start": 1948,
                         "end": 1963
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 1946,
                 "end": 1965
             },
-            "flags": 128,
+            "flags": 16,
             "start": 1930,
             "end": 1965
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 1965,
             "end": 1966
         }

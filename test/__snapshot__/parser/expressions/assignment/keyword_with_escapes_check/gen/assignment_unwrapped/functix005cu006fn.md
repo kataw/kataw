@@ -25,7 +25,7 @@ functi\u006fn = x;
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 327680,
+                "flags": 16384,
                 "start": 0,
                 "end": 13
             },
@@ -33,7 +33,7 @@ functi\u006fn = x;
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 13,
                 "end": 13
             },
@@ -41,7 +41,7 @@ functi\u006fn = x;
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 13
             },
@@ -52,17 +52,17 @@ functi\u006fn = x;
                     "directives": [],
                     "statements": [],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 13
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 13
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 13
         },
@@ -72,11 +72,11 @@ functi\u006fn = x;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 15,
                 "end": 17
             },
-            "flags": 128,
+            "flags": 16,
             "start": 15,
             "end": 18
         }

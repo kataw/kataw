@@ -31,7 +31,7 @@
                         "declareKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 513,
+                            "flags": 65,
                             "start": 1,
                             "end": 9
                         },
@@ -43,7 +43,7 @@
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 18,
                             "end": 20
                         },
@@ -51,7 +51,7 @@
                             "kind": 134299649,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 20,
                             "end": 21
                         },
@@ -59,7 +59,7 @@
                             "kind": 214,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 21,
                             "end": 23
                         },
@@ -70,27 +70,27 @@
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 24
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 23,
                             "end": 25
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 3200,
+                        "flags": 400,
                         "start": 1,
                         "end": 25
                     }
                 ],
                 "multiLine": true,
-                "flags": 128,
+                "flags": 16,
                 "start": 1,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

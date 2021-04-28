@@ -33,7 +33,7 @@ class x {get instanceof(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -50,7 +50,7 @@ class x {get instanceof(){}}
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 12
                         },
@@ -61,7 +61,7 @@ class x {get instanceof(){}}
                                 "kind": 134299649,
                                 "text": "instanceof",
                                 "rawText": "instanceof",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 23
                             },
@@ -70,7 +70,7 @@ class x {get instanceof(){}}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 8192,
+                                "flags": 1024,
                                 "start": 24,
                                 "end": 25
                             },
@@ -82,28 +82,28 @@ class x {get instanceof(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 26,
                                     "end": 26
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 27
                             },
-                            "flags": 8192,
+                            "flags": 1024,
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 8192,
+                        "flags": 1024,
                         "start": 9,
                         "end": 27
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

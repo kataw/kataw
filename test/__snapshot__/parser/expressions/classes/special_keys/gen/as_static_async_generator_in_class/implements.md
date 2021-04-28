@@ -33,7 +33,7 @@ class x {static async * implements(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -48,13 +48,13 @@ class x {static async * implements(){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 15,
                             "end": 21
                         },
@@ -66,7 +66,7 @@ class x {static async * implements(){}}
                                 "kind": 134299649,
                                 "text": "implements",
                                 "rawText": "implements",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 23,
                                 "end": 34
                             },
@@ -75,7 +75,7 @@ class x {static async * implements(){}}
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 3072,
+                                "flags": 384,
                                 "start": 35,
                                 "end": 36
                             },
@@ -87,28 +87,28 @@ class x {static async * implements(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 37,
                                     "end": 37
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 36,
                                 "end": 38
                             },
-                            "flags": 3072,
+                            "flags": 384,
                             "start": 34,
                             "end": 38
                         },
-                        "flags": 3072,
+                        "flags": 384,
                         "start": 15,
                         "end": 38
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 39
         }

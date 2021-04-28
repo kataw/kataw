@@ -21,7 +21,7 @@ eval: x;
                 "kind": 134299649,
                 "text": "eval",
                 "rawText": "eval",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 4
             },
@@ -31,15 +31,15 @@ eval: x;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 5,
                     "end": 7
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 5,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

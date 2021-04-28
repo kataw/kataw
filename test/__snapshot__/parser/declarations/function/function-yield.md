@@ -38,7 +38,7 @@ function *foo() {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 512,
+                "flags": 64,
                 "start": 8,
                 "end": 10
             },
@@ -46,7 +46,7 @@ function *foo() {
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 10,
                 "end": 13
             },
@@ -54,7 +54,7 @@ function *foo() {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 13,
                 "end": 15
             },
@@ -81,7 +81,7 @@ function *foo() {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 27
                                         },
@@ -106,11 +106,11 @@ function *foo() {
                                                         "kind": 201392130,
                                                         "text": 5,
                                                         "rawText": "5",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 36,
                                                         "end": 38
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 31,
                                                     "end": 38
                                                 },
@@ -119,7 +119,7 @@ function *foo() {
                                                     "kind": 139,
                                                     "type": {
                                                         "kind": 134234252,
-                                                        "flags": 512,
+                                                        "flags": 64,
                                                         "start": 39,
                                                         "end": 43
                                                     },
@@ -128,24 +128,24 @@ function *foo() {
                                                     "end": 43
                                                 },
                                                 "initializer": null,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 29,
                                                 "end": 43
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 29,
                                             "end": 44
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 25,
                                         "end": 44
                                     }
                                 ],
-                                "flags": 160,
+                                "flags": 16777232,
                                 "start": 25,
                                 "end": 44
                             },
-                            "flags": 128,
+                            "flags": 33554448,
                             "start": 17,
                             "end": 45
                         },
@@ -157,7 +157,7 @@ function *foo() {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 45,
                                     "end": 49
                                 },
@@ -181,11 +181,11 @@ function *foo() {
                                         "kind": 201392130,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 57,
                                         "end": 59
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 51,
                                     "end": 59
                                 },
@@ -199,31 +199,31 @@ function *foo() {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 61,
                                     "end": 63
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 45,
                                 "end": 63
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 45,
                             "end": 64
                         }
                     ],
                     "multiline": true,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 17,
                     "end": 64
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 15,
                 "end": 66
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 272,
             "start": 0,
             "end": 66
         }

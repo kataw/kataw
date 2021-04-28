@@ -28,7 +28,7 @@
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 1,
                                 "end": 2
                             },
@@ -36,22 +36,22 @@
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 3,
                                 "end": 4
                             }
                         ],
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 5
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4130,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 5,
                     "end": 7
                 },
@@ -59,15 +59,15 @@
                     "kind": 201392130,
                     "text": 2,
                     "rawText": "2",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         }

@@ -45,7 +45,7 @@ var { f: await f } = {};
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -56,16 +56,16 @@ var { f: await f } = {};
                                                 "kind": 134299649,
                                                 "text": "await",
                                                 "rawText": "await",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 8,
                                                 "end": 14
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 14
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 14
                                     },
@@ -76,23 +76,23 @@ var { f: await f } = {};
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 16
                                         },
                                         "right": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 16
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 16
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 18
                         },
@@ -109,20 +109,20 @@ var { f: await f } = {};
                                 "start": 22,
                                 "end": 22
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 20,
                             "end": 23
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 23
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 23
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 24
         }

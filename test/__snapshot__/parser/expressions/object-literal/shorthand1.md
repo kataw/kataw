@@ -23,13 +23,13 @@ x = { y, z }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 512,
+                    "flags": 64,
                     "start": 1,
                     "end": 3
                 },
@@ -42,7 +42,7 @@ x = { y, z }
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 5,
                                 "end": 7
                             },
@@ -50,7 +50,7 @@ x = { y, z }
                                 "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 8,
                                 "end": 10
                             }
@@ -61,15 +61,15 @@ x = { y, z }
                         "start": 5,
                         "end": 10
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 3,
                     "end": 12
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

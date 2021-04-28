@@ -37,7 +37,7 @@ new foo?.bar
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 3,
                         "end": 7
                     },
@@ -50,28 +50,28 @@ new foo?.bar
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 12
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 12
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 0,
                     "end": 12
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 12
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 12
         }

@@ -34,7 +34,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "kind": 134299649,
                 "text": "not_gen",
                 "rawText": "not_gen",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 16
             },
@@ -42,7 +42,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 16,
                 "end": 18
             },
@@ -70,7 +70,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "kind": 134299649,
                                             "text": "gfe",
                                             "rawText": "gfe",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 28
                                         },
@@ -87,7 +87,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 512,
+                                                "flags": 64,
                                                 "start": 39,
                                                 "end": 40
                                             },
@@ -95,7 +95,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "kind": 134299649,
                                                 "text": "rgfe",
                                                 "rawText": "rgfe",
-                                                "flags": 768,
+                                                "flags": 96,
                                                 "start": 40,
                                                 "end": 45
                                             },
@@ -103,7 +103,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "kind": 214,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 45,
                                                 "end": 47
                                             },
@@ -125,7 +125,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                 "kind": 201392130,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 768,
+                                                                "flags": 96,
                                                                 "start": 58,
                                                                 "end": 59
                                                             },
@@ -151,7 +151,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                             "delegate": true,
                                                                             "asteriskToken": {
                                                                                 "kind": 67143222,
-                                                                                "flags": 512,
+                                                                                "flags": 64,
                                                                                 "start": 73,
                                                                                 "end": 74
                                                                             },
@@ -159,11 +159,11 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                                 "kind": 201392131,
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
-                                                                                "flags": 67109632,
+                                                                                "flags": 4194400,
                                                                                 "start": 74,
                                                                                 "end": 80
                                                                             },
-                                                                            "flags": 256,
+                                                                            "flags": 32,
                                                                             "start": 67,
                                                                             "end": 80
                                                                         },
@@ -177,66 +177,66 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                                     "end": 87
                                                                                 },
                                                                                 "label": null,
-                                                                                "flags": 128,
+                                                                                "flags": 16,
                                                                                 "start": 81,
                                                                                 "end": 88
                                                                             }
                                                                         ],
-                                                                        "flags": 128,
+                                                                        "flags": 16,
                                                                         "start": 62,
                                                                         "end": 88
                                                                     }
                                                                 ],
-                                                                "flags": 128,
+                                                                "flags": 16,
                                                                 "start": 60,
                                                                 "end": 90
                                                             },
-                                                            "flags": 128,
+                                                            "flags": 16,
                                                             "start": 49,
                                                             "end": 90
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 49,
                                                     "end": 90
                                                 },
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 47,
                                                 "end": 92
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 2304,
+                                            "flags": 288,
                                             "start": 30,
                                             "end": 92
                                         },
-                                        "flags": 128,
+                                        "flags": 16,
                                         "start": 24,
                                         "end": 92
                                     }
                                 ],
-                                "flags": 128,
+                                "flags": 16,
                                 "start": 24,
                                 "end": 92
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 20,
                             "end": 92
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 20,
                     "end": 92
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 18,
                 "end": 94
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 94
         }

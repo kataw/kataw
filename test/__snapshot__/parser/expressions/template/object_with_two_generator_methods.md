@@ -23,7 +23,7 @@ wrap({* foo(){},*bar(){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 4
                 },
@@ -41,7 +41,7 @@ wrap({* foo(){},*bar(){}});
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 11
                                         },
@@ -50,7 +50,7 @@ wrap({* foo(){},*bar(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -62,15 +62,15 @@ wrap({* foo(){},*bar(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 14,
                                                 "end": 14
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 15
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 11,
                                         "end": 15
                                     },
@@ -80,7 +80,7 @@ wrap({* foo(){},*bar(){}});
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 20
                                         },
@@ -89,7 +89,7 @@ wrap({* foo(){},*bar(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1280,
+                                            "flags": 160,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -101,15 +101,15 @@ wrap({* foo(){},*bar(){}});
                                                 "directives": [],
                                                 "statements": [],
                                                 "multiline": false,
-                                                "flags": 256,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 23
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 22,
                                             "end": 24
                                         },
-                                        "flags": 1280,
+                                        "flags": 160,
                                         "start": 20,
                                         "end": 24
                                     }
@@ -120,21 +120,21 @@ wrap({* foo(){},*bar(){}});
                                 "start": 6,
                                 "end": 24
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 5,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 5,
                     "end": 25
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 26
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 27
         }

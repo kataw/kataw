@@ -31,7 +31,7 @@ function f(){ "use strict"
                 "kind": 134299649,
                 "text": "f",
                 "rawText": "f",
-                "flags": 768,
+                "flags": 96,
                 "start": 8,
                 "end": 10
             },
@@ -39,7 +39,7 @@ function f(){ "use strict"
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 10,
                 "end": 12
             },
@@ -57,7 +57,7 @@ function f(){ "use strict"
                                     "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "use strict",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 26
                                 },
@@ -65,15 +65,15 @@ function f(){ "use strict"
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 44,
                                     "end": 47
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 47
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 13,
                             "end": 48
                         },
@@ -85,13 +85,13 @@ function f(){ "use strict"
                                     "kind": 134299649,
                                     "text": "eval",
                                     "rawText": "eval",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 48,
                                     "end": 53
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 53,
                                     "end": 55
                                 },
@@ -99,31 +99,31 @@ function f(){ "use strict"
                                     "kind": 201392130,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 768,
+                                    "flags": 96,
                                     "start": 55,
                                     "end": 57
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 48,
                                 "end": 57
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 48,
                             "end": 58
                         }
                     ],
                     "multiline": false,
-                    "flags": 256,
+                    "flags": 32,
                     "start": 13,
                     "end": 58
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 12,
                 "end": 60
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 60
         }

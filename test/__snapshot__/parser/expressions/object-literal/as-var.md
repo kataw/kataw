@@ -38,7 +38,7 @@ var {...[]} = {}
                                         "kind": 204,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 512,
+                                            "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -47,11 +47,11 @@ var {...[]} = {}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 9,
                                                 "end": 9
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 10
                                         },
@@ -61,27 +61,27 @@ var {...[]} = {}
                                             "binding": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 10,
                                                 "end": 10
                                             },
                                             "initializer": null,
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 10
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "multiline": false,
                                 "trailingComma": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 10
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 3,
                             "end": 11
                         },
@@ -98,20 +98,20 @@ var {...[]} = {}
                                 "start": 15,
                                 "end": 15
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 13,
                             "end": 16
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 16
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 16
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 16
         }

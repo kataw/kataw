@@ -30,7 +30,7 @@ if if if =! class function try while with foo!
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 12,
+                "flags": 68,
                 "start": 2,
                 "end": 2
             },
@@ -45,7 +45,7 @@ if if if =! class function try while with foo!
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 12,
+                    "flags": 68,
                     "start": 5,
                     "end": 5
                 },
@@ -62,13 +62,13 @@ if if if =! class function try while with foo!
                         "left": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 8,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 8,
                             "end": 10
                         },
@@ -76,7 +76,7 @@ if if if =! class function try while with foo!
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 10,
                                 "end": 11
                             },
@@ -95,19 +95,19 @@ if if if =! class function try while with foo!
                                 "members": {
                                     "kind": 277,
                                     "elements": [],
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 11
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 17
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 17
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 17
                     },
@@ -125,7 +125,7 @@ if if if =! class function try while with foo!
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 12,
+                            "flags": 68,
                             "start": 26,
                             "end": 26
                         },
@@ -133,7 +133,7 @@ if if if =! class function try while with foo!
                             "kind": 214,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 256,
+                            "flags": 32,
                             "start": 26,
                             "end": 26
                         },
@@ -144,35 +144,35 @@ if if if =! class function try while with foo!
                                 "directives": [],
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 26
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 26,
                             "end": 26
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 17,
                         "end": 26
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 5,
                     "end": 26
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 128,
+                "flags": 16,
                 "start": 2,
                 "end": 26
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 26
         },
@@ -190,11 +190,11 @@ if if if =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 30,
                     "end": 30
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 30,
                 "end": 30
             },
@@ -206,15 +206,15 @@ if if if =! class function try while with foo!
                     "kind": 124,
                     "statements": [],
                     "multiLine": false,
-                    "flags": 128,
+                    "flags": 16,
                     "start": 36,
                     "end": 36
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 36,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 26,
             "end": 36
         },
@@ -230,7 +230,7 @@ if if if =! class function try while with foo!
                 "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 768,
+                "flags": 96,
                 "start": 41,
                 "end": 45
             },
@@ -240,26 +240,26 @@ if if if =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 45,
                         "end": 46
                     },
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 12,
+                        "flags": 68,
                         "start": 46,
                         "end": 46
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 45,
                     "end": 46
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 45,
                 "end": 46
             },
-            "flags": 128,
+            "flags": 16,
             "start": 36,
             "end": 46
         }

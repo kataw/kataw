@@ -21,7 +21,7 @@ async (x = z = yield)
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -34,13 +34,13 @@ async (x = z = yield)
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 8,
                             "end": 10
                         },
@@ -50,13 +50,13 @@ async (x = z = yield)
                                 "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 12
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 12,
                                 "end": 14
                             },
@@ -64,25 +64,25 @@ async (x = z = yield)
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 20
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 10,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 21
         }

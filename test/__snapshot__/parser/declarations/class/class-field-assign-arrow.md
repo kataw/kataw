@@ -48,7 +48,7 @@ class C { aaa=()=>0 }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -67,7 +67,7 @@ class C { aaa=()=>0 }
                             "kind": 134299649,
                             "text": "aaa",
                             "rawText": "aaa",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 13
                         },
@@ -89,24 +89,24 @@ class C { aaa=()=>0 }
                                 "kind": 201392130,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 18,
                                 "end": 19
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 14,
                             "end": 19
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 19
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 21
         }

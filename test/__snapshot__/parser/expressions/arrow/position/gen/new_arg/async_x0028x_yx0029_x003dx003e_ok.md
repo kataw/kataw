@@ -43,7 +43,7 @@ new async (x, y) => ok
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 11,
                             "end": 12
                         },
@@ -51,14 +51,14 @@ new async (x, y) => ok
                             "kind": 134299649,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 13,
                             "end": 15
                         }
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 512,
+                        "flags": 64,
                         "start": 3,
                         "end": 9
                     },
@@ -67,20 +67,20 @@ new async (x, y) => ok
                         "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 19,
                         "end": 22
                     },
-                    "flags": 2304,
+                    "flags": 288,
                     "start": 3,
                     "end": 22
                 },
                 "argumentList": null,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 22
         }

@@ -19,7 +19,7 @@ let x = async function f(foo = await){}
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 640,
+                "flags": 80,
                 "start": 0,
                 "end": 3
             },
@@ -32,7 +32,7 @@ let x = async function f(foo = await){}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
@@ -42,7 +42,7 @@ let x = async function f(foo = await){}
                             "kind": 177,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 7,
                                 "end": 13
                             },
@@ -57,7 +57,7 @@ let x = async function f(foo = await){}
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 24
                             },
@@ -71,7 +71,7 @@ let x = async function f(foo = await){}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 28
                                         },
@@ -88,21 +88,21 @@ let x = async function f(foo = await){}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 12,
+                                                "flags": 68,
                                                 "start": 36,
                                                 "end": 36
                                             },
-                                            "flags": 256,
+                                            "flags": 32,
                                             "start": 30,
                                             "end": 36
                                         },
-                                        "flags": 258,
+                                        "flags": 34,
                                         "start": 25,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 258,
+                                "flags": 34,
                                 "start": 24,
                                 "end": 37
                             },
@@ -113,30 +113,30 @@ let x = async function f(foo = await){}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 38,
                                     "end": 38
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 39
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1280,
+                            "flags": 160,
                             "start": 7,
                             "end": 39
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 39
                     }
                 ],
-                "flags": 128,
+                "flags": 33554448,
                 "start": 3,
                 "end": 39
             },
-            "flags": 128,
+            "flags": 33554448,
             "start": 0,
             "end": 39
         }

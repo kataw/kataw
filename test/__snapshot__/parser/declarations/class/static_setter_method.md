@@ -48,7 +48,7 @@ class A {static set 10(x){}}
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -63,7 +63,7 @@ class A {static set 10(x){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 9,
                             "end": 15
                         },
@@ -71,7 +71,7 @@ class A {static set 10(x){}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 15,
                             "end": 19
                         },
@@ -81,7 +81,7 @@ class A {static set 10(x){}}
                                 "kind": 201392130,
                                 "text": 10,
                                 "rawText": "10",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 22
                             },
@@ -96,20 +96,20 @@ class A {static set 10(x){}}
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 23,
                                             "end": 24
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 23,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 4352,
+                                "flags": 544,
                                 "start": 23,
                                 "end": 25
                             },
@@ -121,28 +121,28 @@ class A {static set 10(x){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 26,
                                     "end": 26
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 27
                             },
-                            "flags": 4096,
+                            "flags": 512,
                             "start": 22,
                             "end": 27
                         },
-                        "flags": 4096,
+                        "flags": 512,
                         "start": 15,
                         "end": 27
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 28
         }

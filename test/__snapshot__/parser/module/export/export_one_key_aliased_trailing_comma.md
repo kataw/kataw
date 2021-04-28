@@ -39,23 +39,23 @@ var x; export {x as a,}
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 5
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 128,
+                        "flags": 16,
                         "start": 3,
                         "end": 5
                     }
                 ],
-                "flags": 128,
+                "flags": 16,
                 "start": 3,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 6
         },
@@ -80,7 +80,7 @@ var x; export {x as a,}
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 16
                             },
@@ -88,16 +88,16 @@ var x; export {x as a,}
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 21
                             },
-                            "flags": 128,
+                            "flags": 16,
                             "start": 15,
                             "end": 21
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 15,
                     "end": 22
                 },
@@ -107,7 +107,7 @@ var x; export {x as a,}
             },
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 6,
             "end": 23
         }

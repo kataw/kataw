@@ -27,7 +27,7 @@ declare class A { static foo(): number; static x : string }
             "kind": 178,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 7
             },
@@ -42,7 +42,7 @@ declare class A { static foo(): number; static x : string }
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "A",
-                "flags": 768,
+                "flags": 96,
                 "start": 13,
                 "end": 15
             },
@@ -57,7 +57,7 @@ declare class A { static foo(): number; static x : string }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 17,
                             "end": 24
                         },
@@ -70,7 +70,7 @@ declare class A { static foo(): number; static x : string }
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 28
                             },
@@ -87,7 +87,7 @@ declare class A { static foo(): number; static x : string }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 512,
+                                    "flags": 64,
                                     "start": 31,
                                     "end": 38
                                 },
@@ -110,7 +110,7 @@ declare class A { static foo(): number; static x : string }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 39,
                             "end": 46
                         },
@@ -119,7 +119,7 @@ declare class A { static foo(): number; static x : string }
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 46,
                             "end": 48
                         },
@@ -128,7 +128,7 @@ declare class A { static foo(): number; static x : string }
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 512,
+                                "flags": 64,
                                 "start": 50,
                                 "end": 57
                             },
@@ -137,16 +137,16 @@ declare class A { static foo(): number; static x : string }
                             "end": 57
                         },
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 46,
                         "end": 57
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 17,
                 "end": 59
             },
-            "flags": 128,
+            "flags": 16,
             "start": 7,
             "end": 59
         }

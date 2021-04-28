@@ -22,7 +22,7 @@
             "kind": 201392131,
             "text": "use strict",
             "rawText": "use strict",
-            "flags": 67109632,
+            "flags": 4194400,
             "start": 0,
             "end": 12
         }
@@ -54,30 +54,30 @@
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 30
                             },
                             "optionalToken": null,
                             "type": null,
                             "initializer": null,
-                            "flags": 128,
+                            "flags": 16,
                             "start": 24,
                             "end": 30
                         }
                     ],
-                    "flags": 128,
+                    "flags": 16,
                     "start": 24,
                     "end": 30
                 },
-                "flags": 128,
+                "flags": 16,
                 "start": 20,
                 "end": 31
             },
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
-            "flags": 128,
+            "flags": 16,
             "start": 13,
             "end": 31
         }

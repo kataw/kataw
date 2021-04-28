@@ -37,7 +37,7 @@ class C { get; set; static; async }
                 "kind": 134299649,
                 "text": "C",
                 "rawText": "C",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,20 +56,20 @@ class C { get; set; static; async }
                             "kind": 134299649,
                             "text": "get",
                             "rawText": "get",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 9,
                             "end": 13
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 9,
                         "end": 13
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 13,
                         "end": 14
                     },
@@ -83,20 +83,20 @@ class C { get; set; static; async }
                             "kind": 134299649,
                             "text": "set",
                             "rawText": "set",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 14,
                             "end": 18
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 14,
                         "end": 18
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 18,
                         "end": 19
                     },
@@ -110,20 +110,20 @@ class C { get; set; static; async }
                             "kind": 134299649,
                             "text": "static",
                             "rawText": "static",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 19,
                             "end": 26
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 19,
                         "end": 26
                     },
                     {
                         "kind": 281,
-                        "flags": 768,
+                        "flags": 96,
                         "start": 26,
                         "end": 27
                     },
@@ -137,23 +137,23 @@ class C { get; set; static; async }
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 27,
                             "end": 33
                         },
                         "optionalToken": null,
                         "type": null,
                         "initializer": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 27,
                         "end": 33
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 35
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 35
         }

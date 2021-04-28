@@ -21,7 +21,7 @@ async ({ident: {x: y}})
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
@@ -46,7 +46,7 @@ async ({ident: {x: y}})
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 18,
                                                         "end": 20
                                                     },
@@ -54,11 +54,11 @@ async ({ident: {x: y}})
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 768,
+                                                        "flags": 96,
                                                         "start": 16,
                                                         "end": 17
                                                     },
-                                                    "flags": 256,
+                                                    "flags": 32,
                                                     "start": 16,
                                                     "end": 20
                                                 }
@@ -69,7 +69,7 @@ async ({ident: {x: y}})
                                             "start": 16,
                                             "end": 20
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 21
                                     },
@@ -77,11 +77,11 @@ async ({ident: {x: y}})
                                         "kind": 134299649,
                                         "text": "ident",
                                         "rawText": "ident",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 8,
                                         "end": 13
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 21
                                 }
@@ -92,17 +92,17 @@ async ({ident: {x: y}})
                             "start": 8,
                             "end": 21
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 7,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },
-            "flags": 256,
+            "flags": 32,
             "start": 0,
             "end": 23
         }

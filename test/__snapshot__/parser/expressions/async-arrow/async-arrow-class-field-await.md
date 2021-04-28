@@ -29,7 +29,7 @@ async( x = class { x = await });
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 512,
+                "flags": 64,
                 "start": 0,
                 "end": 5
             },
@@ -47,7 +47,7 @@ async( x = class { x = await });
                     "kind": 134299649,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
@@ -66,7 +66,7 @@ async( x = class { x = await });
                                 "kind": 134299649,
                                 "text": "aaa",
                                 "rawText": "aaa",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 25
                             },
@@ -83,34 +83,34 @@ async( x = class { x = await });
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 12,
+                                    "flags": 68,
                                     "start": 33,
                                     "end": 33
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 33
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 21,
                             "end": 33
                         }
                     ],
-                    "flags": 256,
+                    "flags": 32,
                     "start": 21,
                     "end": 35
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 11,
                 "end": 35
             },
-            "flags": 2304,
+            "flags": 288,
             "start": 0,
             "end": 35
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 35,
             "end": 36
         },
@@ -120,7 +120,7 @@ async( x = class { x = await });
                 "kind": 134299649,
                 "text": "async",
                 "rawText": "async",
-                "flags": 768,
+                "flags": 96,
                 "start": 36,
                 "end": 43
             },
@@ -133,13 +133,13 @@ async( x = class { x = await });
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 44,
                             "end": 46
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 46,
                             "end": 48
                         },
@@ -168,7 +168,7 @@ async( x = class { x = await });
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 56,
                                             "end": 58
                                         },
@@ -178,40 +178,40 @@ async( x = class { x = await });
                                             "kind": 134299649,
                                             "text": "await",
                                             "rawText": "await",
-                                            "flags": 768,
+                                            "flags": 96,
                                             "start": 60,
                                             "end": 66
                                         },
-                                        "flags": 256,
+                                        "flags": 32,
                                         "start": 56,
                                         "end": 66
                                     }
                                 ],
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 56,
                                 "end": 68
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 48,
                             "end": 68
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 44,
                         "end": 68
                     }
                 ],
                 "trailingComma": false,
-                "flags": 256,
+                "flags": 32,
                 "start": 36,
                 "end": 36
             },
-            "flags": 256,
+            "flags": 32,
             "start": 36,
             "end": 69
         },
         {
             "kind": 168,
-            "flags": 128,
+            "flags": 16,
             "start": 69,
             "end": 70
         }

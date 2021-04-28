@@ -25,11 +25,11 @@ yield /* comment */\n {yield: 42}
                 "kind": 134299649,
                 "text": "yield",
                 "rawText": "yield",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 5
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 5
         },
@@ -39,11 +39,11 @@ yield /* comment */\n {yield: 42}
                 "kind": 134299649,
                 "text": "n",
                 "rawText": "n",
-                "flags": 768,
+                "flags": 96,
                 "start": 20,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 20,
             "end": 21
         },
@@ -58,21 +58,21 @@ yield /* comment */\n {yield: 42}
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 23,
                             "end": 28
                         },
-                        "flags": 128,
+                        "flags": 16,
                         "start": 23,
                         "end": 28
                     }
                 ],
                 "multiLine": false,
-                "flags": 128,
+                "flags": 16,
                 "start": 23,
                 "end": 28
             },
-            "flags": 128,
+            "flags": 16,
             "start": 21,
             "end": 28
         },
@@ -82,11 +82,11 @@ yield /* comment */\n {yield: 42}
                 "kind": 201392130,
                 "text": 42,
                 "rawText": "42",
-                "flags": 768,
+                "flags": 96,
                 "start": 29,
                 "end": 32
             },
-            "flags": 128,
+            "flags": 16,
             "start": 29,
             "end": 32
         }

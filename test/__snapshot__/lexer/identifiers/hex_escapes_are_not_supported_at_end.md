@@ -27,11 +27,11 @@ xxx\x61
                 "kind": 134299649,
                 "text": "xxx",
                 "rawText": "xxx",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 3
         },
@@ -41,11 +41,11 @@ xxx\x61
                 "kind": 134299649,
                 "text": "x61",
                 "rawText": "x61",
-                "flags": 768,
+                "flags": 96,
                 "start": 4,
                 "end": 7
             },
-            "flags": 128,
+            "flags": 16,
             "start": 4,
             "end": 7
         }

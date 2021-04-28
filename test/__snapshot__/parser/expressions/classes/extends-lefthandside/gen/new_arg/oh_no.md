@@ -36,12 +36,12 @@ new oh,no
                             "kind": 134299649,
                             "text": "oh",
                             "rawText": "oh",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 3,
                             "end": 6
                         },
                         "argumentList": null,
-                        "flags": 256,
+                        "flags": 32,
                         "start": 0,
                         "end": 6
                     },
@@ -49,16 +49,16 @@ new oh,no
                         "kind": 134299649,
                         "text": "no",
                         "rawText": "no",
-                        "flags": 768,
+                        "flags": 96,
                         "start": 7,
                         "end": 9
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 9
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 9
         }

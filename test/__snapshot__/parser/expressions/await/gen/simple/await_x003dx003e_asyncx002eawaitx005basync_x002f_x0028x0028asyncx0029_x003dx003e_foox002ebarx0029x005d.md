@@ -34,7 +34,7 @@ await => async.await[async / ((async) => foo.bar)]
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 768,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
@@ -48,7 +48,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 8,
                             "end": 14
                         },
@@ -56,11 +56,11 @@ await => async.await[async / ((async) => foo.bar)]
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 15,
                             "end": 20
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 8,
                         "end": 20
                     },
@@ -70,13 +70,13 @@ await => async.await[async / ((async) => foo.bar)]
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",
-                            "flags": 768,
+                            "flags": 96,
                             "start": 21,
                             "end": 26
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 512,
+                            "flags": 64,
                             "start": 26,
                             "end": 28
                         },
@@ -96,7 +96,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 31,
                                         "end": 36
                                     }
@@ -109,7 +109,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 40,
                                         "end": 44
                                     },
@@ -117,35 +117,35 @@ await => async.await[async / ((async) => foo.bar)]
                                         "kind": 134299649,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 768,
+                                        "flags": 96,
                                         "start": 45,
                                         "end": 48
                                     },
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 48
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 48
                             },
-                            "flags": 256,
+                            "flags": 32,
                             "start": 28,
                             "end": 49
                         },
-                        "flags": 256,
+                        "flags": 32,
                         "start": 21,
                         "end": 49
                     },
-                    "flags": 256,
+                    "flags": 32,
                     "start": 8,
                     "end": 50
                 },
-                "flags": 256,
+                "flags": 32,
                 "start": 0,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 50
         }

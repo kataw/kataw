@@ -33,7 +33,7 @@ class x {* arguments(){}}
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 768,
+                "flags": 96,
                 "start": 5,
                 "end": 7
             },
@@ -56,7 +56,7 @@ class x {* arguments(){}}
                                 "kind": 134299649,
                                 "text": "arguments",
                                 "rawText": "arguments",
-                                "flags": 768,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 20
                             },
@@ -77,11 +77,11 @@ class x {* arguments(){}}
                                     "directives": [],
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 256,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 23
                                 },
-                                "flags": 256,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
@@ -94,11 +94,11 @@ class x {* arguments(){}}
                         "end": 24
                     }
                 ],
-                "flags": 256,
+                "flags": 32,
                 "start": 9,
                 "end": 25
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 25
         }

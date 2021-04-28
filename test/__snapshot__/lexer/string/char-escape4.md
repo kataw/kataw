@@ -27,11 +27,11 @@
                 "kind": 201392131,
                 "text": "\r\n",
                 "rawText": "\r\n",
-                "flags": 768,
+                "flags": 96,
                 "start": 0,
                 "end": 6
             },
-            "flags": 128,
+            "flags": 16,
             "start": 0,
             "end": 8
         },
@@ -41,11 +41,11 @@
                 "kind": 201392131,
                 "text": "prefix\r\n",
                 "rawText": "prefix\r\n",
-                "flags": 769,
+                "flags": 97,
                 "start": 8,
                 "end": 21
             },
-            "flags": 128,
+            "flags": 16,
             "start": 8,
             "end": 23
         },
@@ -55,11 +55,11 @@
                 "kind": 201392131,
                 "text": "\r\nsuffix",
                 "rawText": "\r\nsuffix",
-                "flags": 769,
+                "flags": 97,
                 "start": 23,
                 "end": 36
             },
-            "flags": 128,
+            "flags": 16,
             "start": 23,
             "end": 38
         },
@@ -69,11 +69,11 @@
                 "kind": 201392131,
                 "text": "\rinfix\nsuffix",
                 "rawText": "\rinfix\nsuffix",
-                "flags": 769,
+                "flags": 97,
                 "start": 38,
                 "end": 56
             },
-            "flags": 128,
+            "flags": 16,
             "start": 38,
             "end": 56
         }
