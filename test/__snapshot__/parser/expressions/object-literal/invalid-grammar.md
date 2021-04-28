@@ -1920,8 +1920,8 @@ q = {"foo": super = x} = x;
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 209, end: 211
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 238, end: 240
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 263, end: 265
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 292, end: 295
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 312, end: 315
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 292, end: 295
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 312, end: 315
 @{x2716}@ ',' expected - start: 335, end: 336
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 384, end: 386
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 389, end: 391

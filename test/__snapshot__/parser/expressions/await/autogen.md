@@ -344,7 +344,7 @@ var await; var f = (async function() { # });
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 13, end: 15
+@{x2716}@ Invalid character - start: 13, end: 15
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 13, end: 15
 
 ```

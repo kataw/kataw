@@ -5680,8 +5680,8 @@ try {} catch(e) { for(var e of 0); };
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1313, end: 1315
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1429, end: 1431
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1441, end: 1443
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 1452, end: 1455
-@{x2716}@ Expression exprected. A compound assignment cannot follow an array literal - start: 1464, end: 1467
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1452, end: 1455
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 1464, end: 1467
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1473, end: 1476
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1762, end: 1764
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1777, end: 1779

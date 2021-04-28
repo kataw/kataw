@@ -174,7 +174,7 @@ function fn() {} fn( # );
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 34, end: 36
+@{x2716}@ Invalid character - start: 34, end: 36
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 34, end: 36
 @{x2716}@ Statement expected - start: 36, end: 38
 

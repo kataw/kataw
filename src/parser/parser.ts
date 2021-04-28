@@ -1064,9 +1064,13 @@ function parseBinaryExpression(
   minPrec: number,
   pos: number
 ): BinaryExpression {
+
   let t: SyntaxKind;
-  const bit = -((context & Context.DisallowIn) > 0) & SyntaxKind.InKeyword;
   let prec: number;
+  const bit = -((context & Context.DisallowIn) > 0) & SyntaxKind.InKeyword;
+
+  parser.assignable = false;
+
   while ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
     t = parser.token;
     prec = t & SyntaxKind.Precedence;
@@ -1084,7 +1088,7 @@ function parseBinaryExpression(
       parser.curPos
     );
 
-    parser.assignable = false;
+
   }
 
   return left;
@@ -1705,7 +1709,7 @@ function parseObjectLiteralOrAssignmentExpression(
     if (parser.token !== SyntaxKind.Assign) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Expression_exprected_A_compound_assignment_cannot_follow_an_object_literal],
+        diagnosticMap[DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal],
         parser.curPos,
         parser.pos
       );
@@ -2259,6 +2263,16 @@ function parsePrefixUpdateExpression(
   return createPrefixUpdateExpression(operandToken, operand, curPos, parser.curPos);
 }
 
+/**
+ * Checks if the property has any private field key
+ *
+ * @param parser Parser object
+ * @param context  Context masks
+ */
+ export function isPropertyWithPrivateFieldKey(expr: any): boolean {
+  return !expr.expression ? false : expr.expression.kind === SyntaxKind.PrivateIdentifier;
+}
+
 function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
@@ -2280,7 +2294,6 @@ function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpre
     if (expression.kind === SyntaxKind.Identifier) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
       // UnaryExpression is a direct reference to a variable, function argument, or function name
-
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode],
@@ -2289,7 +2302,7 @@ function parseUnaryExpression(parser: ParserState, context: Context): UnaryExpre
       );
     }
 
-    if ((expression as any).expression && (expression as any).expression.kind === SyntaxKind.PrivateIdentifier) {
+    if (isPropertyWithPrivateFieldKey(expression)) {
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode.Prohibit_delete_of_private_class_elements],
@@ -2334,7 +2347,7 @@ function parseArrayLiteralOrAssignmentExpression(
     if (parser.token !== SyntaxKind.Assign) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Expression_exprected_A_compound_assignment_cannot_follow_an_array_literal],
+        diagnosticMap[DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_array_literal],
         parser.curPos,
         parser.pos
       );

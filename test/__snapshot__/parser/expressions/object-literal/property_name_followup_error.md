@@ -53,7 +53,7 @@
 
 ```javascript
 @{x2716}@ ',' expected - start: 5, end: 8
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 5, end: 8
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 5, end: 8
 @{x2716}@ Statement expected - start: 12, end: 13
 @{x2716}@ Statement expected - start: 13, end: 14
 

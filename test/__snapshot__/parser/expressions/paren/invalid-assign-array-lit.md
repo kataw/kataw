@@ -1578,6 +1578,7 @@
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
 @{x2716}@ Invalid optional chain from new expression - start: 44, end: 45
 @{x2716}@ ',' expected - start: 79, end: 80
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 101, end: 103
 @{x2716}@ Dot property must be an identifier - start: 116, end: 117
 @{x2716}@ Dot property must be an identifier - start: 117, end: 118
@@ -1601,7 +1602,7 @@
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 293, end: 295
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 304, end: 306
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 315, end: 317
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 325, end: 328
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 325, end: 328
 
 ```
 

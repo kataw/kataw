@@ -104,6 +104,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 19, end: 19
+
 ```
 

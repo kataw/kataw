@@ -244,15 +244,15 @@
 ```javascript
 @{x2716}@ Expression expected - start: 5, end: 6
 @{x2716}@ The left hand side of the arrow is not destructible  - start: 14, end: 17
-@{x2716}@ Unexpected token. - start: 23, end: 25
+@{x2716}@ Invalid character - start: 23, end: 25
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 23, end: 25
-@{x2716}@ Unexpected token. - start: 25, end: 26
+@{x2716}@ Invalid character - start: 25, end: 26
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 25, end: 26
-@{x2716}@ Unexpected token. - start: 34, end: 37
+@{x2716}@ Invalid character - start: 34, end: 37
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 34, end: 37
-@{x2716}@ Unexpected token. - start: 37, end: 38
+@{x2716}@ Invalid character - start: 37, end: 38
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 37, end: 38
-@{x2716}@ Unexpected token. - start: 38, end: 39
+@{x2716}@ Invalid character - start: 38, end: 39
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 38, end: 39
 @{x2716}@ Unterminated template literal - start: 60, end: 85
 

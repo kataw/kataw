@@ -123,7 +123,7 @@ for({}/=y of a)x
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 6, end: 8
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 6, end: 8
 
 ```
 

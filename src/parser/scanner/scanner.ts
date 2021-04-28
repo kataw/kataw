@@ -6,6 +6,7 @@ import { scanString } from './string';
 import { scanTemplate } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
+import { scanPrivateIdentifier } from './private-identifier';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../../diagnostic/diagnostic';
 import {
@@ -509,38 +510,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         return SyntaxKind.UnknownToken;
 
       case SyntaxKind.PrivateIdentifier:
-        if (parser.pos !== 0 && source.charCodeAt(parser.pos + 1) === Char.Exclamation) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Unexpected_token],
-            parser.curPos,
-            parser.pos
-          );
-          parser.pos++;
-          return SyntaxKind.UnknownToken;
-        }
-
-        parser.pos++;
-
-        if (isIdentifierStart(source.charCodeAt(parser.pos))) {
-          let pos = parser.pos + 1;
-          while (pos < parser.end && isIdentifierPart((cp = source.charCodeAt(pos)))) ++pos;
-          parser.tokenValue = source.substring(parser.tokenPos, pos);
-          if (cp === Char.Backslash) {
-            parser.tokenValue += scanIdentifierParts(parser, source);
-          }
-          // // parser.raw = source.substring(parser.tokenPos, pos);
-          parser.pos = pos;
-        } else {
-          parser.tokenValue = '#';
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Unexpected_token],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        return SyntaxKind.PrivateIdentifier;
+        return scanPrivateIdentifier(parser, context, cp, source);
 
       default:
         if ((cp & ~1) === Char.LineSeparator) {
@@ -560,7 +530,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           if ((lead & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
             parser.onError(
               DiagnosticSource.Parser,
-              diagnosticMap[DiagnosticCode.Unexpected_token],
+              diagnosticMap[DiagnosticCode.Invalid_character],
               parser.curPos,
               parser.pos
             );
@@ -573,7 +543,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
         parser.onError(
           DiagnosticSource.Parser,
-          diagnosticMap[DiagnosticCode.Unexpected_token],
+          diagnosticMap[DiagnosticCode.Invalid_character],
           parser.curPos,
           parser.pos
         );

@@ -10,12 +10,7 @@ export interface SpreadProperty extends SyntaxNode {
   readonly argument: ExpressionNode;
 }
 
-export function createSpreadProperty(
-  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
-  argument: ExpressionNode,
-  start: number,
-  end: number
-): SpreadProperty {
+export function createSpreadProperty(ellipsisToken: SyntaxToken<TokenSyntaxKind> | null, argument: ExpressionNode, start: number, end: number): SpreadProperty {
   return {
     kind: SyntaxKind.SpreadProperty,
     ellipsisToken,

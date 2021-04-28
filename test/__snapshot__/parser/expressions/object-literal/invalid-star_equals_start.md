@@ -66,7 +66,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 2, end: 4
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 2, end: 4
 @{x2716}@ Statement expected - start: 9, end: 10
 @{x2716}@ Statement expected - start: 10, end: 11
 

@@ -7,7 +7,7 @@
   "Private identifiers cannot be used as parameters": 6,
   "Catch clause variable cannot have an initializer": 7,
   "Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses": 8,
-  "Expression exprected. A compound assignment cannot follow an array literal": 9,
+  "Expression exprected. A compound assignment or an logical assignment cannot follow an array literal": 9,
   "Linebreak ermitted after throw": 10,
   "Identifier expected. 'let' is a reserved word in strict mode": 11,
   "Missing initializer in destructuring declaration": 12,
@@ -21,7 +21,7 @@
   "Generators can only be declared at the top level or inside a block": 20,
   "Function declarations are not allowed in an arbitrary statement position.":21,
   "Class declarations are not allowed in an arbitrary statement position.":22,
-  "Expression exprected. A compound assignment cannot follow an object literal": 23,
+  "Expression exprected. A compound assignment or an logical assignment cannot follow an object literal": 23,
   "The left-hand side of an assignment expression must be a variable or a property access": 24,
   "The operand of an increment or decrement operator must be a variable or a property access": 25,
   "Block body arrows can not be immediately accessed without a group": 27,
@@ -113,5 +113,7 @@
   "Unterminated template literal": 114,
   "Binding identifier expected": 115,
   "Identifier expected. Reserved word in strict mode": 116,
-  "A class declaration without the 'default' modifier must have a name.": 117
+  "A class declaration without the 'default' modifier must have a name.": 117,
+  "Invalid character": 118,
+  "'#constructor' is a reserved word.": 119
 }

@@ -188,6 +188,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
+
 ```
 

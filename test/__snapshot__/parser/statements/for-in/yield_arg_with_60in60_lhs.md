@@ -175,6 +175,7 @@ function *f(){   for (yield x in y in z);   }
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+@{x2716}@ Invalid left-hand side in for-in loop - start: 32, end: 34
+
 ```
 

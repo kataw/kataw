@@ -381,7 +381,7 @@ class x {static async * #(){}}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 5, end: 7
+@{x2716}@ Invalid character - start: 5, end: 7
 @{x2716}@ Binding identifier expected - start: 5, end: 7
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 5, end: 7
 

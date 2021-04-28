@@ -437,11 +437,11 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 12, end: 15
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 28, end: 31
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 12, end: 15
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 28, end: 31
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 44, end: 47
 @{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 59, end: 61
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 75, end: 78
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 75, end: 78
 
 ```
 

@@ -114,7 +114,7 @@ export const enum SyntaxKind {
   RightBracket = 20, // ]
   Colon = 21, // :
   QuestionMark = 134217750, //22 | IsStartOfType, // ?
-  QuestionMarkQuestionMark = 37143, //23 | IsBinaryOp | (1 << PrecStart) | (1 << (PrecStart + InPrec)), // 23 | IsBinaryOp | 1 << PrecStart, // ??
+  QuestionMarkQuestionMark = 33047, //37143, //23 | IsBinaryOp | (1 << PrecStart) | (1 << (PrecStart + InPrec)), // 23 | IsBinaryOp | 1 << PrecStart, // ??
   QuestionMarkPeriod = 393240, // | IsMember, // 24 | IsPropertyOrCall, // ?.
   SingleQuote = 25, // '
   DoubleQuote = 26, // "

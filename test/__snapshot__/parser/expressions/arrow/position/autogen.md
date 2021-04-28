@@ -456,7 +456,7 @@ function f(a = #) {}
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 5
+@{x2716}@ Invalid character - start: 3, end: 5
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 3, end: 5
 
 ```

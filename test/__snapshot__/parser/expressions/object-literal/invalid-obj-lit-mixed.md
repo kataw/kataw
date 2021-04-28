@@ -1745,6 +1745,7 @@
 @{x2716}@ Statement expected - start: 496, end: 497
 @{x2716}@ Statement expected - start: 497, end: 499
 @{x2716}@ Statement expected - start: 499, end: 500
+@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 544, end: 546
 @{x2716}@ Statement expected - start: 630, end: 632
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701
 

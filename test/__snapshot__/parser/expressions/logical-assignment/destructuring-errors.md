@@ -818,16 +818,16 @@ x({ x: x &&= 2 ] = { x: 2 });
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment cannot follow an array literal - start: 6, end: 10
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 6, end: 10
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 50, end: 54
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 50, end: 54
 @{x2716}@ ',' expected - start: 80, end: 82
 @{x2716}@ Statement expected - start: 80, end: 82
 @{x2716}@ Statement expected - start: 82, end: 84
 @{x2716}@ Statement expected - start: 93, end: 94
-@{x2716}@ Expression exprected. A compound assignment cannot follow an array literal - start: 103, end: 107
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 103, end: 107
 @{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 129, end: 131
-@{x2716}@ Expression exprected. A compound assignment cannot follow an object literal - start: 147, end: 151
+@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 147, end: 151
 @{x2716}@ ',' expected - start: 177, end: 179
 @{x2716}@ Statement expected - start: 177, end: 179
 @{x2716}@ Statement expected - start: 179, end: 181

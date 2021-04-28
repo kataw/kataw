@@ -86,7 +86,7 @@
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 0, end: 1
+@{x2716}@ Invalid character - start: 0, end: 1
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 0, end: 1
 
 ```

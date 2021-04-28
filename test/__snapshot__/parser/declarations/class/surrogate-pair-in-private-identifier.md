@@ -115,7 +115,7 @@ class C { #@{x29e3d}@ }
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 9, end: 11
+@{x2716}@ Invalid character - start: 9, end: 11
 
 ```
 

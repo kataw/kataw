@@ -142,7 +142,7 @@ property is valid assignment target so should work
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 1, end: 3
+@{x2716}@ Invalid character - start: 1, end: 3
 @{x2716}@ Private identifiers are not allowed outside class_bodies - start: 1, end: 3
 @{x2716}@ Statement expected - start: 3, end: 5
 
