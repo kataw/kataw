@@ -176,7 +176,7 @@ for (class x extends a in b {} in c);
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
