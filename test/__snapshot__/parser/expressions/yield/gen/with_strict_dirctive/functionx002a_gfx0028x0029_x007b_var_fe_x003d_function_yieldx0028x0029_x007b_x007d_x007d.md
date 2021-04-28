@@ -179,13 +179,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 48, end: 54
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 48, end: 54
 
 ```
 

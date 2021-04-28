@@ -231,17 +231,17 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 14, end: 15
-@{x2716}@ Statement expected - start: 19, end: 20
-@{x2716}@ Binding identifier expected - start: 33, end: 39
-@{x2716}@ Unexpected token. - start: 33, end: 39
-@{x2716}@ Missing initializer in const declaration - start: 41, end: 41
+✖ Statement expected - start: 14, end: 15
+✖ Statement expected - start: 19, end: 20
+✖ Binding identifier expected - start: 33, end: 39
+✖ Unexpected token. - start: 33, end: 39
+✖ Missing initializer in const declaration - start: 41, end: 41
 
 ```
 

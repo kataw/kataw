@@ -281,15 +281,15 @@ catch =! class function try while with foo! finally
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 23, end: 27
-@{x2716}@ Unexpected token. - start: 23, end: 27
-@{x2716}@ Expression expected - start: 43, end: 51
+✖ Binding identifier expected - start: 23, end: 27
+✖ Unexpected token. - start: 23, end: 27
+✖ Expression expected - start: 43, end: 51
 
 ```
 

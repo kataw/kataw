@@ -812,31 +812,31 @@ x({ x: x &&= 2 ] = { x: 2 });
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 6, end: 10
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 50, end: 54
-@{x2716}@ ',' expected - start: 80, end: 82
-@{x2716}@ Statement expected - start: 80, end: 82
-@{x2716}@ Statement expected - start: 82, end: 84
-@{x2716}@ Statement expected - start: 93, end: 94
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 103, end: 107
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 129, end: 131
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 147, end: 151
-@{x2716}@ ',' expected - start: 177, end: 179
-@{x2716}@ Statement expected - start: 177, end: 179
-@{x2716}@ Statement expected - start: 179, end: 181
-@{x2716}@ Statement expected - start: 190, end: 191
-@{x2716}@ ',' expected - start: 208, end: 210
-@{x2716}@ ',' expected - start: 208, end: 210
-@{x2716}@ Statement expected - start: 208, end: 210
-@{x2716}@ Statement expected - start: 210, end: 212
-@{x2716}@ Statement expected - start: 221, end: 222
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 6, end: 10
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 50, end: 54
+✖ ',' expected - start: 80, end: 82
+✖ Statement expected - start: 80, end: 82
+✖ Statement expected - start: 82, end: 84
+✖ Statement expected - start: 93, end: 94
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 103, end: 107
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 129, end: 131
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 147, end: 151
+✖ ',' expected - start: 177, end: 179
+✖ Statement expected - start: 177, end: 179
+✖ Statement expected - start: 179, end: 181
+✖ Statement expected - start: 190, end: 191
+✖ ',' expected - start: 208, end: 210
+✖ ',' expected - start: 208, end: 210
+✖ Statement expected - start: 208, end: 210
+✖ Statement expected - start: 210, end: 212
+✖ Statement expected - start: 221, end: 222
 
 ```
 

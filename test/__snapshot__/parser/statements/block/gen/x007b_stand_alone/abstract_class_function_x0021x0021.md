@@ -175,16 +175,16 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 16, end: 25
-@{x2716}@ Binding identifier expected - start: 25, end: 27
-@{x2716}@ Unexpected token. - start: 25, end: 27
-@{x2716}@ Expression expected - start: 28, end: 28
+✖ Binding identifier expected - start: 16, end: 25
+✖ Binding identifier expected - start: 25, end: 27
+✖ Unexpected token. - start: 25, end: 27
+✖ Expression expected - start: 28, end: 28
 
 ```
 

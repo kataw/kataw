@@ -193,12 +193,12 @@ switch (0) {
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

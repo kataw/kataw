@@ -132,14 +132,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ `Await` expression cannot be used in function parameters - start: 15, end: 20
-@{x2716}@ ',' expected - start: 20, end: 22
+✖ `Await` expression cannot be used in function parameters - start: 15, end: 20
+✖ ',' expected - start: 20, end: 22
 
 ```
 

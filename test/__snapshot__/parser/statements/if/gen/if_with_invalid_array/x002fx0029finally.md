@@ -103,16 +103,16 @@ if [else] /)finally
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 4, end: 8
-@{x2716}@ Expression expected - start: 8, end: 9
-@{x2716}@ Statement expected - start: 8, end: 9
-@{x2716}@ Unexpected token. - start: 9, end: 11
+✖ Expression expected - start: 4, end: 8
+✖ Expression expected - start: 8, end: 9
+✖ Statement expected - start: 8, end: 9
+✖ Unexpected token. - start: 9, end: 11
 
 ```
 

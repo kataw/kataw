@@ -146,13 +146,13 @@ x = (a)?c:d=>{}=>{}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 15, end: 17
+✖ Statement expected - start: 15, end: 17
 
 ```
 

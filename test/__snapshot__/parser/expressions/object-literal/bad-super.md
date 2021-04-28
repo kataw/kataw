@@ -218,15 +218,15 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 51, end: 52
-@{x2716}@ Dot property must be an identifier - start: 51, end: 52
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 53, end: 56
+✖ 'super' must be followed by an argument list or member access. - start: 51, end: 52
+✖ Dot property must be an identifier - start: 51, end: 52
+✖ The left hand side of the arrow is not destructible  - start: 53, end: 56
 
 ```
 

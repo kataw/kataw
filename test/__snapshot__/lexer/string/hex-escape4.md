@@ -112,8 +112,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x9a}@",
-                "rawText": "@{x9a}@",
+                "text": "",
+                "rawText": "",
                 "flags": 769,
                 "start": 49,
                 "end": 58
@@ -126,105 +126,105 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xab}@\t",
-                "rawText": "@{xab}@\t",
+                "text": "«@{x9}@",
+                "rawText": "«@{x9}@",
                 "flags": 769,
                 "start": 60,
-                "end": 68
+                "end": 73
             },
             "flags": 128,
             "start": 60,
-            "end": 70
+            "end": 75
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xbc}@ ",
-                "rawText": "@{xbc}@ ",
+                "text": "¼ ",
+                "rawText": "¼ ",
                 "flags": 769,
-                "start": 70,
-                "end": 78
+                "start": 75,
+                "end": 83
             },
             "flags": 128,
-            "start": 70,
-            "end": 80
+            "start": 75,
+            "end": 85
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xcd}@#",
-                "rawText": "@{xcd}@#",
+                "text": "Í#",
+                "rawText": "Í#",
                 "flags": 769,
-                "start": 80,
-                "end": 88
+                "start": 85,
+                "end": 93
             },
             "flags": 128,
-            "start": 80,
-            "end": 90
+            "start": 85,
+            "end": 95
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xde}@\u0000",
-                "rawText": "@{xde}@\u0000",
+                "text": "Þ\u0000",
+                "rawText": "Þ\u0000",
                 "flags": 769,
-                "start": 90,
-                "end": 101
+                "start": 95,
+                "end": 106
             },
             "flags": 128,
-            "start": 90,
-            "end": 103
+            "start": 95,
+            "end": 108
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xef}@ok",
-                "rawText": "@{xef}@ok",
+                "text": "ïok",
+                "rawText": "ïok",
                 "flags": 769,
-                "start": 103,
-                "end": 112
+                "start": 108,
+                "end": 117
             },
             "flags": 128,
-            "start": 103,
-            "end": 114
+            "start": 108,
+            "end": 119
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "pre@{xf0}@",
-                "rawText": "pre@{xf0}@",
+                "text": "preð",
+                "rawText": "preð",
                 "flags": 769,
-                "start": 114,
-                "end": 124
+                "start": 119,
+                "end": 129
             },
             "flags": 128,
-            "start": 114,
-            "end": 124
+            "start": 119,
+            "end": 129
         }
     ],
     "isModule": false,
-    "text": "\"\\x000\"\n;\n\"\\x128\"\n;\n\"\\x34a\"\n;\n\"\\x56X\"\n;\n\"\\x78{\"\n;\n\"\\x9a\\\n\"\n;\n\"\\xAb\t\"\n;\n\"\\xBc \"\n;\n\"\\xCd#\"\n;\n\"\\xDe\\x00\"\n;\n\"\\xEfok\"\n;\n\"pre\\xF0\"",
+    "text": "\"\\x000\"\n;\n\"\\x128\"\n;\n\"\\x34a\"\n;\n\"\\x56X\"\n;\n\"\\x78{\"\n;\n\"\\x9a\\\n\"\n;\n\"\\xAb@{x9}@\"\n;\n\"\\xBc \"\n;\n\"\\xCd#\"\n;\n\"\\xDe\\x00\"\n;\n\"\\xEfok\"\n;\n\"pre\\xF0\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 124
+    "end": 129
 }
 ```
 
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

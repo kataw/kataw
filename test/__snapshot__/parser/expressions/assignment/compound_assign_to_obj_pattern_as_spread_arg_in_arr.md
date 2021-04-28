@@ -105,13 +105,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 7, end: 10
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 7, end: 10
 
 ```
 

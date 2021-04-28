@@ -273,13 +273,13 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 74, end: 80
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 74, end: 80
 
 ```
 

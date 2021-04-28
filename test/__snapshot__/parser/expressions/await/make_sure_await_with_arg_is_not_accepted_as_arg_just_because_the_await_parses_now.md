@@ -133,13 +133,13 @@ async function f(){  (await fail) => x  }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 33, end: 36
+✖ The left hand side of the arrow is not destructible  - start: 33, end: 36
 
 ```
 

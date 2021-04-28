@@ -93,15 +93,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 8, end: 8
-@{x2716}@ Dot property must be an identifier - start: 8, end: 8
-@{x2716}@ ',' expected - start: 8, end: 8
+✖ 'super' must be followed by an argument list or member access. - start: 8, end: 8
+✖ Dot property must be an identifier - start: 8, end: 8
+✖ ',' expected - start: 8, end: 8
 
 ```
 

@@ -120,14 +120,14 @@ return try { !xxx
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ Expression expected - start: 6, end: 10
+✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ Expression expected - start: 6, end: 10
 
 ```
 

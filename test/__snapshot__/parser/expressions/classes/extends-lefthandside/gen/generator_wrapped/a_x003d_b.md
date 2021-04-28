@@ -167,14 +167,14 @@ function *P(){
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 34, end: 36
-@{x2716}@ Statement expected - start: 41, end: 43
+✖ Statement expected - start: 34, end: 36
+✖ Statement expected - start: 41, end: 43
 
 ```
 

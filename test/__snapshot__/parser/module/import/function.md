@@ -142,13 +142,13 @@ function f(){import {x} from "y";}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The `import` keyword can only be used with the module goal - start: 32, end: 33
+✖ The `import` keyword can only be used with the module goal - start: 32, end: 33
 
 ```
 

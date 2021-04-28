@@ -63,14 +63,14 @@ case class x {} default
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Statement expected - start: 15, end: 23
+✖ Statement expected - start: 0, end: 4
+✖ Statement expected - start: 15, end: 23
 
 ```
 

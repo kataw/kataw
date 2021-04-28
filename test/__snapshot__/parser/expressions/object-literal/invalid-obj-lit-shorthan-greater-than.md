@@ -52,15 +52,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 9, end: 11
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
+✖ ',' expected - start: 9, end: 11
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 
 ```
 

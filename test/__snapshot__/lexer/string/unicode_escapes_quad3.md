@@ -41,8 +41,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x123}@",
-                "rawText": "@{x123}@",
+                "text": "ģ",
+                "rawText": "ģ",
                 "flags": 262912,
                 "start": 0,
                 "end": 8
@@ -55,8 +55,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x4567}@",
-                "rawText": "@{x4567}@",
+                "text": "䕧",
+                "rawText": "䕧",
                 "flags": 262913,
                 "start": 10,
                 "end": 19
@@ -69,8 +69,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x89ab}@",
-                "rawText": "@{x89ab}@",
+                "text": "覫",
+                "rawText": "覫",
                 "flags": 262913,
                 "start": 21,
                 "end": 30
@@ -83,8 +83,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xcdef}@",
-                "rawText": "@{xcdef}@",
+                "text": "췯",
+                "rawText": "췯",
                 "flags": 262913,
                 "start": 32,
                 "end": 41
@@ -97,8 +97,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xabcd}@",
-                "rawText": "@{xabcd}@",
+                "text": "ꯍ",
+                "rawText": "ꯍ",
                 "flags": 262913,
                 "start": 43,
                 "end": 52
@@ -125,8 +125,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "prefix @{x123}@",
-                "rawText": "prefix @{x123}@",
+                "text": "prefix ģ",
+                "rawText": "prefix ģ",
                 "flags": 262913,
                 "start": 65,
                 "end": 81
@@ -139,8 +139,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x123}@ postfix",
-                "rawText": "@{x123}@ postfix",
+                "text": "ģ postfix",
+                "rawText": "ģ postfix",
                 "flags": 262913,
                 "start": 83,
                 "end": 100
@@ -153,8 +153,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x123}@@{x4567}@",
-                "rawText": "@{x123}@@{x4567}@",
+                "text": "ģ䕧",
+                "rawText": "ģ䕧",
                 "flags": 262913,
                 "start": 102,
                 "end": 117
@@ -176,12 +176,12 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

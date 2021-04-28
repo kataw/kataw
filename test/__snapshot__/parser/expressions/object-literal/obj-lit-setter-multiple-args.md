@@ -132,13 +132,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A 'set' accessor must have exactly one parameter. - start: 11, end: 13
+✖ A 'set' accessor must have exactly one parameter. - start: 11, end: 13
 
 ```
 

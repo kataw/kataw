@@ -395,26 +395,26 @@ let {x}: string = y;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 5, end: 6
-@{x2716}@ Statement expected - start: 5, end: 6
-@{x2716}@ Missing initializer in destructuring declaration - start: 23, end: 24
-@{x2716}@ ',' expected - start: 23, end: 24
-@{x2716}@ Statement expected - start: 23, end: 24
-@{x2716}@ ',' expected - start: 44, end: 45
-@{x2716}@ Missing initializer in destructuring declaration - start: 44, end: 45
-@{x2716}@ ',' expected - start: 44, end: 45
-@{x2716}@ Statement expected - start: 44, end: 45
-@{x2716}@ Statement expected - start: 51, end: 52
-@{x2716}@ Statement expected - start: 52, end: 53
-@{x2716}@ Missing initializer in destructuring declaration - start: 74, end: 75
-@{x2716}@ ',' expected - start: 74, end: 75
-@{x2716}@ Statement expected - start: 74, end: 75
+✖ ',' expected - start: 5, end: 6
+✖ Statement expected - start: 5, end: 6
+✖ Missing initializer in destructuring declaration - start: 23, end: 24
+✖ ',' expected - start: 23, end: 24
+✖ Statement expected - start: 23, end: 24
+✖ ',' expected - start: 44, end: 45
+✖ Missing initializer in destructuring declaration - start: 44, end: 45
+✖ ',' expected - start: 44, end: 45
+✖ Statement expected - start: 44, end: 45
+✖ Statement expected - start: 51, end: 52
+✖ Statement expected - start: 52, end: 53
+✖ Missing initializer in destructuring declaration - start: 74, end: 75
+✖ ',' expected - start: 74, end: 75
+✖ Statement expected - start: 74, end: 75
 
 ```
 

@@ -145,14 +145,14 @@ function test({...{}}) {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The binding pattern is not destructible - start: 18, end: 19
-@{x2716}@ Binding identifier expected - start: 18, end: 19
+✖ The binding pattern is not destructible - start: 18, end: 19
+✖ Binding identifier expected - start: 18, end: 19
 
 ```
 

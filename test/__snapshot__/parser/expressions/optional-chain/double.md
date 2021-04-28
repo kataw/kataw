@@ -131,15 +131,15 @@ a?.?.b
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 3, end: 5
-@{x2716}@ Expression expected - start: 3, end: 5
-@{x2716}@ Unterminated template literal - start: 6, end: 6
+✖ Tagged template expressions are not permitted in an optional chain. - start: 3, end: 5
+✖ Expression expected - start: 3, end: 5
+✖ Unterminated template literal - start: 6, end: 6
 
 ```
 

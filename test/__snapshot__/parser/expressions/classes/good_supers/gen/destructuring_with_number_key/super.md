@@ -227,15 +227,15 @@ class x extends y {
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 54, end: 55
-@{x2716}@ Dot property must be an identifier - start: 54, end: 55
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 55, end: 57
+✖ 'super' must be followed by an argument list or member access. - start: 54, end: 55
+✖ Dot property must be an identifier - start: 54, end: 55
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 55, end: 57
 
 ```
 

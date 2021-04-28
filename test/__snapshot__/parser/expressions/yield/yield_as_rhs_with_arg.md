@@ -200,13 +200,13 @@ function *g() { function f(x = x + yield y) {}; }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 40, end: 42
+✖ ',' expected - start: 40, end: 42
 
 ```
 

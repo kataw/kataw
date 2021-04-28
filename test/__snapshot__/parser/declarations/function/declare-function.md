@@ -390,24 +390,24 @@ declare function foo(): void
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 20, end: 21
-@{x2716}@ Expression expected - start: 31, end: 32
-@{x2716}@ ',' expected - start: 56, end: 57
-@{x2716}@ Unexpected token. - start: 56, end: 57
-@{x2716}@ Statement expected - start: 56, end: 57
-@{x2716}@ Statement expected - start: 67, end: 68
-@{x2716}@ Statement expected - start: 75, end: 76
-@{x2716}@ Statement expected - start: 76, end: 77
-@{x2716}@ Expression expected - start: 82, end: 83
-@{x2716}@ Unexpected token. - start: 107, end: 108
-@{x2716}@ Statement expected - start: 107, end: 108
-@{x2716}@ Expression expected - start: 113, end: 114
+✖ Unexpected token. - start: 20, end: 21
+✖ Expression expected - start: 31, end: 32
+✖ ',' expected - start: 56, end: 57
+✖ Unexpected token. - start: 56, end: 57
+✖ Statement expected - start: 56, end: 57
+✖ Statement expected - start: 67, end: 68
+✖ Statement expected - start: 75, end: 76
+✖ Statement expected - start: 76, end: 77
+✖ Expression expected - start: 82, end: 83
+✖ Unexpected token. - start: 107, end: 108
+✖ Statement expected - start: 107, end: 108
+✖ Expression expected - start: 113, end: 114
 
 ```
 

@@ -96,14 +96,14 @@ class x extends extends {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 15, end: 23
-@{x2716}@ Statement expected - start: 15, end: 23
+✖ Expression expected - start: 15, end: 23
+✖ Statement expected - start: 15, end: 23
 
 ```
 

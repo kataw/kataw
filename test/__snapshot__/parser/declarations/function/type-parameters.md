@@ -972,40 +972,40 @@ type T = <
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 34, end: 35
-@{x2716}@ Missing initializer in const declaration - start: 44, end: 45
-@{x2716}@ ',' expected - start: 44, end: 45
-@{x2716}@ Statement expected - start: 44, end: 45
-@{x2716}@ Expression expected - start: 48, end: 62
-@{x2716}@ Expression expected - start: 62, end: 64
-@{x2716}@ Statement expected - start: 62, end: 64
-@{x2716}@ Expression expected - start: 82, end: 96
-@{x2716}@ Expression expected - start: 98, end: 99
-@{x2716}@ Unexpected token. - start: 113, end: 114
-@{x2716}@ Expression expected - start: 132, end: 133
-@{x2716}@ Statement expected - start: 132, end: 133
-@{x2716}@ Statement expected - start: 173, end: 174
-@{x2716}@ Statement expected - start: 179, end: 182
-@{x2716}@ Expression expected - start: 259, end: 260
-@{x2716}@ Missing initializer in const declaration - start: 269, end: 270
-@{x2716}@ ',' expected - start: 269, end: 270
-@{x2716}@ Statement expected - start: 269, end: 270
-@{x2716}@ Expression expected - start: 273, end: 290
-@{x2716}@ Expression expected - start: 290, end: 292
-@{x2716}@ Statement expected - start: 290, end: 292
-@{x2716}@ Expression expected - start: 310, end: 327
-@{x2716}@ Expression expected - start: 329, end: 330
-@{x2716}@ Unexpected token. - start: 344, end: 345
-@{x2716}@ Expression expected - start: 366, end: 367
-@{x2716}@ Statement expected - start: 366, end: 367
-@{x2716}@ Statement expected - start: 412, end: 413
-@{x2716}@ Statement expected - start: 418, end: 421
+✖ Expression expected - start: 34, end: 35
+✖ Missing initializer in const declaration - start: 44, end: 45
+✖ ',' expected - start: 44, end: 45
+✖ Statement expected - start: 44, end: 45
+✖ Expression expected - start: 48, end: 62
+✖ Expression expected - start: 62, end: 64
+✖ Statement expected - start: 62, end: 64
+✖ Expression expected - start: 82, end: 96
+✖ Expression expected - start: 98, end: 99
+✖ Unexpected token. - start: 113, end: 114
+✖ Expression expected - start: 132, end: 133
+✖ Statement expected - start: 132, end: 133
+✖ Statement expected - start: 173, end: 174
+✖ Statement expected - start: 179, end: 182
+✖ Expression expected - start: 259, end: 260
+✖ Missing initializer in const declaration - start: 269, end: 270
+✖ ',' expected - start: 269, end: 270
+✖ Statement expected - start: 269, end: 270
+✖ Expression expected - start: 273, end: 290
+✖ Expression expected - start: 290, end: 292
+✖ Statement expected - start: 290, end: 292
+✖ Expression expected - start: 310, end: 327
+✖ Expression expected - start: 329, end: 330
+✖ Unexpected token. - start: 344, end: 345
+✖ Expression expected - start: 366, end: 367
+✖ Statement expected - start: 366, end: 367
+✖ Statement expected - start: 412, end: 413
+✖ Statement expected - start: 418, end: 421
 
 ```
 

@@ -221,13 +221,13 @@ async function g(){let o = {f(foo = await bar){}}    }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 41, end: 45
+✖ ',' expected - start: 41, end: 45
 
 ```
 

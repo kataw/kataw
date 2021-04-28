@@ -175,17 +175,17 @@ switch switch switch function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Expression expected - start: 13, end: 20
-@{x2716}@ Unexpected token. - start: 29, end: 35
-@{x2716}@ Expression expected - start: 35, end: 35
-@{x2716}@ Expression expected - start: 35, end: 35
+✖ Expression expected - start: 6, end: 13
+✖ Expression expected - start: 13, end: 20
+✖ Unexpected token. - start: 29, end: 35
+✖ Expression expected - start: 35, end: 35
+✖ Expression expected - start: 35, end: 35
 
 ```
 

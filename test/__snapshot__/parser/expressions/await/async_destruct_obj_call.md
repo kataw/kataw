@@ -255,12 +255,12 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

@@ -61,14 +61,14 @@ y.)
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Dot property must be an identifier - start: 2, end: 3
-@{x2716}@ Statement expected - start: 2, end: 3
+✖ Dot property must be an identifier - start: 2, end: 3
+✖ Statement expected - start: 2, end: 3
 
 ```
 

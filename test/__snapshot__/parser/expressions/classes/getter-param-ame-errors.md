@@ -1000,27 +1000,27 @@ class C { get name(private) {} }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 20, end: 29
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 56, end: 62
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 56, end: 62
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 89, end: 96
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 89, end: 96
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 137, end: 147
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 137, end: 147
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 188, end: 193
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 188, end: 193
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 234, end: 237
-@{x2716}@ Unexpected token. - start: 234, end: 237
-@{x2716}@ Statement expected - start: 237, end: 238
-@{x2716}@ Statement expected - start: 241, end: 243
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 277, end: 284
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 325, end: 331
+✖ A 'get' accessor cannot have parameters. - start: 20, end: 29
+✖ A 'get' accessor cannot have parameters. - start: 56, end: 62
+✖ Identifier expected. Reserved word in strict mode - start: 56, end: 62
+✖ A 'get' accessor cannot have parameters. - start: 89, end: 96
+✖ Identifier expected. Reserved word in strict mode - start: 89, end: 96
+✖ A 'get' accessor cannot have parameters. - start: 137, end: 147
+✖ Identifier expected. Reserved word in strict mode - start: 137, end: 147
+✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
+✖ Identifier expected. Reserved word in strict mode - start: 188, end: 193
+✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
+✖ Unexpected token. - start: 234, end: 237
+✖ Statement expected - start: 237, end: 238
+✖ Statement expected - start: 241, end: 243
+✖ A 'get' accessor cannot have parameters. - start: 277, end: 284
+✖ A 'get' accessor cannot have parameters. - start: 325, end: 331
 
 ```
 

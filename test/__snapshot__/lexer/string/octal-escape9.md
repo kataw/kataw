@@ -48,13 +48,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Escapes \8 or \9 are not syntactically valid escapes - start: 0, end: 3
+✖ Escapes \8 or \9 are not syntactically valid escapes - start: 0, end: 3
 
 ```
 

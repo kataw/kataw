@@ -198,14 +198,14 @@ async function g() {   s = {"foo": await a = x} = x   }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 42, end: 44
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 47, end: 49
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 42, end: 44
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 47, end: 49
 
 ```
 

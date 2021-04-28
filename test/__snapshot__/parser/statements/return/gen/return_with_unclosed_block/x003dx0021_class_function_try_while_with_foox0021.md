@@ -274,18 +274,18 @@ return {} return(x) { =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ A return statement can only be used within a function_body - start: 9, end: 16
-@{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 23, end: 24
-@{x2716}@ Binding identifier expected - start: 39, end: 43
-@{x2716}@ Unexpected token. - start: 39, end: 43
-@{x2716}@ Expression expected - start: 59, end: 59
+✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ A return statement can only be used within a function_body - start: 9, end: 16
+✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 23, end: 24
+✖ Binding identifier expected - start: 39, end: 43
+✖ Unexpected token. - start: 39, end: 43
+✖ Expression expected - start: 59, end: 59
 
 ```
 

@@ -114,14 +114,14 @@ function not_gen() { yield * }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 28, end: 30
-@{x2716}@ Statement expected - start: 30, end: 31
+✖ Expression expected - start: 28, end: 30
+✖ Statement expected - start: 30, end: 31
 
 ```
 

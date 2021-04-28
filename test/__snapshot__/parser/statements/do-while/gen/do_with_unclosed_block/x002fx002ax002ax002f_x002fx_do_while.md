@@ -100,13 +100,13 @@ do {} while (x) { /**/ /x do while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 17, end: 24
+✖ Unexpected token. - start: 17, end: 24
 
 ```
 

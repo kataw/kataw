@@ -54,14 +54,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Octal escape sequences are not allowed in strict mode - start: 0, end: 3
-@{x2716}@ Unterminated string literal - start: 0, end: 5
+✖ Octal escape sequences are not allowed in strict mode - start: 0, end: 3
+✖ Unterminated string literal - start: 0, end: 5
 
 ```
 

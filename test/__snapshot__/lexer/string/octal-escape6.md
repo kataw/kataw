@@ -42,13 +42,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unterminated string literal - start: 0, end: 5
+✖ Unterminated string literal - start: 0, end: 5
 
 ```
 

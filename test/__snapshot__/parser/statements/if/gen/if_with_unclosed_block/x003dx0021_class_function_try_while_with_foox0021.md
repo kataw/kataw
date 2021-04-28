@@ -257,17 +257,17 @@ else {} if(x) { =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 17, end: 18
-@{x2716}@ Binding identifier expected - start: 33, end: 37
-@{x2716}@ Unexpected token. - start: 33, end: 37
-@{x2716}@ Expression expected - start: 53, end: 53
+✖ Statement expected - start: 0, end: 4
+✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 17, end: 18
+✖ Binding identifier expected - start: 33, end: 37
+✖ Unexpected token. - start: 33, end: 37
+✖ Expression expected - start: 53, end: 53
 
 ```
 

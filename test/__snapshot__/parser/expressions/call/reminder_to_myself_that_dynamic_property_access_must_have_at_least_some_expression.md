@@ -78,14 +78,14 @@ foo(async[])
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ An element access expression should take an argument. - start: 10, end: 11
-@{x2716}@ Expression expected - start: 10, end: 11
+✖ An element access expression should take an argument. - start: 10, end: 11
+✖ Expression expected - start: 10, end: 11
 
 ```
 

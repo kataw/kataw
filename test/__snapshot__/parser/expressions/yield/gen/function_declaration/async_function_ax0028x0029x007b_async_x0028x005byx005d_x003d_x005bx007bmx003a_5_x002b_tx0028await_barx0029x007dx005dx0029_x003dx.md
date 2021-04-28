@@ -315,16 +315,16 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 82, end: 85
-@{x2716}@ Statement expected - start: 88, end: 94
-@{x2716}@ Statement expected - start: 94, end: 96
-@{x2716}@ Statement expected - start: 96, end: 97
+✖ Statement expected - start: 82, end: 85
+✖ Statement expected - start: 88, end: 94
+✖ Statement expected - start: 94, end: 96
+✖ Statement expected - start: 96, end: 97
 
 ```
 

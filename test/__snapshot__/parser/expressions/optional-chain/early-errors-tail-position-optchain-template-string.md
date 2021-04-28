@@ -89,13 +89,13 @@ a?.fn`hello`;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 5, end: 12
+✖ Tagged template expressions are not permitted in an optional chain. - start: 5, end: 12
 
 ```
 

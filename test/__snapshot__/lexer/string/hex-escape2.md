@@ -48,13 +48,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 0, end: 4
+✖ Invalid hexadecimal escape sequence - start: 0, end: 4
 
 ```
 

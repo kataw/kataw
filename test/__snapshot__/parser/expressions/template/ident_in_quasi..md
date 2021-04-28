@@ -79,14 +79,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 0, end: 3
-@{x2716}@ Unterminated template literal - start: 4, end: 4
+✖ Expression expected - start: 0, end: 3
+✖ Unterminated template literal - start: 4, end: 4
 
 ```
 

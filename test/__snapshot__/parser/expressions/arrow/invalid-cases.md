@@ -3834,83 +3834,83 @@ a++ => {};
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 2
-@{x2716}@ Statement expected - start: 5, end: 8
-@{x2716}@ Expression expected - start: 15, end: 16
-@{x2716}@ Statement expected - start: 16, end: 19
-@{x2716}@ Statement expected - start: 23, end: 25
-@{x2716}@ Statement expected - start: 25, end: 28
-@{x2716}@ Statement expected - start: 32, end: 34
-@{x2716}@ Statement expected - start: 34, end: 37
-@{x2716}@ Expression expected - start: 43, end: 44
-@{x2716}@ Expression expected - start: 44, end: 45
-@{x2716}@ Statement expected - start: 45, end: 48
-@{x2716}@ A return statement can only be used within a function_body - start: 52, end: 59
-@{x2716}@ Expression expected - start: 59, end: 62
-@{x2716}@ Statement expected - start: 59, end: 62
-@{x2716}@ Statement expected - start: 81, end: 82
-@{x2716}@ Statement expected - start: 85, end: 86
-@{x2716}@ Statement expected - start: 87, end: 204
-@{x2716}@ Statement expected - start: 205, end: 207
-@{x2716}@ Statement expected - start: 207, end: 210
-@{x2716}@ Expression expected - start: 220, end: 221
-@{x2716}@ Expression expected - start: 225, end: 226
-@{x2716}@ Expression expected - start: 300, end: 301
-@{x2716}@ Statement expected - start: 301, end: 304
-@{x2716}@ Statement expected - start: 313, end: 316
-@{x2716}@ Statement expected - start: 328, end: 331
-@{x2716}@ Statement expected - start: 343, end: 346
-@{x2716}@ Statement expected - start: 361, end: 364
-@{x2716}@ Statement expected - start: 379, end: 382
-@{x2716}@ Statement expected - start: 397, end: 400
-@{x2716}@ Statement expected - start: 1306, end: 1309
-@{x2716}@ Statement expected - start: 1318, end: 1321
-@{x2716}@ Statement expected - start: 1333, end: 1336
-@{x2716}@ Expression expected - start: 1343, end: 1346
-@{x2716}@ Expression expected - start: 1343, end: 1346
-@{x2716}@ Statement expected - start: 1343, end: 1346
-@{x2716}@ Expression expected - start: 1352, end: 1354
-@{x2716}@ Expression expected - start: 1354, end: 1355
-@{x2716}@ Expression expected - start: 1355, end: 1358
-@{x2716}@ Statement expected - start: 1355, end: 1358
-@{x2716}@ Expression expected - start: 1369, end: 1370
-@{x2716}@ Expression expected - start: 1370, end: 1373
-@{x2716}@ Statement expected - start: 1370, end: 1373
-@{x2716}@ Statement expected - start: 1398, end: 1401
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 1416, end: 1419
-@{x2716}@ Statement expected - start: 1434, end: 1437
-@{x2716}@ Statement expected - start: 1445, end: 1448
-@{x2716}@ Statement expected - start: 1458, end: 1461
-@{x2716}@ Unterminated string literal - start: 1467, end: 1480
-@{x2716}@ Statement expected - start: 1489, end: 1492
-@{x2716}@ Statement expected - start: 1511, end: 1514
-@{x2716}@ Statement expected - start: 1526, end: 1529
-@{x2716}@ Statement expected - start: 1540, end: 1541
-@{x2716}@ Statement expected - start: 1541, end: 1544
-@{x2716}@ Statement expected - start: 1551, end: 1554
-@{x2716}@ Statement expected - start: 1562, end: 1565
-@{x2716}@ Statement expected - start: 1575, end: 1578
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 1591, end: 1594
-@{x2716}@ Statement expected - start: 1607, end: 1610
-@{x2716}@ Statement expected - start: 1617, end: 1620
-@{x2716}@ Statement expected - start: 1642, end: 1645
-@{x2716}@ Statement expected - start: 1670, end: 1673
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 1698, end: 1701
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 1714, end: 1717
-@{x2716}@ Statement expected - start: 1730, end: 1733
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 1749, end: 1752
-@{x2716}@ Statement expected - start: 1768, end: 1771
-@{x2716}@ A rest element cannot have an initializer - start: 1781, end: 1783
-@{x2716}@ Statement expected - start: 1806, end: 1807
-@{x2716}@ Statement expected - start: 1807, end: 1810
-@{x2716}@ Statement expected - start: 1827, end: 1828
-@{x2716}@ Statement expected - start: 1828, end: 1831
+✖ Statement expected - start: 0, end: 2
+✖ Statement expected - start: 5, end: 8
+✖ Expression expected - start: 15, end: 16
+✖ Statement expected - start: 16, end: 19
+✖ Statement expected - start: 23, end: 25
+✖ Statement expected - start: 25, end: 28
+✖ Statement expected - start: 32, end: 34
+✖ Statement expected - start: 34, end: 37
+✖ Expression expected - start: 43, end: 44
+✖ Expression expected - start: 44, end: 45
+✖ Statement expected - start: 45, end: 48
+✖ A return statement can only be used within a function_body - start: 52, end: 59
+✖ Expression expected - start: 59, end: 62
+✖ Statement expected - start: 59, end: 62
+✖ Statement expected - start: 81, end: 82
+✖ Statement expected - start: 85, end: 86
+✖ Statement expected - start: 87, end: 204
+✖ Statement expected - start: 205, end: 207
+✖ Statement expected - start: 207, end: 210
+✖ Expression expected - start: 220, end: 221
+✖ Expression expected - start: 225, end: 226
+✖ Expression expected - start: 300, end: 301
+✖ Statement expected - start: 301, end: 304
+✖ Statement expected - start: 313, end: 316
+✖ Statement expected - start: 328, end: 331
+✖ Statement expected - start: 343, end: 346
+✖ Statement expected - start: 361, end: 364
+✖ Statement expected - start: 379, end: 382
+✖ Statement expected - start: 397, end: 400
+✖ Statement expected - start: 1306, end: 1309
+✖ Statement expected - start: 1318, end: 1321
+✖ Statement expected - start: 1333, end: 1336
+✖ Expression expected - start: 1343, end: 1346
+✖ Expression expected - start: 1343, end: 1346
+✖ Statement expected - start: 1343, end: 1346
+✖ Expression expected - start: 1352, end: 1354
+✖ Expression expected - start: 1354, end: 1355
+✖ Expression expected - start: 1355, end: 1358
+✖ Statement expected - start: 1355, end: 1358
+✖ Expression expected - start: 1369, end: 1370
+✖ Expression expected - start: 1370, end: 1373
+✖ Statement expected - start: 1370, end: 1373
+✖ Statement expected - start: 1398, end: 1401
+✖ The left hand side of the arrow is not destructible  - start: 1416, end: 1419
+✖ Statement expected - start: 1434, end: 1437
+✖ Statement expected - start: 1445, end: 1448
+✖ Statement expected - start: 1458, end: 1461
+✖ Unterminated string literal - start: 1467, end: 1480
+✖ Statement expected - start: 1489, end: 1492
+✖ Statement expected - start: 1511, end: 1514
+✖ Statement expected - start: 1526, end: 1529
+✖ Statement expected - start: 1540, end: 1541
+✖ Statement expected - start: 1541, end: 1544
+✖ Statement expected - start: 1551, end: 1554
+✖ Statement expected - start: 1562, end: 1565
+✖ Statement expected - start: 1575, end: 1578
+✖ The left hand side of the arrow is not destructible  - start: 1591, end: 1594
+✖ Statement expected - start: 1607, end: 1610
+✖ Statement expected - start: 1617, end: 1620
+✖ Statement expected - start: 1642, end: 1645
+✖ Statement expected - start: 1670, end: 1673
+✖ The left hand side of the arrow is not destructible  - start: 1698, end: 1701
+✖ The left hand side of the arrow is not destructible  - start: 1714, end: 1717
+✖ Statement expected - start: 1730, end: 1733
+✖ The left hand side of the arrow is not destructible  - start: 1749, end: 1752
+✖ Statement expected - start: 1768, end: 1771
+✖ A rest element cannot have an initializer - start: 1781, end: 1783
+✖ Statement expected - start: 1806, end: 1807
+✖ Statement expected - start: 1807, end: 1810
+✖ Statement expected - start: 1827, end: 1828
+✖ Statement expected - start: 1828, end: 1831
 
 ```
 

@@ -34,6 +34,84 @@ left@{xa0}@right
             "flags": 128,
             "start": 0,
             "end": 4
+        },
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": {
+                "kind": 207,
+                "decoratorList": [],
+                "flags": 256,
+                "start": 5,
+                "end": 5
+            },
+            "classKeyword": null,
+            "name": {
+                "kind": 134299649,
+                "text": "xa0",
+                "rawText": "xa0",
+                "flags": 768,
+                "start": 6,
+                "end": 9
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [],
+                "flags": 256,
+                "start": 4,
+                "end": 4
+            },
+            "flags": 128,
+            "start": 4,
+            "end": 9
+        },
+        {
+            "kind": 178,
+            "declareKeyword": null,
+            "decorators": {
+                "kind": 207,
+                "decoratorList": [
+                    {
+                        "kind": 34611453,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "right",
+                            "rawText": "right",
+                            "flags": 768,
+                            "start": 11,
+                            "end": 16
+                        },
+                        "flags": 0,
+                        "start": 11,
+                        "end": 16
+                    }
+                ],
+                "flags": 256,
+                "start": 11,
+                "end": 16
+            },
+            "classKeyword": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "flags": 12,
+                "start": 16,
+                "end": 16
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "members": {
+                "kind": 277,
+                "elements": [],
+                "flags": 256,
+                "start": 10,
+                "end": 10
+            },
+            "flags": 128,
+            "start": 10,
+            "end": 16
         }
     ],
     "isModule": false,
@@ -41,19 +119,21 @@ left@{xa0}@right
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 10
+    "end": 16
 }
 ```
 
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✖ Statement expected - start: 9, end: 10
+✖ Binding identifier expected - start: 16, end: 16
+
 ```
 

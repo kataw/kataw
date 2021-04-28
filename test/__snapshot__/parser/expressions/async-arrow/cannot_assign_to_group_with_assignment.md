@@ -91,13 +91,13 @@ async (a=/i/) = /i/
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 13, end: 15
+✖ Statement expected - start: 13, end: 15
 
 ```
 

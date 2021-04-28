@@ -250,16 +250,16 @@ a ?? b && c;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 6, end: 9
-@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 20, end: 23
-@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 34, end: 37
-@{x2716}@ '&&' and '??' operations cannot be mixed without parentheses - start: 48, end: 51
+✖ '&&' and '??' operations cannot be mixed without parentheses - start: 6, end: 9
+✖ '&&' and '??' operations cannot be mixed without parentheses - start: 20, end: 23
+✖ '&&' and '??' operations cannot be mixed without parentheses - start: 34, end: 37
+✖ '&&' and '??' operations cannot be mixed without parentheses - start: 48, end: 51
 
 ```
 

@@ -286,13 +286,13 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 62, end: 66
+✖ ',' expected - start: 62, end: 66
 
 ```
 

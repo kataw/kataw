@@ -46,13 +46,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unterminated template literal - start: 0, end: 7
+✖ Unterminated template literal - start: 0, end: 7
 
 ```
 

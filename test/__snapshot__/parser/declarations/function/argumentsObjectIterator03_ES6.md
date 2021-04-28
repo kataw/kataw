@@ -389,20 +389,20 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 26, end: 27
-@{x2716}@ Unexpected token. - start: 26, end: 27
-@{x2716}@ Statement expected - start: 26, end: 27
-@{x2716}@ Statement expected - start: 37, end: 38
-@{x2716}@ Statement expected - start: 48, end: 49
-@{x2716}@ Statement expected - start: 57, end: 58
-@{x2716}@ Statement expected - start: 58, end: 59
-@{x2716}@ A return statement can only be used within a function_body - start: 118, end: 130
+✖ ',' expected - start: 26, end: 27
+✖ Unexpected token. - start: 26, end: 27
+✖ Statement expected - start: 26, end: 27
+✖ Statement expected - start: 37, end: 38
+✖ Statement expected - start: 48, end: 49
+✖ Statement expected - start: 57, end: 58
+✖ Statement expected - start: 58, end: 59
+✖ A return statement can only be used within a function_body - start: 118, end: 130
 
 ```
 

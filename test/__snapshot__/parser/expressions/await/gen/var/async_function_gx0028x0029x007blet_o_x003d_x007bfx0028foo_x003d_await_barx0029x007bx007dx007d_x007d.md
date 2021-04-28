@@ -348,13 +348,13 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 80, end: 84
+✖ ',' expected - start: 80, end: 84
 
 ```
 

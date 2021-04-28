@@ -395,27 +395,27 @@ const {x}: string = y;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in const declaration - start: 7, end: 8
-@{x2716}@ ',' expected - start: 7, end: 8
-@{x2716}@ Statement expected - start: 7, end: 8
-@{x2716}@ Missing initializer in const declaration - start: 27, end: 28
-@{x2716}@ ',' expected - start: 27, end: 28
-@{x2716}@ Statement expected - start: 27, end: 28
-@{x2716}@ ',' expected - start: 50, end: 51
-@{x2716}@ Missing initializer in const declaration - start: 50, end: 51
-@{x2716}@ ',' expected - start: 50, end: 51
-@{x2716}@ Statement expected - start: 50, end: 51
-@{x2716}@ Statement expected - start: 57, end: 58
-@{x2716}@ Statement expected - start: 58, end: 59
-@{x2716}@ Missing initializer in const declaration - start: 82, end: 83
-@{x2716}@ ',' expected - start: 82, end: 83
-@{x2716}@ Statement expected - start: 82, end: 83
+✖ Missing initializer in const declaration - start: 7, end: 8
+✖ ',' expected - start: 7, end: 8
+✖ Statement expected - start: 7, end: 8
+✖ Missing initializer in const declaration - start: 27, end: 28
+✖ ',' expected - start: 27, end: 28
+✖ Statement expected - start: 27, end: 28
+✖ ',' expected - start: 50, end: 51
+✖ Missing initializer in const declaration - start: 50, end: 51
+✖ ',' expected - start: 50, end: 51
+✖ Statement expected - start: 50, end: 51
+✖ Statement expected - start: 57, end: 58
+✖ Statement expected - start: 58, end: 59
+✖ Missing initializer in const declaration - start: 82, end: 83
+✖ ',' expected - start: 82, end: 83
+✖ Statement expected - start: 82, end: 83
 
 ```
 

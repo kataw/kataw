@@ -157,13 +157,13 @@ do while [catch] catch try {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 22, end: 26
+✖ Expression expected - start: 22, end: 26
 
 ```
 

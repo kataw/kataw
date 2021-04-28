@@ -787,22 +787,22 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Class constructor may not be a accessor - start: 27, end: 28
-@{x2716}@ Class constructor may not be a accessor - start: 62, end: 63
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 63, end: 64
-@{x2716}@ Class constructor may not be a accessor - start: 102, end: 103
-@{x2716}@ Invalid hexadecimal escape sequence - start: 127, end: 129
-@{x2716}@ Invalid hexadecimal escape sequence - start: 129, end: 129
-@{x2716}@ Statement expected - start: 129, end: 130
-@{x2716}@ Statement expected - start: 150, end: 152
-@{x2716}@ Statement expected - start: 152, end: 153
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 236, end: 237
+✖ Class constructor may not be a accessor - start: 27, end: 28
+✖ Class constructor may not be a accessor - start: 62, end: 63
+✖ A 'get' accessor cannot have parameters. - start: 63, end: 64
+✖ Class constructor may not be a accessor - start: 102, end: 103
+✖ Invalid hexadecimal escape sequence - start: 127, end: 129
+✖ Invalid hexadecimal escape sequence - start: 129, end: 129
+✖ Statement expected - start: 129, end: 130
+✖ Statement expected - start: 150, end: 152
+✖ Statement expected - start: 152, end: 153
+✖ A 'get' accessor cannot have parameters. - start: 236, end: 237
 
 ```
 

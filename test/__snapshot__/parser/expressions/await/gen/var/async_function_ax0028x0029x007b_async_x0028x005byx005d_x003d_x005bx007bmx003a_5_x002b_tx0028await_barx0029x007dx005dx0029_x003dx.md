@@ -139,17 +139,17 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 100, end: 103
-@{x2716}@ Statement expected - start: 100, end: 103
-@{x2716}@ Statement expected - start: 106, end: 112
-@{x2716}@ Statement expected - start: 112, end: 114
-@{x2716}@ Statement expected - start: 114, end: 115
+✖ ',' expected - start: 100, end: 103
+✖ Statement expected - start: 100, end: 103
+✖ Statement expected - start: 106, end: 112
+✖ Statement expected - start: 112, end: 114
+✖ Statement expected - start: 114, end: 115
 
 ```
 

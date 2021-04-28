@@ -162,13 +162,13 @@ class x {    async async get f(x){}    }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A 'get' accessor cannot have parameters. - start: 31, end: 32
+✖ A 'get' accessor cannot have parameters. - start: 31, end: 32
 
 ```
 

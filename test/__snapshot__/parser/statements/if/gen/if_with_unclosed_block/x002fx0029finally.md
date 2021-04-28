@@ -96,14 +96,14 @@ else {} if(x) { /)finally
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Unexpected token. - start: 15, end: 17
+✖ Statement expected - start: 0, end: 4
+✖ Unexpected token. - start: 15, end: 17
 
 ```
 

@@ -115,15 +115,15 @@ class x extends continue {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 15, end: 24
-@{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 15, end: 24
-@{x2716}@ Expression expected - start: 24, end: 26
+✖ Expression expected - start: 15, end: 24
+✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 15, end: 24
+✖ Expression expected - start: 24, end: 26
 
 ```
 

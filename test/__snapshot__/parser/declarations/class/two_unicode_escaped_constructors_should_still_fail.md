@@ -193,13 +193,13 @@ class x { constructor(){}; \u0063onstructor(){}; }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Multiple constructor implementations are not allowed - start: 47, end: 48
+✖ Multiple constructor implementations are not allowed - start: 47, end: 48
 
 ```
 

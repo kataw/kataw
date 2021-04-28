@@ -3890,21 +3890,21 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 466, end: 468
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 484, end: 486
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 502, end: 504
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 524, end: 526
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 548, end: 550
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 574, end: 576
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 601, end: 603
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 753, end: 755
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 775, end: 777
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 466, end: 468
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 484, end: 486
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 502, end: 504
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 524, end: 526
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 548, end: 550
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 574, end: 576
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 601, end: 603
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 753, end: 755
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 775, end: 777
 
 ```
 

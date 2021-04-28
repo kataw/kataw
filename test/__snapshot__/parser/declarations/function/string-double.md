@@ -137,17 +137,17 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 30, end: 31
-@{x2716}@ Unexpected token. - start: 30, end: 31
-@{x2716}@ Statement expected - start: 30, end: 31
-@{x2716}@ Statement expected - start: 37, end: 38
-@{x2716}@ Statement expected - start: 38, end: 39
+✖ ',' expected - start: 30, end: 31
+✖ Unexpected token. - start: 30, end: 31
+✖ Statement expected - start: 30, end: 31
+✖ Statement expected - start: 37, end: 38
+✖ Statement expected - start: 38, end: 39
 
 ```
 

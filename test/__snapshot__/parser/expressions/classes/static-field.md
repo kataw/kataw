@@ -97,13 +97,13 @@ class {
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A class declaration without the 'default' modifier must have a name. - start: 5, end: 7
+✖ A class declaration without the 'default' modifier must have a name. - start: 5, end: 7
 
 ```
 

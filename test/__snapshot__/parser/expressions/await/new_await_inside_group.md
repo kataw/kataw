@@ -127,13 +127,13 @@ async function f(){ (new await foo) }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 34, end: 35
+✖ Expression expected - start: 34, end: 35
 
 ```
 

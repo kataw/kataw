@@ -1141,26 +1141,26 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 10, end: 13
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 25, end: 28
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 44, end: 47
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 63, end: 66
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 85, end: 88
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 107, end: 110
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 125, end: 128
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 146, end: 149
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 164, end: 167
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 186, end: 189
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 208, end: 211
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 233, end: 236
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 258, end: 261
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 279, end: 282
+✖ The left hand side of the arrow is not destructible  - start: 10, end: 13
+✖ The left hand side of the arrow is not destructible  - start: 25, end: 28
+✖ The left hand side of the arrow is not destructible  - start: 44, end: 47
+✖ The left hand side of the arrow is not destructible  - start: 63, end: 66
+✖ The left hand side of the arrow is not destructible  - start: 85, end: 88
+✖ The left hand side of the arrow is not destructible  - start: 107, end: 110
+✖ The left hand side of the arrow is not destructible  - start: 125, end: 128
+✖ The left hand side of the arrow is not destructible  - start: 146, end: 149
+✖ The left hand side of the arrow is not destructible  - start: 164, end: 167
+✖ The left hand side of the arrow is not destructible  - start: 186, end: 189
+✖ The left hand side of the arrow is not destructible  - start: 208, end: 211
+✖ The left hand side of the arrow is not destructible  - start: 233, end: 236
+✖ The left hand side of the arrow is not destructible  - start: 258, end: 261
+✖ The left hand side of the arrow is not destructible  - start: 279, end: 282
 
 ```
 

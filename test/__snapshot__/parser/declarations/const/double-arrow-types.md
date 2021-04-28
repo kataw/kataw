@@ -371,23 +371,23 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in const declaration - start: 27, end: 29
-@{x2716}@ ',' expected - start: 27, end: 29
-@{x2716}@ Statement expected - start: 27, end: 29
-@{x2716}@ Statement expected - start: 29, end: 32
-@{x2716}@ Expression expected - start: 37, end: 39
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 37, end: 39
-@{x2716}@ Missing initializer in const declaration - start: 86, end: 87
-@{x2716}@ Statement expected - start: 87, end: 89
-@{x2716}@ Statement expected - start: 89, end: 92
-@{x2716}@ Expression expected - start: 97, end: 99
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 97, end: 99
+✖ Missing initializer in const declaration - start: 27, end: 29
+✖ ',' expected - start: 27, end: 29
+✖ Statement expected - start: 27, end: 29
+✖ Statement expected - start: 29, end: 32
+✖ Expression expected - start: 37, end: 39
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 37, end: 39
+✖ Missing initializer in const declaration - start: 86, end: 87
+✖ Statement expected - start: 87, end: 89
+✖ Statement expected - start: 89, end: 92
+✖ Expression expected - start: 97, end: 99
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 97, end: 99
 
 ```
 

@@ -63,13 +63,13 @@ class yield {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 5, end: 11
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 5, end: 11
 
 ```
 

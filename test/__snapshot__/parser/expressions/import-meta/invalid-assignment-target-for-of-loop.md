@@ -78,13 +78,13 @@ for (import.meta of null) ;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid left-hand side in for-of loop - start: 19, end: 24
+✖ Invalid left-hand side in for-of loop - start: 19, end: 24
 
 ```
 

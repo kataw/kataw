@@ -133,16 +133,16 @@ class C extends Base { await\n a }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 22, end: 28
-@{x2716}@ Invalid hexadecimal escape sequence - start: 28, end: 28
-@{x2716}@ Statement expected - start: 28, end: 29
-@{x2716}@ Statement expected - start: 32, end: 34
+✖ Invalid hexadecimal escape sequence - start: 22, end: 28
+✖ Invalid hexadecimal escape sequence - start: 28, end: 28
+✖ Statement expected - start: 28, end: 29
+✖ Statement expected - start: 32, end: 34
 
 ```
 

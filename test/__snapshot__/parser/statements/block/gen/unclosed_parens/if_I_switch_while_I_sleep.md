@@ -148,14 +148,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 2, end: 5
-@{x2716}@ Expression expected - start: 14, end: 20
+✖ Expression expected - start: 2, end: 5
+✖ Expression expected - start: 14, end: 20
 
 ```
 

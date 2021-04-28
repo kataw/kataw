@@ -282,12 +282,12 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

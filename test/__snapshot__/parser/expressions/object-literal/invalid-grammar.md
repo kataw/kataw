@@ -1905,30 +1905,30 @@ q = {"foo": super = x} = x;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 52, end: 54
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 78, end: 80
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 122, end: 124
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 155, end: 157
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 183, end: 185
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 209, end: 211
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 238, end: 240
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 263, end: 265
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 292, end: 295
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 312, end: 315
-@{x2716}@ ',' expected - start: 335, end: 336
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 384, end: 386
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 389, end: 391
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 412, end: 414
-@{x2716}@ Dot property must be an identifier - start: 412, end: 414
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 412, end: 414
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 417, end: 419
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 52, end: 54
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 78, end: 80
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 122, end: 124
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 155, end: 157
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 183, end: 185
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 209, end: 211
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 238, end: 240
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 263, end: 265
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 292, end: 295
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 312, end: 315
+✖ ',' expected - start: 335, end: 336
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 384, end: 386
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 389, end: 391
+✖ 'super' must be followed by an argument list or member access. - start: 412, end: 414
+✖ Dot property must be an identifier - start: 412, end: 414
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 412, end: 414
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 417, end: 419
 
 ```
 

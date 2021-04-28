@@ -179,18 +179,18 @@ return {} return(x) { function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A return statement can only be used within a function_body - start: 0, end: 6
-@{x2716}@ A return statement can only be used within a function_body - start: 9, end: 16
-@{x2716}@ Binding identifier expected - start: 30, end: 36
-@{x2716}@ Unexpected token. - start: 30, end: 36
-@{x2716}@ Expression expected - start: 36, end: 36
-@{x2716}@ Expression expected - start: 36, end: 36
+✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ A return statement can only be used within a function_body - start: 9, end: 16
+✖ Binding identifier expected - start: 30, end: 36
+✖ Unexpected token. - start: 30, end: 36
+✖ Expression expected - start: 36, end: 36
+✖ Expression expected - start: 36, end: 36
 
 ```
 

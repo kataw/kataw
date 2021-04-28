@@ -248,13 +248,13 @@ function * gen() { function not_gen() { async function wrap() { async function a
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 78, end: 84
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 78, end: 84
 
 ```
 

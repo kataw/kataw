@@ -199,19 +199,19 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 29, end: 30
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 38, end: 39
-@{x2716}@ Dot property must be an identifier - start: 38, end: 39
-@{x2716}@ Statement expected - start: 41, end: 43
-@{x2716}@ Statement expected - start: 43, end: 45
-@{x2716}@ Statement expected - start: 45, end: 47
-@{x2716}@ Statement expected - start: 47, end: 48
+✖ ',' expected - start: 29, end: 30
+✖ 'super' must be followed by an argument list or member access. - start: 38, end: 39
+✖ Dot property must be an identifier - start: 38, end: 39
+✖ Statement expected - start: 41, end: 43
+✖ Statement expected - start: 43, end: 45
+✖ Statement expected - start: 45, end: 47
+✖ Statement expected - start: 47, end: 48
 
 ```
 

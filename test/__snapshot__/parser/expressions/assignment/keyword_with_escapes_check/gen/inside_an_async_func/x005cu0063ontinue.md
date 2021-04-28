@@ -102,16 +102,16 @@ async () => {  \u0063ontinue = x  }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 28
-@{x2716}@ Expression expected - start: 28, end: 30
-@{x2716}@ Statement expected - start: 28, end: 30
-@{x2716}@ Statement expected - start: 32, end: 35
+✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 13, end: 28
+✖ Expression expected - start: 28, end: 30
+✖ Statement expected - start: 28, end: 30
+✖ Statement expected - start: 32, end: 35
 
 ```
 

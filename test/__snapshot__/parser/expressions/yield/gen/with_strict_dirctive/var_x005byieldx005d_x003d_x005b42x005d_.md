@@ -126,13 +126,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 19, end: 24
+✖ Identifier expected. Reserved word in strict mode - start: 19, end: 24
 
 ```
 

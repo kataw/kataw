@@ -113,16 +113,16 @@ class C { await\n a }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 15
-@{x2716}@ Invalid hexadecimal escape sequence - start: 15, end: 15
-@{x2716}@ Statement expected - start: 15, end: 16
-@{x2716}@ Statement expected - start: 19, end: 21
+✖ Invalid hexadecimal escape sequence - start: 9, end: 15
+✖ Invalid hexadecimal escape sequence - start: 15, end: 15
+✖ Statement expected - start: 15, end: 16
+✖ Statement expected - start: 19, end: 21
 
 ```
 

@@ -155,14 +155,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'delete' cannot be called on an identifier in strict mode. - start: 25, end: 26
-@{x2716}@ 'delete' cannot be called on an identifier in strict mode. - start: 87, end: 88
+✖ 'delete' cannot be called on an identifier in strict mode. - start: 25, end: 26
+✖ 'delete' cannot be called on an identifier in strict mode. - start: 87, end: 88
 
 ```
 

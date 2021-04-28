@@ -507,35 +507,35 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 14, end: 15
-@{x2716}@ Statement expected - start: 14, end: 15
-@{x2716}@ Statement expected - start: 17, end: 18
-@{x2716}@ Statement expected - start: 22, end: 23
-@{x2716}@ Statement expected - start: 23, end: 26
-@{x2716}@ ',' expected - start: 58, end: 59
-@{x2716}@ Unexpected token. - start: 58, end: 59
-@{x2716}@ Statement expected - start: 58, end: 59
-@{x2716}@ Statement expected - start: 63, end: 64
-@{x2716}@ Statement expected - start: 72, end: 73
-@{x2716}@ Statement expected - start: 79, end: 80
-@{x2716}@ Statement expected - start: 80, end: 83
-@{x2716}@ Statement expected - start: 90, end: 91
-@{x2716}@ ',' expected - start: 116, end: 117
-@{x2716}@ Unexpected token. - start: 116, end: 117
-@{x2716}@ Statement expected - start: 116, end: 117
-@{x2716}@ Statement expected - start: 121, end: 122
-@{x2716}@ Expression expected - start: 127, end: 131
-@{x2716}@ Statement expected - start: 127, end: 131
-@{x2716}@ Expression expected - start: 148, end: 149
-@{x2716}@ Statement expected - start: 148, end: 149
-@{x2716}@ Statement expected - start: 149, end: 152
-@{x2716}@ Statement expected - start: 159, end: 160
+✖ Unexpected token. - start: 14, end: 15
+✖ Statement expected - start: 14, end: 15
+✖ Statement expected - start: 17, end: 18
+✖ Statement expected - start: 22, end: 23
+✖ Statement expected - start: 23, end: 26
+✖ ',' expected - start: 58, end: 59
+✖ Unexpected token. - start: 58, end: 59
+✖ Statement expected - start: 58, end: 59
+✖ Statement expected - start: 63, end: 64
+✖ Statement expected - start: 72, end: 73
+✖ Statement expected - start: 79, end: 80
+✖ Statement expected - start: 80, end: 83
+✖ Statement expected - start: 90, end: 91
+✖ ',' expected - start: 116, end: 117
+✖ Unexpected token. - start: 116, end: 117
+✖ Statement expected - start: 116, end: 117
+✖ Statement expected - start: 121, end: 122
+✖ Expression expected - start: 127, end: 131
+✖ Statement expected - start: 127, end: 131
+✖ Expression expected - start: 148, end: 149
+✖ Statement expected - start: 148, end: 149
+✖ Statement expected - start: 149, end: 152
+✖ Statement expected - start: 159, end: 160
 
 ```
 

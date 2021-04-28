@@ -84,14 +84,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A rest parameter must be last in a parameter list - start: 5, end: 6
-@{x2716}@ A rest parameter must be last in a parameter list - start: 5, end: 6
+✖ A rest parameter must be last in a parameter list - start: 5, end: 6
+✖ A rest parameter must be last in a parameter list - start: 5, end: 6
 
 ```
 

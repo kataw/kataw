@@ -123,15 +123,15 @@ for (let of x) y
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 11, end: 13
-@{x2716}@ ',' expected - start: 13, end: 14
-@{x2716}@ Expression expected - start: 13, end: 14
+✖ ',' expected - start: 11, end: 13
+✖ ',' expected - start: 13, end: 14
+✖ Expression expected - start: 13, end: 14
 
 ```
 

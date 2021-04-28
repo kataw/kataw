@@ -107,13 +107,13 @@ async => {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 11, end: 13
+✖ Unexpected token. - start: 11, end: 13
 
 ```
 

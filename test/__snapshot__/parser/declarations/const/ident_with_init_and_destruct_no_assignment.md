@@ -121,13 +121,13 @@ const x = y, {z};
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in const declaration - start: 16, end: 17
+✖ Missing initializer in const declaration - start: 16, end: 17
 
 ```
 

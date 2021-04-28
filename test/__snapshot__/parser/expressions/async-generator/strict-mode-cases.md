@@ -1728,27 +1728,27 @@ function * x() { "use strict";  yield: 34; }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 43, end: 49
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 104, end: 109
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 161, end: 167
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 161, end: 167
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 284, end: 289
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 349, end: 355
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 408, end: 414
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 469, end: 475
-@{x2716}@ Statement expected - start: 725, end: 726
-@{x2716}@ Statement expected - start: 730, end: 732
-@{x2716}@ Expression expected - start: 772, end: 773
-@{x2716}@ Statement expected - start: 813, end: 814
-@{x2716}@ Statement expected - start: 818, end: 820
+✖ Identifier expected. Reserved word in strict mode - start: 43, end: 49
+✖ Identifier expected. Reserved word in strict mode - start: 104, end: 109
+✖ Identifier expected. Reserved word in strict mode - start: 161, end: 167
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 161, end: 167
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
+✖ Identifier expected. Reserved word in strict mode - start: 284, end: 289
+✖ Identifier expected. Reserved word in strict mode - start: 349, end: 355
+✖ Identifier expected. Reserved word in strict mode - start: 408, end: 414
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 469, end: 475
+✖ Statement expected - start: 725, end: 726
+✖ Statement expected - start: 730, end: 732
+✖ Expression expected - start: 772, end: 773
+✖ Statement expected - start: 813, end: 814
+✖ Statement expected - start: 818, end: 820
 
 ```
 

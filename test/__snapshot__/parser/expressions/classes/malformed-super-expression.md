@@ -167,14 +167,14 @@ class A {
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 28, end: 30
-@{x2716}@ Dot property must be an identifier - start: 28, end: 30
+✖ 'super' must be followed by an argument list or member access. - start: 28, end: 30
+✖ Dot property must be an identifier - start: 28, end: 30
 
 ```
 

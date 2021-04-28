@@ -99,14 +99,14 @@ class x {eval: x}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 13, end: 14
-@{x2716}@ Statement expected - start: 16, end: 17
+✖ Statement expected - start: 13, end: 14
+✖ Statement expected - start: 16, end: 17
 
 ```
 

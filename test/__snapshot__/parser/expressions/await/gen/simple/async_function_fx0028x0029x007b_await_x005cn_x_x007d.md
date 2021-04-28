@@ -139,16 +139,16 @@ async function f(){ await \n x; }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 25, end: 26
-@{x2716}@ Expression expected - start: 25, end: 27
-@{x2716}@ Statement expected - start: 25, end: 27
-@{x2716}@ Statement expected - start: 31, end: 33
+✖ Invalid hexadecimal escape sequence - start: 25, end: 26
+✖ Expression expected - start: 25, end: 27
+✖ Statement expected - start: 25, end: 27
+✖ Statement expected - start: 31, end: 33
 
 ```
 

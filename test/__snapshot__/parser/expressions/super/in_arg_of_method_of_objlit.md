@@ -211,13 +211,13 @@ x={ dsda(){ return async function(a=super.foo){} }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 42
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 42
 
 ```
 

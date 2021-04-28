@@ -275,14 +275,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 75, end: 78
-@{x2716}@ Statement expected - start: 81, end: 87
+✖ Statement expected - start: 75, end: 78
+✖ Statement expected - start: 81, end: 87
 
 ```
 

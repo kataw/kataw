@@ -769,32 +769,32 @@ class C { test() {get #a() { }}}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 0, end: 3
-@{x2716}@ Statement expected - start: 3, end: 5
-@{x2716}@ Binding identifier expected - start: 18, end: 19
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 22, end: 25
-@{x2716}@ Statement expected - start: 25, end: 27
-@{x2716}@ Statement expected - start: 36, end: 37
-@{x2716}@ Binding identifier expected - start: 47, end: 48
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 51, end: 54
-@{x2716}@ Statement expected - start: 54, end: 55
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 64, end: 67
-@{x2716}@ Expression expected - start: 71, end: 73
-@{x2716}@ Statement expected - start: 71, end: 73
-@{x2716}@ Statement expected - start: 73, end: 74
-@{x2716}@ Statement expected - start: 107, end: 108
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 129, end: 132
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 163, end: 165
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 183, end: 186
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 193, end: 195
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 211, end: 213
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 220, end: 222
+✖ Private identifiers are not allowed outside class_bodies - start: 0, end: 3
+✖ Statement expected - start: 3, end: 5
+✖ Binding identifier expected - start: 18, end: 19
+✖ Private identifiers are not allowed outside class_bodies - start: 22, end: 25
+✖ Statement expected - start: 25, end: 27
+✖ Statement expected - start: 36, end: 37
+✖ Binding identifier expected - start: 47, end: 48
+✖ Private identifiers are not allowed outside class_bodies - start: 51, end: 54
+✖ Statement expected - start: 54, end: 55
+✖ Private identifiers are not allowed outside class_bodies - start: 64, end: 67
+✖ Expression expected - start: 71, end: 73
+✖ Statement expected - start: 71, end: 73
+✖ Statement expected - start: 73, end: 74
+✖ Statement expected - start: 107, end: 108
+✖ Private identifiers are not allowed outside class_bodies - start: 129, end: 132
+✖ Private identifiers are not allowed outside class_bodies - start: 163, end: 165
+✖ Private identifiers are not allowed outside class_bodies - start: 183, end: 186
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 193, end: 195
+✖ Private identifiers are not allowed outside class_bodies - start: 211, end: 213
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 220, end: 222
 
 ```
 

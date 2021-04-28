@@ -132,14 +132,14 @@ let [... ...foo] = obj;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 8, end: 12
-@{x2716}@ ',' expected - start: 8, end: 12
+✖ Expression expected - start: 8, end: 12
+✖ ',' expected - start: 8, end: 12
 
 ```
 

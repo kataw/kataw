@@ -120,13 +120,13 @@ else {} if(x) { catch try {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 4
+✖ Statement expected - start: 0, end: 4
 
 ```
 

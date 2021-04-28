@@ -211,16 +211,16 @@ switch switch switch while try this and !foo
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Expression expected - start: 13, end: 20
-@{x2716}@ Expression expected - start: 20, end: 26
-@{x2716}@ Expression expected - start: 26, end: 30
+✖ Expression expected - start: 6, end: 13
+✖ Expression expected - start: 13, end: 20
+✖ Expression expected - start: 20, end: 26
+✖ Expression expected - start: 26, end: 30
 
 ```
 

@@ -129,13 +129,13 @@ try try try /false//a
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 19, end: 20
+✖ Unexpected token. - start: 19, end: 20
 
 ```
 

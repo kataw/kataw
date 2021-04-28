@@ -171,15 +171,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 16, end: 17
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 17
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
+✖ Unexpected token. - start: 16, end: 17
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 17
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
 
 ```
 

@@ -122,17 +122,17 @@ yield * \n { yield: 12 }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 7, end: 8
-@{x2716}@ Expression expected - start: 7, end: 9
-@{x2716}@ Statement expected - start: 7, end: 9
-@{x2716}@ Statement expected - start: 18, end: 19
-@{x2716}@ Statement expected - start: 22, end: 24
+✖ Invalid hexadecimal escape sequence - start: 7, end: 8
+✖ Expression expected - start: 7, end: 9
+✖ Statement expected - start: 7, end: 9
+✖ Statement expected - start: 18, end: 19
+✖ Statement expected - start: 22, end: 24
 
 ```
 

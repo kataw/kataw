@@ -152,18 +152,18 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 26, end: 40
-@{x2716}@ Statement expected - start: 26, end: 41
-@{x2716}@ Statement expected - start: 49, end: 50
-@{x2716}@ Statement expected - start: 53, end: 54
-@{x2716}@ Statement expected - start: 54, end: 56
-@{x2716}@ Statement expected - start: 56, end: 57
+✖ Invalid hexadecimal escape sequence - start: 26, end: 40
+✖ Statement expected - start: 26, end: 41
+✖ Statement expected - start: 49, end: 50
+✖ Statement expected - start: 53, end: 54
+✖ Statement expected - start: 54, end: 56
+✖ Statement expected - start: 56, end: 57
 
 ```
 

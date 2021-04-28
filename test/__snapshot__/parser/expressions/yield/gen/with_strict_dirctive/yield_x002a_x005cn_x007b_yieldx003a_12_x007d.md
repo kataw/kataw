@@ -131,17 +131,17 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 21, end: 22
-@{x2716}@ Expression expected - start: 21, end: 23
-@{x2716}@ Statement expected - start: 21, end: 23
-@{x2716}@ Statement expected - start: 32, end: 33
-@{x2716}@ Statement expected - start: 36, end: 38
+✖ Invalid hexadecimal escape sequence - start: 21, end: 22
+✖ Expression expected - start: 21, end: 23
+✖ Statement expected - start: 21, end: 23
+✖ Statement expected - start: 32, end: 33
+✖ Statement expected - start: 36, end: 38
 
 ```
 

@@ -80,15 +80,15 @@ do[ /)finally
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 3, end: 5
-@{x2716}@ ',' expected - start: 13, end: 13
-@{x2716}@ Expression expected - start: 13, end: 13
+✖ Unexpected token. - start: 3, end: 5
+✖ ',' expected - start: 13, end: 13
+✖ Expression expected - start: 13, end: 13
 
 ```
 

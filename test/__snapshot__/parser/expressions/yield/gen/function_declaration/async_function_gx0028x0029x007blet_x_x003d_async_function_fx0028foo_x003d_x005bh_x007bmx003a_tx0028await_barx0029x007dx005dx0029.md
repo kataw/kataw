@@ -337,13 +337,13 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 103, end: 104
+✖ Statement expected - start: 103, end: 104
 
 ```
 

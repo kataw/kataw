@@ -72,14 +72,14 @@ for (new.target in x) ;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'new.target' only allowed within functions - start: 15, end: 18
-@{x2716}@ Invalid left-hand side in for-in loop - start: 18, end: 20
+✖ 'new.target' only allowed within functions - start: 15, end: 18
+✖ Invalid left-hand side in for-in loop - start: 18, end: 20
 
 ```
 

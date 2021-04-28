@@ -163,13 +163,13 @@ async ({ident: [foo, bar].join("")}) => x
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 36, end: 39
+✖ Statement expected - start: 36, end: 39
 
 ```
 

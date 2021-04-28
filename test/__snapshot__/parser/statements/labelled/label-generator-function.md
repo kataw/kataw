@@ -95,13 +95,13 @@ label: function * x (){}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Generators can only be declared at the top level or inside a block - start: 17, end: 19
+✖ Generators can only be declared at the top level or inside a block - start: 17, end: 19
 
 ```
 

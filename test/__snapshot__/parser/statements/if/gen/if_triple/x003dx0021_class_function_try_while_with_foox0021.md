@@ -276,18 +276,18 @@ if if if =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 2, end: 5
-@{x2716}@ Expression expected - start: 5, end: 8
-@{x2716}@ Expression expected - start: 8, end: 10
-@{x2716}@ Binding identifier expected - start: 26, end: 30
-@{x2716}@ Unexpected token. - start: 26, end: 30
-@{x2716}@ Expression expected - start: 46, end: 46
+✖ Expression expected - start: 2, end: 5
+✖ Expression expected - start: 5, end: 8
+✖ Expression expected - start: 8, end: 10
+✖ Binding identifier expected - start: 26, end: 30
+✖ Unexpected token. - start: 26, end: 30
+✖ Expression expected - start: 46, end: 46
 
 ```
 

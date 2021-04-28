@@ -107,14 +107,14 @@ async async => {}.x
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Block body arrows can not be immediately accessed without a group - start: 17, end: 18
-@{x2716}@ Statement expected - start: 17, end: 18
+✖ Block body arrows can not be immediately accessed without a group - start: 17, end: 18
+✖ Statement expected - start: 17, end: 18
 
 ```
 

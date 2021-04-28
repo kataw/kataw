@@ -176,19 +176,19 @@ x = { method(test: string): number { } };
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 17, end: 18
-@{x2716}@ Unexpected token. - start: 17, end: 18
-@{x2716}@ ',' expected - start: 17, end: 18
-@{x2716}@ Statement expected - start: 17, end: 18
-@{x2716}@ Statement expected - start: 25, end: 26
-@{x2716}@ Statement expected - start: 26, end: 27
-@{x2716}@ Statement expected - start: 38, end: 40
+✖ ',' expected - start: 17, end: 18
+✖ Unexpected token. - start: 17, end: 18
+✖ ',' expected - start: 17, end: 18
+✖ Statement expected - start: 17, end: 18
+✖ Statement expected - start: 25, end: 26
+✖ Statement expected - start: 26, end: 27
+✖ Statement expected - start: 38, end: 40
 
 ```
 

@@ -93,15 +93,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 13, end: 15
-@{x2716}@ Unexpected token. - start: 13, end: 15
-@{x2716}@ Statement expected - start: 13, end: 15
+✖ Binding identifier expected - start: 13, end: 15
+✖ Unexpected token. - start: 13, end: 15
+✖ Statement expected - start: 13, end: 15
 
 ```
 

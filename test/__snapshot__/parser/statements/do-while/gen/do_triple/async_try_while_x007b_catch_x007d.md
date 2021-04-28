@@ -184,17 +184,17 @@ do do do async try while { catch } while while while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 18, end: 24
-@{x2716}@ Expression expected - start: 40, end: 46
-@{x2716}@ Expression expected - start: 46, end: 52
-@{x2716}@ Expression expected - start: 52, end: 52
-@{x2716}@ Expression expected - start: 52, end: 52
+✖ Expression expected - start: 18, end: 24
+✖ Expression expected - start: 40, end: 46
+✖ Expression expected - start: 46, end: 52
+✖ Expression expected - start: 52, end: 52
+✖ Expression expected - start: 52, end: 52
 
 ```
 

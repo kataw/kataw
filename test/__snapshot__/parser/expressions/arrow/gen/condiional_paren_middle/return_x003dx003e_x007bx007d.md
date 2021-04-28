@@ -107,17 +107,17 @@ bar ? (return => {}) : baz;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 7, end: 13
-@{x2716}@ Expression expected - start: 13, end: 16
-@{x2716}@ Statement expected - start: 13, end: 16
-@{x2716}@ Statement expected - start: 19, end: 20
-@{x2716}@ Statement expected - start: 20, end: 22
+✖ Expression expected - start: 7, end: 13
+✖ Expression expected - start: 13, end: 16
+✖ Statement expected - start: 13, end: 16
+✖ Statement expected - start: 19, end: 20
+✖ Statement expected - start: 20, end: 22
 
 ```
 

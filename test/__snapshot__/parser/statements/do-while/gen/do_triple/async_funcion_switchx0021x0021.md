@@ -179,16 +179,16 @@ do do do async funcion switch!! while while while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 31, end: 37
-@{x2716}@ Expression expected - start: 37, end: 43
-@{x2716}@ Expression expected - start: 43, end: 49
-@{x2716}@ Expression expected - start: 49, end: 49
+✖ Expression expected - start: 31, end: 37
+✖ Expression expected - start: 37, end: 43
+✖ Expression expected - start: 43, end: 49
+✖ Expression expected - start: 49, end: 49
 
 ```
 

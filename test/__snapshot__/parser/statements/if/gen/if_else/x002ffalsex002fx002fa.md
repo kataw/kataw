@@ -103,14 +103,14 @@ if /false//a else
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 12, end: 17
-@{x2716}@ Expression expected - start: 17, end: 17
+✖ Expression expected - start: 12, end: 17
+✖ Expression expected - start: 17, end: 17
 
 ```
 

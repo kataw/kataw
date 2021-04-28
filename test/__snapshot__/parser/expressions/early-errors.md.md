@@ -3499,14 +3499,14 @@ try {} catch(e) { for(var e of 0); };
         {
             "kind": 168,
             "flags": 128,
-            "start": 3719,
-            "end": 3720
+            "start": 3735,
+            "end": 3736
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 3727,
-            "end": 3728
+            "start": 3743,
+            "end": 3744
         },
         {
             "kind": 120,
@@ -3515,18 +3515,18 @@ try {} catch(e) { for(var e of 0); };
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
-                "start": 3728,
-                "end": 3959
+                "start": 3744,
+                "end": 3991
             },
             "flags": 128,
-            "start": 3728,
-            "end": 3959
+            "start": 3744,
+            "end": 3991
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 3966,
-            "end": 3967
+            "start": 3998,
+            "end": 3999
         },
         {
             "kind": 120,
@@ -3535,18 +3535,18 @@ try {} catch(e) { for(var e of 0); };
                 "text": "a",
                 "rawText": "a",
                 "flags": 768,
-                "start": 3967,
-                "end": 3969
+                "start": 3999,
+                "end": 4001
             },
             "flags": 128,
-            "start": 3967,
-            "end": 3969
+            "start": 3999,
+            "end": 4001
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 3975,
-            "end": 3976
+            "start": 4007,
+            "end": 4008
         },
         {
             "kind": 120,
@@ -3557,16 +3557,16 @@ try {} catch(e) { for(var e of 0); };
                     "text": "\\u{110000}",
                     "rawText": "\\u{110000}",
                     "flags": 768,
-                    "start": 4049,
-                    "end": 4062
+                    "start": 4081,
+                    "end": 4094
                 },
                 "flags": 256,
-                "start": 3976,
-                "end": 4063
+                "start": 4008,
+                "end": 4095
             },
             "flags": 128,
-            "start": 3976,
-            "end": 4064
+            "start": 4008,
+            "end": 4096
         },
         {
             "kind": 120,
@@ -3577,16 +3577,16 @@ try {} catch(e) { for(var e of 0); };
                     "text": "\\u{FFFFFFF}",
                     "rawText": "\\u{FFFFFFF}",
                     "flags": 768,
-                    "start": 4066,
-                    "end": 4080
+                    "start": 4098,
+                    "end": 4112
                 },
                 "flags": 256,
-                "start": 4064,
-                "end": 4081
+                "start": 4096,
+                "end": 4113
             },
             "flags": 128,
-            "start": 4064,
-            "end": 4082
+            "start": 4096,
+            "end": 4114
         },
         {
             "kind": 120,
@@ -3595,12 +3595,12 @@ try {} catch(e) { for(var e of 0); };
                 "text": "use strict",
                 "rawText": "use strict",
                 "flags": 769,
-                "start": 4082,
-                "end": 4199
+                "start": 4114,
+                "end": 4231
             },
             "flags": 128,
-            "start": 4082,
-            "end": 4200
+            "start": 4114,
+            "end": 4232
         },
         {
             "kind": 120,
@@ -3618,102 +3618,18 @@ try {} catch(e) { for(var e of 0); };
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 768,
-                                    "start": 4203,
-                                    "end": 4207
-                                }
-                            ],
-                            "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
-                            "start": 4203,
-                            "end": 4207
-                        },
-                        "flags": 256,
-                        "start": 4202,
-                        "end": 4208
-                    },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 768,
-                        "start": 4208,
-                        "end": 4210
-                    },
-                    "right": {
-                        "kind": 201392130,
-                        "text": 0,
-                        "rawText": "0",
-                        "flags": 768,
-                        "start": 4210,
-                        "end": 4212
-                    },
-                    "flags": 256,
-                    "start": 4202,
-                    "end": 4212
-                },
-                "flags": 256,
-                "start": 4200,
-                "end": 4213
-            },
-            "flags": 128,
-            "start": 4200,
-            "end": 4214
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "use strict",
-                "flags": 769,
-                "start": 4214,
-                "end": 4227
-            },
-            "flags": 128,
-            "start": 4214,
-            "end": 4228
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 125,
-                    "left": {
-                        "kind": 220,
-                        "propertyList": {
-                            "kind": 218,
-                            "properties": [
-                                {
-                                    "kind": 205,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "eval",
-                                        "rawText": "eval",
-                                        "flags": 768,
-                                        "start": 4231,
-                                        "end": 4235
-                                    },
-                                    "right": {
-                                        "kind": 201392130,
-                                        "text": 0,
-                                        "rawText": "0",
-                                        "flags": 768,
-                                        "start": 4237,
-                                        "end": 4239
-                                    },
-                                    "flags": 256,
-                                    "start": 4231,
+                                    "start": 4235,
                                     "end": 4239
                                 }
                             ],
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "start": 4231,
+                            "start": 4235,
                             "end": 4239
                         },
                         "flags": 256,
-                        "start": 4230,
+                        "start": 4234,
                         "end": 4240
                     },
                     "operatorToken": {
@@ -3731,15 +3647,15 @@ try {} catch(e) { for(var e of 0); };
                         "end": 4244
                     },
                     "flags": 256,
-                    "start": 4230,
+                    "start": 4234,
                     "end": 4244
                 },
                 "flags": 256,
-                "start": 4228,
+                "start": 4232,
                 "end": 4245
             },
             "flags": 128,
-            "start": 4228,
+            "start": 4232,
             "end": 4246
         },
         {
@@ -3768,49 +3684,63 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 134299649,
-                                    "text": "arguments",
-                                    "rawText": "arguments",
-                                    "flags": 768,
+                                    "kind": 205,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "eval",
+                                        "rawText": "eval",
+                                        "flags": 768,
+                                        "start": 4263,
+                                        "end": 4267
+                                    },
+                                    "right": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 768,
+                                        "start": 4269,
+                                        "end": 4271
+                                    },
+                                    "flags": 256,
                                     "start": 4263,
-                                    "end": 4272
+                                    "end": 4271
                                 }
                             ],
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
                             "start": 4263,
-                            "end": 4272
+                            "end": 4271
                         },
                         "flags": 256,
                         "start": 4262,
-                        "end": 4273
+                        "end": 4272
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 768,
-                        "start": 4273,
-                        "end": 4275
+                        "start": 4272,
+                        "end": 4274
                     },
                     "right": {
                         "kind": 201392130,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
-                        "start": 4275,
-                        "end": 4277
+                        "start": 4274,
+                        "end": 4276
                     },
                     "flags": 256,
                     "start": 4262,
-                    "end": 4277
+                    "end": 4276
                 },
                 "flags": 256,
                 "start": 4260,
-                "end": 4278
+                "end": 4277
             },
             "flags": 128,
             "start": 4260,
-            "end": 4279
+            "end": 4278
         },
         {
             "kind": 120,
@@ -3819,12 +3749,82 @@ try {} catch(e) { for(var e of 0); };
                 "text": "use strict",
                 "rawText": "use strict",
                 "flags": 769,
-                "start": 4279,
-                "end": 4292
+                "start": 4278,
+                "end": 4291
             },
             "flags": 128,
-            "start": 4279,
-            "end": 4293
+            "start": 4278,
+            "end": 4292
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 125,
+                    "left": {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "arguments",
+                                    "rawText": "arguments",
+                                    "flags": 768,
+                                    "start": 4295,
+                                    "end": 4304
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
+                            "start": 4295,
+                            "end": 4304
+                        },
+                        "flags": 256,
+                        "start": 4294,
+                        "end": 4305
+                    },
+                    "operatorToken": {
+                        "kind": 4125,
+                        "flags": 768,
+                        "start": 4305,
+                        "end": 4307
+                    },
+                    "right": {
+                        "kind": 201392130,
+                        "text": 0,
+                        "rawText": "0",
+                        "flags": 768,
+                        "start": 4307,
+                        "end": 4309
+                    },
+                    "flags": 256,
+                    "start": 4294,
+                    "end": 4309
+                },
+                "flags": 256,
+                "start": 4292,
+                "end": 4310
+            },
+            "flags": 128,
+            "start": 4292,
+            "end": 4311
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "use strict",
+                "flags": 769,
+                "start": 4311,
+                "end": 4324
+            },
+            "flags": 128,
+            "start": 4311,
+            "end": 4325
         },
         {
             "kind": 120,
@@ -3844,73 +3844,73 @@ try {} catch(e) { for(var e of 0); };
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 768,
-                                        "start": 4296,
-                                        "end": 4305
+                                        "start": 4328,
+                                        "end": 4337
                                     },
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 768,
-                                        "start": 4307,
-                                        "end": 4309
+                                        "start": 4339,
+                                        "end": 4341
                                     },
                                     "flags": 256,
-                                    "start": 4296,
-                                    "end": 4309
+                                    "start": 4328,
+                                    "end": 4341
                                 }
                             ],
                             "trailingComma": false,
                             "multiline": false,
                             "flags": 0,
-                            "start": 4296,
-                            "end": 4309
+                            "start": 4328,
+                            "end": 4341
                         },
                         "flags": 256,
-                        "start": 4295,
-                        "end": 4310
+                        "start": 4327,
+                        "end": 4342
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 768,
-                        "start": 4310,
-                        "end": 4312
+                        "start": 4342,
+                        "end": 4344
                     },
                     "right": {
                         "kind": 201392130,
                         "text": 0,
                         "rawText": "0",
                         "flags": 768,
-                        "start": 4312,
-                        "end": 4314
+                        "start": 4344,
+                        "end": 4346
                     },
                     "flags": 256,
-                    "start": 4295,
-                    "end": 4314
+                    "start": 4327,
+                    "end": 4346
                 },
                 "flags": 256,
-                "start": 4293,
-                "end": 4315
+                "start": 4325,
+                "end": 4347
             },
             "flags": 128,
-            "start": 4293,
-            "end": 4316
+            "start": 4325,
+            "end": 4348
         },
         {
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 768,
-                "start": 4316,
-                "end": 4443
+                "start": 4348,
+                "end": 4475
             },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
-                "start": 4444,
-                "end": 4445
+                "start": 4476,
+                "end": 4477
             },
             "consequent": {
                 "kind": 163,
@@ -3919,8 +3919,8 @@ try {} catch(e) { for(var e of 0); };
                     "text": "label",
                     "rawText": "label",
                     "flags": 768,
-                    "start": 4446,
-                    "end": 4452
+                    "start": 4478,
+                    "end": 4484
                 },
                 "statement": {
                     "kind": 176,
@@ -3929,8 +3929,8 @@ try {} catch(e) { for(var e of 0); };
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 768,
-                        "start": 4453,
-                        "end": 4462
+                        "start": 4485,
+                        "end": 4494
                     },
                     "generatorToken": null,
                     "name": {
@@ -3938,16 +3938,16 @@ try {} catch(e) { for(var e of 0); };
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
-                        "start": 4462,
-                        "end": 4464
+                        "start": 4494,
+                        "end": 4496
                     },
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
                         "flags": 256,
-                        "start": 4464,
-                        "end": 4466
+                        "start": 4496,
+                        "end": 4498
                     },
                     "contents": {
                         "kind": 216,
@@ -3957,44 +3957,44 @@ try {} catch(e) { for(var e of 0); };
                             "statements": [],
                             "multiline": false,
                             "flags": 256,
-                            "start": 4467,
-                            "end": 4467
+                            "start": 4499,
+                            "end": 4499
                         },
                         "flags": 256,
-                        "start": 4466,
-                        "end": 4468
+                        "start": 4498,
+                        "end": 4500
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 128,
-                    "start": 4453,
-                    "end": 4468
+                    "start": 4485,
+                    "end": 4500
                 },
                 "flags": 128,
-                "start": 4446,
-                "end": 4468
+                "start": 4478,
+                "end": 4500
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 128,
-            "start": 4316,
-            "end": 4468
+            "start": 4348,
+            "end": 4500
         },
         {
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 768,
-                "start": 4468,
-                "end": 4471
+                "start": 4500,
+                "end": 4503
             },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
-                "start": 4472,
-                "end": 4473
+                "start": 4504,
+                "end": 4505
             },
             "consequent": {
                 "kind": 163,
@@ -4003,8 +4003,8 @@ try {} catch(e) { for(var e of 0); };
                     "text": "labelA",
                     "rawText": "labelA",
                     "flags": 768,
-                    "start": 4474,
-                    "end": 4481
+                    "start": 4506,
+                    "end": 4513
                 },
                 "statement": {
                     "kind": 163,
@@ -4013,8 +4013,8 @@ try {} catch(e) { for(var e of 0); };
                         "text": "labelB",
                         "rawText": "labelB",
                         "flags": 768,
-                        "start": 4482,
-                        "end": 4489
+                        "start": 4514,
+                        "end": 4521
                     },
                     "statement": {
                         "kind": 176,
@@ -4023,8 +4023,8 @@ try {} catch(e) { for(var e of 0); };
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 768,
-                            "start": 4490,
-                            "end": 4499
+                            "start": 4522,
+                            "end": 4531
                         },
                         "generatorToken": null,
                         "name": {
@@ -4032,16 +4032,16 @@ try {} catch(e) { for(var e of 0); };
                             "text": "f",
                             "rawText": "f",
                             "flags": 768,
-                            "start": 4499,
-                            "end": 4501
+                            "start": 4531,
+                            "end": 4533
                         },
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
                             "trailingComma": false,
                             "flags": 256,
-                            "start": 4501,
-                            "end": 4503
+                            "start": 4533,
+                            "end": 4535
                         },
                         "contents": {
                             "kind": 216,
@@ -4051,164 +4051,58 @@ try {} catch(e) { for(var e of 0); };
                                 "statements": [],
                                 "multiline": false,
                                 "flags": 256,
-                                "start": 4504,
-                                "end": 4504
+                                "start": 4536,
+                                "end": 4536
                             },
                             "flags": 256,
-                            "start": 4503,
-                            "end": 4505
+                            "start": 4535,
+                            "end": 4537
                         },
                         "typeParameters": null,
                         "returnType": null,
                         "flags": 128,
-                        "start": 4490,
-                        "end": 4505
+                        "start": 4522,
+                        "end": 4537
                     },
                     "flags": 128,
-                    "start": 4482,
-                    "end": 4505
+                    "start": 4514,
+                    "end": 4537
                 },
                 "flags": 128,
-                "start": 4474,
-                "end": 4505
+                "start": 4506,
+                "end": 4537
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 128,
-            "start": 4468,
-            "end": 4505
+            "start": 4500,
+            "end": 4537
         },
         {
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 768,
-                "start": 4505,
-                "end": 4508
-            },
-            "expression": {
-                "kind": 201392130,
-                "text": 0,
-                "rawText": "0",
-                "flags": 768,
-                "start": 4509,
-                "end": 4510
-            },
-            "consequent": {
-                "kind": 163,
-                "label": {
-                    "kind": 134299649,
-                    "text": "label",
-                    "rawText": "label",
-                    "flags": 768,
-                    "start": 4511,
-                    "end": 4517
-                },
-                "statement": {
-                    "kind": 176,
-                    "declareKeyword": null,
-                    "asyncKeyword": null,
-                    "functionKeyword": {
-                        "kind": 37822554,
-                        "flags": 768,
-                        "start": 4518,
-                        "end": 4527
-                    },
-                    "generatorToken": null,
-                    "name": {
-                        "kind": 134299649,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 768,
-                        "start": 4527,
-                        "end": 4529
-                    },
-                    "formalParameters": {
-                        "kind": 214,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 256,
-                        "start": 4529,
-                        "end": 4531
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "multiline": false,
-                            "flags": 256,
-                            "start": 4532,
-                            "end": 4532
-                        },
-                        "flags": 256,
-                        "start": 4531,
-                        "end": 4533
-                    },
-                    "typeParameters": null,
-                    "returnType": null,
-                    "flags": 128,
-                    "start": 4518,
-                    "end": 4533
-                },
-                "flags": 128,
-                "start": 4511,
-                "end": 4533
-            },
-            "elseKeyword": {
-                "kind": 4194389,
-                "flags": 768,
-                "start": 4533,
-                "end": 4538
-            },
-            "alternate": {
-                "kind": 168,
-                "flags": 128,
-                "start": 4538,
+                "start": 4537,
                 "end": 4540
             },
-            "flags": 128,
-            "start": 4505,
-            "end": 4540
-        },
-        {
-            "kind": 164,
-            "ifKeyword": {
-                "kind": 37757019,
-                "flags": 768,
-                "start": 4540,
-                "end": 4543
-            },
             "expression": {
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0",
                 "flags": 768,
-                "start": 4544,
-                "end": 4545
+                "start": 4541,
+                "end": 4542
             },
             "consequent": {
-                "kind": 168,
-                "flags": 128,
-                "start": 4546,
-                "end": 4548
-            },
-            "elseKeyword": {
-                "kind": 4194389,
-                "flags": 768,
-                "start": 4548,
-                "end": 4553
-            },
-            "alternate": {
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
                     "text": "label",
                     "rawText": "label",
                     "flags": 768,
-                    "start": 4553,
-                    "end": 4559
+                    "start": 4543,
+                    "end": 4549
                 },
                 "statement": {
                     "kind": 176,
@@ -4217,8 +4111,8 @@ try {} catch(e) { for(var e of 0); };
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 768,
-                        "start": 4560,
-                        "end": 4569
+                        "start": 4550,
+                        "end": 4559
                     },
                     "generatorToken": null,
                     "name": {
@@ -4226,16 +4120,16 @@ try {} catch(e) { for(var e of 0); };
                         "text": "f",
                         "rawText": "f",
                         "flags": 768,
-                        "start": 4569,
-                        "end": 4571
+                        "start": 4559,
+                        "end": 4561
                     },
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
                         "trailingComma": false,
                         "flags": 256,
-                        "start": 4571,
-                        "end": 4573
+                        "start": 4561,
+                        "end": 4563
                     },
                     "contents": {
                         "kind": 216,
@@ -4245,26 +4139,132 @@ try {} catch(e) { for(var e of 0); };
                             "statements": [],
                             "multiline": false,
                             "flags": 256,
-                            "start": 4574,
-                            "end": 4574
+                            "start": 4564,
+                            "end": 4564
                         },
                         "flags": 256,
-                        "start": 4573,
-                        "end": 4575
+                        "start": 4563,
+                        "end": 4565
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 128,
-                    "start": 4560,
-                    "end": 4575
+                    "start": 4550,
+                    "end": 4565
                 },
                 "flags": 128,
-                "start": 4553,
-                "end": 4575
+                "start": 4543,
+                "end": 4565
+            },
+            "elseKeyword": {
+                "kind": 4194389,
+                "flags": 768,
+                "start": 4565,
+                "end": 4570
+            },
+            "alternate": {
+                "kind": 168,
+                "flags": 128,
+                "start": 4570,
+                "end": 4572
             },
             "flags": 128,
-            "start": 4540,
-            "end": 4575
+            "start": 4537,
+            "end": 4572
+        },
+        {
+            "kind": 164,
+            "ifKeyword": {
+                "kind": 37757019,
+                "flags": 768,
+                "start": 4572,
+                "end": 4575
+            },
+            "expression": {
+                "kind": 201392130,
+                "text": 0,
+                "rawText": "0",
+                "flags": 768,
+                "start": 4576,
+                "end": 4577
+            },
+            "consequent": {
+                "kind": 168,
+                "flags": 128,
+                "start": 4578,
+                "end": 4580
+            },
+            "elseKeyword": {
+                "kind": 4194389,
+                "flags": 768,
+                "start": 4580,
+                "end": 4585
+            },
+            "alternate": {
+                "kind": 163,
+                "label": {
+                    "kind": 134299649,
+                    "text": "label",
+                    "rawText": "label",
+                    "flags": 768,
+                    "start": 4585,
+                    "end": 4591
+                },
+                "statement": {
+                    "kind": 176,
+                    "declareKeyword": null,
+                    "asyncKeyword": null,
+                    "functionKeyword": {
+                        "kind": 37822554,
+                        "flags": 768,
+                        "start": 4592,
+                        "end": 4601
+                    },
+                    "generatorToken": null,
+                    "name": {
+                        "kind": 134299649,
+                        "text": "f",
+                        "rawText": "f",
+                        "flags": 768,
+                        "start": 4601,
+                        "end": 4603
+                    },
+                    "formalParameters": {
+                        "kind": 214,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "flags": 256,
+                        "start": 4603,
+                        "end": 4605
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
+                            "multiline": false,
+                            "flags": 256,
+                            "start": 4606,
+                            "end": 4606
+                        },
+                        "flags": 256,
+                        "start": 4605,
+                        "end": 4607
+                    },
+                    "typeParameters": null,
+                    "returnType": null,
+                    "flags": 128,
+                    "start": 4592,
+                    "end": 4607
+                },
+                "flags": 128,
+                "start": 4585,
+                "end": 4607
+            },
+            "flags": 128,
+            "start": 4572,
+            "end": 4607
         },
         {
             "kind": 176,
@@ -4273,30 +4273,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4575,
-                "end": 4672
+                "start": 4607,
+                "end": 4704
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4672,
-                "end": 4673
+                "start": 4704,
+                "end": 4705
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4673,
-                "end": 4675
+                "start": 4705,
+                "end": 4707
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4675,
-                "end": 4677
+                "start": 4707,
+                "end": 4709
             },
             "contents": {
                 "kind": 216,
@@ -4311,8 +4311,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4690,
-                                    "end": 4693
+                                    "start": 4722,
+                                    "end": 4725
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -4323,33 +4323,33 @@ try {} catch(e) { for(var e of 0); };
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
-                                            "start": 4680,
-                                            "end": 4681
+                                            "start": 4712,
+                                            "end": 4713
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 768,
-                                            "start": 4681,
-                                            "end": 4683
+                                            "start": 4713,
+                                            "end": 4715
                                         },
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 768,
-                                                "start": 4683,
-                                                "end": 4689
+                                                "start": 4715,
+                                                "end": 4721
                                             },
                                             "delegate": false,
                                             "asteriskToken": null,
                                             "expression": null,
                                             "flags": 256,
-                                            "start": 4683,
-                                            "end": 4689
+                                            "start": 4715,
+                                            "end": 4721
                                         },
                                         "flags": 256,
-                                        "start": 4678,
-                                        "end": 4689
+                                        "start": 4710,
+                                        "end": 4721
                                     }
                                 ],
                                 "asyncToken": null,
@@ -4359,38 +4359,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4693,
-                                    "end": 4695
+                                    "start": 4725,
+                                    "end": 4727
                                 },
                                 "flags": 256,
-                                "start": 4678,
-                                "end": 4695
+                                "start": 4710,
+                                "end": 4727
                             },
                             "flags": 128,
-                            "start": 4678,
-                            "end": 4696
+                            "start": 4710,
+                            "end": 4728
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4678,
-                    "end": 4696
+                    "start": 4710,
+                    "end": 4728
                 },
                 "flags": 256,
-                "start": 4677,
-                "end": 4698
+                "start": 4709,
+                "end": 4730
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4575,
-            "end": 4698
+            "start": 4607,
+            "end": 4730
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4698,
-            "end": 4699
+            "start": 4730,
+            "end": 4731
         },
         {
             "kind": 176,
@@ -4399,30 +4399,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4699,
-                "end": 4708
+                "start": 4731,
+                "end": 4740
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4708,
-                "end": 4709
+                "start": 4740,
+                "end": 4741
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4709,
-                "end": 4711
+                "start": 4741,
+                "end": 4743
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4711,
-                "end": 4713
+                "start": 4743,
+                "end": 4745
             },
             "contents": {
                 "kind": 216,
@@ -4437,8 +4437,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4728,
-                                    "end": 4731
+                                    "start": 4760,
+                                    "end": 4763
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -4449,22 +4449,22 @@ try {} catch(e) { for(var e of 0); };
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
-                                            "start": 4716,
-                                            "end": 4717
+                                            "start": 4748,
+                                            "end": 4749
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 768,
-                                            "start": 4717,
-                                            "end": 4719
+                                            "start": 4749,
+                                            "end": 4751
                                         },
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 768,
-                                                "start": 4719,
-                                                "end": 4725
+                                                "start": 4751,
+                                                "end": 4757
                                             },
                                             "delegate": false,
                                             "asteriskToken": null,
@@ -4473,16 +4473,16 @@ try {} catch(e) { for(var e of 0); };
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
-                                                "start": 4725,
-                                                "end": 4727
+                                                "start": 4757,
+                                                "end": 4759
                                             },
                                             "flags": 256,
-                                            "start": 4719,
-                                            "end": 4727
+                                            "start": 4751,
+                                            "end": 4759
                                         },
                                         "flags": 256,
-                                        "start": 4714,
-                                        "end": 4727
+                                        "start": 4746,
+                                        "end": 4759
                                     }
                                 ],
                                 "asyncToken": null,
@@ -4492,38 +4492,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4731,
-                                    "end": 4733
+                                    "start": 4763,
+                                    "end": 4765
                                 },
                                 "flags": 256,
-                                "start": 4714,
-                                "end": 4733
+                                "start": 4746,
+                                "end": 4765
                             },
                             "flags": 128,
-                            "start": 4714,
-                            "end": 4734
+                            "start": 4746,
+                            "end": 4766
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4714,
-                    "end": 4734
+                    "start": 4746,
+                    "end": 4766
                 },
                 "flags": 256,
-                "start": 4713,
-                "end": 4736
+                "start": 4745,
+                "end": 4768
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4699,
-            "end": 4736
+            "start": 4731,
+            "end": 4768
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4736,
-            "end": 4737
+            "start": 4768,
+            "end": 4769
         },
         {
             "kind": 176,
@@ -4532,30 +4532,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4737,
-                "end": 4746
+                "start": 4769,
+                "end": 4778
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4746,
-                "end": 4747
+                "start": 4778,
+                "end": 4779
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4747,
-                "end": 4749
+                "start": 4779,
+                "end": 4781
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4749,
-                "end": 4751
+                "start": 4781,
+                "end": 4783
             },
             "contents": {
                 "kind": 216,
@@ -4570,8 +4570,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4767,
-                                    "end": 4770
+                                    "start": 4799,
+                                    "end": 4802
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -4582,45 +4582,45 @@ try {} catch(e) { for(var e of 0); };
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
-                                            "start": 4754,
-                                            "end": 4755
+                                            "start": 4786,
+                                            "end": 4787
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 768,
-                                            "start": 4755,
-                                            "end": 4757
+                                            "start": 4787,
+                                            "end": 4789
                                         },
                                         "right": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 768,
-                                                "start": 4757,
-                                                "end": 4763
+                                                "start": 4789,
+                                                "end": 4795
                                             },
                                             "delegate": true,
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 768,
-                                                "start": 4763,
-                                                "end": 4764
+                                                "start": 4795,
+                                                "end": 4796
                                             },
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 768,
-                                                "start": 4764,
-                                                "end": 4766
+                                                "start": 4796,
+                                                "end": 4798
                                             },
                                             "flags": 256,
-                                            "start": 4757,
-                                            "end": 4766
+                                            "start": 4789,
+                                            "end": 4798
                                         },
                                         "flags": 256,
-                                        "start": 4752,
-                                        "end": 4766
+                                        "start": 4784,
+                                        "end": 4798
                                     }
                                 ],
                                 "asyncToken": null,
@@ -4630,38 +4630,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4770,
-                                    "end": 4772
+                                    "start": 4802,
+                                    "end": 4804
                                 },
                                 "flags": 256,
-                                "start": 4752,
-                                "end": 4772
+                                "start": 4784,
+                                "end": 4804
                             },
                             "flags": 128,
-                            "start": 4752,
-                            "end": 4773
+                            "start": 4784,
+                            "end": 4805
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4752,
-                    "end": 4773
+                    "start": 4784,
+                    "end": 4805
                 },
                 "flags": 256,
-                "start": 4751,
-                "end": 4775
+                "start": 4783,
+                "end": 4807
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4737,
-            "end": 4775
+            "start": 4769,
+            "end": 4807
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4775,
-            "end": 4776
+            "start": 4807,
+            "end": 4808
         },
         {
             "kind": 176,
@@ -4670,30 +4670,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4776,
-                "end": 4785
+                "start": 4808,
+                "end": 4817
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4785,
-                "end": 4786
+                "start": 4817,
+                "end": 4818
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4786,
-                "end": 4788
+                "start": 4818,
+                "end": 4820
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4788,
-                "end": 4790
+                "start": 4820,
+                "end": 4822
             },
             "contents": {
                 "kind": 216,
@@ -4708,8 +4708,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4810,
-                                    "end": 4813
+                                    "start": 4842,
+                                    "end": 4845
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -4720,14 +4720,14 @@ try {} catch(e) { for(var e of 0); };
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 768,
-                                            "start": 4793,
-                                            "end": 4794
+                                            "start": 4825,
+                                            "end": 4826
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 768,
-                                            "start": 4794,
-                                            "end": 4796
+                                            "start": 4826,
+                                            "end": 4828
                                         },
                                         "right": {
                                             "kind": 198,
@@ -4736,14 +4736,14 @@ try {} catch(e) { for(var e of 0); };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 768,
-                                                "start": 4796,
-                                                "end": 4798
+                                                "start": 4828,
+                                                "end": 4830
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
                                                 "flags": 768,
-                                                "start": 4798,
-                                                "end": 4800
+                                                "start": 4830,
+                                                "end": 4832
                                             },
                                             "right": {
                                                 "kind": 131,
@@ -4752,8 +4752,8 @@ try {} catch(e) { for(var e of 0); };
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 768,
-                                                    "start": 4800,
-                                                    "end": 4802
+                                                    "start": 4832,
+                                                    "end": 4834
                                                 },
                                                 "argumentList": {
                                                     "kind": 256,
@@ -4763,33 +4763,33 @@ try {} catch(e) { for(var e of 0); };
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
                                                                 "flags": 768,
-                                                                "start": 4803,
-                                                                "end": 4808
+                                                                "start": 4835,
+                                                                "end": 4840
                                                             },
                                                             "delegate": false,
                                                             "asteriskToken": null,
                                                             "expression": null,
                                                             "flags": 256,
-                                                            "start": 4803,
-                                                            "end": 4808
+                                                            "start": 4835,
+                                                            "end": 4840
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 256,
-                                                    "start": 4803,
-                                                    "end": 4808
+                                                    "start": 4835,
+                                                    "end": 4840
                                                 },
                                                 "flags": 256,
-                                                "start": 4800,
-                                                "end": 4809
+                                                "start": 4832,
+                                                "end": 4841
                                             },
                                             "flags": 256,
-                                            "start": 4796,
-                                            "end": 4809
+                                            "start": 4828,
+                                            "end": 4841
                                         },
                                         "flags": 256,
-                                        "start": 4791,
-                                        "end": 4809
+                                        "start": 4823,
+                                        "end": 4841
                                     }
                                 ],
                                 "asyncToken": null,
@@ -4799,38 +4799,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4813,
-                                    "end": 4815
+                                    "start": 4845,
+                                    "end": 4847
                                 },
                                 "flags": 256,
-                                "start": 4791,
-                                "end": 4815
+                                "start": 4823,
+                                "end": 4847
                             },
                             "flags": 128,
-                            "start": 4791,
-                            "end": 4816
+                            "start": 4823,
+                            "end": 4848
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4791,
-                    "end": 4816
+                    "start": 4823,
+                    "end": 4848
                 },
                 "flags": 256,
-                "start": 4790,
-                "end": 4818
+                "start": 4822,
+                "end": 4850
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4776,
-            "end": 4818
+            "start": 4808,
+            "end": 4850
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4818,
-            "end": 4819
+            "start": 4850,
+            "end": 4851
         },
         {
             "kind": 176,
@@ -4839,30 +4839,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4819,
-                "end": 4828
+                "start": 4851,
+                "end": 4860
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4828,
-                "end": 4829
+                "start": 4860,
+                "end": 4861
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4829,
-                "end": 4831
+                "start": 4861,
+                "end": 4863
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4831,
-                "end": 4833
+                "start": 4863,
+                "end": 4865
             },
             "contents": {
                 "kind": 216,
@@ -4877,8 +4877,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4849,
-                                    "end": 4852
+                                    "start": 4881,
+                                    "end": 4884
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -4894,8 +4894,8 @@ try {} catch(e) { for(var e of 0); };
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,
-                                                        "start": 4845,
-                                                        "end": 4847
+                                                        "start": 4877,
+                                                        "end": 4879
                                                     },
                                                     "right": {
                                                         "kind": 194,
@@ -4904,34 +4904,34 @@ try {} catch(e) { for(var e of 0); };
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
                                                                 "flags": 768,
-                                                                "start": 4838,
-                                                                "end": 4843
+                                                                "start": 4870,
+                                                                "end": 4875
                                                             },
                                                             "delegate": false,
                                                             "asteriskToken": null,
                                                             "expression": null,
                                                             "flags": 256,
-                                                            "start": 4838,
-                                                            "end": 4843
+                                                            "start": 4870,
+                                                            "end": 4875
                                                         },
                                                         "flags": 256,
-                                                        "start": 4837,
-                                                        "end": 4844
+                                                        "start": 4869,
+                                                        "end": 4876
                                                     },
                                                     "flags": 256,
-                                                    "start": 4837,
-                                                    "end": 4847
+                                                    "start": 4869,
+                                                    "end": 4879
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "start": 4837,
-                                            "end": 4847
+                                            "start": 4869,
+                                            "end": 4879
                                         },
                                         "flags": 256,
-                                        "start": 4836,
-                                        "end": 4848
+                                        "start": 4868,
+                                        "end": 4880
                                     }
                                 ],
                                 "asyncToken": null,
@@ -4941,38 +4941,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4852,
-                                    "end": 4854
+                                    "start": 4884,
+                                    "end": 4886
                                 },
                                 "flags": 256,
-                                "start": 4834,
-                                "end": 4854
+                                "start": 4866,
+                                "end": 4886
                             },
                             "flags": 128,
-                            "start": 4834,
-                            "end": 4855
+                            "start": 4866,
+                            "end": 4887
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4834,
-                    "end": 4855
+                    "start": 4866,
+                    "end": 4887
                 },
                 "flags": 256,
-                "start": 4833,
-                "end": 4857
+                "start": 4865,
+                "end": 4889
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4819,
-            "end": 4857
+            "start": 4851,
+            "end": 4889
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4857,
-            "end": 4858
+            "start": 4889,
+            "end": 4890
         },
         {
             "kind": 176,
@@ -4981,30 +4981,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4858,
-                "end": 4867
+                "start": 4890,
+                "end": 4899
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4867,
-                "end": 4868
+                "start": 4899,
+                "end": 4900
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4868,
-                "end": 4870
+                "start": 4900,
+                "end": 4902
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4870,
-                "end": 4872
+                "start": 4902,
+                "end": 4904
             },
             "contents": {
                 "kind": 216,
@@ -5019,8 +5019,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4887,
-                                    "end": 4890
+                                    "start": 4919,
+                                    "end": 4922
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -5036,38 +5036,38 @@ try {} catch(e) { for(var e of 0); };
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,
-                                                        "start": 4876,
-                                                        "end": 4877
+                                                        "start": 4908,
+                                                        "end": 4909
                                                     },
                                                     "right": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
                                                             "flags": 768,
-                                                            "start": 4879,
-                                                            "end": 4885
+                                                            "start": 4911,
+                                                            "end": 4917
                                                         },
                                                         "delegate": false,
                                                         "asteriskToken": null,
                                                         "expression": null,
                                                         "flags": 256,
-                                                        "start": 4879,
-                                                        "end": 4885
+                                                        "start": 4911,
+                                                        "end": 4917
                                                     },
                                                     "flags": 256,
-                                                    "start": 4876,
-                                                    "end": 4885
+                                                    "start": 4908,
+                                                    "end": 4917
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "multiline": false,
                                             "flags": 0,
-                                            "start": 4876,
-                                            "end": 4885
+                                            "start": 4908,
+                                            "end": 4917
                                         },
                                         "flags": 256,
-                                        "start": 4875,
-                                        "end": 4886
+                                        "start": 4907,
+                                        "end": 4918
                                     }
                                 ],
                                 "asyncToken": null,
@@ -5077,38 +5077,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4890,
-                                    "end": 4892
+                                    "start": 4922,
+                                    "end": 4924
                                 },
                                 "flags": 256,
-                                "start": 4873,
-                                "end": 4892
+                                "start": 4905,
+                                "end": 4924
                             },
                             "flags": 128,
-                            "start": 4873,
-                            "end": 4893
+                            "start": 4905,
+                            "end": 4925
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4873,
-                    "end": 4893
+                    "start": 4905,
+                    "end": 4925
                 },
                 "flags": 256,
-                "start": 4872,
-                "end": 4895
+                "start": 4904,
+                "end": 4927
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4858,
-            "end": 4895
+            "start": 4890,
+            "end": 4927
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4895,
-            "end": 4896
+            "start": 4927,
+            "end": 4928
         },
         {
             "kind": 176,
@@ -5117,30 +5117,30 @@ try {} catch(e) { for(var e of 0); };
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 768,
-                "start": 4896,
-                "end": 4905
+                "start": 4928,
+                "end": 4937
             },
             "generatorToken": {
                 "kind": 67143222,
                 "flags": 768,
-                "start": 4905,
-                "end": 4906
+                "start": 4937,
+                "end": 4938
             },
             "name": {
                 "kind": 134299649,
                 "text": "g",
                 "rawText": "g",
                 "flags": 768,
-                "start": 4906,
-                "end": 4908
+                "start": 4938,
+                "end": 4940
             },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 256,
-                "start": 4908,
-                "end": 4910
+                "start": 4940,
+                "end": 4942
             },
             "contents": {
                 "kind": 216,
@@ -5155,8 +5155,8 @@ try {} catch(e) { for(var e of 0); };
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 768,
-                                    "start": 4925,
-                                    "end": 4928
+                                    "start": 4957,
+                                    "end": 4960
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -5172,43 +5172,43 @@ try {} catch(e) { for(var e of 0); };
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 768,
-                                                        "start": 4914,
-                                                        "end": 4915
+                                                        "start": 4946,
+                                                        "end": 4947
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 768,
-                                                        "start": 4915,
-                                                        "end": 4917
+                                                        "start": 4947,
+                                                        "end": 4949
                                                     },
                                                     "right": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
                                                             "flags": 768,
-                                                            "start": 4917,
-                                                            "end": 4923
+                                                            "start": 4949,
+                                                            "end": 4955
                                                         },
                                                         "delegate": false,
                                                         "asteriskToken": null,
                                                         "expression": null,
                                                         "flags": 256,
-                                                        "start": 4917,
-                                                        "end": 4923
+                                                        "start": 4949,
+                                                        "end": 4955
                                                     },
                                                     "flags": 256,
-                                                    "start": 4914,
-                                                    "end": 4923
+                                                    "start": 4946,
+                                                    "end": 4955
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 256,
-                                            "start": 4914,
-                                            "end": 4923
+                                            "start": 4946,
+                                            "end": 4955
                                         },
                                         "flags": 256,
-                                        "start": 4913,
-                                        "end": 4924
+                                        "start": 4945,
+                                        "end": 4956
                                     }
                                 ],
                                 "asyncToken": null,
@@ -5218,38 +5218,38 @@ try {} catch(e) { for(var e of 0); };
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 4928,
-                                    "end": 4930
+                                    "start": 4960,
+                                    "end": 4962
                                 },
                                 "flags": 256,
-                                "start": 4911,
-                                "end": 4930
+                                "start": 4943,
+                                "end": 4962
                             },
                             "flags": 128,
-                            "start": 4911,
-                            "end": 4931
+                            "start": 4943,
+                            "end": 4963
                         }
                     ],
                     "multiline": false,
                     "flags": 256,
-                    "start": 4911,
-                    "end": 4931
+                    "start": 4943,
+                    "end": 4963
                 },
                 "flags": 256,
-                "start": 4910,
-                "end": 4933
+                "start": 4942,
+                "end": 4965
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 2176,
-            "start": 4896,
-            "end": 4933
+            "start": 4928,
+            "end": 4965
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 4933,
-            "end": 4934
+            "start": 4965,
+            "end": 4966
         },
         {
             "kind": 120,
@@ -5257,12 +5257,12 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 221,
                 "text": "/./",
                 "flags": 768,
-                "start": 4934,
-                "end": 5029
+                "start": 4966,
+                "end": 5061
             },
             "flags": 128,
-            "start": 4934,
-            "end": 5029
+            "start": 4966,
+            "end": 5061
         },
         {
             "kind": 120,
@@ -5271,12 +5271,12 @@ try {} catch(e) { for(var e of 0); };
                 "text": "i",
                 "rawText": "0",
                 "flags": 768,
-                "start": 5030,
-                "end": 5036
+                "start": 5062,
+                "end": 5068
             },
             "flags": 128,
-            "start": 5030,
-            "end": 5037
+            "start": 5062,
+            "end": 5069
         },
         {
             "kind": 120,
@@ -5284,12 +5284,12 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 221,
                 "text": "/./",
                 "flags": 768,
-                "start": 5037,
-                "end": 5041
+                "start": 5069,
+                "end": 5073
             },
             "flags": 128,
-            "start": 5037,
-            "end": 5041
+            "start": 5069,
+            "end": 5073
         },
         {
             "kind": 120,
@@ -5298,20 +5298,20 @@ try {} catch(e) { for(var e of 0); };
                 "text": "i",
                 "rawText": "0",
                 "flags": 768,
-                "start": 5042,
-                "end": 5048
+                "start": 5074,
+                "end": 5080
             },
             "flags": 128,
-            "start": 5042,
-            "end": 5049
+            "start": 5074,
+            "end": 5081
         },
         {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 768,
-                "start": 5049,
-                "end": 5209
+                "start": 5081,
+                "end": 5241
             },
             "block": {
                 "kind": 249,
@@ -5320,28 +5320,28 @@ try {} catch(e) { for(var e of 0); };
                     "statements": [],
                     "multiLine": false,
                     "flags": 128,
-                    "start": 5211,
-                    "end": 5211
+                    "start": 5243,
+                    "end": 5243
                 },
                 "flags": 128,
-                "start": 5209,
-                "end": 5212
+                "start": 5241,
+                "end": 5244
             },
             "catchClause": {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 768,
-                    "start": 5212,
-                    "end": 5218
+                    "start": 5244,
+                    "end": 5250
                 },
                 "catchParameter": {
                     "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
                     "flags": 768,
-                    "start": 5219,
-                    "end": 5220
+                    "start": 5251,
+                    "end": 5252
                 },
                 "block": {
                     "kind": 249,
@@ -5353,8 +5353,8 @@ try {} catch(e) { for(var e of 0); };
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 768,
-                                    "start": 5223,
-                                    "end": 5227
+                                    "start": 5255,
+                                    "end": 5259
                                 },
                                 "binding": {
                                     "kind": 151,
@@ -5366,58 +5366,58 @@ try {} catch(e) { for(var e of 0); };
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 768,
-                                                "start": 5227,
-                                                "end": 5229
+                                                "start": 5259,
+                                                "end": 5261
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 128,
-                                            "start": 5227,
-                                            "end": 5229
+                                            "start": 5259,
+                                            "end": 5261
                                         }
                                     ],
                                     "flags": 128,
-                                    "start": 5227,
-                                    "end": 5229
+                                    "start": 5259,
+                                    "end": 5261
                                 },
                                 "flags": 128,
-                                "start": 5223,
-                                "end": 5230
+                                "start": 5255,
+                                "end": 5262
                             }
                         ],
                         "multiLine": false,
                         "flags": 128,
-                        "start": 5223,
-                        "end": 5230
+                        "start": 5255,
+                        "end": 5262
                     },
                     "flags": 128,
-                    "start": 5221,
-                    "end": 5232
+                    "start": 5253,
+                    "end": 5264
                 },
                 "flags": 128,
-                "start": 5212,
-                "end": 5232
+                "start": 5244,
+                "end": 5264
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 128,
-            "start": 5049,
-            "end": 5232
+            "start": 5081,
+            "end": 5264
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 5232,
-            "end": 5233
+            "start": 5264,
+            "end": 5265
         },
         {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 768,
-                "start": 5233,
-                "end": 5237
+                "start": 5265,
+                "end": 5269
             },
             "block": {
                 "kind": 249,
@@ -5426,28 +5426,28 @@ try {} catch(e) { for(var e of 0); };
                     "statements": [],
                     "multiLine": false,
                     "flags": 128,
-                    "start": 5239,
-                    "end": 5239
+                    "start": 5271,
+                    "end": 5271
                 },
                 "flags": 128,
-                "start": 5237,
-                "end": 5240
+                "start": 5269,
+                "end": 5272
             },
             "catchClause": {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 768,
-                    "start": 5240,
-                    "end": 5246
+                    "start": 5272,
+                    "end": 5278
                 },
                 "catchParameter": {
                     "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
                     "flags": 768,
-                    "start": 5247,
-                    "end": 5248
+                    "start": 5279,
+                    "end": 5280
                 },
                 "block": {
                     "kind": 249,
@@ -5461,8 +5461,8 @@ try {} catch(e) { for(var e of 0); };
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 768,
-                                    "start": 5251,
-                                    "end": 5260
+                                    "start": 5283,
+                                    "end": 5292
                                 },
                                 "generatorToken": null,
                                 "name": {
@@ -5470,16 +5470,16 @@ try {} catch(e) { for(var e of 0); };
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 768,
-                                    "start": 5260,
-                                    "end": 5262
+                                    "start": 5292,
+                                    "end": 5294
                                 },
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
                                     "flags": 256,
-                                    "start": 5262,
-                                    "end": 5264
+                                    "start": 5294,
+                                    "end": 5296
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -5489,52 +5489,52 @@ try {} catch(e) { for(var e of 0); };
                                         "statements": [],
                                         "multiline": false,
                                         "flags": 256,
-                                        "start": 5265,
-                                        "end": 5265
+                                        "start": 5297,
+                                        "end": 5297
                                     },
                                     "flags": 256,
-                                    "start": 5264,
-                                    "end": 5266
+                                    "start": 5296,
+                                    "end": 5298
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
                                 "flags": 128,
-                                "start": 5251,
-                                "end": 5266
+                                "start": 5283,
+                                "end": 5298
                             }
                         ],
                         "multiLine": false,
                         "flags": 128,
-                        "start": 5251,
-                        "end": 5266
+                        "start": 5283,
+                        "end": 5298
                     },
                     "flags": 128,
-                    "start": 5249,
-                    "end": 5268
+                    "start": 5281,
+                    "end": 5300
                 },
                 "flags": 128,
-                "start": 5240,
-                "end": 5268
+                "start": 5272,
+                "end": 5300
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 128,
-            "start": 5233,
-            "end": 5268
+            "start": 5265,
+            "end": 5300
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 5268,
-            "end": 5269
+            "start": 5300,
+            "end": 5301
         },
         {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 768,
-                "start": 5269,
-                "end": 5553
+                "start": 5301,
+                "end": 5585
             },
             "block": {
                 "kind": 249,
@@ -5543,28 +5543,28 @@ try {} catch(e) { for(var e of 0); };
                     "statements": [],
                     "multiLine": false,
                     "flags": 128,
-                    "start": 5555,
-                    "end": 5555
+                    "start": 5587,
+                    "end": 5587
                 },
                 "flags": 128,
-                "start": 5553,
-                "end": 5556
+                "start": 5585,
+                "end": 5588
             },
             "catchClause": {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 768,
-                    "start": 5556,
-                    "end": 5562
+                    "start": 5588,
+                    "end": 5594
                 },
                 "catchParameter": {
                     "kind": 134299649,
                     "text": "e",
                     "rawText": "e",
                     "flags": 768,
-                    "start": 5563,
-                    "end": 5564
+                    "start": 5595,
+                    "end": 5596
                 },
                 "block": {
                     "kind": 249,
@@ -5576,8 +5576,8 @@ try {} catch(e) { for(var e of 0); };
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 768,
-                                    "start": 5567,
-                                    "end": 5571
+                                    "start": 5599,
+                                    "end": 5603
                                 },
                                 "initializer": {
                                     "kind": 156,
@@ -5589,65 +5589,65 @@ try {} catch(e) { for(var e of 0); };
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 768,
-                                                "start": 5575,
-                                                "end": 5577
+                                                "start": 5607,
+                                                "end": 5609
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 128,
-                                            "start": 5575,
-                                            "end": 5577
+                                            "start": 5607,
+                                            "end": 5609
                                         }
                                     ],
                                     "flags": 128,
-                                    "start": 5575,
-                                    "end": 5577
+                                    "start": 5607,
+                                    "end": 5609
                                 },
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 768,
-                                    "start": 5580,
-                                    "end": 5582
+                                    "start": 5612,
+                                    "end": 5614
                                 },
                                 "statement": {
                                     "kind": 168,
                                     "flags": 128,
-                                    "start": 5583,
-                                    "end": 5584
+                                    "start": 5615,
+                                    "end": 5616
                                 },
                                 "awaitKeyword": null,
                                 "flags": 128,
-                                "start": 5567,
-                                "end": 5584
+                                "start": 5599,
+                                "end": 5616
                             }
                         ],
                         "multiLine": false,
                         "flags": 128,
-                        "start": 5567,
-                        "end": 5584
+                        "start": 5599,
+                        "end": 5616
                     },
                     "flags": 128,
-                    "start": 5565,
-                    "end": 5586
+                    "start": 5597,
+                    "end": 5618
                 },
                 "flags": 128,
-                "start": 5556,
-                "end": 5586
+                "start": 5588,
+                "end": 5618
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 128,
-            "start": 5269,
-            "end": 5586
+            "start": 5301,
+            "end": 5618
         },
         {
             "kind": 168,
             "flags": 128,
-            "start": 5586,
-            "end": 5587
+            "start": 5618,
+            "end": 5619
         }
     ],
     "isModule": false,
@@ -5655,90 +5655,90 @@ try {} catch(e) { for(var e of 0); };
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 5588
+    "end": 5620
 }
 ```
 
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 659, end: 661
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 783, end: 784
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1057, end: 1059
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1076, end: 1078
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1096, end: 1098
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1112, end: 1114
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1122, end: 1124
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1313, end: 1315
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1429, end: 1431
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1441, end: 1443
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1452, end: 1455
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 1464, end: 1467
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1473, end: 1476
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1762, end: 1764
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1777, end: 1779
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1960, end: 1962
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1977, end: 1979
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2267, end: 2269
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2282, end: 2284
-@{x2716}@ Invalid left-hand side in for-of loop - start: 2300, end: 2302
-@{x2716}@ Invalid left-hand side in for-of loop - start: 2315, end: 2317
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2422, end: 2424
-@{x2716}@ Invalid left-hand side in for-of loop - start: 2435, end: 2437
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2777, end: 2779
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2794, end: 2796
-@{x2716}@ Invalid left-hand side in for-of loop - start: 2814, end: 2816
-@{x2716}@ Invalid left-hand side in for-of loop - start: 2831, end: 2833
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2846, end: 2848
-@{x2716}@ Invalid left-hand side in for-of loop - start: 2861, end: 2863
-@{x2716}@ Invalid hexadecimal escape sequence - start: 2865, end: 2937
-@{x2716}@ Statement expected - start: 2865, end: 2938
-@{x2716}@ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
-@{x2716}@ Statement expected - start: 2938, end: 2939
-@{x2716}@ Invalid hexadecimal escape sequence - start: 2949, end: 2950
-@{x2716}@ Statement expected - start: 2949, end: 2951
-@{x2716}@ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
-@{x2716}@ Statement expected - start: 2951, end: 2952
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3058, end: 3058
-@{x2716}@ Statement expected - start: 3058, end: 3059
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3070, end: 3070
-@{x2716}@ Statement expected - start: 3070, end: 3071
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3358, end: 3359
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3433, end: 3434
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3509, end: 3510
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3520, end: 3712
-@{x2716}@ Statement expected - start: 3520, end: 3713
-@{x2716}@ Statement expected - start: 3713, end: 3719
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3720, end: 3721
-@{x2716}@ Statement expected - start: 3720, end: 3722
-@{x2716}@ Statement expected - start: 3722, end: 3727
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3728, end: 3959
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3959, end: 3959
-@{x2716}@ Statement expected - start: 3959, end: 3960
-@{x2716}@ Statement expected - start: 3960, end: 3966
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3967, end: 3969
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3969, end: 3969
-@{x2716}@ Statement expected - start: 3969, end: 3970
-@{x2716}@ Statement expected - start: 3970, end: 3975
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4453, end: 4462
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4490, end: 4499
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4518, end: 4527
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 4560, end: 4569
-@{x2716}@ Invalid hexadecimal escape sequence - start: 5029, end: 5029
-@{x2716}@ Statement expected - start: 5029, end: 5030
-@{x2716}@ Invalid hexadecimal escape sequence - start: 5041, end: 5041
-@{x2716}@ Statement expected - start: 5041, end: 5042
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 659, end: 661
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 783, end: 784
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1057, end: 1059
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1076, end: 1078
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1096, end: 1098
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1112, end: 1114
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1122, end: 1124
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1313, end: 1315
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1429, end: 1431
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1441, end: 1443
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1452, end: 1455
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 1464, end: 1467
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1473, end: 1476
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1762, end: 1764
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1777, end: 1779
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1960, end: 1962
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1977, end: 1979
+✖ Invalid left-hand side in for-in loop - start: 2267, end: 2269
+✖ Invalid left-hand side in for-in loop - start: 2282, end: 2284
+✖ Invalid left-hand side in for-of loop - start: 2300, end: 2302
+✖ Invalid left-hand side in for-of loop - start: 2315, end: 2317
+✖ Invalid left-hand side in for-in loop - start: 2422, end: 2424
+✖ Invalid left-hand side in for-of loop - start: 2435, end: 2437
+✖ Invalid left-hand side in for-in loop - start: 2777, end: 2779
+✖ Invalid left-hand side in for-in loop - start: 2794, end: 2796
+✖ Invalid left-hand side in for-of loop - start: 2814, end: 2816
+✖ Invalid left-hand side in for-of loop - start: 2831, end: 2833
+✖ Invalid left-hand side in for-in loop - start: 2846, end: 2848
+✖ Invalid left-hand side in for-of loop - start: 2861, end: 2863
+✖ Invalid hexadecimal escape sequence - start: 2865, end: 2937
+✖ Statement expected - start: 2865, end: 2938
+✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
+✖ Statement expected - start: 2938, end: 2939
+✖ Invalid hexadecimal escape sequence - start: 2949, end: 2950
+✖ Statement expected - start: 2949, end: 2951
+✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
+✖ Statement expected - start: 2951, end: 2952
+✖ Invalid hexadecimal escape sequence - start: 3058, end: 3058
+✖ Statement expected - start: 3058, end: 3059
+✖ Invalid hexadecimal escape sequence - start: 3070, end: 3070
+✖ Statement expected - start: 3070, end: 3071
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3358, end: 3359
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3433, end: 3434
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3509, end: 3510
+✖ Invalid hexadecimal escape sequence - start: 3520, end: 3728
+✖ Statement expected - start: 3520, end: 3729
+✖ Statement expected - start: 3729, end: 3735
+✖ Invalid hexadecimal escape sequence - start: 3736, end: 3737
+✖ Statement expected - start: 3736, end: 3738
+✖ Statement expected - start: 3738, end: 3743
+✖ Invalid hexadecimal escape sequence - start: 3744, end: 3991
+✖ Invalid hexadecimal escape sequence - start: 3991, end: 3991
+✖ Statement expected - start: 3991, end: 3992
+✖ Statement expected - start: 3992, end: 3998
+✖ Invalid hexadecimal escape sequence - start: 3999, end: 4001
+✖ Invalid hexadecimal escape sequence - start: 4001, end: 4001
+✖ Statement expected - start: 4001, end: 4002
+✖ Statement expected - start: 4002, end: 4007
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 4485, end: 4494
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 4522, end: 4531
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 4550, end: 4559
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 4592, end: 4601
+✖ Invalid hexadecimal escape sequence - start: 5061, end: 5061
+✖ Statement expected - start: 5061, end: 5062
+✖ Invalid hexadecimal escape sequence - start: 5073, end: 5073
+✖ Statement expected - start: 5073, end: 5074
 
 ```
 

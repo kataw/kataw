@@ -170,15 +170,15 @@ for (class x extends a in b {} in c);
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid left-hand side in for-in loop - start: 25, end: 27
-@{x2716}@ Expression expected - start: 30, end: 33
-@{x2716}@ Statement expected - start: 35, end: 36
+✖ Invalid left-hand side in for-in loop - start: 25, end: 27
+✖ Expression expected - start: 30, end: 33
+✖ Statement expected - start: 35, end: 36
 
 ```
 

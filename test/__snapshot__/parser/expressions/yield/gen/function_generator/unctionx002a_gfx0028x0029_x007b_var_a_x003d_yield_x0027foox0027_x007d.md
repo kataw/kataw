@@ -257,13 +257,13 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 69, end: 75
+✖ ',' expected - start: 69, end: 75
 
 ```
 

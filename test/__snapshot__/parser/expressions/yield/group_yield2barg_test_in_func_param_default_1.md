@@ -152,16 +152,16 @@ function f(x=(yield z)=y){}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 19, end: 21
-@{x2716}@ Unexpected token. - start: 22, end: 23
-@{x2716}@ Statement expected - start: 22, end: 23
-@{x2716}@ Statement expected - start: 24, end: 25
+✖ ',' expected - start: 19, end: 21
+✖ Unexpected token. - start: 22, end: 23
+✖ Statement expected - start: 22, end: 23
+✖ Statement expected - start: 24, end: 25
 
 ```
 

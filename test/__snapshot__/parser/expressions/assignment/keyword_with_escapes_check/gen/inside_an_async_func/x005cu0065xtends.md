@@ -82,15 +82,15 @@ async () => {  \u0065xtends = x  }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 13, end: 27
-@{x2716}@ Statement expected - start: 27, end: 29
-@{x2716}@ Statement expected - start: 31, end: 34
+✖ Statement expected - start: 13, end: 27
+✖ Statement expected - start: 27, end: 29
+✖ Statement expected - start: 31, end: 34
 
 ```
 

@@ -167,14 +167,14 @@ async function p(){
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 39, end: 41
-@{x2716}@ Statement expected - start: 46, end: 48
+✖ Statement expected - start: 39, end: 41
+✖ Statement expected - start: 46, end: 48
 
 ```
 

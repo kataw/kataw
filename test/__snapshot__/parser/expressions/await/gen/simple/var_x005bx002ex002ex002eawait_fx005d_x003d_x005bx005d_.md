@@ -131,13 +131,13 @@ var [...await f] = [];
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 13, end: 15
+✖ ',' expected - start: 13, end: 15
 
 ```
 

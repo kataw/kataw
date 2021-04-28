@@ -140,13 +140,13 @@ let x = () => import {x} from "y"
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 23, end: 24
+✖ Statement expected - start: 23, end: 24
 
 ```
 

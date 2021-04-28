@@ -207,17 +207,17 @@ async function f(){   function fh([+ await x]) { }   }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 35, end: 36
-@{x2716}@ Unexpected token. - start: 35, end: 36
-@{x2716}@ Statement expected - start: 44, end: 45
-@{x2716}@ Statement expected - start: 45, end: 46
-@{x2716}@ Statement expected - start: 50, end: 54
+✖ ',' expected - start: 35, end: 36
+✖ Unexpected token. - start: 35, end: 36
+✖ Statement expected - start: 44, end: 45
+✖ Statement expected - start: 45, end: 46
+✖ Statement expected - start: 50, end: 54
 
 ```
 

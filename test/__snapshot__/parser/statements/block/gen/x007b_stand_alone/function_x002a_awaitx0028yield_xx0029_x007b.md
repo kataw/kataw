@@ -157,15 +157,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ `Yield` expression cannot be used in function parameters - start: 19, end: 24
-@{x2716}@ ',' expected - start: 24, end: 26
-@{x2716}@ Unexpected token. - start: 27, end: 29
+✖ `Yield` expression cannot be used in function parameters - start: 19, end: 24
+✖ ',' expected - start: 24, end: 26
+✖ Unexpected token. - start: 27, end: 29
 
 ```
 

@@ -115,14 +115,14 @@ do while [catch] /**/ /x do while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 16, end: 23
-@{x2716}@ Expression expected - start: 33, end: 33
+✖ Unexpected token. - start: 16, end: 23
+✖ Expression expected - start: 33, end: 33
 
 ```
 

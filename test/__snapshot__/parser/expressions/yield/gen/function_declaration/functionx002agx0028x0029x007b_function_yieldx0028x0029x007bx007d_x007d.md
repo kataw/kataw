@@ -189,14 +189,14 @@ function not_gen() { function*g(){ function yield(){}; } }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
-@{x2716}@ Statement expected - start: 58, end: 59
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
+✖ Statement expected - start: 58, end: 59
 
 ```
 

@@ -115,14 +115,14 @@ do async try while { catch }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 12, end: 18
-@{x2716}@ Expression expected - start: 28, end: 28
+✖ Expression expected - start: 12, end: 18
+✖ Expression expected - start: 28, end: 28
 
 ```
 

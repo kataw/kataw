@@ -138,16 +138,16 @@ switch[ function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 16, end: 22
-@{x2716}@ ',' expected - start: 16, end: 22
-@{x2716}@ Expression expected - start: 22, end: 22
-@{x2716}@ Expression expected - start: 22, end: 22
+✖ Unexpected token. - start: 16, end: 22
+✖ ',' expected - start: 16, end: 22
+✖ Expression expected - start: 22, end: 22
+✖ Expression expected - start: 22, end: 22
 
 ```
 

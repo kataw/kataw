@@ -95,14 +95,14 @@ async () => {  debugge\u0072 = x  }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 28, end: 30
-@{x2716}@ Statement expected - start: 32, end: 35
+✖ Statement expected - start: 28, end: 30
+✖ Statement expected - start: 32, end: 35
 
 ```
 

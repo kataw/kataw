@@ -163,13 +163,13 @@ function not_gen() { function *a(){yield 2e308} }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 49, end: 50
+✖ Statement expected - start: 49, end: 50
 
 ```
 

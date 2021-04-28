@@ -984,23 +984,23 @@ async function f(){}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 11, end: 21
-@{x2716}@ ',' expected - start: 56, end: 65
-@{x2716}@ Unexpected token. - start: 56, end: 65
-@{x2716}@ Binding identifier expected - start: 104, end: 106
-@{x2716}@ Unexpected token. - start: 104, end: 106
-@{x2716}@ Unexpected token. - start: 126, end: 127
-@{x2716}@ Unexpected token. - start: 142, end: 143
-@{x2716}@ Expression expected - start: 172, end: 173
-@{x2716}@ Expression expected - start: 175, end: 176
-@{x2716}@ Unexpected token. - start: 222, end: 228
-@{x2716}@ Unexpected token. - start: 237, end: 238
+✖ Unexpected token. - start: 11, end: 21
+✖ ',' expected - start: 56, end: 65
+✖ Unexpected token. - start: 56, end: 65
+✖ Binding identifier expected - start: 104, end: 106
+✖ Unexpected token. - start: 104, end: 106
+✖ Unexpected token. - start: 126, end: 127
+✖ Unexpected token. - start: 142, end: 143
+✖ Expression expected - start: 172, end: 173
+✖ Expression expected - start: 175, end: 176
+✖ Unexpected token. - start: 222, end: 228
+✖ Unexpected token. - start: 237, end: 238
 
 ```
 

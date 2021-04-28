@@ -191,15 +191,15 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 50, end: 53
-@{x2716}@ Statement expected - start: 59, end: 61
-@{x2716}@ Statement expected - start: 61, end: 62
+✖ Statement expected - start: 50, end: 53
+✖ Statement expected - start: 59, end: 61
+✖ Statement expected - start: 61, end: 62
 
 ```
 

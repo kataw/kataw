@@ -487,14 +487,14 @@ x = # ;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid character - start: 7, end: 8
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 7, end: 8
+✖ Invalid character - start: 7, end: 8
+✖ Private identifiers are not allowed outside class_bodies - start: 7, end: 8
 
 ```
 

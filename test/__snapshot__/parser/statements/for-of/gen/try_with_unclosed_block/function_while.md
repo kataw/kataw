@@ -193,16 +193,16 @@ try {} finally(x) { function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 28, end: 34
-@{x2716}@ Unexpected token. - start: 28, end: 34
-@{x2716}@ Expression expected - start: 34, end: 34
-@{x2716}@ Expression expected - start: 34, end: 34
+✖ Binding identifier expected - start: 28, end: 34
+✖ Unexpected token. - start: 28, end: 34
+✖ Expression expected - start: 34, end: 34
+✖ Expression expected - start: 34, end: 34
 
 ```
 

@@ -239,17 +239,17 @@ switch( =! class function try while with foo! case
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 7, end: 9
-@{x2716}@ Binding identifier expected - start: 25, end: 29
-@{x2716}@ Unexpected token. - start: 25, end: 29
-@{x2716}@ Expression expected - start: 45, end: 50
-@{x2716}@ Statement expected - start: 45, end: 50
+✖ Expression expected - start: 7, end: 9
+✖ Binding identifier expected - start: 25, end: 29
+✖ Unexpected token. - start: 25, end: 29
+✖ Expression expected - start: 45, end: 50
+✖ Statement expected - start: 45, end: 50
 
 ```
 

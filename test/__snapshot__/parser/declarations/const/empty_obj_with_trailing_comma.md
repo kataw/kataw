@@ -105,15 +105,15 @@ const {,} = obj;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in const declaration - start: 7, end: 8
-@{x2716}@ Statement expected - start: 8, end: 9
-@{x2716}@ Statement expected - start: 9, end: 11
+✖ Missing initializer in const declaration - start: 7, end: 8
+✖ Statement expected - start: 8, end: 9
+✖ Statement expected - start: 9, end: 11
 
 ```
 

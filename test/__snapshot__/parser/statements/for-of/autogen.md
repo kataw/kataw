@@ -244,14 +244,14 @@ try[ #
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid character - start: 9, end: 11
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 9, end: 11
+✖ Invalid character - start: 9, end: 11
+✖ Private identifiers are not allowed outside class_bodies - start: 9, end: 11
 
 ```
 

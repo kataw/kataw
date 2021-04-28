@@ -126,18 +126,18 @@ const [foo:bar] = obj;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 10, end: 11
-@{x2716}@ Missing initializer in const declaration - start: 10, end: 11
-@{x2716}@ ',' expected - start: 10, end: 11
-@{x2716}@ Statement expected - start: 10, end: 11
-@{x2716}@ Statement expected - start: 14, end: 15
-@{x2716}@ Statement expected - start: 15, end: 17
+✖ ',' expected - start: 10, end: 11
+✖ Missing initializer in const declaration - start: 10, end: 11
+✖ ',' expected - start: 10, end: 11
+✖ Statement expected - start: 10, end: 11
+✖ Statement expected - start: 14, end: 15
+✖ Statement expected - start: 15, end: 17
 
 ```
 

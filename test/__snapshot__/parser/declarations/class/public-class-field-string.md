@@ -81,15 +81,15 @@ class C { \\u0041 }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 9, end: 10
-@{x2716}@ Statement expected - start: 9, end: 11
-@{x2716}@ Statement expected - start: 17, end: 19
+✖ Invalid hexadecimal escape sequence - start: 9, end: 10
+✖ Statement expected - start: 9, end: 11
+✖ Statement expected - start: 17, end: 19
 
 ```
 

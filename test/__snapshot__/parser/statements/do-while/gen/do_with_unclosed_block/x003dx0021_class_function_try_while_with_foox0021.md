@@ -261,16 +261,16 @@ do {} while (x) { =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 19, end: 20
-@{x2716}@ Binding identifier expected - start: 35, end: 39
-@{x2716}@ Unexpected token. - start: 35, end: 39
-@{x2716}@ Expression expected - start: 55, end: 55
+✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 19, end: 20
+✖ Binding identifier expected - start: 35, end: 39
+✖ Unexpected token. - start: 35, end: 39
+✖ Expression expected - start: 55, end: 55
 
 ```
 

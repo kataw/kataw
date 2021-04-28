@@ -212,15 +212,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 4, end: 8
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 17, end: 21
-@{x2716}@ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 30, end: 34
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 4, end: 8
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 17, end: 21
+✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 30, end: 34
 
 ```
 

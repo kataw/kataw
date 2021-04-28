@@ -1145,32 +1145,32 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 11, end: 14
-@{x2716}@ Statement expected - start: 31, end: 34
-@{x2716}@ A rest element cannot have an initializer - start: 45, end: 47
-@{x2716}@ Statement expected - start: 70, end: 71
-@{x2716}@ Statement expected - start: 71, end: 74
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 90, end: 94
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 114, end: 117
-@{x2716}@ Statement expected - start: 134, end: 137
-@{x2716}@ Statement expected - start: 157, end: 160
-@{x2716}@ Statement expected - start: 176, end: 179
-@{x2716}@ Statement expected - start: 198, end: 201
-@{x2716}@ Statement expected - start: 221, end: 224
-@{x2716}@ Statement expected - start: 247, end: 250
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 268, end: 271
-@{x2716}@ Statement expected - start: 284, end: 286
-@{x2716}@ Statement expected - start: 286, end: 287
-@{x2716}@ Statement expected - start: 287, end: 290
-@{x2716}@ Expression expected - start: 300, end: 306
-@{x2716}@ ',' expected - start: 300, end: 306
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 308, end: 311
+✖ The left hand side of the arrow is not destructible  - start: 11, end: 14
+✖ Statement expected - start: 31, end: 34
+✖ A rest element cannot have an initializer - start: 45, end: 47
+✖ Statement expected - start: 70, end: 71
+✖ Statement expected - start: 71, end: 74
+✖ The left hand side of the arrow is not destructible  - start: 90, end: 94
+✖ The left hand side of the arrow is not destructible  - start: 114, end: 117
+✖ Statement expected - start: 134, end: 137
+✖ Statement expected - start: 157, end: 160
+✖ Statement expected - start: 176, end: 179
+✖ Statement expected - start: 198, end: 201
+✖ Statement expected - start: 221, end: 224
+✖ Statement expected - start: 247, end: 250
+✖ The left hand side of the arrow is not destructible  - start: 268, end: 271
+✖ Statement expected - start: 284, end: 286
+✖ Statement expected - start: 286, end: 287
+✖ Statement expected - start: 287, end: 290
+✖ Expression expected - start: 300, end: 306
+✖ ',' expected - start: 300, end: 306
+✖ The left hand side of the arrow is not destructible  - start: 308, end: 311
 
 ```
 

@@ -89,20 +89,20 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 14, end: 16
-@{x2716}@ ',' expected - start: 16, end: 17
-@{x2716}@ Statement expected - start: 16, end: 17
-@{x2716}@ Statement expected - start: 17, end: 18
-@{x2716}@ Statement expected - start: 20, end: 21
-@{x2716}@ Statement expected - start: 21, end: 22
-@{x2716}@ Statement expected - start: 22, end: 25
-@{x2716}@ Statement expected - start: 27, end: 29
+✖ ',' expected - start: 14, end: 16
+✖ ',' expected - start: 16, end: 17
+✖ Statement expected - start: 16, end: 17
+✖ Statement expected - start: 17, end: 18
+✖ Statement expected - start: 20, end: 21
+✖ Statement expected - start: 21, end: 22
+✖ Statement expected - start: 22, end: 25
+✖ Statement expected - start: 27, end: 29
 
 ```
 

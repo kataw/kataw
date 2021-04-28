@@ -122,13 +122,13 @@ do wow: while (x) while (x) continue wow;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 41, end: 41
+✖ Expression expected - start: 41, end: 41
 
 ```
 

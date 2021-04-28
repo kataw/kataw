@@ -73,13 +73,13 @@ label: class x {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Class declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
+✖ Class declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
 
 ```
 

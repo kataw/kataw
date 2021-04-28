@@ -106,15 +106,15 @@ var {,} = obj;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in destructuring declaration - start: 5, end: 6
-@{x2716}@ Statement expected - start: 6, end: 7
-@{x2716}@ Statement expected - start: 7, end: 9
+✖ Missing initializer in destructuring declaration - start: 5, end: 6
+✖ Statement expected - start: 6, end: 7
+✖ Statement expected - start: 7, end: 9
 
 ```
 

@@ -3682,17 +3682,17 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 298, end: 300
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 339, end: 341
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 381, end: 383
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 421, end: 423
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 748, end: 750
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 298, end: 300
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 339, end: 341
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 381, end: 383
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 421, end: 423
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 748, end: 750
 
 ```
 

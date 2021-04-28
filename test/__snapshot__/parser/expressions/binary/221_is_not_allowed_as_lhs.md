@@ -74,13 +74,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses - start: 2, end: 5
+✖ Unary expressions as the left operand of an exponentation expression must be disambiguated with parentheses - start: 2, end: 5
 
 ```
 

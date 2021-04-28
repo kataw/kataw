@@ -135,13 +135,13 @@ class x { get constructor(){} }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Class constructor may not be a accessor - start: 25, end: 26
+✖ Class constructor may not be a accessor - start: 25, end: 26
 
 ```
 

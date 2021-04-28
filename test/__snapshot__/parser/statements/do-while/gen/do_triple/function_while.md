@@ -186,20 +186,20 @@ do do do function while while while while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 8, end: 17
-@{x2716}@ Binding identifier expected - start: 17, end: 23
-@{x2716}@ Unexpected token. - start: 17, end: 23
-@{x2716}@ Expression expected - start: 23, end: 29
-@{x2716}@ Expression expected - start: 29, end: 35
-@{x2716}@ Expression expected - start: 35, end: 41
-@{x2716}@ Expression expected - start: 41, end: 41
-@{x2716}@ Expression expected - start: 41, end: 41
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 8, end: 17
+✖ Binding identifier expected - start: 17, end: 23
+✖ Unexpected token. - start: 17, end: 23
+✖ Expression expected - start: 23, end: 29
+✖ Expression expected - start: 29, end: 35
+✖ Expression expected - start: 35, end: 41
+✖ Expression expected - start: 41, end: 41
+✖ Expression expected - start: 41, end: 41
 
 ```
 

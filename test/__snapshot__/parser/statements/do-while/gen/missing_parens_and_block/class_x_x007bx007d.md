@@ -88,14 +88,14 @@ do class x {} while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Class declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
-@{x2716}@ Expression expected - start: 19, end: 19
+✖ Class declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
+✖ Expression expected - start: 19, end: 19
 
 ```
 

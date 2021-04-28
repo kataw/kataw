@@ -179,19 +179,19 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 64, end: 68
-@{x2716}@ Invalid hexadecimal escape sequence - start: 68, end: 68
-@{x2716}@ ',' expected - start: 68, end: 69
-@{x2716}@ Statement expected - start: 68, end: 69
-@{x2716}@ Statement expected - start: 76, end: 78
-@{x2716}@ Statement expected - start: 78, end: 80
-@{x2716}@ Statement expected - start: 80, end: 81
+✖ Invalid hexadecimal escape sequence - start: 64, end: 68
+✖ Invalid hexadecimal escape sequence - start: 68, end: 68
+✖ ',' expected - start: 68, end: 69
+✖ Statement expected - start: 68, end: 69
+✖ Statement expected - start: 76, end: 78
+✖ Statement expected - start: 78, end: 80
+✖ Statement expected - start: 80, end: 81
 
 ```
 

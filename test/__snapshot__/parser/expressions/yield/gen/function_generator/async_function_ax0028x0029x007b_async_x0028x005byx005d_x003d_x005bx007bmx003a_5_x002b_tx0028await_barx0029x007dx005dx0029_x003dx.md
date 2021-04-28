@@ -369,16 +369,16 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 101, end: 104
-@{x2716}@ Statement expected - start: 107, end: 113
-@{x2716}@ Statement expected - start: 113, end: 115
-@{x2716}@ Statement expected - start: 115, end: 116
+✖ Statement expected - start: 101, end: 104
+✖ Statement expected - start: 107, end: 113
+✖ Statement expected - start: 113, end: 115
+✖ Statement expected - start: 115, end: 116
 
 ```
 

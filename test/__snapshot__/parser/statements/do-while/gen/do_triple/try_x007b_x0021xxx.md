@@ -231,19 +231,19 @@ do do do try { !xxx while while while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 25, end: 31
-@{x2716}@ Expression expected - start: 31, end: 37
-@{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Expression expected - start: 37, end: 37
-@{x2716}@ Expression expected - start: 37, end: 37
+✖ Expression expected - start: 25, end: 31
+✖ Expression expected - start: 31, end: 37
+✖ Expression expected - start: 37, end: 37
+✖ Expression expected - start: 37, end: 37
+✖ Expression expected - start: 37, end: 37
+✖ Expression expected - start: 37, end: 37
+✖ Expression expected - start: 37, end: 37
 
 ```
 

@@ -63,8 +63,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x123}@",
-                "rawText": "@{x123}@",
+                "text": "ģ",
+                "rawText": "ģ",
                 "flags": 131841,
                 "start": 20,
                 "end": 30
@@ -77,8 +77,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x1234}@",
-                "rawText": "@{x1234}@",
+                "text": "ሴ",
+                "rawText": "ሴ",
                 "flags": 131841,
                 "start": 32,
                 "end": 43
@@ -91,8 +91,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "H@{x345}@",
-                "rawText": "H@{x345}@",
+                "text": "Hͅ",
+                "rawText": "Hͅ",
                 "flags": 131841,
                 "start": 45,
                 "end": 57
@@ -105,8 +105,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x40d}@V",
-                "rawText": "@{x40d}@V",
+                "text": "ЍV",
+                "rawText": "ЍV",
                 "flags": 131841,
                 "start": 59,
                 "end": 72
@@ -128,12 +128,12 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

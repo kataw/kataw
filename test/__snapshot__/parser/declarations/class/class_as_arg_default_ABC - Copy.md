@@ -302,13 +302,13 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 77, end: 80
+✖ The left hand side of the arrow is not destructible  - start: 77, end: 80
 
 ```
 

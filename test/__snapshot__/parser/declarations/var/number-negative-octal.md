@@ -119,14 +119,14 @@ var a: -0x7B
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected - start: 6, end: 8
-@{x2716}@ ',' expected - start: 6, end: 8
+✖ Identifier expected - start: 6, end: 8
+✖ ',' expected - start: 6, end: 8
 
 ```
 

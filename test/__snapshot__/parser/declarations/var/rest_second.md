@@ -134,14 +134,14 @@ export var a, ...b = 1;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The `export` keyword can only be used with the module goal - start: 0, end: 6
-@{x2716}@ Statement expected - start: 13, end: 17
+✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
+✖ Statement expected - start: 13, end: 17
 
 ```
 

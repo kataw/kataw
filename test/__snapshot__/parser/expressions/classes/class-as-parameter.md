@@ -415,16 +415,16 @@ class A {
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 145, end: 146
-@{x2716}@ Expression expected - start: 149, end: 150
-@{x2716}@ Statement expected - start: 149, end: 150
-@{x2716}@ Statement expected - start: 150, end: 152
+✖ Binding identifier expected - start: 145, end: 146
+✖ Expression expected - start: 149, end: 150
+✖ Statement expected - start: 149, end: 150
+✖ Statement expected - start: 150, end: 152
 
 ```
 

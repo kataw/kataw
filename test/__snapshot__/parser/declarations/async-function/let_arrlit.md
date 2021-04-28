@@ -90,13 +90,13 @@ let []
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in destructuring declaration - start: 6, end: 6
+✖ Missing initializer in destructuring declaration - start: 6, end: 6
 
 ```
 

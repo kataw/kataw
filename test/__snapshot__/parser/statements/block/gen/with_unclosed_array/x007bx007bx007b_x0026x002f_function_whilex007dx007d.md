@@ -132,16 +132,16 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 4, end: 5
-@{x2716}@ ',' expected - start: 5, end: 6
-@{x2716}@ ',' expected - start: 6, end: 8
-@{x2716}@ Unexpected token. - start: 8, end: 9
+✖ ',' expected - start: 4, end: 5
+✖ ',' expected - start: 5, end: 6
+✖ ',' expected - start: 6, end: 8
+✖ Unexpected token. - start: 8, end: 9
 
 ```
 

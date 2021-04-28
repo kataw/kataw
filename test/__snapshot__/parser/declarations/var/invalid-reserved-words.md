@@ -367,19 +367,19 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 18, end: 29
-@{x2716}@ Binding identifier expected - start: 58, end: 59
-@{x2716}@ Unexpected token. - start: 58, end: 59
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 89, end: 90
-@{x2716}@ Dot property must be an identifier - start: 89, end: 90
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 121, end: 123
-@{x2716}@ Dot property must be an identifier - start: 121, end: 123
+✖ Identifier expected. Reserved word in strict mode - start: 18, end: 29
+✖ Binding identifier expected - start: 58, end: 59
+✖ Unexpected token. - start: 58, end: 59
+✖ 'super' must be followed by an argument list or member access. - start: 89, end: 90
+✖ Dot property must be an identifier - start: 89, end: 90
+✖ 'super' must be followed by an argument list or member access. - start: 121, end: 123
+✖ Dot property must be an identifier - start: 121, end: 123
 
 ```
 

@@ -291,18 +291,18 @@ switch switch switch =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Expression expected - start: 13, end: 20
-@{x2716}@ Expression expected - start: 20, end: 22
-@{x2716}@ Binding identifier expected - start: 38, end: 42
-@{x2716}@ Unexpected token. - start: 38, end: 42
-@{x2716}@ Expression expected - start: 58, end: 58
+✖ Expression expected - start: 6, end: 13
+✖ Expression expected - start: 13, end: 20
+✖ Expression expected - start: 20, end: 22
+✖ Binding identifier expected - start: 38, end: 42
+✖ Unexpected token. - start: 38, end: 42
+✖ Expression expected - start: 58, end: 58
 
 ```
 

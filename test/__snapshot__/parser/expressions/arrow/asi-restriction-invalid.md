@@ -97,13 +97,13 @@ var af = ()
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Line terminator not permitted before arrow - start: 11, end: 14
+✖ Line terminator not permitted before arrow - start: 11, end: 14
 
 ```
 

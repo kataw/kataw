@@ -71,16 +71,16 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 1, end: 13
-@{x2716}@ Statement expected - start: 1, end: 13
-@{x2716}@ Statement expected - start: 13, end: 15
-@{x2716}@ Statement expected - start: 17, end: 18
+✖ Expression expected - start: 1, end: 13
+✖ Statement expected - start: 1, end: 13
+✖ Statement expected - start: 13, end: 15
+✖ Statement expected - start: 17, end: 18
 
 ```
 

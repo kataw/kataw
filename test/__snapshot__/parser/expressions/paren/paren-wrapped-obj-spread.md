@@ -1504,26 +1504,26 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 12
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 46, end: 48
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 68, end: 70
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 92, end: 94
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 118, end: 120
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 145, end: 147
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 178, end: 180
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 188, end: 190
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 206, end: 208
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 224, end: 226
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 245, end: 247
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 268, end: 270
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 288, end: 290
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 12
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 28, end: 30
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 46, end: 48
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 68, end: 70
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 92, end: 94
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 118, end: 120
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 145, end: 147
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 178, end: 180
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 188, end: 190
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 206, end: 208
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 224, end: 226
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 245, end: 247
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 268, end: 270
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 288, end: 290
 
 ```
 

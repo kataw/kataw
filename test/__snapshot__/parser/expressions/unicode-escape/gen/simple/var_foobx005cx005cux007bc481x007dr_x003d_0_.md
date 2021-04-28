@@ -63,7 +63,7 @@ var foob\\u{c481}r = 0;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "text": "@{xc481}@r",
+                    "text": "쒁r",
                     "rawText": "foob",
                     "flags": 768,
                     "start": 9,
@@ -104,16 +104,16 @@ var foob\\u{c481}r = 0;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 3, end: 8
-@{x2716}@ Invalid hexadecimal escape sequence - start: 8, end: 8
-@{x2716}@ ',' expected - start: 8, end: 9
-@{x2716}@ Statement expected - start: 8, end: 9
+✖ Invalid hexadecimal escape sequence - start: 3, end: 8
+✖ Invalid hexadecimal escape sequence - start: 8, end: 8
+✖ ',' expected - start: 8, end: 9
+✖ Statement expected - start: 8, end: 9
 
 ```
 

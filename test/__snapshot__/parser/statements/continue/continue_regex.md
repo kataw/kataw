@@ -128,15 +128,15 @@ for (x of 3) continue/x/
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 21, end: 22
-@{x2716}@ Expression expected - start: 21, end: 22
-@{x2716}@ Expression expected - start: 24, end: 24
+✖ Expression expected - start: 21, end: 22
+✖ Expression expected - start: 21, end: 22
+✖ Expression expected - start: 24, end: 24
 
 ```
 

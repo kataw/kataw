@@ -226,15 +226,15 @@ class x extends y {
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 56, end: 57
-@{x2716}@ Dot property must be an identifier - start: 56, end: 57
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 58, end: 61
+✖ 'super' must be followed by an argument list or member access. - start: 56, end: 57
+✖ Dot property must be an identifier - start: 56, end: 57
+✖ The left hand side of the arrow is not destructible  - start: 58, end: 61
 
 ```
 

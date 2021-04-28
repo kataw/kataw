@@ -116,13 +116,13 @@ class x { async *prototype(){} }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 26, end: 27
+✖ Classes may not have a static property named 'prototype' - start: 26, end: 27
 
 ```
 

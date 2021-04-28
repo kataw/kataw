@@ -96,15 +96,15 @@ do( catch { try while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 3, end: 9
-@{x2716}@ ',' expected - start: 15, end: 21
-@{x2716}@ ',' expected - start: 21, end: 21
+✖ Expression expected - start: 3, end: 9
+✖ ',' expected - start: 15, end: 21
+✖ ',' expected - start: 21, end: 21
 
 ```
 

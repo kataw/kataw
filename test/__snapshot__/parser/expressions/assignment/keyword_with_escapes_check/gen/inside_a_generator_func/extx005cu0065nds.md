@@ -101,15 +101,15 @@ function *f(){
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 14, end: 29
-@{x2716}@ Statement expected - start: 29, end: 31
-@{x2716}@ Statement expected - start: 33, end: 35
+✖ Statement expected - start: 14, end: 29
+✖ Statement expected - start: 29, end: 31
+✖ Statement expected - start: 33, end: 35
 
 ```
 

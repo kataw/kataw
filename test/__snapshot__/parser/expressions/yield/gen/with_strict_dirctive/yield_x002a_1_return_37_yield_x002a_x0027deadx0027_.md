@@ -129,13 +129,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A return statement can only be used within a function_body - start: 24, end: 31
+✖ A return statement can only be used within a function_body - start: 24, end: 31
 
 ```
 

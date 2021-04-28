@@ -207,17 +207,17 @@ else =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Statement expected - start: 4, end: 6
-@{x2716}@ Binding identifier expected - start: 22, end: 26
-@{x2716}@ Unexpected token. - start: 22, end: 26
-@{x2716}@ Expression expected - start: 42, end: 42
+✖ Statement expected - start: 0, end: 4
+✖ Statement expected - start: 4, end: 6
+✖ Binding identifier expected - start: 22, end: 26
+✖ Unexpected token. - start: 22, end: 26
+✖ Expression expected - start: 42, end: 42
 
 ```
 

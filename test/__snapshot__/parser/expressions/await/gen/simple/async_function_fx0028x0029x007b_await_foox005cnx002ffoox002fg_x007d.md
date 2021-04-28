@@ -166,16 +166,16 @@ async function f(){ await foo\n/foo/g }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 25, end: 29
-@{x2716}@ Invalid hexadecimal escape sequence - start: 29, end: 29
-@{x2716}@ Statement expected - start: 29, end: 30
-@{x2716}@ Statement expected - start: 37, end: 39
+✖ Invalid hexadecimal escape sequence - start: 25, end: 29
+✖ Invalid hexadecimal escape sequence - start: 29, end: 29
+✖ Statement expected - start: 29, end: 30
+✖ Statement expected - start: 37, end: 39
 
 ```
 

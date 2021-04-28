@@ -280,14 +280,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 71, end: 71
-@{x2716}@ Expression expected - start: 71, end: 71
+✖ Expression expected - start: 71, end: 71
+✖ Expression expected - start: 71, end: 71
 
 ```
 

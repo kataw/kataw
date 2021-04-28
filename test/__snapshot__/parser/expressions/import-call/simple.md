@@ -46,14 +46,14 @@ import.call
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'import.meta' must not contain escaped characters - start: 7, end: 11
-@{x2716}@ Cannot use 'import.meta' outside a module - start: 11, end: 11
+✖ 'import.meta' must not contain escaped characters - start: 7, end: 11
+✖ Cannot use 'import.meta' outside a module - start: 11, end: 11
 
 ```
 

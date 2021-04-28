@@ -191,14 +191,14 @@ switch switch switch async try while { catch }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 6, end: 13
-@{x2716}@ Expression expected - start: 13, end: 20
+✖ Expression expected - start: 6, end: 13
+✖ Expression expected - start: 13, end: 20
 
 ```
 

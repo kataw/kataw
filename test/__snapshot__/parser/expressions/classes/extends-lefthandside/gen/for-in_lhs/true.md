@@ -65,13 +65,13 @@ for (true in x) ;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid left-hand side in for-in loop - start: 12, end: 14
+✖ Invalid left-hand side in for-in loop - start: 12, end: 14
 
 ```
 

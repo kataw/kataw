@@ -570,16 +570,16 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Dot property must be an identifier - start: 127, end: 128
-@{x2716}@ Expression expected - start: 133, end: 136
-@{x2716}@ Statement expected - start: 133, end: 136
-@{x2716}@ Statement expected - start: 141, end: 142
+✖ Dot property must be an identifier - start: 127, end: 128
+✖ Expression expected - start: 133, end: 136
+✖ Statement expected - start: 133, end: 136
+✖ Statement expected - start: 141, end: 142
 
 ```
 

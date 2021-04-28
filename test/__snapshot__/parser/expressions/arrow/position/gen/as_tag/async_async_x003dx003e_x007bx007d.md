@@ -107,13 +107,13 @@ async async => {}`foo`
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Block body arrows can not be immediately tagged without a group - start: 17, end: 22
+✖ Block body arrows can not be immediately tagged without a group - start: 17, end: 22
 
 ```
 

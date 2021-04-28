@@ -1339,34 +1339,34 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 10, end: 13
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 34, end: 37
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 54, end: 57
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 78, end: 81
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 106, end: 109
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 132, end: 135
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 156, end: 159
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 184, end: 187
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 199, end: 202
-@{x2716}@ Statement expected - start: 205, end: 206
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 221, end: 224
-@{x2716}@ Statement expected - start: 227, end: 228
-@{x2716}@ Expression expected - start: 232, end: 234
-@{x2716}@ Expression expected - start: 234, end: 235
-@{x2716}@ Expression expected - start: 235, end: 238
-@{x2716}@ Statement expected - start: 235, end: 238
-@{x2716}@ Expression expected - start: 250, end: 251
-@{x2716}@ Expression expected - start: 251, end: 254
-@{x2716}@ Statement expected - start: 251, end: 254
-@{x2716}@ Statement expected - start: 270, end: 273
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 292, end: 295
-@{x2716}@ Statement expected - start: 312, end: 313
+✖ The left hand side of the arrow is not destructible  - start: 10, end: 13
+✖ The left hand side of the arrow is not destructible  - start: 34, end: 37
+✖ The left hand side of the arrow is not destructible  - start: 54, end: 57
+✖ The left hand side of the arrow is not destructible  - start: 78, end: 81
+✖ The left hand side of the arrow is not destructible  - start: 106, end: 109
+✖ The left hand side of the arrow is not destructible  - start: 132, end: 135
+✖ The left hand side of the arrow is not destructible  - start: 156, end: 159
+✖ The left hand side of the arrow is not destructible  - start: 184, end: 187
+✖ The left hand side of the arrow is not destructible  - start: 199, end: 202
+✖ Statement expected - start: 205, end: 206
+✖ The left hand side of the arrow is not destructible  - start: 221, end: 224
+✖ Statement expected - start: 227, end: 228
+✖ Expression expected - start: 232, end: 234
+✖ Expression expected - start: 234, end: 235
+✖ Expression expected - start: 235, end: 238
+✖ Statement expected - start: 235, end: 238
+✖ Expression expected - start: 250, end: 251
+✖ Expression expected - start: 251, end: 254
+✖ Statement expected - start: 251, end: 254
+✖ Statement expected - start: 270, end: 273
+✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
+✖ Statement expected - start: 312, end: 313
 
 ```
 

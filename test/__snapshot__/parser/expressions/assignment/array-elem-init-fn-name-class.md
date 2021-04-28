@@ -282,13 +282,13 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
 
 ```
 

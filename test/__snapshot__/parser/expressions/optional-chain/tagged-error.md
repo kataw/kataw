@@ -215,15 +215,15 @@ a?.()``;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 4, end: 6
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 17, end: 19
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 27, end: 29
+✖ Tagged template expressions are not permitted in an optional chain. - start: 4, end: 6
+✖ Tagged template expressions are not permitted in an optional chain. - start: 17, end: 19
+✖ Tagged template expressions are not permitted in an optional chain. - start: 27, end: 29
 
 ```
 

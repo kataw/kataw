@@ -256,13 +256,13 @@ class C { set x(_) { class C { constructor() { super(); } } } }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
 
 ```
 

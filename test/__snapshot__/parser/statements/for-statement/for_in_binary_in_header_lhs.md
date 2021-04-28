@@ -121,13 +121,13 @@ for (x in a>c;;) x
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 15, end: 16
+✖ Statement expected - start: 15, end: 16
 
 ```
 

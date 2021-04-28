@@ -220,18 +220,18 @@ const fn = async (a?: any): Promise<void> => {};
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 20, end: 21
-@{x2716}@ ',' expected - start: 26, end: 27
-@{x2716}@ Statement expected - start: 26, end: 27
-@{x2716}@ Expression expected - start: 40, end: 41
-@{x2716}@ Expression expected - start: 41, end: 44
-@{x2716}@ Statement expected - start: 41, end: 44
+✖ Expression expected - start: 20, end: 21
+✖ ',' expected - start: 26, end: 27
+✖ Statement expected - start: 26, end: 27
+✖ Expression expected - start: 40, end: 41
+✖ Expression expected - start: 41, end: 44
+✖ Statement expected - start: 41, end: 44
 
 ```
 

@@ -114,13 +114,13 @@ if (x) ; else function f(){}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 13, end: 22
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 13, end: 22
 
 ```
 

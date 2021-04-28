@@ -52,13 +52,13 @@ import.meta;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Cannot use 'import.meta' outside a module - start: 11, end: 12
+✖ Cannot use 'import.meta' outside a module - start: 11, end: 12
 
 ```
 

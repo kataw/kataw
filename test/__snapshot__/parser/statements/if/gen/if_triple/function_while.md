@@ -160,17 +160,17 @@ if if if function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 2, end: 5
-@{x2716}@ Expression expected - start: 5, end: 8
-@{x2716}@ Unexpected token. - start: 17, end: 23
-@{x2716}@ Expression expected - start: 23, end: 23
-@{x2716}@ Expression expected - start: 23, end: 23
+✖ Expression expected - start: 2, end: 5
+✖ Expression expected - start: 5, end: 8
+✖ Unexpected token. - start: 17, end: 23
+✖ Expression expected - start: 23, end: 23
+✖ Expression expected - start: 23, end: 23
 
 ```
 

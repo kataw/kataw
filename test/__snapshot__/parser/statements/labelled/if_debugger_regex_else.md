@@ -135,14 +135,14 @@ function x(){
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 44, end: 51
-@{x2716}@ Statement expected - start: 52, end: 54
+✖ Statement expected - start: 44, end: 51
+✖ Statement expected - start: 52, end: 54
 
 ```
 

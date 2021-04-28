@@ -105,16 +105,16 @@ do do do /)finally while while while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 10
-@{x2716}@ Expression expected - start: 36, end: 36
-@{x2716}@ Expression expected - start: 36, end: 36
-@{x2716}@ Expression expected - start: 36, end: 36
+✖ Unexpected token. - start: 8, end: 10
+✖ Expression expected - start: 36, end: 36
+✖ Expression expected - start: 36, end: 36
+✖ Expression expected - start: 36, end: 36
 
 ```
 

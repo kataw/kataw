@@ -148,13 +148,13 @@ for(delete((1)?y:x in y) in z)x
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid left-hand side in for-in loop - start: 27, end: 29
+✖ Invalid left-hand side in for-in loop - start: 27, end: 29
 
 ```
 

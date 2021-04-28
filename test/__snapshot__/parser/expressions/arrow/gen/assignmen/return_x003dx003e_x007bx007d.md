@@ -104,16 +104,16 @@ x = return => {} ;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 3, end: 10
-@{x2716}@ A return statement can only be used within a function_body - start: 3, end: 10
-@{x2716}@ Expression expected - start: 10, end: 13
-@{x2716}@ Statement expected - start: 10, end: 13
+✖ Expression expected - start: 3, end: 10
+✖ A return statement can only be used within a function_body - start: 3, end: 10
+✖ Expression expected - start: 10, end: 13
+✖ Statement expected - start: 10, end: 13
 
 ```
 

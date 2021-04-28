@@ -258,13 +258,13 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'super' can only be referenced in members of derived classes or object literal expressions - start: 53, end: 54
+✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 53, end: 54
 
 ```
 

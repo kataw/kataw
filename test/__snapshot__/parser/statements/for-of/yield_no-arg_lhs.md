@@ -143,13 +143,13 @@ function *f(){   for (yield of y);   }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid left-hand side in for-of loop - start: 30, end: 32
+✖ Invalid left-hand side in for-of loop - start: 30, end: 32
 
 ```
 

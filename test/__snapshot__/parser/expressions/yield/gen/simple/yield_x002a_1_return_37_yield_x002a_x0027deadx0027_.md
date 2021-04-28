@@ -120,13 +120,13 @@ yield * 1; return 37; yield * 'dead';
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A return statement can only be used within a function_body - start: 10, end: 17
+✖ A return statement can only be used within a function_body - start: 10, end: 17
 
 ```
 

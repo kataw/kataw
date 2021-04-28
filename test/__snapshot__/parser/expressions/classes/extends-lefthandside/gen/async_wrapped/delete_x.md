@@ -151,13 +151,13 @@ async function p(){
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'delete' cannot be called on an identifier in strict mode. - start: 46, end: 48
+✖ 'delete' cannot be called on an identifier in strict mode. - start: 46, end: 48
 
 ```
 

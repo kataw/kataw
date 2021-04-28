@@ -139,17 +139,17 @@ var await; var f = (async function() { await => async });
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 44, end: 47
-@{x2716}@ ',' expected - start: 44, end: 47
-@{x2716}@ Statement expected - start: 44, end: 47
-@{x2716}@ Statement expected - start: 53, end: 55
-@{x2716}@ Statement expected - start: 55, end: 56
+✖ Expression expected - start: 44, end: 47
+✖ ',' expected - start: 44, end: 47
+✖ Statement expected - start: 44, end: 47
+✖ Statement expected - start: 53, end: 55
+✖ Statement expected - start: 55, end: 56
 
 ```
 

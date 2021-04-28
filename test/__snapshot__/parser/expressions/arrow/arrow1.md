@@ -236,25 +236,25 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 5, end: 6
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 14, end: 17
-@{x2716}@ Invalid character - start: 23, end: 25
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 23, end: 25
-@{x2716}@ Invalid character - start: 25, end: 26
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 25, end: 26
-@{x2716}@ Invalid character - start: 34, end: 37
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 34, end: 37
-@{x2716}@ Invalid character - start: 37, end: 38
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 37, end: 38
-@{x2716}@ Invalid character - start: 38, end: 39
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 38, end: 39
-@{x2716}@ Unterminated template literal - start: 60, end: 85
+✖ Expression expected - start: 5, end: 6
+✖ The left hand side of the arrow is not destructible  - start: 14, end: 17
+✖ Invalid character - start: 23, end: 25
+✖ Private identifiers are not allowed outside class_bodies - start: 23, end: 25
+✖ Invalid character - start: 25, end: 26
+✖ Private identifiers are not allowed outside class_bodies - start: 25, end: 26
+✖ Invalid character - start: 34, end: 37
+✖ Private identifiers are not allowed outside class_bodies - start: 34, end: 37
+✖ Invalid character - start: 37, end: 38
+✖ Private identifiers are not allowed outside class_bodies - start: 37, end: 38
+✖ Invalid character - start: 38, end: 39
+✖ Private identifiers are not allowed outside class_bodies - start: 38, end: 39
+✖ Unterminated template literal - start: 60, end: 85
 
 ```
 

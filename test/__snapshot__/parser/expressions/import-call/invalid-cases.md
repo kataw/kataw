@@ -2027,84 +2027,84 @@ new import(x);
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 7, end: 8
-@{x2716}@ Statement expected - start: 7, end: 8
-@{x2716}@ Import Call should take at least one argument - start: 18, end: 19
-@{x2716}@ Expression expected - start: 29, end: 30
-@{x2716}@ Unexpected token. - start: 38, end: 39
-@{x2716}@ Statement expected - start: 38, end: 39
-@{x2716}@ Import Call should take at least one argument - start: 49, end: 50
-@{x2716}@ Unterminated string literal - start: 60, end: 63
-@{x2716}@ Statement expected - start: 75, end: 76
-@{x2716}@ Unexpected token. - start: 85, end: 86
-@{x2716}@ ',' expected - start: 89, end: 90
-@{x2716}@ Statement expected - start: 89, end: 90
-@{x2716}@ Unexpected token. - start: 99, end: 101
-@{x2716}@ Statement expected - start: 99, end: 101
-@{x2716}@ Expression expected - start: 115, end: 116
-@{x2716}@ Expression expected - start: 116, end: 117
-@{x2716}@ Statement expected - start: 116, end: 117
-@{x2716}@ Statement expected - start: 129, end: 130
-@{x2716}@ Expression expected - start: 142, end: 143
-@{x2716}@ Statement expected - start: 142, end: 143
-@{x2716}@ Statement expected - start: 143, end: 144
-@{x2716}@ Expression expected - start: 158, end: 159
-@{x2716}@ Statement expected - start: 158, end: 159
-@{x2716}@ Expression expected - start: 173, end: 174
-@{x2716}@ Expression expected - start: 174, end: 175
-@{x2716}@ Statement expected - start: 174, end: 175
-@{x2716}@ Statement expected - start: 190, end: 191
-@{x2716}@ Expression expected - start: 218, end: 219
-@{x2716}@ Unexpected token. - start: 241, end: 242
-@{x2716}@ Unexpected token. - start: 251, end: 252
-@{x2716}@ Unexpected token. - start: 262, end: 263
-@{x2716}@ Statement expected - start: 262, end: 263
-@{x2716}@ Unexpected token. - start: 272, end: 273
-@{x2716}@ Expression expected - start: 285, end: 286
-@{x2716}@ Expression expected - start: 296, end: 297
-@{x2716}@ Expression expected - start: 308, end: 309
-@{x2716}@ Statement expected - start: 322, end: 323
-@{x2716}@ Expression expected - start: 333, end: 336
-@{x2716}@ Statement expected - start: 333, end: 336
-@{x2716}@ Statement expected - start: 337, end: 338
-@{x2716}@ Expression expected - start: 350, end: 351
-@{x2716}@ Statement expected - start: 350, end: 351
-@{x2716}@ Expression expected - start: 361, end: 362
-@{x2716}@ Expression expected - start: 362, end: 363
-@{x2716}@ Statement expected - start: 362, end: 363
-@{x2716}@ Expression expected - start: 373, end: 374
-@{x2716}@ Statement expected - start: 375, end: 376
-@{x2716}@ Expression expected - start: 386, end: 387
-@{x2716}@ Statement expected - start: 387, end: 388
-@{x2716}@ Expression expected - start: 399, end: 400
-@{x2716}@ ',' expected - start: 400, end: 403
-@{x2716}@ ',' expected - start: 410, end: 411
-@{x2716}@ Unexpected token. - start: 419, end: 420
-@{x2716}@ Expression expected - start: 420, end: 421
-@{x2716}@ Unexpected token. - start: 429, end: 431
-@{x2716}@ Statement expected - start: 429, end: 431
-@{x2716}@ 'import.meta' must not contain escaped characters - start: 443, end: 446
-@{x2716}@ Expression expected - start: 458, end: 459
-@{x2716}@ Expression expected - start: 459, end: 460
-@{x2716}@ Statement expected - start: 459, end: 460
-@{x2716}@ Statement expected - start: 472, end: 473
-@{x2716}@ Expression expected - start: 485, end: 486
-@{x2716}@ Statement expected - start: 485, end: 486
-@{x2716}@ Statement expected - start: 486, end: 487
-@{x2716}@ Expression expected - start: 501, end: 502
-@{x2716}@ Statement expected - start: 501, end: 502
-@{x2716}@ Expression expected - start: 516, end: 517
-@{x2716}@ Expression expected - start: 517, end: 518
-@{x2716}@ Statement expected - start: 517, end: 518
-@{x2716}@ Statement expected - start: 533, end: 534
-@{x2716}@ Expression expected - start: 561, end: 562
-@{x2716}@ Cannot use new with import(...) - start: 581, end: 588
+✖ Unexpected token. - start: 7, end: 8
+✖ Statement expected - start: 7, end: 8
+✖ Import Call should take at least one argument - start: 18, end: 19
+✖ Expression expected - start: 29, end: 30
+✖ Unexpected token. - start: 38, end: 39
+✖ Statement expected - start: 38, end: 39
+✖ Import Call should take at least one argument - start: 49, end: 50
+✖ Unterminated string literal - start: 60, end: 63
+✖ Statement expected - start: 75, end: 76
+✖ Unexpected token. - start: 85, end: 86
+✖ ',' expected - start: 89, end: 90
+✖ Statement expected - start: 89, end: 90
+✖ Unexpected token. - start: 99, end: 101
+✖ Statement expected - start: 99, end: 101
+✖ Expression expected - start: 115, end: 116
+✖ Expression expected - start: 116, end: 117
+✖ Statement expected - start: 116, end: 117
+✖ Statement expected - start: 129, end: 130
+✖ Expression expected - start: 142, end: 143
+✖ Statement expected - start: 142, end: 143
+✖ Statement expected - start: 143, end: 144
+✖ Expression expected - start: 158, end: 159
+✖ Statement expected - start: 158, end: 159
+✖ Expression expected - start: 173, end: 174
+✖ Expression expected - start: 174, end: 175
+✖ Statement expected - start: 174, end: 175
+✖ Statement expected - start: 190, end: 191
+✖ Expression expected - start: 218, end: 219
+✖ Unexpected token. - start: 241, end: 242
+✖ Unexpected token. - start: 251, end: 252
+✖ Unexpected token. - start: 262, end: 263
+✖ Statement expected - start: 262, end: 263
+✖ Unexpected token. - start: 272, end: 273
+✖ Expression expected - start: 285, end: 286
+✖ Expression expected - start: 296, end: 297
+✖ Expression expected - start: 308, end: 309
+✖ Statement expected - start: 322, end: 323
+✖ Expression expected - start: 333, end: 336
+✖ Statement expected - start: 333, end: 336
+✖ Statement expected - start: 337, end: 338
+✖ Expression expected - start: 350, end: 351
+✖ Statement expected - start: 350, end: 351
+✖ Expression expected - start: 361, end: 362
+✖ Expression expected - start: 362, end: 363
+✖ Statement expected - start: 362, end: 363
+✖ Expression expected - start: 373, end: 374
+✖ Statement expected - start: 375, end: 376
+✖ Expression expected - start: 386, end: 387
+✖ Statement expected - start: 387, end: 388
+✖ Expression expected - start: 399, end: 400
+✖ ',' expected - start: 400, end: 403
+✖ ',' expected - start: 410, end: 411
+✖ Unexpected token. - start: 419, end: 420
+✖ Expression expected - start: 420, end: 421
+✖ Unexpected token. - start: 429, end: 431
+✖ Statement expected - start: 429, end: 431
+✖ 'import.meta' must not contain escaped characters - start: 443, end: 446
+✖ Expression expected - start: 458, end: 459
+✖ Expression expected - start: 459, end: 460
+✖ Statement expected - start: 459, end: 460
+✖ Statement expected - start: 472, end: 473
+✖ Expression expected - start: 485, end: 486
+✖ Statement expected - start: 485, end: 486
+✖ Statement expected - start: 486, end: 487
+✖ Expression expected - start: 501, end: 502
+✖ Statement expected - start: 501, end: 502
+✖ Expression expected - start: 516, end: 517
+✖ Expression expected - start: 517, end: 518
+✖ Statement expected - start: 517, end: 518
+✖ Statement expected - start: 533, end: 534
+✖ Expression expected - start: 561, end: 562
+✖ Cannot use new with import(...) - start: 581, end: 588
 
 ```
 

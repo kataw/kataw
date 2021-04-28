@@ -69,14 +69,14 @@ case catch try {} default
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 0, end: 4
-@{x2716}@ Statement expected - start: 17, end: 25
+✖ Statement expected - start: 0, end: 4
+✖ Statement expected - start: 17, end: 25
 
 ```
 

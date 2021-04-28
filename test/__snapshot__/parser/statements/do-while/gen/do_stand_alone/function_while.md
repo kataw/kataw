@@ -104,16 +104,16 @@ do function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
-@{x2716}@ Binding identifier expected - start: 11, end: 17
-@{x2716}@ Unexpected token. - start: 11, end: 17
-@{x2716}@ Expression expected - start: 17, end: 17
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
+✖ Binding identifier expected - start: 11, end: 17
+✖ Unexpected token. - start: 11, end: 17
+✖ Expression expected - start: 17, end: 17
 
 ```
 

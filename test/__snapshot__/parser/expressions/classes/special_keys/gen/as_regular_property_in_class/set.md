@@ -99,14 +99,14 @@ class x {set: x}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 12, end: 13
-@{x2716}@ Statement expected - start: 15, end: 16
+✖ Statement expected - start: 12, end: 13
+✖ Statement expected - start: 15, end: 16
 
 ```
 

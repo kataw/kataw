@@ -529,20 +529,20 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 33, end: 34
-@{x2716}@ Unexpected token. - start: 33, end: 34
-@{x2716}@ Statement expected - start: 33, end: 34
-@{x2716}@ Statement expected - start: 44, end: 45
-@{x2716}@ Statement expected - start: 55, end: 56
-@{x2716}@ Statement expected - start: 63, end: 64
-@{x2716}@ Statement expected - start: 64, end: 65
-@{x2716}@ A return statement can only be used within a function_body - start: 225, end: 236
+✖ ',' expected - start: 33, end: 34
+✖ Unexpected token. - start: 33, end: 34
+✖ Statement expected - start: 33, end: 34
+✖ Statement expected - start: 44, end: 45
+✖ Statement expected - start: 55, end: 56
+✖ Statement expected - start: 63, end: 64
+✖ Statement expected - start: 64, end: 65
+✖ A return statement can only be used within a function_body - start: 225, end: 236
 
 ```
 

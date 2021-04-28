@@ -107,14 +107,14 @@ class var {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Binding identifier expected - start: 5, end: 9
-@{x2716}@ Missing initializer in destructuring declaration - start: 12, end: 12
+✖ Binding identifier expected - start: 5, end: 9
+✖ Missing initializer in destructuring declaration - start: 12, end: 12
 
 ```
 

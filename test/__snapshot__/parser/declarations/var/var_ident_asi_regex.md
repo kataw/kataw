@@ -138,14 +138,14 @@ var q
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 5, end: 7
-@{x2716}@ Expression expected - start: 9, end: 9
+✖ Expression expected - start: 5, end: 7
+✖ Expression expected - start: 9, end: 9
 
 ```
 

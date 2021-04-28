@@ -75,13 +75,13 @@ a?.`x`
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Tagged template expressions are not permitted in an optional chain. - start: 3, end: 6
+✖ Tagged template expressions are not permitted in an optional chain. - start: 3, end: 6
 
 ```
 

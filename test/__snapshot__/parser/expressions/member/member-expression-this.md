@@ -59,13 +59,13 @@ this.#x
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 5, end: 7
+✖ Private identifiers are not allowed outside class_bodies - start: 5, end: 7
 
 ```
 

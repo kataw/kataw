@@ -25,7 +25,7 @@ abc\uD835\uDFD0def
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "text": "abc@{x1d7d0}@def",
+                "text": "abc𝟐def",
                 "rawText": "abc\\uD835\\uDFD0def",
                 "flags": 768,
                 "start": 0,
@@ -48,12 +48,12 @@ abc\uD835\uDFD0def
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

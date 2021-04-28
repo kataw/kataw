@@ -42,14 +42,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 0, end: 8
-@{x2716}@ Unterminated string literal - start: 0, end: 8
+✖ Invalid hexadecimal escape sequence - start: 0, end: 8
+✖ Unterminated string literal - start: 0, end: 8
 
 ```
 

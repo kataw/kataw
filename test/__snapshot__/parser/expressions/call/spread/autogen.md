@@ -168,15 +168,15 @@ function fn() {} fn( # );
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid character - start: 34, end: 36
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 34, end: 36
-@{x2716}@ Statement expected - start: 36, end: 38
+✖ Invalid character - start: 34, end: 36
+✖ Private identifiers are not allowed outside class_bodies - start: 34, end: 36
+✖ Statement expected - start: 36, end: 38
 
 ```
 

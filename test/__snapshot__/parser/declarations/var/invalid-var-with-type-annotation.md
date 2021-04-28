@@ -155,18 +155,18 @@ var f: >x:int) => string;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected - start: 6, end: 8
-@{x2716}@ ',' expected - start: 6, end: 8
-@{x2716}@ Expression expected - start: 6, end: 8
-@{x2716}@ Statement expected - start: 9, end: 10
-@{x2716}@ Statement expected - start: 13, end: 14
-@{x2716}@ Statement expected - start: 14, end: 17
+✖ Identifier expected - start: 6, end: 8
+✖ ',' expected - start: 6, end: 8
+✖ Expression expected - start: 6, end: 8
+✖ Statement expected - start: 9, end: 10
+✖ Statement expected - start: 13, end: 14
+✖ Statement expected - start: 14, end: 17
 
 ```
 

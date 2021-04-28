@@ -225,19 +225,19 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Invalid hexadecimal escape sequence - start: 47, end: 48
-@{x2716}@ Expression expected - start: 47, end: 49
-@{x2716}@ Statement expected - start: 47, end: 49
-@{x2716}@ Statement expected - start: 58, end: 59
-@{x2716}@ Statement expected - start: 62, end: 64
-@{x2716}@ Statement expected - start: 64, end: 66
-@{x2716}@ Statement expected - start: 66, end: 67
+✖ Invalid hexadecimal escape sequence - start: 47, end: 48
+✖ Expression expected - start: 47, end: 49
+✖ Statement expected - start: 47, end: 49
+✖ Statement expected - start: 58, end: 59
+✖ Statement expected - start: 62, end: 64
+✖ Statement expected - start: 64, end: 66
+✖ Statement expected - start: 66, end: 67
 
 ```
 

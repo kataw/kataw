@@ -175,13 +175,13 @@ function not_gen() { function* gf() { +yield 2; } }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 51, end: 52
+✖ Statement expected - start: 51, end: 52
 
 ```
 

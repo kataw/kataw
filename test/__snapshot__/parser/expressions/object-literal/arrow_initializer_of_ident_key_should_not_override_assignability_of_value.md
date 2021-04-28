@@ -131,14 +131,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 13, end: 15
-@{x2716}@ The left hand side of the arrow is not destructible  - start: 19, end: 22
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 13, end: 15
+✖ The left hand side of the arrow is not destructible  - start: 19, end: 22
 
 ```
 

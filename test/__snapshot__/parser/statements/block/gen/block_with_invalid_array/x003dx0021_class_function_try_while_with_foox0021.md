@@ -279,16 +279,16 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 11, end: 12
-@{x2716}@ Binding identifier expected - start: 27, end: 31
-@{x2716}@ Unexpected token. - start: 27, end: 31
-@{x2716}@ Expression expected - start: 47, end: 47
+✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 11, end: 12
+✖ Binding identifier expected - start: 27, end: 31
+✖ Unexpected token. - start: 27, end: 31
+✖ Expression expected - start: 47, end: 47
 
 ```
 

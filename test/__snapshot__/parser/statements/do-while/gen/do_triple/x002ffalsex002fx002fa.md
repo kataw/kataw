@@ -140,15 +140,15 @@ do do do /false//a while while while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 24, end: 30
-@{x2716}@ Expression expected - start: 30, end: 36
-@{x2716}@ Expression expected - start: 36, end: 36
+✖ Expression expected - start: 24, end: 30
+✖ Expression expected - start: 30, end: 36
+✖ Expression expected - start: 36, end: 36
 
 ```
 

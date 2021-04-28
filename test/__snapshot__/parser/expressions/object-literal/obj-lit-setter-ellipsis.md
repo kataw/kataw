@@ -119,13 +119,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ A 'set' accessor cannot have rest parameter. - start: 9, end: 12
+✖ A 'set' accessor cannot have rest parameter. - start: 9, end: 12
 
 ```
 

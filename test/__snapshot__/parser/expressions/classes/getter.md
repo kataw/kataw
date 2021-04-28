@@ -123,13 +123,13 @@ class x { get prototype(){} }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Classes may not have a static property named 'prototype' - start: 23, end: 24
+✖ Classes may not have a static property named 'prototype' - start: 23, end: 24
 
 ```
 

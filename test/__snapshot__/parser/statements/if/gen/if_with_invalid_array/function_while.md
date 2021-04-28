@@ -169,19 +169,19 @@ if [else] function while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 4, end: 8
-@{x2716}@ Expression expected - start: 8, end: 9
-@{x2716}@ Statement expected - start: 8, end: 9
-@{x2716}@ Binding identifier expected - start: 18, end: 24
-@{x2716}@ Unexpected token. - start: 18, end: 24
-@{x2716}@ Expression expected - start: 24, end: 24
-@{x2716}@ Expression expected - start: 24, end: 24
+✖ Expression expected - start: 4, end: 8
+✖ Expression expected - start: 8, end: 9
+✖ Statement expected - start: 8, end: 9
+✖ Binding identifier expected - start: 18, end: 24
+✖ Unexpected token. - start: 18, end: 24
+✖ Expression expected - start: 24, end: 24
+✖ Expression expected - start: 24, end: 24
 
 ```
 

@@ -52,13 +52,13 @@ import.m\u0065ta;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'import.meta' must not contain escaped characters - start: 7, end: 16
+✖ 'import.meta' must not contain escaped characters - start: 7, end: 16
 
 ```
 

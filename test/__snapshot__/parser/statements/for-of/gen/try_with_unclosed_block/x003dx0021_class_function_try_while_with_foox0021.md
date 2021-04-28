@@ -288,16 +288,16 @@ try {} finally(x) { =! class function try while with foo!
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 21, end: 22
-@{x2716}@ Binding identifier expected - start: 37, end: 41
-@{x2716}@ Unexpected token. - start: 37, end: 41
-@{x2716}@ Expression expected - start: 57, end: 57
+✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 21, end: 22
+✖ Binding identifier expected - start: 37, end: 41
+✖ Unexpected token. - start: 37, end: 41
+✖ Expression expected - start: 57, end: 57
 
 ```
 

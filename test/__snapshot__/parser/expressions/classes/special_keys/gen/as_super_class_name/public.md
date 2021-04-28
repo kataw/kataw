@@ -83,13 +83,13 @@ class x extends public {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 15, end: 22
+✖ Identifier expected. Reserved word in strict mode - start: 15, end: 22
 
 ```
 

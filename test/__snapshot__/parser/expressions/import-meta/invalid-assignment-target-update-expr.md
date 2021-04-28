@@ -64,13 +64,13 @@ import.meta++;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 11, end: 13
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 11, end: 13
 
 ```
 

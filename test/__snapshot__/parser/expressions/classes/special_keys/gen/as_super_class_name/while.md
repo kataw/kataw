@@ -122,14 +122,14 @@ class x extends while {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 15, end: 21
-@{x2716}@ Expression expected - start: 24, end: 24
+✖ Expression expected - start: 15, end: 21
+✖ Expression expected - start: 24, end: 24
 
 ```
 

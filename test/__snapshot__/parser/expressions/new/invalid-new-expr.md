@@ -194,16 +194,16 @@ new foo ++;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 18, end: 20
-@{x2716}@ Statement expected - start: 18, end: 20
-@{x2716}@ Expression expected - start: 36, end: 37
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 46, end: 49
+✖ Expression expected - start: 18, end: 20
+✖ Statement expected - start: 18, end: 20
+✖ Expression expected - start: 36, end: 37
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 46, end: 49
 
 ```
 

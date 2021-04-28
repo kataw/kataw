@@ -111,8 +111,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x9a}@",
-                "rawText": "@{x9a}@",
+                "text": "",
+                "rawText": "",
                 "flags": 769,
                 "start": 44,
                 "end": 51
@@ -125,8 +125,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xab}@",
-                "rawText": "@{xab}@",
+                "text": "«",
+                "rawText": "«",
                 "flags": 769,
                 "start": 53,
                 "end": 60
@@ -139,8 +139,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xbc}@",
-                "rawText": "@{xbc}@",
+                "text": "¼",
+                "rawText": "¼",
                 "flags": 769,
                 "start": 62,
                 "end": 69
@@ -153,8 +153,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xcd}@",
-                "rawText": "@{xcd}@",
+                "text": "Í",
+                "rawText": "Í",
                 "flags": 769,
                 "start": 71,
                 "end": 78
@@ -167,8 +167,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xde}@",
-                "rawText": "@{xde}@",
+                "text": "Þ",
+                "rawText": "Þ",
                 "flags": 769,
                 "start": 80,
                 "end": 87
@@ -181,8 +181,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xef}@",
-                "rawText": "@{xef}@",
+                "text": "ï",
+                "rawText": "ï",
                 "flags": 769,
                 "start": 89,
                 "end": 96
@@ -195,8 +195,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{xf0}@",
-                "rawText": "@{xf0}@",
+                "text": "ð",
+                "rawText": "ð",
                 "flags": 769,
                 "start": 98,
                 "end": 105
@@ -218,12 +218,12 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

@@ -104,13 +104,13 @@ s = {s: new}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 11, end: 12
+✖ Expression expected - start: 11, end: 12
 
 ```
 

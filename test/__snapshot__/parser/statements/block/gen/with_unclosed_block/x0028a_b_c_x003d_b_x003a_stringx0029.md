@@ -209,15 +209,15 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 14, end: 15
-@{x2716}@ Statement expected - start: 29, end: 31
-@{x2716}@ Statement expected - start: 38, end: 39
+✖ Statement expected - start: 14, end: 15
+✖ Statement expected - start: 29, end: 31
+✖ Statement expected - start: 38, end: 39
 
 ```
 

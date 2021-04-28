@@ -76,19 +76,19 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 23, end: 24
-@{x2716}@ Unexpected token. - start: 23, end: 24
-@{x2716}@ ',' expected - start: 23, end: 24
-@{x2716}@ Statement expected - start: 23, end: 24
-@{x2716}@ Statement expected - start: 31, end: 32
-@{x2716}@ Statement expected - start: 34, end: 36
-@{x2716}@ Statement expected - start: 36, end: 37
+✖ ',' expected - start: 23, end: 24
+✖ Unexpected token. - start: 23, end: 24
+✖ ',' expected - start: 23, end: 24
+✖ Statement expected - start: 23, end: 24
+✖ Statement expected - start: 31, end: 32
+✖ Statement expected - start: 34, end: 36
+✖ Statement expected - start: 36, end: 37
 
 ```
 

@@ -177,14 +177,14 @@ var { ...{ x = 5 } } = {x : 1};
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The binding pattern is not destructible - start: 9, end: 10
-@{x2716}@ Binding identifier expected - start: 9, end: 10
+✖ The binding pattern is not destructible - start: 9, end: 10
+✖ Binding identifier expected - start: 9, end: 10
 
 ```
 

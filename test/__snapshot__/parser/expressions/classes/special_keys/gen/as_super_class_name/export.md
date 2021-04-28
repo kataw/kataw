@@ -110,14 +110,14 @@ class x extends export {}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 15, end: 22
-@{x2716}@ The `export` keyword can only be used with the module goal - start: 15, end: 22
+✖ Expression expected - start: 15, end: 22
+✖ The `export` keyword can only be used with the module goal - start: 15, end: 22
 
 ```
 

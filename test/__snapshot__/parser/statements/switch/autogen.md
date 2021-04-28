@@ -236,15 +236,15 @@ switch[ #
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 6, end: 11
-@{x2716}@ Invalid character - start: 11, end: 13
-@{x2716}@ Private identifiers are not allowed outside class_bodies - start: 11, end: 13
+✖ Expression expected - start: 6, end: 11
+✖ Invalid character - start: 11, end: 13
+✖ Private identifiers are not allowed outside class_bodies - start: 11, end: 13
 
 ```
 

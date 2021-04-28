@@ -118,18 +118,18 @@ const [..x] = obj;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Missing initializer in const declaration - start: 7, end: 8
-@{x2716}@ ',' expected - start: 7, end: 8
-@{x2716}@ Statement expected - start: 7, end: 8
-@{x2716}@ Statement expected - start: 8, end: 9
-@{x2716}@ Statement expected - start: 10, end: 11
-@{x2716}@ Statement expected - start: 11, end: 13
+✖ Missing initializer in const declaration - start: 7, end: 8
+✖ ',' expected - start: 7, end: 8
+✖ Statement expected - start: 7, end: 8
+✖ Statement expected - start: 8, end: 9
+✖ Statement expected - start: 10, end: 11
+✖ Statement expected - start: 11, end: 13
 
 ```
 

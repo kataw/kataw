@@ -139,14 +139,14 @@ class C { static #constructor }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ '#constructor' is a reserved word. - start: 9, end: 11
-@{x2716}@ '#constructor' is a reserved word. - start: 42, end: 44
+✖ '#constructor' is a reserved word. - start: 9, end: 11
+✖ '#constructor' is a reserved word. - start: 42, end: 44
 
 ```
 

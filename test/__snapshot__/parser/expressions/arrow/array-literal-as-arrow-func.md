@@ -101,14 +101,14 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 9, end: 12
-@{x2716}@ Statement expected - start: 9, end: 12
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 9, end: 12
+✖ Statement expected - start: 9, end: 12
 
 ```
 

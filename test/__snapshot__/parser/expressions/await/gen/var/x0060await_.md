@@ -119,13 +119,13 @@ var await; var f = (async function() { `await; });
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unterminated template literal - start: 38, end: 50
+✖ Unterminated template literal - start: 38, end: 50
 
 ```
 

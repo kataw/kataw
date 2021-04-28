@@ -298,12 +298,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

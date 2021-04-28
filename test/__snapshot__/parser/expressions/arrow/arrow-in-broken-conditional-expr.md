@@ -90,15 +90,15 @@ bar ? (=> 0) : baz;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 7, end: 9
-@{x2716}@ Statement expected - start: 11, end: 12
-@{x2716}@ Statement expected - start: 12, end: 14
+✖ Expression expected - start: 7, end: 9
+✖ Statement expected - start: 11, end: 12
+✖ Statement expected - start: 12, end: 14
 
 ```
 

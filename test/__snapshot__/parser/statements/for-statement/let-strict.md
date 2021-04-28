@@ -98,13 +98,13 @@ for(let a, let;;);
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. Reserved word in strict mode - start: 10, end: 14
+✖ Identifier expected. Reserved word in strict mode - start: 10, end: 14
 
 ```
 

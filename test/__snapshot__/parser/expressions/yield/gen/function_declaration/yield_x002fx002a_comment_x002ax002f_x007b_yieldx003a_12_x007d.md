@@ -138,16 +138,16 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 48, end: 49
-@{x2716}@ Statement expected - start: 52, end: 54
-@{x2716}@ Statement expected - start: 54, end: 56
-@{x2716}@ Statement expected - start: 56, end: 57
+✖ Statement expected - start: 48, end: 49
+✖ Statement expected - start: 52, end: 54
+✖ Statement expected - start: 54, end: 56
+✖ Statement expected - start: 56, end: 57
 
 ```
 

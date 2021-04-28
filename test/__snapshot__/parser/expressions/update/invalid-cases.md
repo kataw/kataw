@@ -564,19 +564,19 @@ new new foo().bar++;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 5, end: 7
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 18, end: 20
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 33, end: 35
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 47, end: 49
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 87, end: 89
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 101, end: 103
-@{x2716}@ Expression expected - start: 136, end: 137
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 5, end: 7
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 18, end: 20
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 33, end: 35
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 47, end: 49
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 87, end: 89
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 101, end: 103
+✖ Expression expected - start: 136, end: 137
 
 ```
 

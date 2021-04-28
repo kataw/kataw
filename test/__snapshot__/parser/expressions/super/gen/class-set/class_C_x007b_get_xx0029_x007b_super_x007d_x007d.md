@@ -239,18 +239,18 @@ class C { set x(_) { class C { get x) { super; } } } }
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 36, end: 37
-@{x2716}@ 'super' must be followed by an argument list or member access. - start: 45, end: 46
-@{x2716}@ Dot property must be an identifier - start: 45, end: 46
-@{x2716}@ Statement expected - start: 48, end: 50
-@{x2716}@ Statement expected - start: 50, end: 52
-@{x2716}@ Statement expected - start: 52, end: 54
+✖ Statement expected - start: 36, end: 37
+✖ 'super' must be followed by an argument list or member access. - start: 45, end: 46
+✖ Dot property must be an identifier - start: 45, end: 46
+✖ Statement expected - start: 48, end: 50
+✖ Statement expected - start: 50, end: 52
+✖ Statement expected - start: 52, end: 54
 
 ```
 

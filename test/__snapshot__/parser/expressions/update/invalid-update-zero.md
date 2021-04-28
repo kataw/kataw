@@ -138,16 +138,16 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 1, end: 3
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 7, end: 9
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 15, end: 16
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 21, end: 22
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1, end: 3
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 7, end: 9
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 15, end: 16
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 21, end: 22
 
 ```
 

@@ -190,16 +190,16 @@ do( while try this and !foo while
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 3, end: 9
-@{x2716}@ Expression expected - start: 9, end: 13
-@{x2716}@ Expression expected - start: 33, end: 33
-@{x2716}@ Expression expected - start: 33, end: 33
+✖ Expression expected - start: 3, end: 9
+✖ Expression expected - start: 9, end: 13
+✖ Expression expected - start: 33, end: 33
+✖ Expression expected - start: 33, end: 33
 
 ```
 

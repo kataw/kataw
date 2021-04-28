@@ -54,13 +54,13 @@ debugger
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 10
+✖ Unexpected token. - start: 8, end: 10
 
 ```
 

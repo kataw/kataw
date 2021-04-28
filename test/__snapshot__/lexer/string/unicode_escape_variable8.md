@@ -25,8 +25,8 @@
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "@{x43f}@@{x3ff}@",
-                "rawText": "@{x43f}@@{x3ff}@",
+                "text": "пϿ",
+                "rawText": "пϿ",
                 "flags": 131840,
                 "start": 0,
                 "end": 12
@@ -48,12 +48,12 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

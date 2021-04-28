@@ -65,13 +65,13 @@ new new.target
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'new.target' only allowed within functions - start: 14, end: 14
+✖ 'new.target' only allowed within functions - start: 14, end: 14
 
 ```
 

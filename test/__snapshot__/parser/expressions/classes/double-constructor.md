@@ -176,13 +176,13 @@
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Multiple constructor implementations are not allowed - start: 50, end: 52
+✖ Multiple constructor implementations are not allowed - start: 50, end: 52
 
 ```
 

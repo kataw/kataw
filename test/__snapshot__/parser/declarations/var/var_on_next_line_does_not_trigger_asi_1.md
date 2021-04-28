@@ -90,13 +90,13 @@ var foo
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ The `export` keyword can only be used with the module goal - start: 0, end: 6
+✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 
 ```
 

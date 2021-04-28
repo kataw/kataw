@@ -7715,94 +7715,94 @@ async function * gen() {class C extends await { }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 268, end: 274
-@{x2716}@ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 314, end: 320
-@{x2716}@ Identifier expected. 'yield' is a reserved word in strict mode - start: 486, end: 492
-@{x2716}@ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 542, end: 548
-@{x2716}@ `Yield` expression cannot be used in function parameters - start: 676, end: 681
-@{x2716}@ `Yield` expression cannot be used in function parameters - start: 734, end: 739
-@{x2716}@ `Await` expression cannot be used in function parameters - start: 792, end: 797
-@{x2716}@ `Await` expression cannot be used in function parameters - start: 850, end: 855
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 892, end: 894
-@{x2716}@ Expression expected - start: 928, end: 930
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 928, end: 930
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 974, end: 976
-@{x2716}@ Expression expected - start: 1020, end: 1022
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 1020, end: 1022
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 1058, end: 1059
-@{x2716}@ Expression expected - start: 1092, end: 1093
-@{x2716}@ The operand of an increment or decrement operator must be a variable or a property access - start: 1092, end: 1093
-@{x2716}@ Expression expected - start: 1126, end: 1127
-@{x2716}@ Expression expected - start: 1160, end: 1161
-@{x2716}@ Expression expected - start: 1194, end: 1195
-@{x2716}@ Expression expected - start: 1228, end: 1229
-@{x2716}@ Statement expected - start: 1402, end: 1403
-@{x2716}@ Statement expected - start: 1406, end: 1407
-@{x2716}@ Invalid hexadecimal escape sequence - start: 1678, end: 1683
-@{x2716}@ Invalid hexadecimal escape sequence - start: 1683, end: 1683
-@{x2716}@ Statement expected - start: 1683, end: 1684
-@{x2716}@ Statement expected - start: 1687, end: 1688
-@{x2716}@ Invalid hexadecimal escape sequence - start: 1849, end: 1854
-@{x2716}@ Invalid hexadecimal escape sequence - start: 1854, end: 1854
-@{x2716}@ Statement expected - start: 1854, end: 1855
-@{x2716}@ Statement expected - start: 1862, end: 1863
-@{x2716}@ Statement expected - start: 1866, end: 1867
-@{x2716}@ Statement expected - start: 1867, end: 1868
-@{x2716}@ Invalid hexadecimal escape sequence - start: 1898, end: 1912
-@{x2716}@ Statement expected - start: 1898, end: 1913
-@{x2716}@ Statement expected - start: 1921, end: 1922
-@{x2716}@ Statement expected - start: 1925, end: 1926
-@{x2716}@ Statement expected - start: 1926, end: 1927
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2274, end: 2276
-@{x2716}@ Expression expected - start: 2314, end: 2315
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2315, end: 2317
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2360, end: 2362
-@{x2716}@ Expression expected - start: 2408, end: 2409
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2409, end: 2411
-@{x2716}@ ',' expected - start: 2514, end: 2517
-@{x2716}@ Missing initializer in destructuring declaration - start: 2514, end: 2517
-@{x2716}@ ',' expected - start: 2514, end: 2517
-@{x2716}@ Statement expected - start: 2517, end: 2518
-@{x2716}@ Statement expected - start: 2518, end: 2520
-@{x2716}@ Statement expected - start: 2526, end: 2527
-@{x2716}@ ',' expected - start: 2562, end: 2565
-@{x2716}@ Missing initializer in destructuring declaration - start: 2562, end: 2565
-@{x2716}@ ',' expected - start: 2562, end: 2565
-@{x2716}@ Statement expected - start: 2565, end: 2566
-@{x2716}@ Statement expected - start: 2566, end: 2568
-@{x2716}@ Statement expected - start: 2574, end: 2575
-@{x2716}@ ',' expected - start: 2615, end: 2618
-@{x2716}@ Missing initializer in destructuring declaration - start: 2615, end: 2618
-@{x2716}@ ',' expected - start: 2615, end: 2618
-@{x2716}@ Statement expected - start: 2619, end: 2621
-@{x2716}@ Statement expected - start: 2630, end: 2631
-@{x2716}@ ',' expected - start: 2671, end: 2674
-@{x2716}@ Missing initializer in destructuring declaration - start: 2671, end: 2674
-@{x2716}@ ',' expected - start: 2671, end: 2674
-@{x2716}@ Statement expected - start: 2675, end: 2677
-@{x2716}@ Statement expected - start: 2686, end: 2687
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2722, end: 2724
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2766, end: 2768
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2814, end: 2816
-@{x2716}@ The left-hand side of an assignment expression must be a variable or a property access - start: 2866, end: 2868
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2921, end: 2923
-@{x2716}@ Invalid left-hand side in for-in loop - start: 2969, end: 2971
-@{x2716}@ Invalid left-hand side in for-of loop - start: 3017, end: 3019
-@{x2716}@ Invalid left-hand side in for-of loop - start: 3065, end: 3067
-@{x2716}@ Invalid left-hand side in for-in loop - start: 3113, end: 3115
-@{x2716}@ Invalid left-hand side in for-in loop - start: 3167, end: 3169
-@{x2716}@ Invalid left-hand side in for-in loop - start: 3221, end: 3223
-@{x2716}@ Statement expected - start: 3230, end: 3231
-@{x2716}@ Statement expected - start: 3232, end: 3233
-@{x2716}@ Invalid left-hand side in for-in loop - start: 3275, end: 3277
-@{x2716}@ Statement expected - start: 3284, end: 3285
-@{x2716}@ Statement expected - start: 3286, end: 3287
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 268, end: 274
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 314, end: 320
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 486, end: 492
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 542, end: 548
+✖ `Yield` expression cannot be used in function parameters - start: 676, end: 681
+✖ `Yield` expression cannot be used in function parameters - start: 734, end: 739
+✖ `Await` expression cannot be used in function parameters - start: 792, end: 797
+✖ `Await` expression cannot be used in function parameters - start: 850, end: 855
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 892, end: 894
+✖ Expression expected - start: 928, end: 930
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 928, end: 930
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 974, end: 976
+✖ Expression expected - start: 1020, end: 1022
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1020, end: 1022
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1058, end: 1059
+✖ Expression expected - start: 1092, end: 1093
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1092, end: 1093
+✖ Expression expected - start: 1126, end: 1127
+✖ Expression expected - start: 1160, end: 1161
+✖ Expression expected - start: 1194, end: 1195
+✖ Expression expected - start: 1228, end: 1229
+✖ Statement expected - start: 1402, end: 1403
+✖ Statement expected - start: 1406, end: 1407
+✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
+✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
+✖ Statement expected - start: 1683, end: 1684
+✖ Statement expected - start: 1687, end: 1688
+✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
+✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
+✖ Statement expected - start: 1854, end: 1855
+✖ Statement expected - start: 1862, end: 1863
+✖ Statement expected - start: 1866, end: 1867
+✖ Statement expected - start: 1867, end: 1868
+✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
+✖ Statement expected - start: 1898, end: 1913
+✖ Statement expected - start: 1921, end: 1922
+✖ Statement expected - start: 1925, end: 1926
+✖ Statement expected - start: 1926, end: 1927
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2274, end: 2276
+✖ Expression expected - start: 2314, end: 2315
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2315, end: 2317
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2360, end: 2362
+✖ Expression expected - start: 2408, end: 2409
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2409, end: 2411
+✖ ',' expected - start: 2514, end: 2517
+✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
+✖ ',' expected - start: 2514, end: 2517
+✖ Statement expected - start: 2517, end: 2518
+✖ Statement expected - start: 2518, end: 2520
+✖ Statement expected - start: 2526, end: 2527
+✖ ',' expected - start: 2562, end: 2565
+✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
+✖ ',' expected - start: 2562, end: 2565
+✖ Statement expected - start: 2565, end: 2566
+✖ Statement expected - start: 2566, end: 2568
+✖ Statement expected - start: 2574, end: 2575
+✖ ',' expected - start: 2615, end: 2618
+✖ Missing initializer in destructuring declaration - start: 2615, end: 2618
+✖ ',' expected - start: 2615, end: 2618
+✖ Statement expected - start: 2619, end: 2621
+✖ Statement expected - start: 2630, end: 2631
+✖ ',' expected - start: 2671, end: 2674
+✖ Missing initializer in destructuring declaration - start: 2671, end: 2674
+✖ ',' expected - start: 2671, end: 2674
+✖ Statement expected - start: 2675, end: 2677
+✖ Statement expected - start: 2686, end: 2687
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2722, end: 2724
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2766, end: 2768
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2814, end: 2816
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2866, end: 2868
+✖ Invalid left-hand side in for-in loop - start: 2921, end: 2923
+✖ Invalid left-hand side in for-in loop - start: 2969, end: 2971
+✖ Invalid left-hand side in for-of loop - start: 3017, end: 3019
+✖ Invalid left-hand side in for-of loop - start: 3065, end: 3067
+✖ Invalid left-hand side in for-in loop - start: 3113, end: 3115
+✖ Invalid left-hand side in for-in loop - start: 3167, end: 3169
+✖ Invalid left-hand side in for-in loop - start: 3221, end: 3223
+✖ Statement expected - start: 3230, end: 3231
+✖ Statement expected - start: 3232, end: 3233
+✖ Invalid left-hand side in for-in loop - start: 3275, end: 3277
+✖ Statement expected - start: 3284, end: 3285
+✖ Statement expected - start: 3286, end: 3287
 
 ```
 

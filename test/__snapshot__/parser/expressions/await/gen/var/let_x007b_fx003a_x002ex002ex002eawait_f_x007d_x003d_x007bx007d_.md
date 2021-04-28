@@ -270,13 +270,13 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ ',' expected - start: 56, end: 58
+✖ ',' expected - start: 56, end: 58
 
 ```
 

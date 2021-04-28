@@ -93,77 +93,77 @@ post"
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "",
-                "rawText": "",
+                "text": "@{xd}@",
+                "rawText": "@{xd}@",
                 "flags": 769,
                 "start": 41,
-                "end": 46
+                "end": 51
             },
             "flags": 128,
             "start": 41,
-            "end": 48
+            "end": 53
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "pre",
-                "rawText": "pre",
+                "text": "pre@{xd}@",
+                "rawText": "pre@{xd}@",
                 "flags": 769,
-                "start": 48,
-                "end": 56
+                "start": 53,
+                "end": 66
             },
             "flags": 128,
-            "start": 48,
-            "end": 58
+            "start": 53,
+            "end": 68
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "post",
-                "rawText": "post",
+                "text": "@{xd}@post",
+                "rawText": "@{xd}@post",
                 "flags": 769,
-                "start": 58,
-                "end": 67
+                "start": 68,
+                "end": 82
             },
             "flags": 128,
-            "start": 58,
-            "end": 69
+            "start": 68,
+            "end": 84
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 201392131,
-                "text": "prepost",
-                "rawText": "prepost",
+                "text": "pre@{xd}@post",
+                "rawText": "pre@{xd}@post",
                 "flags": 769,
-                "start": 69,
-                "end": 81
+                "start": 84,
+                "end": 101
             },
             "flags": 128,
-            "start": 69,
-            "end": 81
+            "start": 84,
+            "end": 101
         }
     ],
     "isModule": false,
-    "text": "\"\\\n\"\n;\n\"pre\\\n\"\n;\n\"\\\npost\"\n;\n\"pre\\\npost\"\n;\n\"\\\r\"\n;\n\"pre\\\r\"\n;\n\"\\\rpost\"\n;\n\"pre\\\rpost\"",
+    "text": "\"\\\n\"\n;\n\"pre\\\n\"\n;\n\"\\\npost\"\n;\n\"pre\\\npost\"\n;\n\"\\@{xd}@\"\n;\n\"pre\\@{xd}@\"\n;\n\"\\@{xd}@post\"\n;\n\"pre\\@{xd}@post\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 81
+    "end": 101
 }
 ```
 
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2714}@ No errors
+✔ No errors
 ```
 

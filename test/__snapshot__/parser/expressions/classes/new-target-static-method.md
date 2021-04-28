@@ -148,13 +148,13 @@ class A {static a(x=new.target){}}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ 'new.target' only allowed within functions - start: 30, end: 31
+✖ 'new.target' only allowed within functions - start: 30, end: 31
 
 ```
 

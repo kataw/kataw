@@ -95,13 +95,13 @@ function not_gen() { yield /* comment */ }}
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 42, end: 43
+✖ Statement expected - start: 42, end: 43
 
 ```
 

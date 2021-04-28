@@ -253,13 +253,13 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Statement expected - start: 94, end: 95
+✖ Statement expected - start: 94, end: 95
 
 ```
 

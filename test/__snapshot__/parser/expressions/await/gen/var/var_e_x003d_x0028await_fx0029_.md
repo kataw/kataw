@@ -237,13 +237,13 @@ var await; var f = (async function() { var e = (await, f); });
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 ```javascript
-@{x2716}@ Expression expected - start: 53, end: 54
+✖ Expression expected - start: 53, end: 54
 
 ```
 
