@@ -55,7 +55,7 @@ class x {static set if(x){}}
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
-                            "kind": 82031,
+                            "kind": 16499,
                             "flags": 64,
                             "start": 15,
                             "end": 19

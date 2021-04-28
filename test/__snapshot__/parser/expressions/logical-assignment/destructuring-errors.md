@@ -240,6 +240,9 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 2,
@@ -553,6 +556,9 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 2,
@@ -685,6 +691,9 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {

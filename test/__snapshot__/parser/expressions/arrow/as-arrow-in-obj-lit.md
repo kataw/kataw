@@ -42,6 +42,9 @@ x = {arrow: (x, y) => ok};
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 271,
                                     "arrowToken": {
@@ -131,6 +134,9 @@ x = {arrow: (x, y) => ok};
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 271,
                                     "arrowToken": {

@@ -35,6 +35,9 @@ async ({ident: [foo, bar].join("")}) => x
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 131,
                                         "expression": {

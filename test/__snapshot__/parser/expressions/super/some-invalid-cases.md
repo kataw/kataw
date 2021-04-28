@@ -1686,6 +1686,9 @@ let x = { foo(){ super(); } };
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 177,
                                     "asyncKeyword": null,
@@ -1932,6 +1935,9 @@ let x = { foo(){ super(); } };
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 177,
                                     "asyncKeyword": null,

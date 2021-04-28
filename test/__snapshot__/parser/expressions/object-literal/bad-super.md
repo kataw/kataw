@@ -111,6 +111,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 203,
                                                                         "chain": {

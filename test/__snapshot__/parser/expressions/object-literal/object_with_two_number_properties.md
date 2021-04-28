@@ -37,6 +37,9 @@ wrap({1:b, 0:d});
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -59,6 +62,9 @@ wrap({1:b, 0:d});
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "d",

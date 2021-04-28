@@ -44,6 +44,9 @@ x = {[ a instanceof b + c ]: y}
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "y",

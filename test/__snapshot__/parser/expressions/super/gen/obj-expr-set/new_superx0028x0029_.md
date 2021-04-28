@@ -29,14 +29,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 6
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -70,7 +62,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 9,
                                     "end": 11
                                 },
@@ -129,7 +121,7 @@
                                     "start": 11,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 8,
                                 "end": 28
                             }
@@ -171,7 +163,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 6, end: 8
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 23, end: 24
 
 ```

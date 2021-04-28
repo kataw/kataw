@@ -51,6 +51,9 @@ for ({x:a.b}=x in x) ;
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 129,
                                     "member": {

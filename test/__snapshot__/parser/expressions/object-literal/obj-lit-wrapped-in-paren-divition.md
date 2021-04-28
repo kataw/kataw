@@ -57,6 +57,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -181,6 +184,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -311,6 +317,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -441,6 +450,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 121,
                                             "expression": {
@@ -577,6 +589,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -723,6 +738,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -853,6 +871,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -989,6 +1010,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {
@@ -1125,6 +1149,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 121,
                                             "expression": {
@@ -1323,14 +1350,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 291,
-                                "end": 295
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -1364,7 +1383,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 300,
                                     "end": 302
                                 },
@@ -1384,17 +1403,9 @@
                                     "start": 302,
                                     "end": 304
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 299,
                                 "end": 304
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 305,
-                                "end": 309
                             },
                             {
                                 "kind": 209,
@@ -1430,7 +1441,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 314,
                                     "end": 316
                                 },
@@ -1450,7 +1461,7 @@
                                     "start": 316,
                                     "end": 318
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 313,
                                 "end": 318
                             }
@@ -1482,14 +1493,6 @@
                     "propertyList": {
                         "kind": 218,
                         "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 325,
-                                "end": 329
-                            },
                             {
                                 "kind": 209,
                                 "name": {
@@ -1524,7 +1527,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 334,
                                     "end": 336
                                 },
@@ -1544,7 +1547,7 @@
                                     "start": 336,
                                     "end": 338
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 333,
                                 "end": 338
                             },
@@ -1617,6 +1620,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 126,
                                     "operandToken": {
@@ -1679,6 +1685,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 198,
                                     "left": {
@@ -1755,9 +1764,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 295, end: 299
-✖ ',' expected - start: 309, end: 313
-✖ ',' expected - start: 329, end: 333
-
+✔ No errors
 ```
 

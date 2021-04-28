@@ -48,6 +48,9 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -92,6 +95,9 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 42,

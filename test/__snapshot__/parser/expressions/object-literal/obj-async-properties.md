@@ -71,6 +71,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "await",
@@ -121,6 +124,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 197,
                                     "shortCircuit": {
@@ -211,6 +217,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 134,
                                     "text": true,
@@ -326,14 +335,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 99,
-                                "end": 104
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -348,7 +349,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 109,
                                     "end": 110
                                 },
@@ -368,7 +369,7 @@
                                     "start": 110,
                                     "end": 114
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 108,
                                 "end": 114
                             }
@@ -724,7 +725,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 104, end: 108
 ✖ ',' expected - start: 144, end: 151
 ✖ ',' expected - start: 167, end: 169
 ✖ ',' expected - start: 188, end: 192

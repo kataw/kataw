@@ -36,14 +36,6 @@ wrap({set foo(a){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "set",
-                                        "rawText": "set",
-                                        "flags": 96,
-                                        "start": 6,
-                                        "end": 9
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
@@ -77,7 +69,7 @@ wrap({set foo(a){}});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 544,
                                             "start": 14,
                                             "end": 16
                                         },
@@ -97,7 +89,7 @@ wrap({set foo(a){}});
                                             "start": 16,
                                             "end": 18
                                         },
-                                        "flags": 32,
+                                        "flags": 544,
                                         "start": 13,
                                         "end": 18
                                     }
@@ -145,7 +137,6 @@ wrap({set foo(a){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 13
-
+✔ No errors
 ```
 

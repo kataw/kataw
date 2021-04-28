@@ -70,6 +70,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -159,6 +162,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -178,14 +184,6 @@
                                 "flags": 32,
                                 "start": 30,
                                 "end": 37
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 38,
-                                "end": 42
                             },
                             {
                                 "kind": 209,
@@ -221,7 +219,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 47,
                                     "end": 49
                                 },
@@ -241,7 +239,7 @@
                                     "start": 49,
                                     "end": 52
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 46,
                                 "end": 52
                             }
@@ -275,6 +273,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -296,6 +297,14 @@
                                 "end": 68
                             },
                             {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 69,
+                                "end": 73
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -310,7 +319,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1056,
+                                    "flags": 32,
                                     "start": 80,
                                     "end": 81
                                 },
@@ -330,7 +339,7 @@
                                     "start": 81,
                                     "end": 84
                                 },
-                                "flags": 1056,
+                                "flags": 32,
                                 "start": 79,
                                 "end": 84
                             }
@@ -364,6 +373,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -480,6 +492,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -501,6 +516,14 @@
                                 "end": 127
                             },
                             {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 128,
+                                "end": 132
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -515,7 +538,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1056,
+                                    "flags": 32,
                                     "start": 135,
                                     "end": 136
                                 },
@@ -535,7 +558,7 @@
                                     "start": 136,
                                     "end": 139
                                 },
-                                "flags": 1056,
+                                "flags": 32,
                                 "start": 134,
                                 "end": 139
                             }
@@ -569,6 +592,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -790,14 +816,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 203,
-                                "end": 206
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -831,7 +849,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 211,
                                     "end": 213
                                 },
@@ -851,17 +869,9 @@
                                     "start": 213,
                                     "end": 216
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 210,
                                 "end": 216
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 217,
-                                "end": 221
                             },
                             {
                                 "kind": 209,
@@ -897,7 +907,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 226,
                                     "end": 228
                                 },
@@ -917,7 +927,7 @@
                                     "start": 228,
                                     "end": 231
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 225,
                                 "end": 231
                             }
@@ -951,6 +961,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -972,6 +985,14 @@
                                 "end": 245
                             },
                             {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 246,
+                                "end": 250
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -986,7 +1007,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1056,
+                                    "flags": 32,
                                     "start": 257,
                                     "end": 258
                                 },
@@ -1006,7 +1027,7 @@
                                     "start": 258,
                                     "end": 261
                                 },
-                                "flags": 1056,
+                                "flags": 32,
                                 "start": 256,
                                 "end": 261
                             }
@@ -1040,6 +1061,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1223,6 +1247,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -1273,6 +1300,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 4,
@@ -1398,6 +1428,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 5,
@@ -1447,14 +1480,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 386,
-                                "end": 392
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -1469,7 +1494,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 397,
                                     "end": 398
                                 },
@@ -1489,7 +1514,7 @@
                                     "start": 398,
                                     "end": 400
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 396,
                                 "end": 400
                             }
@@ -1523,6 +1548,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -1667,6 +1695,14 @@
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 472,
+                                "end": 476
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -1681,7 +1717,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1056,
+                                    "flags": 32,
                                     "start": 479,
                                     "end": 480
                                 },
@@ -1701,7 +1737,7 @@
                                     "start": 480,
                                     "end": 483
                                 },
-                                "flags": 1056,
+                                "flags": 32,
                                 "start": 478,
                                 "end": 483
                             }
@@ -1749,6 +1785,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1768,14 +1807,6 @@
                                 "flags": 32,
                                 "start": 504,
                                 "end": 511
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 512,
-                                "end": 516
                             },
                             {
                                 "kind": 209,
@@ -1811,7 +1842,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 521,
                                     "end": 523
                                 },
@@ -1831,7 +1862,7 @@
                                     "start": 523,
                                     "end": 526
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 520,
                                 "end": 526
                             }
@@ -1865,6 +1896,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1981,6 +2015,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2070,6 +2107,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2089,14 +2129,6 @@
                                 "flags": 32,
                                 "start": 589,
                                 "end": 596
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 597,
-                                "end": 601
                             },
                             {
                                 "kind": 209,
@@ -2132,7 +2164,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 606,
                                     "end": 608
                                 },
@@ -2152,7 +2184,7 @@
                                     "start": 608,
                                     "end": 611
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 605,
                                 "end": 611
                             }
@@ -2186,6 +2218,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2208,6 +2243,9 @@
                             },
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -2266,17 +2304,15 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 42, end: 46
+✖ ',' expected - start: 73, end: 79
 ✖ ',' expected - start: 104, end: 110
+✖ ',' expected - start: 132, end: 134
 ✖ ',' expected - start: 155, end: 157
-✖ ',' expected - start: 206, end: 210
-✖ ',' expected - start: 221, end: 225
+✖ ',' expected - start: 250, end: 256
 ✖ ',' expected - start: 280, end: 286
 ✖ ',' expected - start: 351, end: 353
-✖ ',' expected - start: 392, end: 396
-✖ ',' expected - start: 516, end: 520
+✖ ',' expected - start: 476, end: 478
 ✖ ',' expected - start: 544, end: 546
-✖ ',' expected - start: 601, end: 605
 
 ```
 

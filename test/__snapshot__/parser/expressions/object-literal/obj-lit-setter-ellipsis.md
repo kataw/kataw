@@ -25,14 +25,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 6
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -71,7 +63,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 34,
+                                    "flags": 546,
                                     "start": 9,
                                     "end": 14
                                 },
@@ -91,7 +83,7 @@
                                     "start": 14,
                                     "end": 16
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 8,
                                 "end": 16
                             }
@@ -133,7 +125,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 6, end: 8
+✖ A 'set' accessor cannot have rest parameter. - start: 9, end: 12
 
 ```
 

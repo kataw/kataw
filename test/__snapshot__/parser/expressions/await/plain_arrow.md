@@ -93,6 +93,9 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 198,
                                                                         "left": {

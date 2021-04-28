@@ -75,7 +75,7 @@ class x { static async *prototype(){} }
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 16,
                             "end": 20
@@ -256,7 +256,7 @@ class x { static async *prototype(){} }
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 95,
                             "end": 99
@@ -427,6 +427,7 @@ class x { static async *prototype(){} }
 
 ```javascript
 ✖ Classes may not have a static property named 'prototype' - start: 30, end: 31
+✖ Invalid escaped keyword - start: 54, end: 71
 ✖ Classes may not have a static property named 'prototype' - start: 109, end: 110
 ✖ Classes may not have a static property named 'prototype' - start: 150, end: 151
 

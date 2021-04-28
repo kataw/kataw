@@ -77,6 +77,9 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 23,
@@ -224,6 +227,9 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 23,

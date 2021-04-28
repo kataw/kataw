@@ -70,7 +70,7 @@ class x { static set [y](z){}}
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
-                            "kind": 82031,
+                            "kind": 16499,
                             "flags": 64,
                             "start": 16,
                             "end": 20

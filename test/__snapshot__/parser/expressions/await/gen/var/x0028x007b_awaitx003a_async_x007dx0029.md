@@ -124,6 +124,9 @@ var await; var f = (async function() { ({ await: async }) });
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 134299649,
                                                                         "text": "async",

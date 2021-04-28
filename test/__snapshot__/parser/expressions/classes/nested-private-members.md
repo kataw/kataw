@@ -553,7 +553,7 @@
                                                 "staticKeyword": null,
                                                 "asyncKeyword": null,
                                                 "setKeyword": {
-                                                    "kind": 82031,
+                                                    "kind": 16498,
                                                     "flags": 64,
                                                     "start": 152,
                                                     "end": 156
@@ -689,7 +689,7 @@
                                                 "asyncKeyword": null,
                                                 "setKeyword": null,
                                                 "getKeyword": {
-                                                    "kind": 82031,
+                                                    "kind": 16499,
                                                     "flags": 64,
                                                     "start": 190,
                                                     "end": 194

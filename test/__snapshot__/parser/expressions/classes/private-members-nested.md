@@ -53,7 +53,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 8,
                                     "end": 12
@@ -227,7 +227,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 53,
                                     "end": 57
@@ -288,7 +288,7 @@
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": {
-                                                                    "kind": 82031,
+                                                                    "kind": 16498,
                                                                     "flags": 64,
                                                                     "start": 73,
                                                                     "end": 77
@@ -407,7 +407,7 @@
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16499,
                                     "flags": 64,
                                     "start": 102,
                                     "end": 106
@@ -480,7 +480,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 117,
                                     "end": 121
@@ -541,7 +541,7 @@
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": {
-                                                                    "kind": 82031,
+                                                                    "kind": 16498,
                                                                     "flags": 64,
                                                                     "start": 138,
                                                                     "end": 142
@@ -597,7 +597,7 @@
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": null,
                                                                 "getKeyword": {
-                                                                    "kind": 82031,
+                                                                    "kind": 16499,
                                                                     "flags": 64,
                                                                     "start": 150,
                                                                     "end": 154
@@ -790,7 +790,7 @@
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": null,
                                                                 "getKeyword": {
-                                                                    "kind": 82031,
+                                                                    "kind": 16499,
                                                                     "flags": 64,
                                                                     "start": 199,
                                                                     "end": 203

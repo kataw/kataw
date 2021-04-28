@@ -25,14 +25,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 8
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -84,7 +76,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 416,
                                     "start": 15,
                                     "end": 23
                                 },
@@ -104,7 +96,7 @@
                                     "start": 23,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 416,
                                 "start": 14,
                                 "end": 25
                             }
@@ -146,7 +138,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 10, end: 14
+✖ `Await` expression cannot be used in function parameters - start: 15, end: 20
 ✖ ',' expected - start: 20, end: 22
 
 ```

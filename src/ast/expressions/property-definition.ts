@@ -1,4 +1,5 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
 import { AssignmentExpression } from './assignment-expr';
 import { BindingElement } from './binding-element';
@@ -14,11 +15,17 @@ export type PropertyKey = Identifier | NumericLiteral | BigIntLiteral | StringLi
  * Property name
  */
 export interface PropertyDefinition extends SyntaxNode {
+  readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly getKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly setKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   readonly right: AssignmentExpression | BindingElement | Identifier | ExpressionNode;
 }
 
 export function createPropertyDefinition(
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  getKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  setKeyword: SyntaxToken<TokenSyntaxKind> | null,
   left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   right: ExpressionNode | BindingElement | Identifier,
   start: number,
@@ -26,6 +33,9 @@ export function createPropertyDefinition(
 ): PropertyDefinition {
   return {
     kind: SyntaxKind.PropertyDefinition,
+    asyncKeyword,
+    getKeyword,
+    setKeyword,
     left,
     right,
     flags: NodeFlags.ExpressionNode,

@@ -53,7 +53,7 @@ class Foo {get fooProp():number{}}
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 11,
                             "end": 14

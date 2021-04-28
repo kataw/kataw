@@ -422,14 +422,6 @@ function targetKey() {
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 134299649,
-                                            "text": "set",
-                                            "rawText": "set",
-                                            "flags": 96,
-                                            "start": 195,
-                                            "end": 207
-                                        },
-                                        {
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
@@ -463,7 +455,7 @@ function targetKey() {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 544,
                                                 "start": 210,
                                                 "end": 212
                                             },
@@ -535,7 +527,7 @@ function targetKey() {
                                                 "start": 212,
                                                 "end": 253
                                             },
-                                            "flags": 32,
+                                            "flags": 544,
                                             "start": 209,
                                             "end": 253
                                         }
@@ -669,6 +661,9 @@ function targetKey() {
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
@@ -923,6 +918,9 @@ function targetKey() {
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
@@ -1091,6 +1089,9 @@ function targetKey() {
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 130,
                                         "member": {
@@ -1243,7 +1244,6 @@ function targetKey() {
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 207, end: 209
-
+✔ No errors
 ```
 

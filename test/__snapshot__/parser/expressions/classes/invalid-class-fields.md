@@ -1196,7 +1196,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 248,
                                     "end": 251
@@ -1847,7 +1847,7 @@
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16499,
                                     "flags": 64,
                                     "start": 400,
                                     "end": 403
@@ -2608,7 +2608,7 @@
                                                                     "staticKeyword": null,
                                                                     "asyncKeyword": null,
                                                                     "setKeyword": {
-                                                                        "kind": 82031,
+                                                                        "kind": 16498,
                                                                         "flags": 64,
                                                                         "start": 602,
                                                                         "end": 605
@@ -2663,7 +2663,7 @@
                                                                     "staticKeyword": null,
                                                                     "asyncKeyword": null,
                                                                     "setKeyword": {
-                                                                        "kind": 82031,
+                                                                        "kind": 16498,
                                                                         "flags": 64,
                                                                         "start": 613,
                                                                         "end": 617
@@ -2781,7 +2781,7 @@
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": {
-                                                "kind": 82031,
+                                                "kind": 16498,
                                                 "flags": 64,
                                                 "start": 637,
                                                 "end": 640
@@ -2960,7 +2960,7 @@
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16499,
                                     "flags": 64,
                                     "start": 676,
                                     "end": 679
@@ -3034,7 +3034,7 @@
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16499,
                                     "flags": 64,
                                     "start": 690,
                                     "end": 694
@@ -3144,7 +3144,7 @@
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16499,
                                     "flags": 64,
                                     "start": 717,
                                     "end": 720

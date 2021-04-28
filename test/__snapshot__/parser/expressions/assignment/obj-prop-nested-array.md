@@ -48,6 +48,9 @@ result = { x: [y] } = { x: [321] };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -107,6 +110,9 @@ result = { x: [y] } = { x: [321] };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {

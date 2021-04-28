@@ -95,14 +95,6 @@
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 134299649,
-                                                        "text": "async",
-                                                        "rawText": "async",
-                                                        "flags": 96,
-                                                        "start": 42,
-                                                        "end": 47
-                                                    },
-                                                    {
                                                         "kind": 209,
                                                         "name": {
                                                             "kind": 134299649,
@@ -130,38 +122,32 @@
                                                                     "optionalToken": null,
                                                                     "type": null,
                                                                     "initializer": {
-                                                                        "kind": 134299649,
-                                                                        "text": "await",
-                                                                        "rawText": "await",
-                                                                        "flags": 96,
+                                                                        "kind": 208,
+                                                                        "awaitToken": {
+                                                                            "kind": 82032,
+                                                                            "flags": 0,
+                                                                            "start": 56,
+                                                                            "end": 62
+                                                                        },
+                                                                        "expression": {
+                                                                            "kind": 134299649,
+                                                                            "text": "bar",
+                                                                            "rawText": "bar",
+                                                                            "flags": 96,
+                                                                            "start": 62,
+                                                                            "end": 66
+                                                                        },
+                                                                        "flags": 32,
                                                                         "start": 56,
-                                                                        "end": 62
+                                                                        "end": 66
                                                                     },
                                                                     "flags": 34,
                                                                     "start": 51,
-                                                                    "end": 62
-                                                                },
-                                                                {
-                                                                    "kind": 215,
-                                                                    "ellipsisToken": null,
-                                                                    "binding": {
-                                                                        "kind": 134299649,
-                                                                        "text": "bar",
-                                                                        "rawText": "bar",
-                                                                        "flags": 96,
-                                                                        "start": 62,
-                                                                        "end": 66
-                                                                    },
-                                                                    "optionalToken": null,
-                                                                    "type": null,
-                                                                    "initializer": null,
-                                                                    "flags": 32,
-                                                                    "start": 62,
                                                                     "end": 66
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 34,
+                                                            "flags": 418,
                                                             "start": 51,
                                                             "end": 67
                                                         },
@@ -181,7 +167,7 @@
                                                             "start": 67,
                                                             "end": 69
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 416,
                                                         "start": 50,
                                                         "end": 69
                                                     }
@@ -244,8 +230,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 49, end: 50
-✖ ',' expected - start: 62, end: 66
-
+✔ No errors
 ```
 

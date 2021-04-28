@@ -181,6 +181,9 @@ Object.defineProperty(this, "x", {
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134,
                                             "text": true,
@@ -202,6 +205,9 @@ Object.defineProperty(this, "x", {
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 1,

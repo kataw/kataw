@@ -26,6 +26,9 @@
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 269,
                                     "text": null,
@@ -85,14 +88,6 @@
                                 "end": 37
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 38,
-                                "end": 42
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -126,7 +121,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 53,
                                     "end": 55
                                 },
@@ -146,7 +141,7 @@
                                     "start": 55,
                                     "end": 57
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 52,
                                 "end": 57
                             }
@@ -188,7 +183,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 42, end: 52
-
+✔ No errors
 ```
 

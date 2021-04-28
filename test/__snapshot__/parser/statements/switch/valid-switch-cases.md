@@ -2874,6 +2874,9 @@ switch (answer) { case 0: let a; };
                     "properties": [
                         {
                             "kind": 219,
+                            "asyncKeyword": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
@@ -3001,6 +3004,9 @@ switch (answer) { case 0: let a; };
                     "properties": [
                         {
                             "kind": 219,
+                            "asyncKeyword": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",

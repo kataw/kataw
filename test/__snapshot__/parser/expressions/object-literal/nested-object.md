@@ -155,6 +155,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "3",
@@ -177,6 +180,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 220,
                                             "propertyList": {
@@ -184,6 +190,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "properties": [
                                                     {
                                                         "kind": 219,
+                                                        "asyncKeyword": null,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
                                                         "left": {
                                                             "kind": 201392131,
                                                             "text": "b",

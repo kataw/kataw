@@ -50,7 +50,7 @@ class C { static get #aaa(){} }
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 16,
                             "end": 20

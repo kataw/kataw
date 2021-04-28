@@ -46,6 +46,9 @@ for ({a: b.c}() of d) e
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 129,
                                     "member": {

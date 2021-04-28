@@ -41,6 +41,9 @@
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 129,
                                                 "member": {
@@ -134,6 +137,9 @@
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 130,
                                                 "member": {
@@ -227,6 +233,9 @@
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 129,
                                                 "member": {
@@ -306,6 +315,9 @@
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 130,
                                                 "member": {
@@ -479,6 +491,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {
@@ -591,6 +606,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {
@@ -731,6 +749,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {
@@ -871,6 +892,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {
@@ -997,6 +1021,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {

@@ -25,14 +25,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 5
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -66,7 +58,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 160,
+                                    "flags": 672,
                                     "start": 12,
                                     "end": 14
                                 },
@@ -86,7 +78,7 @@
                                     "start": 14,
                                     "end": 16
                                 },
-                                "flags": 160,
+                                "flags": 672,
                                 "start": 11,
                                 "end": 16
                             }
@@ -128,7 +120,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 5, end: 7
-
+✔ No errors
 ```
 

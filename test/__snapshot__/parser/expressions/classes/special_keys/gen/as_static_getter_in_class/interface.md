@@ -54,7 +54,7 @@ class x {static get interface(){}}
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 15,
                             "end": 19

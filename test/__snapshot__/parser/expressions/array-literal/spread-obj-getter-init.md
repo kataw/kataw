@@ -52,6 +52,9 @@ var callCount = 0;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,
@@ -74,6 +77,9 @@ var callCount = 0;
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 3,

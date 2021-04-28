@@ -55,6 +55,9 @@ for ({a: x + y} in obj);
                     "properties": [
                         {
                             "kind": 219,
+                            "asyncKeyword": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "left": {
                                 "kind": 198,
                                 "left": {

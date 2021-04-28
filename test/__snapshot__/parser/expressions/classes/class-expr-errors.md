@@ -55,7 +55,7 @@
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16499,
                                     "flags": 64,
                                     "start": 8,
                                     "end": 12
@@ -247,7 +247,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 62,
                                     "end": 66
@@ -427,7 +427,7 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 109,
                                     "end": 113
@@ -541,6 +541,9 @@
                                                                     "properties": [
                                                                         {
                                                                             "kind": 219,
+                                                                            "asyncKeyword": null,
+                                                                            "getKeyword": null,
+                                                                            "setKeyword": null,
                                                                             "left": {
                                                                                 "kind": 129,
                                                                                 "member": {

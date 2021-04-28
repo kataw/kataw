@@ -25,14 +25,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 8
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -60,31 +52,26 @@
                                             "optionalToken": null,
                                             "type": null,
                                             "initializer": {
-                                                "kind": 131,
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "await",
-                                                    "rawText": "await",
-                                                    "flags": 96,
+                                                "kind": 208,
+                                                "awaitToken": {
+                                                    "kind": 82032,
+                                                    "flags": 0,
                                                     "start": 14,
                                                     "end": 20
                                                 },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 201392130,
-                                                            "text": 0,
-                                                            "rawText": "0",
-                                                            "flags": 96,
-                                                            "start": 22,
-                                                            "end": 23
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
+                                                "expression": {
+                                                    "kind": 121,
+                                                    "expression": {
+                                                        "kind": 201392130,
+                                                        "text": 0,
+                                                        "rawText": "0",
+                                                        "flags": 96,
+                                                        "start": 22,
+                                                        "end": 23
+                                                    },
                                                     "flags": 32,
-                                                    "start": 22,
-                                                    "end": 23
+                                                    "start": 20,
+                                                    "end": 24
                                                 },
                                                 "flags": 32,
                                                 "start": 14,
@@ -96,7 +83,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 34,
+                                    "flags": 290,
                                     "start": 11,
                                     "end": 25
                                 },
@@ -116,7 +103,7 @@
                                     "start": 25,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 10,
                                 "end": 28
                             }
@@ -158,7 +145,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 8, end: 10
-
+✔ No errors
 ```
 

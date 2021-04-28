@@ -48,6 +48,9 @@ result = { x: { y } } = { x: { y: 2 } };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 220,
                                         "propertyList": {
@@ -108,6 +111,9 @@ result = { x: { y } } = { x: { y: 2 } };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 220,
                                         "propertyList": {
@@ -115,6 +121,9 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 2,

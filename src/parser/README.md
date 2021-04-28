@@ -61,21 +61,29 @@ Multiple API methods exist to get info from the CST nodes
 | `isSemicolon`              | True if the node is `;`, |
 | `isChildLess`              | True if the node doesn't have any child AST nodes |
 | `isSingleQuote`              | True if the node has either `'` or `"`|
-| `containsSeparator`              | True if the node contains a numeric separator `_`|
+| `containsSeparator`              | True if the node contains a numeric separator `_`.  e.g. `0b1100_0101`|
 | `hasUnicodeEscape`              | True if the node contains any unicode escapes |
+| `hasExtendedUnicodeEscape`              | True if the node contains extended unicode escape |
 | `isConstructor`              | True if the node is a class constructor |
 | `isGenerator`              | True if the node is parsed in a generator context |
 | `isAsync`              | True if the node is parsed in a async context |
 | `isDeclared`              | True if the node has been declared |
 | `isNoneSimpleParamList`              | True if the node is a simple parameter list |
-| `hasExtendedUnicodeEscape`              | True if the node contains extended unicode escape |
 | `isImplicitOctal`              | True if the node is an implicit octal |
-| `isOctalIntegerLiteral`              | True if the node is an octal integer literal |
-| `isBinaryIntegerLiteral`              | True if the node is an binary integer literal |
+| `isOctalIntegerLiteral`              | True if the node is an octal integer literal. e.g. `0777` |
+| `isBinaryIntegerLiteral`              | True if the node is an binary integer literal. e.g. `0b0110010000000000` |
+| `hexIntegerLiteral`              | True if the node is an hex integer literal. e.g. `0x00000000` |
 | `isUnterminated`              | True if the node is is unterminated. String or template literal. |
-| `hexIntegerLiteral`              | True if the node is an hex integer literal |
-| `containsInvalidEscape`              | True if the node contains invalid escape (*template literal*) |
+| `containsInvalidEscape`              | True if the node contains invalid escape. e.g. `\uhello` |
 | `hasErrors`              | True if the node contains errors |
+| `isLexical`              | True if the node is a lexical declaration |
+
+## Escaped keywords
+
+All keywords is it's own `CST keyword node` - for example `lexicalKeyword` or `caseKeyword` - and
+you can check if the keyword is escaped like this:
+
+`kataw.hasUnicodeEscape(node)` or `kataw.hasExtendedUnicodeEscape(node)`
 
 ## Location tracking
 

@@ -534,6 +534,9 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 0,
@@ -690,14 +693,6 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 134299649,
-                                    "text": "set",
-                                    "rawText": "set",
-                                    "flags": 96,
-                                    "start": 1085,
-                                    "end": 1088
-                                },
-                                {
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
@@ -731,7 +726,7 @@ try {} catch(e) { for(var e of 0); };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 544,
                                         "start": 1091,
                                         "end": 1093
                                     },
@@ -751,7 +746,7 @@ try {} catch(e) { for(var e of 0); };
                                         "start": 1093,
                                         "end": 1095
                                     },
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 1090,
                                     "end": 1095
                                 }
@@ -1297,6 +1292,9 @@ try {} catch(e) { for(var e of 0); };
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 0,
@@ -1620,6 +1618,9 @@ try {} catch(e) { for(var e of 0); };
                     "properties": [
                         {
                             "kind": 219,
+                            "asyncKeyword": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "left": {
                                 "kind": 201392130,
                                 "text": 0,
@@ -1745,6 +1746,9 @@ try {} catch(e) { for(var e of 0); };
                     "properties": [
                         {
                             "kind": 219,
+                            "asyncKeyword": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
                             "left": {
                                 "kind": 201392130,
                                 "text": 0,
@@ -1955,6 +1959,9 @@ try {} catch(e) { for(var e of 0); };
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -2092,6 +2099,9 @@ try {} catch(e) { for(var e of 0); };
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -3440,14 +3450,6 @@ try {} catch(e) { for(var e of 0); };
                                                         "kind": 218,
                                                         "properties": [
                                                             {
-                                                                "kind": 134299649,
-                                                                "text": "set",
-                                                                "rawText": "set",
-                                                                "flags": 96,
-                                                                "start": 3483,
-                                                                "end": 3486
-                                                            },
-                                                            {
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
@@ -3481,7 +3483,7 @@ try {} catch(e) { for(var e of 0); };
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 32,
+                                                                    "flags": 544,
                                                                     "start": 3499,
                                                                     "end": 3501
                                                                 },
@@ -3534,7 +3536,7 @@ try {} catch(e) { for(var e of 0); };
                                                                     "start": 3501,
                                                                     "end": 3514
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 544,
                                                                 "start": 3498,
                                                                 "end": 3514
                                                             }
@@ -4977,6 +4979,9 @@ try {} catch(e) { for(var e of 0); };
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -5768,7 +5773,6 @@ try {} catch(e) { for(var e of 0); };
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 783, end: 784
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1057, end: 1059
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1076, end: 1078
-✖ ',' expected - start: 1088, end: 1090
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1096, end: 1098
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1112, end: 1114
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1122, end: 1124
@@ -5811,7 +5815,6 @@ try {} catch(e) { for(var e of 0); };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3358, end: 3359
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3433, end: 3434
-✖ ',' expected - start: 3486, end: 3498
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3509, end: 3510
 ✖ Invalid hexadecimal escape sequence - start: 3520, end: 3728
 ✖ Statement expected - start: 3520, end: 3729

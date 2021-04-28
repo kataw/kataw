@@ -54,6 +54,9 @@ result = { x: x[yield] } = vals;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 23,
@@ -125,6 +128,9 @@ result = { x: x[yield] } = vals;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 130,
                                         "member": {

@@ -37,6 +37,9 @@ log({foo: [bar]});
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 119,
                                             "elementList": {

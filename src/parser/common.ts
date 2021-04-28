@@ -197,6 +197,11 @@ export function isGenerator(node: SyntaxNode): boolean {
 export function isAsync(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.Async) === NodeFlags.Async;
 }
+
+export function isLexical(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Lexical) === NodeFlags.Lexical;
+}
+
 export function isDeclared(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.Declared) === NodeFlags.Declared;
 }

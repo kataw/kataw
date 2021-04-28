@@ -310,14 +310,6 @@ x({*foo(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 53,
-                                        "end": 58
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
@@ -332,7 +324,7 @@ x({*foo(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 288,
                                             "start": 63,
                                             "end": 64
                                         },
@@ -352,7 +344,7 @@ x({*foo(){}});
                                             "start": 64,
                                             "end": 66
                                         },
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 62,
                                         "end": 66
                                     },
@@ -480,14 +472,6 @@ x({*foo(){}});
                                         "end": 90
                                     },
                                     {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 91,
-                                        "end": 97
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
@@ -502,7 +486,7 @@ x({*foo(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 288,
                                             "start": 102,
                                             "end": 103
                                         },
@@ -522,7 +506,7 @@ x({*foo(){}});
                                             "start": 103,
                                             "end": 105
                                         },
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 101,
                                         "end": 105
                                     }
@@ -967,8 +951,6 @@ x({*foo(){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 58, end: 62
-✖ ',' expected - start: 97, end: 101
 ✖ ',' expected - start: 118, end: 124
 ✖ ',' expected - start: 141, end: 143
 

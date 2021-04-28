@@ -50,7 +50,7 @@ class x {set debugger(x){}}
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
-                            "kind": 82031,
+                            "kind": 16499,
                             "flags": 64,
                             "start": 9,
                             "end": 12

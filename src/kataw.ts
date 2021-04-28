@@ -29,6 +29,7 @@ export {
   isEllipsis,
   isInOrOf,
   isKeyword,
+  isLexical,
   isFutureReserved,
   isStartOfType,
   isSemicolon

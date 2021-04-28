@@ -39,6 +39,9 @@ x({[a]:b, [15]:d}=obj);
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -67,6 +70,9 @@ x({[a]:b, [15]:d}=obj);
                                         },
                                         {
                                             "kind": 219,
+                                            "asyncKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "d",

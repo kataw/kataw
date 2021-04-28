@@ -75,14 +75,6 @@ x({foo(){}, async bar(){}});
                                         "end": 10
                                     },
                                     {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 11,
-                                        "end": 17
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
@@ -97,7 +89,7 @@ x({foo(){}, async bar(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 288,
                                             "start": 22,
                                             "end": 23
                                         },
@@ -117,7 +109,7 @@ x({foo(){}, async bar(){}});
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 21,
                                         "end": 25
                                     }
@@ -165,7 +157,6 @@ x({foo(){}, async bar(){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 17, end: 21
-
+✔ No errors
 ```
 

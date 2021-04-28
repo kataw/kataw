@@ -82,6 +82,9 @@ x = {async __proto__(){}, *__proto__(){}};
                             },
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -265,14 +268,6 @@ x = {async __proto__(){}, *__proto__(){}};
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 76,
-                                "end": 81
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -287,7 +282,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 92,
                                     "end": 93
                                 },
@@ -307,7 +302,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "start": 93,
                                     "end": 95
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 91,
                                 "end": 95
                             },
@@ -388,6 +383,9 @@ x = {async __proto__(){}, *__proto__(){}};
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -410,6 +408,9 @@ x = {async __proto__(){}, *__proto__(){}};
                                 },
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -486,7 +487,6 @@ x = {async __proto__(){}, *__proto__(){}};
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 81, end: 91
-
+✔ No errors
 ```
 

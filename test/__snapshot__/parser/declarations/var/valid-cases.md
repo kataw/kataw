@@ -287,6 +287,9 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 4,
@@ -309,6 +312,9 @@ var {get} = obj;
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 121,
                                             "expression": {
@@ -410,6 +416,9 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 4,
@@ -432,6 +441,9 @@ var {get} = obj;
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 121,
                                             "expression": {
@@ -797,6 +809,9 @@ var {get} = obj;
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 125,
                                                         "left": {
@@ -855,6 +870,9 @@ var {get} = obj;
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 125,
                                                         "left": {
@@ -1009,6 +1027,9 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {
@@ -1344,6 +1365,9 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,

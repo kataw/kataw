@@ -44,6 +44,9 @@ x = {arrow: x => ok}
                         "properties": [
                             {
                                 "kind": 219,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
                                 "left": {
                                     "kind": 271,
                                     "arrowToken": {

@@ -67,7 +67,7 @@ class C { get name(private) {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 10,
                             "end": 14
@@ -174,7 +174,7 @@ class C { get name(private) {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 46,
                             "end": 50
@@ -281,7 +281,7 @@ class C { get name(private) {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 79,
                             "end": 83
@@ -402,7 +402,7 @@ class C { get name(private) {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 127,
                             "end": 131
@@ -523,7 +523,7 @@ class C { get name(private) {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 178,
                             "end": 182
@@ -644,7 +644,7 @@ class C { get name(private) {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 224,
                             "end": 228
@@ -777,7 +777,7 @@ class C { get name(private) {} }
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 267,
                                     "end": 271
@@ -902,7 +902,7 @@ class C { get name(private) {} }
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
-                                    "kind": 82031,
+                                    "kind": 16498,
                                     "flags": 64,
                                     "start": 315,
                                     "end": 319

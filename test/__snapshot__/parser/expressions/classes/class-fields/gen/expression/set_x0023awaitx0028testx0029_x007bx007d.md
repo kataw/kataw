@@ -70,7 +70,7 @@ class C extends Base { set #await(test) {} }
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
-                            "kind": 82031,
+                            "kind": 16499,
                             "flags": 64,
                             "start": 22,
                             "end": 26

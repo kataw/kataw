@@ -1636,6 +1636,9 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
@@ -1773,6 +1776,9 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",

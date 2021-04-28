@@ -45,7 +45,7 @@ class X { ge\u0074 x() {} }
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 9,
                             "end": 18

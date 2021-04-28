@@ -56,7 +56,7 @@ class C { foo() { this.#a = 1; }}
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": {
-                                        "kind": 82031,
+                                        "kind": 16499,
                                         "flags": 64,
                                         "start": 8,
                                         "end": 12
@@ -206,7 +206,7 @@ class C { foo() { this.#a = 1; }}
                                         "staticKeyword": null,
                                         "asyncKeyword": null,
                                         "setKeyword": {
-                                            "kind": 82031,
+                                            "kind": 16498,
                                             "flags": 64,
                                             "start": 51,
                                             "end": 55

@@ -33,14 +33,6 @@
                                 "end": 8
                             },
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 8,
-                                "end": 14
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -55,7 +47,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -75,7 +67,7 @@
                                     "start": 22,
                                     "end": 24
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 20,
                                 "end": 24
                             }
@@ -118,7 +110,6 @@
 
 ```javascript
 ✖ ',' expected - start: 8, end: 14
-✖ ',' expected - start: 14, end: 20
 
 ```
 

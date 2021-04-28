@@ -29,14 +29,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 6
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -70,7 +62,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 9,
                                     "end": 11
                                 },
@@ -144,7 +136,7 @@
                                     "start": 11,
                                     "end": 29
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 8,
                                 "end": 29
                             }
@@ -232,7 +224,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 6, end: 8
 ✖ ',' expected - start: 29, end: 30
 ✖ 'super' must be followed by an argument list or member access. - start: 38, end: 39
 ✖ Dot property must be an identifier - start: 38, end: 39

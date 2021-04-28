@@ -116,6 +116,9 @@ var {x}: {x: string; } = { x: "hello" };
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",

@@ -65,6 +65,9 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
+                                                                "asyncKeyword": null,
+                                                                "getKeyword": null,
+                                                                "setKeyword": null,
                                                                 "left": {
                                                                     "kind": 229,
                                                                     "yieldKeyword": {

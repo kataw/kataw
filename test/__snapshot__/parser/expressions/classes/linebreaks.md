@@ -86,7 +86,7 @@ class A {
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 9,
                             "end": 15
@@ -143,7 +143,7 @@ class A {
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
-                            "kind": 82031,
+                            "kind": 16499,
                             "flags": 64,
                             "start": 27,
                             "end": 34
@@ -375,7 +375,7 @@ class A {
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 110,
                             "end": 116
@@ -437,7 +437,7 @@ class A {
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
-                            "kind": 82031,
+                            "kind": 16499,
                             "flags": 64,
                             "start": 138,
                             "end": 144

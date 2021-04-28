@@ -3055,6 +3055,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 0,
@@ -3927,6 +3930,9 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
+                                                                "asyncKeyword": null,
+                                                                "getKeyword": null,
+                                                                "setKeyword": null,
                                                                 "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
@@ -4059,6 +4065,9 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
+                                                                "asyncKeyword": null,
+                                                                "getKeyword": null,
+                                                                "setKeyword": null,
                                                                 "left": {
                                                                     "kind": 201392130,
                                                                     "text": 1,
@@ -4167,6 +4176,9 @@
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 129,
                                         "member": {
@@ -4176,6 +4188,9 @@
                                                 "properties": [
                                                     {
                                                         "kind": 219,
+                                                        "asyncKeyword": null,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 1,
@@ -4293,6 +4308,9 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 1,
@@ -4394,6 +4412,9 @@
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 1,
@@ -4774,6 +4795,9 @@
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
                                     "left": {
                                         "kind": 129,
                                         "member": {
@@ -4783,6 +4807,9 @@
                                                 "properties": [
                                                     {
                                                         "kind": 219,
+                                                        "asyncKeyword": null,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 1,
@@ -4976,6 +5003,9 @@
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 1,
@@ -4998,6 +5028,9 @@
                                     },
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,

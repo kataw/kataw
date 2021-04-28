@@ -1441,6 +1441,9 @@ var p10 = ([{ value, done }]) => { };
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "asyncKeyword": null,
+                                                "getKeyword": null,
+                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 220,
                                                     "propertyList": {

@@ -38,6 +38,9 @@ wrap({'a':b});
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",

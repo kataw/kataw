@@ -25,14 +25,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 8
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
@@ -47,7 +39,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -61,29 +53,27 @@
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "await",
-                                                    "rawText": "await",
-                                                    "flags": 96,
+                                                    "kind": 208,
+                                                    "awaitToken": {
+                                                        "kind": 82032,
+                                                        "flags": 0,
+                                                        "start": 13,
+                                                        "end": 19
+                                                    },
+                                                    "expression": {
+                                                        "kind": 201392130,
+                                                        "text": 0,
+                                                        "rawText": "0",
+                                                        "flags": 96,
+                                                        "start": 19,
+                                                        "end": 21
+                                                    },
+                                                    "flags": 32,
                                                     "start": 13,
-                                                    "end": 19
-                                                },
-                                                "flags": 16,
-                                                "start": 13,
-                                                "end": 19
-                                            },
-                                            {
-                                                "kind": 120,
-                                                "expression": {
-                                                    "kind": 201392130,
-                                                    "text": 0,
-                                                    "rawText": "0",
-                                                    "flags": 96,
-                                                    "start": 19,
                                                     "end": 21
                                                 },
                                                 "flags": 16,
-                                                "start": 19,
+                                                "start": 13,
                                                 "end": 22
                                             }
                                         ],
@@ -96,7 +86,7 @@
                                     "start": 12,
                                     "end": 24
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 10,
                                 "end": 24
                             }
@@ -138,7 +128,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 8, end: 10
-
+✔ No errors
 ```
 

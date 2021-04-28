@@ -4233,6 +4233,9 @@ async function * gen() {class C extends await { }}
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
+                                                                        "asyncKeyword": null,
+                                                                        "getKeyword": null,
+                                                                        "setKeyword": null,
                                                                         "left": {
                                                                             "kind": 201392130,
                                                                             "text": 42,
@@ -4406,6 +4409,9 @@ async function * gen() {class C extends await { }}
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
+                                                                        "asyncKeyword": null,
+                                                                        "getKeyword": null,
+                                                                        "setKeyword": null,
                                                                         "left": {
                                                                             "kind": 201392130,
                                                                             "text": 42,
@@ -4786,6 +4792,9 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
@@ -4837,6 +4846,9 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 201392130,
                                                                         "text": 42,
@@ -4952,6 +4964,9 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 208,
                                                                         "awaitToken": {
@@ -5007,6 +5022,9 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "asyncKeyword": null,
+                                                                    "getKeyword": null,
+                                                                    "setKeyword": null,
                                                                     "left": {
                                                                         "kind": 201392130,
                                                                         "text": 42,
@@ -6138,6 +6156,9 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
@@ -6196,6 +6217,9 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 42,
@@ -6311,6 +6335,9 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 208,
                                                         "awaitToken": {
@@ -6367,6 +6394,9 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "asyncKeyword": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 42,

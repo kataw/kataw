@@ -743,7 +743,7 @@ class A {
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 251,
                             "end": 259
@@ -804,7 +804,7 @@ class A {
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
-                            "kind": 82031,
+                            "kind": 16498,
                             "flags": 64,
                             "start": 286,
                             "end": 292

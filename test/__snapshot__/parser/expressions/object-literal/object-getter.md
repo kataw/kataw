@@ -215,6 +215,14 @@ x({get 0o4567(){}});
                                         "end": 37
                                     },
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 38,
+                                        "end": 42
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 194,
@@ -235,7 +243,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 49,
                                             "end": 50
                                         },
@@ -255,7 +263,7 @@ x({get 0o4567(){}});
                                             "start": 50,
                                             "end": 52
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 48,
                                         "end": 52
                                     }
@@ -305,6 +313,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 59,
+                                        "end": 62
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 194,
@@ -325,7 +341,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 69,
                                             "end": 70
                                         },
@@ -345,7 +361,7 @@ x({get 0o4567(){}});
                                             "start": 70,
                                             "end": 72
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 68,
                                         "end": 72
                                     }
@@ -395,6 +411,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 79,
+                                        "end": 82
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 194,
@@ -415,7 +439,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 89,
                                             "end": 90
                                         },
@@ -435,9 +459,17 @@ x({get 0o4567(){}});
                                             "start": 90,
                                             "end": 92
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 88,
                                         "end": 92
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 93,
+                                        "end": 97
                                     },
                                     {
                                         "kind": 209,
@@ -460,7 +492,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 104,
                                             "end": 105
                                         },
@@ -480,7 +512,7 @@ x({get 0o4567(){}});
                                             "start": 105,
                                             "end": 107
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 103,
                                         "end": 107
                                     }
@@ -737,6 +769,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 163,
+                                        "end": 166
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392131,
@@ -751,7 +791,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 173,
                                             "end": 174
                                         },
@@ -771,7 +811,7 @@ x({get 0o4567(){}});
                                             "start": 174,
                                             "end": 176
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 172,
                                         "end": 176
                                     }
@@ -821,6 +861,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 183,
+                                        "end": 186
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392130,
@@ -835,7 +883,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 189,
                                             "end": 190
                                         },
@@ -855,7 +903,7 @@ x({get 0o4567(){}});
                                             "start": 190,
                                             "end": 192
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 188,
                                         "end": 192
                                     }
@@ -905,6 +953,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 199,
+                                        "end": 202
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392130,
@@ -919,7 +975,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 212,
                                             "end": 213
                                         },
@@ -939,7 +995,7 @@ x({get 0o4567(){}});
                                             "start": 213,
                                             "end": 215
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 211,
                                         "end": 215
                                     }
@@ -989,6 +1045,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 222,
+                                        "end": 225
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392130,
@@ -1003,7 +1067,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 232,
                                             "end": 233
                                         },
@@ -1023,7 +1087,7 @@ x({get 0o4567(){}});
                                             "start": 233,
                                             "end": 235
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 231,
                                         "end": 235
                                     }
@@ -1073,6 +1137,14 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 242,
+                                        "end": 245
+                                    },
+                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392130,
@@ -1087,7 +1159,7 @@ x({get 0o4567(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 1056,
+                                            "flags": 32,
                                             "start": 253,
                                             "end": 254
                                         },
@@ -1107,7 +1179,7 @@ x({get 0o4567(){}});
                                             "start": 254,
                                             "end": 256
                                         },
-                                        "flags": 1056,
+                                        "flags": 32,
                                         "start": 252,
                                         "end": 256
                                     }
@@ -1155,6 +1227,15 @@ x({get 0o4567(){}});
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 42, end: 44
+✖ ',' expected - start: 62, end: 64
+✖ ',' expected - start: 82, end: 84
+✖ ',' expected - start: 97, end: 99
+✖ ',' expected - start: 166, end: 172
+✖ ',' expected - start: 186, end: 188
+✖ ',' expected - start: 202, end: 211
+✖ ',' expected - start: 225, end: 231
+✖ ',' expected - start: 245, end: 252
+
 ```
 

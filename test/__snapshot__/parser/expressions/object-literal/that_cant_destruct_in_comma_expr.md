@@ -37,6 +37,9 @@ x, {x: foo + y, bar} = doo
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
                                         "left": {
                                             "kind": 198,
                                             "left": {

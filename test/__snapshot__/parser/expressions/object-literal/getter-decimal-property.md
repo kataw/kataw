@@ -25,6 +25,14 @@
                         "kind": 218,
                         "properties": [
                             {
+                                "kind": 134299649,
+                                "text": "get",
+                                "rawText": "get",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 6
+                            },
+                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -39,7 +47,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 1056,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -59,7 +67,7 @@
                                     "start": 24,
                                     "end": 28
                                 },
-                                "flags": 1056,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 28
                             }
@@ -101,6 +109,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 6, end: 22
+
 ```
 

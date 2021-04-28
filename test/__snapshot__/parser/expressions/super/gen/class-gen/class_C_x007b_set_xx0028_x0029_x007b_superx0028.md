@@ -107,7 +107,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                         "asyncKeyword": null,
                                                         "setKeyword": null,
                                                         "getKeyword": {
-                                                            "kind": 82031,
+                                                            "kind": 16499,
                                                             "flags": 64,
                                                             "start": 31,
                                                             "end": 35
