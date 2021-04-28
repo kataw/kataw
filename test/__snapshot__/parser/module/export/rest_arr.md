@@ -107,8 +107,8 @@ export let [...x] = y
                 "start": 10,
                 "end": 21
             },
-            "flags": 6,
-            "start": 128,
+            "flags": 128,
+            "start": 6,
             "end": 21
         }
     ],

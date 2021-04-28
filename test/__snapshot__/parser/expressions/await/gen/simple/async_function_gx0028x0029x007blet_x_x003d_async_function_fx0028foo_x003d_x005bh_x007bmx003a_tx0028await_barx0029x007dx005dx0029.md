@@ -255,8 +255,8 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                 "start": 22,
                                 "end": 75
                             },
-                            "flags": 19,
-                            "start": 128,
+                            "flags": 128,
+                            "start": 19,
                             "end": 75
                         }
                     ],

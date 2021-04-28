@@ -119,8 +119,8 @@ let y = typeof async x => await x
                 "start": 3,
                 "end": 33
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 33
         }
     ],

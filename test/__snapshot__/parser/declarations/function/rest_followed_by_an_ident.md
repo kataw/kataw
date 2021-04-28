@@ -122,8 +122,8 @@ let [...foo, bar] = obj;
                 "start": 3,
                 "end": 23
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 24
         }
     ],

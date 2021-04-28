@@ -133,8 +133,8 @@ async function f(){ let y = x => await x; }
                                 "start": 23,
                                 "end": 40
                             },
-                            "flags": 19,
-                            "start": 128,
+                            "flags": 128,
+                            "start": 19,
                             "end": 41
                         }
                     ],

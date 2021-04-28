@@ -109,8 +109,8 @@ let foo, [bar];
                 "start": 3,
                 "end": 14
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 15
         }
     ],

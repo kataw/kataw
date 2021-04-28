@@ -223,8 +223,8 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                     "start": 42,
                                                     "end": 73
                                                 },
-                                                "flags": 38,
-                                                "start": 128,
+                                                "flags": 128,
+                                                "start": 38,
                                                 "end": 73
                                             }
                                         ],

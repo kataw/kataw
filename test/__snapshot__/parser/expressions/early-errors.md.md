@@ -5381,8 +5381,8 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5259,
                                     "end": 5261
                                 },
-                                "flags": 5255,
-                                "start": 128,
+                                "flags": 128,
+                                "start": 5255,
                                 "end": 5262
                             }
                         ],

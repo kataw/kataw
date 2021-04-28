@@ -118,8 +118,8 @@ let {[x]} = z;
                 "start": 3,
                 "end": 13
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 14
         }
     ],

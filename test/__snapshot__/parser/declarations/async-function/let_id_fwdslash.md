@@ -67,8 +67,8 @@ let p/
                 "start": 3,
                 "end": 5
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 5
         },
         {

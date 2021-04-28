@@ -2556,8 +2556,8 @@ let x = { foo(){ super(); } };
                 "start": 703,
                 "end": 729
             },
-            "flags": 699,
-            "start": 129,
+            "flags": 129,
+            "start": 699,
             "end": 730
         }
     ],

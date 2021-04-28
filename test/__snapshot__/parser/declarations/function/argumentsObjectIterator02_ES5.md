@@ -282,8 +282,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "start": 100,
                             "end": 134
                         },
-                        "flags": 92,
-                        "start": 129,
+                        "flags": 129,
+                        "start": 92,
                         "end": 135
                     },
                     {
@@ -332,8 +332,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "start": 144,
                             "end": 156
                         },
-                        "flags": 135,
-                        "start": 129,
+                        "flags": 129,
+                        "start": 135,
                         "end": 157
                     },
                     {

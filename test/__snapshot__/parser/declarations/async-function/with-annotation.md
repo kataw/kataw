@@ -74,8 +74,8 @@ let {x}: string = y;
                 "start": 3,
                 "end": 13
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 14
         },
         {
@@ -154,8 +154,8 @@ let {x}: string = y;
                 "start": 19,
                 "end": 35
             },
-            "flags": 14,
-            "start": 129,
+            "flags": 129,
+            "start": 14,
             "end": 36
         },
         {
@@ -245,8 +245,8 @@ let {x}: string = y;
                 "start": 41,
                 "end": 64
             },
-            "flags": 36,
-            "start": 129,
+            "flags": 129,
+            "start": 36,
             "end": 65
         },
         {
@@ -324,8 +324,8 @@ let {x}: string = y;
                 "start": 70,
                 "end": 86
             },
-            "flags": 65,
-            "start": 129,
+            "flags": 129,
+            "start": 65,
             "end": 87
         }
     ],

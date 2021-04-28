@@ -87,8 +87,8 @@ export let x, y
                 "start": 10,
                 "end": 15
             },
-            "flags": 6,
-            "start": 128,
+            "flags": 128,
+            "start": 6,
             "end": 15
         }
     ],

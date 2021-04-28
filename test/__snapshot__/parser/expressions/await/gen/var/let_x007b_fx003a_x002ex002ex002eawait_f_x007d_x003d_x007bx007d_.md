@@ -220,8 +220,8 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                     "start": 42,
                                                     "end": 65
                                                 },
-                                                "flags": 38,
-                                                "start": 128,
+                                                "flags": 128,
+                                                "start": 38,
                                                 "end": 66
                                             }
                                         ],

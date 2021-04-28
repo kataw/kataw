@@ -606,8 +606,8 @@ var {get} = obj;
                             "start": 134,
                             "end": 140
                         },
-                        "flags": 130,
-                        "start": 128,
+                        "flags": 128,
+                        "start": 130,
                         "end": 141
                     }
                 ],

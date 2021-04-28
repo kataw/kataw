@@ -120,8 +120,8 @@ let [foo=a, bar=b] = arr;
                 "start": 3,
                 "end": 24
             },
-            "flags": 0,
-            "start": 128,
+            "flags": 128,
+            "start": 0,
             "end": 25
         }
     ],
