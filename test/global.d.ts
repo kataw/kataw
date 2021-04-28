@@ -1,1 +1,1 @@
-declare module 'pretty-error';
+declare module "pretty-error";

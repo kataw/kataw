@@ -56,6 +56,7 @@ export async function runCli() {
   }
 }
 
+
 export function cliOpts(): any {
   const help = process.argv.includes('-?') || process.argv.includes('--help');
   help && showHelp();
@@ -69,9 +70,7 @@ export function cliOpts(): any {
     conservative: process.argv.includes('-G'), // skip existing
     // defaults to all tests(if not specified)
     files: loadSnaps(
-      process.argv.includes('-f')
-        ? [process.argv[process.argv.indexOf('-f') + 1]]
-        : resolve('test/' + snapshotsFolderName),
+      process.argv.includes('-f') ? [process.argv[process.argv.indexOf('-f') + 1]] : resolve('test/' + snapshotsFolderName),
       '',
       gen
     )
