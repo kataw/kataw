@@ -1,98 +1,54 @@
-import { BindingIdentifier } from './binding-identifier';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { Identifier } from './identifier-expr';
 import { FunctionBody } from './function-body';
 import { FormalParameterList } from './formal-parameter-list';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-
-import { TypeParameters } from '../types/type-parameter-list';
+import { TypeParameter } from '../types/type-parameter';
 import { TypeNode } from '../types';
 
 /**
  * Function expression.
  */
-export interface FunctionExpression extends Node {
-  readonly name: BindingIdentifier | null;
+export interface FunctionExpression extends SyntaxNode {
+  readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly functionKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly name: Identifier | null;
   readonly formalParameters: FormalParameterList;
   readonly contents: FunctionBody;
-  readonly typeParameters: TypeParameters | null;
-  readonly type: TypeNode | null;
+  readonly typeParameters: TypeParameter | null;
+  readonly returnType: TypeNode | null;
 }
 
 export function createFunctionExpression(
-  name: BindingIdentifier | null,
-  isGenerator: number,
-  isAsync: number,
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  functionKeyword: SyntaxToken<TokenSyntaxKind>,
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null,
+  name: Identifier | null,
   formalParameters: FormalParameterList,
   contents: FunctionBody,
-  typeParameters: TypeParameters | null,
-  type: TypeNode | null,
+  typeParameters: TypeParameter | null,
+  returnType: TypeNode | null,
   flags: NodeFlags,
   start: number,
   end: number
 ): FunctionExpression {
-  let transformFlags = TransformFlags.None;
+  if (asyncKeyword) flags |= NodeFlags.Generator;
 
-  if (isAsync) {
-    transformFlags |= isGenerator ? TransformFlags.ES2018 : TransformFlags.ES2017;
-  } else if (isGenerator) {
-    transformFlags |= TransformFlags.Generator;
-  }
+  if (generatorToken) flags |= NodeFlags.Async;
 
   return {
-    kind:
-      isAsync && isGenerator
-        ? // https://tc39.es/ecma262/#prod-AsyncGeneratorExpression
-          NodeKind.AsyncGeneratorExpression
-        : isAsync
-        ? // https://tc39.es/ecma262/#prod-AsyncFunctionExpression
-          NodeKind.AsyncFunctionExpression
-        : isGenerator
-        ? // https://tc39.es/ecma262/#prod-GeneratorExpression
-          NodeKind.GeneratorExpression
-        : // https://tc39.es/ecma262/#prod-FunctionExpression
-          NodeKind.FunctionExpression,
+    kind: SyntaxKind.FunctionExpression,
+    asyncKeyword,
+    functionKeyword,
+    generatorToken,
     name,
     formalParameters,
     contents,
     typeParameters,
-    type,
+    returnType,
     flags,
-    symbol: null,
-    transformFlags,
     start,
     end
   };
-}
-
-export function updateFunctionExpression(
-  node: FunctionExpression,
-  name: BindingIdentifier | null,
-  isGenerator: number,
-  isAsync: number,
-  formalParameters: FormalParameterList,
-  contents: FunctionBody,
-  typeParameters: TypeParameters | null,
-  type: TypeNode | null
-): FunctionExpression {
-  return node.name !== name ||
-    node.formalParameters !== formalParameters ||
-    node.contents !== contents ||
-    node.typeParameters !== typeParameters ||
-    node.type !== type
-    ? updateNode(
-        createFunctionExpression(
-          name,
-          isGenerator,
-          isAsync,
-          formalParameters,
-          contents,
-          typeParameters,
-          type,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
-    : node;
 }

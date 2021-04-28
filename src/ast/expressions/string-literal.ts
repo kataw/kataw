@@ -1,27 +1,23 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-/**
- * StringLiteral
- */
-export interface StringLiteral extends Node {
-  readonly text: number;
+export interface StringLiteral extends SyntaxNode {
+  readonly kind: SyntaxKind.StringLiteral;
+  readonly text: string;
   readonly rawText: string;
 }
 
 export function createStringLiteral(
-  text: number,
+  text: string,
   rawText: string,
   flags: NodeFlags,
   start: number,
   end: number
 ): StringLiteral {
   return {
-    kind: NodeKind.StringLiteral,
+    kind: SyntaxKind.StringLiteral,
     text,
     rawText,
     flags,
-    symbol: null,
-    transformFlags: flags & NodeFlags.ExtendedUnicodeEscape ? TransformFlags.ES2015 : TransformFlags.None,
     start,
     end
   };

@@ -1,199 +1,278 @@
-import { NodeFlags, NodeKind } from '../ast/node';
-import { ParserState } from '../types';
-import { Token, KeywordDescTable } from '../ast/token';
-import { nextToken } from '../parser/scanner/scan';
-import { DiagnosticCode } from '../diagnostics/diagnosticMessages.generated';
-import { reportErrorDiagnostic } from '../diagnostics/diagnostic';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
+import { nextToken } from './scanner/scanner';
+import { DiagnosticSource } from '../diagnostic/diagnostic';
+import { TokenSyntaxKind, createToken } from '../ast/token';
 
 export const enum Context {
   None = 0,
-  OptionsJSX = 1 << 0,
-  OptionsNext = 1 << 1,
+  OptionsNext = 1 << 0,
+  OptionsAllowTypes = 1 << 1,
   OptionsDisableWebCompat = 1 << 2,
+  AllowRegExp = 1 << 6,
+  DisallowIn = 1 << 7,
+  AllowReturn = 1 << 8,
+  InGeneratorContext = 1 << 9,
+  InAwaitContext = 1 << 10,
 
-  Strict = 1 << 10,
-  Module = 1 << 11,
-  DisallowIn = 1 << 13,
-  AllowRegExp = 1 << 14,
-  InTypes = 1 << 16,
-  InYieldContext = 1 << 21,
-  InAwaitContext = 1 << 22,
-  InConditionalContext = 1 << 24,
-  InArrowContext = 1 << 25,
-  AllowConditionalTypes = 1 << 26,
-  InDecoratorContext = 1 << 27,
-  InGlobal = 1 << 28
+  InSwitch = 1 << 11,
+  InIteration = 1 << 12,
+  NewTarget = 1 << 13,
+  Parameters = 1 << 14,
+  SuperCall = 1 << 16,
+  SuperProperty = 1 << 17,
+  InConstructor = 1 << 18,
+  Strict = 1 << 19,
+  Module = 1 << 20,
+  InConditionalExpr = 1 << 22,
+  InTypes = 1 << 23,
+  InClassBody = 1 << 24,
+  AllowImportMeta = 1 << 25
 }
 
-export const enum PropertyKind {
+export const enum DestructibleKind {
   None = 0,
-  Async = 1 << 0,
-  Getter = 1 << 1,
-  Setter = 1 << 2,
-  Generator = 1 << 3,
-  Abstract = 1 << 4,
-  Readonly = 1 << 5,
-  Constructor = 1 << 6,
-  Declare = 1 << 7,
-  Static = 1 << 8,
-  Optional = 1 << 9
+  MustDestruct = 1 << 0,
+  NotDestructible = 1 << 1,
+  Assignable = 1 << 2,
+  Destructible = 1 << 3,
+  DisallowTrailing = 1 << 4
 }
 
-export function consumeOpt(parser: ParserState, context: Context, t: Token): boolean {
-  if (parser.token === t) {
+export const enum BindingType {
+  None = 0,
+  Pattern = 1 << 0,
+  Assignment = 1 << 1,
+  AllowLHS = 1 << 2,
+  ArgumentList = 1 << 3,
+  Let = 1 << 4,
+  Const = 1 << 5,
+  Var = 1 << 6,
+  CatchIdentifier = 1 << 7,
+  CatchPattern = 1 << 8,
+  Literal = 1 << 9,
+  FunctionLexical = 1 << 10,
+  FunctionStatement = 1 << 11,
+  Class = 1 << 12,
+  Empty = 1 << 13,
+  Export = 1 << 14
+}
+export const enum DestuctionKind {
+  NORMAL,
+  REST,
+  FOR
+}
+
+export type OnError = (source: DiagnosticSource, message: string, start: number, end: number) => void | undefined;
+
+/**
+ * The parser interface.
+ */
+export interface ParserState {
+  source: string;
+  nodeFlags: NodeFlags;
+  curPos: number;
+  pos: number;
+  token: TokenSyntaxKind;
+  tokenPos: number;
+  end: number;
+  onError: OnError;
+  destructible: DestructibleKind;
+  assignable: boolean;
+  tokenValue: any;
+  tokenRaw: string;
+}
+
+export function consumeOpt<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): boolean {
+  if (parser.token === token) {
     nextToken(parser, context);
     return true;
   }
   return false;
 }
 
-export function consumeOptAsBitwise(parser: ParserState, context: Context, t: Token): 0 | 1 {
-  if (parser.token === t) {
-    nextToken(parser, context);
-    return 1;
-  }
-  return 0;
-}
-
-export function consume(parser: ParserState, context: Context, t: Token): boolean {
-  if (parser.token === t) {
+export function consume<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): boolean {
+  if (parser.token === token) {
     nextToken(parser, context);
     return true;
   }
-  reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, KeywordDescTable[t & Token.Type]);
-
+  // parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   return false;
 }
 
-export function canParseSemicolon(parser: ParserState): boolean {
-  // If there's a real semicolon, then we can always parse it out.
-  if (parser.token === Token.Semicolon) {
-    return true;
+export function consumeOptToken<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): any {
+  if (parser.token === token) {
+    const pos = parser.curPos;
+    const kind = parser.token;
+    const flags = parser.nodeFlags;
+    nextToken(parser, context);
+    return createToken(kind, flags | NodeFlags.ChildLess, pos, parser.curPos);
   }
+  return null;
+}
 
-  // We can parse out an optional semicolon in ASI cases in the following cases.
-  return (
-    parser.token === Token.RightBrace ||
-    parser.token === Token.EndOfSource ||
-    (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0
-  );
+export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): any {
+  const pos = parser.curPos;
+  const kind = parser.token;
+  const flags = parser.nodeFlags;
+  if (parser.token === token) {
+    nextToken(parser, context);
+    return createToken(kind, flags, pos, parser.curPos);
+  }
+  //parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+  nextToken(parser, context);
+  return null;
 }
 
 export function parseSemicolon(parser: ParserState, context: Context): boolean {
-  if (canParseSemicolon(parser)) {
-    if (parser.token === Token.Semicolon) {
-      // consume the semicolon if it was explicitly provided.
-      nextToken(parser, context | Context.AllowRegExp);
-    }
-
-    return true;
+  // Check for automatic semicolon insertion according to
+  // the rules given in ECMA-262, section 7.9, page 21.
+  if (parser.token & SyntaxKind.Smi || parser.nodeFlags & NodeFlags.NewLine) {
+    // consume the semicolon if it was explicitly provided.
+    return consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
   }
-  return consume(parser, context | Context.AllowRegExp, Token.Semicolon);
+  return consume(parser, context, SyntaxKind.Semicolon);
 }
 
-export function lastOrUndefined<T>(array: readonly T[]): T | undefined {
-  return array.length === 0 ? undefined : array[array.length - 1];
+export function speculate(parser: ParserState, context: Context, callback: any, rollback: boolean) {
+  const { pos, curPos, tokenPos, tokenRaw, token, tokenValue, nodeFlags } = parser;
+  const result = callback(parser, context);
+
+  // If our callback returned something 'falsy' or we're just looking ahead,
+  // then unconditionally restore us to where we were.
+  if (!result || rollback) {
+    parser.pos = pos;
+    parser.curPos = curPos;
+    parser.tokenPos = tokenPos;
+    parser.token = token;
+    parser.tokenValue = tokenValue;
+    parser.nodeFlags = nodeFlags;
+    parser.tokenRaw = tokenRaw;
+  }
+  return result;
 }
 
-/** @internal */
-export function tagNamesAreEquivalent(lhs: any, rhs: any): boolean {
-  if (lhs.kind !== rhs.kind) {
-    return false;
-  }
-
-  if (lhs.kind === NodeKind.JsxIdentifier) {
-    return lhs.name === rhs.name;
-  }
-
-  if (lhs.kind === NodeKind.ThisExpression) {
-    return true;
-  }
-
-  if (lhs.kind === NodeKind.JsxNamespacedName) {
-    if (rhs.kind !== NodeKind.JsxNamespacedName) return false;
-    return (
-      lhs.name.name === rhs.name.name &&
-      lhs.namespace.name === rhs.namespace.name &&
-      tagNamesAreEquivalent((<any>lhs).namespace as any, (<any>rhs).namespace as any)
-    );
-  }
-
-  return (
-    lhs.member.name === rhs.member.name &&
-    tagNamesAreEquivalent((<any>lhs).expression as any, (<any>rhs).expression as any)
-  );
+export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
+  return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
 
-export function reinterpretToPattern(node: any, parser: ParserState, context: Context): any {
-  switch (node.kind) {
-    case NodeKind.ArrowParameters:
-    case NodeKind.FormalParameter:
-    case NodeKind.BindingElement:
-    case NodeKind.OmittedExpression:
-      return node;
-    case NodeKind.IdentifierReference:
-    case NodeKind.IdentifierName:
-      node.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
-      return node;
-    case NodeKind.ArrayLiteral:
-      node.kind = NodeKind.ArrayBindingPattern | NodeKind.IsBindingPattern;
-      reinterpretToPattern(node.elementList, parser, context);
-      return node;
+export function hasErrors(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.HasErrors) === NodeFlags.HasErrors;
+}
 
-    case NodeKind.ElementList: {
-      node.kind = NodeKind.BindingElementList;
-      const elements = node.elements;
-      let i = elements.length;
-      while (i--) {
-        reinterpretToPattern(elements[i], parser, context);
-      }
-      return node;
-    }
+export function isStatementNode(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IsStatement) === NodeFlags.IsStatement;
+}
 
-    case NodeKind.ObjectLiteral:
-      node.kind = NodeKind.ObjectBindingPattern | NodeKind.IsBindingPattern;
-      reinterpretToPattern(node.propertyList, parser, context);
-      return node;
+export function isExpressionNode(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ExpressionNode) === NodeFlags.ExpressionNode;
+}
 
-    case NodeKind.PropertyDefinitionList: {
-      node.kind = NodeKind.BindingPropertyList;
-      const properties = node.properties;
-      let i = properties.length;
-      while (i--) {
-        reinterpretToPattern(properties[i], parser, context);
-      }
-      return node;
-    }
-    case NodeKind.PropertyDefinition: {
-      node.kind = NodeKind.BindingElement;
-      reinterpretToPattern(node.left, parser, context);
-      return node;
-    }
-    case NodeKind.CoverInitializedName: {
-      node.kind = NodeKind.SingleNameBinding;
-      node.ellipsis = false;
-      reinterpretToPattern(node.left, parser, context);
-      return node;
-    }
-    case NodeKind.AssignmentExpression: {
-      node.kind = NodeKind.BindingElement;
-      delete node.operator;
-      reinterpretToPattern(node.left, parser, context);
-      return node;
-    }
-    case NodeKind.SpreadElement:
-      node.kind = NodeKind.BindingElement;
-      node.ellipsis = true;
-      if (node.argument === NodeKind.AssignmentExpression) {
-        reinterpretToPattern(node.argument, parser, context);
-        node.left = node.argument.left;
-        node.right = node.argument.right;
-        delete node.argument;
-        return node;
-      }
-      node.left = node.argument;
-      node.right = null;
-      delete node.argument;
-      return node;
-  }
+export function isChildLess(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ChildLess) === NodeFlags.ChildLess;
+}
+
+export function isSingleQuote(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.SingleQuote) === NodeFlags.SingleQuote;
+}
+
+export function containsSeparator(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ContainsSeparator) === NodeFlags.ContainsSeparator;
+}
+
+export function hasUnicodeEscape(node: SyntaxNode): boolean {
+  return (node.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) !== 0;
+}
+
+export function hasExtendedUnicodeEscape(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ExtendedUnicodeEscape) === NodeFlags.ExtendedUnicodeEscape;
+}
+
+export function isConstructor(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Constructor) === NodeFlags.Constructor;
+}
+
+export function isGenerator(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Generator) === NodeFlags.Generator;
+}
+export function isAsync(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Async) === NodeFlags.Async;
+}
+
+export function isLexical(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Lexical) === NodeFlags.Lexical;
+}
+
+export function isDeclared(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Declared) === NodeFlags.Declared;
+}
+export function isNoneSimpleParamList(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.NoneSimpleParamList) === NodeFlags.NoneSimpleParamList;
+}
+
+export function isImplicitOctal(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ImplicitOctal) === NodeFlags.ImplicitOctal;
+}
+export function isOctalIntegerLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.OctalIntegerLiteral) === NodeFlags.OctalIntegerLiteral;
+}
+export function isBinaryIntegerLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.BinaryIntegerLiteral) === NodeFlags.BinaryIntegerLiteral;
+}
+export function isUnterminated(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.Unterminated) === NodeFlags.Unterminated;
+}
+export function hexIntegerLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.HexIntegerLiteral) === NodeFlags.HexIntegerLiteral;
+}
+
+export function containsInvalidEscape(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.ContainsInvalidEscape) === NodeFlags.ContainsInvalidEscape;
+}
+
+export function isAssignOp(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsAssignOp) === SyntaxKind.IsAssignOp;
+}
+
+export function isBinaryOp(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsBinaryOp) === SyntaxKind.IsBinaryOp;
+}
+
+export function isStatementStart(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsStatementStart) === SyntaxKind.IsStatementStart;
+}
+
+export function isIdentifier(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsIdentifier) === SyntaxKind.IsIdentifier;
+}
+
+export function isExpressionStart(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsExpressionStart) === SyntaxKind.IsExpressionStart;
+}
+
+export function isPropertyOrCall(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsPropertyOrCall) === SyntaxKind.IsPropertyOrCall;
+}
+
+export function isEllipsis(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsEllipsis) === SyntaxKind.IsEllipsis;
+}
+
+export function isInOrOf(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsInOrOf) === SyntaxKind.IsInOrOf;
+}
+
+export function isKeyword(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword;
+}
+
+export function isFutureReserved(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsFutureReserved) === SyntaxKind.IsFutureReserved;
+}
+
+export function isStartOfType(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsStartOfType) === SyntaxKind.IsStartOfType;
+}
+
+export function isSemicolon(node: SyntaxNode): boolean {
+  return (node.flags & SyntaxKind.IsSemicolon) === SyntaxKind.IsSemicolon;
 }

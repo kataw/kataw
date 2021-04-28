@@ -1,115 +1,48 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { PrivateIdentifier } from './private-identifier';
-import { Expression } from './';
-import { AssignmentExpression } from './assignment-expr';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { Identifier } from './identifier-expr';
+import { ExpressionNode } from './';
 import { TypeNode } from '../types';
 import { DecoratorList } from './decorator-list';
-import { AccessModifier } from '../types/access-modifier';
 
 /**
  * FieldDefinition
  */
-export interface FieldDefinition extends Node {
-  readonly key: Expression | PrivateIdentifier;
-  readonly isInKeyword: boolean;
-  readonly expression: Expression | null;
-  readonly isAbstract: boolean;
-  readonly isReadOnly: boolean;
-  readonly isOptional: boolean;
-  readonly exclamation: boolean;
-  readonly type: TypeNode | null;
-  readonly initializer: AssignmentExpression | null;
+export interface FieldDefinition extends SyntaxNode {
   readonly decorators: DecoratorList | null;
-  readonly accessModifier: AccessModifier | null;
-  readonly isStatic: boolean;
+  readonly declaredToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly key: ExpressionNode | Identifier;
+  readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly type: TypeNode | null;
+  readonly initializer: ExpressionNode | null;
 }
 
 export function createFieldDefinition(
-  key: Expression | PrivateIdentifier,
-  isInKeyword: boolean,
-  expression: Expression | null,
-  isOptional: boolean,
-  isDeclared: boolean,
-  isReadOnly: boolean,
-  isAbstract: boolean,
-  exclamation: boolean,
-  type: TypeNode | null,
-  initializer: AssignmentExpression | null,
   decorators: DecoratorList | null,
-  accessModifier: AccessModifier | null,
-  isStatic: boolean,
-  flags: NodeFlags,
+  declaredToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  key: ExpressionNode | Identifier,
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null,
+  type: TypeNode | null,
+  initializer: ExpressionNode | null,
   start: number,
   end: number
 ): FieldDefinition {
-  if (isDeclared) flags |= NodeFlags.Declared;
   return {
-    kind: NodeKind.FieldDefinition,
+    kind: SyntaxKind.FieldDefinition,
+    decorators,
+    declaredToken,
+    staticToken,
+    asyncKeyword,
     key,
-    isInKeyword,
-    expression,
-    isAbstract,
-    isReadOnly,
-    isOptional,
-    exclamation,
+    optionalToken,
     type,
     initializer,
-    decorators,
-    accessModifier,
-    isStatic,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ClassFields | TransformFlags.ESNext,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateFieldDefinition(
-  node: FieldDefinition,
-  key: Expression | PrivateIdentifier,
-  isInKeyword: boolean,
-  expression: Expression | null,
-  isOptional: boolean,
-  isDeclared: boolean,
-  isReadOnly: boolean,
-  isAbstract: boolean,
-  exclamation: boolean,
-  type: TypeNode | null,
-  initializer: AssignmentExpression | null,
-  decorators: DecoratorList | null,
-  accessModifier: AccessModifier | null,
-  isStatic: boolean
-): FieldDefinition {
-  return node.key !== key ||
-    node.isOptional !== isOptional ||
-    node.exclamation !== exclamation ||
-    node.type !== type ||
-    node.initializer !== initializer ||
-    node.decorators !== decorators ||
-    node.accessModifier !== accessModifier ||
-    node.isStatic !== isStatic
-    ? updateNode(
-        createFieldDefinition(
-          key,
-          isInKeyword,
-          expression,
-          isOptional,
-          isDeclared,
-          isReadOnly,
-          isAbstract,
-          exclamation,
-          type,
-          initializer,
-          decorators,
-          accessModifier,
-          isStatic,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
-    : node;
 }

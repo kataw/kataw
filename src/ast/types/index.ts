@@ -1,64 +1,49 @@
 import { ArrayType } from './array-type';
-import { ConditionalType } from './conditional-type';
-import { ConstructorType } from './constructor-type';
-import { FunctionType } from './function-type';
-import { ImportType } from './import-type';
-import { IndexedAccessType } from './indexed-access-type';
-import { InferType } from './infer-type';
 import { IntersectionType } from './intersection-type';
-import { MappedType } from './mapped-type';
-import { NamedTupleMember } from './named-tuple-member';
-import { NumberType } from './number-type';
-import { OptionalType } from './optional-type';
-import { ParenthesizedType } from './parenthesized-type';
-import { RestType } from './rest-type';
-import { ThisType } from './this-type';
-import { TupleType } from './tuple-type';
-import { TypeLiteral } from './type-literal';
-import { TypeOperator } from './type-operator';
-import { TypePredicate } from './type-predicate';
-import { TypeQuery } from './type-query';
-import { TypeReference } from './type-reference';
 import { UnionType } from './union-type';
-import { TrueType } from './true-type';
-import { FalseType } from './false-type';
-import { MinusType } from './minus-type';
-import { CallSignature } from './call-signature';
-import { ConstructSignature } from './construct-signature';
-import { MethodSignature } from './method-signature';
-import { IndexSignature } from './index-signature';
+import { TypeAnnotation } from './type-annotation';
+import { TupleType } from './tuple-type';
+import { FunctionType } from './function-type';
+import { FunctionTypeParameter } from './function-type-parameter';
+import { NumberType } from './number-type';
+import { StringType } from './string-type';
+import { ObjectType } from './object-type';
+import { GenericType } from './generic-type';
+import { NullableType } from './nullable-type';
+import { ObjectTypeCallProperty } from './object-type-call-property';
+import { ObjectTypeIndexer } from './object-type-indexer';
+import { ObjectTypeInternalSlot } from './object-type-internal-slot';
+import { ObjectTypeSpreadProperty } from './object-type-spread-property';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { QualifiedType } from './qualified-type';
+import { TypeAlias } from './type-alias-declaration';
+import { TypeofType } from './typeof-type';
+import { FunctionTypeParameterList } from './function-type-parameter-list';
+import { BooleanType } from './boolean-type';
 
 /**
  * The set of all syntax items which are types.
  */
 export type TypeNode =
-  | TrueType
-  | FalseType
-  | MinusType
-  | ArrayType
-  | IndexSignature
-  | IndexSignature
-  | CallSignature
-  | ConstructSignature
-  | MethodSignature
-  | ConditionalType
-  | ConstructorType
-  | FunctionType
-  | ImportType
-  | IndexedAccessType
-  | InferType
-  | NumberType
+  | TypeofType
+  | GenericType
+  | NullableType
+  | ObjectTypeCallProperty
+  | ObjectTypeIndexer
+  | ObjectTypeInternalSlot
+  | ObjectTypeSpreadProperty
+  | QualifiedType
+  | TypeAlias
+  | BooleanType
   | IntersectionType
-  | MappedType
-  | NamedTupleMember
-  | OptionalType
-  | ParenthesizedType
-  | RestType
-  | ThisType
+  | ArrayType
+  | UnionType
+  | TypeAnnotation
   | TupleType
-  | TypeLiteral
-  | TypeOperator
-  | TypePredicate
-  | TypeQuery
-  | TypeReference
-  | UnionType;
+  | NumberType
+  | StringType
+  | ObjectType
+  | FunctionType
+  | FunctionTypeParameterList
+  | FunctionTypeParameter
+  | SyntaxToken<TokenSyntaxKind>;

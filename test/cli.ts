@@ -31,9 +31,9 @@ export async function runCli() {
 
     for (let i = 0; i < opts.files.length; i++) {
       const tob = await file2Tob(opts.files[i]);
-      if (!tob.isMatched) {
+      if (tob.misMatchItems?.length) {
         cnt++;
-        console.log('Output mismatch for', tob.filename);
+        console.log(`Output mismatch(${tob.misMatchItems}) for`, tob.filename);
         updateTob(tob, opts.updateItems);
       }
     }
@@ -56,7 +56,6 @@ export async function runCli() {
   }
 }
 
-
 export function cliOpts(): any {
   const help = process.argv.includes('-?') || process.argv.includes('--help');
   help && showHelp();
@@ -70,7 +69,9 @@ export function cliOpts(): any {
     conservative: process.argv.includes('-G'), // skip existing
     // defaults to all tests(if not specified)
     files: loadSnaps(
-      process.argv.includes('-f') ? [process.argv[process.argv.indexOf('-f') + 1]] : resolve('test/' + snapshotsFolderName),
+      process.argv.includes('-f')
+        ? [process.argv[process.argv.indexOf('-f') + 1]]
+        : resolve('test/' + snapshotsFolderName),
       '',
       gen
     )

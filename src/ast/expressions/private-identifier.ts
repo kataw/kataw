@@ -1,27 +1,17 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
 /**
  * PrivateIdentifier
  */
-export interface PrivateIdentifier extends Node {
+export interface PrivateIdentifier extends SyntaxNode {
   readonly text: string;
-  readonly rawText: string;
 }
 
-export function createPrivateIdentifier(
-  text: string,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): PrivateIdentifier {
+export function createPrivateIdentifier(text: string, start: number, end: number): PrivateIdentifier {
   return {
-    kind: NodeKind.PrivateIdentifier,
+    kind: SyntaxKind.PrivateIdentifier,
     text,
-    rawText,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ClassFields,
+    flags: NodeFlags.ChildLess | NodeFlags.ExpressionNode,
     start,
     end
   };

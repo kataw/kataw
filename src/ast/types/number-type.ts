@@ -1,28 +1,14 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-/**
- * NumberType
- */
-
-export interface NumberType extends Node {
-  readonly text: string;
-  readonly rawText: string;
+export interface NumberType extends SyntaxNode {
+  readonly value: number;
 }
 
-export function createNumberType(
-  text: string,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): NumberType {
+export function createNumberType(value: number, start: number, end: number): NumberType {
   return {
-    kind: NodeKind.NumberType,
-    text,
-    rawText,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
+    kind: SyntaxKind.NumberType,
+    value,
+    flags: NodeFlags.None,
     start,
     end
   };

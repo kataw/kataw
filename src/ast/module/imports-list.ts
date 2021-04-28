@@ -1,8 +1,7 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ImportSpecifier } from './import-specifier';
 
-export interface ImportsList extends Node {
+export interface ImportsList extends SyntaxNode {
   readonly specifiers: ImportSpecifier[];
 }
 
@@ -13,18 +12,10 @@ export function createImportsList(
   end: number
 ): ImportsList {
   return {
-    kind: NodeKind.ImportsList,
+    kind: SyntaxKind.ImportsList,
     specifiers,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
     start,
     end
   };
-}
-
-export function updateImportsList(node: ImportsList, specifiers: ImportSpecifier[]): ImportsList {
-  return node.specifiers !== specifiers
-    ? updateNode(createImportsList(specifiers, node.flags, node.start, node.end), node)
-    : node;
 }

@@ -1,37 +1,27 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { Statement } from '../statements';
+import { StringLiteral } from './string-literal';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { StatementNode } from '../stmt';
 
-export interface FunctionStatementList extends Node {
-  readonly statements: Statement[];
+export interface FunctionStatementList extends SyntaxNode {
+  readonly directives: StringLiteral[];
+  readonly statements: StatementNode[];
   readonly multiline: boolean;
 }
 
 export function createFunctionStatementList(
-  statements: Statement[],
+  directives: StringLiteral[],
+  statements: StatementNode[],
   multiline: boolean,
-  flags: NodeFlags,
   start: number,
   end: number
 ): FunctionStatementList {
   return {
-    kind: NodeKind.FunctionStatementList,
+    kind: SyntaxKind.FunctionStatementList,
+    directives,
     statements,
     multiline,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateFunctionStatementList(
-  node: FunctionStatementList,
-  statements: Statement[],
-  multiline: boolean
-): FunctionStatementList {
-  return node.statements !== statements || node.multiline !== multiline
-    ? updateNode(createFunctionStatementList(statements, multiline, node.flags, node.start, node.end), node)
-    : node;
 }

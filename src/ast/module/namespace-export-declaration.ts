@@ -1,33 +1,21 @@
-import { IdentifierReference } from './../expressions/identifier-reference';
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { Identifier } from './../expressions/identifier-expr';
 
-export interface NamespaceExportDeclaration extends Node {
-  readonly name: IdentifierReference;
+export interface NamespaceExportDeclaration extends SyntaxNode {
+  readonly name: Identifier;
 }
 
 export function createNamespaceExportDeclaration(
-  name: IdentifierReference,
+  name: Identifier,
   flags: NodeFlags,
   start: number,
   end: number
 ): NamespaceExportDeclaration {
   return {
-    kind: NodeKind.NamespaceExportDeclaration,
+    kind: SyntaxKind.NamespaceExportDeclaration,
     name,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
     start,
     end
   };
-}
-
-export function updateNamespaceExportDeclaration(
-  node: NamespaceExportDeclaration,
-  name: IdentifierReference
-): NamespaceExportDeclaration {
-  return node.name !== name
-    ? updateNode(createNamespaceExportDeclaration(name, node.flags, node.start, node.end), node)
-    : node;
 }

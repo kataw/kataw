@@ -1,45 +1,41 @@
 # The Kataw AST specification
 
-Kataw's own AST represents the structure of an ECMAScript program as a tree and conforms both to the ECMAScript® 2021 specs and TypeScript **latest**.
+Kataw's own AST represents the structure of an ECMAScript program as a tree and conforms to the ECMAScript® 2022.
 
 The AST have been designed for performance, and it nearly eliminates the chance of accidentally creating an AST that does not represent an ECMAScript program while also
-supporting a *hybrid* definition of *concrete syntax*.
+supporting a definition of CST (*concrete syntax*).
 
 ## Node
 
 ```js
-interface Node {
-    kind: NodeKind;
-    multiline?: boolean;
-    flags: NodeFlags;
-    transformFlags: TransformFlags;
-    start: number;
-    end: number;
+interface SyntaxNode {
+  kind: SyntaxKind;
+  flags: NodeFlags;
+  start: number;
+  end: number;
 }
 ```
 
-The `Node` contains all AST nodes represented as `Node` object, which may have any
+The `Node` contains all CST nodes represented as a `SyntaxNode` object, which may have any
 prototype inheritance.
 
 The `kind` field is a string representing the AST variant type, and contrains a serie of
 bitwise masks - allows you to group AST nodes very easily. For example
 `kind & NodeKind.IsIdentfier` or `kind & NodeKind.ContainsList`.
 
-The `start` and `end` are default properties representing the start and end values of each `AST node`.
+The `flags` property contrains a serie of bitwise masks keeping the CST info. This info can be extracted through
+public API methods.
+
+The `start` and `end` are default properties representing the start and end values of each CST node.
 
 ## RootNode
 
-The current `flags` property keeps track of which context you are currently parsing in, and it's property contains a serie of
-bitwise masks that can be parsed by reference. This information isn't known from outside, or exposed through any API.
-
 ```js
-interface RootNode <: Node {
- source: string;
- filename: string;
- scriptBody: RootNode;
- isModule: boolean;
- printable: boolean;
- diagnostics: Diagnostic[];
- incremental: boolean;
+interface RootNode <: SyntaxNode {
+  directives: StringLiteral[];
+  statements: StatementNode[];
+  isModule: boolean;
+  text: string;
+  fileName: string;
 }
 ```

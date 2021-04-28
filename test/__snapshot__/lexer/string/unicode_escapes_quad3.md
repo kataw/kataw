@@ -1,0 +1,187 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: true }
+`````
+
+## Input
+
+`````js
+"\u0123"
+;
+"\u4567"
+;
+"\u89ab"
+;
+"\ucdef"
+;
+"\uABCD"
+;
+"\uDE00"
+;
+"prefix \u0123"
+;
+"\u0123 postfix"
+;
+"\u0123\u4567"
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "ģ",
+                "rawText": "ģ",
+                "flags": 16480,
+                "start": 0,
+                "end": 8
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 10
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "䕧",
+                "rawText": "䕧",
+                "flags": 16481,
+                "start": 10,
+                "end": 19
+            },
+            "flags": 16,
+            "start": 10,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "覫",
+                "rawText": "覫",
+                "flags": 16481,
+                "start": 21,
+                "end": 30
+            },
+            "flags": 16,
+            "start": 21,
+            "end": 32
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "췯",
+                "rawText": "췯",
+                "flags": 16481,
+                "start": 32,
+                "end": 41
+            },
+            "flags": 16,
+            "start": 32,
+            "end": 43
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "ꯍ",
+                "rawText": "ꯍ",
+                "flags": 16481,
+                "start": 43,
+                "end": 52
+            },
+            "flags": 16,
+            "start": 43,
+            "end": 54
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "\ude00",
+                "rawText": "\ude00",
+                "flags": 16481,
+                "start": 54,
+                "end": 63
+            },
+            "flags": 16,
+            "start": 54,
+            "end": 65
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "prefix ģ",
+                "rawText": "prefix ģ",
+                "flags": 16481,
+                "start": 65,
+                "end": 81
+            },
+            "flags": 16,
+            "start": 65,
+            "end": 83
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "ģ postfix",
+                "rawText": "ģ postfix",
+                "flags": 16481,
+                "start": 83,
+                "end": 100
+            },
+            "flags": 16,
+            "start": 83,
+            "end": 102
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "ģ䕧",
+                "rawText": "ģ䕧",
+                "flags": 16481,
+                "start": 102,
+                "end": 117
+            },
+            "flags": 16,
+            "start": 102,
+            "end": 117
+        }
+    ],
+    "isModule": false,
+    "text": "\"\\u0123\"\n;\n\"\\u4567\"\n;\n\"\\u89ab\"\n;\n\"\\ucdef\"\n;\n\"\\uABCD\"\n;\n\"\\uDE00\"\n;\n\"prefix \\u0123\"\n;\n\"\\u0123 postfix\"\n;\n\"\\u0123\\u4567\"",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 117
+}
+```
+
+### Printed
+
+```javascript
+✖ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

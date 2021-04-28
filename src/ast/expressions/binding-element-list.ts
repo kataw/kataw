@@ -1,16 +1,14 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { BindingElement } from './binding-element';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ArrayBindingElement } from './array-binding-element';
 import { OmittedExpression } from './omitted-expr';
-import { ArrayBindingPattern } from './array-binding-pattern';
 
 /**
  * BindingElementList
  */
 
-export type BindingListElements = OmittedExpression | BindingElement;
+export type BindingListElements = OmittedExpression | ArrayBindingElement;
 
-export interface BindingElementList extends Node {
+export interface BindingElementList extends SyntaxNode {
   readonly elements: BindingListElements[];
   readonly trailingComma: boolean;
 }
@@ -18,27 +16,15 @@ export interface BindingElementList extends Node {
 export function createBindingElementList(
   elements: BindingListElements[],
   trailingComma: boolean,
-  flags: NodeFlags,
   start: number,
   end: number
 ): BindingElementList {
   return {
-    kind: NodeKind.BindingElementList,
+    kind: SyntaxKind.BindingElementList,
     elements,
     trailingComma,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateBindingElementList(
-  node: BindingElementList,
-  elements: BindingListElements[]
-): BindingElementList {
-  return node.elements !== elements
-    ? updateNode(createBindingElementList(elements, node.trailingComma, node.flags, node.start, node.end), node)
-    : node;
 }

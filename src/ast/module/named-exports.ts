@@ -1,8 +1,7 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ExportsList } from './exports-list';
 
-export interface NamedExports extends Node {
+export interface NamedExports extends SyntaxNode {
   readonly exportsList: ExportsList;
 }
 
@@ -13,18 +12,10 @@ export function createNamedExports(
   end: number
 ): NamedExports {
   return {
-    kind: NodeKind.NamedExports,
+    kind: SyntaxKind.NamedExports,
     exportsList,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
     start,
     end
   };
-}
-
-export function updateNamedExports(node: NamedExports, exportsList: ExportsList): NamedExports {
-  return node.exportsList !== exportsList
-    ? updateNode(createNamedExports(exportsList, node.flags, node.start, node.end), node)
-    : node;
 }

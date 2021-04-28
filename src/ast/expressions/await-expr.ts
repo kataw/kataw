@@ -1,34 +1,27 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-
-import { Expression } from '.';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from '.';
 
 /**
  * An await expression.
  */
-export interface AwaitExpression extends Node {
-  readonly expression: Expression;
+export interface AwaitExpression extends SyntaxNode {
+  readonly awaitToken: SyntaxToken<TokenSyntaxKind>;
+  readonly expression: ExpressionNode;
 }
 
 export function createAwaitExpression(
-  expression: Expression,
-  flags: NodeFlags,
+  awaitToken: SyntaxToken<TokenSyntaxKind>,
+  expression: ExpressionNode,
   start: number,
   end: number
 ): AwaitExpression {
   return {
-    kind: NodeKind.AwaitExpression,
+    kind: SyntaxKind.AwaitExpression,
+    awaitToken,
     expression,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2017 | TransformFlags.ES2018 | TransformFlags.Await,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateAwaitExpression(node: AwaitExpression, expression: Expression): AwaitExpression {
-  return node.expression !== expression
-    ? updateNode(createAwaitExpression(expression, node.flags, node.start, node.end), node)
-    : node;
 }

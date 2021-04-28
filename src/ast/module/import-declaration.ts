@@ -1,49 +1,33 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StringLiteral } from '../expressions/string-literal';
-import { Expression } from '../expressions';
+import { ExpressionNode } from '../expressions';
 import { ImportClause } from './import-clause';
-import { updateNode } from '../../utils';
 
-export interface ImportDeclaration extends Node {
-  readonly fromClause: StringLiteral | Expression;
-  readonly moduleSpecifier: Expression | null;
+export interface ImportDeclaration extends SyntaxNode {
+  readonly importKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly fromClause: StringLiteral | ExpressionNode;
+  readonly moduleSpecifier: ExpressionNode | null;
   readonly importClause: ImportClause | null;
 }
 
 export function createImportDeclaration(
+  importKeyword: SyntaxToken<TokenSyntaxKind>,
   /** If this is not a StringLiteral it will be a grammar error. */
-  fromClause: StringLiteral | Expression,
-  moduleSpecifier: Expression | null,
+  fromClause: StringLiteral | ExpressionNode,
+  moduleSpecifier: ExpressionNode | null,
   importClause: ImportClause | null,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ImportDeclaration {
   return {
-    kind: NodeKind.ImportDeclaration,
+    kind: SyntaxKind.ImportDeclaration,
+    importKeyword,
     fromClause,
     moduleSpecifier,
     importClause,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateImportDeclaration(
-  node: ImportDeclaration,
-  fromClause: StringLiteral | Expression,
-  moduleSpecifier: Expression | null,
-  importClause: ImportClause | null
-): ImportDeclaration {
-  return node.fromClause !== fromClause ||
-    node.moduleSpecifier !== moduleSpecifier ||
-    node.importClause !== importClause
-    ? updateNode(
-        createImportDeclaration(fromClause, moduleSpecifier, importClause, node.flags, node.start, node.end),
-        node
-      )
-    : node;
 }

@@ -1,8 +1,6 @@
 import { Char } from './char';
 import { isUnicodeIdentifierStart, isUnicodeIdentifierPart } from './unicode';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
-import { ParserState } from '../../types';
-import { Context } from '../common';
 
 // ES#sec-white-space White Space
 // gC=Zs, U+0009, U+000B, U+000C, U+FEFF
@@ -53,44 +51,4 @@ export function toHex(cp: number): number {
   if (cp < Char.LowerA) return -1;
   if (cp <= Char.LowerF) return cp - Char.LowerA + 10;
   return -1;
-}
-
-function speculationHelper(
-  parser: ParserState,
-  context: Context,
-  callback: (parser: ParserState, context: Context) => any,
-  alwaysResetState: boolean
-): any {
-  const { pos, curPos, tokenPos, raw, token, tokenValue, nodeFlags } = parser;
-  const result = callback(parser, context);
-
-  // If our callback returned something 'falsy' or we're just looking ahead,
-  // then unconditionally restore us to where we were.
-  if (!result || alwaysResetState) {
-    parser.pos = pos;
-    parser.curPos = curPos;
-    parser.tokenPos = tokenPos;
-    parser.token = token;
-    parser.tokenValue = tokenValue;
-    parser.nodeFlags = nodeFlags;
-    parser.raw = raw;
-    parser.diagnostics = []; // diagnostics;
-  }
-  return result;
-}
-
-export function lookAhead<T>(
-  parser: ParserState,
-  context: Context,
-  callback: (parser: ParserState, context: Context) => T
-): T {
-  return speculationHelper(parser, context, callback, /*alwaysResetState:*/ true);
-}
-
-export function tryParse<T>(
-  parser: ParserState,
-  context: Context,
-  callback: (parser: ParserState, context: Context) => T
-): T {
-  return speculationHelper(parser, context, callback, /*isLookahead:*/ false);
 }

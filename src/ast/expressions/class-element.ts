@@ -1,60 +1,44 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { MethodDefinition } from './method-definition';
+import { DecoratorList } from './decorator-list';
 
 /**
  * Class element.
  */
-export interface ClassElement extends Node {
-  // True if `IsStatic` of ClassElement is true.
-  readonly isStatic: boolean;
-  readonly isAbstract: boolean;
-  readonly isReadOnly: boolean;
-  readonly isOptional: boolean;
+export interface ClassElement extends SyntaxNode {
+  readonly declareToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly decorators: DecoratorList | null;
+  readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly setKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  readonly getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly method: MethodDefinition;
 }
 
 export function createClassElement(
-  isStatic: boolean,
-  isAbstract: boolean,
-  isReadOnly: boolean,
-  isOptional: boolean,
+  declareToken: SyntaxToken<TokenSyntaxKind> | null,
+  decorators: DecoratorList | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  setKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  getKeyword: SyntaxToken<TokenSyntaxKind> | null,
   method: MethodDefinition,
   flags: NodeFlags,
   start: number,
   end: number
 ): ClassElement {
   return {
-    kind: NodeKind.ClassElement,
-    isStatic,
-    isAbstract,
-    isReadOnly,
-    isOptional,
+    kind: SyntaxKind.ClassElement,
+    declareToken,
+    decorators,
+    staticKeyword,
+    asyncKeyword,
+    setKeyword,
+    getKeyword,
     method,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015,
     start,
     end
   };
-}
-
-export function updateClassElement(
-  node: ClassElement,
-  isStatic: boolean,
-  isAbstract: boolean,
-  isReadOnly: boolean,
-  isOptional: boolean,
-  method: MethodDefinition
-): ClassElement {
-  return node.isStatic !== isStatic ||
-    node.isStatic !== isAbstract ||
-    node.isStatic !== isReadOnly ||
-    node.isStatic !== isOptional ||
-    node.method !== method
-    ? updateNode(
-        createClassElement(isStatic, isAbstract, isReadOnly, isOptional, method, node.flags, node.start, node.end),
-        node
-      )
-    : node;
 }

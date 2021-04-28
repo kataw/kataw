@@ -4,33 +4,11 @@
 interface Expression <: Node { }
 ```
 
-### IdentifierName
+### Identifier
 
 ```js
-interface IdentifierName <: Expression {
+interface IdentifierName <: ExpressionNode {
   kind: NodeKind.IdentifierName;
-  text: string;
-  rawText: string;
-}
-```
-
-### IdentifierReference
-
-```js
-interface IdentifierReference <: Expression {
-  kind: NodeKind.IdentifierReference;
-  text: string;
-  rawText: string;
-}
-```
-
-An identifier that is a `PrimaryExpression`. E.g. `id in id()`
-
-### BindingIdentifier
-
-```js
-interface BindingIdentifier <: Expression {
-  kind: NodeKind.BindingIdentifier;
   text: string;
   rawText: string;
 }
@@ -39,7 +17,7 @@ interface BindingIdentifier <: Expression {
 ### PrivateIdentifier
 
 ```js
-interface PrivateIdentifier <: Expression {
+interface PrivateIdentifier <: ExpressionNode {
   kind: NodeKind.PrivateIdentifier;
   text: string;
   rawText: string;
@@ -49,8 +27,8 @@ interface PrivateIdentifier <: Expression {
 ### NumericLiteral
 
 ```js
-interface NumericLiteral <: Expression {
-  kind: NodeKind.NumericLiteral | NodeKind.FloatingPointLiteral;
+interface NumericLiteral <: ExpressionNode {
+  kind: NodeKind.NumericLiteral;
   text: number;
   rawText: string;
 }
@@ -59,7 +37,7 @@ interface NumericLiteral <: Expression {
 ### BigIntLiteral
 
 ```js
-interface BigIntLiteral <: Expression {
+interface BigIntLiteral <: ExpressionNode {
   kind: NodeKind.BigIntLiteral;
   text: number | null;
   rawText: string;
@@ -69,7 +47,7 @@ interface BigIntLiteral <: Expression {
 ### BooleanLiteral
 
 ```js
-interface BooleanLiteral <: Expression {
+interface BooleanLiteral <: ExpressionNode {
   kind: NodeKind.BooleanLiteral;
   value: boolean;
 }
@@ -78,7 +56,7 @@ interface BooleanLiteral <: Expression {
 ### TemplateLiteral
 
 ```js
-interface TemplateLiteral <: Expression {
+interface TemplateLiteral <: ExpressionNode {
   kind: NodeKind.TemplateLiteral;
   raw: string;
   value: string;
@@ -88,7 +66,7 @@ interface TemplateLiteral <: Expression {
 ### NullLiteral
 
 ```js
-interface NullLiteral <: Expression {
+interface NullLiteral <: ExpressionNode {
   kind: NodeKind.NullLiteral;
   value: null;
 }
@@ -97,7 +75,7 @@ interface NullLiteral <: Expression {
 ### StringLiteral
 
 ```js
-interface StringLiteral <: Expression {
+interface StringLiteral <: ExpressionNode {
   kind: NodeKind.StringLiteral;
   text: string;
   rawText: string;
@@ -107,7 +85,7 @@ interface StringLiteral <: Expression {
 ### RegularExpressionLiteral
 
 ```js
-interface RegularExpressionLiteral <: Expression {
+interface RegularExpressionLiteral <: ExpressionNode {
   kind: NodeKind.RegularExpressionLiteral;
   text: string;
 }
@@ -116,7 +94,7 @@ interface RegularExpressionLiteral <: Expression {
 ## Comma Operator
 
 ```js
-interface CommaOperator  <: Expression {
+interface CommaOperator  <: ExpressionNode {
   kind: NodeKind.CommaOperator;
   expressions: [ Expression ];
 }
@@ -130,7 +108,7 @@ See [13.16](https://tc39.es/ecma262/#sec-comma-operator)
 ### ThisExpression
 
 ```js
-interface ThisExpression <: Expression {
+interface ThisExpression <: ExpressionNode {
   kind: NodeKind.ThisExpression;
 }
 ```
@@ -138,16 +116,7 @@ interface ThisExpression <: Expression {
 ### ArrayLiteral
 
 ```js
-interface ArrayLiteral <: Expression {
-  kind: NodeKind.IdentifierReference;
-  elementList: ElementList;
-}
-```
-
-### ArrayLiteral
-
-```js
-interface ArrayLiteral <: Expression {
+interface ArrayLiteral <: ExpressionNode {
   kind: NodeKind.IdentifierReference;
   elementList: ElementList;
 }
@@ -156,9 +125,9 @@ interface ArrayLiteral <: Expression {
 ### ElementList
 
 ```js
-interface ElementList <: Expression {
+interface ElementList <: ExpressionNode {
   kind: NodeKind.ElementList;
-  elements: [ Elison | SpreadElement | Expression ];
+  elements: [ Elison | SpreadElement | ExpressionNode ];
   trailingComma: boolean;
   multiline: boolean;
 }
@@ -167,108 +136,44 @@ interface ElementList <: Expression {
 ### ArrowFunction
 
 ```js
-interface ArrowFunction <: Expression {
+interface ArrowFunction <: ExpressionNode {
   kind: NodeKind.ArrowFunction;
-  params: [ BindingIdentifier | BindingRestElement | ArrayBindingPattern | ObjectBindingPattern ];
-  content: Expression | FunctionBody
-}
-```
-
-### AssignmentOperator
-
-```js
-
-enum AssignmentOperator {
-  '=',
-  '+=',
-  '-=',
-  '*=',
-  '/=',
-  '%=',
-  '<<=',
-  '>>=',
-  '>>>=',
-  '|=',
-  '^=',
-  '&='
-}
-```
-
-### LogicalAssignmentOperator
-
-```js
-enum LogicalAssignmentOperator {
-  '||=',
-  '&&=',
-  '??='
+  arrowToken: SyntaxToken | null;
+  typeParameters: TypeParameter | null;
+  parameters: Identifier | [FormalParameter];
+  asyncToken: SyntaxToken | null;
+  content: ExpressionNode | FunctionBody
 }
 ```
 
 ### AssignmentExpression
 
 ```js
-interface AssignmentExpression <: Expression {
+interface AssignmentExpression <: ExpressionNode {
   kind: NodeKind.AssignmentExpression;
   left: Expression;
-  operator: AssignmentOperator | LogicalAssignmentOperator;
+  operatorToken: SyntaxToken | null;
   right: Expression;
-}
-```
-
-### AssignmentRestElement
-
-```js
-interface AssignmentRestElement <: Expression {
-  kind: NodeKind.AssignmentRestElement;
-  argument: Expression;
 }
 ```
 
 ### AwaitExpression
 
 ```js
-interface AwaitExpression <: Expression {
+interface AwaitExpression <: ExpressionNode {
   kind: NodeKind.AwaitExpression;
+  awaitKeyword: SyntaxToken | null;
   argument: UnaryExpression;
-}
-```
-
-### BinaryOperator
-
-```js
-enum BinaryOperator {
-  '==' ,
-  '!=',
-  '===',
-  '!==',
-  '<',
-  '<=',
-  '>',
-  '>=',
-  '<<',
-  '>>',
-  '>>>',
-  '+',
-  '-',
-  '*',
-  '/',
-  '%',
-  '|',
-  '^',
-  '&',
-  '??',
-  'in',
-  'instanceof'
 }
 ```
 
 ### BinaryExpression
 
 ```js
-interface BinaryExpression <: Expression {
+interface BinaryExpression <: ExpressionNode {
   kind: NodeKind.BinaryExpression;
   left: Expression;
-  operator: BinaryOperator
+  operatorToken: SyntaxToken | null;
   right: Expression;
 }
 ```
@@ -276,35 +181,39 @@ interface BinaryExpression <: Expression {
 ### BindingElement
 
 ```js
-interface BindingElement <: Expression {
+interface BindingElement <: ExpressionNode {
   kind: NodeKind.BindingElement;
   left: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
   right: AssignmentExpression;
 }
 ```
 
-### BindingRestElement
-
-```js
-interface BindingRestElement <: Expression {
-  kind: NodeKind.BindingRestElement;
-  argument: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-}
-```
-
 ### ArrayBindingPattern
 
 ```js
-interface ArrayBindingPattern <: Expression {
+interface ArrayBindingPattern <: ExpressionNode {
   kind: NodeKind.ArrayBindingPattern;
   bindingElementList: BindingElementList;
+}
+```
+
+### ArrayBindingElement
+
+```js
+interface ArrayBindingPattern <: ExpressionNode {
+  kind: NodeKind.ArrayBindingPattern;
+  ellipsisToken: SyntaxToken | null;
+  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier;
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  type: TypeNode | null;
+  initializer: ExpressionNode | null;
 }
 ```
 
 ### BindingElementList
 
 ```js
-interface BindingElementList <: Expression {
+interface BindingElementList <: ExpressionNode {
   kind: NodeKind.BindingElement;
   elements: [ Elison | BindingElement ];
   trailingComma: boolean;
@@ -314,7 +223,7 @@ interface BindingElementList <: Expression {
 ### BindingRestProperty
 
 ```js
-interface BindingRestProperty <: Expression {
+interface BindingRestProperty <: ExpressionNode {
   kind: NodeKind.BindingRestProperty;
   argument: BindingIdentifier;
 }
@@ -323,7 +232,7 @@ interface BindingRestProperty <: Expression {
 ### CallExpression
 
 ```js
-interface CallExpression <: Expression {
+interface CallExpression <: ExpressionNode {
   kind: NodeKind.CallExpression;
   argumentList: ArgumentList;
   arguments: typeArguments: TypeArguments;
@@ -333,7 +242,7 @@ interface CallExpression <: Expression {
 ### ArgumentList
 
 ```js
-interface ArgumentList <: Expression {
+interface ArgumentList <: ExpressionNode {
   kind: NodeKind.ArgumentList;
   elements: [ ArgumentListElement ];
   trailingComma: boolean;
@@ -343,12 +252,14 @@ interface ArgumentList <: Expression {
 ### ClassExpression
 
 ```js
-interface ClassExpression <: Expression {
+interface ClassExpression <: ExpressionNode {
   kind: NodeKind.ClassExpression;
-  name: BindingIdentifier | null;
-  typeParameters: TypeParameters;
-  classHeritage: Expression | null;
-  classElementList: ClassElementList;
+  classKeyword: SyntaxToken<TokenSyntaxKind>;
+  decorators: DecoratorList | null;
+  name: Identifier | null;
+  typeParameters: TypeParameter | null;
+  classHeritage: ExpressionNode | null;
+  members: ClassElementList;
 }
 ```
 
@@ -357,8 +268,9 @@ See [14.6 Class Definitions](https://tc39.es/ecma262/#sec-class-definitions)
 ### ClassHeritage
 
 ```js
-interface ClassHeritage <: Expression {
+interface ClassHeritage <: ExpressionNode {
   kind: NodeKind.ClassHeritage;
+  extendsKeyword: SyntaxToken<TokenSyntaxKind>;
   expression: Expression;
   typeArguments: TypeArguments | null;
 }
@@ -368,47 +280,46 @@ interface ClassHeritage <: Expression {
 ### ClassElementList
 
 ```js
-interface ClassElementList <: Expression {
+interface ClassElementList <: ExpressionNode {
   kind: NodeKind.ClassElementList;
-  elements: [ Semicolon | ClassElement | FieldDefinition ]
+  elements: [ClassElements]
 }
 ```
 
 ### ClassElement
 
 ```js
-interface ClassElement <: Expression {
+interface ClassElement <: ExpressionNode {
   kind: NodeKind.ClassElement;
-  isStatic: boolean;
-  isAbstract: boolean;
-  isReadOnly: boolean;
-  isOptional: boolean;
+  declareToken: SyntaxToken<TokenSyntaxKind> | null;
+  decorators: DecoratorList | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  setKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   method: MethodDefinition;
 }
 ```
-The `isStatic` boolean is true if `static` of ClassElement is true.
-
 
 ### FieldDefinition
 
 ```js
-interface FieldDefinition <: Expression {
-  key: Expression | PrivateIdentifier;
-  isOptional: boolean;
-  isReadOnly: boolean;
-  exclamation: boolean;
-  type: TypeNode | null;
-  initializer: Expression | null;
-  isStatic: boolean;
+interface FieldDefinition <: ExpressionNode {
+ decorators: DecoratorList | null;
+ declaredToken: SyntaxToken<TokenSyntaxKind> | null;
+ staticToken: SyntaxToken<TokenSyntaxKind> | null;
+ asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+ key: ExpressionNode | Identifier;
+ optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+ type: TypeNode | null;
+ initializer: ExpressionNode | null;
 }
 ```
 
-The `optional` and `exclamation` are `Typescript` properties.
-
-### Semicolon
+### SemicolonClassElement
 
 ```js
-interface Semicolon <: Expression {
+interface SemicolonClassElement <: ExpressionNode {
   kind: NodeKind.Semicolon;
 }
 
@@ -419,7 +330,7 @@ This node is part of the `ClassElement` production. See[`14.6 Class Definitions`
 ### ComputedPropertyName
 
 ```js
-interface ComputedPropertyName <: Expression {
+interface ComputedPropertyName <: ExpressionNode {
   kind: NodeKind.ComputedPropertyName;
   expression: Expression;
 }
@@ -428,7 +339,7 @@ interface ComputedPropertyName <: Expression {
 ### ConciseBody
 
 ```js
-interface ConciseBody <: Expression {
+interface ConciseBody <: ExpressionNode {
   kind: NodeKind.ConciseBody;
   expression: Expression;
 }
@@ -437,11 +348,12 @@ interface ConciseBody <: Expression {
 ### ConditionalExpression
 
 ```js
-interface ConditionalExpression  <: Expression {
-  kind: NodeKind.ConditionalExpression;
-  shortCircuit: BinaryExpression | Expression;
-  consequent: AssignmentExpression;
-  alternate: AssignmentExpression;
+interface ConditionalExpression  <: ExpressionNode {
+  shortCircuit: ExpressionNode;
+  questionToken: SyntaxToken<TokenSyntaxKind>;
+  consequent: ExpressionNode;
+  colonToken: SyntaxToken<TokenSyntaxKind>;
+  alternate: ExpressionNode;
 }
 ```
 
@@ -453,23 +365,17 @@ value should start with `|` - right above  `&&`, `||` and `??`.
 ### CoverInitializedName
 
 ```js
-interface CoverInitializedName <: Expression {
+interface CoverInitializedName <: ExpressionNode {
   kind: NodeKind.CoverInitializedName;
-  identifierReference: IdentifierReference;
-  isOptional: boolean;
-  exclamation: boolean;
-  initializer: AssignmentExpression;
+  left: IdentifierReference;
+  right: AssignmentExpression;
 }
 ```
-
-`optional` and `exclamation` is invalid here, and only used for error recovery.
-
- Use of this node should automatically force an grammar error to appear in actual object initializer.
 
 ### Elison
 
 ```js
-interface Elison <: Expression {
+interface Elison <: ExpressionNode {
   kind: NodeKind.Elison;
 }
 ```
@@ -480,7 +386,7 @@ Used to represent an splice array in [ArrayLiteral](https://tc39.es/ecma262/#pro
 ### FunctionBody
 
 ```js
-interface FunctionBody <: Expression {
+interface FunctionBody <: ExpressionNode {
   kind: NodeKind.FunctionBody;
   statementList: FunctionStatementList;
 }
@@ -489,7 +395,7 @@ interface FunctionBody <: Expression {
 ### FunctionStatementList
 
 ```js
-interface FunctionStatementList <: Expression {
+interface FunctionStatementList <: ExpressionNode {
   kind: NodeKind.FunctionStatementList;
   statements: [ Statement ];
   multiline: boolean;
@@ -499,23 +405,23 @@ interface FunctionStatementList <: Expression {
 ### FunctionExpression
 
 ```js
-interface FunctionExpression <: Expression {
+interface FunctionExpression <: ExpressionNode {
   kind: NodeKind.FunctionExpression;
-  name: BindingIdentifier | null;
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  functionKeyword: SyntaxToken<TokenSyntaxKind>;
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  name: Identifier | null;
   formalParameters: FormalParameterList;
   contents: FunctionBody;
-  typeParameters: TypeParameters;
-  type: TypeNode | null;
+  typeParameters: TypeParameter | null;
+  returnType: TypeNode | null;
 }
 ```
-
- `typeParameters` and `type` is not allowed in `FunctionExpression`. They exist here for error recovery
- reasons.
 
  ### AsyncGeneratorExpression
 
 ```js
-interface AsyncGeneratorExpression <: Expression {
+interface AsyncGeneratorExpression <: ExpressionNode {
   kind: NodeKind.AsyncGeneratorExpression;
   name: BindingIdentifier | null;
   formalParameters: FormalParameterList;
@@ -528,7 +434,7 @@ interface AsyncGeneratorExpression <: Expression {
 ### AsyncFunctionExpression
 
 ```js
-interface AsyncFunctionExpression <: Expression {
+interface AsyncFunctionExpression <: ExpressionNode {
   kind: NodeKind.AsyncFunctionExpression;
   name: BindingIdentifier | null;
   formalParameters: FormalParameterList;
@@ -541,7 +447,7 @@ interface AsyncFunctionExpression <: Expression {
 ### GeneratorExpression
 
 ```js
-interface GeneratorExpression <: Expression {
+interface GeneratorExpression <: ExpressionNode {
   kind: NodeKind.GeneratorExpression;
   name: BindingIdentifier | null;
   formalParameters: FormalParameterList;
@@ -554,7 +460,7 @@ interface GeneratorExpression <: Expression {
 ### FormalParameterList
 
 ```js
-interface FormalParameterList <: Expression {
+interface FormalParameterList <: ExpressionNode {
   kind: NodeKind.FormalParameterList;
   formalParameterList: [ FormalParameter ];
   trailingComma: boolean;
@@ -564,23 +470,21 @@ interface FormalParameterList <: Expression {
 ### FormalParameter
 
 ```js
-interface FormalParameter <: Expression {
-  ellipsis: boolean;
-  binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  isOptional: boolean;
-  isReadOnly: boolean;
+interface FormalParameter <: ExpressionNode {
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
+  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier;
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   type: TypeNode | null;
-  initializer: AssignmentExpression | null;
-  accessModifiers: AccessModifiers;
+  initializer: ExpressionNode | null;
 }
 ```
-The `optional`, `accessModifiers` and `type` are `Typescript` properties.
 
 ### ImportCall
 
 ```js
-interface ImportCall <: Expression {
+interface ImportCall <: ExpressionNode {
   kind: NodeKind.ImportCall;
+  importKeyword: SyntaxToken<TokenSyntaxKind>;
   expression: Expression;
 }
 ```
@@ -588,26 +492,27 @@ interface ImportCall <: Expression {
 ### ImportMeta
 
 ```js
-interface ImportMeta <: Expression {
+interface ImportMeta <: ExpressionNode {
   kind: NodeKind.ImportMeta;
+  importKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 
-### ElementAccessExpression
+### IndexExpression
 
 ```js
-interface ElementAccessExpression <: Expression {
-  kind: NodeKind.ElementAccessExpression;
+interface IndexExpression <: ExpressionNode {
+  kind: NodeKind.IndexExpression;
   member: LeftHandSideExpression | OptionalExpression;
   expression: Expression;
 }
 ```
 
-### PropertyAccessExpression
+### MemberAccessExpression
 
 ```js
-interface PropertyAccessExpression <: Expression {
-  kind: NodeKind.PropertyAccessExpression;
+interface MemberAccessExpression <: ExpressionNode {
+  kind: NodeKind.MemberAccessExpression;
   member: LeftHandSideExpression | OptionalExpression;
   expression: IdentifierName | PrivateIdentifier;
 }
@@ -616,34 +521,21 @@ interface PropertyAccessExpression <: Expression {
 ### MethodDefinition
 
 ```js
-interface MethodDefinition <: Expression {
-  kind: NodeKind.MethodDefinition;
-  async: boolean;
-  generator: boolean;
-  getter: boolean;
-  propertySetParameterList: BindingIdentifier | BindingElement | null;
-  uniqueFormalParameters: [ BindingIdentifier | BindingElement | BindingRestElement ];
-  name: IdentifierReference | StringLiteral | BigIntLiteral | NumericLiteral | IdentifierName;
-  contents: FunctionBody;
+interface MethodDefinition <: ExpressionNode {
+  formalParameters: FormalParameterList | null;
+  name: MethodName;
+  contents: FunctionBody | null;
+  typeParameters: TypeParameter | null;
+  type: TypeNode | null;
 }
 ```
-`getter` should be true **only** if `propertySetParameterList` is set to `null` and `uniqueFormalParameters` has
-an empty list.
-
-A getter cannot have any parameters.
-
-`propertySetParameterList` should be set if `getter` is false and `uniqueFormalParameters` has
-an empty list.
-
-E.g `({set x(y) {}})` can only have one paramater.
-
-This changes conforms to the ECMA specification.
 
 ### NewExpression
 
 ```js
-interface NewExpression <: Expression {
+interface NewExpression <: ExpressionNode {
   kind: NodeKind.NewExpression;
+  newKeyword: SyntaxToken<TokenSyntaxKind>;
   expression: Expression;
   arguments: [ AssignmentRestElement | Expression ];
 }
@@ -652,7 +544,7 @@ interface NewExpression <: Expression {
 ### NewTarget
 
 ```js
-interface NewTarget <: Expression {
+interface NewTarget <: ExpressionNode {
   kind: NodeKind.NewTarget;
   name: IdentifierName;
 }
@@ -661,8 +553,9 @@ interface NewTarget <: Expression {
 ### SpreadElement
 
 ```js
-interface SpreadElement <: Expression {
+interface SpreadElement <: ExpressionNode {
   kind: NodeKind.SpreadElement;
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null
   argument: Expression;
 }
 ```
@@ -670,8 +563,9 @@ interface SpreadElement <: Expression {
 ### SpreadProperty
 
 ```js
-interface SpreadProperty <: Expression {
+interface SpreadProperty <: ExpressionNode {
   kind: NodeKind.SpreadProperty;
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null
   argument: AssignmentExpression;
 }
 ```
@@ -683,15 +577,16 @@ added to represent the `...AssignmentExpression` production.
 ### Super
 
 ```js
-interface Super <: Expression {
+interface Super <: ExpressionNode {
   kind: NodeKind.Super;
+  superKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 
 ### TaggedTemplate
 
 ```js
-interface TaggedTemplate <: Expression {
+interface TaggedTemplate <: ExpressionNode {
   kind: NodeKind.TaggedTemplate;
   member: MemberExpression;
   typeArguments: any | null;
@@ -702,7 +597,7 @@ interface TaggedTemplate <: Expression {
 ### TemplateSpan
 
 ```js
-interface TemplateSpan <: Expression {
+interface TemplateSpan <: ExpressionNode {
   kind: NodeKind.TemplateSpan;
   rawText: string;
   text: string;
@@ -714,7 +609,7 @@ interface TemplateSpan <: Expression {
 ### TemplateTail
 
 ```js
-interface TemplateTail <: Expression {
+interface TemplateTail <: ExpressionNode {
   kind: NodeKind.TemplateTail;
   rawText: string;
   text: string;
@@ -724,33 +619,19 @@ interface TemplateTail <: Expression {
 ### TemplateExpression
 
 ```js
-interface TemplateExpression <: Expression {
+interface TemplateExpression <: ExpressionNode {
   kind: NodeKind.TemplateExpression;
   spans: [ TemplateSpan ];
   tail: TemplateTail;
 }
 ```
 
-### UnaryOperator
-
-```js
-  enum UnaryOperator {
-  '+',
-  '-',
-  '!',
-  '~',
-  'delete',
-  'void',
-  'typeof'
-  }
-```
-
 ### UnaryExpression
 
 ```js
-interface UnaryExpression <: Expression {
+interface UnaryExpression <: ExpressionNode {
   kind: NodeKind.UnaryExpression;
-  operator: UnaryOperator;
+  operandToken: SyntaxToken<TokenSyntaxKind>;
   operand: Expression;
 }
 ```
@@ -758,9 +639,11 @@ interface UnaryExpression <: Expression {
 ### YieldExpression
 
 ```js
-interface YieldExpression <: Expression {
+interface YieldExpression <: ExpressionNode {
   kind: NodeKind.YieldExpression;
+  yieldKeyword: SyntaxToken<TokenSyntaxKind> | null;
   delegate: boolean;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   argument: Expression | null;
 }
 ```
@@ -768,7 +651,7 @@ interface YieldExpression <: Expression {
 ### ParenthesizedExpression
 
 ```js
-interface ParenthesizedExpression <: Expression {
+interface ParenthesizedExpression <: ExpressionNode {
   kind: NodeKind.ParenthesizedExpression;
   expression: Expression | CommaOperator;
 }
@@ -777,8 +660,9 @@ interface ParenthesizedExpression <: Expression {
 ### OptionalExpression
 
 ```js
-interface OptionalExpression <: Expression {
+interface OptionalExpression <: ExpressionNode {
   kind: NodeKind.OptionalExpression;
+  chainToken: SyntaxToken<TokenSyntaxKind> | null;
   member: Expression;
   chain: OptionalChain;
 }
@@ -789,28 +673,28 @@ See `12.3 Left-Hand-Side Expressions - OptionalExpression`.
 ### OptionalChain
 
 ```js
-interface OptionalChain <: Expression {
+interface OptionalChain <: ExpressionNode {
   kind: NodeKind.OptionalChain;
   chain: MemberChain | CallChain | null;
 }
 ```
 
-### ElementAccessChain
+### IndexChain
 
 ```js
-interface ElementAccessChain <: Expression {
-  kind: NodeKind.ElementAccessChain;
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+interface IndexChain <: ExpressionNode {
+  kind: NodeKind.IndexChain;
+  chain: IndexChain | MemberAccessChain | CallChain | null;
   expression: Expression | IdentifierName | null;
 }
 ```
 
-### PropertyAccessChain
+### MemberAccessChain
 
 ```js
-interface PropertyAccessChain <: Expression {
-  kind: NodeKind.PropertyAccessChain;
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+interface MemberAccessChain <: ExpressionNode {
+  kind: NodeKind.MemberAccessChain;
+  chain: IndexChain | MemberAccessChain | CallChain | null;
   expression: IdentifierName | PrivateName | null;
 }
 ```
@@ -818,9 +702,9 @@ interface PropertyAccessChain <: Expression {
 ### CallChain
 
 ```js
-interface CallChain <: Expression {
+interface CallChain <: ExpressionNode {
   kind: NodeKind.CallChain;
-  chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
+  chain: IndexChain | MemberAccessChain | CallChain | null;
   argumentsList: ArgumentList | null;
   typeArguments: TypeArguments;
 }
@@ -837,7 +721,7 @@ enum PropertyKey {
 ### PropertyName
 
 ```js
-interface PropertyName <: Expression {
+interface PropertyName <: ExpressionNode {
   kind: NodeKind.PropertyName;
   key: PropertyKey;
   value: AssignmentExpression | BindingElement;
@@ -856,9 +740,9 @@ interface PropertyName <: Expression {
 ### PrefixUpdateExpression
 
 ```js
-interface PrefixUpdateExpression <: Expression {
+interface PrefixUpdateExpression <: ExpressionNode {
   kind: NodeKind.PrefixUpdateExpression;
-  operator: UpdateOp;
+  operandToken: SyntaxToken<TokenSyntaxKind>;
   operand: Expression;
 }
 ```
@@ -869,9 +753,9 @@ file size.
 ### PostfixUpdateExpression
 
 ```js
-interface PostfixUpdateExpression <: Expression {
+interface PostfixUpdateExpression <: ExpressionNode {
   kind: NodeKind.PrefixUpdateExpression;
-  operator: UpdateOp;
+  operandToken: SyntaxToken<TokenSyntaxKind>;
   operand: Expression;
 }
 ```
@@ -879,7 +763,7 @@ interface PostfixUpdateExpression <: Expression {
 ### ObjectLiteral
 
 ```js
-interface ObjectLiteral <: Expression {
+interface ObjectLiteral <: ExpressionNode {
   kind: NodeKind.ObjectLiteral;
   propertyList: PropertyDefinitionList;
 }
@@ -888,7 +772,7 @@ interface ObjectLiteral <: Expression {
 ### PropertyDefinitionList
 
 ```js
-interface PropertyDefinitionList <: Expression {
+interface PropertyDefinitionList <: ExpressionNode {
   kind: NodeKind.ObjectLiteral;
   properties: [ SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName ];
   trailingComma: boolean;
@@ -899,19 +783,17 @@ interface PropertyDefinitionList <: Expression {
 ### PropertyDefinition
 
 ```js
-interface PropertyDefinition <: Expression {
+interface PropertyDefinition <: ExpressionNode {
   kind: NodeKind.PropertyDefinition;
   left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   right: AssignmentExpression | BindingElement | BindingIdentifier,
-  decorators: DecoratorList,
-  accessModifier: AccessModifier | null,
 }
 ```
 
 ### ObjectBindingPattern
 
 ```js
-interface ObjectBindingPattern <: Expression {
+interface ObjectBindingPattern <: ExpressionNode {
   kind: NodeKind.ObjectBindingPattern;
   propertyList: BindingPropertyList;
 }
@@ -920,7 +802,7 @@ interface ObjectBindingPattern <: Expression {
 ### BindingPropertyList
 
 ```js
-interface BindingPropertyList <: Expression {
+interface BindingPropertyList <: ExpressionNode {
   kind: NodeKind.BindingPropertyList;
   properties: [ BindingElement | BindingProperty ];
   trailingComma: boolean;
@@ -931,9 +813,9 @@ interface BindingPropertyList <: Expression {
 ### BindingProperty
 
 ```js
-interface BindingProperty <: Expression {
+interface BindingProperty <: ExpressionNode {
   kind: NodeKind.BindingProperty;
-  ellipsis: boolean;
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   key: PropertyKey;
   value: BindingElement | SingleNameBinding;
 }
@@ -942,43 +824,18 @@ interface BindingProperty <: Expression {
 ### SingleNameBinding
 
 ```js
-interface SingleNameBinding <: Expression {
+interface SingleNameBinding <: ExpressionNode {
   kind: NodeKind.SingleNameBinding;
-  ellipsis: boolean;
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   binding: BindingIdentifier;
   initializer: AssignmentExpression | null;
 }
 ```
 
-### AsExpression
-
-```js
-interface AsExpression <: Expression {
-  kind: NodeKind.AsExpression;
-  expression: Expression;
-  type: TypeNode;
-}
-```
-
-This node is for `Typescript`.
-
-### NonNullExpression
-
-```js
-interface NonNullExpression <: Expression {
-  kind: NodeKind.NonNullExpression;
-  expression: Expression;
-}
-```
-
-This node is for `Typescript`.
-
 ### OmittedExpression
 
 ```js
-interface OmittedExpression <: Expression {
+interface OmittedExpression <: ExpressionNode {
   kind: NodeKind.OmittedExpression;
 }
 ```
-
-This node is for `Typescript`.

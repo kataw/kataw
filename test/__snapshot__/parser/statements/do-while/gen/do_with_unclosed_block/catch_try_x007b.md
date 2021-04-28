@@ -1,0 +1,135 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-04-09
+- From: d
+- Path: k
+> :: test: do with unclosed block
+> :: case: catch try {
+## Input
+
+`````js
+do {} while (x) { catch try {
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 169,
+            "doKeyword": {
+                "kind": 4202580,
+                "flags": 0,
+                "start": 0,
+                "end": 2
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 13,
+                "end": 14
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 5,
+                "end": 11
+            },
+            "statement": {
+                "kind": 249,
+                "block": {
+                    "kind": 124,
+                    "statements": [],
+                    "multiLine": false,
+                    "flags": 16,
+                    "start": 4,
+                    "end": 4
+                },
+                "flags": 16,
+                "start": 2,
+                "end": 5
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
+                    {
+                        "kind": 159,
+                        "tryKeyword": null,
+                        "block": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 16,
+                                "start": 23,
+                                "end": 23
+                            },
+                            "flags": 16,
+                            "start": 23,
+                            "end": 23
+                        },
+                        "catchClause": null,
+                        "finallyKeyword": null,
+                        "finallyBlock": {
+                            "kind": 249,
+                            "block": {
+                                "kind": 124,
+                                "statements": [],
+                                "multiLine": false,
+                                "flags": 16,
+                                "start": 29,
+                                "end": 29
+                            },
+                            "flags": 16,
+                            "start": 27,
+                            "end": 29
+                        },
+                        "flags": 16,
+                        "start": 17,
+                        "end": 29
+                    }
+                ],
+                "multiLine": false,
+                "flags": 16,
+                "start": 17,
+                "end": 29
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 29
+        }
+    ],
+    "isModule": false,
+    "text": "do {} while (x) { catch try {",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 29
+}
+```
+
+### Printed
+
+```javascript
+✖ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

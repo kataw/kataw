@@ -1,19 +1,102 @@
-import { ParserState } from '../../types';
-import { DiagnosticKind, DiagnosticSource, error } from '../../diagnostics/diagnostic';
-import { DiagnosticCode } from '../../diagnostics/diagnosticMessages.generated';
-import { NodeFlags } from '../../ast/node';
-import { Token, descKeywordTable } from '../../ast/token';
+import { ParserState } from '../common';
+import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { isIdentifierPart, toHex, fromCodePoint } from './common';
+import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
 
 // Intentionally negative
 const enum Escape {
   Failure = -1
 }
 
+// Normal object is much faster than Object.create(null), even with typeof check to avoid Object.prototype interference
+export const descKeywordTable: { [key: string]: SyntaxKind | null } = {
+  __proto__: null,
+  this: SyntaxKind.ThisKeyword,
+  function: SyntaxKind.FunctionKeyword,
+  if: SyntaxKind.IfKeyword,
+  return: SyntaxKind.ReturnKeyword,
+  var: SyntaxKind.VarKeyword,
+  else: SyntaxKind.ElseKeyword,
+  for: SyntaxKind.ForKeyword,
+  new: SyntaxKind.NewKeyword,
+  in: SyntaxKind.InKeyword,
+  typeof: SyntaxKind.TypeofKeyword,
+  while: SyntaxKind.WhileKeyword,
+  case: SyntaxKind.CaseKeyword,
+  break: SyntaxKind.BreakKeyword,
+  try: SyntaxKind.TryKeyword,
+  catch: SyntaxKind.CatchKeyword,
+  delete: SyntaxKind.DeleteKeyword,
+  throw: SyntaxKind.ThrowKeyword,
+  switch: SyntaxKind.SwitchKeyword,
+  continue: SyntaxKind.ContinueKeyword,
+  default: SyntaxKind.DefaultKeyword,
+  instanceof: SyntaxKind.InstanceofKeyword,
+  do: SyntaxKind.DoKeyword,
+  void: SyntaxKind.VoidKeyword,
+  finally: SyntaxKind.FinallyKeyword,
+  async: SyntaxKind.AsyncKeyword,
+  await: SyntaxKind.AwaitKeyword,
+  class: SyntaxKind.ClassKeyword,
+  const: SyntaxKind.ConstKeyword,
+  constructor: SyntaxKind.ConstructorKeyword,
+  debugger: SyntaxKind.DebuggerKeyword,
+  export: SyntaxKind.ExportKeyword,
+  extends: SyntaxKind.ExtendsKeyword,
+  false: SyntaxKind.FalseKeyword,
+  from: SyntaxKind.FromKeyword,
+  get: SyntaxKind.GetKeyword,
+  implements: SyntaxKind.ImplementsKeyword,
+  import: SyntaxKind.ImportKeyword,
+  let: SyntaxKind.LetKeyword,
+  null: SyntaxKind.NullKeyword,
+  of: SyntaxKind.OfKeyword,
+  package: SyntaxKind.PackageKeyword,
+  private: SyntaxKind.PrivateKeyword,
+  protected: SyntaxKind.ProtectedKeyword,
+  public: SyntaxKind.PublicKeyword,
+  set: SyntaxKind.SetKeyword,
+  static: SyntaxKind.StaticKeyword,
+  super: SyntaxKind.SuperKeyword,
+  true: SyntaxKind.TrueKeyword,
+  with: SyntaxKind.WithKeyword,
+  yield: SyntaxKind.YieldKeyword,
+  //enum: SyntaxKind.EnumKeyword,
+  // eval: SyntaxKind.Eval,
+  as: SyntaxKind.AsKeyword,
+  //arguments: SyntaxKind.Arguments,
+  //target: SyntaxKind.Target,
+  //meta: SyntaxKind.Meta,
+  string: SyntaxKind.StringKeyword,
+  number: SyntaxKind.NumberKeyword,
+  boolean: SyntaxKind.BooleanKeyword,
+  symbol: SyntaxKind.SymbolKeyword,
+  any: SyntaxKind.AnyKeyword,
+  declare: SyntaxKind.DeclareKeyword,
+  type: SyntaxKind.TypeKeyword,
+  //readonly: SyntaxKind.ReadonlyKeyword,
+  //infer: SyntaxKind.InferKeyword,
+  //is: SyntaxKind.IsKeyword,
+  //keyof: SyntaxKind.KeyOfKeyword,
+  //intrinsic: SyntaxKind.IntrinsicKeyword,
+  //unique: SyntaxKind.UniqueKeyword,
+  //asserts: SyntaxKind.AssertsKeyword,
+  never: SyntaxKind.NeverKeyword,
+  unknown: SyntaxKind.UnknownKeyword,
+  object: SyntaxKind.ObjectKeyword,
+  //bigint: SyntaxKind.BigIntKeyword,
+  undefined: SyntaxKind.UndefinedKeyword,
+  //abstract: SyntaxKind.AbstractKeyword,
+  //require: SyntaxKind.RequireKeyword,
+  //namespace: SyntaxKind.NamespaceKeyword }
+  opaque: SyntaxKind.OpaqueKeyword
+};
+
 // Scan identifer and keyword and do a lookup for keywords
-export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source: string): Token {
+export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source: string): SyntaxKind {
   while (AsciiCharTypes[cp] & AsciiCharFlags.IdentifierPart) {
     cp = source.charCodeAt(++parser.pos);
   }
@@ -22,25 +105,17 @@ export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source:
 
   if (cp === Char.Backslash || cp > 128) {
     parser.tokenValue += scanIdentifierParts(parser, source);
-    parser.raw = source.substring(parser.tokenPos, parser.pos);
-
-    const keyword = descKeywordTable[parser.tokenValue];
-    if (keyword !== undefined) {
-      parser.nodeFlags |= NodeFlags.EscapedKeywordOrIdentifier;
-      return keyword;
-    }
-    return Token.Identifier;
   }
 
-  parser.raw = source.substring(parser.tokenPos, parser.pos);
+  parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
 
   const keyword = descKeywordTable[parser.tokenValue];
-  if (keyword !== undefined) return keyword;
-  return Token.Identifier;
+  if (keyword != undefined) return keyword;
+  return SyntaxKind.Identifier;
 }
 
 // Scan identifier - no keyword lookup
-export function scanIdentifier(parser: ParserState, cp: number, source: string): Token {
+export function scanIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
   while (AsciiCharTypes[cp] & AsciiCharFlags.IdentifierPart) {
     cp = source.charCodeAt(++parser.pos);
   }
@@ -50,8 +125,8 @@ export function scanIdentifier(parser: ParserState, cp: number, source: string):
   if (cp === Char.Backslash || cp > 128) {
     parser.tokenValue += scanIdentifierParts(parser, source);
   }
-  parser.raw = source.substring(parser.tokenPos, parser.pos);
-  return Token.Identifier;
+  parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
+  return SyntaxKind.Identifier;
 }
 
 export function scanIdentifierParts(parser: ParserState, source: string): string {
@@ -79,8 +154,11 @@ export function scanIdentifierParts(parser: ParserState, source: string): string
       // 10.1.3 Static Semantics: UTF16SurrogatePairToCodePoint ( lead, trail )
       cp = 0x10000 + ((cp & 0x3ff) << 10) + (trail & 0x3ff);
       if ((trail & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
-        parser.diagnostics.push(
-          error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Invalid_astral_character, parser.pos, 1)
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Invalid_astral_character],
+          parser.curPos,
+          parser.pos
         );
       }
       parser.pos += 2;
@@ -96,8 +174,11 @@ export function scanIdentifierEscape(parser: ParserState): number {
   let pos = parser.pos;
 
   if (parser.source.charCodeAt(pos + 1) !== Char.LowerU) {
-    parser.diagnostics.push(
-      error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Invalid_character, pos, /* length*/ 0)
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+      parser.curPos,
+      parser.pos
     );
     return Escape.Failure;
   }
@@ -121,14 +202,11 @@ export function scanIdentifierEscape(parser: ParserState): number {
     while (digit >= 0) {
       code = (code << 4) | digit;
       if (code > Char.LastUnicodeChar) {
-        parser.diagnostics.push(
-          error(
-            DiagnosticKind.Error,
-            DiagnosticSource.Lexer,
-            DiagnosticCode.An_extended_Unicode_escape_value_must_be_between_0x0_and_0x10FFFF_inclusive,
-            parser.pos,
-            1
-          )
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF],
+          parser.curPos,
+          parser.pos
         );
         return Escape.Failure;
       }
@@ -142,8 +220,11 @@ export function scanIdentifierEscape(parser: ParserState): number {
     if (0 < digit || cp !== Char.RightBrace) {
       // The 'pos' value can't be set if we have a missing '}', so that we can report an nice error message
       // when parsing out cases like 'x\u{0 foo' where '}'.
-      parser.diagnostics.push(
-        error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Invalid_character, parser.pos, 0)
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+        parser.curPos,
+        parser.pos
       );
       return Escape.Failure;
     }
@@ -163,8 +244,11 @@ export function scanIdentifierEscape(parser: ParserState): number {
     const digit = toHex(cp);
 
     if (digit < 0) {
-      parser.diagnostics.push(
-        error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Invalid_character, parser.pos, 0)
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+        parser.curPos,
+        parser.pos
       );
       return Escape.Failure;
     }

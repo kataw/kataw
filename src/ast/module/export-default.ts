@@ -1,35 +1,29 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { Expression } from '../expressions';
-import { FunctionDeclaration } from '../statements/function-declaration';
-import { ClassDeclaration } from '../statements/class-declaration';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from '../expressions';
+import { FunctionDeclaration } from '../stmt/function-declaration';
+import { ClassDeclaration } from '../stmt/class-declaration';
 
-export interface ExportDefault extends Node {
-  readonly declaration: FunctionDeclaration | ClassDeclaration | Expression;
+export interface ExportDefault extends SyntaxNode {
+  readonly exportKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly defaultKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly declaration: FunctionDeclaration | ClassDeclaration | ExpressionNode;
 }
 
 export function createExportDefault(
-  declaration: FunctionDeclaration | ClassDeclaration | Expression,
-  flags: NodeFlags,
+  exportKeyword: SyntaxToken<TokenSyntaxKind>,
+  defaultKeyword: SyntaxToken<TokenSyntaxKind>,
+  declaration: FunctionDeclaration | ClassDeclaration | ExpressionNode,
   start: number,
   end: number
 ): ExportDefault {
   return {
-    kind: NodeKind.ExportDefault,
+    kind: SyntaxKind.ExportDefault,
+    exportKeyword,
+    defaultKeyword,
     declaration,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateExportDefault(
-  node: ExportDefault,
-  declaration: FunctionDeclaration | ClassDeclaration | Expression
-): ExportDefault {
-  return node.declaration !== declaration
-    ? updateNode(createExportDefault(declaration, node.flags, node.start, node.end), node)
-    : node;
 }

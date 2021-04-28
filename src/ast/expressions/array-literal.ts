@@ -1,33 +1,16 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ElementList } from './element-list';
-import { updateNode } from '../../utils';
 
-/**
- * An IdentifierReference expression.
- */
-export interface ArrayLiteral extends Node {
+export interface ArrayLiteral extends SyntaxNode {
   readonly elementList: ElementList;
 }
 
-export function createArrayLiteral(
-  elementList: ElementList,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): ArrayLiteral {
+export function createArrayLiteral(elementList: ElementList, start: number, end: number): ArrayLiteral {
   return {
-    kind: NodeKind.ArrayLiteral,
+    kind: SyntaxKind.ArrayLiteral,
     elementList,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateArrayLiteral(node: ArrayLiteral, elementList: ElementList): ArrayLiteral {
-  return node.elementList !== elementList
-    ? updateNode(createArrayLiteral(elementList, node.flags, node.start, node.end), node)
-    : node;
 }

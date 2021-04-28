@@ -1,41 +1,33 @@
-import { Expression } from '.';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { ExpressionNode } from '.';
 
 /**
  * Yield expression.
  */
-export interface YieldExpression extends Node {
+export interface YieldExpression extends SyntaxNode {
+  readonly yieldKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly delegate: boolean;
-  readonly expression: Expression | null;
+  readonly asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly expression: ExpressionNode | null;
 }
 
 export function createYieldExpression(
+  yieldKeyword: SyntaxToken<TokenSyntaxKind> | null,
   delegate: boolean,
-  expression: Expression | null,
-  flags: NodeFlags,
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null,
+  expression: ExpressionNode | null,
   start: number,
   end: number
 ): YieldExpression {
   return {
-    kind: NodeKind.YieldExpression,
+    kind: SyntaxKind.YieldExpression,
+    yieldKeyword,
     delegate,
+    asteriskToken,
     expression,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015 | TransformFlags.ES2018 | TransformFlags.Yield,
-
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateYieldExpression(
-  node: YieldExpression,
-  delegate: boolean,
-  expression: Expression | null
-): YieldExpression {
-  return node.delegate !== delegate || node.expression !== expression
-    ? updateNode(createYieldExpression(delegate, expression, node.flags, node.start, node.end), node)
-    : node;
 }

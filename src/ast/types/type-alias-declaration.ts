@@ -1,47 +1,42 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { IdentifierReference } from '../expressions/identifier-reference';
-import { TypeNode } from './';
-import { TypeParameters } from './type-parameter-list';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { Identifier } from '../expressions/identifier-expr';
+import { TypeNode } from '.';
+import { TypeParameter } from './type-parameter';
 
-/**
- * Type alias declaration
- */
-
-export interface TypeAliasDeclaration extends Node {
-  readonly name: IdentifierReference;
+export interface TypeAlias extends SyntaxNode {
+  readonly declareToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly opaqueToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly typeToken: SyntaxToken<TokenSyntaxKind>;
+  readonly name: Identifier;
+  readonly opaqueType: TypeNode | null;
+  readonly typeParameters: TypeParameter | null;
   readonly type: TypeNode;
-  readonly typeParameters: TypeParameters | null;
 }
 
-export function createTypeAliasDeclaration(
-  name: IdentifierReference,
+export function createTypeAlias(
+  declareToken: SyntaxToken<TokenSyntaxKind> | null,
+  opaqueToken: SyntaxToken<TokenSyntaxKind> | null,
+  typeToken: SyntaxToken<TokenSyntaxKind>,
+  name: Identifier,
+  opaqueType: TypeNode | null,
+  typeParameters: TypeParameter | null,
   type: TypeNode,
-  typeParameters: TypeParameters | null,
   flags: NodeFlags,
   start: number,
   end: number
-): TypeAliasDeclaration {
+): TypeAlias {
   return {
-    kind: NodeKind.TypeAliasDeclaration,
+    kind: SyntaxKind.TypeAlias,
+    declareToken,
+    opaqueToken,
+    typeToken,
     name,
-    type,
+    opaqueType,
     typeParameters,
+    type,
     flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
     start,
     end
   };
-}
-
-export function updateTypeAliasDeclaration(
-  node: TypeAliasDeclaration,
-  name: IdentifierReference,
-  type: TypeNode,
-  typeParameters: TypeParameters | null
-): TypeAliasDeclaration {
-  return node.name !== name || node.type !== type || node.typeParameters !== typeParameters
-    ? updateNode(createTypeAliasDeclaration(name, type, typeParameters, node.flags, node.start, node.end), node)
-    : node;
 }

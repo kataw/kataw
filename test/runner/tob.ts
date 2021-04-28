@@ -15,7 +15,7 @@ export interface Tob {
   $printed?: any;
   diagnostics?: any;
   $diagnostics?: any;
-  isMatched?: boolean;
+  misMatchItems?: string[];
 }
 
 export function updateTob(tob: any, updateItems: any): void {
@@ -37,21 +37,26 @@ export async function file2Tob(filename: string): Promise<Tob> {
     printerOptions: md2printerOptions(content),
     cst: md2cst(content),
     printed: md2printed(content),
-    diagnostics: md2diagnostics(content)
+    diagnostics: md2diagnostics(content),
+    misMatchItems: []
   };
-
-  tob.$cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions);
+  const diagnostics: any[] = [];
+  const cb = function (...args: any[]) {
+    diagnostics.push(args);
+  };
+  const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
+  tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
-  // TODO: waiting the printer done!
-  tob.$diagnostics =
-    tob.$printed === '✖ Soon to be open sourced'
-      ? ''
-      : diagnostics2md(printSourceFile(tob.$printed, tob.parserOptions));
-  tob.isMatched = isMatchedTob(tob);
+  tob.$diagnostics = diagnostics2md(diagnostics);
+
+  !deepEqual(tob.cst, tob.$cst) && tob.misMatchItems!.push('cst');
+  !deepEqual(tob.printed, tob.$printed) && tob.misMatchItems!.push('printed');
+  !deepEqual(tob.diagnostics, tob.$diagnostics) && tob.misMatchItems!.push('diagnostics');
+
   return tob;
 }
 
-export function isMatchedTob(tob: Tob) {
+export function isMatchedTob(tob: Tob): boolean {
   return (
     deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics)
   );
@@ -74,7 +79,7 @@ function md2input(str: string) {
 }
 
 // TODO: read printerOptions from file content
-function md2printerOptions(str: string) {
+function md2printerOptions(_str: string) {
   return {
     tabWidth: 2,
     printWidth: 80,
@@ -91,12 +96,7 @@ function md2cst(str: string) {
   const end = str.indexOf(Constants.JavascriptEnd, offset);
   if (end === 0) report('Should have the end of a test case');
   const t = str.slice(start + Constants.JavascriptStart.length, end);
-  try {
-    return offset === -1 ? {} : JSON.parse(t);
-  } catch (e) {
-    console.log(e);
-    return {};
-  }
+  return t;
 }
 
 function md2printed(str: string) {
@@ -121,13 +121,11 @@ function outputBlock(tob: Tob, updateItems: any) {
 ## Output
 
 ### Hybrid CST
-${Constants.JavascriptStart}${JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)}${
-    Constants.JavascriptEnd
-  }
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${Constants.JavascriptEnd}
 ### Printed
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
 ### Diagnostics
-${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics}${
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$diagnostics : tob.diagnostics}${
     Constants.JavascriptEnd
   }
 `;
@@ -137,7 +135,7 @@ function diagnostics2md(diagnostics: any) {
   let diagnosticString = '';
   if (diagnostics.length) {
     diagnostics.forEach(function (a: any) {
-      diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
+      diagnosticString += '✖ ' + a[1] + ' - start: ' + a[2] + ', end: ' + a[3];
       diagnosticString += '\n';
     });
   } else {

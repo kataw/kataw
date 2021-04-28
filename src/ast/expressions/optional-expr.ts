@@ -1,41 +1,31 @@
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { OptionalChain } from './optional-chain';
-import { Expression } from '.';
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { ExpressionNode } from '.';
 
 /**
  * Optional expression.
  */
-export interface OptionalExpression extends Node {
-  readonly member: Expression;
+export interface OptionalExpression extends SyntaxNode {
+  readonly chainToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly member: ExpressionNode;
   readonly chain: OptionalChain;
 }
 
 export function createOptionalExpression(
-  member: Expression,
+  chainToken: SyntaxToken<TokenSyntaxKind> | null,
+  member: ExpressionNode,
   chain: OptionalChain,
-  flags: NodeFlags,
   start: number,
   end: number
 ): OptionalExpression {
   return {
-    kind: NodeKind.OptionalExpression,
+    kind: SyntaxKind.OptionalExpression,
+    chainToken,
     member,
     chain,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateOptionalExpression(
-  node: OptionalExpression,
-  member: Expression,
-  chain: OptionalChain
-): OptionalExpression {
-  return node.member !== member || node.chain !== chain
-    ? updateNode(createOptionalExpression(member, chain, node.flags, node.start, node.end), node)
-    : node;
 }

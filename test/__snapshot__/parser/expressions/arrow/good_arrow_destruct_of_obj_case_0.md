@@ -1,0 +1,138 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+({a:b,...obj}) => {}
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 0,
+                    "start": 14,
+                    "end": 17
+                },
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 219,
+                                    "asyncKeyword": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    "flags": 32,
+                                    "start": 2,
+                                    "end": 5
+                                },
+                                {
+                                    "kind": 224,
+                                    "ellipsisToken": {
+                                        "kind": 524302,
+                                        "flags": 0,
+                                        "start": 6,
+                                        "end": 9
+                                    },
+                                    "argument": {
+                                        "kind": 134299649,
+                                        "text": "obj",
+                                        "rawText": "obj",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 12
+                                    },
+                                    "flags": 32,
+                                    "start": 6,
+                                    "end": 12
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
+                            "start": 2,
+                            "end": 12
+                        },
+                        "flags": 32,
+                        "start": 1,
+                        "end": 13
+                    }
+                ],
+                "asyncToken": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 32,
+                        "start": 19,
+                        "end": 19
+                    },
+                    "flags": 32,
+                    "start": 17,
+                    "end": 20
+                },
+                "flags": 32,
+                "start": 0,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 20
+        }
+    ],
+    "isModule": false,
+    "text": "({a:b,...obj}) => {}",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+```javascript
+✖ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

@@ -1,55 +1,41 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { TypeParameters } from '../types/type-parameter-list';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
+import { TypeParameter } from '../types/type-parameter';
+import { Identifier } from './identifier-expr';
+import { FormalParameter } from './formal-parameter';
+import { TypeNode } from '../types';
 import { FunctionBody } from './function-body';
-import { Expression } from './';
-import { ArrowParameters } from './arrow-parameters';
-import { BindingIdentifier } from './binding-identifier';
+import { ExpressionNode } from './';
 
-export interface ArrowFunction extends Node {
-  readonly typeParameters: TypeParameters | null;
-  readonly parameters: BindingIdentifier | ArrowParameters;
-  readonly contents: Expression | FunctionBody;
+export interface ArrowFunction extends SyntaxNode {
+  readonly arrowToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly typeParameters: TypeParameter | null;
+  readonly parameters: Identifier | FormalParameter[];
+  readonly asyncToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly returnType: TypeNode | null;
+  readonly contents: ExpressionNode | FunctionBody;
 }
 
 export function createArrowFunction(
-  typeParameters: TypeParameters | null,
-  parameters: BindingIdentifier | ArrowParameters,
-  contents: Expression | FunctionBody,
-  isAsync: boolean,
-  flags: NodeFlags,
+  arrowToken: SyntaxToken<TokenSyntaxKind> | null,
+  typeParameters: TypeParameter | null,
+  parameters: Identifier | FormalParameter[],
+  asyncToken: SyntaxToken<TokenSyntaxKind> | null,
+  returnType: TypeNode | null,
+  contents: ExpressionNode | FunctionBody,
   start: number,
   end: number
 ): ArrowFunction {
-  if (parameters.kind & NodeKind.IsIdentifier) flags |= NodeFlags.NoneParenthesizedArrow;
-
   return {
-    kind: isAsync
-      ? // https://tc39.es/ecma262/#prod-AsyncArrowFunction
-        NodeKind.AsyncArrowFunction
-      : // https://tc39.es/ecma262/#prod-ArrowFunction
-        NodeKind.ArrowFunction,
+    kind: SyntaxKind.ArrowFunction,
+    arrowToken,
     typeParameters,
     parameters,
+    asyncToken,
+    returnType,
     contents,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: asyncToken ? NodeFlags.Async | NodeFlags.ExpressionNode : NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateArrowFunction(
-  node: ArrowFunction,
-  isAsync: boolean,
-  parameters: BindingIdentifier | ArrowParameters,
-  contents: Expression | FunctionBody
-): ArrowFunction {
-  return node.parameters !== parameters || node.contents !== contents
-    ? updateNode(
-        createArrowFunction(node.typeParameters, parameters, contents, isAsync, node.flags, node.start, node.end),
-        node
-      )
-    : node;
 }

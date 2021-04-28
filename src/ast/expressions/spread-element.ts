@@ -1,28 +1,27 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { Expression } from '.';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ExpressionNode } from '.';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * Spread element
  */
-export interface SpreadElement extends Node {
-  readonly argument: Expression;
+export interface SpreadElement extends SyntaxNode {
+  readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly argument: ExpressionNode;
 }
 
-export function createSpreadElement(argument: Expression, flags: NodeFlags, start: number, end: number): SpreadElement {
+export function createSpreadElement(
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
+  argument: ExpressionNode,
+  start: number,
+  end: number
+): SpreadElement {
   return {
-    kind: NodeKind.SpreadElement,
+    kind: SyntaxKind.SpreadElement,
+    ellipsisToken,
     argument,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2016,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updatSpreadElement(node: SpreadElement, argument: Expression): SpreadElement {
-  return node.argument !== argument
-    ? updateNode(createSpreadElement(argument, node.flags, node.start, node.end), node)
-    : node;
 }

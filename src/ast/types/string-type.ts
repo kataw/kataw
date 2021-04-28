@@ -1,28 +1,14 @@
-import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-/**
- * StringType
- */
-
-export interface StringType extends Node {
-  readonly text: string;
-  readonly rawText: string;
+export interface StringType extends SyntaxNode {
+  readonly value: number;
 }
 
-export function createStringType(
-  text: string,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): StringType {
+export function createStringType(value: number, start: number, end: number): StringType {
   return {
-    kind: NodeKind.StringType,
-    text,
-    rawText,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.TypeScript,
+    kind: SyntaxKind.StringType,
+    value,
+    flags: NodeFlags.None,
     start,
     end
   };

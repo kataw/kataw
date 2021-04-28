@@ -1,35 +1,27 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
-import { Expression } from '.';
-
-// [MODIFIED]
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { ExpressionNode } from '.';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * Spread property
  */
-export interface SpreadProperty extends Node {
-  readonly argument: Expression;
+export interface SpreadProperty extends SyntaxNode {
+  readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly argument: ExpressionNode;
 }
 
 export function createSpreadProperty(
-  argument: Expression,
-  flags: NodeFlags,
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
+  argument: ExpressionNode,
   start: number,
   end: number
 ): SpreadProperty {
   return {
-    kind: NodeKind.SpreadProperty,
+    kind: SyntaxKind.SpreadProperty,
+    ellipsisToken,
     argument,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.RestOrSpread | TransformFlags.ES2018,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateSpreadProperty(node: SpreadProperty, argument: Expression): SpreadProperty {
-  return node.argument !== argument
-    ? updateNode(createSpreadProperty(argument, node.flags, node.start, node.end), node)
-    : node;
 }

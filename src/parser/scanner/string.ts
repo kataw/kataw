@@ -1,11 +1,10 @@
-import { ParserState } from '../../types';
-import { Token } from '../../ast/token';
-import { toHex, fromCodePoint } from './common';
-import { NodeFlags } from '../../ast/node';
-import { DiagnosticKind, DiagnosticSource, error } from '../../diagnostics/diagnostic';
-import { DiagnosticCode } from '../../diagnostics/diagnosticMessages.generated';
-import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
+import { ParserState, Context } from '../common';
+import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
+import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
+import { toHex, fromCodePoint } from './common';
+import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
 
 const enum EscapeChars {
   // Intentionally negative
@@ -19,6 +18,15 @@ const enum EscapeChars {
   SingleQuote,
   DoubleQuote,
   Zero,
+  One,
+  Two,
+  Three,
+  Four,
+  Five,
+  Six,
+  Seven,
+  Eigth,
+  Nine,
   Unicode,
   Hex,
   CarriageReturn,
@@ -75,15 +83,15 @@ const escapeCharTbl = [
   /*  46 - .                  */ EscapeChars.Invalid,
   /*  47 - /                  */ EscapeChars.Invalid,
   /*  48 - 0                  */ EscapeChars.Zero,
-  /*  49 - 1                  */ EscapeChars.Invalid,
-  /*  50 - 2                  */ EscapeChars.Invalid,
-  /*  51 - 3                  */ EscapeChars.Invalid,
-  /*  52 - 4                  */ EscapeChars.Invalid,
-  /*  53 - 5                  */ EscapeChars.Invalid,
-  /*  54 - 6                  */ EscapeChars.Invalid,
-  /*  55 - 7                  */ EscapeChars.Invalid,
-  /*  56 - 8                  */ EscapeChars.Invalid,
-  /*  57 - 9                  */ EscapeChars.Invalid,
+  /*  49 - 1                  */ EscapeChars.One,
+  /*  50 - 2                  */ EscapeChars.Two,
+  /*  51 - 3                  */ EscapeChars.Three,
+  /*  52 - 4                  */ EscapeChars.Four,
+  /*  53 - 5                  */ EscapeChars.Five,
+  /*  54 - 6                  */ EscapeChars.Six,
+  /*  55 - 7                  */ EscapeChars.Seven,
+  /*  56 - 8                  */ EscapeChars.Eigth,
+  /*  57 - 9                  */ EscapeChars.Nine,
   /*  58 - :                  */ EscapeChars.Invalid,
   /*  59 - ;                  */ EscapeChars.Invalid,
   /*  60 - <                  */ EscapeChars.Invalid,
@@ -155,7 +163,7 @@ const escapeCharTbl = [
   /* 126 - ~                  */ EscapeChars.Invalid
 ];
 
-export function scanString(parser: ParserState, quote: number, source: string): Token {
+export function scanString(parser: ParserState, context: Context, quote: number, source: string): SyntaxKind {
   if (quote === Char.SingleQuote) parser.nodeFlags |= NodeFlags.SingleQuote;
   parser.pos++;
   let result = '';
@@ -165,15 +173,15 @@ export function scanString(parser: ParserState, quote: number, source: string): 
     if (ch === Char.Backslash) {
       // Most common escape sequences first
       result += source.substring(start, parser.pos);
-      result += scanEscapeSequence(parser, /* isTaggedTemplate */ false, source);
+      result += scanEscapeSequence(parser, context, /* isTaggedTemplate */ false, source);
       start = parser.pos;
     } else {
       if (ch === quote) {
         result += source.substring(start, parser.pos);
-        parser.raw = result;
+        parser.tokenRaw = result;
         parser.pos++;
         parser.tokenValue = result;
-        return Token.StringLiteral;
+        return SyntaxKind.StringLiteral;
       }
       parser.pos++;
     }
@@ -185,22 +193,28 @@ export function scanString(parser: ParserState, quote: number, source: string): 
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 
-  parser.diagnostics.push(
-    error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Unterminated_string_literal, parser.pos, 1)
+  parser.onError(
+    DiagnosticSource.Lexer,
+    diagnosticMap[DiagnosticCode.Unterminated_string_literal],
+    parser.curPos,
+    parser.pos
   );
 
   parser.tokenValue = result += source.substring(start, parser.pos);
-  parser.raw = source.slice(parser.curPos, parser.pos);
-  return Token.StringLiteral;
+  parser.tokenRaw = source.slice(parser.curPos, parser.pos);
+  return SyntaxKind.StringLiteral;
 }
 
-export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolean, source: string): string {
+export function scanEscapeSequence(
+  parser: ParserState,
+  context: Context,
+  isTaggedTemplate: boolean,
+  source: string
+): string {
   const start = parser.pos;
   parser.pos++;
   if (parser.pos >= parser.end) {
-    parser.diagnostics.push(
-      error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Unexpected_end_of_text, parser.pos, 1)
-    );
+    parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
     return '';
   }
   let ch = source.charCodeAt(parser.pos);
@@ -233,7 +247,45 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
         parser.nodeFlags |= NodeFlags.ContainsInvalidEscape;
         return source.substring(start, parser.pos);
       }
+
+      if (AsciiCharTypes[source.charCodeAt(parser.pos + 1)] & AsciiCharFlags.Decimal && context & Context.Strict) {
+        parser.onError(
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
+          parser.curPos,
+          parser.pos
+        );
+      }
       return '\0';
+    case EscapeChars.One:
+    case EscapeChars.Two:
+    case EscapeChars.Three:
+    case EscapeChars.Four:
+    case EscapeChars.Five:
+    case EscapeChars.Six:
+    case EscapeChars.Seven: {
+      if (context & Context.Strict) {
+        parser.onError(
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      return String.fromCharCode(ch);
+    }
+
+    // `8`, `9` (invalid escapes)
+    case EscapeChars.Eigth:
+    case EscapeChars.Nine:
+      parser.onError(
+        DiagnosticSource.Lexer,
+        diagnosticMap[DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes],
+        parser.curPos,
+        parser.pos
+      );
+      return String.fromCharCode(ch);
+
     case EscapeChars.Unicode:
       if (isTaggedTemplate) {
         // '\u' or '\u0' or '\u00' or '\u000'
@@ -282,14 +334,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
         let code = toHex(ch);
 
         if (code < 0) {
-          parser.diagnostics.push(
-            error(
-              DiagnosticKind.Error,
-              DiagnosticSource.Lexer,
-              DiagnosticCode.Hexadecimal_digit_expected,
-              parser.pos,
-              1
-            )
+          parser.onError(
+            DiagnosticSource.Lexer,
+            diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+            parser.curPos,
+            parser.pos
           );
           return '';
         }
@@ -301,14 +350,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
           const digit = toHex(ch);
 
           if (digit < 0) {
-            parser.diagnostics.push(
-              error(
-                DiagnosticKind.Error,
-                DiagnosticSource.Lexer,
-                DiagnosticCode.Unterminated_Unicode_escape_sequence,
-                parser.pos,
-                1
-              )
+            parser.onError(
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+              parser.curPos,
+              parser.pos
             );
             return '';
           }
@@ -317,14 +363,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
           // Check this early to avoid `code` wrapping to a negative on overflow (which is
           // reserved for abnormal conditions).
           if (code > Char.LastUnicodeChar) {
-            parser.diagnostics.push(
-              error(
-                DiagnosticKind.Error,
-                DiagnosticSource.Lexer,
-                DiagnosticCode.An_extended_Unicode_escape_value_must_be_between_0x0_and_0x10FFFF_inclusive,
-                parser.pos + 1,
-                1
-              )
+            parser.onError(
+              DiagnosticSource.Lexer,
+              diagnosticMap[DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF],
+              parser.curPos,
+              parser.pos
             );
             return '';
           }
@@ -346,8 +389,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
       ch = source.charCodeAt(pos);
       let code = toHex(ch);
       if (code < 0) {
-        parser.diagnostics.push(
-          error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Hexadecimal_digit_expected, pos, 1)
+        parser.onError(
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+          parser.curPos,
+          parser.pos
         );
         return '';
       }
@@ -356,8 +402,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
         ch = source.charCodeAt(++pos);
         const digit = toHex(ch);
         if (digit < 0) {
-          parser.diagnostics.push(
-            error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Hexadecimal_digit_expected, pos, 1)
+          parser.onError(
+            DiagnosticSource.Lexer,
+            diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+            parser.curPos,
+            parser.pos
           );
           return '';
         }
@@ -385,8 +434,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
       const hi = toHex(source.charCodeAt(parser.pos));
 
       if (hi < 0) {
-        parser.diagnostics.push(
-          error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Hexadecimal_digit_expected, parser.pos, 1)
+        parser.onError(
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+          parser.curPos,
+          parser.pos
         );
         return '';
       }
@@ -396,8 +448,11 @@ export function scanEscapeSequence(parser: ParserState, isTaggedTemplate: boolea
       const lo = toHex(source.charCodeAt(parser.pos));
 
       if (lo < 0) {
-        parser.diagnostics.push(
-          error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Hexadecimal_digit_expected, parser.pos, 1)
+        parser.onError(
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
+          parser.curPos,
+          parser.pos
         );
         return '';
       }

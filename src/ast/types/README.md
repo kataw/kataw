@@ -4,20 +4,12 @@
 interface TypeNode <: Node { }
 ```
 
-### AnyKeyword
-
-```js
-interface AnyKeyword <: TypeNode {
-  kind: NodeKind.AnyKeyword;
-}
-```
-
 ### ArrayType
 
 ```js
 interface ArrayType <: TypeNode {
   kind: NodeKind.ArrayType;
-  elementType: TypeNode;
+  type: TypeNode;
 }
 ```
 
@@ -638,15 +630,32 @@ interface VoidKeyword <: TypeNode {
 }
 ```
 
-### AccessModifier
-
+### FunctionTypeParameterList
 
 ```js
-interface AccessModifier <: TypeNode {
-  kind: NodeKind.Private | NodeKind.Public | NodeKind.Protected;
+interface FunctionTypeParameterList <: TypeNode {
+  kind: NodeKind. FunctionTypeParameterList;
+  functionTypeParameterList: readonly FunctionTypeParameter[];
+  trailingComma: boolean;
 }
 ```
 
-The `kind` should be either `Protected`, `Private` or `Public`.
+### FunctionTypeParameter
 
+```js
+interface FunctionTypeParameter <: TypeNode {
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
+  name: Identifier;
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  typeAnnotation: TypeNode;
+}
+```
 
+### GenericType
+
+```js
+interface GenericType <: TypeNode {
+  id: any;
+  typeParameters: TypeParameter | null;
+}
+```

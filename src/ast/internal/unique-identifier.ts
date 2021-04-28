@@ -1,9 +1,20 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, UniqueIdentifierFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+
+export const enum UniqueIdentifierFlags {
+  None = 0,
+  Auto = 1,
+  Loop = 2,
+  Unique = 3,
+  Node = 4,
+  KindMask = 7,
+  ReservedInNestedScopes = 1 << 3,
+  Optimistic = 1 << 4
+}
 
 /**
  * Unique identifier
  */
-export interface UniqueIdentifier extends Node {
+export interface UniqueIdentifier extends SyntaxNode {
   readonly uniqueFlags: UniqueIdentifierFlags;
   readonly uniqueId: number;
 }
@@ -14,12 +25,10 @@ export function createUniqueIdentifier(
   reservedInNestedScopes?: boolean
 ): UniqueIdentifier {
   return {
-    kind: NodeKind.UniqueIdentifier,
+    kind: SyntaxKind.UniqueIdentifier,
     uniqueFlags: reservedInNestedScopes ? uniqueFlags | UniqueIdentifierFlags.ReservedInNestedScopes : uniqueFlags,
     uniqueId,
-    flags: NodeFlags.Synthetic,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.ChildLess,
     start: -1,
     end: -1
   };

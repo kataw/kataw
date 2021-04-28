@@ -1,14 +1,17 @@
-import { ParserState } from '../../types';
-import { Token } from '../../ast/token';
+import { ParserState, Context } from '../common';
+import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
-import { NodeFlags } from '../../ast/node';
-import { DiagnosticKind, DiagnosticSource, error } from '../../diagnostics/diagnostic';
-import { DiagnosticCode } from '../../diagnostics/diagnosticMessages.generated';
-import { scanEscapeSequence } from './string';
 import { fromCodePoint } from './common';
-import { Context } from '../common';
+import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
+import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { scanEscapeSequence } from './string';
 
-export function scanTemplate(parser: ParserState, _context: Context, isTaggedTemplate: boolean, source: string): Token {
+export function scanTemplate(
+  parser: ParserState,
+  context: Context,
+  isTaggedTemplate: boolean,
+  source: string
+): SyntaxKind {
   parser.pos++;
 
   const start = parser.pos;
@@ -20,24 +23,24 @@ export function scanTemplate(parser: ParserState, _context: Context, isTaggedTem
     if (cp === Char.Backtick) {
       parser.tokenValue = ret;
       parser.pos++; // Consume '`'
-      parser.templateRaw = parser.source.slice(start, parser.pos - 1);
-      return Token.TemplateTail;
+      parser.tokenRaw = parser.source.slice(start, parser.pos - 1);
+      return SyntaxKind.TemplateTail;
     }
 
     // '${'
     if (cp === Char.Dollar) {
       if (parser.source.charCodeAt(parser.pos + 1) === Char.LeftBrace) {
-        parser.templateRaw = parser.source.slice(start, parser.pos);
+        parser.tokenRaw = parser.source.slice(start, parser.pos);
         parser.pos += 2; // Consume '$' and '{'
         parser.tokenValue = ret;
-        return Token.TemplateSpan;
+        return SyntaxKind.TemplateCont;
       }
       ret += '$';
     }
 
     // Escape character
     if (cp === Char.Backslash) {
-      ret += scanEscapeSequence(parser, isTaggedTemplate, source);
+      ret += scanEscapeSequence(parser, context, isTaggedTemplate, source);
     } else {
       parser.pos++;
       // The TRV of LineTerminatorSequence :: <CR> is the CV 0x000A.
@@ -52,19 +55,22 @@ export function scanTemplate(parser: ParserState, _context: Context, isTaggedTem
     cp = parser.source.charCodeAt(parser.pos);
   }
 
-  parser.diagnostics.push(
-    error(DiagnosticKind.Error, DiagnosticSource.Lexer, DiagnosticCode.Unterminated_template_literal, parser.pos, 1)
+  parser.onError(
+    DiagnosticSource.Lexer,
+    diagnosticMap[DiagnosticCode.Unterminated_template_literal],
+    parser.curPos,
+    parser.pos
   );
 
   parser.nodeFlags |= NodeFlags.Unterminated;
 
   parser.tokenValue = ret;
 
-  return Token.TemplateTail;
+  return SyntaxKind.TemplateTail;
 }
 
-export function scanTemplateTail(parser: ParserState, context: Context, isTaggedTemplate: boolean): Token {
+export function scanTemplateTail(parser: ParserState, context: Context, isTaggedTemplate: boolean): SyntaxKind {
   parser.pos--;
-  parser.token = scanTemplate(parser, context, isTaggedTemplate, parser.source);
+  (parser.token as SyntaxKind) = scanTemplate(parser, context, isTaggedTemplate, parser.source);
   return parser.token;
 }

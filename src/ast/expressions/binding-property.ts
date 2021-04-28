@@ -1,59 +1,48 @@
-import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { BindingElement } from './binding-element';
 import { SingleNameBinding } from './singleNameBinding';
-import { IdentifierName } from './identifier-name';
+import { DummyIdentifier } from '../internal/dummy-identifier';
+import { Identifier } from './identifier-expr';
 import { NumericLiteral } from './numeric-literal';
-import { BigIntLiteral } from './bigint-literal';
+import { BigIntLiteral } from './big-int-literal';
 import { StringLiteral } from './string-literal';
 import { ComputedPropertyName } from './computed-property-name';
 import { PrivateIdentifier } from './private-identifier';
+
 /**
- * Binding element
+ * Binding property
  */
 
 export type PropertyKey =
-  | IdentifierName
+  | DummyIdentifier
+  | Identifier
   | NumericLiteral
   | BigIntLiteral
   | StringLiteral
   | ComputedPropertyName
   | PrivateIdentifier;
 
-export interface BindingProperty extends Node {
-  readonly ellipsis: boolean;
+export interface BindingProperty extends SyntaxNode {
+  readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: PropertyKey;
   readonly value: BindingElement | SingleNameBinding;
 }
 
 export function createBindingProperty(
-  ellipsis: boolean,
+  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
   key: PropertyKey,
   value: BindingElement | SingleNameBinding,
-  flags: NodeFlags,
   start: number,
   end: number
 ): BindingProperty {
   return {
-    kind: NodeKind.BindingProperty,
-    ellipsis,
+    kind: SyntaxKind.BindingProperty,
+    ellipsisToken,
     key,
     value,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
-}
-
-export function updateBindingProperty(
-  ellipsis: boolean,
-  node: BindingProperty,
-  key: PropertyKey,
-  value: BindingElement | SingleNameBinding
-): BindingProperty {
-  return node.ellipsis !== ellipsis || node.key !== key || node.value !== value
-    ? updateNode(createBindingProperty(ellipsis, key, value, node.flags, node.start, node.end), node)
-    : node;
 }

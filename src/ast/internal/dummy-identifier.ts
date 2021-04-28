@@ -1,9 +1,9 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, UniqueIdentifierFlags } from '../node';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
 /**
  * Dummy identifier
  */
-export interface DummyIdentifier extends Node {
+export interface DummyIdentifier extends SyntaxNode {
   readonly text: string;
   readonly start: number;
   readonly end: number;
@@ -11,11 +11,9 @@ export interface DummyIdentifier extends Node {
 
 export function createDummyIdentifier(start: number, end: number): DummyIdentifier {
   return {
-    kind: NodeKind.DummyIdentifier,
+    kind: SyntaxKind.DummyIdentifier,
     text: '',
-    flags: NodeFlags.Synthetic | NodeFlags.HasErrors,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.HasErrors | NodeFlags.ChildLess,
     start,
     end
   };

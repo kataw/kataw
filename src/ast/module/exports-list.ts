@@ -1,30 +1,16 @@
-import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../utils';
+import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ExportSpecifier } from './export-specifier';
 
-export interface ExportsList extends Node {
+export interface ExportsList extends SyntaxNode {
   readonly specifiers: ExportSpecifier[];
 }
 
-export function createExportsList(
-  specifiers: ExportSpecifier[],
-  flags: NodeFlags,
-  start: number,
-  end: number
-): ExportsList {
+export function createExportsList(specifiers: ExportSpecifier[], start: number, end: number): ExportsList {
   return {
-    kind: NodeKind.ExportsList,
+    kind: SyntaxKind.ExportsList,
     specifiers,
-    flags,
-    symbol: null,
-    transformFlags: TransformFlags.None,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };
-}
-
-export function updateExportsList(node: ExportsList, specifiers: ExportSpecifier[]): ExportsList {
-  return node.specifiers !== specifiers
-    ? updateNode(createExportsList(specifiers, node.flags, node.start, node.end), node)
-    : node;
 }
