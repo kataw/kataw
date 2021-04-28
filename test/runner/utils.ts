@@ -64,6 +64,7 @@ export function promiseToWriteFile(file: any, data: any): any {
   let res: any;
   let rej: any;
   const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
+  data = encodeUnicode(data);
   writeFile(file, data, 'utf8', (err: any) => (err ? rej(err) : res()));
   return p;
 }
@@ -73,7 +74,7 @@ export function promiseToReadFile(file: any) {
   let res: any;
   let rej: any;
   const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
-  readFile(file, 'utf8', (err, data) => (err ? rej(err) : res(data)));
+  readFile(file, 'utf8', (err, data) => (err ? rej(err) : res(decodeUnicode(data))));
   return p;
 }
 
