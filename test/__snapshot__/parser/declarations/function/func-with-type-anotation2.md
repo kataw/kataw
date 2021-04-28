@@ -152,7 +152,7 @@ function foo(numVal: any, otherVal: mixed){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

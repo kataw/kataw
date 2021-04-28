@@ -158,7 +158,7 @@ function* f() { class C { aaa = yield } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

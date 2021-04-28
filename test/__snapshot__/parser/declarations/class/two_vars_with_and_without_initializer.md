@@ -141,7 +141,7 @@ let [foo=a, bar] = arr;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

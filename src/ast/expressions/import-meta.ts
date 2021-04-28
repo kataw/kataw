@@ -8,11 +8,16 @@ export interface ImportMeta extends SyntaxNode {
   readonly importKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 
-export function createImportMeta(importKeyword: SyntaxToken<TokenSyntaxKind>, start: number, end: number): ImportMeta {
+export function createImportMeta(
+  importKeyword: SyntaxToken<TokenSyntaxKind>,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): ImportMeta {
   return {
     kind: SyntaxKind.ImportMeta,
     importKeyword,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags,
     start,
     end
   };

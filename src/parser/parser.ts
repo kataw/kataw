@@ -5109,7 +5109,7 @@ export function parseImportMeta(
 ): ExpressionStatement {
   const pos = parser.curPos;
 
-  if (parser.tokenRaw !== 'import') {
+  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[DiagnosticCode.Escape_sequence_in_keyword_import],
@@ -5120,7 +5120,7 @@ export function parseImportMeta(
 
   nextToken(parser, context);
 
-  if (parser.tokenRaw !== 'meta') {
+  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[DiagnosticCode._import_meta_must_not_contain_escaped_characters],
@@ -5129,6 +5129,7 @@ export function parseImportMeta(
     );
   }
   nextToken(parser, context);
+
   if ((context & Context.AllowImportMeta) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -5137,7 +5138,12 @@ export function parseImportMeta(
       parser.pos
     );
   }
-  let expression: any = createImportMeta(importKeyword, pos, parser.curPos);
+  let expression: any = createImportMeta(
+    importKeyword,
+    pos,
+    parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    parser.curPos
+  );
   parser.assignable = false;
   expression = parseExpressionRest(parser, context, expression, pos);
   return parseExpressionStatement(parser, context, expression, pos);

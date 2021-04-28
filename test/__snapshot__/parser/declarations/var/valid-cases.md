@@ -32,6 +32,14 @@ var [foo] = [1];
 var {foo} = {foo: 2};
 
 var {foo=3} = {};
+
+var {get = defaultValue} = obj;
+
+var {propName = defaultValue} = obj;
+
+var {propName: localVar = defaultValue} = obj;
+
+var {get} = obj;
 `````
 
 ## Options
@@ -1462,14 +1470,326 @@ var {foo=3} = {};
             "flags": 128,
             "start": 325,
             "end": 344
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 768,
+                "start": 344,
+                "end": 349
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 222,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "get",
+                                            "rawText": "get",
+                                            "flags": 768,
+                                            "start": 351,
+                                            "end": 354
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "defaultValue",
+                                            "rawText": "defaultValue",
+                                            "flags": 768,
+                                            "start": 356,
+                                            "end": 369
+                                        },
+                                        "flags": 256,
+                                        "start": 351,
+                                        "end": 369
+                                    }
+                                ],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 351,
+                                "end": 369
+                            },
+                            "flags": 256,
+                            "start": 349,
+                            "end": 370
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "obj",
+                            "rawText": "obj",
+                            "flags": 768,
+                            "start": 372,
+                            "end": 376
+                        },
+                        "flags": 128,
+                        "start": 349,
+                        "end": 376
+                    }
+                ],
+                "flags": 128,
+                "start": 349,
+                "end": 376
+            },
+            "flags": 128,
+            "start": 344,
+            "end": 377
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 768,
+                "start": 377,
+                "end": 382
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 222,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "propName",
+                                            "rawText": "propName",
+                                            "flags": 768,
+                                            "start": 384,
+                                            "end": 392
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "defaultValue",
+                                            "rawText": "defaultValue",
+                                            "flags": 768,
+                                            "start": 394,
+                                            "end": 407
+                                        },
+                                        "flags": 256,
+                                        "start": 384,
+                                        "end": 407
+                                    }
+                                ],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 384,
+                                "end": 407
+                            },
+                            "flags": 256,
+                            "start": 382,
+                            "end": 408
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "obj",
+                            "rawText": "obj",
+                            "flags": 768,
+                            "start": 410,
+                            "end": 414
+                        },
+                        "flags": 128,
+                        "start": 382,
+                        "end": 414
+                    }
+                ],
+                "flags": 128,
+                "start": 382,
+                "end": 414
+            },
+            "flags": 128,
+            "start": 377,
+            "end": 415
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 768,
+                "start": 415,
+                "end": 420
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 204,
+                                        "ellipsisToken": null,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "propName",
+                                            "rawText": "propName",
+                                            "flags": 768,
+                                            "start": 422,
+                                            "end": 431
+                                        },
+                                        "value": {
+                                            "kind": 203,
+                                            "ellipsisToken": null,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "localVar",
+                                                "rawText": "localVar",
+                                                "flags": 768,
+                                                "start": 431,
+                                                "end": 440
+                                            },
+                                            "initializer": {
+                                                "kind": 134299649,
+                                                "text": "defaultValue",
+                                                "rawText": "defaultValue",
+                                                "flags": 768,
+                                                "start": 442,
+                                                "end": 455
+                                            },
+                                            "flags": 256,
+                                            "start": 431,
+                                            "end": 455
+                                        },
+                                        "flags": 256,
+                                        "start": 422,
+                                        "end": 455
+                                    }
+                                ],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 422,
+                                "end": 455
+                            },
+                            "flags": 256,
+                            "start": 420,
+                            "end": 456
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "obj",
+                            "rawText": "obj",
+                            "flags": 768,
+                            "start": 458,
+                            "end": 462
+                        },
+                        "flags": 128,
+                        "start": 420,
+                        "end": 462
+                    }
+                ],
+                "flags": 128,
+                "start": 420,
+                "end": 462
+            },
+            "flags": 128,
+            "start": 415,
+            "end": 463
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 768,
+                "start": 463,
+                "end": 468
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 222,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "get",
+                                            "rawText": "get",
+                                            "flags": 768,
+                                            "start": 470,
+                                            "end": 473
+                                        },
+                                        "right": null,
+                                        "flags": 256,
+                                        "start": 470,
+                                        "end": 473
+                                    }
+                                ],
+                                "multiline": false,
+                                "trailingComma": false,
+                                "flags": 256,
+                                "start": 470,
+                                "end": 473
+                            },
+                            "flags": 256,
+                            "start": 468,
+                            "end": 474
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "obj",
+                            "rawText": "obj",
+                            "flags": 768,
+                            "start": 476,
+                            "end": 480
+                        },
+                        "flags": 128,
+                        "start": 468,
+                        "end": 480
+                    }
+                ],
+                "flags": 128,
+                "start": 468,
+                "end": 480
+            },
+            "flags": 128,
+            "start": 463,
+            "end": 481
         }
     ],
     "isModule": true,
-    "text": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};",
+    "text": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};\n\nvar {get = defaultValue} = obj;\n\nvar {propName = defaultValue} = obj;\n\nvar {propName: localVar = defaultValue} = obj;\n\nvar {get} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 344
+    "end": 481
 }
 ```
 

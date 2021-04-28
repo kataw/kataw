@@ -186,7 +186,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

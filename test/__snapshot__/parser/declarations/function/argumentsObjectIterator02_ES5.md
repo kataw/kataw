@@ -529,7 +529,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
