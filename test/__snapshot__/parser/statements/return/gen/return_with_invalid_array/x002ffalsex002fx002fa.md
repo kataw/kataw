@@ -23,7 +23,7 @@ return [catch] /false//a
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -95,8 +95,8 @@ return [catch] /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 22,
+                    "flags": 22,
+                    "start": 512,
                     "end": 23
                 },
                 "right": {

@@ -19,15 +19,15 @@ async ()=>x;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 10
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },

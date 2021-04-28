@@ -25,7 +25,7 @@ class x extends while {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,8 +42,8 @@ class x extends while {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -73,8 +73,8 @@ class x extends while {}
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 15,
+                "flags": 15,
+                "start": 0,
                 "end": 21
             },
             "expression": {

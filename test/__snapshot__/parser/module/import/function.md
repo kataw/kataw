@@ -27,7 +27,7 @@ function f(){import {x} from "y";}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,8 +58,8 @@ function f(){import {x} from "y";}
                             "kind": 263,
                             "importKeyword": {
                                 "kind": 37814364,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 0,
                                 "end": 19
                             },
                             "fromClause": {

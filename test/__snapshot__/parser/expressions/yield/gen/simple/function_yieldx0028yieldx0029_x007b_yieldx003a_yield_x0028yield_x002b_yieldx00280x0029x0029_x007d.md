@@ -25,7 +25,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -128,8 +128,8 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 768,
-                                "start": 43,
+                                "flags": 43,
+                                "start": 512,
                                 "end": 45
                             },
                             "right": {

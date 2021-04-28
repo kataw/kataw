@@ -19,8 +19,8 @@ async(a = (await) => {}) => {};
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 24,
+                "flags": 24,
+                "start": 0,
                 "end": 27
             },
             "typeParameters": null,
@@ -37,16 +37,16 @@ async(a = (await) => {}) => {};
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 512,
                         "end": 9
                     },
                     "right": {
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 0,
                             "end": 20
                         },
                         "typeParameters": null,
@@ -88,7 +88,7 @@ async(a = (await) => {}) => {};
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },

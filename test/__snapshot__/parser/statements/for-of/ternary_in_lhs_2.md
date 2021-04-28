@@ -27,7 +27,7 @@ for (a ? b : c of x);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,8 +43,8 @@ for (a ? b : c of x);
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 0,
                     "end": 8
                 },
                 "consequent": {
@@ -57,8 +57,8 @@ for (a ? b : c of x);
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 0,
                     "end": 12
                 },
                 "alternate": {

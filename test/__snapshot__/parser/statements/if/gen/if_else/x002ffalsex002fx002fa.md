@@ -23,7 +23,7 @@ if /false//a else
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,8 +38,8 @@ if /false//a else
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 11
                 },
                 "right": {
@@ -69,8 +69,8 @@ if /false//a else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 768,
-                "start": 12,
+                "flags": 12,
+                "start": 512,
                 "end": 17
             },
             "alternate": {

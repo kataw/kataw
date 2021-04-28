@@ -38,7 +38,7 @@ for({}/=y in y)x
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -61,8 +61,8 @@ for({}/=y in y)x
                 },
                 "operatorToken": {
                     "kind": 4133,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -77,8 +77,8 @@ for({}/=y in y)x
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 512,
                         "end": 12
                     },
                     "right": {

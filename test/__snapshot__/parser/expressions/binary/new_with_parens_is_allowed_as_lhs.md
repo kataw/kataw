@@ -23,7 +23,7 @@ new x() ** 2;
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -49,8 +49,8 @@ new x() ** 2;
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 10
                 },
                 "right": {

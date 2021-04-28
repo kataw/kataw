@@ -25,7 +25,7 @@ new void x
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -33,8 +33,8 @@ new void x
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 8
                     },
                     "expression": {

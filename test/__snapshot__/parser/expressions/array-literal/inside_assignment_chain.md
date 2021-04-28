@@ -29,8 +29,8 @@ x = [a, b] = y
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -68,8 +68,8 @@ x = [a, b] = y
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 512,
                         "end": 12
                     },
                     "right": {

@@ -21,14 +21,14 @@ function *f() { 1 ? yield 2 : 3; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -67,16 +67,16 @@ function *f() { 1 ? yield 2 : 3; }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 768,
-                                    "start": 17,
+                                    "flags": 17,
+                                    "start": 0,
                                     "end": 19
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 0,
                                         "end": 25
                                     },
                                     "delegate": false,
@@ -95,8 +95,8 @@ function *f() { 1 ? yield 2 : 3; }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 768,
-                                    "start": 27,
+                                    "flags": 27,
+                                    "start": 0,
                                     "end": 29
                                 },
                                 "alternate": {

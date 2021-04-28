@@ -60,8 +60,8 @@
                                                     "kind": 210,
                                                     "newKeyword": {
                                                         "kind": 138477661,
-                                                        "flags": 768,
-                                                        "start": 14,
+                                                        "flags": 14,
+                                                        "start": 0,
                                                         "end": 18
                                                     },
                                                     "expression": {
@@ -70,8 +70,8 @@
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 768,
-                                                                "start": 18,
+                                                                "flags": 18,
+                                                                "start": 0,
                                                                 "end": 24
                                                             },
                                                             "flags": 768,

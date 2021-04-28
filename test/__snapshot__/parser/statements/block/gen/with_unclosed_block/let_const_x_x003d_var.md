@@ -122,8 +122,8 @@
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 37757004,
-                            "flags": 768,
-                            "start": 21,
+                            "flags": 21,
+                            "start": 0,
                             "end": 27
                         },
                         "binding": {
@@ -166,8 +166,8 @@
                         "declareKeyword": null,
                         "varKeyword": {
                             "kind": 37757002,
-                            "flags": 768,
-                            "start": 31,
+                            "flags": 31,
+                            "start": 0,
                             "end": 35
                         },
                         "declarationList": {

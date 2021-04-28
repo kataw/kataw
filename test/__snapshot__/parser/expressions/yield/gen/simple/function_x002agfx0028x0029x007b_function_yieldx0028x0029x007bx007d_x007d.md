@@ -25,14 +25,14 @@ function *gf(){ function yield(){}; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function *gf(){ function yield(){}; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 0,
                                 "end": 24
                             },
                             "generatorToken": null,

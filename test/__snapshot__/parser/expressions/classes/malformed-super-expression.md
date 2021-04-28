@@ -25,7 +25,7 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -86,8 +86,8 @@ class A {
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 768,
-                                                            "start": 18,
+                                                            "flags": 18,
+                                                            "start": 1,
                                                             "end": 28
                                                         },
                                                         "flags": 768,
@@ -107,8 +107,8 @@ class A {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35379,
-                                                    "flags": 768,
-                                                    "start": 28,
+                                                    "flags": 28,
+                                                    "start": 512,
                                                     "end": 30
                                                 },
                                                 "right": {

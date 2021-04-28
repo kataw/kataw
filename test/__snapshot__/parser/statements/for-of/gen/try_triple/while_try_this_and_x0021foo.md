@@ -23,7 +23,7 @@ try try try while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -65,8 +65,8 @@ try try try while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 11
             },
             "block": {
@@ -107,8 +107,8 @@ try try try while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 17,
+                "flags": 17,
+                "start": 0,
                 "end": 21
             },
             "block": {
@@ -165,8 +165,8 @@ try try try while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 30,
+                    "flags": 30,
+                    "start": 512,
                     "end": 32
                 },
                 "expression": {

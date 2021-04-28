@@ -26,7 +26,7 @@ class {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,8 +42,8 @@ class {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 7,
+                            "flags": 7,
+                            "start": 512,
                             "end": 21
                         },
                         "asyncKeyword": null,

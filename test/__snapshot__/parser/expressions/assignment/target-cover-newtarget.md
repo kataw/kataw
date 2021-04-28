@@ -23,7 +23,7 @@ function f() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -76,8 +76,8 @@ function f() {
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 29,
+                                    "flags": 29,
+                                    "start": 512,
                                     "end": 31
                                 },
                                 "right": {

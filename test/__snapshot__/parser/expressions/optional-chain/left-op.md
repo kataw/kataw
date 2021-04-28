@@ -23,8 +23,8 @@ a?.b * d
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 768,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 0,
                         "end": 3
                     },
                     "member": {
@@ -62,8 +62,8 @@ a?.b * d
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 512,
                     "end": 6
                 },
                 "right": {

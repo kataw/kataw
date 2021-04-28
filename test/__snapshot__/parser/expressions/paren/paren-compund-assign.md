@@ -37,8 +37,8 @@
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 512,
                     "end": 5
                 },
                 "right": {
@@ -59,8 +59,8 @@
                     },
                     "operatorToken": {
                         "kind": 4130,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 512,
                         "end": 12
                     },
                     "right": {
@@ -103,8 +103,8 @@
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 512,
                     "end": 21
                 },
                 "right": {
@@ -125,8 +125,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 25,
+                        "flags": 25,
+                        "start": 512,
                         "end": 27
                     },
                     "right": {
@@ -169,8 +169,8 @@
                 },
                 "operatorToken": {
                     "kind": 4130,
-                    "flags": 768,
-                    "start": 34,
+                    "flags": 34,
+                    "start": 512,
                     "end": 37
                 },
                 "right": {
@@ -191,8 +191,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 41,
+                        "flags": 41,
+                        "start": 512,
                         "end": 43
                     },
                     "right": {

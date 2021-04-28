@@ -20,7 +20,7 @@ var af = ({x = 1}) => x;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,8 +43,8 @@ var af = ({x = 1}) => x;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 0,
                                 "end": 21
                             },
                             "typeParameters": null,

@@ -22,7 +22,7 @@ function f(){   return
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -53,8 +53,8 @@ function f(){   return
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 0,
                                 "end": 22
                             },
                             "expression": null,

@@ -29,8 +29,8 @@ x = { foo(){ [a = super.foo] = c; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -85,8 +85,8 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4125,
-                                                                        "flags": 768,
-                                                                        "start": 15,
+                                                                        "flags": 15,
+                                                                        "start": 512,
                                                                         "end": 17
                                                                     },
                                                                     "right": {
@@ -95,8 +95,8 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 768,
-                                                                                "start": 17,
+                                                                                "flags": 17,
+                                                                                "start": 0,
                                                                                 "end": 23
                                                                             },
                                                                             "flags": 768,
@@ -131,8 +131,8 @@ x = { foo(){ [a = super.foo] = c; }}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 28,
+                                                        "flags": 28,
+                                                        "start": 512,
                                                         "end": 30
                                                     },
                                                     "right": {

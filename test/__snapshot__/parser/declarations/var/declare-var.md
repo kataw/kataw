@@ -27,14 +27,14 @@ declare var foo;
             "kind": 155,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 11
             },
             "declarationList": {

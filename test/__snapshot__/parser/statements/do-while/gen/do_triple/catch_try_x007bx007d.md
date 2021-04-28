@@ -23,7 +23,7 @@ do do do catch try {} while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,16 +36,16 @@ do do do catch try {} while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 33,
+                "flags": 33,
+                "start": 0,
                 "end": 39
             },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -57,16 +57,16 @@ do do do catch try {} while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 768,
-                    "start": 27,
+                    "flags": 27,
+                    "start": 0,
                     "end": 33
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -78,8 +78,8 @@ do do do catch try {} while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 768,
-                        "start": 21,
+                        "flags": 21,
+                        "start": 0,
                         "end": 27
                     },
                     "statement": {

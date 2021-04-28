@@ -119,8 +119,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 512,
                     "end": 20
                 },
                 "expression": {
@@ -128,8 +128,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 20,
+                        "flags": 20,
+                        "start": 0,
                         "end": 26
                     },
                     "name": null,
@@ -160,8 +160,8 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 26,
+                "flags": 26,
+                "start": 0,
                 "end": 35
             },
             "generatorToken": null,
@@ -205,8 +205,8 @@
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 0,
                 "end": 39
             },
             "block": {
@@ -247,8 +247,8 @@
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 45,
+                "flags": 45,
+                "start": 0,
                 "end": 50
             },
             "expression": {
@@ -265,8 +265,8 @@
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 54,
+                        "flags": 54,
+                        "start": 512,
                         "end": 55
                     },
                     "expression": {

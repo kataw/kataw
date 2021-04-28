@@ -32,7 +32,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -69,7 +69,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 8,
                 "end": 12
             },
@@ -105,7 +105,7 @@ let {foo=3} = {};
                 "start": 12,
                 "end": 20
             },
-            "flags": 129,
+            "flags": 128,
             "start": 8,
             "end": 21
         },
@@ -113,7 +113,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 21,
                 "end": 25
             },
@@ -189,7 +189,7 @@ let {foo=3} = {};
                 "start": 25,
                 "end": 37
             },
-            "flags": 129,
+            "flags": 128,
             "start": 21,
             "end": 38
         },
@@ -197,7 +197,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 38,
                 "end": 42
             },
@@ -287,7 +287,7 @@ let {foo=3} = {};
                 "start": 42,
                 "end": 59
             },
-            "flags": 129,
+            "flags": 128,
             "start": 38,
             "end": 60
         },
@@ -295,7 +295,7 @@ let {foo=3} = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 60,
                 "end": 64
             },
@@ -369,7 +369,7 @@ let {foo=3} = {};
                 "start": 64,
                 "end": 77
             },
-            "flags": 129,
+            "flags": 128,
             "start": 60,
             "end": 78
         }

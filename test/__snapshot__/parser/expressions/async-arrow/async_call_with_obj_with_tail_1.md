@@ -47,8 +47,8 @@ async ({} + 1);
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 11
                         },
                         "right": {

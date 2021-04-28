@@ -33,14 +33,14 @@
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 512,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 0,
                 "end": 28
             },
             "generatorToken": null,
@@ -70,7 +70,7 @@
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 33,
                                 "end": 36
                             },
@@ -93,14 +93,14 @@
                                             "kind": 177,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 768,
-                                                "start": 40,
+                                                "flags": 40,
+                                                "start": 512,
                                                 "end": 46
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 46,
+                                                "flags": 46,
+                                                "start": 0,
                                                 "end": 55
                                             },
                                             "generatorToken": null,
@@ -165,8 +165,8 @@
                                                                                                     "kind": 208,
                                                                                                     "awaitToken": {
                                                                                                         "kind": 82032,
-                                                                                                        "flags": 768,
-                                                                                                        "start": 74,
+                                                                                                        "flags": 74,
+                                                                                                        "start": 0,
                                                                                                         "end": 79
                                                                                                     },
                                                                                                     "expression": {

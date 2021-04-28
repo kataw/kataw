@@ -32,8 +32,8 @@
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 2,
+                                        "flags": 2,
+                                        "start": 0,
                                         "end": 5
                                     },
                                     "argument": {
@@ -80,8 +80,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 11,
+                        "flags": 11,
+                        "start": 512,
                         "end": 13
                     },
                     "right": {
@@ -130,8 +130,8 @@
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 768,
-                                                "start": 24,
+                                                "flags": 24,
+                                                "start": 0,
                                                 "end": 27
                                             },
                                             "argument": {
@@ -178,8 +178,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 33,
+                                "flags": 33,
+                                "start": 512,
                                 "end": 35
                             },
                             "right": {

@@ -25,14 +25,14 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -63,8 +63,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 17,
+                                    "flags": 17,
+                                    "start": 0,
                                     "end": 23
                                 },
                                 "delegate": false,
@@ -89,8 +89,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "kind": 164,
                             "ifKeyword": {
                                 "kind": 37757019,
-                                "flags": 768,
-                                "start": 26,
+                                "flags": 26,
+                                "start": 0,
                                 "end": 29
                             },
                             "expression": {
@@ -111,8 +111,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 38,
+                                                    "flags": 38,
+                                                    "start": 0,
                                                     "end": 44
                                                 },
                                                 "delegate": false,
@@ -161,8 +161,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 49,
+                                    "flags": 49,
+                                    "start": 0,
                                     "end": 55
                                 },
                                 "delegate": false,

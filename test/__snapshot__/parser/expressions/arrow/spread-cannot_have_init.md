@@ -23,8 +23,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 0,
                     "end": 13
                 },
                 "typeParameters": null,
@@ -33,8 +33,8 @@
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 512,
                             "end": 4
                         },
                         "binding": {
@@ -84,8 +84,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 29,
+                    "flags": 29,
+                    "start": 0,
                     "end": 32
                 },
                 "typeParameters": null,
@@ -94,8 +94,8 @@
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 19,
+                            "flags": 19,
+                            "start": 512,
                             "end": 22
                         },
                         "binding": {

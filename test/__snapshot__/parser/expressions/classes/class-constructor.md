@@ -40,8 +40,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 2,
+                        "flags": 2,
+                        "start": 0,
                         "end": 7
                     },
                     "name": {
@@ -134,8 +134,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 35,
+                        "flags": 35,
+                        "start": 0,
                         "end": 40
                     },
                     "name": {
@@ -157,8 +157,8 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 44,
+                                    "flags": 44,
+                                    "start": 512,
                                     "end": 51
                                 },
                                 "asyncKeyword": null,
@@ -233,8 +233,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 75,
+                        "flags": 75,
+                        "start": 0,
                         "end": 80
                     },
                     "name": {
@@ -256,15 +256,15 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 84,
+                                    "flags": 84,
+                                    "start": 512,
                                     "end": 91
                                 },
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 91,
+                                    "flags": 91,
+                                    "start": 512,
                                     "end": 95
                                 },
                                 "getKeyword": null,
@@ -337,8 +337,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 119,
+                        "flags": 119,
+                        "start": 0,
                         "end": 124
                     },
                     "name": {
@@ -360,16 +360,16 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 128,
+                                    "flags": 128,
+                                    "start": 512,
                                     "end": 135
                                 },
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 135,
+                                    "flags": 135,
+                                    "start": 512,
                                     "end": 139
                                 },
                                 "method": {
@@ -460,8 +460,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 164,
+                        "flags": 164,
+                        "start": 0,
                         "end": 169
                     },
                     "name": {
@@ -483,8 +483,8 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 173,
+                                    "flags": 173,
+                                    "start": 512,
                                     "end": 180
                                 },
                                 "asyncKeyword": null,

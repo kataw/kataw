@@ -31,8 +31,8 @@ f({x = 0});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 512,
                     "end": 5
                 },
                 "right": {

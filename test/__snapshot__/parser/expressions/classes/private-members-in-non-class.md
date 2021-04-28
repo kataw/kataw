@@ -57,8 +57,8 @@ class C { test() {get #a() { }}}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 1,
                 "end": 18
             },
             "generatorToken": null,
@@ -104,8 +104,8 @@ class C { test() {get #a() { }}}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 30,
+                    "flags": 30,
+                    "start": 0,
                     "end": 33
                 },
                 "typeParameters": null,
@@ -141,8 +141,8 @@ class C { test() {get #a() { }}}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 37,
+                "flags": 37,
+                "start": 1,
                 "end": 47
             },
             "generatorToken": null,
@@ -188,8 +188,8 @@ class C { test() {get #a() { }}}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 59,
+                    "flags": 59,
+                    "start": 0,
                     "end": 62
                 },
                 "typeParameters": null,
@@ -249,8 +249,8 @@ class C { test() {get #a() { }}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 74,
+                "flags": 74,
+                "start": 1,
                 "end": 81
             },
             "name": {
@@ -632,8 +632,8 @@ class C { test() {get #a() { }}}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 193,
+                        "flags": 193,
+                        "start": 512,
                         "end": 195
                     },
                     "right": {
@@ -725,8 +725,8 @@ class C { test() {get #a() { }}}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 220,
+                        "flags": 220,
+                        "start": 512,
                         "end": 222
                     },
                     "right": {

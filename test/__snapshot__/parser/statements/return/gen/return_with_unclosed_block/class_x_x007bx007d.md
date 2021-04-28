@@ -23,7 +23,7 @@ return {} return(x) { class x {}
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -50,8 +50,8 @@ return {} return(x) { class x {}
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 9,
+                "flags": 9,
+                "start": 0,
                 "end": 16
             },
             "expression": {
@@ -83,8 +83,8 @@ return {} return(x) { class x {}
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 768,
-                            "start": 21,
+                            "flags": 21,
+                            "start": 0,
                             "end": 27
                         },
                         "name": {

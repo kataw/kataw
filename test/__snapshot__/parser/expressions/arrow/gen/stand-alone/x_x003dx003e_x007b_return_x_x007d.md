@@ -25,8 +25,8 @@ x => { return x; } ;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 4
                 },
                 "typeParameters": null,
@@ -50,8 +50,8 @@ x => { return x; } ;
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 768,
-                                    "start": 6,
+                                    "flags": 6,
+                                    "start": 0,
                                     "end": 13
                                 },
                                 "expression": {

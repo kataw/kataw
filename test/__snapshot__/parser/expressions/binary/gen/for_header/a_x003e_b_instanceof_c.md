@@ -23,7 +23,7 @@ for ( a > b instanceof c ;;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,8 +41,8 @@ for ( a > b instanceof c ;;);
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 768,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 512,
                         "end": 9
                     },
                     "right": {
@@ -59,8 +59,8 @@ for ( a > b instanceof c ;;);
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 22
                 },
                 "right": {

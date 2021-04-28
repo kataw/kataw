@@ -54,8 +54,8 @@
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 768,
-                                                    "start": 10,
+                                                    "flags": 10,
+                                                    "start": 0,
                                                     "end": 19
                                                 },
                                                 "expression": {
@@ -69,8 +69,8 @@
                                                                     "kind": 229,
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
-                                                                        "flags": 768,
-                                                                        "start": 23,
+                                                                        "flags": 23,
+                                                                        "start": 0,
                                                                         "end": 29
                                                                     },
                                                                     "delegate": false,

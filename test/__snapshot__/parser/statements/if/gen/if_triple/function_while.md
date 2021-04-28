@@ -23,7 +23,7 @@ if if if function while
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,8 +38,8 @@ if if if function while
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -53,8 +53,8 @@ if if if function while
                     "kind": 164,
                     "ifKeyword": {
                         "kind": 37757019,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -62,8 +62,8 @@ if if if function while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 0,
                             "end": 17
                         },
                         "generatorToken": null,
@@ -101,8 +101,8 @@ if if if function while
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 0,
                             "end": 23
                         },
                         "expression": {

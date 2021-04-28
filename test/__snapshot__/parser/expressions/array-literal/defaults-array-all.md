@@ -39,7 +39,7 @@ var [x = 10, y = 5, z = 1] = a;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },

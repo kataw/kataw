@@ -30,7 +30,7 @@ var a : { <T>(x: T): number; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -69,8 +69,8 @@ var a : { <T>(x: T): number; }
                                         "staticToken": false,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 13,
+                                            "flags": 13,
+                                            "start": 512,
                                             "end": 20
                                         },
                                         "flags": 0,
@@ -106,8 +106,8 @@ var a : { <T>(x: T): number; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 23,
+                "flags": 23,
+                "start": 1,
                 "end": 28
             },
             "declarationList": {
@@ -199,8 +199,8 @@ var a : { <T>(x: T): number; }
                                         "staticToken": false,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 45,
+                                            "flags": 45,
+                                            "start": 512,
                                             "end": 52
                                         },
                                         "flags": 0,

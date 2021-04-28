@@ -24,14 +24,14 @@ async function f(){ await foo\n/foo/g }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -63,8 +63,8 @@ async function f(){ await foo\n/foo/g }
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 768,
-                                    "start": 19,
+                                    "flags": 19,
+                                    "start": 0,
                                     "end": 25
                                 },
                                 "expression": {
@@ -115,8 +115,8 @@ async function f(){ await foo\n/foo/g }
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 31,
+                        "flags": 31,
+                        "start": 512,
                         "end": 32
                     },
                     "right": {
@@ -133,8 +133,8 @@ async function f(){ await foo\n/foo/g }
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 35,
+                    "flags": 35,
+                    "start": 512,
                     "end": 36
                 },
                 "right": {

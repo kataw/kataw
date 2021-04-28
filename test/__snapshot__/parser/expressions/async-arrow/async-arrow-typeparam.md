@@ -40,23 +40,23 @@ async (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 3
                 },
                 "consequent": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 20,
+                        "flags": 20,
+                        "start": 0,
                         "end": 23
                     },
                     "typeParameters": null,
                     "parameters": [],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 768,
+                        "flags": 512,
                         "start": 3,
                         "end": 9
                     },
@@ -64,8 +64,8 @@ async (): string => {}
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 768,
-                            "start": 13,
+                            "flags": 13,
+                            "start": 512,
                             "end": 20
                         },
                         "flags": 0,
@@ -93,8 +93,8 @@ async (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 26,
+                    "flags": 26,
+                    "start": 0,
                     "end": 29
                 },
                 "alternate": {
@@ -117,15 +117,15 @@ async (): string => {}
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 51,
+                "flags": 51,
+                "start": 0,
                 "end": 54
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 33,
                 "end": 40
             },
@@ -133,8 +133,8 @@ async (): string => {}
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 768,
-                    "start": 44,
+                    "flags": 44,
+                    "start": 512,
                     "end": 51
                 },
                 "flags": 0,

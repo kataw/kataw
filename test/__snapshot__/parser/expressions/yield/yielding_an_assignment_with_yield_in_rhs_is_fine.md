@@ -21,14 +21,14 @@ function* g(x) { yield x = yield 3; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -78,8 +78,8 @@ function* g(x) { yield x = yield 3; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 16,
+                                    "flags": 16,
+                                    "start": 0,
                                     "end": 22
                                 },
                                 "delegate": false,
@@ -96,16 +96,16 @@ function* g(x) { yield x = yield 3; }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 512,
                                         "end": 26
                                     },
                                     "right": {
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 26,
+                                            "flags": 26,
+                                            "start": 0,
                                             "end": 32
                                         },
                                         "delegate": false,

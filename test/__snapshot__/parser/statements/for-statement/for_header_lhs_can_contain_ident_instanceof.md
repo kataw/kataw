@@ -38,7 +38,7 @@ for (a instanceof b;;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,8 +54,8 @@ for (a instanceof b;;);
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 17
                 },
                 "right": {

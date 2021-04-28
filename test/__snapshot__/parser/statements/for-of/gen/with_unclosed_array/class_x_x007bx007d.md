@@ -23,7 +23,7 @@ try[ class x {}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -67,8 +67,8 @@ try[ class x {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 4,
+                "flags": 4,
+                "start": 0,
                 "end": 10
             },
             "name": {

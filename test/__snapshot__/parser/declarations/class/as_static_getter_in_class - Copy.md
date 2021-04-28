@@ -40,7 +40,7 @@ class x {static get async(){}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -63,15 +63,15 @@ class x {static get async(){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 15
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 15,
+                            "flags": 15,
+                            "start": 512,
                             "end": 19
                         },
                         "getKeyword": null,

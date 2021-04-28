@@ -62,8 +62,8 @@ let.dot in x
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 10
                 },
                 "right": {

@@ -29,16 +29,16 @@ f = ([xCls2 = class { static name() {} }]) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 42,
+                        "flags": 42,
+                        "start": 0,
                         "end": 45
                     },
                     "typeParameters": null,
@@ -60,8 +60,8 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 11,
+                                            "flags": 11,
+                                            "start": 512,
                                             "end": 13
                                         },
                                         "right": {
@@ -69,8 +69,8 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 13,
+                                                "flags": 13,
+                                                "start": 0,
                                                 "end": 19
                                             },
                                             "name": null,
@@ -85,8 +85,8 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                         "decorators": null,
                                                         "staticKeyword": {
                                                             "kind": 8388716,
-                                                            "flags": 768,
-                                                            "start": 21,
+                                                            "flags": 21,
+                                                            "start": 512,
                                                             "end": 28
                                                         },
                                                         "asyncKeyword": null,

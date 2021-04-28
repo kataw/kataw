@@ -22,7 +22,7 @@ for (super.foo in x) ;
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,8 +33,8 @@ for (super.foo in x) ;
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 10
                     },
                     "flags": 768,

@@ -25,14 +25,14 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 0,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -96,14 +96,14 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 0,
                                                 "end": 48
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 768,
-                                                "start": 48,
+                                                "flags": 48,
+                                                "start": 512,
                                                 "end": 50
                                             },
                                             "name": {
@@ -134,8 +134,8 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 55,
+                                                                    "flags": 55,
+                                                                    "start": 0,
                                                                     "end": 61
                                                                 },
                                                                 "delegate": false,
@@ -144,8 +144,8 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                     "kind": 126,
                                                                     "operandToken": {
                                                                         "kind": 138477615,
-                                                                        "flags": 768,
-                                                                        "start": 61,
+                                                                        "flags": 61,
+                                                                        "start": 512,
                                                                         "end": 66
                                                                     },
                                                                     "expression": {

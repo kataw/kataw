@@ -21,14 +21,14 @@ function *f(){ delete ("x"[(yield)]) }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -59,8 +59,8 @@ function *f(){ delete ("x"[(yield)]) }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 4259886,
-                                    "flags": 768,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 512,
                                     "end": 21
                                 },
                                 "expression": {
@@ -81,8 +81,8 @@ function *f(){ delete ("x"[(yield)]) }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 28,
+                                                    "flags": 28,
+                                                    "start": 0,
                                                     "end": 33
                                                 },
                                                 "delegate": false,

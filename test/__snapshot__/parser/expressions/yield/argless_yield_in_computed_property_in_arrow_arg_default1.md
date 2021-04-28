@@ -21,14 +21,14 @@ function *g(){ (x = {[yield]: 1}) => z }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -59,8 +59,8 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 33,
+                                    "flags": 33,
+                                    "start": 0,
                                     "end": 36
                                 },
                                 "typeParameters": null,
@@ -77,8 +77,8 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 512,
                                             "end": 19
                                         },
                                         "right": {
@@ -102,8 +102,8 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 22,
+                                                                    "flags": 22,
+                                                                    "start": 0,
                                                                     "end": 27
                                                                 },
                                                                 "delegate": false,

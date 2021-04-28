@@ -29,7 +29,7 @@ gen = function*() {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -93,8 +93,8 @@ gen = function*() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 20,
+                    "flags": 20,
+                    "start": 512,
                     "end": 22
                 },
                 "right": {
@@ -102,14 +102,14 @@ gen = function*() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 22,
+                        "flags": 22,
+                        "start": 0,
                         "end": 31
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 31,
+                        "flags": 31,
+                        "start": 512,
                         "end": 32
                     },
                     "name": {
@@ -171,8 +171,8 @@ gen = function*() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 44,
+                    "flags": 44,
+                    "start": 512,
                     "end": 46
                 },
                 "right": {
@@ -180,14 +180,14 @@ gen = function*() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 46,
+                        "flags": 46,
+                        "start": 0,
                         "end": 55
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 55,
+                        "flags": 55,
+                        "start": 512,
                         "end": 56
                     },
                     "name": null,

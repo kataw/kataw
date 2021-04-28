@@ -19,7 +19,7 @@ do h(function(){});while(x)
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -33,8 +33,8 @@ do h(function(){});while(x)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 0,
                 "end": 24
             },
             "statement": {
@@ -57,8 +57,8 @@ do h(function(){});while(x)
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 5,
+                                    "flags": 5,
+                                    "start": 0,
                                     "end": 13
                                 },
                                 "generatorToken": null,

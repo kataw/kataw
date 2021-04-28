@@ -53,8 +53,8 @@
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 768,
-                                        "start": 5,
+                                        "flags": 5,
+                                        "start": 0,
                                         "end": 13
                                     },
                                     "generatorToken": null,

@@ -21,7 +21,7 @@ do throw function (v, h) {
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -41,16 +41,16 @@ do throw function (v, h) {
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 43,
+                "flags": 43,
+                "start": 0,
                 "end": 49
             },
             "statement": {
                 "kind": 158,
                 "throwKeyword": {
                     "kind": 37757026,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 8
                 },
                 "expression": {
@@ -58,8 +58,8 @@ do throw function (v, h) {
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 0,
                         "end": 17
                     },
                     "generatorToken": null,

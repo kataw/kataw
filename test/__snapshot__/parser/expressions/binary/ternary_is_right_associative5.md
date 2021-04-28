@@ -31,8 +31,8 @@ typeof x;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 3
                 },
                 "consequent": {
@@ -45,8 +45,8 @@ typeof x;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 0,
                     "end": 7
                 },
                 "alternate": {
@@ -61,8 +61,8 @@ typeof x;
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 11
                     },
                     "consequent": {
@@ -75,8 +75,8 @@ typeof x;
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 768,
-                        "start": 13,
+                        "flags": 13,
+                        "start": 0,
                         "end": 15
                     },
                     "alternate": {
@@ -91,8 +91,8 @@ typeof x;
                         },
                         "operatorToken": {
                             "kind": 67143222,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 512,
                             "end": 19
                         },
                         "right": {
@@ -125,8 +125,8 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 768,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 513,
                     "end": 29
                 },
                 "expression": {

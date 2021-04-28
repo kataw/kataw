@@ -37,16 +37,16 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 77,
+                        "flags": 77,
+                        "start": 0,
                         "end": 80
                     },
                     "typeParameters": null,
@@ -68,8 +68,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 9,
+                                            "flags": 9,
+                                            "start": 512,
                                             "end": 11
                                         },
                                         "right": {
@@ -77,8 +77,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 11,
+                                                "flags": 11,
+                                                "start": 0,
                                                 "end": 17
                                             },
                                             "name": null,
@@ -111,8 +111,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 26,
+                                            "flags": 26,
+                                            "start": 512,
                                             "end": 28
                                         },
                                         "right": {
@@ -120,8 +120,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 28,
+                                                "flags": 28,
+                                                "start": 0,
                                                 "end": 34
                                             },
                                             "name": {
@@ -161,8 +161,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 46,
+                                            "flags": 46,
+                                            "start": 512,
                                             "end": 48
                                         },
                                         "right": {
@@ -170,8 +170,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 48,
+                                                "flags": 48,
+                                                "start": 0,
                                                 "end": 54
                                             },
                                             "name": null,
@@ -186,8 +186,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                         "decorators": null,
                                                         "staticKeyword": {
                                                             "kind": 8388716,
-                                                            "flags": 768,
-                                                            "start": 56,
+                                                            "flags": 56,
+                                                            "start": 512,
                                                             "end": 63
                                                         },
                                                         "asyncKeyword": null,

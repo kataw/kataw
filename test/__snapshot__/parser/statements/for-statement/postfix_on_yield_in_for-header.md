@@ -38,7 +38,7 @@ for (yield[g]--;;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,8 +46,8 @@ for (yield[g]--;;);
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 768,
-                    "start": 13,
+                    "flags": 13,
+                    "start": 512,
                     "end": 15
                 },
                 "expression": {

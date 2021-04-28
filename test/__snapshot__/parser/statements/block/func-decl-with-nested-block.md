@@ -21,7 +21,7 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 9
             },
@@ -58,8 +58,8 @@
                                         "declareKeyword": null,
                                         "varKeyword": {
                                             "kind": 37757002,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 0,
                                             "end": 21
                                         },
                                         "declarationList": {
@@ -96,8 +96,8 @@
                                         "declareKeyword": null,
                                         "varKeyword": {
                                             "kind": 37757002,
-                                            "flags": 768,
-                                            "start": 24,
+                                            "flags": 24,
+                                            "start": 0,
                                             "end": 28
                                         },
                                         "declarationList": {

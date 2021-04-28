@@ -30,8 +30,8 @@ x={..."foo".foo=x}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -43,8 +43,8 @@ x={..."foo".foo=x}
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 768,
-                                    "start": 3,
+                                    "flags": 3,
+                                    "start": 0,
                                     "end": 6
                                 },
                                 "argument": {
@@ -73,8 +73,8 @@ x={..."foo".foo=x}
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 512,
                                         "end": 16
                                     },
                                     "right": {

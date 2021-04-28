@@ -25,8 +25,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 14
                 },
                 "typeParameters": null,
@@ -40,8 +40,8 @@
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 768,
-                                        "start": 2,
+                                        "flags": 2,
+                                        "start": 0,
                                         "end": 6
                                     },
                                     "expression": {

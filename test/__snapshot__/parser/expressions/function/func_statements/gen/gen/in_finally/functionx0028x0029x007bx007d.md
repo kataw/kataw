@@ -26,7 +26,7 @@ try {
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,8 +47,8 @@ try {
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 15
             },
             "finallyBlock": {
@@ -62,8 +62,8 @@ try {
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 1,
                                 "end": 28
                             },
                             "generatorToken": null,

@@ -111,8 +111,8 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 16,
+                "flags": 16,
+                "start": 0,
                 "end": 25
             },
             "generatorToken": null,
@@ -156,8 +156,8 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 25,
+                "flags": 25,
+                "start": 0,
                 "end": 31
             },
             "binding": {

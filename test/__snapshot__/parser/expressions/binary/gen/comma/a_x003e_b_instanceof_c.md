@@ -46,8 +46,8 @@ x, a > b instanceof c
                             },
                             "operatorToken": {
                                 "kind": 34883,
-                                "flags": 768,
-                                "start": 4,
+                                "flags": 4,
+                                "start": 512,
                                 "end": 6
                             },
                             "right": {
@@ -64,8 +64,8 @@ x, a > b instanceof c
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 512,
                             "end": 19
                         },
                         "right": {

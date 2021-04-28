@@ -19,7 +19,7 @@ for (x of y) continue
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,8 +43,8 @@ for (x of y) continue
                 "kind": 172,
                 "continueKeyword": {
                     "kind": 37757009,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 21
                 },
                 "label": null,

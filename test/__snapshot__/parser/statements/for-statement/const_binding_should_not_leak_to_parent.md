@@ -27,7 +27,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -130,8 +130,8 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 768,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 512,
                     "end": 34
                 },
                 "right": {
@@ -174,8 +174,8 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
-                "start": 43,
+                "flags": 43,
+                "start": 0,
                 "end": 47
             },
             "initializer": {
@@ -277,8 +277,8 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 768,
-                    "start": 76,
+                    "flags": 76,
+                    "start": 512,
                     "end": 78
                 },
                 "right": {

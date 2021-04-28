@@ -27,7 +27,7 @@ x => y
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -54,8 +54,8 @@ x => y
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 14
                 },
                 "typeParameters": null,

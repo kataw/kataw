@@ -23,7 +23,7 @@ return catch while try this and !foo
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -79,8 +79,8 @@ return catch while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 18,
+                "flags": 18,
+                "start": 0,
                 "end": 22
             },
             "block": {
@@ -137,8 +137,8 @@ return catch while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 31,
+                    "flags": 31,
+                    "start": 512,
                     "end": 33
                 },
                 "expression": {

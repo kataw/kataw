@@ -29,7 +29,7 @@ var x = ({ a } : any = 'foo') => {}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,8 +52,8 @@ var x = ({ a } : any = 'foo') => {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 0,
                                 "end": 32
                             },
                             "typeParameters": null,
@@ -90,8 +90,8 @@ var x = ({ a } : any = 'foo') => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234252,
-                                            "flags": 768,
-                                            "start": 16,
+                                            "flags": 16,
+                                            "start": 512,
                                             "end": 20
                                         },
                                         "flags": 0,

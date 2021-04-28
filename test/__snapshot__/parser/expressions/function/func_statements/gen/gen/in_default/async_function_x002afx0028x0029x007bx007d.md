@@ -26,7 +26,7 @@ switch (x) {
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -45,8 +45,8 @@ switch (x) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 768,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 1,
                             "end": 22
                         },
                         "statements": [
@@ -55,20 +55,20 @@ switch (x) {
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 23,
+                                    "flags": 23,
+                                    "start": 513,
                                     "end": 33
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 33,
+                                    "flags": 33,
+                                    "start": 0,
                                     "end": 42
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 768,
-                                    "start": 42,
+                                    "flags": 42,
+                                    "start": 512,
                                     "end": 44
                                 },
                                 "name": {

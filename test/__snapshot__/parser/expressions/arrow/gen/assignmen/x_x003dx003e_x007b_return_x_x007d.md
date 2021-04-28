@@ -33,16 +33,16 @@ x = x => { return x; } ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "typeParameters": null,
@@ -66,8 +66,8 @@ x = x => { return x; } ;
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 768,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "start": 0,
                                         "end": 17
                                     },
                                     "expression": {

@@ -33,8 +33,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 17
             },
             "declarationList": {
@@ -56,8 +56,8 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 43,
+                                "flags": 43,
+                                "start": 0,
                                 "end": 46
                             },
                             "typeParameters": null,
@@ -73,7 +73,7 @@
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 30,
                                 "end": 36
                             },

@@ -23,7 +23,7 @@ switch[ async try while { catch }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -65,8 +65,8 @@ switch[ async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 17
             },
             "block": {

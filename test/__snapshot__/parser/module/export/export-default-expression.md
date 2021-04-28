@@ -25,14 +25,14 @@ export default (1 + 2);
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 14
             },
             "declaration": {
@@ -49,8 +49,8 @@ export default (1 + 2);
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 512,
                         "end": 19
                     },
                     "right": {

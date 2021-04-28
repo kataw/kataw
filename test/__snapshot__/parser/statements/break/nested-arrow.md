@@ -21,8 +21,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "typeParameters": null,
@@ -44,8 +44,8 @@
                                             "kind": 150,
                                             "breakKeyword": {
                                                 "kind": 37757005,
-                                                "flags": 768,
-                                                "start": 11,
+                                                "flags": 11,
+                                                "start": 0,
                                                 "end": 17
                                             },
                                             "label": null,

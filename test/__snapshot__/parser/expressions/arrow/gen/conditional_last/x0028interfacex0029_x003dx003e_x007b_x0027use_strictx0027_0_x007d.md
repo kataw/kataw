@@ -36,8 +36,8 @@ bar, (interface) => { 'use strict'; 0 };
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 16,
+                            "flags": 16,
+                            "start": 0,
                             "end": 19
                         },
                         "typeParameters": null,

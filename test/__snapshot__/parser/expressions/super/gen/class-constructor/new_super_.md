@@ -25,7 +25,7 @@ class C { constructor() { new super; } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -82,8 +82,8 @@ class C { constructor() { new super; } }
                                                 "kind": 210,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 768,
-                                                    "start": 25,
+                                                    "flags": 25,
+                                                    "start": 0,
                                                     "end": 29
                                                 },
                                                 "expression": {
@@ -92,8 +92,8 @@ class C { constructor() { new super; } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 768,
-                                                            "start": 29,
+                                                            "flags": 29,
+                                                            "start": 0,
                                                             "end": 35
                                                         },
                                                         "flags": 768,

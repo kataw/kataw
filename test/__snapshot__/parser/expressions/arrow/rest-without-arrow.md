@@ -25,8 +25,8 @@
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 512,
                             "end": 4
                         },
                         "binding": {
@@ -50,8 +50,8 @@
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {

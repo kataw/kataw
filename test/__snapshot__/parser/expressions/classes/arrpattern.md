@@ -28,7 +28,7 @@ class n extends ([] = x) {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,8 +45,8 @@ class n extends ([] = x) {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -69,8 +69,8 @@ class n extends ([] = x) {}
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 19,
+                            "flags": 19,
+                            "start": 512,
                             "end": 21
                         },
                         "right": {

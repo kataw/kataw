@@ -87,8 +87,8 @@
                             "kind": 207,
                             "importKeyword": {
                                 "kind": 37814364,
-                                "flags": 768,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 0,
                                 "end": 16
                             },
                             "flags": 16,

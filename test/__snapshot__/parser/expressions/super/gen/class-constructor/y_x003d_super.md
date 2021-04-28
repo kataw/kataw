@@ -25,7 +25,7 @@ class C { constructor() { y = super } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -90,8 +90,8 @@ class C { constructor() { y = super } }
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 27,
+                                                    "flags": 27,
+                                                    "start": 512,
                                                     "end": 29
                                                 },
                                                 "right": {
@@ -100,8 +100,8 @@ class C { constructor() { y = super } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 768,
-                                                            "start": 29,
+                                                            "flags": 29,
+                                                            "start": 0,
                                                             "end": 35
                                                         },
                                                         "flags": 768,

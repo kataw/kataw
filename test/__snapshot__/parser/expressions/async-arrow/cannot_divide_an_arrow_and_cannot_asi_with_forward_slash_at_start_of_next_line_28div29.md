@@ -22,8 +22,8 @@ async _ => {}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 10
                 },
                 "typeParameters": null,
@@ -49,8 +49,8 @@ async _ => {}
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 5
                 },
                 "returnType": null,

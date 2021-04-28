@@ -68,8 +68,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4138,
-                        "flags": 768,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 512,
                         "end": 10
                     },
                     "right": {
@@ -130,8 +130,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     },
                                     "operatorToken": {
                                         "kind": 4138,
-                                        "flags": 768,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 512,
                                         "end": 28
                                     },
                                     "right": {
@@ -158,8 +158,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 512,
                         "end": 34
                     },
                     "right": {
@@ -229,8 +229,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4138,
-                        "flags": 768,
-                        "start": 50,
+                        "flags": 50,
+                        "start": 512,
                         "end": 54
                     },
                     "right": {
@@ -381,8 +381,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4139,
-                        "flags": 768,
-                        "start": 103,
+                        "flags": 103,
+                        "start": 512,
                         "end": 107
                     },
                     "right": {
@@ -443,8 +443,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     },
                                     "operatorToken": {
                                         "kind": 4139,
-                                        "flags": 768,
-                                        "start": 121,
+                                        "flags": 121,
+                                        "start": 512,
                                         "end": 125
                                     },
                                     "right": {
@@ -471,8 +471,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 129,
+                        "flags": 129,
+                        "start": 512,
                         "end": 131
                     },
                     "right": {
@@ -542,8 +542,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4139,
-                        "flags": 768,
-                        "start": 147,
+                        "flags": 147,
+                        "start": 512,
                         "end": 151
                     },
                     "right": {
@@ -697,8 +697,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                                             },
                                             "operatorToken": {
                                                 "kind": 4139,
-                                                "flags": 768,
-                                                "start": 202,
+                                                "flags": 202,
+                                                "start": 512,
                                                 "end": 206
                                             },
                                             "right": {

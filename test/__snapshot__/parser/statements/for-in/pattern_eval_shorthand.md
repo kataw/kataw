@@ -37,7 +37,7 @@ for ({ eval = 0 } in [{}]) ;
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },

@@ -20,7 +20,7 @@ do async
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -34,8 +34,8 @@ do async
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 18,
+                "flags": 18,
+                "start": 0,
                 "end": 24
             },
             "statement": {
@@ -44,15 +44,15 @@ do async
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 12,
+                        "flags": 12,
+                        "start": 0,
                         "end": 15
                     },
                     "typeParameters": null,
                     "parameters": [],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 768,
+                        "flags": 512,
                         "start": 2,
                         "end": 8
                     },

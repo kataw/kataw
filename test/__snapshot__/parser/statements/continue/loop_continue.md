@@ -19,7 +19,7 @@ while(z) continue foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,8 +35,8 @@ while(z) continue foo
                 "kind": 172,
                 "continueKeyword": {
                     "kind": 37757009,
-                    "flags": 768,
-                    "start": 8,
+                    "flags": 8,
+                    "start": 0,
                     "end": 17
                 },
                 "label": {

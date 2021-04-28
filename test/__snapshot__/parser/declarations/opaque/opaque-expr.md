@@ -28,7 +28,7 @@ opaque += 4;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -82,8 +82,8 @@ opaque += 4;
                 },
                 "operatorToken": {
                     "kind": 4130,
-                    "flags": 768,
-                    "start": 22,
+                    "flags": 22,
+                    "start": 512,
                     "end": 25
                 },
                 "right": {

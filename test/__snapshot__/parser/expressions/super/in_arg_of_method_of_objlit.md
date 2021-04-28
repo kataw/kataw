@@ -29,8 +29,8 @@ x={ dsda(){ return async function(a=super.foo){} }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -68,22 +68,22 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 768,
-                                                    "start": 11,
+                                                    "flags": 11,
+                                                    "start": 0,
                                                     "end": 18
                                                 },
                                                 "expression": {
                                                     "kind": 177,
                                                     "asyncKeyword": {
                                                         "kind": 82031,
-                                                        "flags": 768,
-                                                        "start": 18,
+                                                        "flags": 18,
+                                                        "start": 512,
                                                         "end": 24
                                                     },
                                                     "functionKeyword": {
                                                         "kind": 37822554,
-                                                        "flags": 768,
-                                                        "start": 24,
+                                                        "flags": 24,
+                                                        "start": 0,
                                                         "end": 33
                                                     },
                                                     "generatorToken": null,
@@ -110,8 +110,8 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                         "kind": 225,
                                                                         "superKeyword": {
                                                                             "kind": 4259935,
-                                                                            "flags": 768,
-                                                                            "start": 36,
+                                                                            "flags": 36,
+                                                                            "start": 0,
                                                                             "end": 41
                                                                         },
                                                                         "flags": 768,

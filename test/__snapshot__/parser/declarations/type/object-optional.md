@@ -40,7 +40,7 @@ type T = { [[foo]]?: X }
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 6
             },
@@ -87,8 +87,8 @@ type T = { [[foo]]?: X }
                         },
                         "optionalToken": {
                             "kind": 134217750,
-                            "flags": 768,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 512,
                             "end": 19
                         },
                         "staticToken": false,

@@ -29,7 +29,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -161,8 +161,8 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 768,
-                    "start": 35,
+                    "flags": 35,
+                    "start": 512,
                     "end": 42
                 },
                 "flags": 0,

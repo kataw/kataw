@@ -24,7 +24,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -62,8 +62,8 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 10,
+                "flags": 10,
+                "start": 0,
                 "end": 14
             },
             "declarationList": {
@@ -122,8 +122,8 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 70,
+                        "flags": 70,
+                        "start": 512,
                         "end": 71
                     },
                     "right": {
@@ -140,8 +140,8 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 74,
+                    "flags": 74,
+                    "start": 512,
                     "end": 75
                 },
                 "right": {

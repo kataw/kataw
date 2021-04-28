@@ -23,7 +23,7 @@ for (a of b) function f(){}
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,8 +49,8 @@ for (a of b) function f(){}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 21
                 },
                 "generatorToken": null,

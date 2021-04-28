@@ -39,14 +39,14 @@
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 512,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 0,
                 "end": 28
             },
             "generatorToken": null,
@@ -76,7 +76,7 @@
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 641,
                                 "start": 34,
                                 "end": 40
                             },
@@ -99,8 +99,8 @@
                                                                 "kind": 208,
                                                                 "awaitToken": {
                                                                     "kind": 82032,
-                                                                    "flags": 768,
-                                                                    "start": 44,
+                                                                    "flags": 44,
+                                                                    "start": 0,
                                                                     "end": 49
                                                                 },
                                                                 "expression": {
@@ -199,7 +199,7 @@
                                 "start": 40,
                                 "end": 70
                             },
-                            "flags": 129,
+                            "flags": 128,
                             "start": 34,
                             "end": 71
                         },
@@ -207,8 +207,8 @@
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 71,
+                                "flags": 71,
+                                "start": 1,
                                 "end": 80
                             },
                             "expression": {

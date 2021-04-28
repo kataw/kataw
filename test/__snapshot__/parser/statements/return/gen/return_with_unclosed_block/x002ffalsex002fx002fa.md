@@ -23,7 +23,7 @@ return {} return(x) { /false//a
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -50,8 +50,8 @@ return {} return(x) { /false//a
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 9,
+                "flags": 9,
+                "start": 0,
                 "end": 16
             },
             "expression": {
@@ -90,8 +90,8 @@ return {} return(x) { /false//a
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 30
                             },
                             "right": {

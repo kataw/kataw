@@ -23,7 +23,7 @@ return catch function while
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -79,8 +79,8 @@ return catch function while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 21,
+                "flags": 21,
+                "start": 0,
                 "end": 27
             },
             "expression": {

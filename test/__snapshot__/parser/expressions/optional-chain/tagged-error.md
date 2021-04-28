@@ -25,8 +25,8 @@ a?.()``;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 3
                 },
                 "member": {
@@ -86,8 +86,8 @@ a?.()``;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 0,
                     "end": 12
                 },
                 "member": {
@@ -147,8 +147,8 @@ a?.()``;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 23,
+                    "flags": 23,
+                    "start": 0,
                     "end": 25
                 },
                 "member": {

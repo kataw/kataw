@@ -34,14 +34,14 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 22
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 22,
+                "flags": 22,
+                "start": 512,
                 "end": 23
             },
             "name": {
@@ -72,8 +72,8 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 27,
+                                "flags": 27,
+                                "start": 0,
                                 "end": 36
                             },
                             "generatorToken": null,

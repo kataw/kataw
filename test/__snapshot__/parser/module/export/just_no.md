@@ -25,7 +25,7 @@ export ...x = y
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -51,8 +51,8 @@ export ...x = y
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {

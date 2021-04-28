@@ -26,7 +26,7 @@ var callCount = 0;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -122,7 +122,7 @@ var callCount = 0;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 21,
                 "end": 25
             },
@@ -157,7 +157,7 @@ var callCount = 0;
                 "start": 25,
                 "end": 48
             },
-            "flags": 129,
+            "flags": 128,
             "start": 21,
             "end": 49
         },
@@ -166,8 +166,8 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 49,
+                "flags": 49,
+                "start": 1,
                 "end": 55
             },
             "declarationList": {
@@ -219,8 +219,8 @@ var callCount = 0;
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 73,
+                                "flags": 73,
+                                "start": 0,
                                 "end": 81
                             },
                             "generatorToken": null,
@@ -309,8 +309,8 @@ var callCount = 0;
                                                         "kind": 224,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 768,
-                                                            "start": 105,
+                                                            "flags": 105,
+                                                            "start": 0,
                                                             "end": 108
                                                         },
                                                         "argument": {

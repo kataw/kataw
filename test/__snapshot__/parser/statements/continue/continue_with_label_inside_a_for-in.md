@@ -28,8 +28,8 @@ foo: for (x in y) continue foo
             "statement": {
                 "forKeyword": {
                     "kind": 37757017,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 0,
                     "end": 8
                 },
                 "kind": 166,
@@ -53,8 +53,8 @@ foo: for (x in y) continue foo
                     "kind": 172,
                     "continueKeyword": {
                         "kind": 37757009,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 0,
                         "end": 26
                     },
                     "label": {

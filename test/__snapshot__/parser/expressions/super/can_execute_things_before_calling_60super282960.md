@@ -21,7 +21,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,8 +38,8 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -96,7 +96,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                             "kind": 162,
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
-                                                "flags": 768,
+                                                "flags": 640,
                                                 "start": 35,
                                                 "end": 39
                                             },
@@ -127,8 +127,8 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 34098,
-                                                                "flags": 768,
-                                                                "start": 46,
+                                                                "flags": 46,
+                                                                "start": 512,
                                                                 "end": 48
                                                             },
                                                             "right": {
@@ -164,8 +164,8 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 768,
-                                                        "start": 51,
+                                                        "flags": 51,
+                                                        "start": 0,
                                                         "end": 57
                                                     },
                                                     "flags": 768,

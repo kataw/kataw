@@ -21,7 +21,7 @@ var af = yield => 1;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,8 +44,8 @@ var af = yield => 1;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 0,
                                 "end": 17
                             },
                             "typeParameters": null,

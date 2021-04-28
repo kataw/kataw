@@ -23,7 +23,7 @@ while (x) async function *f(){}
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,20 +41,20 @@ while (x) async function *f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 512,
                         "end": 15
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 0,
                         "end": 24
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 24,
+                        "flags": 24,
+                        "start": 512,
                         "end": 26
                     },
                     "name": {

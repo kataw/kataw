@@ -41,7 +41,7 @@ type T1 = number;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
@@ -57,8 +57,8 @@ type T1 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234347,
-                "flags": 768,
-                "start": 9,
+                "flags": 9,
+                "start": 512,
                 "end": 16
             },
             "flags": 128,
@@ -71,7 +71,7 @@ type T1 = number;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 17,
                 "end": 25
             },
@@ -87,8 +87,8 @@ type T1 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 768,
-                "start": 27,
+                "flags": 27,
+                "start": 512,
                 "end": 34
             },
             "flags": 128,

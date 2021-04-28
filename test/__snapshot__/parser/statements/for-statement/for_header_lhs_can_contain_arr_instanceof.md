@@ -38,7 +38,7 @@ for ([] instanceof obj;;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -60,8 +60,8 @@ for ([] instanceof obj;;);
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 18
                 },
                 "right": {

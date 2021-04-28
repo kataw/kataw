@@ -21,7 +21,7 @@ class x { foo(){ super.foo; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -80,8 +80,8 @@ class x { foo(){ super.foo; }}
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 768,
-                                                        "start": 16,
+                                                        "flags": 16,
+                                                        "start": 0,
                                                         "end": 22
                                                     },
                                                     "flags": 768,

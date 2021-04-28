@@ -19,8 +19,8 @@ async (x, ...a)=>0;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 15,
+                "flags": 15,
+                "start": 0,
                 "end": 17
             },
             "typeParameters": null,
@@ -37,8 +37,8 @@ async (x, ...a)=>0;
                     "kind": 223,
                     "ellipsisToken": {
                         "kind": 524302,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 13
                     },
                     "flags": 256,
@@ -48,7 +48,7 @@ async (x, ...a)=>0;
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },

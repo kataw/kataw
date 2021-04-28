@@ -23,7 +23,7 @@ return [catch] class x {}
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -88,8 +88,8 @@ return [catch] class x {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 0,
                 "end": 20
             },
             "name": {

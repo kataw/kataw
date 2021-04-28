@@ -21,14 +21,14 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 0,
                                             "end": 22
                                         },
                                         "delegate": false,
@@ -87,16 +87,16 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 768,
-                                    "start": 25,
+                                    "flags": 25,
+                                    "start": 0,
                                     "end": 27
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 27,
+                                        "flags": 27,
+                                        "start": 0,
                                         "end": 33
                                     },
                                     "delegate": false,
@@ -115,16 +115,16 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 768,
-                                    "start": 35,
+                                    "flags": 35,
+                                    "start": 0,
                                     "end": 37
                                 },
                                 "alternate": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 37,
+                                        "flags": 37,
+                                        "start": 0,
                                         "end": 43
                                     },
                                     "delegate": false,

@@ -24,7 +24,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,14 +48,14 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 0,
                                 "end": 18
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 512,
                                 "end": 19
                             },
                             "name": {
@@ -84,8 +84,8 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                             "kind": 160,
                                             "switchKeyword": {
                                                 "kind": 37757024,
-                                                "flags": 768,
-                                                "start": 28,
+                                                "flags": 28,
+                                                "start": 0,
                                                 "end": 35
                                             },
                                             "expression": {
@@ -103,23 +103,23 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                         "kind": 175,
                                                         "caseKeyword": {
                                                             "kind": 4194382,
-                                                            "flags": 768,
-                                                            "start": 41,
+                                                            "flags": 41,
+                                                            "start": 0,
                                                             "end": 46
                                                         },
                                                         "expression": {
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 768,
-                                                                "start": 46,
+                                                                "flags": 46,
+                                                                "start": 0,
                                                                 "end": 52
                                                             },
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 768,
-                                                                "start": 52,
+                                                                "flags": 52,
+                                                                "start": 512,
                                                                 "end": 53
                                                             },
                                                             "expression": {
@@ -139,8 +139,8 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 768,
-                                                                    "start": 60,
+                                                                    "flags": 60,
+                                                                    "start": 0,
                                                                     "end": 66
                                                                 },
                                                                 "label": null,

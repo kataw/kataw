@@ -19,7 +19,7 @@ for(x of 3)break/
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,8 +43,8 @@ for(x of 3)break/
                 "kind": 150,
                 "breakKeyword": {
                     "kind": 37757005,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 16
                 },
                 "label": {

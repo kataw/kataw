@@ -21,14 +21,14 @@ function *f() {  return typeof yield foo;  }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -57,24 +57,24 @@ function *f() {  return typeof yield foo;  }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 0,
                                 "end": 23
                             },
                             "expression": {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477613,
-                                    "flags": 768,
-                                    "start": 23,
+                                    "flags": 23,
+                                    "start": 512,
                                     "end": 30
                                 },
                                 "expression": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 30,
+                                        "flags": 30,
+                                        "start": 0,
                                         "end": 36
                                     },
                                     "delegate": false,

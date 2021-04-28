@@ -25,14 +25,14 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 0,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -104,8 +104,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 41,
+                                                    "flags": 41,
+                                                    "start": 512,
                                                     "end": 43
                                                 },
                                                 "right": {
@@ -113,8 +113,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 768,
-                                                        "start": 43,
+                                                        "flags": 43,
+                                                        "start": 0,
                                                         "end": 49
                                                     },
                                                     "name": null,
@@ -123,8 +123,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                         "kind": 279,
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
-                                                            "flags": 768,
-                                                            "start": 49,
+                                                            "flags": 49,
+                                                            "start": 0,
                                                             "end": 57
                                                         },
                                                         "expression": {
@@ -141,8 +141,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 },
                                                                 "questionToken": {
                                                                     "kind": 134217750,
-                                                                    "flags": 768,
-                                                                    "start": 60,
+                                                                    "flags": 60,
+                                                                    "start": 0,
                                                                     "end": 62
                                                                 },
                                                                 "consequent": {
@@ -154,8 +154,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 },
                                                                 "colonToken": {
                                                                     "kind": 21,
-                                                                    "flags": 768,
-                                                                    "start": 67,
+                                                                    "flags": 67,
+                                                                    "start": 0,
                                                                     "end": 69
                                                                 },
                                                                 "alternate": {

@@ -23,8 +23,8 @@ a++;
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 2
                 },
                 "expression": {
@@ -49,8 +49,8 @@ a++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 9
                 },
                 "expression": {

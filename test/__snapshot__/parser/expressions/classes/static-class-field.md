@@ -87,7 +87,7 @@ a});
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -110,8 +110,8 @@ a});
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 16
                         },
                         "asyncKeyword": null,
@@ -154,8 +154,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 0,
                         "end": 37
                     },
                     "name": {
@@ -177,8 +177,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 41,
+                                    "flags": 41,
+                                    "start": 512,
                                     "end": 48
                                 },
                                 "asyncKeyword": null,
@@ -236,8 +236,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 60,
+                        "flags": 60,
+                        "start": 0,
                         "end": 65
                     },
                     "name": {
@@ -259,8 +259,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 69,
+                                    "flags": 69,
+                                    "start": 512,
                                     "end": 76
                                 },
                                 "asyncKeyword": null,
@@ -339,8 +339,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 90,
+                        "flags": 90,
+                        "start": 0,
                         "end": 95
                     },
                     "name": {
@@ -362,8 +362,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 99,
+                                    "flags": 99,
+                                    "start": 512,
                                     "end": 106
                                 },
                                 "asyncKeyword": null,
@@ -472,8 +472,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 124,
+                        "flags": 124,
+                        "start": 0,
                         "end": 129
                     },
                     "name": {
@@ -495,8 +495,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 133,
+                                    "flags": 133,
+                                    "start": 512,
                                     "end": 140
                                 },
                                 "asyncKeyword": null,
@@ -605,8 +605,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 159,
+                        "flags": 159,
+                        "start": 0,
                         "end": 164
                     },
                     "name": {
@@ -628,8 +628,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 168,
+                                    "flags": 168,
+                                    "start": 512,
                                     "end": 175
                                 },
                                 "asyncKeyword": null,
@@ -744,8 +744,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 197,
+                        "flags": 197,
+                        "start": 0,
                         "end": 202
                     },
                     "name": {
@@ -767,8 +767,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 206,
+                                    "flags": 206,
+                                    "start": 512,
                                     "end": 213
                                 },
                                 "asyncKeyword": null,
@@ -819,8 +819,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 221,
+                        "flags": 221,
+                        "start": 0,
                         "end": 226
                     },
                     "name": {
@@ -842,8 +842,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 230,
+                                    "flags": 230,
+                                    "start": 512,
                                     "end": 237
                                 },
                                 "asyncKeyword": null,
@@ -921,8 +921,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 248,
+                        "flags": 248,
+                        "start": 0,
                         "end": 253
                     },
                     "name": {
@@ -944,8 +944,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 257,
+                                    "flags": 257,
+                                    "start": 512,
                                     "end": 264
                                 },
                                 "asyncKeyword": null,
@@ -1047,8 +1047,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 278,
+                        "flags": 278,
+                        "start": 0,
                         "end": 283
                     },
                     "name": {
@@ -1070,8 +1070,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 287,
+                                    "flags": 287,
+                                    "start": 512,
                                     "end": 294
                                 },
                                 "asyncKeyword": null,
@@ -1173,8 +1173,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 309,
+                        "flags": 309,
+                        "start": 0,
                         "end": 314
                     },
                     "name": {
@@ -1196,8 +1196,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 318,
+                                    "flags": 318,
+                                    "start": 512,
                                     "end": 325
                                 },
                                 "asyncKeyword": null,
@@ -1305,8 +1305,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 343,
+                        "flags": 343,
+                        "start": 0,
                         "end": 348
                     },
                     "name": {
@@ -1328,8 +1328,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 352,
+                                    "flags": 352,
+                                    "start": 512,
                                     "end": 359
                                 },
                                 "asyncKeyword": null,
@@ -1393,8 +1393,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 375,
+                        "flags": 375,
+                        "start": 0,
                         "end": 380
                     },
                     "name": {
@@ -1416,8 +1416,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 384,
+                                    "flags": 384,
+                                    "start": 512,
                                     "end": 391
                                 },
                                 "asyncKeyword": null,
@@ -1502,8 +1502,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 409,
+                        "flags": 409,
+                        "start": 0,
                         "end": 414
                     },
                     "name": {
@@ -1525,8 +1525,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 418,
+                                    "flags": 418,
+                                    "start": 512,
                                     "end": 425
                                 },
                                 "asyncKeyword": null,
@@ -1641,8 +1641,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 447,
+                        "flags": 447,
+                        "start": 0,
                         "end": 452
                     },
                     "name": {
@@ -1664,8 +1664,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 456,
+                                    "flags": 456,
+                                    "start": 512,
                                     "end": 463
                                 },
                                 "asyncKeyword": null,
@@ -1780,8 +1780,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 486,
+                        "flags": 486,
+                        "start": 0,
                         "end": 491
                     },
                     "name": {
@@ -1803,8 +1803,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 495,
+                                    "flags": 495,
+                                    "start": 512,
                                     "end": 502
                                 },
                                 "asyncKeyword": null,
@@ -1925,8 +1925,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 528,
+                        "flags": 528,
+                        "start": 0,
                         "end": 533
                     },
                     "name": {
@@ -1948,8 +1948,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 537,
+                                    "flags": 537,
+                                    "start": 512,
                                     "end": 544
                                 },
                                 "asyncKeyword": null,
@@ -2006,8 +2006,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 556,
+                        "flags": 556,
+                        "start": 0,
                         "end": 561
                     },
                     "name": {
@@ -2029,8 +2029,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 565,
+                                    "flags": 565,
+                                    "start": 512,
                                     "end": 572
                                 },
                                 "asyncKeyword": null,
@@ -2114,8 +2114,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 587,
+                        "flags": 587,
+                        "start": 0,
                         "end": 592
                     },
                     "name": {
@@ -2137,8 +2137,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 596,
+                                    "flags": 596,
+                                    "start": 512,
                                     "end": 603
                                 },
                                 "asyncKeyword": null,
@@ -2246,8 +2246,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 621,
+                        "flags": 621,
+                        "start": 0,
                         "end": 626
                     },
                     "name": {
@@ -2269,8 +2269,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 630,
+                                    "flags": 630,
+                                    "start": 512,
                                     "end": 637
                                 },
                                 "asyncKeyword": null,
@@ -2378,8 +2378,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 656,
+                        "flags": 656,
+                        "start": 0,
                         "end": 661
                     },
                     "name": {
@@ -2401,8 +2401,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 665,
+                                    "flags": 665,
+                                    "start": 512,
                                     "end": 672
                                 },
                                 "asyncKeyword": null,
@@ -2516,8 +2516,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 695,
+                        "flags": 695,
+                        "start": 0,
                         "end": 700
                     },
                     "name": null,
@@ -2526,8 +2526,8 @@ a});
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 768,
-                            "start": 700,
+                            "flags": 700,
+                            "start": 0,
                             "end": 708
                         },
                         "expression": {
@@ -2552,8 +2552,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 712,
+                                    "flags": 712,
+                                    "start": 512,
                                     "end": 719
                                 },
                                 "asyncKeyword": null,
@@ -2611,8 +2611,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 731,
+                        "flags": 731,
+                        "start": 0,
                         "end": 736
                     },
                     "name": null,
@@ -2621,8 +2621,8 @@ a});
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 768,
-                            "start": 736,
+                            "flags": 736,
+                            "start": 0,
                             "end": 744
                         },
                         "expression": {
@@ -2647,8 +2647,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 748,
+                                    "flags": 748,
+                                    "start": 512,
                                     "end": 755
                                 },
                                 "asyncKeyword": null,
@@ -2699,8 +2699,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 763,
+                        "flags": 763,
+                        "start": 0,
                         "end": 768
                     },
                     "name": null,
@@ -2710,7 +2710,7 @@ a});
                         "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 768,
-                            "start": 768,
+                            "start": 0,
                             "end": 776
                         },
                         "expression": {
@@ -2735,8 +2735,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 780,
+                                    "flags": 780,
+                                    "start": 512,
                                     "end": 787
                                 },
                                 "asyncKeyword": null,
@@ -2794,8 +2794,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 801,
+                        "flags": 801,
+                        "start": 0,
                         "end": 806
                     },
                     "name": null,
@@ -2804,8 +2804,8 @@ a});
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 768,
-                            "start": 806,
+                            "flags": 806,
+                            "start": 0,
                             "end": 814
                         },
                         "expression": {
@@ -2830,8 +2830,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 818,
+                                    "flags": 818,
+                                    "start": 512,
                                     "end": 825
                                 },
                                 "asyncKeyword": null,
@@ -2882,8 +2882,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 836,
+                        "flags": 836,
+                        "start": 0,
                         "end": 841
                     },
                     "name": {
@@ -2905,8 +2905,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 845,
+                                    "flags": 845,
+                                    "start": 512,
                                     "end": 852
                                 },
                                 "asyncKeyword": null,
@@ -2958,8 +2958,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 868,
+                        "flags": 868,
+                        "start": 0,
                         "end": 873
                     },
                     "name": {
@@ -2981,8 +2981,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 877,
+                                    "flags": 877,
+                                    "start": 512,
                                     "end": 884
                                 },
                                 "asyncKeyword": null,
@@ -3048,8 +3048,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 899,
+                        "flags": 899,
+                        "start": 0,
                         "end": 904
                     },
                     "name": {
@@ -3071,8 +3071,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 908,
+                                    "flags": 908,
+                                    "start": 512,
                                     "end": 915
                                 },
                                 "asyncKeyword": null,
@@ -3123,8 +3123,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 927,
+                        "flags": 927,
+                        "start": 0,
                         "end": 932
                     },
                     "name": {
@@ -3146,8 +3146,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 936,
+                                    "flags": 936,
+                                    "start": 512,
                                     "end": 943
                                 },
                                 "asyncKeyword": null,
@@ -3205,8 +3205,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 959,
+                        "flags": 959,
+                        "start": 0,
                         "end": 964
                     },
                     "name": {
@@ -3228,8 +3228,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 968,
+                                    "flags": 968,
+                                    "start": 512,
                                     "end": 975
                                 },
                                 "asyncKeyword": null,
@@ -3274,8 +3274,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 986,
+                        "flags": 986,
+                        "start": 0,
                         "end": 991
                     },
                     "name": {
@@ -3297,8 +3297,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 995,
+                                    "flags": 995,
+                                    "start": 512,
                                     "end": 1002
                                 },
                                 "asyncKeyword": null,
@@ -3350,8 +3350,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1018,
+                        "flags": 1018,
+                        "start": 0,
                         "end": 1023
                     },
                     "name": {
@@ -3373,14 +3373,14 @@ a});
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1027,
+                                    "flags": 1027,
+                                    "start": 512,
                                     "end": 1034
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 1034,
+                                    "flags": 1034,
+                                    "start": 512,
                                     "end": 1040
                                 },
                                 "setKeyword": null,
@@ -3454,8 +3454,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1100,
+                        "flags": 1100,
+                        "start": 0,
                         "end": 1105
                     },
                     "name": {
@@ -3477,14 +3477,14 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1109,
+                                    "flags": 1109,
+                                    "start": 512,
                                     "end": 1116
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 1116,
+                                    "flags": 1116,
+                                    "start": 512,
                                     "end": 1122
                                 },
                                 "key": {
@@ -3528,8 +3528,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1130,
+                        "flags": 1130,
+                        "start": 0,
                         "end": 1135
                     },
                     "name": {
@@ -3551,8 +3551,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1139,
+                                    "flags": 1139,
+                                    "start": 512,
                                     "end": 1146
                                 },
                                 "asyncKeyword": null,
@@ -3603,8 +3603,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1158,
+                        "flags": 1158,
+                        "start": 0,
                         "end": 1163
                     },
                     "name": {
@@ -3626,8 +3626,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1167,
+                                    "flags": 1167,
+                                    "start": 512,
                                     "end": 1174
                                 },
                                 "asyncKeyword": null,
@@ -3685,8 +3685,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1191,
+                        "flags": 1191,
+                        "start": 0,
                         "end": 1196
                     },
                     "name": {
@@ -3708,8 +3708,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1200,
+                                    "flags": 1200,
+                                    "start": 512,
                                     "end": 1207
                                 },
                                 "asyncKeyword": null,
@@ -3775,8 +3775,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1222,
+                        "flags": 1222,
+                        "start": 0,
                         "end": 1227
                     },
                     "name": {
@@ -3798,8 +3798,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1231,
+                                    "flags": 1231,
+                                    "start": 512,
                                     "end": 1238
                                 },
                                 "asyncKeyword": null,
@@ -3840,8 +3840,8 @@ a});
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 1246,
+                                        "flags": 1246,
+                                        "start": 512,
                                         "end": 1248
                                     },
                                     "right": {
@@ -3886,8 +3886,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1256,
+                        "flags": 1256,
+                        "start": 0,
                         "end": 1261
                     },
                     "name": null,
@@ -3902,8 +3902,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1264,
+                                    "flags": 1264,
+                                    "start": 512,
                                     "end": 1271
                                 },
                                 "asyncKeyword": null,
@@ -3955,8 +3955,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1284,
+                        "flags": 1284,
+                        "start": 0,
                         "end": 1289
                     },
                     "name": null,
@@ -3971,8 +3971,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1292,
+                                    "flags": 1292,
+                                    "start": 512,
                                     "end": 1299
                                 },
                                 "asyncKeyword": null,
@@ -4045,8 +4045,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1314,
+                        "flags": 1314,
+                        "start": 0,
                         "end": 1319
                     },
                     "name": null,
@@ -4061,8 +4061,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1322,
+                                    "flags": 1322,
+                                    "start": 512,
                                     "end": 1329
                                 },
                                 "asyncKeyword": null,
@@ -4165,8 +4165,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1348,
+                        "flags": 1348,
+                        "start": 0,
                         "end": 1353
                     },
                     "name": null,
@@ -4181,8 +4181,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1356,
+                                    "flags": 1356,
+                                    "start": 512,
                                     "end": 1363
                                 },
                                 "asyncKeyword": null,
@@ -4227,8 +4227,8 @@ a});
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1372,
+                        "flags": 1372,
+                        "start": 0,
                         "end": 1377
                     },
                     "name": null,
@@ -4243,8 +4243,8 @@ a});
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 1380,
+                                    "flags": 1380,
+                                    "start": 512,
                                     "end": 1387
                                 },
                                 "asyncKeyword": null,

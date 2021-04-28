@@ -28,14 +28,14 @@ x; {}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -67,8 +67,8 @@ x; {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 19,
+                                "flags": 19,
+                                "start": 1,
                                 "end": 27
                             },
                             "name": {
@@ -84,16 +84,16 @@ x; {}
                                 "kind": 279,
                                 "extendsKeyword": {
                                     "kind": 4194391,
-                                    "flags": 768,
-                                    "start": 29,
+                                    "flags": 29,
+                                    "start": 0,
                                     "end": 37
                                 },
                                 "expression": {
                                     "kind": 208,
                                     "awaitToken": {
                                         "kind": 82032,
-                                        "flags": 768,
-                                        "start": 37,
+                                        "flags": 37,
+                                        "start": 0,
                                         "end": 43
                                     },
                                     "expression": {

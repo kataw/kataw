@@ -39,14 +39,14 @@ async function f() { class C { aaa = await } }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -78,8 +78,8 @@ async function f() { class C { aaa = await } }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 26
                             },
                             "name": {
@@ -115,8 +115,8 @@ async function f() { class C { aaa = await } }
                                             "kind": 208,
                                             "awaitToken": {
                                                 "kind": 82032,
-                                                "flags": 768,
-                                                "start": 36,
+                                                "flags": 36,
+                                                "start": 0,
                                                 "end": 42
                                             },
                                             "expression": {

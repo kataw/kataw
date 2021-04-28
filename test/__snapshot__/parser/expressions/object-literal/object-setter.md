@@ -272,8 +272,8 @@
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 768,
-                                                                "start": 54,
+                                                                "flags": 54,
+                                                                "start": 0,
                                                                 "end": 60
                                                             },
                                                             "flags": 768,
@@ -428,8 +428,8 @@
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 768,
-                                                                "start": 91,
+                                                                "flags": 91,
+                                                                "start": 0,
                                                                 "end": 97
                                                             },
                                                             "flags": 768,

@@ -27,14 +27,14 @@ function *f() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -65,8 +65,8 @@ function *f() {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 15,
+                                    "flags": 15,
+                                    "start": 1,
                                     "end": 23
                                 },
                                 "delegate": false,
@@ -83,8 +83,8 @@ function *f() {
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 768,
-                                        "start": 25,
+                                        "flags": 25,
+                                        "start": 512,
                                         "end": 27
                                     },
                                     "right": {
@@ -99,8 +99,8 @@ function *f() {
                                         },
                                         "operatorToken": {
                                             "kind": 4229173,
-                                            "flags": 768,
-                                            "start": 29,
+                                            "flags": 29,
+                                            "start": 512,
                                             "end": 40
                                         },
                                         "right": {

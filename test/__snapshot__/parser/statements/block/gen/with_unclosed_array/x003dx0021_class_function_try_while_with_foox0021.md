@@ -44,16 +44,16 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 2,
+                                "flags": 2,
+                                "start": 512,
                                 "end": 4
                             },
                             "right": {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "start": 512,
                                     "end": 5
                                 },
                                 "expression": {
@@ -61,8 +61,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 768,
-                                        "start": 5,
+                                        "flags": 5,
+                                        "start": 0,
                                         "end": 11
                                     },
                                     "name": null,
@@ -97,8 +97,8 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 11,
+                            "flags": 11,
+                            "start": 0,
                             "end": 20
                         },
                         "generatorToken": null,
@@ -142,8 +142,8 @@
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 768,
-                            "start": 20,
+                            "flags": 20,
+                            "start": 0,
                             "end": 24
                         },
                         "block": {
@@ -184,8 +184,8 @@
                         "kind": 153,
                         "withKeyword": {
                             "kind": 37757029,
-                            "flags": 768,
-                            "start": 30,
+                            "flags": 30,
+                            "start": 0,
                             "end": 35
                         },
                         "expression": {
@@ -202,8 +202,8 @@
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 39,
+                                    "flags": 39,
+                                    "start": 512,
                                     "end": 40
                                 },
                                 "expression": {

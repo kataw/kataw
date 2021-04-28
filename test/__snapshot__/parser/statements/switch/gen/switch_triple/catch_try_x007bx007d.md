@@ -23,7 +23,7 @@ switch switch switch catch try {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -49,8 +49,8 @@ switch switch switch catch try {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 13
             },
             "expression": {
@@ -75,8 +75,8 @@ switch switch switch catch try {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 20
             },
             "expression": {

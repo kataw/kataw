@@ -45,7 +45,7 @@ class Foo {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -128,16 +128,16 @@ class Foo {
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 4259886,
-                                                    "flags": 768,
-                                                    "start": 35,
+                                                    "flags": 35,
+                                                    "start": 513,
                                                     "end": 46
                                                 },
                                                 "expression": {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 768,
-                                                        "start": 51,
+                                                        "flags": 51,
+                                                        "start": 0,
                                                         "end": 53
                                                     },
                                                     "member": {

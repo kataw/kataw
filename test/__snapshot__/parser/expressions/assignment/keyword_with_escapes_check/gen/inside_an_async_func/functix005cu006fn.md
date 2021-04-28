@@ -23,15 +23,15 @@ async () => {  functi\u006fn = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -48,8 +48,8 @@ async () => {  functi\u006fn = x  }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 327680,
                                 "end": 28
                             },
                             "generatorToken": null,

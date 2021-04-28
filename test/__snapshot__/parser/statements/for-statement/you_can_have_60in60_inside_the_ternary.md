@@ -38,7 +38,7 @@ for (true ? a in b : {}; false; ) ;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,8 +53,8 @@ for (true ? a in b : {}; false; ) ;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 0,
                     "end": 11
                 },
                 "consequent": {
@@ -69,8 +69,8 @@ for (true ? a in b : {}; false; ) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 13,
+                        "flags": 13,
+                        "start": 512,
                         "end": 16
                     },
                     "right": {
@@ -87,8 +87,8 @@ for (true ? a in b : {}; false; ) ;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 18,
+                    "flags": 18,
+                    "start": 0,
                     "end": 20
                 },
                 "alternate": {

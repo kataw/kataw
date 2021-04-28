@@ -25,7 +25,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -214,7 +214,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 41951307,
-                            "flags": 768,
+                            "flags": 641,
                             "start": 87,
                             "end": 95
                         },
@@ -311,7 +311,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                             "start": 95,
                             "end": 117
                         },
-                        "flags": 129,
+                        "flags": 128,
                         "start": 87,
                         "end": 118
                     },
@@ -319,8 +319,8 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         "kind": 161,
                         "returnKeyword": {
                             "kind": 37757022,
-                            "flags": 768,
-                            "start": 118,
+                            "flags": 118,
+                            "start": 1,
                             "end": 130
                         },
                         "expression": {

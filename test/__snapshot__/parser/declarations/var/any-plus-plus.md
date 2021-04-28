@@ -30,7 +30,7 @@ var z = x + x;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,8 +52,8 @@ var z = x + x;
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 768,
-                                "start": 6,
+                                "flags": 6,
+                                "start": 512,
                                 "end": 10
                             },
                             "flags": 0,
@@ -102,8 +102,8 @@ var z = x + x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 18,
+                    "flags": 18,
+                    "start": 512,
                     "end": 20
                 },
                 "right": {
@@ -127,8 +127,8 @@ var z = x + x;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 29,
+                "flags": 29,
+                "start": 1,
                 "end": 33
             },
             "declarationList": {
@@ -158,8 +158,8 @@ var z = x + x;
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 768,
-                                "start": 39,
+                                "flags": 39,
+                                "start": 512,
                                 "end": 41
                             },
                             "right": {

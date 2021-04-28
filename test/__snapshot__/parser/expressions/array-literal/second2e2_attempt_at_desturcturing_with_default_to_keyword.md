@@ -26,8 +26,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 0,
                                 "end": 4
                             },
                             "argument": {
@@ -46,8 +46,8 @@
                                                         "asyncKeyword": null,
                                                         "functionKeyword": {
                                                             "kind": 37822554,
-                                                            "flags": 768,
-                                                            "start": 7,
+                                                            "flags": 7,
+                                                            "start": 0,
                                                             "end": 16
                                                         },
                                                         "generatorToken": null,
@@ -83,8 +83,8 @@
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 16,
+                                                        "flags": 16,
+                                                        "start": 512,
                                                         "end": 17
                                                     },
                                                     "right": {
@@ -124,8 +124,8 @@
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 19,
+                                    "flags": 19,
+                                    "start": 512,
                                     "end": 21
                                 },
                                 "right": {

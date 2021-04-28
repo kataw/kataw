@@ -23,7 +23,7 @@ switch( try { !xxx case
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -49,8 +49,8 @@ switch( try { !xxx case
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 11
             },
             "block": {
@@ -64,8 +64,8 @@ switch( try { !xxx case
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 13,
+                                    "flags": 13,
+                                    "start": 512,
                                     "end": 15
                                 },
                                 "expression": {

@@ -38,7 +38,7 @@ for (const ...x in y){}
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -94,8 +94,8 @@ for (const ...x in y){}
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 512,
                     "end": 18
                 },
                 "right": {

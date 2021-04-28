@@ -23,8 +23,8 @@ expo\u0072t = x;
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 327680,
                 "end": 11
             },
             "declaration": null,

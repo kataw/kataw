@@ -38,7 +38,7 @@ const x = ...y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },

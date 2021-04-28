@@ -43,8 +43,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -126,8 +126,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 19,
+                        "flags": 19,
+                        "start": 512,
                         "end": 21
                     },
                     "right": {
@@ -200,8 +200,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 34,
+                    "flags": 34,
+                    "start": 512,
                     "end": 36
                 },
                 "right": {
@@ -283,8 +283,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 52,
+                        "flags": 52,
+                        "start": 512,
                         "end": 54
                     },
                     "right": {
@@ -328,8 +328,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 60,
+                    "flags": 60,
+                    "start": 512,
                     "end": 62
                 },
                 "right": {
@@ -411,8 +411,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 78,
+                        "flags": 78,
+                        "start": 512,
                         "end": 80
                     },
                     "right": {
@@ -440,8 +440,8 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 88,
+                                            "flags": 88,
+                                            "start": 512,
                                             "end": 90
                                         },
                                         "right": {
@@ -463,8 +463,8 @@ q = {"foo": super = x} = x;
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 768,
-                                                                "start": 94,
+                                                                "flags": 94,
+                                                                "start": 512,
                                                                 "end": 95
                                                             },
                                                             "right": {
@@ -546,8 +546,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 104,
+                    "flags": 104,
+                    "start": 512,
                     "end": 106
                 },
                 "right": {
@@ -629,8 +629,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 122,
+                        "flags": 122,
+                        "start": 512,
                         "end": 124
                     },
                     "right": {
@@ -667,8 +667,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 137,
+                    "flags": 137,
+                    "start": 512,
                     "end": 139
                 },
                 "right": {
@@ -750,8 +750,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 155,
+                        "flags": 155,
+                        "start": 512,
                         "end": 157
                     },
                     "right": {
@@ -787,8 +787,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 165,
+                    "flags": 165,
+                    "start": 512,
                     "end": 167
                 },
                 "right": {
@@ -870,8 +870,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 183,
+                        "flags": 183,
+                        "start": 512,
                         "end": 185
                     },
                     "right": {
@@ -908,8 +908,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 191,
+                    "flags": 191,
+                    "start": 512,
                     "end": 193
                 },
                 "right": {
@@ -991,8 +991,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 209,
+                        "flags": 209,
+                        "start": 512,
                         "end": 211
                     },
                     "right": {
@@ -1028,8 +1028,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 220,
+                    "flags": 220,
+                    "start": 512,
                     "end": 222
                 },
                 "right": {
@@ -1111,8 +1111,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 238,
+                        "flags": 238,
+                        "start": 512,
                         "end": 240
                     },
                     "right": {
@@ -1149,8 +1149,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 245,
+                    "flags": 245,
+                    "start": 512,
                     "end": 247
                 },
                 "right": {
@@ -1232,8 +1232,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 263,
+                        "flags": 263,
+                        "start": 512,
                         "end": 265
                     },
                     "right": {
@@ -1299,8 +1299,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 280,
+                    "flags": 280,
+                    "start": 512,
                     "end": 282
                 },
                 "right": {
@@ -1329,8 +1329,8 @@ q = {"foo": super = x} = x;
                                     },
                                     "operatorToken": {
                                         "kind": 4133,
-                                        "flags": 768,
-                                        "start": 292,
+                                        "flags": 292,
+                                        "start": 512,
                                         "end": 295
                                     },
                                     "right": {
@@ -1396,8 +1396,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 302,
+                    "flags": 302,
+                    "start": 512,
                     "end": 304
                 },
                 "right": {
@@ -1426,8 +1426,8 @@ q = {"foo": super = x} = x;
                                     },
                                     "operatorToken": {
                                         "kind": 4133,
-                                        "flags": 768,
-                                        "start": 312,
+                                        "flags": 312,
+                                        "start": 512,
                                         "end": 315
                                     },
                                     "right": {
@@ -1487,8 +1487,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 322,
+                    "flags": 322,
+                    "start": 512,
                     "end": 324
                 },
                 "right": {
@@ -1502,8 +1502,8 @@ q = {"foo": super = x} = x;
                                     "kind": 127,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 768,
-                                        "start": 332,
+                                        "flags": 332,
+                                        "start": 512,
                                         "end": 335
                                     },
                                     "expression": {
@@ -1578,8 +1578,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 341,
+                    "flags": 341,
+                    "start": 512,
                     "end": 343
                 },
                 "right": {
@@ -1603,8 +1603,8 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 357,
+                                            "flags": 357,
+                                            "start": 512,
                                             "end": 359
                                         },
                                         "right": {
@@ -1644,8 +1644,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 362,
+                        "flags": 362,
+                        "start": 512,
                         "end": 364
                     },
                     "right": {
@@ -1682,8 +1682,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 369,
+                    "flags": 369,
+                    "start": 512,
                     "end": 371
                 },
                 "right": {
@@ -1706,8 +1706,8 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 384,
+                                            "flags": 384,
+                                            "start": 512,
                                             "end": 386
                                         },
                                         "right": {
@@ -1747,8 +1747,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 389,
+                        "flags": 389,
+                        "start": 512,
                         "end": 391
                     },
                     "right": {
@@ -1785,8 +1785,8 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 396,
+                    "flags": 396,
+                    "start": 512,
                     "end": 398
                 },
                 "right": {
@@ -1806,8 +1806,8 @@ q = {"foo": super = x} = x;
                                                 "kind": 225,
                                                 "superKeyword": {
                                                     "kind": 4259935,
-                                                    "flags": 768,
-                                                    "start": 406,
+                                                    "flags": 406,
+                                                    "start": 0,
                                                     "end": 412
                                                 },
                                                 "flags": 768,
@@ -1827,8 +1827,8 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 412,
+                                            "flags": 412,
+                                            "start": 512,
                                             "end": 414
                                         },
                                         "right": {
@@ -1868,8 +1868,8 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 417,
+                        "flags": 417,
+                        "start": 512,
                         "end": 419
                     },
                     "right": {

@@ -21,7 +21,7 @@ new (a,b) => x
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -29,8 +29,8 @@ new (a,b) => x
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 12
                     },
                     "typeParameters": null,

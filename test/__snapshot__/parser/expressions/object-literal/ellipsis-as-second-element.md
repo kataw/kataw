@@ -29,8 +29,8 @@ x = {x, ...y}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -50,8 +50,8 @@ x = {x, ...y}
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 768,
-                                    "start": 7,
+                                    "flags": 7,
+                                    "start": 0,
                                     "end": 11
                                 },
                                 "argument": {

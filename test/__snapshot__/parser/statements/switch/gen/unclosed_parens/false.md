@@ -23,7 +23,7 @@ switch( false case
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,8 +41,8 @@ switch( false case
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 13,
+                            "flags": 13,
+                            "start": 0,
                             "end": 18
                         },
                         "expression": {

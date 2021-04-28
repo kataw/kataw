@@ -19,7 +19,7 @@ switch([x = y]) { case y: foo }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -40,8 +40,8 @@ switch([x = y]) { case y: foo }
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 512,
                                 "end": 11
                             },
                             "right": {
@@ -73,8 +73,8 @@ switch([x = y]) { case y: foo }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 0,
                             "end": 22
                         },
                         "expression": {

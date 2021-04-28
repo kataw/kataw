@@ -34,8 +34,8 @@ foo: { while(z) continue foo }
                             "kind": 154,
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 768,
-                                "start": 6,
+                                "flags": 6,
+                                "start": 0,
                                 "end": 12
                             },
                             "expression": {
@@ -50,8 +50,8 @@ foo: { while(z) continue foo }
                                 "kind": 172,
                                 "continueKeyword": {
                                     "kind": 37757009,
-                                    "flags": 768,
-                                    "start": 15,
+                                    "flags": 15,
+                                    "start": 0,
                                     "end": 24
                                 },
                                 "label": {

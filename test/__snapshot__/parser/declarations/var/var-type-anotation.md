@@ -28,7 +28,7 @@ var foo = ((): number => bar);
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,8 +53,8 @@ var foo = ((): number => bar);
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 21,
+                                    "flags": 21,
+                                    "start": 0,
                                     "end": 24
                                 },
                                 "typeParameters": null,
@@ -64,8 +64,8 @@ var foo = ((): number => bar);
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 14,
+                                        "flags": 14,
+                                        "start": 512,
                                         "end": 21
                                     },
                                     "flags": 0,

@@ -29,7 +29,7 @@ type C = { ...A&B };
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 6
             },
@@ -50,8 +50,8 @@ type C = { ...A&B };
                         "kind": 247,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 10,
+                            "flags": 10,
+                            "start": 0,
                             "end": 14
                         },
                         "type": {

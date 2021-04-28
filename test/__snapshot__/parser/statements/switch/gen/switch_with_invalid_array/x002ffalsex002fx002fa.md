@@ -23,7 +23,7 @@ switch [catch] /false//a
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -102,8 +102,8 @@ switch [catch] /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 22,
+                    "flags": 22,
+                    "start": 512,
                     "end": 23
                 },
                 "right": {

@@ -38,8 +38,8 @@ class C { foo() { this.#a = 1; }}
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 0,
                             "end": 6
                         },
                         "name": null,
@@ -57,8 +57,8 @@ class C { foo() { this.#a = 1; }}
                                     "setKeyword": null,
                                     "getKeyword": {
                                         "kind": 82031,
-                                        "flags": 768,
-                                        "start": 8,
+                                        "flags": 8,
+                                        "start": 512,
                                         "end": 12
                                     },
                                     "method": {
@@ -130,8 +130,8 @@ class C { foo() { this.#a = 1; }}
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 768,
-                                                                "start": 30,
+                                                                "flags": 30,
+                                                                "start": 512,
                                                                 "end": 32
                                                             },
                                                             "right": {
@@ -189,8 +189,8 @@ class C { foo() { this.#a = 1; }}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 44,
+                                "flags": 44,
+                                "start": 0,
                                 "end": 49
                             },
                             "name": null,
@@ -207,8 +207,8 @@ class C { foo() { this.#a = 1; }}
                                         "asyncKeyword": null,
                                         "setKeyword": {
                                             "kind": 82031,
-                                            "flags": 768,
-                                            "start": 51,
+                                            "flags": 51,
+                                            "start": 512,
                                             "end": 55
                                         },
                                         "getKeyword": null,
@@ -241,8 +241,8 @@ class C { foo() { this.#a = 1; }}
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 768,
-                                                                "start": 62,
+                                                                "flags": 62,
+                                                                "start": 0,
                                                                 "end": 69
                                                             },
                                                             "expression": {
@@ -315,8 +315,8 @@ class C { foo() { this.#a = 1; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 82,
+                "flags": 82,
+                "start": 1,
                 "end": 89
             },
             "name": {
@@ -332,8 +332,8 @@ class C { foo() { this.#a = 1; }}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 91,
+                    "flags": 91,
+                    "start": 0,
                     "end": 99
                 },
                 "expression": {
@@ -390,8 +390,8 @@ class C { foo() { this.#a = 1; }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 113,
+                                                "flags": 113,
+                                                "start": 0,
                                                 "end": 120
                                             },
                                             "expression": {
@@ -450,8 +450,8 @@ class C { foo() { this.#a = 1; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 132,
+                "flags": 132,
+                "start": 1,
                 "end": 139
             },
             "name": {
@@ -526,8 +526,8 @@ class C { foo() { this.#a = 1; }}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 159,
+                                                    "flags": 159,
+                                                    "start": 512,
                                                     "end": 161
                                                 },
                                                 "right": {

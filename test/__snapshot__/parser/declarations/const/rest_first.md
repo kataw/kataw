@@ -38,7 +38,7 @@ const ...a = 1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -67,8 +67,8 @@ const ...a = 1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 12
                 },
                 "right": {

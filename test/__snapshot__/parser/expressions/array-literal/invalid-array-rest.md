@@ -68,8 +68,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 5,
+                                "flags": 5,
+                                "start": 0,
                                 "end": 8
                             },
                             "argument": {
@@ -131,8 +131,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 0,
                                 "end": 25
                             },
                             "argument": {
@@ -180,8 +180,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 36,
+                                "flags": 36,
+                                "start": 0,
                                 "end": 39
                             },
                             "argument": {
@@ -237,8 +237,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 52,
+                                "flags": 52,
+                                "start": 0,
                                 "end": 55
                             },
                             "argument": {
@@ -292,8 +292,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 67,
+                                "flags": 67,
+                                "start": 0,
                                 "end": 70
                             },
                             "argument": {
@@ -333,8 +333,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 79,
+                                "flags": 79,
+                                "start": 0,
                                 "end": 82
                             },
                             "argument": {
@@ -353,8 +353,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 87,
+                                "flags": 87,
+                                "start": 0,
                                 "end": 90
                             },
                             "argument": {
@@ -410,8 +410,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 103,
+                                "flags": 103,
+                                "start": 0,
                                 "end": 106
                             },
                             "argument": {
@@ -430,8 +430,8 @@
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 111,
+                                "flags": 111,
+                                "start": 0,
                                 "end": 114
                             },
                             "argument": {

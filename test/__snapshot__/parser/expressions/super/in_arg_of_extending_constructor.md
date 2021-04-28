@@ -21,7 +21,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,8 +38,8 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -96,16 +96,16 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 34,
+                                                "flags": 34,
+                                                "start": 0,
                                                 "end": 41
                                             },
                                             "expression": {
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 768,
-                                                    "start": 55,
+                                                    "flags": 55,
+                                                    "start": 0,
                                                     "end": 58
                                                 },
                                                 "typeParameters": null,
@@ -122,8 +122,8 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 44,
+                                                            "flags": 44,
+                                                            "start": 512,
                                                             "end": 45
                                                         },
                                                         "right": {
@@ -132,8 +132,8 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 768,
-                                                                    "start": 45,
+                                                                    "flags": 45,
+                                                                    "start": 0,
                                                                     "end": 50
                                                                 },
                                                                 "flags": 768,

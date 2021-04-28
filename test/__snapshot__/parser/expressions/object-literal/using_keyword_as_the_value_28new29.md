@@ -29,8 +29,8 @@ s = {s: new}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -44,8 +44,8 @@ s = {s: new}
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 768,
-                                        "start": 7,
+                                        "flags": 7,
+                                        "start": 0,
                                         "end": 11
                                     },
                                     "expression": {

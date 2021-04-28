@@ -23,15 +23,15 @@ async () => {  c\u006fntinue = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -46,8 +46,8 @@ async () => {  c\u006fntinue = x  }
                             "kind": 172,
                             "continueKeyword": {
                                 "kind": 37757009,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 327680,
                                 "end": 28
                             },
                             "label": {

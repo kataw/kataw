@@ -25,8 +25,8 @@ true;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 1,
                 "end": 4
             },
             "declarationList": {
@@ -72,8 +72,8 @@ true;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 513,
                     "end": 12
                 },
                 "right": {

@@ -34,8 +34,8 @@
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 768,
-                                    "start": 1,
+                                    "flags": 1,
+                                    "start": 0,
                                     "end": 4
                                 },
                                 "argument": {
@@ -44,8 +44,8 @@
                                         "kind": 207,
                                         "importKeyword": {
                                             "kind": 37814364,
-                                            "flags": 768,
-                                            "start": 4,
+                                            "flags": 4,
+                                            "start": 0,
                                             "end": 10
                                         },
                                         "flags": 10,
@@ -72,8 +72,8 @@
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 16,
+                    "flags": 16,
+                    "start": 512,
                     "end": 18
                 },
                 "right": {

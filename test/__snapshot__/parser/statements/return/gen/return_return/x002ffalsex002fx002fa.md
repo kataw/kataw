@@ -23,7 +23,7 @@ return /false//a return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,8 +38,8 @@ return /false//a return
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 512,
                     "end": 15
                 },
                 "right": {
@@ -62,8 +62,8 @@ return /false//a return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 16,
+                "flags": 16,
+                "start": 0,
                 "end": 23
             },
             "expression": null,

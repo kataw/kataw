@@ -23,15 +23,15 @@ async () => { await import(x) }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -48,8 +48,8 @@ async () => { await import(x) }
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 768,
-                                    "start": 13,
+                                    "flags": 13,
+                                    "start": 0,
                                     "end": 19
                                 },
                                 "expression": {
@@ -58,8 +58,8 @@ async () => { await import(x) }
                                         "kind": 206,
                                         "importKeyword": {
                                             "kind": 37814364,
-                                            "flags": 768,
-                                            "start": 19,
+                                            "flags": 19,
+                                            "start": 0,
                                             "end": 26
                                         },
                                         "expression": {

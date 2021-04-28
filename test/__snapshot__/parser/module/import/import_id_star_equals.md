@@ -25,7 +25,7 @@ import a, *= from 'f';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -40,8 +40,8 @@ import a, *= from 'f';
                 },
                 "operatorToken": {
                     "kind": 4132,
-                    "flags": 768,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 512,
                     "end": 12
                 },
                 "right": {

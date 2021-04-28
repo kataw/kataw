@@ -51,8 +51,8 @@ x({[new A()]:y})
                                                 "kind": 210,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 768,
-                                                    "start": 4,
+                                                    "flags": 4,
+                                                    "start": 0,
                                                     "end": 7
                                                 },
                                                 "expression": {

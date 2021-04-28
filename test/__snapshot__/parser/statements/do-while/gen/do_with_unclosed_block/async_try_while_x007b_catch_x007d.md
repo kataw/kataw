@@ -23,7 +23,7 @@ do {} while (x) { async try while { catch }
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,8 +37,8 @@ do {} while (x) { async try while { catch }
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 11
             },
             "statement": {
@@ -82,8 +82,8 @@ do {} while (x) { async try while { catch }
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 768,
-                            "start": 23,
+                            "flags": 23,
+                            "start": 0,
                             "end": 27
                         },
                         "block": {

@@ -21,14 +21,14 @@ function *f(){  ({yield} = x)  }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -85,8 +85,8 @@ function *f(){  ({yield} = x)  }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 512,
                                         "end": 26
                                     },
                                     "right": {

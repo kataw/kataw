@@ -32,7 +32,7 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 13,
                 "end": 17
             },
@@ -61,8 +61,8 @@
                                             "kind": 203,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 768,
-                                                "start": 22,
+                                                "flags": 22,
+                                                "start": 512,
                                                 "end": 26
                                             },
                                             "binding": {

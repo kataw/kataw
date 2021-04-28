@@ -64,8 +64,8 @@ opaque stuff: Box<T> = Container<T>
                         },
                         "operatorToken": {
                             "kind": 536971330,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 512,
                             "end": 18
                         },
                         "right": {
@@ -82,8 +82,8 @@ opaque stuff: Box<T> = Container<T>
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 768,
-                        "start": 19,
+                        "flags": 19,
+                        "start": 512,
                         "end": 20
                     },
                     "right": {
@@ -121,8 +121,8 @@ opaque stuff: Box<T> = Container<T>
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 512,
                         "end": 33
                     },
                     "right": {
@@ -139,8 +139,8 @@ opaque stuff: Box<T> = Container<T>
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 34,
+                    "flags": 34,
+                    "start": 512,
                     "end": 35
                 },
                 "right": {

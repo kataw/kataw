@@ -40,7 +40,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -97,8 +97,8 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 24,
+                                                "flags": 24,
+                                                "start": 0,
                                                 "end": 32
                                             },
                                             "name": {
@@ -114,8 +114,8 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 768,
-                                                    "start": 34,
+                                                    "flags": 34,
+                                                    "start": 0,
                                                     "end": 42
                                                 },
                                                 "expression": {
@@ -152,8 +152,8 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                         "kind": 225,
                                                                         "superKeyword": {
                                                                             "kind": 4259935,
-                                                                            "flags": 768,
-                                                                            "start": 48,
+                                                                            "flags": 48,
+                                                                            "start": 0,
                                                                             "end": 53
                                                                         },
                                                                         "flags": 768,

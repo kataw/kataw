@@ -22,7 +22,7 @@ for (--x in x) ;
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -31,8 +31,8 @@ for (--x in x) ;
                 "kind": 128,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 512,
                     "end": 7
                 },
                 "expression": {

@@ -19,15 +19,15 @@ async () => { var \u0061wait; }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -43,8 +43,8 @@ async () => { var \u0061wait; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 0,
                                 "end": 17
                             },
                             "declarationList": {

@@ -31,8 +31,8 @@ else catch { try
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 768,
-                                "start": 12,
+                                "flags": 12,
+                                "start": 0,
                                 "end": 16
                             },
                             "block": {

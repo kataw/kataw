@@ -68,8 +68,8 @@
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 14,
+                                                        "flags": 14,
+                                                        "start": 512,
                                                         "end": 16
                                                     },
                                                     "right": {
@@ -78,8 +78,8 @@
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 768,
-                                                                "start": 16,
+                                                                "flags": 16,
+                                                                "start": 0,
                                                                 "end": 22
                                                             },
                                                             "flags": 768,

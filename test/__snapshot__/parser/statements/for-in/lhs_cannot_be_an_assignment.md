@@ -27,7 +27,7 @@ for (x = y in z) ;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,8 +43,8 @@ for (x = y in z) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -59,8 +59,8 @@ for (x = y in z) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 512,
                         "end": 13
                     },
                     "right": {

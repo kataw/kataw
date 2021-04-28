@@ -19,7 +19,7 @@ while (foo) bar;
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },

@@ -68,8 +68,8 @@ z(z(z(a ? b : c++)));
                                                     },
                                                     "questionToken": {
                                                         "kind": 134217750,
-                                                        "flags": 768,
-                                                        "start": 7,
+                                                        "flags": 7,
+                                                        "start": 0,
                                                         "end": 9
                                                     },
                                                     "consequent": {
@@ -82,16 +82,16 @@ z(z(z(a ? b : c++)));
                                                     },
                                                     "colonToken": {
                                                         "kind": 21,
-                                                        "flags": 768,
-                                                        "start": 11,
+                                                        "flags": 11,
+                                                        "start": 0,
                                                         "end": 13
                                                     },
                                                     "alternate": {
                                                         "kind": 127,
                                                         "operandToken": {
                                                             "kind": 196635,
-                                                            "flags": 768,
-                                                            "start": 15,
+                                                            "flags": 15,
+                                                            "start": 512,
                                                             "end": 17
                                                         },
                                                         "expression": {

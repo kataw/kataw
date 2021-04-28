@@ -38,7 +38,7 @@ for ({x,...x}=x in x) ;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -61,8 +61,8 @@ for ({x,...x}=x in x) ;
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 768,
-                                    "start": 8,
+                                    "flags": 8,
+                                    "start": 0,
                                     "end": 11
                                 },
                                 "argument": {
@@ -90,8 +90,8 @@ for ({x,...x}=x in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 13,
+                    "flags": 13,
+                    "start": 512,
                     "end": 14
                 },
                 "right": {
@@ -106,8 +106,8 @@ for ({x,...x}=x in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 18
                     },
                     "right": {

@@ -25,16 +25,16 @@ delete x => ok
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 6
                 },
                 "expression": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 0,
                         "end": 11
                     },
                     "typeParameters": null,

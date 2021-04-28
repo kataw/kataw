@@ -23,7 +23,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -47,14 +47,14 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 0,
                                 "end": 18
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 512,
                                 "end": 19
                             },
                             "name": null,
@@ -76,8 +76,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 768,
-                                                "start": 23,
+                                                "flags": 23,
+                                                "start": 0,
                                                 "end": 27
                                             },
                                             "block": {
@@ -91,8 +91,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 29,
+                                                                    "flags": 29,
+                                                                    "start": 0,
                                                                     "end": 34
                                                                 },
                                                                 "delegate": false,
@@ -126,8 +126,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                             "catchClause": null,
                                             "finallyKeyword": {
                                                 "kind": 37757016,
-                                                "flags": 768,
-                                                "start": 38,
+                                                "flags": 38,
+                                                "start": 0,
                                                 "end": 46
                                             },
                                             "finallyBlock": {
@@ -141,8 +141,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 48,
+                                                                    "flags": 48,
+                                                                    "start": 0,
                                                                     "end": 53
                                                                 },
                                                                 "delegate": false,
@@ -167,8 +167,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 768,
-                                                                "start": 57,
+                                                                "flags": 57,
+                                                                "start": 0,
                                                                 "end": 64
                                                             },
                                                             "expression": {

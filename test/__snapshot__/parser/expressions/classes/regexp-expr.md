@@ -26,8 +26,8 @@ typeof class{}
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 768,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 512,
                             "end": 6
                         },
                         "expression": {
@@ -35,8 +35,8 @@ typeof class{}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 6,
+                                "flags": 6,
+                                "start": 0,
                                 "end": 12
                             },
                             "name": null,
@@ -59,8 +59,8 @@ typeof class{}
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 14,
+                        "flags": 14,
+                        "start": 513,
                         "end": 16
                     },
                     "right": {
@@ -77,8 +77,8 @@ typeof class{}
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 512,
                     "end": 20
                 },
                 "right": {

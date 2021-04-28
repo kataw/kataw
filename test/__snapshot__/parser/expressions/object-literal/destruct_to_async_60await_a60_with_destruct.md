@@ -20,14 +20,14 @@ async function g() {   s = {"foo": await a = x} = x   }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -67,8 +67,8 @@ async function g() {   s = {"foo": await a = x} = x   }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 24,
+                                    "flags": 24,
+                                    "start": 512,
                                     "end": 26
                                 },
                                 "right": {
@@ -86,8 +86,8 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "kind": 208,
                                                             "awaitToken": {
                                                                 "kind": 82032,
-                                                                "flags": 768,
-                                                                "start": 34,
+                                                                "flags": 34,
+                                                                "start": 0,
                                                                 "end": 40
                                                             },
                                                             "expression": {
@@ -104,8 +104,8 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 42,
+                                                            "flags": 42,
+                                                            "start": 512,
                                                             "end": 44
                                                         },
                                                         "right": {
@@ -145,8 +145,8 @@ async function g() {   s = {"foo": await a = x} = x   }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 47,
+                                        "flags": 47,
+                                        "start": 512,
                                         "end": 49
                                     },
                                     "right": {

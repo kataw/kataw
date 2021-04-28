@@ -25,7 +25,7 @@ export * from x
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },

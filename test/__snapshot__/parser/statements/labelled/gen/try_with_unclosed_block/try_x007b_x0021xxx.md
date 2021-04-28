@@ -23,7 +23,7 @@ try {} finally(x) { try { !xxx
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,8 +44,8 @@ try {} finally(x) { try { !xxx
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 14
             },
             "finallyBlock": {
@@ -95,8 +95,8 @@ try {} finally(x) { try { !xxx
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 768,
-                            "start": 19,
+                            "flags": 19,
+                            "start": 0,
                             "end": 23
                         },
                         "block": {
@@ -110,8 +110,8 @@ try {} finally(x) { try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 768,
-                                                "start": 25,
+                                                "flags": 25,
+                                                "start": 512,
                                                 "end": 27
                                             },
                                             "expression": {

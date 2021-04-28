@@ -23,7 +23,7 @@ try [catch] /false//a
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -111,8 +111,8 @@ try [catch] /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 512,
                     "end": 20
                 },
                 "right": {

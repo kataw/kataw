@@ -25,7 +25,7 @@ export let {...x} = y
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,7 +41,7 @@ export let {...x} = y
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 6,
                 "end": 10
             },
@@ -59,8 +59,8 @@ export let {...x} = y
                                         "kind": 222,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 12,
+                                            "flags": 12,
+                                            "start": 512,
                                             "end": 15
                                         },
                                         "left": {

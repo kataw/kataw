@@ -29,8 +29,8 @@ foo: break foo;
                 "kind": 150,
                 "breakKeyword": {
                     "kind": 37757005,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 0,
                     "end": 10
                 },
                 "label": {

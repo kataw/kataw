@@ -35,15 +35,15 @@ f(async
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 0,
                                 "end": 12
                             },
                             "typeParameters": null,
                             "parameters": [],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 2,
                                 "end": 7
                             },

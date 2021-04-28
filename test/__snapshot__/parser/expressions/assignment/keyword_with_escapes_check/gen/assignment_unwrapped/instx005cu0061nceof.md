@@ -32,8 +32,8 @@ inst\u0061nceof = x;
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 328192,
                     "end": 15
                 },
                 "right": {

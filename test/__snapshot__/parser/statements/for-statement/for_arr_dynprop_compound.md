@@ -27,7 +27,7 @@ for ([][y] <<= p;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -63,8 +63,8 @@ for ([][y] <<= p;;) x;
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 14
                 },
                 "right": {

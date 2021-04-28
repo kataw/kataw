@@ -29,8 +29,8 @@ result = [...x[yield]] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -44,8 +44,8 @@ result = [...x[yield]] = vals;
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "start": 0,
                                         "end": 13
                                     },
                                     "argument": {
@@ -86,8 +86,8 @@ result = [...x[yield]] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 22,
+                        "flags": 22,
+                        "start": 512,
                         "end": 24
                     },
                     "right": {

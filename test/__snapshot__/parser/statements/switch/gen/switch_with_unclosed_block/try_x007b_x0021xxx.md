@@ -23,7 +23,7 @@ switch {} default(x) { try { !xxx
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -49,8 +49,8 @@ switch {} default(x) { try { !xxx
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 0,
                             "end": 17
                         },
                         "statements": [
@@ -83,8 +83,8 @@ switch {} default(x) { try { !xxx
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 768,
-                                                "start": 22,
+                                                "flags": 22,
+                                                "start": 0,
                                                 "end": 26
                                             },
                                             "block": {
@@ -98,8 +98,8 @@ switch {} default(x) { try { !xxx
                                                                 "kind": 126,
                                                                 "operandToken": {
                                                                     "kind": 65584,
-                                                                    "flags": 768,
-                                                                    "start": 28,
+                                                                    "flags": 28,
+                                                                    "start": 512,
                                                                     "end": 30
                                                                 },
                                                                 "expression": {

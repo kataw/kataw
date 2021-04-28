@@ -23,7 +23,7 @@ for (;;) async function f(){}
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,14 +36,14 @@ for (;;) async function f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 512,
                         "end": 14
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 14,
+                        "flags": 14,
+                        "start": 0,
                         "end": 23
                     },
                     "generatorToken": null,

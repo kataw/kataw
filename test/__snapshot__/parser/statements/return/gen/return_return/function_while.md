@@ -23,7 +23,7 @@ return function while return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -32,8 +32,8 @@ return function while return
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 0,
                     "end": 15
                 },
                 "generatorToken": null,
@@ -75,8 +75,8 @@ return function while return
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 15,
+                "flags": 15,
+                "start": 0,
                 "end": 21
             },
             "expression": {
@@ -90,8 +90,8 @@ return function while return
                 "kind": 161,
                 "returnKeyword": {
                     "kind": 37757022,
-                    "flags": 768,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 0,
                     "end": 28
                 },
                 "expression": null,

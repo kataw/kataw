@@ -32,7 +32,7 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -77,8 +77,8 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 1,
                 "end": 18
             },
             "declarationList": {
@@ -115,8 +115,8 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 21,
+                "flags": 21,
+                "start": 1,
                 "end": 26
             },
             "declarationList": {
@@ -153,8 +153,8 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 34,
+                "flags": 34,
+                "start": 1,
                 "end": 38
             },
             "declarationList": {
@@ -213,8 +213,8 @@ result = [ x = yield ] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 57,
+                    "flags": 57,
+                    "start": 512,
                     "end": 59
                 },
                 "right": {
@@ -236,8 +236,8 @@ result = [ x = yield ] = vals;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 63,
+                                        "flags": 63,
+                                        "start": 512,
                                         "end": 65
                                     },
                                     "right": {
@@ -264,8 +264,8 @@ result = [ x = yield ] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 73,
+                        "flags": 73,
+                        "start": 512,
                         "end": 75
                     },
                     "right": {

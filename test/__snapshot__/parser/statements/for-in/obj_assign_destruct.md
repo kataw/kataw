@@ -38,7 +38,7 @@ for ({x:a.b}=x in x) ;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -98,8 +98,8 @@ for ({x:a.b}=x in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {
@@ -114,8 +114,8 @@ for ({x:a.b}=x in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 14,
+                        "flags": 14,
+                        "start": 512,
                         "end": 17
                     },
                     "right": {

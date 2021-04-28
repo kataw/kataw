@@ -19,7 +19,7 @@ switch (x) { case y: break; }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,8 +38,8 @@ switch (x) { case y: break; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 0,
                             "end": 17
                         },
                         "expression": {
@@ -55,8 +55,8 @@ switch (x) { case y: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 0,
                                     "end": 26
                                 },
                                 "label": null,

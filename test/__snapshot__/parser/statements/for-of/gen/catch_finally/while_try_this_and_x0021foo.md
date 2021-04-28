@@ -60,8 +60,8 @@ catch while try this and !foo finally
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 11,
+                "flags": 11,
+                "start": 0,
                 "end": 15
             },
             "block": {
@@ -118,8 +118,8 @@ catch while try this and !foo finally
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 24,
+                    "flags": 24,
+                    "start": 512,
                     "end": 26
                 },
                 "expression": {

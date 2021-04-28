@@ -25,7 +25,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -56,7 +56,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 20,
                                 "end": 24
                             },
@@ -80,14 +80,14 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 30,
+                                                "flags": 30,
+                                                "start": 0,
                                                 "end": 39
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 768,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 512,
                                                 "end": 40
                                             },
                                             "name": null,
@@ -109,8 +109,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                             "kind": 159,
                                                             "tryKeyword": {
                                                                 "kind": 37757027,
-                                                                "flags": 768,
-                                                                "start": 44,
+                                                                "flags": 44,
+                                                                "start": 0,
                                                                 "end": 48
                                                             },
                                                             "block": {
@@ -124,8 +124,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "kind": 229,
                                                                                 "yieldKeyword": {
                                                                                     "kind": 8454253,
-                                                                                    "flags": 768,
-                                                                                    "start": 50,
+                                                                                    "flags": 50,
+                                                                                    "start": 0,
                                                                                     "end": 55
                                                                                 },
                                                                                 "delegate": false,
@@ -159,8 +159,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                             "catchClause": null,
                                                             "finallyKeyword": {
                                                                 "kind": 37757016,
-                                                                "flags": 768,
-                                                                "start": 59,
+                                                                "flags": 59,
+                                                                "start": 0,
                                                                 "end": 67
                                                             },
                                                             "finallyBlock": {
@@ -174,8 +174,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "kind": 229,
                                                                                 "yieldKeyword": {
                                                                                     "kind": 8454253,
-                                                                                    "flags": 768,
-                                                                                    "start": 69,
+                                                                                    "flags": 69,
+                                                                                    "start": 0,
                                                                                     "end": 74
                                                                                 },
                                                                                 "delegate": false,
@@ -200,8 +200,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                             "kind": 161,
                                                                             "returnKeyword": {
                                                                                 "kind": 37757022,
-                                                                                "flags": 768,
-                                                                                "start": 78,
+                                                                                "flags": 78,
+                                                                                "start": 0,
                                                                                 "end": 85
                                                                             },
                                                                             "expression": {

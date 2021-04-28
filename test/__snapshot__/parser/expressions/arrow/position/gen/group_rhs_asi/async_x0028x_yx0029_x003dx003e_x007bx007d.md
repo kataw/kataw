@@ -34,8 +34,8 @@ x *
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -44,8 +44,8 @@ x *
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 0,
                             "end": 20
                         },
                         "typeParameters": null,
@@ -69,7 +69,7 @@ x *
                         ],
                         "asyncToken": {
                             "kind": 82031,
-                            "flags": 768,
+                            "flags": 512,
                             "start": 5,
                             "end": 10
                         },

@@ -23,7 +23,7 @@ switch case function while
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,8 +41,8 @@ switch case function while
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 6,
+                            "flags": 6,
+                            "start": 0,
                             "end": 11
                         },
                         "expression": {
@@ -50,8 +50,8 @@ switch case function while
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 11,
+                                "flags": 11,
+                                "start": 0,
                                 "end": 20
                             },
                             "generatorToken": null,
@@ -90,8 +90,8 @@ switch case function while
                                 "kind": 154,
                                 "whileKeyword": {
                                     "kind": 37757028,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 0,
                                     "end": 26
                                 },
                                 "expression": {

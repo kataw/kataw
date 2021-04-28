@@ -47,8 +47,8 @@
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 768,
-                            "start": 2,
+                            "flags": 2,
+                            "start": 0,
                             "end": 8
                         },
                         "expression": {
@@ -62,8 +62,8 @@
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 768,
-                                "start": 8,
+                                "flags": 8,
+                                "start": 0,
                                 "end": 12
                             },
                             "block": {
@@ -124,8 +124,8 @@
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 768,
-                                "start": 21,
+                                "flags": 21,
+                                "start": 512,
                                 "end": 23
                             },
                             "expression": {

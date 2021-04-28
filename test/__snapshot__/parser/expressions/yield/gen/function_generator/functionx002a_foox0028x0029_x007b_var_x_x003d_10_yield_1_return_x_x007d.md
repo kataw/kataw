@@ -25,14 +25,14 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 0,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -96,14 +96,14 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 0,
                                                 "end": 48
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 768,
-                                                "start": 48,
+                                                "flags": 48,
+                                                "start": 512,
                                                 "end": 49
                                             },
                                             "name": {
@@ -133,8 +133,8 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             "declareKeyword": null,
                                                             "varKeyword": {
                                                                 "kind": 37757002,
-                                                                "flags": 768,
-                                                                "start": 57,
+                                                                "flags": 57,
+                                                                "start": 0,
                                                                 "end": 61
                                                             },
                                                             "declarationList": {
@@ -179,8 +179,8 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 69,
+                                                                    "flags": 69,
+                                                                    "start": 0,
                                                                     "end": 75
                                                                 },
                                                                 "delegate": false,
@@ -205,8 +205,8 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 768,
-                                                                "start": 78,
+                                                                "flags": 78,
+                                                                "start": 0,
                                                                 "end": 85
                                                             },
                                                             "expression": {

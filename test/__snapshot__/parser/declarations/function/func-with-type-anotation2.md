@@ -29,7 +29,7 @@ function foo(numVal: any, otherVal: mixed){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -61,8 +61,8 @@ function foo(numVal: any, otherVal: mixed){}
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 512,
                                 "end": 24
                             },
                             "flags": 0,

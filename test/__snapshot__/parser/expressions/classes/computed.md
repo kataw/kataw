@@ -21,7 +21,7 @@ class A { [x=y](foo) {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -62,8 +62,8 @@ class A { [x=y](foo) {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 12,
+                                        "flags": 12,
+                                        "start": 512,
                                         "end": 13
                                     },
                                     "right": {

@@ -23,7 +23,7 @@ switch( class x {} case
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -32,8 +32,8 @@ switch( class x {} case
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 13
                 },
                 "name": {
@@ -64,8 +64,8 @@ switch( class x {} case
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 0,
                             "end": 23
                         },
                         "expression": {

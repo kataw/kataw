@@ -72,8 +72,8 @@ opaque Ident: Type = SuperType;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 18,
+                        "flags": 18,
+                        "start": 512,
                         "end": 20
                     },
                     "right": {

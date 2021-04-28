@@ -34,7 +34,7 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -110,8 +110,8 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 23,
+                "flags": 23,
+                "start": 1,
                 "end": 27
             },
             "declarationList": {
@@ -148,8 +148,8 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 1,
                 "end": 40
             },
             "declarationList": {
@@ -201,8 +201,8 @@ var callCount = 0;
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 58,
+                                "flags": 58,
+                                "start": 0,
                                 "end": 66
                             },
                             "generatorToken": null,
@@ -732,8 +732,8 @@ var callCount = 0;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4130,
-                                                    "flags": 768,
-                                                    "start": 344,
+                                                    "flags": 344,
+                                                    "start": 512,
                                                     "end": 347
                                                 },
                                                 "right": {
@@ -815,8 +815,8 @@ var callCount = 0;
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 768,
-                                                "start": 371,
+                                                "flags": 371,
+                                                "start": 0,
                                                 "end": 375
                                             },
                                             "argument": {
@@ -831,8 +831,8 @@ var callCount = 0;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 381,
+                                                    "flags": 381,
+                                                    "start": 512,
                                                     "end": 383
                                                 },
                                                 "right": {

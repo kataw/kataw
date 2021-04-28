@@ -42,8 +42,8 @@
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 512,
                     "end": 21
                 },
                 "right": {
@@ -66,8 +66,8 @@
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 24,
+                "flags": 24,
+                "start": 0,
                 "end": 31
             },
             "expression": {
@@ -96,8 +96,8 @@
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 41,
+                    "flags": 41,
+                    "start": 512,
                     "end": 43
                 },
                 "right": {

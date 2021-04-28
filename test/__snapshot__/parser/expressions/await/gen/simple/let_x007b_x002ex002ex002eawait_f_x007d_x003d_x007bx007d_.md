@@ -23,7 +23,7 @@ let { ...await f } = {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -41,8 +41,8 @@ let { ...await f } = {};
                                         "kind": 222,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 5,
+                                            "flags": 5,
+                                            "start": 512,
                                             "end": 9
                                         },
                                         "left": {

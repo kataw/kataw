@@ -27,14 +27,14 @@ function *f(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function *f(){
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 327681,
                                 "end": 27
                             },
                             "binding": {
@@ -74,7 +74,7 @@ function *f(){
                                 "start": 27,
                                 "end": 27
                             },
-                            "flags": 327809,
+                            "flags": 128,
                             "start": 14,
                             "end": 27
                         }

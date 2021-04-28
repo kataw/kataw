@@ -30,8 +30,8 @@
                                     "kind": 224,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 2,
+                                        "flags": 2,
+                                        "start": 0,
                                         "end": 5
                                     },
                                     "argument": {
@@ -50,8 +50,8 @@
                                     "kind": 224,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 7,
+                                        "flags": 7,
+                                        "start": 0,
                                         "end": 11
                                     },
                                     "argument": {
@@ -79,8 +79,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 13,
+                        "flags": 13,
+                        "start": 512,
                         "end": 15
                     },
                     "right": {

@@ -91,8 +91,8 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 13,
+                        "flags": 13,
+                        "start": 512,
                         "end": 14
                     },
                     "right": {
@@ -109,8 +109,8 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 512,
                     "end": 32
                 },
                 "right": {
@@ -132,8 +132,8 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 1,
                 "end": 42
             },
             "binding": {
@@ -161,7 +161,7 @@ type T = <
                 "start": 42,
                 "end": 44
             },
-            "flags": 129,
+            "flags": 128,
             "start": 35,
             "end": 44
         },
@@ -181,8 +181,8 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 47,
+                        "flags": 47,
+                        "start": 512,
                         "end": 48
                     },
                     "right": {
@@ -198,8 +198,8 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 48,
+                    "flags": 48,
+                    "start": 512,
                     "end": 62
                 },
                 "right": {
@@ -247,8 +247,8 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 81,
+                        "flags": 81,
+                        "start": 512,
                         "end": 82
                     },
                     "right": {
@@ -264,8 +264,8 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 82,
+                    "flags": 82,
+                    "start": 512,
                     "end": 96
                 },
                 "right": {
@@ -289,8 +289,8 @@ type T = <
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 99,
+                "flags": 99,
+                "start": 1,
                 "end": 109
             },
             "generatorToken": null,
@@ -466,16 +466,16 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 190,
+                    "flags": 190,
+                    "start": 512,
                     "end": 192
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 213,
+                        "flags": 213,
+                        "start": 0,
                         "end": 216
                     },
                     "typeParameters": {
@@ -533,8 +533,8 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 237,
+                        "flags": 237,
+                        "start": 512,
                         "end": 238
                     },
                     "right": {
@@ -551,8 +551,8 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 243,
+                    "flags": 243,
+                    "start": 513,
                     "end": 257
                 },
                 "right": {
@@ -574,8 +574,8 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 260,
+                "flags": 260,
+                "start": 1,
                 "end": 267
             },
             "binding": {
@@ -603,7 +603,7 @@ type T = <
                 "start": 267,
                 "end": 269
             },
-            "flags": 129,
+            "flags": 128,
             "start": 260,
             "end": 269
         },
@@ -623,8 +623,8 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 272,
+                        "flags": 272,
+                        "start": 512,
                         "end": 273
                     },
                     "right": {
@@ -640,8 +640,8 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 273,
+                    "flags": 273,
+                    "start": 513,
                     "end": 290
                 },
                 "right": {
@@ -689,8 +689,8 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 309,
+                        "flags": 309,
+                        "start": 512,
                         "end": 310
                     },
                     "right": {
@@ -706,8 +706,8 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 310,
+                    "flags": 310,
+                    "start": 513,
                     "end": 327
                 },
                 "right": {
@@ -731,8 +731,8 @@ type T = <
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 330,
+                "flags": 330,
+                "start": 1,
                 "end": 340
             },
             "generatorToken": null,
@@ -908,16 +908,16 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 429,
+                    "flags": 429,
+                    "start": 512,
                     "end": 431
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 455,
+                        "flags": 455,
+                        "start": 0,
                         "end": 458
                     },
                     "typeParameters": {

@@ -23,7 +23,7 @@ new a ? b : c
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -42,8 +42,8 @@ new a ? b : c
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 0,
                     "end": 7
                 },
                 "consequent": {
@@ -56,8 +56,8 @@ new a ? b : c
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 0,
                     "end": 11
                 },
                 "alternate": {

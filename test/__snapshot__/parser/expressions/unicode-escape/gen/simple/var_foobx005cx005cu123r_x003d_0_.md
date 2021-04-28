@@ -24,7 +24,7 @@ var foob\\u123r = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -71,8 +71,8 @@ var foob\\u123r = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 512,
                     "end": 17
                 },
                 "right": {

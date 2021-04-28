@@ -29,16 +29,16 @@ x + + y.x
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 34098,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 5
                     },
                     "expression": {

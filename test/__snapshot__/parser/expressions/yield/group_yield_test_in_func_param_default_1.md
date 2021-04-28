@@ -21,7 +21,7 @@ function f(x=(yield)=y){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -68,8 +68,8 @@ function f(x=(yield)=y){}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 512,
                                 "end": 21
                             },
                             "right": {

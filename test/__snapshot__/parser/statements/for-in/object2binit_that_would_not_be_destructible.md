@@ -27,7 +27,7 @@ for ({a: x + y} = z in obj);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,8 +52,8 @@ for ({a: x + y} = z in obj);
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 768,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "start": 512,
                                         "end": 12
                                     },
                                     "right": {
@@ -93,8 +93,8 @@ for ({a: x + y} = z in obj);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 512,
                     "end": 17
                 },
                 "right": {
@@ -109,8 +109,8 @@ for ({a: x + y} = z in obj);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 19,
+                        "flags": 19,
+                        "start": 512,
                         "end": 22
                     },
                     "right": {

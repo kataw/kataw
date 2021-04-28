@@ -38,8 +38,8 @@ foo(...a,);
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 4,
+                                "flags": 4,
+                                "start": 0,
                                 "end": 7
                             },
                             "argument": {

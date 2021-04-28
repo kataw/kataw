@@ -33,22 +33,22 @@ a = async function() { g(await) }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 9
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 18
                     },
                     "generatorToken": null,
@@ -86,8 +86,8 @@ a = async function() { g(await) }
                                                     "kind": 208,
                                                     "awaitToken": {
                                                         "kind": 82032,
-                                                        "flags": 768,
-                                                        "start": 25,
+                                                        "flags": 25,
+                                                        "start": 0,
                                                         "end": 30
                                                     },
                                                     "expression": {

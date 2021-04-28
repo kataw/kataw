@@ -24,7 +24,7 @@ var asyncArrow = async(await) => 1;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,8 +47,8 @@ var asyncArrow = async(await) => 1;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 0,
                                 "end": 32
                             },
                             "typeParameters": null,
@@ -64,7 +64,7 @@ var asyncArrow = async(await) => 1;
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 16,
                                 "end": 22
                             },

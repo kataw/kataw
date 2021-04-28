@@ -21,16 +21,16 @@ c?.(d)?.[e]
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 0,
                     "end": 8
                 },
                 "member": {
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 768,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 0,
                         "end": 3
                     },
                     "member": {

@@ -25,7 +25,7 @@ function not_gen() { function *a(){yield typeof 0} }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,14 +58,14 @@ function not_gen() { function *a(){yield typeof 0} }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 31
                             },
                             "name": {
@@ -96,8 +96,8 @@ function not_gen() { function *a(){yield typeof 0} }}
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 35,
+                                                    "flags": 35,
+                                                    "start": 0,
                                                     "end": 40
                                                 },
                                                 "delegate": false,
@@ -106,8 +106,8 @@ function not_gen() { function *a(){yield typeof 0} }}
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 138477613,
-                                                        "flags": 768,
-                                                        "start": 40,
+                                                        "flags": 40,
+                                                        "start": 512,
                                                         "end": 47
                                                     },
                                                     "expression": {

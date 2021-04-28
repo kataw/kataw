@@ -21,14 +21,14 @@ function* x() { function* foo(a = 1 + (yield)) {} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -59,14 +59,14 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 0,
                                 "end": 24
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 512,
                                 "end": 25
                             },
                             "name": {
@@ -105,8 +105,8 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 768,
-                                                "start": 35,
+                                                "flags": 35,
+                                                "start": 512,
                                                 "end": 37
                                             },
                                             "right": {
@@ -115,8 +115,8 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 39,
+                                                        "flags": 39,
+                                                        "start": 0,
                                                         "end": 44
                                                     },
                                                     "delegate": false,

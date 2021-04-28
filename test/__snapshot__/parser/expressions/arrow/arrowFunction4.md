@@ -30,7 +30,7 @@ var v = (a, b) => {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,8 +53,8 @@ var v = (a, b) => {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 0,
                                 "end": 17
                             },
                             "typeParameters": null,

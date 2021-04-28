@@ -20,7 +20,7 @@ var x = { *test () { yield *v } };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -76,15 +76,15 @@ var x = { *test () { yield *v } };
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 768,
-                                                                "start": 20,
+                                                                "flags": 20,
+                                                                "start": 0,
                                                                 "end": 26
                                                             },
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 768,
-                                                                "start": 26,
+                                                                "flags": 26,
+                                                                "start": 512,
                                                                 "end": 28
                                                             },
                                                             "expression": {

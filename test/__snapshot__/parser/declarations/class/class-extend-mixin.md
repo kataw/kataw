@@ -29,7 +29,7 @@ class Foo<T> extends mixin(Bar) { }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -68,8 +68,8 @@ class Foo<T> extends mixin(Bar) { }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 20
                 },
                 "expression": {

@@ -32,14 +32,14 @@ function *foo() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -68,8 +68,8 @@ function *foo() {
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 1,
                                 "end": 25
                             },
                             "binding": {
@@ -96,8 +96,8 @@ function *foo() {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 31,
+                                                        "flags": 31,
+                                                        "start": 0,
                                                         "end": 36
                                                     },
                                                     "delegate": false,
@@ -119,8 +119,8 @@ function *foo() {
                                                     "kind": 139,
                                                     "type": {
                                                         "kind": 134234252,
-                                                        "flags": 768,
-                                                        "start": 39,
+                                                        "flags": 39,
+                                                        "start": 512,
                                                         "end": 43
                                                     },
                                                     "flags": 0,
@@ -145,7 +145,7 @@ function *foo() {
                                 "start": 25,
                                 "end": 44
                             },
-                            "flags": 129,
+                            "flags": 128,
                             "start": 17,
                             "end": 45
                         },
@@ -163,16 +163,16 @@ function *foo() {
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 768,
-                                    "start": 49,
+                                    "flags": 49,
+                                    "start": 0,
                                     "end": 51
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 51,
+                                        "flags": 51,
+                                        "start": 0,
                                         "end": 57
                                     },
                                     "delegate": false,
@@ -191,8 +191,8 @@ function *foo() {
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 768,
-                                    "start": 59,
+                                    "flags": 59,
+                                    "start": 0,
                                     "end": 61
                                 },
                                 "alternate": {

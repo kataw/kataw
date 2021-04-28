@@ -27,7 +27,7 @@ x => y {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -44,8 +44,8 @@ x => y {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -78,8 +78,8 @@ x => y {}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 23,
+                    "flags": 23,
+                    "start": 0,
                     "end": 26
                 },
                 "typeParameters": null,

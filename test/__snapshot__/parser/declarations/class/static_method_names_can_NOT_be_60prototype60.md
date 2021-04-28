@@ -46,7 +46,7 @@ class x { static async *prototype(){} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -69,15 +69,15 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 16
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 16,
+                            "flags": 16,
+                            "start": 512,
                             "end": 20
                         },
                         "getKeyword": null,
@@ -139,8 +139,8 @@ class x { static async *prototype(){} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 36,
+                "flags": 36,
+                "start": 1,
                 "end": 43
             },
             "name": {
@@ -162,8 +162,8 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 47,
+                            "flags": 47,
+                            "start": 512,
                             "end": 54
                         },
                         "asyncKeyword": null,
@@ -227,8 +227,8 @@ class x { static async *prototype(){} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 77,
+                "flags": 77,
+                "start": 1,
                 "end": 84
             },
             "name": {
@@ -250,15 +250,15 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 88,
+                            "flags": 88,
+                            "start": 512,
                             "end": 95
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 95,
+                            "flags": 95,
+                            "start": 512,
                             "end": 99
                         },
                         "getKeyword": null,
@@ -320,8 +320,8 @@ class x { static async *prototype(){} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 115,
+                "flags": 115,
+                "start": 1,
                 "end": 122
             },
             "name": {
@@ -343,14 +343,14 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 126,
+                            "flags": 126,
+                            "start": 512,
                             "end": 133
                         },
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 133,
+                            "flags": 133,
+                            "start": 512,
                             "end": 139
                         },
                         "setKeyword": null,

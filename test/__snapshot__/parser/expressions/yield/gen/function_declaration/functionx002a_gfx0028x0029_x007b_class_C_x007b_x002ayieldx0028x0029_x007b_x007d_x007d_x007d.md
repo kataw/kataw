@@ -25,7 +25,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,14 +58,14 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 30
                             },
                             "name": {
@@ -96,8 +96,8 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 37,
+                                                "flags": 37,
+                                                "start": 0,
                                                 "end": 43
                                             },
                                             "name": {

@@ -37,8 +37,8 @@ a={get fooProp():number{}}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -69,8 +69,8 @@ a={get fooProp():number{}}
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 17,
+                                        "flags": 17,
+                                        "start": 512,
                                         "end": 23
                                     },
                                     "flags": 0,

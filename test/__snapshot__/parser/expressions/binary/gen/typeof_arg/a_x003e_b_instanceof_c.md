@@ -29,8 +29,8 @@ typeof a > b instanceof c
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 768,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 512,
                             "end": 6
                         },
                         "expression": {
@@ -47,8 +47,8 @@ typeof a > b instanceof c
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 512,
                         "end": 10
                     },
                     "right": {
@@ -65,8 +65,8 @@ typeof a > b instanceof c
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 512,
                     "end": 23
                 },
                 "right": {

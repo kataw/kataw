@@ -28,7 +28,7 @@ var foo: null
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,8 +50,8 @@ var foo: null
                             "kind": 139,
                             "type": {
                                 "kind": 138477575,
-                                "flags": 768,
-                                "start": 8,
+                                "flags": 8,
+                                "start": 512,
                                 "end": 13
                             },
                             "flags": 0,

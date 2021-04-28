@@ -27,13 +27,13 @@ opaque type Counter: Box<T> = Container<T>;
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 19
             },

@@ -36,8 +36,8 @@ f((async (a, b) => a + b));
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 15,
+                                    "flags": 15,
+                                    "start": 0,
                                     "end": 18
                                 },
                                 "typeParameters": null,
@@ -61,7 +61,7 @@ f((async (a, b) => a + b));
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 768,
+                                    "flags": 512,
                                     "start": 3,
                                     "end": 8
                                 },
@@ -78,8 +78,8 @@ f((async (a, b) => a + b));
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 768,
-                                        "start": 20,
+                                        "flags": 20,
+                                        "start": 512,
                                         "end": 22
                                     },
                                     "right": {

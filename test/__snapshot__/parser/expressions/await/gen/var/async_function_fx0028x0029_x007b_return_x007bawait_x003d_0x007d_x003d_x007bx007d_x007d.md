@@ -24,7 +24,7 @@ var await; var f = (async function() { async function f() { return {await = 0} =
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -62,8 +62,8 @@ var await; var f = (async function() { async function f() { return {await = 0} =
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 10,
+                "flags": 10,
+                "start": 0,
                 "end": 14
             },
             "declarationList": {
@@ -87,14 +87,14 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 512,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 25,
+                                    "flags": 25,
+                                    "start": 0,
                                     "end": 34
                                 },
                                 "generatorToken": null,
@@ -118,14 +118,14 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                 "declareKeyword": null,
                                                 "asyncKeyword": {
                                                     "kind": 82031,
-                                                    "flags": 768,
-                                                    "start": 38,
+                                                    "flags": 38,
+                                                    "start": 512,
                                                     "end": 44
                                                 },
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 768,
-                                                    "start": 44,
+                                                    "flags": 44,
+                                                    "start": 0,
                                                     "end": 53
                                                 },
                                                 "generatorToken": null,
@@ -155,8 +155,8 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 768,
-                                                                    "start": 59,
+                                                                    "flags": 59,
+                                                                    "start": 0,
                                                                     "end": 66
                                                                 },
                                                                 "expression": {
@@ -201,8 +201,8 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4125,
-                                                                        "flags": 768,
-                                                                        "start": 78,
+                                                                        "flags": 78,
+                                                                        "start": 512,
                                                                         "end": 80
                                                                     },
                                                                     "right": {

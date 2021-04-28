@@ -21,7 +21,7 @@ function test({...{}}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -49,8 +49,8 @@ function test({...{}}) {}
                                         "kind": 204,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 15,
+                                            "flags": 15,
+                                            "start": 512,
                                             "end": 18
                                         },
                                         "key": {

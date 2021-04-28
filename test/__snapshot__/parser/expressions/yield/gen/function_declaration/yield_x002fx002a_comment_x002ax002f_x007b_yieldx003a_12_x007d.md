@@ -25,7 +25,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },

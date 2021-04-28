@@ -28,7 +28,7 @@ var a: {param1?: number; param2: string; param3: string;}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -63,14 +63,14 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 16,
+                                            "flags": 16,
+                                            "start": 512,
                                             "end": 23
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
-                                            "flags": 768,
-                                            "start": 14,
+                                            "flags": 14,
+                                            "start": 512,
                                             "end": 15
                                         },
                                         "staticToken": false,
@@ -90,8 +90,8 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 32,
+                                            "flags": 32,
+                                            "start": 512,
                                             "end": 39
                                         },
                                         "optionalToken": null,
@@ -112,8 +112,8 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 48,
+                                            "flags": 48,
+                                            "start": 512,
                                             "end": 55
                                         },
                                         "optionalToken": null,

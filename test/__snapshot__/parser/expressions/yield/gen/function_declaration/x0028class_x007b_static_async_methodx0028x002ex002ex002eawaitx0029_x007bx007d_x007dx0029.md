@@ -25,7 +25,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -61,8 +61,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 768,
-                                        "start": 22,
+                                        "flags": 22,
+                                        "start": 0,
                                         "end": 27
                                     },
                                     "name": null,
@@ -77,14 +77,14 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                 "decorators": null,
                                                 "staticKeyword": {
                                                     "kind": 8388716,
-                                                    "flags": 768,
-                                                    "start": 29,
+                                                    "flags": 29,
+                                                    "start": 512,
                                                     "end": 36
                                                 },
                                                 "asyncKeyword": {
                                                     "kind": 82031,
-                                                    "flags": 768,
-                                                    "start": 36,
+                                                    "flags": 36,
+                                                    "start": 512,
                                                     "end": 42
                                                 },
                                                 "setKeyword": null,
@@ -107,8 +107,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                 "kind": 215,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 768,
-                                                                    "start": 50,
+                                                                    "flags": 50,
+                                                                    "start": 512,
                                                                     "end": 53
                                                                 },
                                                                 "binding": {

@@ -20,12 +20,12 @@ debugger
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
-            "flags": 0,
-            "start": 33554561,
+            "flags": 128,
+            "start": 0,
             "end": 8
         },
         {

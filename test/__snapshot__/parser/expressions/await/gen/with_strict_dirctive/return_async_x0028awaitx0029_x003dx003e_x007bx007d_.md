@@ -32,16 +32,16 @@
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 20
             },
             "expression": {
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 34,
+                    "flags": 34,
+                    "start": 0,
                     "end": 37
                 },
                 "typeParameters": null,
@@ -57,7 +57,7 @@
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 768,
+                    "flags": 512,
                     "start": 20,
                     "end": 26
                 },

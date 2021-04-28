@@ -31,8 +31,8 @@ x = {arrow: (x, y) => ok};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -46,8 +46,8 @@ x = {arrow: (x, y) => ok};
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 768,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 0,
                                         "end": 18
                                     },
                                     "typeParameters": null,
@@ -120,8 +120,8 @@ x = {arrow: (x, y) => ok};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 26,
+                    "flags": 26,
+                    "start": 512,
                     "end": 28
                 },
                 "right": {
@@ -135,8 +135,8 @@ x = {arrow: (x, y) => ok};
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 768,
-                                        "start": 43,
+                                        "flags": 43,
+                                        "start": 0,
                                         "end": 46
                                     },
                                     "typeParameters": null,

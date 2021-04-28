@@ -32,8 +32,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 3
                 },
                 "consequent": {
@@ -42,8 +42,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 0,
                             "end": 15
                         },
                         "typeParameters": null,
@@ -73,8 +73,8 @@ x ? ( (a, {}) => {} ) : baz;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 0,
                                 "end": 25
                             },
                             "typeParameters": null,
@@ -114,8 +114,8 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
-                                        "flags": 768,
-                                        "start": 27,
+                                        "flags": 27,
+                                        "start": 512,
                                         "end": 28
                                     },
                                     "right": {
@@ -132,8 +132,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 29,
+                                    "flags": 29,
+                                    "start": 512,
                                     "end": 31
                                 },
                                 "right": {
@@ -148,8 +148,8 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
-                                        "flags": 768,
-                                        "start": 33,
+                                        "flags": 33,
+                                        "start": 512,
                                         "end": 34
                                     },
                                     "right": {
@@ -182,8 +182,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 37,
+                    "flags": 37,
+                    "start": 0,
                     "end": 39
                 },
                 "alternate": {
@@ -216,8 +216,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 46,
+                    "flags": 46,
+                    "start": 0,
                     "end": 48
                 },
                 "consequent": {
@@ -229,8 +229,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 57,
+                                    "flags": 57,
+                                    "start": 0,
                                     "end": 60
                                 },
                                 "typeParameters": null,
@@ -272,8 +272,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 70,
+                                    "flags": 70,
+                                    "start": 0,
                                     "end": 73
                                 },
                                 "typeParameters": null,
@@ -322,8 +322,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 77,
+                    "flags": 77,
+                    "start": 0,
                     "end": 79
                 },
                 "alternate": {
@@ -356,8 +356,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 86,
+                    "flags": 86,
+                    "start": 0,
                     "end": 88
                 },
                 "consequent": {
@@ -392,8 +392,8 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 768,
-                                                    "start": 105,
+                                                    "flags": 105,
+                                                    "start": 0,
                                                     "end": 108
                                                 },
                                                 "typeParameters": null,
@@ -455,8 +455,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 114,
+                    "flags": 114,
+                    "start": 0,
                     "end": 116
                 },
                 "alternate": {
@@ -489,8 +489,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 123,
+                    "flags": 123,
+                    "start": 0,
                     "end": 125
                 },
                 "consequent": {
@@ -499,8 +499,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 135,
+                            "flags": 135,
+                            "start": 0,
                             "end": 138
                         },
                         "typeParameters": null,
@@ -558,8 +558,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 143,
+                    "flags": 143,
+                    "start": 0,
                     "end": 145
                 },
                 "alternate": {

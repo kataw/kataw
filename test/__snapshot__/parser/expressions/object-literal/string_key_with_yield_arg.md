@@ -29,8 +29,8 @@ s = {"foo": yield /x/}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -54,8 +54,8 @@ s = {"foo": yield /x/}
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 512,
                                             "end": 19
                                         },
                                         "right": {
@@ -72,8 +72,8 @@ s = {"foo": yield /x/}
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 768,
-                                        "start": 20,
+                                        "flags": 20,
+                                        "start": 512,
                                         "end": 21
                                     },
                                     "right": {

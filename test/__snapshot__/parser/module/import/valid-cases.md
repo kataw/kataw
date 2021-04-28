@@ -38,7 +38,7 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -104,8 +104,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 30,
+                "flags": 30,
+                "start": 1,
                 "end": 38
             },
             "fromClause": {
@@ -141,8 +141,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 53,
+                "flags": 53,
+                "start": 1,
                 "end": 61
             },
             "fromClause": {
@@ -207,8 +207,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 85,
+                "flags": 85,
+                "start": 1,
                 "end": 93
             },
             "fromClause": {
@@ -244,8 +244,8 @@ import { a as b } from 'm.js';
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
-                "start": 108,
+                "flags": 108,
+                "start": 1,
                 "end": 116
             },
             "declaration": null,
@@ -303,8 +303,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 140,
+                "flags": 140,
+                "start": 1,
                 "end": 148
             },
             "fromClause": {
@@ -340,8 +340,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 172,
+                "flags": 172,
+                "start": 1,
                 "end": 180
             },
             "fromClause": {

@@ -24,8 +24,8 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 1
                 },
                 "expression": {
@@ -50,8 +50,8 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 513,
                     "end": 5
                 },
                 "expression": {
@@ -76,8 +76,8 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 513,
                     "end": 15
                 },
                 "expression": {

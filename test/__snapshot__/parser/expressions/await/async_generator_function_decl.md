@@ -20,20 +20,20 @@ async function *f(await){}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 512,
                 "end": 16
             },
             "name": {

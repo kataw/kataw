@@ -113,8 +113,8 @@
                                     "kind": 164,
                                     "ifKeyword": {
                                         "kind": 37757019,
-                                        "flags": 768,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 0,
                                         "end": 21
                                     },
                                     "expression": {

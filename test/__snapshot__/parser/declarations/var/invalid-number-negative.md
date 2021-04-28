@@ -39,7 +39,7 @@ var a: -z
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -78,8 +78,8 @@ var a: -z
                 "kind": 126,
                 "operandToken": {
                     "kind": 35379,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "expression": {

@@ -29,8 +29,8 @@ result = {} = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -52,8 +52,8 @@ result = {} = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 11,
+                        "flags": 11,
+                        "start": 512,
                         "end": 13
                     },
                     "right": {

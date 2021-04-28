@@ -29,16 +29,16 @@ x = (a,b) =>{}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 12
                     },
                     "typeParameters": null,

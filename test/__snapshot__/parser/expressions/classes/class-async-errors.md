@@ -45,8 +45,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 0,
                         "end": 6
                     },
                     "name": null,
@@ -153,8 +153,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 26,
+                        "flags": 26,
+                        "start": 0,
                         "end": 31
                     },
                     "name": null,
@@ -170,8 +170,8 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 33,
+                                    "flags": 33,
+                                    "start": 512,
                                     "end": 39
                                 },
                                 "setKeyword": null,
@@ -244,8 +244,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 50,
+                        "flags": 50,
+                        "start": 0,
                         "end": 55
                     },
                     "name": null,
@@ -261,8 +261,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 57,
+                                    "flags": 57,
+                                    "start": 512,
                                     "end": 63
                                 },
                                 "key": {
@@ -357,8 +357,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 78,
+                        "flags": 78,
+                        "start": 0,
                         "end": 83
                     },
                     "name": null,
@@ -374,8 +374,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 85,
+                                    "flags": 85,
+                                    "start": 512,
                                     "end": 91
                                 },
                                 "key": {
@@ -489,8 +489,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 107,
+                        "flags": 107,
+                        "start": 0,
                         "end": 112
                     },
                     "name": null,
@@ -506,8 +506,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 114,
+                                    "flags": 114,
+                                    "start": 512,
                                     "end": 120
                                 },
                                 "key": {
@@ -571,8 +571,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 131,
+                        "flags": 131,
+                        "start": 0,
                         "end": 136
                     },
                     "name": null,
@@ -648,8 +648,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 154,
+                        "flags": 154,
+                        "start": 0,
                         "end": 159
                     },
                     "name": null,
@@ -665,8 +665,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 161,
+                                    "flags": 161,
+                                    "start": 512,
                                     "end": 167
                                 },
                                 "key": {
@@ -761,8 +761,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 186,
+                        "flags": 186,
+                        "start": 0,
                         "end": 191
                     },
                     "name": null,
@@ -777,8 +777,8 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 193,
+                                    "flags": 193,
+                                    "start": 512,
                                     "end": 200
                                 },
                                 "asyncKeyword": null,
@@ -874,8 +874,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 218,
+                        "flags": 218,
+                        "start": 0,
                         "end": 223
                     },
                     "name": null,
@@ -890,14 +890,14 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 225,
+                                    "flags": 225,
+                                    "start": 512,
                                     "end": 232
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 232,
+                                    "flags": 232,
+                                    "start": 512,
                                     "end": 238
                                 },
                                 "setKeyword": null,
@@ -970,8 +970,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 249,
+                        "flags": 249,
+                        "start": 0,
                         "end": 254
                     },
                     "name": null,
@@ -986,14 +986,14 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 256,
+                                    "flags": 256,
+                                    "start": 512,
                                     "end": 263
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 263,
+                                    "flags": 263,
+                                    "start": 512,
                                     "end": 269
                                 },
                                 "key": {
@@ -1088,8 +1088,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 284,
+                        "flags": 284,
+                        "start": 0,
                         "end": 289
                     },
                     "name": null,
@@ -1104,14 +1104,14 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 291,
+                                    "flags": 291,
+                                    "start": 512,
                                     "end": 298
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 298,
+                                    "flags": 298,
+                                    "start": 512,
                                     "end": 304
                                 },
                                 "key": {
@@ -1225,8 +1225,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 320,
+                        "flags": 320,
+                        "start": 0,
                         "end": 325
                     },
                     "name": null,
@@ -1241,14 +1241,14 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 327,
+                                    "flags": 327,
+                                    "start": 512,
                                     "end": 334
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 334,
+                                    "flags": 334,
+                                    "start": 512,
                                     "end": 340
                                 },
                                 "key": {
@@ -1312,8 +1312,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 351,
+                        "flags": 351,
+                        "start": 0,
                         "end": 356
                     },
                     "name": null,
@@ -1328,8 +1328,8 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 768,
-                                    "start": 358,
+                                    "flags": 358,
+                                    "start": 512,
                                     "end": 365
                                 },
                                 "asyncKeyword": null,

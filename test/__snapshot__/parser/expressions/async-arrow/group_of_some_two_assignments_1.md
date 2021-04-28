@@ -19,8 +19,8 @@ async (a = 1, b = 2) => x;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 20,
+                "flags": 20,
+                "start": 0,
                 "end": 23
             },
             "typeParameters": null,
@@ -37,8 +37,8 @@ async (a = 1, b = 2) => x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 512,
                         "end": 10
                     },
                     "right": {
@@ -65,8 +65,8 @@ async (a = 1, b = 2) => x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 17
                     },
                     "right": {
@@ -84,7 +84,7 @@ async (a = 1, b = 2) => x;
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },

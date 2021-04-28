@@ -25,7 +25,7 @@ class x extends y {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,8 +42,8 @@ class x extends y {
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -102,16 +102,16 @@ class x extends y {
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 768,
-                                                    "start": 47,
+                                                    "flags": 47,
+                                                    "start": 0,
                                                     "end": 49
                                                 },
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 768,
-                                                        "start": 37,
+                                                        "flags": 37,
+                                                        "start": 1,
                                                         "end": 47
                                                     },
                                                     "flags": 768,

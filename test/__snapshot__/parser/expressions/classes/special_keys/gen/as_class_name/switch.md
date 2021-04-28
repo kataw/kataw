@@ -25,7 +25,7 @@ class switch {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -53,8 +53,8 @@ class switch {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 12
             },
             "expression": {

@@ -33,8 +33,8 @@ x = {[ a instanceof b > c ]: y}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -68,8 +68,8 @@ x = {[ a instanceof b > c ]: y}
                                             },
                                             "operatorToken": {
                                                 "kind": 4229173,
-                                                "flags": 768,
-                                                "start": 8,
+                                                "flags": 8,
+                                                "start": 512,
                                                 "end": 19
                                             },
                                             "right": {
@@ -86,8 +86,8 @@ x = {[ a instanceof b > c ]: y}
                                         },
                                         "operatorToken": {
                                             "kind": 34883,
-                                            "flags": 768,
-                                            "start": 21,
+                                            "flags": 21,
+                                            "start": 512,
                                             "end": 23
                                         },
                                         "right": {

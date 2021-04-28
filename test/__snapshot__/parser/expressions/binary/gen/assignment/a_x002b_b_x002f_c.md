@@ -33,8 +33,8 @@ x = a + b / c
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -49,8 +49,8 @@ x = a + b / c
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 512,
                         "end": 7
                     },
                     "right": {
@@ -65,8 +65,8 @@ x = a + b / c
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 11
                         },
                         "right": {

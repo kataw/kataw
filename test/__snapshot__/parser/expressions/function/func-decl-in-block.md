@@ -42,7 +42,7 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
+                            "flags": 1,
                             "start": 1,
                             "end": 12
                         },
@@ -104,14 +104,14 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 21,
+                            "flags": 21,
+                            "start": 1,
                             "end": 32
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 768,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 512,
                             "end": 34
                         },
                         "name": {
@@ -171,20 +171,20 @@
                         "declareKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 44,
+                            "flags": 44,
+                            "start": 513,
                             "end": 52
                         },
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 52,
+                            "flags": 52,
+                            "start": 0,
                             "end": 61
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 768,
-                            "start": 61,
+                            "flags": 61,
+                            "start": 512,
                             "end": 63
                         },
                         "name": {

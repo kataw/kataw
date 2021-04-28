@@ -23,7 +23,7 @@ if false else
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -49,8 +49,8 @@ if false else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 13
             },
             "alternate": {

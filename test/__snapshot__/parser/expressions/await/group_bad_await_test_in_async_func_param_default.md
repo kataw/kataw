@@ -20,14 +20,14 @@ async function f(x=(await)=y){}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -63,8 +63,8 @@ async function f(x=(await)=y){}
                                     "kind": 208,
                                     "awaitToken": {
                                         "kind": 82032,
-                                        "flags": 768,
-                                        "start": 20,
+                                        "flags": 20,
+                                        "start": 0,
                                         "end": 25
                                     },
                                     "expression": {
@@ -84,8 +84,8 @@ async function f(x=(await)=y){}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 26,
+                                "flags": 26,
+                                "start": 512,
                                 "end": 27
                             },
                             "right": {

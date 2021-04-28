@@ -25,8 +25,8 @@ x => ok++
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 4
                 },
                 "typeParameters": null,
@@ -44,8 +44,8 @@ x => ok++
                     "kind": 127,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 768,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 512,
                         "end": 9
                     },
                     "expression": {

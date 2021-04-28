@@ -28,7 +28,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -119,8 +119,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 768,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 512,
                         "end": 37
                     },
                     "expression": {
@@ -136,16 +136,16 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 37,
+                    "flags": 37,
+                    "start": 512,
                     "end": 39
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 50,
+                        "flags": 50,
+                        "start": 0,
                         "end": 53
                     },
                     "typeParameters": null,
@@ -195,8 +195,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 57,
+                "flags": 57,
+                "start": 1,
                 "end": 63
             },
             "binding": {
@@ -274,7 +274,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                 "start": 63,
                 "end": 87
             },
-            "flags": 129,
+            "flags": 128,
             "start": 57,
             "end": 87
         },
@@ -286,8 +286,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 768,
-                        "start": 92,
+                        "flags": 92,
+                        "start": 512,
                         "end": 97
                     },
                     "expression": {
@@ -303,16 +303,16 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 97,
+                    "flags": 97,
+                    "start": 512,
                     "end": 99
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 111,
+                        "flags": 111,
+                        "start": 0,
                         "end": 114
                     },
                     "typeParameters": null,

@@ -37,7 +37,7 @@ for (x in a>c;;) x
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -62,8 +62,8 @@ for (x in a>c;;) x
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 12
                 },
                 "right": {

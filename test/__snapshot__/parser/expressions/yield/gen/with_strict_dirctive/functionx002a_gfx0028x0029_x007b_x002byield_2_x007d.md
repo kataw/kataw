@@ -34,14 +34,14 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 22
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 22,
+                "flags": 22,
+                "start": 512,
                 "end": 23
             },
             "name": {
@@ -72,16 +72,16 @@
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 30,
+                                    "flags": 30,
+                                    "start": 512,
                                     "end": 32
                                 },
                                 "expression": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 0,
                                         "end": 37
                                     },
                                     "delegate": false,

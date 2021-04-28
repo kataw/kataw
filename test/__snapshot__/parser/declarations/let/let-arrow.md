@@ -31,7 +31,7 @@ hello();
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -54,8 +54,8 @@ hello();
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 49,
+                                "flags": 49,
+                                "start": 0,
                                 "end": 52
                             },
                             "typeParameters": null,
@@ -76,8 +76,8 @@ hello();
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 22,
+                                            "flags": 22,
+                                            "start": 512,
                                             "end": 28
                                         },
                                         "flags": 0,
@@ -102,8 +102,8 @@ hello();
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 768,
-                                    "start": 42,
+                                    "flags": 42,
+                                    "start": 512,
                                     "end": 49
                                 },
                                 "flags": 0,
@@ -157,8 +157,8 @@ hello();
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 34098,
-                                                                "flags": 768,
-                                                                "start": 76,
+                                                                "flags": 76,
+                                                                "start": 512,
                                                                 "end": 78
                                                             },
                                                             "right": {

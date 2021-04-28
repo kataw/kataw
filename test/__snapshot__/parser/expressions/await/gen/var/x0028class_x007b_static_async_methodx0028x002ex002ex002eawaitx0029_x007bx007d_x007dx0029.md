@@ -24,7 +24,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -62,8 +62,8 @@ var await; var f = (async function() { (class { static async method(...await) {}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 10,
+                "flags": 10,
+                "start": 0,
                 "end": 14
             },
             "declarationList": {
@@ -87,14 +87,14 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 512,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 25,
+                                    "flags": 25,
+                                    "start": 0,
                                     "end": 34
                                 },
                                 "generatorToken": null,
@@ -122,8 +122,8 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                         "decorators": null,
                                                         "classKeyword": {
                                                             "kind": 37822544,
-                                                            "flags": 768,
-                                                            "start": 40,
+                                                            "flags": 40,
+                                                            "start": 0,
                                                             "end": 45
                                                         },
                                                         "name": null,
@@ -138,14 +138,14 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                     "decorators": null,
                                                                     "staticKeyword": {
                                                                         "kind": 8388716,
-                                                                        "flags": 768,
-                                                                        "start": 47,
+                                                                        "flags": 47,
+                                                                        "start": 512,
                                                                         "end": 54
                                                                     },
                                                                     "asyncKeyword": {
                                                                         "kind": 82031,
-                                                                        "flags": 768,
-                                                                        "start": 54,
+                                                                        "flags": 54,
+                                                                        "start": 512,
                                                                         "end": 60
                                                                     },
                                                                     "setKeyword": null,
@@ -168,8 +168,8 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                                     "kind": 215,
                                                                                     "ellipsisToken": {
                                                                                         "kind": 524302,
-                                                                                        "flags": 768,
-                                                                                        "start": 68,
+                                                                                        "flags": 68,
+                                                                                        "start": 512,
                                                                                         "end": 71
                                                                                     },
                                                                                     "binding": {

@@ -38,8 +38,8 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 4
                 },
                 "consequent": {
@@ -53,8 +53,8 @@ a ? b : (): string => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 15,
+                            "flags": 15,
+                            "start": 0,
                             "end": 18
                         },
                         "typeParameters": null,
@@ -93,8 +93,8 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 0,
                     "end": 24
                 },
                 "alternate": {
@@ -127,8 +127,8 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 31,
+                    "flags": 31,
+                    "start": 0,
                     "end": 33
                 },
                 "consequent": {
@@ -155,16 +155,16 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 42,
+                    "flags": 42,
+                    "start": 0,
                     "end": 43
                 },
                 "alternate": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 50,
+                        "flags": 50,
+                        "start": 0,
                         "end": 53
                     },
                     "typeParameters": null,
@@ -233,8 +233,8 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 66,
+                    "flags": 66,
+                    "start": 0,
                     "end": 68
                 },
                 "consequent": {
@@ -248,8 +248,8 @@ a ? b : (): string => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 79,
+                            "flags": 79,
+                            "start": 0,
                             "end": 82
                         },
                         "typeParameters": null,
@@ -288,8 +288,8 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 85,
+                    "flags": 85,
+                    "start": 0,
                     "end": 88
                 },
                 "alternate": {
@@ -303,8 +303,8 @@ a ? b : (): string => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 100,
+                            "flags": 100,
+                            "start": 0,
                             "end": 103
                         },
                         "typeParameters": null,
@@ -362,8 +362,8 @@ a ? b : (): string => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 119,
+                        "flags": 119,
+                        "start": 0,
                         "end": 122
                     },
                     "typeParameters": null,
@@ -418,8 +418,8 @@ a ? b : (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 129,
+                    "flags": 129,
+                    "start": 0,
                     "end": 131
                 },
                 "consequent": {
@@ -432,8 +432,8 @@ a ? b : (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 133,
+                    "flags": 133,
+                    "start": 0,
                     "end": 135
                 },
                 "alternate": {
@@ -447,8 +447,8 @@ a ? b : (): string => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 146,
+                            "flags": 146,
+                            "start": 0,
                             "end": 149
                         },
                         "typeParameters": null,

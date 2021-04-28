@@ -38,7 +38,7 @@ let foo = arr, [bar] = arr2;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },

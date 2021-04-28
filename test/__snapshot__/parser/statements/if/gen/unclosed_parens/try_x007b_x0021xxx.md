@@ -23,7 +23,7 @@ if( try { !xxx
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,8 +38,8 @@ if( try { !xxx
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 0,
                     "end": 7
                 },
                 "block": {
@@ -53,8 +53,8 @@ if( try { !xxx
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 9,
+                                        "flags": 9,
+                                        "start": 512,
                                         "end": 11
                                     },
                                     "expression": {

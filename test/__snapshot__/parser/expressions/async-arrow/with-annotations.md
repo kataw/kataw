@@ -29,8 +29,8 @@ async ([a]:string)=>c;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 16,
+                "flags": 16,
+                "start": 0,
                 "end": 18
             },
             "typeParameters": null,
@@ -51,8 +51,8 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 15
                         },
                         "flags": 0,
@@ -67,7 +67,7 @@ async ([a]:string)=>c;
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -94,8 +94,8 @@ async ([a]:string)=>c;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 40,
+                "flags": 40,
+                "start": 0,
                 "end": 42
             },
             "typeParameters": null,
@@ -131,8 +131,8 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 768,
-                            "start": 33,
+                            "flags": 33,
+                            "start": 512,
                             "end": 39
                         },
                         "flags": 0,
@@ -147,7 +147,7 @@ async ([a]:string)=>c;
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 20,
                 "end": 27
             },

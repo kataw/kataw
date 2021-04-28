@@ -28,8 +28,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 0,
                         "end": 6
                     },
                     "name": {
@@ -45,22 +45,22 @@
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 0,
                             "end": 16
                         },
                         "expression": {
                             "kind": 177,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 512,
                                 "end": 22
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 0,
                                 "end": 31
                             },
                             "generatorToken": null,

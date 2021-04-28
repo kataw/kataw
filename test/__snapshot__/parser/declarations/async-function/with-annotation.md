@@ -34,7 +34,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -56,8 +56,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 6,
+                                "flags": 6,
+                                "start": 512,
                                 "end": 13
                             },
                             "flags": 0,
@@ -82,7 +82,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 14,
                 "end": 19
             },
@@ -129,8 +129,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 512,
                                 "end": 31
                             },
                             "flags": 0,
@@ -154,7 +154,7 @@ let {x}: string = y;
                 "start": 19,
                 "end": 35
             },
-            "flags": 129,
+            "flags": 128,
             "start": 14,
             "end": 36
         },
@@ -162,7 +162,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 36,
                 "end": 41
             },
@@ -192,8 +192,8 @@ let {x}: string = y;
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234343,
-                                                "flags": 768,
-                                                "start": 45,
+                                                "flags": 45,
+                                                "start": 512,
                                                 "end": 51
                                             },
                                             "flags": 0,
@@ -220,8 +220,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 53,
+                                "flags": 53,
+                                "start": 512,
                                 "end": 60
                             },
                             "flags": 0,
@@ -245,7 +245,7 @@ let {x}: string = y;
                 "start": 41,
                 "end": 64
             },
-            "flags": 129,
+            "flags": 128,
             "start": 36,
             "end": 65
         },
@@ -253,7 +253,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 65,
                 "end": 70
             },
@@ -299,8 +299,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 75,
+                                "flags": 75,
+                                "start": 512,
                                 "end": 82
                             },
                             "flags": 0,
@@ -324,7 +324,7 @@ let {x}: string = y;
                 "start": 70,
                 "end": 86
             },
-            "flags": 129,
+            "flags": 128,
             "start": 65,
             "end": 87
         }

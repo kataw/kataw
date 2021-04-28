@@ -33,8 +33,8 @@ x = class extends (a ? null : yield) { }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -42,8 +42,8 @@ x = class extends (a ? null : yield) { }
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 0,
                         "end": 9
                     },
                     "name": null,
@@ -52,8 +52,8 @@ x = class extends (a ? null : yield) { }
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 0,
                             "end": 17
                         },
                         "expression": {
@@ -70,8 +70,8 @@ x = class extends (a ? null : yield) { }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 0,
                                     "end": 22
                                 },
                                 "consequent": {
@@ -83,8 +83,8 @@ x = class extends (a ? null : yield) { }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 768,
-                                    "start": 27,
+                                    "flags": 27,
+                                    "start": 0,
                                     "end": 29
                                 },
                                 "alternate": {

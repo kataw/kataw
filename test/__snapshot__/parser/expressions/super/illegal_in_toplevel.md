@@ -23,7 +23,7 @@ super.foo;
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 5
                     },

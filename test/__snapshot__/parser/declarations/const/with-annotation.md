@@ -34,7 +34,7 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -85,8 +85,8 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 16,
+                "flags": 16,
+                "start": 1,
                 "end": 23
             },
             "binding": {
@@ -139,7 +139,7 @@ const {x}: string = y;
                 "start": 23,
                 "end": 27
             },
-            "flags": 129,
+            "flags": 128,
             "start": 16,
             "end": 27
         },
@@ -157,8 +157,8 @@ const {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 35,
+                    "flags": 35,
+                    "start": 512,
                     "end": 37
                 },
                 "right": {
@@ -181,8 +181,8 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 40,
+                "flags": 40,
+                "start": 1,
                 "end": 47
             },
             "binding": {
@@ -235,7 +235,7 @@ const {x}: string = y;
                 "start": 47,
                 "end": 50
             },
-            "flags": 129,
+            "flags": 128,
             "start": 40,
             "end": 50
         },
@@ -267,8 +267,8 @@ const {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 66,
+                    "flags": 66,
+                    "start": 512,
                     "end": 68
                 },
                 "right": {
@@ -291,8 +291,8 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 71,
+                "flags": 71,
+                "start": 1,
                 "end": 78
             },
             "binding": {
@@ -344,7 +344,7 @@ const {x}: string = y;
                 "start": 78,
                 "end": 82
             },
-            "flags": 129,
+            "flags": 128,
             "start": 71,
             "end": 82
         },
@@ -362,8 +362,8 @@ const {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 90,
+                    "flags": 90,
+                    "start": 512,
                     "end": 92
                 },
                 "right": {

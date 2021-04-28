@@ -29,8 +29,8 @@ s = {"foo": yield a = x} = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -97,8 +97,8 @@ s = {"foo": yield a = x} = x
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 24,
+                        "flags": 24,
+                        "start": 512,
                         "end": 26
                     },
                     "right": {

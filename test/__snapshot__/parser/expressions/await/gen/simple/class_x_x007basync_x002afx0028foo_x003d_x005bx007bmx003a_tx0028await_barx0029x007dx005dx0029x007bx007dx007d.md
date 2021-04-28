@@ -25,7 +25,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,8 +49,8 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 14
                         },
                         "setKeyword": null,
@@ -111,8 +111,8 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                     "kind": 208,
                                                                                     "awaitToken": {
                                                                                         "kind": 82032,
-                                                                                        "flags": 768,
-                                                                                        "start": 31,
+                                                                                        "flags": 31,
+                                                                                        "start": 0,
                                                                                         "end": 36
                                                                                     },
                                                                                     "expression": {

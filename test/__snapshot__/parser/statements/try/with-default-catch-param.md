@@ -27,7 +27,7 @@ try { } catch ([a = 0]) { }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,8 +49,8 @@ try { } catch ([a = 0]) { }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 13
                 },
                 "catchParameter": {

@@ -46,8 +46,8 @@ x, a / b + c
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 768,
-                                "start": 4,
+                                "flags": 4,
+                                "start": 512,
                                 "end": 6
                             },
                             "right": {
@@ -64,8 +64,8 @@ x, a / b + c
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 512,
                             "end": 10
                         },
                         "right": {

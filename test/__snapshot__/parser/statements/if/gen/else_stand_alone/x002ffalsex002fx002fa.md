@@ -32,8 +32,8 @@ else /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {

@@ -26,8 +26,8 @@ x => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 4
                 },
                 "typeParameters": null,
@@ -55,8 +55,8 @@ x => ok
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 768,
-                            "start": 7,
+                            "flags": 7,
+                            "start": 513,
                             "end": 9
                         },
                         "right": {
@@ -73,8 +73,8 @@ x => ok
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 512,
                         "end": 11
                     },
                     "right": {

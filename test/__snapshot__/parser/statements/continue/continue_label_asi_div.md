@@ -30,8 +30,8 @@ x: for(;;) continue x
                 "kind": 165,
                 "forKeyword": {
                     "kind": 37757017,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 6
                 },
                 "initializer": null,
@@ -41,8 +41,8 @@ x: for(;;) continue x
                     "kind": 172,
                     "continueKeyword": {
                         "kind": 37757009,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 0,
                         "end": 19
                     },
                     "label": {
@@ -78,8 +78,8 @@ x: for(;;) continue x
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 513,
                     "end": 23
                 },
                 "right": {

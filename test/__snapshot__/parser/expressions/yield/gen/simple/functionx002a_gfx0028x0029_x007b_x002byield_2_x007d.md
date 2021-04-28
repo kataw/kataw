@@ -25,14 +25,14 @@ function* gf() { +yield 2; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -63,16 +63,16 @@ function* gf() { +yield 2; }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 16,
+                                    "flags": 16,
+                                    "start": 512,
                                     "end": 18
                                 },
                                 "expression": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 18,
+                                        "flags": 18,
+                                        "start": 0,
                                         "end": 23
                                     },
                                     "delegate": false,

@@ -38,7 +38,7 @@ const [...] = obj;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -56,8 +56,8 @@ const [...] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 7,
+                                            "flags": 7,
+                                            "start": 512,
                                             "end": 10
                                         },
                                         "binding": {

@@ -40,7 +40,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -120,8 +120,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                             "optionalToken": null,
                                             "typeAnnotation": {
                                                 "kind": 134234347,
-                                                "flags": 768,
-                                                "start": 36,
+                                                "flags": 36,
+                                                "start": 512,
                                                 "end": 42
                                             },
                                             "flags": 0,
@@ -136,8 +136,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 46,
+                                    "flags": 46,
+                                    "start": 512,
                                     "end": 53
                                 },
                                 "typeParameters": null,

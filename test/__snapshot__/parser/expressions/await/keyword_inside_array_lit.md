@@ -21,8 +21,8 @@ async g => (x = [await y])
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 10
                 },
                 "typeParameters": null,
@@ -48,8 +48,8 @@ async g => (x = [await y])
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 5
                 },
                 "returnType": null,
@@ -67,8 +67,8 @@ async g => (x = [await y])
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 13,
+                            "flags": 13,
+                            "start": 512,
                             "end": 15
                         },
                         "right": {
@@ -80,8 +80,8 @@ async g => (x = [await y])
                                         "kind": 208,
                                         "awaitToken": {
                                             "kind": 82032,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 0,
                                             "end": 22
                                         },
                                         "expression": {

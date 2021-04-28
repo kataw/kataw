@@ -23,7 +23,7 @@ function f() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -55,8 +55,8 @@ function f() {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 1,
                                 "end": 22
                             },
                             "declarationList": {

@@ -25,7 +25,7 @@ class C extends Base { async *#arguments() {} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,8 +42,8 @@ class C extends Base { async *#arguments() {} }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -69,8 +69,8 @@ class C extends Base { async *#arguments() {} }
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 22,
+                            "flags": 22,
+                            "start": 512,
                             "end": 28
                         },
                         "setKeyword": null,

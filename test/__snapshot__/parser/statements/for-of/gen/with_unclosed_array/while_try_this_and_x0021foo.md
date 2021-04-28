@@ -23,7 +23,7 @@ try[ while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -65,8 +65,8 @@ try[ while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 4,
+                "flags": 4,
+                "start": 0,
                 "end": 10
             },
             "expression": {
@@ -80,8 +80,8 @@ try[ while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 0,
                     "end": 14
                 },
                 "block": {
@@ -142,8 +142,8 @@ try[ while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 23,
+                    "flags": 23,
+                    "start": 512,
                     "end": 25
                 },
                 "expression": {

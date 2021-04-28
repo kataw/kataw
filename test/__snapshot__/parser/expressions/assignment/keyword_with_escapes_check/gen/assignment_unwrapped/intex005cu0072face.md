@@ -33,8 +33,8 @@ inte\u0072face = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 512,
                     "end": 16
                 },
                 "right": {

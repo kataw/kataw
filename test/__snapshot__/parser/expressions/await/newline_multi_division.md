@@ -32,8 +32,8 @@ await
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 513,
                         "end": 8
                     },
                     "right": {
@@ -50,8 +50,8 @@ await
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 12
                 },
                 "right": {

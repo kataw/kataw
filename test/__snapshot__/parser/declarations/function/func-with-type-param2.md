@@ -37,8 +37,8 @@ a=function<T,S>() {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -46,8 +46,8 @@ a=function<T,S>() {}
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 2,
+                        "flags": 2,
+                        "start": 0,
                         "end": 10
                     },
                     "generatorToken": null,

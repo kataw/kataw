@@ -23,7 +23,7 @@ try [catch] async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -116,8 +116,8 @@ try [catch] async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 17,
+                "flags": 17,
+                "start": 0,
                 "end": 21
             },
             "block": {

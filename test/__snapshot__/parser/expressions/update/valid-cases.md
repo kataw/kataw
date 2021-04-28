@@ -29,8 +29,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 512,
                     "end": 5
                 },
                 "expression": {
@@ -55,8 +55,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 512,
                     "end": 16
                 },
                 "expression": {
@@ -95,8 +95,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 26,
+                    "flags": 26,
+                    "start": 512,
                     "end": 28
                 },
                 "expression": {
@@ -135,8 +135,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 40,
+                    "flags": 40,
+                    "start": 512,
                     "end": 42
                 },
                 "expression": {
@@ -189,8 +189,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 53,
+                    "flags": 53,
+                    "start": 512,
                     "end": 55
                 },
                 "expression": {
@@ -243,8 +243,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 65,
+                    "flags": 65,
+                    "start": 512,
                     "end": 67
                 },
                 "expression": {
@@ -281,8 +281,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 78,
+                    "flags": 78,
+                    "start": 512,
                     "end": 80
                 },
                 "expression": {
@@ -319,8 +319,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 96,
+                    "flags": 96,
+                    "start": 512,
                     "end": 98
                 },
                 "expression": {
@@ -329,8 +329,8 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 768,
-                            "start": 81,
+                            "flags": 81,
+                            "start": 1,
                             "end": 85
                         },
                         "expression": {
@@ -379,8 +379,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 113,
+                    "flags": 113,
+                    "start": 512,
                     "end": 115
                 },
                 "expression": {
@@ -389,8 +389,8 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 768,
-                            "start": 99,
+                            "flags": 99,
+                            "start": 1,
                             "end": 103
                         },
                         "expression": {

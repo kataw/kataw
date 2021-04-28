@@ -28,8 +28,8 @@
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 0,
                             "end": 5
                         },
                         "block": {
@@ -43,8 +43,8 @@
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 768,
-                                                "start": 7,
+                                                "flags": 7,
+                                                "start": 512,
                                                 "end": 9
                                             },
                                             "expression": {

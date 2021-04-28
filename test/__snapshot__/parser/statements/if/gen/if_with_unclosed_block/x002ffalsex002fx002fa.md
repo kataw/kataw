@@ -37,8 +37,8 @@ else {} if(x) { /false//a
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 10
             },
             "expression": {
@@ -67,8 +67,8 @@ else {} if(x) { /false//a
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 768,
-                                    "start": 23,
+                                    "flags": 23,
+                                    "start": 512,
                                     "end": 24
                                 },
                                 "right": {

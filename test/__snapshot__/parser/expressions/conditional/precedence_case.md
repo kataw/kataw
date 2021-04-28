@@ -31,8 +31,8 @@ a === b ? c : d % e;
                     },
                     "operatorToken": {
                         "kind": 34620,
-                        "flags": 768,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 512,
                         "end": 5
                     },
                     "right": {
@@ -49,8 +49,8 @@ a === b ? c : d % e;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 9
                 },
                 "consequent": {
@@ -63,8 +63,8 @@ a === b ? c : d % e;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 13
                 },
                 "alternate": {
@@ -79,8 +79,8 @@ a === b ? c : d % e;
                     },
                     "operatorToken": {
                         "kind": 35639,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 17
                     },
                     "right": {

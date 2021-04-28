@@ -435,8 +435,8 @@ x = # ;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 0,
                     "end": 5
                 },
                 "consequent": {
@@ -454,8 +454,8 @@ x = # ;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 0,
                     "end": 11
                 },
                 "alternate": {

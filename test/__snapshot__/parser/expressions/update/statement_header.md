@@ -20,7 +20,7 @@ a);
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,8 +28,8 @@ a);
                 "kind": 128,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 512,
                     "end": 6
                 },
                 "expression": {

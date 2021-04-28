@@ -25,7 +25,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,14 +58,14 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 30
                             },
                             "name": {
@@ -96,8 +96,8 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 38,
+                                                    "flags": 38,
+                                                    "start": 0,
                                                     "end": 44
                                                 },
                                                 "delegate": false,
@@ -122,8 +122,8 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                             "kind": 164,
                                             "ifKeyword": {
                                                 "kind": 37757019,
-                                                "flags": 768,
-                                                "start": 47,
+                                                "flags": 47,
+                                                "start": 0,
                                                 "end": 50
                                             },
                                             "expression": {
@@ -144,8 +144,8 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 59,
+                                                                    "flags": 59,
+                                                                    "start": 0,
                                                                     "end": 65
                                                                 },
                                                                 "delegate": false,
@@ -194,8 +194,8 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 70,
+                                                    "flags": 70,
+                                                    "start": 0,
                                                     "end": 76
                                                 },
                                                 "delegate": false,

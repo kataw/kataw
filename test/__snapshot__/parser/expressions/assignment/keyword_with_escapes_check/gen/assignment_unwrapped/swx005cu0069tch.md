@@ -23,8 +23,8 @@ sw\u0069tch = x;
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 327680,
                 "end": 11
             },
             "expression": {
@@ -38,8 +38,8 @@ sw\u0069tch = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {

@@ -23,7 +23,7 @@ if [else] try { !xxx
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -56,8 +56,8 @@ if [else] try { !xxx
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 768,
-                "start": 4,
+                "flags": 4,
+                "start": 512,
                 "end": 8
             },
             "alternate": {
@@ -81,8 +81,8 @@ if [else] try { !xxx
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 9,
+                "flags": 9,
+                "start": 0,
                 "end": 13
             },
             "block": {
@@ -96,8 +96,8 @@ if [else] try { !xxx
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 15,
+                                    "flags": 15,
+                                    "start": 512,
                                     "end": 17
                                 },
                                 "expression": {

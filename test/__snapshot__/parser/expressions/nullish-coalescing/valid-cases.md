@@ -43,8 +43,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 4
                 },
                 "right": {
@@ -79,8 +79,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 134251592,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 512,
                         "end": 12
                     },
                     "right": {
@@ -97,8 +97,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 512,
                     "end": 17
                 },
                 "right": {
@@ -113,8 +113,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 134251592,
-                        "flags": 768,
-                        "start": 19,
+                        "flags": 19,
+                        "start": 512,
                         "end": 21
                     },
                     "right": {
@@ -153,8 +153,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 768,
-                        "start": 27,
+                        "flags": 27,
+                        "start": 512,
                         "end": 30
                     },
                     "right": {
@@ -171,8 +171,8 @@ a ?? b ?? c ? d : e;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 34
                 },
                 "consequent": {
@@ -185,8 +185,8 @@ a ?? b ?? c ? d : e;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 36,
+                    "flags": 36,
+                    "start": 0,
                     "end": 38
                 },
                 "alternate": {
@@ -223,8 +223,8 @@ a ?? b ?? c ? d : e;
                         },
                         "operatorToken": {
                             "kind": 33339,
-                            "flags": 768,
-                            "start": 45,
+                            "flags": 45,
+                            "start": 512,
                             "end": 48
                         },
                         "right": {
@@ -245,8 +245,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 768,
-                    "start": 51,
+                    "flags": 51,
+                    "start": 512,
                     "end": 54
                 },
                 "right": {
@@ -281,8 +281,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 768,
-                        "start": 60,
+                        "flags": 60,
+                        "start": 512,
                         "end": 63
                     },
                     "right": {
@@ -299,8 +299,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 768,
-                    "start": 65,
+                    "flags": 65,
+                    "start": 512,
                     "end": 68
                 },
                 "right": {
@@ -335,8 +335,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 768,
-                        "start": 74,
+                        "flags": 74,
+                        "start": 512,
                         "end": 77
                     },
                     "right": {
@@ -353,8 +353,8 @@ a ?? b ?? c ? d : e;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 79,
+                    "flags": 79,
+                    "start": 0,
                     "end": 81
                 },
                 "consequent": {
@@ -367,8 +367,8 @@ a ?? b ?? c ? d : e;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 83,
+                    "flags": 83,
+                    "start": 0,
                     "end": 85
                 },
                 "alternate": {
@@ -405,8 +405,8 @@ a ?? b ?? c ? d : e;
                         },
                         "operatorToken": {
                             "kind": 33047,
-                            "flags": 768,
-                            "start": 91,
+                            "flags": 91,
+                            "start": 512,
                             "end": 94
                         },
                         "right": {
@@ -423,8 +423,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 768,
-                        "start": 96,
+                        "flags": 96,
+                        "start": 512,
                         "end": 99
                     },
                     "right": {
@@ -441,8 +441,8 @@ a ?? b ?? c ? d : e;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 101,
+                    "flags": 101,
+                    "start": 0,
                     "end": 103
                 },
                 "consequent": {
@@ -455,8 +455,8 @@ a ?? b ?? c ? d : e;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 105,
+                    "flags": 105,
+                    "start": 0,
                     "end": 107
                 },
                 "alternate": {
@@ -507,8 +507,8 @@ a ?? b ?? c ? d : e;
                         },
                         "operatorToken": {
                             "kind": 33047,
-                            "flags": 768,
-                            "start": 127,
+                            "flags": 127,
+                            "start": 512,
                             "end": 130
                         },
                         "right": {
@@ -525,8 +525,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 768,
-                        "start": 132,
+                        "flags": 132,
+                        "start": 512,
                         "end": 135
                     },
                     "right": {
@@ -543,8 +543,8 @@ a ?? b ?? c ? d : e;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 137,
+                    "flags": 137,
+                    "start": 0,
                     "end": 139
                 },
                 "consequent": {
@@ -557,8 +557,8 @@ a ?? b ?? c ? d : e;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 141,
+                    "flags": 141,
+                    "start": 0,
                     "end": 143
                 },
                 "alternate": {

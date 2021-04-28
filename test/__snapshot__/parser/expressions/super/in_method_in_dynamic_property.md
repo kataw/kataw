@@ -29,8 +29,8 @@ x = { foo(){ return x[super.foo]; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -68,8 +68,8 @@ x = { foo(){ return x[super.foo]; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 768,
-                                                    "start": 12,
+                                                    "flags": 12,
+                                                    "start": 0,
                                                     "end": 19
                                                 },
                                                 "expression": {
@@ -88,8 +88,8 @@ x = { foo(){ return x[super.foo]; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 768,
-                                                                "start": 22,
+                                                                "flags": 22,
+                                                                "start": 0,
                                                                 "end": 27
                                                             },
                                                             "flags": 768,

@@ -25,7 +25,7 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -48,8 +48,8 @@ class A {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 18
                         },
                         "asyncKeyword": null,
@@ -88,8 +88,8 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 30,
+                "flags": 30,
+                "start": 1,
                 "end": 39
             },
             "name": {
@@ -111,8 +111,8 @@ class A {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 43,
+                            "flags": 43,
+                            "start": 512,
                             "end": 52
                         },
                         "asyncKeyword": null,

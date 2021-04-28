@@ -25,8 +25,8 @@ delete (async (x, y) => ok)
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 6
                 },
                 "expression": {
@@ -35,8 +35,8 @@ delete (async (x, y) => ok)
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 20,
+                            "flags": 20,
+                            "start": 0,
                             "end": 23
                         },
                         "typeParameters": null,
@@ -60,7 +60,7 @@ delete (async (x, y) => ok)
                         ],
                         "asyncToken": {
                             "kind": 82031,
-                            "flags": 768,
+                            "flags": 512,
                             "start": 8,
                             "end": 13
                         },

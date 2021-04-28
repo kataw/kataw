@@ -70,7 +70,7 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -94,8 +94,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 6,
+                                    "flags": 6,
+                                    "start": 512,
                                     "end": 13
                                 },
                                 "flags": 0,
@@ -125,8 +125,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 16,
+                "flags": 16,
+                "start": 1,
                 "end": 21
             },
             "declarationList": {
@@ -160,8 +160,8 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 29,
+                                            "flags": 29,
+                                            "start": 512,
                                             "end": 35
                                         },
                                         {
@@ -179,8 +179,8 @@ class Array { concat(items:number | string) {}; }
                                                 "types": [
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 768,
-                                                        "start": 43,
+                                                        "flags": 43,
+                                                        "start": 512,
                                                         "end": 49
                                                     }
                                                 ],
@@ -224,8 +224,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 52,
+                "flags": 52,
+                "start": 1,
                 "end": 57
             },
             "declarationList": {
@@ -259,8 +259,8 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 65,
+                                            "flags": 65,
+                                            "start": 512,
                                             "end": 71
                                         },
                                         {
@@ -278,8 +278,8 @@ class Array { concat(items:number | string) {}; }
                                                 "types": [
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 768,
-                                                        "start": 79,
+                                                        "flags": 79,
+                                                        "start": 512,
                                                         "end": 85
                                                     }
                                                 ],
@@ -323,8 +323,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 89,
+                "flags": 89,
+                "start": 1,
                 "end": 94
             },
             "declarationList": {
@@ -394,8 +394,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 111,
+                "flags": 111,
+                "start": 1,
                 "end": 116
             },
             "declarationList": {
@@ -429,8 +429,8 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 126,
+                                            "flags": 126,
+                                            "start": 512,
                                             "end": 133
                                         },
                                         {
@@ -445,8 +445,8 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "returnType": {
                                                 "kind": 134234347,
-                                                "flags": 768,
-                                                "start": 141,
+                                                "flags": 141,
+                                                "start": 512,
                                                 "end": 148
                                             },
                                             "typeParameters": null,
@@ -494,8 +494,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 154,
+                "flags": 154,
+                "start": 1,
                 "end": 159
             },
             "declarationList": {
@@ -525,16 +525,16 @@ class Array { concat(items:number | string) {}; }
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 768,
-                                "start": 169,
+                                "flags": 169,
+                                "start": 0,
                                 "end": 171
                             },
                             "consequent": {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 186,
+                                    "flags": 186,
+                                    "start": 0,
                                     "end": 189
                                 },
                                 "typeParameters": null,
@@ -553,8 +553,8 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 179,
+                                        "flags": 179,
+                                        "start": 512,
                                         "end": 186
                                     },
                                     "flags": 0,
@@ -582,8 +582,8 @@ class Array { concat(items:number | string) {}; }
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 768,
-                                "start": 192,
+                                "flags": 192,
+                                "start": 0,
                                 "end": 194
                             },
                             "alternate": {
@@ -616,8 +616,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 199,
+                "flags": 199,
+                "start": 1,
                 "end": 204
             },
             "declarationList": {
@@ -651,8 +651,8 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 216,
+                                            "flags": 216,
+                                            "start": 512,
                                             "end": 223
                                         },
                                         "optionalToken": null,
@@ -692,8 +692,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 226,
+                "flags": 226,
+                "start": 1,
                 "end": 231
             },
             "declarationList": {
@@ -723,8 +723,8 @@ class Array { concat(items:number | string) {}; }
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 768,
-                                "start": 241,
+                                "flags": 241,
+                                "start": 0,
                                 "end": 243
                             },
                             "consequent": {
@@ -743,8 +743,8 @@ class Array { concat(items:number | string) {}; }
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 768,
-                                "start": 249,
+                                "flags": 249,
+                                "start": 0,
                                 "end": 251
                             },
                             "alternate": {
@@ -777,8 +777,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 259,
+                "flags": 259,
+                "start": 1,
                 "end": 264
             },
             "declarationList": {
@@ -802,8 +802,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 285,
+                                    "flags": 285,
+                                    "start": 0,
                                     "end": 288
                                 },
                                 "typeParameters": null,
@@ -822,8 +822,8 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 278,
+                                        "flags": 278,
+                                        "start": 512,
                                         "end": 285
                                     },
                                     "flags": 0,
@@ -864,8 +864,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 294,
+                "flags": 294,
+                "start": 1,
                 "end": 299
             },
             "declarationList": {
@@ -889,8 +889,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 317,
+                                    "flags": 317,
+                                    "start": 0,
                                     "end": 320
                                 },
                                 "typeParameters": null,
@@ -900,8 +900,8 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 310,
+                                        "flags": 310,
+                                        "start": 512,
                                         "end": 317
                                     },
                                     "flags": 0,
@@ -942,8 +942,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 326,
+                "flags": 326,
+                "start": 1,
                 "end": 331
             },
             "declarationList": {
@@ -965,8 +965,8 @@ class Array { concat(items:number | string) {}; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 357,
+                                "flags": 357,
+                                "start": 0,
                                 "end": 360
                             },
                             "typeParameters": null,
@@ -982,7 +982,7 @@ class Array { concat(items:number | string) {}; }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 337,
                                 "end": 343
                             },
@@ -990,8 +990,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 350,
+                                    "flags": 350,
+                                    "start": 512,
                                     "end": 357
                                 },
                                 "flags": 0,
@@ -1028,8 +1028,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 365,
+                "flags": 365,
+                "start": 1,
                 "end": 370
             },
             "declarationList": {
@@ -1051,15 +1051,15 @@ class Array { concat(items:number | string) {}; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 393,
+                                "flags": 393,
+                                "start": 0,
                                 "end": 396
                             },
                             "typeParameters": null,
                             "parameters": [],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 376,
                                 "end": 382
                             },
@@ -1067,8 +1067,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 386,
+                                    "flags": 386,
+                                    "start": 512,
                                     "end": 393
                                 },
                                 "flags": 0,
@@ -1105,8 +1105,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 401,
+                "flags": 401,
+                "start": 1,
                 "end": 406
             },
             "declarationList": {
@@ -1128,8 +1128,8 @@ class Array { concat(items:number | string) {}; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 439,
+                                "flags": 439,
+                                "start": 0,
                                 "end": 442
                             },
                             "typeParameters": null,
@@ -1213,7 +1213,7 @@ class Array { concat(items:number | string) {}; }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 412,
                                 "end": 418
                             },
@@ -1255,8 +1255,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 445,
+                "flags": 445,
+                "start": 1,
                 "end": 450
             },
             "declarationList": {
@@ -1278,8 +1278,8 @@ class Array { concat(items:number | string) {}; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 467,
+                                "flags": 467,
+                                "start": 0,
                                 "end": 470
                             },
                             "typeParameters": null,
@@ -1289,8 +1289,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 460,
+                                    "flags": 460,
+                                    "start": 512,
                                     "end": 467
                                 },
                                 "flags": 0,
@@ -1327,8 +1327,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 475,
+                "flags": 475,
+                "start": 1,
                 "end": 480
             },
             "declarationList": {
@@ -1362,8 +1362,8 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 492,
+                                            "flags": 492,
+                                            "start": 512,
                                             "end": 499
                                         },
                                         "optionalToken": null,
@@ -1384,14 +1384,14 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 509,
+                                            "flags": 509,
+                                            "start": 512,
                                             "end": 516
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
-                                            "flags": 768,
-                                            "start": 507,
+                                            "flags": 507,
+                                            "start": 512,
                                             "end": 508
                                         },
                                         "staticToken": false,
@@ -1430,8 +1430,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 517,
+                "flags": 517,
+                "start": 1,
                 "end": 522
             },
             "declarationList": {
@@ -1490,8 +1490,8 @@ class Array { concat(items:number | string) {}; }
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 534,
+                                            "flags": 534,
+                                            "start": 512,
                                             "end": 540
                                         }
                                     ],
@@ -1548,8 +1548,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 556,
+                "flags": 556,
+                "start": 1,
                 "end": 561
             },
             "declarationList": {
@@ -1607,8 +1607,8 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 570,
+                                            "flags": 570,
+                                            "start": 512,
                                             "end": 577
                                         },
                                         "optionalToken": null,
@@ -1685,8 +1685,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 597,
+                "flags": 597,
+                "start": 1,
                 "end": 602
             },
             "declarationList": {
@@ -1744,8 +1744,8 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 611,
+                                            "flags": 611,
+                                            "start": 512,
                                             "end": 618
                                         },
                                         "optionalToken": null,
@@ -1822,8 +1822,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 639,
+                "flags": 639,
+                "start": 1,
                 "end": 644
             },
             "declarationList": {
@@ -1859,8 +1859,8 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "value": {
                                                 "kind": 134234345,
-                                                "flags": 768,
-                                                "start": 657,
+                                                "flags": 657,
+                                                "start": 512,
                                                 "end": 664
                                             },
                                             "optionalToken": null,
@@ -1904,8 +1904,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 666,
+                "flags": 666,
+                "start": 1,
                 "end": 671
             },
             "declarationList": {
@@ -1950,8 +1950,8 @@ class Array { concat(items:number | string) {}; }
                                     },
                                     {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 685,
+                                        "flags": 685,
+                                        "start": 512,
                                         "end": 692
                                     }
                                 ],
@@ -1989,8 +1989,8 @@ class Array { concat(items:number | string) {}; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 697,
+                "flags": 697,
+                "start": 1,
                 "end": 702
             },
             "declarationList": {
@@ -2037,8 +2037,8 @@ class Array { concat(items:number | string) {}; }
                                                     },
                                                     "value": {
                                                         "kind": 134234347,
-                                                        "flags": 768,
-                                                        "start": 723,
+                                                        "flags": 723,
+                                                        "start": 512,
                                                         "end": 730
                                                     },
                                                     "optionalToken": null,
@@ -2093,8 +2093,8 @@ class Array { concat(items:number | string) {}; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 732,
+                "flags": 732,
+                "start": 1,
                 "end": 739
             },
             "name": {
@@ -2151,14 +2151,14 @@ class Array { concat(items:number | string) {}; }
                                                 "types": [
                                                     {
                                                         "kind": 134234345,
-                                                        "flags": 768,
-                                                        "start": 761,
+                                                        "flags": 761,
+                                                        "start": 512,
                                                         "end": 767
                                                     },
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 768,
-                                                        "start": 769,
+                                                        "flags": 769,
+                                                        "start": 512,
                                                         "end": 776
                                                     }
                                                 ],

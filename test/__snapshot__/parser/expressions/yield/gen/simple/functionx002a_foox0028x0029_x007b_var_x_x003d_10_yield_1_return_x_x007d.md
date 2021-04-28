@@ -25,14 +25,14 @@ function* foo() { var x = 10; yield 1; return x; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -62,8 +62,8 @@ function* foo() { var x = 10; yield 1; return x; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 0,
                                 "end": 21
                             },
                             "declarationList": {
@@ -108,8 +108,8 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 29,
+                                    "flags": 29,
+                                    "start": 0,
                                     "end": 35
                                 },
                                 "delegate": false,
@@ -134,8 +134,8 @@ function* foo() { var x = 10; yield 1; return x; }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 38,
+                                "flags": 38,
+                                "start": 0,
                                 "end": 45
                             },
                             "expression": {

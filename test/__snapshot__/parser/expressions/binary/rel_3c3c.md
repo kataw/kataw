@@ -29,8 +29,8 @@ a<<b
                 },
                 "operatorToken": {
                     "kind": 35140,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {

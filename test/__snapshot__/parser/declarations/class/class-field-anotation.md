@@ -29,7 +29,7 @@ class Foo { prop1:string; prop2:number; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -65,8 +65,8 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 512,
                                 "end": 24
                             },
                             "flags": 0,
@@ -103,8 +103,8 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 512,
                                 "end": 38
                             },
                             "flags": 0,

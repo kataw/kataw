@@ -25,7 +25,7 @@ class A extends async function(){} {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,22 +42,22 @@ class A extends async function(){} {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 21
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 21,
+                        "flags": 21,
+                        "start": 0,
                         "end": 30
                     },
                     "generatorToken": null,

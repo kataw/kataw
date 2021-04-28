@@ -29,7 +29,7 @@ function g(a:number=1, e:number=1) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -61,8 +61,8 @@ function g(a:number=1, e:number=1) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 512,
                                 "end": 19
                             },
                             "flags": 0,
@@ -97,8 +97,8 @@ function g(a:number=1, e:number=1) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 25,
+                                "flags": 25,
+                                "start": 512,
                                 "end": 31
                             },
                             "flags": 0,

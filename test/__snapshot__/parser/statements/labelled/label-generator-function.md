@@ -31,14 +31,14 @@ label: function * x (){}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 0,
                     "end": 15
                 },
                 "generatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 512,
                     "end": 17
                 },
                 "name": {

@@ -55,8 +55,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 0,
                 "end": 18
             },
             "declarationList": {
@@ -107,8 +107,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 45,
+                "flags": 45,
+                "start": 0,
                 "end": 49
             },
             "declarationList": {
@@ -128,8 +128,8 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 49,
+                "flags": 49,
+                "start": 0,
                 "end": 58
             },
             "generatorToken": null,
@@ -194,8 +194,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 74,
+                "flags": 74,
+                "start": 0,
                 "end": 78
             },
             "declarationList": {
@@ -235,8 +235,8 @@
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 768,
-                        "start": 83,
+                        "flags": 83,
+                        "start": 0,
                         "end": 89
                     },
                     "flags": 768,
@@ -277,8 +277,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 105,
+                "flags": 105,
+                "start": 0,
                 "end": 109
             },
             "declarationList": {
@@ -304,8 +304,8 @@
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
-                                        "flags": 768,
-                                        "start": 115,
+                                        "flags": 115,
+                                        "start": 0,
                                         "end": 121
                                     },
                                     "flags": 768,
@@ -325,8 +325,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 121,
+                                "flags": 121,
+                                "start": 512,
                                 "end": 123
                             },
                             "right": {

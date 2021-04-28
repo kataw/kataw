@@ -27,7 +27,7 @@ for ([{x=y}]=x of x) ;
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -88,8 +88,8 @@ for ([{x=y}]=x of x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {

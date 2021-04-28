@@ -29,8 +29,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 17
             },
             "declarationList": {
@@ -52,8 +52,8 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 27,
+                                "flags": 27,
+                                "start": 0,
                                 "end": 30
                             },
                             "typeParameters": null,

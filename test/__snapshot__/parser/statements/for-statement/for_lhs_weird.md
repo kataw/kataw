@@ -33,7 +33,7 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -69,8 +69,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 768,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 512,
                     "end": 12
                 },
                 "right": {
@@ -109,8 +109,8 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
-                "start": 20,
+                "flags": 20,
+                "start": 1,
                 "end": 25
             },
             "initializer": {
@@ -145,8 +145,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 768,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 512,
                     "end": 36
                 },
                 "right": {
@@ -185,8 +185,8 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
-                "start": 44,
+                "flags": 44,
+                "start": 1,
                 "end": 49
             },
             "initializer": {
@@ -221,8 +221,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4136,
-                    "flags": 768,
-                    "start": 55,
+                    "flags": 55,
+                    "start": 512,
                     "end": 58
                 },
                 "right": {
@@ -261,8 +261,8 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
-                "start": 66,
+                "flags": 66,
+                "start": 1,
                 "end": 71
             },
             "initializer": {
@@ -298,8 +298,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 768,
-                    "start": 78,
+                    "flags": 78,
+                    "start": 512,
                     "end": 81
                 },
                 "right": {

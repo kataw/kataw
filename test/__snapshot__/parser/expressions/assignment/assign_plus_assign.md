@@ -29,8 +29,8 @@ a = b + c = d
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -45,8 +45,8 @@ a = b + c = d
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 512,
                         "end": 7
                     },
                     "right": {

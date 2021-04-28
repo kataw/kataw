@@ -23,7 +23,7 @@ let x = import(x)
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -48,8 +48,8 @@ let x = import(x)
                                 "kind": 206,
                                 "importKeyword": {
                                     "kind": 37814364,
-                                    "flags": 768,
-                                    "start": 7,
+                                    "flags": 7,
+                                    "start": 0,
                                     "end": 14
                                 },
                                 "expression": {

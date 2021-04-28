@@ -24,7 +24,7 @@ function x(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -55,8 +55,8 @@ function x(){
                             "kind": 164,
                             "ifKeyword": {
                                 "kind": 37757019,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 1,
                                 "end": 18
                             },
                             "expression": {
@@ -71,8 +71,8 @@ function x(){
                                 "kind": 161,
                                 "returnKeyword": {
                                     "kind": 37757022,
-                                    "flags": 768,
-                                    "start": 22,
+                                    "flags": 22,
+                                    "start": 0,
                                     "end": 29
                                 },
                                 "expression": {
@@ -88,8 +88,8 @@ function x(){
                             },
                             "elseKeyword": {
                                 "kind": 4194389,
-                                "flags": 768,
-                                "start": 34,
+                                "flags": 34,
+                                "start": 513,
                                 "end": 41
                             },
                             "alternate": {

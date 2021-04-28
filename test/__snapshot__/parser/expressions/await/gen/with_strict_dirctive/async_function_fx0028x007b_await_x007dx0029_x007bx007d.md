@@ -33,14 +33,14 @@
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 512,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 0,
                 "end": 28
             },
             "generatorToken": null,

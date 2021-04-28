@@ -20,14 +20,14 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -59,8 +59,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 55,
+                                    "flags": 55,
+                                    "start": 0,
                                     "end": 58
                                 },
                                 "typeParameters": null,
@@ -92,8 +92,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 28,
+                                            "flags": 28,
+                                            "start": 512,
                                             "end": 30
                                         },
                                         "right": {
@@ -120,8 +120,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 34098,
-                                                                            "flags": 768,
-                                                                            "start": 37,
+                                                                            "flags": 37,
+                                                                            "start": 512,
                                                                             "end": 39
                                                                         },
                                                                         "right": {
@@ -141,8 +141,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                         "kind": 208,
                                                                                         "awaitToken": {
                                                                                             "kind": 82032,
-                                                                                            "flags": 768,
-                                                                                            "start": 42,
+                                                                                            "flags": 42,
+                                                                                            "start": 0,
                                                                                             "end": 47
                                                                                         },
                                                                                         "expression": {

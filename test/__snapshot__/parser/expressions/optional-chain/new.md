@@ -21,7 +21,7 @@ new foo?.bar
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -29,8 +29,8 @@ new foo?.bar
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 768,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 0,
                         "end": 9
                     },
                     "member": {

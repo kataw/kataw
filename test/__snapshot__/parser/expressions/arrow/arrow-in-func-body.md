@@ -28,8 +28,8 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 0,
                         "end": 9
                     },
                     "generatorToken": null,
@@ -63,8 +63,8 @@
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 22,
+                                                "flags": 22,
+                                                "start": 0,
                                                 "end": 25
                                             },
                                             "typeParameters": null,
@@ -138,8 +138,8 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 36,
+                        "flags": 36,
+                        "start": 0,
                         "end": 44
                     },
                     "generatorToken": null,
@@ -173,8 +173,8 @@
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 65,
+                                                "flags": 65,
+                                                "start": 0,
                                                 "end": 68
                                             },
                                             "typeParameters": null,
@@ -192,8 +192,8 @@
                                                         "kind": 215,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 768,
-                                                            "start": 59,
+                                                            "flags": 59,
+                                                            "start": 512,
                                                             "end": 63
                                                         },
                                                         "binding": {
@@ -275,8 +275,8 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 79,
+                        "flags": 79,
+                        "start": 0,
                         "end": 87
                     },
                     "generatorToken": null,
@@ -310,8 +310,8 @@
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 104,
+                                                "flags": 104,
+                                                "start": 0,
                                                 "end": 107
                                             },
                                             "typeParameters": null,
@@ -402,8 +402,8 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 118,
+                        "flags": 118,
+                        "start": 0,
                         "end": 126
                     },
                     "generatorToken": null,
@@ -437,8 +437,8 @@
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 143,
+                                                "flags": 143,
+                                                "start": 0,
                                                 "end": 146
                                             },
                                             "typeParameters": null,
@@ -530,8 +530,8 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 157,
+                        "flags": 157,
+                        "start": 0,
                         "end": 165
                     },
                     "generatorToken": null,
@@ -565,8 +565,8 @@
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 180,
+                                                "flags": 180,
+                                                "start": 0,
                                                 "end": 183
                                             },
                                             "typeParameters": null,

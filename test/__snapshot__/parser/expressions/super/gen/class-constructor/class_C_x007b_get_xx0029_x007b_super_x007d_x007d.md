@@ -25,7 +25,7 @@ class C { constructor() { class C { get x) { super; } } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -82,8 +82,8 @@ class C { constructor() { class C { get x) { super; } } } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 25,
+                                                "flags": 25,
+                                                "start": 0,
                                                 "end": 31
                                             },
                                             "name": {
@@ -169,8 +169,8 @@ class C { constructor() { class C { get x) { super; } } } }
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 768,
-                                    "start": 44,
+                                    "flags": 44,
+                                    "start": 0,
                                     "end": 50
                                 },
                                 "flags": 768,

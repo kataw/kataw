@@ -29,7 +29,7 @@ obj.c\u0061se = 42;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -104,8 +104,8 @@ obj.c\u0061se = 42;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 28,
+                    "flags": 28,
+                    "start": 512,
                     "end": 30
                 },
                 "right": {

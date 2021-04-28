@@ -21,16 +21,16 @@ obj?.a?.b
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 0,
                     "end": 8
                 },
                 "member": {
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 0,
                         "end": 5
                     },
                     "member": {

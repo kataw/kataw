@@ -25,7 +25,7 @@ let x = () => import {x} from "y"
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -48,8 +48,8 @@ let x = () => import {x} from "y"
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 0,
                                 "end": 13
                             },
                             "typeParameters": null,
@@ -62,8 +62,8 @@ let x = () => import {x} from "y"
                                     "kind": 206,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 768,
-                                        "start": 13,
+                                        "flags": 13,
+                                        "start": 0,
                                         "end": 20
                                     },
                                     "expression": {

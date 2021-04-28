@@ -25,7 +25,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -66,8 +66,8 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 768,
-                                    "start": 26,
+                                    "flags": 26,
+                                    "start": 512,
                                     "end": 28
                                 },
                                 "right": {
@@ -90,8 +90,8 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 31,
+                                "flags": 31,
+                                "start": 0,
                                 "end": 38
                             },
                             "expression": {
@@ -120,8 +120,8 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 768,
-                                    "start": 48,
+                                    "flags": 48,
+                                    "start": 512,
                                     "end": 50
                                 },
                                 "right": {

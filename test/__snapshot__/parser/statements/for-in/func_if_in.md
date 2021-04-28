@@ -37,7 +37,7 @@ for (function(){ if (a in b); }.prop in x);
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,8 +49,8 @@ for (function(){ if (a in b); }.prop in x);
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 13
                     },
                     "generatorToken": null,
@@ -73,8 +73,8 @@ for (function(){ if (a in b); }.prop in x);
                                     "kind": 164,
                                     "ifKeyword": {
                                         "kind": 37757019,
-                                        "flags": 768,
-                                        "start": 16,
+                                        "flags": 16,
+                                        "start": 0,
                                         "end": 19
                                     },
                                     "expression": {
@@ -89,8 +89,8 @@ for (function(){ if (a in b); }.prop in x);
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
-                                            "flags": 768,
-                                            "start": 22,
+                                            "flags": 22,
+                                            "start": 512,
                                             "end": 25
                                         },
                                         "right": {

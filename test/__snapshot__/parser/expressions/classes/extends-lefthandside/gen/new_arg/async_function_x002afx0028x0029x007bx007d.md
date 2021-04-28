@@ -25,7 +25,7 @@ new async function *f(){}
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -33,20 +33,20 @@ new async function *f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 9
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 18
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 18,
+                        "flags": 18,
+                        "start": 512,
                         "end": 20
                     },
                     "name": {

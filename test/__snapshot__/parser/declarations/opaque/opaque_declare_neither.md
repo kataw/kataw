@@ -27,19 +27,19 @@ declare opaque type Foo
             "kind": 200,
             "declareToken": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "opaqueToken": {
                 "kind": 24822,
-                "flags": 768,
+                "flags": 512,
                 "start": 7,
                 "end": 14
             },
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 7,
                 "end": 23
             },

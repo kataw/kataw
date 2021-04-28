@@ -21,14 +21,14 @@ function *f() { 1 ? 2 : yield 3; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -67,8 +67,8 @@ function *f() { 1 ? 2 : yield 3; }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 768,
-                                    "start": 17,
+                                    "flags": 17,
+                                    "start": 0,
                                     "end": 19
                                 },
                                 "consequent": {
@@ -81,16 +81,16 @@ function *f() { 1 ? 2 : yield 3; }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 768,
-                                    "start": 21,
+                                    "flags": 21,
+                                    "start": 0,
                                     "end": 23
                                 },
                                 "alternate": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 768,
-                                        "start": 23,
+                                        "flags": 23,
+                                        "start": 0,
                                         "end": 29
                                     },
                                     "delegate": false,

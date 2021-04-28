@@ -21,7 +21,7 @@ class x { foo(){ function f(){ super.foo; } }}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -78,8 +78,8 @@ class x { foo(){ function f(){ super.foo; } }}
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 16,
+                                                "flags": 16,
+                                                "start": 0,
                                                 "end": 25
                                             },
                                             "generatorToken": null,
@@ -113,8 +113,8 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                     "kind": 225,
                                                                     "superKeyword": {
                                                                         "kind": 4259935,
-                                                                        "flags": 768,
-                                                                        "start": 30,
+                                                                        "flags": 30,
+                                                                        "start": 0,
                                                                         "end": 36
                                                                     },
                                                                     "flags": 768,

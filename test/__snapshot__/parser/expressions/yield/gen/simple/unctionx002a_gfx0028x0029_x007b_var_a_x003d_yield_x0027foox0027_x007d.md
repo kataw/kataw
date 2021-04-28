@@ -33,8 +33,8 @@ unction* gf() { var a = yield 'foo'; }
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -77,8 +77,8 @@ unction* gf() { var a = yield 'foo'; }
                         "declareKeyword": null,
                         "varKeyword": {
                             "kind": 37757002,
-                            "flags": 768,
-                            "start": 15,
+                            "flags": 15,
+                            "start": 0,
                             "end": 19
                         },
                         "declarationList": {

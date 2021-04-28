@@ -21,7 +21,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -123,8 +123,8 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 768,
-                                                    "start": 28,
+                                                    "flags": 28,
+                                                    "start": 0,
                                                     "end": 30
                                                 },
                                                 "member": {

@@ -37,8 +37,8 @@ else {} if(x) { catch { try
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 10
             },
             "expression": {
@@ -66,8 +66,8 @@ else {} if(x) { catch { try
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 768,
-                                                "start": 23,
+                                                "flags": 23,
+                                                "start": 0,
                                                 "end": 27
                                             },
                                             "block": {

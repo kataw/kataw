@@ -24,7 +24,7 @@
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 41951307,
-                            "flags": 768,
+                            "flags": 640,
                             "start": 1,
                             "end": 5
                         },

@@ -24,7 +24,7 @@ var [...await f] = [];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,8 +42,8 @@ var [...await f] = [];
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 5,
+                                            "flags": 5,
+                                            "start": 512,
                                             "end": 8
                                         },
                                         "binding": {

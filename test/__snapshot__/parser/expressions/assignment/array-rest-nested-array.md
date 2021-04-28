@@ -35,8 +35,8 @@ result = [...[x]] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -50,8 +50,8 @@ result = [...[x]] = vals;
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "start": 0,
                                         "end": 13
                                     },
                                     "argument": {
@@ -93,8 +93,8 @@ result = [...[x]] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 512,
                         "end": 19
                     },
                     "right": {

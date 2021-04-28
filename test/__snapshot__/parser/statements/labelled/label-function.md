@@ -31,8 +31,8 @@ foo: function() {}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 0,
                     "end": 13
                 },
                 "generatorToken": null,

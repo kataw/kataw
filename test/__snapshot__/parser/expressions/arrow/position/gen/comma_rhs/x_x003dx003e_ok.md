@@ -36,8 +36,8 @@ a, x => ok
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 4,
+                            "flags": 4,
+                            "start": 0,
                             "end": 7
                         },
                         "typeParameters": null,

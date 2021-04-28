@@ -60,8 +60,8 @@
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 768,
-                                                    "start": 12,
+                                                    "flags": 12,
+                                                    "start": 0,
                                                     "end": 18
                                                 },
                                                 "name": {
@@ -86,8 +86,8 @@
                                                             "setKeyword": null,
                                                             "getKeyword": {
                                                                 "kind": 82031,
-                                                                "flags": 768,
-                                                                "start": 22,
+                                                                "flags": 22,
+                                                                "start": 512,
                                                                 "end": 26
                                                             },
                                                             "method": {
@@ -143,8 +143,8 @@
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 768,
-                                                                                            "start": 33,
+                                                                                            "flags": 33,
+                                                                                            "start": 0,
                                                                                             "end": 39
                                                                                         },
                                                                                         "flags": 768,

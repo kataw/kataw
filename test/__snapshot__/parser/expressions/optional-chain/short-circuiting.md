@@ -30,16 +30,16 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 768,
-                            "start": 31,
+                            "flags": 31,
+                            "start": 0,
                             "end": 33
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 768,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 0,
                                 "end": 3
                             },
                             "member": {
@@ -61,8 +61,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             "kind": 128,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 768,
-                                                "start": 4,
+                                                "flags": 4,
+                                                "start": 512,
                                                 "end": 6
                                             },
                                             "expression": {
@@ -147,8 +147,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 768,
-                                    "start": 37,
+                                    "flags": 37,
+                                    "start": 512,
                                     "end": 39
                                 },
                                 "expression": {
@@ -199,16 +199,16 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 768,
-                            "start": 119,
+                            "flags": 119,
+                            "start": 0,
                             "end": 121
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 768,
-                                "start": 81,
+                                "flags": 81,
+                                "start": 0,
                                 "end": 83
                             },
                             "member": {
@@ -230,8 +230,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             "kind": 128,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 768,
-                                                "start": 84,
+                                                "flags": 84,
+                                                "start": 512,
                                                 "end": 86
                                             },
                                             "expression": {
@@ -316,8 +316,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 768,
-                                    "start": 125,
+                                    "flags": 125,
+                                    "start": 512,
                                     "end": 127
                                 },
                                 "expression": {

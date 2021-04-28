@@ -26,8 +26,8 @@ a?.b
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 0,
                             "end": 3
                         },
                         "member": {
@@ -65,8 +65,8 @@ a?.b
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 4,
+                        "flags": 4,
+                        "start": 513,
                         "end": 6
                     },
                     "right": {
@@ -83,8 +83,8 @@ a?.b
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {

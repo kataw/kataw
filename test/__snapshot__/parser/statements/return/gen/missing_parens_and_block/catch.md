@@ -23,7 +23,7 @@ return catch catch
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -59,8 +59,8 @@ return catch catch
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 18
                 },
                 "catchParameter": null,

@@ -21,7 +21,7 @@ import.call
                 "kind": 207,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 6
                 },

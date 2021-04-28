@@ -23,7 +23,7 @@ do[ async funcion switch!!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -68,8 +68,8 @@ do[ async funcion switch!!
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 3,
+                                    "flags": 3,
+                                    "start": 512,
                                     "end": 9
                                 },
                                 "returnType": null,
@@ -77,16 +77,16 @@ do[ async funcion switch!!
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 512,
                                         "end": 25
                                     },
                                     "expression": {
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 768,
-                                            "start": 25,
+                                            "flags": 25,
+                                            "start": 512,
                                             "end": 26
                                         },
                                         "expression": {

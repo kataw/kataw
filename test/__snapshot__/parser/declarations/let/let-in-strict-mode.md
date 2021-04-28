@@ -74,8 +74,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 35,
+                    "flags": 35,
+                    "start": 512,
                     "end": 37
                 },
                 "expression": {

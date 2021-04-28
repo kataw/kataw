@@ -31,15 +31,15 @@ type T2 = number;
             "kind": 178,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -67,14 +67,14 @@ type T2 = number;
             "kind": 200,
             "declareToken": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 19,
                 "end": 28
             },
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 28,
                 "end": 36
             },
@@ -90,8 +90,8 @@ type T2 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 768,
-                "start": 38,
+                "flags": 38,
+                "start": 512,
                 "end": 45
             },
             "flags": 32896,
@@ -104,7 +104,7 @@ type T2 = number;
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 46,
                 "end": 55
             },
@@ -120,8 +120,8 @@ type T2 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 768,
-                "start": 57,
+                "flags": 57,
+                "start": 512,
                 "end": 64
             },
             "flags": 128,

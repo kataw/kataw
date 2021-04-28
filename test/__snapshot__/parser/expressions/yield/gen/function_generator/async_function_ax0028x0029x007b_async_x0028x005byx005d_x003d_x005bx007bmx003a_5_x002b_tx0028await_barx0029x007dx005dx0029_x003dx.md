@@ -25,14 +25,14 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 0,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -95,14 +95,14 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                             "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 768,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 512,
                                                 "end": 45
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 45,
+                                                "flags": 45,
+                                                "start": 0,
                                                 "end": 54
                                             },
                                             "generatorToken": null,
@@ -168,8 +168,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4125,
-                                                                            "flags": 768,
-                                                                            "start": 74,
+                                                                            "flags": 74,
+                                                                            "start": 512,
                                                                             "end": 76
                                                                         },
                                                                         "right": {
@@ -196,8 +196,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 34098,
-                                                                                                            "flags": 768,
-                                                                                                            "start": 83,
+                                                                                                            "flags": 83,
+                                                                                                            "start": 512,
                                                                                                             "end": 85
                                                                                                         },
                                                                                                         "right": {
@@ -217,8 +217,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                         "kind": 208,
                                                                                                                         "awaitToken": {
                                                                                                                             "kind": 82032,
-                                                                                                                            "flags": 768,
-                                                                                                                            "start": 88,
+                                                                                                                            "flags": 88,
+                                                                                                                            "start": 0,
                                                                                                                             "end": 93
                                                                                                                         },
                                                                                                                         "expression": {

@@ -23,7 +23,7 @@ return false return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -42,8 +42,8 @@ return false return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 12,
+                "flags": 12,
+                "start": 0,
                 "end": 19
             },
             "expression": null,

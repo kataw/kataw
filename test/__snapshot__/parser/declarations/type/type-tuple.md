@@ -29,7 +29,7 @@ type A = { [string]: number };
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 6
             },
@@ -52,14 +52,14 @@ type A = { [string]: number };
                         "name": null,
                         "key": {
                             "kind": 134234347,
-                            "flags": 768,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 512,
                             "end": 18
                         },
                         "value": {
                             "kind": 134234345,
-                            "flags": 768,
-                            "start": 20,
+                            "flags": 20,
+                            "start": 512,
                             "end": 27
                         },
                         "staticToken": false,

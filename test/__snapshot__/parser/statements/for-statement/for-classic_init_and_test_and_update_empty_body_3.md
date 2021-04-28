@@ -38,7 +38,7 @@ for (a * b + c * d;b;c);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -56,8 +56,8 @@ for (a * b + c * d;b;c);
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 512,
                         "end": 8
                     },
                     "right": {
@@ -74,8 +74,8 @@ for (a * b + c * d;b;c);
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 12
                 },
                 "right": {
@@ -90,8 +90,8 @@ for (a * b + c * d;b;c);
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 14,
+                        "flags": 14,
+                        "start": 512,
                         "end": 16
                     },
                     "right": {

@@ -36,8 +36,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 512,
                     "end": 21
                 },
                 "expression": {
@@ -76,8 +76,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 41,
+                    "flags": 41,
+                    "start": 512,
                     "end": 48
                 },
                 "expression": {
@@ -122,8 +122,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 70,
+                    "flags": 70,
+                    "start": 512,
                     "end": 77
                 },
                 "expression": {

@@ -42,8 +42,8 @@
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 512,
                     "end": 17
                 },
                 "right": {
@@ -51,8 +51,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 0,
                         "end": 23
                     },
                     "name": null,
@@ -61,8 +61,8 @@
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 768,
-                            "start": 23,
+                            "flags": 23,
+                            "start": 0,
                             "end": 31
                         },
                         "expression": {
@@ -79,8 +79,8 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 768,
-                                    "start": 34,
+                                    "flags": 34,
+                                    "start": 0,
                                     "end": 36
                                 },
                                 "consequent": {
@@ -92,8 +92,8 @@
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 768,
-                                    "start": 41,
+                                    "flags": 41,
+                                    "start": 0,
                                     "end": 43
                                 },
                                 "alternate": {

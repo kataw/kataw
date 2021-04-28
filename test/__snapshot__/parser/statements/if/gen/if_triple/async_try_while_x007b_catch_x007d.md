@@ -23,7 +23,7 @@ if if if async try while { catch }
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,8 +38,8 @@ if if if async try while { catch }
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -53,8 +53,8 @@ if if if async try while { catch }
                     "kind": 164,
                     "ifKeyword": {
                         "kind": 37757019,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -69,8 +69,8 @@ if if if async try while { catch }
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 768,
-                            "start": 14,
+                            "flags": 14,
+                            "start": 0,
                             "end": 18
                         },
                         "block": {

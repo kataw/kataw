@@ -29,7 +29,7 @@ type Foo = (string | number)
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 8
             },
@@ -48,14 +48,14 @@ type Foo = (string | number)
                 "types": [
                     {
                         "kind": 134234347,
-                        "flags": 768,
-                        "start": 12,
+                        "flags": 12,
+                        "start": 512,
                         "end": 18
                     },
                     {
                         "kind": 134234345,
-                        "flags": 768,
-                        "start": 20,
+                        "flags": 20,
+                        "start": 512,
                         "end": 27
                     }
                 ],

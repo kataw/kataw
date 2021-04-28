@@ -40,16 +40,16 @@ async (a = (...await) => {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 512,
                             "end": 10
                         },
                         "right": {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 21,
+                                "flags": 21,
+                                "start": 0,
                                 "end": 24
                             },
                             "typeParameters": null,
@@ -58,8 +58,8 @@ async (a = (...await) => {});
                                     "kind": 215,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 12,
+                                        "flags": 12,
+                                        "start": 512,
                                         "end": 15
                                     },
                                     "binding": {

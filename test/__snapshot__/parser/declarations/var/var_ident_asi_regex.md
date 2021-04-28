@@ -40,7 +40,7 @@ var q
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -88,8 +88,8 @@ var q
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 513,
                         "end": 7
                     },
                     "right": {
@@ -106,8 +106,8 @@ var q
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 8,
+                    "flags": 8,
+                    "start": 512,
                     "end": 9
                 },
                 "right": {

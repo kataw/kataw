@@ -29,8 +29,8 @@ a = {...b.c} = d;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -44,8 +44,8 @@ a = {...b.c} = d;
                                     "kind": 224,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 5,
+                                        "flags": 5,
+                                        "start": 0,
                                         "end": 8
                                     },
                                     "argument": {
@@ -87,8 +87,8 @@ a = {...b.c} = d;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 12,
+                        "flags": 12,
+                        "start": 512,
                         "end": 14
                     },
                     "right": {

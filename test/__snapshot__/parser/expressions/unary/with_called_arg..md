@@ -21,7 +21,7 @@ new + x()
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -29,8 +29,8 @@ new + x()
                     "kind": 126,
                     "operandToken": {
                         "kind": 34098,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 5
                     },
                     "expression": {

@@ -48,7 +48,7 @@ type B = Foo<
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 6
             },
@@ -170,7 +170,7 @@ type B = Foo<
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 48,
                 "end": 56
             },
@@ -298,8 +298,8 @@ type B = Foo<
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 95,
+                    "flags": 95,
+                    "start": 513,
                     "end": 97
                 },
                 "right": {

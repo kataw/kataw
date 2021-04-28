@@ -25,7 +25,7 @@ x => y in x) ;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,8 +42,8 @@ x => y in x) ;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 15
                 },
                 "typeParameters": null,
@@ -69,8 +69,8 @@ x => y in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 512,
                         "end": 20
                     },
                     "right": {

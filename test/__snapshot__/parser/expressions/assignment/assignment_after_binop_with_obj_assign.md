@@ -24,7 +24,7 @@ for(x in(t&{}=y))x
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,8 +51,8 @@ for(x in(t&{}=y))x
                     },
                     "operatorToken": {
                         "kind": 34375,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 512,
                         "end": 11
                     },
                     "right": {
@@ -74,8 +74,8 @@ for(x in(t&{}=y))x
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 13,
+                            "flags": 13,
+                            "start": 512,
                             "end": 14
                         },
                         "right": {

@@ -44,8 +44,8 @@
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 768,
-                                            "start": 11,
+                                            "flags": 11,
+                                            "start": 0,
                                             "end": 17
                                         },
                                         "name": null,
@@ -67,8 +67,8 @@
                                         "asyncKeyword": null,
                                         "functionKeyword": {
                                             "kind": 37822554,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 0,
                                             "end": 26
                                         },
                                         "generatorToken": null,
@@ -106,16 +106,16 @@
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 768,
-                                            "start": 26,
+                                            "flags": 26,
+                                            "start": 512,
                                             "end": 28
                                         },
                                         "expression": {
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 768,
-                                                "start": 28,
+                                                "flags": 28,
+                                                "start": 512,
                                                 "end": 29
                                             },
                                             "expression": {

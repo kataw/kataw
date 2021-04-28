@@ -38,8 +38,8 @@ f(((a) => a + b)(1, 4), 5);
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 768,
-                                        "start": 6,
+                                        "flags": 6,
+                                        "start": 0,
                                         "end": 9
                                     },
                                     "typeParameters": null,
@@ -67,8 +67,8 @@ f(((a) => a + b)(1, 4), 5);
                                         },
                                         "operatorToken": {
                                             "kind": 34098,
-                                            "flags": 768,
-                                            "start": 11,
+                                            "flags": 11,
+                                            "start": 512,
                                             "end": 13
                                         },
                                         "right": {

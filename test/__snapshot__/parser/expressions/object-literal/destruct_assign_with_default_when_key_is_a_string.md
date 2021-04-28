@@ -29,8 +29,8 @@ a={"b":c=d}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -52,8 +52,8 @@ a={"b":c=d}
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 8,
+                                        "flags": 8,
+                                        "start": 512,
                                         "end": 9
                                     },
                                     "right": {

@@ -26,7 +26,7 @@ var x,y; export {x as a, y as b}
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -80,8 +80,8 @@ var x,y; export {x as a, y as b}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 15
             },
             "declaration": null,

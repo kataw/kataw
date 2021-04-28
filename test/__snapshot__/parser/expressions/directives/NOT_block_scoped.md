@@ -19,7 +19,7 @@ if (x) { "use strict"; with (x) y; }
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -54,8 +54,8 @@ if (x) { "use strict"; with (x) y; }
                             "kind": 153,
                             "withKeyword": {
                                 "kind": 37757029,
-                                "flags": 768,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 0,
                                 "end": 27
                             },
                             "expression": {

@@ -38,14 +38,14 @@ declare type bool = any;
             "kind": 200,
             "declareToken": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "opaqueToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 768,
+                "flags": 512,
                 "start": 7,
                 "end": 17
             },
@@ -61,8 +61,8 @@ declare type bool = any;
             "typeParameters": null,
             "type": {
                 "kind": 134234252,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 512,
                 "end": 23
             },
             "flags": 32896,

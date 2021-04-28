@@ -27,7 +27,7 @@ export { abc }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -71,8 +71,8 @@ export { abc }
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
-                "start": 17,
+                "flags": 17,
+                "start": 1,
                 "end": 24
             },
             "declaration": null,

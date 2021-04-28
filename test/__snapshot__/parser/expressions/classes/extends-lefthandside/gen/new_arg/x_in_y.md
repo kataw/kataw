@@ -27,7 +27,7 @@ new x in y
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -46,8 +46,8 @@ new x in y
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {

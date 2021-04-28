@@ -29,7 +29,7 @@ class x extends y {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,8 +46,8 @@ class x extends y {
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -119,8 +119,8 @@ class x extends y {
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 768,
-                                                                                "start": 48,
+                                                                                "flags": 48,
+                                                                                "start": 0,
                                                                                 "end": 54
                                                                             },
                                                                             "flags": 768,
@@ -164,8 +164,8 @@ class x extends y {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 60,
+                                                        "flags": 60,
+                                                        "start": 512,
                                                         "end": 62
                                                     },
                                                     "right": {

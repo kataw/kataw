@@ -38,7 +38,7 @@ for ([a.b]++ of c) d
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,8 +46,8 @@ for ([a.b]++ of c) d
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 12
                 },
                 "expression": {

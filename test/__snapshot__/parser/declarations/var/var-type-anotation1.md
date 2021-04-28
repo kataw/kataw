@@ -28,7 +28,7 @@ var foo = (async (): number => bar);
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,15 +53,15 @@ var foo = (async (): number => bar);
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 27,
+                                    "flags": 27,
+                                    "start": 0,
                                     "end": 30
                                 },
                                 "typeParameters": null,
                                 "parameters": [],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 768,
+                                    "flags": 512,
                                     "start": 11,
                                     "end": 16
                                 },
@@ -69,8 +69,8 @@ var foo = (async (): number => bar);
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 20,
+                                        "flags": 20,
+                                        "start": 512,
                                         "end": 27
                                     },
                                     "flags": 0,

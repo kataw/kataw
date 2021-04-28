@@ -48,8 +48,8 @@ foo( a / b + c )
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 768,
-                                    "start": 6,
+                                    "flags": 6,
+                                    "start": 512,
                                     "end": 8
                                 },
                                 "right": {
@@ -66,8 +66,8 @@ foo( a / b + c )
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 768,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 512,
                                 "end": 12
                             },
                             "right": {

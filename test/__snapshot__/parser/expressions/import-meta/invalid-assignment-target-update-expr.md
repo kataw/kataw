@@ -27,15 +27,15 @@ import.meta++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 13
                 },
                 "expression": {
                     "kind": 207,
                     "importKeyword": {
                         "kind": 37814364,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 6
                     },

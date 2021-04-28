@@ -33,8 +33,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 17
             },
             "declarationList": {
@@ -56,8 +56,8 @@
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 46,
+                                "flags": 46,
+                                "start": 0,
                                 "end": 49
                             },
                             "typeParameters": null,
@@ -66,8 +66,8 @@
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 37,
+                                        "flags": 37,
+                                        "start": 0,
                                         "end": 40
                                     },
                                     "flags": 256,
@@ -77,7 +77,7 @@
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 30,
                                 "end": 36
                             },

@@ -26,7 +26,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -134,8 +134,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 1,
                 "end": 45
             },
             "generatorToken": null,
@@ -291,8 +291,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 93,
+                "flags": 93,
+                "start": 1,
                 "end": 103
             },
             "generatorToken": null,
@@ -425,8 +425,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         },
                         "operatorToken": {
                             "kind": 536971330,
-                            "flags": 768,
-                            "start": 140,
+                            "flags": 140,
+                            "start": 512,
                             "end": 141
                         },
                         "right": {
@@ -443,8 +443,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 768,
-                        "start": 147,
+                        "flags": 147,
+                        "start": 512,
                         "end": 148
                     },
                     "right": {

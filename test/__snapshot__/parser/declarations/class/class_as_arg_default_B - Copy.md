@@ -48,16 +48,16 @@ f = ([xCls = class X {}]) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 25,
+                        "flags": 25,
+                        "start": 0,
                         "end": 28
                     },
                     "typeParameters": null,
@@ -79,8 +79,8 @@ f = ([xCls = class X {}]) => {}
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 10,
+                                            "flags": 10,
+                                            "start": 512,
                                             "end": 12
                                         },
                                         "right": {
@@ -88,8 +88,8 @@ f = ([xCls = class X {}]) => {}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 12,
+                                                "flags": 12,
+                                                "start": 0,
                                                 "end": 18
                                             },
                                             "name": {

@@ -23,7 +23,7 @@ do while [catch] async funcion switch!!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,8 +40,8 @@ do while [catch] async funcion switch!!
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 8
                 },
                 "expression": {
@@ -107,24 +107,24 @@ do while [catch] async funcion switch!!
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 30,
+                "flags": 30,
+                "start": 0,
                 "end": 37
             },
             "expression": {
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 37,
+                    "flags": 37,
+                    "start": 512,
                     "end": 38
                 },
                 "expression": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 38,
+                        "flags": 38,
+                        "start": 512,
                         "end": 39
                     },
                     "expression": {

@@ -29,8 +29,8 @@ x = (a)?c:d=>{}=>{}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -51,8 +51,8 @@ x = (a)?c:d=>{}=>{}
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 768,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 0,
                         "end": 8
                     },
                     "consequent": {
@@ -65,16 +65,16 @@ x = (a)?c:d=>{}=>{}
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 0,
                         "end": 10
                     },
                     "alternate": {
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 11,
+                            "flags": 11,
+                            "start": 0,
                             "end": 13
                         },
                         "typeParameters": null,

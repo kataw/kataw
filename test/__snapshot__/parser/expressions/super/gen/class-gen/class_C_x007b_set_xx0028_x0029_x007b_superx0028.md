@@ -25,7 +25,7 @@ class C { *method() { class C { set x(_) { super( } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -82,8 +82,8 @@ class C { *method() { class C { set x(_) { super( } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 21,
+                                                "flags": 21,
+                                                "start": 0,
                                                 "end": 27
                                             },
                                             "name": {
@@ -108,8 +108,8 @@ class C { *method() { class C { set x(_) { super( } }
                                                         "setKeyword": null,
                                                         "getKeyword": {
                                                             "kind": 82031,
-                                                            "flags": 768,
-                                                            "start": 31,
+                                                            "flags": 31,
+                                                            "start": 512,
                                                             "end": 35
                                                         },
                                                         "method": {
@@ -165,8 +165,8 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 768,
-                                                                                        "start": 42,
+                                                                                        "flags": 42,
+                                                                                        "start": 0,
                                                                                         "end": 48
                                                                                     },
                                                                                     "flags": 768,

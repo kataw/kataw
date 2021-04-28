@@ -23,7 +23,7 @@ do do do try { !xxx while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -39,8 +39,8 @@ do do do try { !xxx while while while
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -55,8 +55,8 @@ do do do try { !xxx while while while
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -71,8 +71,8 @@ do do do try { !xxx while while while
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 0,
                             "end": 12
                         },
                         "block": {
@@ -86,8 +86,8 @@ do do do try { !xxx while while while
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 768,
-                                                "start": 14,
+                                                "flags": 14,
+                                                "start": 512,
                                                 "end": 16
                                             },
                                             "expression": {
@@ -110,8 +110,8 @@ do do do try { !xxx while while while
                                         "kind": 154,
                                         "whileKeyword": {
                                             "kind": 37757028,
-                                            "flags": 768,
-                                            "start": 19,
+                                            "flags": 19,
+                                            "start": 0,
                                             "end": 25
                                         },
                                         "expression": {
@@ -125,8 +125,8 @@ do do do try { !xxx while while while
                                             "kind": 154,
                                             "whileKeyword": {
                                                 "kind": 37757028,
-                                                "flags": 768,
-                                                "start": 25,
+                                                "flags": 25,
+                                                "start": 0,
                                                 "end": 31
                                             },
                                             "expression": {
@@ -140,8 +140,8 @@ do do do try { !xxx while while while
                                                 "kind": 154,
                                                 "whileKeyword": {
                                                     "kind": 37757028,
-                                                    "flags": 768,
-                                                    "start": 31,
+                                                    "flags": 31,
+                                                    "start": 0,
                                                     "end": 37
                                                 },
                                                 "expression": {

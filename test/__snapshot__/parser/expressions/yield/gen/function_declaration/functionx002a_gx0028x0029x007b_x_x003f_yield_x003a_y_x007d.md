@@ -25,7 +25,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,14 +58,14 @@ function not_gen() { function* g(){ x ? yield : y } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 30
                             },
                             "name": {
@@ -104,16 +104,16 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 768,
-                                                    "start": 37,
+                                                    "flags": 37,
+                                                    "start": 0,
                                                     "end": 39
                                                 },
                                                 "consequent": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 39,
+                                                        "flags": 39,
+                                                        "start": 0,
                                                         "end": 45
                                                     },
                                                     "delegate": false,
@@ -125,8 +125,8 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 768,
-                                                    "start": 45,
+                                                    "flags": 45,
+                                                    "start": 0,
                                                     "end": 47
                                                 },
                                                 "alternate": {

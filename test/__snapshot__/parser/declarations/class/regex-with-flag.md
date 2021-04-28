@@ -41,7 +41,7 @@ class x{}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -81,8 +81,8 @@ class x{}
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 9,
+                        "flags": 9,
+                        "start": 513,
                         "end": 11
                     },
                     "right": {
@@ -99,8 +99,8 @@ class x{}
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 512,
                     "end": 15
                 },
                 "right": {

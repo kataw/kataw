@@ -23,8 +23,8 @@ c\u006fnst = x;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 327680,
                 "end": 10
             },
             "binding": {
@@ -34,7 +34,7 @@ c\u006fnst = x;
                 "start": 10,
                 "end": 10
             },
-            "flags": 327808,
+            "flags": 128,
             "start": 0,
             "end": 10
         },

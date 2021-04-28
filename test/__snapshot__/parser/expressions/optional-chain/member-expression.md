@@ -25,8 +25,8 @@ f2`hello world`?.a;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 9
                 },
                 "member": {
@@ -72,8 +72,8 @@ f2`hello world`?.a;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 18,
+                    "flags": 18,
+                    "start": 0,
                     "end": 20
                 },
                 "member": {
@@ -133,8 +133,8 @@ f2`hello world`?.a;
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 768,
-                    "start": 39,
+                    "flags": 39,
+                    "start": 0,
                     "end": 41
                 },
                 "member": {

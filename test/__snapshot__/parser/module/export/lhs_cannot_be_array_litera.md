@@ -25,14 +25,14 @@ export default [x] = y
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 14
             },
             "declaration": {
@@ -62,8 +62,8 @@ export default [x] = y
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 18,
+                    "flags": 18,
+                    "start": 512,
                     "end": 20
                 },
                 "right": {

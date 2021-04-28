@@ -28,8 +28,8 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 4
                 },
                 "expression": {
@@ -69,8 +69,8 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
-                    "start": 13,
+                    "flags": 13,
+                    "start": 1,
                     "end": 18
                 },
                 "expression": {
@@ -109,16 +109,16 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
-                    "start": 25,
+                    "flags": 25,
+                    "start": 1,
                     "end": 30
                 },
                 "expression": {
                     "kind": 128,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 768,
-                        "start": 30,
+                        "flags": 30,
+                        "start": 512,
                         "end": 33
                     },
                     "expression": {
@@ -148,16 +148,16 @@ new foo ++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 46,
+                    "flags": 46,
+                    "start": 512,
                     "end": 49
                 },
                 "expression": {
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 768,
-                        "start": 37,
+                        "flags": 37,
+                        "start": 1,
                         "end": 42
                     },
                     "expression": {

@@ -35,7 +35,7 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -100,8 +100,8 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 15,
+                "flags": 15,
+                "start": 1,
                 "end": 20
             },
             "declarationList": {
@@ -125,8 +125,8 @@ var x: [number, string] = [123, "aladdin"];
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 25,
+                                        "flags": 25,
+                                        "start": 512,
                                         "end": 31
                                     }
                                 ],
@@ -181,8 +181,8 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 43,
+                "flags": 43,
+                "start": 1,
                 "end": 48
             },
             "declarationList": {
@@ -293,8 +293,8 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 69,
+                "flags": 69,
+                "start": 1,
                 "end": 74
             },
             "declarationList": {
@@ -318,14 +318,14 @@ var x: [number, string] = [123, "aladdin"];
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 768,
-                                        "start": 79,
+                                        "flags": 79,
+                                        "start": 512,
                                         "end": 85
                                     },
                                     {
                                         "kind": 134234347,
-                                        "flags": 768,
-                                        "start": 86,
+                                        "flags": 86,
+                                        "start": 512,
                                         "end": 93
                                     }
                                 ],

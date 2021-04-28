@@ -24,7 +24,7 @@ else async function *f(){}
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -52,8 +52,8 @@ else async function *f(){}
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 768,
-                "start": 9,
+                "flags": 9,
+                "start": 513,
                 "end": 14
             },
             "alternate": {
@@ -62,20 +62,20 @@ else async function *f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 14,
+                        "flags": 14,
+                        "start": 512,
                         "end": 20
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 20,
+                        "flags": 20,
+                        "start": 0,
                         "end": 29
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 29,
+                        "flags": 29,
+                        "start": 512,
                         "end": 31
                     },
                     "name": {

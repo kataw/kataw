@@ -20,14 +20,14 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -59,8 +59,8 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 19,
+                                "flags": 19,
+                                "start": 0,
                                 "end": 24
                             },
                             "name": {

@@ -29,7 +29,7 @@ import.meta = 0;
                     "kind": 207,
                     "importKeyword": {
                         "kind": 37814364,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 6
                     },
@@ -39,8 +39,8 @@ import.meta = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {

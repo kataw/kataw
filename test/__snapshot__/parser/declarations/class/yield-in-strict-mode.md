@@ -30,14 +30,14 @@ function* f() { class C { aaa = yield } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -68,8 +68,8 @@ function* f() { class C { aaa = yield } }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 0,
                                 "end": 21
                             },
                             "name": {
@@ -105,8 +105,8 @@ function* f() { class C { aaa = yield } }
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 31,
+                                                "flags": 31,
+                                                "start": 0,
                                                 "end": 37
                                             },
                                             "delegate": false,

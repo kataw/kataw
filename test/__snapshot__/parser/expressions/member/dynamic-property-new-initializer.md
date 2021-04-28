@@ -38,8 +38,8 @@
                                         "kind": 210,
                                         "newKeyword": {
                                             "kind": 138477661,
-                                            "flags": 768,
-                                            "start": 1,
+                                            "flags": 1,
+                                            "start": 0,
                                             "end": 4
                                         },
                                         "expression": {
@@ -76,8 +76,8 @@
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 11,
+                                    "flags": 11,
+                                    "start": 512,
                                     "end": 13
                                 },
                                 "right": {
@@ -92,8 +92,8 @@
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 768,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 512,
                                         "end": 17
                                     },
                                     "right": {
@@ -124,8 +124,8 @@
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 20,
+                    "flags": 20,
+                    "start": 512,
                     "end": 22
                 },
                 "right": {

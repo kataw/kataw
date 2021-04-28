@@ -25,7 +25,7 @@ import(import(x))
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -35,8 +35,8 @@ import(import(x))
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 7,
+                            "flags": 7,
+                            "start": 0,
                             "end": 13
                         },
                         "expression": {

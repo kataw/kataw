@@ -25,7 +25,7 @@ function not_gen() { var foo = yield = 1; }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -57,8 +57,8 @@ function not_gen() { var foo = yield = 1; }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 24
                             },
                             "declarationList": {
@@ -88,8 +88,8 @@ function not_gen() { var foo = yield = 1; }}
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 768,
-                                                "start": 36,
+                                                "flags": 36,
+                                                "start": 512,
                                                 "end": 38
                                             },
                                             "right": {

@@ -21,7 +21,7 @@ function foo() { return {arguments} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -52,8 +52,8 @@ function foo() { return {arguments} }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 0,
                                 "end": 23
                             },
                             "expression": {

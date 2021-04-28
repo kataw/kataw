@@ -35,7 +35,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -57,8 +57,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 13
                 },
                 "catchParameter": null,
@@ -90,8 +90,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 17,
+                "flags": 17,
+                "start": 1,
                 "end": 22
             },
             "block": {
@@ -112,8 +112,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 26,
+                    "flags": 26,
+                    "start": 0,
                     "end": 32
                 },
                 "catchParameter": null,
@@ -137,8 +137,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             },
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 768,
-                "start": 36,
+                "flags": 36,
+                "start": 0,
                 "end": 44
             },
             "finallyBlock": {
@@ -163,8 +163,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 48,
+                "flags": 48,
+                "start": 1,
                 "end": 53
             },
             "block": {
@@ -176,7 +176,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 55,
                                 "end": 59
                             },
@@ -223,8 +223,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 64,
+                    "flags": 64,
+                    "start": 0,
                     "end": 70
                 },
                 "catchParameter": null,
@@ -237,7 +237,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 72,
                                     "end": 76
                                 },
@@ -294,8 +294,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 81,
+                "flags": 81,
+                "start": 1,
                 "end": 86
             },
             "block": {
@@ -307,7 +307,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 88,
                                 "end": 92
                             },
@@ -354,8 +354,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 97,
+                    "flags": 97,
+                    "start": 0,
                     "end": 103
                 },
                 "catchParameter": null,
@@ -368,7 +368,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 105,
                                     "end": 109
                                 },
@@ -417,8 +417,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             },
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 768,
-                "start": 114,
+                "flags": 114,
+                "start": 0,
                 "end": 122
             },
             "finallyBlock": {
@@ -430,7 +430,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 124,
                                 "end": 128
                             },
@@ -495,8 +495,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 148,
+                "flags": 148,
+                "start": 0,
                 "end": 152
             },
             "block": {
@@ -517,8 +517,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 156,
+                    "flags": 156,
+                    "start": 0,
                     "end": 162
                 },
                 "catchParameter": null,
@@ -550,8 +550,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 166,
+                "flags": 166,
+                "start": 1,
                 "end": 171
             },
             "block": {
@@ -563,8 +563,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 768,
-                                "start": 173,
+                                "flags": 173,
+                                "start": 0,
                                 "end": 177
                             },
                             "block": {
@@ -585,8 +585,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "kind": 173,
                                 "catchKeyword": {
                                     "kind": 4202575,
-                                    "flags": 768,
-                                    "start": 181,
+                                    "flags": 181,
+                                    "start": 0,
                                     "end": 187
                                 },
                                 "catchParameter": null,
@@ -610,8 +610,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             },
                             "finallyKeyword": {
                                 "kind": 37757016,
-                                "flags": 768,
-                                "start": 191,
+                                "flags": 191,
+                                "start": 0,
                                 "end": 199
                             },
                             "finallyBlock": {
@@ -646,8 +646,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 205,
+                    "flags": 205,
+                    "start": 0,
                     "end": 211
                 },
                 "catchParameter": {
@@ -686,8 +686,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 219,
+                "flags": 219,
+                "start": 1,
                 "end": 224
             },
             "block": {
@@ -699,7 +699,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 226,
                                 "end": 230
                             },
@@ -746,8 +746,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 235,
+                    "flags": 235,
+                    "start": 0,
                     "end": 241
                 },
                 "catchParameter": null,
@@ -760,7 +760,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 243,
                                     "end": 247
                                 },
@@ -817,8 +817,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 252,
+                "flags": 252,
+                "start": 1,
                 "end": 257
             },
             "block": {
@@ -839,8 +839,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 260,
+                    "flags": 260,
+                    "start": 0,
                     "end": 266
                 },
                 "catchParameter": {
@@ -884,8 +884,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "kind": 159,
                                 "tryKeyword": {
                                     "kind": 37757027,
-                                    "flags": 768,
-                                    "start": 274,
+                                    "flags": 274,
+                                    "start": 0,
                                     "end": 278
                                 },
                                 "block": {
@@ -897,7 +897,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 41951307,
-                                                    "flags": 768,
+                                                    "flags": 640,
                                                     "start": 280,
                                                     "end": 284
                                                 },
@@ -944,8 +944,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "kind": 173,
                                     "catchKeyword": {
                                         "kind": 4202575,
-                                        "flags": 768,
-                                        "start": 289,
+                                        "flags": 289,
+                                        "start": 0,
                                         "end": 295
                                     },
                                     "catchParameter": null,
@@ -958,7 +958,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                     "kind": 162,
                                                     "lexicalKeyword": {
                                                         "kind": 41951307,
-                                                        "flags": 768,
+                                                        "flags": 640,
                                                         "start": 297,
                                                         "end": 301
                                                     },
@@ -1007,8 +1007,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 },
                                 "finallyKeyword": {
                                     "kind": 37757016,
-                                    "flags": 768,
-                                    "start": 306,
+                                    "flags": 306,
+                                    "start": 0,
                                     "end": 314
                                 },
                                 "finallyBlock": {
@@ -1020,7 +1020,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 41951307,
-                                                    "flags": 768,
+                                                    "flags": 640,
                                                     "start": 316,
                                                     "end": 320
                                                 },
@@ -1093,8 +1093,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 327,
+                "flags": 327,
+                "start": 1,
                 "end": 337
             },
             "generatorToken": null,
@@ -1124,8 +1124,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 768,
-                                "start": 343,
+                                "flags": 343,
+                                "start": 0,
                                 "end": 347
                             },
                             "block": {
@@ -1137,7 +1137,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "kind": 162,
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
-                                                "flags": 768,
+                                                "flags": 640,
                                                 "start": 349,
                                                 "end": 353
                                             },
@@ -1184,8 +1184,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "kind": 173,
                                 "catchKeyword": {
                                     "kind": 4202575,
-                                    "flags": 768,
-                                    "start": 358,
+                                    "flags": 358,
+                                    "start": 0,
                                     "end": 364
                                 },
                                 "catchParameter": null,
@@ -1198,7 +1198,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "kind": 162,
                                                 "lexicalKeyword": {
                                                     "kind": 41951307,
-                                                    "flags": 768,
+                                                    "flags": 640,
                                                     "start": 366,
                                                     "end": 370
                                                 },
@@ -1247,8 +1247,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             },
                             "finallyKeyword": {
                                 "kind": 37757016,
-                                "flags": 768,
-                                "start": 375,
+                                "flags": 375,
+                                "start": 0,
                                 "end": 383
                             },
                             "finallyBlock": {
@@ -1260,7 +1260,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "kind": 162,
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
-                                                "flags": 768,
+                                                "flags": 640,
                                                 "start": 385,
                                                 "end": 389
                                             },

@@ -19,7 +19,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },

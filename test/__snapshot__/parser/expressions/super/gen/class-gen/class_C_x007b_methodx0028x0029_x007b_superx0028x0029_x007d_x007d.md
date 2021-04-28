@@ -25,7 +25,7 @@ class C { *method() { class C { method() { super(); } } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -82,8 +82,8 @@ class C { *method() { class C { method() { super(); } } } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 21,
+                                                "flags": 21,
+                                                "start": 0,
                                                 "end": 27
                                             },
                                             "name": {
@@ -141,8 +141,8 @@ class C { *method() { class C { method() { super(); } } } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 768,
-                                                                                        "start": 42,
+                                                                                        "flags": 42,
+                                                                                        "start": 0,
                                                                                         "end": 48
                                                                                     },
                                                                                     "flags": 768,

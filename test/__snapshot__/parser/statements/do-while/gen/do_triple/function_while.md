@@ -23,7 +23,7 @@ do do do function while while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,16 +36,16 @@ do do do function while while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 29,
+                "flags": 29,
+                "start": 0,
                 "end": 35
             },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -57,16 +57,16 @@ do do do function while while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 768,
-                    "start": 23,
+                    "flags": 23,
+                    "start": 0,
                     "end": 29
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -78,8 +78,8 @@ do do do function while while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 0,
                         "end": 23
                     },
                     "statement": {
@@ -88,8 +88,8 @@ do do do function while while while while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 0,
                             "end": 17
                         },
                         "generatorToken": null,
@@ -145,8 +145,8 @@ do do do function while while while while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 0,
                 "end": 41
             },
             "expression": {

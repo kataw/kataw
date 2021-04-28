@@ -24,14 +24,14 @@ async function wrap() { async function await() { } };
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -62,14 +62,14 @@ async function wrap() { async function await() { } };
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 23,
+                                "flags": 23,
+                                "start": 512,
                                 "end": 29
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 0,
                                 "end": 38
                             },
                             "generatorToken": null,

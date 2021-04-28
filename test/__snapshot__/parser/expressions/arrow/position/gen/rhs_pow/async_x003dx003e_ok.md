@@ -33,16 +33,16 @@ x ** async => ok
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 4
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 0,
                         "end": 13
                     },
                     "typeParameters": null,
@@ -68,8 +68,8 @@ x ** async => ok
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 4,
+                        "flags": 4,
+                        "start": 512,
                         "end": 10
                     },
                     "returnType": null,

@@ -21,7 +21,7 @@ function f(){ foo + new.target }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -62,8 +62,8 @@ function f(){ foo + new.target }
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 17,
+                                    "flags": 17,
+                                    "start": 512,
                                     "end": 19
                                 },
                                 "right": {

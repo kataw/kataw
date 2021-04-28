@@ -28,7 +28,7 @@ var foo = ((foo)): string => {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -86,8 +86,8 @@ var foo = ((foo)): string => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 25,
+                    "flags": 25,
+                    "start": 0,
                     "end": 28
                 },
                 "typeParameters": null,

@@ -21,8 +21,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 39,
+                    "flags": 39,
+                    "start": 0,
                     "end": 42
                 },
                 "typeParameters": null,
@@ -39,8 +39,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 5,
+                            "flags": 5,
+                            "start": 512,
                             "end": 7
                         },
                         "right": {
@@ -48,8 +48,8 @@
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 7,
+                                "flags": 7,
+                                "start": 0,
                                 "end": 13
                             },
                             "name": {

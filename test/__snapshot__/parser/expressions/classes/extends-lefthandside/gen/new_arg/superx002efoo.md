@@ -27,7 +27,7 @@ new super.foo
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 768,
+                        "flags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -35,8 +35,8 @@ new super.foo
                         "kind": 225,
                         "superKeyword": {
                             "kind": 4259935,
-                            "flags": 768,
-                            "start": 3,
+                            "flags": 3,
+                            "start": 0,
                             "end": 9
                         },
                         "flags": 768,

@@ -29,8 +29,8 @@
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 262144,
                             "end": 12
                         },
                         "expression": {

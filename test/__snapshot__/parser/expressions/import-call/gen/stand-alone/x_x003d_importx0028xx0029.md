@@ -33,8 +33,8 @@ x = import(x)
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -43,8 +43,8 @@ x = import(x)
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 3,
+                            "flags": 3,
+                            "start": 0,
                             "end": 10
                         },
                         "expression": {

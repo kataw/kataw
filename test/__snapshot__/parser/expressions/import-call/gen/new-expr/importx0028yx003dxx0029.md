@@ -25,7 +25,7 @@ import(y=x)
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
+                    "flags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -41,8 +41,8 @@ import(y=x)
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 512,
                         "end": 9
                     },
                     "right": {

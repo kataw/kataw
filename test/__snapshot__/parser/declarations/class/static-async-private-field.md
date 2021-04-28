@@ -21,7 +21,7 @@ class C { static async*#aaa(){} }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -44,14 +44,14 @@ class C { static async*#aaa(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 16
                         },
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 16,
+                            "flags": 16,
+                            "start": 512,
                             "end": 22
                         },
                         "setKeyword": null,

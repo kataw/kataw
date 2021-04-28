@@ -77,8 +77,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 0,
                     "end": 17
                 },
                 "typeParameters": null,
@@ -95,8 +95,8 @@ foo((x, y) => {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 2,
+                            "flags": 2,
+                            "start": 512,
                             "end": 4
                         },
                         "right": {
@@ -108,8 +108,8 @@ foo((x, y) => {});
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 6,
+                                            "flags": 6,
+                                            "start": 0,
                                             "end": 9
                                         },
                                         "argument": {
@@ -177,8 +177,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 29,
+                    "flags": 29,
+                    "start": 0,
                     "end": 32
                 },
                 "typeParameters": null,
@@ -187,8 +187,8 @@ foo((x, y) => {});
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 22,
+                            "flags": 22,
+                            "start": 512,
                             "end": 25
                         },
                         "binding": {
@@ -281,8 +281,8 @@ foo((x, y) => {});
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 768,
-                                            "start": 50,
+                                            "flags": 50,
+                                            "start": 0,
                                             "end": 53
                                         },
                                         "typeParameters": null,
@@ -348,8 +348,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 61,
+                    "flags": 61,
+                    "start": 0,
                     "end": 64
                 },
                 "typeParameters": null,
@@ -360,8 +360,8 @@ foo((x, y) => {});
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 67,
+                        "flags": 67,
+                        "start": 0,
                         "end": 70
                     },
                     "typeParameters": null,
@@ -397,8 +397,8 @@ foo((x, y) => {});
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 76,
+                            "flags": 76,
+                            "start": 0,
                             "end": 79
                         },
                         "typeParameters": null,
@@ -440,8 +440,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 89,
+                    "flags": 89,
+                    "start": 0,
                     "end": 92
                 },
                 "typeParameters": null,
@@ -531,8 +531,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 113,
+                    "flags": 113,
+                    "start": 0,
                     "end": 116
                 },
                 "typeParameters": null,
@@ -570,8 +570,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 132,
+                    "flags": 132,
+                    "start": 0,
                     "end": 135
                 },
                 "typeParameters": null,
@@ -601,8 +601,8 @@ foo((x, y) => {});
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 142,
+                        "flags": 142,
+                        "start": 0,
                         "end": 145
                     },
                     "typeParameters": null,
@@ -642,8 +642,8 @@ foo((x, y) => {});
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 147,
+                                "flags": 147,
+                                "start": 512,
                                 "end": 148
                             },
                             "right": {
@@ -660,8 +660,8 @@ foo((x, y) => {});
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 768,
-                            "start": 149,
+                            "flags": 149,
+                            "start": 512,
                             "end": 151
                         },
                         "right": {
@@ -676,8 +676,8 @@ foo((x, y) => {});
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 153,
+                                "flags": 153,
+                                "start": 512,
                                 "end": 154
                             },
                             "right": {
@@ -714,8 +714,8 @@ foo((x, y) => {});
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
-                    "start": 156,
+                    "flags": 156,
+                    "start": 1,
                     "end": 161
                 },
                 "expression": {
@@ -724,8 +724,8 @@ foo((x, y) => {});
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 165,
+                            "flags": 165,
+                            "start": 0,
                             "end": 168
                         },
                         "typeParameters": null,
@@ -770,8 +770,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 180,
+                    "flags": 180,
+                    "start": 0,
                     "end": 183
                 },
                 "typeParameters": null,
@@ -830,8 +830,8 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 191,
+                                "flags": 191,
+                                "start": 0,
                                 "end": 194
                             },
                             "typeParameters": null,
@@ -868,8 +868,8 @@ foo((x, y) => {});
                 },
                 "operatorToken": {
                     "kind": 34620,
-                    "flags": 768,
-                    "start": 199,
+                    "flags": 199,
+                    "start": 512,
                     "end": 203
                 },
                 "right": {
@@ -907,8 +907,8 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 219,
+                                "flags": 219,
+                                "start": 0,
                                 "end": 222
                             },
                             "typeParameters": null,
@@ -979,8 +979,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 238,
+                    "flags": 238,
+                    "start": 0,
                     "end": 241
                 },
                 "typeParameters": null,
@@ -1002,8 +1002,8 @@ foo((x, y) => {});
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 232,
+                                        "flags": 232,
+                                        "start": 512,
                                         "end": 234
                                     },
                                     "right": {
@@ -1086,8 +1086,8 @@ foo((x, y) => {});
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 768,
-                                            "start": 261,
+                                            "flags": 261,
+                                            "start": 0,
                                             "end": 264
                                         },
                                         "typeParameters": null,
@@ -1161,16 +1161,16 @@ foo((x, y) => {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 272,
+                    "flags": 272,
+                    "start": 512,
                     "end": 274
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 280,
+                        "flags": 280,
+                        "start": 0,
                         "end": 283
                     },
                     "typeParameters": null,
@@ -1229,8 +1229,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 294,
+                    "flags": 294,
+                    "start": 0,
                     "end": 297
                 },
                 "typeParameters": null,
@@ -1282,8 +1282,8 @@ foo((x, y) => {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 301,
+                        "flags": 301,
+                        "start": 512,
                         "end": 303
                     },
                     "right": {
@@ -1312,8 +1312,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 322,
+                    "flags": 322,
+                    "start": 0,
                     "end": 325
                 },
                 "typeParameters": null,
@@ -1358,8 +1358,8 @@ foo((x, y) => {});
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 316,
+                                        "flags": 316,
+                                        "start": 512,
                                         "end": 318
                                     },
                                     "right": {
@@ -1409,8 +1409,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 344,
+                    "flags": 344,
+                    "start": 0,
                     "end": 347
                 },
                 "typeParameters": null,
@@ -1428,8 +1428,8 @@ foo((x, y) => {});
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 332,
+                                "flags": 332,
+                                "start": 512,
                                 "end": 334
                             },
                             "right": {
@@ -1456,8 +1456,8 @@ foo((x, y) => {});
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 339,
+                                "flags": 339,
+                                "start": 512,
                                 "end": 341
                             },
                             "right": {
@@ -1511,8 +1511,8 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 367,
+                                "flags": 367,
+                                "start": 0,
                                 "end": 370
                             },
                             "typeParameters": null,
@@ -1622,8 +1622,8 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 395,
+                                "flags": 395,
+                                "start": 0,
                                 "end": 398
                             },
                             "typeParameters": null,
@@ -1747,8 +1747,8 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 418,
+                                "flags": 418,
+                                "start": 0,
                                 "end": 421
                             },
                             "typeParameters": null,
@@ -1781,8 +1781,8 @@ foo((x, y) => {});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 409,
+                                            "flags": 409,
+                                            "start": 512,
                                             "end": 411
                                         },
                                         "right": {
@@ -1841,8 +1841,8 @@ foo((x, y) => {});
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 425,
+                    "flags": 425,
+                    "start": 513,
                     "end": 433
                 },
                 "expression": {
@@ -1851,8 +1851,8 @@ foo((x, y) => {});
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 437,
+                            "flags": 437,
+                            "start": 0,
                             "end": 440
                         },
                         "typeParameters": null,
@@ -1889,8 +1889,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 449,
+                    "flags": 449,
+                    "start": 0,
                     "end": 452
                 },
                 "typeParameters": null,
@@ -1907,7 +1907,7 @@ foo((x, y) => {});
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 454,
                                     "end": 458
                                 },
@@ -1964,8 +1964,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 480,
+                    "flags": 480,
+                    "start": 0,
                     "end": 483
                 },
                 "typeParameters": null,
@@ -1982,8 +1982,8 @@ foo((x, y) => {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 467,
+                            "flags": 467,
+                            "start": 512,
                             "end": 469
                         },
                         "right": {
@@ -2000,8 +2000,8 @@ foo((x, y) => {});
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 768,
-                                    "start": 475,
+                                    "flags": 475,
+                                    "start": 512,
                                     "end": 476
                                 },
                                 "right": {
@@ -2018,8 +2018,8 @@ foo((x, y) => {});
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 768,
-                                "start": 477,
+                                "flags": 477,
+                                "start": 512,
                                 "end": 478
                             },
                             "right": {
@@ -2070,8 +2070,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 491,
+                    "flags": 491,
+                    "start": 0,
                     "end": 494
                 },
                 "typeParameters": null,
@@ -2121,8 +2121,8 @@ foo((x, y) => {});
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 509,
+                                    "flags": 509,
+                                    "start": 0,
                                     "end": 512
                                 },
                                 "typeParameters": null,
@@ -2158,8 +2158,8 @@ foo((x, y) => {});
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 768,
-                                                    "start": 514,
+                                                    "flags": 514,
+                                                    "start": 0,
                                                     "end": 521
                                                 },
                                                 "expression": {
@@ -2174,8 +2174,8 @@ foo((x, y) => {});
                                                     },
                                                     "operatorToken": {
                                                         "kind": 34098,
-                                                        "flags": 768,
-                                                        "start": 523,
+                                                        "flags": 523,
+                                                        "start": 512,
                                                         "end": 525
                                                     },
                                                     "right": {
@@ -2277,8 +2277,8 @@ foo((x, y) => {});
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 553,
+                                "flags": 553,
+                                "start": 0,
                                 "end": 556
                             },
                             "typeParameters": null,
@@ -2343,8 +2343,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 567,
+                    "flags": 567,
+                    "start": 0,
                     "end": 570
                 },
                 "typeParameters": null,
@@ -2391,8 +2391,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 584,
+                    "flags": 584,
+                    "start": 0,
                     "end": 587
                 },
                 "typeParameters": null,
@@ -2455,8 +2455,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 604,
+                    "flags": 604,
+                    "start": 0,
                     "end": 607
                 },
                 "typeParameters": null,
@@ -2539,8 +2539,8 @@ foo((x, y) => {});
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 633,
+                    "flags": 633,
+                    "start": 0,
                     "end": 635
                 },
                 "typeParameters": null,

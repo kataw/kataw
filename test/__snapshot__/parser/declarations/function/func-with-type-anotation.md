@@ -29,7 +29,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -99,8 +99,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "kind": 149,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 768,
-                                                "start": 32,
+                                                "flags": 32,
+                                                "start": 512,
                                                 "end": 36
                                             },
                                             "name": {
@@ -127,8 +127,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                     "types": [
                                                         {
                                                             "kind": 134234345,
-                                                            "flags": 768,
-                                                            "start": 46,
+                                                            "flags": 46,
+                                                            "start": 512,
                                                             "end": 52
                                                         }
                                                     ],
@@ -152,8 +152,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 57,
+                                    "flags": 57,
+                                    "start": 512,
                                     "end": 64
                                 },
                                 "typeParameters": null,

@@ -31,7 +31,7 @@ result = [[x]] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -69,8 +69,8 @@ result = [[x]] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 1,
                 "end": 11
             },
             "declarationList": {
@@ -107,8 +107,8 @@ result = [[x]] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 1,
                 "end": 23
             },
             "declarationList": {
@@ -191,8 +191,8 @@ result = [[x]] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 45,
+                    "flags": 45,
+                    "start": 512,
                     "end": 47
                 },
                 "right": {
@@ -237,8 +237,8 @@ result = [[x]] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 53,
+                        "flags": 53,
+                        "start": 512,
                         "end": 55
                     },
                     "right": {

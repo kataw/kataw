@@ -62,8 +62,8 @@ catch =! class function try while with foo! finally
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 512,
                     "end": 8
                 },
                 "expression": {
@@ -71,8 +71,8 @@ catch =! class function try while with foo! finally
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 0,
                         "end": 14
                     },
                     "name": null,
@@ -103,8 +103,8 @@ catch =! class function try while with foo! finally
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 0,
                 "end": 23
             },
             "generatorToken": null,
@@ -148,8 +148,8 @@ catch =! class function try while with foo! finally
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 23,
+                "flags": 23,
+                "start": 0,
                 "end": 27
             },
             "block": {
@@ -190,8 +190,8 @@ catch =! class function try while with foo! finally
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 33,
+                "flags": 33,
+                "start": 0,
                 "end": 38
             },
             "expression": {
@@ -208,8 +208,8 @@ catch =! class function try while with foo! finally
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 42,
+                        "flags": 42,
+                        "start": 512,
                         "end": 43
                     },
                     "expression": {

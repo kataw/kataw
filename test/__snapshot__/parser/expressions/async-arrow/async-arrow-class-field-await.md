@@ -21,15 +21,15 @@ async( x = class { x = await });
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -39,8 +39,8 @@ async( x = class { x = await });
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 17
                 },
                 "name": {
@@ -76,8 +76,8 @@ async( x = class { x = await });
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 768,
-                                    "start": 27,
+                                    "flags": 27,
+                                    "start": 0,
                                     "end": 33
                                 },
                                 "expression": {
@@ -139,8 +139,8 @@ async( x = class { x = await });
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 46,
+                            "flags": 46,
+                            "start": 512,
                             "end": 48
                         },
                         "right": {
@@ -148,8 +148,8 @@ async( x = class { x = await });
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 48,
+                                "flags": 48,
+                                "start": 0,
                                 "end": 54
                             },
                             "name": null,

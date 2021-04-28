@@ -42,8 +42,8 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 1,
+                "flags": 1,
+                "start": 327680,
                 "end": 11
             },
             "binding": {
@@ -53,7 +53,7 @@
                 "start": 11,
                 "end": 11
             },
-            "flags": 327808,
+            "flags": 128,
             "start": 1,
             "end": 11
         },

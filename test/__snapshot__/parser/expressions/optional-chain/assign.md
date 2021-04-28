@@ -23,8 +23,8 @@ foo?.bar = x
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 0,
                         "end": 5
                     },
                     "member": {
@@ -62,8 +62,8 @@ foo?.bar = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 8,
+                    "flags": 8,
+                    "start": 512,
                     "end": 10
                 },
                 "right": {

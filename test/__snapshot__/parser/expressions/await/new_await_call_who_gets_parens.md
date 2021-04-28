@@ -19,15 +19,15 @@ async () => new await x()
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -36,16 +36,16 @@ async () => new await x()
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
                     "kind": 208,
                     "awaitToken": {
                         "kind": 82032,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 0,
                         "end": 21
                     },
                     "expression": {

@@ -23,7 +23,7 @@ return return return while try this and !foo
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -42,8 +42,8 @@ return return return while try this and !foo
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 13
             },
             "expression": {
@@ -61,8 +61,8 @@ return return return while try this and !foo
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 20
             },
             "expression": {
@@ -80,8 +80,8 @@ return return return while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 20,
+                "flags": 20,
+                "start": 0,
                 "end": 26
             },
             "expression": {
@@ -95,8 +95,8 @@ return return return while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 768,
-                    "start": 26,
+                    "flags": 26,
+                    "start": 0,
                     "end": 30
                 },
                 "block": {
@@ -157,8 +157,8 @@ return return return while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 39,
+                    "flags": 39,
+                    "start": 512,
                     "end": 41
                 },
                 "expression": {

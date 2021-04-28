@@ -21,14 +21,14 @@ function *f(){  async (await) => x  }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -57,8 +57,8 @@ function *f(){  async (await) => x  }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 0,
                                 "end": 32
                             },
                             "typeParameters": null,
@@ -74,7 +74,7 @@ function *f(){  async (await) => x  }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 14,
                                 "end": 21
                             },

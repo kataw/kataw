@@ -27,15 +27,15 @@ declare class A { static foo(): number; static x : string }
             "kind": 178,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -57,8 +57,8 @@ declare class A { static foo(): number; static x : string }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 17,
+                            "flags": 17,
+                            "start": 512,
                             "end": 24
                         },
                         "asyncKeyword": null,
@@ -87,8 +87,8 @@ declare class A { static foo(): number; static x : string }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 768,
-                                    "start": 31,
+                                    "flags": 31,
+                                    "start": 512,
                                     "end": 38
                                 },
                                 "flags": 0,
@@ -110,8 +110,8 @@ declare class A { static foo(): number; static x : string }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 39,
+                            "flags": 39,
+                            "start": 512,
                             "end": 46
                         },
                         "asyncKeyword": null,
@@ -128,8 +128,8 @@ declare class A { static foo(): number; static x : string }
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 50,
+                                "flags": 50,
+                                "start": 512,
                                 "end": 57
                             },
                             "flags": 0,

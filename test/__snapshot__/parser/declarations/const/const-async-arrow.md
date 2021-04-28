@@ -27,7 +27,7 @@ const a = async (foo: string = "") => {}
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -50,8 +50,8 @@ const a = async (foo: string = "") => {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 34,
+                                "flags": 34,
+                                "start": 0,
                                 "end": 37
                             },
                             "typeParameters": null,
@@ -72,8 +72,8 @@ const a = async (foo: string = "") => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 21,
+                                            "flags": 21,
+                                            "start": 512,
                                             "end": 28
                                         },
                                         "flags": 0,
@@ -95,7 +95,7 @@ const a = async (foo: string = "") => {}
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 9,
                                 "end": 15
                             },

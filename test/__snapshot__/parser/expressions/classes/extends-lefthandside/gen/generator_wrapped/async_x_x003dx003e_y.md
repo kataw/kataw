@@ -29,14 +29,14 @@ x => y {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -67,8 +67,8 @@ x => y {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 1,
                                 "end": 22
                             },
                             "name": {
@@ -84,8 +84,8 @@ x => y {}
                                 "kind": 279,
                                 "extendsKeyword": {
                                     "kind": 4194391,
-                                    "flags": 768,
-                                    "start": 24,
+                                    "flags": 24,
+                                    "start": 0,
                                     "end": 32
                                 },
                                 "expression": {
@@ -118,8 +118,8 @@ x => y {}
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 40,
+                                    "flags": 40,
+                                    "start": 0,
                                     "end": 43
                                 },
                                 "typeParameters": null,

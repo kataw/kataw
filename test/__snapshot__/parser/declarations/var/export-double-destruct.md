@@ -38,7 +38,7 @@ export var [foo] = arr, [bar] = arr2;
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -47,8 +47,8 @@ export var [foo] = arr, [bar] = arr2;
                 "declareKeyword": null,
                 "varKeyword": {
                     "kind": 37757002,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 0,
                     "end": 10
                 },
                 "declarationList": {

@@ -25,7 +25,7 @@ export {x}; var x;
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -71,8 +71,8 @@ export {x}; var x;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 11,
+                "flags": 11,
+                "start": 0,
                 "end": 15
             },
             "declarationList": {

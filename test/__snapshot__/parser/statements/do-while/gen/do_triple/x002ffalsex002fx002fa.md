@@ -23,7 +23,7 @@ do do do /false//a while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,16 +36,16 @@ do do do /false//a while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 30,
+                "flags": 30,
+                "start": 0,
                 "end": 36
             },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -57,16 +57,16 @@ do do do /false//a while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 768,
-                    "start": 24,
+                    "flags": 24,
+                    "start": 0,
                     "end": 30
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -78,8 +78,8 @@ do do do /false//a while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 768,
-                        "start": 18,
+                        "flags": 18,
+                        "start": 0,
                         "end": 24
                     },
                     "statement": {
@@ -95,8 +95,8 @@ do do do /false//a while while while
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 768,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 512,
                                 "end": 17
                             },
                             "right": {

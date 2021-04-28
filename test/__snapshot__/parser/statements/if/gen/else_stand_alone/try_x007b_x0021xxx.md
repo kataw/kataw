@@ -23,8 +23,8 @@ else try { !xxx
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 4,
+                "flags": 4,
+                "start": 0,
                 "end": 8
             },
             "block": {
@@ -38,8 +38,8 @@ else try { !xxx
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "start": 512,
                                     "end": 12
                                 },
                                 "expression": {

@@ -24,7 +24,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -78,8 +78,8 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                         "kind": 160,
                                                         "switchKeyword": {
                                                             "kind": 37757024,
-                                                            "flags": 768,
-                                                            "start": 17,
+                                                            "flags": 17,
+                                                            "start": 0,
                                                             "end": 24
                                                         },
                                                         "expression": {
@@ -97,16 +97,16 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                     "kind": 175,
                                                                     "caseKeyword": {
                                                                         "kind": 4194382,
-                                                                        "flags": 768,
-                                                                        "start": 30,
+                                                                        "flags": 30,
+                                                                        "start": 0,
                                                                         "end": 35
                                                                     },
                                                                     "expression": {
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
-                                                                            "flags": 768,
-                                                                            "start": 35,
+                                                                            "flags": 35,
+                                                                            "start": 0,
                                                                             "end": 41
                                                                         },
                                                                         "delegate": false,
@@ -121,8 +121,8 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                             "kind": 150,
                                                                             "breakKeyword": {
                                                                                 "kind": 37757005,
-                                                                                "flags": 768,
-                                                                                "start": 42,
+                                                                                "flags": 42,
+                                                                                "start": 0,
                                                                                 "end": 48
                                                                             },
                                                                             "label": null,

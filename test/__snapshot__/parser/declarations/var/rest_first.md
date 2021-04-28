@@ -39,7 +39,7 @@ var ...a = 1;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -68,8 +68,8 @@ var ...a = 1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 8,
+                    "flags": 8,
+                    "start": 512,
                     "end": 10
                 },
                 "right": {

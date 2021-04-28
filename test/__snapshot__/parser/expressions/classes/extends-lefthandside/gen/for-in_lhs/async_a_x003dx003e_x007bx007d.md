@@ -22,7 +22,7 @@ for (async a => {} in x) ;
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -31,8 +31,8 @@ for (async a => {} in x) ;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 15
                 },
                 "typeParameters": null,
@@ -58,8 +58,8 @@ for (async a => {} in x) ;
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 512,
                     "end": 10
                 },
                 "returnType": null,

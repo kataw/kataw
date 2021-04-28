@@ -25,7 +25,7 @@ function not_gen() { function* gf() { +yield 2; } }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,14 +58,14 @@ function not_gen() { function* gf() { +yield 2; } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 0,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 30
                             },
                             "name": {
@@ -96,16 +96,16 @@ function not_gen() { function* gf() { +yield 2; } }}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 34098,
-                                                    "flags": 768,
-                                                    "start": 37,
+                                                    "flags": 37,
+                                                    "start": 512,
                                                     "end": 39
                                                 },
                                                 "expression": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 39,
+                                                        "flags": 39,
+                                                        "start": 0,
                                                         "end": 44
                                                     },
                                                     "delegate": false,

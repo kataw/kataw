@@ -29,7 +29,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -64,8 +64,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 12,
+                                            "flags": 12,
+                                            "start": 512,
                                             "end": 19
                                         },
                                         "optionalToken": null,
@@ -98,8 +98,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                     },
                                                     "value": {
                                                         "kind": 134234347,
-                                                        "flags": 768,
-                                                        "start": 23,
+                                                        "flags": 23,
+                                                        "start": 512,
                                                         "end": 30
                                                     },
                                                     "optionalToken": null,

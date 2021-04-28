@@ -31,15 +31,15 @@ declare class X {
             "kind": 178,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -74,8 +74,8 @@ declare class X {
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 512,
                                 "end": 29
                             },
                             "flags": 0,
@@ -99,8 +99,8 @@ declare class X {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 30,
+                            "flags": 30,
+                            "start": 512,
                             "end": 39
                         },
                         "asyncKeyword": null,
@@ -117,8 +117,8 @@ declare class X {
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 42,
+                                "flags": 42,
+                                "start": 512,
                                 "end": 49
                             },
                             "flags": 0,
@@ -155,8 +155,8 @@ declare class X {
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 55,
+                                "flags": 55,
+                                "start": 512,
                                 "end": 62
                             },
                             "flags": 0,

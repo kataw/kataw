@@ -33,8 +33,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 768,
-                            "start": 2,
+                            "flags": 2,
+                            "start": 512,
                             "end": 4
                         },
                         "right": {
@@ -49,8 +49,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             },
                             "operatorToken": {
                                 "kind": 34620,
-                                "flags": 768,
-                                "start": 7,
+                                "flags": 7,
+                                "start": 512,
                                 "end": 11
                             },
                             "right": {
@@ -71,8 +71,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                     },
                     "operatorToken": {
                         "kind": 134251592,
-                        "flags": 768,
-                        "start": 14,
+                        "flags": 14,
+                        "start": 512,
                         "end": 16
                     },
                     "right": {
@@ -91,8 +91,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 },
                                 "operatorToken": {
                                     "kind": 35897,
-                                    "flags": 768,
-                                    "start": 19,
+                                    "flags": 19,
+                                    "start": 512,
                                     "end": 22
                                 },
                                 "right": {
@@ -109,8 +109,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 25,
+                                "flags": 25,
+                                "start": 512,
                                 "end": 27
                             },
                             "right": {
@@ -127,8 +127,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                         },
                         "operatorToken": {
                             "kind": 134251849,
-                            "flags": 768,
-                            "start": 30,
+                            "flags": 30,
+                            "start": 512,
                             "end": 32
                         },
                         "right": {
@@ -149,8 +149,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                 },
                 "operatorToken": {
                     "kind": 33339,
-                    "flags": 768,
-                    "start": 35,
+                    "flags": 35,
+                    "start": 512,
                     "end": 38
                 },
                 "right": {
@@ -165,8 +165,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 768,
-                        "start": 41,
+                        "flags": 41,
+                        "start": 512,
                         "end": 44
                     },
                     "right": {
@@ -183,8 +183,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             },
                             "operatorToken": {
                                 "kind": 4229173,
-                                "flags": 768,
-                                "start": 47,
+                                "flags": 47,
+                                "start": 512,
                                 "end": 58
                             },
                             "right": {
@@ -201,8 +201,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                         },
                         "operatorToken": {
                             "kind": 34375,
-                            "flags": 768,
-                            "start": 61,
+                            "flags": 61,
+                            "start": 512,
                             "end": 63
                         },
                         "right": {
@@ -217,8 +217,8 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             },
                             "operatorToken": {
                                 "kind": 35140,
-                                "flags": 768,
-                                "start": 67,
+                                "flags": 67,
+                                "start": 512,
                                 "end": 70
                             },
                             "right": {

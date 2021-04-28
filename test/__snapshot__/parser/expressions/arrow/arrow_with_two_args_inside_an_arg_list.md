@@ -36,8 +36,8 @@ f(((a, b) => a + b));
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 9,
+                                    "flags": 9,
+                                    "start": 0,
                                     "end": 12
                                 },
                                 "typeParameters": null,
@@ -75,8 +75,8 @@ f(((a, b) => a + b));
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 768,
-                                        "start": 14,
+                                        "flags": 14,
+                                        "start": 512,
                                         "end": 16
                                     },
                                     "right": {

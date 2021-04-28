@@ -21,14 +21,14 @@ function *g(){ return x + (yield f); }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -57,8 +57,8 @@ function *g(){ return x + (yield f); }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 0,
                                 "end": 21
                             },
                             "expression": {
@@ -73,8 +73,8 @@ function *g(){ return x + (yield f); }
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 23,
+                                    "flags": 23,
+                                    "start": 512,
                                     "end": 25
                                 },
                                 "right": {
@@ -83,8 +83,8 @@ function *g(){ return x + (yield f); }
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 27,
+                                            "flags": 27,
+                                            "start": 0,
                                             "end": 32
                                         },
                                         "delegate": false,

@@ -29,8 +29,8 @@ result = [x[yield]] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -74,8 +74,8 @@ result = [x[yield]] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 19,
+                        "flags": 19,
+                        "start": 512,
                         "end": 21
                     },
                     "right": {

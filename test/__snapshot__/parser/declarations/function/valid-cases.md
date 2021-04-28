@@ -83,7 +83,7 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -135,8 +135,8 @@ function f({x:arg = (arg = 2)}) {}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 0,
                                 "end": 25
                             },
                             "generatorToken": null,
@@ -271,8 +271,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 46,
+                "flags": 46,
+                "start": 1,
                 "end": 56
             },
             "generatorToken": null,
@@ -383,8 +383,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 74,
+                "flags": 74,
+                "start": 1,
                 "end": 84
             },
             "generatorToken": null,
@@ -512,8 +512,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 124,
+                                    "flags": 124,
+                                    "start": 512,
                                     "end": 126
                                 },
                                 "right": {
@@ -591,8 +591,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 138,
+                "flags": 138,
+                "start": 1,
                 "end": 148
             },
             "generatorToken": null,
@@ -611,8 +611,8 @@ function f({x:arg = (arg = 2)}) {}
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 151,
+                            "flags": 151,
+                            "start": 512,
                             "end": 154
                         },
                         "binding": {
@@ -707,8 +707,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 180,
+                                    "flags": 180,
+                                    "start": 512,
                                     "end": 182
                                 },
                                 "right": {
@@ -786,8 +786,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 194,
+                "flags": 194,
+                "start": 1,
                 "end": 204
             },
             "generatorToken": null,
@@ -883,8 +883,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 224,
+                                    "flags": 224,
+                                    "start": 512,
                                     "end": 226
                                 },
                                 "right": {
@@ -962,8 +962,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 238,
+                "flags": 238,
+                "start": 1,
                 "end": 248
             },
             "generatorToken": null,
@@ -1141,8 +1141,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 290,
+                "flags": 290,
+                "start": 1,
                 "end": 300
             },
             "generatorToken": null,
@@ -1229,8 +1229,8 @@ function f({x:arg = (arg = 2)}) {}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 768,
-                                "start": 316,
+                                "flags": 316,
+                                "start": 0,
                                 "end": 320
                             },
                             "declarationList": {
@@ -1328,8 +1328,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 338,
+                "flags": 338,
+                "start": 1,
                 "end": 348
             },
             "generatorToken": null,
@@ -1450,8 +1450,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 373,
+                                    "flags": 373,
+                                    "start": 512,
                                     "end": 375
                                 },
                                 "right": {
@@ -1529,8 +1529,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 387,
+                "flags": 387,
+                "start": 1,
                 "end": 397
             },
             "generatorToken": null,
@@ -1567,8 +1567,8 @@ function f({x:arg = (arg = 2)}) {}
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 404,
+                            "flags": 404,
+                            "start": 512,
                             "end": 408
                         },
                         "binding": {
@@ -1649,8 +1649,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 423,
+                                    "flags": 423,
+                                    "start": 512,
                                     "end": 425
                                 },
                                 "right": {
@@ -1728,8 +1728,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 437,
+                "flags": 437,
+                "start": 1,
                 "end": 447
             },
             "generatorToken": null,
@@ -1832,8 +1832,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 469,
+                                    "flags": 469,
+                                    "start": 512,
                                     "end": 471
                                 },
                                 "right": {
@@ -1911,8 +1911,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 483,
+                "flags": 483,
+                "start": 1,
                 "end": 493
             },
             "generatorToken": null,
@@ -2017,8 +2017,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 527,
+                                    "flags": 527,
+                                    "start": 512,
                                     "end": 529
                                 },
                                 "right": {
@@ -2096,8 +2096,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 541,
+                "flags": 541,
+                "start": 1,
                 "end": 551
             },
             "generatorToken": null,
@@ -2197,8 +2197,8 @@ function f({x:arg = (arg = 2)}) {}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 574,
+                                                            "flags": 574,
+                                                            "start": 512,
                                                             "end": 575
                                                         },
                                                         "right": {
@@ -2315,8 +2315,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 589,
+                "flags": 589,
+                "start": 1,
                 "end": 599
             },
             "generatorToken": null,
@@ -2418,8 +2418,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 618,
+                                                "flags": 618,
+                                                "start": 0,
                                                 "end": 626
                                             },
                                             "generatorToken": null,
@@ -2452,8 +2452,8 @@ function f({x:arg = (arg = 2)}) {}
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 768,
-                                                                    "start": 633,
+                                                                    "flags": 633,
+                                                                    "start": 512,
                                                                     "end": 635
                                                                 },
                                                                 "right": {
@@ -2561,8 +2561,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 649,
+                "flags": 649,
+                "start": 1,
                 "end": 659
             },
             "generatorToken": null,
@@ -2663,8 +2663,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 680,
+                                                "flags": 680,
+                                                "start": 0,
                                                 "end": 683
                                             },
                                             "typeParameters": null,
@@ -2683,8 +2683,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 687,
+                                                    "flags": 687,
+                                                    "start": 512,
                                                     "end": 689
                                                 },
                                                 "right": {
@@ -2776,8 +2776,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 702,
+                "flags": 702,
+                "start": 1,
                 "end": 712
             },
             "generatorToken": null,
@@ -2878,8 +2878,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 733,
+                                                "flags": 733,
+                                                "start": 0,
                                                 "end": 736
                                             },
                                             "typeParameters": null,
@@ -2994,8 +2994,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 763,
+                "flags": 763,
+                "start": 1,
                 "end": 773
             },
             "generatorToken": null,
@@ -3014,8 +3014,8 @@ function f({x:arg = (arg = 2)}) {}
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 776,
+                            "flags": 776,
+                            "start": 512,
                             "end": 779
                         },
                         "binding": {
@@ -3178,8 +3178,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 818,
+                "flags": 818,
+                "start": 1,
                 "end": 828
             },
             "generatorToken": null,
@@ -3289,8 +3289,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 857,
+                                    "flags": 857,
+                                    "start": 512,
                                     "end": 859
                                 },
                                 "right": {
@@ -3368,8 +3368,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 871,
+                "flags": 871,
+                "start": 1,
                 "end": 881
             },
             "generatorToken": null,
@@ -3547,8 +3547,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 919,
+                "flags": 919,
+                "start": 1,
                 "end": 929
             },
             "generatorToken": null,
@@ -3726,8 +3726,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 980,
+                "flags": 980,
+                "start": 1,
                 "end": 990
             },
             "generatorToken": null,
@@ -3828,8 +3828,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 1011,
+                                                "flags": 1011,
+                                                "start": 0,
                                                 "end": 1014
                                             },
                                             "typeParameters": null,
@@ -3862,8 +3862,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 1027,
+                                                    "flags": 1027,
+                                                    "start": 512,
                                                     "end": 1029
                                                 },
                                                 "right": {
@@ -3955,8 +3955,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 1042,
+                "flags": 1042,
+                "start": 1,
                 "end": 1052
             },
             "generatorToken": null,
@@ -4079,8 +4079,8 @@ function f({x:arg = (arg = 2)}) {}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 1077,
+                                                        "flags": 1077,
+                                                        "start": 512,
                                                         "end": 1078
                                                     },
                                                     "right": {
@@ -4158,8 +4158,8 @@ function f({x:arg = (arg = 2)}) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 1085,
+                "flags": 1085,
+                "start": 1,
                 "end": 1095
             },
             "generatorToken": null,
@@ -4218,8 +4218,8 @@ function f({x:arg = (arg = 2)}) {}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 1111,
+                                                        "flags": 1111,
+                                                        "start": 512,
                                                         "end": 1113
                                                     },
                                                     "right": {

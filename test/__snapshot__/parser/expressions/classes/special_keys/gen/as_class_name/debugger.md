@@ -25,7 +25,7 @@ class debugger {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -53,12 +53,12 @@ class debugger {}
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
-            "flags": 5,
-            "start": 128,
+            "flags": 128,
+            "start": 5,
             "end": 14
         },
         {

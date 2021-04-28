@@ -29,8 +29,8 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 0,
                     "end": 7
                 },
                 "expression": {
@@ -43,8 +43,8 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 768,
-                    "start": 41,
+                    "flags": 41,
+                    "start": 0,
                     "end": 47
                 },
                 "statement": {
@@ -66,8 +66,8 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     "kind": 169,
                                     "doKeyword": {
                                         "kind": 4202580,
-                                        "flags": 768,
-                                        "start": 14,
+                                        "flags": 14,
+                                        "start": 0,
                                         "end": 17
                                     },
                                     "expression": {
@@ -80,16 +80,16 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     },
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 768,
-                                        "start": 31,
+                                        "flags": 31,
+                                        "start": 0,
                                         "end": 36
                                     },
                                     "statement": {
                                         "kind": 172,
                                         "continueKeyword": {
                                             "kind": 37757009,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 0,
                                             "end": 26
                                         },
                                         "label": {

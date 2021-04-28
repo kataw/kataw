@@ -19,7 +19,7 @@ switch(y&[]=y){}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,8 +35,8 @@ switch(y&[]=y){}
                 },
                 "operatorToken": {
                     "kind": 34375,
-                    "flags": 768,
-                    "start": 8,
+                    "flags": 8,
+                    "start": 512,
                     "end": 9
                 },
                 "right": {
@@ -57,8 +57,8 @@ switch(y&[]=y){}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 11,
+                        "flags": 11,
+                        "start": 512,
                         "end": 12
                     },
                     "right": {

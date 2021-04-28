@@ -32,8 +32,8 @@ x = {async __proto__(){}, *__proto__(){}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -135,8 +135,8 @@ x = {async __proto__(){}, *__proto__(){}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 36,
+                    "flags": 36,
+                    "start": 512,
                     "end": 38
                 },
                 "right": {
@@ -255,8 +255,8 @@ x = {async __proto__(){}, *__proto__(){}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 72,
+                    "flags": 72,
+                    "start": 512,
                     "end": 74
                 },
                 "right": {
@@ -367,8 +367,8 @@ x = {async __proto__(){}, *__proto__(){}};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 146,
+                    "flags": 146,
+                    "start": 0,
                     "end": 149
                 },
                 "typeParameters": null,

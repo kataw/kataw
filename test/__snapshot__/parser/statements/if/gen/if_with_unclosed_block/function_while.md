@@ -37,8 +37,8 @@ else {} if(x) { function while
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 10
             },
             "expression": {
@@ -60,8 +60,8 @@ else {} if(x) { function while
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 0,
                                 "end": 24
                             },
                             "generatorToken": null,
@@ -105,8 +105,8 @@ else {} if(x) { function while
                             "kind": 154,
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 768,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 0,
                                 "end": 30
                             },
                             "expression": {

@@ -37,7 +37,7 @@ for ([x + y] in obj);
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -59,8 +59,8 @@ for ([x + y] in obj);
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 768,
-                                "start": 7,
+                                "flags": 7,
+                                "start": 512,
                                 "end": 9
                             },
                             "right": {

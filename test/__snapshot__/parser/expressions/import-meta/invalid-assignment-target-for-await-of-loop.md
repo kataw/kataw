@@ -28,20 +28,20 @@ async function* f() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 512,
                 "end": 15
             },
             "name": {
@@ -70,8 +70,8 @@ async function* f() {
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 768,
-                                "start": 21,
+                                "flags": 21,
+                                "start": 1,
                                 "end": 29
                             },
                             "initializer": {
@@ -80,8 +80,8 @@ async function* f() {
                                     "kind": 207,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 768,
-                                        "start": 37,
+                                        "flags": 37,
+                                        "start": 0,
                                         "end": 43
                                     },
                                     "flags": 43,
@@ -107,8 +107,8 @@ async function* f() {
                             },
                             "awaitKeyword": {
                                 "kind": 82032,
-                                "flags": 768,
-                                "start": 29,
+                                "flags": 29,
+                                "start": 512,
                                 "end": 35
                             },
                             "flags": 128,

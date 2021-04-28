@@ -19,7 +19,7 @@ throw {x} catch (x = y) {}
             "kind": 158,
             "throwKeyword": {
                 "kind": 37757026,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -102,8 +102,8 @@ throw {x} catch (x = y) {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 18,
+                    "flags": 18,
+                    "start": 512,
                     "end": 20
                 },
                 "right": {

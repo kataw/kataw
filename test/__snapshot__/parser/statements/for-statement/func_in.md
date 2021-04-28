@@ -38,7 +38,7 @@ for (function(){ a in b; };;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,8 +47,8 @@ for (function(){ a in b; };;);
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 0,
                     "end": 13
                 },
                 "generatorToken": null,
@@ -81,8 +81,8 @@ for (function(){ a in b; };;);
                                     },
                                     "operatorToken": {
                                         "kind": 21006388,
-                                        "flags": 768,
-                                        "start": 18,
+                                        "flags": 18,
+                                        "start": 512,
                                         "end": 21
                                     },
                                     "right": {

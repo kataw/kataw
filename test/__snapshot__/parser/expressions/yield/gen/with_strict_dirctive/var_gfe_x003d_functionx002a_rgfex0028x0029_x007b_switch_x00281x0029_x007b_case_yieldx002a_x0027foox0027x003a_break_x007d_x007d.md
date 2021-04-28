@@ -33,8 +33,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 17
             },
             "declarationList": {
@@ -57,14 +57,14 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 23,
+                                "flags": 23,
+                                "start": 0,
                                 "end": 32
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 512,
                                 "end": 33
                             },
                             "name": {
@@ -93,8 +93,8 @@
                                             "kind": 160,
                                             "switchKeyword": {
                                                 "kind": 37757024,
-                                                "flags": 768,
-                                                "start": 42,
+                                                "flags": 42,
+                                                "start": 0,
                                                 "end": 49
                                             },
                                             "expression": {
@@ -112,23 +112,23 @@
                                                         "kind": 175,
                                                         "caseKeyword": {
                                                             "kind": 4194382,
-                                                            "flags": 768,
-                                                            "start": 55,
+                                                            "flags": 55,
+                                                            "start": 0,
                                                             "end": 60
                                                         },
                                                         "expression": {
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 768,
-                                                                "start": 60,
+                                                                "flags": 60,
+                                                                "start": 0,
                                                                 "end": 66
                                                             },
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 768,
-                                                                "start": 66,
+                                                                "flags": 66,
+                                                                "start": 512,
                                                                 "end": 67
                                                             },
                                                             "expression": {
@@ -148,8 +148,8 @@
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 768,
-                                                                    "start": 74,
+                                                                    "flags": 74,
+                                                                    "start": 0,
                                                                     "end": 80
                                                                 },
                                                                 "label": null,

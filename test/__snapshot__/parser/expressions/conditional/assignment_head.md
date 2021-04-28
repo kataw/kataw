@@ -29,8 +29,8 @@ a=b?c:d
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -45,8 +45,8 @@ a=b?c:d
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 0,
                         "end": 4
                     },
                     "consequent": {
@@ -59,8 +59,8 @@ a=b?c:d
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 6
                     },
                     "alternate": {

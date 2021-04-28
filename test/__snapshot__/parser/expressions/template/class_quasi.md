@@ -38,8 +38,8 @@
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 768,
-                                    "start": 3,
+                                    "flags": 3,
+                                    "start": 0,
                                     "end": 8
                                 },
                                 "name": {

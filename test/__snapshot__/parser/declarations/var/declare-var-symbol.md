@@ -27,14 +27,14 @@ declare var x: symbol;
             "kind": 155,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 11
             },
             "declarationList": {
@@ -55,8 +55,8 @@ declare var x: symbol;
                             "kind": 139,
                             "type": {
                                 "kind": 134234343,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 512,
                                 "end": 21
                             },
                             "flags": 0,

@@ -23,7 +23,7 @@ switch {} default(x) { =! class function try while with foo!
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -49,8 +49,8 @@ switch {} default(x) { =! class function try while with foo!
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 0,
                             "end": 17
                         },
                         "statements": [
@@ -94,8 +94,8 @@ switch {} default(x) { =! class function try while with foo!
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 512,
                                         "end": 25
                                     },
                                     "expression": {
@@ -103,8 +103,8 @@ switch {} default(x) { =! class function try while with foo!
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 768,
-                                            "start": 25,
+                                            "flags": 25,
+                                            "start": 0,
                                             "end": 31
                                         },
                                         "name": null,
@@ -135,8 +135,8 @@ switch {} default(x) { =! class function try while with foo!
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 31,
+                                    "flags": 31,
+                                    "start": 0,
                                     "end": 40
                                 },
                                 "generatorToken": null,
@@ -180,8 +180,8 @@ switch {} default(x) { =! class function try while with foo!
                                 "kind": 159,
                                 "tryKeyword": {
                                     "kind": 37757027,
-                                    "flags": 768,
-                                    "start": 40,
+                                    "flags": 40,
+                                    "start": 0,
                                     "end": 44
                                 },
                                 "block": {
@@ -222,8 +222,8 @@ switch {} default(x) { =! class function try while with foo!
                                 "kind": 153,
                                 "withKeyword": {
                                     "kind": 37757029,
-                                    "flags": 768,
-                                    "start": 50,
+                                    "flags": 50,
+                                    "start": 0,
                                     "end": 55
                                 },
                                 "expression": {
@@ -240,8 +240,8 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 768,
-                                            "start": 59,
+                                            "flags": 59,
+                                            "start": 512,
                                             "end": 60
                                         },
                                         "expression": {

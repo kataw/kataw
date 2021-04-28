@@ -23,7 +23,7 @@ if class x {} else
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -32,8 +32,8 @@ if class x {} else
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 8
                 },
                 "name": {
@@ -72,8 +72,8 @@ if class x {} else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 512,
                 "end": 18
             },
             "alternate": {

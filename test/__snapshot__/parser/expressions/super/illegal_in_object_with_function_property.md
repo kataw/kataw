@@ -29,8 +29,8 @@ x={ foo: function(){ super.foo; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -45,8 +45,8 @@ x={ foo: function(){ super.foo; }}
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 768,
-                                        "start": 8,
+                                        "flags": 8,
+                                        "start": 0,
                                         "end": 17
                                     },
                                     "generatorToken": null,
@@ -73,8 +73,8 @@ x={ foo: function(){ super.foo; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 768,
-                                                                "start": 20,
+                                                                "flags": 20,
+                                                                "start": 0,
                                                                 "end": 26
                                                             },
                                                             "flags": 768,

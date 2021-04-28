@@ -27,14 +27,14 @@ function *f(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -67,8 +67,8 @@ function *f(){
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477613,
-                                        "flags": 768,
-                                        "start": 14,
+                                        "flags": 14,
+                                        "start": 328193,
                                         "end": 28
                                     },
                                     "expression": {
@@ -84,8 +84,8 @@ function *f(){
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 28,
+                                    "flags": 28,
+                                    "start": 512,
                                     "end": 30
                                 },
                                 "right": {

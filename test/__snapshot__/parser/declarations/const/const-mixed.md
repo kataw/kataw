@@ -29,7 +29,7 @@ const map = {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -77,8 +77,8 @@ const map = {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34880,
-                                                    "flags": 768,
-                                                    "start": 20,
+                                                    "flags": 20,
+                                                    "start": 512,
                                                     "end": 23
                                                 },
                                                 "right": {

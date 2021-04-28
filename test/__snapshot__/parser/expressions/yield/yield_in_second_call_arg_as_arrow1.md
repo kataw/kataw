@@ -21,14 +21,14 @@ function *g() { (x = x + foo(a, yield y)) => x; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -59,8 +59,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 41,
+                                    "flags": 41,
+                                    "start": 0,
                                     "end": 44
                                 },
                                 "typeParameters": null,
@@ -77,8 +77,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 18,
+                                            "flags": 18,
+                                            "start": 512,
                                             "end": 20
                                         },
                                         "right": {
@@ -93,8 +93,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 768,
-                                                "start": 22,
+                                                "flags": 22,
+                                                "start": 512,
                                                 "end": 24
                                             },
                                             "right": {
@@ -122,8 +122,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 768,
-                                                                "start": 31,
+                                                                "flags": 31,
+                                                                "start": 0,
                                                                 "end": 37
                                                             },
                                                             "delegate": false,

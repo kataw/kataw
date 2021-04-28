@@ -23,15 +23,15 @@ async () => {  impo\u0072t = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -46,8 +46,8 @@ async () => {  impo\u0072t = x  }
                             "kind": 263,
                             "importKeyword": {
                                 "kind": 37814364,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 327680,
                                 "end": 26
                             },
                             "fromClause": null,

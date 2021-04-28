@@ -23,7 +23,7 @@ switch switch switch function while
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -49,8 +49,8 @@ switch switch switch function while
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 13
             },
             "expression": {
@@ -75,8 +75,8 @@ switch switch switch function while
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 20
             },
             "expression": {
@@ -84,8 +84,8 @@ switch switch switch function while
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 20,
+                    "flags": 20,
+                    "start": 0,
                     "end": 29
                 },
                 "generatorToken": null,
@@ -134,8 +134,8 @@ switch switch switch function while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 29,
+                "flags": 29,
+                "start": 0,
                 "end": 35
             },
             "expression": {

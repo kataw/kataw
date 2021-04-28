@@ -29,8 +29,8 @@ s = {s: true = x} = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -53,8 +53,8 @@ s = {s: true = x} = x
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 12,
+                                            "flags": 12,
+                                            "start": 512,
                                             "end": 14
                                         },
                                         "right": {
@@ -94,8 +94,8 @@ s = {s: true = x} = x
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 512,
                         "end": 19
                     },
                     "right": {

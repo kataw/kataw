@@ -29,8 +29,8 @@ a ? b : c
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 3
                 },
                 "consequent": {
@@ -43,8 +43,8 @@ a ? b : c
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 0,
                     "end": 7
                 },
                 "alternate": {

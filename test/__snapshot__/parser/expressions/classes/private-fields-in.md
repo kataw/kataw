@@ -38,7 +38,7 @@ class C {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -139,8 +139,8 @@ class C {
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 35,
+                            "flags": 35,
+                            "start": 512,
                             "end": 42
                         },
                         "getKeyword": null,
@@ -192,8 +192,8 @@ class C {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 55,
+                            "flags": 55,
+                            "start": 512,
                             "end": 65
                         },
                         "asyncKeyword": null,
@@ -248,8 +248,8 @@ class C {
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 76,
+                                                "flags": 76,
+                                                "start": 1,
                                                 "end": 87
                                             },
                                             "expression": {
@@ -267,8 +267,8 @@ class C {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
-                                                            "flags": 768,
-                                                            "start": 94,
+                                                            "flags": 94,
+                                                            "start": 512,
                                                             "end": 97
                                                         },
                                                         "right": {
@@ -285,8 +285,8 @@ class C {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 33594,
-                                                        "flags": 768,
-                                                        "start": 101,
+                                                        "flags": 101,
+                                                        "start": 512,
                                                         "end": 104
                                                     },
                                                     "right": {
@@ -300,8 +300,8 @@ class C {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
-                                                            "flags": 768,
-                                                            "start": 112,
+                                                            "flags": 112,
+                                                            "start": 512,
                                                             "end": 115
                                                         },
                                                         "right": {
@@ -322,8 +322,8 @@ class C {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 33594,
-                                                    "flags": 768,
-                                                    "start": 119,
+                                                    "flags": 119,
+                                                    "start": 512,
                                                     "end": 122
                                                 },
                                                 "right": {
@@ -337,8 +337,8 @@ class C {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 21006388,
-                                                        "flags": 768,
-                                                        "start": 130,
+                                                        "flags": 130,
+                                                        "start": 512,
                                                         "end": 133
                                                     },
                                                     "right": {

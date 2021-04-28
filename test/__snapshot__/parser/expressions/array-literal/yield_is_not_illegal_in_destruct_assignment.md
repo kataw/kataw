@@ -21,14 +21,14 @@ function* g() {   [...{ x = yield }] = y   }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -66,8 +66,8 @@ function* g() {   [...{ x = yield }] = y   }
                                                 "kind": 223,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 768,
-                                                    "start": 19,
+                                                    "flags": 19,
+                                                    "start": 0,
                                                     "end": 22
                                                 },
                                                 "argument": {
@@ -89,8 +89,8 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "kind": 229,
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
-                                                                        "flags": 768,
-                                                                        "start": 27,
+                                                                        "flags": 27,
+                                                                        "start": 0,
                                                                         "end": 33
                                                                     },
                                                                     "delegate": false,
@@ -131,8 +131,8 @@ function* g() {   [...{ x = yield }] = y   }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 36,
+                                    "flags": 36,
+                                    "start": 512,
                                     "end": 38
                                 },
                                 "right": {

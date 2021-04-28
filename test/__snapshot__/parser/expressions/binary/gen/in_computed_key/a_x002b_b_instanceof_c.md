@@ -33,8 +33,8 @@ x = {[ a + b instanceof c ]: y}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -66,8 +66,8 @@ x = {[ a + b instanceof c ]: y}
                                         },
                                         "operatorToken": {
                                             "kind": 34098,
-                                            "flags": 768,
-                                            "start": 8,
+                                            "flags": 8,
+                                            "start": 512,
                                             "end": 10
                                         },
                                         "right": {
@@ -82,8 +82,8 @@ x = {[ a + b instanceof c ]: y}
                                             },
                                             "operatorToken": {
                                                 "kind": 4229173,
-                                                "flags": 768,
-                                                "start": 12,
+                                                "flags": 12,
+                                                "start": 512,
                                                 "end": 23
                                             },
                                             "right": {

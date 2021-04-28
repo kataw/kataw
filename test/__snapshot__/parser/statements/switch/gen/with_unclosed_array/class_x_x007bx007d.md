@@ -23,7 +23,7 @@ switch[ class x {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,8 +37,8 @@ switch[ class x {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 7,
+                                "flags": 7,
+                                "start": 0,
                                 "end": 13
                             },
                             "name": {

@@ -37,8 +37,8 @@
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 0,
                                 "end": 6
                             },
                             "name": null,
@@ -57,8 +57,8 @@
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 768,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 513,
                             "end": 11
                         },
                         "right": {
@@ -75,8 +75,8 @@
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 17
                     },
                     "right": {

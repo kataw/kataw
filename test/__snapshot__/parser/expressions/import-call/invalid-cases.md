@@ -116,8 +116,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 1,
                 "end": 7
             },
             "fromClause": null,
@@ -139,8 +139,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 1,
                     "end": 17
                 },
                 "expression": {
@@ -164,8 +164,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 20,
+                    "flags": 20,
+                    "start": 1,
                     "end": 28
                 },
                 "expression": {
@@ -187,8 +187,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 30,
+                "flags": 30,
+                "start": 1,
                 "end": 38
             },
             "fromClause": null,
@@ -210,8 +210,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 40,
+                    "flags": 40,
+                    "start": 1,
                     "end": 48
                 },
                 "expression": {
@@ -235,8 +235,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 51,
+                    "flags": 51,
+                    "start": 1,
                     "end": 59
                 },
                 "expression": {
@@ -261,8 +261,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 63,
+                    "flags": 63,
+                    "start": 1,
                     "end": 71
                 },
                 "expression": {
@@ -291,8 +291,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 77,
+                "flags": 77,
+                "start": 1,
                 "end": 85
             },
             "fromClause": null,
@@ -341,8 +341,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 91,
+                "flags": 91,
+                "start": 1,
                 "end": 99
             },
             "fromClause": null,
@@ -375,8 +375,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 104,
+                            "flags": 104,
+                            "start": 1,
                             "end": 112
                         },
                         "expression": {
@@ -426,8 +426,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 118,
+                    "flags": 118,
+                    "start": 1,
                     "end": 126
                 },
                 "expression": {
@@ -461,8 +461,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 131,
+                            "flags": 131,
+                            "start": 1,
                             "end": 139
                         },
                         "expression": {
@@ -508,8 +508,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 145,
+                            "flags": 145,
+                            "start": 1,
                             "end": 153
                         },
                         "expression": {
@@ -555,8 +555,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 160,
+                            "flags": 160,
+                            "start": 1,
                             "end": 168
                         },
                         "expression": {
@@ -617,8 +617,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 176,
+                            "flags": 176,
+                            "start": 1,
                             "end": 184
                         },
                         "expression": {
@@ -673,8 +673,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 192,
+                            "flags": 192,
+                            "start": 1,
                             "end": 200
                         },
                         "expression": {
@@ -715,8 +715,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 205,
+                            "flags": 205,
+                            "start": 1,
                             "end": 213
                         },
                         "expression": {
@@ -764,8 +764,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 219,
+                            "flags": 219,
+                            "start": 1,
                             "end": 227
                         },
                         "expression": {
@@ -815,8 +815,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 233,
+                "flags": 233,
+                "start": 1,
                 "end": 241
             },
             "fromClause": null,
@@ -850,8 +850,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 243,
+                "flags": 243,
+                "start": 1,
                 "end": 251
             },
             "fromClause": null,
@@ -885,8 +885,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 254,
+                "flags": 254,
+                "start": 1,
                 "end": 262
             },
             "fromClause": null,
@@ -906,8 +906,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 264,
+                "flags": 264,
+                "start": 1,
                 "end": 272
             },
             "fromClause": null,
@@ -950,8 +950,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 276,
+                "flags": 276,
+                "start": 1,
                 "end": 284
             },
             "fromClause": {
@@ -991,8 +991,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 286,
+                "flags": 286,
+                "start": 1,
                 "end": 294
             },
             "fromClause": {
@@ -1049,8 +1049,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 297,
+                "flags": 297,
+                "start": 1,
                 "end": 305
             },
             "fromClause": {
@@ -1112,8 +1112,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 309,
+                            "flags": 309,
+                            "start": 1,
                             "end": 317
                         },
                         "expression": {
@@ -1157,8 +1157,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 324,
+                    "flags": 324,
+                    "start": 1,
                     "end": 332
                 },
                 "expression": {
@@ -1205,8 +1205,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 339,
+                            "flags": 339,
+                            "start": 1,
                             "end": 347
                         },
                         "expression": {
@@ -1252,8 +1252,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 352,
+                            "flags": 352,
+                            "start": 1,
                             "end": 360
                         },
                         "expression": {
@@ -1298,8 +1298,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 364,
+                            "flags": 364,
+                            "start": 1,
                             "end": 372
                         },
                         "expression": {
@@ -1342,8 +1342,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 377,
+                    "flags": 377,
+                    "start": 1,
                     "end": 385
                 },
                 "expression": {
@@ -1380,8 +1380,8 @@ new import(x);
                                 "kind": 206,
                                 "importKeyword": {
                                     "kind": 37814364,
-                                    "flags": 768,
-                                    "start": 392,
+                                    "flags": 392,
+                                    "start": 0,
                                     "end": 398
                                 },
                                 "expression": {
@@ -1441,8 +1441,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 411,
+                "flags": 411,
+                "start": 1,
                 "end": 419
             },
             "fromClause": null,
@@ -1458,8 +1458,8 @@ new import(x);
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 419,
+                    "flags": 419,
+                    "start": 512,
                     "end": 420
                 },
                 "expression": {
@@ -1481,8 +1481,8 @@ new import(x);
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 768,
-                "start": 421,
+                "flags": 421,
+                "start": 1,
                 "end": 429
             },
             "fromClause": null,
@@ -1512,8 +1512,8 @@ new import(x);
                 "kind": 207,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 434,
+                    "flags": 434,
+                    "start": 1,
                     "end": 442
                 },
                 "flags": 442,
@@ -1533,8 +1533,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 447,
+                            "flags": 447,
+                            "start": 1,
                             "end": 455
                         },
                         "expression": {
@@ -1584,8 +1584,8 @@ new import(x);
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 768,
-                    "start": 461,
+                    "flags": 461,
+                    "start": 1,
                     "end": 469
                 },
                 "expression": {
@@ -1619,8 +1619,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 474,
+                            "flags": 474,
+                            "start": 1,
                             "end": 482
                         },
                         "expression": {
@@ -1666,8 +1666,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 488,
+                            "flags": 488,
+                            "start": 1,
                             "end": 496
                         },
                         "expression": {
@@ -1713,8 +1713,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 503,
+                            "flags": 503,
+                            "start": 1,
                             "end": 511
                         },
                         "expression": {
@@ -1775,8 +1775,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 519,
+                            "flags": 519,
+                            "start": 1,
                             "end": 527
                         },
                         "expression": {
@@ -1831,8 +1831,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 535,
+                            "flags": 535,
+                            "start": 1,
                             "end": 543
                         },
                         "expression": {
@@ -1873,8 +1873,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 548,
+                            "flags": 548,
+                            "start": 1,
                             "end": 556
                         },
                         "expression": {
@@ -1922,8 +1922,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 562,
+                            "flags": 562,
+                            "start": 1,
                             "end": 570
                         },
                         "expression": {
@@ -1975,8 +1975,8 @@ new import(x);
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 768,
-                    "start": 576,
+                    "flags": 576,
+                    "start": 1,
                     "end": 581
                 },
                 "expression": {
@@ -1985,8 +1985,8 @@ new import(x);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 768,
-                            "start": 581,
+                            "flags": 581,
+                            "start": 0,
                             "end": 588
                         },
                         "expression": {

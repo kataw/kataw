@@ -21,14 +21,14 @@ function *f(){ async (x = yield) => {} }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -57,8 +57,8 @@ function *f(){ async (x = yield) => {} }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 0,
                                 "end": 35
                             },
                             "typeParameters": null,
@@ -75,16 +75,16 @@ function *f(){ async (x = yield) => {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 23,
+                                        "flags": 23,
+                                        "start": 512,
                                         "end": 25
                                     },
                                     "right": {
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 25,
+                                            "flags": 25,
+                                            "start": 0,
                                             "end": 31
                                         },
                                         "delegate": false,
@@ -101,7 +101,7 @@ function *f(){ async (x = yield) => {} }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
+                                "flags": 512,
                                 "start": 14,
                                 "end": 20
                             },

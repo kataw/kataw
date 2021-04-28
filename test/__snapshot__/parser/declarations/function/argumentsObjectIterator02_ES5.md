@@ -29,7 +29,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -218,7 +218,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 41951307,
-                            "flags": 768,
+                            "flags": 641,
                             "start": 92,
                             "end": 100
                         },
@@ -282,7 +282,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "start": 100,
                             "end": 134
                         },
-                        "flags": 129,
+                        "flags": 128,
                         "start": 92,
                         "end": 135
                     },
@@ -290,7 +290,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 41951307,
-                            "flags": 768,
+                            "flags": 641,
                             "start": 135,
                             "end": 144
                         },
@@ -332,7 +332,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             "start": 144,
                             "end": 156
                         },
-                        "flags": 129,
+                        "flags": 128,
                         "start": 135,
                         "end": 157
                     },
@@ -340,8 +340,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "kind": 167,
                         "forKeyword": {
                             "kind": 37757017,
-                            "flags": 768,
-                            "start": 157,
+                            "flags": 157,
+                            "start": 1,
                             "end": 165
                         },
                         "initializer": {
@@ -437,8 +437,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                         },
                                                         "operatorToken": {
                                                             "kind": 34098,
-                                                            "flags": 768,
-                                                            "start": 211,
+                                                            "flags": 211,
+                                                            "start": 512,
                                                             "end": 213
                                                         },
                                                         "right": {
@@ -486,8 +486,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "kind": 161,
                         "returnKeyword": {
                             "kind": 37757022,
-                            "flags": 768,
-                            "start": 225,
+                            "flags": 225,
+                            "start": 1,
                             "end": 236
                         },
                         "expression": {

@@ -62,7 +62,7 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -87,8 +87,8 @@ class A {
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 15
                         },
                         "getKeyword": null,
@@ -144,8 +144,8 @@ class A {
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 27,
+                            "flags": 27,
+                            "start": 512,
                             "end": 34
                         },
                         "method": {
@@ -369,15 +369,15 @@ class A {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 100,
+                            "flags": 100,
+                            "start": 512,
                             "end": 110
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 110,
+                            "flags": 110,
+                            "start": 512,
                             "end": 116
                         },
                         "getKeyword": null,
@@ -430,16 +430,16 @@ class A {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 128,
+                            "flags": 128,
+                            "start": 512,
                             "end": 138
                         },
                         "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 138,
+                            "flags": 138,
+                            "start": 512,
                             "end": 144
                         },
                         "method": {
@@ -510,8 +510,8 @@ class A {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 157,
+                            "flags": 157,
+                            "start": 512,
                             "end": 167
                         },
                         "asyncKeyword": null,
@@ -566,8 +566,8 @@ class A {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 189,
+                            "flags": 189,
+                            "start": 512,
                             "end": 199
                         },
                         "asyncKeyword": null,
@@ -622,8 +622,8 @@ class A {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 768,
-                            "start": 211,
+                            "flags": 211,
+                            "start": 512,
                             "end": 221
                         },
                         "asyncKeyword": null,

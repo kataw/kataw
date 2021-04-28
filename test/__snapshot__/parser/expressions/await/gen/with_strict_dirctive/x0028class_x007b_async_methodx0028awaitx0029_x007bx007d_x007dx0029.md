@@ -37,8 +37,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 0,
                         "end": 20
                     },
                     "name": null,
@@ -54,8 +54,8 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 22,
+                                    "flags": 22,
+                                    "start": 512,
                                     "end": 28
                                 },
                                 "setKeyword": null,

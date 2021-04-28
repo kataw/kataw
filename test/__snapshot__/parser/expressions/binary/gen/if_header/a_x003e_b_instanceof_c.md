@@ -23,7 +23,7 @@ if ( a > b instanceof c ) ;
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -41,8 +41,8 @@ if ( a > b instanceof c ) ;
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 768,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 512,
                         "end": 8
                     },
                     "right": {
@@ -59,8 +59,8 @@ if ( a > b instanceof c ) ;
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 21
                 },
                 "right": {

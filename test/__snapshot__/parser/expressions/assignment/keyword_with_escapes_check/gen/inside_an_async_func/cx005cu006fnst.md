@@ -23,15 +23,15 @@ async () => {  c\u006fnst = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 0,
                 "end": 11
             },
             "typeParameters": null,
             "parameters": [],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },
@@ -46,8 +46,8 @@ async () => {  c\u006fnst = x  }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 327680,
                                 "end": 25
                             },
                             "binding": {
@@ -57,7 +57,7 @@ async () => {  c\u006fnst = x  }
                                 "start": 25,
                                 "end": 25
                             },
-                            "flags": 327808,
+                            "flags": 128,
                             "start": 13,
                             "end": 25
                         }

@@ -27,15 +27,15 @@ declare class A<T> extends B<T> { x: number }
             "kind": 178,
             "declareKeyword": {
                 "kind": 82165,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 7
             },
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 7,
+                "flags": 7,
+                "start": 0,
                 "end": 13
             },
             "name": {
@@ -73,8 +73,8 @@ declare class A<T> extends B<T> { x: number }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 18,
+                    "flags": 18,
+                    "start": 0,
                     "end": 26
                 },
                 "expression": {
@@ -134,8 +134,8 @@ declare class A<T> extends B<T> { x: number }
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 36,
+                                "flags": 36,
+                                "start": 512,
                                 "end": 43
                             },
                             "flags": 0,

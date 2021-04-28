@@ -25,8 +25,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 17,
+                    "flags": 17,
+                    "start": 0,
                     "end": 20
                 },
                 "typeParameters": null,
@@ -124,8 +124,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 39,
+                    "flags": 39,
+                    "start": 0,
                     "end": 42
                 },
                 "typeParameters": null,
@@ -209,8 +209,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 57,
+                    "flags": 57,
+                    "start": 0,
                     "end": 60
                 },
                 "typeParameters": null,
@@ -244,8 +244,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 51,
+                                "flags": 51,
+                                "start": 512,
                                 "end": 53
                             },
                             "right": {

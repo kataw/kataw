@@ -50,8 +50,8 @@ foo(a, b, ...c)
                             "kind": 223,
                             "ellipsisToken": {
                                 "kind": 524302,
-                                "flags": 768,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 0,
                                 "end": 13
                             },
                             "argument": {

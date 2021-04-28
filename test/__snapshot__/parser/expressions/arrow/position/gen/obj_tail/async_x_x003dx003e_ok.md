@@ -33,8 +33,8 @@ x = {arrow: async x => ok}.y
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -50,8 +50,8 @@ x = {arrow: async x => ok}.y
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 768,
-                                            "start": 19,
+                                            "flags": 19,
+                                            "start": 0,
                                             "end": 22
                                         },
                                         "typeParameters": null,
@@ -77,8 +77,8 @@ x = {arrow: async x => ok}.y
                                         ],
                                         "asyncToken": {
                                             "kind": 82031,
-                                            "flags": 768,
-                                            "start": 11,
+                                            "flags": 11,
+                                            "start": 512,
                                             "end": 17
                                         },
                                         "returnType": null,

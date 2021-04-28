@@ -23,7 +23,7 @@ return try { !xxx
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -42,8 +42,8 @@ return try { !xxx
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 10
             },
             "block": {
@@ -57,8 +57,8 @@ return try { !xxx
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 12,
+                                    "flags": 12,
+                                    "start": 512,
                                     "end": 14
                                 },
                                 "expression": {

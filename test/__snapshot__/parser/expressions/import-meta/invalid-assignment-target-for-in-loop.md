@@ -24,7 +24,7 @@ for (import.meta in null) ;
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,8 +35,8 @@ for (import.meta in null) ;
                     "kind": 207,
                     "importKeyword": {
                         "kind": 37814364,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 11
                     },
                     "flags": 11,

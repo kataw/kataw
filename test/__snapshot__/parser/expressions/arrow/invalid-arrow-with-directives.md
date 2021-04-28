@@ -59,8 +59,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 25,
+                    "flags": 25,
+                    "start": 0,
                     "end": 28
                 },
                 "typeParameters": null,
@@ -77,8 +77,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 16,
+                            "flags": 16,
+                            "start": 512,
                             "end": 18
                         },
                         "right": {
@@ -139,8 +139,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 63,
+                    "flags": 63,
+                    "start": 0,
                     "end": 66
                 },
                 "typeParameters": null,
@@ -157,8 +157,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 49,
+                            "flags": 49,
+                            "start": 512,
                             "end": 51
                         },
                         "right": {
@@ -175,8 +175,8 @@
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 768,
-                                    "start": 57,
+                                    "flags": 57,
+                                    "start": 512,
                                     "end": 59
                                 },
                                 "right": {
@@ -193,8 +193,8 @@
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 768,
-                                "start": 60,
+                                "flags": 60,
+                                "start": 512,
                                 "end": 61
                             },
                             "right": {
@@ -259,8 +259,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 90,
+                    "flags": 90,
+                    "start": 0,
                     "end": 93
                 },
                 "typeParameters": null,
@@ -317,8 +317,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 119,
+                    "flags": 119,
+                    "start": 0,
                     "end": 122
                 },
                 "typeParameters": null,
@@ -377,8 +377,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 152,
+                    "flags": 152,
+                    "start": 0,
                     "end": 155
                 },
                 "typeParameters": null,
@@ -395,8 +395,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 147,
+                            "flags": 147,
+                            "start": 512,
                             "end": 149
                         },
                         "right": {
@@ -457,8 +457,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 183,
+                    "flags": 183,
+                    "start": 0,
                     "end": 186
                 },
                 "typeParameters": null,
@@ -532,8 +532,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 218,
+                    "flags": 218,
+                    "start": 0,
                     "end": 221
                 },
                 "typeParameters": null,
@@ -555,8 +555,8 @@
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 212,
+                                        "flags": 212,
+                                        "start": 512,
                                         "end": 214
                                     },
                                     "right": {
@@ -627,8 +627,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 252,
+                    "flags": 252,
+                    "start": 0,
                     "end": 255
                 },
                 "typeParameters": null,
@@ -642,8 +642,8 @@
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 242,
+                                        "flags": 242,
+                                        "start": 0,
                                         "end": 245
                                     },
                                     "argument": {
@@ -714,8 +714,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 286,
+                    "flags": 286,
+                    "start": 0,
                     "end": 289
                 },
                 "typeParameters": null,
@@ -804,8 +804,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 317,
+                    "flags": 317,
+                    "start": 0,
                     "end": 320
                 },
                 "typeParameters": null,
@@ -880,8 +880,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 352,
+                    "flags": 352,
+                    "start": 0,
                     "end": 355
                 },
                 "typeParameters": null,
@@ -970,8 +970,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 376,
+                    "flags": 376,
+                    "start": 0,
                     "end": 379
                 },
                 "typeParameters": null,
@@ -1014,8 +1014,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 403,
+                    "flags": 403,
+                    "start": 0,
                     "end": 406
                 },
                 "typeParameters": null,
@@ -1036,8 +1036,8 @@
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 768,
-                            "start": 412,
+                            "flags": 412,
+                            "start": 512,
                             "end": 414
                         },
                         "right": {
@@ -1054,8 +1054,8 @@
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 415,
+                        "flags": 415,
+                        "start": 512,
                         "end": 416
                     },
                     "right": {
@@ -1098,8 +1098,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 435,
+                    "flags": 435,
+                    "start": 0,
                     "end": 438
                 },
                 "typeParameters": null,
@@ -1117,8 +1117,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 440,
+                                    "flags": 440,
+                                    "start": 0,
                                     "end": 444
                                 },
                                 "declarationList": {
@@ -1195,8 +1195,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 475,
+                    "flags": 475,
+                    "start": 0,
                     "end": 478
                 },
                 "typeParameters": null,
@@ -1214,8 +1214,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 480,
+                                    "flags": 480,
+                                    "start": 0,
                                     "end": 484
                                 },
                                 "declarationList": {
@@ -1247,8 +1247,8 @@
                                                     },
                                                     "operatorToken": {
                                                         "kind": 35640,
-                                                        "flags": 768,
-                                                        "start": 494,
+                                                        "flags": 494,
+                                                        "start": 512,
                                                         "end": 496
                                                     },
                                                     "right": {
@@ -1265,8 +1265,8 @@
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 768,
-                                                    "start": 497,
+                                                    "flags": 497,
+                                                    "start": 512,
                                                     "end": 498
                                                 },
                                                 "right": {
@@ -1332,8 +1332,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 520,
+                    "flags": 520,
+                    "start": 0,
                     "end": 523
                 },
                 "typeParameters": null,
@@ -1351,8 +1351,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 525,
+                                    "flags": 525,
+                                    "start": 0,
                                     "end": 529
                                 },
                                 "declarationList": {
@@ -1422,8 +1422,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 556,
+                    "flags": 556,
+                    "start": 0,
                     "end": 559
                 },
                 "typeParameters": null,
@@ -1441,8 +1441,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 561,
+                                    "flags": 561,
+                                    "start": 0,
                                     "end": 565
                                 },
                                 "declarationList": {
@@ -1519,8 +1519,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 596,
+                    "flags": 596,
+                    "start": 0,
                     "end": 599
                 },
                 "typeParameters": null,
@@ -1538,8 +1538,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 601,
+                                    "flags": 601,
+                                    "start": 0,
                                     "end": 605
                                 },
                                 "declarationList": {
@@ -1647,8 +1647,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 639,
+                    "flags": 639,
+                    "start": 0,
                     "end": 642
                 },
                 "typeParameters": null,
@@ -1666,8 +1666,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 644,
+                                    "flags": 644,
+                                    "start": 0,
                                     "end": 648
                                 },
                                 "declarationList": {
@@ -1782,8 +1782,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 686,
+                    "flags": 686,
+                    "start": 0,
                     "end": 689
                 },
                 "typeParameters": null,
@@ -1801,8 +1801,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 691,
+                                    "flags": 691,
+                                    "start": 0,
                                     "end": 695
                                 },
                                 "declarationList": {
@@ -1819,8 +1819,8 @@
                                                             "kind": 244,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
-                                                                "flags": 768,
-                                                                "start": 697,
+                                                                "flags": 697,
+                                                                "start": 512,
                                                                 "end": 700
                                                             },
                                                             "binding": {
@@ -1915,8 +1915,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 732,
+                    "flags": 732,
+                    "start": 0,
                     "end": 735
                 },
                 "typeParameters": null,
@@ -1934,8 +1934,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 737,
+                                    "flags": 737,
+                                    "start": 0,
                                     "end": 741
                                 },
                                 "declarationList": {
@@ -2058,8 +2058,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 778,
+                    "flags": 778,
+                    "start": 0,
                     "end": 781
                 },
                 "typeParameters": null,
@@ -2077,8 +2077,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 783,
+                                    "flags": 783,
+                                    "start": 0,
                                     "end": 787
                                 },
                                 "declarationList": {
@@ -2186,8 +2186,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 821,
+                    "flags": 821,
+                    "start": 0,
                     "end": 824
                 },
                 "typeParameters": null,
@@ -2205,8 +2205,8 @@
                                 "declareKeyword": null,
                                 "varKeyword": {
                                     "kind": 37757002,
-                                    "flags": 768,
-                                    "start": 826,
+                                    "flags": 826,
+                                    "start": 0,
                                     "end": 830
                                 },
                                 "declarationList": {
@@ -2321,8 +2321,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 868,
+                    "flags": 868,
+                    "start": 0,
                     "end": 871
                 },
                 "typeParameters": null,
@@ -2401,8 +2401,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 904,
+                    "flags": 904,
+                    "start": 0,
                     "end": 907
                 },
                 "typeParameters": null,
@@ -2443,8 +2443,8 @@
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 919,
+                                        "flags": 919,
+                                        "start": 512,
                                         "end": 921
                                     },
                                     "right": {
@@ -2501,8 +2501,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 944,
+                    "flags": 944,
+                    "start": 0,
                     "end": 947
                 },
                 "typeParameters": null,
@@ -2519,7 +2519,7 @@
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 949,
                                     "end": 953
                                 },
@@ -2628,8 +2628,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 987,
+                    "flags": 987,
+                    "start": 0,
                     "end": 990
                 },
                 "typeParameters": null,
@@ -2646,7 +2646,7 @@
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 992,
                                     "end": 996
                                 },
@@ -2762,8 +2762,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 1034,
+                    "flags": 1034,
+                    "start": 0,
                     "end": 1037
                 },
                 "typeParameters": null,
@@ -2780,7 +2780,7 @@
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 1039,
                                     "end": 1043
                                 },
@@ -2798,8 +2798,8 @@
                                                             "kind": 244,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
-                                                                "flags": 768,
-                                                                "start": 1045,
+                                                                "flags": 1045,
+                                                                "start": 512,
                                                                 "end": 1048
                                                             },
                                                             "binding": {
@@ -2894,8 +2894,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 1080,
+                    "flags": 1080,
+                    "start": 0,
                     "end": 1083
                 },
                 "typeParameters": null,
@@ -2912,7 +2912,7 @@
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 1085,
                                     "end": 1089
                                 },
@@ -3036,8 +3036,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 1126,
+                    "flags": 1126,
+                    "start": 0,
                     "end": 1129
                 },
                 "typeParameters": null,
@@ -3054,7 +3054,7 @@
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 41951307,
-                                    "flags": 768,
+                                    "flags": 640,
                                     "start": 1131,
                                     "end": 1135
                                 },

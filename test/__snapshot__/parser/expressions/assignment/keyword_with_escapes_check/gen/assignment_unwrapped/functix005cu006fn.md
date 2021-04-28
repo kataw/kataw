@@ -25,8 +25,8 @@ functi\u006fn = x;
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 327680,
                 "end": 13
             },
             "generatorToken": null,

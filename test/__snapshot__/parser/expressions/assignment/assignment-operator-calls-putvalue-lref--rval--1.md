@@ -48,7 +48,7 @@ Object.defineProperty(this, "x", {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -93,8 +93,8 @@ Object.defineProperty(this, "x", {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 1,
                 "end": 18
             },
             "declarationList": {
@@ -258,8 +258,8 @@ Object.defineProperty(this, "x", {
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 109,
+                            "flags": 109,
+                            "start": 0,
                             "end": 117
                         },
                         "generatorToken": null,
@@ -328,8 +328,8 @@ Object.defineProperty(this, "x", {
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 768,
-                                                            "start": 172,
+                                                            "flags": 172,
+                                                            "start": 0,
                                                             "end": 175
                                                         },
                                                         "typeParameters": null,
@@ -348,8 +348,8 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 768,
-                                                                                "start": 187,
+                                                                                "flags": 187,
+                                                                                "start": 512,
                                                                                 "end": 189
                                                                             },
                                                                             "expression": {
@@ -382,8 +382,8 @@ Object.defineProperty(this, "x", {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 768,
-                                                                                "start": 196,
+                                                                                "flags": 196,
+                                                                                "start": 512,
                                                                                 "end": 198
                                                                             },
                                                                             "right": {
@@ -395,8 +395,8 @@ Object.defineProperty(this, "x", {
                                                                                             "kind": 126,
                                                                                             "operandToken": {
                                                                                                 "kind": 4259886,
-                                                                                                "flags": 768,
-                                                                                                "start": 200,
+                                                                                                "flags": 200,
+                                                                                                "start": 512,
                                                                                                 "end": 206
                                                                                             },
                                                                                             "expression": {
@@ -456,8 +456,8 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 768,
-                                                                                "start": 230,
+                                                                                "flags": 230,
+                                                                                "start": 512,
                                                                                 "end": 232
                                                                             },
                                                                             "expression": {
@@ -510,8 +510,8 @@ Object.defineProperty(this, "x", {
                                             "kind": 127,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 768,
-                                                "start": 247,
+                                                "flags": 247,
+                                                "start": 512,
                                                 "end": 249
                                             },
                                             "expression": {

@@ -68,8 +68,8 @@ z(z(z(a&&=)));
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4139,
-                                                        "flags": 768,
-                                                        "start": 7,
+                                                        "flags": 7,
+                                                        "start": 512,
                                                         "end": 10
                                                     },
                                                     "right": {

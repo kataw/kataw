@@ -52,8 +52,8 @@ bar, return => {};
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 4,
+                "flags": 4,
+                "start": 0,
                 "end": 11
             },
             "expression": {

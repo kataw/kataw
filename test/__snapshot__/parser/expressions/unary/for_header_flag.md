@@ -19,7 +19,7 @@ for(delete(x in y);;)x
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -27,8 +27,8 @@ for(delete(x in y);;)x
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 512,
                     "end": 10
                 },
                 "expression": {
@@ -45,8 +45,8 @@ for(delete(x in y);;)x
                         },
                         "operatorToken": {
                             "kind": 21006388,
-                            "flags": 768,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 512,
                             "end": 15
                         },
                         "right": {

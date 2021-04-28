@@ -25,7 +25,7 @@ function f(a = async x => ok) {}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,8 +58,8 @@ function f(a = async x => ok) {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 0,
                                 "end": 25
                             },
                             "typeParameters": null,
@@ -85,8 +85,8 @@ function f(a = async x => ok) {}
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 512,
                                 "end": 20
                             },
                             "returnType": null,

@@ -29,8 +29,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 512,
                     "end": 8
                 },
                 "right": {
@@ -52,8 +52,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 512,
                                         "end": 17
                                     },
                                     "right": {
@@ -61,8 +61,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 768,
-                                            "start": 17,
+                                            "flags": 17,
+                                            "start": 0,
                                             "end": 23
                                         },
                                         "name": {
@@ -102,8 +102,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 33,
+                                        "flags": 33,
+                                        "start": 512,
                                         "end": 35
                                     },
                                     "right": {
@@ -111,8 +111,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 768,
-                                            "start": 35,
+                                            "flags": 35,
+                                            "start": 0,
                                             "end": 41
                                         },
                                         "name": null,
@@ -145,8 +145,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 51,
+                                        "flags": 51,
+                                        "start": 512,
                                         "end": 53
                                     },
                                     "right": {
@@ -154,8 +154,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "decorators": null,
                                         "classKeyword": {
                                             "kind": 37822544,
-                                            "flags": 768,
-                                            "start": 53,
+                                            "flags": 53,
+                                            "start": 0,
                                             "end": 59
                                         },
                                         "name": null,
@@ -170,8 +170,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                     "decorators": null,
                                                     "staticKeyword": {
                                                         "kind": 8388716,
-                                                        "flags": 768,
-                                                        "start": 61,
+                                                        "flags": 61,
+                                                        "start": 512,
                                                         "end": 68
                                                     },
                                                     "asyncKeyword": null,
@@ -245,8 +245,8 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 82,
+                        "flags": 82,
+                        "start": 512,
                         "end": 84
                     },
                     "right": {

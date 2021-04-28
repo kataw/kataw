@@ -19,8 +19,8 @@ async ([...x.y]) => z
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 16,
+                "flags": 16,
+                "start": 0,
                 "end": 19
             },
             "typeParameters": null,
@@ -34,8 +34,8 @@ async ([...x.y]) => z
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 768,
-                                    "start": 8,
+                                    "flags": 8,
+                                    "start": 0,
                                     "end": 11
                                 },
                                 "argument": {
@@ -77,7 +77,7 @@ async ([...x.y]) => z
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },

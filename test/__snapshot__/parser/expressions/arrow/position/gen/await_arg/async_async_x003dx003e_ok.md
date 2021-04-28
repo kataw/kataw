@@ -26,14 +26,14 @@ async function f() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -65,16 +65,16 @@ async function f() {
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 1,
                                     "end": 28
                                 },
                                 "expression": {
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 768,
-                                        "start": 40,
+                                        "flags": 40,
+                                        "start": 0,
                                         "end": 43
                                     },
                                     "typeParameters": null,
@@ -100,8 +100,8 @@ async function f() {
                                     ],
                                     "asyncToken": {
                                         "kind": 82031,
-                                        "flags": 768,
-                                        "start": 28,
+                                        "flags": 28,
+                                        "start": 512,
                                         "end": 34
                                     },
                                     "returnType": null,

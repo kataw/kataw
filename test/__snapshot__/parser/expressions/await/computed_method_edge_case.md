@@ -20,14 +20,14 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -58,14 +58,14 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 19,
+                                "flags": 19,
+                                "start": 512,
                                 "end": 28
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 28,
+                                "flags": 28,
+                                "start": 0,
                                 "end": 37
                             },
                             "generatorToken": null,
@@ -97,8 +97,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 768,
-                                                    "start": 77,
+                                                    "flags": 77,
+                                                    "start": 0,
                                                     "end": 80
                                                 },
                                                 "typeParameters": null,
@@ -115,8 +115,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 47,
+                                                            "flags": 47,
+                                                            "start": 512,
                                                             "end": 48
                                                         },
                                                         "right": {
@@ -132,8 +132,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "kind": 208,
                                                                                 "awaitToken": {
                                                                                     "kind": 82032,
-                                                                                    "flags": 768,
-                                                                                    "start": 51,
+                                                                                    "flags": 51,
+                                                                                    "start": 0,
                                                                                     "end": 56
                                                                                 },
                                                                                 "expression": {

@@ -38,8 +38,8 @@
                                                 "kind": 154,
                                                 "whileKeyword": {
                                                     "kind": 37757028,
-                                                    "flags": 768,
-                                                    "start": 5,
+                                                    "flags": 5,
+                                                    "start": 0,
                                                     "end": 11
                                                 },
                                                 "expression": {
@@ -53,8 +53,8 @@
                                                     "kind": 159,
                                                     "tryKeyword": {
                                                         "kind": 37757027,
-                                                        "flags": 768,
-                                                        "start": 11,
+                                                        "flags": 11,
+                                                        "start": 0,
                                                         "end": 15
                                                     },
                                                     "block": {
@@ -115,8 +115,8 @@
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 768,
-                                                        "start": 24,
+                                                        "flags": 24,
+                                                        "start": 512,
                                                         "end": 26
                                                     },
                                                     "expression": {

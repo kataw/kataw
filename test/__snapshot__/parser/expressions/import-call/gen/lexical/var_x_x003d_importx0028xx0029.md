@@ -24,7 +24,7 @@ var x = import(x)
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,8 +49,8 @@ var x = import(x)
                                 "kind": 206,
                                 "importKeyword": {
                                     "kind": 37814364,
-                                    "flags": 768,
-                                    "start": 7,
+                                    "flags": 7,
+                                    "start": 0,
                                     "end": 14
                                 },
                                 "expression": {

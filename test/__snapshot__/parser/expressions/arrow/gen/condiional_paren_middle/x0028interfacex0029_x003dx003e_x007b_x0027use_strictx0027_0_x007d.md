@@ -33,8 +33,8 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 0,
                     "end": 5
                 },
                 "consequent": {
@@ -43,8 +43,8 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 768,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 0,
                             "end": 21
                         },
                         "typeParameters": null,
@@ -109,8 +109,8 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 768,
-                    "start": 42,
+                    "flags": 42,
+                    "start": 0,
                     "end": 44
                 },
                 "alternate": {

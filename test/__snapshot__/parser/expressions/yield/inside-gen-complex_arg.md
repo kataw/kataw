@@ -21,14 +21,14 @@ function* f(){ yield x + y; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -59,8 +59,8 @@ function* f(){ yield x + y; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 0,
                                     "end": 20
                                 },
                                 "delegate": false,
@@ -77,8 +77,8 @@ function* f(){ yield x + y; }
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 768,
-                                        "start": 22,
+                                        "flags": 22,
+                                        "start": 512,
                                         "end": 24
                                     },
                                     "right": {

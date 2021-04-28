@@ -25,7 +25,7 @@ function f() { class C { yield() { } } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -58,8 +58,8 @@ function f() { class C { yield() { } } }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 0,
                                 "end": 20
                             },
                             "name": {

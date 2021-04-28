@@ -20,7 +20,7 @@ var g = function* yield() {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,14 +44,14 @@ var g = function* yield() {};
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 7,
+                                "flags": 7,
+                                "start": 0,
                                 "end": 16
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 512,
                                 "end": 17
                             },
                             "name": {

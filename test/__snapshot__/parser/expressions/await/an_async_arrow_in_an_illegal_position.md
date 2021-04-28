@@ -19,7 +19,7 @@ let y = typeof async x => await x
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -42,16 +42,16 @@ let y = typeof async x => await x
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477613,
-                                "flags": 768,
-                                "start": 7,
+                                "flags": 7,
+                                "start": 512,
                                 "end": 14
                             },
                             "expression": {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 22,
+                                    "flags": 22,
+                                    "start": 0,
                                     "end": 25
                                 },
                                 "typeParameters": null,
@@ -77,8 +77,8 @@ let y = typeof async x => await x
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 512,
                                     "end": 20
                                 },
                                 "returnType": null,
@@ -86,8 +86,8 @@ let y = typeof async x => await x
                                     "kind": 208,
                                     "awaitToken": {
                                         "kind": 82032,
-                                        "flags": 768,
-                                        "start": 25,
+                                        "flags": 25,
+                                        "start": 0,
                                         "end": 31
                                     },
                                     "expression": {

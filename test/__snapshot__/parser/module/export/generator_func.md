@@ -25,14 +25,14 @@ export default function *f(){} foo
             "kind": 258,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 14
             },
             "declaration": {
@@ -41,14 +41,14 @@ export default function *f(){} foo
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 768,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 0,
                     "end": 23
                 },
                 "generatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 23,
+                    "flags": 23,
+                    "start": 512,
                     "end": 25
                 },
                 "name": {

@@ -25,7 +25,7 @@ class C extends (function B() {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -64,8 +64,8 @@ class C extends (function B() {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 1,
                 "end": 13
             },
             "name": {
@@ -81,8 +81,8 @@ class C extends (function B() {
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 15,
+                    "flags": 15,
+                    "start": 0,
                     "end": 23
                 },
                 "expression": {
@@ -94,8 +94,8 @@ class C extends (function B() {
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 25,
+                                "flags": 25,
+                                "start": 0,
                                 "end": 33
                             },
                             "generatorToken": null,
@@ -125,8 +125,8 @@ class C extends (function B() {
                                             "kind": 153,
                                             "withKeyword": {
                                                 "kind": 37757029,
-                                                "flags": 768,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 1,
                                                 "end": 46
                                             },
                                             "expression": {
@@ -158,8 +158,8 @@ class C extends (function B() {
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 52,
+                                                "flags": 52,
+                                                "start": 1,
                                                 "end": 61
                                             },
                                             "expression": {

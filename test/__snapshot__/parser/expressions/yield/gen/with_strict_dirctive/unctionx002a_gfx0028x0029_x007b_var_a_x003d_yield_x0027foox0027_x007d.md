@@ -42,8 +42,8 @@
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 512,
                     "end": 22
                 },
                 "right": {
@@ -86,8 +86,8 @@
                         "declareKeyword": null,
                         "varKeyword": {
                             "kind": 37757002,
-                            "flags": 768,
-                            "start": 29,
+                            "flags": 29,
+                            "start": 0,
                             "end": 33
                         },
                         "declarationList": {

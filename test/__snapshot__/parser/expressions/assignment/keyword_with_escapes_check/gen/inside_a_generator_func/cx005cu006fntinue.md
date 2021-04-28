@@ -27,14 +27,14 @@ function *f(){
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function *f(){
                             "kind": 172,
                             "continueKeyword": {
                                 "kind": 37757009,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 327681,
                                 "end": 30
                             },
                             "label": {

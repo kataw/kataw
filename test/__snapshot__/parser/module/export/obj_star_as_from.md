@@ -25,7 +25,7 @@ export {bar}, * as foo from 'bar';
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -79,8 +79,8 @@ export {bar}, * as foo from 'bar';
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 13,
+                    "flags": 13,
+                    "start": 512,
                     "end": 15
                 },
                 "right": {

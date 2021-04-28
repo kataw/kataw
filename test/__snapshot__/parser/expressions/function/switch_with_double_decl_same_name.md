@@ -24,7 +24,7 @@ switch (0) {
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,8 +43,8 @@ switch (0) {
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 1,
                             "end": 19
                         },
                         "expression": {
@@ -62,8 +62,8 @@ switch (0) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 22,
+                                    "flags": 22,
+                                    "start": 1,
                                     "end": 35
                                 },
                                 "generatorToken": null,
@@ -113,8 +113,8 @@ switch (0) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 768,
-                            "start": 42,
+                            "flags": 42,
+                            "start": 1,
                             "end": 52
                         },
                         "statements": [
@@ -124,8 +124,8 @@ switch (0) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 53,
+                                    "flags": 53,
+                                    "start": 1,
                                     "end": 66
                                 },
                                 "generatorToken": null,

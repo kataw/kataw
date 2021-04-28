@@ -47,7 +47,7 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -130,8 +130,8 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 1,
                 "end": 45
             },
             "generatorToken": null,
@@ -150,8 +150,8 @@ function x({x}) { "use strict"; }
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 48,
+                            "flags": 48,
+                            "start": 512,
                             "end": 51
                         },
                         "binding": {
@@ -211,8 +211,8 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 71,
+                "flags": 71,
+                "start": 1,
                 "end": 81
             },
             "generatorToken": null,
@@ -312,8 +312,8 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 106,
+                "flags": 106,
+                "start": 1,
                 "end": 116
             },
             "generatorToken": null,

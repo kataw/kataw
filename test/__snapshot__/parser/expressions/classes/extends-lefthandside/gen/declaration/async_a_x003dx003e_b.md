@@ -25,7 +25,7 @@ class A extends async a => b {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,16 +42,16 @@ class A extends async a => b {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 23,
+                        "flags": 23,
+                        "start": 0,
                         "end": 26
                     },
                     "typeParameters": null,
@@ -77,8 +77,8 @@ class A extends async a => b {}
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 21
                     },
                     "returnType": null,

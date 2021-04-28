@@ -23,7 +23,7 @@ if if if /false//a
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,8 +38,8 @@ if if if /false//a
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -53,8 +53,8 @@ if if if /false//a
                     "kind": 164,
                     "ifKeyword": {
                         "kind": 37757019,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -68,8 +68,8 @@ if if if /false//a
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 768,
-                            "start": 16,
+                            "flags": 16,
+                            "start": 512,
                             "end": 17
                         },
                         "right": {

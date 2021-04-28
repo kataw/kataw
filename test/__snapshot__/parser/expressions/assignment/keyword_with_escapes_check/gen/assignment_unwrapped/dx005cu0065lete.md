@@ -27,8 +27,8 @@ d\u0065lete = x;
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 768,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 328192,
                         "end": 11
                     },
                     "expression": {
@@ -44,8 +44,8 @@ d\u0065lete = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {

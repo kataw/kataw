@@ -19,7 +19,7 @@ const f = (...x?) => {}
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,8 +42,8 @@ const f = (...x?) => {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 0,
                                 "end": 20
                             },
                             "typeParameters": null,
@@ -52,8 +52,8 @@ const f = (...x?) => {}
                                     "kind": 215,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 768,
-                                        "start": 11,
+                                        "flags": 11,
+                                        "start": 512,
                                         "end": 14
                                     },
                                     "binding": {
@@ -66,8 +66,8 @@ const f = (...x?) => {}
                                     },
                                     "optionalToken": {
                                         "kind": 134217750,
-                                        "flags": 768,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 512,
                                         "end": 16
                                     },
                                     "type": null,

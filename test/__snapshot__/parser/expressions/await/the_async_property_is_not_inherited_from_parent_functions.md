@@ -20,14 +20,14 @@ async function f(){ let y = x => await x; }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -57,7 +57,7 @@ async function f(){ let y = x => await x; }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 19,
                                 "end": 23
                             },
@@ -80,8 +80,8 @@ async function f(){ let y = x => await x; }
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 768,
-                                                "start": 29,
+                                                "flags": 29,
+                                                "start": 0,
                                                 "end": 32
                                             },
                                             "typeParameters": null,

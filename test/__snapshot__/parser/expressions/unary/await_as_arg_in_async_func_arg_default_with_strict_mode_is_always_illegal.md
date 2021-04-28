@@ -20,14 +20,14 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -58,14 +58,14 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 19,
+                                "flags": 19,
+                                "start": 512,
                                 "end": 27
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 27,
+                                "flags": 27,
+                                "start": 0,
                                 "end": 36
                             },
                             "generatorToken": null,
@@ -97,16 +97,16 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 34098,
-                                                "flags": 768,
-                                                "start": 42,
+                                                "flags": 42,
+                                                "start": 512,
                                                 "end": 44
                                             },
                                             "expression": {
                                                 "kind": 208,
                                                 "awaitToken": {
                                                     "kind": 82032,
-                                                    "flags": 768,
-                                                    "start": 44,
+                                                    "flags": 44,
+                                                    "start": 0,
                                                     "end": 50
                                                 },
                                                 "expression": {

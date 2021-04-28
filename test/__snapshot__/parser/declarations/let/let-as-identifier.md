@@ -58,7 +58,7 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -96,8 +96,8 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 1,
                 "end": 13
             },
             "declarationList": {
@@ -150,8 +150,8 @@ L: let
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 23,
+                "flags": 23,
+                "start": 1,
                 "end": 28
             },
             "block": {
@@ -172,8 +172,8 @@ L: let
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 38
                 },
                 "catchParameter": {
@@ -214,8 +214,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 48,
+                "flags": 48,
+                "start": 1,
                 "end": 58
             },
             "generatorToken": null,
@@ -265,8 +265,8 @@ L: let
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 71,
+                        "flags": 71,
+                        "start": 0,
                         "end": 79
                     },
                     "generatorToken": null,
@@ -321,8 +321,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 90,
+                "flags": 90,
+                "start": 1,
                 "end": 100
             },
             "generatorToken": null,
@@ -388,8 +388,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 113,
+                "flags": 113,
+                "start": 1,
                 "end": 123
             },
             "generatorToken": null,
@@ -481,8 +481,8 @@ L: let
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 146,
+                    "flags": 146,
+                    "start": 512,
                     "end": 148
                 },
                 "right": {
@@ -506,8 +506,8 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 151,
+                "flags": 151,
+                "start": 1,
                 "end": 156
             },
             "declarationList": {
@@ -537,8 +537,8 @@ L: let
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 768,
-                                "start": 166,
+                                "flags": 166,
+                                "start": 512,
                                 "end": 168
                             },
                             "right": {
@@ -580,8 +580,8 @@ L: let
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 768,
-                    "start": 176,
+                    "flags": 176,
+                    "start": 512,
                     "end": 178
                 },
                 "right": {
@@ -606,8 +606,8 @@ L: let
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 181,
+                    "flags": 181,
+                    "start": 513,
                     "end": 185
                 },
                 "expression": {
@@ -632,8 +632,8 @@ L: let
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 768,
-                    "start": 194,
+                    "flags": 194,
+                    "start": 512,
                     "end": 196
                 },
                 "expression": {
@@ -661,8 +661,8 @@ L: let
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 200,
+                        "flags": 200,
+                        "start": 0,
                         "end": 208
                     },
                     "generatorToken": null,
@@ -746,8 +746,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 226,
+                "flags": 226,
+                "start": 1,
                 "end": 236
             },
             "generatorToken": null,
@@ -829,8 +829,8 @@ L: let
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34098,
-                                                    "flags": 768,
-                                                    "start": 260,
+                                                    "flags": 260,
+                                                    "start": 512,
                                                     "end": 262
                                                 },
                                                 "right": {

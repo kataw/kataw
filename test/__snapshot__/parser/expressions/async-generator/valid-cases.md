@@ -70,14 +70,14 @@ for (;;) {}});
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 0,
                             "end": 9
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 11
                         },
                         "name": {
@@ -108,8 +108,8 @@ for (;;) {}});
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 19,
+                                                "flags": 19,
+                                                "start": 0,
                                                 "end": 24
                                             },
                                             "delegate": false,
@@ -158,14 +158,14 @@ for (;;) {}});
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 31,
+                                "flags": 31,
+                                "start": 0,
                                 "end": 39
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 39,
+                                "flags": 39,
+                                "start": 512,
                                 "end": 41
                             },
                             "name": {
@@ -196,15 +196,15 @@ for (;;) {}});
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 49,
+                                                    "flags": 49,
+                                                    "start": 0,
                                                     "end": 54
                                                 },
                                                 "delegate": true,
                                                 "asteriskToken": {
                                                     "kind": 67143222,
-                                                    "flags": 768,
-                                                    "start": 54,
+                                                    "flags": 54,
+                                                    "start": 512,
                                                     "end": 56
                                                 },
                                                 "expression": {
@@ -262,14 +262,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 65,
+                        "flags": 65,
+                        "start": 0,
                         "end": 73
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 73,
+                        "flags": 73,
+                        "start": 512,
                         "end": 75
                     },
                     "name": {
@@ -300,15 +300,15 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 83,
+                                            "flags": 83,
+                                            "start": 0,
                                             "end": 88
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 88,
+                                            "flags": 88,
+                                            "start": 512,
                                             "end": 90
                                         },
                                         "expression": {
@@ -360,14 +360,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 100,
+                        "flags": 100,
+                        "start": 0,
                         "end": 108
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 108,
+                        "flags": 108,
+                        "start": 512,
                         "end": 110
                     },
                     "name": {
@@ -398,8 +398,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 118,
+                                            "flags": 118,
+                                            "start": 0,
                                             "end": 123
                                         },
                                         "delegate": false,
@@ -408,8 +408,8 @@ for (;;) {}});
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 123,
+                                                "flags": 123,
+                                                "start": 0,
                                                 "end": 129
                                             },
                                             "delegate": false,
@@ -467,14 +467,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 137,
+                        "flags": 137,
+                        "start": 0,
                         "end": 145
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 145,
+                        "flags": 145,
+                        "start": 512,
                         "end": 147
                     },
                     "name": {
@@ -505,30 +505,30 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 155,
+                                            "flags": 155,
+                                            "start": 0,
                                             "end": 160
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 160,
+                                            "flags": 160,
+                                            "start": 512,
                                             "end": 162
                                         },
                                         "expression": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 162,
+                                                "flags": 162,
+                                                "start": 0,
                                                 "end": 168
                                             },
                                             "delegate": true,
                                             "asteriskToken": {
                                                 "kind": 67143222,
-                                                "flags": 768,
-                                                "start": 168,
+                                                "flags": 168,
+                                                "start": 512,
                                                 "end": 170
                                             },
                                             "expression": {
@@ -584,14 +584,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 178,
+                        "flags": 178,
+                        "start": 0,
                         "end": 186
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 186,
+                        "flags": 186,
+                        "start": 512,
                         "end": 188
                     },
                     "name": {
@@ -622,8 +622,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 196,
+                                            "flags": 196,
+                                            "start": 0,
                                             "end": 201
                                         },
                                         "delegate": false,
@@ -640,8 +640,8 @@ for (;;) {}});
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 768,
-                                                "start": 203,
+                                                "flags": 203,
+                                                "start": 512,
                                                 "end": 205
                                             },
                                             "right": {
@@ -650,8 +650,8 @@ for (;;) {}});
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 207,
+                                                        "flags": 207,
+                                                        "start": 0,
                                                         "end": 212
                                                     },
                                                     "delegate": false,
@@ -717,14 +717,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 221,
+                        "flags": 221,
+                        "start": 0,
                         "end": 229
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 229,
+                        "flags": 229,
+                        "start": 512,
                         "end": 231
                     },
                     "name": {
@@ -755,15 +755,15 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 239,
+                                            "flags": 239,
+                                            "start": 0,
                                             "end": 244
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 244,
+                                            "flags": 244,
+                                            "start": 512,
                                             "end": 246
                                         },
                                         "expression": {
@@ -778,8 +778,8 @@ for (;;) {}});
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 768,
-                                                "start": 248,
+                                                "flags": 248,
+                                                "start": 512,
                                                 "end": 250
                                             },
                                             "right": {
@@ -788,15 +788,15 @@ for (;;) {}});
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 252,
+                                                        "flags": 252,
+                                                        "start": 0,
                                                         "end": 257
                                                     },
                                                     "delegate": true,
                                                     "asteriskToken": {
                                                         "kind": 67143222,
-                                                        "flags": 768,
-                                                        "start": 257,
+                                                        "flags": 257,
+                                                        "start": 512,
                                                         "end": 259
                                                     },
                                                     "expression": {
@@ -860,14 +860,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 269,
+                        "flags": 269,
+                        "start": 0,
                         "end": 277
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 277,
+                        "flags": 277,
+                        "start": 512,
                         "end": 279
                     },
                     "name": {
@@ -898,15 +898,15 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 287,
+                                            "flags": 287,
+                                            "start": 0,
                                             "end": 292
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 292,
+                                            "flags": 292,
+                                            "start": 512,
                                             "end": 294
                                         },
                                         "expression": {
@@ -929,8 +929,8 @@ for (;;) {}});
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 768,
-                                        "start": 297,
+                                        "flags": 297,
+                                        "start": 0,
                                         "end": 304
                                     },
                                     "expression": null,
@@ -971,14 +971,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 309,
+                        "flags": 309,
+                        "start": 0,
                         "end": 317
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 317,
+                        "flags": 317,
+                        "start": 512,
                         "end": 319
                     },
                     "name": {
@@ -1009,8 +1009,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 327,
+                                            "flags": 327,
+                                            "start": 0,
                                             "end": 332
                                         },
                                         "delegate": false,
@@ -1035,8 +1035,8 @@ for (;;) {}});
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 768,
-                                        "start": 335,
+                                        "flags": 335,
+                                        "start": 0,
                                         "end": 342
                                     },
                                     "expression": {
@@ -1084,14 +1084,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 350,
+                        "flags": 350,
+                        "start": 0,
                         "end": 358
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 358,
+                        "flags": 358,
+                        "start": 512,
                         "end": 360
                     },
                     "name": {
@@ -1122,15 +1122,15 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 368,
+                                            "flags": 368,
+                                            "start": 0,
                                             "end": 373
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 373,
+                                            "flags": 373,
+                                            "start": 512,
                                             "end": 375
                                         },
                                         "expression": {
@@ -1153,8 +1153,8 @@ for (;;) {}});
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 768,
-                                        "start": 378,
+                                        "flags": 378,
+                                        "start": 0,
                                         "end": 385
                                     },
                                     "expression": {
@@ -1202,14 +1202,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 393,
+                        "flags": 393,
+                        "start": 0,
                         "end": 401
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 401,
+                        "flags": 401,
+                        "start": 512,
                         "end": 403
                     },
                     "name": {
@@ -1240,8 +1240,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 411,
+                                            "flags": 411,
+                                            "start": 0,
                                             "end": 416
                                         },
                                         "delegate": false,
@@ -1266,8 +1266,8 @@ for (;;) {}});
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 768,
-                                        "start": 419,
+                                        "flags": 419,
+                                        "start": 0,
                                         "end": 426
                                     },
                                     "expression": {
@@ -1288,8 +1288,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 430,
+                                            "flags": 430,
+                                            "start": 0,
                                             "end": 436
                                         },
                                         "delegate": false,
@@ -1343,14 +1343,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 449,
+                        "flags": 449,
+                        "start": 0,
                         "end": 457
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 457,
+                        "flags": 457,
+                        "start": 512,
                         "end": 459
                     },
                     "name": {
@@ -1381,15 +1381,15 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 467,
+                                            "flags": 467,
+                                            "start": 0,
                                             "end": 472
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 472,
+                                            "flags": 472,
+                                            "start": 512,
                                             "end": 474
                                         },
                                         "expression": {
@@ -1412,8 +1412,8 @@ for (;;) {}});
                                     "kind": 161,
                                     "returnKeyword": {
                                         "kind": 37757022,
-                                        "flags": 768,
-                                        "start": 477,
+                                        "flags": 477,
+                                        "start": 0,
                                         "end": 484
                                     },
                                     "expression": {
@@ -1434,15 +1434,15 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 488,
+                                            "flags": 488,
+                                            "start": 0,
                                             "end": 494
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
                                             "kind": 67143222,
-                                            "flags": 768,
-                                            "start": 494,
+                                            "flags": 494,
+                                            "start": 512,
                                             "end": 496
                                         },
                                         "expression": {
@@ -1494,14 +1494,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 510,
+                        "flags": 510,
+                        "start": 0,
                         "end": 518
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 518,
+                        "flags": 518,
+                        "start": 512,
                         "end": 520
                     },
                     "name": {
@@ -1532,8 +1532,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 528,
+                                            "flags": 528,
+                                            "start": 0,
                                             "end": 533
                                         },
                                         "delegate": false,
@@ -1580,14 +1580,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 539,
+                        "flags": 539,
+                        "start": 0,
                         "end": 547
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 547,
+                        "flags": 547,
+                        "start": 512,
                         "end": 549
                     },
                     "name": {
@@ -1618,8 +1618,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 557,
+                                            "flags": 557,
+                                            "start": 0,
                                             "end": 562
                                         },
                                         "delegate": false,
@@ -1666,14 +1666,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 567,
+                        "flags": 567,
+                        "start": 0,
                         "end": 575
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 575,
+                        "flags": 575,
+                        "start": 512,
                         "end": 577
                     },
                     "name": {
@@ -1704,8 +1704,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 585,
+                                            "flags": 585,
+                                            "start": 0,
                                             "end": 590
                                         },
                                         "delegate": false,
@@ -1752,14 +1752,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 597,
+                        "flags": 597,
+                        "start": 0,
                         "end": 605
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 605,
+                        "flags": 605,
+                        "start": 512,
                         "end": 607
                     },
                     "name": {
@@ -1792,8 +1792,8 @@ for (;;) {}});
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 616,
+                                                "flags": 616,
+                                                "start": 0,
                                                 "end": 621
                                             },
                                             "delegate": false,
@@ -1844,14 +1844,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 627,
+                        "flags": 627,
+                        "start": 0,
                         "end": 635
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 635,
+                        "flags": 635,
+                        "start": 512,
                         "end": 637
                     },
                     "name": {
@@ -1887,8 +1887,8 @@ for (;;) {}});
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 646,
+                                                        "flags": 646,
+                                                        "start": 0,
                                                         "end": 651
                                                     },
                                                     "delegate": false,
@@ -1945,14 +1945,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 657,
+                        "flags": 657,
+                        "start": 0,
                         "end": 665
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 665,
+                        "flags": 665,
+                        "start": 512,
                         "end": 667
                     },
                     "name": {
@@ -1988,8 +1988,8 @@ for (;;) {}});
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 768,
-                                                        "start": 676,
+                                                        "flags": 676,
+                                                        "start": 0,
                                                         "end": 681
                                                     },
                                                     "delegate": false,
@@ -2046,14 +2046,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 687,
+                        "flags": 687,
+                        "start": 0,
                         "end": 695
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 695,
+                        "flags": 695,
+                        "start": 512,
                         "end": 697
                     },
                     "name": {
@@ -2087,8 +2087,8 @@ for (;;) {}});
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 705,
+                                                    "flags": 705,
+                                                    "start": 0,
                                                     "end": 710
                                                 },
                                                 "delegate": false,
@@ -2102,8 +2102,8 @@ for (;;) {}});
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 711,
+                                                    "flags": 711,
+                                                    "start": 0,
                                                     "end": 717
                                                 },
                                                 "delegate": false,
@@ -2155,14 +2155,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 722,
+                        "flags": 722,
+                        "start": 0,
                         "end": 730
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 730,
+                        "flags": 730,
+                        "start": 512,
                         "end": 732
                     },
                     "name": {
@@ -2193,8 +2193,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 740,
+                                            "flags": 740,
+                                            "start": 0,
                                             "end": 745
                                         },
                                         "delegate": false,
@@ -2214,8 +2214,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 746,
+                                            "flags": 746,
+                                            "start": 0,
                                             "end": 752
                                         },
                                         "delegate": false,
@@ -2262,14 +2262,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 757,
+                        "flags": 757,
+                        "start": 0,
                         "end": 765
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 765,
+                        "flags": 765,
+                        "start": 512,
                         "end": 767
                     },
                     "name": {
@@ -2304,8 +2304,8 @@ for (;;) {}});
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 776,
+                                                    "flags": 776,
+                                                    "start": 0,
                                                     "end": 781
                                                 },
                                                 "delegate": false,
@@ -2321,16 +2321,16 @@ for (;;) {}});
                                         },
                                         "questionToken": {
                                             "kind": 134217750,
-                                            "flags": 768,
-                                            "start": 782,
+                                            "flags": 782,
+                                            "start": 0,
                                             "end": 784
                                         },
                                         "consequent": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 784,
+                                                "flags": 784,
+                                                "start": 0,
                                                 "end": 790
                                             },
                                             "delegate": false,
@@ -2342,16 +2342,16 @@ for (;;) {}});
                                         },
                                         "colonToken": {
                                             "kind": 21,
-                                            "flags": 768,
-                                            "start": 790,
+                                            "flags": 790,
+                                            "start": 0,
                                             "end": 792
                                         },
                                         "alternate": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 792,
+                                                "flags": 792,
+                                                "start": 0,
                                                 "end": 798
                                             },
                                             "delegate": false,
@@ -2402,14 +2402,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 803,
+                        "flags": 803,
+                        "start": 0,
                         "end": 811
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 811,
+                        "flags": 811,
+                        "start": 512,
                         "end": 813
                     },
                     "name": {
@@ -2444,8 +2444,8 @@ for (;;) {}});
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 822,
+                                                    "flags": 822,
+                                                    "start": 0,
                                                     "end": 827
                                                 },
                                                 "delegate": false,
@@ -2461,16 +2461,16 @@ for (;;) {}});
                                         },
                                         "questionToken": {
                                             "kind": 134217750,
-                                            "flags": 768,
-                                            "start": 828,
+                                            "flags": 828,
+                                            "start": 1,
                                             "end": 831
                                         },
                                         "consequent": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 831,
+                                                "flags": 831,
+                                                "start": 0,
                                                 "end": 837
                                             },
                                             "delegate": false,
@@ -2482,16 +2482,16 @@ for (;;) {}});
                                         },
                                         "colonToken": {
                                             "kind": 21,
-                                            "flags": 768,
-                                            "start": 837,
+                                            "flags": 837,
+                                            "start": 0,
                                             "end": 839
                                         },
                                         "alternate": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 839,
+                                                "flags": 839,
+                                                "start": 0,
                                                 "end": 845
                                             },
                                             "delegate": false,
@@ -2542,14 +2542,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 926,
+                        "flags": 926,
+                        "start": 0,
                         "end": 934
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 934,
+                        "flags": 934,
+                        "start": 512,
                         "end": 936
                     },
                     "name": {
@@ -2580,8 +2580,8 @@ for (;;) {}});
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 768,
-                                            "start": 944,
+                                            "flags": 944,
+                                            "start": 0,
                                             "end": 949
                                         },
                                         "delegate": false,
@@ -2599,8 +2599,8 @@ for (;;) {}});
                                     "kind": 165,
                                     "forKeyword": {
                                         "kind": 37757017,
-                                        "flags": 768,
-                                        "start": 949,
+                                        "flags": 949,
+                                        "start": 1,
                                         "end": 953
                                     },
                                     "initializer": null,
@@ -2657,14 +2657,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 967,
+                        "flags": 967,
+                        "start": 0,
                         "end": 975
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 975,
+                        "flags": 975,
+                        "start": 512,
                         "end": 977
                     },
                     "name": {
@@ -2703,8 +2703,8 @@ for (;;) {}});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 986,
+                                            "flags": 986,
+                                            "start": 512,
                                             "end": 988
                                         },
                                         "right": {
@@ -2712,8 +2712,8 @@ for (;;) {}});
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 988,
+                                                "flags": 988,
+                                                "start": 0,
                                                 "end": 994
                                             },
                                             "name": null,
@@ -2722,8 +2722,8 @@ for (;;) {}});
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 768,
-                                                    "start": 994,
+                                                    "flags": 994,
+                                                    "start": 0,
                                                     "end": 1002
                                                 },
                                                 "expression": {
@@ -2732,8 +2732,8 @@ for (;;) {}});
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 768,
-                                                            "start": 1004,
+                                                            "flags": 1004,
+                                                            "start": 0,
                                                             "end": 1009
                                                         },
                                                         "delegate": false,
@@ -2804,14 +2804,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 1018,
+                        "flags": 1018,
+                        "start": 0,
                         "end": 1026
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 1026,
+                        "flags": 1026,
+                        "start": 512,
                         "end": 1028
                     },
                     "name": {
@@ -2850,8 +2850,8 @@ for (;;) {}});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 1037,
+                                            "flags": 1037,
+                                            "start": 512,
                                             "end": 1039
                                         },
                                         "right": {
@@ -2859,8 +2859,8 @@ for (;;) {}});
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 1039,
+                                                "flags": 1039,
+                                                "start": 0,
                                                 "end": 1045
                                             },
                                             "name": null,
@@ -2869,8 +2869,8 @@ for (;;) {}});
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 768,
-                                                    "start": 1045,
+                                                    "flags": 1045,
+                                                    "start": 0,
                                                     "end": 1053
                                                 },
                                                 "expression": {
@@ -2890,8 +2890,8 @@ for (;;) {}});
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 1056,
+                                                                    "flags": 1056,
+                                                                    "start": 0,
                                                                     "end": 1061
                                                                 },
                                                                 "delegate": false,
@@ -2968,14 +2968,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 1070,
+                        "flags": 1070,
+                        "start": 0,
                         "end": 1078
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 1078,
+                        "flags": 1078,
+                        "start": 512,
                         "end": 1080
                     },
                     "name": {
@@ -3014,8 +3014,8 @@ for (;;) {}});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 1089,
+                                            "flags": 1089,
+                                            "start": 512,
                                             "end": 1091
                                         },
                                         "right": {
@@ -3023,8 +3023,8 @@ for (;;) {}});
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 1091,
+                                                "flags": 1091,
+                                                "start": 0,
                                                 "end": 1097
                                             },
                                             "name": null,
@@ -3033,8 +3033,8 @@ for (;;) {}});
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 768,
-                                                    "start": 1097,
+                                                    "flags": 1097,
+                                                    "start": 0,
                                                     "end": 1105
                                                 },
                                                 "expression": {
@@ -3053,8 +3053,8 @@ for (;;) {}});
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 768,
-                                                                    "start": 1112,
+                                                                    "flags": 1112,
+                                                                    "start": 0,
                                                                     "end": 1118
                                                                 },
                                                                 "delegate": false,
@@ -3130,14 +3130,14 @@ for (;;) {}});
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 1128,
+                        "flags": 1128,
+                        "start": 0,
                         "end": 1136
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 768,
-                        "start": 1136,
+                        "flags": 1136,
+                        "start": 512,
                         "end": 1138
                     },
                     "name": {
@@ -3176,8 +3176,8 @@ for (;;) {}});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 768,
-                                            "start": 1147,
+                                            "flags": 1147,
+                                            "start": 512,
                                             "end": 1149
                                         },
                                         "right": {
@@ -3185,8 +3185,8 @@ for (;;) {}});
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 768,
-                                                "start": 1149,
+                                                "flags": 1149,
+                                                "start": 0,
                                                 "end": 1155
                                             },
                                             "name": null,
@@ -3195,8 +3195,8 @@ for (;;) {}});
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 768,
-                                                    "start": 1155,
+                                                    "flags": 1155,
+                                                    "start": 0,
                                                     "end": 1163
                                                 },
                                                 "expression": {
@@ -3213,8 +3213,8 @@ for (;;) {}});
                                                         },
                                                         "questionToken": {
                                                             "kind": 134217750,
-                                                            "flags": 768,
-                                                            "start": 1166,
+                                                            "flags": 1166,
+                                                            "start": 0,
                                                             "end": 1168
                                                         },
                                                         "consequent": {
@@ -3226,16 +3226,16 @@ for (;;) {}});
                                                         },
                                                         "colonToken": {
                                                             "kind": 21,
-                                                            "flags": 768,
-                                                            "start": 1173,
+                                                            "flags": 1173,
+                                                            "start": 0,
                                                             "end": 1175
                                                         },
                                                         "alternate": {
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 768,
-                                                                "start": 1175,
+                                                                "flags": 1175,
+                                                                "start": 0,
                                                                 "end": 1181
                                                             },
                                                             "delegate": false,

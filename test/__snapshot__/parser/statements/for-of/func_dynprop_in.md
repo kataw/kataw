@@ -38,7 +38,7 @@ for (function(){ }[x in y] of x);
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,8 +49,8 @@ for (function(){ }[x in y] of x);
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 13
                     },
                     "generatorToken": null,
@@ -96,8 +96,8 @@ for (function(){ }[x in y] of x);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 20,
+                        "flags": 20,
+                        "start": 512,
                         "end": 23
                     },
                     "right": {

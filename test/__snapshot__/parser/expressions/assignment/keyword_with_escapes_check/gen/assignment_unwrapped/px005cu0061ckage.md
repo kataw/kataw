@@ -33,8 +33,8 @@ p\u0061ckage = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 512,
                     "end": 14
                 },
                 "right": {

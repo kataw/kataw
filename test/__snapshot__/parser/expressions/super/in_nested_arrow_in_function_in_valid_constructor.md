@@ -21,7 +21,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,8 +38,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -96,8 +96,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 34,
+                                                "flags": 34,
+                                                "start": 0,
                                                 "end": 41
                                             },
                                             "expression": {
@@ -105,8 +105,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 768,
-                                                    "start": 41,
+                                                    "flags": 41,
+                                                    "start": 0,
                                                     "end": 50
                                                 },
                                                 "generatorToken": null,
@@ -129,16 +129,16 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 768,
-                                                                    "start": 54,
+                                                                    "flags": 54,
+                                                                    "start": 0,
                                                                     "end": 61
                                                                 },
                                                                 "expression": {
                                                                     "kind": 271,
                                                                     "arrowToken": {
                                                                         "kind": 10,
-                                                                        "flags": 768,
-                                                                        "start": 64,
+                                                                        "flags": 64,
+                                                                        "start": 0,
                                                                         "end": 67
                                                                     },
                                                                     "typeParameters": null,
@@ -151,8 +151,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 768,
-                                                                                "start": 67,
+                                                                                "flags": 67,
+                                                                                "start": 0,
                                                                                 "end": 73
                                                                             },
                                                                             "flags": 768,

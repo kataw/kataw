@@ -39,7 +39,7 @@ const x = 1
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -84,8 +84,8 @@ const x = 1
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
-                "start": 14,
+                "flags": 14,
+                "start": 1,
                 "end": 20
             },
             "binding": {
@@ -120,7 +120,7 @@ const x = 1
                 "start": 20,
                 "end": 26
             },
-            "flags": 129,
+            "flags": 128,
             "start": 14,
             "end": 26
         }

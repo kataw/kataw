@@ -54,8 +54,8 @@
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 768,
-                                                    "start": 14,
+                                                    "flags": 14,
+                                                    "start": 0,
                                                     "end": 20
                                                 },
                                                 "name": {
@@ -84,8 +84,8 @@
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 768,
-                                                    "start": 20,
+                                                    "flags": 20,
+                                                    "start": 0,
                                                     "end": 29
                                                 },
                                                 "generatorToken": null,
@@ -131,16 +131,16 @@
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 768,
-                                                        "start": 29,
+                                                        "flags": 29,
+                                                        "start": 512,
                                                         "end": 31
                                                     },
                                                     "expression": {
                                                         "kind": 126,
                                                         "operandToken": {
                                                             "kind": 65584,
-                                                            "flags": 768,
-                                                            "start": 31,
+                                                            "flags": 31,
+                                                            "start": 512,
                                                             "end": 32
                                                         },
                                                         "expression": {

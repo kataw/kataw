@@ -64,7 +64,7 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -102,8 +102,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 1,
                 "end": 11
             },
             "declarationList": {
@@ -147,8 +147,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 18,
+                "flags": 18,
+                "start": 1,
                 "end": 23
             },
             "declarationList": {
@@ -192,8 +192,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 30,
+                "flags": 30,
+                "start": 1,
                 "end": 35
             },
             "declarationList": {
@@ -237,8 +237,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 42,
+                "flags": 42,
+                "start": 1,
                 "end": 47
             },
             "declarationList": {
@@ -323,8 +323,8 @@ var {get} = obj;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 66,
+                                                    "flags": 66,
+                                                    "start": 512,
                                                     "end": 68
                                                 },
                                                 "right": {
@@ -384,8 +384,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 73,
+                "flags": 73,
+                "start": 1,
                 "end": 78
             },
             "declarationList": {
@@ -446,8 +446,8 @@ var {get} = obj;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 95,
+                                                    "flags": 95,
+                                                    "start": 512,
                                                     "end": 97
                                                 },
                                                 "right": {
@@ -521,8 +521,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 117,
+                "flags": 117,
+                "start": 0,
                 "end": 121
             },
             "declarationList": {
@@ -570,7 +570,7 @@ var {get} = obj;
                         "kind": 162,
                         "lexicalKeyword": {
                             "kind": 41951307,
-                            "flags": 768,
+                            "flags": 640,
                             "start": 130,
                             "end": 134
                         },
@@ -625,8 +625,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 143,
+                "flags": 143,
+                "start": 1,
                 "end": 148
             },
             "declarationList": {
@@ -662,8 +662,8 @@ var {get} = obj;
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 151,
+                "flags": 151,
+                "start": 0,
                 "end": 155
             },
             "block": {
@@ -684,8 +684,8 @@ var {get} = obj;
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 158,
+                    "flags": 158,
+                    "start": 0,
                     "end": 164
                 },
                 "catchParameter": {
@@ -715,8 +715,8 @@ var {get} = obj;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 768,
-                                        "start": 172,
+                                        "flags": 172,
+                                        "start": 512,
                                         "end": 174
                                     },
                                     "right": {
@@ -760,8 +760,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 179,
+                "flags": 179,
+                "start": 1,
                 "end": 184
             },
             "declarationList": {
@@ -783,8 +783,8 @@ var {get} = obj;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 217,
+                                "flags": 217,
+                                "start": 0,
                                 "end": 220
                             },
                             "typeParameters": null,
@@ -809,8 +809,8 @@ var {get} = obj;
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 196,
+                                                            "flags": 196,
+                                                            "start": 512,
                                                             "end": 198
                                                         },
                                                         "right": {
@@ -867,8 +867,8 @@ var {get} = obj;
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 207,
+                                                            "flags": 207,
+                                                            "start": 512,
                                                             "end": 208
                                                         },
                                                         "right": {
@@ -885,8 +885,8 @@ var {get} = obj;
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 768,
-                                                                    "start": 212,
+                                                                    "flags": 212,
+                                                                    "start": 512,
                                                                     "end": 213
                                                                 },
                                                                 "right": {
@@ -973,8 +973,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 223,
+                "flags": 223,
+                "start": 1,
                 "end": 228
             },
             "declarationList": {
@@ -996,8 +996,8 @@ var {get} = obj;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 254,
+                                "flags": 254,
+                                "start": 0,
                                 "end": 257
                             },
                             "typeParameters": null,
@@ -1021,8 +1021,8 @@ var {get} = obj;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 768,
-                                                        "start": 240,
+                                                        "flags": 240,
+                                                        "start": 512,
                                                         "end": 242
                                                     },
                                                     "right": {
@@ -1039,8 +1039,8 @@ var {get} = obj;
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 768,
-                                                                "start": 247,
+                                                                "flags": 247,
+                                                                "start": 512,
                                                                 "end": 249
                                                             },
                                                             "right": {
@@ -1126,8 +1126,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 260,
+                "flags": 260,
+                "start": 1,
                 "end": 265
             },
             "declarationList": {
@@ -1164,8 +1164,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 270,
+                "flags": 270,
+                "start": 1,
                 "end": 275
             },
             "declarationList": {
@@ -1209,8 +1209,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 284,
+                "flags": 284,
+                "start": 1,
                 "end": 289
             },
             "declarationList": {
@@ -1294,8 +1294,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 302,
+                "flags": 302,
+                "start": 1,
                 "end": 307
             },
             "declarationList": {
@@ -1393,8 +1393,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 325,
+                "flags": 325,
+                "start": 1,
                 "end": 330
             },
             "declarationList": {
@@ -1476,8 +1476,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 344,
+                "flags": 344,
+                "start": 1,
                 "end": 349
             },
             "declarationList": {
@@ -1552,8 +1552,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 377,
+                "flags": 377,
+                "start": 1,
                 "end": 382
             },
             "declarationList": {
@@ -1628,8 +1628,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 415,
+                "flags": 415,
+                "start": 1,
                 "end": 420
             },
             "declarationList": {
@@ -1719,8 +1719,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 463,
+                "flags": 463,
+                "start": 1,
                 "end": 468
             },
             "declarationList": {

@@ -19,7 +19,7 @@ let f = a + b + async()=>d
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -52,8 +52,8 @@ let f = a + b + async()=>d
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 9,
+                                    "flags": 9,
+                                    "start": 512,
                                     "end": 11
                                 },
                                 "right": {
@@ -70,23 +70,23 @@ let f = a + b + async()=>d
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 768,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 512,
                                 "end": 15
                             },
                             "right": {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 768,
-                                    "start": 23,
+                                    "flags": 23,
+                                    "start": 0,
                                     "end": 25
                                 },
                                 "typeParameters": null,
                                 "parameters": [],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 768,
+                                    "flags": 512,
                                     "start": 15,
                                     "end": 21
                                 },

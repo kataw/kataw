@@ -26,14 +26,14 @@ function* foo() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -64,8 +64,8 @@ function* foo() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 1,
                                 "end": 25
                             },
                             "name": {
@@ -103,8 +103,8 @@ function* foo() {
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 82,
+                                                    "flags": 82,
+                                                    "start": 0,
                                                     "end": 88
                                                 },
                                                 "delegate": false,
@@ -116,8 +116,8 @@ function* foo() {
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 768,
-                                                "start": 88,
+                                                "flags": 88,
+                                                "start": 512,
                                                 "end": 90
                                             },
                                             "right": {

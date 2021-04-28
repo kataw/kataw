@@ -25,7 +25,7 @@ class C { constructor() { var f = function*() { super(); } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -81,8 +81,8 @@ class C { constructor() { var f = function*() { super(); } } }
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 768,
-                                                "start": 25,
+                                                "flags": 25,
+                                                "start": 0,
                                                 "end": 29
                                             },
                                             "declarationList": {
@@ -105,14 +105,14 @@ class C { constructor() { var f = function*() { super(); } } }
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 768,
-                                                                "start": 33,
+                                                                "flags": 33,
+                                                                "start": 0,
                                                                 "end": 42
                                                             },
                                                             "generatorToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 768,
-                                                                "start": 42,
+                                                                "flags": 42,
+                                                                "start": 512,
                                                                 "end": 43
                                                             },
                                                             "name": null,
@@ -138,8 +138,8 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 768,
-                                                                                        "start": 47,
+                                                                                        "flags": 47,
+                                                                                        "start": 0,
                                                                                         "end": 53
                                                                                     },
                                                                                     "flags": 768,

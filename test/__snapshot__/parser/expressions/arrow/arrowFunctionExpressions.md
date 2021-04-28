@@ -50,7 +50,7 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -73,8 +73,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 19,
+                                "flags": 19,
+                                "start": 0,
                                 "end": 22
                             },
                             "typeParameters": null,
@@ -95,8 +95,8 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 11,
+                                            "flags": 11,
+                                            "start": 512,
                                             "end": 18
                                         },
                                         "flags": 0,
@@ -155,8 +155,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 32,
+                "flags": 32,
+                "start": 1,
                 "end": 36
             },
             "declarationList": {
@@ -178,8 +178,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 52,
+                                "flags": 52,
+                                "start": 0,
                                 "end": 55
                             },
                             "typeParameters": null,
@@ -200,8 +200,8 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 44,
+                                            "flags": 44,
+                                            "start": 512,
                                             "end": 51
                                         },
                                         "flags": 0,
@@ -226,8 +226,8 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 57,
+                                                "flags": 57,
+                                                "start": 0,
                                                 "end": 64
                                             },
                                             "expression": {
@@ -288,8 +288,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 77,
+                "flags": 77,
+                "start": 1,
                 "end": 82
             },
             "declarationList": {
@@ -311,8 +311,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 88,
+                                "flags": 88,
+                                "start": 0,
                                 "end": 91
                             },
                             "typeParameters": null,
@@ -336,8 +336,8 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 93,
+                                                "flags": 93,
+                                                "start": 0,
                                                 "end": 100
                                             },
                                             "expression": {
@@ -384,8 +384,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 106,
+                "flags": 106,
+                "start": 1,
                 "end": 110
             },
             "declarationList": {
@@ -407,8 +407,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 118,
+                                "flags": 118,
+                                "start": 0,
                                 "end": 121
                             },
                             "typeParameters": null,
@@ -434,8 +434,8 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 768,
-                                                "start": 123,
+                                                "flags": 123,
+                                                "start": 0,
                                                 "end": 130
                                             },
                                             "expression": {
@@ -482,8 +482,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 136,
+                "flags": 136,
+                "start": 1,
                 "end": 141
             },
             "declarationList": {
@@ -504,8 +504,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 144,
+                                "flags": 144,
+                                "start": 512,
                                 "end": 151
                             },
                             "flags": 0,
@@ -531,8 +531,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 152,
+                "flags": 152,
+                "start": 1,
                 "end": 156
             },
             "declarationList": {
@@ -554,8 +554,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 162,
+                                "flags": 162,
+                                "start": 0,
                                 "end": 165
                             },
                             "typeParameters": null,
@@ -581,8 +581,8 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 167,
+                                    "flags": 167,
+                                    "start": 512,
                                     "end": 169
                                 },
                                 "right": {
@@ -619,8 +619,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 172,
+                "flags": 172,
+                "start": 1,
                 "end": 176
             },
             "declarationList": {
@@ -642,8 +642,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 184,
+                                "flags": 184,
+                                "start": 0,
                                 "end": 187
                             },
                             "typeParameters": null,
@@ -671,8 +671,8 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 768,
-                                    "start": 189,
+                                    "flags": 189,
+                                    "start": 512,
                                     "end": 191
                                 },
                                 "right": {
@@ -709,8 +709,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 194,
+                "flags": 194,
+                "start": 1,
                 "end": 198
             },
             "declarationList": {
@@ -748,8 +748,8 @@ var p10 = ([{ value, done }]) => { };
                                             "optionalToken": null,
                                             "typeAnnotation": {
                                                 "kind": 134234252,
-                                                "flags": 768,
-                                                "start": 205,
+                                                "flags": 205,
+                                                "start": 512,
                                                 "end": 209
                                             },
                                             "flags": 0,
@@ -764,8 +764,8 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "returnType": {
                                     "kind": 134234252,
-                                    "flags": 768,
-                                    "start": 213,
+                                    "flags": 213,
+                                    "start": 512,
                                     "end": 217
                                 },
                                 "typeParameters": null,
@@ -796,8 +796,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 218,
+                "flags": 218,
+                "start": 1,
                 "end": 224
             },
             "declarationList": {
@@ -819,8 +819,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 235,
+                                "flags": 235,
+                                "start": 0,
                                 "end": 238
                             },
                             "typeParameters": null,
@@ -888,8 +888,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 243,
+                "flags": 243,
+                "start": 1,
                 "end": 247
             },
             "declarationList": {
@@ -911,8 +911,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 261,
+                                "flags": 261,
+                                "start": 0,
                                 "end": 264
                             },
                             "typeParameters": null,
@@ -926,8 +926,8 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 223,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 768,
-                                                    "start": 255,
+                                                    "flags": 255,
+                                                    "start": 0,
                                                     "end": 258
                                                 },
                                                 "argument": {
@@ -992,8 +992,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 269,
+                "flags": 269,
+                "start": 1,
                 "end": 273
             },
             "declarationList": {
@@ -1015,8 +1015,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 286,
+                                "flags": 286,
+                                "start": 0,
                                 "end": 289
                             },
                             "typeParameters": null,
@@ -1090,8 +1090,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 294,
+                "flags": 294,
+                "start": 1,
                 "end": 298
             },
             "declarationList": {
@@ -1113,8 +1113,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 314,
+                                "flags": 314,
+                                "start": 0,
                                 "end": 317
                             },
                             "typeParameters": null,
@@ -1134,8 +1134,8 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 223,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 768,
-                                                    "start": 307,
+                                                    "flags": 307,
+                                                    "start": 0,
                                                     "end": 311
                                                 },
                                                 "argument": {
@@ -1200,8 +1200,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 322,
+                "flags": 322,
+                "start": 1,
                 "end": 326
             },
             "declarationList": {
@@ -1223,8 +1223,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 341,
+                                "flags": 341,
+                                "start": 0,
                                 "end": 344
                             },
                             "typeParameters": null,
@@ -1246,8 +1246,8 @@ var p10 = ([{ value, done }]) => { };
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 335,
+                                                    "flags": 335,
+                                                    "start": 512,
                                                     "end": 337
                                                 },
                                                 "right": {
@@ -1312,8 +1312,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 349,
+                "flags": 349,
+                "start": 1,
                 "end": 353
             },
             "declarationList": {
@@ -1335,8 +1335,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 366,
+                                "flags": 366,
+                                "start": 0,
                                 "end": 369
                             },
                             "typeParameters": null,
@@ -1405,8 +1405,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 374,
+                "flags": 374,
+                "start": 1,
                 "end": 378
             },
             "declarationList": {
@@ -1428,8 +1428,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 398,
+                                "flags": 398,
+                                "start": 0,
                                 "end": 401
                             },
                             "typeParameters": null,
@@ -1528,8 +1528,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 406,
+                "flags": 406,
+                "start": 1,
                 "end": 410
             },
             "declarationList": {
@@ -1551,8 +1551,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 427,
+                                "flags": 427,
+                                "start": 0,
                                 "end": 430
                             },
                             "typeParameters": null,
@@ -1635,8 +1635,8 @@ var p10 = ([{ value, done }]) => { };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 435,
+                "flags": 435,
+                "start": 1,
                 "end": 488
             },
             "declarationList": {
@@ -1658,8 +1658,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 514,
+                                "flags": 514,
+                                "start": 0,
                                 "end": 517
                             },
                             "typeParameters": null,

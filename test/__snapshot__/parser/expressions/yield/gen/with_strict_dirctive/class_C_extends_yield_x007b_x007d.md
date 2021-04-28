@@ -34,8 +34,8 @@
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 19
             },
             "name": {
@@ -51,8 +51,8 @@
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 768,
-                    "start": 21,
+                    "flags": 21,
+                    "start": 0,
                     "end": 29
                 },
                 "expression": {

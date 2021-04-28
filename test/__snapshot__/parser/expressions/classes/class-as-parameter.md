@@ -34,7 +34,7 @@ class A {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -73,8 +73,8 @@ class A {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 1,
                 "end": 16
             },
             "generatorToken": null,
@@ -123,8 +123,8 @@ class A {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 1,
                                 "end": 41
                             },
                             "expression": {
@@ -226,8 +226,8 @@ class A {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 768,
-                                                                                "start": 91,
+                                                                                "flags": 91,
+                                                                                "start": 512,
                                                                                 "end": 93
                                                                             },
                                                                             "right": {
@@ -307,8 +307,8 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 115,
+                "flags": 115,
+                "start": 1,
                 "end": 122
             },
             "name": {

@@ -19,8 +19,8 @@ async (x = yield y) => {}
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 768,
-                "start": 19,
+                "flags": 19,
+                "start": 0,
                 "end": 22
             },
             "typeParameters": null,
@@ -37,8 +37,8 @@ async (x = yield y) => {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 512,
                         "end": 10
                     },
                     "right": {
@@ -64,7 +64,7 @@ async (x = yield y) => {}
             ],
             "asyncToken": {
                 "kind": 82031,
-                "flags": 768,
+                "flags": 512,
                 "start": 0,
                 "end": 5
             },

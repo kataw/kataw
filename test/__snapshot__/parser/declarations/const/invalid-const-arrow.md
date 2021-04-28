@@ -27,7 +27,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -129,8 +129,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 768,
-                        "start": 38,
+                        "flags": 38,
+                        "start": 512,
                         "end": 43
                     },
                     "expression": {
@@ -146,16 +146,16 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 43,
+                    "flags": 43,
+                    "start": 512,
                     "end": 45
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 57,
+                        "flags": 57,
+                        "start": 0,
                         "end": 60
                     },
                     "typeParameters": null,

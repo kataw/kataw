@@ -25,16 +25,16 @@ delete async => {}
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 6
                 },
                 "expression": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 12,
+                        "flags": 12,
+                        "start": 0,
                         "end": 15
                     },
                     "typeParameters": null,
@@ -60,8 +60,8 @@ delete async => {}
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 512,
                         "end": 12
                     },
                     "returnType": null,

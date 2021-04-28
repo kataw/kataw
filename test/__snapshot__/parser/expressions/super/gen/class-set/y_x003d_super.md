@@ -25,7 +25,7 @@ class C { set x(_) { y = super } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -51,8 +51,8 @@ class C { set x(_) { y = super } }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 13
                         },
                         "method": {
@@ -114,8 +114,8 @@ class C { set x(_) { y = super } }
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 768,
-                                                    "start": 22,
+                                                    "flags": 22,
+                                                    "start": 512,
                                                     "end": 24
                                                 },
                                                 "right": {
@@ -124,8 +124,8 @@ class C { set x(_) { y = super } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 768,
-                                                            "start": 24,
+                                                            "flags": 24,
+                                                            "start": 0,
                                                             "end": 30
                                                         },
                                                         "flags": 768,

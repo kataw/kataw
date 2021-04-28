@@ -28,7 +28,7 @@ var a: ?string[]
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,8 +54,8 @@ var a: ?string[]
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 768,
-                                        "start": 8,
+                                        "flags": 8,
+                                        "start": 512,
                                         "end": 14
                                     },
                                     "flags": 0,

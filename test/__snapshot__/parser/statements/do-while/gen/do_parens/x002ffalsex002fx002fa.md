@@ -23,7 +23,7 @@ do( /false//a while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,8 +36,8 @@ do( /false//a while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 19
             },
             "statement": {
@@ -55,8 +55,8 @@ do( /false//a while
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 768,
-                            "start": 11,
+                            "flags": 11,
+                            "start": 512,
                             "end": 12
                         },
                         "right": {

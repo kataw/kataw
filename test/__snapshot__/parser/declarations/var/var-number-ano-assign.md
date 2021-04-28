@@ -30,7 +30,7 @@ var a: { [a: number]: string; [b: number]: string; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,8 +52,8 @@ var a: { [a: number]: string; [b: number]: string; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 768,
-                                "start": 11,
+                                "flags": 11,
+                                "start": 512,
                                 "end": 17
                             },
                             "flags": 0,
@@ -86,8 +86,8 @@ var a: { [a: number]: string; [b: number]: string; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 32,
+                "flags": 32,
+                "start": 1,
                 "end": 37
             },
             "declarationList": {
@@ -122,14 +122,14 @@ var a: { [a: number]: string; [b: number]: string; };
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 46,
+                                            "flags": 46,
+                                            "start": 512,
                                             "end": 53
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 55,
+                                            "flags": 55,
+                                            "start": 512,
                                             "end": 62
                                         },
                                         "staticToken": false,
@@ -149,14 +149,14 @@ var a: { [a: number]: string; [b: number]: string; };
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 768,
-                                            "start": 67,
+                                            "flags": 67,
+                                            "start": 512,
                                             "end": 74
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 768,
-                                            "start": 76,
+                                            "flags": 76,
+                                            "start": 512,
                                             "end": 83
                                         },
                                         "staticToken": false,

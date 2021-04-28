@@ -49,8 +49,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 0,
                     "end": 14
                 },
                 "typeParameters": null,
@@ -189,8 +189,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 50,
+                    "flags": 50,
+                    "start": 0,
                     "end": 53
                 },
                 "typeParameters": null,
@@ -199,8 +199,8 @@
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 768,
-                            "start": 41,
+                            "flags": 41,
+                            "start": 512,
                             "end": 44
                         },
                         "binding": {
@@ -262,8 +262,8 @@
                 },
                 "operatorToken": {
                     "kind": 35379,
-                    "flags": 768,
-                    "start": 66,
+                    "flags": 66,
+                    "start": 512,
                     "end": 68
                 },
                 "right": {
@@ -302,8 +302,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 90,
+                    "flags": 90,
+                    "start": 0,
                     "end": 94
                 },
                 "typeParameters": null,
@@ -376,8 +376,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 114,
+                    "flags": 114,
+                    "start": 0,
                     "end": 117
                 },
                 "typeParameters": null,
@@ -438,8 +438,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 768,
-                            "start": 109,
+                            "flags": 109,
+                            "start": 512,
                             "end": 111
                         },
                         "right": {
@@ -919,8 +919,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 268,
+                    "flags": 268,
+                    "start": 0,
                     "end": 271
                 },
                 "typeParameters": null,
@@ -1063,8 +1063,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 768,
-                    "start": 308,
+                    "flags": 308,
+                    "start": 0,
                     "end": 311
                 },
                 "typeParameters": null,

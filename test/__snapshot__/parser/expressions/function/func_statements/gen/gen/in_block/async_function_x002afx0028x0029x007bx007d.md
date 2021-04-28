@@ -31,20 +31,20 @@
                         "declareKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 513,
                             "end": 9
                         },
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 0,
                             "end": 18
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 768,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 512,
                             "end": 20
                         },
                         "name": {

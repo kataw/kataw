@@ -25,14 +25,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 0,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -95,14 +95,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                             "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 768,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 512,
                                                 "end": 45
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 45,
+                                                "flags": 45,
+                                                "start": 0,
                                                 "end": 54
                                             },
                                             "generatorToken": null,
@@ -132,7 +132,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                             "kind": 162,
                                                             "lexicalKeyword": {
                                                                 "kind": 41951307,
-                                                                "flags": 768,
+                                                                "flags": 640,
                                                                 "start": 59,
                                                                 "end": 62
                                                             },
@@ -155,14 +155,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                             "kind": 177,
                                                                             "asyncKeyword": {
                                                                                 "kind": 82031,
-                                                                                "flags": 768,
-                                                                                "start": 66,
+                                                                                "flags": 66,
+                                                                                "start": 512,
                                                                                 "end": 72
                                                                             },
                                                                             "functionKeyword": {
                                                                                 "kind": 37822554,
-                                                                                "flags": 768,
-                                                                                "start": 72,
+                                                                                "flags": 72,
+                                                                                "start": 0,
                                                                                 "end": 81
                                                                             },
                                                                             "generatorToken": null,
@@ -227,8 +227,8 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                                     "kind": 208,
                                                                                                                                     "awaitToken": {
                                                                                                                                         "kind": 82032,
-                                                                                                                                        "flags": 768,
-                                                                                                                                        "start": 100,
+                                                                                                                                        "flags": 100,
+                                                                                                                                        "start": 0,
                                                                                                                                         "end": 105
                                                                                                                                     },
                                                                                                                                     "expression": {

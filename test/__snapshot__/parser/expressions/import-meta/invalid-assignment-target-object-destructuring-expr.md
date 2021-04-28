@@ -40,8 +40,8 @@
                                             "kind": 207,
                                             "importKeyword": {
                                                 "kind": 37814364,
-                                                "flags": 768,
-                                                "start": 4,
+                                                "flags": 4,
+                                                "start": 0,
                                                 "end": 11
                                             },
                                             "flags": 11,
@@ -77,8 +77,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 17,
+                        "flags": 17,
+                        "start": 512,
                         "end": 19
                     },
                     "right": {

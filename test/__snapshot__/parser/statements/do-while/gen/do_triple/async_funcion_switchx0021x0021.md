@@ -23,7 +23,7 @@ do do do async funcion switch!! while while while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,16 +36,16 @@ do do do async funcion switch!! while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 43,
+                "flags": 43,
+                "start": 0,
                 "end": 49
             },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 5
                 },
                 "expression": {
@@ -57,16 +57,16 @@ do do do async funcion switch!! while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 768,
-                    "start": 37,
+                    "flags": 37,
+                    "start": 0,
                     "end": 43
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 768,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 0,
                         "end": 8
                     },
                     "expression": {
@@ -78,8 +78,8 @@ do do do async funcion switch!! while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 768,
-                        "start": 31,
+                        "flags": 31,
+                        "start": 0,
                         "end": 37
                     },
                     "statement": {
@@ -110,8 +110,8 @@ do do do async funcion switch!! while while while
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 8,
+                                "flags": 8,
+                                "start": 512,
                                 "end": 14
                             },
                             "returnType": null,
@@ -119,16 +119,16 @@ do do do async funcion switch!! while while while
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 29,
+                                    "flags": 29,
+                                    "start": 512,
                                     "end": 30
                                 },
                                 "expression": {
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 30,
+                                        "flags": 30,
+                                        "start": 512,
                                         "end": 31
                                     },
                                     "expression": {

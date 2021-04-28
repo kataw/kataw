@@ -25,14 +25,14 @@ function* gf() { var fe = function yield() { } }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -62,8 +62,8 @@ function* gf() { var fe = function yield() { } }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 768,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 0,
                                 "end": 20
                             },
                             "declarationList": {
@@ -86,8 +86,8 @@ function* gf() { var fe = function yield() { } }
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 768,
-                                                "start": 25,
+                                                "flags": 25,
+                                                "start": 0,
                                                 "end": 34
                                             },
                                             "generatorToken": null,

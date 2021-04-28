@@ -23,7 +23,7 @@ try {} finally(x) { while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,8 +44,8 @@ try {} finally(x) { while try this and !foo
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 14
             },
             "finallyBlock": {
@@ -95,8 +95,8 @@ try {} finally(x) { while try this and !foo
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 768,
-                            "start": 19,
+                            "flags": 19,
+                            "start": 0,
                             "end": 25
                         },
                         "expression": {
@@ -110,8 +110,8 @@ try {} finally(x) { while try this and !foo
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 768,
-                                "start": 25,
+                                "flags": 25,
+                                "start": 0,
                                 "end": 29
                             },
                             "block": {
@@ -172,8 +172,8 @@ try {} finally(x) { while try this and !foo
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 768,
-                                "start": 38,
+                                "flags": 38,
+                                "start": 512,
                                 "end": 40
                             },
                             "expression": {

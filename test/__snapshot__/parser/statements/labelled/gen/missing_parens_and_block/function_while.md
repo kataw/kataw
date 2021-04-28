@@ -23,7 +23,7 @@ try catch function while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,8 +45,8 @@ try catch function while
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 768,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 0,
                     "end": 9
                 },
                 "catchParameter": null,
@@ -80,8 +80,8 @@ try catch function while
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 9,
+                "flags": 9,
+                "start": 0,
                 "end": 18
             },
             "generatorToken": null,
@@ -125,8 +125,8 @@ try catch function while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 18,
+                "flags": 18,
+                "start": 0,
                 "end": 24
             },
             "expression": {

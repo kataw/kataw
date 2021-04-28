@@ -23,7 +23,7 @@ do {} while (x) { async funcion switch!!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,8 +37,8 @@ do {} while (x) { async funcion switch!!
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 11
             },
             "statement": {
@@ -92,8 +92,8 @@ do {} while (x) { async funcion switch!!
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 512,
                                 "end": 23
                             },
                             "returnType": null,
@@ -101,16 +101,16 @@ do {} while (x) { async funcion switch!!
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 768,
-                                    "start": 38,
+                                    "flags": 38,
+                                    "start": 512,
                                     "end": 39
                                 },
                                 "expression": {
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 39,
+                                        "flags": 39,
+                                        "start": 512,
                                         "end": 40
                                     },
                                     "expression": {

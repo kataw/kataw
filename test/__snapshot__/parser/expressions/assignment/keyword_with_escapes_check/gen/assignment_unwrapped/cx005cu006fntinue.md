@@ -23,8 +23,8 @@ c\u006fntinue = x;
             "kind": 172,
             "continueKeyword": {
                 "kind": 37757009,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 327680,
                 "end": 13
             },
             "label": {

@@ -45,8 +45,8 @@ foo[ a > b instanceof c ]
                         },
                         "operatorToken": {
                             "kind": 34883,
-                            "flags": 768,
-                            "start": 6,
+                            "flags": 6,
+                            "start": 512,
                             "end": 8
                         },
                         "right": {
@@ -63,8 +63,8 @@ foo[ a > b instanceof c ]
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 768,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 512,
                         "end": 21
                     },
                     "right": {

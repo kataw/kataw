@@ -23,7 +23,7 @@ do {} while (x) { =! class function try while with foo!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,8 +37,8 @@ do {} while (x) { =! class function try while with foo!
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 11
             },
             "statement": {
@@ -79,8 +79,8 @@ do {} while (x) { =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 768,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 512,
                     "end": 20
                 },
                 "expression": {
@@ -88,8 +88,8 @@ do {} while (x) { =! class function try while with foo!
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 768,
-                        "start": 20,
+                        "flags": 20,
+                        "start": 0,
                         "end": 26
                     },
                     "name": null,
@@ -120,8 +120,8 @@ do {} while (x) { =! class function try while with foo!
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 26,
+                "flags": 26,
+                "start": 0,
                 "end": 35
             },
             "generatorToken": null,
@@ -165,8 +165,8 @@ do {} while (x) { =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 35,
+                "flags": 35,
+                "start": 0,
                 "end": 39
             },
             "block": {
@@ -207,8 +207,8 @@ do {} while (x) { =! class function try while with foo!
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 45,
+                "flags": 45,
+                "start": 0,
                 "end": 50
             },
             "expression": {
@@ -225,8 +225,8 @@ do {} while (x) { =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 54,
+                        "flags": 54,
+                        "start": 512,
                         "end": 55
                     },
                     "expression": {

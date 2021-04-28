@@ -33,16 +33,16 @@ x / async x => {}
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 768,
-                        "start": 11,
+                        "flags": 11,
+                        "start": 0,
                         "end": 14
                     },
                     "typeParameters": null,
@@ -68,8 +68,8 @@ x / async x => {}
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 9
                     },
                     "returnType": null,

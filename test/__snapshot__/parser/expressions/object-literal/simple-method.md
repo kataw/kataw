@@ -32,8 +32,8 @@ x = { method(test: string) { } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 3
                 },
                 "right": {
@@ -132,8 +132,8 @@ x = { method(test: string) { } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 28,
+                    "flags": 28,
+                    "start": 512,
                     "end": 30
                 },
                 "right": {

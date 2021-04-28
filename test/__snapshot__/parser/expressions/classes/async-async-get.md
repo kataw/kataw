@@ -22,7 +22,7 @@ class x {    async async get f(x){}    }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,8 +46,8 @@ class x {    async async get f(x){}    }
                         "staticToken": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 512,
                             "end": 18
                         },
                         "key": {
@@ -73,8 +73,8 @@ class x {    async async get f(x){}    }
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 768,
-                            "start": 24,
+                            "flags": 24,
+                            "start": 512,
                             "end": 28
                         },
                         "getKeyword": null,

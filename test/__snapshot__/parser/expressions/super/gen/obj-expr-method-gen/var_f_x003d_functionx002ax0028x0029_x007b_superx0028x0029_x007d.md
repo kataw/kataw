@@ -59,8 +59,8 @@
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 768,
-                                                    "start": 14,
+                                                    "flags": 14,
+                                                    "start": 0,
                                                     "end": 18
                                                 },
                                                 "declarationList": {
@@ -83,14 +83,14 @@
                                                                 "asyncKeyword": null,
                                                                 "functionKeyword": {
                                                                     "kind": 37822554,
-                                                                    "flags": 768,
-                                                                    "start": 22,
+                                                                    "flags": 22,
+                                                                    "start": 0,
                                                                     "end": 31
                                                                 },
                                                                 "generatorToken": {
                                                                     "kind": 67143222,
-                                                                    "flags": 768,
-                                                                    "start": 31,
+                                                                    "flags": 31,
+                                                                    "start": 512,
                                                                     "end": 32
                                                                 },
                                                                 "name": null,
@@ -116,8 +116,8 @@
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 768,
-                                                                                            "start": 36,
+                                                                                            "flags": 36,
+                                                                                            "start": 0,
                                                                                             "end": 42
                                                                                         },
                                                                                         "flags": 768,

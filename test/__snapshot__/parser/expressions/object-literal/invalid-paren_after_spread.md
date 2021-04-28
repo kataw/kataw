@@ -21,8 +21,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 1
                 },
                 "expression": {
@@ -34,8 +34,8 @@
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 768,
-                                    "start": 2,
+                                    "flags": 2,
+                                    "start": 0,
                                     "end": 5
                                 },
                                 "argument": {

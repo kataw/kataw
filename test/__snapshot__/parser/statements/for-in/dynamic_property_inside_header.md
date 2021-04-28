@@ -37,7 +37,7 @@ for (x[a in b] in y);
         {
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -64,8 +64,8 @@ for (x[a in b] in y);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 8,
+                        "flags": 8,
+                        "start": 512,
                         "end": 11
                     },
                     "right": {

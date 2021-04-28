@@ -38,7 +38,7 @@ let [a=[...b], ...c] = obj;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -74,8 +74,8 @@ let [a=[...b], ...c] = obj;
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 768,
-                                                            "start": 8,
+                                                            "flags": 8,
+                                                            "start": 0,
                                                             "end": 11
                                                         },
                                                         "argument": {
@@ -108,8 +108,8 @@ let [a=[...b], ...c] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 768,
-                                            "start": 14,
+                                            "flags": 14,
+                                            "start": 512,
                                             "end": 18
                                         },
                                         "binding": {

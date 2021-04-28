@@ -24,7 +24,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -62,8 +62,8 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
-                "start": 10,
+                "flags": 10,
+                "start": 0,
                 "end": 14
             },
             "declarationList": {
@@ -87,14 +87,14 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 512,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 768,
-                                    "start": 25,
+                                    "flags": 25,
+                                    "start": 0,
                                     "end": 34
                                 },
                                 "generatorToken": null,
@@ -119,8 +119,8 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 768,
-                                                    "start": 38,
+                                                    "flags": 38,
+                                                    "start": 0,
                                                     "end": 44
                                                 },
                                                 "name": {
@@ -143,8 +143,8 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                             "staticKeyword": null,
                                                             "asyncKeyword": {
                                                                 "kind": 82031,
-                                                                "flags": 768,
-                                                                "start": 48,
+                                                                "flags": 48,
+                                                                "start": 512,
                                                                 "end": 53
                                                             },
                                                             "setKeyword": null,
@@ -205,8 +205,8 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                         "kind": 208,
                                                                                                                         "awaitToken": {
                                                                                                                             "kind": 82032,
-                                                                                                                            "flags": 768,
-                                                                                                                            "start": 70,
+                                                                                                                            "flags": 70,
+                                                                                                                            "start": 0,
                                                                                                                             "end": 75
                                                                                                                         },
                                                                                                                         "expression": {

@@ -20,7 +20,7 @@ var a = (b) => c;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,8 +43,8 @@ var a = (b) => c;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 768,
-                                "start": 11,
+                                "flags": 11,
+                                "start": 0,
                                 "end": 14
                             },
                             "typeParameters": null,

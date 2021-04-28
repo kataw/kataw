@@ -30,8 +30,8 @@
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 47,
+                "flags": 47,
+                "start": 0,
                 "end": 52
             },
             "expression": {

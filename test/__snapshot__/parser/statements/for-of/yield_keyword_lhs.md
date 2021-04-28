@@ -40,14 +40,14 @@ function *f(){ for (yield of obj); }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -76,16 +76,16 @@ function *f(){ for (yield of obj); }
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 768,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 0,
                                 "end": 18
                             },
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 0,
                                     "end": 25
                                 },
                                 "delegate": false,

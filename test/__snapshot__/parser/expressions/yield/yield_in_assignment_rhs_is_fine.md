@@ -21,14 +21,14 @@ function* g() { let x = yield 3; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 9
             },
             "name": {
@@ -57,7 +57,7 @@ function* g() { let x = yield 3; }
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 41951307,
-                                "flags": 768,
+                                "flags": 640,
                                 "start": 15,
                                 "end": 19
                             },
@@ -80,8 +80,8 @@ function* g() { let x = yield 3; }
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 768,
-                                                "start": 23,
+                                                "flags": 23,
+                                                "start": 0,
                                                 "end": 29
                                             },
                                             "delegate": false,

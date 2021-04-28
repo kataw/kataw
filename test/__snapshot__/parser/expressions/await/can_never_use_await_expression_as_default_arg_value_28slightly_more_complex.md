@@ -21,7 +21,7 @@ function call(foo= 5 + (await bar())){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -62,8 +62,8 @@ function call(foo= 5 + (await bar())){}
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 512,
                                 "end": 22
                             },
                             "right": {

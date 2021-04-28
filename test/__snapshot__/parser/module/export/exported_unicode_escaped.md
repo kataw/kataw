@@ -27,7 +27,7 @@ export { \u0061bc }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -71,8 +71,8 @@ export { \u0061bc }
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 768,
-                "start": 12,
+                "flags": 12,
+                "start": 1,
                 "end": 19
             },
             "declaration": null,

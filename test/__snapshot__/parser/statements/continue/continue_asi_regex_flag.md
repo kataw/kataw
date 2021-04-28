@@ -20,7 +20,7 @@ for (x of 3) continue
             "kind": 167,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,8 +44,8 @@ for (x of 3) continue
                 "kind": 172,
                 "continueKeyword": {
                     "kind": 37757009,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 0,
                     "end": 21
                 },
                 "label": null,
@@ -73,8 +73,8 @@ for (x of 3) continue
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 768,
-                        "start": 21,
+                        "flags": 21,
+                        "start": 513,
                         "end": 23
                     },
                     "right": {
@@ -91,8 +91,8 @@ for (x of 3) continue
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 768,
-                    "start": 24,
+                    "flags": 24,
+                    "start": 512,
                     "end": 25
                 },
                 "right": {

@@ -36,8 +36,8 @@
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 768,
-                                        "start": 1,
+                                        "flags": 1,
+                                        "start": 0,
                                         "end": 4
                                     },
                                     "expression": {
@@ -84,8 +84,8 @@
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 12,
+                    "flags": 12,
+                    "start": 512,
                     "end": 14
                 },
                 "right": {

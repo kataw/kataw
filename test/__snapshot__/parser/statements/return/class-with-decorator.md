@@ -43,8 +43,8 @@ class x {}
             },
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
-                "start": 2,
+                "flags": 2,
+                "start": 1,
                 "end": 8
             },
             "name": {

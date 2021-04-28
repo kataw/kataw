@@ -25,7 +25,7 @@ class C { *method() { var f = function() { super(); } } }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -81,8 +81,8 @@ class C { *method() { var f = function() { super(); } } }
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 768,
-                                                "start": 21,
+                                                "flags": 21,
+                                                "start": 0,
                                                 "end": 25
                                             },
                                             "declarationList": {
@@ -105,8 +105,8 @@ class C { *method() { var f = function() { super(); } } }
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 768,
-                                                                "start": 29,
+                                                                "flags": 29,
+                                                                "start": 0,
                                                                 "end": 38
                                                             },
                                                             "generatorToken": null,
@@ -133,8 +133,8 @@ class C { *method() { var f = function() { super(); } } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 768,
-                                                                                        "start": 42,
+                                                                                        "flags": 42,
+                                                                                        "start": 0,
                                                                                         "end": 48
                                                                                     },
                                                                                     "flags": 768,

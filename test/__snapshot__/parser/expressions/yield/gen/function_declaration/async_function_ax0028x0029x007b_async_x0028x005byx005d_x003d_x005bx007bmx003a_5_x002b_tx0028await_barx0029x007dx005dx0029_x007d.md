@@ -25,7 +25,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -57,14 +57,14 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 768,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 512,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 26,
+                                "flags": 26,
+                                "start": 0,
                                 "end": 35
                             },
                             "generatorToken": null,
@@ -130,8 +130,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 768,
-                                                            "start": 55,
+                                                            "flags": 55,
+                                                            "start": 512,
                                                             "end": 57
                                                         },
                                                         "right": {
@@ -158,8 +158,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                         },
                                                                                         "operatorToken": {
                                                                                             "kind": 34098,
-                                                                                            "flags": 768,
-                                                                                            "start": 64,
+                                                                                            "flags": 64,
+                                                                                            "start": 512,
                                                                                             "end": 66
                                                                                         },
                                                                                         "right": {
@@ -179,8 +179,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                         "kind": 208,
                                                                                                         "awaitToken": {
                                                                                                             "kind": 82032,
-                                                                                                            "flags": 768,
-                                                                                                            "start": 69,
+                                                                                                            "flags": 69,
+                                                                                                            "start": 0,
                                                                                                             "end": 74
                                                                                                         },
                                                                                                         "expression": {

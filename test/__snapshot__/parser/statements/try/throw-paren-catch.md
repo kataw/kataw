@@ -27,7 +27,7 @@ throw {x} catch
             "kind": 158,
             "throwKeyword": {
                 "kind": 37757026,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },

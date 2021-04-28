@@ -23,7 +23,7 @@ do try { !xxx while
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -39,8 +39,8 @@ do try { !xxx while
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 768,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 0,
                     "end": 6
                 },
                 "block": {
@@ -54,8 +54,8 @@ do try { !xxx while
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 8,
+                                        "flags": 8,
+                                        "start": 512,
                                         "end": 10
                                     },
                                     "expression": {
@@ -78,8 +78,8 @@ do try { !xxx while
                                 "kind": 154,
                                 "whileKeyword": {
                                     "kind": 37757028,
-                                    "flags": 768,
-                                    "start": 13,
+                                    "flags": 13,
+                                    "start": 0,
                                     "end": 19
                                 },
                                 "expression": {

@@ -32,7 +32,7 @@
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 13,
                 "end": 17
             },
@@ -56,14 +56,14 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 768,
-                                "start": 21,
+                                "flags": 21,
+                                "start": 0,
                                 "end": 30
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 768,
-                                "start": 30,
+                                "flags": 30,
+                                "start": 512,
                                 "end": 32
                             },
                             "name": {

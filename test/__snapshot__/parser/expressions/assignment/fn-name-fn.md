@@ -23,7 +23,7 @@ fn = function() {};
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -87,8 +87,8 @@ fn = function() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 17,
+                    "flags": 17,
+                    "start": 512,
                     "end": 19
                 },
                 "right": {
@@ -96,8 +96,8 @@ fn = function() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 19,
+                        "flags": 19,
+                        "start": 0,
                         "end": 28
                     },
                     "generatorToken": null,
@@ -160,8 +160,8 @@ fn = function() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 39,
+                    "flags": 39,
+                    "start": 512,
                     "end": 41
                 },
                 "right": {
@@ -169,8 +169,8 @@ fn = function() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 768,
-                        "start": 41,
+                        "flags": 41,
+                        "start": 0,
                         "end": 50
                     },
                     "generatorToken": null,

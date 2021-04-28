@@ -21,16 +21,16 @@ delete typeof true
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 768,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 512,
                     "end": 6
                 },
                 "expression": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 768,
-                        "start": 6,
+                        "flags": 6,
+                        "start": 512,
                         "end": 13
                     },
                     "expression": {

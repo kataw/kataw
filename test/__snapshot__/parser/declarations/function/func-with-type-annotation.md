@@ -31,7 +31,7 @@ function a<string>(x: string): string {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -63,8 +63,8 @@ function a<string>(x: string): string {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 768,
-                                "start": 21,
+                                "flags": 21,
+                                "start": 512,
                                 "end": 28
                             },
                             "flags": 0,
@@ -92,8 +92,8 @@ function a<string>(x: string): string {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 768,
-                                "start": 39,
+                                "flags": 39,
+                                "start": 1,
                                 "end": 48
                             },
                             "expression": {
@@ -123,8 +123,8 @@ function a<string>(x: string): string {
                 "types": [
                     {
                         "kind": 134234347,
-                        "flags": 768,
-                        "start": 11,
+                        "flags": 11,
+                        "start": 512,
                         "end": 17
                     }
                 ],
@@ -136,8 +136,8 @@ function a<string>(x: string): string {
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 768,
-                    "start": 30,
+                    "flags": 30,
+                    "start": 512,
                     "end": 37
                 },
                 "flags": 0,

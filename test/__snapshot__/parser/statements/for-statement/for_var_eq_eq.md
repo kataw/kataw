@@ -38,7 +38,7 @@ for (var r == y in x );
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -71,8 +71,8 @@ for (var r == y in x );
                 },
                 "operatorToken": {
                     "kind": 34622,
-                    "flags": 768,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 512,
                     "end": 13
                 },
                 "right": {
@@ -87,8 +87,8 @@ for (var r == y in x );
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 768,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 512,
                         "end": 18
                     },
                     "right": {

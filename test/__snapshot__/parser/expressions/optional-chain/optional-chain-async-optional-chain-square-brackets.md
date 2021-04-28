@@ -22,14 +22,14 @@ async function x() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 768,
-                "start": 0,
+                "flags": 0,
+                "start": 512,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 5,
+                "flags": 5,
+                "start": 0,
                 "end": 14
             },
             "generatorToken": null,
@@ -61,16 +61,16 @@ async function x() {
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 768,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 1,
                                     "end": 28
                                 },
                                 "expression": {
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 768,
-                                        "start": 38,
+                                        "flags": 38,
+                                        "start": 0,
                                         "end": 40
                                     },
                                     "member": {

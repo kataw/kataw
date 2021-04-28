@@ -34,7 +34,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 640,
                 "start": 0,
                 "end": 3
             },
@@ -85,7 +85,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 14,
                 "end": 19
             },
@@ -139,7 +139,7 @@ let {x}: string = y;
                 "start": 19,
                 "end": 23
             },
-            "flags": 129,
+            "flags": 128,
             "start": 14,
             "end": 23
         },
@@ -157,8 +157,8 @@ let {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 31,
+                    "flags": 31,
+                    "start": 512,
                     "end": 33
                 },
                 "right": {
@@ -181,7 +181,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 36,
                 "end": 41
             },
@@ -235,7 +235,7 @@ let {x}: string = y;
                 "start": 41,
                 "end": 44
             },
-            "flags": 129,
+            "flags": 128,
             "start": 36,
             "end": 44
         },
@@ -267,8 +267,8 @@ let {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 60,
+                    "flags": 60,
+                    "start": 512,
                     "end": 62
                 },
                 "right": {
@@ -291,7 +291,7 @@ let {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
-                "flags": 768,
+                "flags": 641,
                 "start": 65,
                 "end": 70
             },
@@ -344,7 +344,7 @@ let {x}: string = y;
                 "start": 70,
                 "end": 74
             },
-            "flags": 129,
+            "flags": 128,
             "start": 65,
             "end": 74
         },
@@ -362,8 +362,8 @@ let {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 82,
+                    "flags": 82,
+                    "start": 512,
                     "end": 84
                 },
                 "right": {

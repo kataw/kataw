@@ -25,7 +25,7 @@ function not_gen() { yield 3 + yield 4; }}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -80,8 +80,8 @@ function not_gen() { yield 3 + yield 4; }}
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 768,
-                                    "start": 28,
+                                    "flags": 28,
+                                    "start": 512,
                                     "end": 30
                                 },
                                 "right": {

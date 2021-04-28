@@ -27,7 +27,7 @@ const fn = async (a?: any): Promise<void> => {};
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -71,8 +71,8 @@ const fn = async (a?: any): Promise<void> => {};
                                         },
                                         "questionToken": {
                                             "kind": 134217750,
-                                            "flags": 768,
-                                            "start": 19,
+                                            "flags": 19,
+                                            "start": 0,
                                             "end": 20
                                         },
                                         "consequent": {
@@ -84,8 +84,8 @@ const fn = async (a?: any): Promise<void> => {};
                                         },
                                         "colonToken": {
                                             "kind": 21,
-                                            "flags": 768,
-                                            "start": 20,
+                                            "flags": 20,
+                                            "start": 0,
                                             "end": 21
                                         },
                                         "alternate": {
@@ -139,16 +139,16 @@ const fn = async (a?: any): Promise<void> => {};
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 768,
-                        "start": 35,
+                        "flags": 35,
+                        "start": 512,
                         "end": 36
                     },
                     "right": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477615,
-                            "flags": 768,
-                            "start": 36,
+                            "flags": 36,
+                            "start": 512,
                             "end": 40
                         },
                         "expression": {
@@ -168,8 +168,8 @@ const fn = async (a?: any): Promise<void> => {};
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 768,
-                    "start": 40,
+                    "flags": 40,
+                    "start": 512,
                     "end": 41
                 },
                 "right": {

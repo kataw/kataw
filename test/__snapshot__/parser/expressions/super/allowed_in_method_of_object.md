@@ -29,8 +29,8 @@ x={ foo(){ super.foo; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 512,
                     "end": 2
                 },
                 "right": {
@@ -72,8 +72,8 @@ x={ foo(){ super.foo; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 768,
-                                                            "start": 10,
+                                                            "flags": 10,
+                                                            "start": 0,
                                                             "end": 16
                                                         },
                                                         "flags": 768,

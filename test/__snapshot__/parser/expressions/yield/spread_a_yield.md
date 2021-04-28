@@ -21,14 +21,14 @@ function *g() { [...yield]; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -64,16 +64,16 @@ function *g() { [...yield]; }
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 768,
-                                                "start": 17,
+                                                "flags": 17,
+                                                "start": 0,
                                                 "end": 20
                                             },
                                             "argument": {
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 768,
-                                                    "start": 20,
+                                                    "flags": 20,
+                                                    "start": 0,
                                                     "end": 25
                                                 },
                                                 "delegate": false,

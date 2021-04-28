@@ -23,7 +23,7 @@ switch case while try this and !foo
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,8 +41,8 @@ switch case while try this and !foo
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 768,
-                            "start": 6,
+                            "flags": 6,
+                            "start": 0,
                             "end": 11
                         },
                         "expression": {
@@ -57,8 +57,8 @@ switch case while try this and !foo
                                 "kind": 154,
                                 "whileKeyword": {
                                     "kind": 37757028,
-                                    "flags": 768,
-                                    "start": 11,
+                                    "flags": 11,
+                                    "start": 0,
                                     "end": 17
                                 },
                                 "expression": {
@@ -72,8 +72,8 @@ switch case while try this and !foo
                                     "kind": 159,
                                     "tryKeyword": {
                                         "kind": 37757027,
-                                        "flags": 768,
-                                        "start": 17,
+                                        "flags": 17,
+                                        "start": 0,
                                         "end": 21
                                     },
                                     "block": {
@@ -134,8 +134,8 @@ switch case while try this and !foo
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 768,
-                                        "start": 30,
+                                        "flags": 30,
+                                        "start": 512,
                                         "end": 32
                                     },
                                     "expression": {

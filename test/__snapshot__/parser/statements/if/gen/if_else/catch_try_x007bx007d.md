@@ -23,7 +23,7 @@ if catch try {} else
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -73,8 +73,8 @@ if catch try {} else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 768,
-                "start": 15,
+                "flags": 15,
+                "start": 512,
                 "end": 20
             },
             "alternate": {

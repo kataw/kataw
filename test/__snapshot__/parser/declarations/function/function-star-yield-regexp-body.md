@@ -23,14 +23,14 @@ function *f() { yield
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 768,
-                "start": 8,
+                "flags": 8,
+                "start": 512,
                 "end": 10
             },
             "name": {
@@ -61,8 +61,8 @@ function *f() { yield
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 768,
-                                    "start": 15,
+                                    "flags": 15,
+                                    "start": 0,
                                     "end": 21
                                 },
                                 "delegate": false,
@@ -88,8 +88,8 @@ function *f() { yield
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 768,
-                                            "start": 24,
+                                            "flags": 24,
+                                            "start": 512,
                                             "end": 25
                                         },
                                         "right": {
@@ -106,8 +106,8 @@ function *f() { yield
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 768,
-                                        "start": 26,
+                                        "flags": 26,
+                                        "start": 512,
                                         "end": 27
                                     },
                                     "right": {

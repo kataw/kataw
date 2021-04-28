@@ -20,7 +20,7 @@ var x; "use strict"; with (x) y;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -71,8 +71,8 @@ var x; "use strict"; with (x) y;
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 20,
+                "flags": 20,
+                "start": 0,
                 "end": 25
             },
             "expression": {

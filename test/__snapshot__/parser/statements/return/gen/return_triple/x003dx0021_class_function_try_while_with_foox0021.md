@@ -23,7 +23,7 @@ return return return =! class function try while with foo!
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -42,8 +42,8 @@ return return return =! class function try while with foo!
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 0,
                 "end": 13
             },
             "expression": {
@@ -61,8 +61,8 @@ return return return =! class function try while with foo!
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 768,
-                "start": 13,
+                "flags": 13,
+                "start": 0,
                 "end": 20
             },
             "expression": {
@@ -76,16 +76,16 @@ return return return =! class function try while with foo!
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 768,
-                    "start": 20,
+                    "flags": 20,
+                    "start": 512,
                     "end": 22
                 },
                 "right": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 22,
+                        "flags": 22,
+                        "start": 512,
                         "end": 23
                     },
                     "expression": {
@@ -93,8 +93,8 @@ return return return =! class function try while with foo!
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 768,
-                            "start": 23,
+                            "flags": 23,
+                            "start": 0,
                             "end": 29
                         },
                         "name": null,
@@ -129,8 +129,8 @@ return return return =! class function try while with foo!
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 768,
-                "start": 29,
+                "flags": 29,
+                "start": 0,
                 "end": 38
             },
             "generatorToken": null,
@@ -174,8 +174,8 @@ return return return =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 38,
+                "flags": 38,
+                "start": 0,
                 "end": 42
             },
             "block": {
@@ -216,8 +216,8 @@ return return return =! class function try while with foo!
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 48,
+                "flags": 48,
+                "start": 0,
                 "end": 53
             },
             "expression": {
@@ -234,8 +234,8 @@ return return return =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 57,
+                        "flags": 57,
+                        "start": 512,
                         "end": 58
                     },
                     "expression": {

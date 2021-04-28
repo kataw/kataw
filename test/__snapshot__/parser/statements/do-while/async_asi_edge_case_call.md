@@ -21,7 +21,7 @@ do async
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,8 +35,8 @@ do async
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 768,
-                "start": 12,
+                "flags": 12,
+                "start": 1,
                 "end": 19
             },
             "statement": {

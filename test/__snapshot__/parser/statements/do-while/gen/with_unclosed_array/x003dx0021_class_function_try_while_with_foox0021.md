@@ -23,7 +23,7 @@ do[ =! class function try while with foo!
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 768,
+                "flags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -55,16 +55,16 @@ do[ =! class function try while with foo!
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 768,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 512,
                         "end": 5
                     },
                     "right": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 768,
-                            "start": 5,
+                            "flags": 5,
+                            "start": 512,
                             "end": 6
                         },
                         "expression": {
@@ -72,8 +72,8 @@ do[ =! class function try while with foo!
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 768,
-                                "start": 6,
+                                "flags": 6,
+                                "start": 0,
                                 "end": 12
                             },
                             "name": null,
@@ -110,8 +110,8 @@ do[ =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 768,
-                "start": 21,
+                "flags": 21,
+                "start": 0,
                 "end": 25
             },
             "block": {
@@ -152,8 +152,8 @@ do[ =! class function try while with foo!
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 768,
-                "start": 31,
+                "flags": 31,
+                "start": 0,
                 "end": 36
             },
             "expression": {
@@ -170,8 +170,8 @@ do[ =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 768,
-                        "start": 40,
+                        "flags": 40,
+                        "start": 512,
                         "end": 41
                     },
                     "expression": {
