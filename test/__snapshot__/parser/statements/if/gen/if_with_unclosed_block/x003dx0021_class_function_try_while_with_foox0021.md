@@ -75,8 +75,8 @@ else {} if(x) { =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 17,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 17,
                     "end": 18
                 },
                 "expression": {
@@ -221,8 +221,8 @@ else {} if(x) { =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 52,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 52,
                         "end": 53
                     },
                     "expression": {

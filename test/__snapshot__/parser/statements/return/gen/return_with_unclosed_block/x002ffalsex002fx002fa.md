@@ -90,8 +90,8 @@ return {} return(x) { /false//a
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 30
                             },
                             "right": {

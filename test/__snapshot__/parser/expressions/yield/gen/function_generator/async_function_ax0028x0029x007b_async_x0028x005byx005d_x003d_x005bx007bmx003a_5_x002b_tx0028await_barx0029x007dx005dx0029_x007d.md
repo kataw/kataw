@@ -168,8 +168,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4125,
-                                                                            "flags": 74,
-                                                                            "start": 512,
+                                                                            "flags": 512,
+                                                                            "start": 74,
                                                                             "end": 76
                                                                         },
                                                                         "right": {
@@ -196,8 +196,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 34098,
-                                                                                                            "flags": 83,
-                                                                                                            "start": 512,
+                                                                                                            "flags": 512,
+                                                                                                            "start": 83,
                                                                                                             "end": 85
                                                                                                         },
                                                                                                         "right": {

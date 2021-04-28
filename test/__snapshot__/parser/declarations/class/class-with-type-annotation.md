@@ -88,8 +88,8 @@ class Foo { bar():this { return this; }}
                                 "kind": 139,
                                 "type": {
                                     "kind": 4276321,
-                                    "flags": 18,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 18,
                                     "end": 22
                                 },
                                 "flags": 0,

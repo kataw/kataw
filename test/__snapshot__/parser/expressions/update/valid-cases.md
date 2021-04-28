@@ -29,8 +29,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 3,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 3,
                     "end": 5
                 },
                 "expression": {
@@ -55,8 +55,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 16
                 },
                 "expression": {
@@ -95,8 +95,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 26,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 26,
                     "end": 28
                 },
                 "expression": {
@@ -135,8 +135,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 40,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 40,
                     "end": 42
                 },
                 "expression": {
@@ -189,8 +189,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 53,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 53,
                     "end": 55
                 },
                 "expression": {
@@ -243,8 +243,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 65,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 65,
                     "end": 67
                 },
                 "expression": {
@@ -281,8 +281,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 78,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 78,
                     "end": 80
                 },
                 "expression": {
@@ -319,8 +319,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 96,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 96,
                     "end": 98
                 },
                 "expression": {
@@ -379,8 +379,8 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 113,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 113,
                     "end": 115
                 },
                 "expression": {

@@ -62,8 +62,8 @@ class instanceof {}
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 16
                 },
                 "right": {

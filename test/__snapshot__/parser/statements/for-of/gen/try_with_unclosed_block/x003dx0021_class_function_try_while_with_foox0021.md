@@ -106,8 +106,8 @@ try {} finally(x) { =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 21,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 21,
                     "end": 22
                 },
                 "expression": {
@@ -252,8 +252,8 @@ try {} finally(x) { =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 56,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 56,
                         "end": 57
                     },
                     "expression": {

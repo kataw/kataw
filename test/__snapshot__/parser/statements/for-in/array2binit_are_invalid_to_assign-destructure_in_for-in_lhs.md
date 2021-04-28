@@ -83,8 +83,8 @@ for ([x.y] = z in obj);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 10,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 10,
                     "end": 12
                 },
                 "right": {
@@ -99,8 +99,8 @@ for ([x.y] = z in obj);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 14,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 14,
                         "end": 17
                     },
                     "right": {

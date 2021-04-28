@@ -42,8 +42,8 @@ class {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 7,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 7,
                             "end": 21
                         },
                         "asyncKeyword": null,

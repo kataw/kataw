@@ -33,8 +33,8 @@ new typeof x
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 3,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 3,
                         "end": 10
                     },
                     "expression": {

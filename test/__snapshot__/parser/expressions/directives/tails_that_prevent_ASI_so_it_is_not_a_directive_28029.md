@@ -91,8 +91,8 @@ function f(){ "use strict"
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 53,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 53,
                                     "end": 55
                                 },
                                 "right": {

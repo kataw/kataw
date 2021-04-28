@@ -27,8 +27,8 @@
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 3
                 },
                 "expression": {
@@ -53,8 +53,8 @@
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 7,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 7,
                     "end": 9
                 },
                 "expression": {
@@ -79,8 +79,8 @@
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 10,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 10,
                     "end": 14
                 },
                 "expression": {
@@ -105,8 +105,8 @@
                 "kind": 128,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 16,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 16,
                     "end": 20
                 },
                 "expression": {

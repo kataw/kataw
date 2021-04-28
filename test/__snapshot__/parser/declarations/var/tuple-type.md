@@ -125,8 +125,8 @@ var x: [number, string] = [123, "aladdin"];
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 25,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 25,
                                         "end": 31
                                     }
                                 ],
@@ -318,14 +318,14 @@ var x: [number, string] = [123, "aladdin"];
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 79,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 79,
                                         "end": 85
                                     },
                                     {
                                         "kind": 134234347,
-                                        "flags": 86,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 86,
                                         "end": 93
                                     }
                                 ],

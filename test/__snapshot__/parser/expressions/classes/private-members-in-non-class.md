@@ -632,8 +632,8 @@ class C { test() {get #a() { }}}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 193,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 193,
                         "end": 195
                     },
                     "right": {
@@ -725,8 +725,8 @@ class C { test() {get #a() { }}}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 220,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 220,
                         "end": 222
                     },
                     "right": {

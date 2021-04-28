@@ -92,8 +92,8 @@ return {} return(x) { =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 23,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 23,
                     "end": 24
                 },
                 "expression": {
@@ -238,8 +238,8 @@ return {} return(x) { =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 58,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 58,
                         "end": 59
                     },
                     "expression": {

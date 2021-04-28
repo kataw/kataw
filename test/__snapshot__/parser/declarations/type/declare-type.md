@@ -61,8 +61,8 @@ declare type bool = any;
             "typeParameters": null,
             "type": {
                 "kind": 134234252,
-                "flags": 19,
-                "start": 512,
+                "flags": 512,
+                "start": 19,
                 "end": 23
             },
             "flags": 32896,

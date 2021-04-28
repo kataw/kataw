@@ -54,8 +54,8 @@ for (2 + b in obj);
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {
@@ -70,8 +70,8 @@ for (2 + b in obj);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 10,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 10,
                         "end": 13
                     },
                     "right": {

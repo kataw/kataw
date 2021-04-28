@@ -65,8 +65,8 @@ a?.b
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 4,
-                        "start": 513,
+                        "flags": 513,
+                        "start": 4,
                         "end": 6
                     },
                     "right": {
@@ -83,8 +83,8 @@ a?.b
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 7,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 7,
                     "end": 8
                 },
                 "right": {

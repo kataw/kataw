@@ -108,8 +108,8 @@ class C { constructor() { class C { set x(_) { super( } }
                                                         "setKeyword": null,
                                                         "getKeyword": {
                                                             "kind": 82031,
-                                                            "flags": 35,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 35,
                                                             "end": 39
                                                         },
                                                         "method": {

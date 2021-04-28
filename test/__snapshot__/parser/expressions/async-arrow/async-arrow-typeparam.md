@@ -64,8 +64,8 @@ async (): string => {}
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 13,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 13,
                             "end": 20
                         },
                         "flags": 0,
@@ -133,8 +133,8 @@ async (): string => {}
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 44,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 44,
                     "end": 51
                 },
                 "flags": 0,

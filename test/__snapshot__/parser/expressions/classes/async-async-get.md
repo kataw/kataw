@@ -46,8 +46,8 @@ class x {    async async get f(x){}    }
                         "staticToken": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 18
                         },
                         "key": {
@@ -73,8 +73,8 @@ class x {    async async get f(x){}    }
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 24,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 24,
                             "end": 28
                         },
                         "getKeyword": null,

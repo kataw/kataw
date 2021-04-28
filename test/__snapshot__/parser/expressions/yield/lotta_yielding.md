@@ -105,8 +105,8 @@ var gen = async function *g() {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4130,
-                                                    "flags": 43,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 43,
                                                     "end": 46
                                                 },
                                                 "right": {

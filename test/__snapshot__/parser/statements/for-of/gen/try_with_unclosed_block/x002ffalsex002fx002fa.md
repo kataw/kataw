@@ -104,8 +104,8 @@ try {} finally(x) { /false//a
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 27,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 27,
                                 "end": 28
                             },
                             "right": {

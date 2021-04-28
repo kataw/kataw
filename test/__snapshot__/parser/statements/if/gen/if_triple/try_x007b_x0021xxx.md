@@ -83,8 +83,8 @@ if if if try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 14,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 14,
                                                 "end": 16
                                             },
                                             "expression": {

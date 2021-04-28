@@ -127,8 +127,8 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 34098,
-                                                                "flags": 46,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 46,
                                                                 "end": 48
                                                             },
                                                             "right": {

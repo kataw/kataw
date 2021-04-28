@@ -41,8 +41,8 @@ if ( a instanceof b > c ) ;
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 6,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 6,
                         "end": 17
                     },
                     "right": {
@@ -59,8 +59,8 @@ if ( a instanceof b > c ) ;
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 19,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 19,
                     "end": 21
                 },
                 "right": {

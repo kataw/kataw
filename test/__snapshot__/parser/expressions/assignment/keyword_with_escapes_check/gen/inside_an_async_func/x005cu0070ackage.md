@@ -56,8 +56,8 @@ async () => {  \u0070ackage = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 27,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 27,
                                     "end": 29
                                 },
                                 "right": {

@@ -81,8 +81,8 @@ class x{}
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 9,
-                        "start": 513,
+                        "flags": 513,
+                        "start": 9,
                         "end": 11
                     },
                     "right": {
@@ -99,8 +99,8 @@ class x{}
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 15
                 },
                 "right": {

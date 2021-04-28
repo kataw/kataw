@@ -79,8 +79,8 @@ async function f(){
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 27,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 27,
                                             "end": 29
                                         },
                                         "right": {
@@ -112,8 +112,8 @@ async function f(){
                                                         "staticKeyword": null,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
-                                                            "flags": 39,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 39,
                                                             "end": 44
                                                         },
                                                         "setKeyword": null,

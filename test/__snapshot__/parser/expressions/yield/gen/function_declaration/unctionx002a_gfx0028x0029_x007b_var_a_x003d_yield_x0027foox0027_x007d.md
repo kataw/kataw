@@ -66,8 +66,8 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 28,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 28,
                                     "end": 29
                                 },
                                 "right": {

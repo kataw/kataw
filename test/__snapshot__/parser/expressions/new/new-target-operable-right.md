@@ -62,8 +62,8 @@ function f(){ foo + new.target }
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 17,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 17,
                                     "end": 19
                                 },
                                 "right": {

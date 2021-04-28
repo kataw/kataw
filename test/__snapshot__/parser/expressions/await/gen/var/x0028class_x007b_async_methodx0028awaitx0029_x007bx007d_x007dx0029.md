@@ -139,8 +139,8 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                                                                     "staticKeyword": null,
                                                                     "asyncKeyword": {
                                                                         "kind": 82031,
-                                                                        "flags": 47,
-                                                                        "start": 512,
+                                                                        "flags": 512,
+                                                                        "start": 47,
                                                                         "end": 53
                                                                     },
                                                                     "setKeyword": null,

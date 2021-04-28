@@ -77,8 +77,8 @@ do {} while (x) { /false//a
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 25,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 25,
                                 "end": 26
                             },
                             "right": {

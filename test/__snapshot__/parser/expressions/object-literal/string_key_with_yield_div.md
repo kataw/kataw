@@ -67,8 +67,8 @@ function *f(){   s = {"foo": yield / x}   }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 18,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 18,
                                     "end": 20
                                 },
                                 "right": {
@@ -97,8 +97,8 @@ function *f(){   s = {"foo": yield / x}   }
                                                     },
                                                     "operatorToken": {
                                                         "kind": 35640,
-                                                        "flags": 34,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 34,
                                                         "end": 36
                                                     },
                                                     "right": {

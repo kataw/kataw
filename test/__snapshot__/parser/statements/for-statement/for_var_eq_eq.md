@@ -71,8 +71,8 @@ for (var r == y in x );
                 },
                 "operatorToken": {
                     "kind": 34622,
-                    "flags": 10,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 10,
                     "end": 13
                 },
                 "right": {
@@ -87,8 +87,8 @@ for (var r == y in x );
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 15,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 15,
                         "end": 18
                     },
                     "right": {

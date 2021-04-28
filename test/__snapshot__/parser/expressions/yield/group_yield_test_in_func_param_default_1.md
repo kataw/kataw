@@ -68,8 +68,8 @@ function f(x=(yield)=y){}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 20,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 20,
                                 "end": 21
                             },
                             "right": {

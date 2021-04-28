@@ -69,8 +69,8 @@ for (true ? a in b : {}; false; ) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 13,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 13,
                         "end": 16
                     },
                     "right": {

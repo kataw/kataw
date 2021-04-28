@@ -90,8 +90,8 @@ async function p(){
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 35379,
-                                        "flags": 37,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 37,
                                         "end": 39
                                     },
                                     "expression": {

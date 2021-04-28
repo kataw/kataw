@@ -76,8 +76,8 @@ function* bar() { yield /re/ }
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 23,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 23,
                                         "end": 25
                                     },
                                     "right": {
@@ -94,8 +94,8 @@ function* bar() { yield /re/ }
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 27,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 27,
                                     "end": 28
                                 },
                                 "right": {

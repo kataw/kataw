@@ -170,8 +170,8 @@
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 33,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 33,
                                     "end": 39
                                 },
                                 "setKeyword": null,
@@ -261,8 +261,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 57,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 57,
                                     "end": 63
                                 },
                                 "key": {
@@ -374,8 +374,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 85,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 85,
                                     "end": 91
                                 },
                                 "key": {
@@ -506,8 +506,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 114,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 114,
                                     "end": 120
                                 },
                                 "key": {
@@ -665,8 +665,8 @@
                                 "staticToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 161,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 161,
                                     "end": 167
                                 },
                                 "key": {
@@ -777,8 +777,8 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 193,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 193,
                                     "end": 200
                                 },
                                 "asyncKeyword": null,
@@ -890,14 +890,14 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 225,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 225,
                                     "end": 232
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 232,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 232,
                                     "end": 238
                                 },
                                 "setKeyword": null,
@@ -986,14 +986,14 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 256,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 256,
                                     "end": 263
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 263,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 263,
                                     "end": 269
                                 },
                                 "key": {
@@ -1104,14 +1104,14 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 291,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 291,
                                     "end": 298
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 298,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 298,
                                     "end": 304
                                 },
                                 "key": {
@@ -1241,14 +1241,14 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 327,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 327,
                                     "end": 334
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 334,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 334,
                                     "end": 340
                                 },
                                 "key": {
@@ -1328,8 +1328,8 @@
                                 "declaredToken": null,
                                 "staticToken": {
                                     "kind": 8388716,
-                                    "flags": 358,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 358,
                                     "end": 365
                                 },
                                 "asyncKeyword": null,

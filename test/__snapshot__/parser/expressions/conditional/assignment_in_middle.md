@@ -45,8 +45,8 @@ a?b=c:d
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 3,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 3,
                         "end": 4
                     },
                     "right": {

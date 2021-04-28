@@ -74,8 +74,8 @@ for ([].w ^= s;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 9,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 9,
                     "end": 12
                 },
                 "right": {

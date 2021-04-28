@@ -98,8 +98,8 @@ for ({x:a.b}=x in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 12,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 12,
                     "end": 13
                 },
                 "right": {
@@ -114,8 +114,8 @@ for ({x:a.b}=x in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 14,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 14,
                         "end": 17
                     },
                     "right": {

@@ -73,8 +73,8 @@ function *a(){yield typeof 0}
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477613,
-                                        "flags": 19,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 19,
                                         "end": 26
                                     },
                                     "expression": {

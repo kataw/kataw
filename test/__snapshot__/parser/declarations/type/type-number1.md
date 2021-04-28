@@ -47,8 +47,8 @@ type foo<number> = string;
                 "types": [
                     {
                         "kind": 134234345,
-                        "flags": 9,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 9,
                         "end": 15
                     }
                 ],
@@ -58,8 +58,8 @@ type foo<number> = string;
             },
             "type": {
                 "kind": 134234347,
-                "flags": 18,
-                "start": 512,
+                "flags": 512,
+                "start": 18,
                 "end": 25
             },
             "flags": 128,

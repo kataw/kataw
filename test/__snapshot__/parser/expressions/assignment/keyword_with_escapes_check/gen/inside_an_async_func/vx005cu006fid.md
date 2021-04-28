@@ -50,8 +50,8 @@ async () => {  v\u006fid = x  }
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 13,
-                                        "start": 328192,
+                                        "flags": 328192,
+                                        "start": 13,
                                         "end": 24
                                     },
                                     "expression": {
@@ -67,8 +67,8 @@ async () => {  v\u006fid = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 24,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 24,
                                     "end": 26
                                 },
                                 "right": {

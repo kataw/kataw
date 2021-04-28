@@ -77,8 +77,8 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 17,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 17,
                                             "end": 19
                                         },
                                         "right": {

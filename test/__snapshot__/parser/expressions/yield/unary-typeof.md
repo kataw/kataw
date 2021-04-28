@@ -65,8 +65,8 @@ function *f() {  return typeof yield foo;  }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477613,
-                                    "flags": 23,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 23,
                                     "end": 30
                                 },
                                 "expression": {

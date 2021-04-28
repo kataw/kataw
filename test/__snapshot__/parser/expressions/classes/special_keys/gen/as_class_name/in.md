@@ -62,8 +62,8 @@ class in {}
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 8
                 },
                 "right": {

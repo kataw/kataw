@@ -95,8 +95,8 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 11,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 11,
                                             "end": 18
                                         },
                                         "flags": 0,
@@ -200,8 +200,8 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 44,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 44,
                                             "end": 51
                                         },
                                         "flags": 0,
@@ -504,8 +504,8 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 144,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 144,
                                 "end": 151
                             },
                             "flags": 0,
@@ -581,8 +581,8 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 167,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 167,
                                     "end": 169
                                 },
                                 "right": {
@@ -671,8 +671,8 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 189,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 189,
                                     "end": 191
                                 },
                                 "right": {
@@ -748,8 +748,8 @@ var p10 = ([{ value, done }]) => { };
                                             "optionalToken": null,
                                             "typeAnnotation": {
                                                 "kind": 134234252,
-                                                "flags": 205,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 205,
                                                 "end": 209
                                             },
                                             "flags": 0,
@@ -764,8 +764,8 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "returnType": {
                                     "kind": 134234252,
-                                    "flags": 213,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 213,
                                     "end": 217
                                 },
                                 "typeParameters": null,
@@ -1246,8 +1246,8 @@ var p10 = ([{ value, done }]) => { };
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 335,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 335,
                                                     "end": 337
                                                 },
                                                 "right": {

@@ -60,8 +60,8 @@ for ([] instanceof obj;;);
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 7,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 7,
                     "end": 18
                 },
                 "right": {

@@ -74,8 +74,8 @@ declare class X {
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 22,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 22,
                                 "end": 29
                             },
                             "flags": 0,
@@ -99,8 +99,8 @@ declare class X {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 30,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 30,
                             "end": 39
                         },
                         "asyncKeyword": null,
@@ -117,8 +117,8 @@ declare class X {
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 42,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 42,
                                 "end": 49
                             },
                             "flags": 0,
@@ -155,8 +155,8 @@ declare class X {
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 55,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 55,
                                 "end": 62
                             },
                             "flags": 0,

@@ -53,14 +53,14 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 22,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 22,
                                     "end": 29
                                 },
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 29,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 29,
                                     "end": 35
                                 },
                                 "setKeyword": null,

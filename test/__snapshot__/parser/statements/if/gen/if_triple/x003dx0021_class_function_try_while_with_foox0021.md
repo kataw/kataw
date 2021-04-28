@@ -68,16 +68,16 @@ if if if =! class function try while with foo!
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 8,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 8,
                             "end": 10
                         },
                         "right": {
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 10,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 10,
                                 "end": 11
                             },
                             "expression": {
@@ -240,8 +240,8 @@ if if if =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 45,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 45,
                         "end": 46
                     },
                     "expression": {

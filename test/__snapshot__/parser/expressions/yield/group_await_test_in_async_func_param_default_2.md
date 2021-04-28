@@ -123,8 +123,8 @@ async function f(){    async function g(x=(await z)=y){}   }
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 51,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 51,
                                                 "end": 52
                                             },
                                             "right": {

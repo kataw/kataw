@@ -85,8 +85,8 @@ function *f(){  ({yield} = x)  }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 24,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 24,
                                         "end": 26
                                     },
                                     "right": {

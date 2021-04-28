@@ -100,8 +100,8 @@ function *g() { function f(x = x + yield y) {}; }
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 32,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 32,
                                                 "end": 34
                                             },
                                             "right": {

@@ -28,8 +28,8 @@ a);
                 "kind": 128,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 4,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 4,
                     "end": 6
                 },
                 "expression": {

@@ -114,8 +114,8 @@ function *f(){   for (yield x in y in z);   }
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 34,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 34,
                                     "end": 37
                                 },
                                 "right": {

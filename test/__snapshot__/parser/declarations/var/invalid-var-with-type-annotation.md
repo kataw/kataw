@@ -94,8 +94,8 @@ var f: >x:int) => string;
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {

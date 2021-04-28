@@ -54,8 +54,8 @@ var a: ?string[]
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 8,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 8,
                                         "end": 14
                                     },
                                     "flags": 0,

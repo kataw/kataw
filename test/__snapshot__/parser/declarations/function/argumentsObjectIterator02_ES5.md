@@ -437,8 +437,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                         },
                                                         "operatorToken": {
                                                             "kind": 34098,
-                                                            "flags": 211,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 211,
                                                             "end": 213
                                                         },
                                                         "right": {

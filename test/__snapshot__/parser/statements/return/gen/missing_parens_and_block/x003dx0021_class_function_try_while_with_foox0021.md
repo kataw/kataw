@@ -81,8 +81,8 @@ return catch =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 15
                 },
                 "expression": {
@@ -227,8 +227,8 @@ return catch =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 49,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 49,
                         "end": 50
                     },
                     "expression": {

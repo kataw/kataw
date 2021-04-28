@@ -83,8 +83,8 @@ do {} while (x) { try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 23,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 23,
                                                 "end": 25
                                             },
                                             "expression": {

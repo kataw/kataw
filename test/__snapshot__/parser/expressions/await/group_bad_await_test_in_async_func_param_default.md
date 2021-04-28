@@ -84,8 +84,8 @@ async function f(x=(await)=y){}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 26,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 26,
                                 "end": 27
                             },
                             "right": {

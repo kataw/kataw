@@ -29,8 +29,8 @@ result = { x: arrow = () => {} } = {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {
@@ -54,8 +54,8 @@ result = { x: arrow = () => {} } = {};
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 19,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 19,
                                             "end": 21
                                         },
                                         "right": {
@@ -118,8 +118,8 @@ result = { x: arrow = () => {} } = {};
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 32,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 32,
                         "end": 34
                     },
                     "right": {

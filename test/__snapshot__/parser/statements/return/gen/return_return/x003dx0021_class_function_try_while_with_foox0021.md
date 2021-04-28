@@ -38,16 +38,16 @@ return =! class function try while with foo! return
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 8,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 8,
                         "end": 9
                     },
                     "expression": {
@@ -196,8 +196,8 @@ return =! class function try while with foo! return
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 43,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 43,
                         "end": 44
                     },
                     "expression": {

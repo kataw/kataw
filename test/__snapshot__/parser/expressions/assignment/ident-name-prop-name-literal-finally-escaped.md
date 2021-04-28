@@ -81,8 +81,8 @@ var y = { \u0066inally: x } = { finally: 42 };
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 27,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 27,
                                 "end": 29
                             },
                             "right": {

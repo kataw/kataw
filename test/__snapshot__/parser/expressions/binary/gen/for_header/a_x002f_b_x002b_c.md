@@ -41,8 +41,8 @@ for ( a / b + c ;;);
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 7,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 7,
                         "end": 9
                     },
                     "right": {
@@ -59,8 +59,8 @@ for ( a / b + c ;;);
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 11,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 11,
                     "end": 13
                 },
                 "right": {

@@ -77,8 +77,8 @@ function* f(){ yield x + y; }
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 22,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 22,
                                         "end": 24
                                     },
                                     "right": {

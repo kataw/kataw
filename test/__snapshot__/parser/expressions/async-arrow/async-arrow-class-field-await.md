@@ -139,8 +139,8 @@ async( x = class { x = await });
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 46,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 46,
                             "end": 48
                         },
                         "right": {

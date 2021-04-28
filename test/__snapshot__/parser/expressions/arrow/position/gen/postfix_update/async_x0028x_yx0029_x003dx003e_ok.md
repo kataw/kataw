@@ -57,8 +57,8 @@ async (x, y) => ok++
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 18,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 18,
                     "end": 20
                 },
                 "expression": {

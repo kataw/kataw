@@ -77,8 +77,8 @@ const map = {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34880,
-                                                    "flags": 20,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 20,
                                                     "end": 23
                                                 },
                                                 "right": {

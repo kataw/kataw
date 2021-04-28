@@ -56,8 +56,8 @@ async () => {  st\u0061tic = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 26,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 26,
                                     "end": 28
                                 },
                                 "right": {

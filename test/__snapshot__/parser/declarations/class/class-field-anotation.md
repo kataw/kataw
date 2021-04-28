@@ -65,8 +65,8 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 18,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 18,
                                 "end": 24
                             },
                             "flags": 0,
@@ -103,8 +103,8 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 32,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 32,
                                 "end": 38
                             },
                             "flags": 0,

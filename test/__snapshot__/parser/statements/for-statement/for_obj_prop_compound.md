@@ -75,8 +75,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 10,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 10,
                     "end": 13
                 },
                 "right": {

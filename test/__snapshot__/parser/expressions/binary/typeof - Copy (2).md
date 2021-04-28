@@ -21,8 +21,8 @@ typeof x
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 0,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 0,
                     "end": 6
                 },
                 "expression": {

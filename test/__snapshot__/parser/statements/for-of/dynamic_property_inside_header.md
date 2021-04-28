@@ -104,8 +104,8 @@ async function f() {
                                     },
                                     "operatorToken": {
                                         "kind": 21006388,
-                                        "flags": 39,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 39,
                                         "end": 42
                                     },
                                     "right": {

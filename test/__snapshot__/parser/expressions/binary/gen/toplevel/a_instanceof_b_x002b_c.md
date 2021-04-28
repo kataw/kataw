@@ -35,8 +35,8 @@ a instanceof b + c
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 1,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1,
                         "end": 12
                     },
                     "right": {
@@ -53,8 +53,8 @@ a instanceof b + c
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 16
                 },
                 "right": {

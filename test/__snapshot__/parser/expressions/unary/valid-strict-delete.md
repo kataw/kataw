@@ -50,8 +50,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 21
                 },
                 "expression": {
@@ -88,8 +88,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 42,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 42,
                     "end": 49
                 },
                 "expression": {
@@ -128,8 +128,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 67,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 67,
                     "end": 74
                 },
                 "expression": {
@@ -184,8 +184,8 @@
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 96,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 96,
                         "end": 103
                     },
                     "expression": {
@@ -202,8 +202,8 @@
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 105,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 105,
                     "end": 107
                 },
                 "right": {
@@ -242,8 +242,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 125,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 125,
                     "end": 132
                 },
                 "expression": {
@@ -296,8 +296,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 156,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 156,
                     "end": 163
                 },
                 "expression": {
@@ -350,16 +350,16 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 188,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 188,
                     "end": 195
                 },
                 "expression": {
                     "kind": 127,
                     "operandToken": {
                         "kind": 196636,
-                        "flags": 199,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 199,
                         "end": 201
                     },
                     "expression": {
@@ -402,16 +402,16 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 217,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 217,
                     "end": 224
                 },
                 "expression": {
                     "kind": 128,
                     "operandToken": {
                         "kind": 196636,
-                        "flags": 224,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 224,
                         "end": 227
                     },
                     "expression": {
@@ -454,8 +454,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 246,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 246,
                     "end": 253
                 },
                 "expression": {
@@ -514,8 +514,8 @@
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 279,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 279,
                     "end": 286
                 },
                 "expression": {

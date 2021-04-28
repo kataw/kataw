@@ -130,8 +130,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 55,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 55,
                                                             "end": 57
                                                         },
                                                         "right": {
@@ -158,8 +158,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                         },
                                                                                         "operatorToken": {
                                                                                             "kind": 34098,
-                                                                                            "flags": 64,
-                                                                                            "start": 512,
+                                                                                            "flags": 512,
+                                                                                            "start": 64,
                                                                                             "end": 66
                                                                                         },
                                                                                         "right": {

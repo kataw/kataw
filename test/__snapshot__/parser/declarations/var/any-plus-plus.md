@@ -52,8 +52,8 @@ var z = x + x;
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 6,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 6,
                                 "end": 10
                             },
                             "flags": 0,
@@ -102,8 +102,8 @@ var z = x + x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 18,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 18,
                     "end": 20
                 },
                 "right": {
@@ -158,8 +158,8 @@ var z = x + x;
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 39,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 39,
                                 "end": 41
                             },
                             "right": {

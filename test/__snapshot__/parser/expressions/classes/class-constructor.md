@@ -157,8 +157,8 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 44,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 44,
                                     "end": 51
                                 },
                                 "asyncKeyword": null,
@@ -256,15 +256,15 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 84,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 84,
                                     "end": 91
                                 },
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 91,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 91,
                                     "end": 95
                                 },
                                 "getKeyword": null,
@@ -360,16 +360,16 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 128,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 128,
                                     "end": 135
                                 },
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": {
                                     "kind": 82031,
-                                    "flags": 135,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 135,
                                     "end": 139
                                 },
                                 "method": {
@@ -483,8 +483,8 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 173,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 173,
                                     "end": 180
                                 },
                                 "asyncKeyword": null,

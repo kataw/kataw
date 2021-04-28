@@ -46,8 +46,8 @@ for ([a.b]++ of c) d
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 10,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 10,
                     "end": 12
                 },
                 "expression": {

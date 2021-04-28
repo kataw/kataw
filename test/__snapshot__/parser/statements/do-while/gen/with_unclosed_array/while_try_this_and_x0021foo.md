@@ -126,8 +126,8 @@ do[ while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 22,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 22,
                     "end": 24
                 },
                 "expression": {

@@ -58,8 +58,8 @@
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 23,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 23,
                             "end": 28
                         },
                         "setKeyword": null,

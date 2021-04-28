@@ -196,8 +196,8 @@ type overloads2 = {
                                     "optionalToken": null,
                                     "typeAnnotation": {
                                         "kind": 134234347,
-                                        "flags": 71,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 71,
                                         "end": 78
                                     },
                                     "flags": 0,
@@ -212,8 +212,8 @@ type overloads2 = {
                         },
                         "returnType": {
                             "kind": 134234345,
-                            "flags": 82,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 82,
                             "end": 89
                         },
                         "typeParameters": null,
@@ -240,8 +240,8 @@ type overloads2 = {
                                     "optionalToken": null,
                                     "typeAnnotation": {
                                         "kind": 134234345,
-                                        "flags": 99,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 99,
                                         "end": 106
                                     },
                                     "flags": 0,
@@ -256,8 +256,8 @@ type overloads2 = {
                         },
                         "returnType": {
                             "kind": 134234347,
-                            "flags": 110,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 110,
                             "end": 117
                         },
                         "typeParameters": null,

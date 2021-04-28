@@ -56,8 +56,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 6,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 6,
                                 "end": 13
                             },
                             "flags": 0,
@@ -129,8 +129,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 24,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 24,
                                 "end": 31
                             },
                             "flags": 0,
@@ -192,8 +192,8 @@ let {x}: string = y;
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234343,
-                                                "flags": 45,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 45,
                                                 "end": 51
                                             },
                                             "flags": 0,
@@ -220,8 +220,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 53,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 53,
                                 "end": 60
                             },
                             "flags": 0,
@@ -299,8 +299,8 @@ let {x}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 75,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 75,
                                 "end": 82
                             },
                             "flags": 0,

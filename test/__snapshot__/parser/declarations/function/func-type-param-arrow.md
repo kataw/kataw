@@ -425,8 +425,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         },
                         "operatorToken": {
                             "kind": 536971330,
-                            "flags": 140,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 140,
                             "end": 141
                         },
                         "right": {
@@ -443,8 +443,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 147,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 147,
                         "end": 148
                     },
                     "right": {

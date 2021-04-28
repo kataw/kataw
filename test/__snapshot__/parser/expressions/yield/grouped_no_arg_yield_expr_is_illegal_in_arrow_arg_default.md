@@ -75,8 +75,8 @@ function *f(){ async (x = (yield)) => {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 23,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 23,
                                         "end": 25
                                     },
                                     "right": {

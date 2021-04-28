@@ -56,8 +56,8 @@ async () => {  p\u0072ivate = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 27,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 27,
                                     "end": 29
                                 },
                                 "right": {

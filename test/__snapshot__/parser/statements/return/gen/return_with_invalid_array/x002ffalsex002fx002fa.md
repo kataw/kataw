@@ -95,8 +95,8 @@ return [catch] /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 22,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 22,
                     "end": 23
                 },
                 "right": {

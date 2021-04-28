@@ -76,8 +76,8 @@ x, {a: 1} = [];
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 11
                         },
                         "right": {

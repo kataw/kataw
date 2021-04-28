@@ -83,8 +83,8 @@ class A extends x in y {}
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 17,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 17,
                     "end": 20
                 },
                 "right": {

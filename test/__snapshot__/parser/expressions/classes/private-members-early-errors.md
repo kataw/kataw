@@ -57,8 +57,8 @@ class C { foo() { this.#a = 1; }}
                                     "setKeyword": null,
                                     "getKeyword": {
                                         "kind": 82031,
-                                        "flags": 8,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 8,
                                         "end": 12
                                     },
                                     "method": {
@@ -130,8 +130,8 @@ class C { foo() { this.#a = 1; }}
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 30,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 30,
                                                                 "end": 32
                                                             },
                                                             "right": {
@@ -207,8 +207,8 @@ class C { foo() { this.#a = 1; }}
                                         "asyncKeyword": null,
                                         "setKeyword": {
                                             "kind": 82031,
-                                            "flags": 51,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 51,
                                             "end": 55
                                         },
                                         "getKeyword": null,
@@ -526,8 +526,8 @@ class C { foo() { this.#a = 1; }}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 159,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 159,
                                                     "end": 161
                                                 },
                                                 "right": {

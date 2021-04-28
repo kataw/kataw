@@ -71,8 +71,8 @@ var foob\\U1234r = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 16,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 16,
                     "end": 18
                 },
                 "right": {

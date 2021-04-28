@@ -46,8 +46,8 @@ class C { static
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 16
                         },
                         "asyncKeyword": null,

@@ -63,8 +63,8 @@ function a<string>(x: string): string {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 21,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 21,
                                 "end": 28
                             },
                             "flags": 0,
@@ -123,8 +123,8 @@ function a<string>(x: string): string {
                 "types": [
                     {
                         "kind": 134234347,
-                        "flags": 11,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 11,
                         "end": 17
                     }
                 ],
@@ -136,8 +136,8 @@ function a<string>(x: string): string {
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 30,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 30,
                     "end": 37
                 },
                 "flags": 0,

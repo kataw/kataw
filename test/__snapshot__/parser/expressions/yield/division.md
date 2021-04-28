@@ -75,8 +75,8 @@ function* f(){ yield
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 20,
-                                    "start": 513,
+                                    "flags": 513,
+                                    "start": 20,
                                     "end": 22
                                 },
                                 "right": {

@@ -323,8 +323,8 @@ var {get} = obj;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 66,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 66,
                                                     "end": 68
                                                 },
                                                 "right": {
@@ -446,8 +446,8 @@ var {get} = obj;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 95,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 95,
                                                     "end": 97
                                                 },
                                                 "right": {
@@ -715,8 +715,8 @@ var {get} = obj;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 172,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 172,
                                         "end": 174
                                     },
                                     "right": {
@@ -809,8 +809,8 @@ var {get} = obj;
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 196,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 196,
                                                             "end": 198
                                                         },
                                                         "right": {
@@ -867,8 +867,8 @@ var {get} = obj;
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 207,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 207,
                                                             "end": 208
                                                         },
                                                         "right": {
@@ -885,8 +885,8 @@ var {get} = obj;
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 212,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 212,
                                                                     "end": 213
                                                                 },
                                                                 "right": {
@@ -1021,8 +1021,8 @@ var {get} = obj;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 240,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 240,
                                                         "end": 242
                                                     },
                                                     "right": {
@@ -1039,8 +1039,8 @@ var {get} = obj;
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 247,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 247,
                                                                 "end": 249
                                                             },
                                                             "right": {

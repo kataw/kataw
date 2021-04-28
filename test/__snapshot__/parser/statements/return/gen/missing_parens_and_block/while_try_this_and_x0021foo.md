@@ -137,8 +137,8 @@ return catch while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 31,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 31,
                     "end": 33
                 },
                 "expression": {

@@ -33,8 +33,8 @@ yield * \n { yield: 12 }
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 7
                 },
                 "right": {

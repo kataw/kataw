@@ -27,8 +27,8 @@ for(delete((1)?y:x in y) in z)x
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 4,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 4,
                     "end": 10
                 },
                 "expression": {
@@ -81,8 +81,8 @@ for(delete((1)?y:x in y) in z)x
                             },
                             "operatorToken": {
                                 "kind": 21006388,
-                                "flags": 18,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 18,
                                 "end": 21
                             },
                             "right": {

@@ -82,8 +82,8 @@ class x extends in {}
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 15,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 15,
                     "end": 18
                 },
                 "right": {

@@ -159,8 +159,8 @@ async({a=1}. {b=2}, {c=3} = {}))
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 25,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 25,
                             "end": 27
                         },
                         "right": {

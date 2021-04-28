@@ -33,8 +33,8 @@ new void x
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 3,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 3,
                         "end": 8
                     },
                     "expression": {

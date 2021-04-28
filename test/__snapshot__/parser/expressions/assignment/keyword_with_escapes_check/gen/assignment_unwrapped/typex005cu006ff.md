@@ -27,8 +27,8 @@ type\u006ff = x;
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 0,
-                        "start": 328192,
+                        "flags": 328192,
+                        "start": 0,
                         "end": 11
                     },
                     "expression": {
@@ -44,8 +44,8 @@ type\u006ff = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 11,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 11,
                     "end": 13
                 },
                 "right": {

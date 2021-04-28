@@ -90,16 +90,16 @@ switch switch switch =! class function try while with foo!
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 20,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 20,
                     "end": 22
                 },
                 "right": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 22,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 22,
                         "end": 23
                     },
                     "expression": {
@@ -255,8 +255,8 @@ switch switch switch =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 57,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 57,
                         "end": 58
                     },
                     "expression": {

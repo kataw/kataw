@@ -80,8 +80,8 @@ function not_gen() { yield 3 + yield 4; }}
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 28,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 28,
                                     "end": 30
                                 },
                                 "right": {

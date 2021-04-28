@@ -55,8 +55,8 @@ class Foo {set fooProp(value:number):void{}}
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 11,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 11,
                             "end": 14
                         },
                         "method": {
@@ -89,8 +89,8 @@ class Foo {set fooProp(value:number):void{}}
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 29,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 29,
                                                 "end": 35
                                             },
                                             "flags": 0,
@@ -112,8 +112,8 @@ class Foo {set fooProp(value:number):void{}}
                                 "kind": 139,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 37,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 37,
                                     "end": 41
                                 },
                                 "flags": 0,

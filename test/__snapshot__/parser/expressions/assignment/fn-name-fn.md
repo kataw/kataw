@@ -87,8 +87,8 @@ fn = function() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 17,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 17,
                     "end": 19
                 },
                 "right": {
@@ -160,8 +160,8 @@ fn = function() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 39,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 39,
                     "end": 41
                 },
                 "right": {

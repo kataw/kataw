@@ -50,8 +50,8 @@ class x extends delete {}
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 15,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 15,
                         "end": 22
                     },
                     "expression": {

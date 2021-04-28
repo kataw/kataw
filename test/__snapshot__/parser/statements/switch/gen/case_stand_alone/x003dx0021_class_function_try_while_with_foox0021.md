@@ -25,8 +25,8 @@ case =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 7
                 },
                 "expression": {
@@ -171,8 +171,8 @@ case =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 41,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 41,
                         "end": 42
                     },
                     "expression": {

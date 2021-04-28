@@ -29,8 +29,8 @@ typeof a instanceof b + c
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 0,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 0,
                             "end": 6
                         },
                         "expression": {
@@ -47,8 +47,8 @@ typeof a instanceof b + c
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 8,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 8,
                         "end": 19
                     },
                     "right": {
@@ -65,8 +65,8 @@ typeof a instanceof b + c
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 21,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 21,
                     "end": 23
                 },
                 "right": {

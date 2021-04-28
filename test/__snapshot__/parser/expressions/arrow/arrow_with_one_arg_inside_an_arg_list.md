@@ -67,8 +67,8 @@ f(((a) => a + b)(1, 4), 5);
                                         },
                                         "operatorToken": {
                                             "kind": 34098,
-                                            "flags": 11,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 11,
                                             "end": 13
                                         },
                                         "right": {

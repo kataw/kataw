@@ -94,8 +94,8 @@ x({a:b, c:d}=obj);
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 12,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 12,
                                 "end": 13
                             },
                             "right": {

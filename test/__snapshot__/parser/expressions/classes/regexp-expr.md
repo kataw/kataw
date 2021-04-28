@@ -26,8 +26,8 @@ typeof class{}
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 0,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 0,
                             "end": 6
                         },
                         "expression": {
@@ -59,8 +59,8 @@ typeof class{}
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 14,
-                        "start": 513,
+                        "flags": 513,
+                        "start": 14,
                         "end": 16
                     },
                     "right": {
@@ -77,8 +77,8 @@ typeof class{}
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 19,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 19,
                     "end": 20
                 },
                 "right": {

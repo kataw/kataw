@@ -50,8 +50,8 @@ export default x
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 16,
-                        "start": 513,
+                        "flags": 513,
+                        "start": 16,
                         "end": 18
                     },
                     "right": {
@@ -68,8 +68,8 @@ export default x
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 19,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 19,
                     "end": 20
                 },
                 "right": {

@@ -37,8 +37,8 @@ result = [...{ x = yield }] = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {
@@ -110,8 +110,8 @@ result = [...{ x = yield }] = y;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 27,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 27,
                         "end": 29
                     },
                     "right": {

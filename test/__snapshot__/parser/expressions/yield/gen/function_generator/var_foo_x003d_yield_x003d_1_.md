@@ -126,8 +126,8 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 55,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 55,
                                                                 "end": 57
                                                             },
                                                             "right": {

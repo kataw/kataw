@@ -129,8 +129,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 38,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 38,
                         "end": 43
                     },
                     "expression": {
@@ -146,8 +146,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 43,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 43,
                     "end": 45
                 },
                 "right": {

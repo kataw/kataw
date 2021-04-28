@@ -348,8 +348,8 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 187,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 187,
                                                                                 "end": 189
                                                                             },
                                                                             "expression": {
@@ -382,8 +382,8 @@ Object.defineProperty(this, "x", {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 196,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 196,
                                                                                 "end": 198
                                                                             },
                                                                             "right": {
@@ -395,8 +395,8 @@ Object.defineProperty(this, "x", {
                                                                                             "kind": 126,
                                                                                             "operandToken": {
                                                                                                 "kind": 4259886,
-                                                                                                "flags": 200,
-                                                                                                "start": 512,
+                                                                                                "flags": 512,
+                                                                                                "start": 200,
                                                                                                 "end": 206
                                                                                             },
                                                                                             "expression": {
@@ -456,8 +456,8 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 230,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 230,
                                                                                 "end": 232
                                                                             },
                                                                             "expression": {
@@ -510,8 +510,8 @@ Object.defineProperty(this, "x", {
                                             "kind": 127,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 247,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 247,
                                                 "end": 249
                                             },
                                             "expression": {

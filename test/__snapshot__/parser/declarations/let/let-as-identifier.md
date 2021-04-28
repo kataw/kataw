@@ -481,8 +481,8 @@ L: let
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 146,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 146,
                     "end": 148
                 },
                 "right": {
@@ -537,8 +537,8 @@ L: let
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 166,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 166,
                                 "end": 168
                             },
                             "right": {
@@ -580,8 +580,8 @@ L: let
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 176,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 176,
                     "end": 178
                 },
                 "right": {
@@ -606,8 +606,8 @@ L: let
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 181,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 181,
                     "end": 185
                 },
                 "expression": {
@@ -632,8 +632,8 @@ L: let
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 194,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 194,
                     "end": 196
                 },
                 "expression": {
@@ -829,8 +829,8 @@ L: let
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34098,
-                                                    "flags": 260,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 260,
                                                     "end": 262
                                                 },
                                                 "right": {

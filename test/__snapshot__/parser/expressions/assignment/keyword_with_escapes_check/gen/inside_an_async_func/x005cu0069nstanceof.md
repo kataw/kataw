@@ -55,8 +55,8 @@ async () => {  \u0069nstanceof = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 13,
-                                    "start": 262656,
+                                    "flags": 262656,
+                                    "start": 13,
                                     "end": 30
                                 },
                                 "right": {

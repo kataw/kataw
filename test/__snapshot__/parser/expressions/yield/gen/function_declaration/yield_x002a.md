@@ -66,8 +66,8 @@ function not_gen() { yield * }}
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 26,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 26,
                                     "end": 28
                                 },
                                 "right": {

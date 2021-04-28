@@ -265,8 +265,8 @@ switch (answer) { case 0: let a; };
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 87,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 87,
                                         "end": 89
                                     },
                                     "expression": {
@@ -360,8 +360,8 @@ switch (answer) { case 0: let a; };
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 116,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 116,
                                                     "end": 118
                                                 },
                                                 "right": {
@@ -465,8 +465,8 @@ switch (answer) { case 0: let a; };
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 147,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 147,
                                                     "end": 149
                                                 },
                                                 "right": {
@@ -807,8 +807,8 @@ switch (answer) { case 0: let a; };
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 279,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 279,
                                                     "end": 281
                                                 },
                                                 "right": {
@@ -1092,8 +1092,8 @@ switch (answer) { case 0: let a; };
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 374,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 374,
                                         "end": 375
                                     },
                                     "right": {
@@ -1152,8 +1152,8 @@ switch (answer) { case 0: let a; };
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 390,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 390,
                     "end": 391
                 },
                 "right": {
@@ -1256,8 +1256,8 @@ switch (answer) { case 0: let a; };
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 422,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 422,
                     "end": 423
                 },
                 "right": {
@@ -1679,8 +1679,8 @@ switch (answer) { case 0: let a; };
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 579,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 579,
                                         "end": 581
                                     },
                                     "right": {
@@ -1701,8 +1701,8 @@ switch (answer) { case 0: let a; };
                                         },
                                         "operatorToken": {
                                             "kind": 35379,
-                                            "flags": 587,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 587,
                                             "end": 603
                                         },
                                         "right": {
@@ -1829,8 +1829,8 @@ switch (answer) { case 0: let a; };
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 705,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 705,
                     "end": 706
                 },
                 "right": {
@@ -1919,8 +1919,8 @@ switch (answer) { case 0: let a; };
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 734,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 734,
                     "end": 735
                 },
                 "right": {
@@ -2193,8 +2193,8 @@ switch (answer) { case 0: let a; };
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 831,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 831,
                                         "end": 833
                                     },
                                     "right": {
@@ -2313,8 +2313,8 @@ switch (answer) { case 0: let a; };
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 867,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 867,
                                             "end": 869
                                         },
                                         "right": {
@@ -2443,8 +2443,8 @@ switch (answer) { case 0: let a; };
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 910,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 910,
                                             "end": 912
                                         },
                                         "right": {
@@ -3093,8 +3093,8 @@ switch (answer) { case 0: let a; };
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 1118,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 1118,
                                         "end": 1120
                                     },
                                     "right": {
@@ -3153,8 +3153,8 @@ switch (answer) { case 0: let a; };
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 1134,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1134,
                     "end": 1135
                 },
                 "right": {

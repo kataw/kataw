@@ -63,8 +63,8 @@ for ([][y] <<= p;;) x;
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 10,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 10,
                     "end": 14
                 },
                 "right": {

@@ -90,8 +90,8 @@ z(z(z(a ? b : c++)));
                                                         "kind": 127,
                                                         "operandToken": {
                                                             "kind": 196635,
-                                                            "flags": 15,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 15,
                                                             "end": 17
                                                         },
                                                         "expression": {

@@ -80,8 +80,8 @@
                             "kind": 139,
                             "type": {
                                 "kind": 134234343,
-                                "flags": 8,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 8,
                                 "end": 15
                             },
                             "flags": 0,

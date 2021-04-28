@@ -56,8 +56,8 @@
                                 "setKeyword": null,
                                 "getKeyword": {
                                     "kind": 82031,
-                                    "flags": 8,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 8,
                                     "end": 12
                                 },
                                 "method": {
@@ -248,8 +248,8 @@
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 62,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 62,
                                     "end": 66
                                 },
                                 "getKeyword": null,
@@ -335,8 +335,8 @@
                                                         "kind": 127,
                                                         "operandToken": {
                                                             "kind": 196635,
-                                                            "flags": 90,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 90,
                                                             "end": 92
                                                         },
                                                         "expression": {
@@ -428,8 +428,8 @@
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 109,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 109,
                                     "end": 113
                                 },
                                 "getKeyword": null,
@@ -585,8 +585,8 @@
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 148,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 148,
                                                                 "end": 150
                                                             },
                                                             "right": {
@@ -753,8 +753,8 @@
                                                         "kind": 127,
                                                         "operandToken": {
                                                             "kind": 196635,
-                                                            "flags": 196,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 196,
                                                             "end": 198
                                                         },
                                                         "expression": {

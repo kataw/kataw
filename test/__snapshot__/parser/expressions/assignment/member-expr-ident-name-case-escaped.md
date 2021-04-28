@@ -104,8 +104,8 @@ obj.c\u0061se = 42;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 28,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 28,
                     "end": 30
                 },
                 "right": {

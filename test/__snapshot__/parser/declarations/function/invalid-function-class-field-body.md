@@ -116,8 +116,8 @@ function* foo() {
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 88,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 88,
                                                 "end": 90
                                             },
                                             "right": {

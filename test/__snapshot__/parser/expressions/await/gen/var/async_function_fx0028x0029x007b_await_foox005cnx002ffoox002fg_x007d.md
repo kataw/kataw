@@ -122,8 +122,8 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 70,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 70,
                         "end": 71
                     },
                     "right": {
@@ -140,8 +140,8 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 74,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 74,
                     "end": 75
                 },
                 "right": {

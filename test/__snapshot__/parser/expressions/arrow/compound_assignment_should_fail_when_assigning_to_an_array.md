@@ -61,8 +61,8 @@
                                     },
                                     "operatorToken": {
                                         "kind": 4130,
-                                        "flags": 19,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 19,
                                         "end": 22
                                     },
                                     "right": {

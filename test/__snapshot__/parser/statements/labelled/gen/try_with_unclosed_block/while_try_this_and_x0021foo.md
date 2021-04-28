@@ -172,8 +172,8 @@ try {} finally(x) { while try this and !foo
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 38,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 38,
                                 "end": 40
                             },
                             "expression": {

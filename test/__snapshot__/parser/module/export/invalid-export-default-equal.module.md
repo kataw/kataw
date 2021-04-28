@@ -46,8 +46,8 @@ export default = 42
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 16
                 },
                 "right": {

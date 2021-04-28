@@ -50,8 +50,8 @@ new x()
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 7,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 7,
                     "end": 9
                 },
                 "right": {

@@ -115,8 +115,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 47,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 47,
                                                             "end": 48
                                                         },
                                                         "right": {

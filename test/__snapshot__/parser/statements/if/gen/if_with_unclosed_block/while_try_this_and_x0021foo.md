@@ -135,8 +135,8 @@ else {} if(x) { while try this and !foo
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 34,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 34,
                                     "end": 36
                                 },
                                 "expression": {

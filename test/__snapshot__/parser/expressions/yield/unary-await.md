@@ -29,8 +29,8 @@ fuction *f() {  return await yield;  }
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 7,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 7,
                     "end": 9
                 },
                 "right": {

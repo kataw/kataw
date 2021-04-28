@@ -36,8 +36,8 @@ result = [ arrow = () => {} ] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {
@@ -59,8 +59,8 @@ result = [ arrow = () => {} ] = vals;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 16,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 16,
                                         "end": 18
                                     },
                                     "right": {
@@ -110,8 +110,8 @@ result = [ arrow = () => {} ] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 29,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 29,
                         "end": 31
                     },
                     "right": {

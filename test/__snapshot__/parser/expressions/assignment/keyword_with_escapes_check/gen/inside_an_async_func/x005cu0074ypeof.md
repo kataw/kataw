@@ -50,8 +50,8 @@ async () => {  \u0074ypeof = x  }
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477613,
-                                        "flags": 13,
-                                        "start": 262656,
+                                        "flags": 262656,
+                                        "start": 13,
                                         "end": 26
                                     },
                                     "expression": {
@@ -67,8 +67,8 @@ async () => {  \u0074ypeof = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 26,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 26,
                                     "end": 28
                                 },
                                 "right": {

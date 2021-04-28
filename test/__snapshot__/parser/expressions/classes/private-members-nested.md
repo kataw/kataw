@@ -54,8 +54,8 @@
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 8,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 8,
                                     "end": 12
                                 },
                                 "getKeyword": null,
@@ -228,8 +228,8 @@
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 53,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 53,
                                     "end": 57
                                 },
                                 "getKeyword": null,
@@ -289,8 +289,8 @@
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": {
                                                                     "kind": 82031,
-                                                                    "flags": 73,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 73,
                                                                     "end": 77
                                                                 },
                                                                 "getKeyword": null,
@@ -408,8 +408,8 @@
                                 "setKeyword": null,
                                 "getKeyword": {
                                     "kind": 82031,
-                                    "flags": 102,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 102,
                                     "end": 106
                                 },
                                 "method": {
@@ -481,8 +481,8 @@
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 117,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 117,
                                     "end": 121
                                 },
                                 "getKeyword": null,
@@ -542,8 +542,8 @@
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": {
                                                                     "kind": 82031,
-                                                                    "flags": 138,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 138,
                                                                     "end": 142
                                                                 },
                                                                 "getKeyword": null,
@@ -598,8 +598,8 @@
                                                                 "setKeyword": null,
                                                                 "getKeyword": {
                                                                     "kind": 82031,
-                                                                    "flags": 150,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 150,
                                                                     "end": 154
                                                                 },
                                                                 "method": {
@@ -791,8 +791,8 @@
                                                                 "setKeyword": null,
                                                                 "getKeyword": {
                                                                     "kind": 82031,
-                                                                    "flags": 199,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 199,
                                                                     "end": 203
                                                                 },
                                                                 "method": {

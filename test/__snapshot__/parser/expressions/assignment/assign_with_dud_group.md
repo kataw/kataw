@@ -35,8 +35,8 @@ a = ((b)) = c;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 3
                 },
                 "right": {
@@ -63,8 +63,8 @@ a = ((b)) = c;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 9,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 9,
                         "end": 11
                     },
                     "right": {

@@ -61,8 +61,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             "kind": 128,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 4,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 4,
                                                 "end": 6
                                             },
                                             "expression": {
@@ -147,8 +147,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 37,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 37,
                                     "end": 39
                                 },
                                 "expression": {
@@ -230,8 +230,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             "kind": 128,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 84,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 84,
                                                 "end": 86
                                             },
                                             "expression": {
@@ -316,8 +316,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 125,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 125,
                                     "end": 127
                                 },
                                 "expression": {

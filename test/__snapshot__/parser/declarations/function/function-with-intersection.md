@@ -161,8 +161,8 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 35,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 35,
                     "end": 42
                 },
                 "flags": 0,

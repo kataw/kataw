@@ -67,8 +67,8 @@ else {} if(x) { /false//a
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 23,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 23,
                                     "end": 24
                                 },
                                 "right": {

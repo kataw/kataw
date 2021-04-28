@@ -138,8 +138,8 @@ if else while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 26,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 26,
                     "end": 28
                 },
                 "expression": {

@@ -98,8 +98,8 @@ switch {} default(x) { try { !xxx
                                                                 "kind": 126,
                                                                 "operandToken": {
                                                                     "kind": 65584,
-                                                                    "flags": 28,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 28,
                                                                     "end": 30
                                                                 },
                                                                 "expression": {

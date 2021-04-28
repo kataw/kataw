@@ -90,8 +90,8 @@ for ({x,...x}=x in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 13,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 13,
                     "end": 14
                 },
                 "right": {
@@ -106,8 +106,8 @@ for ({x,...x}=x in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 15,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 15,
                         "end": 18
                     },
                     "right": {

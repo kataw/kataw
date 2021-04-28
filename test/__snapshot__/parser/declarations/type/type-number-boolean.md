@@ -55,14 +55,14 @@ type A = { [string | boolean]: number };
                             "types": [
                                 {
                                     "kind": 134234347,
-                                    "flags": 12,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 12,
                                     "end": 18
                                 },
                                 {
                                     "kind": 134234254,
-                                    "flags": 20,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 20,
                                     "end": 28
                                 }
                             ],
@@ -72,8 +72,8 @@ type A = { [string | boolean]: number };
                         },
                         "value": {
                             "kind": 134234345,
-                            "flags": 30,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 30,
                             "end": 37
                         },
                         "staticToken": false,

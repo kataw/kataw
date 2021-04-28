@@ -68,8 +68,8 @@ class C extends Base { static static() {} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 22,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 22,
                             "end": 29
                         },
                         "asyncKeyword": null,

@@ -60,8 +60,8 @@ type a = ??string;
                     "kind": 134217970,
                     "type": {
                         "kind": 134234347,
-                        "flags": 11,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 11,
                         "end": 17
                     },
                     "flags": 0,

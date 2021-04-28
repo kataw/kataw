@@ -50,8 +50,8 @@ x in x) ;
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 12,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 12,
                     "end": 15
                 },
                 "right": {

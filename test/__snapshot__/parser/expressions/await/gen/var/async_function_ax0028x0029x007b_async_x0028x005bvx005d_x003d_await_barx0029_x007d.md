@@ -191,8 +191,8 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 73,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 73,
                                                                                 "end": 75
                                                                             },
                                                                             "right": {

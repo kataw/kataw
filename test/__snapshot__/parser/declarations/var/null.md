@@ -50,8 +50,8 @@ var foo: null
                             "kind": 139,
                             "type": {
                                 "kind": 138477575,
-                                "flags": 8,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 8,
                                 "end": 13
                             },
                             "flags": 0,

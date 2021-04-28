@@ -73,8 +73,8 @@ function *g(){ return x + (yield f); }
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 23,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 23,
                                     "end": 25
                                 },
                                 "right": {

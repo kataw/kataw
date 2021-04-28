@@ -138,8 +138,8 @@ var await; var f = (async function() { await = 1 });
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 44,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 44,
                                                         "end": 46
                                                     },
                                                     "right": {

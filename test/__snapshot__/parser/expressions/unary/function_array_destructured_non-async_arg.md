@@ -132,8 +132,8 @@ async function f(){   function fh([+ await x]) { }   }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 35,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 35,
                                     "end": 36
                                 },
                                 "expression": {

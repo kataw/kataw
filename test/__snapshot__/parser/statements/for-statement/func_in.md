@@ -81,8 +81,8 @@ for (function(){ a in b; };;);
                                     },
                                     "operatorToken": {
                                         "kind": 21006388,
-                                        "flags": 18,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 18,
                                         "end": 21
                                     },
                                     "right": {

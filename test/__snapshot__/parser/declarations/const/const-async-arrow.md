@@ -72,8 +72,8 @@ const a = async (foo: string = "") => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 21,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 21,
                                             "end": 28
                                         },
                                         "flags": 0,

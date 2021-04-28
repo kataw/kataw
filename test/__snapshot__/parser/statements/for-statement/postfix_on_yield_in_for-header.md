@@ -46,8 +46,8 @@ for (yield[g]--;;);
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 13,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 13,
                     "end": 15
                 },
                 "expression": {

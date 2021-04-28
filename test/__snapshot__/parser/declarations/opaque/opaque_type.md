@@ -61,8 +61,8 @@ opaque type ID = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 16,
-                "start": 512,
+                "flags": 512,
+                "start": 16,
                 "end": 23
             },
             "flags": 128,

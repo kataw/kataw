@@ -43,8 +43,8 @@ obj.voi\u0064 = 42;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 13,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 13,
                     "end": 15
                 },
                 "right": {

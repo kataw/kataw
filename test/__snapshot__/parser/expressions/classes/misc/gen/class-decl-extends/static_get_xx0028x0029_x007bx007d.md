@@ -68,15 +68,15 @@ class C extends Base { static get x() {} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 22,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 22,
                             "end": 29
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 29,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 29,
                             "end": 33
                         },
                         "getKeyword": null,

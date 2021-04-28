@@ -69,8 +69,8 @@ var a : { <T>(x: T): number; }
                                         "staticToken": false,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 13,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 13,
                                             "end": 20
                                         },
                                         "flags": 0,
@@ -199,8 +199,8 @@ var a : { <T>(x: T): number; }
                                         "staticToken": false,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 45,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 45,
                                             "end": 52
                                         },
                                         "flags": 0,

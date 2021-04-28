@@ -1035,7 +1035,7 @@ function parseTokenNode(parser: ParserState, context: Context): SyntaxToken<Toke
   const kind = parser.token;
   const flags = parser.nodeFlags;
   nextToken(parser, context);
-  return createToken(kind, pos, flags | NodeFlags.ChildLess, parser.curPos);
+  return createToken(kind, flags | NodeFlags.ChildLess, pos, parser.curPos);
 }
 
 function parseConditionalExpression(
@@ -5436,7 +5436,7 @@ export function parseClassElement(
               inheritedContext,
               declareKeyword,
               isDeclared,
-              createToken(SyntaxKind.StaticKeyword, pos, NodeFlags.ChildLess, parser.curPos),
+              createToken(SyntaxKind.StaticKeyword, NodeFlags.ChildLess, pos, parser.curPos),
               decorators,
               nodeFlags
             );
@@ -5448,7 +5448,7 @@ export function parseClassElement(
                 parser,
                 context,
                 inheritedContext,
-                createToken(SyntaxKind.DeclareKeyword, pos, NodeFlags.ChildLess, parser.curPos),
+                createToken(SyntaxKind.DeclareKeyword, NodeFlags.ChildLess, pos, parser.curPos),
                 isDeclared,
                 staticKeyword,
                 decorators,
@@ -5459,16 +5459,16 @@ export function parseClassElement(
           }
         case SyntaxKind.AsyncKeyword:
           nodeFlags |= NodeFlags.Async;
-          asyncKeyword = createToken(SyntaxKind.AsyncKeyword, pos, NodeFlags.ChildLess, parser.curPos);
+          asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
           if (consumeOpt(parser, context, SyntaxKind.Multiply)) nodeFlags |= NodeFlags.Generator;
           break;
         case SyntaxKind.GetKeyword:
           nodeFlags |= NodeFlags.Getter;
-          getKeyword = createToken(SyntaxKind.AsyncKeyword, pos, NodeFlags.ChildLess, parser.curPos);
+          getKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
           break;
 
         case SyntaxKind.SetKeyword:
-          setKeyword = createToken(SyntaxKind.AsyncKeyword, pos, NodeFlags.ChildLess, parser.curPos);
+          setKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
           nodeFlags |= NodeFlags.Setter;
           break;
       }

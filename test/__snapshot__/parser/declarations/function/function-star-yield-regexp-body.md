@@ -88,8 +88,8 @@ function *f() { yield
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 24,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 24,
                                             "end": 25
                                         },
                                         "right": {
@@ -106,8 +106,8 @@ function *f() { yield
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 26,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 26,
                                         "end": 27
                                     },
                                     "right": {

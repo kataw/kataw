@@ -709,8 +709,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 207,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 207,
                     "end": 208
                 },
                 "right": {
@@ -1193,8 +1193,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 342,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 342,
                     "end": 343
                 },
                 "right": {
@@ -1307,8 +1307,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 369,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 369,
                     "end": 370
                 },
                 "right": {
@@ -1525,8 +1525,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 441,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 441,
                                                             "end": 442
                                                         },
                                                         "right": {
@@ -1988,8 +1988,8 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 596,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 596,
                                                             "end": 597
                                                         },
                                                         "right": {

@@ -110,8 +110,8 @@ try {} finally(x) { try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 25,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 25,
                                                 "end": 27
                                             },
                                             "expression": {

@@ -31,8 +31,8 @@ a === b ? c : d % e;
                     },
                     "operatorToken": {
                         "kind": 34620,
-                        "flags": 1,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1,
                         "end": 5
                     },
                     "right": {
@@ -79,8 +79,8 @@ a === b ? c : d % e;
                     },
                     "operatorToken": {
                         "kind": 35639,
-                        "flags": 15,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 15,
                         "end": 17
                     },
                     "right": {

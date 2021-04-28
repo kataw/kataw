@@ -46,8 +46,8 @@ for (x--;;);
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "expression": {

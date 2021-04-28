@@ -83,8 +83,8 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                         "staticKeyword": null,
                                         "asyncKeyword": {
                                             "kind": 82031,
-                                            "flags": 28,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 28,
                                             "end": 33
                                         },
                                         "setKeyword": null,

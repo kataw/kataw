@@ -53,8 +53,8 @@ for (/x/g + b in obj);
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 9,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 9,
                     "end": 11
                 },
                 "right": {
@@ -69,8 +69,8 @@ for (/x/g + b in obj);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 13,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 13,
                         "end": 16
                     },
                     "right": {

@@ -125,8 +125,8 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                                                     "kind": 126,
                                                                                     "operandToken": {
                                                                                         "kind": 34098,
-                                                                                        "flags": 50,
-                                                                                        "start": 512,
+                                                                                        "flags": 512,
+                                                                                        "start": 50,
                                                                                         "end": 51
                                                                                     },
                                                                                     "expression": {

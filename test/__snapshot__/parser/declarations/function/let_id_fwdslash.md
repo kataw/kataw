@@ -84,8 +84,8 @@ let p/
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 6
                 },
                 "right": {

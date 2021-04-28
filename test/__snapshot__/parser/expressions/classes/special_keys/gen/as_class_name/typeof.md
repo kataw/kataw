@@ -55,8 +55,8 @@ class typeof {}
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 12
                 },
                 "expression": {

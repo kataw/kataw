@@ -122,8 +122,8 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 44,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 44,
                                                             "end": 45
                                                         },
                                                         "right": {

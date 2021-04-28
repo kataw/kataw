@@ -73,8 +73,8 @@ for ({x=y}=x in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 10,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 10,
                     "end": 11
                 },
                 "right": {
@@ -89,8 +89,8 @@ for ({x=y}=x in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 12,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 12,
                         "end": 15
                     },
                     "right": {

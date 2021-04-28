@@ -64,15 +64,15 @@
                                 "decorators": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
-                                    "flags": 21,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 21,
                                     "end": 27
                                 },
                                 "asyncKeyword": null,
                                 "setKeyword": {
                                     "kind": 82031,
-                                    "flags": 27,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 27,
                                     "end": 31
                                 },
                                 "getKeyword": null,

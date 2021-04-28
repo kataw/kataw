@@ -201,8 +201,8 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4125,
-                                                                        "flags": 78,
-                                                                        "start": 512,
+                                                                        "flags": 512,
+                                                                        "start": 78,
                                                                         "end": 80
                                                                     },
                                                                     "right": {

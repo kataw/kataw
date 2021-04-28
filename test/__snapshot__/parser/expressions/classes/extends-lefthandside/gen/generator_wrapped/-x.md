@@ -90,8 +90,8 @@ function *P(){
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 35379,
-                                        "flags": 32,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 32,
                                         "end": 34
                                     },
                                     "expression": {

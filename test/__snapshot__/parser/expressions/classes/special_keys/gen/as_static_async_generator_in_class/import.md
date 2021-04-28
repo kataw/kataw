@@ -48,14 +48,14 @@ class x {static async * import(){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 15
                         },
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 15,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 15,
                             "end": 21
                         },
                         "setKeyword": null,

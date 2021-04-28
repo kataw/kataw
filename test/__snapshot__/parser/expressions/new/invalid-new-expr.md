@@ -117,8 +117,8 @@ new foo ++;
                     "kind": 128,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 30,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 30,
                         "end": 33
                     },
                     "expression": {
@@ -148,8 +148,8 @@ new foo ++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 46,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 46,
                     "end": 49
                 },
                 "expression": {

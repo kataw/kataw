@@ -170,8 +170,8 @@ switch [catch] while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 33,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 33,
                     "end": 35
                 },
                 "expression": {

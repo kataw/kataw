@@ -86,8 +86,8 @@
                                                             "setKeyword": null,
                                                             "getKeyword": {
                                                                 "kind": 82031,
-                                                                "flags": 24,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 24,
                                                                 "end": 28
                                                             },
                                                             "method": {

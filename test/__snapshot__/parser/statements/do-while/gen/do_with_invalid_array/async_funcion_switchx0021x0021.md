@@ -115,16 +115,16 @@ do while [catch] async funcion switch!!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 37,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 37,
                     "end": 38
                 },
                 "expression": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 38,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 38,
                         "end": 39
                     },
                     "expression": {

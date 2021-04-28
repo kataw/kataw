@@ -90,8 +90,8 @@ var x = ({ a } : any = 'foo') => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234252,
-                                            "flags": 16,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 16,
                                             "end": 20
                                         },
                                         "flags": 0,

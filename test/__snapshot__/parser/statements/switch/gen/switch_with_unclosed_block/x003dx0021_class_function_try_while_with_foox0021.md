@@ -94,8 +94,8 @@ switch {} default(x) { =! class function try while with foo!
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
-                                        "flags": 24,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 24,
                                         "end": 25
                                     },
                                     "expression": {
@@ -240,8 +240,8 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 59,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 59,
                                             "end": 60
                                         },
                                         "expression": {

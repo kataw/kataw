@@ -128,8 +128,8 @@ class Foo {
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 4259886,
-                                                    "flags": 35,
-                                                    "start": 513,
+                                                    "flags": 513,
+                                                    "start": 35,
                                                     "end": 46
                                                 },
                                                 "expression": {

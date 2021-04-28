@@ -87,8 +87,8 @@ var {x}: {x: string; } = { x: "hello" };
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 12,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 12,
                                             "end": 19
                                         },
                                         "optionalToken": null,

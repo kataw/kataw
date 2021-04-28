@@ -143,8 +143,8 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
                                                             "staticKeyword": null,
                                                             "asyncKeyword": {
                                                                 "kind": 82031,
-                                                                "flags": 48,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 48,
                                                                 "end": 53
                                                             },
                                                             "setKeyword": null,

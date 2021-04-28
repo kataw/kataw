@@ -69,15 +69,15 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 16
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 16,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 16,
                             "end": 20
                         },
                         "getKeyword": null,
@@ -162,8 +162,8 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 47,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 47,
                             "end": 54
                         },
                         "asyncKeyword": null,
@@ -250,15 +250,15 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 88,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 88,
                             "end": 95
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 95,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 95,
                             "end": 99
                         },
                         "getKeyword": null,
@@ -343,14 +343,14 @@ class x { static async *prototype(){} }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 126,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 126,
                             "end": 133
                         },
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 133,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 133,
                             "end": 139
                         },
                         "setKeyword": null,

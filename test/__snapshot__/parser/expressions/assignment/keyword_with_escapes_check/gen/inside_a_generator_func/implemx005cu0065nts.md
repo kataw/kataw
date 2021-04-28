@@ -73,8 +73,8 @@ function *f(){
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 32,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 32,
                                     "end": 34
                                 },
                                 "right": {

@@ -43,8 +43,8 @@ foo[ a + b instanceof c ]
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 6,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 6,
                         "end": 8
                     },
                     "right": {
@@ -59,8 +59,8 @@ foo[ a + b instanceof c ]
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 10,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 10,
                             "end": 21
                         },
                         "right": {

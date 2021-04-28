@@ -37,8 +37,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
-                                    "flags": 2,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 2,
                                     "end": 4
                                 },
                                 "right": {
@@ -55,8 +55,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 34375,
-                                "flags": 7,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 7,
                                 "end": 9
                             },
                             "right": {
@@ -71,8 +71,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                                 },
                                 "operatorToken": {
                                     "kind": 35141,
-                                    "flags": 12,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 12,
                                     "end": 15
                                 },
                                 "right": {
@@ -93,8 +93,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 134251849,
-                            "flags": 18,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 18,
                             "end": 20
                         },
                         "right": {
@@ -109,8 +109,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 34881,
-                                "flags": 23,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 23,
                                 "end": 26
                             },
                             "right": {
@@ -131,8 +131,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 29,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 29,
                         "end": 31
                     },
                     "right": {
@@ -149,8 +149,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                 },
                 "operatorToken": {
                     "kind": 33339,
-                    "flags": 34,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 34,
                     "end": 37
                 },
                 "right": {
@@ -165,8 +165,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 40,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 40,
                         "end": 43
                     },
                     "right": {
@@ -183,8 +183,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 34621,
-                                "flags": 46,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 46,
                                 "end": 50
                             },
                             "right": {
@@ -201,8 +201,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 134251592,
-                            "flags": 53,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 53,
                             "end": 55
                         },
                         "right": {
@@ -217,8 +217,8 @@ x0 * x1 & x2 >> x3 ^ x4 >= x5 + x6 || x7 && x8 !== x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 35897,
-                                "flags": 59,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 59,
                                 "end": 62
                             },
                             "right": {

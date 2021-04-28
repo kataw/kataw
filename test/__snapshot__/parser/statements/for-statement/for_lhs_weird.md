@@ -69,8 +69,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 9,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 9,
                     "end": 12
                 },
                 "right": {
@@ -145,8 +145,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 32,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 32,
                     "end": 36
                 },
                 "right": {
@@ -221,8 +221,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4136,
-                    "flags": 55,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 55,
                     "end": 58
                 },
                 "right": {
@@ -298,8 +298,8 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 78,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 78,
                     "end": 81
                 },
                 "right": {

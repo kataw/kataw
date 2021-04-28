@@ -120,8 +120,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                             "optionalToken": null,
                                             "typeAnnotation": {
                                                 "kind": 134234347,
-                                                "flags": 36,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 36,
                                                 "end": 42
                                             },
                                             "flags": 0,
@@ -136,8 +136,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 46,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 46,
                                     "end": 53
                                 },
                                 "typeParameters": null,

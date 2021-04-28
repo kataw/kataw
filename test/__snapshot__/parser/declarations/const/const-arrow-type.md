@@ -139,16 +139,16 @@ const fn = async (a?: any): Promise<void> => {};
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 35,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 35,
                         "end": 36
                     },
                     "right": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477615,
-                            "flags": 36,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 36,
                             "end": 40
                         },
                         "expression": {
@@ -168,8 +168,8 @@ const fn = async (a?: any): Promise<void> => {};
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 40,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 40,
                     "end": 41
                 },
                 "right": {

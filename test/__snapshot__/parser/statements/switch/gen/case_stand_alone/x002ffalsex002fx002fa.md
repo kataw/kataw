@@ -32,8 +32,8 @@ case /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 12,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 12,
                     "end": 13
                 },
                 "right": {

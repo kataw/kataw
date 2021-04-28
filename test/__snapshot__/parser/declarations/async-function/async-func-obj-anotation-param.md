@@ -103,8 +103,8 @@ async function foo({x}: { x: string; }) {}
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 28,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 28,
                                             "end": 35
                                         },
                                         "optionalToken": null,

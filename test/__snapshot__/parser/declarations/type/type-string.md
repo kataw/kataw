@@ -57,8 +57,8 @@ type T1 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234347,
-                "flags": 9,
-                "start": 512,
+                "flags": 512,
+                "start": 9,
                 "end": 16
             },
             "flags": 128,
@@ -87,8 +87,8 @@ type T1 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 27,
-                "start": 512,
+                "flags": 512,
+                "start": 27,
                 "end": 34
             },
             "flags": 128,

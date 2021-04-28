@@ -91,8 +91,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 10,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 10,
                         "end": 12
                     },
                     "right": {
@@ -179,8 +179,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 28,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 28,
                         "end": 30
                     },
                     "right": {
@@ -267,8 +267,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 46,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 46,
                         "end": 48
                     },
                     "right": {
@@ -283,8 +283,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 50,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 50,
                             "end": 52
                         },
                         "right": {
@@ -375,8 +375,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 68,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 68,
                         "end": 70
                     },
                     "right": {
@@ -391,8 +391,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 72,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 72,
                             "end": 74
                         },
                         "right": {
@@ -489,8 +489,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 92,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 92,
                         "end": 94
                     },
                     "right": {
@@ -511,8 +511,8 @@
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 98,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 98,
                             "end": 100
                         },
                         "right": {
@@ -610,8 +610,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 118,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 118,
                         "end": 120
                     },
                     "right": {
@@ -682,8 +682,8 @@
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 134,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 134,
                                                 "end": 136
                                             },
                                             "right": {
@@ -739,8 +739,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 145,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 145,
                         "end": 147
                     },
                     "right": {
@@ -835,8 +835,8 @@
                                                                                     },
                                                                                     "operatorToken": {
                                                                                         "kind": 4125,
-                                                                                        "flags": 167,
-                                                                                        "start": 512,
+                                                                                        "flags": 512,
+                                                                                        "start": 167,
                                                                                         "end": 169
                                                                                     },
                                                                                     "right": {
@@ -892,8 +892,8 @@
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 178,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 178,
                                                                 "end": 180
                                                             },
                                                             "right": {
@@ -950,8 +950,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 188,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 188,
                         "end": 190
                     },
                     "right": {
@@ -1037,8 +1037,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 206,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 206,
                         "end": 208
                     },
                     "right": {
@@ -1125,8 +1125,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 224,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 224,
                         "end": 226
                     },
                     "right": {
@@ -1237,8 +1237,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 245,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 245,
                         "end": 247
                     },
                     "right": {
@@ -1356,8 +1356,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 268,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 268,
                         "end": 270
                     },
                     "right": {
@@ -1460,8 +1460,8 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 288,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 288,
                         "end": 290
                     },
                     "right": {

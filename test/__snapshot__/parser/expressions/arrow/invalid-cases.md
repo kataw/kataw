@@ -2130,8 +2130,8 @@ a++ => {};
                 },
                 "operatorToken": {
                     "kind": 34098,
-                    "flags": 1379,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1379,
                     "end": 1381
                 },
                 "right": {
@@ -2196,8 +2196,8 @@ a++ => {};
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 1393,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1393,
                         "end": 1395
                     },
                     "right": {
@@ -2265,8 +2265,8 @@ a++ => {};
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 1408,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1408,
                                 "end": 1410
                             },
                             "right": {
@@ -2343,8 +2343,8 @@ a++ => {};
                             },
                             "operatorToken": {
                                 "kind": 35379,
-                                "flags": 1429,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1429,
                                 "end": 1431
                             },
                             "right": {
@@ -2543,8 +2543,8 @@ a++ => {};
                 "kind": 126,
                 "operandToken": {
                     "kind": 35379,
-                    "flags": 1496,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 1496,
                     "end": 1498
                 },
                 "expression": {
@@ -2601,8 +2601,8 @@ a++ => {};
                     "kind": 126,
                     "operandToken": {
                         "kind": 35379,
-                        "flags": 1508,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1508,
                         "end": 1509
                     },
                     "expression": {
@@ -2656,8 +2656,8 @@ a++ => {};
                             "kind": 126,
                             "operandToken": {
                                 "kind": 35379,
-                                "flags": 1520,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1520,
                                 "end": 1521
                             },
                             "expression": {
@@ -2741,8 +2741,8 @@ a++ => {};
                 },
                 "operatorToken": {
                     "kind": 35379,
-                    "flags": 1537,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1537,
                     "end": 1539
                 },
                 "right": {
@@ -2821,8 +2821,8 @@ a++ => {};
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 1560,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1560,
                     "end": 1562
                 },
                 "expression": {
@@ -2869,8 +2869,8 @@ a++ => {};
                     "kind": 127,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 1572,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1572,
                         "end": 1574
                     },
                     "expression": {
@@ -2930,8 +2930,8 @@ a++ => {};
                             "kind": 127,
                             "operandToken": {
                                 "kind": 196635,
-                                "flags": 1585,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1585,
                                 "end": 1587
                             },
                             "expression": {
@@ -3000,8 +3000,8 @@ a++ => {};
                             "kind": 127,
                             "operandToken": {
                                 "kind": 196635,
-                                "flags": 1604,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1604,
                                 "end": 1606
                             },
                             "expression": {
@@ -3702,8 +3702,8 @@ a++ => {};
                 },
                 "operatorToken": {
                     "kind": 35379,
-                    "flags": 1802,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1802,
                     "end": 1804
                 },
                 "right": {
@@ -3787,8 +3787,8 @@ a++ => {};
                 },
                 "operatorToken": {
                     "kind": 35379,
-                    "flags": 1822,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1822,
                     "end": 1824
                 },
                 "right": {

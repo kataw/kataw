@@ -93,8 +93,8 @@ gen = function*() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 20,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 20,
                     "end": 22
                 },
                 "right": {
@@ -171,8 +171,8 @@ gen = function*() {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 44,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 44,
                     "end": 46
                 },
                 "right": {

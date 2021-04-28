@@ -28,8 +28,8 @@ true ** a
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 4,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 4,
                     "end": 7
                 },
                 "right": {

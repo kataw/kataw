@@ -78,8 +78,8 @@ for (x of 3) continue/x/
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 21,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 21,
                         "end": 22
                     },
                     "right": {
@@ -96,8 +96,8 @@ for (x of 3) continue/x/
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 23,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 23,
                     "end": 24
                 },
                 "right": {

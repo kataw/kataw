@@ -92,8 +92,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 28,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 28,
                                             "end": 30
                                         },
                                         "right": {
@@ -120,8 +120,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 34098,
-                                                                            "flags": 37,
-                                                                            "start": 512,
+                                                                            "flags": 512,
+                                                                            "start": 37,
                                                                             "end": 39
                                                                         },
                                                                         "right": {

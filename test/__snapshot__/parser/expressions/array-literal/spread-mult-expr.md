@@ -732,8 +732,8 @@ var callCount = 0;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4130,
-                                                    "flags": 344,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 344,
                                                     "end": 347
                                                 },
                                                 "right": {
@@ -831,8 +831,8 @@ var callCount = 0;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 381,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 381,
                                                     "end": 383
                                                 },
                                                 "right": {

@@ -57,8 +57,8 @@ declare class A { static foo(): number; static x : string }
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 17,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 17,
                             "end": 24
                         },
                         "asyncKeyword": null,
@@ -87,8 +87,8 @@ declare class A { static foo(): number; static x : string }
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 31,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 31,
                                     "end": 38
                                 },
                                 "flags": 0,
@@ -110,8 +110,8 @@ declare class A { static foo(): number; static x : string }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 39,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 39,
                             "end": 46
                         },
                         "asyncKeyword": null,
@@ -128,8 +128,8 @@ declare class A { static foo(): number; static x : string }
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 50,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 50,
                                 "end": 57
                             },
                             "flags": 0,

@@ -46,8 +46,8 @@ x = { "a": {x} = y.z };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 3
                 },
                 "right": {
@@ -85,8 +85,8 @@ x = { "a": {x} = y.z };
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 14,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 14,
                                         "end": 16
                                     },
                                     "right": {

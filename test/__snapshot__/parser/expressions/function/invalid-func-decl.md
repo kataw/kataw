@@ -382,8 +382,8 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 104,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 104,
                                                     "end": 106
                                                 },
                                                 "expression": {
@@ -484,8 +484,8 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 126,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 126,
                                                     "end": 127
                                                 },
                                                 "expression": {
@@ -565,8 +565,8 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 142,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 142,
                                                     "end": 143
                                                 },
                                                 "expression": {
@@ -699,8 +699,8 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 174,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 174,
                                                     "end": 175
                                                 },
                                                 "expression": {
@@ -773,8 +773,8 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 191,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 191,
                                                     "end": 192
                                                 },
                                                 "expression": {

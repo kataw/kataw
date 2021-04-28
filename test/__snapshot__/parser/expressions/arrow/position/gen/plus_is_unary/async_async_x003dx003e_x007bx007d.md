@@ -87,8 +87,8 @@ async async => {}
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 17,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 17,
                     "end": 19
                 },
                 "expression": {

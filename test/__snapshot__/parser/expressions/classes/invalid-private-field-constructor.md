@@ -98,8 +98,8 @@ class C { static #constructor }
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 35,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 35,
                             "end": 42
                         },
                         "asyncKeyword": null,

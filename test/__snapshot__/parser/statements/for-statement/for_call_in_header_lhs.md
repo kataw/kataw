@@ -67,8 +67,8 @@ for (x(x in t);;) x
                             },
                             "operatorToken": {
                                 "kind": 21006388,
-                                "flags": 8,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 8,
                                 "end": 11
                             },
                             "right": {

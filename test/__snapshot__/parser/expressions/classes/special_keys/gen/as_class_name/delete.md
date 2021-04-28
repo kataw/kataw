@@ -55,8 +55,8 @@ class delete {}
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 12
                 },
                 "expression": {

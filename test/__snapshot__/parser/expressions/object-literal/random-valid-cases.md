@@ -193,8 +193,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 23,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 23,
                                         "end": 25
                                     },
                                     "right": {
@@ -286,8 +286,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 37,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 37,
                         "end": 38
                     },
                     "right": {
@@ -505,8 +505,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 89,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 89,
                         "end": 91
                     },
                     "right": {
@@ -551,8 +551,8 @@ a = { y: x = 1 } = b;
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 34098,
-                                        "flags": 101,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 101,
                                         "end": 104
                                     },
                                     "expression": {
@@ -613,8 +613,8 @@ a = { y: x = 1 } = b;
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 34098,
-                                        "flags": 117,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 117,
                                         "end": 120
                                     },
                                     "expression": {
@@ -681,8 +681,8 @@ a = { y: x = 1 } = b;
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 34098,
-                                        "flags": 131,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 131,
                                         "end": 134
                                     },
                                     "expression": {
@@ -908,8 +908,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 204,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 204,
                                         "end": 206
                                     },
                                     "right": {
@@ -1277,8 +1277,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 288,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 288,
                                         "end": 289
                                     },
                                     "right": {
@@ -1579,8 +1579,8 @@ a = { y: x = 1 } = b;
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 348,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 348,
                                 "end": 349
                             },
                             "right": {
@@ -1669,8 +1669,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 369,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 369,
                         "end": 371
                     },
                     "right": {
@@ -1707,8 +1707,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 378,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 378,
                     "end": 379
                 },
                 "right": {
@@ -1730,8 +1730,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 385,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 385,
                                         "end": 386
                                     },
                                     "right": {
@@ -1873,8 +1873,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 411,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 411,
                         "end": 413
                     },
                     "right": {
@@ -1910,8 +1910,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 423,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 423,
                     "end": 425
                 },
                 "right": {
@@ -2149,8 +2149,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 485,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 485,
                         "end": 487
                     },
                     "right": {
@@ -2381,8 +2381,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 535,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 535,
                     "end": 537
                 },
                 "right": {
@@ -2727,8 +2727,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 622,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 622,
                         "end": 624
                     },
                     "right": {
@@ -2937,8 +2937,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 691,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 691,
                         "end": 693
                     },
                     "right": {
@@ -3167,8 +3167,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 749,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 749,
                     "end": 751
                 },
                 "right": {
@@ -3688,8 +3688,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 880,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 880,
                     "end": 882
                 },
                 "right": {
@@ -3769,8 +3769,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 899,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 899,
                     "end": 901
                 },
                 "right": {
@@ -3869,8 +3869,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 920,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 920,
                     "end": 922
                 },
                 "right": {
@@ -3884,8 +3884,8 @@ a = { y: x = 1 } = b;
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477613,
-                                        "flags": 928,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 928,
                                         "end": 935
                                     },
                                     "expression": {
@@ -3945,8 +3945,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 942,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 942,
                     "end": 944
                 },
                 "right": {
@@ -3975,8 +3975,8 @@ a = { y: x = 1 } = b;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 34098,
-                                                        "flags": 956,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 956,
                                                         "end": 958
                                                     },
                                                     "right": {
@@ -4059,8 +4059,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 966,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 966,
                     "end": 968
                 },
                 "right": {
@@ -4113,8 +4113,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 980,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 980,
                         "end": 982
                     },
                     "right": {
@@ -4151,8 +4151,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 988,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 988,
                     "end": 990
                 },
                 "right": {
@@ -4223,8 +4223,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 1003,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1003,
                         "end": 1005
                     },
                     "right": {
@@ -4261,8 +4261,8 @@ a = { y: x = 1 } = b;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 1011,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1011,
                     "end": 1013
                 },
                 "right": {
@@ -4286,8 +4286,8 @@ a = { y: x = 1 } = b;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 1020,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 1020,
                                             "end": 1022
                                         },
                                         "right": {
@@ -4327,8 +4327,8 @@ a = { y: x = 1 } = b;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 1026,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 1026,
                         "end": 1028
                     },
                     "right": {

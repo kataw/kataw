@@ -52,14 +52,14 @@ type A = { [string]: number };
                         "name": null,
                         "key": {
                             "kind": 134234347,
-                            "flags": 12,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 12,
                             "end": 18
                         },
                         "value": {
                             "kind": 134234345,
-                            "flags": 20,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 20,
                             "end": 27
                         },
                         "staticToken": false,

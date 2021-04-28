@@ -50,8 +50,8 @@ for (oh,no in x) ;
                         },
                         "operatorToken": {
                             "kind": 21006388,
-                            "flags": 10,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 10,
                             "end": 13
                         },
                         "right": {

@@ -58,8 +58,8 @@ x({a}=obj);
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 5,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 5,
                                 "end": 6
                             },
                             "right": {

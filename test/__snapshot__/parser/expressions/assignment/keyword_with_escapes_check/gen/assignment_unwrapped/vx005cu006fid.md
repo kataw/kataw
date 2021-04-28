@@ -27,8 +27,8 @@ v\u006fid = x;
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 0,
-                        "start": 328192,
+                        "flags": 328192,
+                        "start": 0,
                         "end": 9
                     },
                     "expression": {
@@ -44,8 +44,8 @@ v\u006fid = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 9,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 9,
                     "end": 11
                 },
                 "right": {

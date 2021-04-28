@@ -31,8 +31,8 @@ for (--x in x) ;
                 "kind": 128,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 7
                 },
                 "expression": {

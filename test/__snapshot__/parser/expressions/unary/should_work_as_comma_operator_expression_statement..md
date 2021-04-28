@@ -24,8 +24,8 @@ delete foo.bar, z;
                         "kind": 126,
                         "operandToken": {
                             "kind": 4259886,
-                            "flags": 0,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 0,
                             "end": 6
                         },
                         "expression": {

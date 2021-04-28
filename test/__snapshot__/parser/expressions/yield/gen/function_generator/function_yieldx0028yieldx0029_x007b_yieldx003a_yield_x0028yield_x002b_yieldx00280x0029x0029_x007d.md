@@ -231,8 +231,8 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 83,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 83,
                                 "end": 85
                             },
                             "right": {

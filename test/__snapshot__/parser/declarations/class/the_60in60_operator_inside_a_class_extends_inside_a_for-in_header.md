@@ -131,8 +131,8 @@ for (class x extends a in b {} in c);
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 30,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 30,
                     "end": 33
                 },
                 "right": {

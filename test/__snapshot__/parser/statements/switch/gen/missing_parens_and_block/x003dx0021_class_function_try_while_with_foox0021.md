@@ -56,16 +56,16 @@ switch case =! class function try while with foo!
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 11,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 11,
                                 "end": 13
                             },
                             "right": {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 13,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 13,
                                     "end": 14
                                 },
                                 "expression": {
@@ -211,8 +211,8 @@ switch case =! class function try while with foo!
                                         "kind": 126,
                                         "operandToken": {
                                             "kind": 65584,
-                                            "flags": 48,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 48,
                                             "end": 49
                                         },
                                         "expression": {

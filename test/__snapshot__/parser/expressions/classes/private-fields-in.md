@@ -139,8 +139,8 @@ class C {
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 35,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 35,
                             "end": 42
                         },
                         "getKeyword": null,
@@ -192,8 +192,8 @@ class C {
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 55,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 55,
                             "end": 65
                         },
                         "asyncKeyword": null,
@@ -267,8 +267,8 @@ class C {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
-                                                            "flags": 94,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 94,
                                                             "end": 97
                                                         },
                                                         "right": {
@@ -285,8 +285,8 @@ class C {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 33594,
-                                                        "flags": 101,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 101,
                                                         "end": 104
                                                     },
                                                     "right": {
@@ -300,8 +300,8 @@ class C {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
-                                                            "flags": 112,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 112,
                                                             "end": 115
                                                         },
                                                         "right": {
@@ -322,8 +322,8 @@ class C {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 33594,
-                                                    "flags": 119,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 119,
                                                     "end": 122
                                                 },
                                                 "right": {
@@ -337,8 +337,8 @@ class C {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 21006388,
-                                                        "flags": 130,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 130,
                                                         "end": 133
                                                     },
                                                     "right": {

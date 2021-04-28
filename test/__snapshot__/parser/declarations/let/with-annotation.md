@@ -157,8 +157,8 @@ let {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 31,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 31,
                     "end": 33
                 },
                 "right": {
@@ -267,8 +267,8 @@ let {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 60,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 60,
                     "end": 62
                 },
                 "right": {
@@ -362,8 +362,8 @@ let {x}: string = y;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 82,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 82,
                     "end": 84
                 },
                 "right": {

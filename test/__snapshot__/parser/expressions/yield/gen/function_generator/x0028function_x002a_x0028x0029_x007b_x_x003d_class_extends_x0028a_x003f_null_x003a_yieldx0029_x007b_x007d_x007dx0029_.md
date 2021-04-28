@@ -138,8 +138,8 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4125,
-                                                                            "flags": 58,
-                                                                            "start": 512,
+                                                                            "flags": 512,
+                                                                            "start": 58,
                                                                             "end": 60
                                                                         },
                                                                         "right": {

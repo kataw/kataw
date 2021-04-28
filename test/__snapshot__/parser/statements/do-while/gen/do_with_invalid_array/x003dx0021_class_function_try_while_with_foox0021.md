@@ -31,8 +31,8 @@ do while [catch] =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 18,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 18,
                     "end": 19
                 },
                 "expression": {
@@ -241,8 +241,8 @@ do while [catch] =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 53,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 53,
                         "end": 54
                     },
                     "expression": {

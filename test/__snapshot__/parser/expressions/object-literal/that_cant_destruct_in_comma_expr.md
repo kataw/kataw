@@ -49,8 +49,8 @@ x, {x: foo + y, bar} = doo
                                             },
                                             "operatorToken": {
                                                 "kind": 34098,
-                                                "flags": 10,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 10,
                                                 "end": 12
                                             },
                                             "right": {
@@ -98,8 +98,8 @@ x, {x: foo + y, bar} = doo
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 20,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 20,
                             "end": 22
                         },
                         "right": {

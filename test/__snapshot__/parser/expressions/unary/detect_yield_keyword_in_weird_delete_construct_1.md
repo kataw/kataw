@@ -59,8 +59,8 @@ function *f(){ delete ("x"[(yield)]) }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 4259886,
-                                    "flags": 14,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 14,
                                     "end": 21
                                 },
                                 "expression": {

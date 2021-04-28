@@ -130,8 +130,8 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 32,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 32,
                     "end": 34
                 },
                 "right": {
@@ -277,8 +277,8 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 76,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 76,
                     "end": 78
                 },
                 "right": {

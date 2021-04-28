@@ -51,8 +51,8 @@ class C { set x(_) { class C { set x(_) { super( } }
                         "setKeyword": null,
                         "getKeyword": {
                             "kind": 82031,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 13
                         },
                         "method": {
@@ -132,8 +132,8 @@ class C { set x(_) { class C { set x(_) { super( } }
                                                         "setKeyword": null,
                                                         "getKeyword": {
                                                             "kind": 82031,
-                                                            "flags": 30,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 30,
                                                             "end": 34
                                                         },
                                                         "method": {

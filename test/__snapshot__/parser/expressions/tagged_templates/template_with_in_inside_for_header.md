@@ -52,8 +52,8 @@ for(t`${x in y}`;;);
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 9,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 9,
                                     "end": 12
                                 },
                                 "right": {

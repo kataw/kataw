@@ -33,8 +33,8 @@ x = { a: a > b instanceof c }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 3
                 },
                 "right": {
@@ -58,8 +58,8 @@ x = { a: a > b instanceof c }
                                         },
                                         "operatorToken": {
                                             "kind": 34883,
-                                            "flags": 10,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 10,
                                             "end": 12
                                         },
                                         "right": {
@@ -76,8 +76,8 @@ x = { a: a > b instanceof c }
                                     },
                                     "operatorToken": {
                                         "kind": 4229173,
-                                        "flags": 14,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 14,
                                         "end": 25
                                     },
                                     "right": {

@@ -298,8 +298,8 @@ type B = Foo<
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 95,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 95,
                     "end": 97
                 },
                 "right": {

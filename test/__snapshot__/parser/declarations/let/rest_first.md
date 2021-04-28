@@ -62,8 +62,8 @@ let ...a = 1;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 8,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 8,
                     "end": 10
                 },
                 "right": {

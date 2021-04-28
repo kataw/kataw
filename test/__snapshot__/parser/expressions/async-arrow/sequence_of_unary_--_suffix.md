@@ -32,8 +32,8 @@ async (x--, y) => x;
                         "kind": 127,
                         "operandToken": {
                             "kind": 196636,
-                            "flags": 8,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 8,
                             "end": 10
                         },
                         "expression": {

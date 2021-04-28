@@ -100,8 +100,8 @@ class x { static / foo(){} }
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 16,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 16,
                     "end": 18
                 },
                 "right": {

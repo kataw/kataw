@@ -169,8 +169,8 @@ do while [catch] while try this and !foo
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 35,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 35,
                     "end": 37
                 },
                 "expression": {

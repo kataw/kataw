@@ -1779,8 +1779,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 892,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 892,
                                     "end": 894
                                 },
                                 "right": {
@@ -1883,8 +1883,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 928,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 928,
                                     "end": 930
                                 },
                                 "right": {
@@ -2005,8 +2005,8 @@ async function * gen() {class C extends await { }}
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 974,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 974,
                                                 "end": 976
                                             },
                                             "right": {
@@ -2140,8 +2140,8 @@ async function * gen() {class C extends await { }}
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 1020,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 1020,
                                                 "end": 1022
                                             },
                                             "right": {
@@ -2234,8 +2234,8 @@ async function * gen() {class C extends await { }}
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 1051,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 1051,
                                     "end": 1053
                                 },
                                 "expression": {
@@ -2326,8 +2326,8 @@ async function * gen() {class C extends await { }}
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 1085,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 1085,
                                     "end": 1087
                                 },
                                 "expression": {
@@ -2432,8 +2432,8 @@ async function * gen() {class C extends await { }}
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 1124,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 1124,
                                         "end": 1126
                                     },
                                     "expression": {
@@ -2528,8 +2528,8 @@ async function * gen() {class C extends await { }}
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 1158,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 1158,
                                         "end": 1160
                                     },
                                     "expression": {
@@ -2822,8 +2822,8 @@ async function * gen() {class C extends await { }}
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 1360,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 1360,
                                         "end": 1362
                                     },
                                     "right": {
@@ -3148,8 +3148,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 1519,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 1519,
                                     "end": 1521
                                 },
                                 "right": {
@@ -3240,8 +3240,8 @@ async function * gen() {class C extends await { }}
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 1553,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 1553,
                                     "end": 1554
                                 },
                                 "expression": {
@@ -3332,8 +3332,8 @@ async function * gen() {class C extends await { }}
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 1586,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 1586,
                                     "end": 1587
                                 },
                                 "expression": {
@@ -3476,8 +3476,8 @@ async function * gen() {class C extends await { }}
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 1685,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1685,
                     "end": 1686
                 },
                 "right": {
@@ -4545,8 +4545,8 @@ async function * gen() {class C extends await { }}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 2274,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 2274,
                                                     "end": 2276
                                                 },
                                                 "right": {
@@ -4679,8 +4679,8 @@ async function * gen() {class C extends await { }}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 2315,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 2315,
                                                     "end": 2317
                                                 },
                                                 "right": {
@@ -4826,8 +4826,8 @@ async function * gen() {class C extends await { }}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 2360,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 2360,
                                                         "end": 2362
                                                     },
                                                     "right": {
@@ -4996,8 +4996,8 @@ async function * gen() {class C extends await { }}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 2409,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 2409,
                                                         "end": 2411
                                                     },
                                                     "right": {
@@ -5896,8 +5896,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 2722,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 2722,
                                     "end": 2724
                                 },
                                 "right": {
@@ -6031,8 +6031,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 2766,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 2766,
                                     "end": 2768
                                 },
                                 "right": {
@@ -6185,8 +6185,8 @@ async function * gen() {class C extends await { }}
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 2814,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 2814,
                                         "end": 2816
                                     },
                                     "right": {
@@ -6356,8 +6356,8 @@ async function * gen() {class C extends await { }}
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 2866,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 2866,
                                         "end": 2868
                                     },
                                     "right": {
@@ -6972,8 +6972,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 3116,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 3116,
                                     "end": 3119
                                 },
                                 "right": {
@@ -7111,8 +7111,8 @@ async function * gen() {class C extends await { }}
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 3170,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 3170,
                                     "end": 3173
                                 },
                                 "right": {

@@ -75,8 +75,8 @@ function *f(){ async (x = z = yield) => {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 23,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 23,
                                         "end": 25
                                     },
                                     "right": {
@@ -91,8 +91,8 @@ function *f(){ async (x = z = yield) => {} }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 27,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 27,
                                             "end": 29
                                         },
                                         "right": {

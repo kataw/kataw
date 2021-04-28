@@ -71,8 +71,8 @@ for (x of 3) continue
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 21,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 21,
                     "end": 23
                 },
                 "right": {

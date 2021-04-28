@@ -134,8 +134,8 @@ declare class A<T> extends B<T> { x: number }
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 36,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 36,
                                 "end": 43
                             },
                             "flags": 0,

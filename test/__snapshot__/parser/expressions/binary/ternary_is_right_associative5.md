@@ -91,8 +91,8 @@ typeof x;
                         },
                         "operatorToken": {
                             "kind": 67143222,
-                            "flags": 17,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 17,
                             "end": 19
                         },
                         "right": {
@@ -125,8 +125,8 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 21,
-                    "start": 513,
+                    "flags": 513,
+                    "start": 21,
                     "end": 29
                 },
                 "expression": {

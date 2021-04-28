@@ -52,8 +52,8 @@ let f = a + b + async()=>d
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 9,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 9,
                                     "end": 11
                                 },
                                 "right": {
@@ -70,8 +70,8 @@ let f = a + b + async()=>d
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 13,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 13,
                                 "end": 15
                             },
                             "right": {

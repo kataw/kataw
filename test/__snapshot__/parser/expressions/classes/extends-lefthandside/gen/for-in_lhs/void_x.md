@@ -31,8 +31,8 @@ for (void x in x) ;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477615,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 9
                 },
                 "expression": {

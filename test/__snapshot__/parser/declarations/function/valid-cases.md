@@ -512,8 +512,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 124,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 124,
                                     "end": 126
                                 },
                                 "right": {
@@ -707,8 +707,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 180,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 180,
                                     "end": 182
                                 },
                                 "right": {
@@ -883,8 +883,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 224,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 224,
                                     "end": 226
                                 },
                                 "right": {
@@ -1450,8 +1450,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 373,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 373,
                                     "end": 375
                                 },
                                 "right": {
@@ -1649,8 +1649,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 423,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 423,
                                     "end": 425
                                 },
                                 "right": {
@@ -1832,8 +1832,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 469,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 469,
                                     "end": 471
                                 },
                                 "right": {
@@ -2017,8 +2017,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 527,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 527,
                                     "end": 529
                                 },
                                 "right": {
@@ -2197,8 +2197,8 @@ function f({x:arg = (arg = 2)}) {}
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 574,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 574,
                                                             "end": 575
                                                         },
                                                         "right": {
@@ -2452,8 +2452,8 @@ function f({x:arg = (arg = 2)}) {}
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 633,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 633,
                                                                     "end": 635
                                                                 },
                                                                 "right": {
@@ -2683,8 +2683,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 687,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 687,
                                                     "end": 689
                                                 },
                                                 "right": {
@@ -3289,8 +3289,8 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 857,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 857,
                                     "end": 859
                                 },
                                 "right": {
@@ -3862,8 +3862,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 1027,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 1027,
                                                     "end": 1029
                                                 },
                                                 "right": {
@@ -4079,8 +4079,8 @@ function f({x:arg = (arg = 2)}) {}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 1077,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 1077,
                                                         "end": 1078
                                                     },
                                                     "right": {
@@ -4218,8 +4218,8 @@ function f({x:arg = (arg = 2)}) {}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 1111,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 1111,
                                                         "end": 1113
                                                     },
                                                     "right": {

@@ -44,15 +44,15 @@ class x { static get [y](){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 16
                         },
                         "asyncKeyword": null,
                         "setKeyword": {
                             "kind": 82031,
-                            "flags": 16,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 16,
                             "end": 20
                         },
                         "getKeyword": null,

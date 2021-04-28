@@ -49,8 +49,8 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 14
                         },
                         "setKeyword": null,

@@ -178,16 +178,16 @@
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 33,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 33,
                                 "end": 35
                             },
                             "expression": {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 35,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 35,
                                     "end": 36
                                 },
                                 "expression": {

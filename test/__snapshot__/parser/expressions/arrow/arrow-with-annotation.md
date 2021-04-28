@@ -59,8 +59,8 @@
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 3,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 3,
                                 "end": 10
                             },
                             "flags": 0,
@@ -128,8 +128,8 @@
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 25,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 25,
                                     "end": 32
                                 },
                                 "flags": 0,
@@ -204,8 +204,8 @@
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 46,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 46,
                                 "end": 53
                             },
                             "flags": 0,
@@ -280,8 +280,8 @@
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 67,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 67,
                                 "end": 74
                             },
                             "flags": 0,

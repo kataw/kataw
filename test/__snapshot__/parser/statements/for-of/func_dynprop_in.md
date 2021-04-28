@@ -96,8 +96,8 @@ for (function(){ }[x in y] of x);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 20,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 20,
                         "end": 23
                     },
                     "right": {

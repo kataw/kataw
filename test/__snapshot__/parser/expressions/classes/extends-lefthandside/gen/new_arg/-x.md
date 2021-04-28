@@ -33,8 +33,8 @@ new -x
                     "kind": 126,
                     "operandToken": {
                         "kind": 35379,
-                        "flags": 3,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 3,
                         "end": 5
                     },
                     "expression": {

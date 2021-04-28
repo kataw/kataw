@@ -53,8 +53,8 @@ class X {    async constructor() {}   }
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 18
                         },
                         "setKeyword": null,

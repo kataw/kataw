@@ -50,8 +50,8 @@ async () => {  type\u006ff = x  }
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477613,
-                                        "flags": 13,
-                                        "start": 328192,
+                                        "flags": 328192,
+                                        "start": 13,
                                         "end": 26
                                     },
                                     "expression": {
@@ -67,8 +67,8 @@ async () => {  type\u006ff = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 26,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 26,
                                     "end": 28
                                 },
                                 "right": {

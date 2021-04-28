@@ -39,8 +39,8 @@ for (a = b in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 6,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 6,
                     "end": 8
                 },
                 "right": {
@@ -55,8 +55,8 @@ for (a = b in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 10,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 10,
                         "end": 13
                     },
                     "right": {

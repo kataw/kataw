@@ -64,8 +64,8 @@ switch( try { !xxx case
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 13,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 13,
                                     "end": 15
                                 },
                                 "expression": {

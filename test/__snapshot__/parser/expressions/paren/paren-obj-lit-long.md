@@ -68,8 +68,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 11,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 11,
                                 "end": 13
                             },
                             "right": {
@@ -130,8 +130,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 28,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 28,
                                 "end": 30
                             },
                             "right": {
@@ -206,8 +206,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 47,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 47,
                                 "end": 49
                             },
                             "right": {
@@ -289,8 +289,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 65,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 65,
                                 "end": 67
                             },
                             "right": {
@@ -371,8 +371,8 @@
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 83,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 83,
                                 "end": 85
                             },
                             "right": {

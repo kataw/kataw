@@ -158,8 +158,8 @@ return {} return(x) { while try this and !foo
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 40,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 40,
                                 "end": 42
                             },
                             "expression": {

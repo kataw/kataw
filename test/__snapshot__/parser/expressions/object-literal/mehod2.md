@@ -41,8 +41,8 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 3
                 },
                 "right": {
@@ -122,8 +122,8 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 23,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 23,
                     "end": 25
                 },
                 "right": {
@@ -203,8 +203,8 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 42,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 42,
                     "end": 44
                 },
                 "right": {
@@ -284,8 +284,8 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 61,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 61,
                     "end": 63
                 },
                 "right": {
@@ -454,8 +454,8 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 107,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 107,
                     "end": 109
                 },
                 "right": {
@@ -541,8 +541,8 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 130,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 130,
                     "end": 132
                 },
                 "right": {

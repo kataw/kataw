@@ -48,8 +48,8 @@ class A {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 18
                         },
                         "asyncKeyword": null,
@@ -111,8 +111,8 @@ class A {
                         "declaredToken": null,
                         "staticToken": {
                             "kind": 8388716,
-                            "flags": 43,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 43,
                             "end": 52
                         },
                         "asyncKeyword": null,

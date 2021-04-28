@@ -48,16 +48,16 @@ do =! class function try while with foo! while
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 2,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 2,
                         "end": 4
                     },
                     "right": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 4,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 4,
                             "end": 5
                         },
                         "expression": {
@@ -163,8 +163,8 @@ do =! class function try while with foo! while
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 39,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 39,
                         "end": 40
                     },
                     "expression": {

@@ -29,8 +29,8 @@ x = {x: [{a = b}] + x}.x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 3
                 },
                 "right": {
@@ -99,8 +99,8 @@ x = {x: [{a = b}] + x}.x
                                         },
                                         "operatorToken": {
                                             "kind": 34098,
-                                            "flags": 17,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 17,
                                             "end": 19
                                         },
                                         "right": {

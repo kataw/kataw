@@ -144,8 +144,8 @@ function * gen() { function not_gen() { function* gf() { yield++; } }}
                                                                     "kind": 128,
                                                                     "operandToken": {
                                                                         "kind": 196635,
-                                                                        "flags": 62,
-                                                                        "start": 512,
+                                                                        "flags": 512,
+                                                                        "start": 62,
                                                                         "end": 64
                                                                     },
                                                                     "expression": {

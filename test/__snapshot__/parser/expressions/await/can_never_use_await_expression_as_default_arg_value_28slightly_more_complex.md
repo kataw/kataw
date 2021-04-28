@@ -62,8 +62,8 @@ function call(foo= 5 + (await bar())){}
                             },
                             "operatorToken": {
                                 "kind": 34098,
-                                "flags": 20,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 20,
                                 "end": 22
                             },
                             "right": {

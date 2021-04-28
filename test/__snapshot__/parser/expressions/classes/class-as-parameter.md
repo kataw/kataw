@@ -226,8 +226,8 @@ class A {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 91,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 91,
                                                                                 "end": 93
                                                                             },
                                                                             "right": {

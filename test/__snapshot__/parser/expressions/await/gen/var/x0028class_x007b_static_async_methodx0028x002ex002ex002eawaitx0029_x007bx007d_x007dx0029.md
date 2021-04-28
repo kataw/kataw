@@ -138,14 +138,14 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                     "decorators": null,
                                                                     "staticKeyword": {
                                                                         "kind": 8388716,
-                                                                        "flags": 47,
-                                                                        "start": 512,
+                                                                        "flags": 512,
+                                                                        "start": 47,
                                                                         "end": 54
                                                                     },
                                                                     "asyncKeyword": {
                                                                         "kind": 82031,
-                                                                        "flags": 54,
-                                                                        "start": 512,
+                                                                        "flags": 512,
+                                                                        "start": 54,
                                                                         "end": 60
                                                                     },
                                                                     "setKeyword": null,

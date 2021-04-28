@@ -1092,8 +1092,8 @@ function * x() { "use strict";  yield: 34; }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 525,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 525,
                                     "end": 527
                                 },
                                 "right": {
@@ -1211,8 +1211,8 @@ function * x() { "use strict";  yield: 34; }
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 583,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 583,
                                                 "end": 585
                                             },
                                             "right": {
@@ -1309,8 +1309,8 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 625,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 625,
                                     "end": 628
                                 },
                                 "expression": {
@@ -1393,8 +1393,8 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 127,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 678,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 678,
                                     "end": 680
                                 },
                                 "expression": {
@@ -1578,8 +1578,8 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 770,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 770,
                                         "end": 772
                                     },
                                     "expression": {

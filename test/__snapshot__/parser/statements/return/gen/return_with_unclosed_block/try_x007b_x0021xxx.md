@@ -96,8 +96,8 @@ return {} return(x) { try { !xxx
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 65584,
-                                                "flags": 27,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 27,
                                                 "end": 29
                                             },
                                             "expression": {

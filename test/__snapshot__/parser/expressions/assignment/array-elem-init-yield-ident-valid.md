@@ -213,8 +213,8 @@ result = [ x = yield ] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 57,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 57,
                     "end": 59
                 },
                 "right": {
@@ -236,8 +236,8 @@ result = [ x = yield ] = vals;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 63,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 63,
                                         "end": 65
                                     },
                                     "right": {
@@ -264,8 +264,8 @@ result = [ x = yield ] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 73,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 73,
                         "end": 75
                     },
                     "right": {

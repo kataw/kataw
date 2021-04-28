@@ -90,8 +90,8 @@ type T2 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 38,
-                "start": 512,
+                "flags": 512,
+                "start": 38,
                 "end": 45
             },
             "flags": 32896,
@@ -120,8 +120,8 @@ type T2 = number;
             "typeParameters": null,
             "type": {
                 "kind": 134234345,
-                "flags": 57,
-                "start": 512,
+                "flags": 512,
+                "start": 57,
                 "end": 64
             },
             "flags": 128,

@@ -50,8 +50,8 @@ class x {static *[y](){}}
                         "decorators": null,
                         "staticKeyword": {
                             "kind": 8388716,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 15
                         },
                         "asyncKeyword": null,

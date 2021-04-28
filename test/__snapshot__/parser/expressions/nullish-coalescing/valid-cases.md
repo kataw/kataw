@@ -43,8 +43,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 1,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 1,
                     "end": 4
                 },
                 "right": {
@@ -79,8 +79,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 134251592,
-                        "flags": 10,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 10,
                         "end": 12
                     },
                     "right": {
@@ -97,8 +97,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 14,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 14,
                     "end": 17
                 },
                 "right": {
@@ -113,8 +113,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 134251592,
-                        "flags": 19,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 19,
                         "end": 21
                     },
                     "right": {
@@ -153,8 +153,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 27,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 27,
                         "end": 30
                     },
                     "right": {
@@ -223,8 +223,8 @@ a ?? b ?? c ? d : e;
                         },
                         "operatorToken": {
                             "kind": 33339,
-                            "flags": 45,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 45,
                             "end": 48
                         },
                         "right": {
@@ -245,8 +245,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 51,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 51,
                     "end": 54
                 },
                 "right": {
@@ -281,8 +281,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 60,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 60,
                         "end": 63
                     },
                     "right": {
@@ -299,8 +299,8 @@ a ?? b ?? c ? d : e;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 65,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 65,
                     "end": 68
                 },
                 "right": {
@@ -335,8 +335,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 74,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 74,
                         "end": 77
                     },
                     "right": {
@@ -405,8 +405,8 @@ a ?? b ?? c ? d : e;
                         },
                         "operatorToken": {
                             "kind": 33047,
-                            "flags": 91,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 91,
                             "end": 94
                         },
                         "right": {
@@ -423,8 +423,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 96,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 96,
                         "end": 99
                     },
                     "right": {
@@ -507,8 +507,8 @@ a ?? b ?? c ? d : e;
                         },
                         "operatorToken": {
                             "kind": 33047,
-                            "flags": 127,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 127,
                             "end": 130
                         },
                         "right": {
@@ -525,8 +525,8 @@ a ?? b ?? c ? d : e;
                     },
                     "operatorToken": {
                         "kind": 33047,
-                        "flags": 132,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 132,
                         "end": 135
                     },
                     "right": {

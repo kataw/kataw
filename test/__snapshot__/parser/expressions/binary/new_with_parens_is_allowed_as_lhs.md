@@ -49,8 +49,8 @@ new x() ** 2;
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 7,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 7,
                     "end": 10
                 },
                 "right": {

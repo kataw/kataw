@@ -76,8 +76,8 @@ return return return /false//a
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 28,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 28,
                     "end": 29
                 },
                 "right": {

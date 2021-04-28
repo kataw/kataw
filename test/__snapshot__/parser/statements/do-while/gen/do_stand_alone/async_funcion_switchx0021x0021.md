@@ -72,16 +72,16 @@ do async funcion switch!!
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 23,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 23,
                             "end": 24
                         },
                         "expression": {
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 24,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 24,
                                 "end": 25
                             },
                             "expression": {

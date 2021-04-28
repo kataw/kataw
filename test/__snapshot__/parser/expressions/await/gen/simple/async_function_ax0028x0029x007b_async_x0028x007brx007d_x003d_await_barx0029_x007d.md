@@ -98,8 +98,8 @@ async function a(){     async ({r} = await bar);     }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 34,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 34,
                                             "end": 36
                                         },
                                         "right": {

@@ -49,8 +49,8 @@ async (s: any) => x
                         "kind": 139,
                         "type": {
                             "kind": 134234252,
-                            "flags": 9,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 9,
                             "end": 13
                         },
                         "flags": 0,

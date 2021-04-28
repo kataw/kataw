@@ -72,8 +72,8 @@ async x => ok
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 13,
-                            "start": 513,
+                            "flags": 513,
+                            "start": 13,
                             "end": 15
                         },
                         "right": {
@@ -90,8 +90,8 @@ async x => ok
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 16,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 16,
                         "end": 17
                     },
                     "right": {

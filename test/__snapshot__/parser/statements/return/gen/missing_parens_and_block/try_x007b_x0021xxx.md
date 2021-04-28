@@ -68,8 +68,8 @@ return catch try { !xxx
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 18,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 18,
                                     "end": 20
                                 },
                                 "expression": {

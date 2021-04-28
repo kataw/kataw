@@ -77,14 +77,14 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                 "decorators": null,
                                                 "staticKeyword": {
                                                     "kind": 8388716,
-                                                    "flags": 29,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 29,
                                                     "end": 36
                                                 },
                                                 "asyncKeyword": {
                                                     "kind": 82031,
-                                                    "flags": 36,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 36,
                                                     "end": 42
                                                 },
                                                 "setKeyword": null,

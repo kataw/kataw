@@ -359,8 +359,8 @@ foo ? bar : baz => {};
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 93,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 93,
                                         "end": 95
                                     },
                                     "right": {
@@ -466,8 +466,8 @@ foo ? bar : baz => {};
                                         },
                                         "operatorToken": {
                                             "kind": 34098,
-                                            "flags": 125,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 125,
                                             "end": 127
                                         },
                                         "right": {
@@ -484,8 +484,8 @@ foo ? bar : baz => {};
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 129,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 129,
                                         "end": 131
                                     },
                                     "right": {
@@ -589,8 +589,8 @@ foo ? bar : baz => {};
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 153,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 153,
                                         "end": 155
                                     },
                                     "right": {
@@ -727,8 +727,8 @@ foo ? bar : baz => {};
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 186,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 186,
                         "end": 188
                     },
                     "right": {
@@ -825,8 +825,8 @@ foo ? bar : baz => {};
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 210,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 210,
                         "end": 212
                     },
                     "right": {
@@ -894,8 +894,8 @@ foo ? bar : baz => {};
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 227,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 227,
                         "end": 229
                     },
                     "right": {
@@ -1058,8 +1058,8 @@ foo ? bar : baz => {};
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 268,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 268,
                         "end": 270
                     },
                     "right": {
@@ -1200,8 +1200,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 308,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 308,
                             "end": 310
                         },
                         "right": {
@@ -1306,8 +1306,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 335,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 335,
                                 "end": 336
                             },
                             "right": {
@@ -1324,8 +1324,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 34098,
-                            "flags": 337,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 337,
                             "end": 339
                         },
                         "right": {
@@ -1340,8 +1340,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 67143222,
-                                "flags": 341,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 341,
                                 "end": 342
                             },
                             "right": {
@@ -1436,8 +1436,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 67143222,
-                            "flags": 361,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 361,
                             "end": 363
                         },
                         "right": {
@@ -1454,8 +1454,8 @@ foo ? bar : baz => {};
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 366,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 366,
                                     "end": 368
                                 },
                                 "right": {
@@ -1554,8 +1554,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 67143222,
-                            "flags": 389,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 389,
                             "end": 391
                         },
                         "right": {
@@ -1572,8 +1572,8 @@ foo ? bar : baz => {};
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 394,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 394,
                                     "end": 396
                                 },
                                 "right": {
@@ -1997,8 +1997,8 @@ foo ? bar : baz => {};
                                 },
                                 "operatorToken": {
                                     "kind": 34098,
-                                    "flags": 642,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 642,
                                     "end": 644
                                 },
                                 "right": {
@@ -2120,8 +2120,8 @@ foo ? bar : baz => {};
                                     },
                                     "operatorToken": {
                                         "kind": 34098,
-                                        "flags": 671,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 671,
                                         "end": 673
                                     },
                                     "right": {
@@ -2707,8 +2707,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 925,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 925,
                             "end": 927
                         },
                         "right": {
@@ -2774,8 +2774,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 940,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 940,
                                 "end": 942
                             },
                             "right": {
@@ -2858,8 +2858,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 961,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 961,
                                 "end": 963
                             },
                             "right": {
@@ -2987,8 +2987,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 989,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 989,
                             "end": 991
                         },
                         "right": {
@@ -3062,8 +3062,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1007,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1007,
                                 "end": 1009
                             },
                             "right": {
@@ -3130,8 +3130,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1022,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1022,
                                 "end": 1024
                             },
                             "right": {
@@ -3214,8 +3214,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1043,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1043,
                                 "end": 1045
                             },
                             "right": {
@@ -3298,8 +3298,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1064,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1064,
                                 "end": 1066
                             },
                             "right": {
@@ -3326,8 +3326,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1071,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1071,
                                 "end": 1073
                             },
                             "right": {
@@ -3526,8 +3526,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1117,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1117,
                                 "end": 1119
                             },
                             "right": {
@@ -3625,8 +3625,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1141,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1141,
                                 "end": 1143
                             },
                             "right": {
@@ -3724,8 +3724,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1165,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1165,
                                 "end": 1167
                             },
                             "right": {
@@ -3776,8 +3776,8 @@ foo ? bar : baz => {};
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 1177,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 1177,
                                 "end": 1179
                             },
                             "right": {
@@ -3882,8 +3882,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 1200,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 1200,
                             "end": 1202
                         },
                         "right": {
@@ -3970,8 +3970,8 @@ foo ? bar : baz => {};
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 1218,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 1218,
                             "end": 1220
                         },
                         "right": {
@@ -4123,8 +4123,8 @@ foo ? bar : baz => {};
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 1253,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 1253,
                                         "end": 1255
                                     },
                                     "right": {

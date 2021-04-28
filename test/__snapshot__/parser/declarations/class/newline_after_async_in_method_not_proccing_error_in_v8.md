@@ -129,8 +129,8 @@ class K extends {} {;async\n async *1(){}}
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 34,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 34,
                     "end": 36
                 },
                 "right": {

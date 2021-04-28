@@ -116,8 +116,8 @@ function *P(){
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 34098,
-                                    "flags": 34,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 34,
                                     "end": 36
                                 },
                                 "expression": {

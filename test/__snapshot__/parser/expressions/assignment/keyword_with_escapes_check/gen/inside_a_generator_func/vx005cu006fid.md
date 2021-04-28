@@ -67,8 +67,8 @@ function *f(){
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 14,
-                                        "start": 328193,
+                                        "flags": 328193,
+                                        "start": 14,
                                         "end": 26
                                     },
                                     "expression": {
@@ -84,8 +84,8 @@ function *f(){
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 26,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 26,
                                     "end": 28
                                 },
                                 "right": {

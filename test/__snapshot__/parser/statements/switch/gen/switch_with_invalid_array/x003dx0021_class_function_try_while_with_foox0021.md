@@ -95,8 +95,8 @@ switch [catch] =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 16,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 16,
                     "end": 17
                 },
                 "expression": {
@@ -241,8 +241,8 @@ switch [catch] =! class function try while with foo!
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 51,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 51,
                         "end": 52
                     },
                     "expression": {

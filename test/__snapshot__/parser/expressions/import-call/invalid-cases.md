@@ -1458,8 +1458,8 @@ new import(x);
                 "kind": 126,
                 "operandToken": {
                     "kind": 34098,
-                    "flags": 419,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 419,
                     "end": 420
                 },
                 "expression": {

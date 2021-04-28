@@ -64,8 +64,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 12,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 12,
                                             "end": 19
                                         },
                                         "optionalToken": null,
@@ -98,8 +98,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                     },
                                                     "value": {
                                                         "kind": 134234347,
-                                                        "flags": 23,
-                                                        "start": 512,
+                                                        "flags": 512,
+                                                        "start": 23,
                                                         "end": 30
                                                     },
                                                     "optionalToken": null,

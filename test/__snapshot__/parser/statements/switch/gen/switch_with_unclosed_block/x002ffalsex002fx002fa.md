@@ -92,8 +92,8 @@ switch {} default(x) { /false//a
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 30,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 30,
                                                     "end": 31
                                                 },
                                                 "right": {

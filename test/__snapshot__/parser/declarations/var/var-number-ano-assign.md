@@ -52,8 +52,8 @@ var a: { [a: number]: string; [b: number]: string; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 11,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 11,
                                 "end": 17
                             },
                             "flags": 0,
@@ -122,14 +122,14 @@ var a: { [a: number]: string; [b: number]: string; };
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 46,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 46,
                                             "end": 53
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 55,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 55,
                                             "end": 62
                                         },
                                         "staticToken": false,
@@ -149,14 +149,14 @@ var a: { [a: number]: string; [b: number]: string; };
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 67,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 67,
                                             "end": 74
                                         },
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 76,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 76,
                                             "end": 83
                                         },
                                         "staticToken": false,

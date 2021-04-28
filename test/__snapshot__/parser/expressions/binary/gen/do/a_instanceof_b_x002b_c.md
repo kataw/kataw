@@ -57,8 +57,8 @@ do a instanceof b + c while (x);
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 4,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 4,
                             "end": 15
                         },
                         "right": {
@@ -75,8 +75,8 @@ do a instanceof b + c while (x);
                     },
                     "operatorToken": {
                         "kind": 34098,
-                        "flags": 17,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 17,
                         "end": 19
                     },
                     "right": {

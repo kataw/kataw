@@ -294,8 +294,8 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 207,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 207,
                                 "end": 209
                             },
                             "right": {
