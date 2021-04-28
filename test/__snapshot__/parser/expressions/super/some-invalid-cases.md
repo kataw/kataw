@@ -2251,7 +2251,7 @@ let x = { foo(){ super(); } };
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 621,
             "end": 648
         },
@@ -2338,7 +2338,7 @@ let x = { foo(){ super(); } };
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 649,
             "end": 674
         },
@@ -2426,7 +2426,7 @@ let x = { foo(){ super(); } };
                 "start": 681,
                 "end": 697
             },
-            "flags": 128,
+            "flags": 129,
             "start": 675,
             "end": 698
         },
@@ -2556,8 +2556,8 @@ let x = { foo(){ super(); } };
                 "start": 703,
                 "end": 729
             },
-            "flags": 128,
-            "start": 699,
+            "flags": 699,
+            "start": 129,
             "end": 730
         }
     ],

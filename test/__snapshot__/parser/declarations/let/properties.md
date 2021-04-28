@@ -233,8 +233,8 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                 "start": 3,
                 "end": 31
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 31
         }
     ],

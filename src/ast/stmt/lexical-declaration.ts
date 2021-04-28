@@ -13,6 +13,7 @@ export interface LexicalDeclaration extends SyntaxNode {
 export function createLexicalDeclaration(
   lexicalKeyword: SyntaxToken<TokenSyntaxKind>,
   binding: BindingList,
+  flags: NodeFlags,
   start: number,
   end: number
 ): LexicalDeclaration {
@@ -20,7 +21,7 @@ export function createLexicalDeclaration(
     kind: SyntaxKind.LexicalDeclaration,
     lexicalKeyword,
     binding,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

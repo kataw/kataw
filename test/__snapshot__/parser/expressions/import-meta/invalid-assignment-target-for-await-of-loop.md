@@ -84,8 +84,8 @@ async function* f() {
                                         "start": 37,
                                         "end": 43
                                     },
-                                    "flags": 768,
-                                    "start": 43,
+                                    "flags": 43,
+                                    "start": 768,
                                     "end": 48
                                 },
                                 "flags": 128,

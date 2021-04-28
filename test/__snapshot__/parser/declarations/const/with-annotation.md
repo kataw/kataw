@@ -139,7 +139,7 @@ const {x}: string = y;
                 "start": 23,
                 "end": 27
             },
-            "flags": 128,
+            "flags": 129,
             "start": 16,
             "end": 27
         },
@@ -235,7 +235,7 @@ const {x}: string = y;
                 "start": 47,
                 "end": 50
             },
-            "flags": 128,
+            "flags": 129,
             "start": 40,
             "end": 50
         },
@@ -344,7 +344,7 @@ const {x}: string = y;
                 "start": 78,
                 "end": 82
             },
-            "flags": 128,
+            "flags": 129,
             "start": 71,
             "end": 82
         },

@@ -20,6 +20,7 @@ export function createForInStatement(
   initializer: VariableDeclarationList | BindingList | ExpressionNode | null,
   expression: ExpressionNode,
   statement: StatementNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ForInStatement {
@@ -29,7 +30,7 @@ export function createForInStatement(
     initializer,
     expression,
     statement,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

@@ -85,7 +85,7 @@ async () => {  functi\u006fn = x  }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 327808,
                             "start": 13,
                             "end": 28
                         }

@@ -191,7 +191,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 35,
             "end": 58
         },
@@ -348,7 +348,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 93,
             "end": 116
         },

@@ -85,7 +85,7 @@ async () => {  \u0066unction = x  }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 262272,
                             "start": 13,
                             "end": 28
                         }

@@ -1516,8 +1516,8 @@ new import(x);
                     "start": 434,
                     "end": 442
                 },
-                "flags": 768,
-                "start": 442,
+                "flags": 442,
+                "start": 768,
                 "end": 446
             },
             "flags": 128,
@@ -2089,7 +2089,6 @@ new import(x);
 ✖ Expression expected - start: 420, end: 421
 ✖ Unexpected token. - start: 429, end: 431
 ✖ Statement expected - start: 429, end: 431
-✖ 'import.meta' must not contain escaped characters - start: 443, end: 446
 ✖ Expression expected - start: 458, end: 459
 ✖ Expression expected - start: 459, end: 460
 ✖ Statement expected - start: 459, end: 460

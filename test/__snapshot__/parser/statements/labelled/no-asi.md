@@ -23,8 +23,8 @@ debugger /foo/
                 "start": 0,
                 "end": 8
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 8
         },
         {

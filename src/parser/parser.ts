@@ -491,7 +491,7 @@ function parseDebuggerStatement(parser: ParserState, context: Context): Debugger
   const pos = parser.curPos;
   const debuggerToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.DebuggerKeyword);
   parseSemicolon(parser, context);
-  return createDebuggerStatement(debuggerToken, pos, parser.curPos);
+  return createDebuggerStatement(debuggerToken, pos, (parser.nodeFlags |= NodeFlags.IsStatement), parser.curPos);
 }
 
 function parseEmptyStatement(parser: ParserState, context: Context): EmptyStatement {
@@ -727,6 +727,7 @@ export function parseLabelledStatement(
 function parseForStatement(parser: ParserState, context: Context): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
   const forKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ForKeyword);
+  const flags = (parser.nodeFlags |= NodeFlags.IsStatement);
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
@@ -838,6 +839,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         /* allowFunction */ false
       ),
       awaitKeyword,
+      flags,
       pos,
       parser.curPos
     );
@@ -866,6 +868,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
         /* allowFunction */ false
       ),
+      flags,
       pos,
       parser.curPos
     );
@@ -905,6 +908,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       ((context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000) | Context.InIteration,
       /* allowFunction */ false
     ),
+    flags,
     pos,
     parser.curPos
   );
@@ -2169,9 +2173,18 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
 
 function parseNewExpression(parser: ParserState, context: Context): NewTarget | NewExpression {
   const pos = parser.curPos;
+  const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const newToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.NewKeyword);
+
   if (consumeOpt(parser, context, SyntaxKind.Period)) {
-    if (parser.tokenRaw !== 'target') {
+    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+        parser.curPos,
+        parser.pos
+      );
+    } else if (parser.tokenRaw !== 'target') {
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target],
@@ -2229,9 +2242,18 @@ function parseThisExpression(parser: ParserState, context: Context): ThisExpress
 
 function parseBooleanLiteral(parser: ParserState, context: Context, isTruthy: boolean): BooleanLiteral {
   const curPos = parser.curPos;
+  const flags = parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess;
+  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+      parser.curPos,
+      parser.pos
+    );
+  }
   nextToken(parser, context);
   parser.assignable = false;
-  return createBooleanLiteral(isTruthy ? true : false, curPos, parser.curPos);
+  return createBooleanLiteral(isTruthy ? true : false, flags, curPos, parser.curPos);
 }
 
 function parsePostfixUpdateExpression(
@@ -3271,7 +3293,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
 
 function parseFunctionExpression(parser: ParserState, context: Context): FunctionExpression {
   const pos = parser.curPos;
-
+  const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
 
   if (asyncToken) {
@@ -3332,6 +3354,14 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
 
       return expression;
     }
+    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+        parser.curPos,
+        parser.pos
+      );
+    }
   }
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
@@ -3383,7 +3413,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
     contents,
     typeParameters,
     returnType,
-    NodeFlags.ExpressionNode,
+    flags,
     pos,
     parser.curPos
   );
@@ -3397,6 +3427,7 @@ function parseFunctionDeclaration(
   isDefaultModifier: boolean
 ): FunctionDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
+  const flags = parser.nodeFlags | NodeFlags.IsStatement;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
 
   if (asyncToken) {
@@ -3457,6 +3488,15 @@ function parseFunctionDeclaration(
       parser.assignable = true;
       expression = parseExpressionRest(parser, context, expression, pos);
       return parseExpressionStatement(parser, context, expression, pos);
+    }
+
+    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+        parser.curPos,
+        parser.pos
+      );
     }
   }
 
@@ -3534,7 +3574,7 @@ function parseFunctionDeclaration(
     contents,
     typeParameters,
     returnType,
-    NodeFlags.IsStatement,
+    flags,
     pos,
     parser.curPos
   );
@@ -4611,6 +4651,17 @@ function parseLetAsIdentifierOrLexicalDeclaration(
   context: Context
 ): LexicalDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
+  const flags = parser.nodeFlags | NodeFlags.IsStatement;
+
+  if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
   if (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier)) {
     const declarationList = parseBindingList(parser, context, /* isConst */ false, /* isForStatement */ false);
@@ -4619,6 +4670,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       createToken(SyntaxKind.LetKeyword, pos, expr.end),
       declarationList,
       pos,
+      flags,
       parser.curPos
     );
   }
@@ -4650,10 +4702,11 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 
 function parseLexicalDeclaration(parser: ParserState, context: Context, isConst: boolean): LexicalDeclaration {
   const pos = parser.curPos;
+  const flags = parser.nodeFlags | NodeFlags.IsStatement;
   const lexicalToken = consumeToken(parser, context, isConst ? SyntaxKind.ConstKeyword : SyntaxKind.LetKeyword);
   const declarationList = parseBindingList(parser, context, isConst, /* inForStatement */ false);
   parseSemicolon(parser, context);
-  return createLexicalDeclaration(lexicalToken, declarationList, pos, parser.curPos);
+  return createLexicalDeclaration(lexicalToken, declarationList, flags, pos, parser.curPos);
 }
 
 function parseBindingList(

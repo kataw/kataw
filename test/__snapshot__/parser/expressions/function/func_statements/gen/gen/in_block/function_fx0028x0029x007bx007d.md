@@ -70,7 +70,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 128,
+                        "flags": 129,
                         "start": 1,
                         "end": 18
                     }

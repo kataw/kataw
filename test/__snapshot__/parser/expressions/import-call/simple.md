@@ -25,8 +25,8 @@ import.call
                     "start": 0,
                     "end": 6
                 },
-                "flags": 768,
-                "start": 6,
+                "flags": 6,
+                "start": 768,
                 "end": 11
             },
             "flags": 128,
@@ -52,7 +52,6 @@ import.call
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' must not contain escaped characters - start: 7, end: 11
 ✖ Cannot use 'import.meta' outside a module - start: 11, end: 11
 
 ```

@@ -320,7 +320,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 14,
             "end": 138
         },
@@ -558,7 +558,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 138,
             "end": 262
         },
@@ -812,7 +812,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 262,
             "end": 445
         },
@@ -1066,7 +1066,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 445,
             "end": 628
         },

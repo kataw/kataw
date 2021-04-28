@@ -62,8 +62,8 @@ let {} = 0
                 "start": 3,
                 "end": 10
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 10
         }
     ],

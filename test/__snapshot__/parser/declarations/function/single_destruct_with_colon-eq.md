@@ -108,8 +108,8 @@ let {a:=c} = z;
                 "start": 3,
                 "end": 14
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 15
         }
     ],

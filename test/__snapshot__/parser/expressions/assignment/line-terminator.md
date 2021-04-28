@@ -79,7 +79,7 @@ true;
                 "right": {
                     "kind": 134,
                     "text": true,
-                    "flags": 768,
+                    "flags": 769,
                     "start": 12,
                     "end": 17
                 },

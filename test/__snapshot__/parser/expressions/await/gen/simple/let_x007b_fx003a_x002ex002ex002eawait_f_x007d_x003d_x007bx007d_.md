@@ -126,8 +126,8 @@ let { f: ...await f } = {};
                 "start": 3,
                 "end": 26
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 27
         }
     ],

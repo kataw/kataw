@@ -122,7 +122,8 @@ export const enum DiagnosticCode {
   _and_operations_cannot_be_mixed_without_parentheses = 120,
   _import_meta_must_not_contain_escaped_characters = 121,
   Escape_sequence_in_keyword_import = 122,
-  The_only_valid_meta_property_for_new_is_new_target = 123
+  The_only_valid_meta_property_for_new_is_new_target = 123,
+  Invalid_escaped_keyword = 124
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -246,5 +247,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [120]: "'&&' and '??' operations cannot be mixed without parentheses",
   [121]: "'import.meta' must not contain escaped characters",
   [122]: 'Escape sequence in keyword import',
-  [123]: "The only valid meta property for new is 'new.target"
+  [123]: "The only valid meta property for new is 'new.target",
+  [124]: 'Invalid escaped keyword'
 };

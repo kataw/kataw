@@ -222,8 +222,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                 "start": 3,
                 "end": 70
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 71
         }
     ],

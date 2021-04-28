@@ -57,8 +57,8 @@ class debugger {}
                 "start": 5,
                 "end": 14
             },
-            "flags": 128,
-            "start": 5,
+            "flags": 5,
+            "start": 128,
             "end": 14
         },
         {

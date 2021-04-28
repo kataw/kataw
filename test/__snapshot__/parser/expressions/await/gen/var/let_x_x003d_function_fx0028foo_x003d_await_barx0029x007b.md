@@ -236,8 +236,8 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                     "start": 42,
                                                     "end": 77
                                                 },
-                                                "flags": 128,
-                                                "start": 38,
+                                                "flags": 38,
+                                                "start": 128,
                                                 "end": 77
                                             }
                                         ],

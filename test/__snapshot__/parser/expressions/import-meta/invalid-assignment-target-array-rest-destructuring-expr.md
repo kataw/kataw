@@ -48,8 +48,8 @@
                                             "start": 4,
                                             "end": 10
                                         },
-                                        "flags": 768,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "start": 768,
                                         "end": 15
                                     },
                                     "flags": 128,

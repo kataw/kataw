@@ -94,7 +94,7 @@ class C { test() {get #a() { }}}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 8,
             "end": 22
         },
@@ -178,7 +178,7 @@ class C { test() {get #a() { }}}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 37,
             "end": 51
         },

@@ -27,95 +27,32 @@ class let {}
             },
             "name": {
                 "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "text": "let",
+                "rawText": "let",
                 "flags": 768,
                 "start": 5,
-                "end": 7
+                "end": 9
             },
             "typeParameters": null,
             "classHeritage": null,
             "members": {
                 "kind": 277,
-                "elements": [
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 194,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 768,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "flags": 256,
-                            "start": 9,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 9,
-                        "end": 12
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "z",
-                            "rawText": "z",
-                            "flags": 768,
-                            "start": 12,
-                            "end": 13
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 256,
-                        "start": 12,
-                        "end": 13
-                    }
-                ],
+                "elements": [],
                 "flags": 256,
-                "start": 9,
-                "end": 13
+                "start": 11,
+                "end": 12
             },
             "flags": 128,
             "start": 0,
-            "end": 13
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "multiLine": false,
-                "flags": 128,
-                "start": 15,
-                "end": 15
-            },
-            "flags": 128,
-            "start": 14,
-            "end": 16
+            "end": 12
         }
     ],
     "isModule": false,
-    "text": "class x {[x]z){}}",
+    "text": "class let {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 17
+    "end": 12
 }
 ```
 
@@ -128,8 +65,6 @@ class let {}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 13, end: 14
-✖ Statement expected - start: 16, end: 17
-
+✔ No errors
 ```
 

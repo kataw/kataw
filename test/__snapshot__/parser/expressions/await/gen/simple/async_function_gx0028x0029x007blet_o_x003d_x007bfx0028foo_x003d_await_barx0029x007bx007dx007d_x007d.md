@@ -188,8 +188,8 @@ async function g(){let o = {f(foo = await bar){}}    }
                                 "start": 22,
                                 "end": 49
                             },
-                            "flags": 128,
-                            "start": 19,
+                            "flags": 19,
+                            "start": 128,
                             "end": 49
                         }
                     ],

@@ -373,7 +373,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 46,
             "end": 74
         },
@@ -581,7 +581,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 74,
             "end": 138
         },
@@ -776,7 +776,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 138,
             "end": 194
         },
@@ -952,7 +952,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 194,
             "end": 238
         },
@@ -1131,7 +1131,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 238,
             "end": 290
         },
@@ -1318,7 +1318,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 290,
             "end": 338
         },
@@ -1519,7 +1519,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 338,
             "end": 387
         },
@@ -1718,7 +1718,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 387,
             "end": 437
         },
@@ -1901,7 +1901,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 437,
             "end": 483
         },
@@ -2086,7 +2086,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 483,
             "end": 541
         },
@@ -2305,7 +2305,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 541,
             "end": 589
         },
@@ -2551,7 +2551,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 589,
             "end": 649
         },
@@ -2766,7 +2766,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 649,
             "end": 702
         },
@@ -2984,7 +2984,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 702,
             "end": 763
         },
@@ -3168,7 +3168,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 763,
             "end": 818
         },
@@ -3358,7 +3358,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 818,
             "end": 871
         },
@@ -3537,7 +3537,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 871,
             "end": 919
         },
@@ -3716,7 +3716,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 919,
             "end": 980
         },
@@ -3945,7 +3945,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 980,
             "end": 1042
         },
@@ -4148,7 +4148,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 1042,
             "end": 1085
         },
@@ -4287,7 +4287,7 @@ function f({x:arg = (arg = 2)}) {}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 1085,
             "end": 1121
         }

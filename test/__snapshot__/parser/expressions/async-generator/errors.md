@@ -196,7 +196,7 @@ async function * gen() {class C extends await { }}
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 3328,
+                        "flags": 3329,
                         "start": 15,
                         "end": 51
                     }
@@ -319,7 +319,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 51,
             "end": 92
         },
@@ -433,7 +433,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 92,
             "end": 133
         },
@@ -554,7 +554,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 133,
             "end": 184
         },
@@ -675,7 +675,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 184,
             "end": 235
         },
@@ -782,7 +782,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 235,
             "end": 281
         },
@@ -889,7 +889,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 281,
             "end": 327
         },
@@ -1017,7 +1017,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 327,
             "end": 500
         },
@@ -1145,7 +1145,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 500,
             "end": 556
         },
@@ -1281,7 +1281,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 556,
             "end": 687
         },
@@ -1428,7 +1428,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 687,
             "end": 746
         },
@@ -1564,7 +1564,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 746,
             "end": 803
         },
@@ -1711,7 +1711,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 803,
             "end": 862
         },
@@ -1811,7 +1811,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 862,
             "end": 898
         },
@@ -1915,7 +1915,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 898,
             "end": 934
         },
@@ -2046,7 +2046,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 934,
             "end": 980
         },
@@ -2181,7 +2181,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 980,
             "end": 1026
         },
@@ -2273,7 +2273,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1026,
             "end": 1060
         },
@@ -2369,7 +2369,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1060,
             "end": 1094
         },
@@ -2467,7 +2467,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1094,
             "end": 1128
         },
@@ -2563,7 +2563,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1128,
             "end": 1162
         },
@@ -2654,7 +2654,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1162,
             "end": 1195
         },
@@ -2751,7 +2751,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1195,
             "end": 1230
         },
@@ -2872,7 +2872,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1230,
             "end": 1372
         },
@@ -2952,7 +2952,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1372,
             "end": 1402
         },
@@ -3080,7 +3080,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1407,
             "end": 1446
         },
@@ -3187,7 +3187,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1446,
             "end": 1528
         },
@@ -3279,7 +3279,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1528,
             "end": 1561
         },
@@ -3378,7 +3378,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1561,
             "end": 1596
         },
@@ -3458,7 +3458,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1596,
             "end": 1683
         },
@@ -3572,7 +3572,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1688,
             "end": 1854
         },
@@ -3709,7 +3709,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1868,
             "end": 1898
         },
@@ -3964,7 +3964,7 @@ async function * gen() {class C extends await { }}
                                     },
                                     "typeParameters": null,
                                     "returnType": null,
-                                    "flags": 3328,
+                                    "flags": 3329,
                                     "start": 1957,
                                     "end": 2091
                                 },
@@ -4116,7 +4116,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2091,
                             "end": 2136
                         },
@@ -4289,7 +4289,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2136,
                             "end": 2189
                         },
@@ -4462,7 +4462,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2189,
                             "end": 2242
                         },
@@ -4592,7 +4592,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2242,
                             "end": 2283
                         },
@@ -4726,7 +4726,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2283,
                             "end": 2324
                         },
@@ -4892,7 +4892,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2324,
                             "end": 2373
                         },
@@ -5062,7 +5062,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2373,
                             "end": 2422
                         },
@@ -5198,7 +5198,7 @@ async function * gen() {class C extends await { }}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 3200,
+                            "flags": 3201,
                             "start": 2422,
                             "end": 2517
                         }
@@ -5214,7 +5214,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 1927,
             "end": 2517
         },
@@ -5379,7 +5379,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2527,
             "end": 2565
         },
@@ -5558,7 +5558,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2575,
             "end": 2619
         },
@@ -5757,7 +5757,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2631,
             "end": 2675
         },
@@ -5943,7 +5943,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2687,
             "end": 2731
         },
@@ -6078,7 +6078,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2731,
             "end": 2775
         },
@@ -6251,7 +6251,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2775,
             "end": 2827
         },
@@ -6422,7 +6422,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2827,
             "end": 2879
         },
@@ -6536,7 +6536,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2879,
             "end": 2927
         },
@@ -6648,7 +6648,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2927,
             "end": 2975
         },
@@ -6763,7 +6763,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 2975,
             "end": 3023
         },
@@ -6876,7 +6876,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3023,
             "end": 3071
         },
@@ -7017,7 +7017,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3071,
             "end": 3125
         },
@@ -7156,7 +7156,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3125,
             "end": 3179
         },
@@ -7292,7 +7292,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3179,
             "end": 3230
         },
@@ -7432,7 +7432,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3233,
             "end": 3284
         },
@@ -7569,7 +7569,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3287,
             "end": 3338
         },
@@ -7698,7 +7698,7 @@ async function * gen() {class C extends await { }}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 3200,
+            "flags": 3201,
             "start": 3338,
             "end": 3389
         }

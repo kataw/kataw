@@ -50,8 +50,8 @@ async () => {  debugge\u0072 = x  }
                                 "start": 13,
                                 "end": 28
                             },
-                            "flags": 128,
-                            "start": 13,
+                            "flags": 13,
+                            "start": 128,
                             "end": 28
                         }
                     ],

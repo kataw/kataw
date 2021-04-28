@@ -119,5 +119,6 @@
   "'&&' and '??' operations cannot be mixed without parentheses": 120,
   "'import.meta' must not contain escaped characters": 121,
   "Escape sequence in keyword import": 122,
-  "The only valid meta property for new is 'new.target": 123
+  "The only valid meta property for new is 'new.target": 123,
+  "Invalid escaped keyword": 124
 }

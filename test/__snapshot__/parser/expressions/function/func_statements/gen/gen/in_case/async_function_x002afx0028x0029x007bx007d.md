@@ -112,7 +112,7 @@ switch (x) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3200,
+                                "flags": 3201,
                                 "start": 24,
                                 "end": 50
                             }

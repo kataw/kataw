@@ -224,7 +224,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 129,
                                             "start": 41,
                                             "end": 56
                                         },
@@ -272,7 +272,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 129,
                                             "start": 56,
                                             "end": 71
                                         },
@@ -325,7 +325,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 1152,
+                                            "flags": 1153,
                                             "start": 71,
                                             "end": 93
                                         },
@@ -372,7 +372,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 129,
                                             "start": 93,
                                             "end": 104
                                         },
@@ -474,7 +474,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 129,
                                             "start": 111,
                                             "end": 126
                                         },
@@ -555,7 +555,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 129,
                                             "start": 129,
                                             "end": 142
                                         },
@@ -730,7 +730,7 @@ async function f(){}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 129,
                             "start": 26,
                             "end": 176
                         },
@@ -820,7 +820,7 @@ async function f(){}
                                                     },
                                                     "typeParameters": null,
                                                     "returnType": null,
-                                                    "flags": 256,
+                                                    "flags": 257,
                                                     "start": 192,
                                                     "end": 208
                                                 },
@@ -876,7 +876,7 @@ async function f(){}
                                             },
                                             "typeParameters": null,
                                             "returnType": null,
-                                            "flags": 128,
+                                            "flags": 129,
                                             "start": 208,
                                             "end": 222
                                         },
@@ -951,7 +951,7 @@ async function f(){}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 128,
+                            "flags": 129,
                             "start": 176,
                             "end": 237
                         }
@@ -967,7 +967,7 @@ async function f(){}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 11,
             "end": 237
         }

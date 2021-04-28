@@ -4,11 +4,11 @@ export interface BooleanLiteral extends SyntaxNode {
   readonly text: boolean;
 }
 
-export function createBooleanLiteral(text: boolean, start: number, end: number): BooleanLiteral {
+export function createBooleanLiteral(text: boolean, flags: NodeFlags, start: number, end: number): BooleanLiteral {
   return {
     kind: SyntaxKind.BooleanLiteral,
     text,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags,
     start,
     end
   };

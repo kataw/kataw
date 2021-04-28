@@ -107,8 +107,8 @@ function* g() { let x = yield 3; }
                                 "start": 19,
                                 "end": 31
                             },
-                            "flags": 128,
-                            "start": 15,
+                            "flags": 15,
+                            "start": 128,
                             "end": 32
                         }
                     ],

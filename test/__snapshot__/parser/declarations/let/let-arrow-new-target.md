@@ -77,8 +77,8 @@ let y = () => new.target
                 "start": 3,
                 "end": 24
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 24
         }
     ],

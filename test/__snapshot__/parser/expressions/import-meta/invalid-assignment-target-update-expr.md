@@ -39,8 +39,8 @@ import.meta++;
                         "start": 0,
                         "end": 6
                     },
-                    "flags": 768,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 768,
                     "end": 11
                 },
                 "flags": 256,

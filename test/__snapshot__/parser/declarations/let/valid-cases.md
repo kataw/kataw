@@ -61,8 +61,8 @@ let {foo=3} = {};
                 "start": 3,
                 "end": 7
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 8
         },
         {
@@ -105,8 +105,8 @@ let {foo=3} = {};
                 "start": 12,
                 "end": 20
             },
-            "flags": 128,
-            "start": 8,
+            "flags": 8,
+            "start": 129,
             "end": 21
         },
         {
@@ -189,8 +189,8 @@ let {foo=3} = {};
                 "start": 25,
                 "end": 37
             },
-            "flags": 128,
-            "start": 21,
+            "flags": 21,
+            "start": 129,
             "end": 38
         },
         {
@@ -287,8 +287,8 @@ let {foo=3} = {};
                 "start": 42,
                 "end": 59
             },
-            "flags": 128,
-            "start": 38,
+            "flags": 38,
+            "start": 129,
             "end": 60
         },
         {
@@ -369,8 +369,8 @@ let {foo=3} = {};
                 "start": 64,
                 "end": 77
             },
-            "flags": 128,
-            "start": 60,
+            "flags": 60,
+            "start": 129,
             "end": 78
         }
     ],

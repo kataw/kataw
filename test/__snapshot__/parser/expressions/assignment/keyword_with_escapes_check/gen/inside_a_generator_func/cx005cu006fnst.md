@@ -74,7 +74,7 @@ function *f(){
                                 "start": 27,
                                 "end": 27
                             },
-                            "flags": 128,
+                            "flags": 327809,
                             "start": 14,
                             "end": 27
                         }

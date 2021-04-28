@@ -106,7 +106,7 @@ async function x() {}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1152,
+                            "flags": 1153,
                             "start": 20,
                             "end": 43
                         }

@@ -145,7 +145,7 @@ function *foo() {
                                 "start": 25,
                                 "end": 44
                             },
-                            "flags": 128,
+                            "flags": 129,
                             "start": 17,
                             "end": 45
                         },

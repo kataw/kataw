@@ -129,8 +129,8 @@ let {x : y, z} = obj;
                 "start": 3,
                 "end": 20
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 21
         }
     ],

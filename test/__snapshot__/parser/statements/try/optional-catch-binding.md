@@ -205,8 +205,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "start": 59,
                                 "end": 61
                             },
-                            "flags": 128,
-                            "start": 55,
+                            "flags": 55,
+                            "start": 128,
                             "end": 62
                         }
                     ],
@@ -266,8 +266,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "start": 76,
                                     "end": 78
                                 },
-                                "flags": 128,
-                                "start": 72,
+                                "flags": 72,
+                                "start": 128,
                                 "end": 79
                             }
                         ],
@@ -336,8 +336,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "start": 92,
                                 "end": 94
                             },
-                            "flags": 128,
-                            "start": 88,
+                            "flags": 88,
+                            "start": 128,
                             "end": 95
                         }
                     ],
@@ -397,8 +397,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "start": 109,
                                     "end": 111
                                 },
-                                "flags": 128,
-                                "start": 105,
+                                "flags": 105,
+                                "start": 128,
                                 "end": 112
                             }
                         ],
@@ -459,8 +459,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "start": 128,
                                 "end": 130
                             },
-                            "flags": 128,
-                            "start": 124,
+                            "flags": 124,
+                            "start": 128,
                             "end": 131
                         }
                     ],
@@ -728,8 +728,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "start": 230,
                                 "end": 232
                             },
-                            "flags": 128,
-                            "start": 226,
+                            "flags": 226,
+                            "start": 128,
                             "end": 233
                         }
                     ],
@@ -789,8 +789,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "start": 247,
                                     "end": 249
                                 },
-                                "flags": 128,
-                                "start": 243,
+                                "flags": 243,
+                                "start": 128,
                                 "end": 250
                             }
                         ],
@@ -926,8 +926,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                     "start": 284,
                                                     "end": 286
                                                 },
-                                                "flags": 128,
-                                                "start": 280,
+                                                "flags": 280,
+                                                "start": 128,
                                                 "end": 287
                                             }
                                         ],
@@ -987,8 +987,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "start": 301,
                                                         "end": 303
                                                     },
-                                                    "flags": 128,
-                                                    "start": 297,
+                                                    "flags": 297,
+                                                    "start": 128,
                                                     "end": 304
                                                 }
                                             ],
@@ -1049,8 +1049,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                     "start": 320,
                                                     "end": 322
                                                 },
-                                                "flags": 128,
-                                                "start": 316,
+                                                "flags": 316,
+                                                "start": 128,
                                                 "end": 323
                                             }
                                         ],
@@ -1166,8 +1166,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "start": 353,
                                                 "end": 355
                                             },
-                                            "flags": 128,
-                                            "start": 349,
+                                            "flags": 349,
+                                            "start": 128,
                                             "end": 356
                                         }
                                     ],
@@ -1227,8 +1227,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                     "start": 370,
                                                     "end": 372
                                                 },
-                                                "flags": 128,
-                                                "start": 366,
+                                                "flags": 366,
+                                                "start": 128,
                                                 "end": 373
                                             }
                                         ],
@@ -1289,8 +1289,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "start": 389,
                                                 "end": 391
                                             },
-                                            "flags": 128,
-                                            "start": 385,
+                                            "flags": 385,
+                                            "start": 128,
                                             "end": 392
                                         }
                                     ],
@@ -1319,7 +1319,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 327,
             "end": 396
         }

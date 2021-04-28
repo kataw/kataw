@@ -1425,7 +1425,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 636,
             "end": 683
         },
@@ -1497,7 +1497,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 683,
             "end": 725
         },
@@ -1613,7 +1613,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 2177,
             "start": 732,
             "end": 775
         },
@@ -1697,7 +1697,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2176,
+            "flags": 2177,
             "start": 775,
             "end": 813
         },

@@ -80,7 +80,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 3200,
+                        "flags": 3201,
                         "start": 1,
                         "end": 25
                     }

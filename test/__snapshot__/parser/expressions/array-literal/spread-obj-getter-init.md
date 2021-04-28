@@ -114,8 +114,8 @@ var callCount = 0;
                 "start": 3,
                 "end": 20
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 21
         },
         {
@@ -157,8 +157,8 @@ var callCount = 0;
                 "start": 25,
                 "end": 48
             },
-            "flags": 128,
-            "start": 21,
+            "flags": 21,
+            "start": 129,
             "end": 49
         },
         {

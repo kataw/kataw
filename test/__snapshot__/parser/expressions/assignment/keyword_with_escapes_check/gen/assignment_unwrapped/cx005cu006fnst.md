@@ -34,7 +34,7 @@ c\u006fnst = x;
                 "start": 10,
                 "end": 10
             },
-            "flags": 128,
+            "flags": 327808,
             "start": 0,
             "end": 10
         },

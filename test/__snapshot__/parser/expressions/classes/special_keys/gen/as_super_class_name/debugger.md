@@ -77,8 +77,8 @@ class x extends debugger {}
                 "start": 15,
                 "end": 24
             },
-            "flags": 128,
-            "start": 15,
+            "flags": 15,
+            "start": 128,
             "end": 24
         },
         {

@@ -136,8 +136,8 @@ let x = async function f(foo = await){}
                 "start": 3,
                 "end": 39
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 39
         }
     ],

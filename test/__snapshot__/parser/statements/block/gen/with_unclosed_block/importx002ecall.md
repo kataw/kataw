@@ -114,8 +114,8 @@
                                 "start": 17,
                                 "end": 24
                             },
-                            "flags": 768,
-                            "start": 24,
+                            "flags": 24,
+                            "start": 768,
                             "end": 29
                         },
                         "flags": 128,
@@ -152,7 +152,6 @@
 
 ```javascript
 ✖ Statement expected - start: 14, end: 15
-✖ 'import.meta' must not contain escaped characters - start: 25, end: 29
 ✖ Cannot use 'import.meta' outside a module - start: 29, end: 29
 
 ```

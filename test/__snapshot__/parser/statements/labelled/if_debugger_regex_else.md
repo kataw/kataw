@@ -77,8 +77,8 @@ function x(){
                                     "start": 22,
                                     "end": 35
                                 },
-                                "flags": 128,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 129,
                                 "end": 35
                             },
                             "elseKeyword": null,

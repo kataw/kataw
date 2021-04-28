@@ -62,7 +62,7 @@
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 262272,
             "start": 0,
             "end": 13
         },

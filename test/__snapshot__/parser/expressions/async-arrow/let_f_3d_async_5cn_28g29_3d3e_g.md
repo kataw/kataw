@@ -86,8 +86,8 @@ let f = async
                 "start": 3,
                 "end": 23
             },
-            "flags": 128,
-            "start": 0,
+            "flags": 0,
+            "start": 128,
             "end": 23
         }
     ],

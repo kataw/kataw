@@ -161,7 +161,7 @@ type T = <
                 "start": 42,
                 "end": 44
             },
-            "flags": 128,
+            "flags": 129,
             "start": 35,
             "end": 44
         },
@@ -327,7 +327,7 @@ type T = <
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 99,
             "end": 113
         },
@@ -603,7 +603,7 @@ type T = <
                 "start": 267,
                 "end": 269
             },
-            "flags": 128,
+            "flags": 129,
             "start": 260,
             "end": 269
         },
@@ -769,7 +769,7 @@ type T = <
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 128,
+            "flags": 129,
             "start": 330,
             "end": 344
         },
