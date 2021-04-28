@@ -55,7 +55,6 @@ export async function autogen(files: string[], conservative: boolean) {
       report('missing required parts of autogen' + obj.file);
     }
 
-
     const cases = obj.data
       .slice(caseOffset + Constants.Cases.length, templateOffset)
       .split('> `````js\n')
@@ -65,7 +64,7 @@ export async function autogen(files: string[], conservative: boolean) {
           .split('\n> `````')[0]
           .split('\n')
           .map((s: any) => {
-            if(s[0] === '>' && s[1] === ' ') {
+            if (s[0] === '>' && s[1] === ' ') {
               report('cases should be md quoted entirely, with one space' + obj.file);
             }
             return s.slice(2);
@@ -82,7 +81,7 @@ export async function autogen(files: string[], conservative: boolean) {
       .map((s: any) => s.trim())
       .filter((s: any) => s[0] === '-')
       .reduce((obj: any, s: any) => {
-        if(s[1] === ' ' && s[2] === '`' && s[s.length - 1] === '`') {
+        if (s[1] === ' ' && s[2] === '`' && s[s.length - 1] === '`') {
           report('param composition' + obj.file);
         }
         let [k, v] = s.slice(2, -1).split(' = ');

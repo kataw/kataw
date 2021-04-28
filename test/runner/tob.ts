@@ -15,7 +15,7 @@ export interface Tob {
   $printed?: any;
   diagnostics?: any;
   $diagnostics?: any;
-  isMatched?: boolean;
+  misMatchItems?: string[];
 }
 
 export function updateTob(tob: any, updateItems: any): void {
@@ -37,7 +37,8 @@ export async function file2Tob(filename: string): Promise<Tob> {
     printerOptions: md2printerOptions(content),
     cst: md2cst(content),
     printed: md2printed(content),
-    diagnostics: md2diagnostics(content)
+    diagnostics: md2diagnostics(content),
+    misMatchItems: []
   };
   const diagnostics: any[] = [];
   const cb = function (...args: any[]) {
@@ -47,7 +48,11 @@ export async function file2Tob(filename: string): Promise<Tob> {
   tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
   tob.$diagnostics = diagnostics2md(diagnostics);
-  tob.isMatched = isMatchedTob(tob);
+
+  !deepEqual(tob.cst, tob.$cst) && tob.misMatchItems!.push('cst');
+  !deepEqual(tob.printed, tob.$printed) && tob.misMatchItems!.push('printed');
+  !deepEqual(tob.diagnostics, tob.$diagnostics) && tob.misMatchItems!.push('diagnostics');
+
   return tob;
 }
 
