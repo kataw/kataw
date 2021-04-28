@@ -22,7 +22,6 @@ export function createForStatement(
   condition: ExpressionNode | null,
   incrementor: ExpressionNode | null,
   statement: StatementNode,
-  flags: NodeFlags,
   start: number,
   end: number
 ): ForStatement {
@@ -33,7 +32,7 @@ export function createForStatement(
     condition,
     incrementor,
     statement,
-    flags,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };

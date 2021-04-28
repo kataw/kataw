@@ -1,6 +1,5 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { nextToken } from './scanner/scanner';
-import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic';
 import { TokenSyntaxKind, createToken } from '../ast/token';
 
@@ -104,8 +103,9 @@ export function consumeOptToken<T extends TokenSyntaxKind>(parser: ParserState, 
   if (parser.token === token) {
     const pos = parser.curPos;
     const kind = parser.token;
+    const flags = parser.nodeFlags;
     nextToken(parser, context);
-    return createToken(kind, pos, parser.curPos);
+    return createToken(kind, pos, flags | NodeFlags.ChildLess, parser.curPos);
   }
   return null;
 }
@@ -113,9 +113,10 @@ export function consumeOptToken<T extends TokenSyntaxKind>(parser: ParserState, 
 export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): any {
   const pos = parser.curPos;
   const kind = parser.token;
+  const flags = parser.nodeFlags;
   if (parser.token === token) {
     nextToken(parser, context);
-    return createToken(kind, pos, parser.curPos);
+    return createToken(kind, pos, flags, parser.curPos);
   }
   //parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   nextToken(parser, context);

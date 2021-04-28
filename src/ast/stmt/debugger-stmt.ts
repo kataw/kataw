@@ -10,14 +10,13 @@ export interface DebuggerStatement extends SyntaxNode {
 
 export function createDebuggerStatement(
   debuggerKeyword: SyntaxToken<TokenSyntaxKind>,
-  flags: NodeFlags,
   start: number,
   end: number
 ): DebuggerStatement {
   return {
     kind: SyntaxKind.DebuggerStatement,
     debuggerKeyword,
-    flags,
+    flags: NodeFlags.IsStatement,
     start,
     end
   };

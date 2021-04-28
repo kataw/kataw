@@ -113,10 +113,15 @@ export type TokenSyntaxKind =
   | SyntaxKind.AsyncKeyword
   | SyntaxKind.Identifier;
 
-export function createToken<T extends TokenSyntaxKind>(tokenKind: T, start: number, end: number): SyntaxToken<T> {
+export function createToken<T extends TokenSyntaxKind>(
+  tokenKind: T,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): SyntaxToken<T> {
   return {
     kind: tokenKind,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags,
     start,
     end
   };
