@@ -43,8 +43,8 @@ return async try while { catch } return
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 12,
-                "start": 0,
+                "flags": 0,
+                "start": 12,
                 "end": 16
             },
             "block": {
@@ -109,8 +109,8 @@ return async try while { catch } return
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 32,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 32,
                                 "end": 39
                             },
                             "expression": null,

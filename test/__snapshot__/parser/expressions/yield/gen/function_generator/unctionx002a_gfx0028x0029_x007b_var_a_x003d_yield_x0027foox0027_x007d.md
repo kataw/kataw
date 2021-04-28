@@ -31,8 +31,8 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -148,8 +148,8 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "declareKeyword": null,
                                                         "varKeyword": {
                                                             "kind": 37757002,
-                                                            "flags": 55,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 55,
                                                             "end": 59
                                                         },
                                                         "declarationList": {

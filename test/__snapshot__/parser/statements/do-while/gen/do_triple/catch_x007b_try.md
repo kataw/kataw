@@ -39,8 +39,8 @@ do do do catch { try while while while
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
@@ -55,8 +55,8 @@ do do do catch { try while while while
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 8
                     },
                     "expression": {
@@ -79,8 +79,8 @@ do do do catch { try while while while
                                         "kind": 159,
                                         "tryKeyword": {
                                             "kind": 37757027,
-                                            "flags": 16,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 16,
                                             "end": 20
                                         },
                                         "block": {
@@ -121,8 +121,8 @@ do do do catch { try while while while
                                         "kind": 154,
                                         "whileKeyword": {
                                             "kind": 37757028,
-                                            "flags": 26,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 26,
                                             "end": 32
                                         },
                                         "expression": {
@@ -136,8 +136,8 @@ do do do catch { try while while while
                                             "kind": 154,
                                             "whileKeyword": {
                                                 "kind": 37757028,
-                                                "flags": 32,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 32,
                                                 "end": 38
                                             },
                                             "expression": {

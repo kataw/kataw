@@ -132,8 +132,8 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 35,
-                "start": 1,
+                "flags": 1,
+                "start": 35,
                 "end": 42
             },
             "binding": {
@@ -289,8 +289,8 @@ type T = <
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 99,
-                "start": 1,
+                "flags": 1,
+                "start": 99,
                 "end": 109
             },
             "generatorToken": null,
@@ -327,7 +327,7 @@ type T = <
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 99,
             "end": 113
         },
@@ -474,8 +474,8 @@ type T = <
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 213,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 213,
                         "end": 216
                     },
                     "typeParameters": {
@@ -574,8 +574,8 @@ type T = <
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 260,
-                "start": 1,
+                "flags": 1,
+                "start": 260,
                 "end": 267
             },
             "binding": {
@@ -731,8 +731,8 @@ type T = <
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 330,
-                "start": 1,
+                "flags": 1,
+                "start": 330,
                 "end": 340
             },
             "generatorToken": null,
@@ -769,7 +769,7 @@ type T = <
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 330,
             "end": 344
         },
@@ -916,8 +916,8 @@ type T = <
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 455,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 455,
                         "end": 458
                     },
                     "typeParameters": {

@@ -77,8 +77,8 @@ class C { aaa=()=>0 }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 16,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 16,
                                 "end": 18
                             },
                             "typeParameters": null,

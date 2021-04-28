@@ -55,8 +55,8 @@
                                                 "kind": 208,
                                                 "awaitToken": {
                                                     "kind": 82032,
-                                                    "flags": 14,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 14,
                                                     "end": 20
                                                 },
                                                 "expression": {

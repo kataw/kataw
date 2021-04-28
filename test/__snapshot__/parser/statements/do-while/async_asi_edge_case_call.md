@@ -35,8 +35,8 @@ do async
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 12,
-                "start": 1,
+                "flags": 1,
+                "start": 12,
                 "end": 19
             },
             "statement": {

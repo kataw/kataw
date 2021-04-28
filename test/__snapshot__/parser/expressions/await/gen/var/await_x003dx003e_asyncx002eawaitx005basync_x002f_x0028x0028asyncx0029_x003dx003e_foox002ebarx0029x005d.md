@@ -62,8 +62,8 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 10,
-                "start": 0,
+                "flags": 0,
+                "start": 10,
                 "end": 14
             },
             "declarationList": {
@@ -154,8 +154,8 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 76,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 76,
                                 "end": 79
                             },
                             "typeParameters": null,

@@ -31,8 +31,8 @@ function * gen() { function not_gen() { class C extends yield { } }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { class C extends yield { } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -96,8 +96,8 @@ function * gen() { function not_gen() { class C extends yield { } }}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 39,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 39,
                                                 "end": 45
                                             },
                                             "name": {
@@ -113,8 +113,8 @@ function * gen() { function not_gen() { class C extends yield { } }}
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 47,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 47,
                                                     "end": 55
                                                 },
                                                 "expression": {

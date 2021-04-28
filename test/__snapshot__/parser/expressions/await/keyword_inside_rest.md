@@ -21,8 +21,8 @@ async r => result = [...{ x = await x }] = y;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 10
                 },
                 "typeParameters": null,
@@ -48,8 +48,8 @@ async r => result = [...{ x = await x }] = y;
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 0,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 0,
                     "end": 5
                 },
                 "returnType": null,
@@ -80,8 +80,8 @@ async r => result = [...{ x = await x }] = y;
                                         "kind": 223,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 21,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 21,
                                             "end": 24
                                         },
                                         "argument": {
@@ -103,8 +103,8 @@ async r => result = [...{ x = await x }] = y;
                                                             "kind": 208,
                                                             "awaitToken": {
                                                                 "kind": 82032,
-                                                                "flags": 29,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 29,
                                                                 "end": 35
                                                             },
                                                             "expression": {

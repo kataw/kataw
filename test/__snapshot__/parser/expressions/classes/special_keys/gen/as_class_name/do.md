@@ -53,8 +53,8 @@ class do {}
             "kind": 169,
             "doKeyword": {
                 "kind": 4202580,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 8
             },
             "expression": {

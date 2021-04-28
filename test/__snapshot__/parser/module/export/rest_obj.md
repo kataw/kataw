@@ -59,8 +59,8 @@ export let {...x} = y
                                         "kind": 222,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 12,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 12,
                                             "end": 15
                                         },
                                         "left": {

@@ -68,8 +68,8 @@ do[ async funcion switch!!
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 3,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 3,
                                     "end": 9
                                 },
                                 "returnType": null,

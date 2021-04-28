@@ -71,8 +71,8 @@ export { abc }
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 17,
-                "start": 1,
+                "flags": 1,
+                "start": 17,
                 "end": 24
             },
             "declaration": null,

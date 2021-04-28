@@ -82,8 +82,8 @@ class C { constructor() { new super; } }
                                                 "kind": 210,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 25,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 25,
                                                     "end": 29
                                                 },
                                                 "expression": {
@@ -92,8 +92,8 @@ class C { constructor() { new super; } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 29,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 29,
                                                             "end": 35
                                                         },
                                                         "flags": 768,

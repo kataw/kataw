@@ -36,8 +36,8 @@ do( while try this and !foo while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 3,
-                "start": 0,
+                "flags": 0,
+                "start": 3,
                 "end": 9
             },
             "statement": {
@@ -67,8 +67,8 @@ do( while try this and !foo while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 13
             },
             "block": {
@@ -149,8 +149,8 @@ do( while try this and !foo while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 27,
-                "start": 0,
+                "flags": 0,
+                "start": 27,
                 "end": 33
             },
             "expression": {

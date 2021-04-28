@@ -33,8 +33,8 @@ function *f(){
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function *f(){
                             "kind": 257,
                             "exportKeyword": {
                                 "kind": 4202582,
-                                "flags": 14,
-                                "start": 327681,
+                                "flags": 327681,
+                                "start": 14,
                                 "end": 28
                             },
                             "declaration": null,

@@ -52,8 +52,8 @@ var x = ({ a } : any = 'foo') => {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 29,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 29,
                                 "end": 32
                             },
                             "typeParameters": null,

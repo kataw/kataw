@@ -28,20 +28,20 @@ async function* f() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 14,
-                "start": 512,
+                "flags": 512,
+                "start": 14,
                 "end": 15
             },
             "name": {
@@ -70,9 +70,15 @@ async function* f() {
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 21,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 21,
                                 "end": 29
+                            },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 0,
+                                "start": 48,
+                                "end": 51
                             },
                             "initializer": {
                                 "kind": 120,
@@ -80,8 +86,8 @@ async function* f() {
                                     "kind": 207,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 37,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 37,
                                         "end": 43
                                     },
                                     "flags": 43,
@@ -107,8 +113,8 @@ async function* f() {
                             },
                             "awaitKeyword": {
                                 "kind": 82032,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 35
                             },
                             "flags": 128,

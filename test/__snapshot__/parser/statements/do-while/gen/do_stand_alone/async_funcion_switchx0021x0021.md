@@ -63,8 +63,8 @@ do async funcion switch!!
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 2,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 2,
                         "end": 8
                     },
                     "returnType": null,

@@ -50,8 +50,8 @@
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 25,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 25,
                         "end": 28
                     },
                     "typeParameters": null,
@@ -77,8 +77,8 @@
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 17,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 17,
                         "end": 23
                     },
                     "returnType": null,
@@ -86,8 +86,8 @@
                         "kind": 208,
                         "awaitToken": {
                             "kind": 82032,
-                            "flags": 28,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 28,
                             "end": 34
                         },
                         "expression": {

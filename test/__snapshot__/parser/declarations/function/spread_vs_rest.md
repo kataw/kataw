@@ -74,8 +74,8 @@ let [a=[...b], ...c] = obj;
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 8,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 8,
                                                             "end": 11
                                                         },
                                                         "argument": {
@@ -108,8 +108,8 @@ let [a=[...b], ...c] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 14,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 14,
                                             "end": 18
                                         },
                                         "binding": {

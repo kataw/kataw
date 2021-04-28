@@ -82,8 +82,8 @@ class C { constructor() { class C { set x(_) { super( } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 25,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 25,
                                                 "end": 31
                                             },
                                             "name": {
@@ -165,8 +165,8 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 46,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 46,
                                                                                         "end": 52
                                                                                     },
                                                                                     "flags": 768,

@@ -23,8 +23,8 @@ impo\u0072t = x;
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 0,
-                "start": 327680,
+                "flags": 327680,
+                "start": 0,
                 "end": 11
             },
             "fromClause": null,

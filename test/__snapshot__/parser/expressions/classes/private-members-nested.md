@@ -36,8 +36,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 1,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1,
                         "end": 6
                     },
                     "name": null,
@@ -90,8 +90,8 @@
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 19,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 19,
                                                         "end": 24
                                                     },
                                                     "name": {
@@ -210,8 +210,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 46,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 46,
                         "end": 51
                     },
                     "name": null,
@@ -264,8 +264,8 @@
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 64,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 64,
                                                         "end": 69
                                                     },
                                                     "name": {
@@ -389,8 +389,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 95,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 95,
                         "end": 100
                     },
                     "name": null,
@@ -517,8 +517,8 @@
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 128,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 128,
                                                         "end": 134
                                                     },
                                                     "name": {
@@ -716,8 +716,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 175,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 175,
                         "end": 180
                     },
                     "name": null,
@@ -765,8 +765,8 @@
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 189,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 189,
                                                         "end": 195
                                                     },
                                                     "name": {

@@ -100,8 +100,8 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 15,
-                "start": 1,
+                "flags": 1,
+                "start": 15,
                 "end": 20
             },
             "declarationList": {
@@ -181,8 +181,8 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 43,
-                "start": 1,
+                "flags": 1,
+                "start": 43,
                 "end": 48
             },
             "declarationList": {
@@ -293,8 +293,8 @@ var x: [number, string] = [123, "aladdin"];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 69,
-                "start": 1,
+                "flags": 1,
+                "start": 69,
                 "end": 74
             },
             "declarationList": {

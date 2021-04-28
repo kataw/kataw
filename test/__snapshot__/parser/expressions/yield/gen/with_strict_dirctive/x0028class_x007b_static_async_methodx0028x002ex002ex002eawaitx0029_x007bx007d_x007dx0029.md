@@ -37,8 +37,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 15,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 15,
                         "end": 20
                     },
                     "name": null,
@@ -83,8 +83,8 @@
                                                 "kind": 215,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 43,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 43,
                                                     "end": 46
                                                 },
                                                 "binding": {

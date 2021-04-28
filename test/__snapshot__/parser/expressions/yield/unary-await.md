@@ -72,8 +72,8 @@ fuction *f() {  return await yield;  }
                         "kind": 161,
                         "returnKeyword": {
                             "kind": 37757022,
-                            "flags": 14,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 14,
                             "end": 22
                         },
                         "expression": {

@@ -77,8 +77,8 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 14,
-                "start": 1,
+                "flags": 1,
+                "start": 14,
                 "end": 18
             },
             "declarationList": {
@@ -115,8 +115,8 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 21,
-                "start": 1,
+                "flags": 1,
+                "start": 21,
                 "end": 26
             },
             "declarationList": {
@@ -153,8 +153,8 @@ result = [ x = yield ] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 34,
-                "start": 1,
+                "flags": 1,
+                "start": 34,
                 "end": 38
             },
             "declarationList": {

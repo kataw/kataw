@@ -33,20 +33,20 @@ new async function *(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 3,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 3,
                         "end": 9
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 9,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 9,
                         "end": 18
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 18,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 18,
                         "end": 20
                     },
                     "name": null,

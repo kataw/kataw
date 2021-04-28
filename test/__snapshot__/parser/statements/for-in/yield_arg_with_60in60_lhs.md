@@ -46,8 +46,8 @@ function *f(){   for (yield x in y in z);   }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -75,17 +75,23 @@ function *f(){   for (yield x in y in z);   }
                         {
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 14,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 14,
                                 "end": 20
+                            },
+                            "inKeyword": {
+                                "kind": 21006388,
+                                "flags": 512,
+                                "start": 29,
+                                "end": 32
                             },
                             "kind": 166,
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 22,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 22,
                                     "end": 27
                                 },
                                 "delegate": false,

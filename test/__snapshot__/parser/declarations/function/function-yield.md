@@ -38,8 +38,8 @@ function *foo() {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -68,8 +68,8 @@ function *foo() {
                             "kind": 162,
                             "lexicalKeyword": {
                                 "kind": 37757004,
-                                "flags": 17,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 17,
                                 "end": 25
                             },
                             "binding": {
@@ -96,8 +96,8 @@ function *foo() {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 31,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 31,
                                                         "end": 36
                                                     },
                                                     "delegate": false,
@@ -163,16 +163,16 @@ function *foo() {
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 49,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 49,
                                     "end": 51
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 51,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 51,
                                         "end": 57
                                     },
                                     "delegate": false,
@@ -191,8 +191,8 @@ function *foo() {
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 59,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 59,
                                     "end": 61
                                 },
                                 "alternate": {

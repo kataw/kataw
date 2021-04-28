@@ -27,8 +27,8 @@ function *f(){  (await) => x  }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -59,8 +59,8 @@ function *f(){  (await) => x  }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 23,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 23,
                                     "end": 26
                                 },
                                 "typeParameters": null,

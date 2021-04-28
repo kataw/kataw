@@ -31,8 +31,8 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -96,14 +96,14 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 39,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 39,
                                                 "end": 48
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 48,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 48,
                                                 "end": 49
                                             },
                                             "name": {
@@ -132,8 +132,8 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                             "kind": 160,
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
-                                                                "flags": 56,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 56,
                                                                 "end": 63
                                                             },
                                                             "expression": {
@@ -151,23 +151,23 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                                         "kind": 175,
                                                                         "caseKeyword": {
                                                                             "kind": 4194382,
-                                                                            "flags": 69,
-                                                                            "start": 0,
+                                                                            "flags": 0,
+                                                                            "start": 69,
                                                                             "end": 74
                                                                         },
                                                                         "expression": {
                                                                             "kind": 229,
                                                                             "yieldKeyword": {
                                                                                 "kind": 8454253,
-                                                                                "flags": 74,
-                                                                                "start": 0,
+                                                                                "flags": 0,
+                                                                                "start": 74,
                                                                                 "end": 80
                                                                             },
                                                                             "delegate": true,
                                                                             "asteriskToken": {
                                                                                 "kind": 67143222,
-                                                                                "flags": 80,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 80,
                                                                                 "end": 81
                                                                             },
                                                                             "expression": {
@@ -187,8 +187,8 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                                                 "kind": 150,
                                                                                 "breakKeyword": {
                                                                                     "kind": 37757005,
-                                                                                    "flags": 88,
-                                                                                    "start": 0,
+                                                                                    "flags": 0,
+                                                                                    "start": 88,
                                                                                     "end": 94
                                                                                 },
                                                                                 "label": null,

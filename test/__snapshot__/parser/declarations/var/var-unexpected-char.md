@@ -69,8 +69,8 @@ var 𫠞_ = 12;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 13,
-                "start": 1,
+                "flags": 1,
+                "start": 13,
                 "end": 18
             },
             "declarationList": {
@@ -114,8 +114,8 @@ var 𫠞_ = 12;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 28,
-                "start": 1,
+                "flags": 1,
+                "start": 28,
                 "end": 33
             },
             "declarationList": {

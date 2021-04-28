@@ -30,6 +30,12 @@ for (let a in b);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 10,
+                "end": 13
+            },
             "kind": 166,
             "initializer": {
                 "kind": 151,

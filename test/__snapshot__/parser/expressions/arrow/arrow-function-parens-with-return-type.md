@@ -86,8 +86,8 @@ var foo = ((foo)): string => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 25,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 25,
                     "end": 28
                 },
                 "typeParameters": null,

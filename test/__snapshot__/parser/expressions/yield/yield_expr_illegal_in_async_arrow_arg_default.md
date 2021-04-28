@@ -19,8 +19,8 @@ async (x = yield y) => {}
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 19,
-                "start": 0,
+                "flags": 0,
+                "start": 19,
                 "end": 22
             },
             "typeParameters": null,

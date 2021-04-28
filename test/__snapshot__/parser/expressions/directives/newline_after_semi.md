@@ -62,8 +62,8 @@ with (x) y; }
                             "kind": 153,
                             "withKeyword": {
                                 "kind": 37757029,
-                                "flags": 27,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 27,
                                 "end": 32
                             },
                             "expression": {

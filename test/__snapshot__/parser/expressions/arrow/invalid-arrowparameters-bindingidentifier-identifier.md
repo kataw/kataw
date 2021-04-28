@@ -63,8 +63,8 @@ var af = switch => 1;
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 15
             },
             "expression": {

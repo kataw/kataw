@@ -30,14 +30,14 @@ async function f() {
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -90,8 +90,8 @@ async function f() {
                                                                 "kind": 208,
                                                                 "awaitToken": {
                                                                     "kind": 82032,
-                                                                    "flags": 30,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 30,
                                                                     "end": 35
                                                                 },
                                                                 "expression": {
@@ -198,8 +198,8 @@ async function f() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 57,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 57,
                                 "end": 66
                             },
                             "expression": {

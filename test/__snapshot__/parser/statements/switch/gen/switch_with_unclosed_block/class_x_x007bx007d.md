@@ -49,8 +49,8 @@ switch {} default(x) { class x {}
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 17
                         },
                         "statements": [
@@ -85,8 +85,8 @@ switch {} default(x) { class x {}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 22,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 22,
                                                 "end": 28
                                             },
                                             "name": {

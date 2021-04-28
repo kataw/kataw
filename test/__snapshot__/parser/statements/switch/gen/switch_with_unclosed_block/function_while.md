@@ -49,8 +49,8 @@ switch {} default(x) { function while
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 17
                         },
                         "statements": [
@@ -85,8 +85,8 @@ switch {} default(x) { function while
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 22,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 22,
                                                 "end": 31
                                             },
                                             "generatorToken": null,
@@ -130,8 +130,8 @@ switch {} default(x) { function while
                                             "kind": 154,
                                             "whileKeyword": {
                                                 "kind": 37757028,
-                                                "flags": 31,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 31,
                                                 "end": 37
                                             },
                                             "expression": {

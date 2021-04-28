@@ -44,8 +44,8 @@ x => y {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -78,8 +78,8 @@ x => y {}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 23,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 23,
                     "end": 26
                 },
                 "typeParameters": null,

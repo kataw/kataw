@@ -42,8 +42,8 @@ class Foo extends Base {
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 9,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 9,
                     "end": 17
                 },
                 "expression": {
@@ -102,8 +102,8 @@ class Foo extends Base {
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 58,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 58,
                                                     "end": 60
                                                 },
                                                 "member": {
@@ -112,8 +112,8 @@ class Foo extends Base {
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 39,
-                                                            "start": 1,
+                                                            "flags": 1,
+                                                            "start": 39,
                                                             "end": 51
                                                         },
                                                         "flags": 768,

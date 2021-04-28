@@ -28,8 +28,8 @@
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 17
             },
             "initializer": {

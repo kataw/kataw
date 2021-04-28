@@ -84,8 +84,8 @@ const x = 1
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 14,
-                "start": 1,
+                "flags": 1,
+                "start": 14,
                 "end": 20
             },
             "binding": {

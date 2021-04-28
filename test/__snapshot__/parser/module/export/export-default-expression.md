@@ -31,8 +31,8 @@ export default (1 + 2);
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "declaration": {

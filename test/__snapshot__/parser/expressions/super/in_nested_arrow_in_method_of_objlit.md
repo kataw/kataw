@@ -68,16 +68,16 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 10,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 10,
                                                     "end": 17
                                                 },
                                                 "expression": {
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 20,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 20,
                                                         "end": 23
                                                     },
                                                     "typeParameters": null,
@@ -89,8 +89,8 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                         "asyncKeyword": null,
                                                         "functionKeyword": {
                                                             "kind": 37822554,
-                                                            "flags": 23,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 23,
                                                             "end": 32
                                                         },
                                                         "generatorToken": null,
@@ -117,8 +117,8 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
                                                                                     "kind": 4259935,
-                                                                                    "flags": 36,
-                                                                                    "start": 0,
+                                                                                    "flags": 0,
+                                                                                    "start": 36,
                                                                                     "end": 42
                                                                                 },
                                                                                 "flags": 768,

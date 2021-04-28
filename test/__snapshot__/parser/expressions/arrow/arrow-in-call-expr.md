@@ -36,8 +36,8 @@ foo(y,(y) => ok);
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 10,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 10,
                                 "end": 13
                             },
                             "typeParameters": null,
@@ -123,8 +123,8 @@ foo(y,(y) => ok);
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 28,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 28,
                                 "end": 31
                             },
                             "typeParameters": null,
@@ -200,8 +200,8 @@ foo(y,(y) => ok);
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 46,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 46,
                                 "end": 49
                             },
                             "typeParameters": null,

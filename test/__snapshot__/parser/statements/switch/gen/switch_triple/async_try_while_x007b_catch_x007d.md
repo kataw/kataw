@@ -49,8 +49,8 @@ switch switch switch async try while { catch }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 13
             },
             "expression": {
@@ -75,8 +75,8 @@ switch switch switch async try while { catch }
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 20
             },
             "expression": {
@@ -102,8 +102,8 @@ switch switch switch async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 26,
-                "start": 0,
+                "flags": 0,
+                "start": 26,
                 "end": 30
             },
             "block": {

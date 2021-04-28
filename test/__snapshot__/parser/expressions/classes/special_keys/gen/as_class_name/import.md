@@ -53,8 +53,8 @@ class import {}
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 12
             },
             "fromClause": {

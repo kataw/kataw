@@ -31,8 +31,8 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 9
             },
             "name": {
@@ -61,8 +61,8 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                             "kind": 160,
                             "switchKeyword": {
                                 "kind": 37757024,
-                                "flags": 16,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 16,
                                 "end": 23
                             },
                             "expression": {
@@ -80,23 +80,23 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                         "kind": 175,
                                         "caseKeyword": {
                                             "kind": 4194382,
-                                            "flags": 29,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 29,
                                             "end": 34
                                         },
                                         "expression": {
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 34,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 34,
                                                 "end": 40
                                             },
                                             "delegate": true,
                                             "asteriskToken": {
                                                 "kind": 67143222,
-                                                "flags": 40,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 40,
                                                 "end": 41
                                             },
                                             "expression": {
@@ -116,8 +116,8 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "kind": 150,
                                                 "breakKeyword": {
                                                     "kind": 37757005,
-                                                    "flags": 48,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 48,
                                                     "end": 54
                                                 },
                                                 "label": null,

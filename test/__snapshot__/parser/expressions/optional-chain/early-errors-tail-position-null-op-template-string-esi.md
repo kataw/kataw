@@ -22,8 +22,8 @@ null?.
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 4,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 4,
                     "end": 6
                 },
                 "member": {

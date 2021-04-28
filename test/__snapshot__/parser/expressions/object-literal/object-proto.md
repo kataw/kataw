@@ -367,8 +367,8 @@ x = {async __proto__(){}, *__proto__(){}};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 146,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 146,
                     "end": 149
                 },
                 "typeParameters": null,

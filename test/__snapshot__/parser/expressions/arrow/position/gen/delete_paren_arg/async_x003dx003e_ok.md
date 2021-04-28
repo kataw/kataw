@@ -35,8 +35,8 @@ delete (async => ok)
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 13,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 13,
                             "end": 16
                         },
                         "typeParameters": null,
@@ -62,8 +62,8 @@ delete (async => ok)
                         ],
                         "asyncToken": {
                             "kind": 82031,
-                            "flags": 8,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 8,
                             "end": 13
                         },
                         "returnType": null,

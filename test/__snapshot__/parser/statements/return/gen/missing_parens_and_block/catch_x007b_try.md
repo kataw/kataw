@@ -59,8 +59,8 @@ return catch catch { try
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 12,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 12,
                     "end": 18
                 },
                 "catchParameter": null,
@@ -73,8 +73,8 @@ return catch catch { try
                                 "kind": 159,
                                 "tryKeyword": {
                                     "kind": 37757027,
-                                    "flags": 20,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 20,
                                     "end": 24
                                 },
                                 "block": {

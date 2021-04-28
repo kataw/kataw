@@ -31,8 +31,8 @@ label: class x {}
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 12
                 },
                 "name": {

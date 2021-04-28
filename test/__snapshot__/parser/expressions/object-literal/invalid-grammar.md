@@ -1806,8 +1806,8 @@ q = {"foo": super = x} = x;
                                                 "kind": 225,
                                                 "superKeyword": {
                                                     "kind": 4259935,
-                                                    "flags": 406,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 406,
                                                     "end": 412
                                                 },
                                                 "flags": 768,

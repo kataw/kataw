@@ -34,8 +34,8 @@
                                     "kind": 207,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 2,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 2,
                                         "end": 9
                                     },
                                     "flags": 9,

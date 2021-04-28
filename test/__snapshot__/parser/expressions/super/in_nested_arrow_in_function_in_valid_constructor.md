@@ -38,8 +38,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -96,8 +96,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 34,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 34,
                                                 "end": 41
                                             },
                                             "expression": {
@@ -105,8 +105,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 41,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 41,
                                                     "end": 50
                                                 },
                                                 "generatorToken": null,
@@ -129,16 +129,16 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 54,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 54,
                                                                     "end": 61
                                                                 },
                                                                 "expression": {
                                                                     "kind": 271,
                                                                     "arrowToken": {
                                                                         "kind": 10,
-                                                                        "flags": 64,
-                                                                        "start": 0,
+                                                                        "flags": 0,
+                                                                        "start": 64,
                                                                         "end": 67
                                                                     },
                                                                     "typeParameters": null,
@@ -151,8 +151,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 67,
-                                                                                "start": 0,
+                                                                                "flags": 0,
+                                                                                "start": 67,
                                                                                 "end": 73
                                                                             },
                                                                             "flags": 768,

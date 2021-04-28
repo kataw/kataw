@@ -31,16 +31,16 @@ export default () => x
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "declaration": {
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 17,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 17,
                     "end": 20
                 },
                 "typeParameters": null,

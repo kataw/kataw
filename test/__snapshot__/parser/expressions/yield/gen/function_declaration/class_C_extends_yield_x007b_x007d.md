@@ -58,8 +58,8 @@ function not_gen() { class C extends yield { } }}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 26
                             },
                             "name": {
@@ -75,8 +75,8 @@ function not_gen() { class C extends yield { } }}
                                 "kind": 279,
                                 "extendsKeyword": {
                                     "kind": 4194391,
-                                    "flags": 28,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 28,
                                     "end": 36
                                 },
                                 "expression": {

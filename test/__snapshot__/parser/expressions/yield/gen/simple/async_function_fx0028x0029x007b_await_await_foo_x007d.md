@@ -24,14 +24,14 @@ async function f(){ await await foo; }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -63,16 +63,16 @@ async function f(){ await await foo; }
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 19,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 19,
                                     "end": 25
                                 },
                                 "expression": {
                                     "kind": 208,
                                     "awaitToken": {
                                         "kind": 82032,
-                                        "flags": 25,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 25,
                                         "end": 31
                                     },
                                     "expression": {

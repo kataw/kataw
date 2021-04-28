@@ -34,8 +34,8 @@
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 19
             },
             "name": {
@@ -120,8 +120,8 @@
                                                                                     "kind": 208,
                                                                                     "awaitToken": {
                                                                                         "kind": 82032,
-                                                                                        "flags": 45,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 45,
                                                                                         "end": 50
                                                                                     },
                                                                                     "expression": {

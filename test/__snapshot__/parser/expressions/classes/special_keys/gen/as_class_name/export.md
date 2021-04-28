@@ -53,8 +53,8 @@ class export {}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 12
             },
             "declaration": null,

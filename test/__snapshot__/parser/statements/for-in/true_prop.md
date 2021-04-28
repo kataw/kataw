@@ -41,6 +41,12 @@ for (true.x in c) d;
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 11,
+                "end": 14
+            },
             "kind": 166,
             "initializer": {
                 "kind": 129,

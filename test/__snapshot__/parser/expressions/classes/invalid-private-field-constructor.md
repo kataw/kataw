@@ -75,8 +75,8 @@ class C { static #constructor }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 24,
-                "start": 1,
+                "flags": 1,
+                "start": 24,
                 "end": 31
             },
             "name": {

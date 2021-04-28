@@ -42,8 +42,8 @@ let f = () => { const [...await f] = []; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 10,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 10,
                                 "end": 13
                             },
                             "typeParameters": null,
@@ -60,8 +60,8 @@ let f = () => { const [...await f] = []; }
                                             "kind": 162,
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
-                                                "flags": 15,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 15,
                                                 "end": 21
                                             },
                                             "binding": {
@@ -78,8 +78,8 @@ let f = () => { const [...await f] = []; }
                                                                         "kind": 244,
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
-                                                                            "flags": 23,
-                                                                            "start": 512,
+                                                                            "flags": 512,
+                                                                            "start": 23,
                                                                             "end": 26
                                                                         },
                                                                         "binding": {

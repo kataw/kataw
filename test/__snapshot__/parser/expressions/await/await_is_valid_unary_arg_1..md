@@ -20,14 +20,14 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -59,8 +59,8 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 19,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 19,
                                 "end": 31
                             },
                             "generatorToken": null,

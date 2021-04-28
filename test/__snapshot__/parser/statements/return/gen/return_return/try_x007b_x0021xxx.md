@@ -42,8 +42,8 @@ return try { !xxx return
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 10
             },
             "block": {
@@ -81,8 +81,8 @@ return try { !xxx return
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 17,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 17,
                                 "end": 24
                             },
                             "expression": null,

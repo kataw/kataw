@@ -27,8 +27,8 @@ async => {} ** x
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 8
                     },
                     "typeParameters": null,
@@ -54,8 +54,8 @@ async => {} ** x
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 0,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 0,
                         "end": 5
                     },
                     "returnType": null,

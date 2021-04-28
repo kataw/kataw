@@ -27,8 +27,8 @@ for (() => { x in y };;);
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 10
                 },
                 "typeParameters": null,

@@ -39,8 +39,8 @@ do while [catch] function while
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 8
                 },
                 "expression": {
@@ -106,8 +106,8 @@ do while [catch] function while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 25,
-                "start": 0,
+                "flags": 0,
+                "start": 25,
                 "end": 31
             },
             "expression": {

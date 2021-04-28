@@ -36,8 +36,8 @@ do( function while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 12,
-                "start": 0,
+                "flags": 0,
+                "start": 12,
                 "end": 18
             },
             "statement": {
@@ -49,8 +49,8 @@ do( function while while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 3,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 3,
                             "end": 12
                         },
                         "generatorToken": null,
@@ -100,8 +100,8 @@ do( function while while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 18,
-                "start": 0,
+                "flags": 0,
+                "start": 18,
                 "end": 24
             },
             "expression": {

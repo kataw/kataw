@@ -19,8 +19,8 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 56,
-                "start": 0,
+                "flags": 0,
+                "start": 56,
                 "end": 58
             },
             "typeParameters": null,

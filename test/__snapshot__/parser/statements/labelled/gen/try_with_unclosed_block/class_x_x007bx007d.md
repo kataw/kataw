@@ -44,8 +44,8 @@ try {} finally(x) { class x {}
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "finallyBlock": {
@@ -97,8 +97,8 @@ try {} finally(x) { class x {}
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 19,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 19,
                             "end": 25
                         },
                         "name": {

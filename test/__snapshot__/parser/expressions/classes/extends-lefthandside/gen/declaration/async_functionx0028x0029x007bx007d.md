@@ -42,22 +42,22 @@ class A extends async function(){} {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 15,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 15,
                         "end": 21
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 21,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 21,
                         "end": 30
                     },
                     "generatorToken": null,

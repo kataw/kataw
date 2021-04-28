@@ -86,8 +86,8 @@ var a: { [a: number]: string; [b: number]: string; };
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 32,
-                "start": 1,
+                "flags": 1,
+                "start": 32,
                 "end": 37
             },
             "declarationList": {

@@ -33,8 +33,8 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 0,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 7
                 },
                 "expression": {
@@ -59,8 +59,8 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 11,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 11,
                     "end": 19
                 },
                 "expression": {
@@ -85,8 +85,8 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 25,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 25,
                     "end": 33
                 },
                 "expression": {
@@ -111,8 +111,8 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 37,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 37,
                     "end": 45
                 },
                 "expression": {
@@ -157,8 +157,8 @@ import(x).then();
                 "kind": 206,
                 "importKeyword": {
                     "kind": 37814364,
-                    "flags": 51,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 51,
                     "end": 59
                 },
                 "expression": {
@@ -167,8 +167,8 @@ import(x).then();
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 60,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 60,
                             "end": 66
                         },
                         "expression": {
@@ -205,8 +205,8 @@ import(x).then();
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 71,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 71,
                             "end": 79
                         },
                         "expression": {

@@ -29,8 +29,8 @@ bar ? (=> 0) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 3,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 3,
                     "end": 5
                 },
                 "consequent": {

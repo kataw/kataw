@@ -30,8 +30,8 @@ new class extends{}
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 3,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 3,
                         "end": 9
                     },
                     "name": null,
@@ -40,8 +40,8 @@ new class extends{}
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 17
                         },
                         "expression": {

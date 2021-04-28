@@ -136,8 +136,8 @@ class Foo {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,
-                                                        "flags": 51,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 51,
                                                         "end": 53
                                                     },
                                                     "member": {

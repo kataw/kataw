@@ -80,8 +80,8 @@ class x { constructor(){ super.foo; }}
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 24,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 24,
                                                         "end": 30
                                                     },
                                                     "flags": 768,

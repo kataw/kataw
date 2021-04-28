@@ -32,8 +32,8 @@ function* foo() {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 9
             },
             "name": {
@@ -64,8 +64,8 @@ function* foo() {
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 17,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 17,
                                 "end": 25
                             },
                             "name": {
@@ -103,8 +103,8 @@ function* foo() {
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 82,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 82,
                                                     "end": 88
                                                 },
                                                 "delegate": false,

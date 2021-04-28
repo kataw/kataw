@@ -81,8 +81,8 @@ class C { *method() { var f = function { super(); } } }
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 21,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 21,
                                                 "end": 25
                                             },
                                             "declarationList": {
@@ -105,8 +105,8 @@ class C { *method() { var f = function { super(); } } }
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 29,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 29,
                                                                 "end": 38
                                                             },
                                                             "generatorToken": null,
@@ -133,8 +133,8 @@ class C { *method() { var f = function { super(); } } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 40,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 40,
                                                                                         "end": 46
                                                                                     },
                                                                                     "flags": 768,

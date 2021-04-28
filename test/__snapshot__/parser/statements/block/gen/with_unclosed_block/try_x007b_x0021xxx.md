@@ -108,8 +108,8 @@
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 17,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 17,
                             "end": 21
                         },
                         "block": {

@@ -42,8 +42,8 @@ class x extends break {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -73,8 +73,8 @@ class x extends break {}
             "kind": 150,
             "breakKeyword": {
                 "kind": 37757005,
-                "flags": 15,
-                "start": 0,
+                "flags": 0,
+                "start": 15,
                 "end": 21
             },
             "label": {

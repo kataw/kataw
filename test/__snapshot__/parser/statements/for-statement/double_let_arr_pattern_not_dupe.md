@@ -116,8 +116,8 @@ for (let [a]=x;;);
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 18,
-                "start": 1,
+                "flags": 1,
+                "start": 18,
                 "end": 22
             },
             "initializer": {

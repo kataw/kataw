@@ -25,8 +25,8 @@ x => ok x => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 4
                 },
                 "typeParameters": null,
@@ -62,8 +62,8 @@ x => ok x => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 9,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 9,
                     "end": 12
                 },
                 "typeParameters": null,

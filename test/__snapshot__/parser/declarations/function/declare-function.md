@@ -40,8 +40,8 @@ declare function foo(): void
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 16
             },
             "generatorToken": null,
@@ -160,8 +160,8 @@ declare function foo(): void
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 41,
-                "start": 0,
+                "flags": 0,
+                "start": 41,
                 "end": 50
             },
             "generatorToken": null,
@@ -310,8 +310,8 @@ declare function foo(): void
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 92,
-                "start": 0,
+                "flags": 0,
+                "start": 92,
                 "end": 101
             },
             "generatorToken": null,

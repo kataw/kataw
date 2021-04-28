@@ -50,8 +50,8 @@ return {} return(x) { catch { try
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 16
             },
             "expression": {
@@ -89,8 +89,8 @@ return {} return(x) { catch { try
                                         "kind": 159,
                                         "tryKeyword": {
                                             "kind": 37757027,
-                                            "flags": 29,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 29,
                                             "end": 33
                                         },
                                         "block": {

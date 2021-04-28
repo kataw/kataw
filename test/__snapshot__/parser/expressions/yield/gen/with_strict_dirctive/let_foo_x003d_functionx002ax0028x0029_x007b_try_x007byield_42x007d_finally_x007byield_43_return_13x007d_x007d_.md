@@ -56,14 +56,14 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 23,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 23,
                                 "end": 32
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 32,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 32,
                                 "end": 33
                             },
                             "name": null,
@@ -85,8 +85,8 @@
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 37,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 37,
                                                 "end": 41
                                             },
                                             "block": {
@@ -100,8 +100,8 @@
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 43,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 43,
                                                                     "end": 48
                                                                 },
                                                                 "delegate": false,
@@ -135,8 +135,8 @@
                                             "catchClause": null,
                                             "finallyKeyword": {
                                                 "kind": 37757016,
-                                                "flags": 52,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 52,
                                                 "end": 60
                                             },
                                             "finallyBlock": {
@@ -150,8 +150,8 @@
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 62,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 62,
                                                                     "end": 67
                                                                 },
                                                                 "delegate": false,
@@ -176,8 +176,8 @@
                                                             "kind": 161,
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
-                                                                "flags": 71,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 71,
                                                                 "end": 78
                                                             },
                                                             "expression": {

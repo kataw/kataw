@@ -31,8 +31,8 @@ export default class {} foo
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "declaration": {
@@ -41,8 +41,8 @@ export default class {} foo
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 14,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 14,
                     "end": 20
                 },
                 "name": null,

@@ -40,16 +40,16 @@ async (): string => {}
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 1,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 3
                 },
                 "consequent": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 20,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 20,
                         "end": 23
                     },
                     "typeParameters": null,
@@ -93,8 +93,8 @@ async (): string => {}
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 26,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 26,
                     "end": 29
                 },
                 "alternate": {
@@ -117,8 +117,8 @@ async (): string => {}
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 51,
-                "start": 0,
+                "flags": 0,
+                "start": 51,
                 "end": 54
             },
             "typeParameters": null,

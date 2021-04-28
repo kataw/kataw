@@ -25,8 +25,8 @@ else class x {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 4,
-                "start": 0,
+                "flags": 0,
+                "start": 4,
                 "end": 10
             },
             "name": {

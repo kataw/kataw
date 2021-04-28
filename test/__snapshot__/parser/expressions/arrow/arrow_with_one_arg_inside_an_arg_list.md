@@ -38,8 +38,8 @@ f(((a) => a + b)(1, 4), 5);
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 6,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 6,
                                         "end": 9
                                     },
                                     "typeParameters": null,

@@ -144,8 +144,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 50,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 50,
                         "end": 53
                     },
                     "typeParameters": null,
@@ -195,8 +195,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 57,
-                "start": 1,
+                "flags": 1,
+                "start": 57,
                 "end": 63
             },
             "binding": {
@@ -311,8 +311,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 111,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 111,
                         "end": 114
                     },
                     "typeParameters": null,

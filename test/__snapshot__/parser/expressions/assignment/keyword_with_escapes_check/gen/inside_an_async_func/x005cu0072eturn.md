@@ -23,8 +23,8 @@ async () => {  \u0072eturn = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 11
             },
             "typeParameters": null,
@@ -46,8 +46,8 @@ async () => {  \u0072eturn = x  }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 13,
-                                "start": 262144,
+                                "flags": 262144,
+                                "start": 13,
                                 "end": 26
                             },
                             "expression": {

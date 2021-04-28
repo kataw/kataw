@@ -54,8 +54,8 @@ function f() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 14,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 14,
                                 "end": 25
                             },
                             "expression": {
@@ -64,8 +64,8 @@ function f() {
                                     "kind": 206,
                                     "importKeyword": {
                                         "kind": 37814364,
-                                        "flags": 25,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 25,
                                         "end": 32
                                     },
                                     "expression": {

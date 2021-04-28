@@ -45,8 +45,8 @@
                                             "kind": 215,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 7,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 7,
                                                 "end": 10
                                             },
                                             "binding": {
@@ -154,8 +154,8 @@
                                             "kind": 215,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 30,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 30,
                                                 "end": 34
                                             },
                                             "binding": {
@@ -288,8 +288,8 @@
                                             "kind": 215,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 56,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 56,
                                                 "end": 60
                                             },
                                             "binding": {
@@ -436,8 +436,8 @@
                                             "kind": 215,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 85,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 85,
                                                 "end": 89
                                             },
                                             "binding": {

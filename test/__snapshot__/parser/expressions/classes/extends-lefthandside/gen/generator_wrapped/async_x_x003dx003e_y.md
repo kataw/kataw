@@ -35,8 +35,8 @@ x => y {}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -67,8 +67,8 @@ x => y {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 14,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 14,
                                 "end": 22
                             },
                             "name": {
@@ -84,8 +84,8 @@ x => y {}
                                 "kind": 279,
                                 "extendsKeyword": {
                                     "kind": 4194391,
-                                    "flags": 24,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 24,
                                     "end": 32
                                 },
                                 "expression": {
@@ -118,8 +118,8 @@ x => y {}
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 40,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 40,
                                     "end": 43
                                 },
                                 "typeParameters": null,

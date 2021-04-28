@@ -20,14 +20,14 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -59,8 +59,8 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 60,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 60,
                                     "end": 63
                                 },
                                 "typeParameters": null,
@@ -86,8 +86,8 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 30,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 30,
                                                 "end": 36
                                             },
                                             "name": {
@@ -103,16 +103,16 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 38,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 38,
                                                     "end": 46
                                                 },
                                                 "expression": {
                                                     "kind": 208,
                                                     "awaitToken": {
                                                         "kind": 82032,
-                                                        "flags": 46,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 46,
                                                         "end": 52
                                                     },
                                                     "expression": {

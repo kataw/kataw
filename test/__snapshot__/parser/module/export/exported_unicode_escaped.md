@@ -71,8 +71,8 @@ export { \u0061bc }
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 12,
-                "start": 1,
+                "flags": 1,
+                "start": 12,
                 "end": 19
             },
             "declaration": null,

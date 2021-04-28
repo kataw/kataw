@@ -53,8 +53,8 @@ for (true ? a in b : {}; false; ) ;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 9,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 9,
                     "end": 11
                 },
                 "consequent": {
@@ -87,8 +87,8 @@ for (true ? a in b : {}; false; ) ;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 18,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 18,
                     "end": 20
                 },
                 "alternate": {

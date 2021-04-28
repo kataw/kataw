@@ -63,8 +63,8 @@ var x; export {x: a}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 13
             },
             "declaration": null,

@@ -38,8 +38,8 @@ switch (x) { default: continue foo; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 20
                         },
                         "statements": [
@@ -47,8 +47,8 @@ switch (x) { default: continue foo; }
                                 "kind": 172,
                                 "continueKeyword": {
                                     "kind": 37757009,
-                                    "flags": 21,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 21,
                                     "end": 30
                                 },
                                 "label": {

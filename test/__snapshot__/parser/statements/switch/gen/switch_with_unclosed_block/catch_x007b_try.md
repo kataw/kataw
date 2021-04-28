@@ -49,8 +49,8 @@ switch {} default(x) { catch { try
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 17
                         },
                         "statements": [
@@ -91,8 +91,8 @@ switch {} default(x) { catch { try
                                                             "kind": 159,
                                                             "tryKeyword": {
                                                                 "kind": 37757027,
-                                                                "flags": 30,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 30,
                                                                 "end": 34
                                                             },
                                                             "block": {

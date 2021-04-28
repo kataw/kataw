@@ -42,14 +42,14 @@ export async function f(){}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 6,
-                "start": 512,
+                "flags": 512,
+                "start": 6,
                 "end": 12
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 12,
-                "start": 0,
+                "flags": 0,
+                "start": 12,
                 "end": 21
             },
             "generatorToken": null,

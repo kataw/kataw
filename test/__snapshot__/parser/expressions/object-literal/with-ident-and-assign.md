@@ -47,8 +47,8 @@ let z = {...x}
                                         "kind": 224,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 9,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 9,
                                             "end": 12
                                         },
                                         "argument": {

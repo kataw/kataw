@@ -36,8 +36,8 @@ do async funcion switch!! while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 25,
-                "start": 0,
+                "flags": 0,
+                "start": 25,
                 "end": 31
             },
             "statement": {
@@ -68,8 +68,8 @@ do async funcion switch!! while
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 2,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 2,
                         "end": 8
                     },
                     "returnType": null,

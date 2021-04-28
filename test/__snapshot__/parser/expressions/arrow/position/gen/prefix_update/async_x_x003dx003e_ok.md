@@ -33,8 +33,8 @@
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 9,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 9,
                         "end": 12
                     },
                     "typeParameters": null,
@@ -60,8 +60,8 @@
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 2,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 2,
                         "end": 7
                     },
                     "returnType": null,

@@ -110,8 +110,8 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "declareKeyword": null,
                                         "varKeyword": {
                                             "kind": 37757002,
-                                            "flags": 36,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 36,
                                             "end": 40
                                         },
                                         "declarationList": {

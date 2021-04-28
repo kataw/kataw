@@ -41,6 +41,12 @@ for ([x + y] in obj);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 12,
+                "end": 15
+            },
             "kind": 166,
             "initializer": {
                 "kind": 119,

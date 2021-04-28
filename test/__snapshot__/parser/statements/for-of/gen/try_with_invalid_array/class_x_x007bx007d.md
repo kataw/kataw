@@ -104,8 +104,8 @@ try [catch] class x {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 11,
-                "start": 0,
+                "flags": 0,
+                "start": 11,
                 "end": 17
             },
             "name": {

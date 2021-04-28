@@ -33,8 +33,8 @@ delete async x => {}
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 14,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 14,
                         "end": 17
                     },
                     "typeParameters": null,
@@ -60,8 +60,8 @@ delete async x => {}
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 6,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 6,
                         "end": 12
                     },
                     "returnType": null,

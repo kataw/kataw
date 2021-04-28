@@ -22,6 +22,12 @@ for(delete((1)?y:x in y) in z)x
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 24,
+                "end": 27
+            },
             "kind": 166,
             "initializer": {
                 "kind": 126,
@@ -51,8 +57,8 @@ for(delete((1)?y:x in y) in z)x
                         },
                         "questionToken": {
                             "kind": 134217750,
-                            "flags": 14,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 14,
                             "end": 15
                         },
                         "consequent": {
@@ -65,8 +71,8 @@ for(delete((1)?y:x in y) in z)x
                         },
                         "colonToken": {
                             "kind": 21,
-                            "flags": 16,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 16,
                             "end": 17
                         },
                         "alternate": {

@@ -43,8 +43,8 @@ let f = async
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 30,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 30,
                                 "end": 33
                             },
                             "typeParameters": null,

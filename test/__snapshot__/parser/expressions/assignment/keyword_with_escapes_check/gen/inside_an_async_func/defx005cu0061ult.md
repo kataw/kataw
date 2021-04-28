@@ -23,8 +23,8 @@ async () => {  def\u0061ult = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 11
             },
             "typeParameters": null,

@@ -108,8 +108,8 @@ class C { set x(_) { super; } }
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 20,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 20,
                                                         "end": 26
                                                     },
                                                     "flags": 768,

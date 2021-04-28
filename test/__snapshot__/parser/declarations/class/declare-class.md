@@ -34,8 +34,8 @@ declare class A { static foo(): number; static x : string }
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 13
             },
             "name": {

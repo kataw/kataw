@@ -58,14 +58,14 @@ function not_gen() { function* g(){ x ? yield : y } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 30
                             },
                             "name": {
@@ -104,16 +104,16 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "questionToken": {
                                                     "kind": 134217750,
-                                                    "flags": 37,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 37,
                                                     "end": 39
                                                 },
                                                 "consequent": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 39,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 39,
                                                         "end": 45
                                                     },
                                                     "delegate": false,
@@ -125,8 +125,8 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
-                                                    "flags": 45,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 45,
                                                     "end": 47
                                                 },
                                                 "alternate": {

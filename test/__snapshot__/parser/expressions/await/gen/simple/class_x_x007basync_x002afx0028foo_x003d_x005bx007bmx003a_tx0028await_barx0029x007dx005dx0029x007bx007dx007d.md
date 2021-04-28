@@ -111,8 +111,8 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                     "kind": 208,
                                                                                     "awaitToken": {
                                                                                         "kind": 82032,
-                                                                                        "flags": 31,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 31,
                                                                                         "end": 36
                                                                                     },
                                                                                     "expression": {

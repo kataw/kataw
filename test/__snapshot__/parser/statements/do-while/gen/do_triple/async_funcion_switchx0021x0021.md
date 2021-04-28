@@ -36,16 +36,16 @@ do do do async funcion switch!! while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 43,
-                "start": 0,
+                "flags": 0,
+                "start": 43,
                 "end": 49
             },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
@@ -57,16 +57,16 @@ do do do async funcion switch!! while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 37,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 37,
                     "end": 43
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 8
                     },
                     "expression": {
@@ -78,8 +78,8 @@ do do do async funcion switch!! while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 31,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 31,
                         "end": 37
                     },
                     "statement": {
@@ -110,8 +110,8 @@ do do do async funcion switch!! while while while
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 8,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 8,
                                 "end": 14
                             },
                             "returnType": null,

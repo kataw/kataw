@@ -95,8 +95,8 @@ switch [catch] function while
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 14,
-                "start": 0,
+                "flags": 0,
+                "start": 14,
                 "end": 23
             },
             "generatorToken": null,
@@ -140,8 +140,8 @@ switch [catch] function while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 23,
-                "start": 0,
+                "flags": 0,
+                "start": 23,
                 "end": 29
             },
             "expression": {

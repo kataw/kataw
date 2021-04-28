@@ -93,8 +93,8 @@ switch [catch] try { !xxx
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 14,
-                "start": 0,
+                "flags": 0,
+                "start": 14,
                 "end": 18
             },
             "block": {

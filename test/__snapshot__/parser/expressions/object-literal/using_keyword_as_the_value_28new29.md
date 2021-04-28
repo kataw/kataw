@@ -44,8 +44,8 @@ s = {s: new}
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 7,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 7,
                                         "end": 11
                                     },
                                     "expression": {

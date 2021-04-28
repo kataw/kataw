@@ -87,8 +87,8 @@ type T = { [[foo]]?: X }
                         },
                         "optionalToken": {
                             "kind": 134217750,
-                            "flags": 18,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 18,
                             "end": 19
                         },
                         "staticToken": false,

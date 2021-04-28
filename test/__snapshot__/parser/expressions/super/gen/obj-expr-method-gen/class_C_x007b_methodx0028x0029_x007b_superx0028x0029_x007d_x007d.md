@@ -60,8 +60,8 @@
                                                 "decorators": null,
                                                 "classKeyword": {
                                                     "kind": 37822544,
-                                                    "flags": 14,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 14,
                                                     "end": 20
                                                 },
                                                 "name": {
@@ -119,8 +119,8 @@
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 35,
-                                                                                            "start": 0,
+                                                                                            "flags": 0,
+                                                                                            "start": 35,
                                                                                             "end": 41
                                                                                         },
                                                                                         "flags": 768,

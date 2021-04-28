@@ -41,8 +41,8 @@ y = async x => await x
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 11,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 11,
                         "end": 14
                     },
                     "typeParameters": null,
@@ -68,8 +68,8 @@ y = async x => await x
                     ],
                     "asyncToken": {
                         "kind": 82031,
-                        "flags": 3,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 3,
                         "end": 9
                     },
                     "returnType": null,
@@ -77,8 +77,8 @@ y = async x => await x
                         "kind": 208,
                         "awaitToken": {
                             "kind": 82032,
-                            "flags": 14,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 14,
                             "end": 20
                         },
                         "expression": {

@@ -38,8 +38,8 @@ switch (x) { case x: if (foo) continue foo; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 17
                         },
                         "expression": {
@@ -55,8 +55,8 @@ switch (x) { case x: if (foo) continue foo; }
                                 "kind": 164,
                                 "ifKeyword": {
                                     "kind": 37757019,
-                                    "flags": 20,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 20,
                                     "end": 23
                                 },
                                 "expression": {
@@ -71,8 +71,8 @@ switch (x) { case x: if (foo) continue foo; }
                                     "kind": 172,
                                     "continueKeyword": {
                                         "kind": 37757009,
-                                        "flags": 29,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 29,
                                         "end": 38
                                     },
                                     "label": {

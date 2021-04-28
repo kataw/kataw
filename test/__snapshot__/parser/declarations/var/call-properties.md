@@ -106,8 +106,8 @@ var a : { <T>(x: T): number; }
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 23,
-                "start": 1,
+                "flags": 1,
+                "start": 23,
                 "end": 28
             },
             "declarationList": {

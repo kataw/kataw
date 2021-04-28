@@ -82,8 +82,8 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 25,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 25,
                                                 "end": 31
                                             },
                                             "name": {
@@ -141,8 +141,8 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 51,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 51,
                                                                                         "end": 57
                                                                                     },
                                                                                     "flags": 768,

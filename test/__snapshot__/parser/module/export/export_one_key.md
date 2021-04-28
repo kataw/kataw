@@ -71,8 +71,8 @@ export {x}; var x;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 11,
-                "start": 0,
+                "flags": 0,
+                "start": 11,
                 "end": 15
             },
             "declarationList": {

@@ -54,8 +54,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 22
             },
             "generatorToken": null,
@@ -86,8 +86,8 @@ function * x() { "use strict";  yield: 34; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 34,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 34,
                                 "end": 38
                             },
                             "declarationList": {
@@ -172,8 +172,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 67,
-                "start": 0,
+                "flags": 0,
+                "start": 67,
                 "end": 76
             },
             "generatorToken": null,
@@ -203,8 +203,8 @@ function * x() { "use strict";  yield: 34; }
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 88,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 88,
                                 "end": 92
                             },
                             "block": {
@@ -225,8 +225,8 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 173,
                                 "catchKeyword": {
                                     "kind": 4202575,
-                                    "flags": 96,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 96,
                                     "end": 102
                                 },
                                 "catchParameter": {
@@ -297,8 +297,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 131,
-                "start": 0,
+                "flags": 0,
+                "start": 131,
                 "end": 140
             },
             "generatorToken": null,
@@ -330,8 +330,8 @@ function * x() { "use strict";  yield: 34; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 152,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 152,
                                 "end": 161
                             },
                             "generatorToken": null,
@@ -408,8 +408,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 189,
-                "start": 0,
+                "flags": 0,
+                "start": 189,
                 "end": 198
             },
             "generatorToken": null,
@@ -444,8 +444,8 @@ function * x() { "use strict";  yield: 34; }
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 212,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 212,
                                         "end": 220
                                     },
                                     "generatorToken": null,
@@ -530,8 +530,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 249,
-                "start": 0,
+                "flags": 0,
+                "start": 249,
                 "end": 258
             },
             "generatorToken": null,
@@ -563,8 +563,8 @@ function * x() { "use strict";  yield: 34; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 270,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 270,
                                 "end": 279
                             },
                             "generatorToken": null,
@@ -660,8 +660,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 310,
-                "start": 0,
+                "flags": 0,
+                "start": 310,
                 "end": 319
             },
             "generatorToken": null,
@@ -693,8 +693,8 @@ function * x() { "use strict";  yield: 34; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 331,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 331,
                                 "end": 340
                             },
                             "generatorToken": null,
@@ -808,8 +808,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 376,
-                "start": 0,
+                "flags": 0,
+                "start": 376,
                 "end": 385
             },
             "generatorToken": null,
@@ -841,14 +841,14 @@ function * x() { "use strict";  yield: 34; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 397,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 397,
                                 "end": 406
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 406,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 406,
                                 "end": 408
                             },
                             "name": {
@@ -924,8 +924,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 436,
-                "start": 0,
+                "flags": 0,
+                "start": 436,
                 "end": 445
             },
             "generatorToken": null,
@@ -960,14 +960,14 @@ function * x() { "use strict";  yield: 34; }
                                     "asyncKeyword": null,
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 459,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 459,
                                         "end": 467
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 467,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 467,
                                         "end": 469
                                     },
                                     "name": {
@@ -1051,8 +1051,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 498,
-                "start": 0,
+                "flags": 0,
+                "start": 498,
                 "end": 507
             },
             "generatorToken": null,
@@ -1148,8 +1148,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 546,
-                "start": 0,
+                "flags": 0,
+                "start": 546,
                 "end": 555
             },
             "generatorToken": null,
@@ -1180,8 +1180,8 @@ function * x() { "use strict";  yield: 34; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 567,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 567,
                                 "end": 571
                             },
                             "declarationList": {
@@ -1276,8 +1276,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 604,
-                "start": 0,
+                "flags": 0,
+                "start": 604,
                 "end": 613
             },
             "generatorToken": null,
@@ -1351,8 +1351,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 636,
-                "start": 1,
+                "flags": 1,
+                "start": 636,
                 "end": 646
             },
             "generatorToken": null,
@@ -1425,7 +1425,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 636,
             "end": 683
         },
@@ -1435,8 +1435,8 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 683,
-                "start": 1,
+                "flags": 1,
+                "start": 683,
                 "end": 692
             },
             "generatorToken": null,
@@ -1497,7 +1497,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 683,
             "end": 725
         },
@@ -1521,14 +1521,14 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 732,
-                "start": 1,
+                "flags": 1,
+                "start": 732,
                 "end": 742
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 742,
-                "start": 512,
+                "flags": 512,
+                "start": 742,
                 "end": 744
             },
             "name": {
@@ -1568,8 +1568,8 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 764,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 764,
                                     "end": 770
                                 },
                                 "delegate": false,
@@ -1613,7 +1613,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2177,
+            "flags": 2176,
             "start": 732,
             "end": 775
         },
@@ -1623,14 +1623,14 @@ function * x() { "use strict";  yield: 34; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 775,
-                "start": 1,
+                "flags": 1,
+                "start": 775,
                 "end": 784
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 784,
-                "start": 512,
+                "flags": 512,
+                "start": 784,
                 "end": 786
             },
             "name": {
@@ -1670,8 +1670,8 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 806,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 806,
                                     "end": 813
                                 },
                                 "delegate": false,
@@ -1697,7 +1697,7 @@ function * x() { "use strict";  yield: 34; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 2177,
+            "flags": 2176,
             "start": 775,
             "end": 813
         },

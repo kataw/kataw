@@ -109,8 +109,8 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 20,
-                "start": 1,
+                "flags": 1,
+                "start": 20,
                 "end": 25
             },
             "initializer": {
@@ -185,8 +185,8 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 44,
-                "start": 1,
+                "flags": 1,
+                "start": 44,
                 "end": 49
             },
             "initializer": {
@@ -261,8 +261,8 @@ for ({}[y] ^= x;;) x;
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 66,
-                "start": 1,
+                "flags": 1,
+                "start": 66,
                 "end": 71
             },
             "initializer": {

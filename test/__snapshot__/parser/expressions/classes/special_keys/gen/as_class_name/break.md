@@ -53,8 +53,8 @@ class break {}
             "kind": 150,
             "breakKeyword": {
                 "kind": 37757005,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 11
             },
             "label": {

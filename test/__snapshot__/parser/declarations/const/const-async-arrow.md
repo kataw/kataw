@@ -50,8 +50,8 @@ const a = async (foo: string = "") => {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 34,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 34,
                                 "end": 37
                             },
                             "typeParameters": null,

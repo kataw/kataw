@@ -32,8 +32,8 @@ export var await;
                 "declareKeyword": null,
                 "varKeyword": {
                     "kind": 37757002,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 10
                 },
                 "declarationList": {

@@ -33,8 +33,8 @@ function *f(){
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -65,8 +65,8 @@ function *f(){
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 14,
-                                "start": 262145,
+                                "flags": 262145,
+                                "start": 14,
                                 "end": 30
                             },
                             "generatorToken": null,
@@ -102,7 +102,7 @@ function *f(){
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 262273,
+                            "flags": 128,
                             "start": 14,
                             "end": 30
                         }

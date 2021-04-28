@@ -39,8 +39,8 @@ if async try while { catch } else
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 8,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 8,
                     "end": 12
                 },
                 "block": {
@@ -117,8 +117,8 @@ if async try while { catch } else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 28,
-                "start": 512,
+                "flags": 512,
+                "start": 28,
                 "end": 33
             },
             "alternate": {

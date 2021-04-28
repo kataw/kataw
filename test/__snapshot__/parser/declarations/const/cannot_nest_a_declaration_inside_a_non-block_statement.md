@@ -46,8 +46,8 @@ switch (x) { case x: const y = x }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 17
                         },
                         "expression": {
@@ -63,8 +63,8 @@ switch (x) { case x: const y = x }
                                 "kind": 162,
                                 "lexicalKeyword": {
                                     "kind": 37757004,
-                                    "flags": 20,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 20,
                                     "end": 26
                                 },
                                 "binding": {

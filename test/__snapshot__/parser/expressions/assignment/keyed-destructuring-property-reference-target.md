@@ -59,8 +59,8 @@ function targetKey() {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 0,
-                "start": 1,
+                "flags": 1,
+                "start": 0,
                 "end": 4
             },
             "declarationList": {
@@ -111,8 +111,8 @@ function targetKey() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 14,
-                "start": 1,
+                "flags": 1,
+                "start": 14,
                 "end": 24
             },
             "generatorToken": null,
@@ -193,8 +193,8 @@ function targetKey() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 59,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 59,
                                 "end": 70
                             },
                             "expression": {
@@ -320,7 +320,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 14,
             "end": 138
         },
@@ -330,8 +330,8 @@ function targetKey() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 138,
-                "start": 1,
+                "flags": 1,
+                "start": 138,
                 "end": 147
             },
             "generatorToken": null,
@@ -412,8 +412,8 @@ function targetKey() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 182,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 182,
                                 "end": 193
                             },
                             "expression": {
@@ -558,7 +558,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 138,
             "end": 262
         },
@@ -568,8 +568,8 @@ function targetKey() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 262,
-                "start": 1,
+                "flags": 1,
+                "start": 262,
                 "end": 271
             },
             "generatorToken": null,
@@ -650,8 +650,8 @@ function targetKey() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 313,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 313,
                                 "end": 324
                             },
                             "expression": {
@@ -666,8 +666,8 @@ function targetKey() {
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 344,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 344,
                                                     "end": 353
                                                 },
                                                 "generatorToken": null,
@@ -741,8 +741,8 @@ function targetKey() {
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 402,
-                                                                    "start": 1,
+                                                                    "flags": 1,
+                                                                    "start": 402,
                                                                     "end": 421
                                                                 },
                                                                 "expression": {
@@ -812,7 +812,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 262,
             "end": 445
         },
@@ -822,8 +822,8 @@ function targetKey() {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 445,
-                "start": 1,
+                "flags": 1,
+                "start": 445,
                 "end": 454
             },
             "generatorToken": null,
@@ -904,8 +904,8 @@ function targetKey() {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 496,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 496,
                                 "end": 507
                             },
                             "expression": {
@@ -920,8 +920,8 @@ function targetKey() {
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 527,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 527,
                                                     "end": 536
                                                 },
                                                 "generatorToken": null,
@@ -995,8 +995,8 @@ function targetKey() {
                                                                 "kind": 161,
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
-                                                                    "flags": 585,
-                                                                    "start": 1,
+                                                                    "flags": 1,
+                                                                    "start": 585,
                                                                     "end": 604
                                                                 },
                                                                 "expression": {
@@ -1066,7 +1066,7 @@ function targetKey() {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 445,
             "end": 628
         },

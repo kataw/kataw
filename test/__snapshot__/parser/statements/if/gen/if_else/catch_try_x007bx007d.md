@@ -73,8 +73,8 @@ if catch try {} else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 15,
-                "start": 512,
+                "flags": 512,
+                "start": 15,
                 "end": 20
             },
             "alternate": {

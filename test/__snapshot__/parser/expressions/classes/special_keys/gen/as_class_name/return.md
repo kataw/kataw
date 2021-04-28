@@ -53,8 +53,8 @@ class return {}
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 12
             },
             "expression": {

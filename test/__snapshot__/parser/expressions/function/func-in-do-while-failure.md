@@ -39,8 +39,8 @@ do function *f(){} while (x);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 18,
-                "start": 0,
+                "flags": 0,
+                "start": 18,
                 "end": 24
             },
             "statement": {
@@ -49,14 +49,14 @@ do function *f(){} while (x);
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 11
                 },
                 "generatorToken": {
                     "kind": 67143222,
-                    "flags": 11,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 11,
                     "end": 13
                 },
                 "name": {

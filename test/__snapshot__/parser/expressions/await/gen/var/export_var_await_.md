@@ -62,8 +62,8 @@ var await; var f = (async function() { export var await; });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 10,
-                "start": 0,
+                "flags": 0,
+                "start": 10,
                 "end": 14
             },
             "declarationList": {
@@ -87,14 +87,14 @@ var await; var f = (async function() { export var await; });
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 20,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 20,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 25,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 25,
                                     "end": 34
                                 },
                                 "generatorToken": null,
@@ -117,8 +117,8 @@ var await; var f = (async function() { export var await; });
                                                 "kind": 257,
                                                 "exportKeyword": {
                                                     "kind": 4202582,
-                                                    "flags": 38,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 38,
                                                     "end": 45
                                                 },
                                                 "declaration": {
@@ -126,8 +126,8 @@ var await; var f = (async function() { export var await; });
                                                     "declareKeyword": null,
                                                     "varKeyword": {
                                                         "kind": 37757002,
-                                                        "flags": 45,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 45,
                                                         "end": 49
                                                     },
                                                     "declarationList": {

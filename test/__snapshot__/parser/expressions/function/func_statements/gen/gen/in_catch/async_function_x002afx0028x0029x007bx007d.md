@@ -48,8 +48,8 @@ try {
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 13
                 },
                 "catchParameter": {
@@ -70,20 +70,20 @@ try {
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 19,
-                                    "start": 513,
+                                    "flags": 513,
+                                    "start": 19,
                                     "end": 27
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 27,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 27,
                                     "end": 36
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 36,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 36,
                                     "end": 38
                                 },
                                 "name": {
@@ -119,7 +119,7 @@ try {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3201,
+                                "flags": 3200,
                                 "start": 19,
                                 "end": 43
                             }

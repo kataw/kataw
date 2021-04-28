@@ -32,8 +32,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 1,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 3
                 },
                 "consequent": {
@@ -42,8 +42,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 15
                         },
                         "typeParameters": null,
@@ -73,8 +73,8 @@ x ? ( (a, {}) => {} ) : baz;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 22,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 22,
                                 "end": 25
                             },
                             "typeParameters": null,
@@ -182,8 +182,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 37,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 37,
                     "end": 39
                 },
                 "alternate": {
@@ -216,8 +216,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 46,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 46,
                     "end": 48
                 },
                 "consequent": {
@@ -229,8 +229,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 57,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 57,
                                     "end": 60
                                 },
                                 "typeParameters": null,
@@ -272,8 +272,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 70,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 70,
                                     "end": 73
                                 },
                                 "typeParameters": null,
@@ -322,8 +322,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 77,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 77,
                     "end": 79
                 },
                 "alternate": {
@@ -356,8 +356,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 86,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 86,
                     "end": 88
                 },
                 "consequent": {
@@ -392,8 +392,8 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 105,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 105,
                                                     "end": 108
                                                 },
                                                 "typeParameters": null,
@@ -455,8 +455,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 114,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 114,
                     "end": 116
                 },
                 "alternate": {
@@ -489,8 +489,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 123,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 123,
                     "end": 125
                 },
                 "consequent": {
@@ -499,8 +499,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 135,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 135,
                             "end": 138
                         },
                         "typeParameters": null,
@@ -558,8 +558,8 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 143,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 143,
                     "end": 145
                 },
                 "alternate": {

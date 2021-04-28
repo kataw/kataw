@@ -106,8 +106,8 @@ class Foo { bar():this { return this; }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 24,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 24,
                                                 "end": 31
                                             },
                                             "expression": {

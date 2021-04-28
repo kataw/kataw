@@ -50,8 +50,8 @@ return {} return(x) { function while
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 16
             },
             "expression": {
@@ -83,8 +83,8 @@ return {} return(x) { function while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 21,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 21,
                             "end": 30
                         },
                         "generatorToken": null,
@@ -128,8 +128,8 @@ return {} return(x) { function while
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 30,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 30,
                             "end": 36
                         },
                         "expression": {

@@ -47,8 +47,8 @@ let x = function f(foo = await bar){
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 7,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 7,
                                 "end": 16
                             },
                             "generatorToken": null,

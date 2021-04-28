@@ -58,14 +58,14 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 30
                             },
                             "name": {
@@ -96,8 +96,8 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 37,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 37,
                                                 "end": 43
                                             },
                                             "name": {

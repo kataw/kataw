@@ -123,8 +123,8 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 28,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 28,
                                                     "end": 30
                                                 },
                                                 "member": {

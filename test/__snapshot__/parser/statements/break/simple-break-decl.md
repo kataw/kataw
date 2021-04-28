@@ -29,8 +29,8 @@ loop: while (x) { break loop; }
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 5,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 5,
                     "end": 11
                 },
                 "expression": {
@@ -50,8 +50,8 @@ loop: while (x) { break loop; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 17,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 17,
                                     "end": 23
                                 },
                                 "label": {

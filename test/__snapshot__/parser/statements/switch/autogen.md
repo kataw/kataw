@@ -198,8 +198,8 @@ switch[ #
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 6,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 6,
                             "end": 11
                         },
                         "expression": {

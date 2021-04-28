@@ -52,8 +52,8 @@ let { f: ...await f } = {};
                                             "kind": 203,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 8,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 8,
                                                 "end": 12
                                             },
                                             "binding": {

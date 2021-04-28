@@ -42,6 +42,12 @@ for (let x of a,b) c
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 10,
+                "end": 13
+            },
             "initializer": {
                 "kind": 151,
                 "bindingList": [

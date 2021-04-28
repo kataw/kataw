@@ -36,8 +36,8 @@ do catch try {} while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 15,
-                "start": 0,
+                "flags": 0,
+                "start": 15,
                 "end": 21
             },
             "statement": {

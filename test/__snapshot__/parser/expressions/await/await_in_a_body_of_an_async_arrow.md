@@ -42,8 +42,8 @@ let y = async x => { await x; }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 18
                             },
                             "typeParameters": null,
@@ -69,8 +69,8 @@ let y = async x => { await x; }
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 7,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 7,
                                 "end": 13
                             },
                             "returnType": null,
@@ -86,8 +86,8 @@ let y = async x => { await x; }
                                                 "kind": 208,
                                                 "awaitToken": {
                                                     "kind": 82032,
-                                                    "flags": 20,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 20,
                                                     "end": 26
                                                 },
                                                 "expression": {

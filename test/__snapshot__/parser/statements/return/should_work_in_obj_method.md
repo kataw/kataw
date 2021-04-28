@@ -54,8 +54,8 @@
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 8,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 8,
                                                     "end": 15
                                                 },
                                                 "expression": null,

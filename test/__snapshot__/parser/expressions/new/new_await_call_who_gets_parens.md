@@ -19,8 +19,8 @@ async () => new await x()
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 11
             },
             "typeParameters": null,
@@ -36,16 +36,16 @@ async () => new await x()
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 11,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 11,
                     "end": 15
                 },
                 "expression": {
                     "kind": 208,
                     "awaitToken": {
                         "kind": 82032,
-                        "flags": 15,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 15,
                         "end": 21
                     },
                     "expression": {

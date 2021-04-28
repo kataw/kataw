@@ -27,8 +27,8 @@ function *f() { 1 ? yield 2 : 3; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -67,16 +67,16 @@ function *f() { 1 ? yield 2 : 3; }
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 17,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 17,
                                     "end": 19
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 19,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 19,
                                         "end": 25
                                     },
                                     "delegate": false,
@@ -95,8 +95,8 @@ function *f() { 1 ? yield 2 : 3; }
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 27,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 27,
                                     "end": 29
                                 },
                                 "alternate": {

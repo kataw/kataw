@@ -54,8 +54,8 @@ for (a ? b : c in x);
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 8
                 },
                 "consequent": {
@@ -68,8 +68,8 @@ for (a ? b : c in x);
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 10,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 10,
                     "end": 12
                 },
                 "alternate": {

@@ -27,8 +27,8 @@ function *f(){ return { ...(yield) } }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -57,8 +57,8 @@ function *f(){ return { ...(yield) } }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 14,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 14,
                                 "end": 21
                             },
                             "expression": {
@@ -70,8 +70,8 @@ function *f(){ return { ...(yield) } }
                                             "kind": 224,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 23,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 23,
                                                 "end": 27
                                             },
                                             "argument": {
@@ -80,8 +80,8 @@ function *f(){ return { ...(yield) } }
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 28,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 28,
                                                         "end": 33
                                                     },
                                                     "delegate": false,

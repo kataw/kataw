@@ -93,8 +93,8 @@ switch [catch] while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 14,
-                "start": 0,
+                "flags": 0,
+                "start": 14,
                 "end": 20
             },
             "expression": {
@@ -108,8 +108,8 @@ switch [catch] while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 20,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 20,
                     "end": 24
                 },
                 "block": {

@@ -107,8 +107,8 @@ switch [catch] async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 20,
-                "start": 0,
+                "flags": 0,
+                "start": 20,
                 "end": 24
             },
             "block": {

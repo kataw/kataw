@@ -53,8 +53,8 @@ var v = (a, b) => {
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 14,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 14,
                                 "end": 17
                             },
                             "typeParameters": null,

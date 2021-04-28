@@ -79,8 +79,8 @@ var x = {
                                                         "kind": 161,
                                                         "returnKeyword": {
                                                             "kind": 37757022,
-                                                            "flags": 23,
-                                                            "start": 1,
+                                                            "flags": 1,
+                                                            "start": 23,
                                                             "end": 38
                                                         },
                                                         "expression": {

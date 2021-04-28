@@ -484,8 +484,8 @@ for (# in x) ;
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {

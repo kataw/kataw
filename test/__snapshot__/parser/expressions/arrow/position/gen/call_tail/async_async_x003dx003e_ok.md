@@ -40,8 +40,8 @@ foo(async async => ok).bar
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 15,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 18
                                 },
                                 "typeParameters": null,
@@ -67,8 +67,8 @@ foo(async async => ok).bar
                                 ],
                                 "asyncToken": {
                                     "kind": 82031,
-                                    "flags": 4,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 4,
                                     "end": 9
                                 },
                                 "returnType": null,

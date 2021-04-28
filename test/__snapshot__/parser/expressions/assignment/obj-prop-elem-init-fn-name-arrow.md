@@ -62,8 +62,8 @@ result = { x: arrow = () => {} } = {};
                                             "kind": 271,
                                             "arrowToken": {
                                                 "kind": 10,
-                                                "flags": 24,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 24,
                                                 "end": 27
                                             },
                                             "typeParameters": null,

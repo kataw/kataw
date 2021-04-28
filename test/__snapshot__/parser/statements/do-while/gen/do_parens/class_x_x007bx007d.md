@@ -36,8 +36,8 @@ do( class x {} while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 14,
-                "start": 0,
+                "flags": 0,
+                "start": 14,
                 "end": 20
             },
             "statement": {
@@ -49,8 +49,8 @@ do( class x {} while
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 3,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 3,
                             "end": 9
                         },
                         "name": {

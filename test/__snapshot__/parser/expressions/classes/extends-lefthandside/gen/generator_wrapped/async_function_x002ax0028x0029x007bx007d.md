@@ -33,8 +33,8 @@ function *P(){
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -65,8 +65,8 @@ function *P(){
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 14,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 14,
                                 "end": 22
                             },
                             "name": {
@@ -82,28 +82,28 @@ function *P(){
                                 "kind": 279,
                                 "extendsKeyword": {
                                     "kind": 4194391,
-                                    "flags": 24,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 24,
                                     "end": 32
                                 },
                                 "expression": {
                                     "kind": 177,
                                     "asyncKeyword": {
                                         "kind": 82031,
-                                        "flags": 32,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 32,
                                         "end": 38
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
-                                        "flags": 38,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 38,
                                         "end": 47
                                     },
                                     "generatorToken": {
                                         "kind": 67143222,
-                                        "flags": 47,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 47,
                                         "end": 49
                                     },
                                     "name": null,

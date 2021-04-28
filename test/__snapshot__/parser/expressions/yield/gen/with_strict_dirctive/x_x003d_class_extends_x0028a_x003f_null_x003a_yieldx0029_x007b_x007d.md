@@ -51,8 +51,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 17,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 17,
                         "end": 23
                     },
                     "name": null,
@@ -61,8 +61,8 @@
                         "kind": 279,
                         "extendsKeyword": {
                             "kind": 4194391,
-                            "flags": 23,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 23,
                             "end": 31
                         },
                         "expression": {
@@ -79,8 +79,8 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 34,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 34,
                                     "end": 36
                                 },
                                 "consequent": {
@@ -92,8 +92,8 @@
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 41,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 41,
                                     "end": 43
                                 },
                                 "alternate": {

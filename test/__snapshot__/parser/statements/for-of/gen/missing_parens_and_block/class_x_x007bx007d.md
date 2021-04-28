@@ -45,8 +45,8 @@ try catch class x {}
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 3,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 3,
                     "end": 9
                 },
                 "catchParameter": null,
@@ -80,8 +80,8 @@ try catch class x {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 15
             },
             "name": {

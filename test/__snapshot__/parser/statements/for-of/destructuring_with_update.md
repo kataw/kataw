@@ -42,6 +42,12 @@ for ([a.b]++ of c) d
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 12,
+                "end": 15
+            },
             "initializer": {
                 "kind": 127,
                 "operandToken": {

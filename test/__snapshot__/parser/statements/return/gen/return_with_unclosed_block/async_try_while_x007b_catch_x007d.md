@@ -50,8 +50,8 @@ return {} return(x) { async try while { catch }
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 16
             },
             "expression": {
@@ -95,8 +95,8 @@ return {} return(x) { async try while { catch }
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 27,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 27,
                             "end": 31
                         },
                         "block": {

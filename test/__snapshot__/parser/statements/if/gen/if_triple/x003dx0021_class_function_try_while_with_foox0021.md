@@ -38,8 +38,8 @@ if if if =! class function try while with foo!
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
@@ -53,8 +53,8 @@ if if if =! class function try while with foo!
                     "kind": 164,
                     "ifKeyword": {
                         "kind": 37757019,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 8
                     },
                     "expression": {
@@ -85,8 +85,8 @@ if if if =! class function try while with foo!
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 11,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 17
                                 },
                                 "name": null,
@@ -117,8 +117,8 @@ if if if =! class function try while with foo!
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 17,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 17,
                             "end": 26
                         },
                         "generatorToken": null,
@@ -180,8 +180,8 @@ if if if =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 26,
-                "start": 0,
+                "flags": 0,
+                "start": 26,
                 "end": 30
             },
             "block": {
@@ -222,8 +222,8 @@ if if if =! class function try while with foo!
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 36,
-                "start": 0,
+                "flags": 0,
+                "start": 36,
                 "end": 41
             },
             "expression": {

@@ -31,8 +31,8 @@ function * gen() { function not_gen() { (class { static async method(...await) {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -99,8 +99,8 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 41,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 41,
                                                         "end": 46
                                                     },
                                                     "name": null,
@@ -145,8 +145,8 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                 "kind": 215,
                                                                                 "ellipsisToken": {
                                                                                     "kind": 524302,
-                                                                                    "flags": 69,
-                                                                                    "start": 512,
+                                                                                    "flags": 512,
+                                                                                    "start": 69,
                                                                                     "end": 72
                                                                                 },
                                                                                 "binding": {

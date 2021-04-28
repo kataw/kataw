@@ -22,8 +22,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "typeParameters": null,
@@ -49,8 +49,8 @@
                                 "kind": 153,
                                 "withKeyword": {
                                     "kind": 37757029,
-                                    "flags": 22,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 22,
                                     "end": 26
                                 },
                                 "expression": {

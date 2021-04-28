@@ -38,8 +38,8 @@ switch (A) {default: D; case B: C; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 19
                         },
                         "statements": [
@@ -66,8 +66,8 @@ switch (A) {default: D; case B: C; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 23,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 23,
                             "end": 28
                         },
                         "expression": {

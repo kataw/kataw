@@ -86,8 +86,8 @@
                         "declareKeyword": null,
                         "varKeyword": {
                             "kind": 37757002,
-                            "flags": 29,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 29,
                             "end": 33
                         },
                         "declarationList": {

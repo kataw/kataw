@@ -49,8 +49,8 @@ switch {} default(x) { catch try {}
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 17
                         },
                         "statements": [

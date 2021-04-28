@@ -329,8 +329,8 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 81,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 81,
                             "end": 85
                         },
                         "expression": {
@@ -389,8 +389,8 @@ new foo().bar++;
                         "kind": 210,
                         "newKeyword": {
                             "kind": 138477661,
-                            "flags": 99,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 99,
                             "end": 103
                         },
                         "expression": {

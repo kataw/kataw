@@ -37,8 +37,8 @@ else {} if(x) { class x {}
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 10
             },
             "expression": {
@@ -60,8 +60,8 @@ else {} if(x) { class x {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 21
                             },
                             "name": {

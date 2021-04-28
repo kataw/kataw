@@ -58,14 +58,14 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 30
                             },
                             "name": {
@@ -95,8 +95,8 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 37,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 37,
                                                 "end": 41
                                             },
                                             "declarationList": {
@@ -119,8 +119,8 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 46,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 46,
                                                                 "end": 55
                                                             },
                                                             "generatorToken": null,

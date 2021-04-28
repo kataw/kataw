@@ -59,8 +59,8 @@ function f(){ [...new.target] }
                                             "kind": 223,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 15,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 15,
                                                 "end": 18
                                             },
                                             "argument": {

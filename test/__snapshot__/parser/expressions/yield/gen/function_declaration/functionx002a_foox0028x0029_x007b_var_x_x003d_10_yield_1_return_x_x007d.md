@@ -58,14 +58,14 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 30
                             },
                             "name": {
@@ -95,8 +95,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 38,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 38,
                                                 "end": 42
                                             },
                                             "declarationList": {
@@ -141,8 +141,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 50,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 50,
                                                     "end": 56
                                                 },
                                                 "delegate": false,
@@ -167,8 +167,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 59,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 59,
                                                 "end": 66
                                             },
                                             "expression": {

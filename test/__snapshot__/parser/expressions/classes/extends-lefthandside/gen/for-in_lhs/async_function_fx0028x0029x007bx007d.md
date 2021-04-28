@@ -26,19 +26,25 @@ for (async function f(){} in x) ;
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 25,
+                "end": 28
+            },
             "kind": 166,
             "initializer": {
                 "kind": 177,
                 "asyncKeyword": {
                     "kind": 82031,
-                    "flags": 5,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 5,
                     "end": 10
                 },
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 10,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 10,
                     "end": 19
                 },
                 "generatorToken": null,

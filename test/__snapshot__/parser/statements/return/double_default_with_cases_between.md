@@ -38,8 +38,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 11,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 11,
                             "end": 19
                         },
                         "statements": [
@@ -47,8 +47,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 20,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 20,
                                     "end": 26
                                 },
                                 "label": null,
@@ -65,8 +65,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 27,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 27,
                             "end": 32
                         },
                         "expression": {
@@ -82,8 +82,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 35,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 35,
                                     "end": 41
                                 },
                                 "label": null,
@@ -100,8 +100,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 42,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 42,
                             "end": 47
                         },
                         "expression": {
@@ -117,8 +117,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 50,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 50,
                                     "end": 56
                                 },
                                 "label": null,
@@ -135,8 +135,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 57,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 57,
                             "end": 65
                         },
                         "statements": [
@@ -144,8 +144,8 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                 "kind": 150,
                                 "breakKeyword": {
                                     "kind": 37757005,
-                                    "flags": 66,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 66,
                                     "end": 72
                                 },
                                 "label": null,

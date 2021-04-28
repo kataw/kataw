@@ -55,8 +55,8 @@ function f() {
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 14,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 14,
                                 "end": 22
                             },
                             "declarationList": {

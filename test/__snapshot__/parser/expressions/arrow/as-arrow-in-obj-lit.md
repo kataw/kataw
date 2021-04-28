@@ -46,8 +46,8 @@ x = {arrow: (x, y) => ok};
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 15,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 15,
                                         "end": 18
                                     },
                                     "typeParameters": null,
@@ -135,8 +135,8 @@ x = {arrow: (x, y) => ok};
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
-                                        "flags": 43,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 43,
                                         "end": 46
                                     },
                                     "typeParameters": null,

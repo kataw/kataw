@@ -32,16 +32,16 @@
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 20
             },
             "expression": {
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 34,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 34,
                     "end": 37
                 },
                 "typeParameters": null,

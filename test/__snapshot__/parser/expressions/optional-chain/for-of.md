@@ -28,8 +28,8 @@ for (a?.b of c);
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 8
                 },
                 "member": {

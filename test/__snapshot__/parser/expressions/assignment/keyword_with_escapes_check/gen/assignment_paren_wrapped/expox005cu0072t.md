@@ -42,8 +42,8 @@
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 1,
-                "start": 327680,
+                "flags": 327680,
+                "start": 1,
                 "end": 12
             },
             "declaration": null,

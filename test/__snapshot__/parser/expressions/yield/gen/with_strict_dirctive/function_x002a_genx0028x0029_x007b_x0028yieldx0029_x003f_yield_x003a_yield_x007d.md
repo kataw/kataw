@@ -34,14 +34,14 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 22
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 22,
-                "start": 512,
+                "flags": 512,
+                "start": 22,
                 "end": 24
             },
             "name": {
@@ -76,8 +76,8 @@
                                         "kind": 229,
                                         "yieldKeyword": {
                                             "kind": 8454253,
-                                            "flags": 34,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 34,
                                             "end": 39
                                         },
                                         "delegate": false,
@@ -93,16 +93,16 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 40,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 40,
                                     "end": 42
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 42,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 42,
                                         "end": 48
                                     },
                                     "delegate": false,
@@ -114,16 +114,16 @@
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 48,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 48,
                                     "end": 50
                                 },
                                 "alternate": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 50,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 50,
                                         "end": 56
                                     },
                                     "delegate": false,

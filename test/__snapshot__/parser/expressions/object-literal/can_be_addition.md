@@ -42,8 +42,8 @@ x = {...a + b}
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 5,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 5,
                                     "end": 8
                                 },
                                 "argument": {

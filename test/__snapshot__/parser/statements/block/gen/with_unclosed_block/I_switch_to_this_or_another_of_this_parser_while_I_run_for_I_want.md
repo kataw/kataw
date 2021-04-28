@@ -122,8 +122,8 @@
                         "kind": 160,
                         "switchKeyword": {
                             "kind": 37757024,
-                            "flags": 19,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 19,
                             "end": 26
                         },
                         "expression": {
@@ -229,8 +229,8 @@
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 60,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 60,
                             "end": 66
                         },
                         "expression": {
@@ -263,8 +263,8 @@
                         "kind": 165,
                         "forKeyword": {
                             "kind": 37757017,
-                            "flags": 72,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 72,
                             "end": 76
                         },
                         "initializer": {

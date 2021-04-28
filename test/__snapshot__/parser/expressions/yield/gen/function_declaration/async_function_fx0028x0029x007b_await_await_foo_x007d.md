@@ -57,14 +57,14 @@ function not_gen() { async function f(){ await await foo; } }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 20,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 20,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 26,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 26,
                                 "end": 35
                             },
                             "generatorToken": null,
@@ -96,16 +96,16 @@ function not_gen() { async function f(){ await await foo; } }}
                                                 "kind": 208,
                                                 "awaitToken": {
                                                     "kind": 82032,
-                                                    "flags": 40,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 40,
                                                     "end": 46
                                                 },
                                                 "expression": {
                                                     "kind": 208,
                                                     "awaitToken": {
                                                         "kind": 82032,
-                                                        "flags": 46,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 46,
                                                         "end": 52
                                                     },
                                                     "expression": {

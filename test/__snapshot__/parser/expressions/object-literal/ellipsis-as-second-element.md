@@ -50,8 +50,8 @@ x = {x, ...y}
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 7,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 7,
                                     "end": 11
                                 },
                                 "argument": {

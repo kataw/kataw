@@ -61,8 +61,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 5,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 5,
                                         "end": 11
                                     },
                                     "name": null,
@@ -97,8 +97,8 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 11,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 11,
                             "end": 20
                         },
                         "generatorToken": null,
@@ -142,8 +142,8 @@
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 20,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 20,
                             "end": 24
                         },
                         "block": {
@@ -184,8 +184,8 @@
                         "kind": 153,
                         "withKeyword": {
                             "kind": 37757029,
-                            "flags": 30,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 30,
                             "end": 35
                         },
                         "expression": {

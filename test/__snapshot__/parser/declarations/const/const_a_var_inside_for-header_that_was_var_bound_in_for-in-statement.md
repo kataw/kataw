@@ -41,6 +41,12 @@ for (const x in obj) { var x = 13 }
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 12,
+                "end": 15
+            },
             "kind": 166,
             "initializer": {
                 "kind": 151,
@@ -85,8 +91,8 @@ for (const x in obj) { var x = 13 }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 22,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 22,
                                 "end": 26
                             },
                             "declarationList": {

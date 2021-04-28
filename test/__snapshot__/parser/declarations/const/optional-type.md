@@ -42,8 +42,8 @@ const f = (...x?) => {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 17,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 17,
                                 "end": 20
                             },
                             "typeParameters": null,
@@ -52,8 +52,8 @@ const f = (...x?) => {}
                                     "kind": 215,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 11,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 11,
                                         "end": 14
                                     },
                                     "binding": {
@@ -66,8 +66,8 @@ const f = (...x?) => {}
                                     },
                                     "optionalToken": {
                                         "kind": 134217750,
-                                        "flags": 15,
-                                        "start": 512,
+                                        "flags": 512,
+                                        "start": 15,
                                         "end": 16
                                     },
                                     "type": null,

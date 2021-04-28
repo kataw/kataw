@@ -31,8 +31,8 @@ export default function *f(){} foo
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "declaration": {
@@ -41,14 +41,14 @@ export default function *f(){} foo
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 14,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 14,
                     "end": 23
                 },
                 "generatorToken": {
                     "kind": 67143222,
-                    "flags": 23,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 23,
                     "end": 25
                 },
                 "name": {

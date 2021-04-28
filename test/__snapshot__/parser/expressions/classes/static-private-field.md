@@ -88,8 +88,8 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 30,
-                "start": 1,
+                "flags": 1,
+                "start": 30,
                 "end": 39
             },
             "name": {

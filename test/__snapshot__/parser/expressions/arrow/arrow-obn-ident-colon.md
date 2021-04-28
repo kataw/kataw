@@ -25,8 +25,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 17,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 17,
                     "end": 20
                 },
                 "typeParameters": null,
@@ -124,8 +124,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 39,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 39,
                     "end": 42
                 },
                 "typeParameters": null,
@@ -209,8 +209,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 57,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 57,
                     "end": 60
                 },
                 "typeParameters": null,

@@ -53,8 +53,8 @@ class try {}
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 9
             },
             "block": {

@@ -24,8 +24,8 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 1,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1,
                         "end": 9
                     },
                     "generatorToken": null,
@@ -61,8 +61,8 @@
                                                 "kind": 222,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 13,
-                                                    "start": 512,
+                                                    "flags": 512,
+                                                    "start": 13,
                                                     "end": 17
                                                 },
                                                 "left": {

@@ -29,8 +29,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 14,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 14,
                     "end": 17
                 },
                 "typeParameters": null,
@@ -63,8 +63,8 @@
                         },
                         "questionToken": {
                             "kind": 134217750,
-                            "flags": 4,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 4,
                             "end": 5
                         },
                         "consequent": {
@@ -76,8 +76,8 @@
                         },
                         "colonToken": {
                             "kind": 21,
-                            "flags": 5,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 5,
                             "end": 6
                         },
                         "alternate": {

@@ -39,8 +39,8 @@ do {} while ((""));
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 11
             },
             "statement": {

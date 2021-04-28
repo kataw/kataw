@@ -59,8 +59,8 @@ z(x)?x:y;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 4,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 4,
                     "end": 5
                 },
                 "consequent": {
@@ -73,8 +73,8 @@ z(x)?x:y;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 7
                 },
                 "alternate": {

@@ -71,8 +71,8 @@ const fn = async (a?: any): Promise<void> => {};
                                         },
                                         "questionToken": {
                                             "kind": 134217750,
-                                            "flags": 19,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 19,
                                             "end": 20
                                         },
                                         "consequent": {
@@ -84,8 +84,8 @@ const fn = async (a?: any): Promise<void> => {};
                                         },
                                         "colonToken": {
                                             "kind": 21,
-                                            "flags": 20,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 20,
                                             "end": 21
                                         },
                                         "alternate": {

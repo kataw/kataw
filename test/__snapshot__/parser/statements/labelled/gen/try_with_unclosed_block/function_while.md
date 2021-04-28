@@ -44,8 +44,8 @@ try {} finally(x) { function while
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "finallyBlock": {
@@ -97,8 +97,8 @@ try {} finally(x) { function while
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 19,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 19,
                             "end": 28
                         },
                         "generatorToken": null,
@@ -142,8 +142,8 @@ try {} finally(x) { function while
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 28,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 28,
                             "end": 34
                         },
                         "expression": {

@@ -917,8 +917,8 @@ type T27 = ArgumentType<never>;  // any
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
-                                            "flags": 622,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 622,
                                             "end": 623
                                         },
                                         "typeAnnotation": {
@@ -1003,8 +1003,8 @@ type T27 = ArgumentType<never>;  // any
                                         "kind": 149,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 693,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 693,
                                             "end": 696
                                         },
                                         "name": {

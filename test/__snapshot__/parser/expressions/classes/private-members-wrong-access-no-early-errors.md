@@ -37,8 +37,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 1,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1,
                         "end": 6
                     },
                     "name": null,
@@ -159,8 +159,8 @@
                                                     "kind": 161,
                                                     "returnKeyword": {
                                                         "kind": 37757022,
-                                                        "flags": 30,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 30,
                                                         "end": 37
                                                     },
                                                     "expression": {
@@ -230,8 +230,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 55,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 55,
                         "end": 60
                     },
                     "name": null,
@@ -410,8 +410,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 102,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 102,
                         "end": 107
                     },
                     "name": null,
@@ -653,8 +653,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 165,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 165,
                         "end": 170
                     },
                     "name": null,

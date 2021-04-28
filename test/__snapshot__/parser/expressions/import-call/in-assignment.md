@@ -39,8 +39,8 @@ x = import(y);
                         "kind": 206,
                         "importKeyword": {
                             "kind": 37814364,
-                            "flags": 3,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 3,
                             "end": 10
                         },
                         "expression": {

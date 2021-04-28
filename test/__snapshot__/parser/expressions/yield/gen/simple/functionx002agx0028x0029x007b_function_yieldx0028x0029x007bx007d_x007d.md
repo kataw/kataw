@@ -31,8 +31,8 @@ function*g(){ function yield(){}; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 9
             },
             "name": {
@@ -63,8 +63,8 @@ function*g(){ function yield(){}; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 13,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 13,
                                 "end": 22
                             },
                             "generatorToken": null,

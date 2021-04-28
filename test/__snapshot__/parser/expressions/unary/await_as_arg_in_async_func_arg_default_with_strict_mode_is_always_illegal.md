@@ -20,14 +20,14 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -58,14 +58,14 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 19,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 19,
                                 "end": 27
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 27,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 27,
                                 "end": 36
                             },
                             "generatorToken": null,
@@ -105,8 +105,8 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                                 "kind": 208,
                                                 "awaitToken": {
                                                     "kind": 82032,
-                                                    "flags": 44,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 44,
                                                     "end": 50
                                                 },
                                                 "expression": {

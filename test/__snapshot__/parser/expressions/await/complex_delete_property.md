@@ -20,14 +20,14 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -123,8 +123,8 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                             "kind": 208,
                                                             "awaitToken": {
                                                                 "kind": 82032,
-                                                                "flags": 50,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 50,
                                                                 "end": 55
                                                             },
                                                             "expression": {

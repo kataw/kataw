@@ -79,8 +79,8 @@ return catch while try this and !foo
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 18,
-                "start": 0,
+                "flags": 0,
+                "start": 18,
                 "end": 22
             },
             "block": {

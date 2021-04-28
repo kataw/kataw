@@ -27,8 +27,8 @@ function *g() { new yield }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -59,16 +59,16 @@ function *g() { new yield }
                                 "kind": 210,
                                 "newKeyword": {
                                     "kind": 138477661,
-                                    "flags": 15,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 19
                                 },
                                 "expression": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 19,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 19,
                                         "end": 25
                                     },
                                     "delegate": false,

@@ -37,8 +37,8 @@ else {} if(x) { try { !xxx
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 10
             },
             "expression": {
@@ -58,8 +58,8 @@ else {} if(x) { try { !xxx
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 19
                             },
                             "block": {

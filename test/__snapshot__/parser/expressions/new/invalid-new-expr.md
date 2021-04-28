@@ -28,8 +28,8 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 0,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 0,
                     "end": 4
                 },
                 "expression": {
@@ -69,8 +69,8 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 13,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 13,
                     "end": 18
                 },
                 "expression": {
@@ -109,8 +109,8 @@ new foo ++;
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 25,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 25,
                     "end": 30
                 },
                 "expression": {
@@ -156,8 +156,8 @@ new foo ++;
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 37,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 37,
                         "end": 42
                     },
                     "expression": {

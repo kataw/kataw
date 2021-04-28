@@ -58,14 +58,14 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 29
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 29,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 29,
                                 "end": 30
                             },
                             "name": {
@@ -94,8 +94,8 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "kind": 160,
                                             "switchKeyword": {
                                                 "kind": 37757024,
-                                                "flags": 37,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 37,
                                                 "end": 44
                                             },
                                             "expression": {
@@ -113,23 +113,23 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                         "kind": 175,
                                                         "caseKeyword": {
                                                             "kind": 4194382,
-                                                            "flags": 50,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 50,
                                                             "end": 55
                                                         },
                                                         "expression": {
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 55,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 55,
                                                                 "end": 61
                                                             },
                                                             "delegate": true,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 61,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 61,
                                                                 "end": 62
                                                             },
                                                             "expression": {
@@ -149,8 +149,8 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 150,
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
-                                                                    "flags": 69,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 69,
                                                                     "end": 75
                                                                 },
                                                                 "label": null,

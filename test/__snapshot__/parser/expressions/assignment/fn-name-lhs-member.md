@@ -60,8 +60,8 @@ o.attr = function() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 9,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 9,
                         "end": 18
                     },
                     "generatorToken": null,

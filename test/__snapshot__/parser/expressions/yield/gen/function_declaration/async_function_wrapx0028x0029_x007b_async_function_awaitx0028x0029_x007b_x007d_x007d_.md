@@ -57,14 +57,14 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 20,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 20,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 26,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 26,
                                 "end": 35
                             },
                             "generatorToken": null,
@@ -95,14 +95,14 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                             "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 44,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 44,
                                                 "end": 50
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 50,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 50,
                                                 "end": 59
                                             },
                                             "generatorToken": null,

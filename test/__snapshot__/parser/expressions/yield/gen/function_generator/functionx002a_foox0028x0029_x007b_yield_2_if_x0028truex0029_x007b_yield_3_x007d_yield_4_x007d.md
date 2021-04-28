@@ -31,8 +31,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -96,14 +96,14 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 39,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 39,
                                                 "end": 48
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 48,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 48,
                                                 "end": 49
                                             },
                                             "name": {
@@ -134,8 +134,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 57,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 57,
                                                                     "end": 63
                                                                 },
                                                                 "delegate": false,
@@ -160,8 +160,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                             "kind": 164,
                                                             "ifKeyword": {
                                                                 "kind": 37757019,
-                                                                "flags": 66,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 66,
                                                                 "end": 69
                                                             },
                                                             "expression": {
@@ -182,8 +182,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                                 "kind": 229,
                                                                                 "yieldKeyword": {
                                                                                     "kind": 8454253,
-                                                                                    "flags": 78,
-                                                                                    "start": 0,
+                                                                                    "flags": 0,
+                                                                                    "start": 78,
                                                                                     "end": 84
                                                                                 },
                                                                                 "delegate": false,
@@ -232,8 +232,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 89,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 89,
                                                                     "end": 95
                                                                 },
                                                                 "delegate": false,

@@ -87,8 +87,8 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 18
                         },
                         "generatorToken": null,
@@ -132,8 +132,8 @@
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 18,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 18,
                             "end": 24
                         },
                         "expression": {

@@ -39,16 +39,16 @@ test
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 4,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 4,
                     "end": 8
                 },
                 "consequent": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 18,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 18,
                         "end": 21
                     },
                     "typeParameters": null,
@@ -128,8 +128,8 @@ test
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 23,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 23,
                     "end": 27
                 },
                 "alternate": {

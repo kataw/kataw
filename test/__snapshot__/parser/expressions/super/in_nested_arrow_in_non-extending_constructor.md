@@ -76,16 +76,16 @@ class x { constructor(){ return () => () => super.foo; }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 24,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 24,
                                                 "end": 31
                                             },
                                             "expression": {
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 34,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 34,
                                                     "end": 37
                                                 },
                                                 "typeParameters": null,
@@ -96,8 +96,8 @@ class x { constructor(){ return () => () => super.foo; }}
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 40,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 40,
                                                         "end": 43
                                                     },
                                                     "typeParameters": null,
@@ -110,8 +110,8 @@ class x { constructor(){ return () => () => super.foo; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 43,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 43,
                                                                 "end": 49
                                                             },
                                                             "flags": 768,

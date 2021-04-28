@@ -29,8 +29,8 @@ new foo?.bar
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 7,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 7,
                         "end": 9
                     },
                     "member": {

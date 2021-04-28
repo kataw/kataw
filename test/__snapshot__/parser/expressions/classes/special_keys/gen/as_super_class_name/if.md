@@ -42,8 +42,8 @@ class x extends if {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -73,8 +73,8 @@ class x extends if {}
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 15,
-                "start": 0,
+                "flags": 0,
+                "start": 15,
                 "end": 18
             },
             "expression": {

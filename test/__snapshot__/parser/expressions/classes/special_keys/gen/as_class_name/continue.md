@@ -53,8 +53,8 @@ class continue {}
             "kind": 172,
             "continueKeyword": {
                 "kind": 37757009,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "label": {

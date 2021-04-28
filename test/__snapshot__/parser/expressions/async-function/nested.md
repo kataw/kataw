@@ -24,14 +24,14 @@ async function x() {}
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -62,14 +62,14 @@ async function x() {}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 20,
-                                "start": 513,
+                                "flags": 513,
+                                "start": 20,
                                 "end": 27
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 27,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 27,
                                 "end": 36
                             },
                             "generatorToken": null,
@@ -106,7 +106,7 @@ async function x() {}
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 1153,
+                            "flags": 1152,
                             "start": 20,
                             "end": 43
                         }

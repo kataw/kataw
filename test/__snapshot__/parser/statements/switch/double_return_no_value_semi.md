@@ -52,8 +52,8 @@ function f(){   return;return    };
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 13,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 13,
                                 "end": 22
                             },
                             "expression": null,
@@ -65,8 +65,8 @@ function f(){   return;return    };
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 23,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 23,
                                 "end": 29
                             },
                             "expression": null,

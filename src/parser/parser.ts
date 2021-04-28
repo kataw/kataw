@@ -549,6 +549,14 @@ function parseContinueStatement(parser: ParserState, context: Context): Continue
 function parseIfStatement(parser: ParserState, context: Context): IfStatement {
   const pos = parser.curPos;
   const ifKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.IfKeyword);
+  if (ifKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+      parser.curPos,
+      parser.pos
+    );
+  }
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
@@ -812,11 +820,19 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
     }
   }
 
-  if (
-    awaitKeyword
-      ? consume(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword)
-      : consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword)
-  ) {
+  const ofKeyword = awaitKeyword
+    ? consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword)
+    : consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword);
+
+  if (ofKeyword) {
+    if (ofKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+        parser.curPos,
+        parser.pos
+      );
+    }
     if (!parser.assignable) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -830,6 +846,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
 
     return createForOfStatement(
       forKeyword,
+      ofKeyword,
       initializer,
       expression,
       parseStatement(
@@ -843,7 +860,9 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
     );
   }
 
-  if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword)) {
+  const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
+
+  if (inKeyword) {
     if (!parser.assignable) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -859,6 +878,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
 
     return createForInStatement(
       forKeyword,
+      inKeyword,
       initializer,
       expression,
       parseStatement(
@@ -3290,7 +3310,6 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
 
 function parseFunctionExpression(parser: ParserState, context: Context): FunctionExpression {
   const pos = parser.curPos;
-  const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
 
   if (asyncToken) {
@@ -3351,7 +3370,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
 
       return expression;
     }
-    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
@@ -3410,7 +3429,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
     contents,
     typeParameters,
     returnType,
-    flags,
+    NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );
@@ -3424,9 +3443,7 @@ function parseFunctionDeclaration(
   isDefaultModifier: boolean
 ): FunctionDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
-  const flags = parser.nodeFlags | NodeFlags.IsStatement;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
-
   if (asyncToken) {
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
@@ -3487,7 +3504,7 @@ function parseFunctionDeclaration(
       return parseExpressionStatement(parser, context, expression, pos);
     }
 
-    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
@@ -3571,7 +3588,7 @@ function parseFunctionDeclaration(
     contents,
     typeParameters,
     returnType,
-    flags,
+    NodeFlags.IsStatement,
     pos,
     parser.curPos
   );

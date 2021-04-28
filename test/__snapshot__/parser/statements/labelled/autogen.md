@@ -202,8 +202,8 @@ try[ #
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 3,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 3,
                     "end": 9
                 },
                 "catchParameter": null,

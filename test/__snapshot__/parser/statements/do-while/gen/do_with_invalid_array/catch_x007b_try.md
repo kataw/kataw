@@ -56,8 +56,8 @@ do while [catch] catch { try
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 8
                 },
                 "expression": {

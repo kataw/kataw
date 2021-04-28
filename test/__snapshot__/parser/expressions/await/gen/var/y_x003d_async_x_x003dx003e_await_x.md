@@ -62,8 +62,8 @@ var await; var f = (async function() { y = async x => await x });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 10,
-                "start": 0,
+                "flags": 0,
+                "start": 10,
                 "end": 14
             },
             "declarationList": {
@@ -87,14 +87,14 @@ var await; var f = (async function() { y = async x => await x });
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 20,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 20,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 25,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 25,
                                     "end": 34
                                 },
                                 "generatorToken": null,
@@ -135,8 +135,8 @@ var await; var f = (async function() { y = async x => await x });
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 50,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 50,
                                                             "end": 53
                                                         },
                                                         "typeParameters": null,
@@ -162,8 +162,8 @@ var await; var f = (async function() { y = async x => await x });
                                                         ],
                                                         "asyncToken": {
                                                             "kind": 82031,
-                                                            "flags": 42,
-                                                            "start": 512,
+                                                            "flags": 512,
+                                                            "start": 42,
                                                             "end": 48
                                                         },
                                                         "returnType": null,
@@ -171,8 +171,8 @@ var await; var f = (async function() { y = async x => await x });
                                                             "kind": 208,
                                                             "awaitToken": {
                                                                 "kind": 82032,
-                                                                "flags": 53,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 53,
                                                                 "end": 59
                                                             },
                                                             "expression": {

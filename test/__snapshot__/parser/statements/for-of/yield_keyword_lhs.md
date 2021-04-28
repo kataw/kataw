@@ -46,8 +46,8 @@ function *f(){ for (yield of obj); }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -76,16 +76,22 @@ function *f(){ for (yield of obj); }
                             "kind": 167,
                             "forKeyword": {
                                 "kind": 37757017,
-                                "flags": 14,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 14,
                                 "end": 18
+                            },
+                            "ofKeyword": {
+                                "kind": 16793717,
+                                "flags": 512,
+                                "start": 25,
+                                "end": 28
                             },
                             "initializer": {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 20,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 20,
                                     "end": 25
                                 },
                                 "delegate": false,

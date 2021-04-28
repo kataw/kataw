@@ -28,8 +28,8 @@ eval => { 'use strict'; 0 } , bar;
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 4,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 4,
                             "end": 7
                         },
                         "typeParameters": null,

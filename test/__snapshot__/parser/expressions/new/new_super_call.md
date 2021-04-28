@@ -38,8 +38,8 @@ class x extends y { constructor() { new super() }}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -98,16 +98,16 @@ class x extends y { constructor() { new super() }}
                                                 "kind": 210,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 35,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 35,
                                                     "end": 39
                                                 },
                                                 "expression": {
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 39,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 39,
                                                         "end": 45
                                                     },
                                                     "flags": 768,

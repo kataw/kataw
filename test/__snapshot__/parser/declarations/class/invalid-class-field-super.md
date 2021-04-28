@@ -75,8 +75,8 @@ class C { [super.bbb] = 0 };
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 15,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 21
                                 },
                                 "flags": 768,
@@ -120,8 +120,8 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 28,
-                "start": 1,
+                "flags": 1,
+                "start": 28,
                 "end": 35
             },
             "name": {
@@ -157,8 +157,8 @@ class C { [super.bbb] = 0 };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 48,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 48,
                                 "end": 51
                             },
                             "typeParameters": null,
@@ -171,8 +171,8 @@ class C { [super.bbb] = 0 };
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
-                                        "flags": 51,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 51,
                                         "end": 57
                                     },
                                     "flags": 768,
@@ -220,8 +220,8 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 64,
-                "start": 1,
+                "flags": 1,
+                "start": 64,
                 "end": 71
             },
             "name": {
@@ -257,8 +257,8 @@ class C { [super.bbb] = 0 };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 84,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 84,
                                 "end": 87
                             },
                             "typeParameters": null,
@@ -269,8 +269,8 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 90,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 90,
                                     "end": 93
                                 },
                                 "typeParameters": null,
@@ -283,8 +283,8 @@ class C { [super.bbb] = 0 };
                                         "kind": 225,
                                         "superKeyword": {
                                             "kind": 4259935,
-                                            "flags": 93,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 93,
                                             "end": 99
                                         },
                                         "flags": 768,
@@ -336,8 +336,8 @@ class C { [super.bbb] = 0 };
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 106,
-                "start": 1,
+                "flags": 1,
+                "start": 106,
                 "end": 113
             },
             "name": {
@@ -367,8 +367,8 @@ class C { [super.bbb] = 0 };
                                     "kind": 225,
                                     "superKeyword": {
                                         "kind": 4259935,
-                                        "flags": 119,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 119,
                                         "end": 124
                                     },
                                     "flags": 768,

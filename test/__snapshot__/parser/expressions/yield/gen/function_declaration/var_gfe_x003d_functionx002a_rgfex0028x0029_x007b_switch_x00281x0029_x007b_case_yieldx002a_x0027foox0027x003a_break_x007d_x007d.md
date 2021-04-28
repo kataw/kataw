@@ -57,8 +57,8 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 24
                             },
                             "declarationList": {
@@ -81,14 +81,14 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 30,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 30,
                                                 "end": 39
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 39,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 39,
                                                 "end": 40
                                             },
                                             "name": {
@@ -117,8 +117,8 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                             "kind": 160,
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
-                                                                "flags": 49,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 49,
                                                                 "end": 56
                                                             },
                                                             "expression": {
@@ -136,23 +136,23 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                         "kind": 175,
                                                                         "caseKeyword": {
                                                                             "kind": 4194382,
-                                                                            "flags": 62,
-                                                                            "start": 0,
+                                                                            "flags": 0,
+                                                                            "start": 62,
                                                                             "end": 67
                                                                         },
                                                                         "expression": {
                                                                             "kind": 229,
                                                                             "yieldKeyword": {
                                                                                 "kind": 8454253,
-                                                                                "flags": 67,
-                                                                                "start": 0,
+                                                                                "flags": 0,
+                                                                                "start": 67,
                                                                                 "end": 73
                                                                             },
                                                                             "delegate": true,
                                                                             "asteriskToken": {
                                                                                 "kind": 67143222,
-                                                                                "flags": 73,
-                                                                                "start": 512,
+                                                                                "flags": 512,
+                                                                                "start": 73,
                                                                                 "end": 74
                                                                             },
                                                                             "expression": {
@@ -172,8 +172,8 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                                 "kind": 150,
                                                                                 "breakKeyword": {
                                                                                     "kind": 37757005,
-                                                                                    "flags": 81,
-                                                                                    "start": 0,
+                                                                                    "flags": 0,
+                                                                                    "start": 81,
                                                                                     "end": 87
                                                                                 },
                                                                                 "label": null,

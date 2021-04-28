@@ -33,8 +33,8 @@ bar ? baz : ( return => {} );
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 3,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 3,
                     "end": 5
                 },
                 "consequent": {
@@ -47,8 +47,8 @@ bar ? baz : ( return => {} );
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 9,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 9,
                     "end": 11
                 },
                 "alternate": {
@@ -76,8 +76,8 @@ bar ? baz : ( return => {} );
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 20
             },
             "expression": {

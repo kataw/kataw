@@ -32,8 +32,8 @@ switch( function while case
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 16
                 },
                 "generatorToken": null,
@@ -82,8 +82,8 @@ switch( function while case
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 16,
-                "start": 0,
+                "flags": 0,
+                "start": 16,
                 "end": 22
             },
             "expression": {

@@ -32,8 +32,8 @@
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 20
             },
             "declaration": {
@@ -41,8 +41,8 @@
                 "declareKeyword": null,
                 "varKeyword": {
                     "kind": 37757002,
-                    "flags": 20,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 20,
                     "end": 24
                 },
                 "declarationList": {

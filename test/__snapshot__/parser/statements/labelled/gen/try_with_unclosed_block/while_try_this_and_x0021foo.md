@@ -44,8 +44,8 @@ try {} finally(x) { while try this and !foo
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "finallyBlock": {
@@ -95,8 +95,8 @@ try {} finally(x) { while try this and !foo
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 19,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 19,
                             "end": 25
                         },
                         "expression": {
@@ -110,8 +110,8 @@ try {} finally(x) { while try this and !foo
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 25,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 25,
                                 "end": 29
                             },
                             "block": {

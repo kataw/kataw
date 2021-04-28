@@ -33,8 +33,8 @@
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 17
             },
             "declarationList": {
@@ -51,8 +51,8 @@
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 19,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 19,
                                             "end": 22
                                         },
                                         "binding": {

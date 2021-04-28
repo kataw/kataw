@@ -28,8 +28,8 @@
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 1,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 1,
                             "end": 7
                         },
                         "expression": {
@@ -43,8 +43,8 @@
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 7,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 7,
                                 "end": 11
                             },
                             "block": {

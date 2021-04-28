@@ -56,14 +56,14 @@
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 21,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 21,
                                 "end": 30
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 30,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 30,
                                 "end": 32
                             },
                             "name": {

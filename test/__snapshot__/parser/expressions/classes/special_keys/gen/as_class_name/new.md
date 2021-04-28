@@ -55,8 +55,8 @@ class new {}
                 "kind": 210,
                 "newKeyword": {
                     "kind": 138477661,
-                    "flags": 5,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 5,
                     "end": 9
                 },
                 "expression": {

@@ -36,16 +36,16 @@ do do do async try while { catch } while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 34,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 40
             },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
@@ -74,16 +74,16 @@ do do do async try while { catch } while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 18,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 18,
                     "end": 24
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 8
                     },
                     "expression": {
@@ -124,8 +124,8 @@ do do do async try while { catch } while while while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 40,
-                "start": 0,
+                "flags": 0,
+                "start": 40,
                 "end": 46
             },
             "expression": {
@@ -139,8 +139,8 @@ do do do async try while { catch } while while while
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 46,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 46,
                     "end": 52
                 },
                 "expression": {

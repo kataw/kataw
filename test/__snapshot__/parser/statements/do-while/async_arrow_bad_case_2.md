@@ -34,8 +34,8 @@ do async ()
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 18,
-                "start": 0,
+                "flags": 0,
+                "start": 18,
                 "end": 24
             },
             "statement": {
@@ -44,8 +44,8 @@ do async ()
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 11,
-                        "start": 1,
+                        "flags": 1,
+                        "start": 11,
                         "end": 15
                     },
                     "typeParameters": null,

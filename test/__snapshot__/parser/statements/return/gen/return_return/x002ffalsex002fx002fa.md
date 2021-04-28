@@ -62,8 +62,8 @@ return /false//a return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 16,
-                "start": 0,
+                "flags": 0,
+                "start": 16,
                 "end": 23
             },
             "expression": null,

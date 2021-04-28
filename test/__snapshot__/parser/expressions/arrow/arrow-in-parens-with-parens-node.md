@@ -45,8 +45,8 @@ var asserted1 = <any>((n) => { return n; });
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 25,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 25,
                                     "end": 28
                                 },
                                 "typeParameters": null,
@@ -72,8 +72,8 @@ var asserted1 = <any>((n) => { return n; });
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 30,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 30,
                                                     "end": 37
                                                 },
                                                 "expression": {

@@ -37,8 +37,8 @@ else {} if(x) { while try this and !foo
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 10
             },
             "expression": {
@@ -58,8 +58,8 @@ else {} if(x) { while try this and !foo
                             "kind": 154,
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 21
                             },
                             "expression": {
@@ -73,8 +73,8 @@ else {} if(x) { while try this and !foo
                                 "kind": 159,
                                 "tryKeyword": {
                                     "kind": 37757027,
-                                    "flags": 21,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 21,
                                     "end": 25
                                 },
                                 "block": {

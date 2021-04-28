@@ -24,14 +24,14 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -84,14 +84,14 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                             "kind": 177,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 26,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 26,
                                                 "end": 32
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 32,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 32,
                                                 "end": 41
                                             },
                                             "generatorToken": null,
@@ -156,8 +156,8 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                                                                     "kind": 208,
                                                                                                     "awaitToken": {
                                                                                                         "kind": 82032,
-                                                                                                        "flags": 60,
-                                                                                                        "start": 0,
+                                                                                                        "flags": 0,
+                                                                                                        "start": 60,
                                                                                                         "end": 65
                                                                                                     },
                                                                                                     "expression": {

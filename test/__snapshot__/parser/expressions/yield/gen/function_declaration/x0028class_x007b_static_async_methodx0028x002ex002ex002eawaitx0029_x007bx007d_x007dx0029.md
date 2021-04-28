@@ -61,8 +61,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 22,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 22,
                                         "end": 27
                                     },
                                     "name": null,
@@ -107,8 +107,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                 "kind": 215,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 50,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 50,
                                                                     "end": 53
                                                                 },
                                                                 "binding": {

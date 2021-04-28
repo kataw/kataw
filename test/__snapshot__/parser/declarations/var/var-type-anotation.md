@@ -53,8 +53,8 @@ var foo = ((): number => bar);
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 21,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 21,
                                     "end": 24
                                 },
                                 "typeParameters": null,

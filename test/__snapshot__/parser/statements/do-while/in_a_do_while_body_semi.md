@@ -33,8 +33,8 @@ do x, y; while (z)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 14
             },
             "statement": {

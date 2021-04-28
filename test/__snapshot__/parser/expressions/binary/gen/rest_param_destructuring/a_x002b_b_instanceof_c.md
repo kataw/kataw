@@ -25,8 +25,8 @@
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 28,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 28,
                     "end": 31
                 },
                 "typeParameters": null,
@@ -40,8 +40,8 @@
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 2,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 2,
                                         "end": 6
                                     },
                                     "argument": {

@@ -96,8 +96,8 @@ fn = function() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 19,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 19,
                         "end": 28
                     },
                     "generatorToken": null,
@@ -169,8 +169,8 @@ fn = function() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 41,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 41,
                         "end": 50
                     },
                     "generatorToken": null,

@@ -34,8 +34,8 @@ f(new /z/)
                             "kind": 210,
                             "newKeyword": {
                                 "kind": 138477661,
-                                "flags": 2,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 2,
                                 "end": 5
                             },
                             "expression": {

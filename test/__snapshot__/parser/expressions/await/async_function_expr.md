@@ -42,14 +42,14 @@ let x = async function f(foo = await){}
                             "kind": 177,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 7,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 7,
                                 "end": 13
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 13,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 13,
                                 "end": 22
                             },
                             "generatorToken": null,
@@ -81,8 +81,8 @@ let x = async function f(foo = await){}
                                             "kind": 208,
                                             "awaitToken": {
                                                 "kind": 82032,
-                                                "flags": 30,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 30,
                                                 "end": 36
                                             },
                                             "expression": {

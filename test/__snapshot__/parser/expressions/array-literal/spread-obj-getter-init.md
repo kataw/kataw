@@ -166,8 +166,8 @@ var callCount = 0;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 49,
-                "start": 1,
+                "flags": 1,
+                "start": 49,
                 "end": 55
             },
             "declarationList": {
@@ -219,8 +219,8 @@ var callCount = 0;
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 73,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 73,
                                 "end": 81
                             },
                             "generatorToken": null,
@@ -309,8 +309,8 @@ var callCount = 0;
                                                         "kind": 224,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 105,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 105,
                                                             "end": 108
                                                         },
                                                         "argument": {

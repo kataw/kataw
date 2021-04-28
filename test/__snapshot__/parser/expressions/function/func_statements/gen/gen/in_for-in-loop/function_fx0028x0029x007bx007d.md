@@ -26,6 +26,12 @@ for (a in b) function f(){}
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 6,
+                "end": 9
+            },
             "kind": 166,
             "initializer": {
                 "kind": 134299649,
@@ -49,8 +55,8 @@ for (a in b) function f(){}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 12,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 12,
                     "end": 21
                 },
                 "generatorToken": null,

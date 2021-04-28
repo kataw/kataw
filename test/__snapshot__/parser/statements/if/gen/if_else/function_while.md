@@ -32,8 +32,8 @@ if function while else
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 11
                 },
                 "generatorToken": null,
@@ -71,8 +71,8 @@ if function while else
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 11,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 11,
                     "end": 17
                 },
                 "expression": {
@@ -101,8 +101,8 @@ if function while else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 17,
-                "start": 512,
+                "flags": 512,
+                "start": 17,
                 "end": 22
             },
             "alternate": {

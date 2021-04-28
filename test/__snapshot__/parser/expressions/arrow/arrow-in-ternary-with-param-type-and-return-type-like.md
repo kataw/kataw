@@ -38,8 +38,8 @@ test
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 4,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 4,
                     "end": 8
                 },
                 "consequent": {
@@ -88,16 +88,16 @@ test
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 15,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 15,
                     "end": 16
                 },
                 "alternate": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 18,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 18,
                         "end": 21
                     },
                     "typeParameters": null,

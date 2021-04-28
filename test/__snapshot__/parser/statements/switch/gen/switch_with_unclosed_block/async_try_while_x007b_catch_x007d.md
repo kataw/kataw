@@ -49,8 +49,8 @@ switch {} default(x) { async try while { catch }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 9,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 9,
                             "end": 17
                         },
                         "statements": [
@@ -97,8 +97,8 @@ switch {} default(x) { async try while { catch }
                                             "kind": 159,
                                             "tryKeyword": {
                                                 "kind": 37757027,
-                                                "flags": 28,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 28,
                                                 "end": 32
                                             },
                                             "block": {

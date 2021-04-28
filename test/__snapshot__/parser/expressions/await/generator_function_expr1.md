@@ -43,14 +43,14 @@ let x = function *f(foo = await){}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 7,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 7,
                                 "end": 16
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 16,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 16,
                                 "end": 18
                             },
                             "name": {

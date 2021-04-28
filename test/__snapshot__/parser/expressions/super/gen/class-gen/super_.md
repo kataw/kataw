@@ -84,8 +84,8 @@ class C { *method() { super; } }
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 21,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 21,
                                                         "end": 27
                                                     },
                                                     "flags": 768,

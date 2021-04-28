@@ -38,8 +38,8 @@ switch(x) { default: default: }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 11,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 11,
                             "end": 19
                         },
                         "statements": [],
@@ -51,8 +51,8 @@ switch(x) { default: default: }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 20,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 20,
                             "end": 28
                         },
                         "statements": [],

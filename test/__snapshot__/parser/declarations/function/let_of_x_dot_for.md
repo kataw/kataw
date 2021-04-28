@@ -42,6 +42,12 @@ for (let.foo of x);
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 12,
+                "end": 15
+            },
             "initializer": {
                 "kind": 129,
                 "member": {

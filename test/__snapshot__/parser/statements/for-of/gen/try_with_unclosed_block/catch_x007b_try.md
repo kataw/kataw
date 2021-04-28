@@ -44,8 +44,8 @@ try {} finally(x) { catch { try
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "finallyBlock": {
@@ -103,8 +103,8 @@ try {} finally(x) { catch { try
                                         "kind": 159,
                                         "tryKeyword": {
                                             "kind": 37757027,
-                                            "flags": 27,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 27,
                                             "end": 31
                                         },
                                         "block": {

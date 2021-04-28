@@ -34,24 +34,24 @@ while(y
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 19,
-                "start": 1,
+                "flags": 1,
+                "start": 19,
                 "end": 25
             },
             "statement": {
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 7,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 7,
                         "end": 9
                     },
                     "typeParameters": null,
@@ -92,8 +92,8 @@ while(y
                 },
                 "elseKeyword": {
                     "kind": 4194389,
-                    "flags": 13,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 13,
                     "end": 17
                 },
                 "alternate": {

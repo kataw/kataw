@@ -43,8 +43,8 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 1,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 1,
                                     "end": 3
                                 },
                                 "member": {
@@ -154,32 +154,32 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 27,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 27,
                         "end": 29
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 24,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 24,
                             "end": 26
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 21,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 21,
                                 "end": 23
                             },
                             "member": {
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 18,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 18,
                                     "end": 20
                                 },
                                 "member": {
@@ -328,32 +328,32 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 51,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 51,
                         "end": 53
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 48,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 48,
                             "end": 50
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 45,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 45,
                                 "end": 47
                             },
                             "member": {
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 42,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 42,
                                     "end": 44
                                 },
                                 "member": {
@@ -530,40 +530,40 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 78,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 78,
                         "end": 80
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 75,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 75,
                             "end": 77
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 72,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 72,
                                 "end": 74
                             },
                             "member": {
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 69,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 69,
                                     "end": 71
                                 },
                                 "member": {
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 64,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 64,
                                         "end": 66
                                     },
                                     "member": {
@@ -768,8 +768,8 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 90,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 90,
                                         "end": 92
                                     },
                                     "member": {
@@ -883,16 +883,16 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 119,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 119,
                         "end": 121
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 116,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 116,
                             "end": 118
                         },
                         "member": {
@@ -901,16 +901,16 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 112,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 112,
                                     "end": 114
                                 },
                                 "member": {
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 109,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 109,
                                         "end": 111
                                     },
                                     "member": {
@@ -1063,32 +1063,32 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 145,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 145,
                         "end": 147
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 142,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 142,
                             "end": 144
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 139,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 139,
                                 "end": 141
                             },
                             "member": {
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 136,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 136,
                                     "end": 138
                                 },
                                 "member": {
@@ -1271,24 +1271,24 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 174,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 174,
                         "end": 176
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 171,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 171,
                             "end": 173
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 168,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 168,
                                 "end": 170
                             },
                             "member": {
@@ -1297,16 +1297,16 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "kind": 205,
                                     "chainToken": {
                                         "kind": 393240,
-                                        "flags": 164,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 164,
                                         "end": 166
                                     },
                                     "member": {
                                         "kind": 205,
                                         "chainToken": {
                                             "kind": 393240,
-                                            "flags": 159,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 159,
                                             "end": 161
                                         },
                                         "member": {

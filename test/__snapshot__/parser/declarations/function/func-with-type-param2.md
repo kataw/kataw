@@ -46,8 +46,8 @@ a=function<T,S>() {}
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 2,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 2,
                         "end": 10
                     },
                     "generatorToken": null,

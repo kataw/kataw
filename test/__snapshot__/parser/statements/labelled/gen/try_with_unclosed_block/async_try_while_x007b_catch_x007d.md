@@ -44,8 +44,8 @@ try {} finally(x) { async try while { catch }
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "finallyBlock": {
@@ -109,8 +109,8 @@ try {} finally(x) { async try while { catch }
                         "kind": 159,
                         "tryKeyword": {
                             "kind": 37757027,
-                            "flags": 25,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 25,
                             "end": 29
                         },
                         "block": {

@@ -127,8 +127,8 @@ var z = x + x;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 29,
-                "start": 1,
+                "flags": 1,
+                "start": 29,
                 "end": 33
             },
             "declarationList": {

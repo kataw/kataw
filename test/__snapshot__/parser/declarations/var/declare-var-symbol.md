@@ -33,8 +33,8 @@ declare var x: symbol;
             },
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 11
             },
             "declarationList": {

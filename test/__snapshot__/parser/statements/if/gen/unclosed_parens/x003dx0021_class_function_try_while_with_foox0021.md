@@ -55,8 +55,8 @@ if( =! class function try while with foo!
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 6,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 6,
                             "end": 12
                         },
                         "name": null,
@@ -87,8 +87,8 @@ if( =! class function try while with foo!
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 12,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 12,
                     "end": 21
                 },
                 "generatorToken": null,
@@ -138,8 +138,8 @@ if( =! class function try while with foo!
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 21,
-                "start": 0,
+                "flags": 0,
+                "start": 21,
                 "end": 25
             },
             "block": {
@@ -180,8 +180,8 @@ if( =! class function try while with foo!
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 31,
-                "start": 0,
+                "flags": 0,
+                "start": 31,
                 "end": 36
             },
             "expression": {

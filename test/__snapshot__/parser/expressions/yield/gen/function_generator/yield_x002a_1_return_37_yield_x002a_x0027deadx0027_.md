@@ -31,8 +31,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -128,8 +128,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 50,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 50,
                                                 "end": 57
                                             },
                                             "expression": {

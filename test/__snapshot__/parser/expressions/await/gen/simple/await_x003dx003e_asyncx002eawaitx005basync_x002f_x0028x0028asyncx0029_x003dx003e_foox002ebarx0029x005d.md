@@ -25,8 +25,8 @@ await => async.await[async / ((async) => foo.bar)]
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 5,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 5,
                     "end": 8
                 },
                 "typeParameters": null,
@@ -86,8 +86,8 @@ await => async.await[async / ((async) => foo.bar)]
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 37,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 37,
                                     "end": 40
                                 },
                                 "typeParameters": null,

@@ -23,8 +23,8 @@ else try { !xxx
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 4,
-                "start": 0,
+                "flags": 0,
+                "start": 4,
                 "end": 8
             },
             "block": {

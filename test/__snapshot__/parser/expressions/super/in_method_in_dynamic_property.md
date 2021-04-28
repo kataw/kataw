@@ -68,8 +68,8 @@ x = { foo(){ return x[super.foo]; }}
                                                 "kind": 161,
                                                 "returnKeyword": {
                                                     "kind": 37757022,
-                                                    "flags": 12,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 12,
                                                     "end": 19
                                                 },
                                                 "expression": {
@@ -88,8 +88,8 @@ x = { foo(){ return x[super.foo]; }}
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 22,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 22,
                                                                 "end": 27
                                                             },
                                                             "flags": 768,

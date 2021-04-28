@@ -79,8 +79,8 @@ class x { foo(x=super.foo){ }}
                                                 "kind": 225,
                                                 "superKeyword": {
                                                     "kind": 4259935,
-                                                    "flags": 16,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 16,
                                                     "end": 21
                                                 },
                                                 "flags": 768,

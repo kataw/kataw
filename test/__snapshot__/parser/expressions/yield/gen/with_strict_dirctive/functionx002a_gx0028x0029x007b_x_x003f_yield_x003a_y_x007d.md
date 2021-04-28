@@ -34,14 +34,14 @@
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 22
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 22,
-                "start": 512,
+                "flags": 512,
+                "start": 22,
                 "end": 23
             },
             "name": {
@@ -80,16 +80,16 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 30,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 30,
                                     "end": 32
                                 },
                                 "consequent": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 32,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 32,
                                         "end": 38
                                     },
                                     "delegate": false,
@@ -101,8 +101,8 @@
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 38,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 38,
                                     "end": 40
                                 },
                                 "alternate": {

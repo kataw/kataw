@@ -102,8 +102,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 6,
-                "start": 1,
+                "flags": 1,
+                "start": 6,
                 "end": 11
             },
             "declarationList": {
@@ -147,8 +147,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 18,
-                "start": 1,
+                "flags": 1,
+                "start": 18,
                 "end": 23
             },
             "declarationList": {
@@ -192,8 +192,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 30,
-                "start": 1,
+                "flags": 1,
+                "start": 30,
                 "end": 35
             },
             "declarationList": {
@@ -237,8 +237,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 42,
-                "start": 1,
+                "flags": 1,
+                "start": 42,
                 "end": 47
             },
             "declarationList": {
@@ -384,8 +384,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 73,
-                "start": 1,
+                "flags": 1,
+                "start": 73,
                 "end": 78
             },
             "declarationList": {
@@ -521,8 +521,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 117,
-                "start": 0,
+                "flags": 0,
+                "start": 117,
                 "end": 121
             },
             "declarationList": {
@@ -625,8 +625,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 143,
-                "start": 1,
+                "flags": 1,
+                "start": 143,
                 "end": 148
             },
             "declarationList": {
@@ -662,8 +662,8 @@ var {get} = obj;
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 151,
-                "start": 0,
+                "flags": 0,
+                "start": 151,
                 "end": 155
             },
             "block": {
@@ -684,8 +684,8 @@ var {get} = obj;
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 158,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 158,
                     "end": 164
                 },
                 "catchParameter": {
@@ -760,8 +760,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 179,
-                "start": 1,
+                "flags": 1,
+                "start": 179,
                 "end": 184
             },
             "declarationList": {
@@ -783,8 +783,8 @@ var {get} = obj;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 217,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 217,
                                 "end": 220
                             },
                             "typeParameters": null,
@@ -973,8 +973,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 223,
-                "start": 1,
+                "flags": 1,
+                "start": 223,
                 "end": 228
             },
             "declarationList": {
@@ -996,8 +996,8 @@ var {get} = obj;
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 254,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 254,
                                 "end": 257
                             },
                             "typeParameters": null,
@@ -1126,8 +1126,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 260,
-                "start": 1,
+                "flags": 1,
+                "start": 260,
                 "end": 265
             },
             "declarationList": {
@@ -1164,8 +1164,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 270,
-                "start": 1,
+                "flags": 1,
+                "start": 270,
                 "end": 275
             },
             "declarationList": {
@@ -1209,8 +1209,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 284,
-                "start": 1,
+                "flags": 1,
+                "start": 284,
                 "end": 289
             },
             "declarationList": {
@@ -1294,8 +1294,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 302,
-                "start": 1,
+                "flags": 1,
+                "start": 302,
                 "end": 307
             },
             "declarationList": {
@@ -1393,8 +1393,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 325,
-                "start": 1,
+                "flags": 1,
+                "start": 325,
                 "end": 330
             },
             "declarationList": {
@@ -1476,8 +1476,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 344,
-                "start": 1,
+                "flags": 1,
+                "start": 344,
                 "end": 349
             },
             "declarationList": {
@@ -1552,8 +1552,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 377,
-                "start": 1,
+                "flags": 1,
+                "start": 377,
                 "end": 382
             },
             "declarationList": {
@@ -1628,8 +1628,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 415,
-                "start": 1,
+                "flags": 1,
+                "start": 415,
                 "end": 420
             },
             "declarationList": {
@@ -1719,8 +1719,8 @@ var {get} = obj;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 463,
-                "start": 1,
+                "flags": 1,
+                "start": 463,
                 "end": 468
             },
             "declarationList": {

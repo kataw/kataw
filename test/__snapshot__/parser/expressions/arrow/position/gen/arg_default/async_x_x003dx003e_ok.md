@@ -58,8 +58,8 @@ function f(a = async x => ok) {}
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 22,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 22,
                                 "end": 25
                             },
                             "typeParameters": null,
@@ -85,8 +85,8 @@ function f(a = async x => ok) {}
                             ],
                             "asyncToken": {
                                 "kind": 82031,
-                                "flags": 14,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 14,
                                 "end": 20
                             },
                             "returnType": null,

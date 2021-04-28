@@ -65,8 +65,8 @@ var af = ...x => x;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 13,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 13,
                     "end": 16
                 },
                 "typeParameters": null,

@@ -34,16 +34,16 @@ while(y)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 22,
-                "start": 1,
+                "flags": 1,
+                "start": 22,
                 "end": 28
             },
             "statement": {
                 "kind": 164,
                 "ifKeyword": {
                     "kind": 37757019,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
@@ -60,8 +60,8 @@ while(y)
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 8,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 8,
                         "end": 16
                     },
                     "generatorToken": null,

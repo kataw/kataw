@@ -354,8 +354,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 54,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 54,
                                         "end": 56
                                     },
                                     "consequent": {
@@ -368,8 +368,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 58,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 58,
                                         "end": 60
                                     },
                                     "alternate": {
@@ -757,8 +757,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
-                                        "flags": 157,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 157,
                                         "end": 159
                                     },
                                     "consequent": {
@@ -771,8 +771,8 @@ a = { y: x = 1 } = b;
                                     },
                                     "colonToken": {
                                         "kind": 21,
-                                        "flags": 165,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 165,
                                         "end": 167
                                     },
                                     "alternate": {
@@ -1330,8 +1330,8 @@ a = { y: x = 1 } = b;
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 306,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 306,
                     "end": 309
                 },
                 "typeParameters": null,
@@ -2309,8 +2309,8 @@ a = { y: x = 1 } = b;
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 520,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 520,
                                     "end": 523
                                 },
                                 "argument": {
@@ -2416,8 +2416,8 @@ a = { y: x = 1 } = b;
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 545,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 545,
                                     "end": 549
                                 },
                                 "argument": {
@@ -2698,8 +2698,8 @@ a = { y: x = 1 } = b;
                                     "kind": 224,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 616,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 616,
                                         "end": 620
                                     },
                                     "argument": {
@@ -3067,8 +3067,8 @@ a = { y: x = 1 } = b;
                                                             "kind": 225,
                                                             "superKeyword": {
                                                                 "kind": 4259935,
-                                                                "flags": 724,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 724,
                                                                 "end": 730
                                                             },
                                                             "flags": 768,
@@ -4166,8 +4166,8 @@ a = { y: x = 1 } = b;
                                     "kind": 224,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 992,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 992,
                                         "end": 995
                                     },
                                     "argument": {

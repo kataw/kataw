@@ -42,8 +42,8 @@
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 7,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 7,
                                 "end": 9
                             },
                             "consequent": {
@@ -56,8 +56,8 @@
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 13,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 13,
                                 "end": 15
                             },
                             "alternate": {

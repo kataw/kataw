@@ -49,8 +49,8 @@ a === b ? c : d % e;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 9
                 },
                 "consequent": {
@@ -63,8 +63,8 @@ a === b ? c : d % e;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 11,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 11,
                     "end": 13
                 },
                 "alternate": {

@@ -58,8 +58,8 @@ function f() { class C { yield() { } } }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 14,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 14,
                                 "end": 20
                             },
                             "name": {

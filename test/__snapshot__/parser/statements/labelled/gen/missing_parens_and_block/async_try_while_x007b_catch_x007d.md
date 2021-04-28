@@ -45,8 +45,8 @@ try catch async try while { catch }
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 3,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 3,
                     "end": 9
                 },
                 "catchParameter": null,
@@ -92,8 +92,8 @@ try catch async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 15,
-                "start": 0,
+                "flags": 0,
+                "start": 15,
                 "end": 19
             },
             "block": {

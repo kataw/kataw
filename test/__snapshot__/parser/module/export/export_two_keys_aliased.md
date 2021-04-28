@@ -80,8 +80,8 @@ var x,y; export {x as a, y as b}
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 15
             },
             "declaration": null,

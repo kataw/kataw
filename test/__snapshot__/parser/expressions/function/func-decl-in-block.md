@@ -79,7 +79,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 129,
+                        "flags": 128,
                         "start": 1,
                         "end": 16
                     }
@@ -104,14 +104,14 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 21,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 21,
                             "end": 32
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 32,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 32,
                             "end": 34
                         },
                         "name": {
@@ -147,7 +147,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 2177,
+                        "flags": 2176,
                         "start": 21,
                         "end": 39
                     }
@@ -171,20 +171,20 @@
                         "declareKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,
-                            "flags": 44,
-                            "start": 513,
+                            "flags": 513,
+                            "start": 44,
                             "end": 52
                         },
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 52,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 52,
                             "end": 61
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 61,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 61,
                             "end": 63
                         },
                         "name": {
@@ -220,7 +220,7 @@
                         },
                         "typeParameters": null,
                         "returnType": null,
-                        "flags": 3201,
+                        "flags": 3200,
                         "start": 44,
                         "end": 68
                     }

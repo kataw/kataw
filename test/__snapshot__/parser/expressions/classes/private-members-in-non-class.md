@@ -57,8 +57,8 @@ class C { test() {get #a() { }}}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 8,
-                "start": 1,
+                "flags": 1,
+                "start": 8,
                 "end": 18
             },
             "generatorToken": null,
@@ -94,7 +94,7 @@ class C { test() {get #a() { }}}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 8,
             "end": 22
         },
@@ -104,8 +104,8 @@ class C { test() {get #a() { }}}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 30,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 30,
                     "end": 33
                 },
                 "typeParameters": null,
@@ -141,8 +141,8 @@ class C { test() {get #a() { }}}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 37,
-                "start": 1,
+                "flags": 1,
+                "start": 37,
                 "end": 47
             },
             "generatorToken": null,
@@ -178,7 +178,7 @@ class C { test() {get #a() { }}}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 37,
             "end": 51
         },
@@ -188,8 +188,8 @@ class C { test() {get #a() { }}}
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 59,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 59,
                     "end": 62
                 },
                 "typeParameters": null,
@@ -249,8 +249,8 @@ class C { test() {get #a() { }}}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 74,
-                "start": 1,
+                "flags": 1,
+                "start": 74,
                 "end": 81
             },
             "name": {

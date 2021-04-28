@@ -57,14 +57,14 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             "declareKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 20,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 20,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 26,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 26,
                                 "end": 35
                             },
                             "generatorToken": null,
@@ -179,8 +179,8 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                         "kind": 208,
                                                                                                         "awaitToken": {
                                                                                                             "kind": 82032,
-                                                                                                            "flags": 69,
-                                                                                                            "start": 0,
+                                                                                                            "flags": 0,
+                                                                                                            "start": 69,
                                                                                                             "end": 74
                                                                                                         },
                                                                                                         "expression": {

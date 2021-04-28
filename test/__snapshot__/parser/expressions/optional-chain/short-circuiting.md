@@ -30,16 +30,16 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 31,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 31,
                             "end": 33
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 1,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 1,
                                 "end": 3
                             },
                             "member": {
@@ -199,16 +199,16 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 119,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 119,
                             "end": 121
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 81,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 81,
                                 "end": 83
                             },
                             "member": {

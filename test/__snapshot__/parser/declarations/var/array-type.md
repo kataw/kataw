@@ -94,8 +94,8 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 16,
-                "start": 1,
+                "flags": 1,
+                "start": 16,
                 "end": 21
             },
             "declarationList": {
@@ -164,8 +164,8 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 42,
-                "start": 1,
+                "flags": 1,
+                "start": 42,
                 "end": 47
             },
             "declarationList": {
@@ -234,8 +234,8 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 66,
-                "start": 1,
+                "flags": 1,
+                "start": 66,
                 "end": 71
             },
             "declarationList": {
@@ -295,8 +295,8 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 86,
-                "start": 1,
+                "flags": 1,
+                "start": 86,
                 "end": 91
             },
             "declarationList": {
@@ -364,8 +364,8 @@ var a: (?number)[];
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 105,
-                "start": 1,
+                "flags": 1,
+                "start": 105,
                 "end": 110
             },
             "declarationList": {

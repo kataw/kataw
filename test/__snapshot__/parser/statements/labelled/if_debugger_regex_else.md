@@ -57,8 +57,8 @@ function x(){
                             "kind": 164,
                             "ifKeyword": {
                                 "kind": 37757019,
-                                "flags": 13,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 13,
                                 "end": 18
                             },
                             "expression": {
@@ -73,8 +73,8 @@ function x(){
                                 "kind": 171,
                                 "debuggerKeyword": {
                                     "kind": 37757010,
-                                    "flags": 22,
-                                    "start": 1,
+                                    "flags": 1,
+                                    "start": 22,
                                     "end": 35
                                 },
                                 "flags": 128,

@@ -101,8 +101,8 @@ var x = {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 26,
-                "start": 1,
+                "flags": 1,
+                "start": 26,
                 "end": 31
             },
             "declarationList": {

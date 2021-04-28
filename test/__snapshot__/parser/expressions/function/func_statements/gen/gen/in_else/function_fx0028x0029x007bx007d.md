@@ -52,8 +52,8 @@ else function f(){}
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 9,
-                "start": 513,
+                "flags": 513,
+                "start": 9,
                 "end": 14
             },
             "alternate": {
@@ -62,8 +62,8 @@ else function f(){}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 14,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 14,
                     "end": 23
                 },
                 "generatorToken": null,

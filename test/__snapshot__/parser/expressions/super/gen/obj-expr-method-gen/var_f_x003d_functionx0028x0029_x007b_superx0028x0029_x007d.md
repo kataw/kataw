@@ -59,8 +59,8 @@
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 14,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 14,
                                                     "end": 18
                                                 },
                                                 "declarationList": {
@@ -83,8 +83,8 @@
                                                                 "asyncKeyword": null,
                                                                 "functionKeyword": {
                                                                     "kind": 37822554,
-                                                                    "flags": 22,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 22,
                                                                     "end": 31
                                                                 },
                                                                 "generatorToken": null,
@@ -111,8 +111,8 @@
                                                                                         "kind": 225,
                                                                                         "superKeyword": {
                                                                                             "kind": 4259935,
-                                                                                            "flags": 35,
-                                                                                            "start": 0,
+                                                                                            "flags": 0,
+                                                                                            "start": 35,
                                                                                             "end": 41
                                                                                         },
                                                                                         "flags": 768,

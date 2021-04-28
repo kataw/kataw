@@ -46,8 +46,8 @@ switch(x) /* comment */ { case y: foo }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 25,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 25,
                             "end": 30
                         },
                         "expression": {

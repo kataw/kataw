@@ -42,8 +42,8 @@ for (true ? 0 : 0 in {}; false; ) ;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 9,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 9,
                     "end": 11
                 },
                 "consequent": {
@@ -56,8 +56,8 @@ for (true ? 0 : 0 in {}; false; ) ;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 13,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 13,
                     "end": 15
                 },
                 "alternate": {

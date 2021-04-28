@@ -45,8 +45,8 @@ try catch while try this and !foo
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 3,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 3,
                     "end": 9
                 },
                 "catchParameter": null,
@@ -78,8 +78,8 @@ try catch while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 15
             },
             "expression": {
@@ -93,8 +93,8 @@ try catch while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 15,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 15,
                     "end": 19
                 },
                 "block": {

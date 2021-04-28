@@ -53,8 +53,8 @@ class with {}
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 10
             },
             "expression": {

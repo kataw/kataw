@@ -27,8 +27,8 @@ function* foo(a = class {*bar() { yield b }}) {}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 9
             },
             "name": {
@@ -60,8 +60,8 @@ function* foo(a = class {*bar() { yield b }}) {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 17,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 17,
                                 "end": 23
                             },
                             "name": null,

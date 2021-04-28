@@ -74,8 +74,8 @@ const [a=[...b], ...c] = obj;
                                                         "kind": 223,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
-                                                            "flags": 10,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 10,
                                                             "end": 13
                                                         },
                                                         "argument": {
@@ -108,8 +108,8 @@ const [a=[...b], ...c] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 16,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 16,
                                             "end": 20
                                         },
                                         "binding": {

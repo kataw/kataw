@@ -319,8 +319,8 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         "kind": 161,
                         "returnKeyword": {
                             "kind": 37757022,
-                            "flags": 118,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 118,
                             "end": 130
                         },
                         "expression": {

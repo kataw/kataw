@@ -41,8 +41,8 @@ switch( false case
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 13,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 13,
                             "end": 18
                         },
                         "expression": {

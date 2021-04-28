@@ -41,6 +41,12 @@ for (const [...x] in y){}
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 17,
+                "end": 20
+            },
             "kind": 166,
             "initializer": {
                 "kind": 151,
@@ -56,8 +62,8 @@ for (const [...x] in y){}
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 12,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 12,
                                             "end": 15
                                         },
                                         "binding": {

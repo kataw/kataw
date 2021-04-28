@@ -31,6 +31,12 @@ for ([{x=y}]=x of x) ;
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 14,
+                "end": 17
+            },
             "initializer": {
                 "kind": 125,
                 "left": {

@@ -33,8 +33,8 @@ x[super.foo]
                         "kind": 225,
                         "superKeyword": {
                             "kind": 4259935,
-                            "flags": 2,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 2,
                             "end": 7
                         },
                         "flags": 768,

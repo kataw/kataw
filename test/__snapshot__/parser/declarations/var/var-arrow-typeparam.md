@@ -69,8 +69,8 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
-                                            "flags": 14,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 14,
                                             "end": 15
                                         },
                                         "staticToken": false,

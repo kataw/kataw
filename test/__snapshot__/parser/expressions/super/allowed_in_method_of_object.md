@@ -72,8 +72,8 @@ x={ foo(){ super.foo; }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 10,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 10,
                                                             "end": 16
                                                         },
                                                         "flags": 768,

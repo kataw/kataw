@@ -37,8 +37,8 @@ let [...a] = 0;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 5,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 5,
                                             "end": 8
                                         },
                                         "binding": {

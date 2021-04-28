@@ -31,8 +31,8 @@ return async (await) => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 20,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 20,
                     "end": 23
                 },
                 "typeParameters": null,

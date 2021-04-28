@@ -42,16 +42,16 @@ x={...new}
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 3,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 3,
                                     "end": 6
                                 },
                                 "argument": {
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
-                                        "flags": 6,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 6,
                                         "end": 9
                                     },
                                     "expression": {

@@ -50,8 +50,8 @@ x = {arrow: async async => ok}.y
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
-                                            "flags": 23,
-                                            "start": 0,
+                                            "flags": 0,
+                                            "start": 23,
                                             "end": 26
                                         },
                                         "typeParameters": null,
@@ -77,8 +77,8 @@ x = {arrow: async async => ok}.y
                                         ],
                                         "asyncToken": {
                                             "kind": 82031,
-                                            "flags": 11,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 11,
                                             "end": 17
                                         },
                                         "returnType": null,

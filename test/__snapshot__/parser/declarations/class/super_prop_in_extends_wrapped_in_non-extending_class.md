@@ -97,8 +97,8 @@ class a { foo(){      class x extends super.foo {}    }}
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 16,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 16,
                                                 "end": 27
                                             },
                                             "name": {
@@ -114,8 +114,8 @@ class a { foo(){      class x extends super.foo {}    }}
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 29,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 29,
                                                     "end": 37
                                                 },
                                                 "expression": {
@@ -124,8 +124,8 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 37,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 37,
                                                             "end": 43
                                                         },
                                                         "flags": 768,

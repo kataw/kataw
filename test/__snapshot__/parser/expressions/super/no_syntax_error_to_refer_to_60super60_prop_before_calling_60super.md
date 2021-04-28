@@ -38,8 +38,8 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -113,8 +113,8 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                                 "kind": 225,
                                                                 "superKeyword": {
                                                                     "kind": 4259935,
-                                                                    "flags": 40,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 40,
                                                                     "end": 45
                                                                 },
                                                                 "flags": 768,
@@ -155,8 +155,8 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 51,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 51,
                                                         "end": 57
                                                     },
                                                     "flags": 768,

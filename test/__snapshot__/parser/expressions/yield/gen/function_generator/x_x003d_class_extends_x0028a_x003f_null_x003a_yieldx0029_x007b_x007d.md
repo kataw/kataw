@@ -31,8 +31,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -113,8 +113,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                     "decorators": null,
                                                     "classKeyword": {
                                                         "kind": 37822544,
-                                                        "flags": 43,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 43,
                                                         "end": 49
                                                     },
                                                     "name": null,
@@ -123,8 +123,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                         "kind": 279,
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
-                                                            "flags": 49,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 49,
                                                             "end": 57
                                                         },
                                                         "expression": {
@@ -141,8 +141,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 },
                                                                 "questionToken": {
                                                                     "kind": 134217750,
-                                                                    "flags": 60,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 60,
                                                                     "end": 62
                                                                 },
                                                                 "consequent": {
@@ -154,8 +154,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 },
                                                                 "colonToken": {
                                                                     "kind": 21,
-                                                                    "flags": 67,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 67,
                                                                     "end": 69
                                                                 },
                                                                 "alternate": {

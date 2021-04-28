@@ -41,8 +41,8 @@ switch case while try this and !foo
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 6,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 6,
                             "end": 11
                         },
                         "expression": {
@@ -57,8 +57,8 @@ switch case while try this and !foo
                                 "kind": 154,
                                 "whileKeyword": {
                                     "kind": 37757028,
-                                    "flags": 11,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 17
                                 },
                                 "expression": {
@@ -72,8 +72,8 @@ switch case while try this and !foo
                                     "kind": 159,
                                     "tryKeyword": {
                                         "kind": 37757027,
-                                        "flags": 17,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 17,
                                         "end": 21
                                     },
                                     "block": {

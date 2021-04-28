@@ -41,6 +41,12 @@ for (((x)=>{}) in y);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 14,
+                "end": 17
+            },
             "kind": 166,
             "initializer": {
                 "kind": 121,
@@ -48,8 +54,8 @@ for (((x)=>{}) in y);
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 9,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 9,
                         "end": 11
                     },
                     "typeParameters": null,

@@ -43,8 +43,8 @@ switch (0) {
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 12,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 12,
                             "end": 19
                         },
                         "expression": {
@@ -62,8 +62,8 @@ switch (0) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 22,
-                                    "start": 1,
+                                    "flags": 1,
+                                    "start": 22,
                                     "end": 35
                                 },
                                 "generatorToken": null,
@@ -100,7 +100,7 @@ switch (0) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 129,
+                                "flags": 128,
                                 "start": 22,
                                 "end": 42
                             }
@@ -113,8 +113,8 @@ switch (0) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 42,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 42,
                             "end": 52
                         },
                         "statements": [
@@ -124,8 +124,8 @@ switch (0) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 53,
-                                    "start": 1,
+                                    "flags": 1,
+                                    "start": 53,
                                     "end": 66
                                 },
                                 "generatorToken": null,
@@ -162,7 +162,7 @@ switch (0) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 129,
+                                "flags": 128,
                                 "start": 53,
                                 "end": 73
                             }

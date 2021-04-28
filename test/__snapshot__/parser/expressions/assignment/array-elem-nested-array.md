@@ -69,8 +69,8 @@ result = [[x]] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 6,
-                "start": 1,
+                "flags": 1,
+                "start": 6,
                 "end": 11
             },
             "declarationList": {
@@ -107,8 +107,8 @@ result = [[x]] = vals;
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 19,
-                "start": 1,
+                "flags": 1,
+                "start": 19,
                 "end": 23
             },
             "declarationList": {

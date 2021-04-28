@@ -102,8 +102,8 @@ class C { #aaa
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 22,
-                "start": 1,
+                "flags": 1,
+                "start": 22,
                 "end": 29
             },
             "name": {

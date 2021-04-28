@@ -90,8 +90,8 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 31,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 31,
                                 "end": 38
                             },
                             "expression": {

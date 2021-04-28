@@ -31,8 +31,8 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -96,14 +96,14 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                             "asyncKeyword": null,
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 39,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 39,
                                                 "end": 48
                                             },
                                             "generatorToken": {
                                                 "kind": 67143222,
-                                                "flags": 48,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 48,
                                                 "end": 50
                                             },
                                             "name": {
@@ -134,8 +134,8 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 55,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 55,
                                                                     "end": 61
                                                                 },
                                                                 "delegate": false,

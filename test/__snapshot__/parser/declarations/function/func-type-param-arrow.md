@@ -134,8 +134,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 35,
-                "start": 1,
+                "flags": 1,
+                "start": 35,
                 "end": 45
             },
             "generatorToken": null,
@@ -191,7 +191,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 35,
             "end": 58
         },
@@ -291,8 +291,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 93,
-                "start": 1,
+                "flags": 1,
+                "start": 93,
                 "end": 103
             },
             "generatorToken": null,
@@ -348,7 +348,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 93,
             "end": 116
         },

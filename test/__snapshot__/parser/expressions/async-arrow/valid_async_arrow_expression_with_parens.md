@@ -34,8 +34,8 @@ f(async ()=>c)
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 10,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 10,
                                 "end": 12
                             },
                             "typeParameters": null,

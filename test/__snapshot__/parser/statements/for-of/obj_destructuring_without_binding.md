@@ -42,6 +42,12 @@ for ({a: b.c} of d) e
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 13,
+                "end": 16
+            },
             "initializer": {
                 "kind": 220,
                 "propertyList": {

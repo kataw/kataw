@@ -22,40 +22,40 @@ a?.b?.c?.(d)?.[e].f?.g
                 "kind": 205,
                 "chainToken": {
                     "kind": 393240,
-                    "flags": 19,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 19,
                     "end": 21
                 },
                 "member": {
                     "kind": 205,
                     "chainToken": {
                         "kind": 393240,
-                        "flags": 12,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 12,
                         "end": 14
                     },
                     "member": {
                         "kind": 205,
                         "chainToken": {
                             "kind": 393240,
-                            "flags": 7,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 7,
                             "end": 9
                         },
                         "member": {
                             "kind": 205,
                             "chainToken": {
                                 "kind": 393240,
-                                "flags": 4,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 4,
                                 "end": 6
                             },
                             "member": {
                                 "kind": 205,
                                 "chainToken": {
                                     "kind": 393240,
-                                    "flags": 1,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 1,
                                     "end": 3
                                 },
                                 "member": {

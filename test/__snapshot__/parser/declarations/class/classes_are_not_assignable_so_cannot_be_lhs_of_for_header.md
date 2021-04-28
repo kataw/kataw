@@ -30,14 +30,20 @@ for (class x { [a](){} } in c);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 24,
+                "end": 27
+            },
             "kind": 166,
             "initializer": {
                 "kind": 189,
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 5,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 5,
                     "end": 10
                 },
                 "name": {

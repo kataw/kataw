@@ -26,6 +26,12 @@ for (super.foo in x) ;
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 14,
+                "end": 17
+            },
             "kind": 166,
             "initializer": {
                 "kind": 129,
@@ -33,8 +39,8 @@ for (super.foo in x) ;
                     "kind": 225,
                     "superKeyword": {
                         "kind": 4259935,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 10
                     },
                     "flags": 768,

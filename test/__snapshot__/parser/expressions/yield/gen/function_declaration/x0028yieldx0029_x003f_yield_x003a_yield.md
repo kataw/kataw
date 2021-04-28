@@ -72,8 +72,8 @@ function not_gen() { (yield) ? yield : yield }}
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 28,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 28,
                                     "end": 30
                                 },
                                 "consequent": {
@@ -86,8 +86,8 @@ function not_gen() { (yield) ? yield : yield }}
                                 },
                                 "colonToken": {
                                     "kind": 21,
-                                    "flags": 36,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 36,
                                     "end": 38
                                 },
                                 "alternate": {

@@ -38,8 +38,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 1,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1,
                         "end": 6
                     },
                     "name": null,
@@ -69,8 +69,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 11,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 17
                                     },
                                     "name": null,
@@ -145,8 +145,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 33,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 33,
                         "end": 38
                     },
                     "name": null,
@@ -176,8 +176,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 43,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 43,
                                         "end": 49
                                     },
                                     "name": null,
@@ -205,8 +205,8 @@
                                                     "kind": 271,
                                                     "arrowToken": {
                                                         "kind": 10,
-                                                        "flags": 59,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 59,
                                                         "end": 62
                                                     },
                                                     "typeParameters": null,
@@ -275,8 +275,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 72,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 72,
                         "end": 77
                     },
                     "name": null,
@@ -306,8 +306,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 82,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 82,
                                         "end": 88
                                     },
                                     "name": null,
@@ -375,8 +375,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 100,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 100,
                         "end": 105
                     },
                     "name": null,
@@ -406,8 +406,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 110,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 110,
                                         "end": 116
                                     },
                                     "name": null,
@@ -505,8 +505,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 134,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 134,
                         "end": 139
                     },
                     "name": null,
@@ -536,8 +536,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 144,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 144,
                                         "end": 150
                                     },
                                     "name": null,
@@ -640,8 +640,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 172,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 172,
                         "end": 177
                     },
                     "name": null,
@@ -671,8 +671,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 182,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 182,
                                         "end": 188
                                     },
                                     "name": null,
@@ -794,8 +794,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 213,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 213,
                         "end": 218
                     },
                     "name": null,
@@ -825,8 +825,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 223,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 223,
                                         "end": 229
                                     },
                                     "name": null,
@@ -924,8 +924,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 248,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 248,
                         "end": 253
                     },
                     "name": null,
@@ -955,8 +955,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 258,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 258,
                                         "end": 264
                                     },
                                     "name": null,
@@ -1059,8 +1059,8 @@
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 288,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 288,
                         "end": 293
                     },
                     "name": null,
@@ -1090,8 +1090,8 @@
                                     "decorators": null,
                                     "classKeyword": {
                                         "kind": 37822544,
-                                        "flags": 298,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 298,
                                         "end": 304
                                     },
                                     "name": null,

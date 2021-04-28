@@ -99,8 +99,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "kind": 149,
                                             "ellipsisToken": {
                                                 "kind": 524302,
-                                                "flags": 32,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 32,
                                                 "end": 36
                                             },
                                             "name": {

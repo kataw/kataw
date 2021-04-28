@@ -105,7 +105,7 @@ export function consumeOptToken<T extends TokenSyntaxKind>(parser: ParserState, 
     const kind = parser.token;
     const flags = parser.nodeFlags;
     nextToken(parser, context);
-    return createToken(kind, pos, flags | NodeFlags.ChildLess, parser.curPos);
+    return createToken(kind, flags | NodeFlags.ChildLess, pos, parser.curPos);
   }
   return null;
 }
@@ -116,7 +116,7 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
   const flags = parser.nodeFlags;
   if (parser.token === token) {
     nextToken(parser, context);
-    return createToken(kind, pos, flags, parser.curPos);
+    return createToken(kind, flags, pos, parser.curPos);
   }
   //parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   nextToken(parser, context);

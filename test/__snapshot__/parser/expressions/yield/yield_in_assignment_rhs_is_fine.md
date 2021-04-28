@@ -27,8 +27,8 @@ function* g() { let x = yield 3; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 9
             },
             "name": {
@@ -80,8 +80,8 @@ function* g() { let x = yield 3; }
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 23,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 23,
                                                 "end": 29
                                             },
                                             "delegate": false,

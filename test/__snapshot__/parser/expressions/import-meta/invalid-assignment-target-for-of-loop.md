@@ -29,14 +29,20 @@ for (import.meta of null) ;
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 16,
+                "end": 19
+            },
             "initializer": {
                 "kind": 120,
                 "expression": {
                     "kind": 207,
                     "importKeyword": {
                         "kind": 37814364,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 11
                     },
                     "flags": 11,

@@ -82,8 +82,8 @@ class C { *method() { class C { get x) { super; } } } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 21,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 21,
                                                 "end": 27
                                             },
                                             "name": {
@@ -169,8 +169,8 @@ class C { *method() { class C { get x) { super; } } } }
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 40,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 40,
                                     "end": 46
                                 },
                                 "flags": 768,

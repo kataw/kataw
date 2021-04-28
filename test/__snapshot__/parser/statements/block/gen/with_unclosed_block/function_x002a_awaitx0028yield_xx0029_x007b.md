@@ -110,14 +110,14 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 17,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 17,
                             "end": 26
                         },
                         "generatorToken": {
                             "kind": 67143222,
-                            "flags": 26,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 26,
                             "end": 28
                         },
                         "name": {

@@ -41,6 +41,12 @@ for ({a: b.c}.foo in d) e
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 17,
+                "end": 20
+            },
             "kind": 166,
             "initializer": {
                 "kind": 129,

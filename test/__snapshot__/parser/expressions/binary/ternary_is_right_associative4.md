@@ -29,8 +29,8 @@ a ? b ** x : c ? d : e
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 1,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 3
                 },
                 "consequent": {
@@ -63,8 +63,8 @@ a ? b ** x : c ? d : e
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 10,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 10,
                     "end": 12
                 },
                 "alternate": {
@@ -79,8 +79,8 @@ a ? b ** x : c ? d : e
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 14,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 14,
                         "end": 16
                     },
                     "consequent": {
@@ -93,8 +93,8 @@ a ? b ** x : c ? d : e
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 18,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 18,
                         "end": 20
                     },
                     "alternate": {

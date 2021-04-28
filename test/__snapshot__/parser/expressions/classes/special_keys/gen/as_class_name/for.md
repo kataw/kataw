@@ -53,8 +53,8 @@ class for {}
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 9
             },
             "initializer": {

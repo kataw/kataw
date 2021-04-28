@@ -51,8 +51,8 @@ result = [...[x, y]] = vals;
                                     "kind": 223,
                                     "ellipsisToken": {
                                         "kind": 524302,
-                                        "flags": 10,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 10,
                                         "end": 13
                                     },
                                     "argument": {

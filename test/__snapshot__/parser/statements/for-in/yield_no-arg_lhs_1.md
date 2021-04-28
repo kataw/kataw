@@ -41,6 +41,12 @@ for (yield in x);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 10,
+                "end": 13
+            },
             "kind": 166,
             "initializer": {
                 "kind": 134299649,

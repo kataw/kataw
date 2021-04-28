@@ -26,6 +26,12 @@ for (new.target in x) ;
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 15,
+                "end": 18
+            },
             "kind": 166,
             "initializer": {
                 "kind": 211,

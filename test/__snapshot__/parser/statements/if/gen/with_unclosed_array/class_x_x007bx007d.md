@@ -37,8 +37,8 @@ if[ class x {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 3,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 3,
                                 "end": 9
                             },
                             "name": {

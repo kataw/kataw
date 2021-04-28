@@ -29,8 +29,8 @@ async ([a]:string)=>c;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 16,
-                "start": 0,
+                "flags": 0,
+                "start": 16,
                 "end": 18
             },
             "typeParameters": null,
@@ -94,8 +94,8 @@ async ([a]:string)=>c;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 40,
-                "start": 0,
+                "flags": 0,
+                "start": 40,
                 "end": 42
             },
             "typeParameters": null,

@@ -62,8 +62,8 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 10,
-                "start": 0,
+                "flags": 0,
+                "start": 10,
                 "end": 14
             },
             "declarationList": {
@@ -87,14 +87,14 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                 "kind": 177,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 20,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 20,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 25,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 25,
                                     "end": 34
                                 },
                                 "generatorToken": null,
@@ -118,8 +118,8 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                 "declareKeyword": null,
                                                 "varKeyword": {
                                                     "kind": 37757002,
-                                                    "flags": 38,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 38,
                                                     "end": 42
                                                 },
                                                 "declarationList": {
@@ -141,8 +141,8 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                 "kind": 271,
                                                                 "arrowToken": {
                                                                     "kind": 10,
-                                                                    "flags": 68,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 68,
                                                                     "end": 71
                                                                 },
                                                                 "typeParameters": null,
@@ -167,8 +167,8 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                                         "kind": 208,
                                                                                         "awaitToken": {
                                                                                             "kind": 82032,
-                                                                                            "flags": 62,
-                                                                                            "start": 0,
+                                                                                            "flags": 0,
+                                                                                            "start": 62,
                                                                                             "end": 67
                                                                                         },
                                                                                         "expression": {
@@ -202,8 +202,8 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                 ],
                                                                 "asyncToken": {
                                                                     "kind": 82031,
-                                                                    "flags": 55,
-                                                                    "start": 512,
+                                                                    "flags": 512,
+                                                                    "start": 55,
                                                                     "end": 61
                                                                 },
                                                                 "returnType": null,

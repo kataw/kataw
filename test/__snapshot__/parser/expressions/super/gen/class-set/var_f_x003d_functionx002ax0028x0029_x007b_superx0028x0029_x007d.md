@@ -105,8 +105,8 @@ class C { set x(_) { var f = function*() { super(); } } }
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 20,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 20,
                                                 "end": 24
                                             },
                                             "declarationList": {
@@ -129,14 +129,14 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 28,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 28,
                                                                 "end": 37
                                                             },
                                                             "generatorToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 37,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 37,
                                                                 "end": 38
                                                             },
                                                             "name": null,
@@ -162,8 +162,8 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 42,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 42,
                                                                                         "end": 48
                                                                                     },
                                                                                     "flags": 768,

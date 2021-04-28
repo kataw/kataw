@@ -104,8 +104,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 30,
-                "start": 1,
+                "flags": 1,
+                "start": 30,
                 "end": 38
             },
             "fromClause": {
@@ -141,8 +141,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 53,
-                "start": 1,
+                "flags": 1,
+                "start": 53,
                 "end": 61
             },
             "fromClause": {
@@ -207,8 +207,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 85,
-                "start": 1,
+                "flags": 1,
+                "start": 85,
                 "end": 93
             },
             "fromClause": {
@@ -244,8 +244,8 @@ import { a as b } from 'm.js';
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 108,
-                "start": 1,
+                "flags": 1,
+                "start": 108,
                 "end": 116
             },
             "declaration": null,
@@ -303,8 +303,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 140,
-                "start": 1,
+                "flags": 1,
+                "start": 140,
                 "end": 148
             },
             "fromClause": {
@@ -340,8 +340,8 @@ import { a as b } from 'm.js';
             "kind": 263,
             "importKeyword": {
                 "kind": 37814364,
-                "flags": 172,
-                "start": 1,
+                "flags": 1,
+                "start": 172,
                 "end": 180
             },
             "fromClause": {

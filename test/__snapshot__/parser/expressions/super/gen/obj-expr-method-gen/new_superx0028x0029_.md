@@ -60,16 +60,16 @@
                                                     "kind": 210,
                                                     "newKeyword": {
                                                         "kind": 138477661,
-                                                        "flags": 14,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 14,
                                                         "end": 18
                                                     },
                                                     "expression": {
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 18,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 18,
                                                             "end": 24
                                                         },
                                                         "flags": 768,

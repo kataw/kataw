@@ -74,8 +74,8 @@ const [x, ...[foo, bar]] = obj;
                                         "kind": 244,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 9,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 9,
                                             "end": 13
                                         },
                                         "binding": {

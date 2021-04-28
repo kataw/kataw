@@ -248,8 +248,8 @@ class C {
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 76,
-                                                "start": 1,
+                                                "flags": 1,
+                                                "start": 76,
                                                 "end": 87
                                             },
                                             "expression": {

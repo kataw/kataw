@@ -43,8 +43,8 @@ var af = (x, ...y) => { return [x, y.length]; };
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 21
                             },
                             "typeParameters": null,
@@ -62,8 +62,8 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         "kind": 215,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 12,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 12,
                                             "end": 16
                                         },
                                         "binding": {
@@ -95,8 +95,8 @@ var af = (x, ...y) => { return [x, y.length]; };
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 23,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 23,
                                                 "end": 30
                                             },
                                             "expression": {

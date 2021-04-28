@@ -39,8 +39,8 @@ do do do catch while while while
                 "kind": 169,
                 "doKeyword": {
                     "kind": 4202580,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 5
                 },
                 "expression": {
@@ -52,16 +52,16 @@ do do do catch while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 26,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 26,
                     "end": 32
                 },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
                         "kind": 4202580,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 8
                     },
                     "expression": {
@@ -73,8 +73,8 @@ do do do catch while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 20,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 20,
                         "end": 26
                     },
                     "statement": {

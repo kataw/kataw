@@ -37,14 +37,14 @@
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 15,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 15,
                         "end": 23
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 23,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 23,
                         "end": 25
                     },
                     "name": null,
@@ -85,8 +85,8 @@
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 34,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 34,
                                                 "end": 40
                                             },
                                             "name": null,
@@ -95,8 +95,8 @@
                                                 "kind": 279,
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
-                                                    "flags": 40,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 40,
                                                     "end": 48
                                                 },
                                                 "expression": {
@@ -113,8 +113,8 @@
                                                         },
                                                         "questionToken": {
                                                             "kind": 134217750,
-                                                            "flags": 51,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 51,
                                                             "end": 53
                                                         },
                                                         "consequent": {
@@ -126,16 +126,16 @@
                                                         },
                                                         "colonToken": {
                                                             "kind": 21,
-                                                            "flags": 58,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 58,
                                                             "end": 60
                                                         },
                                                         "alternate": {
                                                             "kind": 229,
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
-                                                                "flags": 60,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 60,
                                                                 "end": 66
                                                             },
                                                             "delegate": false,

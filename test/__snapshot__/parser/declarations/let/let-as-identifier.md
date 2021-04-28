@@ -96,8 +96,8 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 8,
-                "start": 1,
+                "flags": 1,
+                "start": 8,
                 "end": 13
             },
             "declarationList": {
@@ -150,8 +150,8 @@ L: let
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 23,
-                "start": 1,
+                "flags": 1,
+                "start": 23,
                 "end": 28
             },
             "block": {
@@ -172,8 +172,8 @@ L: let
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 38
                 },
                 "catchParameter": {
@@ -214,8 +214,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 48,
-                "start": 1,
+                "flags": 1,
+                "start": 48,
                 "end": 58
             },
             "generatorToken": null,
@@ -252,7 +252,7 @@ L: let
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 48,
             "end": 68
         },
@@ -265,8 +265,8 @@ L: let
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 71,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 71,
                         "end": 79
                     },
                     "generatorToken": null,
@@ -321,8 +321,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 90,
-                "start": 1,
+                "flags": 1,
+                "start": 90,
                 "end": 100
             },
             "generatorToken": null,
@@ -378,7 +378,7 @@ L: let
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 90,
             "end": 113
         },
@@ -388,8 +388,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 113,
-                "start": 1,
+                "flags": 1,
+                "start": 113,
                 "end": 123
             },
             "generatorToken": null,
@@ -463,7 +463,7 @@ L: let
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 113,
             "end": 141
         },
@@ -506,8 +506,8 @@ L: let
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 151,
-                "start": 1,
+                "flags": 1,
+                "start": 151,
                 "end": 156
             },
             "declarationList": {
@@ -661,8 +661,8 @@ L: let
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 200,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 200,
                         "end": 208
                     },
                     "generatorToken": null,
@@ -746,8 +746,8 @@ L: let
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 226,
-                "start": 1,
+                "flags": 1,
+                "start": 226,
                 "end": 236
             },
             "generatorToken": null,
@@ -898,7 +898,7 @@ L: let
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 226,
             "end": 273
         },

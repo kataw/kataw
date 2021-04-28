@@ -38,8 +38,8 @@ while (x);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 24,
-                "start": 1,
+                "flags": 1,
+                "start": 24,
                 "end": 30
             },
             "statement": {
@@ -48,20 +48,20 @@ while (x);
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 2,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 2,
                         "end": 8
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 8,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 8,
                         "end": 17
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 17,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 17,
                         "end": 19
                     },
                     "name": {

@@ -31,8 +31,8 @@ function *g() { yield void x }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function *g() { yield void x }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 15,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 21
                                 },
                                 "delegate": false,

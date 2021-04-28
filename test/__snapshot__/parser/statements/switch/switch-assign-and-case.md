@@ -73,8 +73,8 @@ switch([x = y]) { case y: foo }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 17,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 17,
                             "end": 22
                         },
                         "expression": {

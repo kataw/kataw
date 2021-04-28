@@ -53,8 +53,8 @@ class debugger {}
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "flags": 128,

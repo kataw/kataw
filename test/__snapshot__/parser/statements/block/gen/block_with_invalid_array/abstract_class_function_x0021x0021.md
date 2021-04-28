@@ -101,8 +101,8 @@
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 18,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 18,
                             "end": 24
                         },
                         "name": {
@@ -131,8 +131,8 @@
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 24,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 24,
                             "end": 33
                         },
                         "generatorToken": null,

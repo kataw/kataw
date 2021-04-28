@@ -25,8 +25,8 @@ async async => ok async async => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 11,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 11,
                     "end": 14
                 },
                 "typeParameters": null,
@@ -52,8 +52,8 @@ async async => ok async async => ok
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 0,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 0,
                     "end": 5
                 },
                 "returnType": null,
@@ -79,8 +79,8 @@ async async => ok async async => ok
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 29,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 29,
                     "end": 32
                 },
                 "typeParameters": null,
@@ -106,8 +106,8 @@ async async => ok async async => ok
                 ],
                 "asyncToken": {
                     "kind": 82031,
-                    "flags": 17,
-                    "start": 512,
+                    "flags": 512,
+                    "start": 17,
                     "end": 23
                 },
                 "returnType": null,

@@ -53,8 +53,8 @@ var foo = (async (): number => bar);
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
-                                    "flags": 27,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 27,
                                     "end": 30
                                 },
                                 "typeParameters": null,

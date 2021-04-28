@@ -53,8 +53,8 @@ class throw {}
             "kind": 158,
             "throwKeyword": {
                 "kind": 37757026,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 11
             },
             "expression": {

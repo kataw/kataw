@@ -41,14 +41,14 @@ foo(function*(){})
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 4,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 4,
                                 "end": 12
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 12,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 12,
                                 "end": 13
                             },
                             "name": null,

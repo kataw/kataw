@@ -53,8 +53,8 @@ class switch {}
             "kind": 160,
             "switchKeyword": {
                 "kind": 37757024,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 12
             },
             "expression": {

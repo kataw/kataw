@@ -19,8 +19,8 @@ async ()=>x;
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 10
             },
             "typeParameters": null,

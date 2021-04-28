@@ -36,8 +36,8 @@ do( false while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 15
             },
             "statement": {

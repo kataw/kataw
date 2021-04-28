@@ -71,8 +71,8 @@ var x; "use strict"; with (x) y;
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 20,
-                "start": 0,
+                "flags": 0,
+                "start": 20,
                 "end": 25
             },
             "expression": {

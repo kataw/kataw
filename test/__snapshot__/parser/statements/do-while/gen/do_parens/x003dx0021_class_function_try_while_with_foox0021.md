@@ -67,8 +67,8 @@ do( =! class function try while with foo! while
                                 "decorators": null,
                                 "classKeyword": {
                                     "kind": 37822544,
-                                    "flags": 6,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 6,
                                     "end": 12
                                 },
                                 "name": null,
@@ -109,8 +109,8 @@ do( =! class function try while with foo! while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 21,
-                "start": 0,
+                "flags": 0,
+                "start": 21,
                 "end": 25
             },
             "block": {
@@ -151,8 +151,8 @@ do( =! class function try while with foo! while
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 31,
-                "start": 0,
+                "flags": 0,
+                "start": 31,
                 "end": 36
             },
             "expression": {
@@ -196,8 +196,8 @@ do( =! class function try while with foo! while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 41,
-                "start": 0,
+                "flags": 0,
+                "start": 41,
                 "end": 47
             },
             "expression": {

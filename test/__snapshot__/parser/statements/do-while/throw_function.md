@@ -35,16 +35,16 @@ for(;;)x
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 21,
-                "start": 1,
+                "flags": 1,
+                "start": 21,
                 "end": 27
             },
             "statement": {
                 "kind": 158,
                 "throwKeyword": {
                     "kind": 37757026,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 8
                 },
                 "expression": {
@@ -52,8 +52,8 @@ for(;;)x
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 8,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 8,
                         "end": 17
                     },
                     "generatorToken": null,
@@ -99,8 +99,8 @@ for(;;)x
             "kind": 165,
             "forKeyword": {
                 "kind": 37757017,
-                "flags": 30,
-                "start": 1,
+                "flags": 1,
+                "start": 30,
                 "end": 34
             },
             "initializer": null,

@@ -462,8 +462,8 @@
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 253,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 253,
                         "end": 257
                     },
                     "expression": {
@@ -522,8 +522,8 @@
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 286,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 286,
                         "end": 290
                     },
                     "expression": {

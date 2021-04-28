@@ -41,6 +41,12 @@ for (class x { [a](){} }.x in c);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 26,
+                "end": 29
+            },
             "kind": 166,
             "initializer": {
                 "kind": 129,
@@ -49,8 +55,8 @@ for (class x { [a](){} }.x in c);
                     "decorators": null,
                     "classKeyword": {
                         "kind": 37822544,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 10
                     },
                     "name": {

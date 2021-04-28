@@ -27,8 +27,8 @@ function *g() {yield {     ...yield yield    };}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -59,8 +59,8 @@ function *g() {yield {     ...yield yield    };}
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 15,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 20
                                 },
                                 "delegate": false,
@@ -74,16 +74,16 @@ function *g() {yield {     ...yield yield    };}
                                                 "kind": 224,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 22,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 22,
                                                     "end": 30
                                                 },
                                                 "argument": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 30,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 30,
                                                         "end": 35
                                                     },
                                                     "delegate": false,
@@ -92,8 +92,8 @@ function *g() {yield {     ...yield yield    };}
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
-                                                            "flags": 35,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 35,
                                                             "end": 41
                                                         },
                                                         "delegate": false,

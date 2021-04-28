@@ -36,8 +36,8 @@ true ? async.waterfall() : null;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 4,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 4,
                     "end": 6
                 },
                 "consequent": {
@@ -78,8 +78,8 @@ true ? async.waterfall() : null;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 24,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 24,
                     "end": 26
                 },
                 "alternate": {

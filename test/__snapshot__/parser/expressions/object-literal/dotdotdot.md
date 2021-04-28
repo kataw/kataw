@@ -38,8 +38,8 @@ var { ...{ x = 5 } } = {x : 1};
                                         "kind": 204,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 5,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 5,
                                             "end": 9
                                         },
                                         "key": {

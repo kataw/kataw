@@ -42,6 +42,12 @@ for ({a: b.c}.foo of d) e
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 17,
+                "end": 20
+            },
             "initializer": {
                 "kind": 129,
                 "member": {

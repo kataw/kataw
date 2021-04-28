@@ -45,8 +45,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 77,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 77,
                         "end": 80
                     },
                     "typeParameters": null,
@@ -77,8 +77,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 11,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 11,
                                                 "end": 17
                                             },
                                             "name": null,
@@ -120,8 +120,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 28,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 28,
                                                 "end": 34
                                             },
                                             "name": {
@@ -170,8 +170,8 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 48,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 48,
                                                 "end": 54
                                             },
                                             "name": null,

@@ -56,8 +56,8 @@ return( catch { try
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 19
                             },
                             "block": {

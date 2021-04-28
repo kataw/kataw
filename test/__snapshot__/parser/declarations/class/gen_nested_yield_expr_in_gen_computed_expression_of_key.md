@@ -35,8 +35,8 @@ function *f(){  class x{*[yield](a){}}  }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -67,8 +67,8 @@ function *f(){  class x{*[yield](a){}}  }
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 14,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 14,
                                 "end": 21
                             },
                             "name": {
@@ -100,8 +100,8 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 26,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 26,
                                                         "end": 31
                                                     },
                                                     "delegate": false,

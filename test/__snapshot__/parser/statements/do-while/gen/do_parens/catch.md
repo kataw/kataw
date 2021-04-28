@@ -62,8 +62,8 @@ do( catch while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 15
             },
             "expression": {

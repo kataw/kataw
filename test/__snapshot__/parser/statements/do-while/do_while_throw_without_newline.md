@@ -41,16 +41,16 @@ do throw function (v, h) {
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 43,
-                "start": 0,
+                "flags": 0,
+                "start": 43,
                 "end": 49
             },
             "statement": {
                 "kind": 158,
                 "throwKeyword": {
                     "kind": 37757026,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 8
                 },
                 "expression": {
@@ -58,8 +58,8 @@ do throw function (v, h) {
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 8,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 8,
                         "end": 17
                     },
                     "generatorToken": null,

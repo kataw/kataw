@@ -31,8 +31,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -95,8 +95,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                             "declareKeyword": null,
                                             "varKeyword": {
                                                 "kind": 37757002,
-                                                "flags": 39,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 39,
                                                 "end": 43
                                             },
                                             "declarationList": {
@@ -119,14 +119,14 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "asyncKeyword": null,
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 49,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 49,
                                                                 "end": 58
                                                             },
                                                             "generatorToken": {
                                                                 "kind": 67143222,
-                                                                "flags": 58,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 58,
                                                                 "end": 59
                                                             },
                                                             "name": {
@@ -155,8 +155,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                             "kind": 160,
                                                                             "switchKeyword": {
                                                                                 "kind": 37757024,
-                                                                                "flags": 68,
-                                                                                "start": 0,
+                                                                                "flags": 0,
+                                                                                "start": 68,
                                                                                 "end": 75
                                                                             },
                                                                             "expression": {
@@ -174,23 +174,23 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                         "kind": 175,
                                                                                         "caseKeyword": {
                                                                                             "kind": 4194382,
-                                                                                            "flags": 81,
-                                                                                            "start": 0,
+                                                                                            "flags": 0,
+                                                                                            "start": 81,
                                                                                             "end": 86
                                                                                         },
                                                                                         "expression": {
                                                                                             "kind": 229,
                                                                                             "yieldKeyword": {
                                                                                                 "kind": 8454253,
-                                                                                                "flags": 86,
-                                                                                                "start": 0,
+                                                                                                "flags": 0,
+                                                                                                "start": 86,
                                                                                                 "end": 92
                                                                                             },
                                                                                             "delegate": true,
                                                                                             "asteriskToken": {
                                                                                                 "kind": 67143222,
-                                                                                                "flags": 92,
-                                                                                                "start": 512,
+                                                                                                "flags": 512,
+                                                                                                "start": 92,
                                                                                                 "end": 93
                                                                                             },
                                                                                             "expression": {
@@ -210,8 +210,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                 "kind": 150,
                                                                                                 "breakKeyword": {
                                                                                                     "kind": 37757005,
-                                                                                                    "flags": 100,
-                                                                                                    "start": 0,
+                                                                                                    "flags": 0,
+                                                                                                    "start": 100,
                                                                                                     "end": 106
                                                                                                 },
                                                                                                 "label": null,

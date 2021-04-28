@@ -92,8 +92,8 @@ function a<string>(x: string): string {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 39,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 39,
                                 "end": 48
                             },
                             "expression": {

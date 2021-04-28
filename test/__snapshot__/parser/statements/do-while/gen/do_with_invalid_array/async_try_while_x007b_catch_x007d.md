@@ -39,8 +39,8 @@ do while [catch] async try while { catch }
                 "kind": 154,
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 2,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 2,
                     "end": 8
                 },
                 "expression": {
@@ -106,8 +106,8 @@ do while [catch] async try while { catch }
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 22,
-                "start": 0,
+                "flags": 0,
+                "start": 22,
                 "end": 26
             },
             "block": {

@@ -26,14 +26,14 @@ async function p(){
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 0,
-                "start": 512,
+                "flags": 512,
+                "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 5,
-                "start": 0,
+                "flags": 0,
+                "start": 5,
                 "end": 14
             },
             "generatorToken": null,
@@ -65,8 +65,8 @@ async function p(){
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 19,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 19,
                                 "end": 27
                             },
                             "name": {
@@ -82,16 +82,16 @@ async function p(){
                                 "kind": 279,
                                 "extendsKeyword": {
                                     "kind": 4194391,
-                                    "flags": 29,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 29,
                                     "end": 37
                                 },
                                 "expression": {
                                     "kind": 208,
                                     "awaitToken": {
                                         "kind": 82032,
-                                        "flags": 37,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 37,
                                         "end": 43
                                     },
                                     "expression": {

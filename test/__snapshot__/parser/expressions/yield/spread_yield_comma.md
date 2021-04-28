@@ -27,8 +27,8 @@ function *g() {x={     ...yield,    };}
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -80,16 +80,16 @@ function *g() {x={     ...yield,    };}
                                                 "kind": 224,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
-                                                    "flags": 18,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 18,
                                                     "end": 26
                                                 },
                                                 "argument": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
-                                                        "flags": 26,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 26,
                                                         "end": 31
                                                     },
                                                     "delegate": false,

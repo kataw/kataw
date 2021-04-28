@@ -57,8 +57,8 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 20,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 20,
                                 "end": 24
                             },
                             "declarationList": {
@@ -111,8 +111,8 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                         "kind": 160,
                                                                         "switchKeyword": {
                                                                             "kind": 37757024,
-                                                                            "flags": 38,
-                                                                            "start": 0,
+                                                                            "flags": 0,
+                                                                            "start": 38,
                                                                             "end": 45
                                                                         },
                                                                         "expression": {
@@ -130,16 +130,16 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                     "kind": 175,
                                                                                     "caseKeyword": {
                                                                                         "kind": 4194382,
-                                                                                        "flags": 51,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 51,
                                                                                         "end": 56
                                                                                     },
                                                                                     "expression": {
                                                                                         "kind": 229,
                                                                                         "yieldKeyword": {
                                                                                             "kind": 8454253,
-                                                                                            "flags": 56,
-                                                                                            "start": 0,
+                                                                                            "flags": 0,
+                                                                                            "start": 56,
                                                                                             "end": 62
                                                                                         },
                                                                                         "delegate": false,
@@ -154,8 +154,8 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                             "kind": 150,
                                                                                             "breakKeyword": {
                                                                                                 "kind": 37757005,
-                                                                                                "flags": 63,
-                                                                                                "start": 0,
+                                                                                                "flags": 0,
+                                                                                                "start": 63,
                                                                                                 "end": 69
                                                                                             },
                                                                                             "label": null,

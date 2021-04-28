@@ -82,8 +82,8 @@ class C { *method() { class C { set x(_) { super( } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 21,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 21,
                                                 "end": 27
                                             },
                                             "name": {
@@ -165,8 +165,8 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
                                                                                         "kind": 4259935,
-                                                                                        "flags": 42,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 42,
                                                                                         "end": 48
                                                                                     },
                                                                                     "flags": 768,

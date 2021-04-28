@@ -65,8 +65,8 @@ try try try function while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 11
             },
             "block": {
@@ -107,8 +107,8 @@ try try try function while
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 20,
-                "start": 0,
+                "flags": 0,
+                "start": 20,
                 "end": 26
             },
             "expression": {

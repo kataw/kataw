@@ -102,14 +102,14 @@ gen = function*() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 22,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 22,
                         "end": 31
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 31,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 31,
                         "end": 32
                     },
                     "name": {
@@ -180,14 +180,14 @@ gen = function*() {};
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 46,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 46,
                         "end": 55
                     },
                     "generatorToken": {
                         "kind": 67143222,
-                        "flags": 55,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 55,
                         "end": 56
                     },
                     "name": null,

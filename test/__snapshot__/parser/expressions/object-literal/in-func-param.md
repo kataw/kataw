@@ -49,8 +49,8 @@ function test({...{}}) {}
                                         "kind": 204,
                                         "ellipsisToken": {
                                             "kind": 524302,
-                                            "flags": 15,
-                                            "start": 512,
+                                            "flags": 512,
+                                            "start": 15,
                                             "end": 18
                                         },
                                         "key": {

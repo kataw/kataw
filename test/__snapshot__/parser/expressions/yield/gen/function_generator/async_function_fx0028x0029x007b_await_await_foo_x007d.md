@@ -31,8 +31,8 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -95,14 +95,14 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                             "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 39,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 39,
                                                 "end": 45
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 45,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 45,
                                                 "end": 54
                                             },
                                             "generatorToken": null,
@@ -134,16 +134,16 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                                 "kind": 208,
                                                                 "awaitToken": {
                                                                     "kind": 82032,
-                                                                    "flags": 59,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 59,
                                                                     "end": 65
                                                                 },
                                                                 "expression": {
                                                                     "kind": 208,
                                                                     "awaitToken": {
                                                                         "kind": 82032,
-                                                                        "flags": 65,
-                                                                        "start": 0,
+                                                                        "flags": 0,
+                                                                        "start": 65,
                                                                         "end": 71
                                                                     },
                                                                     "expression": {

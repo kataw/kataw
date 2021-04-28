@@ -41,8 +41,8 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                 "kind": 173,
                 "catchKeyword": {
                     "kind": 4202575,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 12
                 },
                 "catchParameter": {

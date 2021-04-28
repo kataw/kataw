@@ -85,8 +85,8 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 16,
-                "start": 1,
+                "flags": 1,
+                "start": 16,
                 "end": 23
             },
             "binding": {
@@ -181,8 +181,8 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 40,
-                "start": 1,
+                "flags": 1,
+                "start": 40,
                 "end": 47
             },
             "binding": {
@@ -291,8 +291,8 @@ const {x}: string = y;
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
-                "flags": 71,
-                "start": 1,
+                "flags": 1,
+                "start": 71,
                 "end": 78
             },
             "binding": {

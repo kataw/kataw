@@ -42,6 +42,12 @@ for (a of b);
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 6,
+                "end": 9
+            },
             "initializer": {
                 "kind": 134299649,
                 "text": "a",

@@ -31,8 +31,8 @@ case catch { try
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 12,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 12,
                                 "end": 16
                             },
                             "block": {

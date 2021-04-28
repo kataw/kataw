@@ -29,9 +29,15 @@ foo: for (x of y) continue foo
                 "kind": 167,
                 "forKeyword": {
                     "kind": 37757017,
-                    "flags": 4,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 4,
                     "end": 8
+                },
+                "ofKeyword": {
+                    "kind": 16793717,
+                    "flags": 512,
+                    "start": 11,
+                    "end": 14
                 },
                 "initializer": {
                     "kind": 134299649,
@@ -53,8 +59,8 @@ foo: for (x of y) continue foo
                     "kind": 172,
                     "continueKeyword": {
                         "kind": 37757009,
-                        "flags": 17,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 17,
                         "end": 26
                     },
                     "label": {

@@ -41,6 +41,12 @@ for (function(){ a in b; }.prop in x);
                 "start": 0,
                 "end": 3
             },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 512,
+                "start": 31,
+                "end": 34
+            },
             "kind": 166,
             "initializer": {
                 "kind": 129,
@@ -49,8 +55,8 @@ for (function(){ a in b; }.prop in x);
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 5,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 5,
                         "end": 13
                     },
                     "generatorToken": null,

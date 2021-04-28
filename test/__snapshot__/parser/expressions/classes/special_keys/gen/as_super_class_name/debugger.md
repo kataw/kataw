@@ -42,8 +42,8 @@ class x extends debugger {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -73,8 +73,8 @@ class x extends debugger {}
             "kind": 171,
             "debuggerKeyword": {
                 "kind": 37757010,
-                "flags": 15,
-                "start": 0,
+                "flags": 0,
+                "start": 15,
                 "end": 24
             },
             "flags": 128,

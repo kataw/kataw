@@ -56,8 +56,8 @@ switch[ while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 7,
-                "start": 0,
+                "flags": 0,
+                "start": 7,
                 "end": 13
             },
             "expression": {
@@ -71,8 +71,8 @@ switch[ while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 13,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 13,
                     "end": 17
                 },
                 "block": {

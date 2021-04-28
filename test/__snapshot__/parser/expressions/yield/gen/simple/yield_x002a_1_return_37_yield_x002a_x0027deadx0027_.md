@@ -57,8 +57,8 @@ yield * 1; return 37; yield * 'dead';
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 10,
-                "start": 0,
+                "flags": 0,
+                "start": 10,
                 "end": 17
             },
             "expression": {

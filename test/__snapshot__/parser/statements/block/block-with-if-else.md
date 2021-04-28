@@ -24,8 +24,8 @@
                         "kind": 164,
                         "ifKeyword": {
                             "kind": 37757019,
-                            "flags": 2,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 2,
                             "end": 4
                         },
                         "expression": {
@@ -51,8 +51,8 @@
                         },
                         "elseKeyword": {
                             "kind": 4194389,
-                            "flags": 15,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 15,
                             "end": 20
                         },
                         "alternate": {

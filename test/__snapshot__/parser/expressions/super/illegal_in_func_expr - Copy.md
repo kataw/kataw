@@ -38,8 +38,8 @@ x = function(){ super.foo; }
                     "asyncKeyword": null,
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 3,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 3,
                         "end": 12
                     },
                     "generatorToken": null,
@@ -66,8 +66,8 @@ x = function(){ super.foo; }
                                             "kind": 225,
                                             "superKeyword": {
                                                 "kind": 4259935,
-                                                "flags": 15,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 15,
                                                 "end": 21
                                             },
                                             "flags": 768,

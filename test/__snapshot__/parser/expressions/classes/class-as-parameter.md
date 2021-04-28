@@ -73,8 +73,8 @@ class A {
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 6,
-                "start": 1,
+                "flags": 1,
+                "start": 6,
                 "end": 16
             },
             "generatorToken": null,
@@ -123,8 +123,8 @@ class A {
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 32,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 32,
                                 "end": 41
                             },
                             "expression": {
@@ -297,7 +297,7 @@ class A {
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 6,
             "end": 115
         },
@@ -307,8 +307,8 @@ class A {
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 115,
-                "start": 1,
+                "flags": 1,
+                "start": 115,
                 "end": 122
             },
             "name": {

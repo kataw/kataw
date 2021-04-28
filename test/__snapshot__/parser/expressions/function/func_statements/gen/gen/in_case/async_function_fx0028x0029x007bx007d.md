@@ -45,8 +45,8 @@ switch (x) {
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 12,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 12,
                             "end": 19
                         },
                         "expression": {
@@ -63,14 +63,14 @@ switch (x) {
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 24,
-                                    "start": 513,
+                                    "flags": 513,
+                                    "start": 24,
                                     "end": 34
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 34,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 34,
                                     "end": 43
                                 },
                                 "generatorToken": null,
@@ -107,7 +107,7 @@ switch (x) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 1153,
+                                "flags": 1152,
                                 "start": 24,
                                 "end": 49
                             }

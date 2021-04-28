@@ -142,8 +142,8 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                 "kind": 205,
                                                 "chainToken": {
                                                     "kind": 393240,
-                                                    "flags": 26,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 26,
                                                     "end": 28
                                                 },
                                                 "member": {

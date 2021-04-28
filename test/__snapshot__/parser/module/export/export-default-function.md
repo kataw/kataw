@@ -31,8 +31,8 @@ export default function () {}
             },
             "defaultKeyword": {
                 "kind": 4194387,
-                "flags": 6,
-                "start": 0,
+                "flags": 0,
+                "start": 6,
                 "end": 14
             },
             "declaration": {
@@ -41,8 +41,8 @@ export default function () {}
                 "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
-                    "flags": 14,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 14,
                     "end": 23
                 },
                 "generatorToken": null,

@@ -106,8 +106,8 @@ class C { set x(_) { new super; } }
                                                 "kind": 210,
                                                 "newKeyword": {
                                                     "kind": 138477661,
-                                                    "flags": 20,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 20,
                                                     "end": 24
                                                 },
                                                 "expression": {
@@ -116,8 +116,8 @@ class C { set x(_) { new super; } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 24,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 24,
                                                             "end": 30
                                                         },
                                                         "flags": 768,

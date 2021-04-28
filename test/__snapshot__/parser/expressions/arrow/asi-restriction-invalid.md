@@ -44,8 +44,8 @@ var af = ()
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 11,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 11,
                                 "end": 14
                             },
                             "typeParameters": null,

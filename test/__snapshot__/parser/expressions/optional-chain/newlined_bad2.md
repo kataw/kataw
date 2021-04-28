@@ -30,8 +30,8 @@ a?
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 1,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 2
                 },
                 "consequent": {

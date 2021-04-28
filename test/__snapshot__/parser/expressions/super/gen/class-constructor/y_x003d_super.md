@@ -100,8 +100,8 @@ class C { constructor() { y = super } }
                                                         "kind": 225,
                                                         "superKeyword": {
                                                             "kind": 4259935,
-                                                            "flags": 29,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 29,
                                                             "end": 35
                                                         },
                                                         "flags": 768,

@@ -62,8 +62,8 @@ var await; var f = (async function() { `await; });
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 10,
-                "start": 0,
+                "flags": 0,
+                "start": 10,
                 "end": 14
             },
             "declarationList": {

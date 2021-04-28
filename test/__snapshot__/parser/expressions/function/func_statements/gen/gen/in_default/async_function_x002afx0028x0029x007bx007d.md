@@ -45,8 +45,8 @@ switch (x) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 12,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 12,
                             "end": 22
                         },
                         "statements": [
@@ -55,20 +55,20 @@ switch (x) {
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 23,
-                                    "start": 513,
+                                    "flags": 513,
+                                    "start": 23,
                                     "end": 33
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 33,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 33,
                                     "end": 42
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 42,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 42,
                                     "end": 44
                                 },
                                 "name": {
@@ -104,7 +104,7 @@ switch (x) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 3201,
+                                "flags": 3200,
                                 "start": 23,
                                 "end": 49
                             }

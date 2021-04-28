@@ -69,8 +69,8 @@ if /false//a else
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 12,
-                "start": 512,
+                "flags": 512,
+                "start": 12,
                 "end": 17
             },
             "alternate": {

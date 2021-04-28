@@ -23,6 +23,12 @@ for (x of y) continue
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 6,
+                "end": 9
+            },
             "initializer": {
                 "kind": 134299649,
                 "text": "x",
@@ -43,8 +49,8 @@ for (x of y) continue
                 "kind": 172,
                 "continueKeyword": {
                     "kind": 37757009,
-                    "flags": 12,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 12,
                     "end": 21
                 },
                 "label": null,

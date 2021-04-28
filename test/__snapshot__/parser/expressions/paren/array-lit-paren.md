@@ -53,8 +53,8 @@
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 2,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 2,
                                     "end": 5
                                 },
                                 "argument": {
@@ -100,8 +100,8 @@
                                 "kind": 224,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 12,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 12,
                                     "end": 15
                                 },
                                 "argument": {
@@ -168,8 +168,8 @@
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 24,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 24,
                                     "end": 27
                                 },
                                 "argument": {
@@ -235,8 +235,8 @@
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 36,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 36,
                                     "end": 39
                                 },
                                 "argument": {
@@ -282,8 +282,8 @@
                                 "kind": 223,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 46,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 46,
                                     "end": 49
                                 },
                                 "argument": {

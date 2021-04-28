@@ -42,16 +42,16 @@ class A extends async (x, y) => ok {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 28,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 28,
                         "end": 31
                     },
                     "typeParameters": null,

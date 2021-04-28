@@ -7,6 +7,7 @@ import { VariableDeclarationList } from './variable-declarationList';
 
 export interface ForOfStatement extends SyntaxNode {
   readonly forKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly ofKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly initializer: VariableDeclarationList | BindingList | ExpressionNode | null;
   readonly expression: ExpressionNode;
   readonly statement: StatementNode;
@@ -19,6 +20,7 @@ export interface ForOfStatement extends SyntaxNode {
 
 export function createForOfStatement(
   forKeyword: SyntaxToken<TokenSyntaxKind>,
+  ofKeyword: SyntaxToken<TokenSyntaxKind>,
   initializer: VariableDeclarationList | BindingList | ExpressionNode | null,
   expression: ExpressionNode,
   statement: StatementNode,
@@ -29,6 +31,7 @@ export function createForOfStatement(
   return {
     kind: SyntaxKind.ForOfStatement,
     forKeyword,
+    ofKeyword,
     initializer,
     expression,
     statement,

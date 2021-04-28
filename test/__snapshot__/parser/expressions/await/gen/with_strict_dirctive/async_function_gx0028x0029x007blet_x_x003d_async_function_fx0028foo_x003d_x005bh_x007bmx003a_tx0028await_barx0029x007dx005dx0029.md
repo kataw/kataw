@@ -33,14 +33,14 @@
             "declareKeyword": null,
             "asyncKeyword": {
                 "kind": 82031,
-                "flags": 13,
-                "start": 512,
+                "flags": 512,
+                "start": 13,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 19,
-                "start": 0,
+                "flags": 0,
+                "start": 19,
                 "end": 28
             },
             "generatorToken": null,
@@ -93,14 +93,14 @@
                                             "kind": 177,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 40,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 40,
                                                 "end": 46
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 46,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 46,
                                                 "end": 55
                                             },
                                             "generatorToken": null,
@@ -165,8 +165,8 @@
                                                                                                     "kind": 208,
                                                                                                     "awaitToken": {
                                                                                                         "kind": 82032,
-                                                                                                        "flags": 74,
-                                                                                                        "start": 0,
+                                                                                                        "flags": 0,
+                                                                                                        "start": 74,
                                                                                                         "end": 79
                                                                                                     },
                                                                                                     "expression": {

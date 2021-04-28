@@ -84,8 +84,8 @@ class C { constructor() { super; } }
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 25,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 25,
                                                         "end": 31
                                                     },
                                                     "flags": 768,

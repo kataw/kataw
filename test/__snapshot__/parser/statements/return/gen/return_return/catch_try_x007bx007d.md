@@ -79,8 +79,8 @@ return catch try {} return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 19,
-                "start": 0,
+                "flags": 0,
+                "start": 19,
                 "end": 26
             },
             "expression": null,

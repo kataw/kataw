@@ -53,20 +53,20 @@ var gen = async function *g() {
                             "kind": 177,
                             "asyncKeyword": {
                                 "kind": 82031,
-                                "flags": 9,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 9,
                                 "end": 15
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 24
                             },
                             "generatorToken": {
                                 "kind": 67143222,
-                                "flags": 24,
-                                "start": 512,
+                                "flags": 512,
+                                "start": 24,
                                 "end": 26
                             },
                             "name": {
@@ -131,8 +131,8 @@ var gen = async function *g() {
                                                 "kind": 229,
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
-                                                    "flags": 49,
-                                                    "start": 1,
+                                                    "flags": 1,
+                                                    "start": 49,
                                                     "end": 57
                                                 },
                                                 "delegate": false,
@@ -146,16 +146,16 @@ var gen = async function *g() {
                                                                 "kind": 224,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 59,
-                                                                    "start": 1,
+                                                                    "flags": 1,
+                                                                    "start": 59,
                                                                     "end": 70
                                                                 },
                                                                 "argument": {
                                                                     "kind": 229,
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
-                                                                        "flags": 70,
-                                                                        "start": 0,
+                                                                        "flags": 0,
+                                                                        "start": 70,
                                                                         "end": 75
                                                                     },
                                                                     "delegate": false,
@@ -164,8 +164,8 @@ var gen = async function *g() {
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
-                                                                            "flags": 75,
-                                                                            "start": 0,
+                                                                            "flags": 0,
+                                                                            "start": 75,
                                                                             "end": 81
                                                                         },
                                                                         "delegate": false,
@@ -187,8 +187,8 @@ var gen = async function *g() {
                                                                 "kind": 224,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 82,
-                                                                    "start": 1,
+                                                                    "flags": 1,
+                                                                    "start": 82,
                                                                     "end": 93
                                                                 },
                                                                 "argument": {
@@ -200,8 +200,8 @@ var gen = async function *g() {
                                                                             "asyncKeyword": null,
                                                                             "functionKeyword": {
                                                                                 "kind": 37822554,
-                                                                                "flags": 94,
-                                                                                "start": 0,
+                                                                                "flags": 0,
+                                                                                "start": 94,
                                                                                 "end": 102
                                                                             },
                                                                             "generatorToken": null,
@@ -244,8 +244,8 @@ var gen = async function *g() {
                                                                                             "declareKeyword": null,
                                                                                             "varKeyword": {
                                                                                                 "kind": 37757002,
-                                                                                                "flags": 109,
-                                                                                                "start": 1,
+                                                                                                "flags": 1,
+                                                                                                "start": 109,
                                                                                                 "end": 123
                                                                                             },
                                                                                             "declarationList": {
@@ -288,8 +288,8 @@ var gen = async function *g() {
                                                                                             "kind": 161,
                                                                                             "returnKeyword": {
                                                                                                 "kind": 37757022,
-                                                                                                "flags": 136,
-                                                                                                "start": 1,
+                                                                                                "flags": 1,
+                                                                                                "start": 136,
                                                                                                 "end": 153
                                                                                             },
                                                                                             "expression": {
@@ -301,8 +301,8 @@ var gen = async function *g() {
                                                                                                             "kind": 224,
                                                                                                             "ellipsisToken": {
                                                                                                                 "kind": 524302,
-                                                                                                                "flags": 155,
-                                                                                                                "start": 0,
+                                                                                                                "flags": 0,
+                                                                                                                "start": 155,
                                                                                                                 "end": 158
                                                                                                             },
                                                                                                             "argument": {
@@ -355,8 +355,8 @@ var gen = async function *g() {
                                                                                     "kind": 229,
                                                                                     "yieldKeyword": {
                                                                                         "kind": 8454253,
-                                                                                        "flags": 175,
-                                                                                        "start": 0,
+                                                                                        "flags": 0,
+                                                                                        "start": 175,
                                                                                         "end": 180
                                                                                     },
                                                                                     "delegate": false,
@@ -388,16 +388,16 @@ var gen = async function *g() {
                                                                 "kind": 224,
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
-                                                                    "flags": 183,
-                                                                    "start": 1,
+                                                                    "flags": 1,
+                                                                    "start": 183,
                                                                     "end": 194
                                                                 },
                                                                 "argument": {
                                                                     "kind": 229,
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
-                                                                        "flags": 194,
-                                                                        "start": 0,
+                                                                        "flags": 0,
+                                                                        "start": 194,
                                                                         "end": 199
                                                                     },
                                                                     "delegate": false,

@@ -23,8 +23,8 @@ async () => {  \u0066unction = x  }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 11
             },
             "typeParameters": null,
@@ -48,8 +48,8 @@ async () => {  \u0066unction = x  }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 13,
-                                "start": 262144,
+                                "flags": 262144,
+                                "start": 13,
                                 "end": 28
                             },
                             "generatorToken": null,
@@ -85,7 +85,7 @@ async () => {  \u0066unction = x  }
                             },
                             "typeParameters": null,
                             "returnType": null,
-                            "flags": 262272,
+                            "flags": 128,
                             "start": 13,
                             "end": 28
                         }

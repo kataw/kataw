@@ -50,8 +50,8 @@ switch( async try while { catch } case
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 17
             },
             "block": {

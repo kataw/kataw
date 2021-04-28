@@ -56,8 +56,8 @@ if [else] class x {}
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 4,
-                "start": 512,
+                "flags": 512,
+                "start": 4,
                 "end": 8
             },
             "alternate": {
@@ -83,8 +83,8 @@ if [else] class x {}
             "decorators": null,
             "classKeyword": {
                 "kind": 37822544,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 15
             },
             "name": {

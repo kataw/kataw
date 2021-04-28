@@ -29,8 +29,8 @@ function * x () {
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -71,8 +71,8 @@ function * x () {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
-                                        "flags": 24,
-                                        "start": 0,
+                                        "flags": 0,
+                                        "start": 24,
                                         "end": 30
                                     },
                                     "delegate": false,

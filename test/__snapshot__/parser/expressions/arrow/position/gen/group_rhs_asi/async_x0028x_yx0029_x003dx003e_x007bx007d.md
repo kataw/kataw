@@ -44,8 +44,8 @@ x *
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 17,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 17,
                             "end": 20
                         },
                         "typeParameters": null,

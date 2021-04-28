@@ -46,8 +46,8 @@ class x extends y {
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
@@ -106,8 +106,8 @@ class x extends y {
                                                 "kind": 271,
                                                 "arrowToken": {
                                                     "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 64,
                                                     "end": 67
                                                 },
                                                 "typeParameters": null,
@@ -125,8 +125,8 @@ class x extends y {
                                                                             "kind": 225,
                                                                             "superKeyword": {
                                                                                 "kind": 4259935,
-                                                                                "flags": 50,
-                                                                                "start": 0,
+                                                                                "flags": 0,
+                                                                                "start": 50,
                                                                                 "end": 56
                                                                             },
                                                                             "flags": 768,

@@ -51,8 +51,8 @@ x = (a)?c:d=>{}=>{}
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 7,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 7,
                         "end": 8
                     },
                     "consequent": {
@@ -65,16 +65,16 @@ x = (a)?c:d=>{}=>{}
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 9,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 9,
                         "end": 10
                     },
                     "alternate": {
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 11,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 11,
                             "end": 13
                         },
                         "typeParameters": null,

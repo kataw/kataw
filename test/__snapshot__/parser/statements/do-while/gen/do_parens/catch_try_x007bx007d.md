@@ -62,8 +62,8 @@ do( catch try {} while
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 13
             },
             "block": {

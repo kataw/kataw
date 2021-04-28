@@ -38,16 +38,16 @@ class x extends new A() {}
                 "kind": 279,
                 "extendsKeyword": {
                     "kind": 4194391,
-                    "flags": 7,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 7,
                     "end": 15
                 },
                 "expression": {
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
-                        "flags": 15,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 15,
                         "end": 19
                     },
                     "expression": {

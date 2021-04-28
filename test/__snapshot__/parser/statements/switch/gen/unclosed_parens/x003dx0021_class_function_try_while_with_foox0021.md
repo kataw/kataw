@@ -55,8 +55,8 @@ switch( =! class function try while with foo! case
                         "decorators": null,
                         "classKeyword": {
                             "kind": 37822544,
-                            "flags": 10,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 10,
                             "end": 16
                         },
                         "name": null,
@@ -98,8 +98,8 @@ switch( =! class function try while with foo! case
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 16,
-                "start": 0,
+                "flags": 0,
+                "start": 16,
                 "end": 25
             },
             "generatorToken": null,
@@ -143,8 +143,8 @@ switch( =! class function try while with foo! case
             "kind": 159,
             "tryKeyword": {
                 "kind": 37757027,
-                "flags": 25,
-                "start": 0,
+                "flags": 0,
+                "start": 25,
                 "end": 29
             },
             "block": {
@@ -185,8 +185,8 @@ switch( =! class function try while with foo! case
             "kind": 153,
             "withKeyword": {
                 "kind": 37757029,
-                "flags": 35,
-                "start": 0,
+                "flags": 0,
+                "start": 35,
                 "end": 40
             },
             "expression": {

@@ -50,8 +50,8 @@ return {} return(x) { while try this and !foo
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 16
             },
             "expression": {
@@ -81,8 +81,8 @@ return {} return(x) { while try this and !foo
                         "kind": 154,
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 21,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 21,
                             "end": 27
                         },
                         "expression": {
@@ -96,8 +96,8 @@ return {} return(x) { while try this and !foo
                             "kind": 159,
                             "tryKeyword": {
                                 "kind": 37757027,
-                                "flags": 27,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 27,
                                 "end": 31
                             },
                             "block": {

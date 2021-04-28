@@ -31,8 +31,8 @@ function * gen() { function not_gen() { async function wrap() { async function a
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -63,8 +63,8 @@ function * gen() { function not_gen() { async function wrap() { async function a
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 18,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 27
                             },
                             "generatorToken": null,
@@ -95,14 +95,14 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                             "declareKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
-                                                "flags": 39,
-                                                "start": 512,
+                                                "flags": 512,
+                                                "start": 39,
                                                 "end": 45
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
-                                                "flags": 45,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 45,
                                                 "end": 54
                                             },
                                             "generatorToken": null,
@@ -133,14 +133,14 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                             "declareKeyword": null,
                                                             "asyncKeyword": {
                                                                 "kind": 82031,
-                                                                "flags": 63,
-                                                                "start": 512,
+                                                                "flags": 512,
+                                                                "start": 63,
                                                                 "end": 69
                                                             },
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
-                                                                "flags": 69,
-                                                                "start": 0,
+                                                                "flags": 0,
+                                                                "start": 69,
                                                                 "end": 78
                                                             },
                                                             "generatorToken": null,

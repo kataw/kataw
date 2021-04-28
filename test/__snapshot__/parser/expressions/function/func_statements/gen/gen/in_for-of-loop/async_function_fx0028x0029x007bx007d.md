@@ -27,6 +27,12 @@ for (a of b) async function f(){}
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 6,
+                "end": 9
+            },
             "initializer": {
                 "kind": 134299649,
                 "text": "a",
@@ -49,14 +55,14 @@ for (a of b) async function f(){}
                     "kind": 177,
                     "asyncKeyword": {
                         "kind": 82031,
-                        "flags": 12,
-                        "start": 512,
+                        "flags": 512,
+                        "start": 12,
                         "end": 18
                     },
                     "functionKeyword": {
                         "kind": 37822554,
-                        "flags": 18,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 18,
                         "end": 27
                     },
                     "generatorToken": null,

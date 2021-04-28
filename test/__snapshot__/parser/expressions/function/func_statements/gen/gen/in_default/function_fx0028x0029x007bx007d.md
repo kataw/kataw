@@ -45,8 +45,8 @@ switch (x) {
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 12,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 12,
                             "end": 22
                         },
                         "statements": [
@@ -56,8 +56,8 @@ switch (x) {
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 23,
-                                    "start": 1,
+                                    "flags": 1,
+                                    "start": 23,
                                     "end": 36
                                 },
                                 "generatorToken": null,
@@ -94,7 +94,7 @@ switch (x) {
                                 },
                                 "typeParameters": null,
                                 "returnType": null,
-                                "flags": 129,
+                                "flags": 128,
                                 "start": 23,
                                 "end": 42
                             }

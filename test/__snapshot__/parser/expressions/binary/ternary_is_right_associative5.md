@@ -31,8 +31,8 @@ typeof x;
                 },
                 "questionToken": {
                     "kind": 134217750,
-                    "flags": 1,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1,
                     "end": 3
                 },
                 "consequent": {
@@ -45,8 +45,8 @@ typeof x;
                 },
                 "colonToken": {
                     "kind": 21,
-                    "flags": 5,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 5,
                     "end": 7
                 },
                 "alternate": {
@@ -61,8 +61,8 @@ typeof x;
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 9,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 9,
                         "end": 11
                     },
                     "consequent": {
@@ -75,8 +75,8 @@ typeof x;
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 13,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 13,
                         "end": 15
                     },
                     "alternate": {

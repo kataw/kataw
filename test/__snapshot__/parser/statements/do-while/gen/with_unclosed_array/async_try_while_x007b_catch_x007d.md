@@ -72,8 +72,8 @@ do[ async try while { catch }
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 13,
-                "start": 0,
+                "flags": 0,
+                "start": 13,
                 "end": 19
             },
             "expression": {

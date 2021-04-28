@@ -56,8 +56,8 @@ if [else] while try this and !foo
             },
             "elseKeyword": {
                 "kind": 4194389,
-                "flags": 4,
-                "start": 512,
+                "flags": 512,
+                "start": 4,
                 "end": 8
             },
             "alternate": {
@@ -81,8 +81,8 @@ if [else] while try this and !foo
             "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 9,
-                "start": 0,
+                "flags": 0,
+                "start": 9,
                 "end": 15
             },
             "expression": {
@@ -96,8 +96,8 @@ if [else] while try this and !foo
                 "kind": 159,
                 "tryKeyword": {
                     "kind": 37757027,
-                    "flags": 15,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 15,
                     "end": 19
                 },
                 "block": {

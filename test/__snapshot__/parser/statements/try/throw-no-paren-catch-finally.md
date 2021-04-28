@@ -71,8 +71,8 @@ throw {x} catch finally
             "catchClause": null,
             "finallyKeyword": {
                 "kind": 37757016,
-                "flags": 15,
-                "start": 0,
+                "flags": 0,
+                "start": 15,
                 "end": 23
             },
             "finallyBlock": {

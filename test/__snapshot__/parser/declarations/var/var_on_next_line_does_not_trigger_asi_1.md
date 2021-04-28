@@ -37,8 +37,8 @@ var foo
                 "declareKeyword": null,
                 "varKeyword": {
                     "kind": 37757002,
-                    "flags": 6,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 6,
                     "end": 10
                 },
                 "declarationList": {

@@ -27,8 +27,8 @@ function *f(){ async (x = (yield)) => {} }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -57,8 +57,8 @@ function *f(){ async (x = (yield)) => {} }
                             "kind": 271,
                             "arrowToken": {
                                 "kind": 10,
-                                "flags": 34,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 34,
                                 "end": 37
                             },
                             "typeParameters": null,
@@ -85,8 +85,8 @@ function *f(){ async (x = (yield)) => {} }
                                             "kind": 229,
                                             "yieldKeyword": {
                                                 "kind": 8454253,
-                                                "flags": 27,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 27,
                                                 "end": 32
                                             },
                                             "delegate": false,

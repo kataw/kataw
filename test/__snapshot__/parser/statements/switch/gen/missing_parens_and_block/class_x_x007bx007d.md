@@ -41,8 +41,8 @@ switch case class x {}
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 6,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 6,
                             "end": 11
                         },
                         "expression": {
@@ -50,8 +50,8 @@ switch case class x {}
                             "decorators": null,
                             "classKeyword": {
                                 "kind": 37822544,
-                                "flags": 11,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 17
                             },
                             "name": {

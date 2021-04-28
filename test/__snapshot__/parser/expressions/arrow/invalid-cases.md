@@ -124,8 +124,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 12,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 12,
                     "end": 15
                 },
                 "typeParameters": null,
@@ -265,8 +265,8 @@ a++ => {};
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 52,
-                "start": 1,
+                "flags": 1,
+                "start": 52,
                 "end": 59
             },
             "expression": {
@@ -306,8 +306,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 69,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 69,
                     "end": 72
                 },
                 "typeParameters": null,
@@ -831,8 +831,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 641,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 641,
                     "end": 644
                 },
                 "typeParameters": null,
@@ -899,8 +899,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 675,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 675,
                     "end": 678
                 },
                 "typeParameters": null,
@@ -967,8 +967,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 705,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 705,
                     "end": 708
                 },
                 "typeParameters": null,
@@ -1035,8 +1035,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 739,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 739,
                     "end": 742
                 },
                 "typeParameters": null,
@@ -1103,8 +1103,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 770,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 770,
                     "end": 773
                 },
                 "typeParameters": null,
@@ -1173,8 +1173,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 806,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 806,
                     "end": 809
                 },
                 "typeParameters": null,
@@ -1243,8 +1243,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 838,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 838,
                     "end": 841
                 },
                 "typeParameters": null,
@@ -1313,8 +1313,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 874,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 874,
                     "end": 877
                 },
                 "typeParameters": null,
@@ -1383,8 +1383,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 910,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 910,
                     "end": 913
                 },
                 "typeParameters": null,
@@ -1463,8 +1463,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 946,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 946,
                     "end": 949
                 },
                 "typeParameters": null,
@@ -1543,8 +1543,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 987,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 987,
                     "end": 990
                 },
                 "typeParameters": null,
@@ -1623,8 +1623,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1024,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1024,
                     "end": 1027
                 },
                 "typeParameters": null,
@@ -1703,8 +1703,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1065,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1065,
                     "end": 1068
                 },
                 "typeParameters": null,
@@ -1911,8 +1911,8 @@ a++ => {};
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1340,
-                "start": 1,
+                "flags": 1,
+                "start": 1340,
                 "end": 1343
             },
             "expression": {
@@ -1984,8 +1984,8 @@ a++ => {};
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1352,
-                "start": 0,
+                "flags": 0,
+                "start": 1352,
                 "end": 1354
             },
             "expression": {
@@ -2066,8 +2066,8 @@ a++ => {};
             "kind": 164,
             "ifKeyword": {
                 "kind": 37757019,
-                "flags": 1366,
-                "start": 0,
+                "flags": 0,
+                "start": 1366,
                 "end": 1369
             },
             "expression": {
@@ -2138,8 +2138,8 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 1383,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1383,
                         "end": 1386
                     },
                     "typeParameters": null,
@@ -2246,8 +2246,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1416,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1416,
                     "end": 1419
                 },
                 "typeParameters": null,
@@ -2551,8 +2551,8 @@ a++ => {};
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 1499,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1499,
                         "end": 1502
                     },
                     "typeParameters": null,
@@ -2919,8 +2919,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1591,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1591,
                     "end": 1594
                 },
                 "typeParameters": null,
@@ -3105,8 +3105,8 @@ a++ => {};
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 1629,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1629,
                         "end": 1631
                     },
                     "consequent": {
@@ -3119,8 +3119,8 @@ a++ => {};
                     },
                     "colonToken": {
                         "kind": 21,
-                        "flags": 1635,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 1635,
                         "end": 1637
                     },
                     "alternate": {
@@ -3190,8 +3190,8 @@ a++ => {};
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 1657,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 1657,
                                 "end": 1659
                             },
                             "consequent": {
@@ -3204,8 +3204,8 @@ a++ => {};
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 1663,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 1663,
                                 "end": 1665
                             },
                             "alternate": {
@@ -3259,8 +3259,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1698,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1698,
                     "end": 1701
                 },
                 "typeParameters": null,
@@ -3278,8 +3278,8 @@ a++ => {};
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 1682,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 1682,
                                 "end": 1684
                             },
                             "consequent": {
@@ -3292,8 +3292,8 @@ a++ => {};
                             },
                             "colonToken": {
                                 "kind": 21,
-                                "flags": 1688,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 1688,
                                 "end": 1690
                             },
                             "alternate": {
@@ -3349,8 +3349,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1714,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1714,
                     "end": 1717
                 },
                 "typeParameters": null,
@@ -3489,8 +3489,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1749,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1749,
                     "end": 1752
                 },
                 "typeParameters": null,
@@ -3629,8 +3629,8 @@ a++ => {};
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
-                    "flags": 1786,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 1786,
                     "end": 1789
                 },
                 "typeParameters": null,
@@ -3639,8 +3639,8 @@ a++ => {};
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 1777,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 1777,
                             "end": 1780
                         },
                         "binding": {
@@ -3757,8 +3757,8 @@ a++ => {};
                                 "kind": 215,
                                 "ellipsisToken": {
                                     "kind": 524302,
-                                    "flags": 1817,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 1817,
                                     "end": 1821
                                 },
                                 "binding": {

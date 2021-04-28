@@ -38,8 +38,8 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 17
                         },
                         "expression": {
@@ -56,20 +56,20 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 "declareKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 20,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 20,
                                     "end": 26
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 26,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 26,
                                     "end": 35
                                 },
                                 "generatorToken": {
                                     "kind": 67143222,
-                                    "flags": 35,
-                                    "start": 512,
+                                    "flags": 512,
+                                    "start": 35,
                                     "end": 36
                                 },
                                 "name": {
@@ -118,8 +118,8 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                         "kind": 170,
                         "defaultKeyword": {
                             "kind": 4194387,
-                            "flags": 43,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 43,
                             "end": 51
                         },
                         "statements": [
@@ -129,8 +129,8 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 "asyncKeyword": null,
                                 "functionKeyword": {
                                     "kind": 37822554,
-                                    "flags": 52,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 52,
                                     "end": 61
                                 },
                                 "generatorToken": null,

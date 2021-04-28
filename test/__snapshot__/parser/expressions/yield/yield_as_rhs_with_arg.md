@@ -27,8 +27,8 @@ function *g() { function f(x = x + yield y) {}; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 10
             },
             "name": {
@@ -59,8 +59,8 @@ function *g() { function f(x = x + yield y) {}; }
                             "asyncKeyword": null,
                             "functionKeyword": {
                                 "kind": 37822554,
-                                "flags": 15,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 15,
                                 "end": 24
                             },
                             "generatorToken": null,

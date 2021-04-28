@@ -106,8 +106,8 @@ class C { set x(_) { class C { get x) { super; } } } }
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
-                                                "flags": 20,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 20,
                                                 "end": 26
                                             },
                                             "name": {
@@ -193,8 +193,8 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 "kind": 225,
                                 "superKeyword": {
                                     "kind": 4259935,
-                                    "flags": 39,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 39,
                                     "end": 45
                                 },
                                 "flags": 768,

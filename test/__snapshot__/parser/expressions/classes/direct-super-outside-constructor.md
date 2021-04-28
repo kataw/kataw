@@ -82,8 +82,8 @@ class A {
                                                     "kind": 225,
                                                     "superKeyword": {
                                                         "kind": 4259935,
-                                                        "flags": 18,
-                                                        "start": 0,
+                                                        "flags": 0,
+                                                        "start": 18,
                                                         "end": 23
                                                     },
                                                     "flags": 768,

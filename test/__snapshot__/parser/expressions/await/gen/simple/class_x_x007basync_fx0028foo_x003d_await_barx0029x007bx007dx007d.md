@@ -86,8 +86,8 @@ class x {async f(foo = await bar){}}
                                             "kind": 208,
                                             "awaitToken": {
                                                 "kind": 82032,
-                                                "flags": 22,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 22,
                                                 "end": 28
                                             },
                                             "expression": {

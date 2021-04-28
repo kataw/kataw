@@ -31,8 +31,8 @@ function* foo() { var x = 10; yield 1; return x; }
             },
             "generatorToken": {
                 "kind": 67143222,
-                "flags": 8,
-                "start": 512,
+                "flags": 512,
+                "start": 8,
                 "end": 9
             },
             "name": {
@@ -62,8 +62,8 @@ function* foo() { var x = 10; yield 1; return x; }
                             "declareKeyword": null,
                             "varKeyword": {
                                 "kind": 37757002,
-                                "flags": 17,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 17,
                                 "end": 21
                             },
                             "declarationList": {
@@ -108,8 +108,8 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
-                                    "flags": 29,
-                                    "start": 0,
+                                    "flags": 0,
+                                    "start": 29,
                                     "end": 35
                                 },
                                 "delegate": false,
@@ -134,8 +134,8 @@ function* foo() { var x = 10; yield 1; return x; }
                             "kind": 161,
                             "returnKeyword": {
                                 "kind": 37757022,
-                                "flags": 38,
-                                "start": 0,
+                                "flags": 0,
+                                "start": 38,
                                 "end": 45
                             },
                             "expression": {

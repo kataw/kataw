@@ -19,8 +19,8 @@ async () => { \u{61}wait: x }
             "kind": 271,
             "arrowToken": {
                 "kind": 10,
-                "flags": 8,
-                "start": 0,
+                "flags": 0,
+                "start": 8,
                 "end": 11
             },
             "typeParameters": null,
@@ -44,8 +44,8 @@ async () => { \u{61}wait: x }
                                 "kind": 208,
                                 "awaitToken": {
                                     "kind": 82032,
-                                    "flags": 13,
-                                    "start": 131072,
+                                    "flags": 131072,
+                                    "start": 13,
                                     "end": 24
                                 },
                                 "expression": {

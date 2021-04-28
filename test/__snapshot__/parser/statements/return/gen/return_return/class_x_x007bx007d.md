@@ -32,8 +32,8 @@ return class x {} return
                 "decorators": null,
                 "classKeyword": {
                     "kind": 37822544,
-                    "flags": 6,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 6,
                     "end": 12
                 },
                 "name": {
@@ -65,8 +65,8 @@ return class x {} return
             "kind": 161,
             "returnKeyword": {
                 "kind": 37757022,
-                "flags": 17,
-                "start": 0,
+                "flags": 0,
+                "start": 17,
                 "end": 24
             },
             "expression": null,

@@ -130,8 +130,8 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 35,
-                "start": 1,
+                "flags": 1,
+                "start": 35,
                 "end": 45
             },
             "generatorToken": null,
@@ -150,8 +150,8 @@ function x({x}) { "use strict"; }
                         "kind": 215,
                         "ellipsisToken": {
                             "kind": 524302,
-                            "flags": 48,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 48,
                             "end": 51
                         },
                         "binding": {
@@ -201,7 +201,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 35,
             "end": 71
         },
@@ -211,8 +211,8 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 71,
-                "start": 1,
+                "flags": 1,
+                "start": 71,
                 "end": 81
             },
             "generatorToken": null,
@@ -302,7 +302,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 71,
             "end": 106
         },
@@ -312,8 +312,8 @@ function x({x}) { "use strict"; }
             "asyncKeyword": null,
             "functionKeyword": {
                 "kind": 37822554,
-                "flags": 106,
-                "start": 1,
+                "flags": 1,
+                "start": 106,
                 "end": 116
             },
             "generatorToken": null,
@@ -402,7 +402,7 @@ function x({x}) { "use strict"; }
             },
             "typeParameters": null,
             "returnType": null,
-            "flags": 129,
+            "flags": 128,
             "start": 106,
             "end": 141
         }

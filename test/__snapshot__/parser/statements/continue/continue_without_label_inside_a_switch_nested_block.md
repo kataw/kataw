@@ -38,8 +38,8 @@ switch (x) { case x: {continue;} }
                         "kind": 175,
                         "caseKeyword": {
                             "kind": 4194382,
-                            "flags": 12,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 12,
                             "end": 17
                         },
                         "expression": {
@@ -60,8 +60,8 @@ switch (x) { case x: {continue;} }
                                             "kind": 172,
                                             "continueKeyword": {
                                                 "kind": 37757009,
-                                                "flags": 22,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 22,
                                                 "end": 30
                                             },
                                             "label": null,

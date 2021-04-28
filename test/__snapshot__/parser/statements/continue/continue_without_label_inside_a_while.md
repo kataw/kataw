@@ -35,8 +35,8 @@ while (x) continue
                 "kind": 172,
                 "continueKeyword": {
                     "kind": 37757009,
-                    "flags": 9,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 9,
                     "end": 18
                 },
                 "label": null,

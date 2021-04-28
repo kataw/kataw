@@ -154,8 +154,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
-                        "flags": 57,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 57,
                         "end": 60
                     },
                     "typeParameters": null,

@@ -28,8 +28,8 @@ async async => {}, async async => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 11,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 11,
                             "end": 14
                         },
                         "typeParameters": null,
@@ -55,8 +55,8 @@ async async => {}, async async => {}
                         ],
                         "asyncToken": {
                             "kind": 82031,
-                            "flags": 0,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 0,
                             "end": 5
                         },
                         "returnType": null,
@@ -83,8 +83,8 @@ async async => {}, async async => {}
                         "kind": 271,
                         "arrowToken": {
                             "kind": 10,
-                            "flags": 30,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 30,
                             "end": 33
                         },
                         "typeParameters": null,
@@ -110,8 +110,8 @@ async async => {}, async async => {}
                         ],
                         "asyncToken": {
                             "kind": 82031,
-                            "flags": 18,
-                            "start": 512,
+                            "flags": 512,
+                            "start": 18,
                             "end": 24
                         },
                         "returnType": null,

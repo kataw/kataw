@@ -76,8 +76,8 @@ class x { fo(){ return function() { super.foo; } }}
                                             "kind": 161,
                                             "returnKeyword": {
                                                 "kind": 37757022,
-                                                "flags": 15,
-                                                "start": 0,
+                                                "flags": 0,
+                                                "start": 15,
                                                 "end": 22
                                             },
                                             "expression": {
@@ -85,8 +85,8 @@ class x { fo(){ return function() { super.foo; } }}
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
                                                     "kind": 37822554,
-                                                    "flags": 22,
-                                                    "start": 0,
+                                                    "flags": 0,
+                                                    "start": 22,
                                                     "end": 31
                                                 },
                                                 "generatorToken": null,
@@ -113,8 +113,8 @@ class x { fo(){ return function() { super.foo; } }}
                                                                         "kind": 225,
                                                                         "superKeyword": {
                                                                             "kind": 4259935,
-                                                                            "flags": 35,
-                                                                            "start": 0,
+                                                                            "flags": 0,
+                                                                            "start": 35,
                                                                             "end": 41
                                                                         },
                                                                         "flags": 768,

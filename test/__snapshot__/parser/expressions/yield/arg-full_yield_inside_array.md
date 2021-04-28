@@ -61,8 +61,8 @@
                                                                 "kind": 229,
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
-                                                                    "flags": 14,
-                                                                    "start": 0,
+                                                                    "flags": 0,
+                                                                    "start": 14,
                                                                     "end": 19
                                                                 },
                                                                 "delegate": false,

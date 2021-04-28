@@ -23,6 +23,12 @@ for(x of 3)break/
                 "start": 0,
                 "end": 3
             },
+            "ofKeyword": {
+                "kind": 16793717,
+                "flags": 512,
+                "start": 5,
+                "end": 8
+            },
             "initializer": {
                 "kind": 134299649,
                 "text": "x",
@@ -43,8 +49,8 @@ for(x of 3)break/
                 "kind": 150,
                 "breakKeyword": {
                     "kind": 37757005,
-                    "flags": 11,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 11,
                     "end": 16
                 },
                 "label": {

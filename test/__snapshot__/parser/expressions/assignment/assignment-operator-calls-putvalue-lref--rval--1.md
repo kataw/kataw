@@ -93,8 +93,8 @@ Object.defineProperty(this, "x", {
             "declareKeyword": null,
             "varKeyword": {
                 "kind": 37757002,
-                "flags": 14,
-                "start": 1,
+                "flags": 1,
+                "start": 14,
                 "end": 18
             },
             "declarationList": {
@@ -258,8 +258,8 @@ Object.defineProperty(this, "x", {
                         "asyncKeyword": null,
                         "functionKeyword": {
                             "kind": 37822554,
-                            "flags": 109,
-                            "start": 0,
+                            "flags": 0,
+                            "start": 109,
                             "end": 117
                         },
                         "generatorToken": null,
@@ -328,8 +328,8 @@ Object.defineProperty(this, "x", {
                                                         "kind": 271,
                                                         "arrowToken": {
                                                             "kind": 10,
-                                                            "flags": 172,
-                                                            "start": 0,
+                                                            "flags": 0,
+                                                            "start": 172,
                                                             "end": 175
                                                         },
                                                         "typeParameters": null,
