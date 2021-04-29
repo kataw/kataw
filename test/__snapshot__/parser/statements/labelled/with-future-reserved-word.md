@@ -25,6 +25,12 @@ interface: x;
                 "start": 0,
                 "end": 9
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 9,
+                "end": 10
+            },
             "statement": {
                 "kind": 120,
                 "expression": {

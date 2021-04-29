@@ -97,6 +97,7 @@ var x = {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. Reserved word in strict mode - start: 18, end: 20
+
 ```
 

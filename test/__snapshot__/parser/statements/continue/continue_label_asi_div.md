@@ -26,6 +26,12 @@ x: for(;;) continue x
                 "start": 0,
                 "end": 1
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 1,
+                "end": 2
+            },
             "statement": {
                 "kind": 165,
                 "forKeyword": {

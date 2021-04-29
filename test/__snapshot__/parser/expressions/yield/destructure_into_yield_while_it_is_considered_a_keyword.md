@@ -142,6 +142,7 @@ function *f(){  ({yield} = x)  }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. Reserved word in strict mode - start: 23, end: 24
+
 ```
 

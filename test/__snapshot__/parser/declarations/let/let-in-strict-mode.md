@@ -36,6 +36,12 @@
                 "start": 13,
                 "end": 17
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 17,
+                "end": 18
+            },
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -114,6 +120,7 @@
 
 ```javascript
 ✖ Identifier expected. 'let' is a reserved word in strict mode - start: 17, end: 18
+✖ Identifier expected. Reserved word in strict mode - start: 17, end: 18
 ✖ Identifier expected. Reserved word in strict mode - start: 37, end: 47
 
 ```

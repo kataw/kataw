@@ -35,6 +35,12 @@ foo: function() {}
                 "start": 13,
                 "end": 17
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 17,
+                "end": 18
+            },
             "statement": {
                 "kind": 176,
                 "declareKeyword": null,

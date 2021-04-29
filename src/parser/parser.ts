@@ -698,10 +698,14 @@ export function parseLabelledStatement(
   parser: ParserState,
   context: Context,
   expr: Identifier,
+  token: SyntaxKind,
   allowFunction: boolean,
   pos: number
 ): LabelledStatement {
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
+  // Validate labeled identifier
+  validateIdentifier(parser, context, token);
+
+  const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon); // skip: ':'
 
   if (parser.token & SyntaxKind.IsFutureReserved) {
     switch (parser.token) {
@@ -739,6 +743,7 @@ export function parseLabelledStatement(
 
   return createLabelledStatement(
     expr,
+    colonToken,
     !allowFunction ||
       // Per 13.13.1 it's a syntax error if LabelledItem: FunctionDeclaration
       // is ever matched. Per Annex B.3.2 that modifies this text, this
@@ -972,7 +977,7 @@ export function parseExpressionOrLabelledStatement(
   const { token, curPos } = parser;
   const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
   return token & SyntaxKind.IsIdentifier && parser.token === SyntaxKind.Colon
-    ? parseLabelledStatement(parser, context, expr as Identifier, allowFunction, curPos)
+    ? parseLabelledStatement(parser, context, expr as Identifier, token, allowFunction, curPos)
     : parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, curPos), curPos);
 }
 
@@ -1797,6 +1802,44 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context, type
   return createPropertyDefinitionList(properties, trailingComma, flags | NodeFlags.IsStatement, pos, parser.curPos);
 }
 
+function validateIdentifier(parser: ParserState, context: Context, t: SyntaxKind): void {
+  if (context & Context.Strict) {
+    if (t & SyntaxKind.IsFutureReserved) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
+  if ((t & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  if (context & (Context.InAwaitContext | Context.Module) && t === SyntaxKind.AwaitKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
+  if (context & (Context.InGeneratorContext | Context.Strict) && t === SyntaxKind.YieldKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+      parser.curPos,
+      parser.pos
+    );
+  }
+}
+
 function parsePropertyDefinition(
   parser: ParserState,
   context: Context,
@@ -1828,19 +1871,19 @@ function parsePropertyDefinition(
       parser.token === SyntaxKind.Comma ||
       parser.token === SyntaxKind.RightBrace
     ) {
+      if (
+        context & Context.Strict &&
+        (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier)
+      ) {
+        destructible |= DestructibleKind.NotDestructible;
+      } else {
+        validateIdentifier(parser, context, token);
+      }
+
       if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
         parser.destructible = DestructibleKind.MustDestruct;
         return createCoverInitializedName(key, parseExpression(parser, context), pos, parser.curPos);
       }
-      if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-          parser.curPos,
-          parser.pos
-        );
-      }
-
       parser.destructible = destructible;
       return key;
     }
@@ -3181,10 +3224,10 @@ function isValidReturnType(parser: ParserState, context: Context, _expression1: 
     context,
     function () {
       nextToken(parser, context); // ':'
-      const isIdentifier = parser.token & SyntaxKind.IsIdentifier;
+      const validateIdentifier = parser.token & SyntaxKind.IsIdentifier;
       let expression: any = parsePrimaryExpression(parser, context, /* inNewExpression */ false);
       if (
-        isIdentifier &&
+        validateIdentifier &&
         expression.kind === SyntaxKind.ArrowFunction &&
         (parser.token as SyntaxKind) === SyntaxKind.Colon
       )
@@ -3569,7 +3612,14 @@ function parseFunctionDeclaration(
       }
       let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
       if (parser.token === SyntaxKind.Colon) {
-        return parseLabelledStatement(parser, context, expression, /* allowFunction */ true, pos);
+        return parseLabelledStatement(
+          parser,
+          context,
+          expression,
+          SyntaxKind.AsyncKeyword,
+          /* allowFunction */ true,
+          pos
+        );
       }
       if (parser.token === SyntaxKind.Arrow) {
         expression = createFormalParameter(
@@ -4679,7 +4729,14 @@ function parseDeclareAsIdentifierOrDeclareStatement(
   }
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
-    return parseLabelledStatement(parser, context, expr as Identifier, /* allowFunction */ true, pos);
+    return parseLabelledStatement(
+      parser,
+      context,
+      expr as Identifier,
+      SyntaxKind.DeclareKeyword,
+      /* allowFunction */ true,
+      pos
+    );
   }
   if (parser.token === SyntaxKind.Arrow) {
     return parseArrowFunction(
@@ -4738,7 +4795,14 @@ function parseTypeAsIdentifierOrTypeAlias(
   }
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
-    return parseLabelledStatement(parser, context, expr as Identifier, /* allowFunction */ true, pos);
+    return parseLabelledStatement(
+      parser,
+      context,
+      expr as Identifier,
+      SyntaxKind.TypeKeyword,
+      /* allowFunction */ true,
+      pos
+    );
   }
   if (parser.token === SyntaxKind.Arrow) {
     return parseArrowFunction(
@@ -4794,7 +4858,14 @@ function parseLetAsIdentifierOrLexicalDeclaration(
   }
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
-    return parseLabelledStatement(parser, context, expr as Identifier, /* allowFunction */ true, pos);
+    return parseLabelledStatement(
+      parser,
+      context,
+      expr as Identifier,
+      SyntaxKind.LetKeyword,
+      /* allowFunction */ true,
+      pos
+    );
   }
   if (parser.token === SyntaxKind.Arrow) {
     return parseArrowFunction(
@@ -6316,7 +6387,14 @@ function parseOpaqueType(parser: ParserState, context: Context, declareKeyword: 
   }
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
-    return parseLabelledStatement(parser, context, expr as Identifier, /* allowFunction */ true, pos);
+    return parseLabelledStatement(
+      parser,
+      context,
+      expr as Identifier,
+      SyntaxKind.OpaqueKeyword,
+      /* allowFunction */ true,
+      pos
+    );
   }
   if (parser.token === SyntaxKind.Arrow) {
     return parseArrowFunction(

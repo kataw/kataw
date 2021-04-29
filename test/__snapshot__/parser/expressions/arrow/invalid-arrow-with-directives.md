@@ -3131,6 +3131,9 @@
 
 ```javascript
 ✖ Identifier expected. Reserved word in strict mode - start: 315, end: 316
+✖ Identifier expected. Reserved word in strict mode - start: 315, end: 316
+✖ Identifier expected. Reserved word in strict mode - start: 346, end: 348
+✖ Identifier expected. Reserved word in strict mode - start: 346, end: 348
 ✖ Identifier expected. Reserved word in strict mode - start: 529, end: 535
 ✖ Identifier expected. Reserved word in strict mode - start: 565, end: 571
 ✖ Identifier expected. Reserved word in strict mode - start: 607, end: 612

@@ -58,6 +58,12 @@ opaque Ident: Type = SuperType;
                 "start": 6,
                 "end": 12
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 12,
+                "end": 13
+            },
             "statement": {
                 "kind": 120,
                 "expression": {

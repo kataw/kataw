@@ -25,6 +25,12 @@ loop: while (x) { break loop; }
                 "start": 0,
                 "end": 4
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 4,
+                "end": 5
+            },
             "statement": {
                 "kind": 154,
                 "whileKeyword": {

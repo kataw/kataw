@@ -404,6 +404,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 131,
                 "end": 134
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 134,
+                "end": 135
+            },
             "statement": {
                 "kind": 120,
                 "expression": {

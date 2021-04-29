@@ -25,6 +25,12 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 "start": 0,
                 "end": 3
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 3,
+                "end": 4
+            },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
@@ -61,6 +67,12 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     "flags": 96,
                                     "start": 9,
                                     "end": 13
+                                },
+                                "colonToken": {
+                                    "kind": 21,
+                                    "flags": 0,
+                                    "start": 13,
+                                    "end": 14
                                 },
                                 "statement": {
                                     "kind": 169,

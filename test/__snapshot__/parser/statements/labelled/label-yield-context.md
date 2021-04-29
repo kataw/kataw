@@ -65,6 +65,12 @@ function * x () {
                                 "start": 17,
                                 "end": 23
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 23,
+                                "end": 24
+                            },
                             "statement": {
                                 "kind": 120,
                                 "expression": {

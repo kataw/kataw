@@ -292,6 +292,7 @@ var await; var f = (async function() { async function f() { return {await = 0} =
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. Reserved word in strict mode - start: 73, end: 75
+
 ```
 

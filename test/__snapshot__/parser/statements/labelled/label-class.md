@@ -25,6 +25,12 @@ label: class x {}
                 "start": 0,
                 "end": 5
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 5,
+                "end": 6
+            },
             "statement": {
                 "kind": 178,
                 "declareKeyword": null,

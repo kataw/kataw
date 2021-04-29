@@ -5534,6 +5534,12 @@ async function * gen() {class C extends await { }}
                             "start": 2623,
                             "end": 2624
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 2624,
+                            "end": 2625
+                        },
                         "statement": {
                             "kind": 120,
                             "expression": {
@@ -5729,6 +5735,12 @@ async function * gen() {class C extends await { }}
                             "flags": 96,
                             "start": 2679,
                             "end": 2680
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 2680,
+                            "end": 2681
                         },
                         "statement": {
                             "kind": 120,

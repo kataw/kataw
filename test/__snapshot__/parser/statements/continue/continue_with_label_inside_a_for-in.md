@@ -25,6 +25,12 @@ foo: for (x in y) continue foo
                 "start": 0,
                 "end": 3
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 3,
+                "end": 4
+            },
             "statement": {
                 "forKeyword": {
                     "kind": 37757017,

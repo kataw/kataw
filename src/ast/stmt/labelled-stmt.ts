@@ -1,4 +1,5 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StatementNode } from '.';
 import { Identifier } from '../expressions/identifier-expr';
 
@@ -7,11 +8,13 @@ import { Identifier } from '../expressions/identifier-expr';
  */
 export interface LabelledStatement extends SyntaxNode {
   readonly label: Identifier;
+  readonly colonToken: SyntaxToken<TokenSyntaxKind>;
   readonly statement: StatementNode;
 }
 
 export function createLabelledStatement(
   label: Identifier,
+  colonToken: SyntaxToken<TokenSyntaxKind>,
   statement: StatementNode,
   start: number,
   end: number
@@ -19,6 +22,7 @@ export function createLabelledStatement(
   return {
     kind: SyntaxKind.LabelledStatement,
     label,
+    colonToken,
     statement,
     flags: NodeFlags.IsStatement,
     start,

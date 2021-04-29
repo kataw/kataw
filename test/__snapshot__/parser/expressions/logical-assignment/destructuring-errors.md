@@ -318,6 +318,12 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 86,
                             "end": 88
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 88,
+                            "end": 89
+                        },
                         "statement": {
                             "kind": 120,
                             "expression": {
@@ -632,6 +638,12 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 183,
                             "end": 185
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 185,
+                            "end": 186
+                        },
                         "statement": {
                             "kind": 120,
                             "expression": {
@@ -769,6 +781,12 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "flags": 96,
                             "start": 214,
                             "end": 216
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 216,
+                            "end": 217
                         },
                         "statement": {
                             "kind": 120,

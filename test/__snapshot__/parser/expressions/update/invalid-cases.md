@@ -498,6 +498,12 @@ new new foo().bar++;
                             "start": 129,
                             "end": 130
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 130,
+                            "end": 131
+                        },
                         "statement": {
                             "kind": 120,
                             "expression": {

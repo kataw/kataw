@@ -47,6 +47,12 @@ do wow: while (x) continue wow; while (x)
                     "start": 2,
                     "end": 6
                 },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 6,
+                    "end": 7
+                },
                 "statement": {
                     "kind": 154,
                     "whileKeyword": {

@@ -30,6 +30,12 @@
                             "start": 1,
                             "end": 5
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 5,
+                            "end": 6
+                        },
                         "statement": {
                             "kind": 163,
                             "label": {
@@ -39,6 +45,12 @@
                                 "flags": 96,
                                 "start": 6,
                                 "end": 10
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 10,
+                                "end": 11
                             },
                             "statement": {
                                 "kind": 176,

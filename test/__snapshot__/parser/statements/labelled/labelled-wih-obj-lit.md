@@ -25,6 +25,12 @@ a: { a: x }
                 "start": 0,
                 "end": 1
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 1,
+                "end": 2
+            },
             "statement": {
                 "kind": 249,
                 "block": {
@@ -39,6 +45,12 @@ a: { a: x }
                                 "flags": 96,
                                 "start": 4,
                                 "end": 6
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 6,
+                                "end": 7
                             },
                             "statement": {
                                 "kind": 120,

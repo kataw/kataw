@@ -3983,6 +3983,12 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4478,
                     "end": 4484
                 },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 4484,
+                    "end": 4485
+                },
                 "statement": {
                     "kind": 176,
                     "declareKeyword": null,
@@ -4066,6 +4072,12 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4506,
                     "end": 4513
                 },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 4513,
+                    "end": 4514
+                },
                 "statement": {
                     "kind": 163,
                     "label": {
@@ -4075,6 +4087,12 @@ try {} catch(e) { for(var e of 0); };
                         "flags": 96,
                         "start": 4514,
                         "end": 4521
+                    },
+                    "colonToken": {
+                        "kind": 21,
+                        "flags": 0,
+                        "start": 4521,
+                        "end": 4522
                     },
                     "statement": {
                         "kind": 176,
@@ -4162,6 +4180,12 @@ try {} catch(e) { for(var e of 0); };
                     "flags": 96,
                     "start": 4543,
                     "end": 4549
+                },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 4549,
+                    "end": 4550
                 },
                 "statement": {
                     "kind": 176,
@@ -4267,6 +4291,12 @@ try {} catch(e) { for(var e of 0); };
                     "flags": 96,
                     "start": 4585,
                     "end": 4591
+                },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 4591,
+                    "end": 4592
                 },
                 "statement": {
                     "kind": 176,

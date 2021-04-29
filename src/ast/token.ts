@@ -32,6 +32,8 @@ export type TokenSyntaxKind =
   | SyntaxKind.FromKeyword
   | SyntaxKind.Add
   | SyntaxKind.Subtract
+  | SyntaxKind.EvalIdentifier
+  | SyntaxKind.ArgumentsIdentifier
   | SyntaxKind.ConstKeyword
   | SyntaxKind.TypeofKeyword
   | SyntaxKind.VoidKeyword

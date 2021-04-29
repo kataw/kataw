@@ -692,6 +692,12 @@ L: let
                                         "start": 214,
                                         "end": 218
                                     },
+                                    "colonToken": {
+                                        "kind": 21,
+                                        "flags": 0,
+                                        "start": 218,
+                                        "end": 219
+                                    },
                                     "statement": {
                                         "kind": 120,
                                         "expression": {
@@ -794,6 +800,12 @@ L: let
                                 "flags": 96,
                                 "start": 247,
                                 "end": 251
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 251,
+                                "end": 252
                             },
                             "statement": {
                                 "kind": 120,
@@ -1077,6 +1089,12 @@ L: let
                 "start": 320,
                 "end": 323
             },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 323,
+                "end": 324
+            },
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -1118,6 +1136,12 @@ L: let
                 "flags": 96,
                 "start": 330,
                 "end": 333
+            },
+            "colonToken": {
+                "kind": 21,
+                "flags": 0,
+                "start": 333,
+                "end": 334
             },
             "statement": {
                 "kind": 120,

@@ -59,6 +59,12 @@ async () => { \u{61}wait: x }
                                 "start": 13,
                                 "end": 24
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 24,
+                                "end": 25
+                            },
                             "statement": {
                                 "kind": 120,
                                 "expression": {
@@ -110,6 +116,7 @@ async () => { \u{61}wait: x }
 
 ```javascript
 ✖ Expression expected - start: 24, end: 25
+✖ Identifier expected. Reserved word in strict mode - start: 24, end: 25
 
 ```
 
