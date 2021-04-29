@@ -52,7 +52,7 @@ case /)finally
 
 ```javascript
 ✖ Statement expected - start: 0, end: 4
-✖ Unexpected token. - start: 4, end: 6
+✖ Unterminated regular expression - start: 4, end: 6
 
 ```
 

@@ -25,6 +25,8 @@ export type TokenSyntaxKind =
   | SyntaxKind.PrivateIdentifier
   | SyntaxKind.QuestionMarkPeriod
   | SyntaxKind.TemplateCont
+  | SyntaxKind.Target
+  | SyntaxKind.Meta
   | SyntaxKind.TemplateTail
   | SyntaxKind.ImplementsKeyword
   | SyntaxKind.FromKeyword

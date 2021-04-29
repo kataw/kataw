@@ -50,24 +50,49 @@ import {x as z,} from "y"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 9
                                 },
+                                "flags": 16,
+                                "start": 8,
+                                "end": 9
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 9,
+                                    "end": 12
+                                },
+                                "flags": 16,
+                                "start": 9,
+                                "end": 12
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "flags": 16,
-                                "start": 8,
+                                "start": 12,
                                 "end": 14
                             }
                         ],

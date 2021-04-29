@@ -139,6 +139,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                                             "properties": [
                                                                                 {
                                                                                     "kind": 219,
+                                                                                    "generatorToken": null,
                                                                                     "asyncKeyword": null,
                                                                                     "getKeyword": null,
                                                                                     "setKeyword": null,

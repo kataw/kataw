@@ -184,6 +184,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                             "properties": [
                                                                                                 {
                                                                                                     "kind": 219,
+                                                                                                    "generatorToken": null,
                                                                                                     "asyncKeyword": null,
                                                                                                     "getKeyword": null,
                                                                                                     "setKeyword": null,

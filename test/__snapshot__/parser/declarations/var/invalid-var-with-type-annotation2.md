@@ -141,6 +141,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -166,6 +167,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

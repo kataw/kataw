@@ -2874,6 +2874,7 @@ switch (answer) { case 0: let a; };
                     "properties": [
                         {
                             "kind": 219,
+                            "generatorToken": null,
                             "asyncKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
@@ -3004,6 +3005,7 @@ switch (answer) { case 0: let a; };
                     "properties": [
                         {
                             "kind": 219,
+                            "generatorToken": null,
                             "asyncKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,

@@ -287,6 +287,7 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -312,6 +313,7 @@ var {get} = obj;
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -416,6 +418,7 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -441,6 +444,7 @@ var {get} = obj;
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -809,6 +813,7 @@ var {get} = obj;
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -870,6 +875,7 @@ var {get} = obj;
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -1027,6 +1033,7 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "generatorToken": null,
                                                 "asyncKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
@@ -1365,6 +1372,7 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

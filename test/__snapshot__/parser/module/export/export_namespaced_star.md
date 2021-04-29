@@ -34,19 +34,54 @@ export * as x from "x" foo
             "exportFromClause": {
                 "kind": 259,
                 "moduleExportName": null,
-                "namedBinding": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 11,
-                    "end": 13
-                },
+                "namedBinding": null,
                 "flags": 16,
                 "start": 0,
-                "end": 13
+                "end": 8
             },
             "fromClause": {
+                "kind": 134299649,
+                "text": "as",
+                "rawText": "as",
+                "flags": 96,
+                "start": 8,
+                "end": 11
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 11,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 11,
+            "end": 13
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 13,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 13,
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
                 "kind": 201392131,
                 "text": "x",
                 "rawText": "x",
@@ -55,7 +90,7 @@ export * as x from "x" foo
                 "end": 22
             },
             "flags": 16,
-            "start": 0,
+            "start": 18,
             "end": 22
         },
         {

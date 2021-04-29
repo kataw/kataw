@@ -42,6 +42,7 @@ x = {arrow: (x, y) => ok};
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -134,6 +135,7 @@ x = {arrow: (x, y) => ok};
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,

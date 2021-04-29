@@ -48,6 +48,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
@@ -95,6 +96,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,

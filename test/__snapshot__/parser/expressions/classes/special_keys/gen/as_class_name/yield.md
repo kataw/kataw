@@ -69,6 +69,7 @@ class yield {}
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. Reserved word in strict mode - start: 5, end: 11
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 5, end: 11
 
 ```

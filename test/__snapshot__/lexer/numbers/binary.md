@@ -192,8 +192,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 39, end: 40
-✖ Unexpected token. - start: 109, end: 110
+✖ Numeric separators are not allowed at the end of numeric literals - start: 39, end: 40
+✖ Numeric separators are not allowed at the end of numeric literals - start: 109, end: 110
 
 ```
 

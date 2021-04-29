@@ -15,6 +15,7 @@ export type PropertyKey = Identifier | NumericLiteral | BigIntLiteral | StringLi
  * Property name
  */
 export interface PropertyDefinition extends SyntaxNode {
+  readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly setKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -23,6 +24,7 @@ export interface PropertyDefinition extends SyntaxNode {
 }
 
 export function createPropertyDefinition(
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null,
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   getKeyword: SyntaxToken<TokenSyntaxKind> | null,
   setKeyword: SyntaxToken<TokenSyntaxKind> | null,
@@ -33,6 +35,7 @@ export function createPropertyDefinition(
 ): PropertyDefinition {
   return {
     kind: SyntaxKind.PropertyDefinition,
+    generatorToken,
     asyncKeyword,
     getKeyword,
     setKeyword,

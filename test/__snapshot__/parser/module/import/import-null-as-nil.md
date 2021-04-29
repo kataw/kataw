@@ -50,24 +50,49 @@ import { null as nil } from "bar"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "null",
                                     "rawText": "null",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 13
                                 },
+                                "flags": 16,
+                                "start": 8,
+                                "end": 13
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 13,
+                                    "end": 16
+                                },
+                                "flags": 16,
+                                "start": 13,
+                                "end": 16
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "nil",
                                     "rawText": "nil",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 16,
                                     "end": 20
                                 },
                                 "flags": 16,
-                                "start": 8,
+                                "start": 16,
                                 "end": 20
                             }
                         ],

@@ -101,7 +101,7 @@ for(x of 3)break/
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 16, end: 17
+✖ Unterminated regular expression - start: 16, end: 17
 ✖ Expression expected - start: 16, end: 18
 
 ```

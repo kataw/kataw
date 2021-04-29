@@ -30,12 +30,12 @@ import * as foo from "foo";
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
+                "kind": 134299649,
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
-                "start": 20,
-                "end": 26
+                "start": 11,
+                "end": 15
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -43,19 +43,47 @@ import * as foo from "foo";
                 "defaultBinding": null,
                 "nameSpaceImport": {
                     "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
+                    "text": "as",
+                    "rawText": "as",
                     "flags": 96,
-                    "start": 11,
-                    "end": 15
+                    "start": 8,
+                    "end": 11
                 },
                 "namedImports": null,
                 "flags": 16,
                 "start": 6,
-                "end": 15
+                "end": 11
             },
             "flags": 16,
             "start": 6,
+            "end": 15
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 15,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 15,
+            "end": 20
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 20,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 20,
             "end": 27
         }
     ],

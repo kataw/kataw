@@ -55,6 +55,7 @@ for ({a: b.c} of d) e
                     "properties": [
                         {
                             "kind": 219,
+                            "generatorToken": null,
                             "asyncKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,

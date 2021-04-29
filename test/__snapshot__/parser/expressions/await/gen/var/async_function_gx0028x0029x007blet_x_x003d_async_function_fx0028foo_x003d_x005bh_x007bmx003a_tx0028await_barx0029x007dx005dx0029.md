@@ -233,6 +233,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                 "properties": [
                                                                                                                     {
                                                                                                                         "kind": 219,
+                                                                                                                        "generatorToken": null,
                                                                                                                         "asyncKeyword": null,
                                                                                                                         "getKeyword": null,
                                                                                                                         "setKeyword": null,

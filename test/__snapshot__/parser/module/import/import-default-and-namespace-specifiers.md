@@ -30,12 +30,12 @@ import foo, * as bar from "foo";
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
+                "kind": 134299649,
+                "text": "bar",
+                "rawText": "bar",
                 "flags": 96,
-                "start": 25,
-                "end": 31
+                "start": 16,
+                "end": 20
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -50,19 +50,47 @@ import foo, * as bar from "foo";
                 },
                 "nameSpaceImport": {
                     "kind": 134299649,
-                    "text": "bar",
-                    "rawText": "bar",
+                    "text": "as",
+                    "rawText": "as",
                     "flags": 96,
-                    "start": 16,
-                    "end": 20
+                    "start": 13,
+                    "end": 16
                 },
                 "namedImports": null,
                 "flags": 16,
                 "start": 6,
-                "end": 20
+                "end": 16
             },
             "flags": 16,
             "start": 6,
+            "end": 20
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 20,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 20,
+            "end": 25
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 25,
+                "end": 31
+            },
+            "flags": 16,
+            "start": 25,
             "end": 32
         }
     ],

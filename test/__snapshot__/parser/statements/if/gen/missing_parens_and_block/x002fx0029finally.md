@@ -91,7 +91,7 @@ if else /)finally
 ```javascript
 ✖ Expression expected - start: 2, end: 7
 ✖ Expression expected - start: 2, end: 7
-✖ Unexpected token. - start: 7, end: 9
+✖ Unterminated regular expression - start: 7, end: 9
 
 ```
 

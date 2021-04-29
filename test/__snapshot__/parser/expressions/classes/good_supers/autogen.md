@@ -145,6 +145,7 @@ class x extends y {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,
@@ -186,6 +187,7 @@ class x extends y {
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
+                                                                "generatorToken": null,
                                                                 "asyncKeyword": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,

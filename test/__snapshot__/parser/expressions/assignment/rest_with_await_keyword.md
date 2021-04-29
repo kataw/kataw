@@ -55,6 +55,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
@@ -102,6 +103,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,

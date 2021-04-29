@@ -108,6 +108,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -168,6 +169,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -259,6 +261,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -330,6 +333,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -440,6 +444,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -452,6 +457,7 @@ a = { y: x = 1 } = b;
                                                 "properties": [
                                                     {
                                                         "kind": 219,
+                                                        "generatorToken": null,
                                                         "asyncKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
@@ -565,6 +571,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -630,6 +637,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -701,6 +709,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -766,6 +775,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -934,6 +944,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -1150,6 +1161,7 @@ a = { y: x = 1 } = b;
                             },
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -1309,6 +1321,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -1390,6 +1403,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -1469,6 +1483,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -1479,6 +1494,7 @@ a = { y: x = 1 } = b;
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "generatorToken": null,
                                                 "asyncKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
@@ -1568,6 +1584,7 @@ a = { y: x = 1 } = b;
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
@@ -1599,6 +1616,7 @@ a = { y: x = 1 } = b;
                                         },
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
@@ -1684,6 +1702,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -1783,6 +1802,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -1856,6 +1876,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -1911,6 +1932,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -1995,6 +2017,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -2181,6 +2204,7 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -2480,6 +2504,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -2525,6 +2550,7 @@ a = { y: x = 1 } = b;
                             },
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -2764,6 +2790,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -2891,6 +2918,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -2901,6 +2929,7 @@ a = { y: x = 1 } = b;
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -2926,6 +2955,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -2974,6 +3004,7 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -2984,6 +3015,7 @@ a = { y: x = 1 } = b;
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -3009,6 +3041,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -3319,6 +3352,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -3660,6 +3694,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -3713,6 +3748,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -4028,6 +4064,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -4107,6 +4144,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -4117,6 +4155,7 @@ a = { y: x = 1 } = b;
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "generatorToken": null,
                                                 "asyncKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
@@ -4237,6 +4276,7 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -4434,6 +4474,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,

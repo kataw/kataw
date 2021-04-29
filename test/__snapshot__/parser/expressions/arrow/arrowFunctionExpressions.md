@@ -1441,6 +1441,7 @@ var p10 = ([{ value, done }]) => { };
                                         "properties": [
                                             {
                                                 "kind": 219,
+                                                "generatorToken": null,
                                                 "asyncKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,

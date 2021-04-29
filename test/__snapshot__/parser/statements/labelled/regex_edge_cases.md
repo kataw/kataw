@@ -60,7 +60,7 @@ debugger
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 8, end: 10
+✖ Unterminated regular expression - start: 8, end: 10
 
 ```
 

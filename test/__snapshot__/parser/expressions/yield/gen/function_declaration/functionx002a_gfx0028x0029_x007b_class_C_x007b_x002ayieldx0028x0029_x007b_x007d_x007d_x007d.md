@@ -117,6 +117,12 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
+                                                        "generatorToken": {
+                                                            "kind": 67143222,
+                                                            "flags": 64,
+                                                            "start": 47,
+                                                            "end": 49
+                                                        },
                                                         "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "setKeyword": null,

@@ -121,7 +121,7 @@ do while [catch] /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 16, end: 18
+✖ Unterminated regular expression - start: 16, end: 18
 ✖ Expression expected - start: 26, end: 26
 
 ```

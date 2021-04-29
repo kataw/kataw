@@ -46,6 +46,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,

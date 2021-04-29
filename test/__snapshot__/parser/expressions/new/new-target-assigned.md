@@ -68,11 +68,9 @@ function f(){ foo = new.target }
                                 },
                                 "right": {
                                     "kind": 211,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "target",
-                                        "rawText": "target",
-                                        "flags": 96,
+                                    "targetKeyword": {
+                                        "kind": 16594,
+                                        "flags": 0,
                                         "start": 24,
                                         "end": 30
                                     },

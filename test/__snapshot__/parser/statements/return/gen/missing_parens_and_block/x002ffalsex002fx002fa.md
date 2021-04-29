@@ -109,7 +109,7 @@ return catch /false//a
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
 ✖ Expression expected - start: 6, end: 12
-✖ Unexpected token. - start: 20, end: 21
+✖ Unterminated regular expression - start: 20, end: 21
 
 ```
 

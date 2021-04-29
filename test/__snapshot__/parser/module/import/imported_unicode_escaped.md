@@ -46,7 +46,31 @@ export {a \u0061s b} from "x";
                                 "start": 8,
                                 "end": 9
                             },
-                            "binding": {
+                            "binding": null,
+                            "flags": 16,
+                            "start": 8,
+                            "end": 9
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 17
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 9,
+                            "end": 17
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -54,8 +78,9 @@ export {a \u0061s b} from "x";
                                 "start": 17,
                                 "end": 19
                             },
+                            "binding": null,
                             "flags": 16,
-                            "start": 8,
+                            "start": 17,
                             "end": 19
                         }
                     ],

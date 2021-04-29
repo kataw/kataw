@@ -140,6 +140,12 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
+                                                            "generatorToken": {
+                                                                "kind": 67143222,
+                                                                "flags": 64,
+                                                                "start": 53,
+                                                                "end": 55
+                                                            },
                                                             "staticKeyword": null,
                                                             "asyncKeyword": {
                                                                 "kind": 82031,
@@ -188,6 +194,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                 "properties": [
                                                                                                     {
                                                                                                         "kind": 219,
+                                                                                                        "generatorToken": null,
                                                                                                         "asyncKeyword": null,
                                                                                                         "getKeyword": null,
                                                                                                         "setKeyword": null,

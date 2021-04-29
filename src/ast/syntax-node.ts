@@ -363,5 +363,7 @@ export const enum SyntaxKind {
   OptionalChain = 206,
   DecoratorList = 207,
   FunctionTypeParameterList = 208,
-  BooleanType = 209
+  BooleanType = 209,
+  Target = 16594,
+  Meta = 16595
 }

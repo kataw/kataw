@@ -240,6 +240,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -556,6 +557,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -691,6 +693,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

@@ -74,6 +74,12 @@ function* foo(a = class {*bar() { yield b }}) {}
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
+                                        "generatorToken": {
+                                            "kind": 67143222,
+                                            "flags": 64,
+                                            "start": 25,
+                                            "end": 26
+                                        },
                                         "staticKeyword": null,
                                         "asyncKeyword": null,
                                         "setKeyword": null,

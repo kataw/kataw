@@ -119,6 +119,7 @@ for(const a = 1, let = 2;;);
 
 ```javascript
 ✖ A lexical declaration can't define a 'let' binding - start: 16, end: 20
+✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 16, end: 20
 
 ```
 

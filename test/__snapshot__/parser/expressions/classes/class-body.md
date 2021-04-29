@@ -190,6 +190,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -277,6 +278,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -376,6 +378,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -463,6 +466,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -520,6 +524,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -626,6 +631,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -718,6 +724,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -829,6 +836,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -916,6 +924,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1003,6 +1012,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 214,
+                                    "end": 216
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1090,6 +1105,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 234,
+                                    "end": 236
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1189,6 +1210,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 257,
+                                    "end": 259
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1276,6 +1303,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 277,
+                                    "end": 279
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1333,6 +1366,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 286,
+                                    "end": 288
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1439,6 +1478,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 313,
+                                    "end": 315
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -1531,6 +1576,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1618,6 +1664,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1710,6 +1757,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1821,6 +1869,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -1913,6 +1962,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2010,6 +2060,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2126,6 +2177,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2218,6 +2270,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2310,6 +2363,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2402,6 +2456,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2499,6 +2554,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2615,6 +2671,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 658,
+                                    "end": 660
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2702,6 +2764,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 690,
+                                    "end": 692
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2794,6 +2862,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 715,
+                                    "end": 717
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2881,6 +2955,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 737,
+                                    "end": 739
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2968,6 +3048,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 766,
+                                    "end": 768
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3060,6 +3146,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3147,6 +3234,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 808,
+                                    "end": 810
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3234,6 +3327,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3326,6 +3420,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 867,
+                                    "end": 869
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3418,6 +3518,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 903,
+                                    "end": 905
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3515,6 +3621,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3612,6 +3719,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3704,6 +3812,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 989,
+                                    "end": 991
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -3796,6 +3910,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -3888,6 +4003,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -3980,6 +4096,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -4072,6 +4189,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -4164,6 +4282,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -4256,6 +4375,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -4348,6 +4468,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4435,6 +4556,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1191,
+                                    "end": 1193
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4522,6 +4649,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -4614,6 +4742,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4725,6 +4854,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -4817,6 +4947,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -4914,6 +5045,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -5030,6 +5162,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1366,
+                                    "end": 1368
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5117,6 +5255,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1397,
+                                    "end": 1399
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -5216,6 +5360,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5310,6 +5455,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -5409,6 +5555,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5527,6 +5674,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -5626,6 +5774,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -5730,6 +5879,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -5853,6 +6003,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1607,
+                                    "end": 1609
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5947,6 +6103,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1638,
+                                    "end": 1640
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,

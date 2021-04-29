@@ -46,15 +46,25 @@ export {foo as default};
                                 "start": 8,
                                 "end": 11
                             },
-                            "binding": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 68,
-                                "start": 14,
-                                "end": 14
-                            },
+                            "binding": null,
                             "flags": 16,
                             "start": 8,
+                            "end": 11
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "as",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 14
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 11,
                             "end": 14
                         },
                         {
@@ -107,7 +117,6 @@ export {foo as default};
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 14, end: 22
-
+✔ No errors
 ```
 

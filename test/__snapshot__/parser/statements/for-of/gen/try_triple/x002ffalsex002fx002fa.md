@@ -135,7 +135,7 @@ try try try /false//a
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 19, end: 20
+✖ Unterminated regular expression - start: 19, end: 20
 
 ```
 

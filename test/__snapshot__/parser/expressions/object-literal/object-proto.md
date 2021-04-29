@@ -82,6 +82,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             },
                             {
                                 "kind": 219,
+                                "generatorToken": null,
                                 "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -383,6 +384,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -408,6 +410,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                 },
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,

@@ -63,24 +63,49 @@ import { a as b } from 'm.js';
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 10
                                 },
+                                "flags": 16,
+                                "start": 8,
+                                "end": 10
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 10,
+                                    "end": 13
+                                },
+                                "flags": 16,
+                                "start": 10,
+                                "end": 13
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 16,
-                                "start": 8,
+                                "start": 13,
                                 "end": 15
                             }
                         ],
@@ -166,24 +191,49 @@ import { a as b } from 'm.js';
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 63,
                                     "end": 65
                                 },
+                                "flags": 16,
+                                "start": 63,
+                                "end": 65
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 65,
+                                    "end": 68
+                                },
+                                "flags": 16,
+                                "start": 65,
+                                "end": 68
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 68,
                                     "end": 70
                                 },
                                 "flags": 16,
-                                "start": 63,
+                                "start": 68,
                                 "end": 70
                             }
                         ],
@@ -265,7 +315,31 @@ import { a as b } from 'm.js';
                                 "start": 118,
                                 "end": 120
                             },
-                            "binding": {
+                            "binding": null,
+                            "flags": 16,
+                            "start": 118,
+                            "end": 120
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "as",
+                                "flags": 96,
+                                "start": 120,
+                                "end": 123
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 120,
+                            "end": 123
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -273,8 +347,9 @@ import { a as b } from 'm.js';
                                 "start": 123,
                                 "end": 125
                             },
+                            "binding": null,
                             "flags": 16,
-                            "start": 118,
+                            "start": 123,
                             "end": 125
                         }
                     ],
@@ -308,12 +383,12 @@ import { a as b } from 'm.js';
                 "end": 148
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "bar.js",
-                "rawText": "bar.js",
-                "flags": 4194400,
-                "start": 162,
-                "end": 171
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
+                "start": 153,
+                "end": 157
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -321,19 +396,47 @@ import { a as b } from 'm.js';
                 "defaultBinding": null,
                 "nameSpaceImport": {
                     "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
+                    "text": "as",
+                    "rawText": "as",
                     "flags": 96,
-                    "start": 153,
-                    "end": 157
+                    "start": 150,
+                    "end": 153
                 },
                 "namedImports": null,
                 "flags": 16,
                 "start": 148,
-                "end": 157
+                "end": 153
             },
             "flags": 16,
             "start": 148,
+            "end": 157
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 157,
+                "end": 162
+            },
+            "flags": 16,
+            "start": 157,
+            "end": 162
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "bar.js",
+                "rawText": "bar.js",
+                "flags": 4194400,
+                "start": 162,
+                "end": 171
+            },
+            "flags": 16,
+            "start": 162,
             "end": 172
         },
         {
@@ -365,24 +468,49 @@ import { a as b } from 'm.js';
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 182,
                                     "end": 184
                                 },
+                                "flags": 16,
+                                "start": 182,
+                                "end": 184
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 184,
+                                    "end": 187
+                                },
+                                "flags": 16,
+                                "start": 184,
+                                "end": 187
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 187,
                                     "end": 189
                                 },
                                 "flags": 16,
-                                "start": 182,
+                                "start": 187,
                                 "end": 189
                             }
                         ],

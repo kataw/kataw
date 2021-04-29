@@ -131,7 +131,7 @@
 
 ```javascript
 ✖ Expression expected - start: 5, end: 7
-✖ Unexpected token. - start: 7, end: 8
+✖ Unterminated regular expression - start: 7, end: 8
 
 ```
 

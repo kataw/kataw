@@ -48,6 +48,7 @@ result = { x: { y } } = { x: { y: 2 } };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -111,6 +112,7 @@ result = { x: { y } } = { x: { y: 2 } };
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -121,6 +123,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,

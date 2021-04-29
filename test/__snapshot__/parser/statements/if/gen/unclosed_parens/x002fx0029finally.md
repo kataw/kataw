@@ -72,7 +72,7 @@ if( /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 3, end: 5
+✖ Unterminated regular expression - start: 3, end: 5
 ✖ Expression expected - start: 13, end: 13
 
 ```

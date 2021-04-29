@@ -116,6 +116,7 @@ var {x}: {x: string; } = { x: "hello" };
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

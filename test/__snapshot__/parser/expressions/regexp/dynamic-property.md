@@ -49,7 +49,7 @@
 ```javascript
 ✖ Statement expected - start: 0, end: 1
 ✖ Statement expected - start: 1, end: 2
-✖ Unexpected token. - start: 2, end: 3
+✖ Unterminated regular expression - start: 2, end: 3
 
 ```
 

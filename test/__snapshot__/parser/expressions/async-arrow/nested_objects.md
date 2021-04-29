@@ -35,6 +35,7 @@ async ({ident: {x: y}})
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -45,6 +46,7 @@ async ({ident: {x: y}})
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,

@@ -4233,6 +4233,7 @@ async function * gen() {class C extends await { }}
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
+                                                                        "generatorToken": null,
                                                                         "asyncKeyword": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
@@ -4409,6 +4410,7 @@ async function * gen() {class C extends await { }}
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
+                                                                        "generatorToken": null,
                                                                         "asyncKeyword": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
@@ -4792,6 +4794,7 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "generatorToken": null,
                                                                     "asyncKeyword": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
@@ -4846,6 +4849,7 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "generatorToken": null,
                                                                     "asyncKeyword": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
@@ -4964,6 +4968,7 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "generatorToken": null,
                                                                     "asyncKeyword": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
@@ -5022,6 +5027,7 @@ async function * gen() {class C extends await { }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
+                                                                    "generatorToken": null,
                                                                     "asyncKeyword": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
@@ -6156,6 +6162,7 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -6217,6 +6224,7 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -6335,6 +6343,7 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
@@ -6394,6 +6403,7 @@ async function * gen() {class C extends await { }}
                                             "properties": [
                                                 {
                                                     "kind": 219,
+                                                    "generatorToken": null,
                                                     "asyncKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,

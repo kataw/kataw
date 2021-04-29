@@ -48,6 +48,7 @@ class A {static set [foo](x){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": {
                             "kind": 8388716,
                             "flags": 64,

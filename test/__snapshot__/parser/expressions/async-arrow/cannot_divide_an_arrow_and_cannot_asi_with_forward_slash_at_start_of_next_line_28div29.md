@@ -109,7 +109,7 @@ async _ => {}
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 13, end: 15
+✖ Unterminated regular expression - start: 13, end: 15
 
 ```
 

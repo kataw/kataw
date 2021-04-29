@@ -80,6 +80,12 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
+                                        "generatorToken": {
+                                            "kind": 67143222,
+                                            "flags": 64,
+                                            "start": 33,
+                                            "end": 35
+                                        },
                                         "staticKeyword": null,
                                         "asyncKeyword": {
                                             "kind": 82031,
@@ -136,6 +142,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                             "properties": [
                                                                                 {
                                                                                     "kind": 219,
+                                                                                    "generatorToken": null,
                                                                                     "asyncKeyword": null,
                                                                                     "getKeyword": null,
                                                                                     "setKeyword": null,

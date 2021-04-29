@@ -84,7 +84,31 @@ var x; export {x as a,}
                                 "start": 15,
                                 "end": 16
                             },
-                            "binding": {
+                            "binding": null,
+                            "flags": 16,
+                            "start": 15,
+                            "end": 16
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "as",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 19
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 16,
+                            "end": 19
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -92,8 +116,9 @@ var x; export {x as a,}
                                 "start": 19,
                                 "end": 21
                             },
+                            "binding": null,
                             "flags": 16,
-                            "start": 15,
+                            "start": 19,
                             "end": 21
                         }
                     ],

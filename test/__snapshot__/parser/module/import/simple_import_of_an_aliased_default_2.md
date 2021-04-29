@@ -30,12 +30,12 @@ import x, * as a from "y"
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "y",
-                "rawText": "y",
+                "kind": 134299649,
+                "text": "a",
+                "rawText": "a",
                 "flags": 96,
-                "start": 21,
-                "end": 25
+                "start": 14,
+                "end": 16
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -50,19 +50,47 @@ import x, * as a from "y"
                 },
                 "nameSpaceImport": {
                     "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
+                    "text": "as",
+                    "rawText": "as",
                     "flags": 96,
-                    "start": 14,
-                    "end": 16
+                    "start": 11,
+                    "end": 14
                 },
                 "namedImports": null,
                 "flags": 16,
                 "start": 6,
-                "end": 16
+                "end": 14
             },
             "flags": 16,
             "start": 6,
+            "end": 16
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "from",
+                "rawText": "from",
+                "flags": 96,
+                "start": 16,
+                "end": 21
+            },
+            "flags": 16,
+            "start": 16,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 21,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 21,
             "end": 25
         }
     ],

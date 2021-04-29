@@ -44,6 +44,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                             "properties": [
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -69,6 +70,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 },
                                 {
                                     "kind": 219,
+                                    "generatorToken": null,
                                     "asyncKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
@@ -158,6 +160,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -183,6 +186,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

@@ -140,6 +140,12 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
+                                                            "generatorToken": {
+                                                                "kind": 67143222,
+                                                                "flags": 64,
+                                                                "start": 48,
+                                                                "end": 49
+                                                            },
                                                             "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "setKeyword": null,
