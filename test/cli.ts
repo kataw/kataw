@@ -31,9 +31,9 @@ export async function runCli() {
 
     for (let i = 0; i < opts.files.length; i++) {
       const tob = await file2Tob(opts.files[i]);
-      if (tob.misMatchItems?.length) {
+      if (tob.mismatchItems.length) {
         cnt++;
-        console.log(`Output mismatch(${tob.misMatchItems}) for`, tob.filename);
+        console.log(`Output mismatch(${tob.mismatchItems}) for`, tob.filename);
         updateTob(tob, opts.updateItems);
       }
     }
