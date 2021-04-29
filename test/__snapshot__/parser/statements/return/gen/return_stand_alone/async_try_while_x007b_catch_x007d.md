@@ -135,6 +135,7 @@ return async try while { catch }
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ 'try' expected - start: 24, end: 30
 
 ```
 

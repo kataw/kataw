@@ -126,6 +126,7 @@ return catch function while
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
 ✖ Expression expected - start: 6, end: 12
+✖ 'try' expected - start: 6, end: 12
 ✖ Expression expected - start: 27, end: 27
 ✖ Expression expected - start: 27, end: 27
 

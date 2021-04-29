@@ -74,6 +74,7 @@ case catch try { default
 
 ```javascript
 ✖ Statement expected - start: 0, end: 4
+✖ 'try' expected - start: 4, end: 10
 ✖ Statement expected - start: 16, end: 24
 
 ```

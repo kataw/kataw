@@ -170,6 +170,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 23, end: 29
+
 ```
 

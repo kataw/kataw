@@ -124,6 +124,7 @@ class x extends finally {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 23
+✖ 'try' expected - start: 15, end: 23
 
 ```
 

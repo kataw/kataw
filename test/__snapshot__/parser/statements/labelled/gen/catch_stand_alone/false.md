@@ -73,6 +73,7 @@ catch false
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 0, end: 5
+
 ```
 

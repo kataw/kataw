@@ -113,6 +113,7 @@ try[ catch try {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 4, end: 10
+
 ```
 

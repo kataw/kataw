@@ -184,6 +184,7 @@ switch [catch] function while
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 8, end: 13
 ✖ Binding identifier expected - start: 23, end: 29
 ✖ Unexpected token. - start: 23, end: 29
 ✖ Expression expected - start: 29, end: 29

@@ -212,6 +212,7 @@ try [catch] while try this and !foo
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 5, end: 10
 ✖ Expression expected - start: 17, end: 21
 
 ```

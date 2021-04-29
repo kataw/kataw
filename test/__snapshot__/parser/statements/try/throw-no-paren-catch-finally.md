@@ -109,6 +109,7 @@ throw {x} catch finally
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 9, end: 15
+
 ```
 

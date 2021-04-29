@@ -123,6 +123,7 @@ async () => {  \u0066inally = x  }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 13, end: 27
+
 ```
 

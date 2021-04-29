@@ -178,6 +178,7 @@ return [catch] function while
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ 'try' expected - start: 8, end: 13
 ✖ Binding identifier expected - start: 23, end: 29
 ✖ Unexpected token. - start: 23, end: 29
 ✖ Expression expected - start: 29, end: 29

@@ -199,6 +199,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 3, end: 8
+
 ```
 

@@ -182,6 +182,8 @@ switch [catch] catch { try
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 8, end: 13
+✖ 'try' expected - start: 14, end: 20
+
 ```
 

@@ -176,6 +176,8 @@ return [catch] catch { try
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ 'try' expected - start: 8, end: 13
+✖ 'try' expected - start: 14, end: 20
 
 ```
 

@@ -104,6 +104,7 @@ class finally {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 13
+✖ 'try' expected - start: 5, end: 13
 
 ```
 

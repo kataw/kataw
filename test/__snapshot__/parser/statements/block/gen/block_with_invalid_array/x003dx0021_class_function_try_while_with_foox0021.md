@@ -279,6 +279,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 11, end: 12
 ✖ Binding identifier expected - start: 27, end: 31
 ✖ Unexpected token. - start: 27, end: 31

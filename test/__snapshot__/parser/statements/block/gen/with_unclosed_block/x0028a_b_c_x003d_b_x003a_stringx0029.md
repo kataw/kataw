@@ -210,6 +210,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 4, end: 12
 ✖ Statement expected - start: 14, end: 15
 ✖ Statement expected - start: 29, end: 31
 ✖ Statement expected - start: 38, end: 39

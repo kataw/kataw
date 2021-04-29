@@ -191,6 +191,7 @@ try [catch] function while
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 5, end: 10
 ✖ Binding identifier expected - start: 20, end: 26
 ✖ Unexpected token. - start: 20, end: 26
 ✖ Expression expected - start: 26, end: 26

@@ -185,6 +185,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Binding identifier expected - start: 18, end: 24
 ✖ Unexpected token. - start: 18, end: 24
 ✖ Expression expected - start: 24, end: 24

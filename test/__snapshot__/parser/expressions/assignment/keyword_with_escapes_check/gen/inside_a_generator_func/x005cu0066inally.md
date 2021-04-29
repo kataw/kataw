@@ -142,6 +142,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 14, end: 29
+
 ```
 

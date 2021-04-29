@@ -225,6 +225,7 @@ do do do catch { try while while while
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 8, end: 14
 ✖ Expression expected - start: 32, end: 38
 ✖ Expression expected - start: 38, end: 38
 ✖ Expression expected - start: 38, end: 38

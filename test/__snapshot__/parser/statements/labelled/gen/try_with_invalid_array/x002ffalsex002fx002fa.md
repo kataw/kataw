@@ -146,6 +146,7 @@ try [catch] /false//a
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 5, end: 10
+
 ```
 

@@ -141,6 +141,7 @@ switch( async try while { catch } case
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 25, end: 31
 ✖ Statement expected - start: 33, end: 38
 
 ```

@@ -144,6 +144,7 @@ try [catch] class x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 5, end: 10
+
 ```
 

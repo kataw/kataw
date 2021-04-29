@@ -181,6 +181,7 @@ try catch async try while { catch }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 27, end: 33
+
 ```
 

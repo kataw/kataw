@@ -138,6 +138,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ 'super' must be followed by an argument list or member access. - start: 15, end: 15
 ✖ Dot property must be an identifier - start: 15, end: 15
 

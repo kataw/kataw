@@ -189,6 +189,7 @@ if [else] async try while { catch }
 ✖ Expression expected - start: 4, end: 8
 ✖ Expression expected - start: 8, end: 9
 ✖ Statement expected - start: 8, end: 9
+✖ 'try' expected - start: 27, end: 33
 
 ```
 

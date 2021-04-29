@@ -178,6 +178,7 @@ else {} if(x) { async try while { catch }
 
 ```javascript
 ✖ Statement expected - start: 0, end: 4
+✖ 'try' expected - start: 33, end: 39
 
 ```
 

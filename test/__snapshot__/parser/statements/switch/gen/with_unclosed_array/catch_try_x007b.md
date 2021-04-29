@@ -106,6 +106,7 @@ switch[ catch try {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 7, end: 13
+
 ```
 

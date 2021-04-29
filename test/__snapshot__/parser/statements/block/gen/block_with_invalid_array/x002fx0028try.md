@@ -120,6 +120,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Unterminated regular expression - start: 9, end: 11
 
 ```

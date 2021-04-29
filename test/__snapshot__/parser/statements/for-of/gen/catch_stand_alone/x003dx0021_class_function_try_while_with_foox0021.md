@@ -245,6 +245,7 @@ catch =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 0, end: 5
 ✖ Binding identifier expected - start: 23, end: 27
 ✖ Unexpected token. - start: 23, end: 27
 ✖ Expression expected - start: 43, end: 43

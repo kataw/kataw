@@ -181,6 +181,7 @@ do {} while (x) { async try while { catch }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 35, end: 41
+
 ```
 

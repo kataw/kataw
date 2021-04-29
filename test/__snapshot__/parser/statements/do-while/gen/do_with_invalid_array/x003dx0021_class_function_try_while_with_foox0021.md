@@ -278,6 +278,7 @@ do while [catch] =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 10, end: 15
 ✖ Binding identifier expected - start: 34, end: 38
 ✖ Unexpected token. - start: 34, end: 38
 ✖ Expression expected - start: 54, end: 54

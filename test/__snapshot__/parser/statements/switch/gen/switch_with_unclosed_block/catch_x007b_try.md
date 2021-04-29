@@ -196,6 +196,7 @@ switch {} default(x) { catch { try
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 22, end: 28
+
 ```
 

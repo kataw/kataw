@@ -113,6 +113,7 @@
 
 ```javascript
 ✖ Expression expected - start: 1, end: 13
+✖ 'try' expected - start: 1, end: 13
 ✖ Statement expected - start: 17, end: 18
 
 ```

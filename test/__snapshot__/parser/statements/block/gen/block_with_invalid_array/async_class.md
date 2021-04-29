@@ -151,6 +151,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Binding identifier expected - start: 21, end: 21
 
 ```

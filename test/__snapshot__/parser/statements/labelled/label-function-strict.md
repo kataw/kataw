@@ -110,7 +110,7 @@ foo: function() {}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 18, end: 27
+✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 18, end: 27
 ✖ Binding identifier expected - start: 27, end: 28
 
 ```

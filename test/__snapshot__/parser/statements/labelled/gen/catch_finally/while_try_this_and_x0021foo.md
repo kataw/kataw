@@ -188,6 +188,8 @@ catch while try this and !foo finally
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 0, end: 5
+✖ 'try' expected - start: 29, end: 37
+
 ```
 

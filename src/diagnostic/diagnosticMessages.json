@@ -136,5 +136,10 @@
   "Numeric separator can not be used after leading_0": 137,
   "Invalid BigInt syntax": 138,
   "Non number after exponent indicator": 139,
-  "Numeric separators not allowed here": 140
+  "Numeric separators not allowed here": 140,
+  "In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block": 141,
+  "Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement": 142,
+  "'try' expected": 143
 }
+
+

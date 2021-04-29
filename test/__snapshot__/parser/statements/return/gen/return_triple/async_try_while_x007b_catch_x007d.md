@@ -177,6 +177,7 @@ return return return async try while { catch }
 ✖ A return statement can only be used within a function_body - start: 6, end: 13
 ✖ Expression expected - start: 13, end: 20
 ✖ A return statement can only be used within a function_body - start: 13, end: 20
+✖ 'try' expected - start: 38, end: 44
 
 ```
 

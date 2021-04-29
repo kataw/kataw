@@ -180,6 +180,7 @@ if if if catch { try
 ✖ Expression expected - start: 2, end: 5
 ✖ Expression expected - start: 5, end: 8
 ✖ Expression expected - start: 8, end: 14
+✖ 'try' expected - start: 8, end: 14
 
 ```
 

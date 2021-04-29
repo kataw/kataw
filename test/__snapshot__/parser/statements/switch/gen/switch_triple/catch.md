@@ -154,6 +154,7 @@ switch switch switch catch
 ✖ Expression expected - start: 6, end: 13
 ✖ Expression expected - start: 13, end: 20
 ✖ Expression expected - start: 20, end: 26
+✖ 'try' expected - start: 20, end: 26
 
 ```
 

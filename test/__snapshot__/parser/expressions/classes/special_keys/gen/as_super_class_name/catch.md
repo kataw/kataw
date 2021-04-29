@@ -124,6 +124,7 @@ class x extends catch {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
+✖ 'try' expected - start: 15, end: 21
 
 ```
 

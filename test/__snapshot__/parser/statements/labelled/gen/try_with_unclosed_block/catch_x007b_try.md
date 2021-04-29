@@ -193,6 +193,7 @@ try {} finally(x) { catch { try
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 19, end: 25
+
 ```
 

@@ -152,6 +152,7 @@ do while [catch] try { !xxx
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 10, end: 15
+
 ```
 

@@ -227,6 +227,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ ',' expected - start: 26, end: 28
 ✖ ',' expected - start: 35, end: 37
 

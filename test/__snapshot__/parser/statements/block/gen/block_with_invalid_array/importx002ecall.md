@@ -125,6 +125,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Cannot use 'import.meta' outside a module - start: 21, end: 21
 
 ```

@@ -153,6 +153,7 @@ if async try while { catch } else
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 20, end: 26
 ✖ Expression expected - start: 33, end: 33
 
 ```

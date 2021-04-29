@@ -193,6 +193,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 4, end: 12
 ✖ Statement expected - start: 14, end: 15
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 23, end: 24
 

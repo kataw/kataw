@@ -118,7 +118,7 @@ do function *f(){} while (x);
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 11
+✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 2, end: 11
 
 ```
 

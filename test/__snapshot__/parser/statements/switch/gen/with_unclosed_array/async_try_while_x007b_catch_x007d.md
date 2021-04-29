@@ -157,6 +157,7 @@ switch[ async try while { catch }
 
 ```javascript
 ✖ ',' expected - start: 13, end: 17
+✖ 'try' expected - start: 25, end: 31
 
 ```
 

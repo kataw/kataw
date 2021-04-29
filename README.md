@@ -11,9 +11,12 @@
 
 Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
 
-A demo of a JS printer (*WIP*) can be [tested here](https://kataw.github.io/kataw/kataw_print/)
+It's core is an CST parser that emits an ECMAScript friendly CST and allows you to
+parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
-This is what Kataw can do:
+Various public API methods exist to extract info from the CST nodes.
+
+*This is what Kataw can do*:
 
 - parse Javascript
 
@@ -31,17 +34,9 @@ This is what Kataw can do:
 
 - Minify (_Like Terser_)
 
-## Transformers
-
-Transformers is WIP, but transformers for ES2020, ES2019 and 2016 exist and allow you to transpile current Javascript code to an earlier versions in the same way as Babel does it.
-
-The main difference from Babel is that the transformer API is a public API, and allow you to develop your own transformers.
-
-**This is still WIP, and we would preciate it if someone would help us writing transformers.**
-
 ## Current state
 
-Only the Kataw parser, transformers, walkers, AST manipulation through global API is available as of now.
+Only the Kataw CST parser, walker, AST manipulation through global API is available as of now.
 
 Soon as this code is in a "stable state" I will add the rest of the tools
 

@@ -134,6 +134,7 @@ if [else] catch
 ✖ Expression expected - start: 4, end: 8
 ✖ Expression expected - start: 8, end: 9
 ✖ Statement expected - start: 8, end: 9
+✖ 'try' expected - start: 9, end: 15
 
 ```
 

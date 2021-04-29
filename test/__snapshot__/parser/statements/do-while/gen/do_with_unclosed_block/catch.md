@@ -126,6 +126,7 @@ do {} while (x) { catch
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 17, end: 23
+
 ```
 

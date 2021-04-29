@@ -170,6 +170,7 @@ do while [catch] async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 10, end: 15
 ✖ Expression expected - start: 39, end: 39
 
 ```

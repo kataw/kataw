@@ -195,7 +195,9 @@ do while [catch] async try while { catch }
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 10, end: 15
 ✖ Expression expected - start: 22, end: 26
+✖ 'try' expected - start: 34, end: 40
 
 ```
 

@@ -255,6 +255,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 4, end: 12
 ✖ Statement expected - start: 14, end: 15
 ✖ Binding identifier expected - start: 32, end: 41
 ✖ Binding identifier expected - start: 41, end: 43

@@ -340,10 +340,11 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
       return parseReturnStatement(parser, context);
     case SyntaxKind.ThrowKeyword:
       return parseThrowStatement(parser, context);
-    case SyntaxKind.TryKeyword:
-    // Miscellaneous error cases arguably better caught here than elsewhere.
-    case SyntaxKind.CatchKeyword:
     case SyntaxKind.FinallyKeyword:
+    case SyntaxKind.CatchKeyword:
+      // Miscellaneous error cases arguably better caught here than elsewhere.
+      parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._try_expected], parser.curPos, parser.pos);
+    case SyntaxKind.TryKeyword:
       return parseTryStatement(parser, context);
     case SyntaxKind.DebuggerKeyword:
       return parseDebuggerStatement(parser, context);
@@ -357,7 +358,13 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
 
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Function_declarations_are_not_allowed_in_an_arbitrary_statement_position],
+        diagnosticMap[
+          context & Context.Strict
+            ? DiagnosticCode.In_strict_mode_code_or_without_web_compability_enabled_functions_can_only_be_declared_at_top_level_or_inside_a_block
+            : context & Context.OptionsDisableWebCompat /* AnnexB */
+            ? DiagnosticCode.Without_web_compability_enabled_functions_can_not_be_declared_at_top_level_inside_a_block_or_as_the_body_of_an_if_statement
+            : DiagnosticCode.Function_declarations_are_not_allowed_in_an_arbitrary_statement_position
+        ],
         parser.curPos,
         parser.pos
       );
@@ -1412,7 +1419,7 @@ function parseArrowFunction(
       parser,
       ((context | 0b00000001100000000001111010000000) ^ 0b00000001100000000001111010000000) |
         (asyncToken ? Context.InAwaitContext : Context.None),
-        (flags & NodeFlags.NoneSimpleParamList) === 0,
+      (flags & NodeFlags.NoneSimpleParamList) === 0
     ),
     flags | NodeFlags.ExpressionNode,
     pos,
@@ -1420,7 +1427,11 @@ function parseArrowFunction(
   );
 }
 
-function parseConciseOrFunctionBody(parser: ParserState, context: Context, isSimpleParameterList: boolean): FunctionBody | ExpressionNode {
+function parseConciseOrFunctionBody(
+  parser: ParserState,
+  context: Context,
+  isSimpleParameterList: boolean
+): FunctionBody | ExpressionNode {
   if (parser.token === SyntaxKind.LeftBrace) {
     const body = parseFunctionBody(
       parser,
@@ -6154,9 +6165,9 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
           : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
 
-          flags |= NodeFlags.NoneSimpleParamList;
+      flags |= NodeFlags.NoneSimpleParamList;
 
-          if (parser.token === SyntaxKind.Colon) {
+      if (parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
         expression = createFormalParameter(
           /* ellipsisToken */ null,

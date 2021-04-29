@@ -137,6 +137,7 @@ switch [catch] class x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 8, end: 13
+
 ```
 

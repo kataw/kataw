@@ -86,6 +86,7 @@ catch /false//a
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 0, end: 5
 ✖ Unterminated regular expression - start: 13, end: 14
 
 ```

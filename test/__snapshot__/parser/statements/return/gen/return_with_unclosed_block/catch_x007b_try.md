@@ -182,6 +182,7 @@ return {} return(x) { catch { try
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
 ✖ A return statement can only be used within a function_body - start: 9, end: 16
+✖ 'try' expected - start: 21, end: 27
 
 ```
 

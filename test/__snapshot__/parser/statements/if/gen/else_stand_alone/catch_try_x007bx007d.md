@@ -74,6 +74,7 @@ else catch try {}
 
 ```javascript
 ✖ Statement expected - start: 0, end: 4
+✖ 'try' expected - start: 4, end: 10
 
 ```
 

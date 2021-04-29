@@ -163,7 +163,9 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 4, end: 12
 ✖ Statement expected - start: 14, end: 15
+✖ 'try' expected - start: 17, end: 23
 
 ```
 

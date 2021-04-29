@@ -164,6 +164,7 @@ switch case async try while { catch }
 
 ```javascript
 ✖ Expression expected - start: 6, end: 11
+✖ 'try' expected - start: 29, end: 35
 
 ```
 

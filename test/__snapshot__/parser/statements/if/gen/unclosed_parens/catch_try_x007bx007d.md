@@ -95,6 +95,7 @@ if( catch try {}
 
 ```javascript
 ✖ Expression expected - start: 3, end: 9
+✖ 'try' expected - start: 3, end: 9
 
 ```
 

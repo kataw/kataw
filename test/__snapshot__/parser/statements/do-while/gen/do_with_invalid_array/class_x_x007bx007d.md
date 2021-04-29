@@ -133,6 +133,7 @@ do while [catch] class x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 10, end: 15
+
 ```
 

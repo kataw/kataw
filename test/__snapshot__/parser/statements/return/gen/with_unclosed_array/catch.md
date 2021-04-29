@@ -100,6 +100,7 @@ return[ catch
 
 ```javascript
 ✖ A return statement can only be used within a function_body - start: 0, end: 6
+✖ 'try' expected - start: 7, end: 13
 
 ```
 

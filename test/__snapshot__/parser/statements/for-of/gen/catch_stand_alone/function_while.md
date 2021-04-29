@@ -105,6 +105,7 @@ catch function while
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 0, end: 5
 ✖ Expression expected - start: 20, end: 20
 ✖ Expression expected - start: 20, end: 20
 

@@ -140,6 +140,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Expression expected - start: 16, end: 16
 
 ```

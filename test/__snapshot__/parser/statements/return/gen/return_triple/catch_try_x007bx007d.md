@@ -136,6 +136,7 @@ return return return catch try {}
 ✖ Expression expected - start: 13, end: 20
 ✖ A return statement can only be used within a function_body - start: 13, end: 20
 ✖ Expression expected - start: 20, end: 26
+✖ 'try' expected - start: 20, end: 26
 
 ```
 

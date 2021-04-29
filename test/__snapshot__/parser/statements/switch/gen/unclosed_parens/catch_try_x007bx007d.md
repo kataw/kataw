@@ -100,6 +100,7 @@ switch( catch try {} case
 
 ```javascript
 ✖ Expression expected - start: 7, end: 13
+✖ 'try' expected - start: 7, end: 13
 ✖ Statement expected - start: 20, end: 25
 
 ```

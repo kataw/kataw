@@ -119,6 +119,7 @@ do while [catch] /false//a
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 10, end: 15
 ✖ Unterminated regular expression - start: 24, end: 25
 
 ```

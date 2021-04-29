@@ -210,6 +210,7 @@ switch {} default(x) { async try while { catch }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 40, end: 46
+
 ```
 

@@ -112,6 +112,7 @@ if catch try { else
 
 ```javascript
 ✖ Expression expected - start: 2, end: 8
+✖ 'try' expected - start: 2, end: 8
 ✖ Expression expected - start: 19, end: 19
 
 ```

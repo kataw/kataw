@@ -162,6 +162,8 @@ catch catch try { finally
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 0, end: 5
+✖ 'try' expected - start: 17, end: 25
+
 ```
 

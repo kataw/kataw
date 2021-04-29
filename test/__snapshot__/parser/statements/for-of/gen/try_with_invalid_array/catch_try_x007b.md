@@ -148,6 +148,8 @@ try [catch] catch try {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'try' expected - start: 5, end: 10
+✖ 'try' expected - start: 11, end: 17
+
 ```
 

@@ -234,6 +234,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'try' expected - start: 3, end: 8
 ✖ Binding identifier expected - start: 24, end: 33
 ✖ Binding identifier expected - start: 33, end: 35
 ✖ Unexpected token. - start: 33, end: 35
