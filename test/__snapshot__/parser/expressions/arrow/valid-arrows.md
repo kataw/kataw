@@ -366,7 +366,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "start": 226,
                         "end": 228
                     },
-                    "flags": 32,
+                    "flags": 34,
                     "start": 204,
                     "end": 228
                 },

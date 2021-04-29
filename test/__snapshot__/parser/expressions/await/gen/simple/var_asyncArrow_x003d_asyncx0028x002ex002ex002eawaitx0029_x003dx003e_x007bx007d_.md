@@ -87,7 +87,7 @@ var asyncArrow = async(...await) => {};
                                 "start": 35,
                                 "end": 38
                             },
-                            "flags": 288,
+                            "flags": 290,
                             "start": 16,
                             "end": 38
                         },

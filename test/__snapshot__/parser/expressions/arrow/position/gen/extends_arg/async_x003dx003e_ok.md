@@ -90,7 +90,7 @@ class A extends async => ok {}
                         "start": 24,
                         "end": 27
                     },
-                    "flags": 288,
+                    "flags": 32,
                     "start": 15,
                     "end": 27
                 },

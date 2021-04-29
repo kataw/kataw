@@ -120,7 +120,7 @@ function *f(){ async (x = yield) => {} }
                                 "start": 35,
                                 "end": 38
                             },
-                            "flags": 288,
+                            "flags": 290,
                             "start": 14,
                             "end": 38
                         }

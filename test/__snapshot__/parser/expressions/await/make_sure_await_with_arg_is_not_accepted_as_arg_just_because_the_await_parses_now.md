@@ -96,7 +96,7 @@ async function f(){  (await fail) => x  }
                                     "start": 36,
                                     "end": 38
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 19,
                                 "end": 38
                             },

@@ -75,7 +75,7 @@ delete (async => ok)
                             "start": 16,
                             "end": 19
                         },
-                        "flags": 288,
+                        "flags": 32,
                         "start": 8,
                         "end": 19
                     },

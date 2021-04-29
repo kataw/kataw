@@ -169,7 +169,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                     "start": 44,
                                     "end": 46
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 15,
                                 "end": 46
                             },

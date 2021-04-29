@@ -163,7 +163,7 @@ foo((x, y) => {});
                     "start": 17,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 19
             },
@@ -1483,7 +1483,7 @@ foo((x, y) => {});
                     "start": 347,
                     "end": 349
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 328,
                 "end": 349
             },
@@ -1583,7 +1583,7 @@ foo((x, y) => {});
                                 "start": 370,
                                 "end": 372
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 354,
                             "end": 372
                         }
@@ -1707,7 +1707,7 @@ foo((x, y) => {});
                                 "start": 398,
                                 "end": 400
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 377,
                             "end": 400
                         }
@@ -2051,7 +2051,7 @@ foo((x, y) => {});
                     "start": 483,
                     "end": 486
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 463,
                 "end": 486
             },

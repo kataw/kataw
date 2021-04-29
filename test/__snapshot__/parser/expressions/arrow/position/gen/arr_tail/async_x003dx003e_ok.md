@@ -72,7 +72,7 @@
                                     "start": 9,
                                     "end": 12
                                 },
-                                "flags": 288,
+                                "flags": 32,
                                 "start": 1,
                                 "end": 12
                             }

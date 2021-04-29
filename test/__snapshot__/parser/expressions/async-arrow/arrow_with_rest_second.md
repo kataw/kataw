@@ -61,7 +61,7 @@ async (a, ...b) => a;
                 "start": 18,
                 "end": 20
             },
-            "flags": 288,
+            "flags": 290,
             "start": 0,
             "end": 20
         },

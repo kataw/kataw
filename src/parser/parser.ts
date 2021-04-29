@@ -1387,6 +1387,7 @@ function parseArrowFunction(
   returnType: TypeNode | null,
   params: any,
   asyncToken: SyntaxToken<TokenSyntaxKind> | null,
+  flags: NodeFlags,
   pos: number
 ): any {
   if (parser.nodeFlags & NodeFlags.NewLine) {
@@ -1412,6 +1413,7 @@ function parseArrowFunction(
       ((context | 0b00000001100000000001111010000000) ^ 0b00000001100000000001111010000000) |
         (asyncToken ? Context.InAwaitContext : Context.None)
     ),
+    flags | NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );
@@ -1634,7 +1636,10 @@ function parsePrimaryExpression(parser: ParserState, context: Context, inNewExpr
       return parseAwaitExpression(parser, context, inNewExpression);
     }
     const pos = parser.curPos;
+    const token = parser.token;
+
     const expression = parseIdentifierReference(parser, context);
+
     if (parser.token === SyntaxKind.Arrow) {
       return parseArrowFunction(
         parser,
@@ -1643,10 +1648,16 @@ function parsePrimaryExpression(parser: ParserState, context: Context, inNewExpr
         /* returnType */ null,
         /* params */ expression,
         /* asyncToken */ null,
+        /* nodeFlags */ NodeFlags.None,
         pos
       );
     }
-    parser.assignable = true;
+
+    parser.assignable =
+      context & Context.Strict && (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier)
+        ? false
+        : true;
+
     return expression;
   }
   switch (parser.token) {
@@ -2812,6 +2823,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
   const curPos = parser.curPos;
   let typeParameters = null;
   let state = Tristate.False;
+  let flags = NodeFlags.None;
 
   if (parser.token === SyntaxKind.LessThan) {
     state = Tristate.True;
@@ -2851,6 +2863,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           /* returnType */ isType ? parseTypeAnnotation(parser, context) : null,
           /* params */ [],
           /* asyncToken */ null,
+          /* nodeFlags */ NodeFlags.None,
           curPos
         );
       default:
@@ -2890,9 +2903,12 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
         if (!parser.assignable) {
           destructible |= DestructibleKind.NotDestructible;
+          flags |= NodeFlags.NoneSimpleParamList;
         }
       } else {
-        if (parser.token !== SyntaxKind.Assign) {
+        if (parser.token === SyntaxKind.Assign) {
+          flags |= NodeFlags.NoneSimpleParamList;
+        } else {
           state = Tristate.False;
           destructible |= DestructibleKind.NotDestructible;
         }
@@ -2918,6 +2934,8 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
 
     if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
+
+      flags |= NodeFlags.NoneSimpleParamList;
 
       expression = createFormalParameter(
         /* ellipsisToken */ null,
@@ -3009,6 +3027,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           parseTypeAnnotation(parser, context),
           [expression],
           null,
+          /* nodeFlags */ flags,
           curPos
         );
       }
@@ -3056,9 +3075,12 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
             if (!parser.assignable) {
               destructible |= DestructibleKind.NotDestructible;
+              flags |= NodeFlags.NoneSimpleParamList;
             }
           } else {
-            if (parser.token !== SyntaxKind.Assign) {
+            if (parser.token === SyntaxKind.Assign) {
+              flags |= NodeFlags.NoneSimpleParamList;
+            } else {
               state = Tristate.False;
               destructible |= DestructibleKind.NotDestructible;
             }
@@ -3081,7 +3103,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
           parser.token === SyntaxKind.LeftBracket
             ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
             : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
-
+        flags |= NodeFlags.NoneSimpleParamList;
         if (parser.token === SyntaxKind.Colon) {
           state = Tristate.True;
 
@@ -3162,8 +3184,6 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
   consume(parser, context, SyntaxKind.RightParen);
 
   if (destructible & DestructibleKind.NotDestructible && destructible & DestructibleKind.MustDestruct) {
-    //if (destructible & DestructibleKind.DisallowTrailing) {
-
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[
@@ -3196,6 +3216,7 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
         parseTypeAnnotation(parser, context),
         [expressions],
         null,
+        flags,
         curPos
       );
     }
@@ -3478,6 +3499,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
             /* returnType */ null,
             /* params */ [expression],
             /* asyncToken */ asyncToken,
+            /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
           );
         }
@@ -3507,6 +3529,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
           /* returnType */ null,
           /* params */ [expression],
           /* asyncToken */ asyncToken,
+          /* nodeFlags */ NodeFlags.None,
           /* pos */ pos
         );
       }
@@ -3604,6 +3627,7 @@ function parseFunctionDeclaration(
             /* returnType */ null,
             /* params */ [expression],
             /* asyncToken */ asyncToken,
+            /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
           );
           expression = parseCommaOperator(parser, context, expression, pos);
@@ -3639,6 +3663,7 @@ function parseFunctionDeclaration(
           /* returnType */ null,
           /* params */ [expression],
           /* asyncToken */ asyncToken,
+          /* nodeFlags */ NodeFlags.Async,
           /* pos */ pos
         );
       } else if (parser.token === SyntaxKind.LeftParen) {
@@ -4746,6 +4771,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       /* returnType */ null,
       /* params */ createIdentifier('declare', 'declare', pos, parser.curPos),
       /* asyncToken */ null,
+      /* nodeFlags */ NodeFlags.None,
       pos
     );
   }
@@ -4812,6 +4838,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       /* returnType */ null,
       /* params */ createIdentifier('type', 'type', pos, parser.curPos),
       /* asyncToken */ null,
+      /* nodeFlags */ NodeFlags.None,
       pos
     );
   }
@@ -4875,6 +4902,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       /* returnType */ null,
       /* params */ createIdentifier('let', 'let', pos, parser.curPos),
       /* asyncToken */ null,
+      /* nodeFlags */ NodeFlags.None,
       pos
     );
   }
@@ -5277,6 +5305,7 @@ function parseYieldIdentifierOrExpression(parser: ParserState, context: Context)
         /* returnType */ null,
         /* params */ expression,
         /* asyncToken */ null,
+        /* nodeFlags */ NodeFlags.None,
         pos
       )
     : expression;
@@ -5999,6 +6028,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   let typeParameters = null;
 
   let state = Tristate.False;
+  let flags = NodeFlags.None;
 
   const asyncToken = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, parser.curPos);
 
@@ -6045,6 +6075,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         parseTypeAnnotation(parser, context),
         [],
         asyncToken,
+        /* nodeFlags */ NodeFlags.Async,
         start
       );
     }
@@ -6096,7 +6127,9 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             destructible |= DestructibleKind.NotDestructible;
           }
         } else {
-          if (parser.token !== SyntaxKind.Assign) {
+          if (parser.token === SyntaxKind.Assign) {
+            flags |= NodeFlags.NoneSimpleParamList;
+          } else {
             state = Tristate.False;
             destructible |= DestructibleKind.NotDestructible;
           }
@@ -6121,7 +6154,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
       if (parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
-
+        flags |= NodeFlags.NoneSimpleParamList;
         expression = createFormalParameter(
           /* ellipsisToken */ null,
           /* binding */ expression as any,
@@ -6195,7 +6228,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     } else if (parser.token === SyntaxKind.Ellipsis) {
       state = Tristate.Unknown;
       const ellipsisToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-
+      flags |= NodeFlags.NoneSimpleParamList;
       let argument: any;
 
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -6233,7 +6266,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           (parser.token as SyntaxKind) === SyntaxKind.LeftBracket
             ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
             : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
-
+        flags |= NodeFlags.NoneSimpleParamList;
         // '...[ ] )' , '... { } ]' etc.
         if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
           destructible |= DestructibleKind.NotDestructible;
@@ -6349,6 +6382,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         parseTypeAnnotation(parser, context),
         params,
         asyncToken,
+        /* nodeFlags */ flags | NodeFlags.Async,
         start
       );
     }
@@ -6404,6 +6438,7 @@ function parseOpaqueType(parser: ParserState, context: Context, declareKeyword: 
       /* returnType */ null,
       /* params */ expr,
       /* asyncToken */ null,
+      /* nodeFlags */ NodeFlags.None,
       pos
     );
   }

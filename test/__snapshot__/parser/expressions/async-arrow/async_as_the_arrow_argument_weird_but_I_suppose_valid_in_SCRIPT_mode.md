@@ -74,7 +74,7 @@ f(async => x)
                                 "start": 10,
                                 "end": 12
                             },
-                            "flags": 288,
+                            "flags": 32,
                             "start": 2,
                             "end": 12
                         }

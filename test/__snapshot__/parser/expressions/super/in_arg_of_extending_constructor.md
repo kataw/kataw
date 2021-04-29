@@ -168,7 +168,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                     "start": 58,
                                                     "end": 60
                                                 },
-                                                "flags": 32,
+                                                "flags": 34,
                                                 "start": 41,
                                                 "end": 60
                                             },

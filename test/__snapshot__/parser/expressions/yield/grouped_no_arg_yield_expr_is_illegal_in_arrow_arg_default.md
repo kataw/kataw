@@ -126,7 +126,7 @@ function *f(){ async (x = (yield)) => {} }
                                 "start": 37,
                                 "end": 40
                             },
-                            "flags": 288,
+                            "flags": 290,
                             "start": 14,
                             "end": 40
                         }

@@ -83,7 +83,7 @@ async (x = yield y) => {}
                 "start": 22,
                 "end": 25
             },
-            "flags": 288,
+            "flags": 290,
             "start": 0,
             "end": 25
         }

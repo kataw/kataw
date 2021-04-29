@@ -106,7 +106,7 @@ async(a = (await) => {}) => {};
                 "start": 27,
                 "end": 30
             },
-            "flags": 288,
+            "flags": 290,
             "start": 0,
             "end": 30
         },

@@ -140,7 +140,7 @@ function *f(){ async (x = z = yield) => {} }
                                 "start": 39,
                                 "end": 42
                             },
-                            "flags": 288,
+                            "flags": 290,
                             "start": 14,
                             "end": 42
                         }

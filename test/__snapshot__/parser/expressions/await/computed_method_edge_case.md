@@ -243,7 +243,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                     "start": 80,
                                                     "end": 82
                                                 },
-                                                "flags": 32,
+                                                "flags": 34,
                                                 "start": 42,
                                                 "end": 82
                                             },

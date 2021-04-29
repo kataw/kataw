@@ -80,7 +80,7 @@ foo(async => ok).bar
                                     "start": 12,
                                     "end": 15
                                 },
-                                "flags": 288,
+                                "flags": 32,
                                 "start": 4,
                                 "end": 15
                             }

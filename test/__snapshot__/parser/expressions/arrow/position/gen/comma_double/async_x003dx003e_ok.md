@@ -116,7 +116,7 @@ async => ok, async => ok
                             "start": 21,
                             "end": 24
                         },
-                        "flags": 288,
+                        "flags": 32,
                         "start": 12,
                         "end": 24
                     }

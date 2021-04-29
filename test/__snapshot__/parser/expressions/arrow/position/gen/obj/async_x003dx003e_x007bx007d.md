@@ -98,7 +98,7 @@ x = {arrow: async => {}}
                                         "start": 20,
                                         "end": 23
                                     },
-                                    "flags": 288,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 23
                                 },

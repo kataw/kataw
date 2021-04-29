@@ -126,7 +126,7 @@ var x = ({ a } : any = 'foo') => {}
                                 "start": 32,
                                 "end": 35
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 7,
                             "end": 35
                         },

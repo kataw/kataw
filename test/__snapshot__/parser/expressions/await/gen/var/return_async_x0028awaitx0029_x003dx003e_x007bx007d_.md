@@ -205,7 +205,7 @@ var await; var f = (async function() { return async (await) => {}; });
                                                         "start": 62,
                                                         "end": 65
                                                     },
-                                                    "flags": 288,
+                                                    "flags": 32,
                                                     "start": 45,
                                                     "end": 65
                                                 },

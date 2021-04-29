@@ -23,6 +23,7 @@ export function createArrowFunction(
   asyncToken: SyntaxToken<TokenSyntaxKind> | null,
   returnType: TypeNode | null,
   contents: ExpressionNode | FunctionBody,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ArrowFunction {
@@ -34,7 +35,7 @@ export function createArrowFunction(
     asyncToken,
     returnType,
     contents,
-    flags: asyncToken ? NodeFlags.Async | NodeFlags.ExpressionNode : NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

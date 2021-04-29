@@ -966,7 +966,7 @@ var {get} = obj;
                                 "start": 220,
                                 "end": 223
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 188,
                             "end": 223
                         },

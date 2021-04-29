@@ -79,7 +79,7 @@ delete async => {}
                         "start": 15,
                         "end": 18
                     },
-                    "flags": 288,
+                    "flags": 32,
                     "start": 6,
                     "end": 18
                 },

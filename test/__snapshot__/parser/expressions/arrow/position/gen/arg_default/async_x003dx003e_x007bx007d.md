@@ -104,7 +104,7 @@ function f(a = async => {}) {}
                                 "start": 23,
                                 "end": 26
                             },
-                            "flags": 288,
+                            "flags": 32,
                             "start": 14,
                             "end": 26
                         },

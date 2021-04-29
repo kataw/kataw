@@ -150,7 +150,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                     "start": 36,
                                     "end": 38
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 14,
                                 "end": 38
                             },
