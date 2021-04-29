@@ -64,7 +64,7 @@ new oh,no
         }
     ],
     "isModule": false,
-    "text": "new oh,no",
+    "source": "new oh,no",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

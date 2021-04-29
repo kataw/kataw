@@ -77,7 +77,7 @@ foo(a)(b)
         }
     ],
     "isModule": false,
-    "text": "foo(a)(b)",
+    "source": "foo(a)(b)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

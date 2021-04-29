@@ -51,7 +51,7 @@ while (foo) bar;
         }
     ],
     "isModule": false,
-    "text": "while (foo) bar;",
+    "source": "while (foo) bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

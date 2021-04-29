@@ -1141,7 +1141,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a['b'], c) => {};\n\n(c, a['b']) => {};\n\n(...a = b) => b;\n\n(...rest - a) => b;\n\n({x: this})  => {};\n\n({x: y.z} = a) => b;\n\n([x].length) => y;\n\n(z, [x].length) => y;\n\n({}.length) => y;\n\n(z, {}.length) => y;\n\n({x: y}.length) => y;\n\n(z, {x: y}.length) => y;\n\n({get a(){}}) => 0;;\n\n(...[ 5 ]) => {};\n\n({x: const}) => null;",
+    "source": "(a['b'], c) => {};\n\n(c, a['b']) => {};\n\n(...a = b) => b;\n\n(...rest - a) => b;\n\n({x: this})  => {};\n\n({x: y.z} = a) => b;\n\n([x].length) => y;\n\n(z, [x].length) => y;\n\n({}.length) => y;\n\n(z, {}.length) => y;\n\n({x: y}.length) => y;\n\n(z, {x: y}.length) => y;\n\n({get a(){}}) => 0;;\n\n(...[ 5 ]) => {};\n\n({x: const}) => null;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

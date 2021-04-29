@@ -726,7 +726,7 @@ class C { f(){ this.#a } #a; }
         }
     ],
     "isModule": false,
-    "text": "class C { #a; a = this.#a; }\n\nclass C { a = this.#a; #a; }\n\nclass C { #a; [this.#a]; }\n\nclass C { [this.#a]; #a; }\n\nclass C { #a; f(){ this.#a } }\n\nclass C { f(){ this.#a } #a; }",
+    "source": "class C { #a; a = this.#a; }\n\nclass C { a = this.#a; #a; }\n\nclass C { #a; [this.#a]; }\n\nclass C { [this.#a]; #a; }\n\nclass C { #a; f(){ this.#a } }\n\nclass C { f(){ this.#a } #a; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

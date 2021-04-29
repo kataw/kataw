@@ -34,7 +34,7 @@ case /)finally
         }
     ],
     "isModule": false,
-    "text": "case /)finally",
+    "source": "case /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

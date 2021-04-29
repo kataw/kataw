@@ -159,7 +159,7 @@
         }
     ],
     "isModule": false,
-    "text": "[{a=0},{b=0},0] = 0",
+    "source": "[{a=0},{b=0},0] = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

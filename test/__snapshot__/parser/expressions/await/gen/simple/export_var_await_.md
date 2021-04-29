@@ -74,7 +74,7 @@ export var await;
         }
     ],
     "isModule": false,
-    "text": "export var await;",
+    "source": "export var await;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

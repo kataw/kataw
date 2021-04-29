@@ -88,7 +88,7 @@ class x {set: x}
         }
     ],
     "isModule": false,
-    "text": "class x {set: x}",
+    "source": "class x {set: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

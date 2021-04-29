@@ -171,7 +171,7 @@ class x { constructor(){}; "constructor"(){}; }
         }
     ],
     "isModule": false,
-    "text": "class x { constructor(){}; \"constructor\"(){}; }",
+    "source": "class x { constructor(){}; \"constructor\"(){}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

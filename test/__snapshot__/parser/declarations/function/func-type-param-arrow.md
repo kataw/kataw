@@ -490,7 +490,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
         }
     ],
     "isModule": false,
-    "text": "function foo():(_:bool) => number{}\n\nfunction foo(callback: (_1:bool, _2:string) => number){}\n\nfunction foo(callback: (_1:bool, ...foo:Array<number>) => number){}\n",
+    "source": "function foo():(_:bool) => number{}\n\nfunction foo(callback: (_1:bool, _2:string) => number){}\n\nfunction foo(callback: (_1:bool, ...foo:Array<number>) => number){}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

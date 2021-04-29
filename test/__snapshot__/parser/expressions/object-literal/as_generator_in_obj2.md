@@ -284,7 +284,7 @@
         }
     ],
     "isModule": false,
-    "text": "\n({* type(){}});\n\n({* interface(){}});\n\n({* in(){}});\n\n({* of(){}});",
+    "source": "\n({* type(){}});\n\n({* interface(){}});\n\n({* in(){}});\n\n({* of(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

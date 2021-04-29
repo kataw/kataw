@@ -476,7 +476,7 @@ x = # ;
         }
     ],
     "isModule": false,
-    "text": "bar ? (#) : baz;",
+    "source": "bar ? (#) : baz;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -140,7 +140,7 @@ let {a, [x]: y} = a;
         }
     ],
     "isModule": false,
-    "text": "let {a, [x]: y} = a;",
+    "source": "let {a, [x]: y} = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

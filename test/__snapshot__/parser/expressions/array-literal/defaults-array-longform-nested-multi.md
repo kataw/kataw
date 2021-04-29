@@ -226,7 +226,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
         }
     ],
     "isModule": false,
-    "text": "var {x: x, y: y, z: { a: a = 10} } = b;",
+    "source": "var {x: x, y: y, z: { a: a = 10} } = b;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

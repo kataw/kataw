@@ -61,7 +61,7 @@
         }
     ],
     "isModule": false,
-    "text": "(\\u0070rotected = x);",
+    "source": "(\\u0070rotected = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

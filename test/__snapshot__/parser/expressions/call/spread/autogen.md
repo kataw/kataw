@@ -156,7 +156,7 @@ function fn() {} fn( # );
         }
     ],
     "isModule": false,
-    "text": "function fn() { 'use strict';} fn( # );",
+    "source": "function fn() { 'use strict';} fn( # );",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

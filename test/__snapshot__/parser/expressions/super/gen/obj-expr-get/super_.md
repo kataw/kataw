@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ get x() { super; } })",
+    "source": "({ get x() { super; } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\012\"",
+    "source": "\"\\012\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

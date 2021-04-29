@@ -129,7 +129,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = {[yield]: 1}) => z }",
+    "source": "{ (x = {[yield]: 1}) => z }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

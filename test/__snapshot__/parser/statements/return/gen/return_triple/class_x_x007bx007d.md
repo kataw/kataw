@@ -101,7 +101,7 @@ return return return class x {}
         }
     ],
     "isModule": false,
-    "text": "return return return class x {}",
+    "source": "return return return class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

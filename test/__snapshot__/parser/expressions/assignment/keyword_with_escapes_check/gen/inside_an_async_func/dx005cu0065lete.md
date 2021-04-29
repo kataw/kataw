@@ -102,7 +102,7 @@ async () => {  d\u0065lete = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  d\\u0065lete = x  }",
+    "source": "async () => {  d\\u0065lete = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -91,7 +91,7 @@ async () => {  implem\u0065nts = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  implem\\u0065nts = x  }",
+    "source": "async () => {  implem\\u0065nts = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -187,7 +187,7 @@ function *g() { function f(x = x + yield y) {}; }
         }
     ],
     "isModule": false,
-    "text": "function *g() { function f(x = x + yield y) {}; }",
+    "source": "function *g() { function f(x = x + yield y) {}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

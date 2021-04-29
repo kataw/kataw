@@ -152,7 +152,7 @@ do {} while (x) { function while
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { function while",
+    "source": "do {} while (x) { function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

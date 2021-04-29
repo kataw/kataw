@@ -102,7 +102,7 @@ switch [catch] /)finally
         }
     ],
     "isModule": false,
-    "text": "switch [catch] /)finally",
+    "source": "switch [catch] /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -282,7 +282,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { =! class function try while with foo!",
+    "source": "{ {} finally(x) { =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

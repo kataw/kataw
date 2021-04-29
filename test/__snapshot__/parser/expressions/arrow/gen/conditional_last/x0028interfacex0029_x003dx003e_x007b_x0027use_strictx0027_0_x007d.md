@@ -106,7 +106,7 @@ bar, (interface) => { 'use strict'; 0 };
         }
     ],
     "isModule": false,
-    "text": "bar, (interface) => { 'use strict'; 0 };",
+    "source": "bar, (interface) => { 'use strict'; 0 };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

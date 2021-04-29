@@ -91,7 +91,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = x + yield); }",
+    "source": "{ (x = x + yield); }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

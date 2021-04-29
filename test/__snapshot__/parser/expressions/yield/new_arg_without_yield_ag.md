@@ -104,7 +104,7 @@ function *g() { new yield }
         }
     ],
     "isModule": false,
-    "text": "function *g() { new yield }",
+    "source": "function *g() { new yield }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

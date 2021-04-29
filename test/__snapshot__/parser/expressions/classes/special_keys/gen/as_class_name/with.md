@@ -90,7 +90,7 @@ class with {}
         }
     ],
     "isModule": false,
-    "text": "class with {}",
+    "source": "class with {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

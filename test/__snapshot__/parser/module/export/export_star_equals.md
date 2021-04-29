@@ -67,7 +67,7 @@ export *= from 'f';
         }
     ],
     "isModule": true,
-    "text": "export *= from 'f';",
+    "source": "export *= from 'f';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -133,7 +133,7 @@
         }
     ],
     "isModule": false,
-    "text": "[foo = A, bar = B] = arr;",
+    "source": "[foo = A, bar = B] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

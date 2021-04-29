@@ -117,7 +117,7 @@ switch (A) {case B: C; case D: E;}
         }
     ],
     "isModule": false,
-    "text": "switch (A) {case B: C; case D: E;}",
+    "source": "switch (A) {case B: C; case D: E;}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

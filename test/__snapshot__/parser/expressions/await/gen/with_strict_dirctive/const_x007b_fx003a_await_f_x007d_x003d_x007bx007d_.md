@@ -134,7 +134,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; const { f: await f } = {};",
+    "source": "'use strict'; const { f: await f } = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

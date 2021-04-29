@@ -88,7 +88,7 @@ class x {continue: x}
         }
     ],
     "isModule": false,
-    "text": "class x {continue: x}",
+    "source": "class x {continue: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

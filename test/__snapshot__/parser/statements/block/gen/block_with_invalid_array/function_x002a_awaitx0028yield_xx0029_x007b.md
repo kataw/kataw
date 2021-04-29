@@ -198,7 +198,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] function * await(yield x) ; {",
+    "source": "{ [catch] function * await(yield x) ; {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

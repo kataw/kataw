@@ -52,7 +52,7 @@ class protected {}
         }
     ],
     "isModule": false,
-    "text": "class protected {}",
+    "source": "class protected {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

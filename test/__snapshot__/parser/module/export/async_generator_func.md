@@ -111,7 +111,7 @@ export default async function *f(){} foo
         }
     ],
     "isModule": true,
-    "text": "export default async function *f(){} foo",
+    "source": "export default async function *f(){} foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

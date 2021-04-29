@@ -64,7 +64,7 @@ null?.
         }
     ],
     "isModule": false,
-    "text": "null?.\n  `hello`",
+    "source": "null?.\n  `hello`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -108,7 +108,7 @@ async function f(){ await await foo; }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ await await foo; }",
+    "source": "async function f(){ await await foo; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

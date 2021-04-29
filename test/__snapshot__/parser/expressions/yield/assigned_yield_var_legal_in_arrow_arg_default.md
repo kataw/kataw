@@ -101,7 +101,7 @@ async (x = z = yield) => {}
         }
     ],
     "isModule": false,
-    "text": "async (x = z = yield) => {}",
+    "source": "async (x = z = yield) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

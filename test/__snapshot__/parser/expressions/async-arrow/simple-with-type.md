@@ -84,7 +84,7 @@ async (s: any) => x
         }
     ],
     "isModule": false,
-    "text": "async (s: any) => x",
+    "source": "async (s: any) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

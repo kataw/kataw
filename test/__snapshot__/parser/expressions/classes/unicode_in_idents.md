@@ -107,7 +107,7 @@ class x { \u0063onstructor(){} }
         }
     ],
     "isModule": true,
-    "text": "class x { \\u0063onstructor(){} }",
+    "source": "class x { \\u0063onstructor(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

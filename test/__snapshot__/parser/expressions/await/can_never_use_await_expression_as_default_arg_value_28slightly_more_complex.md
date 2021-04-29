@@ -158,7 +158,7 @@ function call(foo= 5 + (await bar())){}
         }
     ],
     "isModule": false,
-    "text": "function call(foo= 5 + (await bar())){}",
+    "source": "function call(foo= 5 + (await bar())){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

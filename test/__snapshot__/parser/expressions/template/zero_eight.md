@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`\\08`",
+    "source": "`\\08`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

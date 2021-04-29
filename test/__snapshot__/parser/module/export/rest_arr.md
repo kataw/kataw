@@ -113,7 +113,7 @@ export let [...x] = y
         }
     ],
     "isModule": true,
-    "text": "export let [...x] = y",
+    "source": "export let [...x] = y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

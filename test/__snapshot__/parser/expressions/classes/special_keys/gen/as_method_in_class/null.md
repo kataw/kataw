@@ -104,7 +104,7 @@ class x {null(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {null(){}}",
+    "source": "class x {null(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

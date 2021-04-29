@@ -87,7 +87,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ a(); bt(); }",
+    "source": "{ a(); bt(); }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

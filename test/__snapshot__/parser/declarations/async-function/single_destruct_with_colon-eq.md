@@ -113,7 +113,7 @@ let {a:=c} = z;
         }
     ],
     "isModule": false,
-    "text": "let {a:=c} = z;",
+    "source": "let {a:=c} = z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -90,7 +90,7 @@ class in {}
         }
     ],
     "isModule": false,
-    "text": "class in {}",
+    "source": "class in {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

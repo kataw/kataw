@@ -146,7 +146,7 @@ class w {  t[x](){}  }
         }
     ],
     "isModule": false,
-    "text": "class w {  t[x](){}  }",
+    "source": "class w {  t[x](){}  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

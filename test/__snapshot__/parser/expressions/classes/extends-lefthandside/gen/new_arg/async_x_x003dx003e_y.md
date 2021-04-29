@@ -87,7 +87,7 @@ x => y
         }
     ],
     "isModule": false,
-    "text": "new async\nx => y",
+    "source": "new async\nx => y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -169,7 +169,7 @@ function *g() { (x = u + yield z) => {}; }
         }
     ],
     "isModule": false,
-    "text": "function *g() { (x = u + yield z) => {}; }",
+    "source": "function *g() { (x = u + yield z) => {}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

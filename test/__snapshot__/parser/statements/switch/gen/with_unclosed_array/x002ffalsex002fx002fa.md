@@ -82,7 +82,7 @@ switch[ /false//a
         }
     ],
     "isModule": false,
-    "text": "switch[ /false//a",
+    "source": "switch[ /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

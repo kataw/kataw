@@ -167,7 +167,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function a(){     async ([v] = await bar);     }",
+    "source": "'use strict'; async function a(){     async ([v] = await bar);     }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

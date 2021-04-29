@@ -177,7 +177,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function* g(){ x ? yield : y } }}",
+    "source": "function not_gen() { function* g(){ x ? yield : y } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

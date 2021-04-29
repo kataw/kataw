@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { set static(v) {} });",
+    "source": "(class { set static(v) {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

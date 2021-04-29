@@ -67,7 +67,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; call(await)",
+    "source": "'use strict'; call(await)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

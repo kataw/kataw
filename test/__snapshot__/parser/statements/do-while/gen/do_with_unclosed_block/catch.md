@@ -109,7 +109,7 @@ do {} while (x) { catch
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { catch",
+    "source": "do {} while (x) { catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

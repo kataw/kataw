@@ -60,7 +60,7 @@ import foo from "foo";
         }
     ],
     "isModule": true,
-    "text": "import foo from \"foo\";",
+    "source": "import foo from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

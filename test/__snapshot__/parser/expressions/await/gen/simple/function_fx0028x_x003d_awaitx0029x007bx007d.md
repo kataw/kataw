@@ -94,7 +94,7 @@ function f(x = await){}
         }
     ],
     "isModule": false,
-    "text": "function f(x = await){}",
+    "source": "function f(x = await){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

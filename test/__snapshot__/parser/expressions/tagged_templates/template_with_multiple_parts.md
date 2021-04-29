@@ -85,7 +85,7 @@ foo`x${a}y${b}z`
         }
     ],
     "isModule": false,
-    "text": "foo`x${a}y${b}z`",
+    "source": "foo`x${a}y${b}z`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

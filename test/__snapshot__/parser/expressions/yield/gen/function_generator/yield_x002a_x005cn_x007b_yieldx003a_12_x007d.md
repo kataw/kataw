@@ -211,7 +211,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { yield * \\n { yield: 12 } }}",
+    "source": "function * gen() { function not_gen() { yield * \\n { yield: 12 } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

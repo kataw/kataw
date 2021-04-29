@@ -155,7 +155,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { async class",
+    "source": "{ {} finally(x) { async class",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

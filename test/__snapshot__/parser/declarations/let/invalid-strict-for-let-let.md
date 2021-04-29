@@ -110,7 +110,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"use strict\"; for (let [x = let];;) {}",
+    "source": "\"use strict\"; for (let [x = let];;) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

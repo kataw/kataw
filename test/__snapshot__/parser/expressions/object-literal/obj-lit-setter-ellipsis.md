@@ -106,7 +106,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(...y){} })",
+    "source": "({ set x(...y){} })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

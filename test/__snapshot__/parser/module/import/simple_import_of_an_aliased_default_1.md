@@ -88,7 +88,7 @@ import * as a from "y"
         }
     ],
     "isModule": true,
-    "text": "import * as a from \"y\"",
+    "source": "import * as a from \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

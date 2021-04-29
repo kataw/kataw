@@ -167,7 +167,7 @@ function* g() {   [...{ x = yield }] = y   }
         }
     ],
     "isModule": false,
-    "text": "function* g() {   [...{ x = yield }] = y   }",
+    "source": "function* g() {   [...{ x = yield }] = y   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -129,7 +129,7 @@ for (true ? a in b : {}; false; ) ;
         }
     ],
     "isModule": false,
-    "text": "for (true ? a in b : {}; false; ) ;",
+    "source": "for (true ? a in b : {}; false; ) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

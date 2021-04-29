@@ -114,7 +114,7 @@ class x {static get continue(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get continue(){}}",
+    "source": "class x {static get continue(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

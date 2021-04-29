@@ -106,7 +106,7 @@ let o = {await(){}}
         }
     ],
     "isModule": false,
-    "text": "let o = {await(){}}",
+    "source": "let o = {await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

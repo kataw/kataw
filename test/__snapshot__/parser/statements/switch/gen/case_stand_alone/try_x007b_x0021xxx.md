@@ -88,7 +88,7 @@ case try { !xxx
         }
     ],
     "isModule": false,
-    "text": "case try { !xxx",
+    "source": "case try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

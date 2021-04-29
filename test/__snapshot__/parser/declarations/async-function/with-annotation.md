@@ -329,7 +329,7 @@ let {x}: string = y;
         }
     ],
     "isModule": false,
-    "text": "let x: string;\n\nlet [x]: string = y;\n\nlet [x:symbol]: string = y;\n\nlet {x}: string = y;\n",
+    "source": "let x: string;\n\nlet [x]: string = y;\n\nlet [x:symbol]: string = y;\n\nlet {x}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

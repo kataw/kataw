@@ -94,7 +94,7 @@
         }
     ],
     "isModule": false,
-    "text": "{\n  async function *f(){}\n}",
+    "source": "{\n  async function *f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

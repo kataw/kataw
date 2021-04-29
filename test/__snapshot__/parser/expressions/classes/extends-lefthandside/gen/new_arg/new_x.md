@@ -61,7 +61,7 @@ new new x
         }
     ],
     "isModule": false,
-    "text": "new new x",
+    "source": "new new x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -56,7 +56,7 @@ else catch
         }
     ],
     "isModule": false,
-    "text": "else catch",
+    "source": "else catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -78,7 +78,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...\"foo\"=x]",
+    "source": "[...\"foo\"=x]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

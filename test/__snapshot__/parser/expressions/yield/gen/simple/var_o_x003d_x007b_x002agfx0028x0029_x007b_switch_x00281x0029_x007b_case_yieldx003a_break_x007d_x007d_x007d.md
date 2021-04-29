@@ -182,7 +182,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
         }
     ],
     "isModule": false,
-    "text": "var o = { *gf() { switch (1) { case yield: break; } } }",
+    "source": "var o = { *gf() { switch (1) { case yield: break; } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

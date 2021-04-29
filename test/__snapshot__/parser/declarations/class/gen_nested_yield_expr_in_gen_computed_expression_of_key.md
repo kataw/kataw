@@ -198,7 +198,7 @@ function *f(){  class x{*[yield](a){}}  }
         }
     ],
     "isModule": false,
-    "text": "function *f(){  class x{*[yield](a){}}  }",
+    "source": "function *f(){  class x{*[yield](a){}}  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

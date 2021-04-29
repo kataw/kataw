@@ -73,7 +73,7 @@ async (a, ...b) => a;
         }
     ],
     "isModule": false,
-    "text": "async (a, ...b) => a;",
+    "source": "async (a, ...b) => a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

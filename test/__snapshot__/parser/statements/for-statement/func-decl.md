@@ -145,7 +145,7 @@ function x(a, [x]) {}
         }
     ],
     "isModule": false,
-    "text": "function x(a, [x]) {}",
+    "source": "function x(a, [x]) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -91,7 +91,7 @@ async async => ok, a
         }
     ],
     "isModule": false,
-    "text": "async async => ok, a",
+    "source": "async async => ok, a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

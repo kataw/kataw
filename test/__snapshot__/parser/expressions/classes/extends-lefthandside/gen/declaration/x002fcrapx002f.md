@@ -71,7 +71,7 @@ class A extends /crap/ {}
         }
     ],
     "isModule": false,
-    "text": "class A extends /crap/ {}",
+    "source": "class A extends /crap/ {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -102,7 +102,7 @@ class C { await\n a }
         }
     ],
     "isModule": false,
-    "text": "class C { await\\n a }",
+    "source": "class C { await\\n a }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

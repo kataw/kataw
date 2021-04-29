@@ -133,7 +133,7 @@ class x {static set throw(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set throw(x){}}",
+    "source": "class x {static set throw(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

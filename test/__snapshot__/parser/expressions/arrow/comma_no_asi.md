@@ -87,7 +87,7 @@ async x=>x, y
         }
     ],
     "isModule": false,
-    "text": "async x=>x, y",
+    "source": "async x=>x, y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

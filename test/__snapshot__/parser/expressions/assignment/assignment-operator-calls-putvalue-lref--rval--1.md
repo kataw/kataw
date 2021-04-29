@@ -573,7 +573,7 @@ Object.defineProperty(this, "x", {
         }
     ],
     "isModule": true,
-    "text": "var count = 0;\nvar global = this;\n\nObject.defineProperty(this, \"x\", {\n  configurable: true,\n  value: 1\n});\n\n(function() {\n  \"use strict\";\n  assert.throws(ReferenceError, () => {\n    count++;\n    x = (delete global.x, 2);\n    count++;\n  });\n  count++;\n})();",
+    "source": "var count = 0;\nvar global = this;\n\nObject.defineProperty(this, \"x\", {\n  configurable: true,\n  value: 1\n});\n\n(function() {\n  \"use strict\";\n  assert.throws(ReferenceError, () => {\n    count++;\n    x = (delete global.x, 2);\n    count++;\n  });\n  count++;\n})();",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

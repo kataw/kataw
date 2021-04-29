@@ -114,7 +114,7 @@ class x {async * import(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * import(){}}",
+    "source": "class x {async * import(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

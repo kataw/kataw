@@ -113,7 +113,7 @@ fuction *f() {  return await yield;  }
         }
     ],
     "isModule": false,
-    "text": "fuction *f() {  return await yield;  }",
+    "source": "fuction *f() {  return await yield;  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

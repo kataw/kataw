@@ -98,7 +98,7 @@ opaque Ident: Type = SuperType;
         }
     ],
     "isModule": false,
-    "text": "opaque Ident: Type = SuperType;",
+    "source": "opaque Ident: Type = SuperType;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

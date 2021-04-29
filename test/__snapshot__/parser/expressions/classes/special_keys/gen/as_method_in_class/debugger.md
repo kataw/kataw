@@ -104,7 +104,7 @@ class x {debugger(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {debugger(){}}",
+    "source": "class x {debugger(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -204,7 +204,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
         }
     ],
     "isModule": false,
-    "text": "class x extends y { constructor(){ return (a=super.foo) => a; }}",
+    "source": "class x extends y { constructor(){ return (a=super.foo) => a; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

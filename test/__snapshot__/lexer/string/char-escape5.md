@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\@{x200}@\"",
+    "source": "\"\\@{x200}@\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

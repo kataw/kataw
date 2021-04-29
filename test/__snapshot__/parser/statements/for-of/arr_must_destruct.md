@@ -130,7 +130,7 @@ for ([{x=y}]=x of x) ;
         }
     ],
     "isModule": false,
-    "text": "for ([{x=y}]=x of x) ;",
+    "source": "for ([{x=y}]=x of x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

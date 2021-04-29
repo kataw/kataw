@@ -65,7 +65,7 @@ for (new.target in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (new.target in x) ;",
+    "source": "for (new.target in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

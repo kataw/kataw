@@ -215,7 +215,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(_) { var f = function { super(); } } })",
+    "source": "({ set x(_) { var f = function { super(); } } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

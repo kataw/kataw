@@ -122,7 +122,7 @@ switch switch switch class x {}
         }
     ],
     "isModule": false,
-    "text": "switch switch switch class x {}",
+    "source": "switch switch switch class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

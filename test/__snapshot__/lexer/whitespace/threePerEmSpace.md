@@ -115,7 +115,7 @@ left@{x2004}@right
         }
     ],
     "isModule": false,
-    "text": "left@{x2004}@right",
+    "source": "left@{x2004}@right",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

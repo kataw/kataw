@@ -119,7 +119,7 @@ class A {static [a](){}}
         }
     ],
     "isModule": false,
-    "text": "class A {static [a](){}}",
+    "source": "class A {static [a](){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

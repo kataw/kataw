@@ -151,7 +151,7 @@ function* g(x) { yield x = yield 3; }
         }
     ],
     "isModule": false,
-    "text": "function* g(x) { yield x = yield 3; }",
+    "source": "function* g(x) { yield x = yield 3; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

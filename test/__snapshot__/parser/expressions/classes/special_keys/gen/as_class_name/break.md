@@ -83,7 +83,7 @@ class break {}
         }
     ],
     "isModule": false,
-    "text": "class break {}",
+    "source": "class break {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

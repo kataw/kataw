@@ -109,7 +109,7 @@ class x {static for(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static for(){}}",
+    "source": "class x {static for(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -120,7 +120,7 @@ var asserted1 = <any>((n) => { return n; });
         }
     ],
     "isModule": false,
-    "text": "var asserted1 = <any>((n) => { return n; });",
+    "source": "var asserted1 = <any>((n) => { return n; });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

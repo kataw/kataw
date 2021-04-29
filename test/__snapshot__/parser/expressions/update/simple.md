@@ -71,7 +71,7 @@ a++;
         }
     ],
     "isModule": false,
-    "text": "++a;\n\na++;",
+    "source": "++a;\n\na++;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

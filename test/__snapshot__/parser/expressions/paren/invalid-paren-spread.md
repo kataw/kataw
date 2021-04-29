@@ -671,7 +671,7 @@
         }
     ],
     "isModule": false,
-    "text": "(...abc,);\n(...a=b=c);\n(...abc,);\n(...abc=,);\n(...abc,=);\n(...abc,,,,,,,=);\n(...abc,,,,,,,=====);\n(...a=b=c);\n(...abc,);\n(...);",
+    "source": "(...abc,);\n(...a=b=c);\n(...abc,);\n(...abc=,);\n(...abc,=);\n(...abc,,,,,,,=);\n(...abc,,,,,,,=====);\n(...a=b=c);\n(...abc,);\n(...);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

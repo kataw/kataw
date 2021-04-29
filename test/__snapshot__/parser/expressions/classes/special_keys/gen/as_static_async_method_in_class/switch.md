@@ -114,7 +114,7 @@ class x {static async switch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async switch(){}}",
+    "source": "class x {static async switch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

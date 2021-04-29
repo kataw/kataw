@@ -257,7 +257,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } } }}",
+    "source": "function * gen() { function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

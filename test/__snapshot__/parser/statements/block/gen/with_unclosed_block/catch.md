@@ -146,7 +146,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { catch",
+    "source": "{ {} finally(x) { catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

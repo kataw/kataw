@@ -101,7 +101,7 @@ x; {}
         }
     ],
     "isModule": false,
-    "text": "class A extends await\nx; {}",
+    "source": "class A extends await\nx; {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

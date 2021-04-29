@@ -77,7 +77,7 @@ yield /* comment */ { yield: 12 }
         }
     ],
     "isModule": false,
-    "text": "yield /* comment */ { yield: 12 }",
+    "source": "yield /* comment */ { yield: 12 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

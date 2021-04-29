@@ -104,7 +104,7 @@ class x extends switch {}
         }
     ],
     "isModule": false,
-    "text": "class x extends switch {}",
+    "source": "class x extends switch {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

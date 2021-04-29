@@ -92,7 +92,7 @@ class x {foo: x}
         }
     ],
     "isModule": false,
-    "text": "class x {foo: x}",
+    "source": "class x {foo: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

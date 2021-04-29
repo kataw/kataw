@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ *g1() {   (yield 1)  }})",
+    "source": "({ *g1() {   (yield 1)  }})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

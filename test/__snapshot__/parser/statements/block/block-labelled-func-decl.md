@@ -106,7 +106,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ foo: bar: function f(){} }",
+    "source": "{ foo: bar: function f(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

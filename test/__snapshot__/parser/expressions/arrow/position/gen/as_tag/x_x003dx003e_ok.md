@@ -72,7 +72,7 @@ x => ok`foo`
         }
     ],
     "isModule": false,
-    "text": "x => ok`foo`",
+    "source": "x => ok`foo`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

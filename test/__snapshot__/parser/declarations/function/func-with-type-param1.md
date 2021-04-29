@@ -109,7 +109,7 @@ function foo<T,S>() {}
         }
     ],
     "isModule": false,
-    "text": "function foo<T,S>() {}",
+    "source": "function foo<T,S>() {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

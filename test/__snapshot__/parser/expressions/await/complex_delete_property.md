@@ -205,7 +205,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
         }
     ],
     "isModule": false,
-    "text": "async function a(){     async ([y] = delete ((foo[await x]))) => {};     }",
+    "source": "async function a(){     async ([y] = delete ((foo[await x]))) => {};     }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

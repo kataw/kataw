@@ -70,7 +70,7 @@
         }
     ],
     "isModule": false,
-    "text": "(localVar |= defaultValue) => {}",
+    "source": "(localVar |= defaultValue) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

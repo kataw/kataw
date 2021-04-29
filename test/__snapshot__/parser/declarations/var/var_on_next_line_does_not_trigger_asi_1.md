@@ -79,7 +79,7 @@ var foo
         }
     ],
     "isModule": false,
-    "text": "export\nvar foo",
+    "source": "export\nvar foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

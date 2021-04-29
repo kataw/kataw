@@ -154,7 +154,7 @@ return return return catch { try
         }
     ],
     "isModule": false,
-    "text": "return return return catch { try",
+    "source": "return return return catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -94,7 +94,7 @@ x = [a, b] = y
         }
     ],
     "isModule": false,
-    "text": "x = [a, b] = y",
+    "source": "x = [a, b] = y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

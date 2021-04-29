@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "([ ... a + b / c ]) => x",
+    "source": "([ ... a + b / c ]) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

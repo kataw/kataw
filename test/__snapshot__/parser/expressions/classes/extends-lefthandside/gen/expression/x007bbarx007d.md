@@ -98,7 +98,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends {bar} {})",
+    "source": "(class B extends {bar} {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -83,7 +83,7 @@ else {} if(x) { /)finally
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { /)finally",
+    "source": "else {} if(x) { /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

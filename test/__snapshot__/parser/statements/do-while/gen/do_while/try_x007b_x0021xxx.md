@@ -140,7 +140,7 @@ do try { !xxx while
         }
     ],
     "isModule": false,
-    "text": "do try { !xxx while",
+    "source": "do try { !xxx while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

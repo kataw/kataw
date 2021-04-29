@@ -150,7 +150,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ *g1() {   return {x: yield 1}  }})",
+    "source": "({ *g1() {   return {x: yield 1}  }})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

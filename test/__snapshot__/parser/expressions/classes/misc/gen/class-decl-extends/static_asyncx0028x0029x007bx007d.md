@@ -129,7 +129,7 @@ class C extends Base { static async(){} }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { static async(){} }",
+    "source": "class C extends Base { static async(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

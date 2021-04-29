@@ -114,7 +114,7 @@ class x {static get else(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get else(){}}",
+    "source": "class x {static get else(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {async switch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async switch(){}}",
+    "source": "class x {async switch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

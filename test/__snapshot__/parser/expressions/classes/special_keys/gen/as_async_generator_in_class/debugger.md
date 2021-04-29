@@ -114,7 +114,7 @@ class x {async * debugger(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * debugger(){}}",
+    "source": "class x {async * debugger(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -52,7 +52,7 @@ class let {}
         }
     ],
     "isModule": false,
-    "text": "class let {}",
+    "source": "class let {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

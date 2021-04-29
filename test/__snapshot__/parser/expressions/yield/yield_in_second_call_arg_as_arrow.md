@@ -149,7 +149,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = x + foo(a, yield y)) => x; }",
+    "source": "{ (x = x + foo(a, yield y)) => x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -116,7 +116,7 @@ class x { async *prototype(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { async *prototype(){} }",
+    "source": "class x { async *prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -72,7 +72,7 @@ class A extends `temp {waitforit} late` {}
         }
     ],
     "isModule": false,
-    "text": "class A extends `temp {waitforit} late` {}",
+    "source": "class A extends `temp {waitforit} late` {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

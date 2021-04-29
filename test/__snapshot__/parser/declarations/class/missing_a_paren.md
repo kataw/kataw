@@ -102,7 +102,7 @@ class A {"x"){}}
         }
     ],
     "isModule": false,
-    "text": "class A {\"x\"){}}",
+    "source": "class A {\"x\"){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

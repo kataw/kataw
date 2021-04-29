@@ -109,7 +109,7 @@ class x {* set(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* set(){}}",
+    "source": "class x {* set(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -101,7 +101,7 @@ do function *f(){} while (x);
         }
     ],
     "isModule": true,
-    "text": "do function *f(){} while (x);",
+    "source": "do function *f(){} while (x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

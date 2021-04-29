@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ responseText: text } = res)",
+    "source": "({ responseText: text } = res)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

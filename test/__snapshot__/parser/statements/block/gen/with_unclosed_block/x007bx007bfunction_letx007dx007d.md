@@ -186,7 +186,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { {{function let}}",
+    "source": "{ {} finally(x) { {{function let}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

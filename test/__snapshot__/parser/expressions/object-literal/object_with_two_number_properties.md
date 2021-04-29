@@ -113,7 +113,7 @@ wrap({1:b, 0:d});
         }
     ],
     "isModule": false,
-    "text": "wrap({1:b, 0:d});",
+    "source": "wrap({1:b, 0:d});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ const [,,] = x;
         }
     ],
     "isModule": false,
-    "text": "const [,,] = x;",
+    "source": "const [,,] = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

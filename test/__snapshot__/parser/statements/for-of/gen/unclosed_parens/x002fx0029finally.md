@@ -74,7 +74,7 @@ try( /)finally
         }
     ],
     "isModule": false,
-    "text": "try( /)finally",
+    "source": "try( /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

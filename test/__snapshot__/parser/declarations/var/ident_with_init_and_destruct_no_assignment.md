@@ -110,7 +110,7 @@ var x = y, {z};
         }
     ],
     "isModule": false,
-    "text": "var x = y, {z};",
+    "source": "var x = y, {z};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

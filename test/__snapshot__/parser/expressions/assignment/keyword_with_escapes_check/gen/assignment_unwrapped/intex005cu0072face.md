@@ -55,7 +55,7 @@ inte\u0072face = x;
         }
     ],
     "isModule": false,
-    "text": "inte\\u0072face = x;",
+    "source": "inte\\u0072face = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

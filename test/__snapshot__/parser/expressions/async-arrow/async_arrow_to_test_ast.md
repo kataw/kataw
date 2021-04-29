@@ -122,7 +122,7 @@ let f = a + b + async()=>d
         }
     ],
     "isModule": false,
-    "text": "let f = a + b + async()=>d",
+    "source": "let f = a + b + async()=>d",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ get x(y){} })",
+    "source": "({ get x(y){} })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

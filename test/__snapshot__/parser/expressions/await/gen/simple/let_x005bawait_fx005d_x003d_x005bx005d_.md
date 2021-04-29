@@ -114,7 +114,7 @@ let [await f] = [];
         }
     ],
     "isModule": false,
-    "text": "let [await f] = [];",
+    "source": "let [await f] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

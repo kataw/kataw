@@ -115,7 +115,7 @@ x = { method(test) { } }
         }
     ],
     "isModule": false,
-    "text": "x = { method(test) { } }",
+    "source": "x = { method(test) { } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

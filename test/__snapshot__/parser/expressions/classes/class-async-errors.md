@@ -1397,7 +1397,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { *async x(){}});\n(class { async *(){}});\n(class { async get x(){}});\n(class { async set x(y){}});\n(class { async x : 0});\n(class { async : 0});\n\n(class { async static x(){}});\n\n(class { static *async x(){}});\n(class { static async *(){}});\n(class { static async get x(){}});\n(class { static async set x(y){}});\n(class { static async x : 0});\n(class { static async : 0});\n",
+    "source": "(class { *async x(){}});\n(class { async *(){}});\n(class { async get x(){}});\n(class { async set x(y){}});\n(class { async x : 0});\n(class { async : 0});\n\n(class { async static x(){}});\n\n(class { static *async x(){}});\n(class { static async *(){}});\n(class { static async get x(){}});\n(class { static async set x(y){}});\n(class { static async x : 0});\n(class { static async : 0});\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

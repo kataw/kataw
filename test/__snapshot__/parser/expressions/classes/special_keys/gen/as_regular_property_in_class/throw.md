@@ -88,7 +88,7 @@ class x {throw: x}
         }
     ],
     "isModule": false,
-    "text": "class x {throw: x}",
+    "source": "class x {throw: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

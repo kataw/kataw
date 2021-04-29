@@ -126,7 +126,7 @@ do( async try while { catch } while
         }
     ],
     "isModule": false,
-    "text": "do( async try while { catch } while",
+    "source": "do( async try while { catch } while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

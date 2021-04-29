@@ -135,7 +135,7 @@ try {} finally(x) { catch
         }
     ],
     "isModule": false,
-    "text": "try {} finally(x) { catch",
+    "source": "try {} finally(x) { catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

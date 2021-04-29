@@ -70,7 +70,7 @@ async () => {  ext\u0065nds = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  ext\\u0065nds = x  }",
+    "source": "async () => {  ext\\u0065nds = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

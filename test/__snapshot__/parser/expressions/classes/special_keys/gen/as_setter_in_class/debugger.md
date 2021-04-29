@@ -128,7 +128,7 @@ class x {set debugger(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set debugger(x){}}",
+    "source": "class x {set debugger(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

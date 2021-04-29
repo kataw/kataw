@@ -103,7 +103,7 @@ async () => {  \u0069nstanceof = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0069nstanceof = x  }",
+    "source": "async () => {  \\u0069nstanceof = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -110,7 +110,7 @@ const [...foo] = obj;
         }
     ],
     "isModule": false,
-    "text": "const [...foo] = obj;",
+    "source": "const [...foo] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

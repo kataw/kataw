@@ -72,7 +72,7 @@ class x extends public {}
         }
     ],
     "isModule": false,
-    "text": "class x extends public {}",
+    "source": "class x extends public {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static get true(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get true(){}}",
+    "source": "class x {static get true(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

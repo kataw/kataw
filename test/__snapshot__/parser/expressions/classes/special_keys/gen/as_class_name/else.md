@@ -64,7 +64,7 @@ class else {}
         }
     ],
     "isModule": false,
-    "text": "class else {}",
+    "source": "class else {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

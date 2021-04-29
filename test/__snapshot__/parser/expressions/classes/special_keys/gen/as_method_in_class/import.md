@@ -104,7 +104,7 @@ class x {import(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {import(){}}",
+    "source": "class x {import(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

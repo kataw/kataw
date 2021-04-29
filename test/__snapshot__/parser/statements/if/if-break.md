@@ -52,7 +52,7 @@ if(0) break;
         }
     ],
     "isModule": false,
-    "text": "if(0) break;",
+    "source": "if(0) break;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

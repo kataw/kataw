@@ -110,7 +110,7 @@ let [...foo] = obj;
         }
     ],
     "isModule": false,
-    "text": "let [...foo] = obj;",
+    "source": "let [...foo] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -84,7 +84,7 @@ foo?.bar *= x
         }
     ],
     "isModule": false,
-    "text": "foo?.bar *= x",
+    "source": "foo?.bar *= x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

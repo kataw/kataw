@@ -97,7 +97,7 @@ class function {}
         }
     ],
     "isModule": false,
-    "text": "class function {}",
+    "source": "class function {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

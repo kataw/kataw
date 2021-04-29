@@ -93,7 +93,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a = 1, b = 2);",
+    "source": "(a = 1, b = 2);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

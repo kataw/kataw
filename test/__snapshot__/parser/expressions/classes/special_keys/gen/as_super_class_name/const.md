@@ -114,7 +114,7 @@ class x extends const {}
         }
     ],
     "isModule": false,
-    "text": "class x extends const {}",
+    "source": "class x extends const {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

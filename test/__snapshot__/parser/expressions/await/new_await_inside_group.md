@@ -115,7 +115,7 @@ async function f(){ (new await foo) }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ (new await foo) }",
+    "source": "async function f(){ (new await foo) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

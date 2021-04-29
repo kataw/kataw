@@ -114,7 +114,7 @@ class x {static * instanceof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * instanceof(){}}",
+    "source": "class x {static * instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

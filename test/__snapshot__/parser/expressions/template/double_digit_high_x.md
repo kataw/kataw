@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`\\40x`",
+    "source": "`\\40x`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

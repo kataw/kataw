@@ -113,7 +113,7 @@ for (a of b) async function f(){}
         }
     ],
     "isModule": false,
-    "text": "for (a of b) async function f(){}",
+    "source": "for (a of b) async function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

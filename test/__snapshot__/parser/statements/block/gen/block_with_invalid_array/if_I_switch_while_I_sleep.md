@@ -172,7 +172,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] if I switch while I sleep",
+    "source": "{ [catch] if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -414,7 +414,7 @@ class x { static async *prototype(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { static get prototype(){} }\n\nclass x { static \"prot\\u006ftype\"(){} }\n\nclass x { static get prototype(){} }\n\nclass x { static async *prototype(){} }",
+    "source": "class x { static get prototype(){} }\n\nclass x { static \"prot\\u006ftype\"(){} }\n\nclass x { static get prototype(){} }\n\nclass x { static async *prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

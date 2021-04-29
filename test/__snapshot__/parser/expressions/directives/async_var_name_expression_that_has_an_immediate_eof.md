@@ -51,7 +51,7 @@ x + async
         }
     ],
     "isModule": false,
-    "text": "x + async",
+    "source": "x + async",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

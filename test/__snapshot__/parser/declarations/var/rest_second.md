@@ -123,7 +123,7 @@ export var a, ...b = 1;
         }
     ],
     "isModule": false,
-    "text": "export var a, ...b = 1;",
+    "source": "export var a, ...b = 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

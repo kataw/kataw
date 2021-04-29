@@ -108,7 +108,7 @@ function *f(){  async (await) => x  }
         }
     ],
     "isModule": false,
-    "text": "function *f(){  async (await) => x  }",
+    "source": "function *f(){  async (await) => x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

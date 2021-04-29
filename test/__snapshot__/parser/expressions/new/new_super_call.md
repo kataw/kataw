@@ -159,7 +159,7 @@ class x extends y { constructor() { new super() }}
         }
     ],
     "isModule": false,
-    "text": "class x extends y { constructor() { new super() }}",
+    "source": "class x extends y { constructor() { new super() }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

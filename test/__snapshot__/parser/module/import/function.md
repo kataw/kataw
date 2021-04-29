@@ -130,7 +130,7 @@ function f(){import {x} from "y";}
         }
     ],
     "isModule": true,
-    "text": "function f(){import {x} from \"y\";}",
+    "source": "function f(){import {x} from \"y\";}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

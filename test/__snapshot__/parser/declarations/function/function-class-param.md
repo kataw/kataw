@@ -196,7 +196,7 @@ function* foo(a = class {*bar() { yield b }}) {}
         }
     ],
     "isModule": false,
-    "text": "function* foo(a = class {*bar() { yield b }}) {}",
+    "source": "function* foo(a = class {*bar() { yield b }}) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

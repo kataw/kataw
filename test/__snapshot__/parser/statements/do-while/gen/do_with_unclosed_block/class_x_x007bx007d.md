@@ -105,7 +105,7 @@ do {} while (x) { class x {}
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { class x {}",
+    "source": "do {} while (x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

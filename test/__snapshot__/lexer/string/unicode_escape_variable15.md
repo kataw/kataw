@@ -43,7 +43,7 @@
         }
     ],
     "isModule": true,
-    "text": "\"\\u{a",
+    "source": "\"\\u{a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -117,7 +117,7 @@ return [catch] catch
         }
     ],
     "isModule": false,
-    "text": "return [catch] catch",
+    "source": "return [catch] catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

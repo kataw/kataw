@@ -143,7 +143,7 @@ class A {set "foo"(x){}}
         }
     ],
     "isModule": false,
-    "text": "class A {set \"foo\"(x){}}",
+    "source": "class A {set \"foo\"(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

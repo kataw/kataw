@@ -94,7 +94,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = [yield y]) }",
+    "source": "{ (x = [yield y]) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ switch (x) { case x: if (foo) continue foo; }
         }
     ],
     "isModule": false,
-    "text": "switch (x) { case x: if (foo) continue foo; }",
+    "source": "switch (x) { case x: if (foo) continue foo; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

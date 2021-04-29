@@ -207,7 +207,7 @@ async function g(){let o = {f(foo = await bar){}}    }
         }
     ],
     "isModule": false,
-    "text": "async function g(){let o = {f(foo = await bar){}}    }",
+    "source": "async function g(){let o = {f(foo = await bar){}}    }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

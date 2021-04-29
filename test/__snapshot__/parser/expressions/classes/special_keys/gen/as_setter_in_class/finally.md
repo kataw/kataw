@@ -128,7 +128,7 @@ class x {set finally(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set finally(x){}}",
+    "source": "class x {set finally(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

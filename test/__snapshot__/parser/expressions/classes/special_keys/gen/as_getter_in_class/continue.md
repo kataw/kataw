@@ -109,7 +109,7 @@ class x {get continue(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get continue(){}}",
+    "source": "class x {get continue(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

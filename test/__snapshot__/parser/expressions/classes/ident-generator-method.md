@@ -111,7 +111,7 @@ class A {*foo(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {*foo(){}}",
+    "source": "class A {*foo(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

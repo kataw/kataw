@@ -89,7 +89,7 @@ x({a}=obj);
         }
     ],
     "isModule": false,
-    "text": "x({a}=obj);",
+    "source": "x({a}=obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -82,7 +82,7 @@ switch( catch case
         }
     ],
     "isModule": false,
-    "text": "switch( catch case",
+    "source": "switch( catch case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

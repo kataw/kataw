@@ -193,7 +193,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] }} let function const {",
+    "source": "{ [catch] }} let function const {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

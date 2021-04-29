@@ -75,7 +75,7 @@ return[ /false//a
         }
     ],
     "isModule": false,
-    "text": "return[ /false//a",
+    "source": "return[ /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

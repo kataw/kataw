@@ -263,7 +263,7 @@ catch =! class function try while with foo! finally
         }
     ],
     "isModule": false,
-    "text": "catch =! class function try while with foo! finally",
+    "source": "catch =! class function try while with foo! finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

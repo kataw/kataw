@@ -87,7 +87,7 @@ try catch false
         }
     ],
     "isModule": false,
-    "text": "try catch false",
+    "source": "try catch false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

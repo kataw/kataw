@@ -98,7 +98,7 @@ x = {
         }
     ],
     "isModule": false,
-    "text": "x = {\n  *\"\"() {},\n}",
+    "source": "x = {\n  *\"\"() {},\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

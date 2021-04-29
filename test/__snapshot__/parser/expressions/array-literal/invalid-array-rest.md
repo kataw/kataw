@@ -559,7 +559,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a,b,...rest, x];\n[a,,...rest, x];\n[...rest,];\n[a,b,...rest,];\n[a,,...rest,];\n[...rest,...rest1];\n[a,b,...rest,...rest1];\n[a,,..rest,...rest1];",
+    "source": "[a,b,...rest, x];\n[a,,...rest, x];\n[...rest,];\n[a,b,...rest,];\n[a,,...rest,];\n[...rest,...rest1];\n[a,b,...rest,...rest1];\n[a,,..rest,...rest1];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

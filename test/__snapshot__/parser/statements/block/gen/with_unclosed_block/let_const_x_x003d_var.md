@@ -188,7 +188,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { let const x = var",
+    "source": "{ {} finally(x) { let const x = var",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

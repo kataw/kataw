@@ -64,7 +64,7 @@ for (x in y) continue
         }
     ],
     "isModule": false,
-    "text": "for (x in y) continue",
+    "source": "for (x in y) continue",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

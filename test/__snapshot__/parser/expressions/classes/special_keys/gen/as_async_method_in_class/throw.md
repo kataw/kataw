@@ -109,7 +109,7 @@ class x {async throw(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async throw(){}}",
+    "source": "class x {async throw(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

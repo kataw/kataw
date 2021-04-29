@@ -114,7 +114,7 @@ class x {static get typeof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get typeof(){}}",
+    "source": "class x {static get typeof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

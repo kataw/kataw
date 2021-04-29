@@ -52,7 +52,7 @@ class yield {}
         }
     ],
     "isModule": false,
-    "text": "class yield {}",
+    "source": "class yield {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

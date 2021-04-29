@@ -118,7 +118,7 @@ function *g() { [...yield]; }
         }
     ],
     "isModule": false,
-    "text": "function *g() { [...yield]; }",
+    "source": "function *g() { [...yield]; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

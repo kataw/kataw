@@ -180,7 +180,7 @@ switch (0) {
         }
     ],
     "isModule": false,
-    "text": "switch (0) {\n  case 1:\n    function f() {}\n  default:\n    function f() {}\n}",
+    "source": "switch (0) {\n  case 1:\n    function f() {}\n  default:\n    function f() {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

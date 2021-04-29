@@ -108,7 +108,7 @@ class x { `constructor`(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { `constructor`(){} }",
+    "source": "class x { `constructor`(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -283,7 +283,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a, a:a, a:a=a, [a]:{a}, a:some_call()[a], a:this.a} = 0);",
+    "source": "({a, a:a, a:a=a, [a]:{a}, a:some_call()[a], a:this.a} = 0);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

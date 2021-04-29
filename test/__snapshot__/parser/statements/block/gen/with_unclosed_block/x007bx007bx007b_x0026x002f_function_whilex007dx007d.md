@@ -185,7 +185,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { {{{ &/ function while}}",
+    "source": "{ {} finally(x) { {{{ &/ function while}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

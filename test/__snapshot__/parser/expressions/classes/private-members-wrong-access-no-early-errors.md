@@ -824,7 +824,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { set #b(val) {} fn() { return this.#b; } });\n\n(class { get #b() { } fn() { this.#b++; } });\n\n(class { get #b() { } fn(obj) { ({ y: this.#b } = obj); } });\n\n(class { #b() { } fn() { this.#b++; } });\n",
+    "source": "(class { set #b(val) {} fn() { return this.#b; } });\n\n(class { get #b() { } fn() { this.#b++; } });\n\n(class { get #b() { } fn(obj) { ({ y: this.#b } = obj); } });\n\n(class { #b() { } fn() { this.#b++; } });\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

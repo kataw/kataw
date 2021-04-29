@@ -133,7 +133,7 @@ class x {static set switch(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set switch(x){}}",
+    "source": "class x {static set switch(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

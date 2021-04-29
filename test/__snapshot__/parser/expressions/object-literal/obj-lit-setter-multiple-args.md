@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(y, z){} })",
+    "source": "({ set x(y, z){} })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

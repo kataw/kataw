@@ -71,7 +71,7 @@ class A extends true {}
         }
     ],
     "isModule": false,
-    "text": "class A extends true {}",
+    "source": "class A extends true {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

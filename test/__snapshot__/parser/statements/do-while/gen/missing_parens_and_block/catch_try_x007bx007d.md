@@ -81,7 +81,7 @@ do catch try {} while
         }
     ],
     "isModule": false,
-    "text": "do catch try {} while",
+    "source": "do catch try {} while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

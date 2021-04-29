@@ -86,7 +86,7 @@ new function f(){}
         }
     ],
     "isModule": false,
-    "text": "new function f(){}",
+    "source": "new function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

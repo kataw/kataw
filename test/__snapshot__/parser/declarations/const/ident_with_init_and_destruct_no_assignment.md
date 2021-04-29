@@ -109,7 +109,7 @@ const x = y, {z};
         }
     ],
     "isModule": false,
-    "text": "const x = y, {z};",
+    "source": "const x = y, {z};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

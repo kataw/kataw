@@ -107,7 +107,7 @@ export {foo as bar} from "foo";
         }
     ],
     "isModule": true,
-    "text": "export {foo as bar} from \"foo\";",
+    "source": "export {foo as bar} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

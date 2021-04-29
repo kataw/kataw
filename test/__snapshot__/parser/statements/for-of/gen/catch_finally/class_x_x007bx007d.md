@@ -118,7 +118,7 @@ catch class x {} finally
         }
     ],
     "isModule": false,
-    "text": "catch class x {} finally",
+    "source": "catch class x {} finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

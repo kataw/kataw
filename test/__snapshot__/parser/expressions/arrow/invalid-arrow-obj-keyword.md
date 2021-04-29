@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "({const}) => x;\n\n({debugger}) => x;",
+    "source": "({const}) => x;\n\n({debugger}) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

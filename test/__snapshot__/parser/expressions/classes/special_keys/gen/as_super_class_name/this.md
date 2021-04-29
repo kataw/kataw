@@ -70,7 +70,7 @@ class x extends this {}
         }
     ],
     "isModule": false,
-    "text": "class x extends this {}",
+    "source": "class x extends this {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

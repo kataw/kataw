@@ -88,7 +88,7 @@ class x {let: x}
         }
     ],
     "isModule": false,
-    "text": "class x {let: x}",
+    "source": "class x {let: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { async *#arguments() {} });",
+    "source": "(class { async *#arguments() {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

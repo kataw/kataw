@@ -133,7 +133,7 @@ class x {static set debugger(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set debugger(x){}}",
+    "source": "class x {static set debugger(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

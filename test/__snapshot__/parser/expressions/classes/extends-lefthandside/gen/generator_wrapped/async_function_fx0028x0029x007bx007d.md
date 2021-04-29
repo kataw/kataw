@@ -170,7 +170,7 @@ function *P(){
         }
     ],
     "isModule": false,
-    "text": "function *P(){\n  class D extends async function f(){} {}\n}",
+    "source": "function *P(){\n  class D extends async function f(){} {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

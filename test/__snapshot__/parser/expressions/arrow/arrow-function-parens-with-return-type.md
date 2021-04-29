@@ -125,7 +125,7 @@ var foo = ((foo)): string => {};
         }
     ],
     "isModule": false,
-    "text": "var foo = ((foo)): string => {};",
+    "source": "var foo = ((foo)): string => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

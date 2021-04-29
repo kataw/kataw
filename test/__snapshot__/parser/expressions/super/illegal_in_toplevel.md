@@ -49,7 +49,7 @@ super.foo;
         }
     ],
     "isModule": false,
-    "text": "super.foo;",
+    "source": "super.foo;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

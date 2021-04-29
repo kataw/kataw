@@ -99,7 +99,7 @@ class A extends await x {}
         }
     ],
     "isModule": false,
-    "text": "class A extends await x {}",
+    "source": "class A extends await x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

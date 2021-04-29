@@ -110,7 +110,7 @@ class A {static get foo(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {static get foo(){}}",
+    "source": "class A {static get foo(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

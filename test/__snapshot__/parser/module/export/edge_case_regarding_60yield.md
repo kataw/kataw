@@ -63,7 +63,7 @@ export default yield x
         }
     ],
     "isModule": true,
-    "text": "export default yield x",
+    "source": "export default yield x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -330,7 +330,7 @@ function * gen() { function not_gen() { # }}
     ],
     "statements": [],
     "isModule": false,
-    "text": "'use strict'; #",
+    "source": "'use strict'; #",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

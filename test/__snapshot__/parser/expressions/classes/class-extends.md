@@ -1057,7 +1057,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class name {});\n(class extends F {});\n(class name extends F {});\n(class extends (F, G) {});\n(class name extends (F, G) {});\n(class extends class {} {});\n(class name extends class {} {});\n(class extends class base {} {});\n(class name extends class base {} {});\n\n'use strict'; { class name extends F {} };\n'use strict'; { class name extends (F, G) {} };\n'use strict'; { class name extends class {} {} };\n'use strict'; { class name extends class base {} {} };",
+    "source": "(class name {});\n(class extends F {});\n(class name extends F {});\n(class extends (F, G) {});\n(class name extends (F, G) {});\n(class extends class {} {});\n(class name extends class {} {});\n(class extends class base {} {});\n(class name extends class base {} {});\n\n'use strict'; { class name extends F {} };\n'use strict'; { class name extends (F, G) {} };\n'use strict'; { class name extends class {} {} };\n'use strict'; { class name extends class base {} {} };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -685,7 +685,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...obj1,} = foo);\n\n({...obj1,} = foo);\n\n({...a,} = {});\n\n({...obj1,...obj2} = foo);\n\n({...{a,b}} = foo);\n\n({...[a,b]} = foo);\n\n({...[a, b]} = x);\n\n({...{a, b}} = x);",
+    "source": "({...obj1,} = foo);\n\n({...obj1,} = foo);\n\n({...a,} = {});\n\n({...obj1,...obj2} = foo);\n\n({...{a,b}} = foo);\n\n({...[a,b]} = foo);\n\n({...[a, b]} = x);\n\n({...{a, b}} = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

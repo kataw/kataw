@@ -77,7 +77,7 @@ async x => {}
         }
     ],
     "isModule": false,
-    "text": "async x => {}",
+    "source": "async x => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

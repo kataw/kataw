@@ -119,7 +119,7 @@ class x {static async * else(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * else(){}}",
+    "source": "class x {static async * else(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

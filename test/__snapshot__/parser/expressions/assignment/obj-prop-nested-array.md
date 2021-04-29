@@ -173,7 +173,7 @@ result = { x: [y] } = { x: [321] };
         }
     ],
     "isModule": true,
-    "text": "result = { x: [y] } = { x: [321] };",
+    "source": "result = { x: [y] } = { x: [321] };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

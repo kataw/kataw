@@ -84,7 +84,7 @@ let.dot in x
         }
     ],
     "isModule": false,
-    "text": "let.dot in x",
+    "source": "let.dot in x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

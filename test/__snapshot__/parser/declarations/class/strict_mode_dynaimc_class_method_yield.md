@@ -154,7 +154,7 @@ class x{[yield](a){}}
         }
     ],
     "isModule": false,
-    "text": "\"use strict\";\nclass x{[yield](a){}}",
+    "source": "\"use strict\";\nclass x{[yield](a){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

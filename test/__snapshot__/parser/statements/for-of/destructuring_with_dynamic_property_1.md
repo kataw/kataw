@@ -117,7 +117,7 @@ for ([a.b][foo] of c) d
         }
     ],
     "isModule": false,
-    "text": "for ([a.b][foo] of c) d",
+    "source": "for ([a.b][foo] of c) d",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

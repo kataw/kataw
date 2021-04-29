@@ -160,7 +160,7 @@ try( while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "try( while try this and !foo",
+    "source": "try( while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

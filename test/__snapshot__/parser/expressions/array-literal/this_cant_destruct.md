@@ -83,7 +83,7 @@
         }
     ],
     "isModule": false,
-    "text": "[this] = obj",
+    "source": "[this] = obj",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

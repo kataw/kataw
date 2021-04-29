@@ -88,7 +88,7 @@ switch( /false//a case
         }
     ],
     "isModule": false,
-    "text": "switch( /false//a case",
+    "source": "switch( /false//a case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

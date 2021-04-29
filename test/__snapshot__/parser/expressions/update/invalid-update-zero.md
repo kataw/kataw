@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "0++;\n\n0--;\n\n++0;\n\n--0;",
+    "source": "0++;\n\n0--;\n\n++0;\n\n--0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

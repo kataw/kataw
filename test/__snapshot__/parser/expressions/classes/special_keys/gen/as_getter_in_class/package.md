@@ -109,7 +109,7 @@ class x {get package(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get package(){}}",
+    "source": "class x {get package(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

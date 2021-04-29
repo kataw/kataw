@@ -53,7 +53,7 @@ export * from x
         }
     ],
     "isModule": true,
-    "text": "export * from x",
+    "source": "export * from x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -51,7 +51,7 @@ new eval()
         }
     ],
     "isModule": false,
-    "text": "new eval()",
+    "source": "new eval()",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

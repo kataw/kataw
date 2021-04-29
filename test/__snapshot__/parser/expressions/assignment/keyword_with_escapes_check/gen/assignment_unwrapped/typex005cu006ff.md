@@ -66,7 +66,7 @@ type\u006ff = x;
         }
     ],
     "isModule": false,
-    "text": "type\\u006ff = x;",
+    "source": "type\\u006ff = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

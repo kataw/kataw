@@ -117,7 +117,7 @@ function f(a = x => ok) {}
         }
     ],
     "isModule": false,
-    "text": "function f(a = x => ok) {}",
+    "source": "function f(a = x => ok) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

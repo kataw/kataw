@@ -102,7 +102,7 @@ do while [catch] /false//a
         }
     ],
     "isModule": false,
-    "text": "do while [catch] /false//a",
+    "source": "do while [catch] /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

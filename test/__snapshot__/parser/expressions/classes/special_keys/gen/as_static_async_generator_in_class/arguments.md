@@ -119,7 +119,7 @@ class x {static async * arguments(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * arguments(){}}",
+    "source": "class x {static async * arguments(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

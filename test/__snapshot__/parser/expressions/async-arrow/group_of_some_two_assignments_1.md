@@ -109,7 +109,7 @@ async (a = 1, b = 2) => x;
         }
     ],
     "isModule": false,
-    "text": "async (a = 1, b = 2) => x;",
+    "source": "async (a = 1, b = 2) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "({typeof(){}}) => x;",
+    "source": "({typeof(){}}) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

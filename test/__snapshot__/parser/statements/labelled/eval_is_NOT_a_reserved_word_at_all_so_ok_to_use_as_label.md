@@ -45,7 +45,7 @@ eval: x;
         }
     ],
     "isModule": false,
-    "text": "eval: x;",
+    "source": "eval: x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

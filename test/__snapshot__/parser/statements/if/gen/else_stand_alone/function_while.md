@@ -99,7 +99,7 @@ else function while
         }
     ],
     "isModule": false,
-    "text": "else function while",
+    "source": "else function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

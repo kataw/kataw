@@ -81,7 +81,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends this {})",
+    "source": "(class B extends this {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

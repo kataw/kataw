@@ -55,7 +55,7 @@
         }
     ],
     "isModule": false,
-    "text": "--this.x",
+    "source": "--this.x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

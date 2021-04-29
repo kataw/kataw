@@ -99,7 +99,7 @@ wrap({*async(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({*async(){}});",
+    "source": "wrap({*async(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

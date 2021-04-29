@@ -212,7 +212,7 @@ fn = function() {};
         }
     ],
     "isModule": false,
-    "text": "var xFn, fn;\n\nxFn = function x() {};\nfn = function() {};",
+    "source": "var xFn, fn;\n\nxFn = function x() {};\nfn = function() {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

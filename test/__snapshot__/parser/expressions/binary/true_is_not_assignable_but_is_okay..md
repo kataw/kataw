@@ -50,7 +50,7 @@ true ** a
         }
     ],
     "isModule": false,
-    "text": "true ** a",
+    "source": "true ** a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

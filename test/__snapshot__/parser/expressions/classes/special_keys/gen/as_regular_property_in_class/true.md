@@ -88,7 +88,7 @@ class x {true: x}
         }
     ],
     "isModule": false,
-    "text": "class x {true: x}",
+    "source": "class x {true: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

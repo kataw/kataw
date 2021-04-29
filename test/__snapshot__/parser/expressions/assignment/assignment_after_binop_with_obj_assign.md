@@ -123,7 +123,7 @@ for(x in(t&{}=y))x
         }
     ],
     "isModule": false,
-    "text": "for(x in(t&{}=y))x",
+    "source": "for(x in(t&{}=y))x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

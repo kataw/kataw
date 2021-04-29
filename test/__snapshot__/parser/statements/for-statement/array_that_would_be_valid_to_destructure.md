@@ -79,7 +79,7 @@ for ([x];;);
         }
     ],
     "isModule": false,
-    "text": "for ([x];;);",
+    "source": "for ([x];;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

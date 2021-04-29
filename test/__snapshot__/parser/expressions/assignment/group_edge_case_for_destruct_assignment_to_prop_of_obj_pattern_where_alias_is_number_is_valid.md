@@ -125,7 +125,7 @@
         }
     ],
     "isModule": false,
-    "text": "[({a: 1}.c)] = [];",
+    "source": "[({a: 1}.c)] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

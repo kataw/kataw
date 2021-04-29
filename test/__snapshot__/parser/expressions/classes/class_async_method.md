@@ -111,7 +111,7 @@ class x {async foo(){}}
         }
     ],
     "isModule": true,
-    "text": "class x {async foo(){}}",
+    "source": "class x {async foo(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -86,7 +86,7 @@ await => async.await[foo]
         }
     ],
     "isModule": false,
-    "text": "await => async.await[foo]",
+    "source": "await => async.await[foo]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

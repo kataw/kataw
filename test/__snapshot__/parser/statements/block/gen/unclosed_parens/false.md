@@ -54,7 +54,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( false",
+    "source": "{( false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

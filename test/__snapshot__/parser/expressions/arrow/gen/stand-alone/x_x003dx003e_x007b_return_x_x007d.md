@@ -85,7 +85,7 @@ x => { return x; } ;
         }
     ],
     "isModule": false,
-    "text": "x => { return x; } ;",
+    "source": "x => { return x; } ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

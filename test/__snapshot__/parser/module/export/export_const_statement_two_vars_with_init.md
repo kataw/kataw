@@ -107,7 +107,7 @@ export const x = 10, y = 20
         }
     ],
     "isModule": true,
-    "text": "export const x = 10, y = 20",
+    "source": "export const x = 10, y = 20",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

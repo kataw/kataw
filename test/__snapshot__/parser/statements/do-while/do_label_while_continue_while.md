@@ -97,7 +97,7 @@ do wow: while (x) continue wow; while (x)
         }
     ],
     "isModule": false,
-    "text": "do wow: while (x) continue wow; while (x)",
+    "source": "do wow: while (x) continue wow; while (x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

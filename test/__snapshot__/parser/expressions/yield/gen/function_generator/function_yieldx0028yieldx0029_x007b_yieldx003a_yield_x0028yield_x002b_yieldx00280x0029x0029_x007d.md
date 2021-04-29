@@ -283,7 +283,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } }}",
+    "source": "function * gen() { function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

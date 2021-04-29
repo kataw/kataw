@@ -130,7 +130,7 @@ class x { *[expr](){} }
         }
     ],
     "isModule": false,
-    "text": "class x { *[expr](){} }",
+    "source": "class x { *[expr](){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

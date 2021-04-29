@@ -105,7 +105,7 @@ function *f() {
         }
     ],
     "isModule": false,
-    "text": "function *f() {\n  yield\n  *\n}",
+    "source": "function *f() {\n  yield\n  *\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

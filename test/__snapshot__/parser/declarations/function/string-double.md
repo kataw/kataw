@@ -124,7 +124,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
         }
     ],
     "isModule": false,
-    "text": "function createElement(tagName: \"div\"): HTMLDivElement {}",
+    "source": "function createElement(tagName: \"div\"): HTMLDivElement {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

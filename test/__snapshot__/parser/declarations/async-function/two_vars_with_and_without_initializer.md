@@ -130,7 +130,7 @@ let [foo=a, bar] = arr;
         }
     ],
     "isModule": false,
-    "text": "let [foo=a, bar] = arr;",
+    "source": "let [foo=a, bar] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

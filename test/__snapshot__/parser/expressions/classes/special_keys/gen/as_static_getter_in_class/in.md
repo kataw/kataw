@@ -114,7 +114,7 @@ class x {static get in(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get in(){}}",
+    "source": "class x {static get in(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ wrap({set(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({set(){}});",
+    "source": "wrap({set(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

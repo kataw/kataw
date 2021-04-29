@@ -204,7 +204,7 @@ a?.()``;
         }
     ],
     "isModule": false,
-    "text": "a?.b``;\n\na?.['b']``;\n\na?.()``;",
+    "source": "a?.b``;\n\na?.['b']``;\n\na?.()``;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

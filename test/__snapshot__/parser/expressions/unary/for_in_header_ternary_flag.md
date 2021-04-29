@@ -143,7 +143,7 @@ for(delete((1)?y:x in y) in z)x
         }
     ],
     "isModule": false,
-    "text": "for(delete((1)?y:x in y) in z)x",
+    "source": "for(delete((1)?y:x in y) in z)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

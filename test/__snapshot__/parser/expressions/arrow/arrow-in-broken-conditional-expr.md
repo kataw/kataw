@@ -79,7 +79,7 @@ bar ? (=> 0) : baz;
         }
     ],
     "isModule": false,
-    "text": "bar ? (=> 0) : baz;",
+    "source": "bar ? (=> 0) : baz;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

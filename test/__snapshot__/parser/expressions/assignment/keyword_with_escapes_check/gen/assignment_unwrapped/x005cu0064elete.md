@@ -66,7 +66,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0064elete = x;",
+    "source": "\\u0064elete = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

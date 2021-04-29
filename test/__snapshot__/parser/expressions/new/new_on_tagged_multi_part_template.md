@@ -98,7 +98,7 @@ new Foo`a${b}c${c}e`
         }
     ],
     "isModule": false,
-    "text": "new Foo`a${b}c${c}e`",
+    "source": "new Foo`a${b}c${c}e`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

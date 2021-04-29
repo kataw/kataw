@@ -54,7 +54,7 @@ delete typeof true
         }
     ],
     "isModule": false,
-    "text": "delete typeof true",
+    "source": "delete typeof true",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

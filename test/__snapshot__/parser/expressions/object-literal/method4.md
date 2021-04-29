@@ -96,7 +96,7 @@ x = { get() { } }
         }
     ],
     "isModule": false,
-    "text": "x = { get() { } }",
+    "source": "x = { get() { } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

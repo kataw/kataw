@@ -176,7 +176,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a = [b] = c, {[d]: e}, f] = g",
+    "source": "[a = [b] = c, {[d]: e}, f] = g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

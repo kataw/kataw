@@ -140,7 +140,7 @@ x={ foo(a = super.foo){ }}
         }
     ],
     "isModule": false,
-    "text": "x={ foo(a = super.foo){ }}",
+    "source": "x={ foo(a = super.foo){ }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

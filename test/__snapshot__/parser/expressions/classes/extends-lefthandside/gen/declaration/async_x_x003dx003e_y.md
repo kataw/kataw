@@ -124,7 +124,7 @@ x => y {}
         }
     ],
     "isModule": false,
-    "text": "class A extends async\nx => y {}",
+    "source": "class A extends async\nx => y {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

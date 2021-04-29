@@ -47,7 +47,7 @@ debugge\u0072 = x;
         }
     ],
     "isModule": false,
-    "text": "debugge\\u0072 = x;",
+    "source": "debugge\\u0072 = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

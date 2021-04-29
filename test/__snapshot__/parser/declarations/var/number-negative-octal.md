@@ -108,7 +108,7 @@ var a: -0x7B
         }
     ],
     "isModule": false,
-    "text": "var a: -0x7B",
+    "source": "var a: -0x7B",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

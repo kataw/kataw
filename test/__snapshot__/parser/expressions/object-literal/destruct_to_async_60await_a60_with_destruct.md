@@ -189,7 +189,7 @@ async function g() {   s = {"foo": await a = x} = x   }
         }
     ],
     "isModule": false,
-    "text": "async function g() {   s = {\"foo\": await a = x} = x   }",
+    "source": "async function g() {   s = {\"foo\": await a = x} = x   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

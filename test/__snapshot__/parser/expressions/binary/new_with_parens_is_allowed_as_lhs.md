@@ -71,7 +71,7 @@ new x() ** 2;
         }
     ],
     "isModule": false,
-    "text": "new x() ** 2;",
+    "source": "new x() ** 2;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

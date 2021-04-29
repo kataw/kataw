@@ -114,7 +114,7 @@ class x {static async await(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async await(){}}",
+    "source": "class x {static async await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -113,7 +113,7 @@ var v = (a, b) => {
         }
     ],
     "isModule": false,
-    "text": "var v = (a, b) => {\n\n};",
+    "source": "var v = (a, b) => {\n\n};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

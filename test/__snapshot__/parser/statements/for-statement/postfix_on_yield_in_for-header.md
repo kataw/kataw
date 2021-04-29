@@ -90,7 +90,7 @@ for (yield[g]--;;);
         }
     ],
     "isModule": false,
-    "text": "for (yield[g]--;;);",
+    "source": "for (yield[g]--;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

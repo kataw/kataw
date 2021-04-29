@@ -120,7 +120,7 @@ var [...await f] = [];
         }
     ],
     "isModule": false,
-    "text": "var [...await f] = [];",
+    "source": "var [...await f] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

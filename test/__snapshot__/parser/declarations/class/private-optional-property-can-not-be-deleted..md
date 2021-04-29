@@ -207,7 +207,7 @@ class Foo {
         }
     ],
     "isModule": false,
-    "text": "class Foo {\n  #x;\n  constructor() {\n    delete this?.#x;\n  }\n}",
+    "source": "class Foo {\n  #x;\n  constructor() {\n    delete this?.#x;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -141,7 +141,7 @@ switch(x) { default: default: case y: break; case z: break; }
         }
     ],
     "isModule": false,
-    "text": "switch(x) { default: default: case y: break; case z: break; }",
+    "source": "switch(x) { default: default: case y: break; case z: break; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

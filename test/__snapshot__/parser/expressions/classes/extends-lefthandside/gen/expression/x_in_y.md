@@ -116,7 +116,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends x in y {})",
+    "source": "(class B extends x in y {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

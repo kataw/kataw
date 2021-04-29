@@ -72,7 +72,7 @@ class x extends protected {}
         }
     ],
     "isModule": false,
-    "text": "class x extends protected {}",
+    "source": "class x extends protected {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

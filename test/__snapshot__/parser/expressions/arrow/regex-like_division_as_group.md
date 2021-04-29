@@ -133,7 +133,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: [foo, bar]/x/g})",
+    "source": "({ident: [foo, bar]/x/g})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

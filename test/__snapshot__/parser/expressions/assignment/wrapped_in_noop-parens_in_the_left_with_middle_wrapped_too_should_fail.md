@@ -89,7 +89,7 @@
         }
     ],
     "isModule": false,
-    "text": "(1) = (y) = x",
+    "source": "(1) = (y) = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

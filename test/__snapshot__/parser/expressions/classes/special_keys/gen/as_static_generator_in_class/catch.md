@@ -114,7 +114,7 @@ class x {static * catch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * catch(){}}",
+    "source": "class x {static * catch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

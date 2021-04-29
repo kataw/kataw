@@ -99,7 +99,7 @@ class A extends oh,no {}
         }
     ],
     "isModule": false,
-    "text": "class A extends oh,no {}",
+    "source": "class A extends oh,no {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

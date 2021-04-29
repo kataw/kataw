@@ -127,7 +127,7 @@ class A {* get [x](){}}
         }
     ],
     "isModule": false,
-    "text": "class A {* get [x](){}}",
+    "source": "class A {* get [x](){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -112,7 +112,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends oh,no {})",
+    "source": "(class B extends oh,no {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -513,7 +513,7 @@ for (# in x) ;
         }
     ],
     "isModule": false,
-    "text": "class A extends # {}",
+    "source": "class A extends # {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

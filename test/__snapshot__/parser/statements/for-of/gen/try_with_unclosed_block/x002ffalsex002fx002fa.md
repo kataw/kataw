@@ -133,7 +133,7 @@ try {} finally(x) { /false//a
         }
     ],
     "isModule": false,
-    "text": "try {} finally(x) { /false//a",
+    "source": "try {} finally(x) { /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -54,7 +54,7 @@ do /**/ /x do while
         }
     ],
     "isModule": false,
-    "text": "do /**/ /x do while",
+    "source": "do /**/ /x do while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

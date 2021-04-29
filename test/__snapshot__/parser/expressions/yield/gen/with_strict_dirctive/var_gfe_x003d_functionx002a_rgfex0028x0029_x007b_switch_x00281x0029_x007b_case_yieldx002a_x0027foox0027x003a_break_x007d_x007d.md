@@ -201,7 +201,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
+    "source": "'use strict'; var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

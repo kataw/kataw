@@ -128,7 +128,7 @@ class x {set switch(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set switch(x){}}",
+    "source": "class x {set switch(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

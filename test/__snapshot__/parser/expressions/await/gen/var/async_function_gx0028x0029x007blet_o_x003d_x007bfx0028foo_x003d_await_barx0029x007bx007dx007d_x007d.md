@@ -333,7 +333,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { async function g(){let o = {f(foo = await bar){}}    } });",
+    "source": "var await; var f = (async function() { async function g(){let o = {f(foo = await bar){}}    } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

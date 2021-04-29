@@ -210,7 +210,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function* gf() { class C { *yield() { } } } }}",
+    "source": "function not_gen() { function* gf() { class C { *yield() { } } } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

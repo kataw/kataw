@@ -61,7 +61,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a\\u0072guments = x);",
+    "source": "(a\\u0072guments = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

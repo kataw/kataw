@@ -89,7 +89,7 @@ switch(x) /* comment */ { case y: foo }
         }
     ],
     "isModule": false,
-    "text": "switch(x) /* comment */ { case y: foo }",
+    "source": "switch(x) /* comment */ { case y: foo }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

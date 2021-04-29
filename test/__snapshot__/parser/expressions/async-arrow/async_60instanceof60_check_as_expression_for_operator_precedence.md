@@ -94,7 +94,7 @@ f(a + async instanceof b)
         }
     ],
     "isModule": false,
-    "text": "f(a + async instanceof b)",
+    "source": "f(a + async instanceof b)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

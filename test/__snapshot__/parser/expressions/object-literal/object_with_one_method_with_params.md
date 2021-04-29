@@ -154,7 +154,7 @@ wrap({foo(a,b,c){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({foo(a,b,c){}});",
+    "source": "wrap({foo(a,b,c){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

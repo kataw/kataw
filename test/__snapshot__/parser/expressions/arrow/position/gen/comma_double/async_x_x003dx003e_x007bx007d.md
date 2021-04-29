@@ -143,7 +143,7 @@ async x => {}, async x => {}
         }
     ],
     "isModule": false,
-    "text": "async x => {}, async x => {}",
+    "source": "async x => {}, async x => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

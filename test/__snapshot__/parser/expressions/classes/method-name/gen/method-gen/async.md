@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*async(x, y) {}});",
+    "source": "({*async(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -157,7 +157,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(_) { y = super } })",
+    "source": "({ set x(_) { y = super } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

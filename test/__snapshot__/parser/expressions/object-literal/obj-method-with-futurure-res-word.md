@@ -186,7 +186,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*method(public){}});\n({method(protected){}});",
+    "source": "({*method(public){}});\n({method(protected){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

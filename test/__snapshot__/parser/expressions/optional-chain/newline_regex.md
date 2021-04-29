@@ -104,7 +104,7 @@ a?.b
         }
     ],
     "isModule": false,
-    "text": "a?.b\n/c/",
+    "source": "a?.b\n/c/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

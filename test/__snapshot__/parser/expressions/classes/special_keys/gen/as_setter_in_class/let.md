@@ -128,7 +128,7 @@ class x {set let(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set let(x){}}",
+    "source": "class x {set let(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

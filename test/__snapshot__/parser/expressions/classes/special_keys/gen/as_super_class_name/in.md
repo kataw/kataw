@@ -110,7 +110,7 @@ class x extends in {}
         }
     ],
     "isModule": false,
-    "text": "class x extends in {}",
+    "source": "class x extends in {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

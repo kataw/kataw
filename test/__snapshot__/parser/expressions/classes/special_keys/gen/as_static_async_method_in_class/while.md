@@ -114,7 +114,7 @@ class x {static async while(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async while(){}}",
+    "source": "class x {static async while(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

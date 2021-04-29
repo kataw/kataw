@@ -84,7 +84,7 @@ x; in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (await\nx; in x) ;",
+    "source": "for (await\nx; in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

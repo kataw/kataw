@@ -44,7 +44,7 @@ new yield
         }
     ],
     "isModule": false,
-    "text": "new yield",
+    "source": "new yield",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

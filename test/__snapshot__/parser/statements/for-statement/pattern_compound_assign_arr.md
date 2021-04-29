@@ -98,7 +98,7 @@ for([]/=y;;)x
         }
     ],
     "isModule": false,
-    "text": "for([]/=y;;)x",
+    "source": "for([]/=y;;)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

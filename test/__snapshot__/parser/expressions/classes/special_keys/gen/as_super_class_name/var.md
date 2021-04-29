@@ -115,7 +115,7 @@ class x extends var {}
         }
     ],
     "isModule": false,
-    "text": "class x extends var {}",
+    "source": "class x extends var {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

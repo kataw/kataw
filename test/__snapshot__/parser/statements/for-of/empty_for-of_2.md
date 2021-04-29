@@ -94,7 +94,7 @@ for (var a of b);
         }
     ],
     "isModule": false,
-    "text": "for (var a of b);",
+    "source": "for (var a of b);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

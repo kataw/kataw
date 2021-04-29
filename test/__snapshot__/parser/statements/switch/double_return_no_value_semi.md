@@ -97,7 +97,7 @@ function f(){   return;return    };
         }
     ],
     "isModule": false,
-    "text": "function f(){   return;return    };",
+    "source": "function f(){   return;return    };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -112,7 +112,7 @@ for ({}[y] ^= x;;) x;
         }
     ],
     "isModule": false,
-    "text": "for ({}[y] ^= x;;) x;",
+    "source": "for ({}[y] ^= x;;) x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

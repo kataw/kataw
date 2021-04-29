@@ -117,7 +117,7 @@ if if if /false//a
         }
     ],
     "isModule": false,
-    "text": "if if if /false//a",
+    "source": "if if if /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

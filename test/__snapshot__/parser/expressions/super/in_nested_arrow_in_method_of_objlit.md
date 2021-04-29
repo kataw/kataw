@@ -197,7 +197,7 @@ x={ foo(){ return () => function() { super.foo; } }}
         }
     ],
     "isModule": false,
-    "text": "x={ foo(){ return () => function() { super.foo; } }}",
+    "source": "x={ foo(){ return () => function() { super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

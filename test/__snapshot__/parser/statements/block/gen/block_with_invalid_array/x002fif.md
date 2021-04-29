@@ -103,7 +103,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] /if",
+    "source": "{ [catch] /if",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

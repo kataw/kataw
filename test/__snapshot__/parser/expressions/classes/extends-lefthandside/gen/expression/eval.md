@@ -83,7 +83,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends eval {})",
+    "source": "(class B extends eval {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -154,7 +154,7 @@ class Foo {set fooProp(value:number):void{}}
         }
     ],
     "isModule": false,
-    "text": "class Foo {set fooProp(value:number):void{}}",
+    "source": "class Foo {set fooProp(value:number):void{}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

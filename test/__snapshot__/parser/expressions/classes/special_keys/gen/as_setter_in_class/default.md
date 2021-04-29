@@ -128,7 +128,7 @@ class x {set default(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set default(x){}}",
+    "source": "class x {set default(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

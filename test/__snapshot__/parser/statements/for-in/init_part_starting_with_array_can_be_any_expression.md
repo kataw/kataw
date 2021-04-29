@@ -116,7 +116,7 @@ for ([] + b in obj);
         }
     ],
     "isModule": false,
-    "text": "for ([] + b in obj);",
+    "source": "for ([] + b in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

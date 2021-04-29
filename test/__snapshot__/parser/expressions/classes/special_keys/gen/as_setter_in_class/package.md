@@ -128,7 +128,7 @@ class x {set package(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set package(x){}}",
+    "source": "class x {set package(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

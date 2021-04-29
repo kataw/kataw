@@ -94,7 +94,7 @@ for (let a of b);
         }
     ],
     "isModule": false,
-    "text": "for (let a of b);",
+    "source": "for (let a of b);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

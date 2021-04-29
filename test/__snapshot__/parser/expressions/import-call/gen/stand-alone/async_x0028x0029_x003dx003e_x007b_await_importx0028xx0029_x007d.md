@@ -101,7 +101,7 @@ async () => { await import(x) }
         }
     ],
     "isModule": false,
-    "text": "async () => { await import(x) }",
+    "source": "async () => { await import(x) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

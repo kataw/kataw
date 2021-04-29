@@ -104,7 +104,7 @@ do async
         }
     ],
     "isModule": false,
-    "text": "do async\n f(){}; while (y)",
+    "source": "do async\n f(){}; while (y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

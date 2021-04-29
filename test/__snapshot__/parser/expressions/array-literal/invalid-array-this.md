@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "[this=x];\n\n[this]=x;",
+    "source": "[this=x];\n\n[this]=x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

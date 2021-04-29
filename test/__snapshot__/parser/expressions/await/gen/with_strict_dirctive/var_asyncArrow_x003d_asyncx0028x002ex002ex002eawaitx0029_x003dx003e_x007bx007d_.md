@@ -115,7 +115,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; var asyncArrow = async(...await) => {};",
+    "source": "'use strict'; var asyncArrow = async(...await) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -160,7 +160,7 @@ return [catch] function while
         }
     ],
     "isModule": false,
-    "text": "return [catch] function while",
+    "source": "return [catch] function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

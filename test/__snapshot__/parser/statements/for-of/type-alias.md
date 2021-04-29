@@ -84,7 +84,7 @@ type x = y;
         }
     ],
     "isModule": false,
-    "text": "type x = y;",
+    "source": "type x = y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

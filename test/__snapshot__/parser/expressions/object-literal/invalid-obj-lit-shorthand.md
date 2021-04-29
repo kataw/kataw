@@ -148,7 +148,7 @@ f({x = 0});
         }
     ],
     "isModule": false,
-    "text": "obj = {x = 0};\n\nf({x = 0});",
+    "source": "obj = {x = 0};\n\nf({x = 0});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ export * as x from "x" foo
         }
     ],
     "isModule": true,
-    "text": "export * as x from \"x\" foo",
+    "source": "export * as x from \"x\" foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

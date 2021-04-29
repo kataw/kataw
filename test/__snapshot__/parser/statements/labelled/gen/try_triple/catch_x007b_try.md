@@ -155,7 +155,7 @@ try try try catch { try
         }
     ],
     "isModule": false,
-    "text": "try try try catch { try",
+    "source": "try try try catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

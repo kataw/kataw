@@ -109,7 +109,7 @@ class x {static switch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static switch(){}}",
+    "source": "class x {static switch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

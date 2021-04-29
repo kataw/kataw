@@ -109,7 +109,7 @@ class x {get delete(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get delete(){}}",
+    "source": "class x {get delete(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

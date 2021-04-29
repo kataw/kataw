@@ -127,7 +127,7 @@ for (var r == y in x );
         }
     ],
     "isModule": false,
-    "text": "for (var r == y in x );",
+    "source": "for (var r == y in x );",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

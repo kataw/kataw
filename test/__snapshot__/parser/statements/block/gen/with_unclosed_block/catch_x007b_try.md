@@ -187,7 +187,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { catch { try",
+    "source": "{ {} finally(x) { catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

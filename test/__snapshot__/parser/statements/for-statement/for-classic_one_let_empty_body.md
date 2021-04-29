@@ -70,7 +70,7 @@ for (let a;;);
         }
     ],
     "isModule": false,
-    "text": "for (let a;;);",
+    "source": "for (let a;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

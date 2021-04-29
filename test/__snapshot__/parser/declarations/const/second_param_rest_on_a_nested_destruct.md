@@ -171,7 +171,7 @@ const [x, ...[foo, bar]] = obj;
         }
     ],
     "isModule": false,
-    "text": "const [x, ...[foo, bar]] = obj;",
+    "source": "const [x, ...[foo, bar]] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

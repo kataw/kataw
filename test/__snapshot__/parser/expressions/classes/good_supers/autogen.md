@@ -256,7 +256,7 @@ class x extends y {
         }
     ],
     "isModule": false,
-    "text": "class x extends y {\n  constructor() {\n    ({\"foo\": #})\n  }\n}",
+    "source": "class x extends y {\n  constructor() {\n    ({\"foo\": #})\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

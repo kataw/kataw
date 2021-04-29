@@ -89,7 +89,7 @@ wrap({set} = x);
         }
     ],
     "isModule": false,
-    "text": "wrap({set} = x);",
+    "source": "wrap({set} = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -172,7 +172,7 @@
         }
     ],
     "isModule": false,
-    "text": "[foo, [x,y = 20,z], bar = B] = arr;",
+    "source": "[foo, [x,y = 20,z], bar = B] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

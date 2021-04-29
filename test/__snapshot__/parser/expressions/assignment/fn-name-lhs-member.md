@@ -104,7 +104,7 @@ o.attr = function() {};
         }
     ],
     "isModule": true,
-    "text": "\no.attr = function() {};",
+    "source": "\no.attr = function() {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

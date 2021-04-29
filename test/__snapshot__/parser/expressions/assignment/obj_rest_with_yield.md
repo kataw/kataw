@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...yield} = obj)",
+    "source": "({...yield} = obj)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

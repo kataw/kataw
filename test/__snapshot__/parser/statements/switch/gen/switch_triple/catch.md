@@ -134,7 +134,7 @@ switch switch switch catch
         }
     ],
     "isModule": false,
-    "text": "switch switch switch catch",
+    "source": "switch switch switch catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

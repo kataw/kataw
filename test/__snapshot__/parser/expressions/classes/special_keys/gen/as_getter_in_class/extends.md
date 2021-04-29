@@ -109,7 +109,7 @@ class x {get extends(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get extends(){}}",
+    "source": "class x {get extends(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

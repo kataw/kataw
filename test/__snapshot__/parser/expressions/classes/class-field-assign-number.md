@@ -76,7 +76,7 @@ class C { #aaa = 0 }
         }
     ],
     "isModule": false,
-    "text": "class C { #aaa = 0 }",
+    "source": "class C { #aaa = 0 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

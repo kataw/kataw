@@ -110,7 +110,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  a\\u0072guments = x\n}",
+    "source": "function *f(){\n  a\\u0072guments = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

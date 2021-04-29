@@ -217,7 +217,7 @@ async( x = class { x = await });
         }
     ],
     "isModule": false,
-    "text": "async () => class C { aaa = await };\n\nasync( x = class { x = await });",
+    "source": "async () => class C { aaa = await };\n\nasync( x = class { x = await });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

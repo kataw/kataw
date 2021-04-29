@@ -48,7 +48,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*=f(){}})",
+    "source": "({*=f(){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

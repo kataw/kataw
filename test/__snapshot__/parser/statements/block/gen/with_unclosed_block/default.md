@@ -110,7 +110,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { default",
+    "source": "{ {} finally(x) { default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

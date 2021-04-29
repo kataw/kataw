@@ -95,7 +95,7 @@ foo(x => ok).bar
         }
     ],
     "isModule": false,
-    "text": "foo(x => ok).bar",
+    "source": "foo(x => ok).bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

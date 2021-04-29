@@ -128,7 +128,7 @@
         }
     ],
     "isModule": false,
-    "text": "[((((((x = y))))))] = obj",
+    "source": "[((((((x = y))))))] = obj",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

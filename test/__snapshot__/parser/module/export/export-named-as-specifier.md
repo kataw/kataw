@@ -100,7 +100,7 @@ export {foo as bar};
         }
     ],
     "isModule": true,
-    "text": "export {foo as bar};",
+    "source": "export {foo as bar};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

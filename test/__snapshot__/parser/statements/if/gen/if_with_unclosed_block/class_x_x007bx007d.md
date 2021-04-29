@@ -101,7 +101,7 @@ else {} if(x) { class x {}
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { class x {}",
+    "source": "else {} if(x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

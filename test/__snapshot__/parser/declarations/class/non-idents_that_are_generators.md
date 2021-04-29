@@ -124,7 +124,7 @@ class x { *"x"(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { *\"x\"(){} }",
+    "source": "class x { *\"x\"(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

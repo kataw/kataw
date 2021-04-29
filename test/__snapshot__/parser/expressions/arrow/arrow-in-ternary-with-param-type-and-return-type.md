@@ -150,7 +150,7 @@ test
         }
     ],
     "isModule": false,
-    "text": "test\n  ? (x: T): U => y\n  : z",
+    "source": "test\n  ? (x: T): U => y\n  : z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

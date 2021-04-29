@@ -83,7 +83,7 @@ class delete {}
         }
     ],
     "isModule": false,
-    "text": "class delete {}",
+    "source": "class delete {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

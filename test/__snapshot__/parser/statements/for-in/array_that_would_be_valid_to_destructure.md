@@ -91,7 +91,7 @@ for ([x] in obj);
         }
     ],
     "isModule": false,
-    "text": "for ([x] in obj);",
+    "source": "for ([x] in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

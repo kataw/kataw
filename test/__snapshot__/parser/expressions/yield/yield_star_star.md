@@ -51,7 +51,7 @@ yield ** x;
         }
     ],
     "isModule": false,
-    "text": "yield ** x;",
+    "source": "yield ** x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

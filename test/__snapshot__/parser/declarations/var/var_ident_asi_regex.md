@@ -127,7 +127,7 @@ var q
         }
     ],
     "isModule": false,
-    "text": "var q\n/d/",
+    "source": "var q\n/d/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

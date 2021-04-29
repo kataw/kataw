@@ -172,7 +172,7 @@ async ([a]:string)=>c;
         }
     ],
     "isModule": false,
-    "text": "async (a:string)=>c;\n\nasync ([a]:string)=>c;",
+    "source": "async (a:string)=>c;\n\nasync ([a]:string)=>c;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

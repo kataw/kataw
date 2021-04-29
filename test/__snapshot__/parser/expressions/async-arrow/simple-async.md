@@ -73,7 +73,7 @@ async (x, ...a)=>0;
         }
     ],
     "isModule": false,
-    "text": "async (x, ...a)=>0;",
+    "source": "async (x, ...a)=>0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

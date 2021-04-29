@@ -228,7 +228,7 @@ function *foo() {
         }
     ],
     "isModule": false,
-    "text": "function *foo() {\n  const x = (yield 5: any);\n  x ? yield 1 : x;\n}",
+    "source": "function *foo() {\n  const x = (yield 5: any);\n  x ? yield 1 : x;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

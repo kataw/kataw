@@ -128,7 +128,7 @@ class x {set typeof(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set typeof(x){}}",
+    "source": "class x {set typeof(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

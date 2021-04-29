@@ -95,7 +95,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends typeof x {})",
+    "source": "(class B extends typeof x {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

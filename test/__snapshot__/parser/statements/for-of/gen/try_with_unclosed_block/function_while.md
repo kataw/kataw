@@ -178,7 +178,7 @@ try {} finally(x) { function while
         }
     ],
     "isModule": false,
-    "text": "try {} finally(x) { function while",
+    "source": "try {} finally(x) { function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

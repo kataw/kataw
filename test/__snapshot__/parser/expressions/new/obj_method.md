@@ -118,7 +118,7 @@ foo({bar(){ new.target }})
         }
     ],
     "isModule": false,
-    "text": "foo({bar(){ new.target }})",
+    "source": "foo({bar(){ new.target }})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

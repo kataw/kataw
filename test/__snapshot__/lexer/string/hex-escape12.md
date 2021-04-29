@@ -49,7 +49,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\x9q\"\n;\n\"\\x5\"\n;\n",
+    "source": "\"\\x9q\"\n;\n\"\\x5\"\n;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

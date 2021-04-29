@@ -174,7 +174,7 @@ var x = {
         }
     ],
     "isModule": false,
-    "text": "var foo,\n    get,\n    set;\n\nvar x = {\n    foo,\n    get,\n    set\n};\n",
+    "source": "var foo,\n    get,\n    set;\n\nvar x = {\n    foo,\n    get,\n    set\n};\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

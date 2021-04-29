@@ -110,7 +110,7 @@ catch function while finally
         }
     ],
     "isModule": false,
-    "text": "catch function while finally",
+    "source": "catch function while finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

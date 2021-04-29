@@ -86,7 +86,7 @@
         }
     ],
     "isModule": false,
-    "text": "[foo = A] = arr;",
+    "source": "[foo = A] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

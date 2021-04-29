@@ -107,7 +107,7 @@ function f() { var await; }
         }
     ],
     "isModule": false,
-    "text": "function f() { var await; }",
+    "source": "function f() { var await; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

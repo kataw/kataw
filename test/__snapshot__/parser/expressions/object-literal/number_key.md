@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({   async *500(){}   })",
+    "source": "({   async *500(){}   })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

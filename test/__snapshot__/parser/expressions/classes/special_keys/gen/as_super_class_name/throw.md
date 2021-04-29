@@ -97,7 +97,7 @@ class x extends throw {}
         }
     ],
     "isModule": false,
-    "text": "class x extends throw {}",
+    "source": "class x extends throw {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

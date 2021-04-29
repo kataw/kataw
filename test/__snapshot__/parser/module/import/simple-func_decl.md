@@ -178,7 +178,7 @@ x@{x9}@+@{x9}@y
         }
     ],
     "isModule": false,
-    "text": "x@{x9}@+@{x9}@y",
+    "source": "x@{x9}@+@{x9}@y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

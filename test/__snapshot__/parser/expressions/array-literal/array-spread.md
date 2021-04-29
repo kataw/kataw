@@ -202,7 +202,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a,b,...rest]= {};\n\n[a,,...rest]= {};",
+    "source": "[a,b,...rest]= {};\n\n[a,,...rest]= {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -132,7 +132,7 @@ return[ async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "return[ async try while { catch }",
+    "source": "return[ async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

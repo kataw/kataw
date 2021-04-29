@@ -114,7 +114,7 @@ export { \u0061bc }
         }
     ],
     "isModule": true,
-    "text": "var abc = 5;\nexport { \\u0061bc }",
+    "source": "var abc = 5;\nexport { \\u0061bc }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

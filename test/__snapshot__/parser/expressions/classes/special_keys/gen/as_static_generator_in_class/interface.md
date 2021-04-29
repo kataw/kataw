@@ -114,7 +114,7 @@ class x {static * interface(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * interface(){}}",
+    "source": "class x {static * interface(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

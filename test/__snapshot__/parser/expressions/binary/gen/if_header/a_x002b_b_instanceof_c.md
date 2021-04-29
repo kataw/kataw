@@ -89,7 +89,7 @@ if ( a + b instanceof c ) ;
         }
     ],
     "isModule": false,
-    "text": "if ( a + b instanceof c ) ;",
+    "source": "if ( a + b instanceof c ) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

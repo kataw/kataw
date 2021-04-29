@@ -132,7 +132,7 @@ class A {
         }
     ],
     "isModule": false,
-    "text": "class A {\n  get prop (arg) {}\n}",
+    "source": "class A {\n  get prop (arg) {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

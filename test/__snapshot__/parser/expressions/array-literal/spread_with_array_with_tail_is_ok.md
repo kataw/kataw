@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...[x].map(y, z)];",
+    "source": "[...[x].map(y, z)];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -112,7 +112,7 @@ function* f(){ yield
         }
     ],
     "isModule": false,
-    "text": "function* f(){ yield\n/foo }",
+    "source": "function* f(){ yield\n/foo }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -101,7 +101,7 @@ if (x) { "use strict"; with (x) y; }
         }
     ],
     "isModule": false,
-    "text": "if (x) { \"use strict\"; with (x) y; }",
+    "source": "if (x) { \"use strict\"; with (x) y; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

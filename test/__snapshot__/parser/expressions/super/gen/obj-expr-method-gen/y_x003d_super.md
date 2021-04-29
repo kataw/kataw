@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ *method() { y = super } })",
+    "source": "({ *method() { y = super } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

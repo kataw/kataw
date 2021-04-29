@@ -100,7 +100,7 @@
         }
     ],
     "isModule": false,
-    "text": "6[(x=>y)]in 3",
+    "source": "6[(x=>y)]in 3",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

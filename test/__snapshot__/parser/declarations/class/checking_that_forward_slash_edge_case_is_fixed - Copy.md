@@ -149,7 +149,7 @@ class x { static / foo(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { static / foo(){} }",
+    "source": "class x { static / foo(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

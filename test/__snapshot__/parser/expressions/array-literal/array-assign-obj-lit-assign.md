@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x, {y = 1}] = [0, {}]",
+    "source": "[x, {y = 1}] = [0, {}]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

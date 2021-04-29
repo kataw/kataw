@@ -89,7 +89,7 @@ class x extends super {}
         }
     ],
     "isModule": false,
-    "text": "class x extends super {}",
+    "source": "class x extends super {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

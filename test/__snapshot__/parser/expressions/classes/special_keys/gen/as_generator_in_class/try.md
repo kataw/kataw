@@ -109,7 +109,7 @@ class x {* try(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* try(){}}",
+    "source": "class x {* try(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

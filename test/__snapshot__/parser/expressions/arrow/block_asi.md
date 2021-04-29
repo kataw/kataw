@@ -82,7 +82,7 @@
         }
     ],
     "isModule": false,
-    "text": "()=>{}\n{x}",
+    "source": "()=>{}\n{x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

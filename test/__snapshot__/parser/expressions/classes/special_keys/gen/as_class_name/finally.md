@@ -86,7 +86,7 @@ class finally {}
         }
     ],
     "isModule": false,
-    "text": "class finally {}",
+    "source": "class finally {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

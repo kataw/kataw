@@ -120,7 +120,7 @@ switch [catch] class x {}
         }
     ],
     "isModule": false,
-    "text": "switch [catch] class x {}",
+    "source": "switch [catch] class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

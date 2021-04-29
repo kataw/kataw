@@ -87,7 +87,7 @@ function foo(): {} {}
         }
     ],
     "isModule": false,
-    "text": "function foo(): {} {}",
+    "source": "function foo(): {} {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

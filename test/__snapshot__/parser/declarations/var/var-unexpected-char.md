@@ -156,7 +156,7 @@ var 𫠞_ = 12;
         }
     ],
     "isModule": false,
-    "text": "var _𖫵 = 11;\n\nvar 𫠝_ = 10;\n\nvar 𫠞_ = 12;",
+    "source": "var _𖫵 = 11;\n\nvar 𫠝_ = 10;\n\nvar 𫠞_ = 12;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

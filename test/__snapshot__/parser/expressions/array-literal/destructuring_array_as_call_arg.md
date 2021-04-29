@@ -116,7 +116,7 @@ foo([a, b] = arr);
         }
     ],
     "isModule": false,
-    "text": "foo([a, b] = arr);",
+    "source": "foo([a, b] = arr);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

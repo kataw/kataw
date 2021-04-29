@@ -161,7 +161,7 @@ switch (this.a) { c\u0061se 6: break; }
         }
     ],
     "isModule": false,
-    "text": "switch (this.a) { d\\u0065fault: break; }\n\nswitch (this.a) { c\\u0061se 6: break; }",
+    "source": "switch (this.a) { d\\u0065fault: break; }\n\nswitch (this.a) { c\\u0061se 6: break; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -132,7 +132,7 @@ function* bar() { yield class {} }
         }
     ],
     "isModule": false,
-    "text": "function* bar() { yield class {} }",
+    "source": "function* bar() { yield class {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {* implements(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* implements(){}}",
+    "source": "class x {* implements(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

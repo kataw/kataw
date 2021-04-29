@@ -99,7 +99,7 @@ true ? async.waterfall() : null;
         }
     ],
     "isModule": false,
-    "text": "true ? async.waterfall() : null;",
+    "source": "true ? async.waterfall() : null;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

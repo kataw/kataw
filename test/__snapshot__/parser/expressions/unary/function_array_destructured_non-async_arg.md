@@ -193,7 +193,7 @@ async function f(){   function fh([+ await x]) { }   }
         }
     ],
     "isModule": false,
-    "text": "async function f(){   function fh([+ await x]) { }   }",
+    "source": "async function f(){   function fh([+ await x]) { }   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

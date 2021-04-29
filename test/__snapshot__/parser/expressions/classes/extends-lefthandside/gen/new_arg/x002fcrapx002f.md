@@ -47,7 +47,7 @@ new /crap/
         }
     ],
     "isModule": false,
-    "text": "new /crap/",
+    "source": "new /crap/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

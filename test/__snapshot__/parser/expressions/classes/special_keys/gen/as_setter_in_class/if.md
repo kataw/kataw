@@ -128,7 +128,7 @@ class x {set if(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set if(x){}}",
+    "source": "class x {set if(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

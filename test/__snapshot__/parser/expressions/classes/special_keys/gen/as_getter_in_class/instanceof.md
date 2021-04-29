@@ -109,7 +109,7 @@ class x {get instanceof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get instanceof(){}}",
+    "source": "class x {get instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

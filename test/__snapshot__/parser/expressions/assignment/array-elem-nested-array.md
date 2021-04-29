@@ -263,7 +263,7 @@ result = [[x]] = vals;
         }
     ],
     "isModule": false,
-    "text": "var x;\n\nvar result;\nvar vals = [[1]];\n\nresult = [[x]] = vals;",
+    "source": "var x;\n\nvar result;\nvar vals = [[1]];\n\nresult = [[x]] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

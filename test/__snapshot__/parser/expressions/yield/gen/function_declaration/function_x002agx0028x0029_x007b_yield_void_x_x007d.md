@@ -162,7 +162,7 @@ function not_gen() { function *g() { yield void x } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function *g() { yield void x } }}",
+    "source": "function not_gen() { function *g() { yield void x } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

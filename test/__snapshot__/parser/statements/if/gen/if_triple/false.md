@@ -97,7 +97,7 @@ if if if false
         }
     ],
     "isModule": false,
-    "text": "if if if false",
+    "source": "if if if false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

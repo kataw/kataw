@@ -111,7 +111,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ src: ([dest]) } = obj)",
+    "source": "({ src: ([dest]) } = obj)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

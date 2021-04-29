@@ -149,7 +149,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: [foo, bar].join(\"\")}) => x",
+    "source": "({ident: [foo, bar].join(\"\")}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

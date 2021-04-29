@@ -161,7 +161,7 @@ class C { *method() { y = super } }
         }
     ],
     "isModule": false,
-    "text": "class C { *method() { y = super } }",
+    "source": "class C { *method() { y = super } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

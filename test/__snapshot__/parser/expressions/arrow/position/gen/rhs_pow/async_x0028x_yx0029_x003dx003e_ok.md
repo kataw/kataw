@@ -93,7 +93,7 @@ x ** async (x, y) => ok
         }
     ],
     "isModule": false,
-    "text": "x ** async (x, y) => ok",
+    "source": "x ** async (x, y) => ok",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

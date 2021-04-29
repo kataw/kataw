@@ -118,7 +118,7 @@ class C { #aaa(){} }
         }
     ],
     "isModule": false,
-    "text": "class C { #aaa(){} }",
+    "source": "class C { #aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

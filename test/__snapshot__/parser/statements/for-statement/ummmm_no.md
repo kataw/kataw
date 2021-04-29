@@ -129,7 +129,7 @@ for (const ...x in y){}
         }
     ],
     "isModule": false,
-    "text": "for (const ...x in y){}",
+    "source": "for (const ...x in y){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

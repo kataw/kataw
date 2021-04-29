@@ -107,7 +107,7 @@ class x{}
         }
     ],
     "isModule": false,
-    "text": "class x{}\n/foo/",
+    "source": "class x{}\n/foo/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

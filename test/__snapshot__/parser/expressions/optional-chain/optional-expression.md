@@ -97,7 +97,7 @@ obj?.a?.b
         }
     ],
     "isModule": false,
-    "text": "obj?.a?.b",
+    "source": "obj?.a?.b",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

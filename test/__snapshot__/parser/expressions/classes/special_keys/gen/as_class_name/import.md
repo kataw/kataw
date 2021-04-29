@@ -92,7 +92,7 @@ class import {}
         }
     ],
     "isModule": false,
-    "text": "class import {}",
+    "source": "class import {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

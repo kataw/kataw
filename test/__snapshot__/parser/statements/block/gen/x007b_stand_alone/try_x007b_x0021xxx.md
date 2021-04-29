@@ -102,7 +102,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ try { !xxx",
+    "source": "{ try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

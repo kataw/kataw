@@ -68,7 +68,7 @@ new x in y
         }
     ],
     "isModule": false,
-    "text": "new x in y",
+    "source": "new x in y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {async try(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async try(){}}",
+    "source": "class x {async try(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

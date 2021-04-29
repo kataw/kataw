@@ -94,7 +94,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"use strict\"; var x = yield => 1;",
+    "source": "\"use strict\"; var x = yield => 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -94,7 +94,7 @@ class const {}
         }
     ],
     "isModule": false,
-    "text": "class const {}",
+    "source": "class const {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

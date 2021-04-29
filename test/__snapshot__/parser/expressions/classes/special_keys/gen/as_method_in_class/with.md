@@ -104,7 +104,7 @@ class x {with(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {with(){}}",
+    "source": "class x {with(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

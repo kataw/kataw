@@ -109,7 +109,7 @@ class x {get else(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get else(){}}",
+    "source": "class x {get else(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -170,7 +170,7 @@ class C { #aaa
         }
     ],
     "isModule": false,
-    "text": "class C { #aaa; #bbb }\n\nclass C { #aaa\n #bbb }",
+    "source": "class C { #aaa; #bbb }\n\nclass C { #aaa\n #bbb }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

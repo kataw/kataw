@@ -136,7 +136,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  \\u0066unction = x\n}",
+    "source": "function *f(){\n  \\u0066unction = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

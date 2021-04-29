@@ -87,7 +87,7 @@ wrap({15:b});
         }
     ],
     "isModule": false,
-    "text": "wrap({15:b});",
+    "source": "wrap({15:b});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

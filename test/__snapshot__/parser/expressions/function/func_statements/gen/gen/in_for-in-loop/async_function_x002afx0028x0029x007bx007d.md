@@ -117,7 +117,7 @@ for (a in b) async function *f(){}
         }
     ],
     "isModule": false,
-    "text": "for (a in b) async function *f(){}",
+    "source": "for (a in b) async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

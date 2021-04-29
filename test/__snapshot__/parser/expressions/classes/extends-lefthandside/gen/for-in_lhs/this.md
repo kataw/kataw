@@ -59,7 +59,7 @@ for (this in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (this in x) ;",
+    "source": "for (this in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

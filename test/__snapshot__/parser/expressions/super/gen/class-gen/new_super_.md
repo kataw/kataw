@@ -154,7 +154,7 @@ class C { *method() { new super; } }
         }
     ],
     "isModule": false,
-    "text": "class C { *method() { new super; } }",
+    "source": "class C { *method() { new super; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

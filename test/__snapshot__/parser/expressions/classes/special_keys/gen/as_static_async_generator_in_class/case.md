@@ -119,7 +119,7 @@ class x {static async * case(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * case(){}}",
+    "source": "class x {static async * case(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

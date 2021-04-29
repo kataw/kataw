@@ -109,7 +109,7 @@ class x {get await(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get await(){}}",
+    "source": "class x {get await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

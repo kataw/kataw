@@ -126,7 +126,7 @@ s = {"foo": await a = x} = x
         }
     ],
     "isModule": false,
-    "text": "s = {\"foo\": await a = x} = x",
+    "source": "s = {\"foo\": await a = x} = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

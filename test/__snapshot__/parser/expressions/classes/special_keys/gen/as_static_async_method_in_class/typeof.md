@@ -114,7 +114,7 @@ class x {static async typeof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async typeof(){}}",
+    "source": "class x {static async typeof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

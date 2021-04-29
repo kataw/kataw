@@ -109,7 +109,7 @@ class x {get switch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get switch(){}}",
+    "source": "class x {get switch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

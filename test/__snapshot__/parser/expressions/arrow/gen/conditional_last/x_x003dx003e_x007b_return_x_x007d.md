@@ -101,7 +101,7 @@ bar, x => { return x; };
         }
     ],
     "isModule": false,
-    "text": "bar, x => { return x; };",
+    "source": "bar, x => { return x; };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

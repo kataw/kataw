@@ -90,7 +90,7 @@ for ("foo".bar in obj);
         }
     ],
     "isModule": false,
-    "text": "for (\"foo\".bar in obj);",
+    "source": "for (\"foo\".bar in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

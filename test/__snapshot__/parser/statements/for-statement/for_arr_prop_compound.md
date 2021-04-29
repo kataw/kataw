@@ -112,7 +112,7 @@ for ([].w ^= s;;) x;
         }
     ],
     "isModule": false,
-    "text": "for ([].w ^= s;;) x;",
+    "source": "for ([].w ^= s;;) x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

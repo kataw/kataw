@@ -50,7 +50,7 @@ something.#x
         }
     ],
     "isModule": false,
-    "text": "something.#x",
+    "source": "something.#x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

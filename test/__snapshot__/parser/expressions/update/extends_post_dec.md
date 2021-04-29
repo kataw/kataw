@@ -80,7 +80,7 @@ class x extends a-- {}
         }
     ],
     "isModule": false,
-    "text": "class x extends a-- {}",
+    "source": "class x extends a-- {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

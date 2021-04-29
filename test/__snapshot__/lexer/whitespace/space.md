@@ -17,7 +17,7 @@
     "directives": [],
     "statements": [],
     "isModule": false,
-    "text": "\n",
+    "source": "\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

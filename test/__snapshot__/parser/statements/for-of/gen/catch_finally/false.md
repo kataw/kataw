@@ -91,7 +91,7 @@ catch false finally
         }
     ],
     "isModule": false,
-    "text": "catch false finally",
+    "source": "catch false finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

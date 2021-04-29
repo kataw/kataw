@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({static x(){}})",
+    "source": "({static x(){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

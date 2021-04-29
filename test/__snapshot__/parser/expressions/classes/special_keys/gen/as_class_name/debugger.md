@@ -76,7 +76,7 @@ class debugger {}
         }
     ],
     "isModule": false,
-    "text": "class debugger {}",
+    "source": "class debugger {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

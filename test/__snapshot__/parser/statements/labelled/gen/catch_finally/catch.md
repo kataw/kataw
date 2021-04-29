@@ -86,7 +86,7 @@ catch catch finally
         }
     ],
     "isModule": false,
-    "text": "catch catch finally",
+    "source": "catch catch finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@
         }
     ],
     "isModule": false,
-    "text": "({x: y}.length) = z",
+    "source": "({x: y}.length) = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

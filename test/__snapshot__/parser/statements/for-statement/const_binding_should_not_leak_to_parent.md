@@ -321,7 +321,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
         }
     ],
     "isModule": false,
-    "text": "for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1; ) {};",
+    "source": "for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1; ) {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

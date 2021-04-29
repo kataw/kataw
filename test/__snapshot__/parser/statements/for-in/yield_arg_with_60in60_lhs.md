@@ -163,7 +163,7 @@ function *f(){   for (yield x in y in z);   }
         }
     ],
     "isModule": false,
-    "text": "function *f(){   for (yield x in y in z);   }",
+    "source": "function *f(){   for (yield x in y in z);   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -80,7 +80,7 @@
         }
     ],
     "isModule": false,
-    "text": "[ok.v] = 20;",
+    "source": "[ok.v] = 20;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

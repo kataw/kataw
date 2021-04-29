@@ -93,7 +93,7 @@ for (;;) async function f(){}
         }
     ],
     "isModule": false,
-    "text": "for (;;) async function f(){}",
+    "source": "for (;;) async function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

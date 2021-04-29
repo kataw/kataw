@@ -1944,7 +1944,7 @@ q = {"foo": super = x} = x;
         }
     ],
     "isModule": false,
-    "text": "q = { x: [(x, y)] } = { x: [] };\nq = { x: [(x, y)] } = {};\nq = { x: [(x, y)] } = { 1: [] = [(q= b)] };\nq = { x: [(x, y)] } = undefined;\nq = { x: [(x, y)] } = null;\nq = { x: [(x, y)] } = 51;\nq = { x: [(x, y)] } = false;\nq = { x: [(x, y)] } = b;\nq = { x: [(x, y)] } = { x: null };\nq = { [a]: {} /= a };\nq = { a: {} /= a };\nq = { a: {} ++a };\nq = {\"foo\": falqe = q} = x;\nq = {\"foo\": null = x} = x;\nq = {\"foo\": super = x} = x;",
+    "source": "q = { x: [(x, y)] } = { x: [] };\nq = { x: [(x, y)] } = {};\nq = { x: [(x, y)] } = { 1: [] = [(q= b)] };\nq = { x: [(x, y)] } = undefined;\nq = { x: [(x, y)] } = null;\nq = { x: [(x, y)] } = 51;\nq = { x: [(x, y)] } = false;\nq = { x: [(x, y)] } = b;\nq = { x: [(x, y)] } = { x: null };\nq = { [a]: {} /= a };\nq = { a: {} /= a };\nq = { a: {} ++a };\nq = {\"foo\": falqe = q} = x;\nq = {\"foo\": null = x} = x;\nq = {\"foo\": super = x} = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

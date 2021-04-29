@@ -77,7 +77,7 @@ if( catch
         }
     ],
     "isModule": false,
-    "text": "if( catch",
+    "source": "if( catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

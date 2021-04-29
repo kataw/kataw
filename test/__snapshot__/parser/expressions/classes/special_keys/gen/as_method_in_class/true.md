@@ -104,7 +104,7 @@ class x {true(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {true(){}}",
+    "source": "class x {true(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

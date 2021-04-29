@@ -56,7 +56,7 @@ async (yield x)
         }
     ],
     "isModule": false,
-    "text": "async (yield x)",
+    "source": "async (yield x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

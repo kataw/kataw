@@ -52,7 +52,7 @@ class this {}
         }
     ],
     "isModule": false,
-    "text": "class this {}",
+    "source": "class this {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

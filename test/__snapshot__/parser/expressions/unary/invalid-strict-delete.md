@@ -144,7 +144,7 @@
         }
     ],
     "isModule": false,
-    "text": "\n\"use strict\"; delete foo;\n\n\"use strict\"; delete (foo);\n\n\"use strict\"; delete interface;\n",
+    "source": "\n\"use strict\"; delete foo;\n\n\"use strict\"; delete (foo);\n\n\"use strict\"; delete interface;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -151,7 +151,7 @@ await => async.await[async / ((async) => foo.bar)]
         }
     ],
     "isModule": false,
-    "text": "await => async.await[async / ((async) => foo.bar)]",
+    "source": "await => async.await[async / ((async) => foo.bar)]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

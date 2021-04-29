@@ -86,7 +86,7 @@ switch (A) {default: B; break;}
         }
     ],
     "isModule": false,
-    "text": "switch (A) {default: B; break;}",
+    "source": "switch (A) {default: B; break;}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

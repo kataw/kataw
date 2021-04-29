@@ -126,7 +126,7 @@ function *P(){
         }
     ],
     "isModule": false,
-    "text": "function *P(){\n  class D extends false {}\n}",
+    "source": "function *P(){\n  class D extends false {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

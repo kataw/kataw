@@ -105,7 +105,7 @@ while (x);
         }
     ],
     "isModule": false,
-    "text": "do async function f(){}\nwhile (x);",
+    "source": "do async function f(){}\nwhile (x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

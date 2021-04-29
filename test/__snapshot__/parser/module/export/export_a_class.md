@@ -69,7 +69,7 @@ export class x {}
         }
     ],
     "isModule": true,
-    "text": "export class x {}",
+    "source": "export class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

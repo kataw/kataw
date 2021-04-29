@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ * bar(x){}})",
+    "source": "({ * bar(x){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

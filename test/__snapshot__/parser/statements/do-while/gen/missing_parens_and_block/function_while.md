@@ -124,7 +124,7 @@ do function while while
         }
     ],
     "isModule": false,
-    "text": "do function while while",
+    "source": "do function while while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

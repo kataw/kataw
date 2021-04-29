@@ -110,7 +110,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  \\u0070ackage = x\n}",
+    "source": "function *f(){\n  \\u0070ackage = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -51,7 +51,7 @@ export {}
         }
     ],
     "isModule": true,
-    "text": "export {}",
+    "source": "export {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

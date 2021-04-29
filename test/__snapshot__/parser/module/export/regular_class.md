@@ -83,7 +83,7 @@ export class x {} foo
         }
     ],
     "isModule": true,
-    "text": "export class x {} foo",
+    "source": "export class x {} foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

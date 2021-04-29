@@ -233,7 +233,7 @@ var await; var f = (async function() { y = async x => await x });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { y = async x => await x });",
+    "source": "var await; var f = (async function() { y = async x => await x });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

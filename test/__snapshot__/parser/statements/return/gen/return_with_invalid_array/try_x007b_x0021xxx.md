@@ -149,7 +149,7 @@ return [catch] try { !xxx
         }
     ],
     "isModule": false,
-    "text": "return [catch] try { !xxx",
+    "source": "return [catch] try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

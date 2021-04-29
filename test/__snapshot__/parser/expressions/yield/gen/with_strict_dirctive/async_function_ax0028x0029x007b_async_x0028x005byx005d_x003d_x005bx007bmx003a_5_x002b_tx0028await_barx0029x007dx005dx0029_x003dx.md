@@ -265,7 +265,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }",
+    "source": "'use strict'; async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

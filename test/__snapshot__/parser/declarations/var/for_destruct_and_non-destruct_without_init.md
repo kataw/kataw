@@ -125,7 +125,7 @@ for (var [foo] = arr, bar);
         }
     ],
     "isModule": false,
-    "text": "for (var [foo] = arr, bar);",
+    "source": "for (var [foo] = arr, bar);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; let:0;\n\n'use strict'; +implements;",
+    "source": "'use strict'; let:0;\n\n'use strict'; +implements;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

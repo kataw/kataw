@@ -86,7 +86,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...x.x, y})",
+    "source": "({...x.x, y})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

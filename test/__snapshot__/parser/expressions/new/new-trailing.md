@@ -65,7 +65,7 @@ new x().y;
         }
     ],
     "isModule": false,
-    "text": "new x().y;",
+    "source": "new x().y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

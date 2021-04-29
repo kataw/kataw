@@ -126,7 +126,7 @@ s = {"foo": yield a = x} = x
         }
     ],
     "isModule": false,
-    "text": "s = {\"foo\": yield a = x} = x",
+    "source": "s = {\"foo\": yield a = x} = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -43,7 +43,7 @@
         }
     ],
     "isModule": true,
-    "text": "\"\\000",
+    "source": "\"\\000",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

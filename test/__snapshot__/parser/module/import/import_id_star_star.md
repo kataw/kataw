@@ -93,7 +93,7 @@ import a, ** from 'f';
         }
     ],
     "isModule": true,
-    "text": "import a, ** from 'f';",
+    "source": "import a, ** from 'f';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

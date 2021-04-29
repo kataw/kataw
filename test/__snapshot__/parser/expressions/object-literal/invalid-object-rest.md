@@ -108,7 +108,7 @@
         }
     ],
     "isModule": false,
-    "text": "0, {...rest, b} = {}",
+    "source": "0, {...rest, b} = {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

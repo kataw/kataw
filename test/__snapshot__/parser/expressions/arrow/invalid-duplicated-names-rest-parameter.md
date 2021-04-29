@@ -106,7 +106,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a,...[a]) => 0;",
+    "source": "(a,...[a]) => 0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

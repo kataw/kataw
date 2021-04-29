@@ -99,7 +99,7 @@ class x extends export {}
         }
     ],
     "isModule": false,
-    "text": "class x extends export {}",
+    "source": "class x extends export {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

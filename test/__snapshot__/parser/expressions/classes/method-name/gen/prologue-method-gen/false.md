@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; ({*false(x, y) {}});",
+    "source": "'use strict'; ({*false(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

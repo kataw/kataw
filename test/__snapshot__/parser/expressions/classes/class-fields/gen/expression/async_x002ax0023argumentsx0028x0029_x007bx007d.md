@@ -133,7 +133,7 @@ class C extends Base { async *#arguments() {} }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { async *#arguments() {} }",
+    "source": "class C extends Base { async *#arguments() {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

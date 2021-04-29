@@ -154,7 +154,7 @@ return {} return(x) { try { !xxx
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { try { !xxx",
+    "source": "return {} return(x) { try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

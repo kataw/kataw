@@ -66,7 +66,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a * 1]",
+    "source": "[a * 1]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

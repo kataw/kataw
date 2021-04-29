@@ -185,7 +185,7 @@ class x { fo(){ return function() { super.foo; } }}
         }
     ],
     "isModule": false,
-    "text": "class x { fo(){ return function() { super.foo; } }}",
+    "source": "class x { fo(){ return function() { super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

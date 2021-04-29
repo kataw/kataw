@@ -133,7 +133,7 @@ class x {static set else(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set else(x){}}",
+    "source": "class x {static set else(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

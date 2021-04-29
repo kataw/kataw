@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\x5q\"",
+    "source": "\"\\x5q\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

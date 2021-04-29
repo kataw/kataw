@@ -61,7 +61,7 @@ for (async in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (async in x) ;",
+    "source": "for (async in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

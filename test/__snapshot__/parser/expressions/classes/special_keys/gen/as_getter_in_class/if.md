@@ -109,7 +109,7 @@ class x {get if(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get if(){}}",
+    "source": "class x {get if(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

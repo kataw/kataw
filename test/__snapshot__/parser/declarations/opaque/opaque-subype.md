@@ -132,7 +132,7 @@ opaque type Counter: Box<T> = Container<T>;
         }
     ],
     "isModule": false,
-    "text": "opaque type Counter: Box<T> = Container<T>;",
+    "source": "opaque type Counter: Box<T> = Container<T>;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

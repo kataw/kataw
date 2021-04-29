@@ -114,7 +114,7 @@ function *a(){yield typeof 0}
         }
     ],
     "isModule": false,
-    "text": "function *a(){yield typeof 0}",
+    "source": "function *a(){yield typeof 0}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

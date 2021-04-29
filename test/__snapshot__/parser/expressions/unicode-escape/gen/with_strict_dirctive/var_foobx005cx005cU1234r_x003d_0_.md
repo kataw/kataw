@@ -102,7 +102,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; var foob\\\\U1234r = 0;",
+    "source": "'use strict'; var foob\\\\U1234r = 0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

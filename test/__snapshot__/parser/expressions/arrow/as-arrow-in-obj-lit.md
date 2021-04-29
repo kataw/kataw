@@ -213,7 +213,7 @@ x = {arrow: (x, y) => ok};
         }
     ],
     "isModule": false,
-    "text": "x = {arrow: (x) => ok};\n\nx = {arrow: (x, y) => ok};",
+    "source": "x = {arrow: (x) => ok};\n\nx = {arrow: (x, y) => ok};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

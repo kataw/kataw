@@ -113,7 +113,7 @@ g => await g
         }
     ],
     "isModule": false,
-    "text": "let f = async\ng => await g",
+    "source": "let f = async\ng => await g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

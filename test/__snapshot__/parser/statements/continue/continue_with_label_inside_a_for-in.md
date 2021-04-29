@@ -85,7 +85,7 @@ foo: for (x in y) continue foo
         }
     ],
     "isModule": false,
-    "text": "foo: for (x in y) continue foo",
+    "source": "foo: for (x in y) continue foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

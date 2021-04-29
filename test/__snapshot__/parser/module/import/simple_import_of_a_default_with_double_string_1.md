@@ -60,7 +60,7 @@ import x from "y"
         }
     ],
     "isModule": true,
-    "text": "import x from \"y\"",
+    "source": "import x from \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

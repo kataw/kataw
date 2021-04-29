@@ -88,7 +88,7 @@ class x {case: x}
         }
     ],
     "isModule": false,
-    "text": "class x {case: x}",
+    "source": "class x {case: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

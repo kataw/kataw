@@ -122,7 +122,7 @@
         }
     ],
     "isModule": false,
-    "text": "({x} = await bar) => {};\n\n([x] = await bar) => {};\n",
+    "source": "({x} = await bar) => {};\n\n([x] = await bar) => {};\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

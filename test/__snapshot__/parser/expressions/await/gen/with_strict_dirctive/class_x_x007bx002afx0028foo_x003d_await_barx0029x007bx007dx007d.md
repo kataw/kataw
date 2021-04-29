@@ -162,7 +162,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; class x {*f(foo = await bar){}}",
+    "source": "'use strict'; class x {*f(foo = await bar){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

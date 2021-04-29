@@ -87,7 +87,7 @@ while(y)
         }
     ],
     "isModule": false,
-    "text": "do x=>{}\nwhile(y)",
+    "source": "do x=>{}\nwhile(y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

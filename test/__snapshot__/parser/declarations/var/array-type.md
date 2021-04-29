@@ -422,7 +422,7 @@ var a: (?number)[];
         }
     ],
     "isModule": false,
-    "text": "var a: number[];\n\nvar a: (() => number)[];\n\nvar a: () => number[];\n\nvar a: number[][];\n\nvar a: number\n[];\n\nvar a: (?number)[];",
+    "source": "var a: number[];\n\nvar a: (() => number)[];\n\nvar a: () => number[];\n\nvar a: number[][];\n\nvar a: number\n[];\n\nvar a: (?number)[];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

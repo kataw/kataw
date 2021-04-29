@@ -130,7 +130,7 @@
         }
     ],
     "isModule": false,
-    "text": "[function(){}.length] = x",
+    "source": "[function(){}.length] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

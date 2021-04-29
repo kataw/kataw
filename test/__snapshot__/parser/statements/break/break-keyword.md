@@ -30,7 +30,7 @@ break
         }
     ],
     "isModule": false,
-    "text": "break",
+    "source": "break",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

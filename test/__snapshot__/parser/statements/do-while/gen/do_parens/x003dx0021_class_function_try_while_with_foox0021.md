@@ -224,7 +224,7 @@ do( =! class function try while with foo! while
         }
     ],
     "isModule": false,
-    "text": "do( =! class function try while with foo! while",
+    "source": "do( =! class function try while with foo! while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

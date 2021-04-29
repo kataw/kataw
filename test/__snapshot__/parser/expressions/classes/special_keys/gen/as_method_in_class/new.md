@@ -104,7 +104,7 @@ class x {new(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {new(){}}",
+    "source": "class x {new(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -105,7 +105,7 @@
         }
     ],
     "isModule": false,
-    "text": "`foo${`foo${bar}baz`}baz`",
+    "source": "`foo${`foo${bar}baz`}baz`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -103,7 +103,7 @@ class x extends continue {}
         }
     ],
     "isModule": false,
-    "text": "class x extends continue {}",
+    "source": "class x extends continue {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

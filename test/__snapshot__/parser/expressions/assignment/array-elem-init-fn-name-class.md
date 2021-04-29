@@ -271,7 +271,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
         }
     ],
     "isModule": false,
-    "text": "result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} } ] = vals;",
+    "source": "result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} } ] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

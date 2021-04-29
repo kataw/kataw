@@ -115,7 +115,7 @@ for (async a => b in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (async a => b in x) ;",
+    "source": "for (async a => b in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

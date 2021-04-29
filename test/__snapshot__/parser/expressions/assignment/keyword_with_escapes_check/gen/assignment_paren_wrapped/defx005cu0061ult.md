@@ -60,7 +60,7 @@
         }
     ],
     "isModule": false,
-    "text": "(def\\u0061ult = x);",
+    "source": "(def\\u0061ult = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@ class x {private(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {private(){}}",
+    "source": "class x {private(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -83,7 +83,7 @@ yield 3 + yield 4;
         }
     ],
     "isModule": false,
-    "text": "yield 3 + yield 4;",
+    "source": "yield 3 + yield 4;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -88,7 +88,7 @@ while (x) function f(){}
         }
     ],
     "isModule": false,
-    "text": "while (x) function f(){}",
+    "source": "while (x) function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

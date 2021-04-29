@@ -116,7 +116,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a:(b) = c} = 1)",
+    "source": "({a:(b) = c} = 1)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

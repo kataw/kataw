@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "(interface, eval) => {}",
+    "source": "(interface, eval) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

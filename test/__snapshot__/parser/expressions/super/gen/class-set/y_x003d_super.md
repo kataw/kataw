@@ -180,7 +180,7 @@ class C { set x(_) { y = super } }
         }
     ],
     "isModule": false,
-    "text": "class C { set x(_) { y = super } }",
+    "source": "class C { set x(_) { y = super } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

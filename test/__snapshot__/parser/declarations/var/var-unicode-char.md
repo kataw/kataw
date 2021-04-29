@@ -109,7 +109,7 @@ var _𐒦 = 10;
         }
     ],
     "isModule": false,
-    "text": "var 𫠝_ = 10;\n\nvar _𐒦 = 10;",
+    "source": "var 𫠝_ = 10;\n\nvar _𐒦 = 10;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

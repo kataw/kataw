@@ -128,7 +128,7 @@ class x {set throw(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set throw(x){}}",
+    "source": "class x {set throw(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

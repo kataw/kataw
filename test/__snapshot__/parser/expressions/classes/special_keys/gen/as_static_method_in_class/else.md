@@ -109,7 +109,7 @@ class x {static else(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static else(){}}",
+    "source": "class x {static else(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

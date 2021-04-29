@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "`a ${async async => {}} b`",
+    "source": "`a ${async async => {}} b`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

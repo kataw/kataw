@@ -111,7 +111,7 @@ case async try while { catch } default
         }
     ],
     "isModule": false,
-    "text": "case async try while { catch } default",
+    "source": "case async try while { catch } default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

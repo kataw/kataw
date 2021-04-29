@@ -73,7 +73,7 @@ for (import.meta of null) ;
         }
     ],
     "isModule": true,
-    "text": "for (import.meta of null) ;",
+    "source": "for (import.meta of null) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

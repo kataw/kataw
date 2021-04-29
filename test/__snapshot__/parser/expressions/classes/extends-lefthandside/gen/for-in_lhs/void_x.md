@@ -73,7 +73,7 @@ for (void x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (void x in x) ;",
+    "source": "for (void x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

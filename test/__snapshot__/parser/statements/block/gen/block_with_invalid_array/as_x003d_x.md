@@ -124,7 +124,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] as = x",
+    "source": "{ [catch] as = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

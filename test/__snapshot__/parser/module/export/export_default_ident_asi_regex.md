@@ -89,7 +89,7 @@ export default x
         }
     ],
     "isModule": true,
-    "text": "export default x\n/y/",
+    "source": "export default x\n/y/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

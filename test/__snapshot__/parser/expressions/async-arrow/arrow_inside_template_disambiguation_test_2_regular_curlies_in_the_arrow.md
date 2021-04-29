@@ -134,7 +134,7 @@
         }
     ],
     "isModule": false,
-    "text": "`X${async a => b + {}}Y`",
+    "source": "`X${async a => b + {}}Y`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

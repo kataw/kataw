@@ -109,7 +109,7 @@ class x {* package(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* package(){}}",
+    "source": "class x {* package(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

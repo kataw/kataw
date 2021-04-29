@@ -121,7 +121,7 @@ async function f(){  (await fail) => x  }
         }
     ],
     "isModule": false,
-    "text": "async function f(){  (await fail) => x  }",
+    "source": "async function f(){  (await fail) => x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({obj: x, ...a})",
+    "source": "({obj: x, ...a})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

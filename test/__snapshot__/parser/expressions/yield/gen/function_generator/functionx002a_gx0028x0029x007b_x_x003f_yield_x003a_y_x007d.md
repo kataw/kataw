@@ -230,7 +230,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function* g(){ x ? yield : y } }}",
+    "source": "function * gen() { function not_gen() { function* g(){ x ? yield : y } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

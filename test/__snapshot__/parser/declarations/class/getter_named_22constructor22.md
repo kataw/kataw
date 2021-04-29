@@ -113,7 +113,7 @@ class x { get "constructor"(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { get \"constructor\"(){} }",
+    "source": "class x { get \"constructor\"(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

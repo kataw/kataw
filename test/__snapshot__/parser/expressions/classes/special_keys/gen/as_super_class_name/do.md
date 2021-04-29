@@ -104,7 +104,7 @@ class x extends do {}
         }
     ],
     "isModule": false,
-    "text": "class x extends do {}",
+    "source": "class x extends do {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

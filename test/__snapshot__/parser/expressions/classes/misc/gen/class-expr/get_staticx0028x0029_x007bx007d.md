@@ -113,7 +113,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { get static() {} });",
+    "source": "(class { get static() {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

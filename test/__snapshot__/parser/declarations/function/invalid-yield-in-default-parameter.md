@@ -181,7 +181,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
         }
     ],
     "isModule": false,
-    "text": "function* x() { function* foo(a = 1 + (yield)) {} }",
+    "source": "function* x() { function* foo(a = 1 + (yield)) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -66,7 +66,7 @@ x = {arguments}
         }
     ],
     "isModule": false,
-    "text": "x = {arguments}",
+    "source": "x = {arguments}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

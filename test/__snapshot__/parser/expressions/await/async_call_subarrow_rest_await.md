@@ -120,7 +120,7 @@ async (a = (...await) => {});
         }
     ],
     "isModule": false,
-    "text": "async (a = (...await) => {});",
+    "source": "async (a = (...await) => {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

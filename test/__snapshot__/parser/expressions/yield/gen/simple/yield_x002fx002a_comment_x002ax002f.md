@@ -35,7 +35,7 @@ yield /* comment */
         }
     ],
     "isModule": false,
-    "text": "yield /* comment */",
+    "source": "yield /* comment */",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

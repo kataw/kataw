@@ -125,7 +125,7 @@ function not_gen() { await.b[c] => async }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { await.b[c] => async }}",
+    "source": "function not_gen() { await.b[c] => async }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

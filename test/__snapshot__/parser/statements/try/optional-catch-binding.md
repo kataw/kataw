@@ -1296,7 +1296,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
         }
     ],
     "isModule": false,
-    "text": "try { } catch { }\n\ntry { } catch { } finally { }\n\ntry { let e; } catch { let e; }\n\ntry { let e; } catch { let e; } finally { let e; }\n\n\"use strict\"; try { } catch { }\n\ntry { try { } catch { } finally { } } catch (e) { }\n\ntry { let e; } catch { let e; }\n\ntry {} catch ({e}) { try { let e; } catch { let e; } finally { let e; } }\n\nfunction f() { try { let e; } catch { let e; } finally { let e; } }",
+    "source": "try { } catch { }\n\ntry { } catch { } finally { }\n\ntry { let e; } catch { let e; }\n\ntry { let e; } catch { let e; } finally { let e; }\n\n\"use strict\"; try { } catch { }\n\ntry { try { } catch { } finally { } } catch (e) { }\n\ntry { let e; } catch { let e; }\n\ntry {} catch ({e}) { try { let e; } catch { let e; } finally { let e; } }\n\nfunction f() { try { let e; } catch { let e; } finally { let e; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

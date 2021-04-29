@@ -104,7 +104,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
         }
     ],
     "isModule": false,
-    "text": "x = `1 ${ yield } 2 ${ 3 } 4`",
+    "source": "x = `1 ${ yield } 2 ${ 3 } 4`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

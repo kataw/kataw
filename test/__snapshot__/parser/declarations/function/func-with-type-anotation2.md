@@ -140,7 +140,7 @@ function foo(numVal: any, otherVal: mixed){}
         }
     ],
     "isModule": false,
-    "text": "function foo(numVal: any, otherVal: mixed){}",
+    "source": "function foo(numVal: any, otherVal: mixed){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

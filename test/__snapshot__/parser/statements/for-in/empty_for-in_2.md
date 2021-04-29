@@ -82,7 +82,7 @@ for (var a in b);
         }
     ],
     "isModule": false,
-    "text": "for (var a in b);",
+    "source": "for (var a in b);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

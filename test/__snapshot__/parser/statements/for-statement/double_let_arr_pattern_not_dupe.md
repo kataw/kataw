@@ -191,7 +191,7 @@ for (let [a]=x;;);
         }
     ],
     "isModule": false,
-    "text": "for (let [a]=x;;);\nfor (let [a]=x;;);",
+    "source": "for (let [a]=x;;);\nfor (let [a]=x;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

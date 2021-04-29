@@ -104,7 +104,7 @@ class x {in(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {in(){}}",
+    "source": "class x {in(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

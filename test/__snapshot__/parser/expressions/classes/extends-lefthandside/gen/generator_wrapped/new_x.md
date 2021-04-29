@@ -140,7 +140,7 @@ function *P(){
         }
     ],
     "isModule": false,
-    "text": "function *P(){\n  class D extends new x {}\n}",
+    "source": "function *P(){\n  class D extends new x {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static * debugger(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * debugger(){}}",
+    "source": "class x {static * debugger(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {get debugger(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get debugger(){}}",
+    "source": "class x {get debugger(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

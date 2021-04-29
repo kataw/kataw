@@ -51,7 +51,7 @@ await - 25
         }
     ],
     "isModule": false,
-    "text": "await - 25",
+    "source": "await - 25",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -202,7 +202,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; (function * () { x = class extends (a ? null : yield) { } });",
+    "source": "'use strict'; (function * () { x = class extends (a ? null : yield) { } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

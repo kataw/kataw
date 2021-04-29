@@ -121,7 +121,7 @@ wrap({async [foo""](){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({async [foo\"\"](){}});",
+    "source": "wrap({async [foo\"\"](){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

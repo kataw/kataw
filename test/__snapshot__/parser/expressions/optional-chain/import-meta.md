@@ -148,7 +148,7 @@ function f() {
         }
     ],
     "isModule": false,
-    "text": "function f() {\n    return import?.(\"foo\").then(party);\n}",
+    "source": "function f() {\n    return import?.(\"foo\").then(party);\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

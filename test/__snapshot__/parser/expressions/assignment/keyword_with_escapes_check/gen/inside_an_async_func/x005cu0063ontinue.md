@@ -90,7 +90,7 @@ async () => {  \u0063ontinue = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0063ontinue = x  }",
+    "source": "async () => {  \\u0063ontinue = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -116,7 +116,7 @@ function f(x=(yield)=y){}
         }
     ],
     "isModule": false,
-    "text": "function f(x=(yield)=y){}",
+    "source": "function f(x=(yield)=y){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

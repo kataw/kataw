@@ -115,7 +115,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; var [yield] = [42];",
+    "source": "'use strict'; var [yield] = [42];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

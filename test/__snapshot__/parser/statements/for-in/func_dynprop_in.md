@@ -141,7 +141,7 @@ for (function(){ }[x in y] in x);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ }[x in y] in x);",
+    "source": "for (function(){ }[x in y] in x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

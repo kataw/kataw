@@ -112,7 +112,7 @@ x; {})
         }
     ],
     "isModule": false,
-    "text": "(class B extends await\nx; {})",
+    "source": "(class B extends await\nx; {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

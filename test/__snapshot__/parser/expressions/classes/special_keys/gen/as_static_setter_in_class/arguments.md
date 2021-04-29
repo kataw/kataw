@@ -133,7 +133,7 @@ class x {static set arguments(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set arguments(x){}}",
+    "source": "class x {static set arguments(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

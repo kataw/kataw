@@ -181,7 +181,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
         }
     ],
     "isModule": false,
-    "text": "async function f(){   async function g(x = + await x) { \"use strict\"; }  }",
+    "source": "async function f(){   async function g(x = + await x) { \"use strict\"; }  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

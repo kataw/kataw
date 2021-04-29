@@ -88,7 +88,7 @@ class x {super: x}
         }
     ],
     "isModule": false,
-    "text": "class x {super: x}",
+    "source": "class x {super: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

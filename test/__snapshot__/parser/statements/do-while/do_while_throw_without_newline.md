@@ -148,7 +148,7 @@ do throw function (v, h) {
         }
     ],
     "isModule": false,
-    "text": "do throw function (v, h) {\n  \"use strict\"\n} while ((\"\"))",
+    "source": "do throw function (v, h) {\n  \"use strict\"\n} while ((\"\"))",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

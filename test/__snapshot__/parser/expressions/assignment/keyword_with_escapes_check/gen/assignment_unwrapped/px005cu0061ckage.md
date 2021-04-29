@@ -55,7 +55,7 @@ p\u0061ckage = x;
         }
     ],
     "isModule": false,
-    "text": "p\\u0061ckage = x;",
+    "source": "p\\u0061ckage = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

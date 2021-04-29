@@ -68,7 +68,7 @@ switch case false
         }
     ],
     "isModule": false,
-    "text": "switch case false",
+    "source": "switch case false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

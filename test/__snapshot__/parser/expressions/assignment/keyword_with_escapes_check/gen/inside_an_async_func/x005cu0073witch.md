@@ -103,7 +103,7 @@ async () => {  \u0073witch = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0073witch = x  }",
+    "source": "async () => {  \\u0073witch = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

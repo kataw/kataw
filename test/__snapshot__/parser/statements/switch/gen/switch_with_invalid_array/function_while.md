@@ -167,7 +167,7 @@ switch [catch] function while
         }
     ],
     "isModule": false,
-    "text": "switch [catch] function while",
+    "source": "switch [catch] function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

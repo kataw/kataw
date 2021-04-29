@@ -67,7 +67,7 @@ class async {}
         }
     ],
     "isModule": false,
-    "text": "class async {}",
+    "source": "class async {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

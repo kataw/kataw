@@ -147,7 +147,7 @@ class x {async f(foo = await bar){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async f(foo = await bar){}}",
+    "source": "class x {async f(foo = await bar){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

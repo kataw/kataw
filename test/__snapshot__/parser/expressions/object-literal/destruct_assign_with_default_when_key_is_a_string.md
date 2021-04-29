@@ -104,7 +104,7 @@ a={"b":c=d}
         }
     ],
     "isModule": false,
-    "text": "a={\"b\":c=d}",
+    "source": "a={\"b\":c=d}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

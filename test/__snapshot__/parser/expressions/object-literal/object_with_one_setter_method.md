@@ -132,7 +132,7 @@ wrap({set [foo](a){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({set [foo](a){}});",
+    "source": "wrap({set [foo](a){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

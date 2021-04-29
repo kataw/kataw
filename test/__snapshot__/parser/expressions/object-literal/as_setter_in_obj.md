@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "({set async(x){}});",
+    "source": "({set async(x){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

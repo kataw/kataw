@@ -73,7 +73,7 @@ for (typeof x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (typeof x in x) ;",
+    "source": "for (typeof x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

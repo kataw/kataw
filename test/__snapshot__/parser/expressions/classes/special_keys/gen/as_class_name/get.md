@@ -52,7 +52,7 @@ class get {}
         }
     ],
     "isModule": false,
-    "text": "class get {}",
+    "source": "class get {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

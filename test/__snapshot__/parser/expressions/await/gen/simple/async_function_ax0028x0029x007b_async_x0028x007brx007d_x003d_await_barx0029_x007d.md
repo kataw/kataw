@@ -158,7 +158,7 @@ async function a(){     async ({r} = await bar);     }
         }
     ],
     "isModule": false,
-    "text": "async function a(){     async ({r} = await bar);     }",
+    "source": "async function a(){     async ({r} = await bar);     }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

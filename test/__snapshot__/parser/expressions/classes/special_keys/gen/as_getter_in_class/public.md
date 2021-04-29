@@ -109,7 +109,7 @@ class x {get public(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get public(){}}",
+    "source": "class x {get public(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

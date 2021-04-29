@@ -83,7 +83,7 @@ s = {s: true}
         }
     ],
     "isModule": false,
-    "text": "s = {s: true}",
+    "source": "s = {s: true}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

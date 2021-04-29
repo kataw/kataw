@@ -119,7 +119,7 @@ z(z(z(a&&=)));
         }
     ],
     "isModule": false,
-    "text": "z(z(z(a&&=)));",
+    "source": "z(z(z(a&&=)));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

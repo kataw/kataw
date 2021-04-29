@@ -164,7 +164,7 @@ function *f(){   s = {"foo": yield / x}   }
         }
     ],
     "isModule": false,
-    "text": "function *f(){   s = {\"foo\": yield / x}   }",
+    "source": "function *f(){   s = {\"foo\": yield / x}   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -102,7 +102,7 @@ log({foo: [bar]});
         }
     ],
     "isModule": false,
-    "text": "log({foo: [bar]});",
+    "source": "log({foo: [bar]});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

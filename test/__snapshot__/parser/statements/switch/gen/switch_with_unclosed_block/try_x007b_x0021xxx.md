@@ -170,7 +170,7 @@ switch {} default(x) { try { !xxx
         }
     ],
     "isModule": false,
-    "text": "switch {} default(x) { try { !xxx",
+    "source": "switch {} default(x) { try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

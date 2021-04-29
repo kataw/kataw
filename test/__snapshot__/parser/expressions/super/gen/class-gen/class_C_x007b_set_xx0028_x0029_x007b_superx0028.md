@@ -250,7 +250,7 @@ class C { *method() { class C { set x(_) { super( } }
         }
     ],
     "isModule": false,
-    "text": "class C { *method() { class C { set x(_) { super( } }",
+    "source": "class C { *method() { class C { set x(_) { super( } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

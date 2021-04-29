@@ -103,7 +103,7 @@ async () => {  inst\u0061nceof = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  inst\\u0061nceof = x  }",
+    "source": "async () => {  inst\\u0061nceof = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -111,7 +111,7 @@ x = {arrow: x => ok}
         }
     ],
     "isModule": false,
-    "text": "x = {arrow: x => ok}",
+    "source": "x = {arrow: x => ok}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

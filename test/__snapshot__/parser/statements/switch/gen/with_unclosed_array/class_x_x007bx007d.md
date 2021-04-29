@@ -85,7 +85,7 @@ switch[ class x {}
         }
     ],
     "isModule": false,
-    "text": "switch[ class x {}",
+    "source": "switch[ class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

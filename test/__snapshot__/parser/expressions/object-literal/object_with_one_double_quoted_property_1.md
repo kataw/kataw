@@ -87,7 +87,7 @@ wrap({"a":b});
         }
     ],
     "isModule": false,
-    "text": "wrap({\"a\":b});",
+    "source": "wrap({\"a\":b});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

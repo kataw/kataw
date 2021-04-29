@@ -93,7 +93,7 @@
         }
     ],
     "isModule": false,
-    "text": "([ void x ]) => {}",
+    "source": "([ void x ]) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

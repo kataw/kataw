@@ -63,7 +63,7 @@
         }
     ],
     "isModule": false,
-    "text": "() => 1, 42;",
+    "source": "() => 1, 42;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

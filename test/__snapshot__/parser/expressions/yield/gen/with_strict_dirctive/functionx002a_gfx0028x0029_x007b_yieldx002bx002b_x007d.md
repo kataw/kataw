@@ -122,7 +122,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function* gf() { yield++; }",
+    "source": "'use strict'; function* gf() { yield++; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

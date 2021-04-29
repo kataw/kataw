@@ -122,7 +122,7 @@ return {} return(x) { catch
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { catch",
+    "source": "return {} return(x) { catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

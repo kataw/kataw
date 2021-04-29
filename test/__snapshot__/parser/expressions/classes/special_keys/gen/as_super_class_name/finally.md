@@ -106,7 +106,7 @@ class x extends finally {}
         }
     ],
     "isModule": false,
-    "text": "class x extends finally {}",
+    "source": "class x extends finally {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "{[ let const x = var",
+    "source": "{[ let const x = var",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

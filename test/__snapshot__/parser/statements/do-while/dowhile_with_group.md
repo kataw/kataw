@@ -96,7 +96,7 @@ while(y)
         }
     ],
     "isModule": false,
-    "text": "do\n  (function(){})\nwhile(y)",
+    "source": "do\n  (function(){})\nwhile(y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

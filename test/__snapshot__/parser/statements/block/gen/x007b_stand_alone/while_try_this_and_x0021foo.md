@@ -134,7 +134,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ while try this and !foo",
+    "source": "{ while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -76,7 +76,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { : string",
+    "source": "{ { { : string",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

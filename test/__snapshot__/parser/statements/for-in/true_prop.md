@@ -97,7 +97,7 @@ for (true.x in c) d;
         }
     ],
     "isModule": false,
-    "text": "for (true.x in c) d;",
+    "source": "for (true.x in c) d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

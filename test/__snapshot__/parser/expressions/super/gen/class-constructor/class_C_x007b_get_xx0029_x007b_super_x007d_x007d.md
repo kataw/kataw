@@ -203,7 +203,7 @@ class C { constructor() { class C { get x) { super; } } } }
         }
     ],
     "isModule": false,
-    "text": "class C { constructor() { class C { get x) { super; } } } }",
+    "source": "class C { constructor() { class C { get x) { super; } } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

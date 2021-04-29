@@ -166,7 +166,7 @@ switch switch switch try { !xxx
         }
     ],
     "isModule": false,
-    "text": "switch switch switch try { !xxx",
+    "source": "switch switch switch try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

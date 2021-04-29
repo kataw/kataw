@@ -110,7 +110,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  st\\u0061tic = x\n}",
+    "source": "function *f(){\n  st\\u0061tic = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

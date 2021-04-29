@@ -146,7 +146,7 @@ switch( while try this and !foo case
         }
     ],
     "isModule": false,
-    "text": "switch( while try this and !foo case",
+    "source": "switch( while try this and !foo case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

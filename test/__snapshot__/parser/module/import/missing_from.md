@@ -112,7 +112,7 @@ import {a, b} fromx "c"
         }
     ],
     "isModule": true,
-    "text": "import {a, b} fromx \"c\"",
+    "source": "import {a, b} fromx \"c\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

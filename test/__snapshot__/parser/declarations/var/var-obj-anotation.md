@@ -164,7 +164,7 @@ var {x}: {x: string; } = { x: "hello" };
         }
     ],
     "isModule": false,
-    "text": "var {x}: {x: string; } = { x: \"hello\" };",
+    "source": "var {x}: {x: string; } = { x: \"hello\" };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -121,7 +121,7 @@ switch[ try { !xxx
         }
     ],
     "isModule": false,
-    "text": "switch[ try { !xxx",
+    "source": "switch[ try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

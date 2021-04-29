@@ -92,7 +92,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; yield 3 + yield 4;",
+    "source": "'use strict'; yield 3 + yield 4;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

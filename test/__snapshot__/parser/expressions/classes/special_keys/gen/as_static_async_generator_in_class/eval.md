@@ -119,7 +119,7 @@ class x {static async * eval(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * eval(){}}",
+    "source": "class x {static async * eval(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

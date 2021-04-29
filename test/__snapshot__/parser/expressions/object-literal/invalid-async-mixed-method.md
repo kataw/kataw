@@ -126,7 +126,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ async a(b = await (0)) {} })",
+    "source": "({ async a(b = await (0)) {} })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

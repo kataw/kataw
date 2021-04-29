@@ -280,7 +280,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
         }
     ],
     "isModule": false,
-    "text": "async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }",
+    "source": "async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -217,7 +217,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
         }
     ],
     "isModule": false,
-    "text": "class x extends y { constructor() { let xx = x + x; super.mom; } }",
+    "source": "class x extends y { constructor() { let xx = x + x; super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

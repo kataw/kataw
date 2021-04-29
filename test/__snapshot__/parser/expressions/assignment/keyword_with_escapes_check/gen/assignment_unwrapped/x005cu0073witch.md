@@ -73,7 +73,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0073witch = x;",
+    "source": "\\u0073witch = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

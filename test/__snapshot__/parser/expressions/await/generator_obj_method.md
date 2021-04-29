@@ -125,7 +125,7 @@ let o = {*f(await){}}
         }
     ],
     "isModule": false,
-    "text": "let o = {*f(await){}}",
+    "source": "let o = {*f(await){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

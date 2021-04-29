@@ -130,7 +130,7 @@ for (function(){ a in b; };;);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ a in b; };;);",
+    "source": "for (function(){ a in b; };;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

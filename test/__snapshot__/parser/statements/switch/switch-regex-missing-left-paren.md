@@ -99,7 +99,7 @@ switch (/a/i {}
         }
     ],
     "isModule": false,
-    "text": "switch /a/i) {}\n\nswitch /a/i {}\n\nswitch (/a/i {}",
+    "source": "switch /a/i) {}\n\nswitch /a/i {}\n\nswitch (/a/i {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

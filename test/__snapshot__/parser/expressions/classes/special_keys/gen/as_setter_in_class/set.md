@@ -128,7 +128,7 @@ class x {set set(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set set(x){}}",
+    "source": "class x {set set(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

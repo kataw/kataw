@@ -84,7 +84,7 @@ class switch {}
         }
     ],
     "isModule": false,
-    "text": "class switch {}",
+    "source": "class switch {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -575,7 +575,7 @@ class C { foo() { this.#a = 1; }}
         }
     ],
     "isModule": false,
-    "text": "(class { set #b(val) { this.#a = val; }})\n\n(class { get #b() { return this.#a; }})\n\nclass C extends Base {foo() { return this.#a; }}\n\nclass C { foo() { this.#a = 1; }}",
+    "source": "(class { set #b(val) { this.#a = val; }})\n\n(class { get #b() { return this.#a; }})\n\nclass C extends Base {foo() { return this.#a; }}\n\nclass C { foo() { this.#a = 1; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

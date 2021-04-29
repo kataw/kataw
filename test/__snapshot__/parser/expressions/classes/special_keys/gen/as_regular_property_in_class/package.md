@@ -88,7 +88,7 @@ class x {package: x}
         }
     ],
     "isModule": false,
-    "text": "class x {package: x}",
+    "source": "class x {package: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

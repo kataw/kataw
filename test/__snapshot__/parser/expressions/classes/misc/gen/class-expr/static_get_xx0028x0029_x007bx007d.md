@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { static get x() {} });",
+    "source": "(class { static get x() {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

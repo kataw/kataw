@@ -134,7 +134,7 @@ throw {x} catch (x = y) {}
         }
     ],
     "isModule": false,
-    "text": "throw {x} catch (x = y) {}",
+    "source": "throw {x} catch (x = y) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

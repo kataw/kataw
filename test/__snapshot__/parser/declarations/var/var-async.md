@@ -62,7 +62,7 @@ var async = 0
         }
     ],
     "isModule": false,
-    "text": "var async = 0",
+    "source": "var async = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

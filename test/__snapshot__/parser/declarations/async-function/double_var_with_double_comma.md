@@ -116,7 +116,7 @@ let {x,, y} = obj;
         }
     ],
     "isModule": false,
-    "text": "let {x,, y} = obj;",
+    "source": "let {x,, y} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

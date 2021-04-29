@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`\\1230`",
+    "source": "`\\1230`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

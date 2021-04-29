@@ -81,7 +81,7 @@ export default function () {}
         }
     ],
     "isModule": true,
-    "text": "export default function () {}",
+    "source": "export default function () {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

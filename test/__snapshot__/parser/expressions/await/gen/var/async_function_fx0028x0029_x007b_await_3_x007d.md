@@ -226,7 +226,7 @@ var await; var f = (async function() { async function f() { await 3; } });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { async function f() { await 3; } });",
+    "source": "var await; var f = (async function() { async function f() { await 3; } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

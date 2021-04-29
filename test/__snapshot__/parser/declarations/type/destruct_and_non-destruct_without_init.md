@@ -123,7 +123,7 @@ var [foo] = arr, bar;
         }
     ],
     "isModule": false,
-    "text": "var [foo] = arr, bar;",
+    "source": "var [foo] = arr, bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

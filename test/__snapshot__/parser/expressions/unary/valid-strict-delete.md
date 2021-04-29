@@ -565,7 +565,7 @@
         }
     ],
     "isModule": false,
-    "text": "\n\"use strict\"; delete this;\n\n\"use strict\"; delete 1;\n\n\"use strict\"; delete foo();\n\n\"use strict\"; delete 1 + 2;\n\n\"use strict\"; delete foo.bar;\n\n\"use strict\"; delete foo[bar];\n\n\"use strict\"; delete foo--;\n\n\"use strict\"; delete --foo;\n\n\"use strict\"; delete new foo();\n\n\"use strict\"; delete new foo(bar);\n",
+    "source": "\n\"use strict\"; delete this;\n\n\"use strict\"; delete 1;\n\n\"use strict\"; delete foo();\n\n\"use strict\"; delete 1 + 2;\n\n\"use strict\"; delete foo.bar;\n\n\"use strict\"; delete foo[bar];\n\n\"use strict\"; delete foo--;\n\n\"use strict\"; delete --foo;\n\n\"use strict\"; delete new foo();\n\n\"use strict\"; delete new foo(bar);\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

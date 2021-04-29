@@ -114,7 +114,7 @@ class x {async * yield(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * yield(){}}",
+    "source": "class x {async * yield(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

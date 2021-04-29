@@ -113,7 +113,7 @@ x({[a]:b}=obj);
         }
     ],
     "isModule": false,
-    "text": "x({[a]:b}=obj);",
+    "source": "x({[a]:b}=obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

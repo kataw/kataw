@@ -109,7 +109,7 @@ class x {* if(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* if(){}}",
+    "source": "class x {* if(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

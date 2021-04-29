@@ -88,7 +88,7 @@ class x {implements: x}
         }
     ],
     "isModule": false,
-    "text": "class x {implements: x}",
+    "source": "class x {implements: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -300,7 +300,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 } }}",
+    "source": "function * gen() { function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

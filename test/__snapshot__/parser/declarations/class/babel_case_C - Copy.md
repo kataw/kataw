@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class{}\n / foo / g)",
+    "source": "(class{}\n / foo / g)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

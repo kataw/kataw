@@ -355,7 +355,7 @@
         }
     ],
     "isModule": false,
-    "text": "\n\"use strict\"; var implements;\n\n\"use strict\"; var function;\n\n\"use strict\"; var foo, super;\n\n\"use strict\"; var foo = super = 1;",
+    "source": "\n\"use strict\"; var implements;\n\n\"use strict\"; var function;\n\n\"use strict\"; var foo, super;\n\n\"use strict\"; var foo = super = 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

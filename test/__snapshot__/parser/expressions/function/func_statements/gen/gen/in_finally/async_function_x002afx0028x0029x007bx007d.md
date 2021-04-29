@@ -127,7 +127,7 @@ try {
         }
     ],
     "isModule": false,
-    "text": "try {\n} finally {\n  async function *f(){}\n}",
+    "source": "try {\n} finally {\n  async function *f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

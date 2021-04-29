@@ -170,7 +170,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
         }
     ],
     "isModule": false,
-    "text": "function f(){ \"use strict\"; foo; function g() { with (x) y; } }",
+    "source": "function f(){ \"use strict\"; foo; function g() { with (x) y; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

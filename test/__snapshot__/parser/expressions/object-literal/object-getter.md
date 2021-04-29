@@ -1184,7 +1184,7 @@ x({get 0o4567(){}});
         }
     ],
     "isModule": false,
-    "text": "x({* foo(){},*bar(){}});\nx({[foo](){}, get [bar](){}});\nx({get [foo](){}});\nx({get [foo](){}, get [bar](){}});\nx({get foo(){}});\nx({get foo(){}, get bar(){}});\nx({get \"foo\"(){}});\nx({get 1(){}});\nx({get 0x234241(){}});\nx({get 0b001(){}});\nx({get 0o4567(){}});\n",
+    "source": "x({* foo(){},*bar(){}});\nx({[foo](){}, get [bar](){}});\nx({get [foo](){}});\nx({get [foo](){}, get [bar](){}});\nx({get foo(){}});\nx({get foo(){}, get bar(){}});\nx({get \"foo\"(){}});\nx({get 1(){}});\nx({get 0x234241(){}});\nx({get 0b001(){}});\nx({get 0o4567(){}});\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

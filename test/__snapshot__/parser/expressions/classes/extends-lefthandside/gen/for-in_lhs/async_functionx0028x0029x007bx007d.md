@@ -97,7 +97,7 @@ for (async function(){} in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (async function(){} in x) ;",
+    "source": "for (async function(){} in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

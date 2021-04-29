@@ -92,7 +92,7 @@ async () => { aw\u{61}it: x }
         }
     ],
     "isModule": false,
-    "text": "async () => { aw\\u{61}it: x }",
+    "source": "async () => { aw\\u{61}it: x }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

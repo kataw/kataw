@@ -100,7 +100,7 @@ export {foo as default};
         }
     ],
     "isModule": true,
-    "text": "export {foo as default};",
+    "source": "export {foo as default};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

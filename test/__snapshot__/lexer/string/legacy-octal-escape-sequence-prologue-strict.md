@@ -88,7 +88,7 @@
         }
     ],
     "isModule": false,
-    "text": "(function() {\n  \"asterisk: \\052\";\n  \"use strict\";\n});",
+    "source": "(function() {\n  \"asterisk: \\052\";\n  \"use strict\";\n});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

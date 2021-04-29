@@ -104,7 +104,7 @@ for (const a,b,c;;);
         }
     ],
     "isModule": false,
-    "text": "for (const a,b,c;;);",
+    "source": "for (const a,b,c;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

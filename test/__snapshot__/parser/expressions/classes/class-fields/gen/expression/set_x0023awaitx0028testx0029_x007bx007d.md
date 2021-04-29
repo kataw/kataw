@@ -147,7 +147,7 @@ class C extends Base { set #await(test) {} }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { set #await(test) {} }",
+    "source": "class C extends Base { set #await(test) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

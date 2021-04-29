@@ -134,7 +134,7 @@ switch switch switch catch try {
         }
     ],
     "isModule": false,
-    "text": "switch switch switch catch try {",
+    "source": "switch switch switch catch try {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

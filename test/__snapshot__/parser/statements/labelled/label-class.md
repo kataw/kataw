@@ -62,7 +62,7 @@ label: class x {}
         }
     ],
     "isModule": false,
-    "text": "label: class x {}",
+    "source": "label: class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

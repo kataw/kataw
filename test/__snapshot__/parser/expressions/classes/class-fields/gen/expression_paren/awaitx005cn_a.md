@@ -112,7 +112,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { await\\n a });",
+    "source": "(class { await\\n a });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

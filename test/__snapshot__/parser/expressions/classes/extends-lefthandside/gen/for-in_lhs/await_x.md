@@ -76,7 +76,7 @@ for (await x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (await x in x) ;",
+    "source": "for (await x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -119,7 +119,7 @@ class x {static async * package(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * package(){}}",
+    "source": "class x {static async * package(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

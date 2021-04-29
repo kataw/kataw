@@ -121,7 +121,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function f(){ await await foo; }",
+    "source": "'use strict'; async function f(){ await await foo; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

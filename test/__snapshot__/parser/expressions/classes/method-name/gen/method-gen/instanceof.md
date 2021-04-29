@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*instanceof(x, y) {}});",
+    "source": "({*instanceof(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

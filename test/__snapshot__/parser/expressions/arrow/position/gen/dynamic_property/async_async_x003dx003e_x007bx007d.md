@@ -110,7 +110,7 @@ async async => {}[foo]
         }
     ],
     "isModule": false,
-    "text": "async async => {}[foo]",
+    "source": "async async => {}[foo]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

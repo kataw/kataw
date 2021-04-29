@@ -147,7 +147,7 @@ function *g(){ return x + f(yield f); }
         }
     ],
     "isModule": false,
-    "text": "function *g(){ return x + f(yield f); }",
+    "source": "function *g(){ return x + f(yield f); }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

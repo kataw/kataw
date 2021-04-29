@@ -112,7 +112,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { {catch",
+    "source": "{ { { {catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

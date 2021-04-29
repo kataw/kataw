@@ -94,7 +94,7 @@ type A = { [string | boolean]: number };
         }
     ],
     "isModule": false,
-    "text": "type A = { [string | boolean]: number };",
+    "source": "type A = { [string | boolean]: number };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

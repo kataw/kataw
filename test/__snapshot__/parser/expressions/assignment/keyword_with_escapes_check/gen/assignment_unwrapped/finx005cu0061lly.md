@@ -70,7 +70,7 @@ fin\u0061lly = x;
         }
     ],
     "isModule": false,
-    "text": "fin\\u0061lly = x;",
+    "source": "fin\\u0061lly = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -116,7 +116,7 @@ function *f() {  return typeof yield foo;  }
         }
     ],
     "isModule": false,
-    "text": "function *f() {  return typeof yield foo;  }",
+    "source": "function *f() {  return typeof yield foo;  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

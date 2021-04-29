@@ -96,7 +96,7 @@ for (a in b=c);
         }
     ],
     "isModule": false,
-    "text": "for (a in b=c);",
+    "source": "for (a in b=c);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

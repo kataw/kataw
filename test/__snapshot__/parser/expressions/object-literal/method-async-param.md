@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ async * bar(await x){}})",
+    "source": "({ async * bar(await x){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

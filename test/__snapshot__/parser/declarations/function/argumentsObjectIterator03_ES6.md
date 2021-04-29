@@ -376,7 +376,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
         }
     ],
     "isModule": false,
-    "text": "function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, number] {\n    let [x, y, z] = arguments;\n\n    return [z, y, x];\n}",
+    "source": "function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, number] {\n    let [x, y, z] = arguments;\n\n    return [z, y, x];\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

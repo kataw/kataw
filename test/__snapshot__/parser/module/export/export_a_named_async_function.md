@@ -91,7 +91,7 @@ export async function f(){}
         }
     ],
     "isModule": true,
-    "text": "export async function f(){}",
+    "source": "export async function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

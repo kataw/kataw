@@ -110,7 +110,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  inte\\u0072face = x\n}",
+    "source": "function *f(){\n  inte\\u0072face = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

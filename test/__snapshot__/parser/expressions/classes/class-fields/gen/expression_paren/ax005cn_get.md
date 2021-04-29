@@ -112,7 +112,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { a\\n get });",
+    "source": "(class { a\\n get });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -101,7 +101,7 @@ _ => _
         }
     ],
     "isModule": true,
-    "text": "_ => _\n/foo/",
+    "source": "_ => _\n/foo/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

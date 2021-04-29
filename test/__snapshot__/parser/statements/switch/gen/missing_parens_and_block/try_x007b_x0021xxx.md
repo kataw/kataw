@@ -136,7 +136,7 @@ switch case try { !xxx
         }
     ],
     "isModule": false,
-    "text": "switch case try { !xxx",
+    "source": "switch case try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

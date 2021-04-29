@@ -133,7 +133,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a[x.y] = a] = z",
+    "source": "[a[x.y] = a] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

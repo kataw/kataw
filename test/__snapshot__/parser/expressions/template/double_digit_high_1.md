@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`\\401`",
+    "source": "`\\401`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

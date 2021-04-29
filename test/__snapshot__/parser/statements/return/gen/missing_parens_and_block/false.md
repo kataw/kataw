@@ -75,7 +75,7 @@ return catch false
         }
     ],
     "isModule": false,
-    "text": "return catch false",
+    "source": "return catch false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

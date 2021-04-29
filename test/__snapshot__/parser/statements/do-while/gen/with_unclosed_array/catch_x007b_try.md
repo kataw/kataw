@@ -77,7 +77,7 @@ do[ catch { try
         }
     ],
     "isModule": false,
-    "text": "do[ catch { try",
+    "source": "do[ catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

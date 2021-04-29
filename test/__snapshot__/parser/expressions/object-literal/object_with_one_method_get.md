@@ -99,7 +99,7 @@ wrap({get(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({get(){}});",
+    "source": "wrap({get(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

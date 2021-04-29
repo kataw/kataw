@@ -93,7 +93,7 @@ export default function* f(){}
         }
     ],
     "isModule": true,
-    "text": "export default function* f(){}",
+    "source": "export default function* f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

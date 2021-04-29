@@ -126,7 +126,7 @@ var { f: await f } = {};
         }
     ],
     "isModule": false,
-    "text": "var { f: await f } = {};",
+    "source": "var { f: await f } = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

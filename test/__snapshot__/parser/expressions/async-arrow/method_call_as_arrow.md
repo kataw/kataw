@@ -155,7 +155,7 @@ async ({ident: [foo, bar].join("")}) => x
         }
     ],
     "isModule": false,
-    "text": "async ({ident: [foo, bar].join(\"\")}) => x",
+    "source": "async ({ident: [foo, bar].join(\"\")}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

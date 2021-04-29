@@ -48,7 +48,7 @@ new arguments
         }
     ],
     "isModule": false,
-    "text": "new arguments",
+    "source": "new arguments",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

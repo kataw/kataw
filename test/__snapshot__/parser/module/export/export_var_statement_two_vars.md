@@ -93,7 +93,7 @@ export var x, y
         }
     ],
     "isModule": true,
-    "text": "export var x, y",
+    "source": "export var x, y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

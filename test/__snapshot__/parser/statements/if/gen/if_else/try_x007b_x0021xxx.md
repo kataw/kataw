@@ -109,7 +109,7 @@ if try { !xxx else
         }
     ],
     "isModule": false,
-    "text": "if try { !xxx else",
+    "source": "if try { !xxx else",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

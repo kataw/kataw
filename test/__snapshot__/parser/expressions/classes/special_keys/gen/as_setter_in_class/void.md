@@ -128,7 +128,7 @@ class x {set void(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set void(x){}}",
+    "source": "class x {set void(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

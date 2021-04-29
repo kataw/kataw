@@ -191,7 +191,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
         }
     ],
     "isModule": false,
-    "text": "wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});",
+    "source": "wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

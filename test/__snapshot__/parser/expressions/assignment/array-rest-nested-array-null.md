@@ -128,7 +128,7 @@ result = [...[x, y]] = vals;
         }
     ],
     "isModule": true,
-    "text": "result = [...[x, y]] = vals;",
+    "source": "result = [...[x, y]] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

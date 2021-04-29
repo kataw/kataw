@@ -176,7 +176,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { super[b?.a]",
+    "source": "{ {} finally(x) { super[b?.a]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

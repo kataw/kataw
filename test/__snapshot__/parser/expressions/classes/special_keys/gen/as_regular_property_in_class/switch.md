@@ -88,7 +88,7 @@ class x {switch: x}
         }
     ],
     "isModule": false,
-    "text": "class x {switch: x}",
+    "source": "class x {switch: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

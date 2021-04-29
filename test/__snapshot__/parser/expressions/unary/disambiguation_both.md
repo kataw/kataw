@@ -103,7 +103,7 @@
         }
     ],
     "isModule": false,
-    "text": "+ x.def + + y.x",
+    "source": "+ x.def + + y.x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

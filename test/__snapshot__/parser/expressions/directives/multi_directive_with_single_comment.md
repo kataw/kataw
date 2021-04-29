@@ -47,7 +47,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"foo\"\n// stuff here\n\"bar\";",
+    "source": "\"foo\"\n// stuff here\n\"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

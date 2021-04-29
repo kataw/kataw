@@ -94,7 +94,7 @@ function foo<T>() {}
         }
     ],
     "isModule": false,
-    "text": "function foo<T>() {}",
+    "source": "function foo<T>() {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { set #await(test) {} });",
+    "source": "(class { set #await(test) {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

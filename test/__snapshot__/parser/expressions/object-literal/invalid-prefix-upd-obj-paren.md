@@ -78,7 +78,7 @@
         }
     ],
     "isModule": false,
-    "text": "++({x=1})",
+    "source": "++({x=1})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

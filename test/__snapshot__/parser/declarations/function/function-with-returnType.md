@@ -110,7 +110,7 @@ function foo():number{}
         }
     ],
     "isModule": false,
-    "text": "function foo():number{}",
+    "source": "function foo():number{}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

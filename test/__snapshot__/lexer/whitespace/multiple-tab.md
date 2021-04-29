@@ -129,7 +129,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\t\\t\\t\\t\\t\\t\\t\\t",
+    "source": "\\t\\t\\t\\t\\t\\t\\t\\t",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

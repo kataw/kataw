@@ -111,7 +111,7 @@
         }
     ],
     "isModule": false,
-    "text": " 0, [{ x }] = [null];",
+    "source": " 0, [{ x }] = [null];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

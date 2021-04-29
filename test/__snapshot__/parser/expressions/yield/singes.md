@@ -131,7 +131,7 @@ function *g() { yield {...(x),}}
         }
     ],
     "isModule": false,
-    "text": "function *g() { yield {...(x),}}",
+    "source": "function *g() { yield {...(x),}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

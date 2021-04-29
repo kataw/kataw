@@ -130,7 +130,7 @@ function* bar() { yield /re/ }
         }
     ],
     "isModule": false,
-    "text": "function* bar() { yield /re/ }",
+    "source": "function* bar() { yield /re/ }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

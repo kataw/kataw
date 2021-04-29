@@ -51,7 +51,7 @@ foo.bar
         }
     ],
     "isModule": false,
-    "text": "foo.bar",
+    "source": "foo.bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

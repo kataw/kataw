@@ -92,7 +92,7 @@ throw {x} catch finally
         }
     ],
     "isModule": false,
-    "text": "throw {x} catch finally",
+    "source": "throw {x} catch finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -64,7 +64,7 @@ x;
         }
     ],
     "isModule": false,
-    "text": "new await\nx;",
+    "source": "new await\nx;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

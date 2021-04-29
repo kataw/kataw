@@ -91,7 +91,7 @@ delete (async (x, y) => ok)
         }
     ],
     "isModule": false,
-    "text": "delete (async (x, y) => ok)",
+    "source": "delete (async (x, y) => ok)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

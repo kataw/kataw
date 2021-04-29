@@ -2064,7 +2064,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
         }
     ],
     "isModule": false,
-    "text": "class x extends y { }\n\nclass x extends y { f(){} }\n\nclass x extends y { constructor() { super(); } }\n\nclass x { constructor(){ super.foo; }}\n\nclass x { foo(){ super.foo; }}\n\nclass x { foo(x=super.foo){ }}\n\nx={ foo(a = super.foo){ }}\n\nclass x { constructor(){ super[foo]; }}\n\nclass x { foo(){ super[foo]; }}\n\nclass x { foo(x=super[foo]){ }}\n\nx={ foo(){ super[foo]; }}\n\nx={ foo(a = super[foo]){ }}\n\nclass x extends y { constructor(){ return (a=super()) => a; }}\n\nclass x extends y { constructor(){ return () => super[foo]; }}\n\nclass x { fo(){ return () => super.foo; }}\n\nclass x { dsda(){ return (a=super.foo) => a; }}\n",
+    "source": "class x extends y { }\n\nclass x extends y { f(){} }\n\nclass x extends y { constructor() { super(); } }\n\nclass x { constructor(){ super.foo; }}\n\nclass x { foo(){ super.foo; }}\n\nclass x { foo(x=super.foo){ }}\n\nx={ foo(a = super.foo){ }}\n\nclass x { constructor(){ super[foo]; }}\n\nclass x { foo(){ super[foo]; }}\n\nclass x { foo(x=super[foo]){ }}\n\nx={ foo(){ super[foo]; }}\n\nx={ foo(a = super[foo]){ }}\n\nclass x extends y { constructor(){ return (a=super()) => a; }}\n\nclass x extends y { constructor(){ return () => super[foo]; }}\n\nclass x { fo(){ return () => super.foo; }}\n\nclass x { dsda(){ return (a=super.foo) => a; }}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

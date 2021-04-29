@@ -98,7 +98,7 @@ var af = ...x => x;
         }
     ],
     "isModule": false,
-    "text": "var af = ...x => x;",
+    "source": "var af = ...x => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -65,7 +65,7 @@ obj.voi\u0064 = 42;
         }
     ],
     "isModule": false,
-    "text": "obj.voi\\u0064 = 42;",
+    "source": "obj.voi\\u0064 = 42;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

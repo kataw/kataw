@@ -84,7 +84,7 @@ class x extends case {}
         }
     ],
     "isModule": false,
-    "text": "class x extends case {}",
+    "source": "class x extends case {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

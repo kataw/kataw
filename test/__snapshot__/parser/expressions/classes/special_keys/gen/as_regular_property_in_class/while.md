@@ -88,7 +88,7 @@ class x {while: x}
         }
     ],
     "isModule": false,
-    "text": "class x {while: x}",
+    "source": "class x {while: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

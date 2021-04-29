@@ -63,7 +63,7 @@ async
         }
     ],
     "isModule": false,
-    "text": "async\n (x) = y;",
+    "source": "async\n (x) = y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

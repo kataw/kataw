@@ -104,7 +104,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base { await; });",
+    "source": "(class extends Base { await; });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

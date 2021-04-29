@@ -109,7 +109,7 @@ async function f(){ new await x; }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ new await x; }",
+    "source": "async function f(){ new await x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

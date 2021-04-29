@@ -132,7 +132,7 @@ async function wrap() { async function await() { } };
         }
     ],
     "isModule": false,
-    "text": "async function wrap() { async function await() { } };",
+    "source": "async function wrap() { async function await() { } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

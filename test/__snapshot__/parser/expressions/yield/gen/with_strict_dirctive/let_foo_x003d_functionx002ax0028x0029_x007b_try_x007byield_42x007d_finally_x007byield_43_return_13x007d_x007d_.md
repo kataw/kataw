@@ -234,7 +234,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; let foo = function*() { try {yield 42} finally {yield 43; return 13} };",
+    "source": "'use strict'; let foo = function*() { try {yield 42} finally {yield 43; return 13} };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

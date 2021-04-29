@@ -88,7 +88,7 @@ class x {import: x}
         }
     ],
     "isModule": false,
-    "text": "class x {import: x}",
+    "source": "class x {import: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

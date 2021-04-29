@@ -85,7 +85,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { async = 0 });",
+    "source": "(class { async = 0 });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

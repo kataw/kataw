@@ -54,7 +54,7 @@ async(await);
         }
     ],
     "isModule": false,
-    "text": "async(await);",
+    "source": "async(await);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -128,7 +128,7 @@ class x {set const(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set const(x){}}",
+    "source": "class x {set const(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

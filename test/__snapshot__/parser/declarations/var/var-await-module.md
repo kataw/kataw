@@ -68,7 +68,7 @@ var await = 0
         }
     ],
     "isModule": true,
-    "text": "var await = 0",
+    "source": "var await = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

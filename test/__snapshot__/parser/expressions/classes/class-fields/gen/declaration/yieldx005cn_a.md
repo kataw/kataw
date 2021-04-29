@@ -102,7 +102,7 @@ class C { yield\n a }
         }
     ],
     "isModule": false,
-    "text": "class C { yield\\n a }",
+    "source": "class C { yield\\n a }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

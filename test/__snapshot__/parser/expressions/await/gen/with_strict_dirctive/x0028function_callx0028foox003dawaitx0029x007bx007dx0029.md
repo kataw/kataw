@@ -114,7 +114,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; (function call(foo=await){})",
+    "source": "'use strict'; (function call(foo=await){})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

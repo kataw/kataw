@@ -108,7 +108,7 @@
         }
     ],
     "isModule": false,
-    "text": "({[x](){}} = z);",
+    "source": "({[x](){}} = z);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

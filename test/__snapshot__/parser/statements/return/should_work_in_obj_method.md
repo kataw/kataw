@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "({foo(){ return }})",
+    "source": "({foo(){ return }})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

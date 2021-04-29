@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x = a?.(yield)) => y",
+    "source": "(x = a?.(yield)) => y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

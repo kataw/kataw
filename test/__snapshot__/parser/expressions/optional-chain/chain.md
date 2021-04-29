@@ -220,7 +220,7 @@ a?.b?.c?.(d)?.[e].f?.g
         }
     ],
     "isModule": false,
-    "text": "a?.b?.c?.(d)?.[e].f?.g\n",
+    "source": "a?.b?.c?.(d)?.[e].f?.g\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

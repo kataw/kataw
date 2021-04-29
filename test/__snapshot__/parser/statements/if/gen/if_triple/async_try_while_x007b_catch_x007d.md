@@ -161,7 +161,7 @@ if if if async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "if if if async try while { catch }",
+    "source": "if if if async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

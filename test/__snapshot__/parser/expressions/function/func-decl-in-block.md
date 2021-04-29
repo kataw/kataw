@@ -230,7 +230,7 @@
         }
     ],
     "isModule": true,
-    "text": "{\n  function(){}\n}\n\n{\n  function *f(){}\n}\n\n{\n  async function *f(){}\n}",
+    "source": "{\n  function(){}\n}\n\n{\n  function *f(){}\n}\n\n{\n  async function *f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

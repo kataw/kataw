@@ -133,7 +133,7 @@ const a = async (foo: string = "") => {}
         }
     ],
     "isModule": false,
-    "text": "const a = async (foo: string = \"\") => {}",
+    "source": "const a = async (foo: string = \"\") => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

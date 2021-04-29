@@ -40,7 +40,7 @@ return false
         }
     ],
     "isModule": false,
-    "text": "return false",
+    "source": "return false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

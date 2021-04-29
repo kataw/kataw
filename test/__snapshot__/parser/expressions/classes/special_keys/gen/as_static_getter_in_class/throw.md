@@ -114,7 +114,7 @@ class x {static get throw(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get throw(){}}",
+    "source": "class x {static get throw(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -96,7 +96,7 @@ foo(async function(){})
         }
     ],
     "isModule": true,
-    "text": "foo(async function(){})",
+    "source": "foo(async function(){})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

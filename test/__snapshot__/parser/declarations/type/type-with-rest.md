@@ -111,7 +111,7 @@ type C = { ...A&B };
         }
     ],
     "isModule": false,
-    "text": "type C = { ...A&B };",
+    "source": "type C = { ...A&B };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

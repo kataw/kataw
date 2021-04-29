@@ -68,7 +68,7 @@ export default = 42
         }
     ],
     "isModule": true,
-    "text": "export default = 42",
+    "source": "export default = 42",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

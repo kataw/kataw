@@ -109,7 +109,7 @@ class x {* this(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* this(){}}",
+    "source": "class x {* this(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -151,7 +151,7 @@ try[ async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "try[ async try while { catch }",
+    "source": "try[ async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

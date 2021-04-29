@@ -66,7 +66,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( { /a/iui",
+    "source": "{( { /a/iui",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

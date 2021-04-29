@@ -30,7 +30,7 @@ continue
         }
     ],
     "isModule": false,
-    "text": "continue",
+    "source": "continue",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

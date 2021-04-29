@@ -92,7 +92,7 @@ try( class x {}
         }
     ],
     "isModule": false,
-    "text": "try( class x {}",
+    "source": "try( class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

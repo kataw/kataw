@@ -113,7 +113,7 @@ try {} finally(x) { /)finally
         }
     ],
     "isModule": false,
-    "text": "try {} finally(x) { /)finally",
+    "source": "try {} finally(x) { /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ try try try catch
         }
     ],
     "isModule": false,
-    "text": "try try try catch",
+    "source": "try try try catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@ import {a: b} from "bar";
         }
     ],
     "isModule": true,
-    "text": "import {a: b} from \"bar\";",
+    "source": "import {a: b} from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

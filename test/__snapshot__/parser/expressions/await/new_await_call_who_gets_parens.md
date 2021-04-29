@@ -85,7 +85,7 @@ async () => new await x()
         }
     ],
     "isModule": false,
-    "text": "async () => new await x()",
+    "source": "async () => new await x()",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -85,7 +85,7 @@ y`${y,0}`
         }
     ],
     "isModule": false,
-    "text": "y`${y,0}`",
+    "source": "y`${y,0}`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

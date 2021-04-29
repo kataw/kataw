@@ -165,7 +165,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { }} let function const {",
+    "source": "{ { { }} let function const {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

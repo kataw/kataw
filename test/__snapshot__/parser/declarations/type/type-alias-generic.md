@@ -97,7 +97,7 @@ type T<U> = U;
         }
     ],
     "isModule": false,
-    "text": "type T<U> = U;",
+    "source": "type T<U> = U;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ async async => {}
         }
     ],
     "isModule": false,
-    "text": "async async => {}\n/ x / g",
+    "source": "async async => {}\n/ x / g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

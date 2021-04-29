@@ -146,7 +146,7 @@ function *g() {yield {     ...yield yield    };}
         }
     ],
     "isModule": false,
-    "text": "function *g() {yield {     ...yield yield    };}",
+    "source": "function *g() {yield {     ...yield yield    };}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

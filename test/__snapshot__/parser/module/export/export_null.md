@@ -48,7 +48,7 @@ export default null;
         }
     ],
     "isModule": true,
-    "text": "export default null;",
+    "source": "export default null;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

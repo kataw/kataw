@@ -83,7 +83,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; export var await;",
+    "source": "'use strict'; export var await;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

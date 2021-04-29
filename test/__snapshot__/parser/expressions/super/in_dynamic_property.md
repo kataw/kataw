@@ -63,7 +63,7 @@ x[super.foo]
         }
     ],
     "isModule": false,
-    "text": "x[super.foo]",
+    "source": "x[super.foo]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -37,7 +37,7 @@
         }
     ],
     "isModule": true,
-    "text": "\"\\uabc\"",
+    "source": "\"\\uabc\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

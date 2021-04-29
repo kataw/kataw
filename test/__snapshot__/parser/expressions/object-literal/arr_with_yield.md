@@ -100,7 +100,7 @@ result = [x[yield]] = vals;
         }
     ],
     "isModule": false,
-    "text": "result = [x[yield]] = vals;",
+    "source": "result = [x[yield]] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

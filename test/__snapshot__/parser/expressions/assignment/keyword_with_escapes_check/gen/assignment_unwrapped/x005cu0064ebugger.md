@@ -47,7 +47,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0064ebugger = x;",
+    "source": "\\u0064ebugger = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

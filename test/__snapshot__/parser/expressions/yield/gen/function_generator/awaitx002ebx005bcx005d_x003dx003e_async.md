@@ -178,7 +178,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { await.b[c] => async }}",
+    "source": "function * gen() { function not_gen() { await.b[c] => async }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -89,7 +89,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  ext\\u0065nds = x\n}",
+    "source": "function *f(){\n  ext\\u0065nds = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

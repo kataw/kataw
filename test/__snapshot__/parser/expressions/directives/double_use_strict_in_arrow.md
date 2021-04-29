@@ -105,7 +105,7 @@
         }
     ],
     "isModule": false,
-    "text": "(w, o, e, m) => { \"use strict\"; \"use strict\" }",
+    "source": "(w, o, e, m) => { \"use strict\"; \"use strict\" }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

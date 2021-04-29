@@ -166,7 +166,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function* gf() { var fe = function yield() { } }",
+    "source": "'use strict'; function* gf() { var fe = function yield() { } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -93,7 +93,7 @@ var foob\\u123r = 0;
         }
     ],
     "isModule": false,
-    "text": "var foob\\\\u123r = 0;",
+    "source": "var foob\\\\u123r = 0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

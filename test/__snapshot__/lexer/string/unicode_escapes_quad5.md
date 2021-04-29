@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\uxxxx\"",
+    "source": "\"\\uxxxx\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

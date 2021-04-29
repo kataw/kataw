@@ -111,7 +111,7 @@ switch( function while case
         }
     ],
     "isModule": false,
-    "text": "switch( function while case",
+    "source": "switch( function while case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

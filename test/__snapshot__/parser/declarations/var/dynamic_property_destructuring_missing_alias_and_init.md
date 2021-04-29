@@ -117,7 +117,7 @@ var {[x]};
         }
     ],
     "isModule": false,
-    "text": "var {[x]};",
+    "source": "var {[x]};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

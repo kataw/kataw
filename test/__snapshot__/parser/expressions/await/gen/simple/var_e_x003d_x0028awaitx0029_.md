@@ -72,7 +72,7 @@ var e = (await);
         }
     ],
     "isModule": false,
-    "text": "var e = (await);",
+    "source": "var e = (await);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

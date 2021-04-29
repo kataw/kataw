@@ -96,7 +96,7 @@ async () => {  \u0072eturn = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0072eturn = x  }",
+    "source": "async () => {  \\u0072eturn = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

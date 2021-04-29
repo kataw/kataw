@@ -125,7 +125,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ async try while { catch }",
+    "source": "{ async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

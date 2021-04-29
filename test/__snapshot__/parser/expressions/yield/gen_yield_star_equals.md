@@ -113,7 +113,7 @@ function *f() {
         }
     ],
     "isModule": false,
-    "text": "function *f() {\n  yield *= x;\n}",
+    "source": "function *f() {\n  yield *= x;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

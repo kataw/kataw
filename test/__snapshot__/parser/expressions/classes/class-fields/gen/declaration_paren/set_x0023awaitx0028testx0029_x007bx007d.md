@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base { set #await(test) {} });",
+    "source": "(class extends Base { set #await(test) {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

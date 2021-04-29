@@ -69,7 +69,7 @@ catch /false//a finally
         }
     ],
     "isModule": false,
-    "text": "catch /false//a finally",
+    "source": "catch /false//a finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

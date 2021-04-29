@@ -128,7 +128,7 @@ class x {set this(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set this(x){}}",
+    "source": "class x {set this(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

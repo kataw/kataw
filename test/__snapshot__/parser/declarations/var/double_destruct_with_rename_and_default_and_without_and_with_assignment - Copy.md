@@ -188,7 +188,7 @@ var {x:y=z}, {a:b=c} = obj;
         }
     ],
     "isModule": false,
-    "text": "var {x:y=z}, {a:b=c} = obj;",
+    "source": "var {x:y=z}, {a:b=c} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

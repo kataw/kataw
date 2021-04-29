@@ -75,7 +75,7 @@
         }
     ],
     "isModule": true,
-    "text": "\"use strict\"; 'use strict'; with (x) y;",
+    "source": "\"use strict\"; 'use strict'; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

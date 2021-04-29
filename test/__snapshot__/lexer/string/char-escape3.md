@@ -63,7 +63,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\P\"\n;\n\"prefix\\Q\"\n;\n\"\\Rsuffix\"",
+    "source": "\"\\P\"\n;\n\"prefix\\Q\"\n;\n\"\\Rsuffix\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

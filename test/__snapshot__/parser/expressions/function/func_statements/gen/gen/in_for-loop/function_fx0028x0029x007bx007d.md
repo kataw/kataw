@@ -83,7 +83,7 @@ for (;;) function f(){}
         }
     ],
     "isModule": false,
-    "text": "for (;;) function f(){}",
+    "source": "for (;;) function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

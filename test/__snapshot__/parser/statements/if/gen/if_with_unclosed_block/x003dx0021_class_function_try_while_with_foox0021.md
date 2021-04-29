@@ -241,7 +241,7 @@ else {} if(x) { =! class function try while with foo!
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { =! class function try while with foo!",
+    "source": "else {} if(x) { =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

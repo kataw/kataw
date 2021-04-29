@@ -103,7 +103,7 @@ foo(function* f(){})
         }
     ],
     "isModule": true,
-    "text": "foo(function* f(){})",
+    "source": "foo(function* f(){})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

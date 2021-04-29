@@ -85,7 +85,7 @@ var af = ()
         }
     ],
     "isModule": false,
-    "text": "var af = ()\n=> {};",
+    "source": "var af = ()\n=> {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

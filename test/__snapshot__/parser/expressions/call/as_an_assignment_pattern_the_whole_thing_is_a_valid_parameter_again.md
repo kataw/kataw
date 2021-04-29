@@ -103,7 +103,7 @@ async({c=3} = {})
         }
     ],
     "isModule": false,
-    "text": "async({c=3} = {})",
+    "source": "async({c=3} = {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

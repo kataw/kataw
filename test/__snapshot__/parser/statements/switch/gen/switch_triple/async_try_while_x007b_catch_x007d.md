@@ -176,7 +176,7 @@ switch switch switch async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "switch switch switch async try while { catch }",
+    "source": "switch switch switch async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -129,7 +129,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; var [...await f] = [];",
+    "source": "'use strict'; var [...await f] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

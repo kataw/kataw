@@ -360,7 +360,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
         }
     ],
     "isModule": false,
-    "text": "a?.[++x] // short-circuiting.\na?.b.c(++x).d; // long short-circuiting.\n\nundefined?.[++x] // short-circuiting.\nundefined?.b.c(++x).d; // long short-circuiting.\n",
+    "source": "a?.[++x] // short-circuiting.\na?.b.c(++x).d; // long short-circuiting.\n\nundefined?.[++x] // short-circuiting.\nundefined?.b.c(++x).d; // long short-circuiting.\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

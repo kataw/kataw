@@ -140,7 +140,7 @@ function f(a = async async => {}) {}
         }
     ],
     "isModule": false,
-    "text": "function f(a = async async => {}) {}",
+    "source": "function f(a = async async => {}) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

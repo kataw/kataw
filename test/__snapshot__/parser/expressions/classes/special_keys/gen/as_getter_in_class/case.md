@@ -109,7 +109,7 @@ class x {get case(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get case(){}}",
+    "source": "class x {get case(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

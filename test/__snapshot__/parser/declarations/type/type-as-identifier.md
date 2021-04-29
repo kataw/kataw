@@ -89,7 +89,7 @@ type = x;
         }
     ],
     "isModule": false,
-    "text": "type;\n\ntype = x;\n\n(type);",
+    "source": "type;\n\ntype = x;\n\n(type);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

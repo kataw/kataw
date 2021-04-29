@@ -66,7 +66,7 @@ f(new /z/)
         }
     ],
     "isModule": false,
-    "text": "f(new /z/)",
+    "source": "f(new /z/)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -165,7 +165,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class x {\n  constructor () {}\n  constructor () {}\n})",
+    "source": "(class x {\n  constructor () {}\n  constructor () {}\n})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

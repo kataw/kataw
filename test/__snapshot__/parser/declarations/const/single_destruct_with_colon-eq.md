@@ -113,7 +113,7 @@ const {a:=c} = z;
         }
     ],
     "isModule": false,
-    "text": "const {a:=c} = z;",
+    "source": "const {a:=c} = z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -147,7 +147,7 @@ let x = function f(foo = await bar){
         }
     ],
     "isModule": false,
-    "text": "let x = function f(foo = await bar){",
+    "source": "let x = function f(foo = await bar){",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

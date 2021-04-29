@@ -122,7 +122,7 @@
         }
     ],
     "isModule": false,
-    "text": "[ ... a + b instanceof c ] = x",
+    "source": "[ ... a + b instanceof c ] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

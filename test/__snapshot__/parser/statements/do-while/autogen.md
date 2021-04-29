@@ -232,7 +232,7 @@ do[ #
         }
     ],
     "isModule": false,
-    "text": "do # while",
+    "source": "do # while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

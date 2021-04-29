@@ -190,7 +190,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { (class { static async method(...await) {} }) }}",
+    "source": "function not_gen() { (class { static async method(...await) {} }) }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

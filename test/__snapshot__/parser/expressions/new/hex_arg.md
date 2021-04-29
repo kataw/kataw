@@ -72,7 +72,7 @@ new 0x2.__proto__.constructor
         }
     ],
     "isModule": false,
-    "text": "new 0x2.__proto__.constructor",
+    "source": "new 0x2.__proto__.constructor",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

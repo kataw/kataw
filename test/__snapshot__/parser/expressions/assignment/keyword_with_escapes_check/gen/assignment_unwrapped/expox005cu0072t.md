@@ -51,7 +51,7 @@ expo\u0072t = x;
         }
     ],
     "isModule": false,
-    "text": "expo\\u0072t = x;",
+    "source": "expo\\u0072t = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

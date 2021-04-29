@@ -181,7 +181,7 @@ try try try while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "try try try while try this and !foo",
+    "source": "try try try while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

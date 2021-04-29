@@ -182,7 +182,7 @@ let f = () => { const [...await f] = []; }
         }
     ],
     "isModule": false,
-    "text": "let f = () => { const [...await f] = []; }",
+    "source": "let f = () => { const [...await f] = []; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

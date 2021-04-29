@@ -59,7 +59,7 @@ new class{}
         }
     ],
     "isModule": false,
-    "text": "new class{}",
+    "source": "new class{}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

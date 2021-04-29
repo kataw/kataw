@@ -73,7 +73,7 @@ export default async (x) => y
         }
     ],
     "isModule": false,
-    "text": "export default async (x) => y",
+    "source": "export default async (x) => y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

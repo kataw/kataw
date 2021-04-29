@@ -66,7 +66,7 @@ foo: for (;;) continue foo
         }
     ],
     "isModule": false,
-    "text": "foo: for (;;) continue foo",
+    "source": "foo: for (;;) continue foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

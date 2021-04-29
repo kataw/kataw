@@ -552,7 +552,7 @@ new new foo().bar++;
         }
     ],
     "isModule": false,
-    "text": "foo()++;\n\nfoo(bar)++;\n\nfoo[bar]()++;\n\nfoo.bar()++;\n\nthis.foo[foo].bar(this)(bar)[foo]()++;\n\nnew foo()++;\n\nnew new foo().bar++;\n\n{x: 1}++;",
+    "source": "foo()++;\n\nfoo(bar)++;\n\nfoo[bar]()++;\n\nfoo.bar()++;\n\nthis.foo[foo].bar(this)(bar)[foo]()++;\n\nnew foo()++;\n\nnew new foo().bar++;\n\n{x: 1}++;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

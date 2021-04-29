@@ -124,7 +124,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: {x}/x}) => x",
+    "source": "({ident: {x}/x}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

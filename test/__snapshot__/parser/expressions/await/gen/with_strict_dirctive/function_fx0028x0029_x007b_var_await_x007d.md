@@ -116,7 +116,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function f() { var await; }",
+    "source": "'use strict'; function f() { var await; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

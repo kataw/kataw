@@ -134,7 +134,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] async class",
+    "source": "{ [catch] async class",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

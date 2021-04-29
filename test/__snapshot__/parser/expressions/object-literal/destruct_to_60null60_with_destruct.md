@@ -123,7 +123,7 @@ s = {"foo": null = x} = x
         }
     ],
     "isModule": false,
-    "text": "s = {\"foo\": null = x} = x",
+    "source": "s = {\"foo\": null = x} = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

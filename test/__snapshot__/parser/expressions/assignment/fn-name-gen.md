@@ -228,7 +228,7 @@ gen = function*() {};
         }
     ],
     "isModule": false,
-    "text": "var xGen, gen;\n\nxGen = function* x() {};\ngen = function*() {};",
+    "source": "var xGen, gen;\n\nxGen = function* x() {};\ngen = function*() {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@ const {[x]} = z;
         }
     ],
     "isModule": false,
-    "text": "const {[x]} = z;",
+    "source": "const {[x]} = z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

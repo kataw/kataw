@@ -120,7 +120,7 @@ else while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "else while try this and !foo",
+    "source": "else while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

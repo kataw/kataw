@@ -131,7 +131,7 @@ var {[a]: [b]} = c
         }
     ],
     "isModule": false,
-    "text": "var {[a]: [b]} = c",
+    "source": "var {[a]: [b]} = c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

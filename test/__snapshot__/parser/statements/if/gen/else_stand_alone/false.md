@@ -34,7 +34,7 @@ else false
         }
     ],
     "isModule": false,
-    "text": "else false",
+    "source": "else false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

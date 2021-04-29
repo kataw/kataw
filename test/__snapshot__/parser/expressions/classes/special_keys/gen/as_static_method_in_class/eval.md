@@ -109,7 +109,7 @@ class x {static eval(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static eval(){}}",
+    "source": "class x {static eval(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

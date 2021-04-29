@@ -88,7 +88,7 @@ class x {break: x}
         }
     ],
     "isModule": false,
-    "text": "class x {break: x}",
+    "source": "class x {break: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

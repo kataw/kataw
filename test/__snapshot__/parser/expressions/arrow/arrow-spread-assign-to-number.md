@@ -88,7 +88,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a, ...x = 10) => x;",
+    "source": "(a, ...x = 10) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

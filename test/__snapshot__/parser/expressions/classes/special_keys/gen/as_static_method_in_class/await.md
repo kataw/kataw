@@ -109,7 +109,7 @@ class x {static await(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static await(){}}",
+    "source": "class x {static await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

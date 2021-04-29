@@ -57,7 +57,7 @@ while(z) continue foo
         }
     ],
     "isModule": false,
-    "text": "while(z) continue foo",
+    "source": "while(z) continue foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

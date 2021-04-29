@@ -125,7 +125,7 @@ const { f: await f } = {};
         }
     ],
     "isModule": false,
-    "text": "const { f: await f } = {};",
+    "source": "const { f: await f } = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

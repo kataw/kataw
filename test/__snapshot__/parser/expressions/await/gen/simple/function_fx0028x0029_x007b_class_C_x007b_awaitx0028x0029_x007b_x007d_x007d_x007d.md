@@ -152,7 +152,7 @@ function f() { class C { await() { } } }
         }
     ],
     "isModule": false,
-    "text": "function f() { class C { await() { } } }",
+    "source": "function f() { class C { await() { } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

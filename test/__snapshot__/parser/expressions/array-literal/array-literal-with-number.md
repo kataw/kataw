@@ -99,7 +99,7 @@
         }
     ],
     "isModule": false,
-    "text": "[5..length] = x",
+    "source": "[5..length] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

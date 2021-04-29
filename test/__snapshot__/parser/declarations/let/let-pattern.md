@@ -103,7 +103,7 @@ const {x=y};
         }
     ],
     "isModule": false,
-    "text": "const {x=y};",
+    "source": "const {x=y};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

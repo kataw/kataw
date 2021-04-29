@@ -293,7 +293,7 @@ async function f(){
         }
     ],
     "isModule": false,
-    "text": "async function f(){\n  (fail = class A {[x](await){}; \"x\"(){}}) => {}\n}",
+    "source": "async function f(){\n  (fail = class A {[x](await){}; \"x\"(){}}) => {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

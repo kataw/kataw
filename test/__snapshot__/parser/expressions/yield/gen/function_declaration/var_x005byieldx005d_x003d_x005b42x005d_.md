@@ -154,7 +154,7 @@ function not_gen() { var [yield] = [42]; }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { var [yield] = [42]; }}",
+    "source": "function not_gen() { var [yield] = [42]; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

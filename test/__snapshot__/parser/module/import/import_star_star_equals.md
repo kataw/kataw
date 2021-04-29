@@ -66,7 +66,7 @@ import **= from 'f';
         }
     ],
     "isModule": true,
-    "text": "import **= from 'f';",
+    "source": "import **= from 'f';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ async ({ident: {x: y}})
         }
     ],
     "isModule": false,
-    "text": "async ({ident: {x: y}})",
+    "source": "async ({ident: {x: y}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

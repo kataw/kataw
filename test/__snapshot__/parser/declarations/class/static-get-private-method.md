@@ -109,7 +109,7 @@ class C { static get #aaa(){} }
         }
     ],
     "isModule": false,
-    "text": "class C { static get #aaa(){} }",
+    "source": "class C { static get #aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

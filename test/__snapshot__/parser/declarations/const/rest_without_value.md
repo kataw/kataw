@@ -109,7 +109,7 @@ const [...] = obj;
         }
     ],
     "isModule": false,
-    "text": "const [...] = obj;",
+    "source": "const [...] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

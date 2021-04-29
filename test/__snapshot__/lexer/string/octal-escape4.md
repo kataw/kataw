@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\023a\"",
+    "source": "\"\\023a\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

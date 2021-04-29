@@ -84,7 +84,7 @@ let ...a = 1;
         }
     ],
     "isModule": false,
-    "text": "let ...a = 1;",
+    "source": "let ...a = 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -469,7 +469,7 @@ f ^= 1;
         }
     ],
     "isModule": false,
-    "text": "class f { }\n\nf += '';\nf += 1;\nf -= 1;\nf *= 1;\nf /= 1;\nf %= 1;\nf &= 1;\nf |= 1;\nf <<= 1;\nf >>= 1;\nf >>>= 1;\nf ^= 1;",
+    "source": "class f { }\n\nf += '';\nf += 1;\nf -= 1;\nf *= 1;\nf /= 1;\nf %= 1;\nf &= 1;\nf |= 1;\nf <<= 1;\nf >>= 1;\nf >>>= 1;\nf ^= 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -45,7 +45,7 @@ import "y"
         }
     ],
     "isModule": true,
-    "text": "import \"y\"",
+    "source": "import \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

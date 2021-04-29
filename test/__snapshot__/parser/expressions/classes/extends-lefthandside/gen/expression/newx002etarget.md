@@ -87,7 +87,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends new.target {})",
+    "source": "(class B extends new.target {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

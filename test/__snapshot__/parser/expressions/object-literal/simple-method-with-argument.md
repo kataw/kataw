@@ -125,7 +125,7 @@ x = {
         }
     ],
     "isModule": false,
-    "text": "x = {\n    method(test) {\n\n    }\n};;",
+    "source": "x = {\n    method(test) {\n\n    }\n};;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

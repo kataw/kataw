@@ -58,7 +58,7 @@ a);
         }
     ],
     "isModule": false,
-    "text": "if (--\na);",
+    "source": "if (--\na);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

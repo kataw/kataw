@@ -61,7 +61,7 @@ for (eval in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (eval in x) ;",
+    "source": "for (eval in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

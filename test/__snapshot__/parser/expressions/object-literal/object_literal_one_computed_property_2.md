@@ -145,7 +145,7 @@ x({[a]:b, [15]:d}=obj);
         }
     ],
     "isModule": false,
-    "text": "x({[a]:b, [15]:d}=obj);",
+    "source": "x({[a]:b, [15]:d}=obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static * with(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * with(){}}",
+    "source": "class x {static * with(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -92,7 +92,7 @@
         }
     ],
     "isModule": false,
-    "text": "[true = x] = x",
+    "source": "[true = x] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

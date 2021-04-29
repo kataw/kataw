@@ -114,7 +114,7 @@ class x {static * extends(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * extends(){}}",
+    "source": "class x {static * extends(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

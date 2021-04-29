@@ -145,7 +145,7 @@ var x = ({ a } : any = 'foo') => {}
         }
     ],
     "isModule": false,
-    "text": "var x = ({ a } : any = 'foo') => {}\n",
+    "source": "var x = ({ a } : any = 'foo') => {}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

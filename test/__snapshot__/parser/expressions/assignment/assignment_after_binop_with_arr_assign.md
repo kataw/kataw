@@ -90,7 +90,7 @@ switch(y&[]=y){}
         }
     ],
     "isModule": false,
-    "text": "switch(y&[]=y){}",
+    "source": "switch(y&[]=y){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

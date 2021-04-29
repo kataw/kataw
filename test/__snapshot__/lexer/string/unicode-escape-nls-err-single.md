@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "'\\u{1F_639}';",
+    "source": "'\\u{1F_639}';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

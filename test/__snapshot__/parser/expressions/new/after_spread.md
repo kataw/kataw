@@ -78,7 +78,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...new A()]",
+    "source": "[...new A()]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

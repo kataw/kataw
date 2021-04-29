@@ -122,7 +122,7 @@ class C extends Base { a\n get }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { a\\n get }",
+    "source": "class C extends Base { a\\n get }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

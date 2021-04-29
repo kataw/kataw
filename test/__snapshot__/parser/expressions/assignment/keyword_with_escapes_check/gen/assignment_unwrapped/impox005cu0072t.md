@@ -50,7 +50,7 @@ impo\u0072t = x;
         }
     ],
     "isModule": false,
-    "text": "impo\\u0072t = x;",
+    "source": "impo\\u0072t = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

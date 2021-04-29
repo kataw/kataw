@@ -190,7 +190,7 @@ class Foo extends Base {
         }
     ],
     "isModule": false,
-    "text": "class Foo extends Base {\n    method() {\n      super.method?.();\n    }\n}",
+    "source": "class Foo extends Base {\n    method() {\n      super.method?.();\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

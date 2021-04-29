@@ -162,7 +162,7 @@ const [a=[...b], ...c] = obj;
         }
     ],
     "isModule": false,
-    "text": "const [a=[...b], ...c] = obj;",
+    "source": "const [a=[...b], ...c] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

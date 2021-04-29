@@ -112,7 +112,7 @@ for (let of x) y
         }
     ],
     "isModule": false,
-    "text": "for (let of x) y",
+    "source": "for (let of x) y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

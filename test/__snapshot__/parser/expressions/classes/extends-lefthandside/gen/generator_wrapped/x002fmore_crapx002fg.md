@@ -126,7 +126,7 @@ function *P(){
         }
     ],
     "isModule": false,
-    "text": "function *P(){\n  class D extends /more crap/g {}\n}",
+    "source": "function *P(){\n  class D extends /more crap/g {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

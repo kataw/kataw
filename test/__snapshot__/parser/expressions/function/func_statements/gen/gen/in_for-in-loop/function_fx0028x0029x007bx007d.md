@@ -102,7 +102,7 @@ for (a in b) function f(){}
         }
     ],
     "isModule": false,
-    "text": "for (a in b) function f(){}",
+    "source": "for (a in b) function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

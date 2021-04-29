@@ -156,7 +156,7 @@ for (function(){ a in b; }.prop in x);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ a in b; }.prop in x);",
+    "source": "for (function(){ a in b; }.prop in x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

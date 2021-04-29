@@ -126,7 +126,7 @@ async function x() {}
         }
     ],
     "isModule": false,
-    "text": "async function x() {\n\nasync function x() {}\n\n}",
+    "source": "async function x() {\n\nasync function x() {}\n\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

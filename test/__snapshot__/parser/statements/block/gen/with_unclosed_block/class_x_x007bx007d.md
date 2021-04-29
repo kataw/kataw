@@ -142,7 +142,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { class x {}",
+    "source": "{ {} finally(x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

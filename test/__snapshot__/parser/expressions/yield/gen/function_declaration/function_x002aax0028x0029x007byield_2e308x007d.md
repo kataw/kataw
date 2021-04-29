@@ -150,7 +150,7 @@ function not_gen() { function *a(){yield 2e308} }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function *a(){yield 2e308} }}",
+    "source": "function not_gen() { function *a(){yield 2e308} }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -91,7 +91,7 @@ async () => {  a\u0072guments = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  a\\u0072guments = x  }",
+    "source": "async () => {  a\\u0072guments = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ for (function f(){} in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (function f(){} in x) ;",
+    "source": "for (function f(){} in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

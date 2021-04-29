@@ -142,7 +142,7 @@ for (function(){ }[x in y] of x);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ }[x in y] of x);",
+    "source": "for (function(){ }[x in y] of x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

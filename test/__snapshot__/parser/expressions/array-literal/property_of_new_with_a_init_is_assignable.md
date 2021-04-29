@@ -139,7 +139,7 @@
         }
     ],
     "isModule": false,
-    "text": "[new x().y = a] = z",
+    "source": "[new x().y = a] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

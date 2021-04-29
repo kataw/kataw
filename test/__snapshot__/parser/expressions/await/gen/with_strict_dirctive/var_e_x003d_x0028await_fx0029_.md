@@ -97,7 +97,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; var e = (await, f);",
+    "source": "'use strict'; var e = (await, f);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

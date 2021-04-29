@@ -96,7 +96,7 @@ x = {0xabc(){}}
         }
     ],
     "isModule": false,
-    "text": "x = {0xabc(){}}",
+    "source": "x = {0xabc(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

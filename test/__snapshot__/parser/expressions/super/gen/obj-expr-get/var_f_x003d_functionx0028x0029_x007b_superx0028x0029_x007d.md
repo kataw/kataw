@@ -196,7 +196,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ get x() { var f = function() { super(); } } })",
+    "source": "({ get x() { var f = function() { super(); } } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {* const(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* const(){}}",
+    "source": "class x {* const(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -65,7 +65,7 @@ do( false while
         }
     ],
     "isModule": false,
-    "text": "do( false while",
+    "source": "do( false while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

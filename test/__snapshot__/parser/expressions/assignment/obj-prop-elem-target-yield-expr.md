@@ -204,7 +204,7 @@ result = { x: x[yield] } = vals;
         }
     ],
     "isModule": false,
-    "text": "var vals = { x: 23 };\n\nresult = { x: x[yield] } = vals;",
+    "source": "var vals = { x: 23 };\n\nresult = { x: x[yield] } = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

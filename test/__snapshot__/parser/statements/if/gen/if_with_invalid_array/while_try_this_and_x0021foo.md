@@ -178,7 +178,7 @@ if [else] while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "if [else] while try this and !foo",
+    "source": "if [else] while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

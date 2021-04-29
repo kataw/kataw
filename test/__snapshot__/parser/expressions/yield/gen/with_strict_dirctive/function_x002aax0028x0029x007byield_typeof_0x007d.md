@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function *a(){yield typeof 0}",
+    "source": "'use strict'; function *a(){yield typeof 0}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

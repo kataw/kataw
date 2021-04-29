@@ -134,7 +134,7 @@ class C extends Base { static get x() {} }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { static get x() {} }",
+    "source": "class C extends Base { static get x() {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

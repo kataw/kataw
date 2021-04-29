@@ -110,7 +110,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  publ\\u0069c = x\n}",
+    "source": "function *f(){\n  publ\\u0069c = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

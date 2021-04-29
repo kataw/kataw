@@ -137,7 +137,7 @@ else {} if(x) { try { !xxx
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { try { !xxx",
+    "source": "else {} if(x) { try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

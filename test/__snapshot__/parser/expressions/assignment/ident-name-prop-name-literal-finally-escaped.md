@@ -148,7 +148,7 @@ var y = { \u0066inally: x } = { finally: 42 };
         }
     ],
     "isModule": false,
-    "text": "var y = { \\u0066inally: x } = { finally: 42 };",
+    "source": "var y = { \\u0066inally: x } = { finally: 42 };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -193,7 +193,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { if I switch while I sleep",
+    "source": "{ {} finally(x) { if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

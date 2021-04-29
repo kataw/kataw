@@ -88,7 +88,7 @@ eval => { 'use strict'; 0 } ;
         }
     ],
     "isModule": false,
-    "text": "eval => { 'use strict'; 0 } ;",
+    "source": "eval => { 'use strict'; 0 } ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

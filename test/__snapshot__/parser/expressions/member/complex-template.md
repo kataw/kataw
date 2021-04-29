@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "[`a${5}b`.length] = x",
+    "source": "[`a${5}b`.length] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

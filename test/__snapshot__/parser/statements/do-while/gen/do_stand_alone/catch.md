@@ -76,7 +76,7 @@ do catch
         }
     ],
     "isModule": false,
-    "text": "do catch",
+    "source": "do catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -64,7 +64,7 @@
         }
     ],
     "isModule": false,
-    "text": " while (x) { break; }",
+    "source": " while (x) { break; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

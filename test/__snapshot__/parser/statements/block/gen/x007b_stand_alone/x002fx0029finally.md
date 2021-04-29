@@ -48,7 +48,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ /)finally",
+    "source": "{ /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

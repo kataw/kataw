@@ -950,7 +950,7 @@
         }
     ],
     "isModule": false,
-    "text": "({1: 1, set 1(v) {}});\n({1: 1, get 1() {}});\n({1: 1, set \"1\"(v) {}});\n({foo: 1, bar: 2});\n({1: 1, 2: 2});\n({get foo() {}});\n({set foo(v) {}});\n({set 1(v) {}});\n({foo: 1, get bar() {}});\n({1: 1, get 2() {}});",
+    "source": "({1: 1, set 1(v) {}});\n({1: 1, get 1() {}});\n({1: 1, set \"1\"(v) {}});\n({foo: 1, bar: 2});\n({1: 1, 2: 2});\n({get foo() {}});\n({set foo(v) {}});\n({set 1(v) {}});\n({foo: 1, get bar() {}});\n({1: 1, get 2() {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

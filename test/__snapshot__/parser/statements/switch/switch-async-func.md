@@ -185,7 +185,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
         }
     ],
     "isModule": false,
-    "text": "switch (0) { case 1: async function* f() {} default: function f() {} }",
+    "source": "switch (0) { case 1: async function* f() {} default: function f() {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

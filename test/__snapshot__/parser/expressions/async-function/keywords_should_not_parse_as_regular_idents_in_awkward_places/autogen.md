@@ -125,7 +125,7 @@ property is valid assignment target so should work
         }
     ],
     "isModule": false,
-    "text": "[ # ]",
+    "source": "[ # ]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -143,7 +143,7 @@ class Foo {set fooProp(value:number){}}
         }
     ],
     "isModule": false,
-    "text": "class Foo {set fooProp(value:number){}}",
+    "source": "class Foo {set fooProp(value:number){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

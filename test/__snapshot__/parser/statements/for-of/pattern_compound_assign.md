@@ -111,7 +111,7 @@ for({}/=y of a)x
         }
     ],
     "isModule": false,
-    "text": "for({}/=y of a)x",
+    "source": "for({}/=y of a)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

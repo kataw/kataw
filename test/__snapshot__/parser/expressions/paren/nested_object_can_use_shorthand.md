@@ -85,7 +85,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: {x}})",
+    "source": "({ident: {x}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

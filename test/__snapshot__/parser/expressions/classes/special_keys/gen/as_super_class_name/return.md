@@ -97,7 +97,7 @@ class x extends return {}
         }
     ],
     "isModule": false,
-    "text": "class x extends return {}",
+    "source": "class x extends return {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

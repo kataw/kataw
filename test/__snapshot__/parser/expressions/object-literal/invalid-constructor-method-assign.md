@@ -124,7 +124,7 @@
         }
     ],
     "isModule": false,
-    "text": "({3200: fail() = x} = x)",
+    "source": "({3200: fail() = x} = x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

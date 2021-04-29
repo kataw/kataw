@@ -126,7 +126,7 @@ for ([a.b]++ of c) d
         }
     ],
     "isModule": false,
-    "text": "for ([a.b]++ of c) d",
+    "source": "for ([a.b]++ of c) d",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

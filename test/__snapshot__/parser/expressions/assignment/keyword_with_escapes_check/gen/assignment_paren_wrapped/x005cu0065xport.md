@@ -76,7 +76,7 @@
         }
     ],
     "isModule": false,
-    "text": "(\\u0065xport = x);",
+    "source": "(\\u0065xport = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -86,7 +86,7 @@ class {
         }
     ],
     "isModule": false,
-    "text": "class {\n\n      static field = foo;\n\n\n}",
+    "source": "class {\n\n      static field = foo;\n\n\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

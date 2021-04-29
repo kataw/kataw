@@ -83,7 +83,7 @@ export var let = x;
         }
     ],
     "isModule": true,
-    "text": "export var let = x;",
+    "source": "export var let = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

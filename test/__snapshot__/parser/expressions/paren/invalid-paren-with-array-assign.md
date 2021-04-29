@@ -141,7 +141,7 @@
         }
     ],
     "isModule": false,
-    "text": "([a]) = [];\n\n({a}) = {};",
+    "source": "([a]) = [];\n\n({a}) = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

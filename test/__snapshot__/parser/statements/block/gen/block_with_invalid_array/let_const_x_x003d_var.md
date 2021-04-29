@@ -167,7 +167,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] let const x = var",
+    "source": "{ [catch] let const x = var",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

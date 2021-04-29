@@ -99,7 +99,7 @@ x => ok
         }
     ],
     "isModule": false,
-    "text": "x => ok\n/ x / g",
+    "source": "x => ok\n/ x / g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

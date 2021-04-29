@@ -208,7 +208,7 @@ const fn = async (a?: any): Promise<void> => {};
         }
     ],
     "isModule": false,
-    "text": "const fn = async (a?: any): Promise<void> => {};",
+    "source": "const fn = async (a?: any): Promise<void> => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

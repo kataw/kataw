@@ -109,7 +109,7 @@ class x {get throw(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get throw(){}}",
+    "source": "class x {get throw(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

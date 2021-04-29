@@ -63,7 +63,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x=(await z)=y)",
+    "source": "(x=(await z)=y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

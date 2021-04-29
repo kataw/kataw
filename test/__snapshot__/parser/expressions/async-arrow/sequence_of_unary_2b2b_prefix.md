@@ -82,7 +82,7 @@ async (++x, y) => x;
         }
     ],
     "isModule": false,
-    "text": "async (++x, y) => x;",
+    "source": "async (++x, y) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

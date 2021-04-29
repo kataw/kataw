@@ -64,7 +64,7 @@ x
         }
     ],
     "isModule": false,
-    "text": "new yield\nx",
+    "source": "new yield\nx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

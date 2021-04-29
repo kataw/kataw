@@ -102,7 +102,7 @@ async () => {  \u0074ypeof = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0074ypeof = x  }",
+    "source": "async () => {  \\u0074ypeof = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

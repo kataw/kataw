@@ -123,7 +123,7 @@ if function while else
         }
     ],
     "isModule": false,
-    "text": "if function while else",
+    "source": "if function while else",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

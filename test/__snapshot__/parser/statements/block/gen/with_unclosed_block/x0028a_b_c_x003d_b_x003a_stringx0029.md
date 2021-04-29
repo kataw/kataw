@@ -193,7 +193,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { (a b, c = b : string)",
+    "source": "{ {} finally(x) { (a b, c = b : string)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@ class x {default(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {default(){}}",
+    "source": "class x {default(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

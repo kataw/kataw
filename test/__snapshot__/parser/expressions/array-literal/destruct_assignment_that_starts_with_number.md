@@ -88,7 +88,7 @@
         }
     ],
     "isModule": false,
-    "text": "[50..foo] = x",
+    "source": "[50..foo] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

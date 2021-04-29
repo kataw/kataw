@@ -162,7 +162,7 @@ x = {x: [{a = b}] + x}.x
         }
     ],
     "isModule": false,
-    "text": "x = {x: [{a = b}] + x}.x",
+    "source": "x = {x: [{a = b}] + x}.x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

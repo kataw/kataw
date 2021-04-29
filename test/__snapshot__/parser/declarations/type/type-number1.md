@@ -68,7 +68,7 @@ type foo<number> = string;
         }
     ],
     "isModule": false,
-    "text": "type foo<number> = string;",
+    "source": "type foo<number> = string;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

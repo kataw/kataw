@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u180E\"",
+    "source": "\"\\u180E\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

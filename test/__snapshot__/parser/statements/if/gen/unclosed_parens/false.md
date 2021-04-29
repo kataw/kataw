@@ -55,7 +55,7 @@ if( false
         }
     ],
     "isModule": false,
-    "text": "if( false",
+    "source": "if( false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

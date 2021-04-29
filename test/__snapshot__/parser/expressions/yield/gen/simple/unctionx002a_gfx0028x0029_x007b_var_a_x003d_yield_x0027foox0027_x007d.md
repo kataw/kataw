@@ -142,7 +142,7 @@ unction* gf() { var a = yield 'foo'; }
         }
     ],
     "isModule": false,
-    "text": "unction* gf() { var a = yield 'foo'; }",
+    "source": "unction* gf() { var a = yield 'foo'; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

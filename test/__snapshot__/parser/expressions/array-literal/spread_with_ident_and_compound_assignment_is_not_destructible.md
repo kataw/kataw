@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...x += y] = a;",
+    "source": "[...x += y] = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

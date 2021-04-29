@@ -147,7 +147,7 @@ typeof x;
         }
     ],
     "isModule": false,
-    "text": "a ? b : c ? d : e * x\n\ntypeof x;",
+    "source": "a ? b : c ? d : e * x\n\ntypeof x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

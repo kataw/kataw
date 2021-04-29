@@ -55,7 +55,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0073tatic = x;",
+    "source": "\\u0073tatic = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

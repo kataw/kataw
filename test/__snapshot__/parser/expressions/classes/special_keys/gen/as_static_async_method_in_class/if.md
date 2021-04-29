@@ -114,7 +114,7 @@ class x {static async if(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async if(){}}",
+    "source": "class x {static async if(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

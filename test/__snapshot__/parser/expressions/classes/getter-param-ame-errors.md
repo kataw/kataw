@@ -988,7 +988,7 @@ class C { get name(private) {} }
         }
     ],
     "isModule": false,
-    "text": "\nclass C { get name(interface) {} }\n\nclass C { get name(public) {} }\n\nclass C { get name(private) {} }\n\n'use strict'; class C { get name(implements) {} }\n\n'use strict'; class C { get name(yield) {} }\n\n'use strict'; class C { get name(var) {} }\n\n'use strict'; (class { get name(package) {} })\n\n'use strict'; (class { get name(static) {} })\n",
+    "source": "\nclass C { get name(interface) {} }\n\nclass C { get name(public) {} }\n\nclass C { get name(private) {} }\n\n'use strict'; class C { get name(implements) {} }\n\n'use strict'; class C { get name(yield) {} }\n\n'use strict'; class C { get name(var) {} }\n\n'use strict'; (class { get name(package) {} })\n\n'use strict'; (class { get name(static) {} })\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

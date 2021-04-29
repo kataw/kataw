@@ -161,7 +161,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x, y) => (u, v) => x*u + y*v;",
+    "source": "(x, y) => (u, v) => x*u + y*v;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

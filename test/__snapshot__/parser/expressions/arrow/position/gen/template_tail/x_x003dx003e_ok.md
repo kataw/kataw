@@ -109,7 +109,7 @@
         }
     ],
     "isModule": false,
-    "text": "`a ${x => ok} b`.length",
+    "source": "`a ${x => ok} b`.length",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

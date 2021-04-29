@@ -88,7 +88,7 @@ class x {with: x}
         }
     ],
     "isModule": false,
-    "text": "class x {with: x}",
+    "source": "class x {with: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

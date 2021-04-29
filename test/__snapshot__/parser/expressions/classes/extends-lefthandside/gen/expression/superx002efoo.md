@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends super.foo {})",
+    "source": "(class B extends super.foo {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

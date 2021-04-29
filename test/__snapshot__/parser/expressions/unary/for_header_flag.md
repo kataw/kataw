@@ -91,7 +91,7 @@ for(delete(x in y);;)x
         }
     ],
     "isModule": false,
-    "text": "for(delete(x in y);;)x",
+    "source": "for(delete(x in y);;)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

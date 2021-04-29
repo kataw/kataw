@@ -99,7 +99,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a, 1, \"c\", d, e, f) => x;",
+    "source": "(a, 1, \"c\", d, e, f) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

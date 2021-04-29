@@ -106,7 +106,7 @@ export {x}; var x;
         }
     ],
     "isModule": true,
-    "text": "export {x}; var x;",
+    "source": "export {x}; var x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

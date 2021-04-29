@@ -107,7 +107,7 @@ export {a \u0061s b} from "x";
         }
     ],
     "isModule": true,
-    "text": "export {a \\u0061s b} from \"x\";",
+    "source": "export {a \\u0061s b} from \"x\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

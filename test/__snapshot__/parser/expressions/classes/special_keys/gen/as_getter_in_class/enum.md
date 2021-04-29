@@ -109,7 +109,7 @@ class x {get enum(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get enum(){}}",
+    "source": "class x {get enum(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

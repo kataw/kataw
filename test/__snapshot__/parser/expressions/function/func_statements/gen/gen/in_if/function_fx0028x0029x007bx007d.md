@@ -90,7 +90,7 @@ if (x) function f(){}
         }
     ],
     "isModule": false,
-    "text": "if (x) function f(){}",
+    "source": "if (x) function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

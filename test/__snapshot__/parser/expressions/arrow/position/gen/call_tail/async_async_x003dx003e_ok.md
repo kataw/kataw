@@ -112,7 +112,7 @@ foo(async async => ok).bar
         }
     ],
     "isModule": false,
-    "text": "foo(async async => ok).bar",
+    "source": "foo(async async => ok).bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

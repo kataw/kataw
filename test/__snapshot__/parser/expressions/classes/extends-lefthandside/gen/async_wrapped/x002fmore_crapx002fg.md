@@ -126,7 +126,7 @@ async function p(){
         }
     ],
     "isModule": false,
-    "text": "async function p(){\n  class C extends /more crap/g {}\n}",
+    "source": "async function p(){\n  class C extends /more crap/g {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

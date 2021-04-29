@@ -94,7 +94,7 @@ x = {a, ...y, b}
         }
     ],
     "isModule": false,
-    "text": "x = {a, ...y, b}",
+    "source": "x = {a, ...y, b}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

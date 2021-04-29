@@ -161,7 +161,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function f() { class C { await() { } } }",
+    "source": "'use strict'; function f() { class C { await() { } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

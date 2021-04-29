@@ -290,7 +290,7 @@ result = [ x = yield ] = vals;
         }
     ],
     "isModule": false,
-    "text": "var yield = 4;\nvar x;\n\nvar result;\nvar vals = [];\n\nresult = [ x = yield ] = vals;",
+    "source": "var yield = 4;\nvar x;\n\nvar result;\nvar vals = [];\n\nresult = [ x = yield ] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

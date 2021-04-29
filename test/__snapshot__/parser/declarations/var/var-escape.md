@@ -62,7 +62,7 @@ var _\u{104A6} = 10;
         }
     ],
     "isModule": false,
-    "text": "var _\\u{104A6} = 10;",
+    "source": "var _\\u{104A6} = 10;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

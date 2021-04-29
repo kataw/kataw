@@ -109,7 +109,7 @@ function f(x=super.foo){ }
         }
     ],
     "isModule": false,
-    "text": "function f(x=super.foo){ }\n",
+    "source": "function f(x=super.foo){ }\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

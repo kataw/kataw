@@ -128,7 +128,7 @@ class x {set interface(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set interface(x){}}",
+    "source": "class x {set interface(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

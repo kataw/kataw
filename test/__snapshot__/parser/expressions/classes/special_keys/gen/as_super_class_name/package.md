@@ -72,7 +72,7 @@ class x extends package {}
         }
     ],
     "isModule": false,
-    "text": "class x extends package {}",
+    "source": "class x extends package {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

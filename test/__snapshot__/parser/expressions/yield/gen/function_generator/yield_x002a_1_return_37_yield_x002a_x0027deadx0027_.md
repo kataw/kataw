@@ -210,7 +210,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}",
+    "source": "function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

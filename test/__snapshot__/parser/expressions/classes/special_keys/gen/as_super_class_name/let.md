@@ -72,7 +72,7 @@ class x extends let {}
         }
     ],
     "isModule": false,
-    "text": "class x extends let {}",
+    "source": "class x extends let {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

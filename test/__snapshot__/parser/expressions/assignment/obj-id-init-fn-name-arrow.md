@@ -128,7 +128,7 @@ result = { arrow = () => {} } = {}
         }
     ],
     "isModule": false,
-    "text": "result = { arrow = () => {} } = {}",
+    "source": "result = { arrow = () => {} } = {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

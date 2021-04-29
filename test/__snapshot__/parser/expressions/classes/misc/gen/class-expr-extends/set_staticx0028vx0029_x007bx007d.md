@@ -152,7 +152,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base {set static(v) {}});",
+    "source": "(class extends Base {set static(v) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

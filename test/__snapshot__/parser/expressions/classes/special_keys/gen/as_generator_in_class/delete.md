@@ -109,7 +109,7 @@ class x {* delete(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* delete(){}}",
+    "source": "class x {* delete(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -124,7 +124,7 @@ class A {get set(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {get set(){}}",
+    "source": "class A {get set(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

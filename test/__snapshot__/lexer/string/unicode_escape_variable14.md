@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u{1234",
+    "source": "\"\\u{1234",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

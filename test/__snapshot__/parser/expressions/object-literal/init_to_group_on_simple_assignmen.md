@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a: (b) = c} = [2])\n",
+    "source": "({a: (b) = c} = [2])\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ for ([x + y];;);
         }
     ],
     "isModule": false,
-    "text": "for ([x + y];;);",
+    "source": "for ([x + y];;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

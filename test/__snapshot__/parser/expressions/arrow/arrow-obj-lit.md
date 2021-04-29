@@ -133,7 +133,7 @@
         }
     ],
     "isModule": false,
-    "text": "({x=y}) => z;\n\n({x=y}: string) => z;",
+    "source": "({x=y}) => z;\n\n({x=y}: string) => z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

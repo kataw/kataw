@@ -114,7 +114,7 @@ class x {static async super(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async super(){}}",
+    "source": "class x {static async super(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

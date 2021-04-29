@@ -114,7 +114,7 @@ class x {static get with(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get with(){}}",
+    "source": "class x {static get with(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

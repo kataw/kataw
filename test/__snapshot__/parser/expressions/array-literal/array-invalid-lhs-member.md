@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "[{a = 0}.x] = [];",
+    "source": "[{a = 0}.x] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

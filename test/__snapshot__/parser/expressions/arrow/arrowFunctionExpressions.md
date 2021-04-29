@@ -1735,7 +1735,7 @@ var p10 = ([{ value, done }]) => { };
         }
     ],
     "isModule": false,
-    "text": "var a = (p: string) => p.length;\nvar a = (p: string) => { return p.length; };\n\nvar b = j => { return 0; };\nvar b = (j) => { return 0; };\n\nvar c: number;\nvar d = n => c = n;\nvar d = (n) => c = n;\nvar d: (n: any) => any;\n\n\nvar p1 = ([a]) => { };\nvar p2 = ([...a]) => { };\nvar p3 = ([, a]) => { };\nvar p4 = ([, ...a]) => { };\nvar p5 = ([a = 1]) => { };\nvar p6 = ({ a }) => { };\nvar p7 = ({ a: { b } }) => { };\nvar p8 = ({ a = 1 }) => { };\n//var p9 = ({ a: { b = 1 } = { b: 1 } }) => { };\nvar p10 = ([{ value, done }]) => { };\n",
+    "source": "var a = (p: string) => p.length;\nvar a = (p: string) => { return p.length; };\n\nvar b = j => { return 0; };\nvar b = (j) => { return 0; };\n\nvar c: number;\nvar d = n => c = n;\nvar d = (n) => c = n;\nvar d: (n: any) => any;\n\n\nvar p1 = ([a]) => { };\nvar p2 = ([...a]) => { };\nvar p3 = ([, a]) => { };\nvar p4 = ([, ...a]) => { };\nvar p5 = ([a = 1]) => { };\nvar p6 = ({ a }) => { };\nvar p7 = ({ a: { b } }) => { };\nvar p8 = ({ a = 1 }) => { };\n//var p9 = ({ a: { b = 1 } = { b: 1 } }) => { };\nvar p10 = ([{ value, done }]) => { };\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -149,7 +149,7 @@ class C { constructor() { new super; } }
         }
     ],
     "isModule": false,
-    "text": "class C { constructor() { new super; } }",
+    "source": "class C { constructor() { new super; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

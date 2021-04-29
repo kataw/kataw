@@ -129,7 +129,7 @@ class x {[x]z){}}
         }
     ],
     "isModule": false,
-    "text": "class x {[x]z){}}",
+    "source": "class x {[x]z){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

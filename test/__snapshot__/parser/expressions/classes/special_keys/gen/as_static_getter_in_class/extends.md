@@ -114,7 +114,7 @@ class x {static get extends(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get extends(){}}",
+    "source": "class x {static get extends(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

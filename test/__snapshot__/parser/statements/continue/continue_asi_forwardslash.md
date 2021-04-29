@@ -98,7 +98,7 @@ for (x of 3) continue
         }
     ],
     "isModule": false,
-    "text": "for (x of 3) continue\n/",
+    "source": "for (x of 3) continue\n/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

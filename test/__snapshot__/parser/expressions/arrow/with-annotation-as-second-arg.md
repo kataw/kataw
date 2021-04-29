@@ -95,7 +95,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x, y: string) => x",
+    "source": "(x, y: string) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

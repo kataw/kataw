@@ -49,7 +49,7 @@ await 5;
         }
     ],
     "isModule": false,
-    "text": "await 5;",
+    "source": "await 5;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

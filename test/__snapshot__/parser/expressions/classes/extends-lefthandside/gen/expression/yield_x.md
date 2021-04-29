@@ -112,7 +112,7 @@ x {})
         }
     ],
     "isModule": false,
-    "text": "(class B extends yield\nx {})",
+    "source": "(class B extends yield\nx {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

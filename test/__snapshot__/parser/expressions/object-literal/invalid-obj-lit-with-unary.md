@@ -68,7 +68,7 @@
         }
     ],
     "isModule": false,
-    "text": "({+2 : x}) = {};",
+    "source": "({+2 : x}) = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

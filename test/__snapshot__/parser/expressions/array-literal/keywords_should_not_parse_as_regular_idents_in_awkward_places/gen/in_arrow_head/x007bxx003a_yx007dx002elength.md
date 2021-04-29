@@ -128,7 +128,7 @@
         }
     ],
     "isModule": false,
-    "text": "([ {x: y}.length ]) => {}",
+    "source": "([ {x: y}.length ]) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

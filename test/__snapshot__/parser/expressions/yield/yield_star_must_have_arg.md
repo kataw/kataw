@@ -102,7 +102,7 @@ function* f() { yield*; }
         }
     ],
     "isModule": false,
-    "text": "function* f() { yield*; }",
+    "source": "function* f() { yield*; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

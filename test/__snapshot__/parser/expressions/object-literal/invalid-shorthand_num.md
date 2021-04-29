@@ -66,7 +66,7 @@ x = {5};
         }
     ],
     "isModule": false,
-    "text": "x = {5};",
+    "source": "x = {5};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

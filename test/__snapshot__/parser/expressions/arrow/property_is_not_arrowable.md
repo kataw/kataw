@@ -103,7 +103,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a:b[0]}) => x",
+    "source": "({a:b[0]}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

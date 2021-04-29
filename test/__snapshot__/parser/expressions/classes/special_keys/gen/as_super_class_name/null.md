@@ -71,7 +71,7 @@ class x extends null {}
         }
     ],
     "isModule": false,
-    "text": "class x extends null {}",
+    "source": "class x extends null {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

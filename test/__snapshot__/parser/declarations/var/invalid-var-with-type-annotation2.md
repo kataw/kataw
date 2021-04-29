@@ -216,7 +216,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
         }
     ],
     "isModule": false,
-    "text": "var a : { x: number{ y: string } } = { x: 0, y: 'foo' };\n",
+    "source": "var a : { x: number{ y: string } } = { x: 0, y: 'foo' };\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

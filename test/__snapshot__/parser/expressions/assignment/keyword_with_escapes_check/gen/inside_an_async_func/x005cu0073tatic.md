@@ -91,7 +91,7 @@ async () => {  \u0073tatic = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0073tatic = x  }",
+    "source": "async () => {  \\u0073tatic = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

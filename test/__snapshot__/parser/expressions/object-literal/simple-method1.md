@@ -99,7 +99,7 @@ x = {
         }
     ],
     "isModule": false,
-    "text": "x = {\n    method() {\n    }\n};",
+    "source": "x = {\n    method() {\n    }\n};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

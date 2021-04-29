@@ -71,7 +71,7 @@ new false.__proto__.constructor
         }
     ],
     "isModule": false,
-    "text": "new false.__proto__.constructor",
+    "source": "new false.__proto__.constructor",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

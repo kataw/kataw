@@ -137,7 +137,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(_) { super; } })",
+    "source": "({ set x(_) { super; } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -95,7 +95,7 @@ x => ok x => ok
         }
     ],
     "isModule": false,
-    "text": "x => ok x => ok",
+    "source": "x => ok x => ok",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

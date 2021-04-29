@@ -133,7 +133,7 @@ class x {static set protected(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set protected(x){}}",
+    "source": "class x {static set protected(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

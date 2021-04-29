@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends new x {})",
+    "source": "(class B extends new x {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

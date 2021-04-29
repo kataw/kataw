@@ -114,7 +114,7 @@ class x {static get private(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get private(){}}",
+    "source": "class x {static get private(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

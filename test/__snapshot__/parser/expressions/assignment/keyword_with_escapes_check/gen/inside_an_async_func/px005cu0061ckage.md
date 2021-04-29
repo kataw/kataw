@@ -91,7 +91,7 @@ async () => {  p\u0061ckage = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  p\\u0061ckage = x  }",
+    "source": "async () => {  p\\u0061ckage = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

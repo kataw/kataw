@@ -114,7 +114,7 @@ class x {static get catch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get catch(){}}",
+    "source": "class x {static get catch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -120,7 +120,7 @@ var x; export {x: a}
         }
     ],
     "isModule": true,
-    "text": "var x; export {x: a}",
+    "source": "var x; export {x: a}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

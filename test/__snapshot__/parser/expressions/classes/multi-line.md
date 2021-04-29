@@ -94,7 +94,7 @@ class C extends (
         }
     ],
     "isModule": false,
-    "text": "class C extends (\n  a,\n  c\n) {\n}",
+    "source": "class C extends (\n  a,\n  c\n) {\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

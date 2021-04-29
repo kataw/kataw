@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "(v\\u006fid = x);",
+    "source": "(v\\u006fid = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

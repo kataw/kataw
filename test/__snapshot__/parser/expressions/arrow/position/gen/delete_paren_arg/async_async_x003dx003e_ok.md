@@ -93,7 +93,7 @@ delete (async async => ok)
         }
     ],
     "isModule": false,
-    "text": "delete (async async => ok)",
+    "source": "delete (async async => ok)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

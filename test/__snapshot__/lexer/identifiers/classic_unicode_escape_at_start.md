@@ -37,7 +37,7 @@
         }
     ],
     "isModule": true,
-    "text": "\\u0065xxx",
+    "source": "\\u0065xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

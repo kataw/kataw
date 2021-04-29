@@ -172,7 +172,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] (a b, c = b : string)",
+    "source": "{ [catch] (a b, c = b : string)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

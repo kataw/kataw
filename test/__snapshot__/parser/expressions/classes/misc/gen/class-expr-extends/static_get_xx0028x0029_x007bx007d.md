@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base {static get x() {}});",
+    "source": "(class extends Base {static get x() {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

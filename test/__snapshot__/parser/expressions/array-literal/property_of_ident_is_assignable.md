@@ -99,7 +99,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x.y] = z",
+    "source": "[x.y] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -695,7 +695,7 @@
         }
     ],
     "isModule": false,
-    "text": "({async});\n({async: await});\n({async: (await) ? yield : foo});\n({async: true});\n({async() { }});\n({async foo() { }});\n({x, y, z () {}});\n({async delete() {}});\n({async [foo](){}});\n({async 100(){}});",
+    "source": "({async});\n({async: await});\n({async: (await) ? yield : foo});\n({async: true});\n({async() { }});\n({async foo() { }});\n({x, y, z () {}});\n({async delete() {}});\n({async [foo](){}});\n({async 100(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -48,7 +48,7 @@ class A {}
         }
     ],
     "isModule": false,
-    "text": "class A {}",
+    "source": "class A {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

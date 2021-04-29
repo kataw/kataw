@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "1 ? 0 : a => {}, 17, 42;",
+    "source": "1 ? 0 : a => {}, 17, 42;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

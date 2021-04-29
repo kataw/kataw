@@ -100,7 +100,7 @@ class v extends.foo {}
         }
     ],
     "isModule": false,
-    "text": "class v extends.foo {}",
+    "source": "class v extends.foo {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

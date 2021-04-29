@@ -103,7 +103,7 @@ else {} if(x) { /false//a
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { /false//a",
+    "source": "else {} if(x) { /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

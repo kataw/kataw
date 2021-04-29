@@ -61,7 +61,7 @@
         }
     ],
     "isModule": false,
-    "text": "(implem\\u0065nts = x);",
+    "source": "(implem\\u0065nts = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

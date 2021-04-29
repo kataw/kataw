@@ -73,7 +73,7 @@ a: { a: x }
         }
     ],
     "isModule": false,
-    "text": "a: { a: x }",
+    "source": "a: { a: x }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static get new(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get new(){}}",
+    "source": "class x {static get new(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -60,7 +60,7 @@ for (null in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (null in x) ;",
+    "source": "for (null in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

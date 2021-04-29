@@ -91,7 +91,7 @@ async () => {  \u0070ackage = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0070ackage = x  }",
+    "source": "async () => {  \\u0070ackage = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

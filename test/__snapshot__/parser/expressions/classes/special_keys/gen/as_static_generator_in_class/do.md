@@ -114,7 +114,7 @@ class x {static * do(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * do(){}}",
+    "source": "class x {static * do(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

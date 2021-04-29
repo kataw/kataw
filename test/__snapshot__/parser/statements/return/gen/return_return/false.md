@@ -53,7 +53,7 @@ return false return
         }
     ],
     "isModule": false,
-    "text": "return false return",
+    "source": "return false return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

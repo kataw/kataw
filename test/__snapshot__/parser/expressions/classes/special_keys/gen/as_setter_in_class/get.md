@@ -128,7 +128,7 @@ class x {set get(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set get(x){}}",
+    "source": "class x {set get(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

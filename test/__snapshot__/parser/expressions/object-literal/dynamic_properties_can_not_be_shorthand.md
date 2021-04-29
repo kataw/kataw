@@ -75,7 +75,7 @@ call({[x]})
         }
     ],
     "isModule": false,
-    "text": "call({[x]})",
+    "source": "call({[x]})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

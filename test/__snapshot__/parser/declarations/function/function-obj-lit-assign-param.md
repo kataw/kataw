@@ -169,7 +169,7 @@ function* foo(a = {*bar() { yield b }}) {}
         }
     ],
     "isModule": false,
-    "text": "function* foo(a = {*bar() { yield b }}) {}",
+    "source": "function* foo(a = {*bar() { yield b }}) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

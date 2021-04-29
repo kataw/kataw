@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "({\"a\": \"b\"});\n\n({[\"a\"]: \"b\"});",
+    "source": "({\"a\": \"b\"});\n\n({[\"a\"]: \"b\"});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

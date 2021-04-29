@@ -133,7 +133,7 @@ class x {static set interface(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set interface(x){}}",
+    "source": "class x {static set interface(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

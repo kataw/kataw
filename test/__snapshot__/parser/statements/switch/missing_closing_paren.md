@@ -44,7 +44,7 @@ switch (x
         }
     ],
     "isModule": false,
-    "text": "switch (x",
+    "source": "switch (x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

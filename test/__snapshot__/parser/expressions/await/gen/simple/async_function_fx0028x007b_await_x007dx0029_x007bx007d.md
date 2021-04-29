@@ -115,7 +115,7 @@ async function f({ await }) {}
         }
     ],
     "isModule": false,
-    "text": "async function f({ await }) {}",
+    "source": "async function f({ await }) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

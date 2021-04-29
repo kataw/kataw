@@ -129,7 +129,7 @@ do do do /false//a while while while
         }
     ],
     "isModule": false,
-    "text": "do do do /false//a while while while",
+    "source": "do do do /false//a while while while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

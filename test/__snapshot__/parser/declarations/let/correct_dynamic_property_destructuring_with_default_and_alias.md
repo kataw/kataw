@@ -131,7 +131,7 @@ let {[x]: y = z} = a;
         }
     ],
     "isModule": false,
-    "text": "let {[x]: y = z} = a;",
+    "source": "let {[x]: y = z} = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

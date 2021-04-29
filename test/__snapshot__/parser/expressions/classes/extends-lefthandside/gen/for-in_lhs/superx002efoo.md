@@ -79,7 +79,7 @@ for (super.foo in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (super.foo in x) ;",
+    "source": "for (super.foo in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -154,7 +154,7 @@ class A {
         }
     ],
     "isModule": false,
-    "text": "class A {\n  static #private; }\n\n  class A {\n  static #private = x; }",
+    "source": "class A {\n  static #private; }\n\n  class A {\n  static #private = x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

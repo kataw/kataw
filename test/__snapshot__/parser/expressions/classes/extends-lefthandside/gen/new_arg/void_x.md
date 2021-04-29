@@ -60,7 +60,7 @@ new void x
         }
     ],
     "isModule": false,
-    "text": "new void x",
+    "source": "new void x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

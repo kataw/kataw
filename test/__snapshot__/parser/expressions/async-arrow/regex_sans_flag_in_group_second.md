@@ -69,7 +69,7 @@ async (x, /x/g) => x
         }
     ],
     "isModule": false,
-    "text": "async (x, /x/g) => x",
+    "source": "async (x, /x/g) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

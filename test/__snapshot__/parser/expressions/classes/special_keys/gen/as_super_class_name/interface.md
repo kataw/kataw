@@ -72,7 +72,7 @@ class x extends interface {}
         }
     ],
     "isModule": false,
-    "text": "class x extends interface {}",
+    "source": "class x extends interface {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

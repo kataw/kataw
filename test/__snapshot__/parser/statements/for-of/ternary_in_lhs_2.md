@@ -101,7 +101,7 @@ for (a ? b : c of x);
         }
     ],
     "isModule": false,
-    "text": "for (a ? b : c of x);",
+    "source": "for (a ? b : c of x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

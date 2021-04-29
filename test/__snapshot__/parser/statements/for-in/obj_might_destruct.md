@@ -145,7 +145,7 @@ for ({x,...x}=x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for ({x,...x}=x in x) ;",
+    "source": "for ({x,...x}=x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

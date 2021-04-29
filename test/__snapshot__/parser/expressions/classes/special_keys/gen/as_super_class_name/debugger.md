@@ -96,7 +96,7 @@ class x extends debugger {}
         }
     ],
     "isModule": false,
-    "text": "class x extends debugger {}",
+    "source": "class x extends debugger {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

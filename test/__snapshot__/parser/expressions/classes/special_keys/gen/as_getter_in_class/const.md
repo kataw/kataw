@@ -109,7 +109,7 @@ class x {get const(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get const(){}}",
+    "source": "class x {get const(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

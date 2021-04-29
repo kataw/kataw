@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\008\"",
+    "source": "\"\\008\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

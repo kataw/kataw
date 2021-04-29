@@ -140,7 +140,7 @@ async function p(){
         }
     ],
     "isModule": false,
-    "text": "async function p(){\n  class C extends new x {}\n}",
+    "source": "async function p(){\n  class C extends new x {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

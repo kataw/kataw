@@ -94,7 +94,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = [await x]) }",
+    "source": "{ (x = [await x]) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -112,7 +112,7 @@ class x extends if {}
         }
     ],
     "isModule": false,
-    "text": "class x extends if {}",
+    "source": "class x extends if {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -128,7 +128,7 @@ class x {set eval(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set eval(x){}}",
+    "source": "class x {set eval(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

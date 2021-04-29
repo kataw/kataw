@@ -109,7 +109,7 @@ class x {* public(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* public(){}}",
+    "source": "class x {* public(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

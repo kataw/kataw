@@ -140,7 +140,7 @@ class C { #@{x29e3d}@ }
         }
     ],
     "isModule": false,
-    "text": "class C { #@{x29e3d}@ }",
+    "source": "class C { #@{x29e3d}@ }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

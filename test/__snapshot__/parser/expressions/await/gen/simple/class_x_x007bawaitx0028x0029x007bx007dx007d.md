@@ -104,7 +104,7 @@ class x {await(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {await(){}}",
+    "source": "class x {await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

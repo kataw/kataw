@@ -91,7 +91,7 @@
         }
     ],
     "isModule": false,
-    "text": "[arguments] = []",
+    "source": "[arguments] = []",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

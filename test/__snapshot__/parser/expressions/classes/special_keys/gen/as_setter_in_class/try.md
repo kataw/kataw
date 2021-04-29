@@ -128,7 +128,7 @@ class x {set try(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set try(x){}}",
+    "source": "class x {set try(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

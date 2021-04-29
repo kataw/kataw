@@ -77,7 +77,7 @@ class false {}
         }
     ],
     "isModule": false,
-    "text": "class false {}",
+    "source": "class false {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

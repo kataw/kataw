@@ -261,7 +261,7 @@ do do do =! class function try while with foo! while while while
         }
     ],
     "isModule": false,
-    "text": "do do do =! class function try while with foo! while while while",
+    "source": "do do do =! class function try while with foo! while while while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

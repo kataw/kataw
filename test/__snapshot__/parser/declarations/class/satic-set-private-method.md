@@ -128,7 +128,7 @@ class C { static set #aaa(x){} }
         }
     ],
     "isModule": false,
-    "text": "class C { static set #aaa(x){} }",
+    "source": "class C { static set #aaa(x){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ function* gf() { +yield 2; }
         }
     ],
     "isModule": false,
-    "text": "function* gf() { +yield 2; }",
+    "source": "function* gf() { +yield 2; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

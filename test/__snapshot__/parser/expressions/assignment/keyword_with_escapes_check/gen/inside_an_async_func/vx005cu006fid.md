@@ -102,7 +102,7 @@ async () => {  v\u006fid = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  v\\u006fid = x  }",
+    "source": "async () => {  v\\u006fid = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

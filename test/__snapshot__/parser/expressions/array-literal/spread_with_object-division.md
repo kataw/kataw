@@ -130,7 +130,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...{x:y}/y]",
+    "source": "[...{x:y}/y]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

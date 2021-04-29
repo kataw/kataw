@@ -115,7 +115,7 @@ x = function(){ super.foo; }
         }
     ],
     "isModule": false,
-    "text": "x = function(){ super.foo; }",
+    "source": "x = function(){ super.foo; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -91,7 +91,7 @@ yield /* comment */\n {yield: 42}
         }
     ],
     "isModule": false,
-    "text": "yield /* comment */\\n {yield: 42}",
+    "source": "yield /* comment */\\n {yield: 42}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

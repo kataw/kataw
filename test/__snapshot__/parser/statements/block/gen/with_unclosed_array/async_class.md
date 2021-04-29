@@ -87,7 +87,7 @@
         }
     ],
     "isModule": false,
-    "text": "{[ async class",
+    "source": "{[ async class",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

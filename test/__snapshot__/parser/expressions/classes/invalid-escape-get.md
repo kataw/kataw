@@ -105,7 +105,7 @@ class X { ge\u0074 x() {} }
         }
     ],
     "isModule": false,
-    "text": "class X { ge\\u0074 x() {} }",
+    "source": "class X { ge\\u0074 x() {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

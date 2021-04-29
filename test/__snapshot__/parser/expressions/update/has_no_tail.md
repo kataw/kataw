@@ -71,7 +71,7 @@ x.foo++.bar
         }
     ],
     "isModule": false,
-    "text": "x.foo++.bar",
+    "source": "x.foo++.bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

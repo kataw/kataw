@@ -144,7 +144,7 @@ class x{[yield](a){}}
         }
     ],
     "isModule": false,
-    "text": "class x{[yield](a){}}",
+    "source": "class x{[yield](a){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

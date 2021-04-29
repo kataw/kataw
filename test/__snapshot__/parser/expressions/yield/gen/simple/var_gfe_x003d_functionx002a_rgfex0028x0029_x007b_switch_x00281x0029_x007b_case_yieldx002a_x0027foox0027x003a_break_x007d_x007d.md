@@ -192,7 +192,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
         }
     ],
     "isModule": false,
-    "text": "var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
+    "source": "var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

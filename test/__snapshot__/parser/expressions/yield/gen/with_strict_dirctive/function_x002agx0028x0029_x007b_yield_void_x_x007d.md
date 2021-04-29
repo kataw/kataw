@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function *g() { yield void x }",
+    "source": "'use strict'; function *g() { yield void x }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

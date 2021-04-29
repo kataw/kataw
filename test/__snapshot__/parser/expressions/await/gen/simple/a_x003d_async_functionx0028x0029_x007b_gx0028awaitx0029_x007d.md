@@ -140,7 +140,7 @@ a = async function() { g(await) }
         }
     ],
     "isModule": false,
-    "text": "a = async function() { g(await) }",
+    "source": "a = async function() { g(await) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

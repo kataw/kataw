@@ -123,7 +123,7 @@ for (x of 3) continue/x/
         }
     ],
     "isModule": false,
-    "text": "for (x of 3) continue/x/",
+    "source": "for (x of 3) continue/x/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -112,7 +112,7 @@ bar ? baz : ( return => {} );
         }
     ],
     "isModule": false,
-    "text": "bar ? baz : ( return => {} );",
+    "source": "bar ? baz : ( return => {} );",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

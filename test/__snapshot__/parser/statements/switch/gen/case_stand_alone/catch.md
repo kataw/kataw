@@ -56,7 +56,7 @@ case catch
         }
     ],
     "isModule": false,
-    "text": "case catch",
+    "source": "case catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

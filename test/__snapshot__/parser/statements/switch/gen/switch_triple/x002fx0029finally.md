@@ -99,7 +99,7 @@ switch switch switch /)finally
         }
     ],
     "isModule": false,
-    "text": "switch switch switch /)finally",
+    "source": "switch switch switch /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

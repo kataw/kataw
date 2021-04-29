@@ -335,7 +335,7 @@ for ({}[y] ^= x;;) x;
         }
     ],
     "isModule": false,
-    "text": "for ([].w ^= s;;) x;\n\nfor ([][y] <<= p;;) x;\n\nfor ([].u |= c;;) x;\n\nfor ({}[y] ^= x;;) x;",
+    "source": "for ([].w ^= s;;) x;\n\nfor ([][y] <<= p;;) x;\n\nfor ([].u |= c;;) x;\n\nfor ({}[y] ^= x;;) x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

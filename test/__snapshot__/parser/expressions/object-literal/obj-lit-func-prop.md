@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "({f: function <T>() {}})",
+    "source": "({f: function <T>() {}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

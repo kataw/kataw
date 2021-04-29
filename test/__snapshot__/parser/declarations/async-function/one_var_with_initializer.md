@@ -112,7 +112,7 @@ let [foo=a] = arr;
         }
     ],
     "isModule": false,
-    "text": "let [foo=a] = arr;",
+    "source": "let [foo=a] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -48,7 +48,7 @@ async (yield)
         }
     ],
     "isModule": false,
-    "text": "async (yield)",
+    "source": "async (yield)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

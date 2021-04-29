@@ -116,7 +116,7 @@
         }
     ],
     "isModule": false,
-    "text": "({   async *[ha+ha](){}   })",
+    "source": "({   async *[ha+ha](){}   })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

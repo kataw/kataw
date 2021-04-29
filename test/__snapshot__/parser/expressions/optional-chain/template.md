@@ -65,7 +65,7 @@ a?.`foo`
         }
     ],
     "isModule": false,
-    "text": "a?.`foo`\n",
+    "source": "a?.`foo`\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

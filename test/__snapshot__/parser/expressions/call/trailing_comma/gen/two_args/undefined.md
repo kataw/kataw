@@ -66,7 +66,7 @@ foo(x,y,);
         }
     ],
     "isModule": false,
-    "text": "foo(x,y,);",
+    "source": "foo(x,y,);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

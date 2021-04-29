@@ -79,7 +79,7 @@ switch (x) { default: continue foo; }
         }
     ],
     "isModule": false,
-    "text": "switch (x) { default: continue foo; }",
+    "source": "switch (x) { default: continue foo; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

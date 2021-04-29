@@ -221,7 +221,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { await => async.await[async / ((async) => foo.bar)] });",
+    "source": "var await; var f = (async function() { await => async.await[async / ((async) => foo.bar)] });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

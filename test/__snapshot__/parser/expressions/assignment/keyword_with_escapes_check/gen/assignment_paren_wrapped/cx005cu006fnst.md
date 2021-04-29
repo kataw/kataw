@@ -79,7 +79,7 @@
         }
     ],
     "isModule": false,
-    "text": "(c\\u006fnst = x);",
+    "source": "(c\\u006fnst = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

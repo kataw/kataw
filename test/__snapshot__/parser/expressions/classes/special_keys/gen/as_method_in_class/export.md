@@ -104,7 +104,7 @@ class x {export(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {export(){}}",
+    "source": "class x {export(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

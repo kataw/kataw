@@ -114,7 +114,7 @@ class x {static * import(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * import(){}}",
+    "source": "class x {static * import(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

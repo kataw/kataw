@@ -109,7 +109,7 @@ class x {* enum(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* enum(){}}",
+    "source": "class x {* enum(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

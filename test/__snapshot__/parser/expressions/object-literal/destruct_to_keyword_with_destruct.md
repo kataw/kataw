@@ -123,7 +123,7 @@ s = {s: true = x} = x
         }
     ],
     "isModule": false,
-    "text": "s = {s: true = x} = x",
+    "source": "s = {s: true = x} = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

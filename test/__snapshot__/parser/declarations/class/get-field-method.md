@@ -126,7 +126,7 @@ class C { get; #aaa(){} }
         }
     ],
     "isModule": false,
-    "text": "class C { get; #aaa(){} }",
+    "source": "class C { get; #aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

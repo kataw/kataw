@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; (class { static async method(...await) {} })",
+    "source": "'use strict'; (class { static async method(...await) {} })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

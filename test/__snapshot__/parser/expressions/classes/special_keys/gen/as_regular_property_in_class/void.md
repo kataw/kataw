@@ -88,7 +88,7 @@ class x {void: x}
         }
     ],
     "isModule": false,
-    "text": "class x {void: x}",
+    "source": "class x {void: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

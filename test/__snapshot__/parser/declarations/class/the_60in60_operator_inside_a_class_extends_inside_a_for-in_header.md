@@ -164,7 +164,7 @@ for (class x extends a in b {} in c);
         }
     ],
     "isModule": false,
-    "text": "for (class x extends a in b {} in c);",
+    "source": "for (class x extends a in b {} in c);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

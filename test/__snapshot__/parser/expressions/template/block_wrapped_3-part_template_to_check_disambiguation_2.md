@@ -183,7 +183,7 @@
         }
     ],
     "isModule": false,
-    "text": "{`foo ${a} and ${b} and ${`w ${d} x ${e} y ${f} z`} baz`}",
+    "source": "{`foo ${a} and ${b} and ${`w ${d} x ${e} y ${f} z`} baz`}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

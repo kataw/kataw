@@ -66,7 +66,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\"/x\n\"\"",
+    "source": "\"\"/x\n\"\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

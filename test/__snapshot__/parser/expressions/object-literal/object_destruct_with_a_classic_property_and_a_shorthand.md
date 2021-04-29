@@ -112,7 +112,7 @@ x = {a:b, c} = obj;
         }
     ],
     "isModule": false,
-    "text": "x = {a:b, c} = obj;",
+    "source": "x = {a:b, c} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -227,7 +227,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
         }
     ],
     "isModule": false,
-    "text": "class x extends y { constructor(){ return function() { return () => super.foo; } }}",
+    "source": "class x extends y { constructor(){ return function() { return () => super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

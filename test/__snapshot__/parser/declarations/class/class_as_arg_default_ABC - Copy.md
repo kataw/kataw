@@ -290,7 +290,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
         }
     ],
     "isModule": false,
-    "text": "f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) => {}",
+    "source": "f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -160,7 +160,7 @@ function not_gen() { function* gf() { var yield; } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function* gf() { var yield; } }}",
+    "source": "function not_gen() { function* gf() { var yield; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

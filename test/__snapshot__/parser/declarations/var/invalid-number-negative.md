@@ -100,7 +100,7 @@ var a: -z
         }
     ],
     "isModule": false,
-    "text": "var a: -z",
+    "source": "var a: -z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

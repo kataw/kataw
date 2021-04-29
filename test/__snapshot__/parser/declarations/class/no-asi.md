@@ -111,7 +111,7 @@ class C { static
         }
     ],
     "isModule": false,
-    "text": "class C { static\n*\n#aaa(){} }",
+    "source": "class C { static\n*\n#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

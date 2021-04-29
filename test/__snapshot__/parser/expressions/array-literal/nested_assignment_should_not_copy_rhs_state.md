@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "[[x] = true] = y",
+    "source": "[[x] = true] = y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

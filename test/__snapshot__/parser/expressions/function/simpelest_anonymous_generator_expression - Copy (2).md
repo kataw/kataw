@@ -96,7 +96,7 @@ foo(function*(){})
         }
     ],
     "isModule": true,
-    "text": "foo(function*(){})",
+    "source": "foo(function*(){})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

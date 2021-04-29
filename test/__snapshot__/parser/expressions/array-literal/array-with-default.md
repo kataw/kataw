@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x, y, z = 1]",
+    "source": "[x, y, z = 1]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

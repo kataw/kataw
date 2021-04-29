@@ -55,7 +55,7 @@ foo, bar, zoo
         }
     ],
     "isModule": false,
-    "text": "foo, bar, zoo",
+    "source": "foo, bar, zoo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

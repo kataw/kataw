@@ -160,7 +160,7 @@ async (): string => {}
         }
     ],
     "isModule": false,
-    "text": "a ? async (): string => {}  :  b;\n\nasync (): string => {}\n",
+    "source": "a ? async (): string => {}  :  b;\n\nasync (): string => {}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -108,7 +108,7 @@ class A extends async function(){} {}
         }
     ],
     "isModule": false,
-    "text": "class A extends async function(){} {}",
+    "source": "class A extends async function(){} {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -97,7 +97,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a, {b}, c] = obj",
+    "source": "[a, {b}, c] = obj",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

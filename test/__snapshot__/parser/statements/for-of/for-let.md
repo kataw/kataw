@@ -64,7 +64,7 @@ for(let;;);
         }
     ],
     "isModule": false,
-    "text": "for(let;;);",
+    "source": "for(let;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

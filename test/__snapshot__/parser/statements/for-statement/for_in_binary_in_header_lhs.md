@@ -116,7 +116,7 @@ for (x in a>c;;) x
         }
     ],
     "isModule": false,
-    "text": "for (x in a>c;;) x",
+    "source": "for (x in a>c;;) x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

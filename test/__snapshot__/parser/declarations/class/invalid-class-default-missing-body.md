@@ -47,7 +47,7 @@ class default
         }
     ],
     "isModule": false,
-    "text": "class default",
+    "source": "class default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

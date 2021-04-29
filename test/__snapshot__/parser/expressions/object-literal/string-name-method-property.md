@@ -133,7 +133,7 @@ var x = {
         }
     ],
     "isModule": false,
-    "text": "var x = {\n    \"foo\"() {\n        return bar;\n    }\n};\n",
+    "source": "var x = {\n    \"foo\"() {\n        return bar;\n    }\n};\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

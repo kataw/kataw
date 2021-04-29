@@ -114,7 +114,7 @@ import {bar as baz} from "foo";
         }
     ],
     "isModule": true,
-    "text": "import {bar as baz} from \"foo\";",
+    "source": "import {bar as baz} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

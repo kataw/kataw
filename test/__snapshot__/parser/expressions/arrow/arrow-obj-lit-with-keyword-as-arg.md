@@ -89,7 +89,7 @@
         }
     ],
     "isModule": false,
-    "text": "({do: x}) => x;",
+    "source": "({do: x}) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

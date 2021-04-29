@@ -70,7 +70,7 @@ async () => {  def\u0061ult = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  def\\u0061ult = x  }",
+    "source": "async () => {  def\\u0061ult = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

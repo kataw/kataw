@@ -102,7 +102,7 @@ class x extends y{}
         }
     ],
     "isModule": false,
-    "text": "class x extends y{}\n09",
+    "source": "class x extends y{}\n09",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

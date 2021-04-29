@@ -109,7 +109,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a: x = true} = y)",
+    "source": "({a: x = true} = y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

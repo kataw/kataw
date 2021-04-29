@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "(\\u0074ypeof = x);",
+    "source": "(\\u0074ypeof = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -83,7 +83,7 @@ class typeof {}
         }
     ],
     "isModule": false,
-    "text": "class typeof {}",
+    "source": "class typeof {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

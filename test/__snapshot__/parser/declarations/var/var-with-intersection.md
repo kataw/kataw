@@ -101,7 +101,7 @@ var x:
         }
     ],
     "isModule": false,
-    "text": "var x:\n | 1\n | 2\n= 2;\n",
+    "source": "var x:\n | 1\n | 2\n= 2;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

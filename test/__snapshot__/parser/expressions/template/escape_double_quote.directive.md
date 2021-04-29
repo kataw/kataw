@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`some \\\" quote`;",
+    "source": "`some \\\" quote`;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

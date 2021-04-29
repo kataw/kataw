@@ -493,7 +493,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set(...a) { } });\n({ set(a, ...b) { } });\n({ set([a], ...b) { } });\n({ set({a: A}, ...b) { } });",
+    "source": "({ set(...a) { } });\n({ set(a, ...b) { } });\n({ set([a], ...b) { } });\n({ set({a: A}, ...b) { } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -83,7 +83,7 @@ async function f(){ return; }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ return; }",
+    "source": "async function f(){ return; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

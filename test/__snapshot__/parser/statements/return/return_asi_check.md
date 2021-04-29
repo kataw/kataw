@@ -93,7 +93,7 @@ function f(){   return
         }
     ],
     "isModule": false,
-    "text": "function f(){   return\n foo;    }",
+    "source": "function f(){   return\n foo;    }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

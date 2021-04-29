@@ -43,7 +43,7 @@ delete.500
         }
     ],
     "isModule": false,
-    "text": "delete.500",
+    "source": "delete.500",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

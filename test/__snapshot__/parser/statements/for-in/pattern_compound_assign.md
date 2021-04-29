@@ -124,7 +124,7 @@ for({}/=y in y)x
         }
     ],
     "isModule": false,
-    "text": "for({}/=y in y)x",
+    "source": "for({}/=y in y)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

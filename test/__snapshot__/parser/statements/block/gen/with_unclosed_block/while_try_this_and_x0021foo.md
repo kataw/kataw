@@ -210,7 +210,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { while try this and !foo",
+    "source": "{ {} finally(x) { while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -48,7 +48,7 @@ new `temp {waitforit} late`
         }
     ],
     "isModule": false,
-    "text": "new `temp {waitforit} late`",
+    "source": "new `temp {waitforit} late`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

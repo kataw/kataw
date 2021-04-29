@@ -108,7 +108,7 @@ x *
         }
     ],
     "isModule": false,
-    "text": "x *\n(async async => {})",
+    "source": "x *\n(async async => {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

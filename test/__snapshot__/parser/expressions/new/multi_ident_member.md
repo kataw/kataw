@@ -100,7 +100,7 @@ new a.b.c.d()
         }
     ],
     "isModule": false,
-    "text": "new a.b.c.d()",
+    "source": "new a.b.c.d()",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

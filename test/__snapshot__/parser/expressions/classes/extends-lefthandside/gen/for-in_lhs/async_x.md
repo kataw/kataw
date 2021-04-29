@@ -78,7 +78,7 @@ x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (async\nx in x) ;",
+    "source": "for (async\nx in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

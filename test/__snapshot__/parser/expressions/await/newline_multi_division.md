@@ -72,7 +72,7 @@ await
         }
     ],
     "isModule": false,
-    "text": "await\n / x / g",
+    "source": "await\n / x / g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

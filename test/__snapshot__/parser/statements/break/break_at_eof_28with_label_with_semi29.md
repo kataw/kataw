@@ -51,7 +51,7 @@ foo: break foo;
         }
     ],
     "isModule": false,
-    "text": "foo: break foo;",
+    "source": "foo: break foo;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

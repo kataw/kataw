@@ -79,7 +79,7 @@ export default class {} foo
         }
     ],
     "isModule": true,
-    "text": "export default class {} foo",
+    "source": "export default class {} foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

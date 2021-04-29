@@ -106,7 +106,7 @@
         }
     ],
     "isModule": true,
-    "text": "({...import.meta} = {});",
+    "source": "({...import.meta} = {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

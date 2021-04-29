@@ -78,7 +78,7 @@ return return return /)finally
         }
     ],
     "isModule": false,
-    "text": "return return return /)finally",
+    "source": "return return return /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

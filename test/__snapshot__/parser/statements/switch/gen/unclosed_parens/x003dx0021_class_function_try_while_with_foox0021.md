@@ -225,7 +225,7 @@ switch( =! class function try while with foo! case
         }
     ],
     "isModule": false,
-    "text": "switch( =! class function try while with foo! case",
+    "source": "switch( =! class function try while with foo! case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

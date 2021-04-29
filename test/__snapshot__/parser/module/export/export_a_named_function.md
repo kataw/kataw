@@ -85,7 +85,7 @@ export function f(){}
         }
     ],
     "isModule": true,
-    "text": "export function f(){}",
+    "source": "export function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

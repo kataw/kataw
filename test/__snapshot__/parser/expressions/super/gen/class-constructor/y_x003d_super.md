@@ -156,7 +156,7 @@ class C { constructor() { y = super } }
         }
     ],
     "isModule": false,
-    "text": "class C { constructor() { y = super } }",
+    "source": "class C { constructor() { y = super } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

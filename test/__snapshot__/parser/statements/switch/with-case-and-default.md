@@ -107,7 +107,7 @@ switch (x) { case y: break; default: return; }
         }
     ],
     "isModule": false,
-    "text": "switch (x) { case y: break; default: return; }",
+    "source": "switch (x) { case y: break; default: return; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

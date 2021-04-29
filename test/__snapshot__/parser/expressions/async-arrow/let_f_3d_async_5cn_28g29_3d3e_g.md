@@ -92,7 +92,7 @@ let f = async
         }
     ],
     "isModule": false,
-    "text": "let f = async\n (g) => g",
+    "source": "let f = async\n (g) => g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

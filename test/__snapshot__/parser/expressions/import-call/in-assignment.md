@@ -69,7 +69,7 @@ x = import(y);
         }
     ],
     "isModule": false,
-    "text": "x = import(y);",
+    "source": "x = import(y);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

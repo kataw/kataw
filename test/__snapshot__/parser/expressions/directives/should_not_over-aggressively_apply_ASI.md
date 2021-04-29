@@ -52,7 +52,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"ignore me\"\n+ x",
+    "source": "\"ignore me\"\n+ x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

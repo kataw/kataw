@@ -125,7 +125,7 @@ x = {arrow: x => ok}.y
         }
     ],
     "isModule": false,
-    "text": "x = {arrow: x => ok}.y",
+    "source": "x = {arrow: x => ok}.y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {static finally(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static finally(){}}",
+    "source": "class x {static finally(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

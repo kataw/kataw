@@ -103,7 +103,7 @@ class x extends function {}
         }
     ],
     "isModule": false,
-    "text": "class x extends function {}",
+    "source": "class x extends function {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

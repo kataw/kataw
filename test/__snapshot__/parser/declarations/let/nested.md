@@ -105,7 +105,7 @@ let {a:{}} = 0
         }
     ],
     "isModule": false,
-    "text": "let {a:{}} = 0",
+    "source": "let {a:{}} = 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

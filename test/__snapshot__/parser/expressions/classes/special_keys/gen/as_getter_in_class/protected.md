@@ -109,7 +109,7 @@ class x {get protected(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get protected(){}}",
+    "source": "class x {get protected(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

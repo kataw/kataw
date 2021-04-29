@@ -95,7 +95,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; await => async.await[foo]",
+    "source": "'use strict'; await => async.await[foo]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

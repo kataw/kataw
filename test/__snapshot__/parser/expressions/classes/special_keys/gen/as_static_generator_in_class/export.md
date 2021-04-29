@@ -114,7 +114,7 @@ class x {static * export(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * export(){}}",
+    "source": "class x {static * export(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

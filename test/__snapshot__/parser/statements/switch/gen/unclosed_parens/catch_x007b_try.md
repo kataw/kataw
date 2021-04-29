@@ -123,7 +123,7 @@ switch( catch { try case
         }
     ],
     "isModule": false,
-    "text": "switch( catch { try case",
+    "source": "switch( catch { try case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

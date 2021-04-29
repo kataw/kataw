@@ -154,7 +154,7 @@ var [...[foo, bar]] = obj;
         }
     ],
     "isModule": false,
-    "text": "var [...[foo, bar]] = obj;",
+    "source": "var [...[foo, bar]] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

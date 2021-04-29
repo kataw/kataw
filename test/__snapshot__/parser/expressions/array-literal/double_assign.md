@@ -109,7 +109,7 @@
         }
     ],
     "isModule": true,
-    "text": "[]=n/f>>=v",
+    "source": "[]=n/f>>=v",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

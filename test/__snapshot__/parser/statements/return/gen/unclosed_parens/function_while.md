@@ -110,7 +110,7 @@ return( function while
         }
     ],
     "isModule": false,
-    "text": "return( function while",
+    "source": "return( function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -80,7 +80,7 @@ var x = {
         }
     ],
     "isModule": false,
-    "text": "var x = {\n    this\n};\n",
+    "source": "var x = {\n    this\n};\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

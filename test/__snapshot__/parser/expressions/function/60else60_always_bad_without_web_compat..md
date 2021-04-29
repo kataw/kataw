@@ -102,7 +102,7 @@ if (x) ; else function f(){}
         }
     ],
     "isModule": true,
-    "text": "if (x) ; else function f(){}",
+    "source": "if (x) ; else function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

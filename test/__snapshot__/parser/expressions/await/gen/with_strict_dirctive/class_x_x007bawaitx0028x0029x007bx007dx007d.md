@@ -113,7 +113,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; class x {await(){}}",
+    "source": "'use strict'; class x {await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

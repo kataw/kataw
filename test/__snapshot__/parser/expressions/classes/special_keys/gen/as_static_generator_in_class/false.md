@@ -114,7 +114,7 @@ class x {static * false(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * false(){}}",
+    "source": "class x {static * false(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

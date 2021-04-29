@@ -268,7 +268,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}",
+    "source": "function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

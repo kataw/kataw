@@ -191,7 +191,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
         }
     ],
     "isModule": false,
-    "text": "class x extends y { foo(){ return () => () => super.foo; }}",
+    "source": "class x extends y { foo(){ return () => () => super.foo; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

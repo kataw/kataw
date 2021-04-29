@@ -124,7 +124,7 @@ class x { static "constructor"(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { static \"constructor\"(){} }",
+    "source": "class x { static \"constructor\"(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

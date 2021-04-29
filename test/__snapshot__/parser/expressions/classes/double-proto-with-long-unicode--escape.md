@@ -100,7 +100,7 @@ class x { "construct\u{6f}r"(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { \"construct\\u{6f}r\"(){} }",
+    "source": "class x { \"construct\\u{6f}r\"(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static get do(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get do(){}}",
+    "source": "class x {static get do(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -116,7 +116,7 @@ if[ try { !xxx
         }
     ],
     "isModule": false,
-    "text": "if[ try { !xxx",
+    "source": "if[ try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

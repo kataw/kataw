@@ -376,7 +376,7 @@ declare function foo(): void
         }
     ],
     "isModule": false,
-    "text": "declare function foo<T>(): void;\n\ndeclare function foo(x: number, y: string): void;\n\ndeclare function foo(): void\n",
+    "source": "declare function foo<T>(): void;\n\ndeclare function foo(x: number, y: string): void;\n\ndeclare function foo(): void\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

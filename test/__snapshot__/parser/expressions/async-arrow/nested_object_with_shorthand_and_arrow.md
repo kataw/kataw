@@ -103,7 +103,7 @@ async ({ident: {x}}) => x
         }
     ],
     "isModule": false,
-    "text": "async ({ident: {x}}) => x",
+    "source": "async ({ident: {x}}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

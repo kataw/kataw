@@ -66,7 +66,7 @@ x = {eval}
         }
     ],
     "isModule": false,
-    "text": "x = {eval}",
+    "source": "x = {eval}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

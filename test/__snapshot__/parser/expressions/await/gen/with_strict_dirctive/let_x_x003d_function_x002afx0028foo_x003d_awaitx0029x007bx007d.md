@@ -143,7 +143,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; let x = function *f(foo = await){}",
+    "source": "'use strict'; let x = function *f(foo = await){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

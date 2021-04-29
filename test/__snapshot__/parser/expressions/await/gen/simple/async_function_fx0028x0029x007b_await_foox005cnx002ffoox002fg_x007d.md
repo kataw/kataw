@@ -154,7 +154,7 @@ async function f(){ await foo\n/foo/g }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ await foo\\n/foo/g }",
+    "source": "async function f(){ await foo\\n/foo/g }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

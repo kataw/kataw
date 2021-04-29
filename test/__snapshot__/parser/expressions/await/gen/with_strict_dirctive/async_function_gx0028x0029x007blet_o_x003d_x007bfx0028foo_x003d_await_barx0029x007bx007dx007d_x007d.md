@@ -216,7 +216,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function g(){let o = {f(foo = await bar){}}    }",
+    "source": "'use strict'; async function g(){let o = {f(foo = await bar){}}    }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

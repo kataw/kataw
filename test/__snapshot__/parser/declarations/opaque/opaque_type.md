@@ -71,7 +71,7 @@ opaque type ID = number;
         }
     ],
     "isModule": false,
-    "text": "opaque type ID = number;",
+    "source": "opaque type ID = number;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

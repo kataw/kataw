@@ -222,7 +222,7 @@ class C extends (function B() {
         }
     ],
     "isModule": false,
-    "text": "var C;\n\nclass C extends (function B() {\n  with ({});\n  return B;\n}()) {}",
+    "source": "var C;\n\nclass C extends (function B() {\n  with ({});\n  return B;\n}()) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@ const foo = bar, zoo = boo
         }
     ],
     "isModule": false,
-    "text": "const foo = bar, zoo = boo",
+    "source": "const foo = bar, zoo = boo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

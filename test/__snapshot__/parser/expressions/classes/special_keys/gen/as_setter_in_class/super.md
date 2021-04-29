@@ -128,7 +128,7 @@ class x {set super(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set super(x){}}",
+    "source": "class x {set super(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

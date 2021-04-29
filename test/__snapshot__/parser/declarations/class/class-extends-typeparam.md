@@ -120,7 +120,7 @@ class Foo<T> extends Bar<T> { }
         }
     ],
     "isModule": false,
-    "text": "class Foo<T> extends Bar<T> { }",
+    "source": "class Foo<T> extends Bar<T> { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*false(x, y) {}});",
+    "source": "({*false(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

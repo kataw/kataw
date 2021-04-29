@@ -125,7 +125,7 @@ obj.c\u0061se = 42;
         }
     ],
     "isModule": true,
-    "text": "var obj = {};\n\nobj.c\\u0061se = 42;",
+    "source": "var obj = {};\n\nobj.c\\u0061se = 42;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

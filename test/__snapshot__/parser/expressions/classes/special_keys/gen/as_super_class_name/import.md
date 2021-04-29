@@ -89,7 +89,7 @@ class x extends import {}
         }
     ],
     "isModule": false,
-    "text": "class x extends import {}",
+    "source": "class x extends import {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

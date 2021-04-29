@@ -133,7 +133,7 @@ class x {static set set(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set set(x){}}",
+    "source": "class x {static set set(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

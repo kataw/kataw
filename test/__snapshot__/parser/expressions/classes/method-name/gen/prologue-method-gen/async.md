@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; ({*async(x, y) {}});",
+    "source": "'use strict'; ({*async(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

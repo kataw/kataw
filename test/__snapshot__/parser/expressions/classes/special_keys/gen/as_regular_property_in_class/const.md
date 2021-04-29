@@ -88,7 +88,7 @@ class x {const: x}
         }
     ],
     "isModule": false,
-    "text": "class x {const: x}",
+    "source": "class x {const: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -182,7 +182,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] a,b, c d = y ** d",
+    "source": "{ [catch] a,b, c d = y ** d",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

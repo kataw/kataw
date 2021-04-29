@@ -103,7 +103,7 @@ var foo = ((): number => bar);
         }
     ],
     "isModule": false,
-    "text": "var foo = ((): number => bar);",
+    "source": "var foo = ((): number => bar);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

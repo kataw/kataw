@@ -91,7 +91,7 @@ async () => {  p\u0072ivate = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  p\\u0072ivate = x  }",
+    "source": "async () => {  p\\u0072ivate = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

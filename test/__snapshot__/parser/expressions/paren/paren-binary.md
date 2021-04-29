@@ -362,7 +362,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x + y) >= z;\n(x + y) <= z;\n(x + y) != z;\n(x + y) == z;\n(x + y) == z;\n(x) / y;",
+    "source": "(x + y) >= z;\n(x + y) <= z;\n(x + y) != z;\n(x + y) == z;\n(x + y) == z;\n(x) / y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

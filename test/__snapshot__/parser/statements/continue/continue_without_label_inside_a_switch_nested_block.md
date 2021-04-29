@@ -94,7 +94,7 @@ switch (x) { case x: {continue;} }
         }
     ],
     "isModule": false,
-    "text": "switch (x) { case x: {continue;} }",
+    "source": "switch (x) { case x: {continue;} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

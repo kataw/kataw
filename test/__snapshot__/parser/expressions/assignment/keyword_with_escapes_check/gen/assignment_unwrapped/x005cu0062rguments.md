@@ -55,7 +55,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0062rguments = x;",
+    "source": "\\u0062rguments = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

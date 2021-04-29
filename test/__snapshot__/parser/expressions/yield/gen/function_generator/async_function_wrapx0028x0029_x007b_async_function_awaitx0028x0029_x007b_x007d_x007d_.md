@@ -233,7 +233,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { async function wrap() { async function await() { } }; }}",
+    "source": "function * gen() { function not_gen() { async function wrap() { async function await() { } }; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -105,7 +105,7 @@ x = {
         }
     ],
     "isModule": false,
-    "text": "x = {\n    get() {\n    }\n};;",
+    "source": "x = {\n    get() {\n    }\n};;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -85,7 +85,7 @@ new class extends{}
         }
     ],
     "isModule": false,
-    "text": "new class extends{}",
+    "source": "new class extends{}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

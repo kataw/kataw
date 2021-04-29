@@ -109,7 +109,7 @@ class x {static super(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static super(){}}",
+    "source": "class x {static super(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

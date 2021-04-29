@@ -126,7 +126,7 @@ function f() {
         }
     ],
     "isModule": false,
-    "text": "function f() {\n    var x=arguments[12];\n}",
+    "source": "function f() {\n    var x=arguments[12];\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

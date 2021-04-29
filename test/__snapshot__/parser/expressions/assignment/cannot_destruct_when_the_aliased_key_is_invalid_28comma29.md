@@ -112,7 +112,7 @@ x, {a: 1} = [];
         }
     ],
     "isModule": true,
-    "text": "x, {a: 1} = [];",
+    "source": "x, {a: 1} = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

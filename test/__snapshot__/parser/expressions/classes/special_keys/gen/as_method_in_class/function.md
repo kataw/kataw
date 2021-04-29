@@ -104,7 +104,7 @@ class x {function(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {function(){}}",
+    "source": "class x {function(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

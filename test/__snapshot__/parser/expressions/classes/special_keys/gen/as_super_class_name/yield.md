@@ -72,7 +72,7 @@ class x extends yield {}
         }
     ],
     "isModule": false,
-    "text": "class x extends yield {}",
+    "source": "class x extends yield {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

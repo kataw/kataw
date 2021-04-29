@@ -160,7 +160,7 @@ function not_gen() { async function f(){ await await foo; } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { async function f(){ await await foo; } }}",
+    "source": "function not_gen() { async function f(){ await await foo; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

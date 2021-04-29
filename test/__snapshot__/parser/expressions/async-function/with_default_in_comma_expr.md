@@ -117,7 +117,7 @@ x, [foo = y, bar] = doo
         }
     ],
     "isModule": true,
-    "text": "x, [foo = y, bar] = doo",
+    "source": "x, [foo = y, bar] = doo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

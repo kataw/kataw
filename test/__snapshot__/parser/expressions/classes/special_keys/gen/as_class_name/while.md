@@ -90,7 +90,7 @@ class while {}
         }
     ],
     "isModule": false,
-    "text": "class while {}",
+    "source": "class while {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -129,7 +129,7 @@ async function af(a, b = await a) { }
         }
     ],
     "isModule": false,
-    "text": "async function af(a, b = await a) { }",
+    "source": "async function af(a, b = await a) { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

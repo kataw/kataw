@@ -79,7 +79,7 @@
         }
     ],
     "isModule": false,
-    "text": "(c\\u006fntinue = x);",
+    "source": "(c\\u006fntinue = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

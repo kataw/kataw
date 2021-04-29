@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\xb\"",
+    "source": "\"\\xb\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

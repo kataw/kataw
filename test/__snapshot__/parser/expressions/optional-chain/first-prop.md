@@ -78,7 +78,7 @@ a?.b.b
         }
     ],
     "isModule": false,
-    "text": "a?.b.b",
+    "source": "a?.b.b",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

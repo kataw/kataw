@@ -133,7 +133,7 @@ class x {static set instanceof(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set instanceof(x){}}",
+    "source": "class x {static set instanceof(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

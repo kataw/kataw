@@ -112,7 +112,7 @@
         }
     ],
     "isModule": true,
-    "text": "({a: import.meta} = {});",
+    "source": "({a: import.meta} = {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

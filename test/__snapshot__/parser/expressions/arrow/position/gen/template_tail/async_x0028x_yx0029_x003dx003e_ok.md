@@ -124,7 +124,7 @@
         }
     ],
     "isModule": false,
-    "text": "`a ${async (x, y) => ok} b`.length",
+    "source": "`a ${async (x, y) => ok} b`.length",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@ class x {continue(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {continue(){}}",
+    "source": "class x {continue(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

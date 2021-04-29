@@ -179,7 +179,7 @@ async r => result = [...{ x = await x }] = y;
         }
     ],
     "isModule": false,
-    "text": "async r => result = [...{ x = await x }] = y;",
+    "source": "async r => result = [...{ x = await x }] = y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

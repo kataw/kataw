@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] {switch",
+    "source": "{ [catch] {switch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

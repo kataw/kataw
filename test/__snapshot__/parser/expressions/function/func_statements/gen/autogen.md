@@ -240,7 +240,7 @@ while (x) #
         }
     ],
     "isModule": false,
-    "text": "if (x) #",
+    "source": "if (x) #",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

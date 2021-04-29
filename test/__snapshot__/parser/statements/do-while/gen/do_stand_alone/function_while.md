@@ -92,7 +92,7 @@ do function while
         }
     ],
     "isModule": false,
-    "text": "do function while",
+    "source": "do function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

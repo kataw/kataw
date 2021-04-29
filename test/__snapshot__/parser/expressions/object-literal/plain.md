@@ -96,7 +96,7 @@ x= { prototype(){} }
         }
     ],
     "isModule": false,
-    "text": "x= { prototype(){} }",
+    "source": "x= { prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

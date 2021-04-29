@@ -55,7 +55,7 @@ if /)finally else
         }
     ],
     "isModule": false,
-    "text": "if /)finally else",
+    "source": "if /)finally else",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

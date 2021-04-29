@@ -278,7 +278,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { function f() { class C { await() { } } } });",
+    "source": "var await; var f = (async function() { function f() { class C { await() { } } } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

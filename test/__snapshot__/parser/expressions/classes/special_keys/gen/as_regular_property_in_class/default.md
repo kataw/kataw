@@ -88,7 +88,7 @@ class x {default: x}
         }
     ],
     "isModule": false,
-    "text": "class x {default: x}",
+    "source": "class x {default: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

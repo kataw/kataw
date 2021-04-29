@@ -132,7 +132,7 @@ function a({x = 10}) {}
         }
     ],
     "isModule": false,
-    "text": "function a({x = 10}) {}",
+    "source": "function a({x = 10}) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

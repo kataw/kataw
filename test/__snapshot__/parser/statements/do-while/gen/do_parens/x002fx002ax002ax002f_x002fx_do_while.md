@@ -60,7 +60,7 @@ do( /**/ /x do while while
         }
     ],
     "isModule": false,
-    "text": "do( /**/ /x do while while",
+    "source": "do( /**/ /x do while while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

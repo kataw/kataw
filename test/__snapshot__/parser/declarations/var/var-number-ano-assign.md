@@ -191,7 +191,7 @@ var a: { [a: number]: string; [b: number]: string; };
         }
     ],
     "isModule": false,
-    "text": "var numVal:number = otherNumVal;\n\nvar a: { [a: number]: string; [b: number]: string; };",
+    "source": "var numVal:number = otherNumVal;\n\nvar a: { [a: number]: string; [b: number]: string; };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

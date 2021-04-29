@@ -54,7 +54,7 @@ do /)finally while
         }
     ],
     "isModule": false,
-    "text": "do /)finally while",
+    "source": "do /)finally while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

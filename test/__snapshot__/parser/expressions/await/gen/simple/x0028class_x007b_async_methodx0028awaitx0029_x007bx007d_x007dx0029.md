@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { async method(await) {} })",
+    "source": "(class { async method(await) {} })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

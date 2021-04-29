@@ -105,7 +105,7 @@ class C { static delete() {} }
         }
     ],
     "isModule": false,
-    "text": "class C { static delete() {} }",
+    "source": "class C { static delete() {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

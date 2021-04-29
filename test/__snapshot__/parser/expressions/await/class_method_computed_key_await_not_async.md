@@ -219,7 +219,7 @@
         }
     ],
     "isModule": false,
-    "text": "(fail = class A {[await](){}; \"x\"(){}}) => {}",
+    "source": "(fail = class A {[await](){}; \"x\"(){}}) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

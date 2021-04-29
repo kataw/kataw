@@ -117,7 +117,7 @@ class A {async **=f(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {async **=f(){}}",
+    "source": "class A {async **=f(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

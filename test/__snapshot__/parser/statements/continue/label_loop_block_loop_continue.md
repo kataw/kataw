@@ -105,7 +105,7 @@ foo: while(z) { while(z) continue foo }
         }
     ],
     "isModule": false,
-    "text": "foo: while(z) { while(z) continue foo }",
+    "source": "foo: while(z) { while(z) continue foo }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

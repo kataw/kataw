@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { type {",
+    "source": "{ { { type {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

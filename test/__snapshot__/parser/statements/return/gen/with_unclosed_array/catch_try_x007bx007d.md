@@ -82,7 +82,7 @@ return[ catch try {}
         }
     ],
     "isModule": false,
-    "text": "return[ catch try {}",
+    "source": "return[ catch try {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

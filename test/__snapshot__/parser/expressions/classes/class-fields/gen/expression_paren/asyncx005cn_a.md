@@ -112,7 +112,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { async\\n a });",
+    "source": "(class { async\\n a });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

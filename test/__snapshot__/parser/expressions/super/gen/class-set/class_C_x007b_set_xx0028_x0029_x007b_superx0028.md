@@ -269,7 +269,7 @@ class C { set x(_) { class C { set x(_) { super( } }
         }
     ],
     "isModule": false,
-    "text": "class C { set x(_) { class C { set x(_) { super( } }",
+    "source": "class C { set x(_) { class C { set x(_) { super( } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

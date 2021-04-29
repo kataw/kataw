@@ -120,7 +120,7 @@ var {x, y} = obj;
         }
     ],
     "isModule": false,
-    "text": "var {x, y} = obj;",
+    "source": "var {x, y} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

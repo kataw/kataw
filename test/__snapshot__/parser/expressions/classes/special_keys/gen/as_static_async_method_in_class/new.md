@@ -114,7 +114,7 @@ class x {static async new(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async new(){}}",
+    "source": "class x {static async new(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

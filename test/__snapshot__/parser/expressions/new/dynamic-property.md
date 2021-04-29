@@ -97,7 +97,7 @@ function x(){""[new.target]}
         }
     ],
     "isModule": false,
-    "text": "function x(){\"\"[new.target]}",
+    "source": "function x(){\"\"[new.target]}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

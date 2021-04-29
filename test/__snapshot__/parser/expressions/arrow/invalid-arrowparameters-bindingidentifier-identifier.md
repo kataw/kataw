@@ -101,7 +101,7 @@ var af = switch => 1;
         }
     ],
     "isModule": false,
-    "text": "var af = switch => 1;",
+    "source": "var af = switch => 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

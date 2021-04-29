@@ -131,7 +131,7 @@ function test({...{}}) {}
         }
     ],
     "isModule": false,
-    "text": "function test({...{}}) {}",
+    "source": "function test({...{}}) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

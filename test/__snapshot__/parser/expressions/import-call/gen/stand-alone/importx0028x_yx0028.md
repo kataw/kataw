@@ -77,7 +77,7 @@ import(x,y(
         }
     ],
     "isModule": false,
-    "text": "import(x,y(",
+    "source": "import(x,y(",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

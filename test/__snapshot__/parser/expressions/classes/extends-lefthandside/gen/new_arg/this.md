@@ -46,7 +46,7 @@ new this
         }
     ],
     "isModule": false,
-    "text": "new this",
+    "source": "new this",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

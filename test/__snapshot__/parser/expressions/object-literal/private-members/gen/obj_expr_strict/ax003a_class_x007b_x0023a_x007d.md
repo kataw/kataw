@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; ({ a: class { #a } });",
+    "source": "'use strict'; ({ a: class { #a } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

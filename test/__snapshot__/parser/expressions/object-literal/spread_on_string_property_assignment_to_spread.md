@@ -113,7 +113,7 @@ x={..."foo".foo=x}
         }
     ],
     "isModule": false,
-    "text": "x={...\"foo\".foo=x}\n",
+    "source": "x={...\"foo\".foo=x}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

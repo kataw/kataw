@@ -88,7 +88,7 @@ import * as foo from "foo";
         }
     ],
     "isModule": true,
-    "text": "import * as foo from \"foo\";",
+    "source": "import * as foo from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -80,7 +80,7 @@ async (a=/i/) = /i/
         }
     ],
     "isModule": false,
-    "text": "async (a=/i/) = /i/",
+    "source": "async (a=/i/) = /i/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

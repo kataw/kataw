@@ -74,7 +74,7 @@ for (new x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (new x in x) ;",
+    "source": "for (new x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

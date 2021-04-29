@@ -122,7 +122,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  inst\\u0061nceof = x\n}",
+    "source": "function *f(){\n  inst\\u0061nceof = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

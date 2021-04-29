@@ -105,7 +105,7 @@ let p/
         }
     ],
     "isModule": false,
-    "text": "let p/",
+    "source": "let p/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

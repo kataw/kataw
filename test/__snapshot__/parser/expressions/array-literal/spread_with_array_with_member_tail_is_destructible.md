@@ -171,7 +171,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...[x].map(y, z)[x]] = a;",
+    "source": "[...[x].map(y, z)[x]] = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

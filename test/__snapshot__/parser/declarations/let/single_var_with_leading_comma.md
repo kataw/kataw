@@ -99,7 +99,7 @@ let {,x} = obj;
         }
     ],
     "isModule": false,
-    "text": "let {,x} = obj;",
+    "source": "let {,x} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -127,7 +127,7 @@ class C { set #arguments(test) {} }
         }
     ],
     "isModule": false,
-    "text": "class C { set #arguments(test) {} }",
+    "source": "class C { set #arguments(test) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

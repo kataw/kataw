@@ -114,7 +114,7 @@ class x {static get let(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get let(){}}",
+    "source": "class x {static get let(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -119,7 +119,7 @@ for (x of 3) continue
         }
     ],
     "isModule": false,
-    "text": "for (x of 3) continue\n/x/g",
+    "source": "for (x of 3) continue\n/x/g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

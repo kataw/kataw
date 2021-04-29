@@ -104,7 +104,7 @@ class x {for(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {for(){}}",
+    "source": "class x {for(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

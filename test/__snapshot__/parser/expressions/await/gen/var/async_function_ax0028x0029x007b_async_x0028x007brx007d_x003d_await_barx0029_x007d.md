@@ -284,7 +284,7 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { async function a(){     async ({r} = await bar);     } });",
+    "source": "var await; var f = (async function() { async function a(){     async ({r} = await bar);     } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

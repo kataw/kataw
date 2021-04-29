@@ -34,7 +34,7 @@ else /)finally
         }
     ],
     "isModule": false,
-    "text": "else /)finally",
+    "source": "else /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

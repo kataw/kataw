@@ -147,7 +147,7 @@ function *f(){ async (x = (yield)) => {} }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ async (x = (yield)) => {} }",
+    "source": "function *f(){ async (x = (yield)) => {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

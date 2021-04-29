@@ -231,7 +231,7 @@ try[ #
         }
     ],
     "isModule": false,
-    "text": "try catch #",
+    "source": "try catch #",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

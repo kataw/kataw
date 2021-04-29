@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "([new x]);\n\n(x, [new y]);",
+    "source": "([new x]);\n\n(x, [new y]);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

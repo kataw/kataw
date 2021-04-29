@@ -72,7 +72,7 @@ new x()
         }
     ],
     "isModule": false,
-    "text": "new x()\n/y",
+    "source": "new x()\n/y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

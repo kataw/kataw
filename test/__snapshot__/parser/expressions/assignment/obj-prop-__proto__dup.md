@@ -251,7 +251,7 @@ result = ({ __proto__: x, __proto__: y } = value);
         }
     ],
     "isModule": false,
-    "text": "result = { __proto__: x, __proto__: y } = value;\n\nresult = ({ __proto__: x, __proto__: y } = value);",
+    "source": "result = { __proto__: x, __proto__: y } = value;\n\nresult = ({ __proto__: x, __proto__: y } = value);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

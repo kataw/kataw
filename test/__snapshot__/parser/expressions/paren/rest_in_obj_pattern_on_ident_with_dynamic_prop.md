@@ -98,7 +98,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...a[x]} = x);",
+    "source": "({...a[x]} = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

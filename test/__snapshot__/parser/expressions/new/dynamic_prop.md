@@ -113,7 +113,7 @@ x({[new A()]:y})
         }
     ],
     "isModule": false,
-    "text": "x({[new A()]:y})",
+    "source": "x({[new A()]:y})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -161,7 +161,7 @@ function *f(){ async (x = z = yield) => {} }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ async (x = z = yield) => {} }",
+    "source": "function *f(){ async (x = z = yield) => {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

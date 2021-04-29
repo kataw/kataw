@@ -95,7 +95,7 @@ export var foo, bar;
         }
     ],
     "isModule": false,
-    "text": "export var foo, bar;",
+    "source": "export var foo, bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

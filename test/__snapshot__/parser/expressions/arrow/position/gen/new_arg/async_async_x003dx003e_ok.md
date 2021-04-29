@@ -88,7 +88,7 @@ new async async => ok
         }
     ],
     "isModule": false,
-    "text": "new async async => ok",
+    "source": "new async async => ok",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

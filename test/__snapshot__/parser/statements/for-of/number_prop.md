@@ -99,7 +99,7 @@ for (456..x of c) d;
         }
     ],
     "isModule": false,
-    "text": "for (456..x of c) d;",
+    "source": "for (456..x of c) d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

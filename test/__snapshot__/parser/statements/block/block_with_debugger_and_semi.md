@@ -43,7 +43,7 @@
         }
     ],
     "isModule": false,
-    "text": "{debugger;}",
+    "source": "{debugger;}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

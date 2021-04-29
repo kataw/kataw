@@ -116,7 +116,7 @@ do while [catch] class x {}
         }
     ],
     "isModule": false,
-    "text": "do while [catch] class x {}",
+    "source": "do while [catch] class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

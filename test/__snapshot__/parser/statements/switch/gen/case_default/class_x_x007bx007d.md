@@ -52,7 +52,7 @@ case class x {} default
         }
     ],
     "isModule": false,
-    "text": "case class x {} default",
+    "source": "case class x {} default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

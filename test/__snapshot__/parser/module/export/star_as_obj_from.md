@@ -126,7 +126,7 @@ export * as foo, {bar} from 'bar';
         }
     ],
     "isModule": true,
-    "text": "export * as foo, {bar} from 'bar';",
+    "source": "export * as foo, {bar} from 'bar';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

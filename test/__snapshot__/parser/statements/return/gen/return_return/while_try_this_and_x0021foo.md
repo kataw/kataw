@@ -152,7 +152,7 @@ return while try this and !foo return
         }
     ],
     "isModule": false,
-    "text": "return while try this and !foo return",
+    "source": "return while try this and !foo return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

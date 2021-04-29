@@ -69,7 +69,7 @@ x => { "use strict"; }
         }
     ],
     "isModule": false,
-    "text": "x => { \"use strict\"; }",
+    "source": "x => { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

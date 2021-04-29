@@ -65,7 +65,7 @@ import {} from "y"
         }
     ],
     "isModule": true,
-    "text": "import {} from \"y\"",
+    "source": "import {} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

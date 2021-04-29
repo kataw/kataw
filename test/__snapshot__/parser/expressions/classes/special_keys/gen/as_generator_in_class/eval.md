@@ -109,7 +109,7 @@ class x {* eval(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* eval(){}}",
+    "source": "class x {* eval(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

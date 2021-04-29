@@ -144,7 +144,7 @@ function *f(){   s = {"foo": yield}   }
         }
     ],
     "isModule": false,
-    "text": "function *f(){   s = {\"foo\": yield}   }",
+    "source": "function *f(){   s = {\"foo\": yield}   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

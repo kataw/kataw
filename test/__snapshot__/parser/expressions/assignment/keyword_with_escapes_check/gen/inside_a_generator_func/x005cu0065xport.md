@@ -106,7 +106,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  \\u0065xport = x\n}",
+    "source": "function *f(){\n  \\u0065xport = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -138,7 +138,7 @@ async function* f() {
         }
     ],
     "isModule": true,
-    "text": "async function* f() {\n    for await (import.meta of null) ;\n}",
+    "source": "async function* f() {\n    for await (import.meta of null) ;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

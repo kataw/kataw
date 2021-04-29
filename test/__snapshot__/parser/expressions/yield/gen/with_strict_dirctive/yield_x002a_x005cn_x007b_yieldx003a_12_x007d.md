@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; yield * \\n { yield: 12 }",
+    "source": "'use strict'; yield * \\n { yield: 12 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

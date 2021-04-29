@@ -105,7 +105,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base { async = 0 });",
+    "source": "(class extends Base { async = 0 });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

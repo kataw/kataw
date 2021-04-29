@@ -145,7 +145,7 @@ return return return try { !xxx
         }
     ],
     "isModule": false,
-    "text": "return return return try { !xxx",
+    "source": "return return return try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

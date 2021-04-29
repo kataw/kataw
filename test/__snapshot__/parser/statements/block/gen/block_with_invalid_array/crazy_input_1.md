@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] crazy input 1",
+    "source": "{ [catch] crazy input 1",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

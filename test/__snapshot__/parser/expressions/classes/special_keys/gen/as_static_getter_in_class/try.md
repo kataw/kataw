@@ -114,7 +114,7 @@ class x {static get try(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get try(){}}",
+    "source": "class x {static get try(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -55,7 +55,7 @@ p\u0072ivate = x;
         }
     ],
     "isModule": false,
-    "text": "p\\u0072ivate = x;",
+    "source": "p\\u0072ivate = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -117,7 +117,7 @@ async () => {  functi\u006fn = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  functi\\u006fn = x  }",
+    "source": "async () => {  functi\\u006fn = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

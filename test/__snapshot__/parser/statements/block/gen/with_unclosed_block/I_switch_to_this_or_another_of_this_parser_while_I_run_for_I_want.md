@@ -314,7 +314,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { I switch to this or another of this parser while I run for I want",
+    "source": "{ {} finally(x) { I switch to this or another of this parser while I run for I want",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

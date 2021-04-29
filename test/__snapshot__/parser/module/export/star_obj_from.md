@@ -108,7 +108,7 @@ export *, {bar} from 'bar';
         }
     ],
     "isModule": true,
-    "text": "export *, {bar} from 'bar';",
+    "source": "export *, {bar} from 'bar';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

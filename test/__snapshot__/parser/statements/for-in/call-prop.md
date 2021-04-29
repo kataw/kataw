@@ -88,7 +88,7 @@ var a : string
         }
     ],
     "isModule": false,
-    "text": "var a : string",
+    "source": "var a : string",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

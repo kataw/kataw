@@ -176,7 +176,7 @@ var af = (x, ...y) => { return [x, y.length]; };
         }
     ],
     "isModule": false,
-    "text": "var af = (x, ...y) => { return [x, y.length]; };",
+    "source": "var af = (x, ...y) => { return [x, y.length]; };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

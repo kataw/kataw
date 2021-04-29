@@ -100,7 +100,7 @@ if (x) async function f(){}
         }
     ],
     "isModule": false,
-    "text": "if (x) async function f(){}",
+    "source": "if (x) async function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

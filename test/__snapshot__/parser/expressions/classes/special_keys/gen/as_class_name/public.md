@@ -52,7 +52,7 @@ class public {}
         }
     ],
     "isModule": false,
-    "text": "class public {}",
+    "source": "class public {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

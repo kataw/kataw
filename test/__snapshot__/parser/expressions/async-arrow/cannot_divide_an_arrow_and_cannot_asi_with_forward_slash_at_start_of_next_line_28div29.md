@@ -91,7 +91,7 @@ async _ => {}
         }
     ],
     "isModule": false,
-    "text": "async _ => {}\n/foo",
+    "source": "async _ => {}\n/foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

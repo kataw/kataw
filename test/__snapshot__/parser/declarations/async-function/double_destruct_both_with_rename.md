@@ -149,7 +149,7 @@ let {x : y, z : a} = obj;
         }
     ],
     "isModule": false,
-    "text": "let {x : y, z : a} = obj;",
+    "source": "let {x : y, z : a} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

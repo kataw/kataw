@@ -124,7 +124,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { /)finally",
+    "source": "{ {} finally(x) { /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

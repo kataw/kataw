@@ -160,7 +160,7 @@ x; {}
         }
     ],
     "isModule": false,
-    "text": "async function p(){\n  class C extends await\nx; {}\n}",
+    "source": "async function p(){\n  class C extends await\nx; {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

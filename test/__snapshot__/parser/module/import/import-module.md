@@ -45,7 +45,7 @@ import "foo";
         }
     ],
     "isModule": true,
-    "text": "import \"foo\";",
+    "source": "import \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

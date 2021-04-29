@@ -114,7 +114,7 @@ class x {static get finally(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get finally(){}}",
+    "source": "class x {static get finally(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

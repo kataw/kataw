@@ -145,7 +145,7 @@ for (class x { [a](){} } in c);
         }
     ],
     "isModule": false,
-    "text": "for (class x { [a](){} } in c);",
+    "source": "for (class x { [a](){} } in c);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -71,7 +71,7 @@ switch(x) { default: default: }
         }
     ],
     "isModule": false,
-    "text": "switch(x) { default: default: }",
+    "source": "switch(x) { default: default: }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

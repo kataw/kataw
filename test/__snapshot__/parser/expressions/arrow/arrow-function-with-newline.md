@@ -90,7 +90,7 @@ async (f)
         }
     ],
     "isModule": false,
-    "text": "async (f)\n: t => { }",
+    "source": "async (f)\n: t => { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -193,7 +193,7 @@ async function x() {
         }
     ],
     "isModule": false,
-    "text": "async function x() {\n  await {y: [11]}?.z[0];\n}",
+    "source": "async function x() {\n  await {y: [11]}?.z[0];\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

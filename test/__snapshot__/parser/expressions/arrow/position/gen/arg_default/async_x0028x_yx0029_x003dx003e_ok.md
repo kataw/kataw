@@ -132,7 +132,7 @@ function f(a = async (x, y) => ok) {}
         }
     ],
     "isModule": false,
-    "text": "function f(a = async (x, y) => ok) {}",
+    "source": "function f(a = async (x, y) => ok) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

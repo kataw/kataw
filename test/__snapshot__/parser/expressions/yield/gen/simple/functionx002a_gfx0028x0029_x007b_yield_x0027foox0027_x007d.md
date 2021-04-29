@@ -102,7 +102,7 @@ function* gf() { yield 'foo' }
         }
     ],
     "isModule": false,
-    "text": "function* gf() { yield 'foo' }",
+    "source": "function* gf() { yield 'foo' }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

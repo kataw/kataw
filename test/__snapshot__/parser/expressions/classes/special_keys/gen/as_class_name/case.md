@@ -64,7 +64,7 @@ class case {}
         }
     ],
     "isModule": false,
-    "text": "class case {}",
+    "source": "class case {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

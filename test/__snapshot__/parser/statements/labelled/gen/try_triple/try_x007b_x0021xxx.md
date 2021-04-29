@@ -128,7 +128,7 @@ try try try try { !xxx
         }
     ],
     "isModule": false,
-    "text": "try try try try { !xxx",
+    "source": "try try try try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

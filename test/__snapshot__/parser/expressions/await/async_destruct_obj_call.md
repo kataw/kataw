@@ -245,7 +245,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
         }
     ],
     "isModule": false,
-    "text": "async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }",
+    "source": "async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

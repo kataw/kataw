@@ -143,7 +143,7 @@ function *f(){   for (yield x in y);   }
         }
     ],
     "isModule": false,
-    "text": "function *f(){   for (yield x in y);   }",
+    "source": "function *f(){   for (yield x in y);   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -108,7 +108,7 @@ var foo = (async (): number => bar);
         }
     ],
     "isModule": false,
-    "text": "var foo = (async (): number => bar);",
+    "source": "var foo = (async (): number => bar);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

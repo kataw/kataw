@@ -218,7 +218,7 @@ var await; var f = (async function() { function *f(await){} });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { function *f(await){} });",
+    "source": "var await; var f = (async function() { function *f(await){} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

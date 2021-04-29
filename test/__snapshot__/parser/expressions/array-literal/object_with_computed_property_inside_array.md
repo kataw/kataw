@@ -121,7 +121,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a, {[b]:d}, c] = obj",
+    "source": "[a, {[b]:d}, c] = obj",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

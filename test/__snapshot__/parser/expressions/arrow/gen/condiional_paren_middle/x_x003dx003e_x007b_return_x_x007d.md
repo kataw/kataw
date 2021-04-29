@@ -125,7 +125,7 @@ bar ? (x => { return x; }) : baz;
         }
     ],
     "isModule": false,
-    "text": "bar ? (x => { return x; }) : baz;",
+    "source": "bar ? (x => { return x; }) : baz;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

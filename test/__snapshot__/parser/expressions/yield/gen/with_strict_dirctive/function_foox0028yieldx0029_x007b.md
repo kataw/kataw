@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function foo(yield) {",
+    "source": "'use strict'; function foo(yield) {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

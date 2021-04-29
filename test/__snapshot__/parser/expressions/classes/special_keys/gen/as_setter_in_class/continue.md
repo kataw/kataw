@@ -128,7 +128,7 @@ class x {set continue(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set continue(x){}}",
+    "source": "class x {set continue(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

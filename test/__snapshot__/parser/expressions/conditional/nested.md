@@ -146,7 +146,7 @@ z(z(z(a ? b : c++)));
         }
     ],
     "isModule": false,
-    "text": "z(z(z(a ? b : c++)));",
+    "source": "z(z(z(a ? b : c++)));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

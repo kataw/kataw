@@ -89,7 +89,7 @@ async (x = yield y) => {}
         }
     ],
     "isModule": false,
-    "text": "async (x = yield y) => {}",
+    "source": "async (x = yield y) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

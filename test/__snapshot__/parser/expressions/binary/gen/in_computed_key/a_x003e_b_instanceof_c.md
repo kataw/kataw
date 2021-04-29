@@ -134,7 +134,7 @@ x = {[ a > b instanceof c ]: y}
         }
     ],
     "isModule": false,
-    "text": "x = {[ a > b instanceof c ]: y}",
+    "source": "x = {[ a > b instanceof c ]: y}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

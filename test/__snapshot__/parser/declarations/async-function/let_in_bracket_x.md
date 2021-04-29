@@ -131,7 +131,7 @@ let[x] in x;
         }
     ],
     "isModule": false,
-    "text": "let[x] in x;",
+    "source": "let[x] in x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

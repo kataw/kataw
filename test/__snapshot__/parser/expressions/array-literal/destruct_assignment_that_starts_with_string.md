@@ -99,7 +99,7 @@
         }
     ],
     "isModule": false,
-    "text": "[\"foo\".foo] = x",
+    "source": "[\"foo\".foo] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

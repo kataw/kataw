@@ -99,7 +99,7 @@
         }
     ],
     "isModule": false,
-    "text": "`${function(){}}`",
+    "source": "`${function(){}}`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

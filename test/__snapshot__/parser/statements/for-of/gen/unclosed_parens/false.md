@@ -74,7 +74,7 @@ try( false
         }
     ],
     "isModule": false,
-    "text": "try( false",
+    "source": "try( false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {async * public(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * public(){}}",
+    "source": "class x {async * public(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

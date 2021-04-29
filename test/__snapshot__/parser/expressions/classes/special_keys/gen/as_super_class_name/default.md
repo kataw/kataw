@@ -84,7 +84,7 @@ class x extends default {}
         }
     ],
     "isModule": false,
-    "text": "class x extends default {}",
+    "source": "class x extends default {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

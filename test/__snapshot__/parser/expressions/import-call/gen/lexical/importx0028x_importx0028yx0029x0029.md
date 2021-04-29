@@ -81,7 +81,7 @@ import(x,import(y))
         }
     ],
     "isModule": false,
-    "text": "import(x,import(y))",
+    "source": "import(x,import(y))",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

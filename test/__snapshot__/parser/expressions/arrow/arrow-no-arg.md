@@ -107,7 +107,7 @@
         }
     ],
     "isModule": false,
-    "text": "() => a + b - yield / 1",
+    "source": "() => a + b - yield / 1",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -71,7 +71,7 @@ import(x,y,z)
         }
     ],
     "isModule": false,
-    "text": "import(x,y,z)",
+    "source": "import(x,y,z)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

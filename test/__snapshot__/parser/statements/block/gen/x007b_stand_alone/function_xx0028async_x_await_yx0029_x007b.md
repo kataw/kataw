@@ -155,7 +155,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ function x(async x, await y) {",
+    "source": "{ function x(async x, await y) {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

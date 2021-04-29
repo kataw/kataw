@@ -64,7 +64,7 @@
         }
     ],
     "isModule": false,
-    "text": "(private) =>x",
+    "source": "(private) =>x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

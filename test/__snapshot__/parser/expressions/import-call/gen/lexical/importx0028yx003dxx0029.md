@@ -67,7 +67,7 @@ import(y=x)
         }
     ],
     "isModule": false,
-    "text": "import(y=x)",
+    "source": "import(y=x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

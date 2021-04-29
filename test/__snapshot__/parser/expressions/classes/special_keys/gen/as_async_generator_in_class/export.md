@@ -114,7 +114,7 @@ class x {async * export(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * export(){}}",
+    "source": "class x {async * export(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

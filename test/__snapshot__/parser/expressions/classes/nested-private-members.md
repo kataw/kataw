@@ -1196,7 +1196,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class {a = class { #a = 1 }});\n(class {a = class { #a = () => {} }});\n(class {a = class { #a }});\n(class {a = class { #a() { } }});\n(class {a = class { get #a() { } }});\n(class {a = class { set #a(foo) { } }});\n(class {a = class { *#a() { } }});\n(class {a = class { async #a() { } }});\n(class {a = class { async *#a() { } }});",
+    "source": "(class {a = class { #a = 1 }});\n(class {a = class { #a = () => {} }});\n(class {a = class { #a }});\n(class {a = class { #a() { } }});\n(class {a = class { get #a() { } }});\n(class {a = class { set #a(foo) { } }});\n(class {a = class { *#a() { } }});\n(class {a = class { async #a() { } }});\n(class {a = class { async *#a() { } }});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

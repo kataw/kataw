@@ -98,7 +98,7 @@ for (a.b in c) d;
         }
     ],
     "isModule": false,
-    "text": "for (a.b in c) d;",
+    "source": "for (a.b in c) d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

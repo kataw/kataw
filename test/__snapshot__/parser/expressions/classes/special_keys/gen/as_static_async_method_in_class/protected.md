@@ -114,7 +114,7 @@ class x {static async protected(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async protected(){}}",
+    "source": "class x {static async protected(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@ let {[x]} = z;
         }
     ],
     "isModule": false,
-    "text": "let {[x]} = z;",
+    "source": "let {[x]} = z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

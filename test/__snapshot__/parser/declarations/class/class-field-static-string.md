@@ -83,7 +83,7 @@ class C { static '0' }
         }
     ],
     "isModule": false,
-    "text": "class C { static '0' }",
+    "source": "class C { static '0' }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

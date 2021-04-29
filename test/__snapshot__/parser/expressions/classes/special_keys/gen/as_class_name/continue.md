@@ -83,7 +83,7 @@ class continue {}
         }
     ],
     "isModule": false,
-    "text": "class continue {}",
+    "source": "class continue {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

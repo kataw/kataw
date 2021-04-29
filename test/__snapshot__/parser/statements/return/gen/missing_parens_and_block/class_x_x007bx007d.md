@@ -102,7 +102,7 @@ return catch class x {}
         }
     ],
     "isModule": false,
-    "text": "return catch class x {}",
+    "source": "return catch class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

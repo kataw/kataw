@@ -31,7 +31,7 @@ xxx\u0065xxx
         }
     ],
     "isModule": false,
-    "text": "xxx\\u0065xxx",
+    "source": "xxx\\u0065xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

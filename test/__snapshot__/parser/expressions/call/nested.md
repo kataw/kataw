@@ -91,7 +91,7 @@ z(z(z()));
         }
     ],
     "isModule": false,
-    "text": "z(z(z()));",
+    "source": "z(z(z()));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

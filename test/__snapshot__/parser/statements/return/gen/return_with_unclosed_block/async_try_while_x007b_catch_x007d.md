@@ -177,7 +177,7 @@ return {} return(x) { async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { async try while { catch }",
+    "source": "return {} return(x) { async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

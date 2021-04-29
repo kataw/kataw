@@ -130,7 +130,7 @@ import {x as a, z} from "y"
         }
     ],
     "isModule": true,
-    "text": "import {x as a, z} from \"y\"",
+    "source": "import {x as a, z} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

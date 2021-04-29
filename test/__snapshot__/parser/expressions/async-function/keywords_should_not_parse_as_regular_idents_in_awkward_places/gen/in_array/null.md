@@ -49,7 +49,7 @@
         }
     ],
     "isModule": false,
-    "text": "[ null ]",
+    "source": "[ null ]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

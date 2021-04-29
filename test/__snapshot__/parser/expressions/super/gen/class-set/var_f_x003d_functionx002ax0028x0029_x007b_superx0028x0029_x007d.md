@@ -243,7 +243,7 @@ class C { set x(_) { var f = function*() { super(); } } }
         }
     ],
     "isModule": false,
-    "text": "class C { set x(_) { var f = function*() { super(); } } }",
+    "source": "class C { set x(_) { var f = function*() { super(); } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

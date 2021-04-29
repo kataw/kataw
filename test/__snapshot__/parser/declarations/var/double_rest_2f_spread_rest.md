@@ -122,7 +122,7 @@ var [... ...foo] = obj;
         }
     ],
     "isModule": false,
-    "text": "var [... ...foo] = obj;",
+    "source": "var [... ...foo] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

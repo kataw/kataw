@@ -91,7 +91,7 @@ for (oh,no in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (oh,no in x) ;",
+    "source": "for (oh,no in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

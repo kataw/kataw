@@ -145,7 +145,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { as = x",
+    "source": "{ {} finally(x) { as = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

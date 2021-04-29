@@ -110,7 +110,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {{function let}}",
+    "source": "{ {{function let}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

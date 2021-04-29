@@ -110,7 +110,7 @@ class x extends instanceof {}
         }
     ],
     "isModule": false,
-    "text": "class x extends instanceof {}",
+    "source": "class x extends instanceof {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

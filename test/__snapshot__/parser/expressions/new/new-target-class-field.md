@@ -81,7 +81,7 @@ class C { aaa = new.target }
         }
     ],
     "isModule": false,
-    "text": "class C { aaa = new.target }",
+    "source": "class C { aaa = new.target }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

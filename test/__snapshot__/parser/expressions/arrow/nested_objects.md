@@ -103,7 +103,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: {x: y}})",
+    "source": "({ident: {x: y}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

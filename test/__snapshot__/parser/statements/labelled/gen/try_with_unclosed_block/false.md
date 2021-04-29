@@ -113,7 +113,7 @@ try {} finally(x) { false
         }
     ],
     "isModule": false,
-    "text": "try {} finally(x) { false",
+    "source": "try {} finally(x) { false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

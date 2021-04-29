@@ -112,7 +112,7 @@ class x { get prototype(){} }
         }
     ],
     "isModule": true,
-    "text": "class x { get prototype(){} }",
+    "source": "class x { get prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

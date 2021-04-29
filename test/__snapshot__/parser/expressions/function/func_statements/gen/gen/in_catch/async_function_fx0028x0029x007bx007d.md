@@ -137,7 +137,7 @@ try {
         }
     ],
     "isModule": false,
-    "text": "try {\n} catch (e) {\n  async function f(){}\n}",
+    "source": "try {\n} catch (e) {\n  async function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

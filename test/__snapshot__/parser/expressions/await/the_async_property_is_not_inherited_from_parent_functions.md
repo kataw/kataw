@@ -154,7 +154,7 @@ async function f(){ let y = x => await x; }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ let y = x => await x; }",
+    "source": "async function f(){ let y = x => await x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

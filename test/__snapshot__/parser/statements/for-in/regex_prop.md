@@ -97,7 +97,7 @@ for (/foo/.x in c) d;
         }
     ],
     "isModule": false,
-    "text": "for (/foo/.x in c) d;",
+    "source": "for (/foo/.x in c) d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

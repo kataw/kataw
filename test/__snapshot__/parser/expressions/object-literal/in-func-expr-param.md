@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "(function({x, ...y}) { })",
+    "source": "(function({x, ...y}) { })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

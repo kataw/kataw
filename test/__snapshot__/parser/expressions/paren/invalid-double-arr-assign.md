@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "([x].foo, [x].foo) = x;",
+    "source": "([x].foo, [x].foo) = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

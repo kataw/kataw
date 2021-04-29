@@ -99,7 +99,7 @@ case function while default
         }
     ],
     "isModule": false,
-    "text": "case function while default",
+    "source": "case function while default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

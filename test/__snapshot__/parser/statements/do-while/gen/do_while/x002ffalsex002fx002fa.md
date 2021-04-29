@@ -79,7 +79,7 @@ do /false//a while
         }
     ],
     "isModule": false,
-    "text": "do /false//a while",
+    "source": "do /false//a while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -71,7 +71,7 @@
         }
     ],
     "isModule": false,
-    "text": "([0])=>0;",
+    "source": "([0])=>0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

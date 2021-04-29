@@ -76,7 +76,7 @@ export var bar;
         }
     ],
     "isModule": true,
-    "text": "export var bar;",
+    "source": "export var bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

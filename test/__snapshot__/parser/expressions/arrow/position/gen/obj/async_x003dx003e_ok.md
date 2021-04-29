@@ -128,7 +128,7 @@ x = {arrow: async => ok}
         }
     ],
     "isModule": false,
-    "text": "x = {arrow: async => ok}",
+    "source": "x = {arrow: async => ok}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

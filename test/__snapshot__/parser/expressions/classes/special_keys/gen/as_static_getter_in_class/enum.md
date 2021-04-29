@@ -114,7 +114,7 @@ class x {static get enum(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get enum(){}}",
+    "source": "class x {static get enum(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

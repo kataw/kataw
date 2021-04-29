@@ -124,7 +124,7 @@ switch( async try while { catch } case
         }
     ],
     "isModule": false,
-    "text": "switch( async try while { catch } case",
+    "source": "switch( async try while { catch } case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

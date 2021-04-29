@@ -104,7 +104,7 @@ class x {break(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {break(){}}",
+    "source": "class x {break(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -108,7 +108,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] import.call",
+    "source": "{ [catch] import.call",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

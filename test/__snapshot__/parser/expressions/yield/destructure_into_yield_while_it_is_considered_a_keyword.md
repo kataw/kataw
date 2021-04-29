@@ -125,7 +125,7 @@ function *f(){  ({yield} = x)  }
         }
     ],
     "isModule": false,
-    "text": "function *f(){  ({yield} = x)  }",
+    "source": "function *f(){  ({yield} = x)  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -133,7 +133,7 @@ class x {static set delete(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set delete(x){}}",
+    "source": "class x {static set delete(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

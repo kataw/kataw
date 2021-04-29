@@ -113,7 +113,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { static set() {} });",
+    "source": "(class { static set() {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -73,7 +73,7 @@ do x, y; while (z)
         }
     ],
     "isModule": false,
-    "text": "do x, y; while (z)",
+    "source": "do x, y; while (z)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

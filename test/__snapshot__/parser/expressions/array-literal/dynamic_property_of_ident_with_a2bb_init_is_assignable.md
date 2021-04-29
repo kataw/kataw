@@ -153,7 +153,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a[x.y] = a + b] = z",
+    "source": "[a[x.y] = a + b] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

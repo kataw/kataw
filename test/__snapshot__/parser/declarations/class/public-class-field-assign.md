@@ -96,7 +96,7 @@ class C { aaa = bbb }
         }
     ],
     "isModule": false,
-    "text": "class C { aaa = bbb }",
+    "source": "class C { aaa = bbb }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

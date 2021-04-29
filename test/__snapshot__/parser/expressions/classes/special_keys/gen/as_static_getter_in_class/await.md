@@ -114,7 +114,7 @@ class x {static get await(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get await(){}}",
+    "source": "class x {static get await(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

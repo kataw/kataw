@@ -109,7 +109,7 @@ class x {static yield(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static yield(){}}",
+    "source": "class x {static yield(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

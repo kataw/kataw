@@ -77,7 +77,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x = x) = x;",
+    "source": "(x = x) = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

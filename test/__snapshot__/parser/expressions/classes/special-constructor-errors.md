@@ -780,7 +780,7 @@
         }
     ],
     "isModule": false,
-    "text": "\n(class C { get constructor() {}});\n\n(class C {get constructor(_) {} });\n\n(class C { get 'constructor'() {} });\n\n(class C { get c\\\\u006fnstructor() {} });\n\n(class C { get 'c\\\\u006fnstructor'() {} });\n\n(class C { get 'c\\\\u006fnstructor'(_) {} });\n\n(class C { *'c\\\\u006fnstructor'() {} });\n",
+    "source": "\n(class C { get constructor() {}});\n\n(class C {get constructor(_) {} });\n\n(class C { get 'constructor'() {} });\n\n(class C { get c\\\\u006fnstructor() {} });\n\n(class C { get 'c\\\\u006fnstructor'() {} });\n\n(class C { get 'c\\\\u006fnstructor'(_) {} });\n\n(class C { *'c\\\\u006fnstructor'() {} });\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -78,7 +78,7 @@ class C { 1e2 }
         }
     ],
     "isModule": false,
-    "text": "class C { 1e2 }",
+    "source": "class C { 1e2 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

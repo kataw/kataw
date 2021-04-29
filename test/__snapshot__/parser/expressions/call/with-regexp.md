@@ -120,7 +120,7 @@
         }
     ],
     "isModule": true,
-    "text": " x(/^(<[^>]+>)/)[1];\n\n x(y, /a/);",
+    "source": " x(/^(<[^>]+>)/)[1];\n\n x(y, /a/);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

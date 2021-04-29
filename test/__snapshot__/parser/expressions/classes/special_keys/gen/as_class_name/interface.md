@@ -52,7 +52,7 @@ class interface {}
         }
     ],
     "isModule": false,
-    "text": "class interface {}",
+    "source": "class interface {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

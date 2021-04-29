@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "(foo, [bar, baz] = doo);",
+    "source": "(foo, [bar, baz] = doo);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

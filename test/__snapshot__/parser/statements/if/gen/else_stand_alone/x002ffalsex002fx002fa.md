@@ -54,7 +54,7 @@ else /false//a
         }
     ],
     "isModule": false,
-    "text": "else /false//a",
+    "source": "else /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

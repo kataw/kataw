@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u0009str\\u0009ing\\u0009\"",
+    "source": "\"\\u0009str\\u0009ing\\u0009\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

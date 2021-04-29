@@ -104,7 +104,7 @@ class x {void(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {void(){}}",
+    "source": "class x {void(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

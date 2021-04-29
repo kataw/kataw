@@ -154,7 +154,7 @@ class x { static set [y](z){}}
         }
     ],
     "isModule": false,
-    "text": "class x { static set [y](z){}}",
+    "source": "class x { static set [y](z){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

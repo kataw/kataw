@@ -185,7 +185,7 @@ a={123<T>(x: T): T {}}
         }
     ],
     "isModule": false,
-    "text": "a={123<T>(x: T): T {}}",
+    "source": "a={123<T>(x: T): T {}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -106,7 +106,7 @@ var [yield] = [42];
         }
     ],
     "isModule": false,
-    "text": "var [yield] = [42];",
+    "source": "var [yield] = [42];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

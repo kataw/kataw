@@ -185,7 +185,7 @@ a={*id<T>(x: T): T {}}
         }
     ],
     "isModule": false,
-    "text": "a={*id<T>(x: T): T {}}",
+    "source": "a={*id<T>(x: T): T {}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

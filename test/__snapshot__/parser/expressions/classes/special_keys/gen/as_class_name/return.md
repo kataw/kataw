@@ -77,7 +77,7 @@ class return {}
         }
     ],
     "isModule": false,
-    "text": "class return {}",
+    "source": "class return {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -81,7 +81,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; class C extends yield { }",
+    "source": "'use strict'; class C extends yield { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

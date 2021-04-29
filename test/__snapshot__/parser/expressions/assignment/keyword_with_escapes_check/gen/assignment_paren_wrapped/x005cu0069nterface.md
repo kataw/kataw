@@ -61,7 +61,7 @@
         }
     ],
     "isModule": false,
-    "text": "(\\u0069nterface = x);",
+    "source": "(\\u0069nterface = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

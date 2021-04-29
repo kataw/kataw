@@ -47,7 +47,7 @@ new /more crap/g
         }
     ],
     "isModule": false,
-    "text": "new /more crap/g",
+    "source": "new /more crap/g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -198,7 +198,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
         }
     ],
     "isModule": false,
-    "text": "function foo(callback: (_1:bool, ...foo:Array<number>) => number){}",
+    "source": "function foo(callback: (_1:bool, ...foo:Array<number>) => number){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

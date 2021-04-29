@@ -90,7 +90,7 @@ a;
         }
     ],
     "isModule": false,
-    "text": "let x = () => --\na;",
+    "source": "let x = () => --\na;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

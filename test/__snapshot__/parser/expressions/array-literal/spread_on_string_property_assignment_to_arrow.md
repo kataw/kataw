@@ -136,7 +136,7 @@
         }
     ],
     "isModule": false,
-    "text": "([...\"foo\".foo=x]) => x",
+    "source": "([...\"foo\".foo=x]) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

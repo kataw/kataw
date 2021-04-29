@@ -104,7 +104,7 @@ var x = {
         }
     ],
     "isModule": false,
-    "text": "var x = {\n    [bar]: foo\n};\n",
+    "source": "var x = {\n    [bar]: foo\n};\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -173,7 +173,7 @@ try catch while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "try catch while try this and !foo",
+    "source": "try catch while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

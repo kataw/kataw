@@ -128,7 +128,7 @@ class x {set instanceof(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set instanceof(x){}}",
+    "source": "class x {set instanceof(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

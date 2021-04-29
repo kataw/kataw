@@ -137,7 +137,7 @@ wrap({foo(){}, bar(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({foo(){}, bar(){}});",
+    "source": "wrap({foo(){}, bar(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

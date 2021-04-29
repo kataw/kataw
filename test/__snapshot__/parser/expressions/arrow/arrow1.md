@@ -224,7 +224,7 @@
         }
     ],
     "isModule": false,
-    "text": "({y}?: string) =>x\n````\n## Options\n\n### Parser Options\n\n`````js\n{ allowTypes : true }",
+    "source": "({y}?: string) =>x\n````\n## Options\n\n### Parser Options\n\n`````js\n{ allowTypes : true }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

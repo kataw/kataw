@@ -295,7 +295,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: {x: y}}) => x;\n\n({ident: {x}}) => x;\n\n({a} = b,) => {};",
+    "source": "({ident: {x: y}}) => x;\n\n({ident: {x}}) => x;\n\n({a} = b,) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

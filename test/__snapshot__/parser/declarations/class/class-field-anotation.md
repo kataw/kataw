@@ -133,7 +133,7 @@ class Foo { prop1:string; prop2:number; }
         }
     ],
     "isModule": false,
-    "text": "class Foo { prop1:string; prop2:number; }",
+    "source": "class Foo { prop1:string; prop2:number; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

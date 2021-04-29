@@ -131,7 +131,7 @@ try [catch] catch try {}
         }
     ],
     "isModule": false,
-    "text": "try [catch] catch try {}",
+    "source": "try [catch] catch try {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

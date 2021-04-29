@@ -130,7 +130,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: [foo, bar].join(\"\")})",
+    "source": "({ident: [foo, bar].join(\"\")})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

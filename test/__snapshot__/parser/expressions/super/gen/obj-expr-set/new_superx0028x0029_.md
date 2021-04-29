@@ -144,7 +144,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(_) { new super(); } })",
+    "source": "({ set x(_) { new super(); } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

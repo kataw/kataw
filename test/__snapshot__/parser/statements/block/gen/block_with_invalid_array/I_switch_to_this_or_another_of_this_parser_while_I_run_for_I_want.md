@@ -293,7 +293,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] I switch to this or another of this parser while I run for I want",
+    "source": "{ [catch] I switch to this or another of this parser while I run for I want",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\xa",
+    "source": "\"\\xa",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

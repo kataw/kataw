@@ -99,7 +99,7 @@ wrap({*123(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({*123(){}});",
+    "source": "wrap({*123(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

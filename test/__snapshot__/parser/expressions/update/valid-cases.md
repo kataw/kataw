@@ -435,7 +435,7 @@ new foo().bar++;
         }
     ],
     "isModule": false,
-    "text": "foo++;\nfoo.bar++;\nfoo[bar]++;\nfoo()[bar]++;\nfoo().bar++;\nthis.foo++;\nthis[foo]++;\nnew foo()[bar]++;\nnew foo().bar++;",
+    "source": "foo++;\nfoo.bar++;\nfoo[bar]++;\nfoo()[bar]++;\nfoo().bar++;\nthis.foo++;\nthis[foo]++;\nnew foo()[bar]++;\nnew foo().bar++;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

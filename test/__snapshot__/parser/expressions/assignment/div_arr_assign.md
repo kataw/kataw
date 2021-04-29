@@ -77,7 +77,7 @@ y/[]=x
         }
     ],
     "isModule": false,
-    "text": "y/[]=x",
+    "source": "y/[]=x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

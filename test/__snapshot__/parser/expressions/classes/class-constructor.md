@@ -557,7 +557,7 @@
         }
     ],
     "isModule": false,
-    "text": "\n(class C { constructor() {} });\n\n(class C { static constructor() {} });\n\n(class C { static get constructor() {} });\n\n(class C { static set constructor(_) {} });\n\n(class C { static *constructor() {} });\n",
+    "source": "\n(class C { constructor() {} });\n\n(class C { static constructor() {} });\n\n(class C { static get constructor() {} });\n\n(class C { static set constructor(_) {} });\n\n(class C { static *constructor() {} });\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -58,7 +58,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x) += 1;\n",
+    "source": "(x) += 1;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

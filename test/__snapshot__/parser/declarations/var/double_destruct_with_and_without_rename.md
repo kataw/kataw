@@ -135,7 +135,7 @@ var {x : y, z} = obj;
         }
     ],
     "isModule": false,
-    "text": "var {x : y, z} = obj;",
+    "source": "var {x : y, z} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

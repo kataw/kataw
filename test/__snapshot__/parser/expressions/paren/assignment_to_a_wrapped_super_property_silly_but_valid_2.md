@@ -69,7 +69,7 @@
         }
     ],
     "isModule": false,
-    "text": "(this.a) += 1;",
+    "source": "(this.a) += 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -65,7 +65,7 @@ import(import(x))
         }
     ],
     "isModule": false,
-    "text": "import(import(x))",
+    "source": "import(import(x))",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -81,7 +81,7 @@ label: async function () {}
         }
     ],
     "isModule": false,
-    "text": "label: async function () {}",
+    "source": "label: async function () {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

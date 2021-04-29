@@ -107,7 +107,7 @@ class x extends y{}(09)
         }
     ],
     "isModule": false,
-    "text": "class x extends y{}(09)",
+    "source": "class x extends y{}(09)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

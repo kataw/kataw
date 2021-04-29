@@ -52,7 +52,7 @@
         }
     ],
     "isModule": false,
-    "text": "({const});",
+    "source": "({const});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

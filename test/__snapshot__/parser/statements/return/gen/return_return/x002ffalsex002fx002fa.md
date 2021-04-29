@@ -73,7 +73,7 @@ return /false//a return
         }
     ],
     "isModule": false,
-    "text": "return /false//a return",
+    "source": "return /false//a return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

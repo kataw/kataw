@@ -108,7 +108,7 @@ type Foo<T> = Bar<T>
         }
     ],
     "isModule": false,
-    "text": "type Foo<T> = Bar<T>",
+    "source": "type Foo<T> = Bar<T>",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -228,7 +228,7 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}",
+    "source": "function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

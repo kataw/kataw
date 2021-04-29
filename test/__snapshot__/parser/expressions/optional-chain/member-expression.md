@@ -190,7 +190,7 @@ f2`hello world`?.a;
         }
     ],
     "isModule": false,
-    "text": "\"hello\"?.a;\n\nobj.a?.b;\n\nf2`hello world`?.a;",
+    "source": "\"hello\"?.a;\n\nobj.a?.b;\n\nf2`hello world`?.a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

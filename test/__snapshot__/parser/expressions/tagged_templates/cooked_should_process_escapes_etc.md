@@ -45,7 +45,7 @@ foo`H\x45Y`
         }
     ],
     "isModule": false,
-    "text": "foo`H\\x45Y`",
+    "source": "foo`H\\x45Y`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

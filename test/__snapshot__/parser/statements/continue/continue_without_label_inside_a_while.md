@@ -50,7 +50,7 @@ while (x) continue
         }
     ],
     "isModule": false,
-    "text": "while (x) continue",
+    "source": "while (x) continue",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

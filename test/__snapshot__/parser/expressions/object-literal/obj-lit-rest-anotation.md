@@ -108,7 +108,7 @@
         }
     ],
     "isModule": false,
-    "text": "((...rest: Array<number>) => rest)",
+    "source": "((...rest: Array<number>) => rest)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

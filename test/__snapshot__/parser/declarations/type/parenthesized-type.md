@@ -69,7 +69,7 @@ type Foo = (string | number)
         }
     ],
     "isModule": false,
-    "text": "type Foo = (string | number)",
+    "source": "type Foo = (string | number)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

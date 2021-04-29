@@ -179,7 +179,7 @@ var a: { id<T>(x: T): T; }
         }
     ],
     "isModule": false,
-    "text": "var a: { id<T>(x: T): T; }",
+    "source": "var a: { id<T>(x: T): T; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

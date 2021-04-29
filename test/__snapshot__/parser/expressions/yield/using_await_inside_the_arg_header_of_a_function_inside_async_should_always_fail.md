@@ -112,7 +112,7 @@ let f = () => (y=await foo) => y;
         }
     ],
     "isModule": false,
-    "text": "let f = () => (y=await foo) => y;",
+    "source": "let f = () => (y=await foo) => y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

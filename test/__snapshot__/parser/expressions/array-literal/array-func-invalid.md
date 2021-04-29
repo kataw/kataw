@@ -129,7 +129,7 @@
         }
     ],
     "isModule": false,
-    "text": "[function f() {}] = []",
+    "source": "[function f() {}] = []",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

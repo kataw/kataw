@@ -64,7 +64,7 @@ x
         }
     ],
     "isModule": false,
-    "text": "new async\nx",
+    "source": "new async\nx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

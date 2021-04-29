@@ -61,7 +61,7 @@ for (await in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (await in x) ;",
+    "source": "for (await in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

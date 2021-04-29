@@ -52,7 +52,7 @@ class set {}
         }
     ],
     "isModule": false,
-    "text": "class set {}",
+    "source": "class set {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

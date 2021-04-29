@@ -100,7 +100,7 @@ var {,x} = obj;
         }
     ],
     "isModule": false,
-    "text": "var {,x} = obj;",
+    "source": "var {,x} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -115,7 +115,7 @@ let foo, [bar];
         }
     ],
     "isModule": false,
-    "text": "let foo, [bar];",
+    "source": "let foo, [bar];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {get typeof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get typeof(){}}",
+    "source": "class x {get typeof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

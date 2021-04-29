@@ -153,7 +153,7 @@ let [...[foo, bar],] = obj;
         }
     ],
     "isModule": false,
-    "text": "let [...[foo, bar],] = obj;",
+    "source": "let [...[foo, bar],] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

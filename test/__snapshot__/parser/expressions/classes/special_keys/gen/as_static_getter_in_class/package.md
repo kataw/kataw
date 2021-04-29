@@ -114,7 +114,7 @@ class x {static get package(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get package(){}}",
+    "source": "class x {static get package(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

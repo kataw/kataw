@@ -82,7 +82,7 @@ for (const a in b);
         }
     ],
     "isModule": false,
-    "text": "for (const a in b);",
+    "source": "for (const a in b);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

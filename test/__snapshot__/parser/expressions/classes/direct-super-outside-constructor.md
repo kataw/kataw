@@ -135,7 +135,7 @@ class A {
         }
     ],
     "isModule": false,
-    "text": "class A {\n  x () {super()}\n}",
+    "source": "class A {\n  x () {super()}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

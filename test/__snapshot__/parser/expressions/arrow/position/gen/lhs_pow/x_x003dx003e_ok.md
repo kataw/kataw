@@ -78,7 +78,7 @@ x => ok ** x
         }
     ],
     "isModule": false,
-    "text": "x => ok ** x",
+    "source": "x => ok ** x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

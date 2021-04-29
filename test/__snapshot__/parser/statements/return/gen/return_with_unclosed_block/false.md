@@ -100,7 +100,7 @@ return {} return(x) { false
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { false",
+    "source": "return {} return(x) { false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

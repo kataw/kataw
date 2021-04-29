@@ -203,7 +203,7 @@ var x,y; export {x as a, y as b}
         }
     ],
     "isModule": true,
-    "text": "var x,y; export {x as a, y as b}",
+    "source": "var x,y; export {x as a, y as b}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

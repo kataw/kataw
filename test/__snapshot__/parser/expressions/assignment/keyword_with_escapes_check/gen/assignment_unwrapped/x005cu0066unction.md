@@ -81,7 +81,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0066unction = x;",
+    "source": "\\u0066unction = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

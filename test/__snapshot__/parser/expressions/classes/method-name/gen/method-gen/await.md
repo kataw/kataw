@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*await(x, y) {}});",
+    "source": "({*await(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

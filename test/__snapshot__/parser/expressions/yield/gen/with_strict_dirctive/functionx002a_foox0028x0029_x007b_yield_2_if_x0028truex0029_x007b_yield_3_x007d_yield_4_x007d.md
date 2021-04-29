@@ -208,7 +208,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function* foo() { yield 2; if (true) { yield 3 }; yield 4 }",
+    "source": "'use strict'; function* foo() { yield 2; if (true) { yield 3 }; yield 4 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -120,7 +120,7 @@ case while try this and !foo default
         }
     ],
     "isModule": false,
-    "text": "case while try this and !foo default",
+    "source": "case while try this and !foo default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

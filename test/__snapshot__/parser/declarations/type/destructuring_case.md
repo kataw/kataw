@@ -165,7 +165,7 @@ var {[2]: y = 1} = {2:3}
         }
     ],
     "isModule": false,
-    "text": "var {[2]: y = 1} = {2:3}",
+    "source": "var {[2]: y = 1} = {2:3}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

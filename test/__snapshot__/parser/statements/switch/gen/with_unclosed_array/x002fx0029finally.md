@@ -62,7 +62,7 @@ switch[ /)finally
         }
     ],
     "isModule": false,
-    "text": "switch[ /)finally",
+    "source": "switch[ /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

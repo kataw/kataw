@@ -82,7 +82,7 @@
         }
     ],
     "isModule": false,
-    "text": "({get * bar(){}})",
+    "source": "({get * bar(){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -189,7 +189,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] while try this and !foo",
+    "source": "{ [catch] while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

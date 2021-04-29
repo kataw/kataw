@@ -73,7 +73,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a,b)+=2",
+    "source": "(a,b)+=2",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

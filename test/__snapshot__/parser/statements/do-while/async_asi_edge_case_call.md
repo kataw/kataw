@@ -73,7 +73,7 @@ do async
         }
     ],
     "isModule": false,
-    "text": "do async\n ()\n while (y)",
+    "source": "do async\n ()\n while (y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

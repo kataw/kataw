@@ -74,7 +74,7 @@ async function * f(){}
         }
     ],
     "isModule": false,
-    "text": "async function * f(){}",
+    "source": "async function * f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

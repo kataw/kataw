@@ -76,7 +76,7 @@ a = (
         }
     ],
     "isModule": false,
-    "text": "a = (\n  b,\n  c\n)",
+    "source": "a = (\n  b,\n  c\n)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

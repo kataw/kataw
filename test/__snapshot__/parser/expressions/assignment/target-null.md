@@ -56,7 +56,7 @@ null = 42;
         }
     ],
     "isModule": false,
-    "text": "null = 42;",
+    "source": "null = 42;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

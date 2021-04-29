@@ -144,7 +144,7 @@ f(((a) => a + b)(1, 4), 5);
         }
     ],
     "isModule": false,
-    "text": "f(((a) => a + b)(1, 4), 5);",
+    "source": "f(((a) => a + b)(1, 4), 5);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

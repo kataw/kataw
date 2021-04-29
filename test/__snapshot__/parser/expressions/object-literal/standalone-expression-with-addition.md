@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "({[\"x\" + \"y\"]: 10});",
+    "source": "({[\"x\" + \"y\"]: 10});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

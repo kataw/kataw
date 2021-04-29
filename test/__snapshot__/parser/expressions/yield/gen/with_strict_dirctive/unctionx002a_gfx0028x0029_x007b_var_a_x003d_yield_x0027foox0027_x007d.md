@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; unction* gf() { var a = yield 'foo'; }",
+    "source": "'use strict'; unction* gf() { var a = yield 'foo'; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

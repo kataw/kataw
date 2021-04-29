@@ -160,7 +160,7 @@ class x extends y { constructor() { super(this); } }
         }
     ],
     "isModule": false,
-    "text": "class x extends y { constructor() { super(this); } }",
+    "source": "class x extends y { constructor() { super(this); } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

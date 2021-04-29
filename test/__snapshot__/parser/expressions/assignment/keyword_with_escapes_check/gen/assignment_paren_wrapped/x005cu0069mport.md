@@ -59,7 +59,7 @@
         }
     ],
     "isModule": false,
-    "text": "(\\u0069mport = x);",
+    "source": "(\\u0069mport = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

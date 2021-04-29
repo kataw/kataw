@@ -95,7 +95,7 @@ import foo, * as bar from "foo";
         }
     ],
     "isModule": true,
-    "text": "import foo, * as bar from \"foo\";",
+    "source": "import foo, * as bar from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

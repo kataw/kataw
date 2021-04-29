@@ -49,7 +49,7 @@ export default "foo";
         }
     ],
     "isModule": true,
-    "text": "export default \"foo\";",
+    "source": "export default \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -72,7 +72,7 @@ class x extends enum {}
         }
     ],
     "isModule": false,
-    "text": "class x extends enum {}",
+    "source": "class x extends enum {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

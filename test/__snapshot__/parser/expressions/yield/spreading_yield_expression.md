@@ -130,7 +130,7 @@ function *f(){ return { ...(yield) } }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ return { ...(yield) } }",
+    "source": "function *f(){ return { ...(yield) } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

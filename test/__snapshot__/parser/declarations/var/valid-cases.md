@@ -1798,7 +1798,7 @@ var {get} = obj;
         }
     ],
     "isModule": true,
-    "text": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};\n\nvar {get = defaultValue} = obj;\n\nvar {propName = defaultValue} = obj;\n\nvar {propName: localVar = defaultValue} = obj;\n\nvar {get} = obj;",
+    "source": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};\n\nvar {get = defaultValue} = obj;\n\nvar {propName = defaultValue} = obj;\n\nvar {propName: localVar = defaultValue} = obj;\n\nvar {get} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

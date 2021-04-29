@@ -232,7 +232,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; class x {async *f(foo = [{m: t(await bar)}]){}}",
+    "source": "'use strict'; class x {async *f(foo = [{m: t(await bar)}]){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

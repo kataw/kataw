@@ -114,7 +114,7 @@ class x {async * break(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * break(){}}",
+    "source": "class x {async * break(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

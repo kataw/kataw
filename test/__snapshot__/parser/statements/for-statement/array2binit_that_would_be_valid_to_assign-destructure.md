@@ -113,7 +113,7 @@ for ([x.y] = z;;);
         }
     ],
     "isModule": false,
-    "text": "for ([x.y] = z;;);",
+    "source": "for ([x.y] = z;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

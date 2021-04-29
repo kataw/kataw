@@ -109,7 +109,7 @@ class C { async*#aaa(){} }
         }
     ],
     "isModule": false,
-    "text": "class C { async*#aaa(){} }",
+    "source": "class C { async*#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

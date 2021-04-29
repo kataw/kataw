@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function* gf() { +yield 2; }",
+    "source": "'use strict'; function* gf() { +yield 2; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

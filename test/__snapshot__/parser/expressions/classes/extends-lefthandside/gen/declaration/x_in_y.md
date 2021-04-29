@@ -118,7 +118,7 @@ class A extends x in y {}
         }
     ],
     "isModule": false,
-    "text": "class A extends x in y {}",
+    "source": "class A extends x in y {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

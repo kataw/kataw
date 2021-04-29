@@ -106,7 +106,7 @@ var p/
         }
     ],
     "isModule": false,
-    "text": "var p/",
+    "source": "var p/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

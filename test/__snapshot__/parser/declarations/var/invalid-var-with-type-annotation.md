@@ -144,7 +144,7 @@ var f: >x:int) => string;
         }
     ],
     "isModule": false,
-    "text": "var f: >x:int) => string;\n",
+    "source": "var f: >x:int) => string;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

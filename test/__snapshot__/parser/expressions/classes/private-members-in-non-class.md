@@ -768,7 +768,7 @@ class C { test() {get #a() { }}}
         }
     ],
     "isModule": false,
-    "text": " #a = 1;\n\nfunction() { #a = () => {}}\n\nfunction() { #a}\n\n() => { #a() { }}\n\nclass C { test() {get #a() { }}}\n\n'use strict'; ({set #a(foo) { }});\n\n'use strict'; ({*#a() { }});\n\n({async #a() { }} = {});\n\n({async *#a() { }} = {});",
+    "source": " #a = 1;\n\nfunction() { #a = () => {}}\n\nfunction() { #a}\n\n() => { #a() { }}\n\nclass C { test() {get #a() { }}}\n\n'use strict'; ({set #a(foo) { }});\n\n'use strict'; ({*#a() { }});\n\n({async #a() { }} = {});\n\n({async *#a() { }} = {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -102,7 +102,7 @@ do while [catch] /)finally
         }
     ],
     "isModule": false,
-    "text": "do while [catch] /)finally",
+    "source": "do while [catch] /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({333: y.z} = a) => b",
+    "source": "({333: y.z} = a) => b",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -106,7 +106,7 @@ get(){} }
         }
     ],
     "isModule": false,
-    "text": "class C { async\nget(){} }",
+    "source": "class C { async\nget(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

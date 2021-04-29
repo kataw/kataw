@@ -2553,7 +2553,7 @@ let x = { foo(){ super(); } };
         }
     ],
     "isModule": false,
-    "text": "class x extends super.foo { };\nclass x extends super.foo y { };\nclass x extends feh(super.foo) { };\nclass x extends feh(super.foo y) { };\nclass x { foo(super.foo){} };\nclass x { super.foo(){} };\nclass x { [super.foo](){} };\nclass x { [super.foo y](){} };\nclass f { constructor(){ class super.foo { }  }};\nclass f { constructor(){ class x extends super.foo y { }  }};\nclass f { constructor(){ class x extends feh(super.foo y) { }  }};\nclass f { constructor(){ class x { foo(super.foo){} }  }};\nx={ foo: function(){ super.foo; }};\ng=function f(x = super()){ };\ng={f: function f(){ super() }];\nx={constructor(){ super(); }};\nfunction f(x = super()){ };\nfunction f(){ super(); };\nconst x = 5 + super();;\nlet x = { foo(){ super(); } };",
+    "source": "class x extends super.foo { };\nclass x extends super.foo y { };\nclass x extends feh(super.foo) { };\nclass x extends feh(super.foo y) { };\nclass x { foo(super.foo){} };\nclass x { super.foo(){} };\nclass x { [super.foo](){} };\nclass x { [super.foo y](){} };\nclass f { constructor(){ class super.foo { }  }};\nclass f { constructor(){ class x extends super.foo y { }  }};\nclass f { constructor(){ class x extends feh(super.foo y) { }  }};\nclass f { constructor(){ class x { foo(super.foo){} }  }};\nx={ foo: function(){ super.foo; }};\ng=function f(x = super()){ };\ng={f: function f(){ super() }];\nx={constructor(){ super(); }};\nfunction f(x = super()){ };\nfunction f(){ super(); };\nconst x = 5 + super();;\nlet x = { foo(){ super(); } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

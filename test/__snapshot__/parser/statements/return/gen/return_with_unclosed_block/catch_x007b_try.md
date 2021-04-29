@@ -163,7 +163,7 @@ return {} return(x) { catch { try
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { catch { try",
+    "source": "return {} return(x) { catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

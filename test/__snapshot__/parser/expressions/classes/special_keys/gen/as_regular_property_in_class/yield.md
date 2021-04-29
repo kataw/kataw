@@ -88,7 +88,7 @@ class x {yield: x}
         }
     ],
     "isModule": false,
-    "text": "class x {yield: x}",
+    "source": "class x {yield: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

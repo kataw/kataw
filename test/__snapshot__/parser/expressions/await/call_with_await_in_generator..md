@@ -107,7 +107,7 @@ function *f(){  foo(await)  }
         }
     ],
     "isModule": false,
-    "text": "function *f(){  foo(await)  }",
+    "source": "function *f(){  foo(await)  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

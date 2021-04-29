@@ -150,7 +150,7 @@ function not_gen() { function* gf() { yield 'foo' } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function* gf() { yield 'foo' } }}",
+    "source": "function not_gen() { function* gf() { yield 'foo' } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

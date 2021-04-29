@@ -75,7 +75,7 @@ export {default} from "foo";
         }
     ],
     "isModule": true,
-    "text": "export {default} from \"foo\";",
+    "source": "export {default} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

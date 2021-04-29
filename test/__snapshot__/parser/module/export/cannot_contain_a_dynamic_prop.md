@@ -118,7 +118,7 @@ var foo; export {[foo]}
         }
     ],
     "isModule": true,
-    "text": "var foo; export {[foo]}",
+    "source": "var foo; export {[foo]}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

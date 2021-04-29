@@ -136,7 +136,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( if I switch while I sleep",
+    "source": "{( if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

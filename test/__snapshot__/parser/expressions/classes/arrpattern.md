@@ -107,7 +107,7 @@ class n extends ([] = x) {}
         }
     ],
     "isModule": true,
-    "text": "class n extends ([] = x) {}",
+    "source": "class n extends ([] = x) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

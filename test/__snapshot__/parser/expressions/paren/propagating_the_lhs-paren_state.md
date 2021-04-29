@@ -103,7 +103,7 @@
         }
     ],
     "isModule": false,
-    "text": "(foo + (bar + boo) + ding)",
+    "source": "(foo + (bar + boo) + ding)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

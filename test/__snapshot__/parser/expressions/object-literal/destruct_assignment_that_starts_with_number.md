@@ -104,7 +104,7 @@
         }
     ],
     "isModule": false,
-    "text": "({l: 50..foo} = x)",
+    "source": "({l: 50..foo} = x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

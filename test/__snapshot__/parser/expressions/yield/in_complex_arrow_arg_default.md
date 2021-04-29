@@ -82,7 +82,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = u + yield z) => {}; }",
+    "source": "{ (x = u + yield z) => {}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

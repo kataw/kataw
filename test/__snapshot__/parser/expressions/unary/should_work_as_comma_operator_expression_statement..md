@@ -73,7 +73,7 @@ delete foo.bar, z;
         }
     ],
     "isModule": false,
-    "text": "delete foo.bar, z;",
+    "source": "delete foo.bar, z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

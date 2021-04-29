@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...x.list];",
+    "source": "[...x.list];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

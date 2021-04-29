@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] interface x {",
+    "source": "{ [catch] interface x {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

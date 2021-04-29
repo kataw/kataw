@@ -87,7 +87,7 @@ typeof a + b instanceof c
         }
     ],
     "isModule": false,
-    "text": "typeof a + b instanceof c",
+    "source": "typeof a + b instanceof c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

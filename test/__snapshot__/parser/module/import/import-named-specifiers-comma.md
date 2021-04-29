@@ -98,7 +98,7 @@ import {bar, baz,} from "foo";
         }
     ],
     "isModule": true,
-    "text": "import {bar, baz,} from \"foo\";",
+    "source": "import {bar, baz,} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

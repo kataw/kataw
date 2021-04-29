@@ -116,7 +116,7 @@ class x { async *[y](){}}
         }
     ],
     "isModule": false,
-    "text": "class x { async *[y](){}}",
+    "source": "class x { async *[y](){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

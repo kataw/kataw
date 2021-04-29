@@ -104,7 +104,7 @@ class x {else(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {else(){}}",
+    "source": "class x {else(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

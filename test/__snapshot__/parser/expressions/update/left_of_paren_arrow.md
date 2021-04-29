@@ -68,7 +68,7 @@
         }
     ],
     "isModule": false,
-    "text": "++(x) => b",
+    "source": "++(x) => b",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

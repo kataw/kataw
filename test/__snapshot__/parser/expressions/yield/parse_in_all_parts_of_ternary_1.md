@@ -166,7 +166,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
         }
     ],
     "isModule": false,
-    "text": "function *f() { (yield 1) ? yield 2 : yield 3; }",
+    "source": "function *f() { (yield 1) ? yield 2 : yield 3; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

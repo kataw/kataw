@@ -77,7 +77,7 @@ result = {} = vals;
         }
     ],
     "isModule": false,
-    "text": "result = {} = vals;",
+    "source": "result = {} = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

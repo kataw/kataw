@@ -74,7 +74,7 @@ delete ((x) => x)
         }
     ],
     "isModule": false,
-    "text": "delete ((x) => x)",
+    "source": "delete ((x) => x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -61,7 +61,7 @@
         }
     ],
     "isModule": false,
-    "text": "(publ\\u0069c = x);",
+    "source": "(publ\\u0069c = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

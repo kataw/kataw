@@ -133,7 +133,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x, y, ...z = arr] = obj",
+    "source": "[x, y, ...z = arr] = obj",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

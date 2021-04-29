@@ -82,7 +82,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function * yield() { }",
+    "source": "'use strict'; function * yield() { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

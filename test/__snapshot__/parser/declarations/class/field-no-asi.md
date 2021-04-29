@@ -111,7 +111,7 @@ get
         }
     ],
     "isModule": false,
-    "text": "class C { static\nget\n#aaa(){} }",
+    "source": "class C { static\nget\n#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

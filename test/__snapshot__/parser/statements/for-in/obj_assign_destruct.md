@@ -157,7 +157,7 @@ for ({x:a.b}=x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for ({x:a.b}=x in x) ;",
+    "source": "for ({x:a.b}=x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -83,7 +83,7 @@ label: function * x (){}
         }
     ],
     "isModule": false,
-    "text": "label: function * x (){}",
+    "source": "label: function * x (){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

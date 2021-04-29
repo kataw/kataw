@@ -87,7 +87,7 @@ delete async x => ok
         }
     ],
     "isModule": false,
-    "text": "delete async x => ok",
+    "source": "delete async x => ok",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

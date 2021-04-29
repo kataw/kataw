@@ -112,7 +112,7 @@ class A extends async => ok {}
         }
     ],
     "isModule": false,
-    "text": "class A extends async => ok {}",
+    "source": "class A extends async => ok {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

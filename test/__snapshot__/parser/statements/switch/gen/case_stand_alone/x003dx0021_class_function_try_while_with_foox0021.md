@@ -193,7 +193,7 @@ case =! class function try while with foo!
         }
     ],
     "isModule": false,
-    "text": "case =! class function try while with foo!",
+    "source": "case =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

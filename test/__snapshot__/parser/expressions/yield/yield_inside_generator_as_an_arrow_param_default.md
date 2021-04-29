@@ -157,7 +157,7 @@ function *f(){ ({x} = yield) => {} }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ ({x} = yield) => {} }",
+    "source": "function *f(){ ({x} = yield) => {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

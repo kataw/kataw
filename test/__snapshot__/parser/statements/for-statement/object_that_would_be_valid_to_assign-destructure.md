@@ -111,7 +111,7 @@ for ({x: a.b};;);
         }
     ],
     "isModule": false,
-    "text": "for ({x: a.b};;);",
+    "source": "for ({x: a.b};;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

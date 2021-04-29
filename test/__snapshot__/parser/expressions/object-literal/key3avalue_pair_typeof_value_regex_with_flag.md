@@ -81,7 +81,7 @@
         }
     ],
     "isModule": false,
-    "text": "({foo: typeof /x/g});",
+    "source": "({foo: typeof /x/g});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

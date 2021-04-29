@@ -193,7 +193,7 @@ else =! class function try while with foo!
         }
     ],
     "isModule": false,
-    "text": "else =! class function try while with foo!",
+    "source": "else =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

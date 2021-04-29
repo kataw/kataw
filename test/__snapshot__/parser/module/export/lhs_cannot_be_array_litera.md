@@ -84,7 +84,7 @@ export default [x] = y
         }
     ],
     "isModule": true,
-    "text": "export default [x] = y",
+    "source": "export default [x] = y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

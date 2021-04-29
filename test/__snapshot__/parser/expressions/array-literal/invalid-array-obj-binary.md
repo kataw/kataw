@@ -100,7 +100,7 @@
         }
     ],
     "isModule": false,
-    "text": "[{} = 2/=2]",
+    "source": "[{} = 2/=2]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -220,7 +220,7 @@ if( =! class function try while with foo!
         }
     ],
     "isModule": false,
-    "text": "if( =! class function try while with foo!",
+    "source": "if( =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

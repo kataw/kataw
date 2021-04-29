@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "{[ function while",
+    "source": "{[ function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

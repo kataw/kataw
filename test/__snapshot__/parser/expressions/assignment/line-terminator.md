@@ -93,7 +93,7 @@ true;
         }
     ],
     "isModule": false,
-    "text": "\nvar x;\n\nx\n=\ntrue;",
+    "source": "\nvar x;\n\nx\n=\ntrue;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

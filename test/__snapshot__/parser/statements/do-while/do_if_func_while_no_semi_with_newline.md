@@ -113,7 +113,7 @@ while(y)
         }
     ],
     "isModule": false,
-    "text": "do if(8)function s(){}\nwhile(y)",
+    "source": "do if(8)function s(){}\nwhile(y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

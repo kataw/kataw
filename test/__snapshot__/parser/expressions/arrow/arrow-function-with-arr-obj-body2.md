@@ -95,7 +95,7 @@ var v = a => <any><any>{}
         }
     ],
     "isModule": false,
-    "text": "var v = a => <any><any>{}",
+    "source": "var v = a => <any><any>{}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -187,7 +187,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a,...obj} = foo);\n\n({a:b,...obj} = foo);",
+    "source": "({a,...obj} = foo);\n\n({a:b,...obj} = foo);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

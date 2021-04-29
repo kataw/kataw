@@ -175,7 +175,7 @@ function *g(){ (x = {[yield]: 1}) => z }
         }
     ],
     "isModule": false,
-    "text": "function *g(){ (x = {[yield]: 1}) => z }",
+    "source": "function *g(){ (x = {[yield]: 1}) => z }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

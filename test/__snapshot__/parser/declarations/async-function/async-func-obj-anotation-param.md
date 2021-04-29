@@ -157,7 +157,7 @@ async function foo({x}: { x: string; }) {}
         }
     ],
     "isModule": false,
-    "text": "async function foo({x}: { x: string; }) {}",
+    "source": "async function foo({x}: { x: string; }) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

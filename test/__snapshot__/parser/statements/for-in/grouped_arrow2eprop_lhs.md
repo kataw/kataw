@@ -127,7 +127,7 @@ for (((x)=>{}).x in y);
         }
     ],
     "isModule": false,
-    "text": "for (((x)=>{}).x in y);",
+    "source": "for (((x)=>{}).x in y);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

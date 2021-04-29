@@ -105,7 +105,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { crazy input 1",
+    "source": "{ { { crazy input 1",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

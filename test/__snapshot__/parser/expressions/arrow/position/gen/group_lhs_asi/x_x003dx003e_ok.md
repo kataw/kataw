@@ -85,7 +85,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x => ok)\n* x",
+    "source": "(x => ok)\n* x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

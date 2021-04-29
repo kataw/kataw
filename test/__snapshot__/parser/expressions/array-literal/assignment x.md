@@ -105,7 +105,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x=10] = x",
+    "source": "[x=10] = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

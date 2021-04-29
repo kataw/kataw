@@ -165,7 +165,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { {try",
+    "source": "{ {} finally(x) { {try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

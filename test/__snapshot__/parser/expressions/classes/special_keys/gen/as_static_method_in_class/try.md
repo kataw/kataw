@@ -109,7 +109,7 @@ class x {static try(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static try(){}}",
+    "source": "class x {static try(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

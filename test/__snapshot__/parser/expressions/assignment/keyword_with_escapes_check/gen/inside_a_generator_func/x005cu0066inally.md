@@ -125,7 +125,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  \\u0066inally = x\n}",
+    "source": "function *f(){\n  \\u0066inally = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

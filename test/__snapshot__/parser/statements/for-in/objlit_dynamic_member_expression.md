@@ -104,7 +104,7 @@ for ({}[b] in c) d;
         }
     ],
     "isModule": false,
-    "text": "for ({}[b] in c) d;",
+    "source": "for ({}[b] in c) d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

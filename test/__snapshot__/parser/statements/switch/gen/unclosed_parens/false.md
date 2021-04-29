@@ -68,7 +68,7 @@ switch( false case
         }
     ],
     "isModule": false,
-    "text": "switch( false case",
+    "source": "switch( false case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

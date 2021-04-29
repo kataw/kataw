@@ -59,7 +59,7 @@ a?.200
         }
     ],
     "isModule": false,
-    "text": "a?.200",
+    "source": "a?.200",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

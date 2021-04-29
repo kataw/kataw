@@ -70,7 +70,7 @@ foo(...a,);
         }
     ],
     "isModule": false,
-    "text": "foo(...a,);",
+    "source": "foo(...a,);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

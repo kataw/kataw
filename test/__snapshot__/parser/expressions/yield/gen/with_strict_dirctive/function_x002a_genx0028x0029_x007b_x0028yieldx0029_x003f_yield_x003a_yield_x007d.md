@@ -158,7 +158,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function * gen() { (yield) ? yield : yield }",
+    "source": "'use strict'; function * gen() { (yield) ? yield : yield }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

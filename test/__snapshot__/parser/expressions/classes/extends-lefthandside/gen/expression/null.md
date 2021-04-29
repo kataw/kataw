@@ -82,7 +82,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends null {})",
+    "source": "(class B extends null {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -264,7 +264,7 @@ class C { set x(_) { # } }
         }
     ],
     "isModule": false,
-    "text": "class C { constructor() { # } }",
+    "source": "class C { constructor() { # } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

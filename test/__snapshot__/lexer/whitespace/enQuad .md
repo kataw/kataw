@@ -57,7 +57,7 @@ left|right
         }
     ],
     "isModule": false,
-    "text": "left|right",
+    "source": "left|right",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

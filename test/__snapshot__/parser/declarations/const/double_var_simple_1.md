@@ -119,7 +119,7 @@ const {x, y} = obj;
         }
     ],
     "isModule": false,
-    "text": "const {x, y} = obj;",
+    "source": "const {x, y} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

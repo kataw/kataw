@@ -176,7 +176,7 @@ wrap({[foo](){}, set [bar](e){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({[foo](){}, set [bar](e){}});",
+    "source": "wrap({[foo](){}, set [bar](e){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

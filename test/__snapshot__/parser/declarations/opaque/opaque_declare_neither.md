@@ -60,7 +60,7 @@ declare opaque type Foo
         }
     ],
     "isModule": false,
-    "text": "declare opaque type Foo",
+    "source": "declare opaque type Foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

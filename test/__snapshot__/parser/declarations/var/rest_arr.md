@@ -111,7 +111,7 @@ var [...x] = y
         }
     ],
     "isModule": false,
-    "text": "var [...x] = y",
+    "source": "var [...x] = y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

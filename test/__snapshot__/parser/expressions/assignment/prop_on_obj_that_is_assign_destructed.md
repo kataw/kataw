@@ -146,7 +146,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...[{prop: 1}.prop]] = []",
+    "source": "[...[{prop: 1}.prop]] = []",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

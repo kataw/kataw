@@ -51,7 +51,7 @@ new Foo()
         }
     ],
     "isModule": false,
-    "text": "new Foo()",
+    "source": "new Foo()",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {static protected(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static protected(){}}",
+    "source": "class x {static protected(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

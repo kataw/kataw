@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { { /a/iui",
+    "source": "{ {} finally(x) { { /a/iui",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

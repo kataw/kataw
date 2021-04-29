@@ -86,7 +86,7 @@ class catch {}
         }
     ],
     "isModule": false,
-    "text": "class catch {}",
+    "source": "class catch {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -383,7 +383,7 @@ const {x}: string = y;
         }
     ],
     "isModule": false,
-    "text": "const x: string;\n\nconst [x]: string = y;\n\nconst [x:symbol]: string = y;\n\nconst {x}: string = y;\n",
+    "source": "const x: string;\n\nconst [x]: string = y;\n\nconst [x:symbol]: string = y;\n\nconst {x}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

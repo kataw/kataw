@@ -65,7 +65,7 @@ export default class {}
         }
     ],
     "isModule": true,
-    "text": "export default class {}",
+    "source": "export default class {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

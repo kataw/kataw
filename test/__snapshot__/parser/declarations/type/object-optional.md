@@ -107,7 +107,7 @@ type T = { [[foo]]?: X }
         }
     ],
     "isModule": false,
-    "text": "type T = { [[foo]]?: X }",
+    "source": "type T = { [[foo]]?: X }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

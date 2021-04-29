@@ -120,7 +120,7 @@ if if if class x {}
         }
     ],
     "isModule": false,
-    "text": "if if if class x {}",
+    "source": "if if if class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

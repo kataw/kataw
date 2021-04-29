@@ -71,7 +71,7 @@ async = 5 + 5;
         }
     ],
     "isModule": false,
-    "text": "async = 5 + 5;",
+    "source": "async = 5 + 5;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

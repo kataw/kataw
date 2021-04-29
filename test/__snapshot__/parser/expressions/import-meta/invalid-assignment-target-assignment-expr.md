@@ -61,7 +61,7 @@ import.meta = 0;
         }
     ],
     "isModule": true,
-    "text": "import.meta = 0;",
+    "source": "import.meta = 0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

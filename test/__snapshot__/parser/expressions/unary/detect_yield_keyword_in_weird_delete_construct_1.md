@@ -129,7 +129,7 @@ function *f(){ delete ("x"[(yield)]) }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ delete (\"x\"[(yield)]) }",
+    "source": "function *f(){ delete (\"x\"[(yield)]) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

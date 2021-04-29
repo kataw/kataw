@@ -151,7 +151,7 @@ class x {    async async get f(x){}    }
         }
     ],
     "isModule": false,
-    "text": "class x {    async async get f(x){}    }\n",
+    "source": "class x {    async async get f(x){}    }\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

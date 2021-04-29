@@ -99,7 +99,7 @@ delete (async => {})
         }
     ],
     "isModule": false,
-    "text": "delete (async => {})",
+    "source": "delete (async => {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

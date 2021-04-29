@@ -76,7 +76,7 @@ export const x
         }
     ],
     "isModule": true,
-    "text": "export const x",
+    "source": "export const x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

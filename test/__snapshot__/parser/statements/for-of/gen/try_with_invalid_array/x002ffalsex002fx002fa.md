@@ -129,7 +129,7 @@ try [catch] /false//a
         }
     ],
     "isModule": false,
-    "text": "try [catch] /false//a",
+    "source": "try [catch] /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

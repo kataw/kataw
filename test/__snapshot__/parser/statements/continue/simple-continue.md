@@ -85,7 +85,7 @@ loop: while (x) { break loop; }
         }
     ],
     "isModule": false,
-    "text": "loop: while (x) { break loop; }",
+    "source": "loop: while (x) { break loop; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

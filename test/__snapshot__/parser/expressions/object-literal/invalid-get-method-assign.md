@@ -102,7 +102,7 @@
         }
     ],
     "isModule": false,
-    "text": "({get a(){}} = 0)",
+    "source": "({get a(){}} = 0)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

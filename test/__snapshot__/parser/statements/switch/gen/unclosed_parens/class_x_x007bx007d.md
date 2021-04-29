@@ -91,7 +91,7 @@ switch( class x {} case
         }
     ],
     "isModule": false,
-    "text": "switch( class x {} case",
+    "source": "switch( class x {} case",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

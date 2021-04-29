@@ -105,7 +105,7 @@
         }
     ],
     "isModule": false,
-    "text": "(function call(foo=await){})",
+    "source": "(function call(foo=await){})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -182,7 +182,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
         }
     ],
     "isModule": false,
-    "text": "function foo(callback: (_1:bool, _2:string) => number){}",
+    "source": "function foo(callback: (_1:bool, _2:string) => number){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

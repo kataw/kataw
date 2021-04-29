@@ -120,7 +120,7 @@ return {} return(x) { /false//a
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { /false//a",
+    "source": "return {} return(x) { /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

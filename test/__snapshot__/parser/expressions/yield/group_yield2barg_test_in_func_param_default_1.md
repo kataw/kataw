@@ -139,7 +139,7 @@ function f(x=(yield z)=y){}
         }
     ],
     "isModule": false,
-    "text": "function f(x=(yield z)=y){}",
+    "source": "function f(x=(yield z)=y){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

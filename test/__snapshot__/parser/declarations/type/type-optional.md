@@ -78,7 +78,7 @@ type a = ??string;
         }
     ],
     "isModule": false,
-    "text": "type a = ??string;",
+    "source": "type a = ??string;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

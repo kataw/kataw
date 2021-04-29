@@ -146,7 +146,7 @@
         }
     ],
     "isModule": false,
-    "text": "[new x()[y] = a + b] = z",
+    "source": "[new x()[y] = a + b] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

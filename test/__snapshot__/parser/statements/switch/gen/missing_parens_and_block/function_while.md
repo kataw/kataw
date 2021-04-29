@@ -133,7 +133,7 @@ switch case function while
         }
     ],
     "isModule": false,
-    "text": "switch case function while",
+    "source": "switch case function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

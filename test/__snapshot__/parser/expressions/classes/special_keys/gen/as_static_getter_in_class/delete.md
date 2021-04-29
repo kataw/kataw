@@ -114,7 +114,7 @@ class x {static get delete(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get delete(){}}",
+    "source": "class x {static get delete(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -84,7 +84,7 @@ x in[]=x
         }
     ],
     "isModule": true,
-    "text": "x in[]=x",
+    "source": "x in[]=x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

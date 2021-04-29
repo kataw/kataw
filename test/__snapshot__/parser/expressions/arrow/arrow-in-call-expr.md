@@ -243,7 +243,7 @@ foo(y,(y) => ok);
         }
     ],
     "isModule": false,
-    "text": "foo((x, y) => {});\nfoo(x,(y) => {});\nfoo(y,(y) => ok);",
+    "source": "foo((x, y) => {});\nfoo(x,(y) => {});\nfoo(y,(y) => ok);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

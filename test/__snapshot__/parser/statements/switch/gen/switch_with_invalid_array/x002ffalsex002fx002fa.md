@@ -122,7 +122,7 @@ switch [catch] /false//a
         }
     ],
     "isModule": false,
-    "text": "switch [catch] /false//a",
+    "source": "switch [catch] /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

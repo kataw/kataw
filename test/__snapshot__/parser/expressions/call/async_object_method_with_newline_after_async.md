@@ -83,7 +83,7 @@
         }
     ],
     "isModule": false,
-    "text": "({async\n foo() {}})",
+    "source": "({async\n foo() {}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

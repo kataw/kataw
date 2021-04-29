@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "([{constructor(){}}] = b);",
+    "source": "([{constructor(){}}] = b);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

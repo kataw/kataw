@@ -89,7 +89,7 @@ class A {*=f(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {*=f(){}}",
+    "source": "class A {*=f(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

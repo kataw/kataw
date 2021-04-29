@@ -185,7 +185,7 @@ declare class X {
         }
     ],
     "isModule": false,
-    "text": "declare class X {\n  a: number;\n  static b: number;\n  c: number;\n}",
+    "source": "declare class X {\n  a: number;\n  static b: number;\n  c: number;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

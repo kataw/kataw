@@ -170,7 +170,7 @@ for (function(){ if (a in b); }.prop in x);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ if (a in b); }.prop in x);",
+    "source": "for (function(){ if (a in b); }.prop in x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -52,7 +52,7 @@ new new.target
         }
     ],
     "isModule": false,
-    "text": "new new.target",
+    "source": "new new.target",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -115,7 +115,7 @@ const [foo:bar] = obj;
         }
     ],
     "isModule": false,
-    "text": "const [foo:bar] = obj;",
+    "source": "const [foo:bar] = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

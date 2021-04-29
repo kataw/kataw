@@ -106,7 +106,7 @@
         }
     ],
     "isModule": false,
-    "text": "([foo /=g/m.x]);",
+    "source": "([foo /=g/m.x]);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

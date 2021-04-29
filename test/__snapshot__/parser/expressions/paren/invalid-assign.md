@@ -438,7 +438,7 @@
         }
     ],
     "isModule": false,
-    "text": "({foo: {x:y} += x});\n\n({x:y} += x);\n(({x:y}) += x);\n(a = b)++;\n({foo: {x:y} += x});",
+    "source": "({foo: {x:y} += x});\n\n({x:y} += x);\n(({x:y}) += x);\n(a = b)++;\n({foo: {x:y} += x});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

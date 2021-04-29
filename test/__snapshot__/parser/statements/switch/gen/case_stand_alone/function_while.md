@@ -99,7 +99,7 @@ case function while
         }
     ],
     "isModule": false,
-    "text": "case function while",
+    "source": "case function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

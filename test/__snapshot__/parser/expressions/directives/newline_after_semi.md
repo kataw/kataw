@@ -109,7 +109,7 @@ with (x) y; }
         }
     ],
     "isModule": false,
-    "text": "function f(){ \"use strict\";\nwith (x) y; }",
+    "source": "function f(){ \"use strict\";\nwith (x) y; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

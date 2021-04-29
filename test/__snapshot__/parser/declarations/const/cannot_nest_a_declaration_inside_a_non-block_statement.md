@@ -119,7 +119,7 @@ switch (x) { case x: const y = x }
         }
     ],
     "isModule": false,
-    "text": "switch (x) { case x: const y = x }",
+    "source": "switch (x) { case x: const y = x }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

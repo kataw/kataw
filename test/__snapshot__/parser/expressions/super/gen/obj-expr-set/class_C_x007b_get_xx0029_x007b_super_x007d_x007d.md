@@ -204,7 +204,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ set x(_) { class C { get x) { super; } } } })",
+    "source": "({ set x(_) { class C { get x) { super; } } } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

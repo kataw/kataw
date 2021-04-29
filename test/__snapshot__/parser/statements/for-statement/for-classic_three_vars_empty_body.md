@@ -115,7 +115,7 @@ for (var a,b,c;;);
         }
     ],
     "isModule": false,
-    "text": "for (var a,b,c;;);",
+    "source": "for (var a,b,c;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

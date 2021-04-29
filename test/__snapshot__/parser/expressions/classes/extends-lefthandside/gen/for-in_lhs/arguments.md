@@ -61,7 +61,7 @@ for (arguments in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (arguments in x) ;",
+    "source": "for (arguments in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

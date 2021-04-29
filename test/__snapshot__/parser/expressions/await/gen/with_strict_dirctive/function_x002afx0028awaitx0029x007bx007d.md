@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function *f(await){}",
+    "source": "'use strict'; function *f(await){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

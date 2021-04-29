@@ -62,7 +62,7 @@ new await x
         }
     ],
     "isModule": false,
-    "text": "new await x",
+    "source": "new await x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

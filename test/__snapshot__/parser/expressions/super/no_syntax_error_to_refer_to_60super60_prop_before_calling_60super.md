@@ -208,7 +208,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
         }
     ],
     "isModule": false,
-    "text": "class x extends y { constructor() { log(super.foo); super.mom; } }",
+    "source": "class x extends y { constructor() { log(super.foo); super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

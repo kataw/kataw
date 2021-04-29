@@ -72,7 +72,7 @@ new 'foo'.__proto__.constructor
         }
     ],
     "isModule": false,
-    "text": "new 'foo'.__proto__.constructor",
+    "source": "new 'foo'.__proto__.constructor",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

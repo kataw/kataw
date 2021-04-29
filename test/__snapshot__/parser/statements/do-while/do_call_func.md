@@ -111,7 +111,7 @@ do h(function(){});while(x)
         }
     ],
     "isModule": false,
-    "text": "do h(function(){});while(x)",
+    "source": "do h(function(){});while(x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

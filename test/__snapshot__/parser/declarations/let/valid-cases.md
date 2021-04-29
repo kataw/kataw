@@ -375,7 +375,7 @@ let {foo=3} = {};
         }
     ],
     "isModule": false,
-    "text": "let foo;\nlet foo = 0;\nlet [foo] = [1];\nlet {foo} = {foo: 2};\nlet {foo=3} = {};\n",
+    "source": "let foo;\nlet foo = 0;\nlet [foo] = [1];\nlet {foo} = {foo: 2};\nlet {foo=3} = {};\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

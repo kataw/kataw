@@ -100,7 +100,7 @@
         }
     ],
     "isModule": false,
-    "text": "`foo ${a} and ${b} and ${c} baz`",
+    "source": "`foo ${a} and ${b} and ${c} baz`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

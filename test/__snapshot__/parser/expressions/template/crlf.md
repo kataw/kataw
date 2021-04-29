@@ -61,7 +61,7 @@ b
         }
     ],
     "isModule": false,
-    "text": "a\n`foo\\r\\nbar`\nb",
+    "source": "a\n`foo\\r\\nbar`\nb",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

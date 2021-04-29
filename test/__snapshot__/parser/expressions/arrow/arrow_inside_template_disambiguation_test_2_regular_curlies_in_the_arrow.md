@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "`X${a => b + {}}Y`",
+    "source": "`X${a => b + {}}Y`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

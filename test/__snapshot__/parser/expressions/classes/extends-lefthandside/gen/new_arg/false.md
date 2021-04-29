@@ -47,7 +47,7 @@ new false
         }
     ],
     "isModule": false,
-    "text": "new false",
+    "source": "new false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

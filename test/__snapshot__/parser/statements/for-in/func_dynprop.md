@@ -121,7 +121,7 @@ for (function(){ }[foo] in x);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ }[foo] in x);",
+    "source": "for (function(){ }[foo] in x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

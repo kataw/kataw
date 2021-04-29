@@ -79,7 +79,7 @@
         }
     ],
     "isModule": false,
-    "text": "[ [x].length ]",
+    "source": "[ [x].length ]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -139,7 +139,7 @@ f = ([xCls = class X {}]) => {}
         }
     ],
     "isModule": false,
-    "text": "f = ([xCls = class X {}]) => {}",
+    "source": "f = ([xCls = class X {}]) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

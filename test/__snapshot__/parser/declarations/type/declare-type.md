@@ -71,7 +71,7 @@ declare type bool = any;
         }
     ],
     "isModule": false,
-    "text": "declare type bool = any;",
+    "source": "declare type bool = any;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

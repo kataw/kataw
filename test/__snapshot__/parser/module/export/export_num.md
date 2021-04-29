@@ -49,7 +49,7 @@ export default 15;
         }
     ],
     "isModule": true,
-    "text": "export default 15;",
+    "source": "export default 15;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

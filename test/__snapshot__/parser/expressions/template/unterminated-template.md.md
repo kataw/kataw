@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`test",
+    "source": "`test",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

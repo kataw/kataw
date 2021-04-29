@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a: (1) = x })",
+    "source": "({a: (1) = x })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

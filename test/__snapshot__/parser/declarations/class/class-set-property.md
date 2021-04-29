@@ -147,7 +147,7 @@ class C {
         }
     ],
     "isModule": false,
-    "text": "class C {\n  set\n  *aaa(){}\n}",
+    "source": "class C {\n  set\n  *aaa(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

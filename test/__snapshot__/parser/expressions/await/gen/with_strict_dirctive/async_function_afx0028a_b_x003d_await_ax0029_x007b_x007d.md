@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function af(a, b = await a) { }",
+    "source": "'use strict'; async function af(a, b = await a) { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

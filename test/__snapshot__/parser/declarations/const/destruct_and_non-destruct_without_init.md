@@ -122,7 +122,7 @@ const [foo] = arr, bar;
         }
     ],
     "isModule": false,
-    "text": "const [foo] = arr, bar;",
+    "source": "const [foo] = arr, bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

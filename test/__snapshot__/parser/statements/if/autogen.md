@@ -229,7 +229,7 @@ if[ #
         }
     ],
     "isModule": false,
-    "text": "if else #",
+    "source": "if else #",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

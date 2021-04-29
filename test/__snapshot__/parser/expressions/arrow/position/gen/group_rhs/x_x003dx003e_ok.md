@@ -84,7 +84,7 @@ x * (x => ok)
         }
     ],
     "isModule": false,
-    "text": "x * (x => ok)",
+    "source": "x * (x => ok)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -46,7 +46,7 @@ xyz*/"bar";
         }
     ],
     "isModule": false,
-    "text": "\"foo\";/*abc\nxyz*/\"bar\";",
+    "source": "\"foo\";/*abc\nxyz*/\"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

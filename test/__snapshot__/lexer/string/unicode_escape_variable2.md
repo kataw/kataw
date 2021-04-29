@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u{0fail}\"",
+    "source": "\"\\u{0fail}\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

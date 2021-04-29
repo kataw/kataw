@@ -140,7 +140,7 @@ const {a, [x]: y} = a;
         }
     ],
     "isModule": false,
-    "text": "const {a, [x]: y} = a;",
+    "source": "const {a, [x]: y} = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

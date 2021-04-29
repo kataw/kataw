@@ -62,7 +62,7 @@ switch[ false
         }
     ],
     "isModule": false,
-    "text": "switch[ false",
+    "source": "switch[ false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

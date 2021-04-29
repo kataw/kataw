@@ -145,7 +145,7 @@ function g(a:number=1, e:number=1) {}
         }
     ],
     "isModule": false,
-    "text": "function g(a:number=1, e:number=1) {}",
+    "source": "function g(a:number=1, e:number=1) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

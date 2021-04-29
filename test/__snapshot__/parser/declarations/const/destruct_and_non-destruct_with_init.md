@@ -129,7 +129,7 @@ const [foo] = arr, bar = arr2;
         }
     ],
     "isModule": false,
-    "text": "const [foo] = arr, bar = arr2;",
+    "source": "const [foo] = arr, bar = arr2;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

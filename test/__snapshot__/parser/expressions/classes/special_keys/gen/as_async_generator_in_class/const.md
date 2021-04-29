@@ -114,7 +114,7 @@ class x {async * const(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * const(){}}",
+    "source": "class x {async * const(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

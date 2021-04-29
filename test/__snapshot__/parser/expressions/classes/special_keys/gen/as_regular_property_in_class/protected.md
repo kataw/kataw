@@ -88,7 +88,7 @@ class x {protected: x}
         }
     ],
     "isModule": false,
-    "text": "class x {protected: x}",
+    "source": "class x {protected: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -60,7 +60,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ __proto__, __proto__ })",
+    "source": "({ __proto__, __proto__ })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -90,7 +90,7 @@ x={...new}
         }
     ],
     "isModule": false,
-    "text": "x={...new}",
+    "source": "x={...new}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

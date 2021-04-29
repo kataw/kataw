@@ -158,7 +158,7 @@ declare class A<T> extends B<T> { x: number }
         }
     ],
     "isModule": false,
-    "text": "declare class A<T> extends B<T> { x: number }",
+    "source": "declare class A<T> extends B<T> { x: number }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

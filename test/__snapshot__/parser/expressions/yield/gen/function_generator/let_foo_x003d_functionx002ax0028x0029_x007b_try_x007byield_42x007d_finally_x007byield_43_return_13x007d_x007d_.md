@@ -326,7 +326,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}",
+    "source": "function * gen() { function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

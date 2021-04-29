@@ -107,7 +107,7 @@ do {} while (x) { /false//a
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { /false//a",
+    "source": "do {} while (x) { /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

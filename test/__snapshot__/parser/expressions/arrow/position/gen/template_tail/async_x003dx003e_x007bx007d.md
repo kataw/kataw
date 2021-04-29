@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "`a ${async => {}} b`.length",
+    "source": "`a ${async => {}} b`.length",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

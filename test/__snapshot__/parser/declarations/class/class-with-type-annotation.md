@@ -149,7 +149,7 @@ class Foo { bar():this { return this; }}
         }
     ],
     "isModule": false,
-    "text": "class Foo { bar():this { return this; }}",
+    "source": "class Foo { bar():this { return this; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

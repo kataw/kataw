@@ -77,7 +77,7 @@ do class x {} while
         }
     ],
     "isModule": false,
-    "text": "do class x {} while",
+    "source": "do class x {} while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

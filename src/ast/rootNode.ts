@@ -10,7 +10,7 @@ export interface RootNode extends SyntaxNode {
   readonly directives: StringLiteral[];
   readonly statements: StatementNode[];
   readonly isModule: boolean;
-  readonly text: string;
+  readonly source: string;
   readonly fileName: string;
 }
 
@@ -18,7 +18,7 @@ export function createRootNode(
   directives: StringLiteral[],
   statements: StatementNode[],
   isModule: boolean,
-  text: string,
+  source: string,
   fileName: string
 ): RootNode {
   return {
@@ -26,10 +26,10 @@ export function createRootNode(
     directives,
     statements,
     isModule,
-    text,
+    source,
     fileName,
     flags: NodeFlags.None,
     start: 0,
-    end: text.length
+    end: source.length
   };
 }

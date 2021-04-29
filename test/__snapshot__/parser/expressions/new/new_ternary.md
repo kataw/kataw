@@ -78,7 +78,7 @@ new a ? b : c
         }
     ],
     "isModule": false,
-    "text": "new a ? b : c",
+    "source": "new a ? b : c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

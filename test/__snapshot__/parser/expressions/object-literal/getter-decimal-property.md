@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ get 5.2322341234123() { } });",
+    "source": "({ get 5.2322341234123() { } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

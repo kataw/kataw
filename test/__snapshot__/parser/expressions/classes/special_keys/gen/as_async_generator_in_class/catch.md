@@ -114,7 +114,7 @@ class x {async * catch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * catch(){}}",
+    "source": "class x {async * catch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

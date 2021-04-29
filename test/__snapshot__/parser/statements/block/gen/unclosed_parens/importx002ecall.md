@@ -65,7 +65,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( import.call",
+    "source": "{( import.call",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

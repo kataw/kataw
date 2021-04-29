@@ -134,7 +134,7 @@ do while [catch] function while
         }
     ],
     "isModule": false,
-    "text": "do while [catch] function while",
+    "source": "do while [catch] function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -131,7 +131,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
         }
     ],
     "isModule": false,
-    "text": "foo: do { bar: do continue bar;while(z) } while(z)",
+    "source": "foo: do { bar: do continue bar;while(z) } while(z)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

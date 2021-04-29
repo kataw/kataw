@@ -126,7 +126,7 @@ const [foo=a, bar=b] = arr;
         }
     ],
     "isModule": false,
-    "text": "const [foo=a, bar=b] = arr;",
+    "source": "const [foo=a, bar=b] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

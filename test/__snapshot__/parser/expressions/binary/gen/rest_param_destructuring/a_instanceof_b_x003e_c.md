@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "([ ... a instanceof b > c ]) => x",
+    "source": "([ ... a instanceof b > c ]) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -122,7 +122,7 @@ for (function(){ }[foo] of x);
         }
     ],
     "isModule": false,
-    "text": "for (function(){ }[foo] of x);",
+    "source": "for (function(){ }[foo] of x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

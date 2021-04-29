@@ -147,7 +147,7 @@ class C extends Base { set #arguments(test) {} }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { set #arguments(test) {} }",
+    "source": "class C extends Base { set #arguments(test) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

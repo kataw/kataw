@@ -100,7 +100,7 @@ return {} return(x) { /)finally
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { /)finally",
+    "source": "return {} return(x) { /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

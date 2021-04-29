@@ -95,7 +95,7 @@ async x => {}`foo`
         }
     ],
     "isModule": false,
-    "text": "async x => {}`foo`",
+    "source": "async x => {}`foo`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

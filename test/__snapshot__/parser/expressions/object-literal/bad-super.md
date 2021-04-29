@@ -210,7 +210,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
         }
     ],
     "isModule": false,
-    "text": "class x extends y {constructor(){    ({\"foo\": super}) => x    }}",
+    "source": "class x extends y {constructor(){    ({\"foo\": super}) => x    }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

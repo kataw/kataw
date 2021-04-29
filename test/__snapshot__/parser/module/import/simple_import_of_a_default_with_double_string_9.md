@@ -98,7 +98,7 @@ import {x, z,} from "y"
         }
     ],
     "isModule": true,
-    "text": "import {x, z,} from \"y\"",
+    "source": "import {x, z,} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ wrap({'foo'(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({'foo'(){}});",
+    "source": "wrap({'foo'(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

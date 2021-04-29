@@ -82,7 +82,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends /more crap/g {})",
+    "source": "(class B extends /more crap/g {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

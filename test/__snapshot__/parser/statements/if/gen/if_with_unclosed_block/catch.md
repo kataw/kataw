@@ -105,7 +105,7 @@ else {} if(x) { catch
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { catch",
+    "source": "else {} if(x) { catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

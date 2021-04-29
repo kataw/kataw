@@ -87,7 +87,7 @@ do {} while (x) { /)finally
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { /)finally",
+    "source": "do {} while (x) { /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

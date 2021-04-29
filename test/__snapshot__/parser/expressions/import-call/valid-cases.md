@@ -251,7 +251,7 @@ import(x).then();
         }
     ],
     "isModule": false,
-    "text": "\nimport(x);\n\nimport(foo);\n\nimport(1);\n\nimport(y=x);\n\nimport(import(x));\n\nimport(x).then();\n",
+    "source": "\nimport(x);\n\nimport(foo);\n\nimport(1);\n\nimport(y=x);\n\nimport(import(x));\n\nimport(x).then();\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

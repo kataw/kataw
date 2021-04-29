@@ -56,7 +56,7 @@
         }
     ],
     "isModule": false,
-    "text": "--/b/.c",
+    "source": "--/b/.c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

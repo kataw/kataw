@@ -103,7 +103,7 @@ switch case catch
         }
     ],
     "isModule": false,
-    "text": "switch case catch",
+    "source": "switch case catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

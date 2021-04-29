@@ -103,7 +103,7 @@ for(function(){};;)x
         }
     ],
     "isModule": false,
-    "text": "for(function(){};;)x",
+    "source": "for(function(){};;)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

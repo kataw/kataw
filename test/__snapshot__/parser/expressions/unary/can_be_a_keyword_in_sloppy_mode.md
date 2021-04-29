@@ -42,7 +42,7 @@ delete true
         }
     ],
     "isModule": false,
-    "text": "delete true",
+    "source": "delete true",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

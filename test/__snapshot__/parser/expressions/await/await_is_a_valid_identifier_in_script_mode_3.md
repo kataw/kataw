@@ -45,7 +45,7 @@ await[x]
         }
     ],
     "isModule": false,
-    "text": "await[x]",
+    "source": "await[x]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

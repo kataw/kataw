@@ -81,7 +81,7 @@ let y = () => new.target
         }
     ],
     "isModule": false,
-    "text": "let y = () => new.target",
+    "source": "let y = () => new.target",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

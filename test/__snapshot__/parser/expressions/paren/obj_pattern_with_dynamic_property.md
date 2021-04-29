@@ -137,7 +137,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...{b: 0}[x]} = {});",
+    "source": "({...{b: 0}[x]} = {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@ class x {case(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {case(){}}",
+    "source": "class x {case(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {get for(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get for(){}}",
+    "source": "class x {get for(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

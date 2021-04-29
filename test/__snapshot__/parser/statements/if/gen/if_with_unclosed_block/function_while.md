@@ -148,7 +148,7 @@ else {} if(x) { function while
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { function while",
+    "source": "else {} if(x) { function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

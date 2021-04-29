@@ -109,7 +109,7 @@ class x {* instanceof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* instanceof(){}}",
+    "source": "class x {* instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -124,7 +124,7 @@ class A {static constructor(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {static constructor(){}}",
+    "source": "class A {static constructor(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

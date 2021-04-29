@@ -114,7 +114,7 @@ class x {async * instanceof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * instanceof(){}}",
+    "source": "class x {async * instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

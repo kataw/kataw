@@ -902,7 +902,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { get #a() {class C { #a() {} }} });\n\n(class { get #a() {class C { get #a() {} }} });\n\n(class { set #a(val) {} get #a() { class C { get #a() {} set #a(val) {} }} });\n\n(class { #a() { class C { set #a(val) {} }} });",
+    "source": "(class { get #a() {class C { #a() {} }} });\n\n(class { get #a() {class C { get #a() {} }} });\n\n(class { set #a(val) {} get #a() { class C { get #a() {} set #a(val) {} }} });\n\n(class { #a() { class C { set #a(val) {} }} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

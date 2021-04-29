@@ -96,7 +96,7 @@
         }
     ],
     "isModule": false,
-    "text": "(...a, ...b) => 0",
+    "source": "(...a, ...b) => 0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

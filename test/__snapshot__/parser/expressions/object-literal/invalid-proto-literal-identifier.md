@@ -94,7 +94,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ \"__proto__\": null, __proto__: null })",
+    "source": "({ \"__proto__\": null, __proto__: null })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

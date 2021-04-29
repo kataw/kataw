@@ -85,7 +85,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a, 1, \"c\", d, e, f);",
+    "source": "(a, 1, \"c\", d, e, f);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

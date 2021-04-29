@@ -194,7 +194,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
         }
     ],
     "isModule": false,
-    "text": "function *g() { (x = x + foo(a, yield y)) => x; }",
+    "source": "function *g() { (x = x + foo(a, yield y)) => x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

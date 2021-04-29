@@ -114,7 +114,7 @@ class x {static async void(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async void(){}}",
+    "source": "class x {static async void(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -122,7 +122,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  sw\\u0069tch = x\n}",
+    "source": "function *f(){\n  sw\\u0069tch = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

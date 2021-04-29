@@ -114,7 +114,7 @@ class x {static get super(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get super(){}}",
+    "source": "class x {static get super(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -44,7 +44,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; yield /* comment */",
+    "source": "'use strict'; yield /* comment */",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

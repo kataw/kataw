@@ -97,7 +97,7 @@ type T1 = number;
         }
     ],
     "isModule": false,
-    "text": "type T1 = string;\ntype T1 = number;",
+    "source": "type T1 = string;\ntype T1 = number;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

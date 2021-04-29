@@ -139,7 +139,7 @@ function *f() { yield ? yield : yield ; }
         }
     ],
     "isModule": false,
-    "text": "function *f() { yield ? yield : yield ; }",
+    "source": "function *f() { yield ? yield : yield ; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -117,7 +117,7 @@ async () => {  \u0066unction = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0066unction = x  }",
+    "source": "async () => {  \\u0066unction = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

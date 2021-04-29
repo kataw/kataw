@@ -142,7 +142,7 @@ async function p(){
         }
     ],
     "isModule": false,
-    "text": "async function p(){\n  class C extends {bar} {}\n}",
+    "source": "async function p(){\n  class C extends {bar} {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

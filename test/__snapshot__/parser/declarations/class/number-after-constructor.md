@@ -170,7 +170,7 @@ class x{ constructor(){} 9(){} }
         }
     ],
     "isModule": false,
-    "text": "class x{ constructor(){} 9(){} }",
+    "source": "class x{ constructor(){} 9(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

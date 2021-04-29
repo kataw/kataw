@@ -57,7 +57,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x) / y",
+    "source": "(x) / y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

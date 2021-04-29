@@ -101,7 +101,7 @@ x => y in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (async\nx => y in x) ;",
+    "source": "for (async\nx => y in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

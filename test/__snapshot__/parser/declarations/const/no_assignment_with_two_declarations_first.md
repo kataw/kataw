@@ -115,7 +115,7 @@ const [foo], bar;
         }
     ],
     "isModule": false,
-    "text": "const [foo], bar;",
+    "source": "const [foo], bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {async * default(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * default(){}}",
+    "source": "class x {async * default(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

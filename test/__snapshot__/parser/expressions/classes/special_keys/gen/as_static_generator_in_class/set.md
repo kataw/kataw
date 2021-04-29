@@ -114,7 +114,7 @@ class x {static * set(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * set(){}}",
+    "source": "class x {static * set(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

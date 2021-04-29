@@ -64,7 +64,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...obj,})",
+    "source": "({...obj,})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

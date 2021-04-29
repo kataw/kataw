@@ -170,7 +170,7 @@ export var [foo] = arr, [bar] = arr2;
         }
     ],
     "isModule": false,
-    "text": "export var [foo] = arr, [bar] = arr2;",
+    "source": "export var [foo] = arr, [bar] = arr2;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

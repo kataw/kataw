@@ -110,7 +110,7 @@ function f(){ [...new.target] }
         }
     ],
     "isModule": false,
-    "text": "function f(){ [...new.target] }",
+    "source": "function f(){ [...new.target] }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

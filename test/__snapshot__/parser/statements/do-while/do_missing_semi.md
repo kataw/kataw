@@ -94,7 +94,7 @@ do;while(j)try{}finally{}
         }
     ],
     "isModule": false,
-    "text": "do;while(j)try{}finally{}",
+    "source": "do;while(j)try{}finally{}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

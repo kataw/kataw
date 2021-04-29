@@ -72,7 +72,7 @@ class A extends fooo {}
         }
     ],
     "isModule": false,
-    "text": "class A extends fooo {}",
+    "source": "class A extends fooo {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

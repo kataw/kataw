@@ -124,7 +124,7 @@ else async function *f(){}
         }
     ],
     "isModule": false,
-    "text": "if (x) x;\nelse async function *f(){}",
+    "source": "if (x) x;\nelse async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

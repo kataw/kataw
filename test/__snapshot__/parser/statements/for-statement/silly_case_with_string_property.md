@@ -78,7 +78,7 @@ for ("foo".bar;;);
         }
     ],
     "isModule": false,
-    "text": "for (\"foo\".bar;;);",
+    "source": "for (\"foo\".bar;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({static(x, y) {}});",
+    "source": "({static(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

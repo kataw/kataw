@@ -84,7 +84,7 @@ a?.b * d
         }
     ],
     "isModule": false,
-    "text": "a?.b * d",
+    "source": "a?.b * d",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

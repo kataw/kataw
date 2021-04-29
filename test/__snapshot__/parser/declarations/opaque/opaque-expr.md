@@ -104,7 +104,7 @@ opaque += 4;
         }
     ],
     "isModule": false,
-    "text": "var opaque = 0;\nopaque += 4;",
+    "source": "var opaque = 0;\nopaque += 4;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

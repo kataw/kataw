@@ -114,7 +114,7 @@ import {default as foo} from "foo";
         }
     ],
     "isModule": true,
-    "text": "import {default as foo} from \"foo\";",
+    "source": "import {default as foo} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

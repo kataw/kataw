@@ -103,7 +103,7 @@ async () => {  sw\u0069tch = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  sw\\u0069tch = x  }",
+    "source": "async () => {  sw\\u0069tch = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

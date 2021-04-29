@@ -67,7 +67,7 @@ return => {} , bar;
         }
     ],
     "isModule": false,
-    "text": "return => {} , bar;",
+    "source": "return => {} , bar;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

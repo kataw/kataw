@@ -78,7 +78,7 @@ async function f() { "use strict"; }
         }
     ],
     "isModule": false,
-    "text": "async function f() { \"use strict\"; }",
+    "source": "async function f() { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

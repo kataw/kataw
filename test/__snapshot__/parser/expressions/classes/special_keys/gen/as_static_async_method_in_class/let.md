@@ -114,7 +114,7 @@ class x {static async let(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async let(){}}",
+    "source": "class x {static async let(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

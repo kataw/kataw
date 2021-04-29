@@ -104,7 +104,7 @@ export {}
         }
     ],
     "isModule": true,
-    "text": "export {}\n/foo/",
+    "source": "export {}\n/foo/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

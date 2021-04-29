@@ -133,7 +133,7 @@ class x { constructor(){ super.foo; }}
         }
     ],
     "isModule": false,
-    "text": "class x { constructor(){ super.foo; }}",
+    "source": "class x { constructor(){ super.foo; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

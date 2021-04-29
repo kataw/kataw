@@ -109,7 +109,7 @@ class x {static enum(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static enum(){}}",
+    "source": "class x {static enum(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

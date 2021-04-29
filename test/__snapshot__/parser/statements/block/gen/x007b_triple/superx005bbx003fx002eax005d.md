@@ -128,7 +128,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { super[b?.a]",
+    "source": "{ { { super[b?.a]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

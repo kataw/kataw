@@ -173,7 +173,7 @@
         }
     ],
     "isModule": false,
-    "text": "(function(obj) {\n}.apply(null, [{...null}]));",
+    "source": "(function(obj) {\n}.apply(null, [{...null}]));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

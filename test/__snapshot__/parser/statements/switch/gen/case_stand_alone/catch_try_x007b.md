@@ -56,7 +56,7 @@ case catch try {
         }
     ],
     "isModule": false,
-    "text": "case catch try {",
+    "source": "case catch try {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

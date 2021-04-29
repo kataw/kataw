@@ -89,7 +89,7 @@ switch[ catch try {
         }
     ],
     "isModule": false,
-    "text": "switch[ catch try {",
+    "source": "switch[ catch try {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

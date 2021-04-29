@@ -115,7 +115,7 @@ f(((a, b) => a + b));
         }
     ],
     "isModule": false,
-    "text": "f(((a, b) => a + b));",
+    "source": "f(((a, b) => a + b));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

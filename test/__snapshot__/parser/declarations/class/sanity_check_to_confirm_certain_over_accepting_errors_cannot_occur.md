@@ -145,7 +145,7 @@ class x { async get foo(){ }}
         }
     ],
     "isModule": false,
-    "text": "class x { async get foo(){ }}",
+    "source": "class x { async get foo(){ }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

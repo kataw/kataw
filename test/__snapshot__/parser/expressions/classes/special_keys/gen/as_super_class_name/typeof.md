@@ -90,7 +90,7 @@ class x extends typeof {}
         }
     ],
     "isModule": false,
-    "text": "class x extends typeof {}",
+    "source": "class x extends typeof {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

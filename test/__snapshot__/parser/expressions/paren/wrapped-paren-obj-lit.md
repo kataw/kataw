@@ -753,7 +753,7 @@
         }
     ],
     "isModule": false,
-    "text": "(((((({x:foo().x, y:foo().y} = {x:201, y:301}))))));\n\n(((((({x:foo().x, y:foo().y} = {x:201, y:301}))))), (((((({x:foo().x, y:foo().y} = {x:201, y:301})))))));",
+    "source": "(((((({x:foo().x, y:foo().y} = {x:201, y:301}))))));\n\n(((((({x:foo().x, y:foo().y} = {x:201, y:301}))))), (((((({x:foo().x, y:foo().y} = {x:201, y:301})))))));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

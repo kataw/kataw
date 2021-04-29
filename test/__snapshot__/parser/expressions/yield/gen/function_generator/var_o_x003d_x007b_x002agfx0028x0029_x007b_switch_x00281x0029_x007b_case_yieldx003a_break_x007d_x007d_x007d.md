@@ -283,7 +283,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}",
+    "source": "function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

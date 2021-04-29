@@ -137,7 +137,7 @@ x({foo(){}, async bar(){}});
         }
     ],
     "isModule": false,
-    "text": "x({foo(){}, async bar(){}});",
+    "source": "x({foo(){}, async bar(){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

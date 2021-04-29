@@ -103,7 +103,7 @@ class x extends break {}
         }
     ],
     "isModule": false,
-    "text": "class x extends break {}",
+    "source": "class x extends break {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

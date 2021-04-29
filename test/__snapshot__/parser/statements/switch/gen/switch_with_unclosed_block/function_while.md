@@ -181,7 +181,7 @@ switch {} default(x) { function while
         }
     ],
     "isModule": false,
-    "text": "switch {} default(x) { function while",
+    "source": "switch {} default(x) { function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

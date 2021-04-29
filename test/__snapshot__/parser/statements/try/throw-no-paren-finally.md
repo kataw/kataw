@@ -87,7 +87,7 @@ throw {x} finally
         }
     ],
     "isModule": false,
-    "text": "throw {x} finally",
+    "source": "throw {x} finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

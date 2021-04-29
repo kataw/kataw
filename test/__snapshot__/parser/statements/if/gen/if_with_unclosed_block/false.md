@@ -83,7 +83,7 @@ else {} if(x) { false
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { false",
+    "source": "else {} if(x) { false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

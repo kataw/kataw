@@ -215,7 +215,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}",
+    "source": "function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

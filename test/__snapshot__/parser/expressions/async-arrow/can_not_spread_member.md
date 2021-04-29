@@ -96,7 +96,7 @@ async ([...x.y]) => z
         }
     ],
     "isModule": false,
-    "text": "async ([...x.y]) => z",
+    "source": "async ([...x.y]) => z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

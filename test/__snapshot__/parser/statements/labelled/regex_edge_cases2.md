@@ -43,7 +43,7 @@ debugger
         }
     ],
     "isModule": false,
-    "text": "debugger\n/bar/",
+    "source": "debugger\n/bar/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

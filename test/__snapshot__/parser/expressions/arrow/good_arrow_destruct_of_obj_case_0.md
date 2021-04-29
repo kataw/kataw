@@ -115,7 +115,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a:b,...obj}) => {}",
+    "source": "({a:b,...obj}) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

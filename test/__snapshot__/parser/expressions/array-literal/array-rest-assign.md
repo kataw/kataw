@@ -111,7 +111,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...x.list] = a;",
+    "source": "[...x.list] = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

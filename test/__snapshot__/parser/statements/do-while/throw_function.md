@@ -125,7 +125,7 @@ for(;;)x
         }
     ],
     "isModule": false,
-    "text": "do throw function(){}\nwhile(y)\nfor(;;)x",
+    "source": "do throw function(){}\nwhile(y)\nfor(;;)x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -319,7 +319,7 @@ type B = Foo<
         }
     ],
     "isModule": false,
-    "text": "type A = Foo<\n  | {type: \"A\"}\n  | {type: \"B\"}\n>;\n\ntype B = Foo<\n  & {type: \"A\"}\n  & {type: \"B\"}\n>;",
+    "source": "type A = Foo<\n  | {type: \"A\"}\n  | {type: \"B\"}\n>;\n\ntype B = Foo<\n  & {type: \"A\"}\n  & {type: \"B\"}\n>;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -120,7 +120,7 @@ class x extends y { f(){} }
         }
     ],
     "isModule": false,
-    "text": "class x extends y { f(){} }",
+    "source": "class x extends y { f(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

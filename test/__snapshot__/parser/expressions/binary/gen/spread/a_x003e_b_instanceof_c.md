@@ -102,7 +102,7 @@
         }
     ],
     "isModule": false,
-    "text": "[ ... a > b instanceof c ]",
+    "source": "[ ... a > b instanceof c ]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -160,7 +160,7 @@ async function f() { class C { aaa = await } }
         }
     ],
     "isModule": false,
-    "text": "async function f() { class C { aaa = await } }",
+    "source": "async function f() { class C { aaa = await } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

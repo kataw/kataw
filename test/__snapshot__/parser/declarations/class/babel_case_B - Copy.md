@@ -105,7 +105,7 @@ x = class{} / x
         }
     ],
     "isModule": false,
-    "text": "x = class{} / x",
+    "source": "x = class{} / x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

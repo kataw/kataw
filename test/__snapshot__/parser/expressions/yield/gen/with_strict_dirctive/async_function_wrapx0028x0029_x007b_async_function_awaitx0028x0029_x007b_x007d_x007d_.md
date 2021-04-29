@@ -141,7 +141,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function wrap() { async function await() { } };",
+    "source": "'use strict'; async function wrap() { async function await() { } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

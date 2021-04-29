@@ -98,7 +98,7 @@ typeof class{}
         }
     ],
     "isModule": false,
-    "text": "typeof class{}\n/foo/",
+    "source": "typeof class{}\n/foo/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

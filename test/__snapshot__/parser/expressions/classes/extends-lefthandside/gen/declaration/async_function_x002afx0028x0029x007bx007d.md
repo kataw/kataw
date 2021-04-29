@@ -120,7 +120,7 @@ class A extends async function *f(){} {}
         }
     ],
     "isModule": false,
-    "text": "class A extends async function *f(){} {}",
+    "source": "class A extends async function *f(){} {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

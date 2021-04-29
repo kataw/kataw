@@ -146,7 +146,7 @@ function* f() { class C { aaa = yield } }
         }
     ],
     "isModule": false,
-    "text": "function* f() { class C { aaa = yield } }\n",
+    "source": "function* f() { class C { aaa = yield } }\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

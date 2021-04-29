@@ -109,7 +109,7 @@ class x {async eval(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async eval(){}}",
+    "source": "class x {async eval(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

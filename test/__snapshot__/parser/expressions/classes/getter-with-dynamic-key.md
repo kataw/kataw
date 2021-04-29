@@ -116,7 +116,7 @@ class x { static get [y](){}}
         }
     ],
     "isModule": false,
-    "text": "class x { static get [y](){}}",
+    "source": "class x { static get [y](){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

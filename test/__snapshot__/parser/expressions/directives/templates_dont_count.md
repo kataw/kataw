@@ -113,7 +113,7 @@ function f(){ `use strict`; with (x) y; }
         }
     ],
     "isModule": false,
-    "text": "function f(){ `use strict`; with (x) y; }",
+    "source": "function f(){ `use strict`; with (x) y; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

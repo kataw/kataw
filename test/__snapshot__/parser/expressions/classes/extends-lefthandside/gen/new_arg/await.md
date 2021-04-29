@@ -48,7 +48,7 @@ new await
         }
     ],
     "isModule": false,
-    "text": "new await",
+    "source": "new await",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

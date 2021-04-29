@@ -239,7 +239,7 @@ a ?? b && c;
         }
     ],
     "isModule": false,
-    "text": "a || b ?? c;\n\na ?? b || c;\n\na && b ?? c;\n\na ?? b && c;",
+    "source": "a || b ?? c;\n\na ?? b || c;\n\na && b ?? c;\n\na ?? b && c;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -45,7 +45,7 @@ tag`some \" quote`;
         }
     ],
     "isModule": false,
-    "text": "tag`some \\\" quote`;",
+    "source": "tag`some \\\" quote`;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

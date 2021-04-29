@@ -52,7 +52,7 @@ class implements {}
         }
     ],
     "isModule": false,
-    "text": "class implements {}",
+    "source": "class implements {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -115,7 +115,7 @@ async x => {}
         }
     ],
     "isModule": false,
-    "text": "async x => {}\n* x",
+    "source": "async x => {}\n* x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

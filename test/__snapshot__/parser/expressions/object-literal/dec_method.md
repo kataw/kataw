@@ -96,7 +96,7 @@ x = {10(){}}
         }
     ],
     "isModule": false,
-    "text": "x = {10(){}}",
+    "source": "x = {10(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

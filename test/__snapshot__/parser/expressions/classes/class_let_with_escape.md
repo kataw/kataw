@@ -48,7 +48,7 @@ class l\u0065t {}
         }
     ],
     "isModule": false,
-    "text": "class l\\u0065t {}",
+    "source": "class l\\u0065t {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

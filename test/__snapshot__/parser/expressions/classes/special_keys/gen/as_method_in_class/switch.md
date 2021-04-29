@@ -104,7 +104,7 @@ class x {switch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {switch(){}}",
+    "source": "class x {switch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

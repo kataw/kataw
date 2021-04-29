@@ -128,7 +128,7 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
         }
     ],
     "isModule": false,
-    "text": "bar ? (eval => { 'use strict'; 0 }) : baz;",
+    "source": "bar ? (eval => { 'use strict'; 0 }) : baz;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

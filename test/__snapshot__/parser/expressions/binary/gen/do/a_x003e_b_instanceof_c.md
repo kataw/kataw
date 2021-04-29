@@ -101,7 +101,7 @@ do a > b instanceof c while (x);
         }
     ],
     "isModule": false,
-    "text": "do a > b instanceof c while (x);",
+    "source": "do a > b instanceof c while (x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

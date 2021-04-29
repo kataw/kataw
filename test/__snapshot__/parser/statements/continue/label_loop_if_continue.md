@@ -93,7 +93,7 @@ foo: while(z) if (x) continue foo
         }
     ],
     "isModule": false,
-    "text": "foo: while(z) if (x) continue foo",
+    "source": "foo: while(z) if (x) continue foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

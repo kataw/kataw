@@ -98,7 +98,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ let {x} = y }",
+    "source": "{ let {x} = y }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

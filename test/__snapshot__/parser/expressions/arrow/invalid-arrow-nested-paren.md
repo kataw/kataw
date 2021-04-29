@@ -200,7 +200,7 @@
         }
     ],
     "isModule": false,
-    "text": "([(x().foo)]) => x;\n\n({[foo]: bar()}) => baz;\n",
+    "source": "([(x().foo)]) => x;\n\n({[foo]: bar()}) => baz;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -179,7 +179,7 @@ switch {} default(x) { catch { try
         }
     ],
     "isModule": false,
-    "text": "switch {} default(x) { catch { try",
+    "source": "switch {} default(x) { catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

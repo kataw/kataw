@@ -104,7 +104,7 @@ for (async function f(){} in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (async function f(){} in x) ;",
+    "source": "for (async function f(){} in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

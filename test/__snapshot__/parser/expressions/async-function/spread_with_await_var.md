@@ -65,7 +65,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...await]",
+    "source": "[...await]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

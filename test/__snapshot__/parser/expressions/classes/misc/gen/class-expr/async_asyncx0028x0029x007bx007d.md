@@ -113,7 +113,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { async async(){} });",
+    "source": "(class { async async(){} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -55,7 +55,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0070ackage = x;",
+    "source": "\\u0070ackage = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

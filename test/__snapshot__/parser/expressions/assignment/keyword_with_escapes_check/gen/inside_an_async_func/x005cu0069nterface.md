@@ -91,7 +91,7 @@ async () => {  \u0069nterface = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0069nterface = x  }",
+    "source": "async () => {  \\u0069nterface = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

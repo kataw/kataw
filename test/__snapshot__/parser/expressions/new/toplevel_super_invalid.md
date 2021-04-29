@@ -61,7 +61,7 @@ new super
         }
     ],
     "isModule": false,
-    "text": "new super",
+    "source": "new super",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

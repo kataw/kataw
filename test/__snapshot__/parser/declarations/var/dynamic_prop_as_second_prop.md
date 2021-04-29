@@ -141,7 +141,7 @@ var {a, [x]: y} = a;
         }
     ],
     "isModule": false,
-    "text": "var {a, [x]: y} = a;",
+    "source": "var {a, [x]: y} = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -55,7 +55,7 @@ export default [];
         }
     ],
     "isModule": true,
-    "text": "export default [];",
+    "source": "export default [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

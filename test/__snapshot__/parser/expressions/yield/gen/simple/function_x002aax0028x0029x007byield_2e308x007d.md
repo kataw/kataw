@@ -102,7 +102,7 @@ function *a(){yield 2e308}
         }
     ],
     "isModule": false,
-    "text": "function *a(){yield 2e308}",
+    "source": "function *a(){yield 2e308}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

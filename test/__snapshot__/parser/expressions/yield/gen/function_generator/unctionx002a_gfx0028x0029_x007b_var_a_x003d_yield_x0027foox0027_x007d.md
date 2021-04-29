@@ -243,7 +243,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }}",
+    "source": "function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

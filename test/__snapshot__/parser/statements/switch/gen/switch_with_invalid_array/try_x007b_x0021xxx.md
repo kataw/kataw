@@ -156,7 +156,7 @@ switch [catch] try { !xxx
         }
     ],
     "isModule": false,
-    "text": "switch [catch] try { !xxx",
+    "source": "switch [catch] try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

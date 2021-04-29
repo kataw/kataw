@@ -76,7 +76,7 @@
         }
     ],
     "isModule": false,
-    "text": "[ delete x.y ]",
+    "source": "[ delete x.y ]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

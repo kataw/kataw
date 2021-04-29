@@ -141,7 +141,7 @@ let x = async function f(foo = await){}
         }
     ],
     "isModule": false,
-    "text": "let x = async function f(foo = await){}",
+    "source": "let x = async function f(foo = await){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

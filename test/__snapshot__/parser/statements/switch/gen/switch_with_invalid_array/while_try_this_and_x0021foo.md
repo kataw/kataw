@@ -188,7 +188,7 @@ switch [catch] while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "switch [catch] while try this and !foo",
+    "source": "switch [catch] while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

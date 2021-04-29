@@ -57,7 +57,7 @@ async in {}
         }
     ],
     "isModule": false,
-    "text": "async in {}",
+    "source": "async in {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -489,7 +489,7 @@ a ? b : (): string => {}
         }
     ],
     "isModule": false,
-    "text": "\na ? (): string => {}  :  b;\n\na ? async (): string => {}  :  b;\n\na ? (): string => {}  :  (): string => {};\n\n(): string => {};\n\na ? b : (): string => {}",
+    "source": "\na ? (): string => {}  :  b;\n\na ? async (): string => {}  :  b;\n\na ? (): string => {}  :  (): string => {};\n\n(): string => {};\n\na ? b : (): string => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

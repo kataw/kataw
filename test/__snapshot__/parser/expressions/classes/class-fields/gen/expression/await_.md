@@ -100,7 +100,7 @@ class C extends Base { await; }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { await; }",
+    "source": "class C extends Base { await; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

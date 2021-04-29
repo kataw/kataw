@@ -134,7 +134,7 @@ switch {} default(x) { class x {}
         }
     ],
     "isModule": false,
-    "text": "switch {} default(x) { class x {}",
+    "source": "switch {} default(x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

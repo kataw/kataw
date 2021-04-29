@@ -138,7 +138,7 @@ var {x = 10, y = 5, z = 1} = a;
         }
     ],
     "isModule": false,
-    "text": "var {x = 10, y = 5, z = 1} = a;",
+    "source": "var {x = 10, y = 5, z = 1} = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -149,7 +149,7 @@ async function f() { return {await = 0} = {}; }
         }
     ],
     "isModule": false,
-    "text": "async function f() { return {await = 0} = {}; }",
+    "source": "async function f() { return {await = 0} = {}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

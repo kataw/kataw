@@ -166,7 +166,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a,b=b,a:c,[a]:[d]})=>0;",
+    "source": "({a,b=b,a:c,[a]:[d]})=>0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

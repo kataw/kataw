@@ -35,7 +35,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0065xtends = x;",
+    "source": "\\u0065xtends = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

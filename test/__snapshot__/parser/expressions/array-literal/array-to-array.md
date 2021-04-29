@@ -97,7 +97,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a, b] = [b, a];",
+    "source": "[a, b] = [b, a];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -258,7 +258,7 @@ var await; var f = (async function() { async function wrap() { async function aw
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { async function wrap() { async function await() { } }; });",
+    "source": "var await; var f = (async function() { async function wrap() { async function await() { } }; });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

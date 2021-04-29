@@ -83,7 +83,7 @@ class void {}
         }
     ],
     "isModule": false,
-    "text": "class void {}",
+    "source": "class void {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

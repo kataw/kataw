@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({foo: fail() = x}) => x",
+    "source": "({foo: fail() = x}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

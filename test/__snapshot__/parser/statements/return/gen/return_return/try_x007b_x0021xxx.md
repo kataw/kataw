@@ -120,7 +120,7 @@ return try { !xxx return
         }
     ],
     "isModule": false,
-    "text": "return try { !xxx return",
+    "source": "return try { !xxx return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

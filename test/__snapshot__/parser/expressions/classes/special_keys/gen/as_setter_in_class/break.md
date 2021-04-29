@@ -128,7 +128,7 @@ class x {set break(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set break(x){}}",
+    "source": "class x {set break(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

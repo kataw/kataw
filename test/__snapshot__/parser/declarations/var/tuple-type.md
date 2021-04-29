@@ -381,7 +381,7 @@ var x: [number, string] = [123, "aladdin"];
         }
     ],
     "isModule": false,
-    "text": "var x: [] = [];\n\nvar x: [number,] = [123,];\n\nvar x: [Foo<T>] = [foo];\n\nvar x: [number, string] = [123, \"aladdin\"];\n",
+    "source": "var x: [] = [];\n\nvar x: [number,] = [123,];\n\nvar x: [Foo<T>] = [foo];\n\nvar x: [number, string] = [123, \"aladdin\"];\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

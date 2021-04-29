@@ -109,7 +109,7 @@ class x {async implements(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async implements(){}}",
+    "source": "class x {async implements(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

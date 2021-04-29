@@ -135,7 +135,7 @@ function not_gen() { function foo(yield) { }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function foo(yield) { }}",
+    "source": "function not_gen() { function foo(yield) { }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

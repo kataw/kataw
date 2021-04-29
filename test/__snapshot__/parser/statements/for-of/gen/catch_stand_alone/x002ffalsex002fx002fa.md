@@ -69,7 +69,7 @@ catch /false//a
         }
     ],
     "isModule": false,
-    "text": "catch /false//a",
+    "source": "catch /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

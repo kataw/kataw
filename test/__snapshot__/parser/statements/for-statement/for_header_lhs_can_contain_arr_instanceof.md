@@ -90,7 +90,7 @@ for ([] instanceof obj;;);
         }
     ],
     "isModule": false,
-    "text": "for ([] instanceof obj;;);",
+    "source": "for ([] instanceof obj;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

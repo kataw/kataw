@@ -167,7 +167,7 @@ function* foo(a = function* foo() { yield b }) {}
         }
     ],
     "isModule": false,
-    "text": "function* foo(a = function* foo() { yield b }) {}",
+    "source": "function* foo(a = function* foo() { yield b }) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

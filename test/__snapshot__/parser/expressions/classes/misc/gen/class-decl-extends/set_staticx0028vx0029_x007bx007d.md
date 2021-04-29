@@ -148,7 +148,7 @@ class C extends Base { set static(v) {} }
         }
     ],
     "isModule": false,
-    "text": "class C extends Base { set static(v) {} }",
+    "source": "class C extends Base { set static(v) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

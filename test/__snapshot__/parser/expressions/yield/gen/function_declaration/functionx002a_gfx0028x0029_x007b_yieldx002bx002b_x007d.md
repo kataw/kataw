@@ -161,7 +161,7 @@ function not_gen() { function* gf() { yield++; } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function* gf() { yield++; } }}",
+    "source": "function not_gen() { function* gf() { yield++; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

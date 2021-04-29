@@ -124,7 +124,7 @@ class x extends for {}
         }
     ],
     "isModule": false,
-    "text": "class x extends for {}",
+    "source": "class x extends for {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

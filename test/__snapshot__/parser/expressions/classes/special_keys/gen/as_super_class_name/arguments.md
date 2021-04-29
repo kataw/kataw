@@ -72,7 +72,7 @@ class x extends arguments {}
         }
     ],
     "isModule": false,
-    "text": "class x extends arguments {}",
+    "source": "class x extends arguments {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

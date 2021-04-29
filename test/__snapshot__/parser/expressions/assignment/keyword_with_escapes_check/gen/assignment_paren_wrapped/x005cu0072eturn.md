@@ -85,7 +85,7 @@
         }
     ],
     "isModule": false,
-    "text": "(\\u0072eturn = x);",
+    "source": "(\\u0072eturn = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

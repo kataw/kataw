@@ -80,7 +80,7 @@ type A = { [string]: number };
         }
     ],
     "isModule": false,
-    "text": "type A = { [string]: number };",
+    "source": "type A = { [string]: number };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

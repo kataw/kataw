@@ -133,7 +133,7 @@ x = (a)?c:d=>{}=>{}
         }
     ],
     "isModule": false,
-    "text": "x = (a)?c:d=>{}=>{}",
+    "source": "x = (a)?c:d=>{}=>{}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

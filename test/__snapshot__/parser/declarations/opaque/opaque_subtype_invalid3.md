@@ -160,7 +160,7 @@ opaque stuff: Box<T> = Container<T>
         }
     ],
     "isModule": false,
-    "text": "opaque stuff: Box<T> = Container<T>",
+    "source": "opaque stuff: Box<T> = Container<T>",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

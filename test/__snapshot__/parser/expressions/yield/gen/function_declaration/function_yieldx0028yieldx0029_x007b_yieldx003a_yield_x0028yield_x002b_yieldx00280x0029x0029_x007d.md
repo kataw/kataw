@@ -230,7 +230,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } }}",
+    "source": "function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

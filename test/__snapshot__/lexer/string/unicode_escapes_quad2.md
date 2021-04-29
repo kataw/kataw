@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\uafail\"",
+    "source": "\"\\uafail\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

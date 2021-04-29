@@ -230,7 +230,7 @@ var await; var f = (async function() { class x {await(){}} });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { class x {await(){}} });",
+    "source": "var await; var f = (async function() { class x {await(){}} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

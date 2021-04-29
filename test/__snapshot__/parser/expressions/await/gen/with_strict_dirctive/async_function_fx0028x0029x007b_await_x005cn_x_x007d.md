@@ -136,7 +136,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; async function f(){ await \\n x; }",
+    "source": "'use strict'; async function f(){ await \\n x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

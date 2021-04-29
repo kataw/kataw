@@ -114,7 +114,7 @@ class x {async * delete(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * delete(){}}",
+    "source": "class x {async * delete(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

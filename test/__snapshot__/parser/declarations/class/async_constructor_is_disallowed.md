@@ -113,7 +113,7 @@ class X {    async constructor() {}   }
         }
     ],
     "isModule": false,
-    "text": "class X {    async constructor() {}   }",
+    "source": "class X {    async constructor() {}   }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

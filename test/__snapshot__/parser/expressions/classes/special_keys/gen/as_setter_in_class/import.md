@@ -128,7 +128,7 @@ class x {set import(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set import(x){}}",
+    "source": "class x {set import(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

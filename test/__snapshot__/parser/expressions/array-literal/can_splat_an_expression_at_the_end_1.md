@@ -113,7 +113,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x, y, ...z + arr]",
+    "source": "[x, y, ...z + arr]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

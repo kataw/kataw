@@ -87,7 +87,7 @@ do {} while (x) { /**/ /x do while
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { /**/ /x do while",
+    "source": "do {} while (x) { /**/ /x do while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

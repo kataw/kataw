@@ -136,7 +136,7 @@ class C { constructor() { super; } }
         }
     ],
     "isModule": false,
-    "text": "class C { constructor() { super; } }",
+    "source": "class C { constructor() { super; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

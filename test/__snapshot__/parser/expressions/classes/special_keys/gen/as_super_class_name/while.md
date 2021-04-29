@@ -110,7 +110,7 @@ class x extends while {}
         }
     ],
     "isModule": false,
-    "text": "class x extends while {}",
+    "source": "class x extends while {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

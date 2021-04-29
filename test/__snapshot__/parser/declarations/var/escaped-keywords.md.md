@@ -916,7 +916,7 @@ var { f\u0061lse } = {};
         }
     ],
     "isModule": false,
-    "text": "var x = n\\u0075ll;\n\nvar x = ({ w\\u0069th }) => {};\n\nvar n\\u0075ll = 1;\n\nvar \\u{63}ase = 123;\n\nvar \\u{63}ontinue = 123;\n\nvar \\u{65}\\u{6e}\\u{75}\\u{6d} = 123;\n\nvar \\u0062\\u0072\\u0065\\u0061\\u006b = 123;\n\nvar {var:v\\u0061r} = obj;\n\nvar x = ({ tr\\u0079 }) => {};\n\nvar x = ({ typ\\u0065of }) => {};\n\nvar i\\u0066;\n\nvar x = f\\u0061lse;\n\nvar f\\u0061lse = 1;\n\nvar { f\\u0061lse } = {};",
+    "source": "var x = n\\u0075ll;\n\nvar x = ({ w\\u0069th }) => {};\n\nvar n\\u0075ll = 1;\n\nvar \\u{63}ase = 123;\n\nvar \\u{63}ontinue = 123;\n\nvar \\u{65}\\u{6e}\\u{75}\\u{6d} = 123;\n\nvar \\u0062\\u0072\\u0065\\u0061\\u006b = 123;\n\nvar {var:v\\u0061r} = obj;\n\nvar x = ({ tr\\u0079 }) => {};\n\nvar x = ({ typ\\u0065of }) => {};\n\nvar i\\u0066;\n\nvar x = f\\u0061lse;\n\nvar f\\u0061lse = 1;\n\nvar { f\\u0061lse } = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

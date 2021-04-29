@@ -94,7 +94,7 @@ new async async => {}
         }
     ],
     "isModule": false,
-    "text": "new async async => {}",
+    "source": "new async async => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

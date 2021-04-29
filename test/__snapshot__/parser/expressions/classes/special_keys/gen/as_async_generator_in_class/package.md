@@ -114,7 +114,7 @@ class x {async * package(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * package(){}}",
+    "source": "class x {async * package(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -132,7 +132,7 @@ result = [ x = 'x' in {} ] = vals;
         }
     ],
     "isModule": false,
-    "text": "result = [ x = 'x' in {} ] = vals;",
+    "source": "result = [ x = 'x' in {} ] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

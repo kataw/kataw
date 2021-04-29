@@ -60,7 +60,7 @@ for (/more crap/g in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (/more crap/g in x) ;",
+    "source": "for (/more crap/g in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

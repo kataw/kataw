@@ -127,7 +127,7 @@ function *gf(){ function yield(){}; }
         }
     ],
     "isModule": false,
-    "text": "function *gf(){ function yield(){}; }",
+    "source": "function *gf(){ function yield(){}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

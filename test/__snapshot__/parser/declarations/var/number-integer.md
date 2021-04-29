@@ -76,7 +76,7 @@ var a: 123
         }
     ],
     "isModule": false,
-    "text": "var a: 123",
+    "source": "var a: 123",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -115,7 +115,7 @@ function call(foo=await bar=10){}
         }
     ],
     "isModule": false,
-    "text": "function call(foo=await bar=10){}",
+    "source": "function call(foo=await bar=10){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

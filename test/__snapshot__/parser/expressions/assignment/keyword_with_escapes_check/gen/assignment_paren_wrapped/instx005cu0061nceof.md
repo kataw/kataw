@@ -85,7 +85,7 @@
         }
     ],
     "isModule": false,
-    "text": "(inst\\u0061nceof = x);",
+    "source": "(inst\\u0061nceof = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

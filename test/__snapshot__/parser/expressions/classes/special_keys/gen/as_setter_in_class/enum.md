@@ -128,7 +128,7 @@ class x {set enum(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set enum(x){}}",
+    "source": "class x {set enum(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

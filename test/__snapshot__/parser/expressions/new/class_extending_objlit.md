@@ -74,7 +74,7 @@ class x extends {} {}
         }
     ],
     "isModule": false,
-    "text": "class x extends {} {}",
+    "source": "class x extends {} {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

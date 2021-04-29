@@ -75,7 +75,7 @@ function f(){
         }
     ],
     "isModule": false,
-    "text": "function f(){\n\"foo\";\n}",
+    "source": "function f(){\n\"foo\";\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

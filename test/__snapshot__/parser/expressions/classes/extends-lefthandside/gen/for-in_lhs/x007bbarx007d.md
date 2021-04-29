@@ -76,7 +76,7 @@ for ({bar} in x) ;
         }
     ],
     "isModule": false,
-    "text": "for ({bar} in x) ;",
+    "source": "for ({bar} in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

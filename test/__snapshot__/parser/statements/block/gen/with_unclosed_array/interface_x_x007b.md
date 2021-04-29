@@ -86,7 +86,7 @@
         }
     ],
     "isModule": false,
-    "text": "{[ interface x {",
+    "source": "{[ interface x {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

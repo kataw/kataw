@@ -138,7 +138,7 @@ var [x = 10, y, z] = a;
         }
     ],
     "isModule": false,
-    "text": "var [x = 10, y, z] = a;",
+    "source": "var [x = 10, y, z] = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

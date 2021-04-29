@@ -119,7 +119,7 @@ class x {static async * import(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * import(){}}",
+    "source": "class x {static async * import(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

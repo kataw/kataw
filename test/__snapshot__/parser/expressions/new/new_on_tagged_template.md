@@ -58,7 +58,7 @@ new Foo`bar`
         }
     ],
     "isModule": false,
-    "text": "new Foo`bar`",
+    "source": "new Foo`bar`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

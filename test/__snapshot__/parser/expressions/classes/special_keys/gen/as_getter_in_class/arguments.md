@@ -109,7 +109,7 @@ class x {get arguments(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get arguments(){}}",
+    "source": "class x {get arguments(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

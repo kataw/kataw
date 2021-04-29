@@ -84,7 +84,7 @@ arr?.[i + 1]
         }
     ],
     "isModule": false,
-    "text": "arr?.[i + 1]",
+    "source": "arr?.[i + 1]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

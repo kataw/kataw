@@ -77,7 +77,7 @@ return async (await) => {};
         }
     ],
     "isModule": false,
-    "text": "return async (await) => {};",
+    "source": "return async (await) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

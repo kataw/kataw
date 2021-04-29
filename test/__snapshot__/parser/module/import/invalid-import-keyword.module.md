@@ -82,7 +82,7 @@ import { for } from "iteration"
         }
     ],
     "isModule": true,
-    "text": "import { for } from \"iteration\"",
+    "source": "import { for } from \"iteration\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

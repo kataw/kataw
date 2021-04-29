@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({break(x, y) {}});",
+    "source": "({break(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

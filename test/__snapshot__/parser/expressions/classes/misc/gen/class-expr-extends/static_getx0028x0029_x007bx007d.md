@@ -133,7 +133,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base {static get() {}});",
+    "source": "(class extends Base {static get() {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

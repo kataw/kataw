@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...[0][x]} = {});",
+    "source": "({...[0][x]} = {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

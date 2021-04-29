@@ -98,7 +98,7 @@ x = {...a=b}
         }
     ],
     "isModule": false,
-    "text": "x = {...a=b}",
+    "source": "x = {...a=b}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

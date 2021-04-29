@@ -90,7 +90,7 @@ class x extends void {}
         }
     ],
     "isModule": false,
-    "text": "class x extends void {}",
+    "source": "class x extends void {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

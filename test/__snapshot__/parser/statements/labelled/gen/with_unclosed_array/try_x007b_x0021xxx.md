@@ -128,7 +128,7 @@ try[ try { !xxx
         }
     ],
     "isModule": false,
-    "text": "try[ try { !xxx",
+    "source": "try[ try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

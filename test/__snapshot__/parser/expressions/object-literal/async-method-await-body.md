@@ -109,7 +109,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ async a(){ await 0; } })",
+    "source": "({ async a(){ await 0; } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

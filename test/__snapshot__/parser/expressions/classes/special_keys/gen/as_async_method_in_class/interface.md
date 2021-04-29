@@ -109,7 +109,7 @@ class x {async interface(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async interface(){}}",
+    "source": "class x {async interface(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

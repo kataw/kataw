@@ -223,7 +223,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async *f(foo = [{m: t(await bar)}]){}}",
+    "source": "class x {async *f(foo = [{m: t(await bar)}]){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

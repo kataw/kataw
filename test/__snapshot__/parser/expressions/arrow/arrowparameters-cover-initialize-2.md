@@ -116,7 +116,7 @@ var af = ({x = 1}) => x;
         }
     ],
     "isModule": false,
-    "text": "var af = ({x = 1}) => x;",
+    "source": "var af = ({x = 1}) => x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

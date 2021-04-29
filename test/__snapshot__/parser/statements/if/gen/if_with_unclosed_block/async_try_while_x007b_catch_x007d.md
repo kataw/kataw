@@ -160,7 +160,7 @@ else {} if(x) { async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "else {} if(x) { async try while { catch }",
+    "source": "else {} if(x) { async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

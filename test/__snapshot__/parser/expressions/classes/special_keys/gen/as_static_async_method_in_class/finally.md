@@ -114,7 +114,7 @@ class x {static async finally(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async finally(){}}",
+    "source": "class x {static async finally(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\xq6\"",
+    "source": "\"\\xq6\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

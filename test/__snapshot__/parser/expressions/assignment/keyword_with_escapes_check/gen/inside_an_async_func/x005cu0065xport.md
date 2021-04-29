@@ -87,7 +87,7 @@ async () => {  \u0065xport = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0065xport = x  }",
+    "source": "async () => {  \\u0065xport = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

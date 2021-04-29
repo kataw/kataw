@@ -150,7 +150,7 @@ do {} while (x) { catch { try
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { catch { try",
+    "source": "do {} while (x) { catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

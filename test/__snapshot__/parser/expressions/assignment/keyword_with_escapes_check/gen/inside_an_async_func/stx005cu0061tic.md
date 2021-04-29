@@ -91,7 +91,7 @@ async () => {  st\u0061tic = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  st\\u0061tic = x  }",
+    "source": "async () => {  st\\u0061tic = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

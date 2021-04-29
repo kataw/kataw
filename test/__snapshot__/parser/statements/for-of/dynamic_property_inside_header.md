@@ -171,7 +171,7 @@ async function f() {
         }
     ],
     "isModule": false,
-    "text": "async function f() {\n    for await (x[a in b] of y);\n}",
+    "source": "async function f() {\n    for await (x[a in b] of y);\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

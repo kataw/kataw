@@ -151,7 +151,7 @@ if if if try { !xxx
         }
     ],
     "isModule": false,
-    "text": "if if if try { !xxx",
+    "source": "if if if try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -153,7 +153,7 @@ var {x = 10, y: { z = 10}} = a;
         }
     ],
     "isModule": false,
-    "text": "var {x = 10, y: { z = 10}} = a;",
+    "source": "var {x = 10, y: { z = 10}} = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

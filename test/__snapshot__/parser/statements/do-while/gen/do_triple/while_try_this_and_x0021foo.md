@@ -195,7 +195,7 @@ do do do while try this and !foo while while while
         }
     ],
     "isModule": false,
-    "text": "do do do while try this and !foo while while while",
+    "source": "do do do while try this and !foo while while while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

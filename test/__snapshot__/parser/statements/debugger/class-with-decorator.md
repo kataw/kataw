@@ -70,7 +70,7 @@ class x {}
         }
     ],
     "isModule": false,
-    "text": "@A\nclass x {}",
+    "source": "@A\nclass x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "({async 8(){});",
+    "source": "({async 8(){});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

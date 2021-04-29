@@ -197,7 +197,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
         }
     ],
     "isModule": false,
-    "text": "x={ dsda(){ return async function(a=super.foo){} }}",
+    "source": "x={ dsda(){ return async function(a=super.foo){} }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

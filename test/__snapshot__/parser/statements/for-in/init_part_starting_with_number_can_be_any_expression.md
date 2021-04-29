@@ -110,7 +110,7 @@ for (2 + b in obj);
         }
     ],
     "isModule": false,
-    "text": "for (2 + b in obj);",
+    "source": "for (2 + b in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

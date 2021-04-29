@@ -150,7 +150,7 @@ function *f(){ return [...yield x]; }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ return [...yield x]; }",
+    "source": "function *f(){ return [...yield x]; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

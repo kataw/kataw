@@ -165,7 +165,7 @@ class x { \u0063onstructor(){}; constructor(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { \\u0063onstructor(){}; constructor(){} }",
+    "source": "class x { \\u0063onstructor(){}; constructor(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

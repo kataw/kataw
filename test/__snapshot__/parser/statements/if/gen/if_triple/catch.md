@@ -119,7 +119,7 @@ if if if catch
         }
     ],
     "isModule": false,
-    "text": "if if if catch",
+    "source": "if if if catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

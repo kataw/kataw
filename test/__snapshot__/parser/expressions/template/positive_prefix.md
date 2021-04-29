@@ -43,7 +43,7 @@
         }
     ],
     "isModule": false,
-    "text": "+a",
+    "source": "+a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

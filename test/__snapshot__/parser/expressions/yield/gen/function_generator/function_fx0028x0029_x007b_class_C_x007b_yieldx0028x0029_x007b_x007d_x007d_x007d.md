@@ -253,7 +253,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function f() { class C { yield() { } } } }}",
+    "source": "function * gen() { function not_gen() { function f() { class C { yield() { } } } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

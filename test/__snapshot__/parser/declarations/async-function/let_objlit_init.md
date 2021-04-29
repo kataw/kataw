@@ -86,7 +86,7 @@ let {} = x
         }
     ],
     "isModule": false,
-    "text": "let {} = x",
+    "source": "let {} = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

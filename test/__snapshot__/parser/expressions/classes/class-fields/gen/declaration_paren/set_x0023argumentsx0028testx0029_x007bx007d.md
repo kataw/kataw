@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base { set #arguments(test) {} });",
+    "source": "(class extends Base { set #arguments(test) {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

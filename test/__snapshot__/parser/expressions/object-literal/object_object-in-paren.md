@@ -88,7 +88,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...{a, b}})\n",
+    "source": "({...{a, b}})\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -443,7 +443,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...x=y});\n({...x+y});\n({...x, ...y});\n({...x.y} = z);\n({...x, y});\n([{x = y}] = z);",
+    "source": "({...x=y});\n({...x+y});\n({...x, ...y});\n({...x.y} = z);\n({...x, y});\n([{x = y}] = z);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

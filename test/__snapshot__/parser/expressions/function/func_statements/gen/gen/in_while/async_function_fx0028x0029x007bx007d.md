@@ -98,7 +98,7 @@ while (x) async function f(){}
         }
     ],
     "isModule": false,
-    "text": "while (x) async function f(){}",
+    "source": "while (x) async function f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

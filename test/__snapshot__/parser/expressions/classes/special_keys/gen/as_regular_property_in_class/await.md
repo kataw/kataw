@@ -88,7 +88,7 @@ class x {await: x}
         }
     ],
     "isModule": false,
-    "text": "class x {await: x}",
+    "source": "class x {await: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

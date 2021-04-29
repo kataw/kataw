@@ -107,7 +107,7 @@ var { x: x = 10 } = x;
         }
     ],
     "isModule": false,
-    "text": "var { x: x = 10 } = x;",
+    "source": "var { x: x = 10 } = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

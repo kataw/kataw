@@ -102,7 +102,7 @@ do while [catch] /**/ /x do while
         }
     ],
     "isModule": false,
-    "text": "do while [catch] /**/ /x do while",
+    "source": "do while [catch] /**/ /x do while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

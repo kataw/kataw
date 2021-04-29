@@ -133,7 +133,7 @@ class x {static set yield(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set yield(x){}}",
+    "source": "class x {static set yield(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

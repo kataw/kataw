@@ -62,7 +62,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ { { default",
+    "source": "{ { { default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

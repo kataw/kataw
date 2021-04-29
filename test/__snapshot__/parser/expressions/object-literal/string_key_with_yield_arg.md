@@ -123,7 +123,7 @@ s = {"foo": yield /x/}
         }
     ],
     "isModule": false,
-    "text": "s = {\"foo\": yield /x/}",
+    "source": "s = {\"foo\": yield /x/}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

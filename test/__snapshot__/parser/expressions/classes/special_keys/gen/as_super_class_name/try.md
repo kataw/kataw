@@ -111,7 +111,7 @@ class x extends try {}
         }
     ],
     "isModule": false,
-    "text": "class x extends try {}",
+    "source": "class x extends try {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -113,7 +113,7 @@ class C { async *#arguments() {} }
         }
     ],
     "isModule": false,
-    "text": "class C { async *#arguments() {} }",
+    "source": "class C { async *#arguments() {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

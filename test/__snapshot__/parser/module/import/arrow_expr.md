@@ -129,7 +129,7 @@ let x = () => import {x} from "y"
         }
     ],
     "isModule": true,
-    "text": "let x = () => import {x} from \"y\"",
+    "source": "let x = () => import {x} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

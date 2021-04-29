@@ -114,7 +114,7 @@ class x {static * return(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * return(){}}",
+    "source": "class x {static * return(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -75,7 +75,7 @@ export {x,} from "foo"
         }
     ],
     "isModule": true,
-    "text": "export {x,} from \"foo\"",
+    "source": "export {x,} from \"foo\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

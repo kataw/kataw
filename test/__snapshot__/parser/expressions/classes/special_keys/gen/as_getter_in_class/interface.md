@@ -109,7 +109,7 @@ class x {get interface(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get interface(){}}",
+    "source": "class x {get interface(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

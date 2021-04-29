@@ -105,7 +105,7 @@ let [foo] = arr;
         }
     ],
     "isModule": false,
-    "text": "let [foo] = arr;",
+    "source": "let [foo] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

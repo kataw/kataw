@@ -238,7 +238,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { abstract class function !!",
+    "source": "{ {} finally(x) { abstract class function !!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

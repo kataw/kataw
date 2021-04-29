@@ -83,7 +83,7 @@ async () => {  \u0064ebugger = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0064ebugger = x  }",
+    "source": "async () => {  \\u0064ebugger = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

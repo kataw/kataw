@@ -94,7 +94,7 @@
         }
     ],
     "isModule": false,
-    "text": "<x>(): string => {}",
+    "source": "<x>(): string => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

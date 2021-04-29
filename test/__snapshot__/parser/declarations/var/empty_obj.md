@@ -87,7 +87,7 @@ var {} = obj;
         }
     ],
     "isModule": false,
-    "text": "var {} = obj;",
+    "source": "var {} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

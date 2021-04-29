@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { {switch",
+    "source": "{ {} finally(x) { {switch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

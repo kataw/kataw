@@ -130,7 +130,7 @@ const map = {
         }
     ],
     "isModule": false,
-    "text": "const map = {\n  [age <= 17] : 'Too young'\n};",
+    "source": "const map = {\n  [age <= 17] : 'Too young'\n};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

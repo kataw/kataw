@@ -167,7 +167,7 @@ async function p(){
         }
     ],
     "isModule": false,
-    "text": "async function p(){\n  class C extends async a => b {}\n}",
+    "source": "async function p(){\n  class C extends async a => b {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -130,7 +130,7 @@ return async try while { catch } return
         }
     ],
     "isModule": false,
-    "text": "return async try while { catch } return",
+    "source": "return async try while { catch } return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -119,7 +119,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends async function(){} {})",
+    "source": "(class B extends async function(){} {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -126,7 +126,7 @@ const q
         }
     ],
     "isModule": false,
-    "text": "const q\n/d/",
+    "source": "const q\n/d/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

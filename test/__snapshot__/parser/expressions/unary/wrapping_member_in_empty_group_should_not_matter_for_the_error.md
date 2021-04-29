@@ -63,7 +63,7 @@ delete (foo.bar);
         }
     ],
     "isModule": false,
-    "text": "delete (foo.bar);",
+    "source": "delete (foo.bar);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

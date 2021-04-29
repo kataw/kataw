@@ -101,7 +101,7 @@ var a : [] = [];
         }
     ],
     "isModule": false,
-    "text": "var a : [] = [];",
+    "source": "var a : [] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

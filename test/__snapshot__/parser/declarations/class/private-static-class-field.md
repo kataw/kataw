@@ -93,7 +93,7 @@ class C { static #aaa }
         }
     ],
     "isModule": false,
-    "text": "class C { static #aaa }",
+    "source": "class C { static #aaa }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

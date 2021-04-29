@@ -123,7 +123,7 @@ function x(){
         }
     ],
     "isModule": false,
-    "text": "function x(){\n  if (x)\n    debugger\n    / /;\n  else;\n}",
+    "source": "function x(){\n  if (x)\n    debugger\n    / /;\n  else;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

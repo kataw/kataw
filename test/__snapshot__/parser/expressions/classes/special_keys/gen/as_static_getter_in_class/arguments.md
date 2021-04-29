@@ -114,7 +114,7 @@ class x {static get arguments(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get arguments(){}}",
+    "source": "class x {static get arguments(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -138,7 +138,7 @@
         }
     ],
     "isModule": true,
-    "text": "({a:(a,y) = 0} = 1)",
+    "source": "({a:(a,y) = 0} = 1)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

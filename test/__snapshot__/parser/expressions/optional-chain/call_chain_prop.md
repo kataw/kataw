@@ -106,7 +106,7 @@ c?.(d)?.[e]
         }
     ],
     "isModule": false,
-    "text": "c?.(d)?.[e]",
+    "source": "c?.(d)?.[e]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

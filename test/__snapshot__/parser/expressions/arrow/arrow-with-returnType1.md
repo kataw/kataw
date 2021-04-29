@@ -93,7 +93,7 @@
         }
     ],
     "isModule": false,
-    "text": "(foo, bar): z => null",
+    "source": "(foo, bar): z => null",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

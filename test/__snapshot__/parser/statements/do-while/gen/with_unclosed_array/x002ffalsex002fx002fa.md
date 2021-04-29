@@ -89,7 +89,7 @@ do[ /false//a
         }
     ],
     "isModule": false,
-    "text": "do[ /false//a",
+    "source": "do[ /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

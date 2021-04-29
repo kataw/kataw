@@ -70,7 +70,7 @@ foo(a, b, c)
         }
     ],
     "isModule": false,
-    "text": "foo(a, b, c)",
+    "source": "foo(a, b, c)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

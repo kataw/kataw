@@ -146,7 +146,7 @@ for ({a: b.c}.foo of d) e
         }
     ],
     "isModule": false,
-    "text": "for ({a: b.c}.foo of d) e",
+    "source": "for ({a: b.c}.foo of d) e",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

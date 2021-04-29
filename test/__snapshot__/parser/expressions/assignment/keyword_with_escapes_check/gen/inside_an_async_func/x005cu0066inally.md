@@ -106,7 +106,7 @@ async () => {  \u0066inally = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0066inally = x  }",
+    "source": "async () => {  \\u0066inally = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -142,7 +142,7 @@ var await; var f = (async function() { async function f(){ await \n x; } });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { async function f(){ await \\n x; } });",
+    "source": "var await; var f = (async function() { async function f(){ await \\n x; } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

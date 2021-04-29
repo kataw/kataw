@@ -96,7 +96,7 @@ x, [foo, bar] = doo;
         }
     ],
     "isModule": false,
-    "text": "x, [foo, bar] = doo;",
+    "source": "x, [foo, bar] = doo;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

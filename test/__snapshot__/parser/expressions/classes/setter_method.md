@@ -130,7 +130,7 @@ class A {set 9(x){}}
         }
     ],
     "isModule": true,
-    "text": "class A {set 9(x){}}",
+    "source": "class A {set 9(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

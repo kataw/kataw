@@ -99,7 +99,7 @@ class A extends a = b {}
         }
     ],
     "isModule": false,
-    "text": "class A extends a = b {}",
+    "source": "class A extends a = b {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

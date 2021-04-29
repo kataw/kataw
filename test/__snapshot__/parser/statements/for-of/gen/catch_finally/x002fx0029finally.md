@@ -56,7 +56,7 @@ catch /)finally finally
         }
     ],
     "isModule": false,
-    "text": "catch /)finally finally",
+    "source": "catch /)finally finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

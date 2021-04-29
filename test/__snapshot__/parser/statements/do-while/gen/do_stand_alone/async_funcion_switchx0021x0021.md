@@ -113,7 +113,7 @@ do async funcion switch!!
         }
     ],
     "isModule": false,
-    "text": "do async funcion switch!!",
+    "source": "do async funcion switch!!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -88,7 +88,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a:this}=0)",
+    "source": "({a:this}=0)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

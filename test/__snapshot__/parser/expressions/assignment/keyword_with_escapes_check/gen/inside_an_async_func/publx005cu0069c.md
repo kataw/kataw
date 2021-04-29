@@ -91,7 +91,7 @@ async () => {  publ\u0069c = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  publ\\u0069c = x  }",
+    "source": "async () => {  publ\\u0069c = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ import { null as nil } from "bar"
         }
     ],
     "isModule": true,
-    "text": "import { null as nil } from \"bar\"",
+    "source": "import { null as nil } from \"bar\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

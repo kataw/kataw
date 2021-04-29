@@ -128,7 +128,7 @@ class x {set var(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set var(x){}}",
+    "source": "class x {set var(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

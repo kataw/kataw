@@ -84,7 +84,7 @@ x = {0b001001: y}
         }
     ],
     "isModule": false,
-    "text": "x = {0b001001: y}",
+    "source": "x = {0b001001: y}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

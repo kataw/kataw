@@ -127,7 +127,7 @@ a=function<T,S>() {}
         }
     ],
     "isModule": false,
-    "text": "a=function<T,S>() {}",
+    "source": "a=function<T,S>() {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

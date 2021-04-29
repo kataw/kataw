@@ -101,7 +101,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ * bar(yield){}})",
+    "source": "({ * bar(yield){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

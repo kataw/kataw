@@ -349,7 +349,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)}]){}} });",
+    "source": "var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)}]){}} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

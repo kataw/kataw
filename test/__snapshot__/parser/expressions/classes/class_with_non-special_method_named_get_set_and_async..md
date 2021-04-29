@@ -202,7 +202,7 @@ class A {set(){} get(){} async(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {set(){} get(){} async(){}}",
+    "source": "class A {set(){} get(){} async(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

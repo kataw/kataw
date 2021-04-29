@@ -98,7 +98,7 @@ typeof x;
         }
     ],
     "isModule": false,
-    "text": "!a;\n+b;\n\ntypeof x;",
+    "source": "!a;\n+b;\n\ntypeof x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

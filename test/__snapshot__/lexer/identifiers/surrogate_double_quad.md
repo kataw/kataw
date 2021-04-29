@@ -37,7 +37,7 @@ abc\uD835\uDFD0def
         }
     ],
     "isModule": false,
-    "text": "abc\\uD835\\uDFD0def",
+    "source": "abc\\uD835\\uDFD0def",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

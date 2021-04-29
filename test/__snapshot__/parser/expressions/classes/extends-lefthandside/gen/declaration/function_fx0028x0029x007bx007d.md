@@ -110,7 +110,7 @@ class A extends function f(){} {}
         }
     ],
     "isModule": false,
-    "text": "class A extends function f(){} {}",
+    "source": "class A extends function f(){} {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

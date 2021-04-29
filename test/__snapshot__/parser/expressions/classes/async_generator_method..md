@@ -110,7 +110,7 @@ class A {async * 34(){}}
         }
     ],
     "isModule": false,
-    "text": "class A {async * 34(){}}",
+    "source": "class A {async * 34(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

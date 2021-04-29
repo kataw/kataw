@@ -95,7 +95,7 @@ bar ? (return => {}) : baz;
         }
     ],
     "isModule": false,
-    "text": "bar ? (return => {}) : baz;",
+    "source": "bar ? (return => {}) : baz;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

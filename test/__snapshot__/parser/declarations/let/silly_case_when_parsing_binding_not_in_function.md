@@ -62,7 +62,7 @@ let foo,)
         }
     ],
     "isModule": false,
-    "text": "let foo,)",
+    "source": "let foo,)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

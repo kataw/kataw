@@ -156,7 +156,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; let x = function f(foo = await bar){",
+    "source": "'use strict'; let x = function f(foo = await bar){",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -66,7 +66,7 @@ d\u0065lete = x;
         }
     ],
     "isModule": false,
-    "text": "d\\u0065lete = x;",
+    "source": "d\\u0065lete = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

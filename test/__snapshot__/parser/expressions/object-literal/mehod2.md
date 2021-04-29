@@ -615,7 +615,7 @@ x = { method(test) { } }
         }
     ],
     "isModule": false,
-    "text": "x = { method() { } }\n\nx = { get() { } }\n\nx = { set() { } }\n\nx = { method(test) { } }\n\n({ function(){}});\n\nx = ({ declare(){}});\n\nx = { method(test) { } }",
+    "source": "x = { method() { } }\n\nx = { get() { } }\n\nx = { set() { } }\n\nx = { method(test) { } }\n\n({ function(){}});\n\nx = ({ declare(){}});\n\nx = { method(test) { } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

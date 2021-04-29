@@ -141,7 +141,7 @@ class C { *method() { super; } }
         }
     ],
     "isModule": false,
-    "text": "class C { *method() { super; } }",
+    "source": "class C { *method() { super; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

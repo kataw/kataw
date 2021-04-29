@@ -104,7 +104,7 @@ class x {throw(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {throw(){}}",
+    "source": "class x {throw(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

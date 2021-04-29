@@ -135,7 +135,7 @@ if else catch { try
         }
     ],
     "isModule": false,
-    "text": "if else catch { try",
+    "source": "if else catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

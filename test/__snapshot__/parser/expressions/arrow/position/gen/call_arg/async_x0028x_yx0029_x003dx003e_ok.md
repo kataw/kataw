@@ -96,7 +96,7 @@ foo(async (x, y) => ok)
         }
     ],
     "isModule": false,
-    "text": "foo(async (x, y) => ok)",
+    "source": "foo(async (x, y) => ok)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

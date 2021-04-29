@@ -35,7 +35,7 @@
         }
     ],
     "isModule": false,
-    "text": "({e=[]}==(;",
+    "source": "({e=[]}==(;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

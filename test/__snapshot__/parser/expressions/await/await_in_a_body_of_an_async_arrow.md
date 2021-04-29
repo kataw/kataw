@@ -134,7 +134,7 @@ let y = async x => { await x; }
         }
     ],
     "isModule": false,
-    "text": "let y = async x => { await x; }",
+    "source": "let y = async x => { await x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -155,7 +155,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] super[b?.a]",
+    "source": "{ [catch] super[b?.a]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

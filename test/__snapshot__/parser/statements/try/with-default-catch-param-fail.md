@@ -135,7 +135,7 @@ try { } catch ([a] = []) { }
         }
     ],
     "isModule": false,
-    "text": "try { } catch ([a] = []) { }",
+    "source": "try { } catch ([a] = []) { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

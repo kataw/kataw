@@ -67,7 +67,7 @@ new x => x
         }
     ],
     "isModule": false,
-    "text": "new x => x",
+    "source": "new x => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

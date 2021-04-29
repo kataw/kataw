@@ -90,7 +90,7 @@ class x extends delete {}
         }
     ],
     "isModule": false,
-    "text": "class x extends delete {}",
+    "source": "class x extends delete {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

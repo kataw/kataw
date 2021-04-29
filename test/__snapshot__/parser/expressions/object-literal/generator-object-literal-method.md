@@ -141,7 +141,7 @@ var x = { *test () { yield *v } };
         }
     ],
     "isModule": false,
-    "text": "var x = { *test () { yield *v } };",
+    "source": "var x = { *test () { yield *v } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

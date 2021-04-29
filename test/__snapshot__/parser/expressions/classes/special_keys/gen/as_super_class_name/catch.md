@@ -106,7 +106,7 @@ class x extends catch {}
         }
     ],
     "isModule": false,
-    "text": "class x extends catch {}",
+    "source": "class x extends catch {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

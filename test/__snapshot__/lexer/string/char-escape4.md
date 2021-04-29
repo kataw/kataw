@@ -79,7 +79,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\r\\n\"\n;\n\"prefix\\r\\n\"\n;\n\"\\r\\nsuffix\"\n;\n\"\\rinfix\\nsuffix\"",
+    "source": "\"\\r\\n\"\n;\n\"prefix\\r\\n\"\n;\n\"\\r\\nsuffix\"\n;\n\"\\rinfix\\nsuffix\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

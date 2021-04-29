@@ -88,7 +88,7 @@ class x {enum: x}
         }
     ],
     "isModule": false,
-    "text": "class x {enum: x}",
+    "source": "class x {enum: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

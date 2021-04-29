@@ -77,7 +77,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ __proto__, __proto__: null })",
+    "source": "({ __proto__, __proto__: null })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

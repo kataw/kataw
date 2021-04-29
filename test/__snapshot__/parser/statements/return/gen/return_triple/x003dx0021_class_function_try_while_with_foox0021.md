@@ -256,7 +256,7 @@ return return return =! class function try while with foo!
         }
     ],
     "isModule": false,
-    "text": "return return return =! class function try while with foo!",
+    "source": "return return return =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

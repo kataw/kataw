@@ -121,7 +121,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class B extends function f(){} {})",
+    "source": "(class B extends function f(){} {})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

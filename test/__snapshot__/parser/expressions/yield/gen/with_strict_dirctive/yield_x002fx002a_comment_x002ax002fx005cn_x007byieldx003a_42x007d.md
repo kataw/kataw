@@ -100,7 +100,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; yield /* comment */\\n {yield: 42}",
+    "source": "'use strict'; yield /* comment */\\n {yield: 42}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

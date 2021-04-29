@@ -110,7 +110,7 @@ delete (((((foo(yield)))))).bar
         }
     ],
     "isModule": false,
-    "text": "delete (((((foo(yield)))))).bar",
+    "source": "delete (((((foo(yield)))))).bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

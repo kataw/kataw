@@ -96,7 +96,7 @@ var asyncArrow = async(await) => 1;
         }
     ],
     "isModule": false,
-    "text": "var asyncArrow = async(await) => 1;",
+    "source": "var asyncArrow = async(await) => 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

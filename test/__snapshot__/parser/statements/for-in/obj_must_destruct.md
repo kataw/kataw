@@ -128,7 +128,7 @@ for ({x=y}=x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for ({x=y}=x in x) ;",
+    "source": "for ({x=y}=x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {static implements(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static implements(){}}",
+    "source": "class x {static implements(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -93,7 +93,7 @@ delete async x => {}
         }
     ],
     "isModule": false,
-    "text": "delete async x => {}",
+    "source": "delete async x => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

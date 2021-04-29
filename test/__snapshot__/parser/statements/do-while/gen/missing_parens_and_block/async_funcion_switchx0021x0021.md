@@ -118,7 +118,7 @@ do async funcion switch!! while
         }
     ],
     "isModule": false,
-    "text": "do async funcion switch!! while",
+    "source": "do async funcion switch!! while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

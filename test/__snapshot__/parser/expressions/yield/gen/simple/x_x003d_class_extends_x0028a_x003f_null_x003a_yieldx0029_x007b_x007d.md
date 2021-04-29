@@ -129,7 +129,7 @@ x = class extends (a ? null : yield) { }
         }
     ],
     "isModule": false,
-    "text": "x = class extends (a ? null : yield) { }",
+    "source": "x = class extends (a ? null : yield) { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

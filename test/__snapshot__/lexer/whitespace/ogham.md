@@ -115,7 +115,7 @@ left@{x1680}@right
         }
     ],
     "isModule": false,
-    "text": "left@{x1680}@right",
+    "source": "left@{x1680}@right",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

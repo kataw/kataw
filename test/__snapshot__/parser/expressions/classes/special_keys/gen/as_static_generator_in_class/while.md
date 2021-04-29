@@ -114,7 +114,7 @@ class x {static * while(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * while(){}}",
+    "source": "class x {static * while(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

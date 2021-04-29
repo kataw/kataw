@@ -142,7 +142,7 @@
         }
     ],
     "isModule": false,
-    "text": "[x().y = a + b] = z",
+    "source": "[x().y = a + b] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -87,7 +87,7 @@ foo: function() {}
         }
     ],
     "isModule": false,
-    "text": "\"use strict\";\nfoo: function() {}",
+    "source": "\"use strict\";\nfoo: function() {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

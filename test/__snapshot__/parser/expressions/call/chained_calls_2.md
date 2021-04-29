@@ -146,7 +146,7 @@ foo(a)(b)(c)(d)(e)
         }
     ],
     "isModule": false,
-    "text": "foo(a)(b)(c)(d)(e)",
+    "source": "foo(a)(b)(c)(d)(e)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

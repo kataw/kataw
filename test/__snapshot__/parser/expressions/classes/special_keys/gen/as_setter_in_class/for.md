@@ -128,7 +128,7 @@ class x {set for(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set for(x){}}",
+    "source": "class x {set for(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

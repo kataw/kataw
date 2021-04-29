@@ -112,7 +112,7 @@ class A {get foo(){}}
         }
     ],
     "isModule": true,
-    "text": "class A {get foo(){}}",
+    "source": "class A {get foo(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

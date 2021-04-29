@@ -85,7 +85,7 @@ function f(){foo}
         }
     ],
     "isModule": true,
-    "text": "function f(){foo}",
+    "source": "function f(){foo}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

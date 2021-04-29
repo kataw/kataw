@@ -114,7 +114,7 @@ class x {async * else(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * else(){}}",
+    "source": "class x {async * else(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -127,7 +127,7 @@ async function f(){ await \n x; }
         }
     ],
     "isModule": false,
-    "text": "async function f(){ await \\n x; }",
+    "source": "async function f(){ await \\n x; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

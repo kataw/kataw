@@ -46,7 +46,7 @@
         }
     ],
     "isModule": false,
-    "text": "'foo';\n\"bar\";",
+    "source": "'foo';\n\"bar\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

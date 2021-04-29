@@ -84,7 +84,7 @@ for(x of 3)break/
         }
     ],
     "isModule": false,
-    "text": "for(x of 3)break/",
+    "source": "for(x of 3)break/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

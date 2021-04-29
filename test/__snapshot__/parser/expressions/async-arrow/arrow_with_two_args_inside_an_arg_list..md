@@ -118,7 +118,7 @@ f((async (a, b) => a + b));
         }
     ],
     "isModule": false,
-    "text": "f((async (a, b) => a + b));",
+    "source": "f((async (a, b) => a + b));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

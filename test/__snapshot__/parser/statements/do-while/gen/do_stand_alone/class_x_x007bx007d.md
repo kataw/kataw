@@ -72,7 +72,7 @@ do class x {}
         }
     ],
     "isModule": false,
-    "text": "do class x {}",
+    "source": "do class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

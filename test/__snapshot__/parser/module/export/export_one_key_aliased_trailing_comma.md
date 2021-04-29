@@ -138,7 +138,7 @@ var x; export {x as a,}
         }
     ],
     "isModule": true,
-    "text": "var x; export {x as a,}",
+    "source": "var x; export {x as a,}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

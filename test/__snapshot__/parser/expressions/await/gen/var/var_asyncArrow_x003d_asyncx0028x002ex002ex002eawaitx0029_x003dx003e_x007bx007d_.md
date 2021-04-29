@@ -265,7 +265,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { var asyncArrow = async(...await) => {}; });",
+    "source": "var await; var f = (async function() { var asyncArrow = async(...await) => {}; });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -74,7 +74,7 @@ var foo: null
         }
     ],
     "isModule": false,
-    "text": "var foo: null",
+    "source": "var foo: null",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

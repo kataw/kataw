@@ -109,7 +109,7 @@ for (/x/g + b in obj);
         }
     ],
     "isModule": false,
-    "text": "for (/x/g + b in obj);",
+    "source": "for (/x/g + b in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

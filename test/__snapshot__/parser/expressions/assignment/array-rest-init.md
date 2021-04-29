@@ -120,7 +120,7 @@
         }
     ],
     "isModule": false,
-    "text": "0, [...x = 1] = [];",
+    "source": "0, [...x = 1] = [];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

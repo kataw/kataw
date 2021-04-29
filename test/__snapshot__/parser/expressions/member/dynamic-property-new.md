@@ -106,7 +106,7 @@
         }
     ],
     "isModule": false,
-    "text": "[new x()[y]] = z",
+    "source": "[new x()[y]] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

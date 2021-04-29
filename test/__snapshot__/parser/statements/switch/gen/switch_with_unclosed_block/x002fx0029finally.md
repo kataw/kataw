@@ -116,7 +116,7 @@ switch {} default(x) { /)finally
         }
     ],
     "isModule": false,
-    "text": "switch {} default(x) { /)finally",
+    "source": "switch {} default(x) { /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

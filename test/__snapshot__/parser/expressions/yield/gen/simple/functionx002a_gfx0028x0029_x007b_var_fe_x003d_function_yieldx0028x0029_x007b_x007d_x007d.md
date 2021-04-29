@@ -157,7 +157,7 @@ function* gf() { var fe = function yield() { } }
         }
     ],
     "isModule": false,
-    "text": "function* gf() { var fe = function yield() { } }",
+    "source": "function* gf() { var fe = function yield() { } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

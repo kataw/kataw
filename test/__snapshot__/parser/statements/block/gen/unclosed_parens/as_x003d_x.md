@@ -53,7 +53,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( as = x",
+    "source": "{( as = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({yield(x, y) {}});",
+    "source": "({yield(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -81,7 +81,7 @@ class C { async = 0 }
         }
     ],
     "isModule": false,
-    "text": "class C { async = 0 }",
+    "source": "class C { async = 0 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

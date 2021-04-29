@@ -43,7 +43,7 @@ delete foo
         }
     ],
     "isModule": false,
-    "text": "delete foo",
+    "source": "delete foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

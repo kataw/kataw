@@ -89,7 +89,7 @@ post"
         }
     ],
     "isModule": false,
-    "text": "\"\\\n\"\n;\n\"pre\\\n\"\n;\n\"\\\npost\"\n;\n\"pre\\\npost\"",
+    "source": "\"\\\n\"\n;\n\"pre\\\n\"\n;\n\"\\\npost\"\n;\n\"pre\\\npost\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -118,7 +118,7 @@ function* f(){ yield x + y; }
         }
     ],
     "isModule": false,
-    "text": "function* f(){ yield x + y; }",
+    "source": "function* f(){ yield x + y; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

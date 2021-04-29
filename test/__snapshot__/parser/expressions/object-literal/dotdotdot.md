@@ -167,7 +167,7 @@ var { ...{ x = 5 } } = {x : 1};
         }
     ],
     "isModule": false,
-    "text": "var { ...{ x = 5 } } = {x : 1};",
+    "source": "var { ...{ x = 5 } } = {x : 1};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -69,7 +69,7 @@ let async
         }
     ],
     "isModule": false,
-    "text": "let async\n => async",
+    "source": "let async\n => async",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

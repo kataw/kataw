@@ -55,7 +55,7 @@ async (await) => x
         }
     ],
     "isModule": false,
-    "text": "async (await) => x",
+    "source": "async (await) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

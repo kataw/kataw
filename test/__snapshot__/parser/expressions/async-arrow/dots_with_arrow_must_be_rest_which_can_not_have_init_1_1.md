@@ -88,7 +88,7 @@ async (a, ...b+b=c) => a;
         }
     ],
     "isModule": false,
-    "text": "async (a, ...b+b=c) => a;",
+    "source": "async (a, ...b+b=c) => a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

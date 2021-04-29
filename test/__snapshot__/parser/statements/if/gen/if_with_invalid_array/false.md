@@ -92,7 +92,7 @@ if [else] false
         }
     ],
     "isModule": false,
-    "text": "if [else] false",
+    "source": "if [else] false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

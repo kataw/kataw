@@ -232,7 +232,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( =! class function try while with foo!",
+    "source": "{( =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

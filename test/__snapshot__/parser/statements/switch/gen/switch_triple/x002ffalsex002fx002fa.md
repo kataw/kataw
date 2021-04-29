@@ -119,7 +119,7 @@ switch switch switch /false//a
         }
     ],
     "isModule": false,
-    "text": "switch switch switch /false//a",
+    "source": "switch switch switch /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

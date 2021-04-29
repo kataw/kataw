@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*continue(x, y) {}});",
+    "source": "({*continue(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

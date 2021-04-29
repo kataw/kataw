@@ -87,7 +87,7 @@ try catch /)finally
         }
     ],
     "isModule": false,
-    "text": "try catch /)finally",
+    "source": "try catch /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

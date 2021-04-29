@@ -62,7 +62,7 @@ import(x,)
         }
     ],
     "isModule": false,
-    "text": "import(x,)",
+    "source": "import(x,)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

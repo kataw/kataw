@@ -104,7 +104,7 @@
         }
     ],
     "isModule": false,
-    "text": "({s: \"foo\".foo} = x)",
+    "source": "({s: \"foo\".foo} = x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

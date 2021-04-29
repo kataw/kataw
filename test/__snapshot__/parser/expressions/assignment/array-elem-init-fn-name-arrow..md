@@ -135,7 +135,7 @@ result = [ arrow = () => {} ] = vals;
         }
     ],
     "isModule": true,
-    "text": "result = [ arrow = () => {} ] = vals;",
+    "source": "result = [ arrow = () => {} ] = vals;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

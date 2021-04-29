@@ -121,7 +121,7 @@
         }
     ],
     "isModule": false,
-    "text": "[please, {[make]: it}, stop] = bwahahahaha",
+    "source": "[please, {[make]: it}, stop] = bwahahahaha",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

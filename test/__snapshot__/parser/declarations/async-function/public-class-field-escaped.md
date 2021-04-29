@@ -81,7 +81,7 @@ class C { \\u0041 }
         }
     ],
     "isModule": false,
-    "text": "class C { \\\\u0041 }",
+    "source": "class C { \\\\u0041 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

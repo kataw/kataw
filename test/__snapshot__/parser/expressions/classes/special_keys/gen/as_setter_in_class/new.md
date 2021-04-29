@@ -128,7 +128,7 @@ class x {set new(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set new(x){}}",
+    "source": "class x {set new(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -76,7 +76,7 @@ for (yield in x);
         }
     ],
     "isModule": false,
-    "text": "for (yield in x);",
+    "source": "for (yield in x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

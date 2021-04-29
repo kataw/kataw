@@ -145,7 +145,7 @@ class A { [x=y](foo) {} }
         }
     ],
     "isModule": false,
-    "text": "class A { [x=y](foo) {} }",
+    "source": "class A { [x=y](foo) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

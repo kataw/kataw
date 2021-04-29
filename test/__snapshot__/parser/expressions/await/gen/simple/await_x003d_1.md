@@ -55,7 +55,7 @@ await = 1
         }
     ],
     "isModule": false,
-    "text": "await = 1",
+    "source": "await = 1",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

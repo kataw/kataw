@@ -52,7 +52,7 @@ class enum {}
         }
     ],
     "isModule": false,
-    "text": "class enum {}",
+    "source": "class enum {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -185,7 +185,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ get x() { class C { get x) { super; } } } })",
+    "source": "({ get x() { class C { get x) { super; } } } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

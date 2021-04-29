@@ -69,7 +69,7 @@ x`foo ${a b} bar`
         }
     ],
     "isModule": false,
-    "text": "x`foo ${a b} bar`",
+    "source": "x`foo ${a b} bar`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

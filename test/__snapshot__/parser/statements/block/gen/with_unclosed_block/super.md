@@ -142,7 +142,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { super",
+    "source": "{ {} finally(x) { super",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

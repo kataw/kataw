@@ -168,7 +168,7 @@ function *f(){  ({*g(x=yield){}})  }
         }
     ],
     "isModule": false,
-    "text": "function *f(){  ({*g(x=yield){}})  }",
+    "source": "function *f(){  ({*g(x=yield){}})  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

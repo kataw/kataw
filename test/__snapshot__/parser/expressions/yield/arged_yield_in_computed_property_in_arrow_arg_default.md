@@ -77,7 +77,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ (x = {[yield y]: 1}) => z }",
+    "source": "{ (x = {[yield y]: 1}) => z }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

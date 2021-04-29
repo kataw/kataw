@@ -109,7 +109,7 @@ class x {async void(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async void(){}}",
+    "source": "class x {async void(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

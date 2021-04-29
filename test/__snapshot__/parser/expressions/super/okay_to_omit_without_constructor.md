@@ -68,7 +68,7 @@ class x extends y { }
         }
     ],
     "isModule": false,
-    "text": "class x extends y { }",
+    "source": "class x extends y { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

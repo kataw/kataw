@@ -95,7 +95,7 @@ class super {}
         }
     ],
     "isModule": false,
-    "text": "class super {}",
+    "source": "class super {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

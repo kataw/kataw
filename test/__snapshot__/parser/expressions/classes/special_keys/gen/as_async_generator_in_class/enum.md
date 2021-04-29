@@ -114,7 +114,7 @@ class x {async * enum(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * enum(){}}",
+    "source": "class x {async * enum(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

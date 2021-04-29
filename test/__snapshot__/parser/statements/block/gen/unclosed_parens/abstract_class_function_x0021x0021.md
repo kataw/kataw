@@ -166,7 +166,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( abstract class function !!",
+    "source": "{( abstract class function !!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

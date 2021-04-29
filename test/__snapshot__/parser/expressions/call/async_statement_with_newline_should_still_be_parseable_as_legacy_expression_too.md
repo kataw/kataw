@@ -55,7 +55,7 @@ async
         }
     ],
     "isModule": false,
-    "text": "async\n(2);",
+    "source": "async\n(2);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

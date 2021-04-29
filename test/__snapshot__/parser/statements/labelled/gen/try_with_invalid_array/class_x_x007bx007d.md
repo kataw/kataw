@@ -127,7 +127,7 @@ try [catch] class x {}
         }
     ],
     "isModule": false,
-    "text": "try [catch] class x {}",
+    "source": "try [catch] class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -83,7 +83,7 @@ let x = import(x)
         }
     ],
     "isModule": false,
-    "text": "let x = import(x)",
+    "source": "let x = import(x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

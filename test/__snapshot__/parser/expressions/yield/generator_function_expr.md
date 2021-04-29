@@ -104,7 +104,7 @@ let x = function *await(){}
         }
     ],
     "isModule": false,
-    "text": "let x = function *await(){}",
+    "source": "let x = function *await(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

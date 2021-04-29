@@ -45,7 +45,7 @@ pa\u0073s();
         }
     ],
     "isModule": false,
-    "text": "pa\\u0073s();",
+    "source": "pa\\u0073s();",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

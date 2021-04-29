@@ -69,7 +69,7 @@ let
         }
     ],
     "isModule": false,
-    "text": "let\n[]",
+    "source": "let\n[]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

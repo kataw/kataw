@@ -62,7 +62,7 @@ new fooo.bar
         }
     ],
     "isModule": false,
-    "text": "new fooo.bar",
+    "source": "new fooo.bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ const {,x} = obj;
         }
     ],
     "isModule": false,
-    "text": "const {,x} = obj;",
+    "source": "const {,x} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

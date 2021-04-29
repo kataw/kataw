@@ -70,7 +70,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ catch try {}",
+    "source": "{ catch try {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

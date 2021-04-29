@@ -114,7 +114,7 @@ class x {static async this(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async this(){}}",
+    "source": "class x {static async this(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

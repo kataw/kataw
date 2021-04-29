@@ -81,7 +81,7 @@ for (x in y in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (x in y in x) ;",
+    "source": "for (x in y in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

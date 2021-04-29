@@ -150,7 +150,7 @@ f = ([[,] = g()]) => {};
         }
     ],
     "isModule": true,
-    "text": "f = ([[,] = g()]) => {};",
+    "source": "f = ([[,] = g()]) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

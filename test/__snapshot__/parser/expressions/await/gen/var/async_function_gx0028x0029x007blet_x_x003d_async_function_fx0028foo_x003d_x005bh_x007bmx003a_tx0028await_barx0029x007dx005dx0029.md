@@ -404,7 +404,7 @@ var await; var f = (async function() { async function g(){let x = async function
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    } });",
+    "source": "var await; var f = (async function() { async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    } });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

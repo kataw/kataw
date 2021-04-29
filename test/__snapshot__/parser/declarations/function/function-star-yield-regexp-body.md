@@ -146,7 +146,7 @@ function *f() { yield
         }
     ],
     "isModule": false,
-    "text": "function *f() { yield\n{}/1/g\n}",
+    "source": "function *f() { yield\n{}/1/g\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

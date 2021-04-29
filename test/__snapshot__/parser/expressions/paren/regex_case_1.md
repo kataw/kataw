@@ -77,7 +77,7 @@
         }
     ],
     "isModule": false,
-    "text": "([delete /a/.x]);",
+    "source": "([delete /a/.x]);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

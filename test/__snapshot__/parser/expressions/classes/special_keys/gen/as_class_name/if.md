@@ -92,7 +92,7 @@ class if {}
         }
     ],
     "isModule": false,
-    "text": "class if {}",
+    "source": "class if {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

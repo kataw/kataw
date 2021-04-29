@@ -189,7 +189,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
         }
     ],
     "isModule": false,
-    "text": "f = ([xCls2 = class { static name() {} }]) => {}",
+    "source": "f = ([xCls2 = class { static name() {} }]) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

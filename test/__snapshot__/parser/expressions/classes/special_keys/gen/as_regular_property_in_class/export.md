@@ -88,7 +88,7 @@ class x {export: x}
         }
     ],
     "isModule": false,
-    "text": "class x {export: x}",
+    "source": "class x {export: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

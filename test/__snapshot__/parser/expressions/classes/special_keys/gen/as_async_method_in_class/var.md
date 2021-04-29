@@ -109,7 +109,7 @@ class x {async var(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async var(){}}",
+    "source": "class x {async var(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

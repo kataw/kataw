@@ -97,7 +97,7 @@ x={...true} = x
         }
     ],
     "isModule": false,
-    "text": "x={...true} = x",
+    "source": "x={...true} = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -80,7 +80,7 @@ switch (x) { case y: break; }
         }
     ],
     "isModule": false,
-    "text": "switch (x) { case y: break; }",
+    "source": "switch (x) { case y: break; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

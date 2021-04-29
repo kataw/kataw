@@ -101,7 +101,7 @@ try try try false
         }
     ],
     "isModule": false,
-    "text": "try try try false",
+    "source": "try try try false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

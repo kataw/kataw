@@ -181,7 +181,7 @@ return [catch] while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "return [catch] while try this and !foo",
+    "source": "return [catch] while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

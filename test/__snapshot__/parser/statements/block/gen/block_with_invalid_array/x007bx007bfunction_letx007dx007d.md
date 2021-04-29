@@ -152,7 +152,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] {{function let}}",
+    "source": "{ [catch] {{function let}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

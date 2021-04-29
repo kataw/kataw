@@ -61,7 +61,7 @@ for (`temp {waitforit} late` in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (`temp {waitforit} late` in x) ;",
+    "source": "for (`temp {waitforit} late` in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

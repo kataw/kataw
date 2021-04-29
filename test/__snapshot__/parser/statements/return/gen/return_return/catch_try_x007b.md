@@ -89,7 +89,7 @@ return catch try { return
         }
     ],
     "isModule": false,
-    "text": "return catch try { return",
+    "source": "return catch try { return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

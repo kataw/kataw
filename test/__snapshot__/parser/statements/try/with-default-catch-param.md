@@ -117,7 +117,7 @@ try { } catch ([a = 0]) { }
         }
     ],
     "isModule": false,
-    "text": "try { } catch ([a = 0]) { }",
+    "source": "try { } catch ([a = 0]) { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -199,7 +199,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
         }
     ],
     "isModule": false,
-    "text": "function* foo() { yield 2; if (true) { yield 3 }; yield 4 }",
+    "source": "function* foo() { yield 2; if (true) { yield 3 }; yield 4 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

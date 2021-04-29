@@ -94,7 +94,7 @@ f(async foo=>c)
         }
     ],
     "isModule": false,
-    "text": "f(async foo=>c)",
+    "source": "f(async foo=>c)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

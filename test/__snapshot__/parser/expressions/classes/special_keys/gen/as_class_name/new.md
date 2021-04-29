@@ -84,7 +84,7 @@ class new {}
         }
     ],
     "isModule": false,
-    "text": "class new {}",
+    "source": "class new {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

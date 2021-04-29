@@ -1217,7 +1217,7 @@ function targetKey() {
         }
     ],
     "isModule": false,
-    "text": "\nvar log = [];\n\nfunction source() {\n    log.push(\"source\");\n    return {\n        get p() {\n            log.push(\"get\");\n        }\n    };\n}\nfunction target() {\n    log.push(\"target\");\n    return {\n        set q(v) {\n            log.push(\"set\");\n        }\n    };\n}\nfunction sourceKey() {\n    log.push(\"source-key\");\n    return {\n        toString: function() {\n            log.push(\"source-key-tostring\");\n            return \"p\";\n        }\n    };\n}\nfunction targetKey() {\n    log.push(\"target-key\");\n    return {\n        toString: function() {\n            log.push(\"target-key-tostring\");\n            return \"q\";\n        }\n    };\n}\n\n\n({[sourceKey()]: target()[targetKey()]} = source());",
+    "source": "\nvar log = [];\n\nfunction source() {\n    log.push(\"source\");\n    return {\n        get p() {\n            log.push(\"get\");\n        }\n    };\n}\nfunction target() {\n    log.push(\"target\");\n    return {\n        set q(v) {\n            log.push(\"set\");\n        }\n    };\n}\nfunction sourceKey() {\n    log.push(\"source-key\");\n    return {\n        toString: function() {\n            log.push(\"source-key-tostring\");\n            return \"p\";\n        }\n    };\n}\nfunction targetKey() {\n    log.push(\"target-key\");\n    return {\n        toString: function() {\n            log.push(\"target-key-tostring\");\n            return \"q\";\n        }\n    };\n}\n\n\n({[sourceKey()]: target()[targetKey()]} = source());",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

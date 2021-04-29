@@ -84,7 +84,7 @@ export {foo, bar};
         }
     ],
     "isModule": true,
-    "text": "export {foo, bar};",
+    "source": "export {foo, bar};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

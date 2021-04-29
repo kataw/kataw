@@ -128,7 +128,7 @@ class x {set arguments(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set arguments(x){}}",
+    "source": "class x {set arguments(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

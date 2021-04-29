@@ -78,7 +78,7 @@ null?.fn
         }
     ],
     "isModule": false,
-    "text": "null?.fn\n  `hello`",
+    "source": "null?.fn\n  `hello`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

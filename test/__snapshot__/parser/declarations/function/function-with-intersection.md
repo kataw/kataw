@@ -174,7 +174,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
         }
     ],
     "isModule": false,
-    "text": "function x(a: | 1 | 2, b: & 3 & 4): number {}",
+    "source": "function x(a: | 1 | 2, b: & 3 & 4): number {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

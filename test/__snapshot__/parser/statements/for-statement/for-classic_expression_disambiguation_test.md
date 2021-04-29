@@ -144,7 +144,7 @@ for ((a * b + c) * d;b;c);
         }
     ],
     "isModule": false,
-    "text": "for ((a * b + c) * d;b;c);",
+    "source": "for ((a * b + c) * d;b;c);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

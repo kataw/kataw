@@ -114,7 +114,7 @@ class x {static * if(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * if(){}}",
+    "source": "class x {static * if(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

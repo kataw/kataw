@@ -184,7 +184,7 @@ x = { foo(){ [a = super.foo] = c; }}
         }
     ],
     "isModule": false,
-    "text": "x = { foo(){ [a = super.foo] = c; }}",
+    "source": "x = { foo(){ [a = super.foo] = c; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

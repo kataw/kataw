@@ -90,7 +90,7 @@ async () => {  c\u006fntinue = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  c\\u006fntinue = x  }",
+    "source": "async () => {  c\\u006fntinue = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -196,7 +196,7 @@
         }
     ],
     "isModule": false,
-    "text": " ({...a ? b : c});\n (x, {...a ? b : c});",
+    "source": " ({...a ? b : c});\n (x, {...a ? b : c});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

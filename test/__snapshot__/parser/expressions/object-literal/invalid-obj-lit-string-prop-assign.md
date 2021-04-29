@@ -110,7 +110,7 @@
         }
     ],
     "isModule": false,
-    "text": "({\"x\": y+z} = x)",
+    "source": "({\"x\": y+z} = x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

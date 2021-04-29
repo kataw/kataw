@@ -101,7 +101,7 @@ for ({}.u |= c;;) x;
         }
     ],
     "isModule": false,
-    "text": "for ({}.u |= c;;) x;",
+    "source": "for ({}.u |= c;;) x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

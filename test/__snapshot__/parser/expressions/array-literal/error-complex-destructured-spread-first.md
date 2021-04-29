@@ -109,7 +109,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...c, { a, b }] = d;",
+    "source": "[...c, { a, b }] = d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

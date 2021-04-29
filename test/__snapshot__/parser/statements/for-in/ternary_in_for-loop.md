@@ -118,7 +118,7 @@ for (true ? 0 : 0 in {}; false; ) ;
         }
     ],
     "isModule": false,
-    "text": "for (true ? 0 : 0 in {}; false; ) ;",
+    "source": "for (true ? 0 : 0 in {}; false; ) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

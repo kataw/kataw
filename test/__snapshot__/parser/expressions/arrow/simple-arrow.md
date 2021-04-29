@@ -56,7 +56,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a) => x",
+    "source": "(a) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -104,7 +104,7 @@ class x {do(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {do(){}}",
+    "source": "class x {do(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

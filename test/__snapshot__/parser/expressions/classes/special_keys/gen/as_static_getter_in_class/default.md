@@ -114,7 +114,7 @@ class x {static get default(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get default(){}}",
+    "source": "class x {static get default(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

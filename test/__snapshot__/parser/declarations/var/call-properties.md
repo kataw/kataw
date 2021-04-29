@@ -233,7 +233,7 @@ var a : { <T>(x: T): number; }
         }
     ],
     "isModule": false,
-    "text": "var a : { (): number; }\n\nvar a : { <T>(x: T): number; }",
+    "source": "var a : { (): number; }\n\nvar a : { <T>(x: T): number; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\xf",
+    "source": "\"\\xf",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

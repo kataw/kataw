@@ -75,7 +75,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a=/i/) = /i/",
+    "source": "(a=/i/) = /i/",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

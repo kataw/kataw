@@ -96,7 +96,7 @@ new async function *f(){}
         }
     ],
     "isModule": false,
-    "text": "new async function *f(){}",
+    "source": "new async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

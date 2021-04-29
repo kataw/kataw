@@ -128,7 +128,7 @@ class x {set else(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set else(x){}}",
+    "source": "class x {set else(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

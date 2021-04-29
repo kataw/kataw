@@ -103,7 +103,7 @@ var x; "use strict"; with (x) y;
         }
     ],
     "isModule": false,
-    "text": "var x; \"use strict\"; with (x) y;",
+    "source": "var x; \"use strict\"; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

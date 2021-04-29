@@ -84,7 +84,7 @@ var x = import(x)
         }
     ],
     "isModule": false,
-    "text": "var x = import(x)",
+    "source": "var x = import(x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

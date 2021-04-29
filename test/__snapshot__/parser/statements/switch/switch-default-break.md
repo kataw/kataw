@@ -128,7 +128,7 @@ switch(0) { default: function f(){ break; } }
         }
     ],
     "isModule": false,
-    "text": "switch(0) { default: function f(){ break; } }",
+    "source": "switch(0) { default: function f(){ break; } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

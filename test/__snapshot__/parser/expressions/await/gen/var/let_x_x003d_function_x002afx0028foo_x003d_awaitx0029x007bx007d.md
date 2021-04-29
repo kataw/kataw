@@ -260,7 +260,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { let x = function *f(foo = await){} });",
+    "source": "var await; var f = (async function() { let x = function *f(foo = await){} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

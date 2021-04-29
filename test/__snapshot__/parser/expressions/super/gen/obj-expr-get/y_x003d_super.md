@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ get x() { y = super } })",
+    "source": "({ get x() { y = super } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

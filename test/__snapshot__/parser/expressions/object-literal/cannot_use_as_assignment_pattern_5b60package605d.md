@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "({package} = x);",
+    "source": "({package} = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

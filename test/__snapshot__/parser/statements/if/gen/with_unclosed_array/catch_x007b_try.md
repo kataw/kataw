@@ -125,7 +125,7 @@ if[ catch { try
         }
     ],
     "isModule": false,
-    "text": "if[ catch { try",
+    "source": "if[ catch { try",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

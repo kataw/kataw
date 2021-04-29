@@ -66,7 +66,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( {switch{",
+    "source": "{( {switch{",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -215,7 +215,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function *a(){yield typeof 0} }}",
+    "source": "function * gen() { function not_gen() { function *a(){yield typeof 0} }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

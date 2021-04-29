@@ -88,7 +88,7 @@ else try { !xxx
         }
     ],
     "isModule": false,
-    "text": "else try { !xxx",
+    "source": "else try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

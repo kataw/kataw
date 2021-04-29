@@ -128,7 +128,7 @@ class x {set private(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set private(x){}}",
+    "source": "class x {set private(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

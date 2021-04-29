@@ -93,7 +93,7 @@ export const x, y
         }
     ],
     "isModule": true,
-    "text": "export const x, y",
+    "source": "export const x, y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

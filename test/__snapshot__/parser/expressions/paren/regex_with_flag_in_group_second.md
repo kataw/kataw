@@ -52,7 +52,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x, /x/g)",
+    "source": "(x, /x/g)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

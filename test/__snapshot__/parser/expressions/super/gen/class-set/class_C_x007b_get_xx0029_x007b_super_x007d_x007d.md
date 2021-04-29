@@ -227,7 +227,7 @@ class C { set x(_) { class C { get x) { super; } } } }
         }
     ],
     "isModule": false,
-    "text": "class C { set x(_) { class C { get x) { super; } } } }",
+    "source": "class C { set x(_) { class C { get x) { super; } } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

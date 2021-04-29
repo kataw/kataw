@@ -144,7 +144,7 @@ class x { foo(x=super.foo){ }}
         }
     ],
     "isModule": false,
-    "text": "class x { foo(x=super.foo){ }}",
+    "source": "class x { foo(x=super.foo){ }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

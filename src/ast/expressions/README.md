@@ -129,7 +129,6 @@ interface ElementList <: ExpressionNode {
   kind: NodeKind.ElementList;
   elements: [ Elison | SpreadElement | ExpressionNode ];
   trailingComma: boolean;
-  multiline: boolean;
 }
 ```
 
@@ -293,6 +292,7 @@ interface ClassElement <: ExpressionNode {
   kind: NodeKind.ClassElement;
   declareToken: SyntaxToken<TokenSyntaxKind> | null;
   decorators: DecoratorList | null;
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -398,7 +398,6 @@ interface FunctionBody <: ExpressionNode {
 interface FunctionStatementList <: ExpressionNode {
   kind: NodeKind.FunctionStatementList;
   statements: [ Statement ];
-  multiline: boolean;
 }
 ```
 
@@ -495,6 +494,7 @@ interface ImportCall <: ExpressionNode {
 interface ImportMeta <: ExpressionNode {
   kind: NodeKind.ImportMeta;
   importKeyword: SyntaxToken<TokenSyntaxKind>;
+  metaKeyword: SyntaxToken | null;
 }
 ```
 
@@ -546,7 +546,7 @@ interface NewExpression <: ExpressionNode {
 ```js
 interface NewTarget <: ExpressionNode {
   kind: NodeKind.NewTarget;
-  name: IdentifierName;
+  targettKeyword: SyntaxToken | null;
 }
 ```
 
@@ -728,15 +728,6 @@ interface PropertyName <: ExpressionNode {
 }
 ```
 
-### UnaryOperator
-
-```js
-  enum UpdateOp {
-  '++',
-  '--'
-  }
-```
-
 ### PrefixUpdateExpression
 
 ```js
@@ -776,7 +767,6 @@ interface PropertyDefinitionList <: ExpressionNode {
   kind: NodeKind.ObjectLiteral;
   properties: [ SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName ];
   trailingComma: boolean;
-  multiline: boolean;
 }
 ```
 
@@ -785,8 +775,12 @@ interface PropertyDefinitionList <: ExpressionNode {
 ```js
 interface PropertyDefinition <: ExpressionNode {
   kind: NodeKind.PropertyDefinition;
-  left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
-  right: AssignmentExpression | BindingElement | BindingIdentifier,
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  getKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  setKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
+  right: AssignmentExpression | BindingElement | Identifier | ExpressionNode;
 }
 ```
 
@@ -806,7 +800,6 @@ interface BindingPropertyList <: ExpressionNode {
   kind: NodeKind.BindingPropertyList;
   properties: [ BindingElement | BindingProperty ];
   trailingComma: boolean;
-  multiline: boolean;
 }
 ```
 

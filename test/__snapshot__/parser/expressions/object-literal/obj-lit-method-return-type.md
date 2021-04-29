@@ -162,7 +162,7 @@ x = { method(test: string): number { } };
         }
     ],
     "isModule": false,
-    "text": "x = { method(test: string): number { } };",
+    "source": "x = { method(test: string): number { } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

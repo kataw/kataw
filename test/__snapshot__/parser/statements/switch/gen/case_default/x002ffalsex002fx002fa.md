@@ -54,7 +54,7 @@ case /false//a default
         }
     ],
     "isModule": false,
-    "text": "case /false//a default",
+    "source": "case /false//a default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

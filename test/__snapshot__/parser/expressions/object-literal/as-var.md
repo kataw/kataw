@@ -115,7 +115,7 @@ var {...[]} = {}
         }
     ],
     "isModule": false,
-    "text": "var {...[]} = {}",
+    "source": "var {...[]} = {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

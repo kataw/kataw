@@ -90,7 +90,7 @@ async () => {  \u006eull = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u006eull = x  }",
+    "source": "async () => {  \\u006eull = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

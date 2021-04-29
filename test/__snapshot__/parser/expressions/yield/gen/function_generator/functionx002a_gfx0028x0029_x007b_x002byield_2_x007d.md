@@ -215,7 +215,7 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function* gf() { +yield 2; } }}",
+    "source": "function * gen() { function not_gen() { function* gf() { +yield 2; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

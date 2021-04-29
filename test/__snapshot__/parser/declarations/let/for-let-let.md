@@ -122,7 +122,7 @@ for (let {x: y = let};;) {}
         }
     ],
     "isModule": false,
-    "text": "for (let {x: y = let};;) {}",
+    "source": "for (let {x: y = let};;) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

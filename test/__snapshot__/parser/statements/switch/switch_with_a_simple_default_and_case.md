@@ -109,7 +109,7 @@ switch (A) {default: D; case B: C; }
         }
     ],
     "isModule": false,
-    "text": "switch (A) {default: D; case B: C; }",
+    "source": "switch (A) {default: D; case B: C; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

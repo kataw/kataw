@@ -124,7 +124,7 @@ var {[x]} = z;
         }
     ],
     "isModule": false,
-    "text": "var {[x]} = z;",
+    "source": "var {[x]} = z;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

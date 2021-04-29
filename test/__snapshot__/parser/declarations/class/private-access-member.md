@@ -192,7 +192,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
         }
     ],
     "isModule": false,
-    "text": "class C { #aaa; f(obj) { obj?.#aaa } }",
+    "source": "class C { #aaa; f(obj) { obj?.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

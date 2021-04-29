@@ -159,7 +159,7 @@ class C { get; set; static; async }
         }
     ],
     "isModule": false,
-    "text": "class C { get; set; static; async }",
+    "source": "class C { get; set; static; async }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

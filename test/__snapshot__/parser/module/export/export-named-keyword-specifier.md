@@ -68,7 +68,7 @@ export {try};
         }
     ],
     "isModule": true,
-    "text": "export {try};",
+    "source": "export {try};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

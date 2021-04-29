@@ -112,7 +112,7 @@ const [foo=a] = arr;
         }
     ],
     "isModule": false,
-    "text": "const [foo=a] = arr;",
+    "source": "const [foo=a] = arr;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

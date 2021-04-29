@@ -72,7 +72,7 @@ call(await.foo)
         }
     ],
     "isModule": false,
-    "text": "call(await.foo)",
+    "source": "call(await.foo)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

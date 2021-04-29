@@ -104,7 +104,7 @@ class x {typeof(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {typeof(){}}",
+    "source": "class x {typeof(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

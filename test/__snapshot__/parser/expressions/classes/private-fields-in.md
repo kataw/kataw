@@ -390,7 +390,7 @@ class C {
         }
     ],
     "isModule": true,
-    "text": "class C {\n  #brand;\n\n  #method() {}\n\n  get #getter() {}\n\n  static isC(obj) {\n    return #brand in obj && #method in obj && #getter in obj;\n  }\n}",
+    "source": "class C {\n  #brand;\n\n  #method() {}\n\n  get #getter() {}\n\n  static isC(obj) {\n    return #brand in obj && #method in obj && #getter in obj;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

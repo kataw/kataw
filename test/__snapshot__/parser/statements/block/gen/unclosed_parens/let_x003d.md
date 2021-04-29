@@ -53,7 +53,7 @@
         }
     ],
     "isModule": false,
-    "text": "{( let  =",
+    "source": "{( let  =",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -180,7 +180,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { async function wrap() { async function await() { } }; }}",
+    "source": "function not_gen() { async function wrap() { async function await() { } }; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -151,7 +151,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] {{{ &/ function while}}",
+    "source": "{ [catch] {{{ &/ function while}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -109,7 +109,7 @@ class x {static private(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static private(){}}",
+    "source": "class x {static private(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

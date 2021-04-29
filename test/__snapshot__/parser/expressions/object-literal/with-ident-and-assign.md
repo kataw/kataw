@@ -88,7 +88,7 @@ let z = {...x}
         }
     ],
     "isModule": false,
-    "text": "let z = {...x}",
+    "source": "let z = {...x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -54,7 +54,7 @@ do /)finally
         }
     ],
     "isModule": false,
-    "text": "do /)finally",
+    "source": "do /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

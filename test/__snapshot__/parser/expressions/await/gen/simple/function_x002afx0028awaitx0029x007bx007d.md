@@ -92,7 +92,7 @@ function *f(await){}
         }
     ],
     "isModule": false,
-    "text": "function *f(await){}",
+    "source": "function *f(await){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

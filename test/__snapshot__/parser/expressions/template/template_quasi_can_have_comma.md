@@ -84,7 +84,7 @@
         }
     ],
     "isModule": false,
-    "text": "`${y,0}`",
+    "source": "`${y,0}`",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

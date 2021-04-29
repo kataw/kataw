@@ -58,7 +58,7 @@ call(await)
         }
     ],
     "isModule": false,
-    "text": "call(await)",
+    "source": "call(await)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

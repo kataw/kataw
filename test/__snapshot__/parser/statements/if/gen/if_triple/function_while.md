@@ -148,7 +148,7 @@ if if if function while
         }
     ],
     "isModule": false,
-    "text": "if if if function while",
+    "source": "if if if function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

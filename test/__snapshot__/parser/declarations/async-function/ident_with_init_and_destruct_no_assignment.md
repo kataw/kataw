@@ -109,7 +109,7 @@ let x = y, {z};
         }
     ],
     "isModule": false,
-    "text": "let x = y, {z};",
+    "source": "let x = y, {z};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

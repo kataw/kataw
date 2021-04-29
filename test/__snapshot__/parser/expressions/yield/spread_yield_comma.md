@@ -138,7 +138,7 @@ function *g() {x={     ...yield,    };}
         }
     ],
     "isModule": false,
-    "text": "function *g() {x={     ...yield,    };}",
+    "source": "function *g() {x={     ...yield,    };}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -102,7 +102,7 @@ x
         }
     ],
     "isModule": false,
-    "text": "x\n** async => {}",
+    "source": "x\n** async => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

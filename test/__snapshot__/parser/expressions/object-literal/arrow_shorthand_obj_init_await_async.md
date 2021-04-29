@@ -84,7 +84,7 @@ async ({await = x}) => x
         }
     ],
     "isModule": false,
-    "text": "async ({await = x}) => x",
+    "source": "async ({await = x}) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

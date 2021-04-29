@@ -73,7 +73,7 @@ export ...x = y
         }
     ],
     "isModule": true,
-    "text": "export ...x = y",
+    "source": "export ...x = y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

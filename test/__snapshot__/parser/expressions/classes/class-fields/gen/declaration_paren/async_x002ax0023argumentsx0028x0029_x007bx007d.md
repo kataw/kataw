@@ -137,7 +137,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class extends Base { async *#arguments() {} });",
+    "source": "(class extends Base { async *#arguments() {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

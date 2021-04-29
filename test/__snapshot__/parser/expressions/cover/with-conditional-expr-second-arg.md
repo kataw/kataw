@@ -99,7 +99,7 @@
         }
     ],
     "isModule": false,
-    "text": "(x, a?:c:{})",
+    "source": "(x, a?:c:{})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

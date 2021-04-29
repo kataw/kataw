@@ -75,7 +75,7 @@ export default (1 + 2);
         }
     ],
     "isModule": true,
-    "text": "export default (1 + 2);",
+    "source": "export default (1 + 2);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ try try try /false//a
         }
     ],
     "isModule": false,
-    "text": "try try try /false//a",
+    "source": "try try try /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

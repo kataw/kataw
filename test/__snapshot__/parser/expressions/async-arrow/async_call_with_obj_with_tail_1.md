@@ -80,7 +80,7 @@ async ({} + 1);
         }
     ],
     "isModule": false,
-    "text": "async ({} + 1);",
+    "source": "async ({} + 1);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

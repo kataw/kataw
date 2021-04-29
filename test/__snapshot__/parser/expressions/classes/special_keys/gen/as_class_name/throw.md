@@ -77,7 +77,7 @@ class throw {}
         }
     ],
     "isModule": false,
-    "text": "class throw {}",
+    "source": "class throw {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

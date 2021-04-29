@@ -51,7 +51,7 @@ await = 16
         }
     ],
     "isModule": false,
-    "text": "await = 16",
+    "source": "await = 16",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

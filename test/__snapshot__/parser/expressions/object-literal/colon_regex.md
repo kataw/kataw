@@ -69,7 +69,7 @@
         }
     ],
     "isModule": false,
-    "text": "({x: /foo/})",
+    "source": "({x: /foo/})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

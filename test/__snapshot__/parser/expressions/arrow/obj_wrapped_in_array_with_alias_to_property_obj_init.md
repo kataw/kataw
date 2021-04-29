@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "([{x: y.z} = a]) => b",
+    "source": "([{x: y.z} = a]) => b",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

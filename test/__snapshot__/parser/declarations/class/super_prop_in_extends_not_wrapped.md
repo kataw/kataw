@@ -94,7 +94,7 @@ class x extends super.foo {}
         }
     ],
     "isModule": false,
-    "text": "class x extends super.foo {}",
+    "source": "class x extends super.foo {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

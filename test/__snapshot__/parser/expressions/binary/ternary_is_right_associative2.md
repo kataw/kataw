@@ -119,7 +119,7 @@ a ? b : c ** x ? d : e
         }
     ],
     "isModule": false,
-    "text": "a ? b : c ** x ? d : e",
+    "source": "a ? b : c ** x ? d : e",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

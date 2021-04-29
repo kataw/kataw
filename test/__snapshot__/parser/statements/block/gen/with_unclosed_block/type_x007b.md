@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { type {",
+    "source": "{ {} finally(x) { type {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

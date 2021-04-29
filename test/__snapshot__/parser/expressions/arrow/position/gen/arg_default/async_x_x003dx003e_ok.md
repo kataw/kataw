@@ -134,7 +134,7 @@ function f(a = async x => ok) {}
         }
     ],
     "isModule": false,
-    "text": "function f(a = async x => ok) {}",
+    "source": "function f(a = async x => ok) {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

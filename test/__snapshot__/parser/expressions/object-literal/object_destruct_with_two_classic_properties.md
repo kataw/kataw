@@ -133,7 +133,7 @@ x({a:b, c:d}=obj);
         }
     ],
     "isModule": false,
-    "text": "x({a:b, c:d}=obj);",
+    "source": "x({a:b, c:d}=obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

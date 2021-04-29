@@ -97,7 +97,7 @@ foo(...a,);
         }
     ],
     "isModule": false,
-    "text": "foo(,);",
+    "source": "foo(,);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

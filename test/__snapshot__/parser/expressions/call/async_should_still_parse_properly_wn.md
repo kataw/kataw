@@ -51,7 +51,7 @@ async + 10;
         }
     ],
     "isModule": false,
-    "text": "async + 10;",
+    "source": "async + 10;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

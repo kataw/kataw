@@ -128,7 +128,7 @@ class x {set delete(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set delete(x){}}",
+    "source": "class x {set delete(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

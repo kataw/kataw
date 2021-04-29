@@ -118,7 +118,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; yield * 1; return 37; yield * 'dead';",
+    "source": "'use strict'; yield * 1; return 37; yield * 'dead';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

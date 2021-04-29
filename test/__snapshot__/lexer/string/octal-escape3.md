@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\0121\"",
+    "source": "\"\\0121\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

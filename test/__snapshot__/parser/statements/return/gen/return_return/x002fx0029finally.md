@@ -40,7 +40,7 @@ return /)finally return
         }
     ],
     "isModule": false,
-    "text": "return /)finally return",
+    "source": "return /)finally return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

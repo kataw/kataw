@@ -156,7 +156,7 @@ var [x = 10, [ z ]] = a;
         }
     ],
     "isModule": false,
-    "text": "var [x = 10, [ z ]] = a;",
+    "source": "var [x = 10, [ z ]] = a;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

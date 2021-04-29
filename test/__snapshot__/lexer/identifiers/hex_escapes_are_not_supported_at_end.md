@@ -51,7 +51,7 @@ xxx\x61
         }
     ],
     "isModule": false,
-    "text": "xxx\\x61",
+    "source": "xxx\\x61",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

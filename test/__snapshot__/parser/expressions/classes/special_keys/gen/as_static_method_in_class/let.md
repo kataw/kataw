@@ -109,7 +109,7 @@ class x {static let(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static let(){}}",
+    "source": "class x {static let(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

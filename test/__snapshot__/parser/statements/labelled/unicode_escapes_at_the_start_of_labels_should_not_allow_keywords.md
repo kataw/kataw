@@ -92,7 +92,7 @@ async () => { \u{61}wait: x }
         }
     ],
     "isModule": false,
-    "text": "async () => { \\u{61}wait: x }",
+    "source": "async () => { \\u{61}wait: x }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

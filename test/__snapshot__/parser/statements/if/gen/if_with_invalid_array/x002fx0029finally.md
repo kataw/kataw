@@ -92,7 +92,7 @@ if [else] /)finally
         }
     ],
     "isModule": false,
-    "text": "if [else] /)finally",
+    "source": "if [else] /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

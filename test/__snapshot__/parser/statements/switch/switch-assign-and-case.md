@@ -116,7 +116,7 @@ switch([x = y]) { case y: foo }
         }
     ],
     "isModule": false,
-    "text": "switch([x = y]) { case y: foo }",
+    "source": "switch([x = y]) { case y: foo }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

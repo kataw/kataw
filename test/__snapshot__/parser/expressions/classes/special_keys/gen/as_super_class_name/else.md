@@ -84,7 +84,7 @@ class x extends else {}
         }
     ],
     "isModule": false,
-    "text": "class x extends else {}",
+    "source": "class x extends else {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -99,7 +99,7 @@ for ("foo"[x] of c) d;
         }
     ],
     "isModule": false,
-    "text": "for (\"foo\"[x] of c) d;",
+    "source": "for (\"foo\"[x] of c) d;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

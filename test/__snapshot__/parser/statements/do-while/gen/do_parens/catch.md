@@ -92,7 +92,7 @@ do( catch while
         }
     ],
     "isModule": false,
-    "text": "do( catch while",
+    "source": "do( catch while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

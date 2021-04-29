@@ -403,7 +403,7 @@ function x({x}) { "use strict"; }
         }
     ],
     "isModule": false,
-    "text": "function x(x = y) { \"use strict\"; }\n\nfunction x(...x) { \"use strict\"; }\n\nfunction x([x]) { \"use strict\"; }\n\nfunction x({x}) { \"use strict\"; }\n",
+    "source": "function x(x = y) { \"use strict\"; }\n\nfunction x(...x) { \"use strict\"; }\n\nfunction x([x]) { \"use strict\"; }\n\nfunction x({x}) { \"use strict\"; }\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

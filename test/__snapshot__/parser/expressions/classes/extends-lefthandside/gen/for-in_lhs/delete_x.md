@@ -73,7 +73,7 @@ for (delete x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (delete x in x) ;",
+    "source": "for (delete x in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

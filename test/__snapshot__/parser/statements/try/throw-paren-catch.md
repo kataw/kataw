@@ -95,7 +95,7 @@ throw {x} catch
         }
     ],
     "isModule": false,
-    "text": "throw {x} catch",
+    "source": "throw {x} catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

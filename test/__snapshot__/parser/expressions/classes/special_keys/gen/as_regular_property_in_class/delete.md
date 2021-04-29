@@ -88,7 +88,7 @@ class x {delete: x}
         }
     ],
     "isModule": false,
-    "text": "class x {delete: x}",
+    "source": "class x {delete: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

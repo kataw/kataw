@@ -128,7 +128,7 @@ class x {set in(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set in(x){}}",
+    "source": "class x {set in(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

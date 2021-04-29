@@ -95,7 +95,7 @@ z(x)?x:y;
         }
     ],
     "isModule": true,
-    "text": "z(x)?x:y;",
+    "source": "z(x)?x:y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

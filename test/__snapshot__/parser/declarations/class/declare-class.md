@@ -153,7 +153,7 @@ declare class A { static foo(): number; static x : string }
         }
     ],
     "isModule": false,
-    "text": "declare class A { static foo(): number; static x : string }",
+    "source": "declare class A { static foo(): number; static x : string }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

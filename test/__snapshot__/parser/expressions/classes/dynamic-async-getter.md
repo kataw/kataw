@@ -132,7 +132,7 @@ class A {async get [foo](){}}
         }
     ],
     "isModule": false,
-    "text": "class A {async get [foo](){}}",
+    "source": "class A {async get [foo](){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

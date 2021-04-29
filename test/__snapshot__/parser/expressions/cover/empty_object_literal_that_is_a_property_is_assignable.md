@@ -77,7 +77,7 @@
         }
     ],
     "isModule": false,
-    "text": "({}.length) = z",
+    "source": "({}.length) = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

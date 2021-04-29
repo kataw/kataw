@@ -108,7 +108,7 @@ do try { !xxx
         }
     ],
     "isModule": false,
-    "text": "do try { !xxx",
+    "source": "do try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

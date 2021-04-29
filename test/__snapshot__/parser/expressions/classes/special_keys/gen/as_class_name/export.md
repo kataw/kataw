@@ -79,7 +79,7 @@ class export {}
         }
     ],
     "isModule": false,
-    "text": "class export {}",
+    "source": "class export {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

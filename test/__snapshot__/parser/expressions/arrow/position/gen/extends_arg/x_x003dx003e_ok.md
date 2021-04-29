@@ -95,7 +95,7 @@ class A extends x => ok {}
         }
     ],
     "isModule": false,
-    "text": "class A extends x => ok {}",
+    "source": "class A extends x => ok {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

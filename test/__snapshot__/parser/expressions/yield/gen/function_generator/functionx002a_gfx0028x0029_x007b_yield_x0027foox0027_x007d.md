@@ -203,7 +203,7 @@ function * gen() { function not_gen() { function* gf() { yield 'foo' } }}
         }
     ],
     "isModule": false,
-    "text": "function * gen() { function not_gen() { function* gf() { yield 'foo' } }}",
+    "source": "function * gen() { function not_gen() { function* gf() { yield 'foo' } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

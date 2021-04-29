@@ -114,7 +114,7 @@ class x {static * void(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * void(){}}",
+    "source": "class x {static * void(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -106,7 +106,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  expo\\u0072t = x\n}",
+    "source": "function *f(){\n  expo\\u0072t = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

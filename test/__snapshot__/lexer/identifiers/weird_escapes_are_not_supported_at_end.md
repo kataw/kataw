@@ -51,7 +51,7 @@ xxx\A
         }
     ],
     "isModule": false,
-    "text": "xxx\\A",
+    "source": "xxx\\A",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

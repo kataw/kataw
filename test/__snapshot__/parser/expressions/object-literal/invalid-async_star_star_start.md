@@ -48,7 +48,7 @@
         }
     ],
     "isModule": false,
-    "text": "({async **f(){}})",
+    "source": "({async **f(){}})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

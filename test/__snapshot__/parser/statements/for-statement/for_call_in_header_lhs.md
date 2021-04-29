@@ -115,7 +115,7 @@ for (x(x in t);;) x
         }
     ],
     "isModule": false,
-    "text": "for (x(x in t);;) x",
+    "source": "for (x(x in t);;) x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

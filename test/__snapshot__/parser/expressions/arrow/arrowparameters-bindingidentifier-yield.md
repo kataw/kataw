@@ -86,7 +86,7 @@ var af = yield => 1;
         }
     ],
     "isModule": false,
-    "text": "var af = yield => 1;\n",
+    "source": "var af = yield => 1;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

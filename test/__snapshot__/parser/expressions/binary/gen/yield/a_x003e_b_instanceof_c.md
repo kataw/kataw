@@ -144,7 +144,7 @@ function *f() {
         }
     ],
     "isModule": false,
-    "text": "function *f() {\n  yield a > b instanceof c\n}",
+    "source": "function *f() {\n  yield a > b instanceof c\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

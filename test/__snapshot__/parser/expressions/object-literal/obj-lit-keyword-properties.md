@@ -531,7 +531,7 @@
         }
     ],
     "isModule": false,
-    "text": "({throw(x, y) {}});\n({package(x, y) {}});\n({package(x, y) {}});\n({this(x, y) {}});\n({switch(x, y) {}});",
+    "source": "({throw(x, y) {}});\n({package(x, y) {}});\n({package(x, y) {}});\n({this(x, y) {}});\n({switch(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -105,7 +105,7 @@ class A {*yield() {}}
         }
     ],
     "isModule": false,
-    "text": "class A {*yield() {}}",
+    "source": "class A {*yield() {}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -168,7 +168,7 @@ switch case while try this and !foo
         }
     ],
     "isModule": false,
-    "text": "switch case while try this and !foo",
+    "source": "switch case while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

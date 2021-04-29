@@ -95,7 +95,7 @@ x = a + b instanceof c
         }
     ],
     "isModule": false,
-    "text": "x = a + b instanceof c",
+    "source": "x = a + b instanceof c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

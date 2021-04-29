@@ -96,7 +96,7 @@ s = {s: new}
         }
     ],
     "isModule": false,
-    "text": "s = {s: new}",
+    "source": "s = {s: new}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

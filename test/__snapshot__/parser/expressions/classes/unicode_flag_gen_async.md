@@ -110,7 +110,7 @@ class x { async *prot\u006ftype(){} }
         }
     ],
     "isModule": false,
-    "text": "class x { async *prot\\u006ftype(){} }",
+    "source": "class x { async *prot\\u006ftype(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

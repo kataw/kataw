@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ident: {x:y}**x})",
+    "source": "({ident: {x:y}**x})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

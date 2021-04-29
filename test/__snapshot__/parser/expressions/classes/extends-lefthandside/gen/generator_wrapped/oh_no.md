@@ -154,7 +154,7 @@ function *P(){
         }
     ],
     "isModule": false,
-    "text": "function *P(){\n  class D extends oh,no {}\n}",
+    "source": "function *P(){\n  class D extends oh,no {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

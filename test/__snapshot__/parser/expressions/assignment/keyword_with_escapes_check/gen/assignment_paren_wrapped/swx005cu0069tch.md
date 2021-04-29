@@ -92,7 +92,7 @@
         }
     ],
     "isModule": false,
-    "text": "(sw\\u0069tch = x);",
+    "source": "(sw\\u0069tch = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

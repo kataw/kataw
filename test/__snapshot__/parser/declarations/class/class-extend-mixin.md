@@ -121,7 +121,7 @@ class Foo<T> extends mixin(Bar) { }
         }
     ],
     "isModule": false,
-    "text": "class Foo<T> extends mixin(Bar) { }",
+    "source": "class Foo<T> extends mixin(Bar) { }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

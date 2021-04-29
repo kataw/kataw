@@ -153,7 +153,7 @@ do while [catch] async funcion switch!!
         }
     ],
     "isModule": false,
-    "text": "do while [catch] async funcion switch!!",
+    "source": "do while [catch] async funcion switch!!",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

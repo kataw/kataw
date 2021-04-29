@@ -146,7 +146,7 @@ for (const x in obj) { var x = 13 }
         }
     ],
     "isModule": false,
-    "text": "for (const x in obj) { var x = 13 }",
+    "source": "for (const x in obj) { var x = 13 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

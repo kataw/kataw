@@ -177,7 +177,7 @@ try try try async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "try try try async try while { catch }",
+    "source": "try try try async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

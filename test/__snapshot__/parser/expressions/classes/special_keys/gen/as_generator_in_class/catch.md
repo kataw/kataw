@@ -109,7 +109,7 @@ class x {* catch(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* catch(){}}",
+    "source": "class x {* catch(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

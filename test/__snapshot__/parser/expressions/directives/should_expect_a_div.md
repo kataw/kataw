@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"ignore me\"\n/x/g",
+    "source": "\"ignore me\"\n/x/g",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

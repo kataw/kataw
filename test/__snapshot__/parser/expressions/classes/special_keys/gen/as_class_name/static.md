@@ -52,7 +52,7 @@ class static {}
         }
     ],
     "isModule": false,
-    "text": "class static {}",
+    "source": "class static {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

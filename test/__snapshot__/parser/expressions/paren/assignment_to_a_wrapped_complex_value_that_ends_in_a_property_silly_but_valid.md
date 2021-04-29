@@ -127,7 +127,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a.b().c().d) += 1;",
+    "source": "(a.b().c().d) += 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

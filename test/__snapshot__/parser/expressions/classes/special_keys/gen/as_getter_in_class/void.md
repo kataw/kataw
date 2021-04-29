@@ -109,7 +109,7 @@ class x {get void(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get void(){}}",
+    "source": "class x {get void(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -134,7 +134,7 @@ x = {[ a + b / c ]: y}
         }
     ],
     "isModule": false,
-    "text": "x = {[ a + b / c ]: y}",
+    "source": "x = {[ a + b / c ]: y}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

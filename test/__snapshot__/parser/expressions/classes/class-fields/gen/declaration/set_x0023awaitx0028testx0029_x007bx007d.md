@@ -127,7 +127,7 @@ class C { set #await(test) {} }
         }
     ],
     "isModule": false,
-    "text": "class C { set #await(test) {} }",
+    "source": "class C { set #await(test) {} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

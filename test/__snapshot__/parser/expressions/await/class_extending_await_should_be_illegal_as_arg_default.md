@@ -183,7 +183,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
         }
     ],
     "isModule": false,
-    "text": "async function f(){    (fail = class A extends await foo {}) => fail    }",
+    "source": "async function f(){    (fail = class A extends await foo {}) => fail    }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] default",
+    "source": "{ [catch] default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

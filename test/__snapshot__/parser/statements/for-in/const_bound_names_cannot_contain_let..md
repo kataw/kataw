@@ -118,7 +118,7 @@ for (const [let] in obj);
         }
     ],
     "isModule": false,
-    "text": "for (const [let] in obj);",
+    "source": "for (const [let] in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -52,7 +52,7 @@ class eval {}
         }
     ],
     "isModule": false,
-    "text": "class eval {}",
+    "source": "class eval {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

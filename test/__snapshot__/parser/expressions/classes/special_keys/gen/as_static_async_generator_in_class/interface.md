@@ -119,7 +119,7 @@ class x {static async * interface(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * interface(){}}",
+    "source": "class x {static async * interface(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

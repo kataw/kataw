@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ method() { new super; } })",
+    "source": "({ method() { new super; } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

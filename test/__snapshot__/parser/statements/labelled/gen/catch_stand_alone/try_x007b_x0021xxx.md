@@ -83,7 +83,7 @@ catch try { !xxx
         }
     ],
     "isModule": false,
-    "text": "catch try { !xxx",
+    "source": "catch try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

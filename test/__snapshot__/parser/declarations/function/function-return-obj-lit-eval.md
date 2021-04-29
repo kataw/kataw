@@ -100,7 +100,7 @@ function foo() { return {eval} }
         }
     ],
     "isModule": false,
-    "text": "function foo() { return {eval} }",
+    "source": "function foo() { return {eval} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

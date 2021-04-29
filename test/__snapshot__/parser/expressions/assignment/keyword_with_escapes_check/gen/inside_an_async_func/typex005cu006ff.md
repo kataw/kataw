@@ -102,7 +102,7 @@ async () => {  type\u006ff = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  type\\u006ff = x  }",
+    "source": "async () => {  type\\u006ff = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

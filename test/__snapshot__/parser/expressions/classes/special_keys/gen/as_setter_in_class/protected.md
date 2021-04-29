@@ -128,7 +128,7 @@ class x {set protected(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set protected(x){}}",
+    "source": "class x {set protected(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

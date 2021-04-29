@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\xdq\"",
+    "source": "\"\\xdq\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

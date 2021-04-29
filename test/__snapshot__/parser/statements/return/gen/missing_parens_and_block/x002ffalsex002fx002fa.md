@@ -88,7 +88,7 @@ return catch /false//a
         }
     ],
     "isModule": false,
-    "text": "return catch /false//a",
+    "source": "return catch /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

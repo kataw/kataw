@@ -203,7 +203,7 @@
         }
     ],
     "isModule": false,
-    "text": "({ *method() { class C { constructor() { super(); } } } })",
+    "source": "({ *method() { class C { constructor() { super(); } } } })",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

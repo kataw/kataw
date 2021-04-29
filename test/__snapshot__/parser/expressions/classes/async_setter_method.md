@@ -151,7 +151,7 @@ class A {async set 11(x){}}
         }
     ],
     "isModule": false,
-    "text": "class A {async set 11(x){}}",
+    "source": "class A {async set 11(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

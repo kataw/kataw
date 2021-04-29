@@ -101,7 +101,7 @@ for ([][y] <<= p;;) x;
         }
     ],
     "isModule": false,
-    "text": "for ([][y] <<= p;;) x;",
+    "source": "for ([][y] <<= p;;) x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

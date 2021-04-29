@@ -76,7 +76,7 @@ for ([foo] in x) ;
         }
     ],
     "isModule": false,
-    "text": "for ([foo] in x) ;",
+    "source": "for ([foo] in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

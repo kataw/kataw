@@ -78,7 +78,7 @@
         }
     ],
     "isModule": false,
-    "text": "(async\n => async)",
+    "source": "(async\n => async)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

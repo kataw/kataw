@@ -41,7 +41,7 @@
         }
     ],
     "isModule": false,
-    "text": "(({w = x} >(-9)",
+    "source": "(({w = x} >(-9)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

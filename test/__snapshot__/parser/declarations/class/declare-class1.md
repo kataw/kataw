@@ -130,7 +130,7 @@ type T2 = number;
         }
     ],
     "isModule": false,
-    "text": "declare class C1 {}\n\ndeclare type T1 = number;\n\ntype T2 = number;",
+    "source": "declare class C1 {}\n\ndeclare type T1 = number;\n\ntype T2 = number;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

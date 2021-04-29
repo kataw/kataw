@@ -84,7 +84,7 @@ x = {15:b}
         }
     ],
     "isModule": false,
-    "text": "x = {15:b}",
+    "source": "x = {15:b}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

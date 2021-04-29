@@ -137,7 +137,7 @@ function *f(){ for (yield of obj); }
         }
     ],
     "isModule": false,
-    "text": "function *f(){ for (yield of obj); }",
+    "source": "function *f(){ for (yield of obj); }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

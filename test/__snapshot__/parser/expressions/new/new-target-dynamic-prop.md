@@ -145,7 +145,7 @@ function f(){ x({[new.target]:y}) }
         }
     ],
     "isModule": false,
-    "text": "function f(){ x({[new.target]:y}) }",
+    "source": "function f(){ x({[new.target]:y}) }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

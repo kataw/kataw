@@ -109,7 +109,7 @@ class x {* get(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* get(){}}",
+    "source": "class x {* get(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -87,7 +87,7 @@ class C { await = 0; }
         }
     ],
     "isModule": false,
-    "text": "class C { await = 0; }",
+    "source": "class C { await = 0; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

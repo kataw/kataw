@@ -98,7 +98,7 @@
         }
     ],
     "isModule": false,
-    "text": "() => { \"use strict\"\n;with (x) y; }",
+    "source": "() => { \"use strict\"\n;with (x) y; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

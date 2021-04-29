@@ -109,7 +109,7 @@ class x {get finally(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get finally(){}}",
+    "source": "class x {get finally(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

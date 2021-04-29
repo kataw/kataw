@@ -422,7 +422,7 @@ class C { [super.bbb] = 0 };
         }
     ],
     "isModule": false,
-    "text": "class C { aaa = super.bbb };\n\nclass C { aaa = () => super.bbb };\n\nclass C { aaa = () => () => super.bbb };\n\nclass C { [super.bbb] = 0 };\n",
+    "source": "class C { aaa = super.bbb };\n\nclass C { aaa = () => super.bbb };\n\nclass C { aaa = () => () => super.bbb };\n\nclass C { [super.bbb] = 0 };\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

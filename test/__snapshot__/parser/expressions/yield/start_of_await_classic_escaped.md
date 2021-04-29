@@ -91,7 +91,7 @@ async () => { var \u0061wait; }
         }
     ],
     "isModule": false,
-    "text": "async () => { var \\u0061wait; }",
+    "source": "async () => { var \\u0061wait; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

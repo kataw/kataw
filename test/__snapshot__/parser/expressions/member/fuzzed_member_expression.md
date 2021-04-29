@@ -109,7 +109,7 @@
         }
     ],
     "isModule": false,
-    "text": "(2[x,x],x)>x",
+    "source": "(2[x,x],x)>x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

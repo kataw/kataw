@@ -578,7 +578,7 @@ x ? ( (a, {}) => {} ) : baz;
         }
     ],
     "isModule": false,
-    "text": "x ? ( (x, y) => (u, v) => x*u + y*v ) : baz;\nx ? ( (a, b) => 0, (c, d) => 1 ) : baz;\nx ? ( (a, (a, (b, c) => 0)) ) : baz;\nx ? ( (a, {}) => {} ) : baz;",
+    "source": "x ? ( (x, y) => (u, v) => x*u + y*v ) : baz;\nx ? ( (a, b) => 0, (c, d) => 1 ) : baz;\nx ? ( (a, (a, (b, c) => 0)) ) : baz;\nx ? ( (a, {}) => {} ) : baz;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

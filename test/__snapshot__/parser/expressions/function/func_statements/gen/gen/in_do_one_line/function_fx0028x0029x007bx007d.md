@@ -94,7 +94,7 @@ do function f(){} while (x);
         }
     ],
     "isModule": false,
-    "text": "do function f(){} while (x);",
+    "source": "do function f(){} while (x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -53,7 +53,7 @@ export * from "foo";
         }
     ],
     "isModule": true,
-    "text": "export * from \"foo\";",
+    "source": "export * from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -131,7 +131,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { set #arguments(test) {} });",
+    "source": "(class { set #arguments(test) {} });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

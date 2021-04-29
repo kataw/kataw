@@ -106,7 +106,7 @@ async () => {  fin\u0061lly = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  fin\\u0061lly = x  }",
+    "source": "async () => {  fin\\u0061lly = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "`a \\4 b`;",
+    "source": "`a \\4 b`;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

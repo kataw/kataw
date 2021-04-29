@@ -110,7 +110,7 @@ delete (((((foo(await)))))).bar
         }
     ],
     "isModule": false,
-    "text": "delete (((((foo(await)))))).bar",
+    "source": "delete (((((foo(await)))))).bar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

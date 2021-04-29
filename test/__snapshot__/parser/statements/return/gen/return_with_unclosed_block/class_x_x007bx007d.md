@@ -118,7 +118,7 @@ return {} return(x) { class x {}
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { class x {}",
+    "source": "return {} return(x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

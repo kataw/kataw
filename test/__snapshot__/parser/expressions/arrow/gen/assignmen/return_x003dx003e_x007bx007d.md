@@ -92,7 +92,7 @@ x = return => {} ;
         }
     ],
     "isModule": false,
-    "text": "x = return => {} ;",
+    "source": "x = return => {} ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

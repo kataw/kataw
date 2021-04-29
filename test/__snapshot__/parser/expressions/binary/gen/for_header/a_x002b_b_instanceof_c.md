@@ -89,7 +89,7 @@ for ( a + b instanceof c ;;);
         }
     ],
     "isModule": false,
-    "text": "for ( a + b instanceof c ;;);",
+    "source": "for ( a + b instanceof c ;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

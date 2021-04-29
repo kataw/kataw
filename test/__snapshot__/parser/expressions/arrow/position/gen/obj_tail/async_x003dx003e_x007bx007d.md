@@ -148,7 +148,7 @@ x = {arrow: async => {}}.y
         }
     ],
     "isModule": false,
-    "text": "x = {arrow: async => {}}.y",
+    "source": "x = {arrow: async => {}}.y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

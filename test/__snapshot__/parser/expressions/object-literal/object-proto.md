@@ -463,7 +463,7 @@ x = {async __proto__(){}, *__proto__(){}};
         }
     ],
     "isModule": false,
-    "text": "x = {__proto__(){}, __proto__: 2};\nx = {__proto__(){}, __proto__(){}};\nx = {async __proto__(){}, *__proto__(){}};\n({ __proto__: x, __proto__: y }) => {};",
+    "source": "x = {__proto__(){}, __proto__: 2};\nx = {__proto__(){}, __proto__(){}};\nx = {async __proto__(){}, *__proto__(){}};\n({ __proto__: x, __proto__: y }) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

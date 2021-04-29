@@ -78,7 +78,7 @@ x in x) ;
         }
     ],
     "isModule": false,
-    "text": "for (yield\nx in x) ;",
+    "source": "for (yield\nx in x) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

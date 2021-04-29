@@ -129,7 +129,7 @@ class x {async *f(await){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async *f(await){}}",
+    "source": "class x {async *f(await){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

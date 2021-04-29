@@ -88,7 +88,7 @@ class x {in: x}
         }
     ],
     "isModule": false,
-    "text": "class x {in: x}",
+    "source": "class x {in: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

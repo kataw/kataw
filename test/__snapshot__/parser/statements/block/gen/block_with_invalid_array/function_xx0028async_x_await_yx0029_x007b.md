@@ -210,7 +210,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] function x(async x, await y) {",
+    "source": "{ [catch] function x(async x, await y) {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

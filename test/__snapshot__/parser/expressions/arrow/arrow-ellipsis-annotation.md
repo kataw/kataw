@@ -63,7 +63,7 @@
         }
     ],
     "isModule": false,
-    "text": "(...{a}: symbol) => x",
+    "source": "(...{a}: symbol) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

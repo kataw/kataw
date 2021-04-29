@@ -78,7 +78,7 @@ new new A().foo
         }
     ],
     "isModule": false,
-    "text": "new new A().foo",
+    "source": "new new A().foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

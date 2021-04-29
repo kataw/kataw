@@ -183,7 +183,7 @@ new foo ++;
         }
     ],
     "isModule": false,
-    "text": "\nnew foo bar;\n\nnew ) foo;\n\nnew ++foo;\n\nnew foo ++;",
+    "source": "\nnew foo bar;\n\nnew ) foo;\n\nnew ++foo;\n\nnew foo ++;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

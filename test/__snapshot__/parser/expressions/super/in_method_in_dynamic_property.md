@@ -149,7 +149,7 @@ x = { foo(){ return x[super.foo]; }}
         }
     ],
     "isModule": false,
-    "text": "x = { foo(){ return x[super.foo]; }}",
+    "source": "x = { foo(){ return x[super.foo]; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

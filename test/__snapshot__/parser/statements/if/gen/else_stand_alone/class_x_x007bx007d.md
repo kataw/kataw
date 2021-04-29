@@ -52,7 +52,7 @@ else class x {}
         }
     ],
     "isModule": false,
-    "text": "else class x {}",
+    "source": "else class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

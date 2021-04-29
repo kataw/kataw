@@ -104,7 +104,7 @@ do async function f(){} while (x);
         }
     ],
     "isModule": false,
-    "text": "do async function f(){} while (x);",
+    "source": "do async function f(){} while (x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

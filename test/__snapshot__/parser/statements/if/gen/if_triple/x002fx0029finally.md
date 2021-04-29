@@ -97,7 +97,7 @@ if if if /)finally
         }
     ],
     "isModule": false,
-    "text": "if if if /)finally",
+    "source": "if if if /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -88,7 +88,7 @@ class x {eval: x}
         }
     ],
     "isModule": false,
-    "text": "class x {eval: x}",
+    "source": "class x {eval: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

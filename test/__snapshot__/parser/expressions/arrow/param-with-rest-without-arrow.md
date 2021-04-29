@@ -88,7 +88,7 @@
         }
     ],
     "isModule": false,
-    "text": "(b, ...a) + 1",
+    "source": "(b, ...a) + 1",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

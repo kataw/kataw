@@ -65,7 +65,7 @@ new asc() => x
         }
     ],
     "isModule": false,
-    "text": "new asc() => x",
+    "source": "new asc() => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

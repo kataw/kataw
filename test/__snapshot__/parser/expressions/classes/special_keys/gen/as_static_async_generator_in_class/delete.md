@@ -119,7 +119,7 @@ class x {static async * delete(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * delete(){}}",
+    "source": "class x {static async * delete(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

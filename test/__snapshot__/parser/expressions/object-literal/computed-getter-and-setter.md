@@ -167,7 +167,7 @@
         }
     ],
     "isModule": false,
-    "text": "({get [x]() {}, set [x](v) {}});",
+    "source": "({get [x]() {}, set [x](v) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u2029\"",
+    "source": "\"\\u2029\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

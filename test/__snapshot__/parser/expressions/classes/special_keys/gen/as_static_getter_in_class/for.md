@@ -114,7 +114,7 @@ class x {static get for(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get for(){}}",
+    "source": "class x {static get for(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

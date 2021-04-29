@@ -90,7 +90,7 @@ async () => {  c\u006fnst = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  c\\u006fnst = x  }",
+    "source": "async () => {  c\\u006fnst = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

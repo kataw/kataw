@@ -132,7 +132,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; ({*do(x, y) {}});",
+    "source": "'use strict'; ({*do(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

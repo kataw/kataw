@@ -90,7 +90,7 @@ if[ /false//a
         }
     ],
     "isModule": false,
-    "text": "if[ /false//a",
+    "source": "if[ /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

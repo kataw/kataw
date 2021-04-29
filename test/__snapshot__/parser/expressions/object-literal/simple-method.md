@@ -249,7 +249,7 @@ x = { method(test: string) { } };
         }
     ],
     "isModule": false,
-    "text": "x = { method(test) { } };\n\nx = { method(test: string) { } };\n",
+    "source": "x = { method(test) { } };\n\nx = { method(test: string) { } };\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

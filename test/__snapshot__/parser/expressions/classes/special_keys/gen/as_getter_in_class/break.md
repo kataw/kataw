@@ -109,7 +109,7 @@ class x {get break(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {get break(){}}",
+    "source": "class x {get break(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

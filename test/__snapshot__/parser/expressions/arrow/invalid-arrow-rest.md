@@ -68,7 +68,7 @@
         }
     ],
     "isModule": false,
-    "text": "(...rest = ...NaN) => {};",
+    "source": "(...rest = ...NaN) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

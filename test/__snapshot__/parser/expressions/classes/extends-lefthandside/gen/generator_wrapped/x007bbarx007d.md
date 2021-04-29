@@ -142,7 +142,7 @@ function *P(){
         }
     ],
     "isModule": false,
-    "text": "function *P(){\n  class D extends {bar} {}\n}",
+    "source": "function *P(){\n  class D extends {bar} {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

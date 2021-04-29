@@ -87,7 +87,7 @@ let x: string;
         }
     ],
     "isModule": false,
-    "text": "let x: string;",
+    "source": "let x: string;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

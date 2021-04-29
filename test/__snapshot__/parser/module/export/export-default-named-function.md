@@ -88,7 +88,7 @@ export default function foo() {}
         }
     ],
     "isModule": true,
-    "text": "export default function foo() {}",
+    "source": "export default function foo() {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -130,7 +130,7 @@ export bar, * as foo from 'bar';
         }
     ],
     "isModule": true,
-    "text": "export bar, * as foo from 'bar';",
+    "source": "export bar, * as foo from 'bar';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

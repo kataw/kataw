@@ -104,7 +104,7 @@ return function while return
         }
     ],
     "isModule": false,
-    "text": "return function while return",
+    "source": "return function while return",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

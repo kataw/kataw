@@ -135,7 +135,7 @@ class x { static *[expr](){} }
         }
     ],
     "isModule": false,
-    "text": "class x { static *[expr](){} }",
+    "source": "class x { static *[expr](){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

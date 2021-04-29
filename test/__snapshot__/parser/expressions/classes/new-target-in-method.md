@@ -137,7 +137,7 @@ class A {a(x=new.target){}}
         }
     ],
     "isModule": true,
-    "text": "class A {a(x=new.target){}}",
+    "source": "class A {a(x=new.target){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

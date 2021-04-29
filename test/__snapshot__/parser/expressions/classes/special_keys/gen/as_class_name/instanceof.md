@@ -90,7 +90,7 @@ class instanceof {}
         }
     ],
     "isModule": false,
-    "text": "class instanceof {}",
+    "source": "class instanceof {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

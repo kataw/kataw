@@ -89,7 +89,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  def\\u0061ult = x\n}",
+    "source": "function *f(){\n  def\\u0061ult = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

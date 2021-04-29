@@ -47,7 +47,7 @@ new null
         }
     ],
     "isModule": false,
-    "text": "new null",
+    "source": "new null",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

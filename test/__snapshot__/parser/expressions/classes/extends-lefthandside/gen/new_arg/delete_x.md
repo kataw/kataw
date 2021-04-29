@@ -60,7 +60,7 @@ new delete x
         }
     ],
     "isModule": false,
-    "text": "new delete x",
+    "source": "new delete x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

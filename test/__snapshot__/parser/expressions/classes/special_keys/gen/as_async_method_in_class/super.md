@@ -109,7 +109,7 @@ class x {async super(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async super(){}}",
+    "source": "class x {async super(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

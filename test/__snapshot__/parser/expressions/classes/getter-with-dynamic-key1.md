@@ -122,7 +122,7 @@ class x {static *[y](){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static *[y](){}}",
+    "source": "class x {static *[y](){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

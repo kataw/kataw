@@ -76,7 +76,7 @@ function x () {}
         }
     ],
     "isModule": false,
-    "text": "function x () {}",
+    "source": "function x () {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

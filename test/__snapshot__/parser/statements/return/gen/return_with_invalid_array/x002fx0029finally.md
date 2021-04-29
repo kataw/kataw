@@ -95,7 +95,7 @@ return [catch] /)finally
         }
     ],
     "isModule": false,
-    "text": "return [catch] /)finally",
+    "source": "return [catch] /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

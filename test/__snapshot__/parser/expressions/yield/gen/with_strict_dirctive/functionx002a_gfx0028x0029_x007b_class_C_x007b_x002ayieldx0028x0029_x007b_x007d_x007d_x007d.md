@@ -171,7 +171,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function* gf() { class C { *yield() { } } }",
+    "source": "'use strict'; function* gf() { class C { *yield() { } } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

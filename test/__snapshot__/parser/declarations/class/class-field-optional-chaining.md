@@ -225,7 +225,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
         }
     ],
     "isModule": false,
-    "text": "class C { #aaa; f(f) { f()?.#aaa } }",
+    "source": "class C { #aaa; f(f) { f()?.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

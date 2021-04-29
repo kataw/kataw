@@ -76,7 +76,7 @@ async("foo".bar) => x
         }
     ],
     "isModule": false,
-    "text": "async(\"foo\".bar) => x",
+    "source": "async(\"foo\".bar) => x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

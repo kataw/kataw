@@ -100,7 +100,7 @@ function foo() { return {arguments} }
         }
     ],
     "isModule": false,
-    "text": "function foo() { return {arguments} }",
+    "source": "function foo() { return {arguments} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

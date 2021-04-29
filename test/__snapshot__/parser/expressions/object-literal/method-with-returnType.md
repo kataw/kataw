@@ -115,7 +115,7 @@ a={get fooProp():number{}}
         }
     ],
     "isModule": false,
-    "text": "a={get fooProp():number{}}",
+    "source": "a={get fooProp():number{}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

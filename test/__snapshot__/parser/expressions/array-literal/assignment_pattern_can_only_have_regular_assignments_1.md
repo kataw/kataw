@@ -117,7 +117,7 @@
         }
     ],
     "isModule": false,
-    "text": "[a,b^=[x,y]] = z",
+    "source": "[a,b^=[x,y]] = z",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

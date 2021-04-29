@@ -128,7 +128,7 @@ function f(){ "use strict"
         }
     ],
     "isModule": false,
-    "text": "function f(){ \"use strict\"\n /* suffix = */ .foo; eval = 1; }",
+    "source": "function f(){ \"use strict\"\n /* suffix = */ .foo; eval = 1; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

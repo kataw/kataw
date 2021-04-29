@@ -103,7 +103,7 @@ function f(){ foo = new.target }
         }
     ],
     "isModule": false,
-    "text": "function f(){ foo = new.target }",
+    "source": "function f(){ foo = new.target }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

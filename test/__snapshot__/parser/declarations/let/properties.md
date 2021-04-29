@@ -238,7 +238,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
         }
     ],
     "isModule": false,
-    "text": "let {a,b=0,c:d,e:f=0,[g]:[h]}=0",
+    "source": "let {a,b=0,c:d,e:f=0,[g]:[h]}=0",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

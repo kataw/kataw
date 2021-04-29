@@ -70,7 +70,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u0066inally = x;",
+    "source": "\\u0066inally = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -48,7 +48,7 @@ new async
         }
     ],
     "isModule": false,
-    "text": "new async",
+    "source": "new async",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

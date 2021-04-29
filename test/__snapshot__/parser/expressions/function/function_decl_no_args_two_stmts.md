@@ -93,7 +93,7 @@ function f(){foo;bar}
         }
     ],
     "isModule": false,
-    "text": "function f(){foo;bar}",
+    "source": "function f(){foo;bar}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

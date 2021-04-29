@@ -203,7 +203,7 @@ x({set [foo](b){}, set [bar](d){}});
         }
     ],
     "isModule": false,
-    "text": "x({set [foo](b){}, set [bar](d){}});",
+    "source": "x({set [foo](b){}, set [bar](d){}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

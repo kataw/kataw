@@ -240,7 +240,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } } }}",
+    "source": "function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

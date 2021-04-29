@@ -261,7 +261,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
         }
     ],
     "isModule": false,
-    "text": "var {x: y, z: { a: b } } = { x: \"3\", z: { a: \"b\" } };",
+    "source": "var {x: y, z: { a: b } } = { x: \"3\", z: { a: \"b\" } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

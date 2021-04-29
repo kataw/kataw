@@ -104,7 +104,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ [catch] { /a/iui",
+    "source": "{ [catch] { /a/iui",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

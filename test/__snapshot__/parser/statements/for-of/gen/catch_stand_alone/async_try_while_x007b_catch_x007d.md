@@ -132,7 +132,7 @@ catch async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "catch async try while { catch }",
+    "source": "catch async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

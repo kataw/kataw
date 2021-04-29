@@ -73,7 +73,7 @@ x = import(x)
         }
     ],
     "isModule": false,
-    "text": "x = import(x)",
+    "source": "x = import(x)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

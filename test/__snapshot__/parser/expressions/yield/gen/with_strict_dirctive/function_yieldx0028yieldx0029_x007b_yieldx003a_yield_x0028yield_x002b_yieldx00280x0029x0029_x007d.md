@@ -191,7 +191,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; function yield(yield) { yield: yield (yield + yield(0)); }",
+    "source": "'use strict'; function yield(yield) { yield: yield (yield + yield(0)); }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

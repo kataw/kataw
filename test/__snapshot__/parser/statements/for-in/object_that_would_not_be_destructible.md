@@ -129,7 +129,7 @@ for ({a: x + y} in obj);
         }
     ],
     "isModule": false,
-    "text": "for ({a: x + y} in obj);",
+    "source": "for ({a: x + y} in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

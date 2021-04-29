@@ -104,7 +104,7 @@ class x {let(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {let(){}}",
+    "source": "class x {let(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

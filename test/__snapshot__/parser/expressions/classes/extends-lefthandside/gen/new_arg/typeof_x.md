@@ -60,7 +60,7 @@ new typeof x
         }
     ],
     "isModule": false,
-    "text": "new typeof x",
+    "source": "new typeof x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

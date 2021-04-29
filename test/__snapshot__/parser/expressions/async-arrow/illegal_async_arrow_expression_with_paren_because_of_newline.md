@@ -76,7 +76,7 @@ f(async
         }
     ],
     "isModule": false,
-    "text": "f(async\n()=>c)",
+    "source": "f(async\n()=>c)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

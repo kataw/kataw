@@ -152,7 +152,7 @@ for ({a: x + y} = z in obj);
         }
     ],
     "isModule": false,
-    "text": "for ({a: x + y} = z in obj);",
+    "source": "for ({a: x + y} = z in obj);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

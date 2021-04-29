@@ -118,7 +118,7 @@ catch try { !xxx finally
         }
     ],
     "isModule": false,
-    "text": "catch try { !xxx finally",
+    "source": "catch try { !xxx finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

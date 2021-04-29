@@ -109,7 +109,7 @@ yield * 1; return 37; yield * 'dead';
         }
     ],
     "isModule": false,
-    "text": "yield * 1; return 37; yield * 'dead';",
+    "source": "yield * 1; return 37; yield * 'dead';",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

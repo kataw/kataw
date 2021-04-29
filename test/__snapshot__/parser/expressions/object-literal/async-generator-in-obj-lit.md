@@ -118,7 +118,7 @@ const obj = {
         }
     ],
     "isModule": false,
-    "text": "const obj = {\n    async,\n    *generator() {\n    }\n};",
+    "source": "const obj = {\n    async,\n    *generator() {\n    }\n};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

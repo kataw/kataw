@@ -114,7 +114,7 @@ class x {static get eval(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get eval(){}}",
+    "source": "class x {static get eval(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

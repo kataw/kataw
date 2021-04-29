@@ -85,7 +85,7 @@ class A extends new x {}
         }
     ],
     "isModule": false,
-    "text": "class A extends new x {}",
+    "source": "class A extends new x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

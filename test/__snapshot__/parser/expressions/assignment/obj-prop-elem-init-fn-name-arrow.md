@@ -152,7 +152,7 @@ result = { x: arrow = () => {} } = {};
         }
     ],
     "isModule": false,
-    "text": "result = { x: arrow = () => {} } = {};",
+    "source": "result = { x: arrow = () => {} } = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

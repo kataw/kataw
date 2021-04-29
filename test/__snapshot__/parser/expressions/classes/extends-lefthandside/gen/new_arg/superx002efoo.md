@@ -66,7 +66,7 @@ new super.foo
         }
     ],
     "isModule": false,
-    "text": "new super.foo",
+    "source": "new super.foo",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

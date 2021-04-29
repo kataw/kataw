@@ -71,7 +71,7 @@
         }
     ],
     "isModule": false,
-    "text": "(let[a] = b);",
+    "source": "(let[a] = b);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

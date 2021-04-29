@@ -131,7 +131,7 @@ for (let x of a,b) c
         }
     ],
     "isModule": false,
-    "text": "for (let x of a,b) c",
+    "source": "for (let x of a,b) c",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

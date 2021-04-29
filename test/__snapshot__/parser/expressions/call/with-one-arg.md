@@ -61,7 +61,7 @@ z(x);
         }
     ],
     "isModule": true,
-    "text": "z(x);",
+    "source": "z(x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

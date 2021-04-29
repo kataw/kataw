@@ -100,7 +100,7 @@ x: for(;;) continue x
         }
     ],
     "isModule": false,
-    "text": "x: for(;;) continue x\n/y",
+    "source": "x: for(;;) continue x\n/y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

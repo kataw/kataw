@@ -71,7 +71,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a[b]) += 1;",
+    "source": "(a[b]) += 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

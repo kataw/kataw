@@ -72,7 +72,7 @@ class x extends static {}
         }
     ],
     "isModule": false,
-    "text": "class x extends static {}",
+    "source": "class x extends static {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

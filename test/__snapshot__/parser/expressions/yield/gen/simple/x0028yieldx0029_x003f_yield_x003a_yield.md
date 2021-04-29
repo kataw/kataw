@@ -75,7 +75,7 @@
         }
     ],
     "isModule": false,
-    "text": "(yield) ? yield : yield",
+    "source": "(yield) ? yield : yield",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

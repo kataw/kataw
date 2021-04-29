@@ -131,7 +131,7 @@ class C { set #aaa(x){} }
         }
     ],
     "isModule": false,
-    "text": "class C { set #aaa(x){} }",
+    "source": "class C { set #aaa(x){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -112,7 +112,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { yield\\n a });",
+    "source": "(class { yield\\n a });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -120,7 +120,7 @@ function not_gen() { class C extends yield { } }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { class C extends yield { } }}",
+    "source": "function not_gen() { class C extends yield { } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

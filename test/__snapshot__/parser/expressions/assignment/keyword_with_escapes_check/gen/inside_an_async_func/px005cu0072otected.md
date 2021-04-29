@@ -91,7 +91,7 @@ async () => {  p\u0072otected = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  p\\u0072otected = x  }",
+    "source": "async () => {  p\\u0072otected = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

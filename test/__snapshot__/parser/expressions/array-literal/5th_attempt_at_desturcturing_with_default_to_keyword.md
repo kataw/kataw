@@ -138,7 +138,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...{true=x} = c]",
+    "source": "[...{true=x} = c]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

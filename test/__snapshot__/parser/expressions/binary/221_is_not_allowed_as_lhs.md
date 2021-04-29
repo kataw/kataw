@@ -63,7 +63,7 @@
         }
     ],
     "isModule": false,
-    "text": "!3 ** 2;",
+    "source": "!3 ** 2;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

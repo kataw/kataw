@@ -64,7 +64,7 @@
         }
     ],
     "isModule": false,
-    "text": "({\n    constructor(this: number){}\n})",
+    "source": "({\n    constructor(this: number){}\n})",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

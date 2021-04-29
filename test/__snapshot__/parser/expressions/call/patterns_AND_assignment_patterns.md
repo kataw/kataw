@@ -190,7 +190,7 @@ async({a=1}. {b=2}, {c=3} = {}))
         }
     ],
     "isModule": false,
-    "text": "async({a=1}. {b=2}, {c=3} = {}))",
+    "source": "async({a=1}. {b=2}, {c=3} = {}))",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

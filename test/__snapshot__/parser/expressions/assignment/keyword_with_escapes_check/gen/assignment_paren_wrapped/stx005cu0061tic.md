@@ -61,7 +61,7 @@
         }
     ],
     "isModule": false,
-    "text": "(st\\u0061tic = x);",
+    "source": "(st\\u0061tic = x);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

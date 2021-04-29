@@ -72,7 +72,7 @@ class x extends eval {}
         }
     ],
     "isModule": false,
-    "text": "class x extends eval {}",
+    "source": "class x extends eval {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

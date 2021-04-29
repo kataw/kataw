@@ -69,7 +69,7 @@
         }
     ],
     "isModule": false,
-    "text": "({x: false});",
+    "source": "({x: false});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

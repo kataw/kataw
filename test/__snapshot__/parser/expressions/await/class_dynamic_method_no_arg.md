@@ -132,7 +132,7 @@ class x{[x](a=await){}}
         }
     ],
     "isModule": false,
-    "text": "class x{[x](a=await){}}",
+    "source": "class x{[x](a=await){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

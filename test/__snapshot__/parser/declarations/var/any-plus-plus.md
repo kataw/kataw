@@ -189,7 +189,7 @@ var z = x + x;
         }
     ],
     "isModule": false,
-    "text": "var x: any;\nx.name = \"hello\";\nvar z = x + x;",
+    "source": "var x: any;\nx.name = \"hello\";\nvar z = x + x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

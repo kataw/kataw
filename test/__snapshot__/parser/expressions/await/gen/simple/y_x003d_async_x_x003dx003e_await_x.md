@@ -107,7 +107,7 @@ y = async x => await x
         }
     ],
     "isModule": false,
-    "text": "y = async x => await x",
+    "source": "y = async x => await x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

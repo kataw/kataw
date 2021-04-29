@@ -96,7 +96,7 @@ x
         }
     ],
     "isModule": false,
-    "text": "x\n/ async async => ok",
+    "source": "x\n/ async async => ok",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

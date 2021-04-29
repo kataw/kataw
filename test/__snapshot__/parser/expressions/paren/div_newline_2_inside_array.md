@@ -77,7 +77,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a\n/b/);",
+    "source": "(a\n/b/);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

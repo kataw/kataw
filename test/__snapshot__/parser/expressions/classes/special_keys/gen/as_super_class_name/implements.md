@@ -72,7 +72,7 @@ class x extends implements {}
         }
     ],
     "isModule": false,
-    "text": "class x extends implements {}",
+    "source": "class x extends implements {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

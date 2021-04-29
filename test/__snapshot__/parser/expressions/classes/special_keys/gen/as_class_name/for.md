@@ -104,7 +104,7 @@ class for {}
         }
     ],
     "isModule": false,
-    "text": "class for {}",
+    "source": "class for {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

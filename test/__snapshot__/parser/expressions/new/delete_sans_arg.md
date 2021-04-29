@@ -55,7 +55,7 @@ new delete
         }
     ],
     "isModule": false,
-    "text": "new delete",
+    "source": "new delete",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

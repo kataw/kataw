@@ -107,7 +107,7 @@ export let x = 10, y = 20
         }
     ],
     "isModule": true,
-    "text": "export let x = 10, y = 20",
+    "source": "export let x = 10, y = 20",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -129,7 +129,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { import.call",
+    "source": "{ {} finally(x) { import.call",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

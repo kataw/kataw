@@ -155,7 +155,7 @@
         }
     ],
     "isModule": false,
-    "text": " function x() { { var f; var f } }",
+    "source": " function x() { { var f; var f } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -135,7 +135,7 @@ class A {static a(x=new.target){}}
         }
     ],
     "isModule": false,
-    "text": "class A {static a(x=new.target){}}",
+    "source": "class A {static a(x=new.target){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -231,7 +231,7 @@
         }
     ],
     "isModule": false,
-    "text": "{ {} finally(x) { function x(async x, await y) {",
+    "source": "{ {} finally(x) { function x(async x, await y) {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

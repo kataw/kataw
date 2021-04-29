@@ -119,7 +119,7 @@ class x {static async * enum(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async * enum(){}}",
+    "source": "class x {static async * enum(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

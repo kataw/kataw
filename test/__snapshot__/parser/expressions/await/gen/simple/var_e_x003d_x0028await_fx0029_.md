@@ -88,7 +88,7 @@ var e = (await, f);
         }
     ],
     "isModule": false,
-    "text": "var e = (await, f);",
+    "source": "var e = (await, f);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

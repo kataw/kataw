@@ -84,7 +84,7 @@
         }
     ],
     "isModule": false,
-    "text": "{\n  function f(){}\n}",
+    "source": "{\n  function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

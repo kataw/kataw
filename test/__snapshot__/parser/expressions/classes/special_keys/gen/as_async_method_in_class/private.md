@@ -109,7 +109,7 @@ class x {async private(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async private(){}}",
+    "source": "class x {async private(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

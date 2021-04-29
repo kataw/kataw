@@ -225,7 +225,7 @@ switch[ #
         }
     ],
     "isModule": false,
-    "text": "switch case #",
+    "source": "switch case #",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

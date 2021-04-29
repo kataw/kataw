@@ -88,7 +88,7 @@ class x {debugger: x}
         }
     ],
     "isModule": false,
-    "text": "class x {debugger: x}",
+    "source": "class x {debugger: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

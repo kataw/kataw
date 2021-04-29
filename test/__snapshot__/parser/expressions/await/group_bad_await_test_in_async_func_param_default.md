@@ -132,7 +132,7 @@ async function f(x=(await)=y){}
         }
     ],
     "isModule": false,
-    "text": "async function f(x=(await)=y){}",
+    "source": "async function f(x=(await)=y){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

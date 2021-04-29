@@ -62,7 +62,7 @@
         }
     ],
     "isModule": false,
-    "text": "// one comment\n/* two\n comment */ \"use strict\"; with (x) y;",
+    "source": "// one comment\n/* two\n comment */ \"use strict\"; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

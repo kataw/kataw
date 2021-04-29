@@ -124,7 +124,7 @@ class Foo {get fooProp():number{}}
         }
     ],
     "isModule": false,
-    "text": "class Foo {get fooProp():number{}}",
+    "source": "class Foo {get fooProp():number{}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

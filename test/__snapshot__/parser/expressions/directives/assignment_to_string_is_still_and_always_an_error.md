@@ -51,7 +51,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"ignore me\" = x",
+    "source": "\"ignore me\" = x",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

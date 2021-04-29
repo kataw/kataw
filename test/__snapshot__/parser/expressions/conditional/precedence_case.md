@@ -105,7 +105,7 @@ a === b ? c : d % e;
         }
     ],
     "isModule": false,
-    "text": "a === b ? c : d % e;",
+    "source": "a === b ? c : d % e;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

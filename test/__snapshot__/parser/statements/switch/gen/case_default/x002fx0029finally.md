@@ -34,7 +34,7 @@ case /)finally default
         }
     ],
     "isModule": false,
-    "text": "case /)finally default",
+    "source": "case /)finally default",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

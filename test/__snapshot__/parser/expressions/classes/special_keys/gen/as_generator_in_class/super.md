@@ -109,7 +109,7 @@ class x {* super(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* super(){}}",
+    "source": "class x {* super(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

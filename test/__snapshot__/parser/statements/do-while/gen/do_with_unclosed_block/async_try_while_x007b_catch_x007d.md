@@ -164,7 +164,7 @@ do {} while (x) { async try while { catch }
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { async try while { catch }",
+    "source": "do {} while (x) { async try while { catch }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

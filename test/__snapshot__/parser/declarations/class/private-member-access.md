@@ -152,7 +152,7 @@
         }
     ],
     "isModule": false,
-    "text": "  class C { #aaa; f() { this.#aaa } }",
+    "source": "  class C { #aaa; f() { this.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

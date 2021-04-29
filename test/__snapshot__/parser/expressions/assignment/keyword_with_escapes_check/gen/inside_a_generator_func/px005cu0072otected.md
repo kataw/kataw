@@ -110,7 +110,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  p\\u0072otected = x\n}",
+    "source": "function *f(){\n  p\\u0072otected = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

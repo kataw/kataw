@@ -142,7 +142,7 @@ function *f() {
         }
     ],
     "isModule": false,
-    "text": "function *f() {\n  yield async (x, y) => ok\n}",
+    "source": "function *f() {\n  yield async (x, y) => ok\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

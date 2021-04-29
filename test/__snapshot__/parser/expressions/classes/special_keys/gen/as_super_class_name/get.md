@@ -72,7 +72,7 @@ class x extends get {}
         }
     ],
     "isModule": false,
-    "text": "class x extends get {}",
+    "source": "class x extends get {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

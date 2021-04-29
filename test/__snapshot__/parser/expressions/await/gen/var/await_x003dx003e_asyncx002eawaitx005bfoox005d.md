@@ -156,7 +156,7 @@ var await; var f = (async function() { await => async.await[foo] });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { await => async.await[foo] });",
+    "source": "var await; var f = (async function() { await => async.await[foo] });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

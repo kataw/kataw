@@ -72,7 +72,7 @@
         }
     ],
     "isModule": false,
-    "text": "(bar, arguments) => {}",
+    "source": "(bar, arguments) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

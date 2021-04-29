@@ -113,7 +113,7 @@
         }
     ],
     "isModule": false,
-    "text": "(0, a);\n\n(0, (0, a));",
+    "source": "(0, a);\n\n(0, (0, a));",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

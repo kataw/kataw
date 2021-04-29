@@ -34,7 +34,7 @@ case false
         }
     ],
     "isModule": false,
-    "text": "case false",
+    "source": "case false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

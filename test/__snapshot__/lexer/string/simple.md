@@ -95,7 +95,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\"\n;\n\"some content\"\n;\n\"var\"\n;\n\"x / y\"\n;\n\"raw lower unicode @{x200}\"",
+    "source": "\"\"\n;\n\"some content\"\n;\n\"var\"\n;\n\"x / y\"\n;\n\"raw lower unicode @{x200}\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

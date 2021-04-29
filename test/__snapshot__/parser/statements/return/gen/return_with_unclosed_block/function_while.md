@@ -165,7 +165,7 @@ return {} return(x) { function while
         }
     ],
     "isModule": false,
-    "text": "return {} return(x) { function while",
+    "source": "return {} return(x) { function while",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

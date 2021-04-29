@@ -72,7 +72,7 @@ class x extends set {}
         }
     ],
     "isModule": false,
-    "text": "class x extends set {}",
+    "source": "class x extends set {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -90,7 +90,7 @@
         }
     ],
     "isModule": false,
-    "text": "(interface) => { 'use strict'; 0 } ;",
+    "source": "(interface) => { 'use strict'; 0 } ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

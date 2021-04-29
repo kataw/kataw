@@ -65,7 +65,7 @@ type number = string;
         }
     ],
     "isModule": false,
-    "text": "type number = string;",
+    "source": "type number = string;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

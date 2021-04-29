@@ -167,7 +167,7 @@ class C { set x(_) { new super(); } }
         }
     ],
     "isModule": false,
-    "text": "class C { set x(_) { new super(); } }",
+    "source": "class C { set x(_) { new super(); } }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

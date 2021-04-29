@@ -89,7 +89,7 @@
         }
     ],
     "isModule": false,
-    "text": "(a,b,...c) => 0;",
+    "source": "(a,b,...c) => 0;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

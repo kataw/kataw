@@ -87,7 +87,7 @@ for(let a, let;;);
         }
     ],
     "isModule": false,
-    "text": "for(let a, let;;);",
+    "source": "for(let a, let;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

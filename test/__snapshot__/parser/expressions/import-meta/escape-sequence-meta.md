@@ -41,7 +41,7 @@ import.m\u0065ta;
         }
     ],
     "isModule": true,
-    "text": "import.m\\u0065ta;",
+    "source": "import.m\\u0065ta;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

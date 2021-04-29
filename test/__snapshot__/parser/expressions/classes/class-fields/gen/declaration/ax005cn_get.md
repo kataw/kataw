@@ -102,7 +102,7 @@ class C { a\n get }
         }
     ],
     "isModule": false,
-    "text": "class C { a\\n get }",
+    "source": "class C { a\\n get }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

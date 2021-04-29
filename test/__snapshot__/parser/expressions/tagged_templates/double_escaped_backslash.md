@@ -74,7 +74,7 @@ tag`\\\ `;
         }
     ],
     "isModule": false,
-    "text": "tag`\\ \\\\`;\ntag`\\\\\\ `;",
+    "source": "tag`\\ \\\\`;\ntag`\\\\\\ `;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

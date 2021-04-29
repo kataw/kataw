@@ -247,7 +247,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
         }
     ],
     "isModule": false,
-    "text": "class a { constructor(){   class x extends y { [super()](){} }    }}",
+    "source": "class a { constructor(){   class x extends y { [super()](){} }    }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

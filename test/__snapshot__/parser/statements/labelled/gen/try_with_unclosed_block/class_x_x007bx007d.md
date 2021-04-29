@@ -131,7 +131,7 @@ try {} finally(x) { class x {}
         }
     ],
     "isModule": false,
-    "text": "try {} finally(x) { class x {}",
+    "source": "try {} finally(x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

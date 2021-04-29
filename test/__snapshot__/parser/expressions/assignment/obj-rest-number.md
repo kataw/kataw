@@ -98,7 +98,7 @@ result = {...rest} = 69;
         }
     ],
     "isModule": false,
-    "text": "result = {...rest} = 69;",
+    "source": "result = {...rest} = 69;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

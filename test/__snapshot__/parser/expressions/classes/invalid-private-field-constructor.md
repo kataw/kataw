@@ -128,7 +128,7 @@ class C { static #constructor }
         }
     ],
     "isModule": false,
-    "text": "class C { #constructor }\n\nclass C { static #constructor }",
+    "source": "class C { #constructor }\n\nclass C { static #constructor }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

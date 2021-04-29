@@ -396,7 +396,7 @@
         }
     ],
     "isModule": false,
-    "text": "({...(obj)} = foo),({...obj} = foo),({...obj.x} = foo),({...{}.x} = foo),({...[].x} = foo)",
+    "source": "({...(obj)} = foo),({...obj} = foo),({...obj.x} = foo),({...{}.x} = foo),({...[].x} = foo)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

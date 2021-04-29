@@ -134,7 +134,7 @@ function not_gen() { var foo = yield = 1; }}
         }
     ],
     "isModule": false,
-    "text": "function not_gen() { var foo = yield = 1; }}",
+    "source": "function not_gen() { var foo = yield = 1; }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -126,7 +126,7 @@ for ({ eval = 0 } in [{}]) ;
         }
     ],
     "isModule": false,
-    "text": "for ({ eval = 0 } in [{}]) ;",
+    "source": "for ({ eval = 0 } in [{}]) ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

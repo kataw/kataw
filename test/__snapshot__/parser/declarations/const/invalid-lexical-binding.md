@@ -101,7 +101,7 @@ for(const a = 1, let = 2;;);
         }
     ],
     "isModule": false,
-    "text": "for(const a = 1, let = 2;;);",
+    "source": "for(const a = 1, let = 2;;);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

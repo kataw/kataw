@@ -114,7 +114,7 @@ class x {static * case(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * case(){}}",
+    "source": "class x {static * case(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

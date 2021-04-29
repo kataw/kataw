@@ -63,7 +63,7 @@ new [foo]
         }
     ],
     "isModule": false,
-    "text": "new [foo]",
+    "source": "new [foo]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

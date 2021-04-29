@@ -147,7 +147,7 @@
         }
     ],
     "isModule": false,
-    "text": "(...x = y) => x;\n\n(...x = 10) => {};",
+    "source": "(...x = y) => x;\n\n(...x = 10) => {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -124,7 +124,7 @@ switch [catch] catch try {
         }
     ],
     "isModule": false,
-    "text": "switch [catch] catch try {",
+    "source": "switch [catch] catch try {",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -191,7 +191,7 @@ result = { x: { y } } = { x: { y: 2 } };
         }
     ],
     "isModule": false,
-    "text": "result = { x: { y } } = { x: { y: 2 } };",
+    "source": "result = { x: { y } } = { x: { y: 2 } };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

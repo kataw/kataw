@@ -95,7 +95,7 @@ class var {}
         }
     ],
     "isModule": false,
-    "text": "class var {}",
+    "source": "class var {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

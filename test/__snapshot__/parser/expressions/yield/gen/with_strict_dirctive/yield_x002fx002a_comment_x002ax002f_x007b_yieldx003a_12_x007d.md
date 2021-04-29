@@ -86,7 +86,7 @@
         }
     ],
     "isModule": false,
-    "text": "'use strict'; yield /* comment */ { yield: 12 }",
+    "source": "'use strict'; yield /* comment */ { yield: 12 }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

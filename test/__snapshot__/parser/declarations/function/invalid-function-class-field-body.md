@@ -168,7 +168,7 @@ function* foo() {
         }
     ],
     "isModule": false,
-    "text": "function* foo() {\n  class C {\n    // here yield is an identifier reference\n    p = yield + 42;\n  }\n}",
+    "source": "function* foo() {\n  class C {\n    // here yield is an identifier reference\n    p = yield + 42;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

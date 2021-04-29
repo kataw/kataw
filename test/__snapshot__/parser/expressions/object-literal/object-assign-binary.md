@@ -150,7 +150,7 @@ x = { "a": {x} = y.z };
         }
     ],
     "isModule": false,
-    "text": "x = { \"a\": {x} = y.z };\n// x = { \"a\": [x] = y.z };\n// (x = { a: {x} = y }) / y.z;\n// (x = { a: x = y }) / y.z;\n// (x = { a: (x) = y }) / y.z;\n// (x = { a: x = (y) }) / y.z;\n// (x = { a: (x = (y)) }) / y.z;\n// (x = { \"a\": {x} = y }) / y.z;\n// (x = { \"a\": x = y }) / y.z;\n// (x = { \"a\": (x) = y }) / y.z;\n// (x = { \"a\": x = (y) }) / y.z;\n// (x = { \"a\": (x = (y)) }) / y.z;\n// (x = { [a]: {x} = y }) / y.z;\n// (x = { [a]: x = y }) / y.z;\n// (x = { [a]: (x) = y }) / y.z;\n// (x = { [a]: x = (y) }) / y.z;\n// (x = { [a]: (x = (y)) }) / y.z;\n// x = { \"a\": ([] ? a : b.c[d]) };",
+    "source": "x = { \"a\": {x} = y.z };\n// x = { \"a\": [x] = y.z };\n// (x = { a: {x} = y }) / y.z;\n// (x = { a: x = y }) / y.z;\n// (x = { a: (x) = y }) / y.z;\n// (x = { a: x = (y) }) / y.z;\n// (x = { a: (x = (y)) }) / y.z;\n// (x = { \"a\": {x} = y }) / y.z;\n// (x = { \"a\": x = y }) / y.z;\n// (x = { \"a\": (x) = y }) / y.z;\n// (x = { \"a\": x = (y) }) / y.z;\n// (x = { \"a\": (x = (y)) }) / y.z;\n// (x = { [a]: {x} = y }) / y.z;\n// (x = { [a]: x = y }) / y.z;\n// (x = { [a]: (x) = y }) / y.z;\n// (x = { [a]: x = (y) }) / y.z;\n// (x = { [a]: (x = (y)) }) / y.z;\n// x = { \"a\": ([] ? a : b.c[d]) };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

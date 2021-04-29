@@ -78,7 +78,7 @@ a?.fn`hello`;
         }
     ],
     "isModule": false,
-    "text": "a?.fn`hello`;",
+    "source": "a?.fn`hello`;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

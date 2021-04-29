@@ -115,7 +115,7 @@
         }
     ],
     "isModule": false,
-    "text": "[y<t]({}=y)",
+    "source": "[y<t]({}=y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

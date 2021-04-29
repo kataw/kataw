@@ -37,7 +37,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u{10ffff}\"",
+    "source": "\"\\u{10ffff}\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

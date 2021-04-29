@@ -52,7 +52,7 @@ class package {}
         }
     ],
     "isModule": false,
-    "text": "class package {}",
+    "source": "class package {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

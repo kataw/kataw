@@ -227,7 +227,7 @@
         }
     ],
     "isModule": false,
-    "text": "((a) => x);\n\n(x, (a) => x);\n\n((x) => y, (z) => {});",
+    "source": "((a) => x);\n\n(x, (a) => x);\n\n((x) => y, (z) => {});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -169,7 +169,7 @@ function *g() { function f(x = x + yield) {}; }
         }
     ],
     "isModule": false,
-    "text": "function *g() { function f(x = x + yield) {}; }",
+    "source": "function *g() { function f(x = x + yield) {}; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

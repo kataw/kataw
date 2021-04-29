@@ -212,7 +212,7 @@
         }
     ],
     "isModule": false,
-    "text": "07\n;\n08\n;\n00008\n;\n065\n;\n02\n;\n076\n;\n000\n;\n{}(01)\n;\n00008\n;\n032\n;\n0x8\n;\n",
+    "source": "07\n;\n08\n;\n00008\n;\n065\n;\n02\n;\n076\n;\n000\n;\n{}(01)\n;\n00008\n;\n032\n;\n0x8\n;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

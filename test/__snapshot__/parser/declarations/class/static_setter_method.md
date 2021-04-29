@@ -148,7 +148,7 @@ class A {static set 10(x){}}
         }
     ],
     "isModule": false,
-    "text": "class A {static set 10(x){}}",
+    "source": "class A {static set 10(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

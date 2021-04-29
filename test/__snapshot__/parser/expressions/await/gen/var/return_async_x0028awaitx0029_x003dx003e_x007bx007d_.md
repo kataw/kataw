@@ -247,7 +247,7 @@ var await; var f = (async function() { return async (await) => {}; });
         }
     ],
     "isModule": false,
-    "text": "var await; var f = (async function() { return async (await) => {}; });",
+    "source": "var await; var f = (async function() { return async (await) => {}; });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

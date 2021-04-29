@@ -68,7 +68,7 @@ declare var foo;
         }
     ],
     "isModule": false,
-    "text": "declare var foo;",
+    "source": "declare var foo;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

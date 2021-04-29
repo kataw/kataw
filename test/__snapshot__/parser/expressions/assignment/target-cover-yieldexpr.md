@@ -119,7 +119,7 @@ function* g() {
         }
     ],
     "isModule": false,
-    "text": "function* g() {\n  (yield) = 1;\n}",
+    "source": "function* g() {\n  (yield) = 1;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

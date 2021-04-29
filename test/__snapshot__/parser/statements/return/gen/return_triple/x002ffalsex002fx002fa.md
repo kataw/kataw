@@ -98,7 +98,7 @@ return return return /false//a
         }
     ],
     "isModule": false,
-    "text": "return return return /false//a",
+    "source": "return return return /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

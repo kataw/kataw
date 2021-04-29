@@ -68,7 +68,7 @@ switch case /)finally
         }
     ],
     "isModule": false,
-    "text": "switch case /)finally",
+    "source": "switch case /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

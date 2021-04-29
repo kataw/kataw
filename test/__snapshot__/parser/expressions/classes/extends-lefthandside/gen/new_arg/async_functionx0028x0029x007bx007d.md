@@ -84,7 +84,7 @@ new async function(){}
         }
     ],
     "isModule": false,
-    "text": "new async function(){}",
+    "source": "new async function(){}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

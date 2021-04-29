@@ -133,7 +133,7 @@ try {
         }
     ],
     "isModule": true,
-    "text": "try {\n} catch (e) {\n  function(){}\n}",
+    "source": "try {\n} catch (e) {\n  function(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

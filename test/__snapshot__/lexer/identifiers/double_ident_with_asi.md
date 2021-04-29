@@ -52,7 +52,7 @@ bar
         }
     ],
     "isModule": true,
-    "text": "foo\nbar",
+    "source": "foo\nbar",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

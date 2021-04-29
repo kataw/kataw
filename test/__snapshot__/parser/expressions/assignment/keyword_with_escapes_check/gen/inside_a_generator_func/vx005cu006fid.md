@@ -121,7 +121,7 @@ function *f(){
         }
     ],
     "isModule": false,
-    "text": "function *f(){\n  v\\u006fid = x\n}",
+    "source": "function *f(){\n  v\\u006fid = x\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

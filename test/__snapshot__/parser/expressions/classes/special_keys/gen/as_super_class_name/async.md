@@ -72,7 +72,7 @@ class x extends async {}
         }
     ],
     "isModule": false,
-    "text": "class x extends async {}",
+    "source": "class x extends async {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\u{af\"",
+    "source": "\"\\u{af\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

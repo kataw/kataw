@@ -79,7 +79,7 @@ declare var x: symbol;
         }
     ],
     "isModule": false,
-    "text": "declare var x: symbol;",
+    "source": "declare var x: symbol;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

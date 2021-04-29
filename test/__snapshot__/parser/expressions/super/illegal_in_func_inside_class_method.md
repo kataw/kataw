@@ -181,7 +181,7 @@ class x { foo(){ function f(){ super.foo; } }}
         }
     ],
     "isModule": false,
-    "text": "class x { foo(){ function f(){ super.foo; } }}",
+    "source": "class x { foo(){ function f(){ super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

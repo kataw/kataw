@@ -532,7 +532,7 @@ import { a as b } from 'm.js';
         }
     ],
     "isModule": true,
-    "text": "import { a as b } from 'm.js';\n\nimport n from 'n.js';\n\nimport { a as b } from 'm.js';\n\nimport n from 'n.js';\n\nexport { a as b } from 'm.js';\n\nimport * as foo from 'bar.js';\n\nimport { a as b } from 'm.js';\n",
+    "source": "import { a as b } from 'm.js';\n\nimport n from 'n.js';\n\nimport { a as b } from 'm.js';\n\nimport n from 'n.js';\n\nexport { a as b } from 'm.js';\n\nimport * as foo from 'bar.js';\n\nimport { a as b } from 'm.js';\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

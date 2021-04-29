@@ -108,7 +108,7 @@
         }
     ],
     "isModule": false,
-    "text": "({[foo]() {}} = y)",
+    "source": "({[foo]() {}} = y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

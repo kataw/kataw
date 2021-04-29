@@ -77,7 +77,7 @@ await.b[c] => async
         }
     ],
     "isModule": false,
-    "text": "await.b[c] => async",
+    "source": "await.b[c] => async",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

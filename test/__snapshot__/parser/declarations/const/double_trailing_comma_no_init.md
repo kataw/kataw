@@ -73,7 +73,7 @@ const foo,,
         }
     ],
     "isModule": false,
-    "text": "const foo,,",
+    "source": "const foo,,",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

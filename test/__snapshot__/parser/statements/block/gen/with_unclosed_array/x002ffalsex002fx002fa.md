@@ -83,7 +83,7 @@
         }
     ],
     "isModule": false,
-    "text": "{[ /false//a",
+    "source": "{[ /false//a",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

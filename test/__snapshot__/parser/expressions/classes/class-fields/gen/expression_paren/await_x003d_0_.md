@@ -91,7 +91,7 @@
         }
     ],
     "isModule": false,
-    "text": "(class { await = 0; });",
+    "source": "(class { await = 0; });",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

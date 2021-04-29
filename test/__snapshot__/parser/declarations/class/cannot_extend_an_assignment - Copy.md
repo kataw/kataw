@@ -114,7 +114,7 @@ class x extends a = b {}
         }
     ],
     "isModule": false,
-    "text": "class x extends a = b {}",
+    "source": "class x extends a = b {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

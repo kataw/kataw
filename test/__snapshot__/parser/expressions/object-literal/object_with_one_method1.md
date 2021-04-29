@@ -436,7 +436,7 @@ wrap({0o4432(){}});
         }
     ],
     "isModule": false,
-    "text": "wrap({0(){}});\n\nwrap({1(){}});\n\nwrap({0x234235(){}});\n\nwrap({0b01010(){}});\n\nwrap({0o4432(){}});\n",
+    "source": "wrap({0(){}});\n\nwrap({1(){}});\n\nwrap({0x234235(){}});\n\nwrap({0b01010(){}});\n\nwrap({0o4432(){}});\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -70,7 +70,7 @@ delete x => ok
         }
     ],
     "isModule": false,
-    "text": "delete x => ok",
+    "source": "delete x => ok",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

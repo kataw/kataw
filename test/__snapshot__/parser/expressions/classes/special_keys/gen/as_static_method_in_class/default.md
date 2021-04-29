@@ -109,7 +109,7 @@ class x {static default(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static default(){}}",
+    "source": "class x {static default(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

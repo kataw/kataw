@@ -162,7 +162,7 @@
         }
     ],
     "isModule": false,
-    "text": "[...{a: function=x} = c]",
+    "source": "[...{a: function=x} = c]",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

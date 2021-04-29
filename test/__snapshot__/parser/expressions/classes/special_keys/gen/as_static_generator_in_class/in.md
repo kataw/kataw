@@ -114,7 +114,7 @@ class x {static * in(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static * in(){}}",
+    "source": "class x {static * in(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

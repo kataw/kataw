@@ -100,7 +100,7 @@ for (a?.b of c);
         }
     ],
     "isModule": false,
-    "text": "for (a?.b of c);\n",
+    "source": "for (a?.b of c);\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static get break(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get break(){}}",
+    "source": "class x {static get break(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

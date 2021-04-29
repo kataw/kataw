@@ -128,7 +128,7 @@ class x {set extends(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {set extends(x){}}",
+    "source": "class x {set extends(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

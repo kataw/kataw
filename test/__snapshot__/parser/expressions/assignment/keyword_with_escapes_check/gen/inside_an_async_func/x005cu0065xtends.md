@@ -70,7 +70,7 @@ async () => {  \u0065xtends = x  }
         }
     ],
     "isModule": false,
-    "text": "async () => {  \\u0065xtends = x  }",
+    "source": "async () => {  \\u0065xtends = x  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

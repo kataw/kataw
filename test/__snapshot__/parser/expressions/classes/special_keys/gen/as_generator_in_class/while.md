@@ -109,7 +109,7 @@ class x {* while(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {* while(){}}",
+    "source": "class x {* while(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

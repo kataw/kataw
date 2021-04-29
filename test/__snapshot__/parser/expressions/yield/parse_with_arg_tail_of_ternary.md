@@ -132,7 +132,7 @@ function *f() { 1 ? 2 : yield 3; }
         }
     ],
     "isModule": false,
-    "text": "function *f() { 1 ? 2 : yield 3; }",
+    "source": "function *f() { 1 ? 2 : yield 3; }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

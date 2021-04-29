@@ -99,7 +99,7 @@ switch switch switch false
         }
     ],
     "isModule": false,
-    "text": "switch switch switch false",
+    "source": "switch switch switch false",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

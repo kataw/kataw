@@ -54,7 +54,7 @@
         }
     ],
     "isModule": false,
-    "text": "\\u006eull = x;",
+    "source": "\\u006eull = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

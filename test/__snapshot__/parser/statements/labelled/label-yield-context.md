@@ -107,7 +107,7 @@ function * x () {
         }
     ],
     "isModule": false,
-    "text": "function * x () {\n    y: yield;\n}",
+    "source": "function * x () {\n    y: yield;\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

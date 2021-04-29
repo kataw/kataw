@@ -130,7 +130,7 @@ let { f: ...await f } = {};
         }
     ],
     "isModule": false,
-    "text": "let { f: ...await f } = {};",
+    "source": "let { f: ...await f } = {};",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

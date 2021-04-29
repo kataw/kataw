@@ -170,7 +170,7 @@ for (class x { [a](){} }.x in c);
         }
     ],
     "isModule": false,
-    "text": "for (class x { [a](){} }.x in c);",
+    "source": "for (class x { [a](){} }.x in c);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -232,7 +232,7 @@ return[ #
         }
     ],
     "isModule": false,
-    "text": "return catch #",
+    "source": "return catch #",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

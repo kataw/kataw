@@ -141,7 +141,7 @@ do {} while (x) { try { !xxx
         }
     ],
     "isModule": false,
-    "text": "do {} while (x) { try { !xxx",
+    "source": "do {} while (x) { try { !xxx",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

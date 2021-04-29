@@ -114,7 +114,7 @@ class x {static get import(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static get import(){}}",
+    "source": "class x {static get import(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

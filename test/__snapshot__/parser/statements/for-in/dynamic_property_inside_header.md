@@ -110,7 +110,7 @@ for (x[a in b] in y);
         }
     ],
     "isModule": false,
-    "text": "for (x[a in b] in y);",
+    "source": "for (x[a in b] in y);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -114,7 +114,7 @@ class x {static async throw(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static async throw(){}}",
+    "source": "class x {static async throw(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -1348,7 +1348,7 @@
         }
     ],
     "isModule": false,
-    "text": "({a:b[0]}) => x;\n\n([{x: y.z} = a]) => b;\n\n([{x: y.z}]) => b;\n\n([{x: y.z}] = a) => b;\n\n([{\"foo\": y.z} = a]) => b;\n\n({\"foo\": y.z} = a) => b;\n\n([{\"foo\": y.z}]) => b;\n\n([{\"foo\": y.z}] = a) => b;\n\n([a, b] => 42);\n\n([a, b] = [] => 42);\n\n(if) => {};\n\n(a, if) => {};\n\n(q, a + b) => {};\n\n(q, a + b, c) => {};\n\n(...a => 42);",
+    "source": "({a:b[0]}) => x;\n\n([{x: y.z} = a]) => b;\n\n([{x: y.z}]) => b;\n\n([{x: y.z}] = a) => b;\n\n([{\"foo\": y.z} = a]) => b;\n\n({\"foo\": y.z} = a) => b;\n\n([{\"foo\": y.z}]) => b;\n\n([{\"foo\": y.z}] = a) => b;\n\n([a, b] => 42);\n\n([a, b] = [] => 42);\n\n(if) => {};\n\n(a, if) => {};\n\n(q, a + b) => {};\n\n(q, a + b, c) => {};\n\n(...a => 42);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

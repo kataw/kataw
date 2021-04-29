@@ -106,7 +106,7 @@ class x { "prot\u{6f}type"(){} }
         }
     ],
     "isModule": true,
-    "text": "class x { \"prot\\u{6f}type\"(){} }",
+    "source": "class x { \"prot\\u{6f}type\"(){} }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

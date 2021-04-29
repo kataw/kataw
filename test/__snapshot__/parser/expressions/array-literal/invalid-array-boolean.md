@@ -37,7 +37,7 @@
     "directives": [],
     "statements": [],
     "isModule": false,
-    "text": "//[false] = x;\n\n//[true] = x;",
+    "source": "//[false] = x;\n\n//[true] = x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

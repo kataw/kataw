@@ -82,7 +82,7 @@ export default { foo: 1 };
         }
     ],
     "isModule": true,
-    "text": "export default { foo: 1 };",
+    "source": "export default { foo: 1 };",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

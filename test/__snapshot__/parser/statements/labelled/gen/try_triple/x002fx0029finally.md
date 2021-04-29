@@ -101,7 +101,7 @@ try try try /)finally
         }
     ],
     "isModule": false,
-    "text": "try try try /)finally",
+    "source": "try try try /)finally",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

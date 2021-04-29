@@ -88,7 +88,7 @@ class x {for: x}
         }
     ],
     "isModule": false,
-    "text": "class x {for: x}",
+    "source": "class x {for: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

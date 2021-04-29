@@ -1167,7 +1167,7 @@ L: let
         }
     ],
     "isModule": false,
-    "text": "var let;\n\nvar foo, let;\n\ntry { } catch (let) { }\n\nfunction let() { }\n\n(function let() { })\n\nfunction foo(let) { }\n\nfunction foo(bar, let) { }\n\nlet = 1;\n\nvar foo = let = 1;\n\nlet * 2;\n\n++let;\n\nlet++;\n\n(function f() { let: 34 });\n\nfunction let(let) { let: let(let + let(0)); }\n\n({ let: 1 })\n\n({ get let() { 1 } })\n\nlet(100)\n\nL: let\nx\n\nL: let\n{x}",
+    "source": "var let;\n\nvar foo, let;\n\ntry { } catch (let) { }\n\nfunction let() { }\n\n(function let() { })\n\nfunction foo(let) { }\n\nfunction foo(bar, let) { }\n\nlet = 1;\n\nvar foo = let = 1;\n\nlet * 2;\n\n++let;\n\nlet++;\n\n(function f() { let: 34 });\n\nfunction let(let) { let: let(let + let(0)); }\n\n({ let: 1 })\n\n({ get let() { 1 } })\n\nlet(100)\n\nL: let\nx\n\nL: let\n{x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

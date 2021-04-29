@@ -104,7 +104,7 @@ class x {arguments(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {arguments(){}}",
+    "source": "class x {arguments(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -88,7 +88,7 @@ class x {public: x}
         }
     ],
     "isModule": false,
-    "text": "class x {public: x}",
+    "source": "class x {public: x}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

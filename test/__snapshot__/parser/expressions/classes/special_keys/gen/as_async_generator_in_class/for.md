@@ -114,7 +114,7 @@ class x {async * for(){}}
         }
     ],
     "isModule": false,
-    "text": "class x {async * for(){}}",
+    "source": "class x {async * for(){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

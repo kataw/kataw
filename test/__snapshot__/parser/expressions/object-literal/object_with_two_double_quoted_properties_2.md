@@ -113,7 +113,7 @@ wrap({'a':b, 'c':d});
         }
     ],
     "isModule": false,
-    "text": "wrap({'a':b, 'c':d});",
+    "source": "wrap({'a':b, 'c':d});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

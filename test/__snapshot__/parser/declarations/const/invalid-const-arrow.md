@@ -203,7 +203,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
         }
     ],
     "isModule": false,
-    "text": "const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;",
+    "source": "const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

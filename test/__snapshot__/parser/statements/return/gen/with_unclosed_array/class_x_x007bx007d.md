@@ -78,7 +78,7 @@ return[ class x {}
         }
     ],
     "isModule": false,
-    "text": "return[ class x {}",
+    "source": "return[ class x {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

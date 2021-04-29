@@ -113,7 +113,7 @@ return return return catch
         }
     ],
     "isModule": false,
-    "text": "return return return catch",
+    "source": "return return return catch",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

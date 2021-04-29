@@ -128,7 +128,7 @@ switch (x) {
         }
     ],
     "isModule": true,
-    "text": "switch (x) {\n  case foo:\n    async function f(){}\n}",
+    "source": "switch (x) {\n  case foo:\n    async function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

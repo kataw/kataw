@@ -133,7 +133,7 @@ class x {static set implements(x){}}
         }
     ],
     "isModule": false,
-    "text": "class x {static set implements(x){}}",
+    "source": "class x {static set implements(x){}}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -119,7 +119,7 @@ while(y
         }
     ],
     "isModule": false,
-    "text": "do if(x=>{});else n\nwhile(y",
+    "source": "do if(x=>{});else n\nwhile(y",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

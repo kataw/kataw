@@ -112,7 +112,7 @@ const f = (...x?) => {}
         }
     ],
     "isModule": false,
-    "text": "const f = (...x?) => {}",
+    "source": "const f = (...x?) => {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

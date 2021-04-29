@@ -150,7 +150,7 @@ var a: {param1?: number; param2: string; param3: string;}
         }
     ],
     "isModule": false,
-    "text": "var a: {param1?: number; param2: string; param3: string;}",
+    "source": "var a: {param1?: number; param2: string; param3: string;}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

@@ -123,7 +123,7 @@
         }
     ],
     "isModule": false,
-    "text": "({*in(x, y) {}});",
+    "source": "({*in(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

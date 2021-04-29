@@ -31,7 +31,7 @@
         }
     ],
     "isModule": false,
-    "text": "\"\\66*\"",
+    "source": "\"\\66*\"",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

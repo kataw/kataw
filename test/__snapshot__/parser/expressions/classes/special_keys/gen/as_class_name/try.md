@@ -91,7 +91,7 @@ class try {}
         }
     ],
     "isModule": false,
-    "text": "class try {}",
+    "source": "class try {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
