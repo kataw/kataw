@@ -135,6 +135,7 @@ for (const [let] in obj);
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 12, end: 15
+
 ```
 

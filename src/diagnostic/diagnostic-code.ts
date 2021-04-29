@@ -123,7 +123,8 @@ export const enum DiagnosticCode {
   _import_meta_must_not_contain_escaped_characters = 121,
   Escape_sequence_in_keyword_import = 122,
   The_only_valid_meta_property_for_new_is_new_target = 123,
-  Invalid_escaped_keyword = 124
+  Invalid_escaped_keyword = 124,
+  _let_is_not_allowed_to_be_used_as_a_name_in_let_or_const_declarations = 125
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -248,5 +249,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [121]: "'import.meta' must not contain escaped characters",
   [122]: 'Escape sequence in keyword import',
   [123]: "The only valid meta property for new is 'new.target",
-  [124]: 'Invalid escaped keyword'
+  [124]: 'Invalid escaped keyword',
+  [125]: "'let' is not allowed to be used as a name in 'let' or 'const' declarations."
 };

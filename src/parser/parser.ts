@@ -795,7 +795,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         } else {
           initializer = parseBindingList(
             parser,
-            context | Context.DisallowIn,
+            context | Context.DisallowIn | Context.LexicalContext,
             /* isConst */ false,
             /* inForStatement */ true
           );
@@ -818,7 +818,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
     } else if (consumeOpt(parser, context, SyntaxKind.ConstKeyword)) {
       initializer = parseBindingList(
         parser,
-        context | Context.DisallowIn,
+        context | Context.DisallowIn | Context.LexicalContext,
         /* isConst */ true,
         /* inForStatement */ true
       );
@@ -1823,6 +1823,7 @@ function parsePropertyDefinition(
   if (parser.token & 8404992) {
     const token = parser.token;
     key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, true);
+
     if (
       parser.token === SyntaxKind.Assign ||
       parser.token === SyntaxKind.Comma ||
@@ -1832,6 +1833,15 @@ function parsePropertyDefinition(
         parser.destructible = DestructibleKind.MustDestruct;
         return createCoverInitializedName(key, parseExpression(parser, context), pos, parser.curPos);
       }
+      if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+          parser.curPos,
+          parser.pos
+        );
+      }
+
       parser.destructible = destructible;
       return key;
     }
@@ -3212,6 +3222,14 @@ function parseIdentifierOrPattern(
       parser.pos
     );
   }
+  if (context & Context.LexicalContext && parser.token === SyntaxKind.LetKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode._let_is_not_allowed_to_be_used_as_a_name_in_let_or_const_declarations],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return parseIdentifier(parser, context, privateIdentifierDiagnosticMessage);
 }
 
@@ -3322,6 +3340,8 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const tokenValue = parser.tokenValue;
     const tokenRaw = parser.tokenRaw;
+    const token = parser.token;
+
     nextToken(parser, context);
     if (consumeOpt(parser, context, SyntaxKind.Colon)) {
       return createBindingProperty(
@@ -3340,6 +3360,16 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
         parser.pos
       );
     }
+
+    if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     return createSingleNameBinding(
       ellipsisToken,
       createIdentifier(tokenValue, tokenRaw, pos, parser.curPos),
@@ -3348,6 +3378,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
       parser.curPos
     );
   }
+
   if (ellipsisToken) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -4714,16 +4745,20 @@ function parseLetAsIdentifierOrLexicalDeclaration(
   const flags = parser.nodeFlags | NodeFlags.IsStatement;
   const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
   if (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-
-  if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
-      parser.curPos,
-      parser.pos
+    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    const declarationList = parseBindingList(
+      parser,
+      context | Context.LexicalContext,
+      /* isConst */ false,
+      /* isForStatement */ false
     );
-  }
-    const declarationList = parseBindingList(parser, context, /* isConst */ false, /* isForStatement */ false);
     parseSemicolon(parser, context);
     return createLexicalDeclaration(
       createToken(SyntaxKind.LetKeyword, flags | NodeFlags.ChildLess, pos, expr.end),
@@ -4761,7 +4796,12 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 function parseLexicalDeclaration(parser: ParserState, context: Context, isConst: boolean): LexicalDeclaration {
   const pos = parser.curPos;
   const lexicalToken = consumeToken(parser, context, isConst ? SyntaxKind.ConstKeyword : SyntaxKind.LetKeyword);
-  const declarationList = parseBindingList(parser, context, isConst, /* inForStatement */ false);
+  const declarationList = parseBindingList(
+    parser,
+    context | Context.LexicalContext,
+    isConst,
+    /* inForStatement */ false
+  );
   parseSemicolon(parser, context);
   return createLexicalDeclaration(lexicalToken, declarationList, pos, parser.curPos);
 }
