@@ -7739,8 +7739,10 @@ async function * gen() {class C extends await { }}
 ✖ Expression expected - start: 1160, end: 1161
 ✖ Expression expected - start: 1194, end: 1195
 ✖ Expression expected - start: 1228, end: 1229
+✖ Expected a `;` - start: 1368, end: 1370
 ✖ Statement expected - start: 1402, end: 1403
 ✖ Statement expected - start: 1406, end: 1407
+✖ Expected a `;` - start: 1527, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
 ✖ Statement expected - start: 1683, end: 1684
@@ -7800,6 +7802,7 @@ async function * gen() {class C extends await { }}
 ✖ Invalid left-hand side in for-in loop - start: 3275, end: 3277
 ✖ Statement expected - start: 3284, end: 3285
 ✖ Statement expected - start: 3286, end: 3287
+✖ Expected a `;` - start: 3333, end: 3335
 
 ```
 

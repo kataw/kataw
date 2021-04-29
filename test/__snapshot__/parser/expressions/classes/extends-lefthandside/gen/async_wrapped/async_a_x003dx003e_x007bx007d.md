@@ -190,6 +190,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 43, end: 45
+
 ```
 

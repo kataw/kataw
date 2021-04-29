@@ -96,6 +96,7 @@ x
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 6, end: 9
+
 ```
 

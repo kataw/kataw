@@ -184,6 +184,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 38, end: 40
+
 ```
 

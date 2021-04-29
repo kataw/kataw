@@ -142,7 +142,8 @@ export const enum DiagnosticCode {
   Numeric_separators_not_allowed_here = 140,
   In_strict_mode_code_or_without_web_compability_enabled_functions_can_only_be_declared_at_top_level_or_inside_a_block = 141,
   Without_web_compability_enabled_functions_can_not_be_declared_at_top_level_inside_a_block_or_as_the_body_of_an_if_statement = 142,
-  _try_expected = 143
+  _try_expected = 143,
+  Expected_a = 144
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -286,5 +287,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [140]: 'Numeric separators not allowed here',
   [141]: 'In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block',
   [142]: 'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
-  [143]: "'try' expected"
+  [143]: "'try' expected",
+  [144]: 'Expected a `;`'
 };

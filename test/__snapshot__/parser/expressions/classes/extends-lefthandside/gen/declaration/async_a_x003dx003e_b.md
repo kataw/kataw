@@ -129,6 +129,7 @@ class A extends async a => b {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 21, end: 23
+
 ```
 

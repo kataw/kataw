@@ -186,6 +186,7 @@ function *g() { (x = u + yield z) => {}; }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 30, end: 32
+
 ```
 

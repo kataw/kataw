@@ -3845,6 +3845,7 @@ a++ => {};
 ✖ Expression expected - start: 1369, end: 1370
 ✖ Expression expected - start: 1370, end: 1373
 ✖ Statement expected - start: 1370, end: 1373
+✖ Expected a `;` - start: 1383, end: 1386
 ✖ Statement expected - start: 1398, end: 1401
 ✖ The left hand side of the arrow is not destructible  - start: 1416, end: 1419
 ✖ Statement expected - start: 1434, end: 1437
