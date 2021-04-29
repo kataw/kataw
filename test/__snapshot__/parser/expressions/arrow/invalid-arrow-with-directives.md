@@ -2339,31 +2339,40 @@
                         "directives": [],
                         "statements": [
                             {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "let",
-                                    "rawText": "let",
-                                    "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 80,
                                     "start": 873,
                                     "end": 877
                                 },
-                                "flags": 16,
-                                "start": 873,
-                                "end": 877
-                            },
-                            {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "yield",
+                                                "rawText": "yield",
+                                                "flags": 96,
+                                                "start": 877,
+                                                "end": 883
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
+                                            "start": 877,
+                                            "end": 883
+                                        }
+                                    ],
+                                    "flags": 33554448,
                                     "start": 877,
                                     "end": 883
                                 },
-                                "flags": 16,
-                                "start": 877,
+                                "flags": 33554448,
+                                "start": 873,
                                 "end": 884
                             }
                         ],
@@ -2419,51 +2428,47 @@
                         "directives": [],
                         "statements": [
                             {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "let",
-                                    "rawText": "let",
-                                    "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 80,
                                     "start": 909,
                                     "end": 913
                                 },
-                                "flags": 16,
-                                "start": 909,
-                                "end": 913
-                            },
-                            {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "yield",
-                                        "rawText": "yield",
-                                        "flags": 96,
-                                        "start": 913,
-                                        "end": 919
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 64,
-                                        "start": 919,
-                                        "end": 921
-                                    },
-                                    "right": {
-                                        "kind": 201392130,
-                                        "text": 0,
-                                        "rawText": "0",
-                                        "flags": 96,
-                                        "start": 921,
-                                        "end": 923
-                                    },
-                                    "flags": 32,
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "yield",
+                                                "rawText": "yield",
+                                                "flags": 96,
+                                                "start": 913,
+                                                "end": 919
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 921,
+                                                "end": 923
+                                            },
+                                            "flags": 16,
+                                            "start": 913,
+                                            "end": 923
+                                        }
+                                    ],
+                                    "flags": 33554448,
                                     "start": 913,
                                     "end": 923
                                 },
-                                "flags": 16,
-                                "start": 913,
+                                "flags": 33554448,
+                                "start": 909,
                                 "end": 924
                             }
                         ],
@@ -3171,8 +3176,8 @@
 ✖ Identifier expected. Reserved word in strict mode - start: 650, end: 655
 ✖ Identifier expected. Reserved word in strict mode - start: 700, end: 705
 ✖ Identifier expected. Reserved word in strict mode - start: 745, end: 751
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 877, end: 883
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 913, end: 919
+✖ Identifier expected. Reserved word in strict mode - start: 877, end: 883
+✖ Identifier expected. Reserved word in strict mode - start: 913, end: 919
 ✖ Identifier expected. Reserved word in strict mode - start: 955, end: 960
 ✖ Identifier expected. Reserved word in strict mode - start: 998, end: 1003
 ✖ Identifier expected. Reserved word in strict mode - start: 1048, end: 1053

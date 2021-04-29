@@ -69,6 +69,7 @@ class package {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. Reserved word in strict mode - start: 5, end: 13
+
 ```
 

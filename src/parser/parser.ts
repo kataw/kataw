@@ -3434,31 +3434,25 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
   }
   const functionToken = consumeToken(parser, context, SyntaxKind.FunctionKeyword);
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
-  const name =
-    parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
-      ? parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected)
-      : null;
+
+  let name = null;
+
+  if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+    if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
+  }
 
   const typeParameters = parseTypeParameters(parser, context);
 
   context =
-    ((context |
-      Context.InAwaitContext |
-      Context.InGeneratorContext |
-      Context.Parameters |
-      Context.DisallowIn |
-      Context.InTypes |
-      Context.InClassBody |
-      Context.SuperProperty |
-      Context.SuperCall) ^
-      (Context.InGeneratorContext |
-        Context.InAwaitContext |
-        Context.InTypes |
-        Context.InClassBody |
-        Context.Parameters |
-        Context.DisallowIn |
-        Context.SuperProperty |
-        Context.SuperCall)) |
+    ((context | 0b00000001100000110100011010000000) ^ 0b00000001100000110100011010000000) |
     (asyncToken ? Context.InAwaitContext : Context.None) |
     (generatorToken ? Context.InGeneratorContext : Context.None);
 
@@ -3468,7 +3462,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
     parser,
     context | Context.NewTarget,
     /* isDecl */ false,
-    /* , /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
+    /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
     /* ignoreMissingOpenBrace */ false
   );
 
@@ -3599,23 +3593,7 @@ function parseFunctionDeclaration(
   const typeParameters = parseTypeParameters(parser, context);
 
   context =
-    ((context |
-      Context.InAwaitContext |
-      Context.InGeneratorContext |
-      Context.Parameters |
-      Context.DisallowIn |
-      Context.InTypes |
-      Context.SuperProperty |
-      Context.InClassBody |
-      Context.SuperCall) ^
-      (Context.InGeneratorContext |
-        Context.InAwaitContext |
-        Context.Parameters |
-        Context.InTypes |
-        Context.DisallowIn |
-        Context.InClassBody |
-        Context.SuperProperty |
-        Context.SuperCall)) |
+    ((context | 0b00000001100000110100011010000000) ^ 0b00000001100000110100011010000000) |
     (asyncToken ? Context.InAwaitContext : Context.None) |
     (generatorToken ? Context.InGeneratorContext : Context.None);
 
@@ -4734,6 +4712,8 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 ): LexicalDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.IsStatement;
+  const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
+  if (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
 
   if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
@@ -4743,9 +4723,6 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       parser.pos
     );
   }
-
-  const expr = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
-  if (parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier)) {
     const declarationList = parseBindingList(parser, context, /* isConst */ false, /* isForStatement */ false);
     parseSemicolon(parser, context);
     return createLexicalDeclaration(
@@ -4835,7 +4812,7 @@ function parseLexicalBinding(
 
   const requireInitializer = !inForStatement && (isConst || parser.token & SyntaxKind.IsPatternStart);
 
-  if (isConst && parser.token === SyntaxKind.LetKeyword) {
+  if (parser.token === SyntaxKind.LetKeyword) {
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[DiagnosticCode.A_lexical_declaration_can_t_define_a_let_binding],
@@ -5253,7 +5230,6 @@ export function parseImportMeta(
 
   const metaKeyword = consumeToken(parser, context, SyntaxKind.Target);
   if (metaKeyword && metaKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[DiagnosticCode._import_meta_must_not_contain_escaped_characters],
@@ -5350,6 +5326,14 @@ function parseClassDeclaration(
           parser.pos
         );
       } else {
+        if (parser.token & SyntaxKind.IsFutureReserved) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+            parser.curPos,
+            parser.pos
+          );
+        }
         name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
       }
     }
@@ -5405,6 +5389,14 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
     parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) &&
     parser.token !== SyntaxKind.ExtendsKeyword
   ) {
+    if (parser.token & SyntaxKind.IsFutureReserved) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    }
     name = parseIdentifierReference(parser, context, DiagnosticCode.Binding_identifier_expected);
   }
 

@@ -365,5 +365,5 @@ export const enum SyntaxKind {
   FunctionTypeParameterList = 208,
   BooleanType = 209,
   Target = 16594,
-  Meta = 16595,
+  Meta = 16595
 }

@@ -104,6 +104,7 @@ for(let a, let;;);
 ### Diagnostics
 
 ```javascript
+✖ A lexical declaration can't define a 'let' binding - start: 10, end: 14
 ✖ Identifier expected. Reserved word in strict mode - start: 10, end: 14
 
 ```
